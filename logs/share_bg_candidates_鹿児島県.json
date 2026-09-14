@@ -1,0 +1,110 @@
+[
+ {
+  "id": "izumi-kagoshima",
+  "name": "出水",
+  "pref": "鹿児島県",
+  "license": "Attribution",
+  "author": "国土地理院",
+  "w": 1600,
+  "h": 1200,
+  "mean": 136,
+  "darkPct": 0,
+  "blownPct": 0
+ },
+ {
+  "id": "hioki",
+  "name": "日置",
+  "pref": "鹿児島県",
+  "license": "CC BY 3.0",
+  "author": "Sakoppi",
+  "w": 1600,
+  "h": 1200,
+  "mean": 146,
+  "darkPct": 0.2,
+  "blownPct": 2.7
+ },
+ {
+  "id": "tokunoshima",
+  "name": "徳之島",
+  "pref": "鹿児島県",
+  "license": "Attribution",
+  "author": "国土交通省",
+  "w": 1600,
+  "h": 1157,
+  "mean": 131,
+  "darkPct": 0,
+  "blownPct": 0
+ },
+ {
+  "id": "kirishima",
+  "name": "霧島",
+  "pref": "鹿児島県",
+  "license": "CC BY 2.5",
+  "author": "663highland",
+  "w": 1600,
+  "h": 1067,
+  "mean": 91,
+  "darkPct": 5,
+  "blownPct": 0.1
+ },
+ {
+  "id": "yoron-island",
+  "name": "与論島",
+  "pref": "鹿児島県",
+  "license": "CC BY 4.0",
+  "author": "ジャッキ―",
+  "w": 1280,
+  "h": 960,
+  "mean": 143,
+  "darkPct": 0,
+  "blownPct": 0.4
+ },
+ {
+  "id": "okinoerabu",
+  "name": "沖永良部島",
+  "pref": "鹿児島県",
+  "license": "Public domain",
+  "author": "User: (WT-shared) Skysoblue at wts wikivoyage",
+  "w": 1280,
+  "h": 960,
+  "mean": 104,
+  "darkPct": 0,
+  "blownPct": 1.1
+ },
+ {
+  "id": "makurazaki",
+  "name": "枕崎",
+  "pref": "鹿児島県",
+  "license": "CC0",
+  "author": "Umako",
+  "w": 1280,
+  "h": 853,
+  "mean": 112,
+  "darkPct": 4.2,
+  "blownPct": 0.8
+ },
+ {
+  "id": "kuchinoerabu",
+  "name": "口永良部島",
+  "pref": "鹿児島県",
+  "license": "CC BY 4.0",
+  "author": "海上保安庁",
+  "w": 1280,
+  "h": 853,
+  "mean": 80,
+  "darkPct": 0,
+  "blownPct": 0
+ },
+ {
+  "id": "kikai-island",
+  "name": "喜界島",
+  "pref": "鹿児島県",
+  "license": "CC BY 3.0",
+  "author": "Snap55",
+  "w": 1268,
+  "h": 713,
+  "mean": 129,
+  "darkPct": 0.1,
+  "blownPct": 1
+ }
+]

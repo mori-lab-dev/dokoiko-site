@@ -24,6 +24,11 @@ export type Scheme = {
   applyNote?: string;
   /** 親制度とは別枠で触れておきたいこと（県独自キャンペーンの場合など） */
   aside?: { title: string; body: string };
+  /**
+   * そのページ専用のシェア画像。県の風景を使ったほうが投稿で目を引くため。
+   * 用意していない県は既定の share_default.jpg になる。
+   */
+  share?: string;
 };
 
 /** 親制度そのものの説明。各ページの冒頭で共通して使う。 */
@@ -55,6 +60,8 @@ export const SCHEMES: Scheme[] = [
     official: [
       { label: 'かごしま観光応援割 公式サイト', url: 'https://shukuhakuwari.pref.kagoshima.jp/' },
     ],
+    // 霧島温泉郷の湯けむりと雲海、遠景に桜島。背景写真は CC BY 2.5（継承義務なし）
+    share: '/images/share_kagoshima.jpg',
     note: '宿泊を伴わない日帰り旅行と、公費出張での宿泊は対象外です。'
       + '予約・販売開始日より前の申し込み分は対象になりません。予算の上限に達し次第、終了と案内されています。',
     applyNote: '申し込みは、公式サイトに掲載されている宿泊施設へ直接（公式サイトか電話）、'
