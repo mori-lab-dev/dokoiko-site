@@ -2,6 +2,7 @@
 import DestinationLayout from '../layouts/DestinationLayout.astro';
 import destinations from '../data/destinations.json';
 import hubCities from '../data/hubCities.json';
+import { SCHEMES } from '../data/ouenWari';
 import fs from 'fs';
 import path from 'path';
 import { feature } from 'topojson-client';
@@ -18,9 +19,11 @@ const heroImages = fs.existsSync(heroDir)
 
 const destCount = (destinations as any[]).length;
 
-// 九州ふっこう応援割の特設ページ /kyushu-fukko/ へのバナー用
+// 旅行支援・応援割のまとめ /ouen-wari/ へのバナー用。
+// 制度は県ごとに増減するので、九州に限定した文言ではなく汎用の導線にしている。
 const KYUSHU_PREFS = ['福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県'];
 const kyushuCount = (destinations as any[]).filter((d: any) => KYUSHU_PREFS.includes(d.prefecture)).length;
+const schemeCount = SCHEMES.length;
 
 const REGION_EN: Record<string, string> = {
   '北海道': 'Hokkaido', '東北': 'Tohoku', '関東': 'Kanto',
@@ -945,12 +948,12 @@ try {
   </div>
 
   <!-- ①.5 九州ふっこう応援割 特設ページへの導線 -->
-  <a class="kf-banner" href="/kyushu-fukko/">
+  <a class="kf-banner" href="/ouen-wari/">
     <span class="kf-banner-inner">
       <span class="kf-banner-text">
-        <span class="kf-banner-eyebrow">Kyushu</span>
-        <span class="kf-banner-title">九州ふっこう割で行く、まだ知らない九州</span>
-        <span class="kf-banner-sub">九州7県{kyushuCount}か所を県別に。宿が数軒しかない温泉もまとめました</span>
+        <span class="kf-banner-eyebrow">Travel support</span>
+        <span class="kf-banner-title">今使える旅行支援・応援割まとめ</span>
+        <span class="kf-banner-sub">実施が決まっている{schemeCount}件を県別に。泊まりたい宿と旅先もあわせて</span>
       </span>
       <span class="kf-banner-arrow">→</span>
     </span>

@@ -1,0 +1,239 @@
+---
+/**
+ * 応援割の県別特設ページ。/kumamoto-oen/ のように制度ごとに1枚作る。
+ * 対象は src/data/ouenWari.ts の SCHEMES だけ。実施が確定していない県は
+ * そもそもデータに入れていないので、ページも生まれない。
+ */
+import DestinationLayout from '../layouts/DestinationLayout.astro';
+import destinations from '../data/destinations.json';
+import { SCHEMES, PARENT, STAY_OFFICIAL } from '../data/ouenWari';
+import fs from 'fs';
+import path from 'path';
+
+export function getStaticPaths() {
+  return SCHEMES.map((s) => ({ params: { scheme: s.slug }, props: { s } }));
+}
+
+const { s } = Astro.props;
+
+const imgDir = path.join(process.cwd(), 'public/images');
+function destImageUrl(d: any): string | null {
+  if (fs.existsSync(path.join(imgDir, d.id, 'main.jpg'))) return `/images/${d.id}/main.jpg`;
+  if (fs.existsSync(path.join(imgDir, `${d.id}.jpg`))) return `/images/${d.id}.jpg`;
+  return null;
+}
+
+const inPref = (destinations as any[])
+  .filter((d) => d.prefecture === s.pref)
+  .sort((a, b) => (b.weight ?? 1) - (a.weight ?? 1));
+const stays = inPref.filter((d) => d.featured_stay?.name);
+const others = SCHEMES.filter((x) => x.slug !== s.slug);
+
+const title = `${s.prefShort}の応援割で行く旅先と宿｜どこ行こ？`;
+const description =
+  `${s.name}の対象期間は${s.period}。${s.prefShort}の旅先${inPref.length}か所と、`
+  + `泊まりたい宿${stays.length}軒をまとめました。割引の条件は公式サイトでご確認ください。`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  description,
+  url: `https://tabidokoiko.com/${s.slug}/`,
+  about: { '@type': 'Place', name: s.pref },
+});
+---
+
+<DestinationLayout title={title} description={description} image={null}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
+
+  <style>
+    .kf-hero {
+      background: linear-gradient(135deg, #1e4d38 0%, #2A6049 100%);
+      padding: 44px 24px 38px; color: #fff;
+    }
+    .kf-hero-inner { max-width: 680px; margin: 0 auto; }
+    .kf-hero-eyebrow {
+      font-size: 10px; letter-spacing: 0.22em; color: #C9A84C;
+      text-transform: uppercase; margin-bottom: 10px;
+    }
+    .kf-hero-title {
+      font-family: 'Noto Serif JP', serif; font-size: 26px; font-weight: 400;
+      line-height: 1.55; margin-bottom: 14px;
+    }
+    .kf-hero-lead { font-size: 13px; line-height: 2; color: rgba(255,255,255,0.9); }
+
+    .kf-body { max-width: 680px; margin: 0 auto; padding: 28px 24px 60px; }
+
+    .kf-back {
+      display: inline-block; font-size: 12px; color: #2A6049;
+      margin-bottom: 18px; text-decoration: none;
+    }
+
+    .kf-notice {
+      background: #f7f5f0; border-left: 3px solid #C9A84C;
+      padding: 16px 18px; font-size: 12.5px; line-height: 2; color: #4a4a4a;
+      margin-bottom: 14px;
+    }
+    .kf-rows { font-size: 12.5px; line-height: 2; margin: 10px 0 0; }
+    .kf-rows div { display: flex; gap: 10px; }
+    .kf-rows dt { color: #999; min-width: 5.2em; }
+    .kf-rows dd { margin: 0; color: #444; flex: 1; }
+    .kf-notice-links { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+    .kf-notice-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
+    .kf-caution {
+      border: 1px solid #e8ddd0; border-radius: 6px; padding: 14px 16px;
+      font-size: 12px; line-height: 1.95; color: #6b6b6b; margin-bottom: 30px;
+    }
+
+    .kf-section { margin-bottom: 44px; }
+    .kf-eyebrow {
+      display: block; font-size: 10px; letter-spacing: 0.2em; color: #C9A84C;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .kf-title {
+      font-family: 'Noto Serif JP', serif; font-size: 19px; font-weight: 400;
+      margin-bottom: 10px; padding-bottom: 12px; border-bottom: 1px solid #e8e8e8;
+    }
+    .kf-sub { font-size: 12.5px; line-height: 2; color: #666; margin-bottom: 18px; }
+
+    .kf-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .kf-chip {
+      display: inline-block; padding: 7px 13px; border: 1px solid #ddd; border-radius: 20px;
+      font-size: 12px; color: #444; text-decoration: none;
+    }
+    .kf-chip:hover { border-color: #2A6049; color: #2A6049; }
+
+    .kf-stays { display: flex; flex-direction: column; gap: 14px; }
+    .kf-stay {
+      display: flex; gap: 14px; border: 1px solid #e8e8e8; border-radius: 8px;
+      overflow: hidden; background: #fff;
+    }
+    .kf-stay-img, .kf-stay-ph {
+      width: 108px; min-height: 108px; object-fit: cover; flex-shrink: 0; background: #f0f0f0;
+    }
+    .kf-stay-body { padding: 13px 14px 13px 0; flex: 1; }
+    .kf-stay-name {
+      font-family: 'Noto Serif JP', serif; font-size: 14.5px; color: #1a1a1a;
+      display: block; margin-bottom: 3px;
+    }
+    .kf-stay-where { font-size: 11px; color: #999; display: block; margin-bottom: 6px; }
+    .kf-stay-copy { font-size: 12px; color: #666; line-height: 1.8; display: block; margin-bottom: 9px; }
+    .kf-stay-links { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .kf-stay-links a { font-size: 11.5px; text-decoration: none; }
+    .kf-stay-detail { color: #2A6049; }
+    .kf-stay-official {
+      color: #555; border: 1px solid #ddd; border-radius: 4px; padding: 3px 9px;
+    }
+    .kf-stay-official:hover { border-color: #2A6049; color: #2A6049; }
+    .kf-official-note { font-size: 10.5px; color: #aaa; margin-top: 7px; line-height: 1.7; }
+
+    .kf-pref-count { font-size: 11px; color: #999; margin-left: 8px; }
+  </style>
+
+  <section class="kf-hero">
+    <div class="kf-hero-inner">
+      <p class="kf-hero-eyebrow">{s.prefShort}</p>
+      <h1 class="kf-hero-title">{s.prefShort}の応援割で行く、<br>泊まりたい宿と旅先</h1>
+      <p class="kf-hero-lead">
+        {s.name}の対象期間は{s.period}です。
+        {s.prefShort}の旅先{inPref.length}か所と、その宿に泊まること自体が目的になる{stays.length}軒をまとめました。
+      </p>
+    </div>
+  </section>
+
+  <div class="kf-body">
+    <a class="kf-back" href="/ouen-wari/">← 旅行支援・応援割まとめに戻る</a>
+
+    <div class="kf-notice">
+      <strong>{s.name}</strong>
+      {s.parent && <> は、{PARENT.by}の「{s.parent}」にもとづく{s.prefShort}の取り組みです。</>}
+      <dl class="kf-rows">
+        <div><dt>対象期間</dt><dd>{s.period}</dd></div>
+        <div><dt>予約開始</dt><dd>{s.booking}</dd></div>
+      </dl>
+      {s.note && <p style="margin-top:8px;">{s.note}</p>}
+      <p style="margin-top:8px;">
+        <strong>割引率・上限額・対象になる施設や予約経路は変わることがあります。</strong>
+        申し込む前に、必ず公式の案内をご確認ください。
+      </p>
+      <div class="kf-notice-links">
+        {s.official.map((o) => (
+          <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
+        ))}
+        {PARENT.official.map((o) => (
+          <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
+        ))}
+      </div>
+    </div>
+
+    <div class="kf-caution">
+      2026年7月28日の令和8年熊本地震により、九州の一部では復旧作業が続いています。
+      このページでは営業を確認できた旅先を掲載していますが、状況は日々変わります。
+      出発前に各施設・自治体の最新情報をご確認ください。
+    </div>
+
+    <section class="kf-section">
+      <span class="kf-eyebrow">Where to stay</span>
+      <h2 class="kf-title">泊まりたい宿<span class="kf-pref-count">{stays.length}軒</span></h2>
+      <p class="kf-sub">
+        その宿に泊まること自体が目的になる場所を選びました。料金や空室は各予約サイトでご確認ください。
+      </p>
+      <div class="kf-stays">
+        {stays.map((d: any) => {
+          const img = destImageUrl(d);
+          const official = STAY_OFFICIAL[d.id];
+          return (
+            <div class="kf-stay">
+              {img
+                ? <img class="kf-stay-img" src={img} alt={`${d.name}の風景`} loading="lazy" />
+                : <span class="kf-stay-ph" />}
+              <div class="kf-stay-body">
+                <span class="kf-stay-name">{d.featured_stay.name}</span>
+                <span class="kf-stay-where">{d.prefecture}・{d.name}</span>
+                {d.featured_stay.catchcopy && <span class="kf-stay-copy">{d.featured_stay.catchcopy}</span>}
+                <span class="kf-stay-links">
+                  <a class="kf-stay-detail" href={`/destinations/${d.id}/`}>旅先のページを見る →</a>
+                  {official && (
+                    <a class="kf-stay-official" href={official} target="_blank" rel="noopener">
+                      公式サイトで詳細を見る
+                    </a>
+                  )}
+                </span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <p class="kf-official-note">
+        「公式サイトで詳細を見る」は宿の公式ページへの案内です。予約サイトへのリンクとは別枠で、
+        アフィリエイトを含みません。情報をお伝えする目的で載せています。
+        公式ページの所在を確認できた宿にだけ表示しています。
+      </p>
+    </section>
+
+    <section class="kf-section">
+      <span class="kf-eyebrow">Destinations</span>
+      <h2 class="kf-title">{s.prefShort}の旅先<span class="kf-pref-count">{inPref.length}か所</span></h2>
+      <p class="kf-sub">名前を聞いたことのある温泉地から、宿が数軒しかない谷まで。</p>
+      <div class="kf-chips">
+        {inPref.map((d: any) => (
+          <a class="kf-chip" href={`/destinations/${d.id}/`}>{d.name}</a>
+        ))}
+      </div>
+    </section>
+
+    <section class="kf-section">
+      <span class="kf-eyebrow">Other areas</span>
+      <h2 class="kf-title">ほかの県の応援割</h2>
+      <div class="kf-chips">
+        {others.map((o) => (
+          <a class="kf-chip" href={`/${o.slug}/`}>{o.prefShort}</a>
+        ))}
+        <a class="kf-chip" href="/ouen-wari/">まとめを見る</a>
+        <a class="kf-chip" href="/kyushu-fukko/">九州の旅先まとめ</a>
+      </div>
+    </section>
+  </div>
+</DestinationLayout>

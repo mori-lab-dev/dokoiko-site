@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import destinations from '../data/destinations.json';
 import hubCities from '../data/hubCities.json';
+import { SCHEMES } from '../data/ouenWari';
 
 export const GET: APIRoute = () => {
   const BASE = 'https://tabidokoiko.com';
@@ -9,6 +10,13 @@ export const GET: APIRoute = () => {
     { loc: `${BASE}/`,              changefreq: 'weekly',  priority: '1.0' },
     { loc: `${BASE}/destinations/`, changefreq: 'weekly',  priority: '0.9' },
     { loc: `${BASE}/kyushu-fukko/`, changefreq: 'weekly',  priority: '0.9' },
+    { loc: `${BASE}/ouen-wari/`,    changefreq: 'weekly',  priority: '0.9' },
+    // 応援割の県別特設ページ。制度が増えれば SCHEMES に足すだけで載る
+    ...SCHEMES.map(s => ({
+      loc: `${BASE}/${s.slug}/`,
+      changefreq: 'weekly',
+      priority: '0.8',
+    })),
     { loc: `${BASE}/about/`,        changefreq: 'yearly',  priority: '0.4' },
     { loc: `${BASE}/contact/`,      changefreq: 'yearly',  priority: '0.4' },
     { loc: `${BASE}/privacy/`,      changefreq: 'yearly',  priority: '0.3' },

@@ -1,0 +1,178 @@
+---
+import DestinationLayout from '../layouts/DestinationLayout.astro';
+import destinations from '../data/destinations.json';
+import { SCHEMES, NOT_LISTED, PARENT } from '../data/ouenWari';
+
+// 県ごとに、その県の旅先が何か所あるかを添える
+const countByPref = (pref: string) =>
+  (destinations as any[]).filter((d) => d.prefecture === pref).length;
+
+const title = '今使える旅行支援・応援割まとめ｜どこ行こ？';
+const description =
+  `実施が決まっている旅行支援・応援割を県ごとにまとめました。${SCHEMES.length}件を掲載しています。`
+  + '割引率や上限額は変わることがあるため、条件は各公式サイトでご確認ください。新しい制度は随時追加します。';
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  description,
+  url: 'https://tabidokoiko.com/ouen-wari/',
+});
+---
+
+<DestinationLayout title={title} description={description} image={null}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
+
+  <style>
+    .ow-hero {
+      background: linear-gradient(135deg, #1e4d38 0%, #2A6049 100%);
+      padding: 44px 24px 38px; color: #fff;
+    }
+    .ow-hero-inner { max-width: 680px; margin: 0 auto; }
+    .ow-hero-eyebrow {
+      font-size: 10px; letter-spacing: 0.22em; color: #C9A84C;
+      text-transform: uppercase; margin-bottom: 10px;
+    }
+    .ow-hero-title {
+      font-family: 'Noto Serif JP', serif; font-size: 26px; font-weight: 400;
+      line-height: 1.55; margin-bottom: 14px;
+    }
+    .ow-hero-lead { font-size: 13px; line-height: 2; color: rgba(255,255,255,0.9); }
+
+    .ow-body { max-width: 680px; margin: 0 auto; padding: 28px 24px 60px; }
+
+    .ow-notice {
+      background: #f7f5f0; border-left: 3px solid #C9A84C;
+      padding: 16px 18px; font-size: 12.5px; line-height: 2; color: #4a4a4a;
+      margin-bottom: 28px;
+    }
+    .ow-notice-links { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+    .ow-notice-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
+    .ow-section { margin-bottom: 44px; }
+    .ow-eyebrow {
+      display: block; font-size: 10px; letter-spacing: 0.2em; color: #C9A84C;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .ow-title {
+      font-family: 'Noto Serif JP', serif; font-size: 19px; font-weight: 400;
+      margin-bottom: 10px; padding-bottom: 12px; border-bottom: 1px solid #e8e8e8;
+    }
+    .ow-sub { font-size: 12.5px; line-height: 2; color: #666; margin-bottom: 18px; }
+
+    .ow-cards { display: flex; flex-direction: column; gap: 14px; }
+    .ow-card {
+      display: block; border: 1px solid #e4e4e4; border-radius: 10px;
+      padding: 18px 18px 16px; background: #fff; text-decoration: none; color: inherit;
+      transition: border-color 0.2s;
+    }
+    .ow-card:hover { border-color: #2A6049; }
+    .ow-card-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+    .ow-card-pref {
+      font-family: 'Noto Serif JP', serif; font-size: 17px; color: #1a1a1a;
+    }
+    .ow-card-badge {
+      font-size: 10px; letter-spacing: 0.08em; padding: 3px 8px; border-radius: 3px;
+      background: #2A6049; color: #fff;
+    }
+    .ow-card-badge.soon { background: #C9A84C; }
+    .ow-card-count { margin-left: auto; font-size: 11px; color: #999; }
+    .ow-card-name { font-size: 13px; color: #2A6049; margin-bottom: 10px; line-height: 1.7; }
+    .ow-card-rows { font-size: 12px; line-height: 1.9; color: #555; }
+    .ow-card-rows dt { display: inline; color: #999; }
+    .ow-card-rows dd { display: inline; margin: 0 0 0 6px; }
+    .ow-card-rows div { margin-bottom: 3px; }
+    .ow-card-go { display: block; text-align: right; font-size: 12px; color: #2A6049; margin-top: 12px; }
+
+    .ow-pending {
+      border: 1px dashed #ddd; border-radius: 8px; padding: 16px 18px;
+      font-size: 12px; line-height: 2; color: #777;
+    }
+    .ow-pending p { margin-bottom: 4px; }
+    .ow-pending b { color: #555; font-weight: 500; }
+
+    .ow-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .ow-chip {
+      display: inline-block; padding: 7px 13px; border: 1px solid #ddd; border-radius: 20px;
+      font-size: 12px; color: #444; text-decoration: none;
+    }
+    .ow-chip:hover { border-color: #2A6049; color: #2A6049; }
+  </style>
+
+  <section class="ow-hero">
+    <div class="ow-hero-inner">
+      <p class="ow-hero-eyebrow">Travel support</p>
+      <h1 class="ow-hero-title">今使える<br>旅行支援・応援割まとめ</h1>
+      <p class="ow-hero-lead">
+        実施が公式に決まっているものだけを集めました。準備中・調整中のものは、発表を待って載せています。
+        新しい制度は随時追加します。
+      </p>
+    </div>
+  </section>
+
+  <div class="ow-body">
+    <div class="ow-notice">
+      {PARENT.by}は{PARENT.targets}を対象に「<strong>{PARENT.name}</strong>」を実施します。
+      {PARENT.start}の開始で、予約開始日と対象期間は県ごとに決まります。
+      <strong>割引率・上限額・対象施設は県によって違い、変更されることもあります。</strong>
+      条件は必ず公式の発表でご確認ください。
+      <div class="ow-notice-links">
+        {PARENT.official.map((o) => (
+          <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
+        ))}
+      </div>
+    </div>
+
+    <section class="ow-section">
+      <span class="ow-eyebrow">Now available</span>
+      <h2 class="ow-title">実施が決まっている制度</h2>
+      <p class="ow-sub">
+        2026年9月14日時点で、各県の公式サイトに予約開始日か対象期間が出ているものです。
+      </p>
+      <div class="ow-cards">
+        {SCHEMES.map((s) => (
+          <a class="ow-card" href={`/${s.slug}/`}>
+            <div class="ow-card-head">
+              <span class="ow-card-pref">{s.prefShort}</span>
+              <span class={`ow-card-badge${s.status === 'soon' ? ' soon' : ''}`}>
+                {s.status === 'soon' ? 'まもなく予約開始' : '予約受付中'}
+              </span>
+              <span class="ow-card-count">県内{countByPref(s.pref)}か所</span>
+            </div>
+            <p class="ow-card-name">{s.name}</p>
+            <dl class="ow-card-rows">
+              <div><dt>対象期間</dt><dd>{s.period}</dd></div>
+              <div><dt>予約開始</dt><dd>{s.booking}</dd></div>
+            </dl>
+            <span class="ow-card-go">{s.prefShort}の旅先と宿を見る →</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="ow-section">
+      <span class="ow-eyebrow">Not yet</span>
+      <h2 class="ow-title">まだ載せていない県</h2>
+      <p class="ow-sub">
+        実施はあっても、予約開始日や対象期間が公表されていない県です。
+        憶測では書かず、公式の発表を待って追加します。
+      </p>
+      <div class="ow-pending">
+        {NOT_LISTED.map((n) => (
+          <p><b>{n.pref}</b> … {n.why}</p>
+        ))}
+      </div>
+    </section>
+
+    <section class="ow-section">
+      <span class="ow-eyebrow">More</span>
+      <h2 class="ow-title">ほかの探し方</h2>
+      <div class="ow-chips">
+        <a class="ow-chip" href="/kyushu-fukko/">九州の旅先まとめ</a>
+        <a class="ow-chip" href="/destinations/">目的地一覧</a>
+        <a class="ow-chip" href="/list/">全国一覧</a>
+      </div>
+    </section>
+  </div>
+</DestinationLayout>
