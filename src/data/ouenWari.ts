@@ -20,6 +20,10 @@ export type Scheme = {
   status: 'open' | 'soon'; // open=予約開始済み / soon=開始日が公表済みでこれから
   official: { label: string; url: string }[];
   note?: string;
+  /** 申し込みが公式サイト経由に限られる場合の案内。宿カードの下に出す。 */
+  applyNote?: string;
+  /** 親制度とは別枠で触れておきたいこと（県独自キャンペーンの場合など） */
+  aside?: { title: string; body: string };
 };
 
 /** 親制度そのものの説明。各ページの冒頭で共通して使う。 */
@@ -35,6 +39,34 @@ export const PARENT = {
 };
 
 export const SCHEMES: Scheme[] = [
+  {
+    // 県独自のキャンペーンで、九州ふっこう応援割とは別物。すでに予約・販売が始まっている。
+    // 公式サイトの末尾に「キャンペーンは終了しました」という文言があるが、これは
+    // 未実装のモーダルのプレースホルダー（直後に「ダミーテキスト。」と続く）。
+    // 生きている本文とお知らせ（2026/09/14「予約・販売を開始いたしました」）は実施中を示す。
+    slug: 'kagoshima-oen',
+    pref: '鹿児島県',
+    prefShort: '鹿児島',
+    name: 'かごしま観光応援割（南の宝箱 鹿児島）',
+    parent: null,
+    period: '2026年9月14日〜10月13日の宿泊分（10月14日チェックアウトまで）',
+    booking: '2026年9月14日から受付中（予約・販売期間も同じ）',
+    status: 'open',
+    official: [
+      { label: 'かごしま観光応援割 公式サイト', url: 'https://shukuhakuwari.pref.kagoshima.jp/' },
+    ],
+    note: '宿泊を伴わない日帰り旅行と、公費出張での宿泊は対象外です。'
+      + '予約・販売開始日より前の申し込み分は対象になりません。予算の上限に達し次第、終了と案内されています。',
+    applyNote: '申し込みは、公式サイトに掲載されている宿泊施設へ直接（公式サイトか電話）、'
+      + 'または旅行会社・OTA経由で行う必要があります。公式サイトの「宿泊施設を探す」から対象施設をご確認ください。'
+      + 'OTAのバナーは9月14日から順次公開と案内されています。',
+    aside: {
+      title: '九州ふっこう応援割（鹿児島県分）について',
+      body: 'かごしま観光応援割は「九州ふっこう応援割」とは別に実施される鹿児島県独自のキャンペーンで、併用はできません。'
+        + '九州ふっこう応援割の鹿児島県分は、詳細が決まり次第あらためて鹿児島県から案内されるとされており、'
+        + '2026年9月14日時点では予約開始日・対象期間とも公表されていません。',
+    },
+  },
   {
     slug: 'kumamoto-oen',
     pref: '熊本県',
@@ -97,7 +129,6 @@ export const SCHEMES: Scheme[] = [
 export const NOT_LISTED = [
   { pref: '福岡県', why: '予約開始日・対象期間とも調整中。県公式にも案内がまだ出ていない' },
   { pref: '宮崎県', why: '予約開始日・対象期間とも未定。県観光協会は「準備中」' },
-  { pref: '鹿児島県', why: '県独自の「かごしま観光応援割」は9月14日で受付終了。ふっこう割としての期間は未公表' },
   { pref: '沖縄県', why: '九州ふっこう応援割の対象外。県公式にも該当する制度の案内なし' },
 ];
 
@@ -118,4 +149,13 @@ export const STAY_OFFICIAL: Record<string, string> = {
   yufuin: 'https://www.kamenoi-bessou.jp/index.php/topic/home_ja',
   taketa: 'https://lamune-onsen.co.jp/',
   hita: 'https://kizantei.com/',
+  // 鹿児島
+  yakushima: 'https://www.sankarahotel-spa.com/',
+  ibusuki: 'https://www.hakusuikan.co.jp/',
+  'ibusuki-onsen': 'https://www.hakusuikan.co.jp/',   // 指宿温泉も宿は指宿白水館で同じ
+  kirishima: 'https://www.kirishima-hotel.jp/',
+  'yoron-island': 'https://www.pricia.co.jp/',
+  sakurajima: 'https://rainbow-sakurajima.com/',
+  'kagoshima-city': 'https://www.shiroyama-g.co.jp/',
+  iso: 'https://www.shiroyama-g.co.jp/',              // 仙巌園も宿は城山ホテル鹿児島で同じ
 };

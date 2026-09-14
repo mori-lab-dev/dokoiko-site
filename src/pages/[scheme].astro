@@ -129,6 +129,15 @@ const jsonLd = JSON.stringify({
     .kf-stay-official:hover { border-color: #2A6049; color: #2A6049; }
     .kf-official-note { font-size: 10.5px; color: #aaa; margin-top: 7px; line-height: 1.7; }
 
+    /* 申し込みが公式サイト経由に限られる制度で出す案内 */
+    .kf-apply {
+      margin-top: 16px; background: #f7f5f0; border-left: 3px solid #2A6049;
+      padding: 14px 16px; font-size: 12.5px; line-height: 2; color: #4a4a4a;
+    }
+    .kf-apply-title { font-weight: 500; color: #2A6049; margin-bottom: 4px; }
+    .kf-apply-links { margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
+    .kf-apply-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
     .kf-pref-count { font-size: 11px; color: #999; margin-left: 8px; }
   </style>
 
@@ -162,7 +171,9 @@ const jsonLd = JSON.stringify({
         {s.official.map((o) => (
           <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
         ))}
-        {PARENT.official.map((o) => (
+        {/* 親制度のリンクは、その制度にもとづく県だけに出す。
+            県独自のキャンペーンに親制度のリンクを並べると、同じものだと誤解されるため。 */}
+        {s.parent && PARENT.official.map((o) => (
           <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
         ))}
       </div>
@@ -206,12 +217,31 @@ const jsonLd = JSON.stringify({
           );
         })}
       </div>
+      {s.applyNote && (
+        <div class="kf-apply">
+          <p class="kf-apply-title">割引を使うときの申し込み方法</p>
+          <p>{s.applyNote}</p>
+          <p class="kf-apply-links">
+            {s.official.map((o) => (
+              <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
+            ))}
+          </p>
+        </div>
+      )}
       <p class="kf-official-note">
         「公式サイトで詳細を見る」は宿の公式ページへの案内です。予約サイトへのリンクとは別枠で、
         アフィリエイトを含みません。情報をお伝えする目的で載せています。
         公式ページの所在を確認できた宿にだけ表示しています。
       </p>
     </section>
+
+    {s.aside && (
+      <section class="kf-section">
+        <span class="kf-eyebrow">Note</span>
+        <h2 class="kf-title">{s.aside.title}</h2>
+        <div class="kf-caution" style="margin-bottom:0;">{s.aside.body}</div>
+      </section>
+    )}
 
     <section class="kf-section">
       <span class="kf-eyebrow">Destinations</span>

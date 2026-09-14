@@ -1,0 +1,12 @@
+[
+ {"id":"yakushima","name":"sankara hotel&spa 屋久島","urls":["https://www.sankarahotel-spa.com/","https://sankarahotel-spa.com/"]},
+ {"id":"ibusuki","name":"指宿白水館","urls":["https://www.hakusuikan.co.jp/","https://hakusuikan.co.jp/"]},
+ {"id":"amami","name":"THE SCENE amami spa & resort","urls":["https://www.hotel-scene.com/","https://hotel-scene.com/"]},
+ {"id":"kirishima","name":"霧島ホテル","urls":["https://www.kirishima-hotel.jp/","https://kirishima-hotel.jp/"]},
+ {"id":"izumi-kagoshima","name":"RITA 出水麓","urls":["https://rita-izumifumoto.com/","https://www.rita-izumifumoto.com/"]},
+ {"id":"hioki","name":"吹上温泉 湖畔の宿 みどり荘","urls":["https://www.midoriso.co.jp/","https://midoriso.co.jp/"]},
+ {"id":"yoron","name":"プリシアリゾートヨロン","urls":["https://www.pricia.co.jp/","https://pricia.co.jp/"]},
+ {"id":"sakurajima","name":"国民宿舎 レインボー桜島","urls":["https://www.rainbow-sakurajima.com/","https://rainbow-sakurajima.com/"]},
+ {"id":"kagoshima","name":"城山ホテル鹿児島","urls":["https://www.shiroyama-g.co.jp/","https://shiroyama-g.co.jp/"]},
+ {"id":"furusato-onsen","name":"桜島シーサイドホテル","urls":["https://www.sakurajima-seasidehotel.com/","https://sakurajima-seasidehotel.com/"]}
+]

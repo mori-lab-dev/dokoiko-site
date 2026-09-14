@@ -1,141 +1,58 @@
 [
  {
-  "id": "ureshino-onsen",
-  "name": "大正屋",
-  "url": "https://www.taishoya.com/",
-  "title": "嬉野温泉 大正屋グループ【公式】三宿五つの大浴場めぐり",
+  "id": "yakushima",
+  "name": "sankara hotel&spa 屋久島",
+  "url": "https://www.sankarahotel-spa.com/",
+  "title": "【公式】サンカラ屋久島 sankara hotel &amp; spa Yakushima | リゾートホテル 高級ホテ",
   "matched": [
-   "大正屋"
+   "sankara",
+   "屋久島"
   ]
  },
  {
-  "id": "arita",
-  "name": "arita huis",
-  "url": "https://aritahuis.com/",
-  "title": "【公式】ホテル・レストラン「arita huis（アリタハウス）」佐賀・有田",
+  "id": "ibusuki",
+  "name": "指宿白水館",
+  "url": "https://www.hakusuikan.co.jp/",
+  "title": "【公式】鹿児島 砂むし温泉 指宿白水館 - 鹿児島県砂むし温泉、指宿白水館の公式ホームページです。大浴場「元禄風呂」、日",
   "matched": [
-   "arita",
-   "huis"
+   "指宿白水館"
   ]
  },
  {
-  "id": "furuyu",
-  "name": "鶴霊泉",
-  "url": "https://kakureisen.com/",
-  "title": "鶴の恩返し よみがえりの宿 鶴霊泉【公式サイト】",
+  "id": "kirishima",
+  "name": "霧島ホテル",
+  "url": "https://www.kirishima-hotel.jp/",
+  "title": "霧島ホテル 公式サイト｜鹿児島 霧島温泉なら霧島ホテル",
   "matched": [
-   "鶴霊泉"
+   "霧島ホテル"
   ]
  },
  {
-  "id": "aso",
-  "name": "蘇山郷",
-  "url": "https://sozankyo.com/",
-  "title": "熊本の旅館 | 阿蘇内牧温泉 蘇山郷【公式・ベストレート】",
+  "id": "yoron",
+  "name": "プリシアリゾートヨロン",
+  "url": "https://www.pricia.co.jp/",
+  "title": "プリシアリゾートヨロン（与論島）",
   "matched": [
-   "蘇山郷"
+   "プリシアリゾートヨロン"
   ]
  },
  {
-  "id": "amakusa",
-  "name": "石山離宮 五足のくつ",
-  "url": "https://www.rikyu5.jp/",
-  "title": "天草の温泉旅館｜五足のくつ【公式】｜露天風呂付離れの宿｜ベストレート",
+  "id": "sakurajima",
+  "name": "国民宿舎 レインボー桜島",
+  "url": "https://rainbow-sakurajima.com/",
+  "title": "国民宿舎 レインボー桜島",
   "matched": [
-   "五足のくつ"
+   "国民宿舎",
+   "レインボー桜島"
   ]
  },
  {
-  "id": "hitoyoshi",
-  "name": "人吉旅館",
-  "url": "https://hitoyoshiryokan.com/",
-  "title": "人吉温泉 人吉旅館【公式サイト】 – 国登録有形文化財の宿",
+  "id": "kagoshima",
+  "name": "城山ホテル鹿児島",
+  "url": "https://www.shiroyama-g.co.jp/",
+  "title": "【公式】城山ホテル鹿児島(SHIROYAMA HOTEL kagoshima)",
   "matched": [
-   "人吉旅館"
-  ]
- },
- {
-  "id": "tsuetate-onsen",
-  "name": "ひぜんや",
-  "url": "https://www.hizenya.co.jp/",
-  "title": "つえたて温泉ひぜんや公式サイト",
-  "matched": [
-   "ひぜんや"
-  ]
- },
- {
-  "id": "unzen2",
-  "name": "雲仙観光ホテル",
-  "url": "https://www.unzenkankohotel.com/",
-  "title": "雲仙観光ホテル | 長崎県雲仙市にあるクラシックホテル【公式】｜",
-  "matched": [
-   "雲仙観光ホテル"
-  ]
- },
- {
-  "id": "hirado",
-  "name": "旗松亭",
-  "url": "https://www.kishotei.com/",
-  "title": "国際観光ホテル旗松亭",
-  "matched": [
-   "旗松亭"
-  ]
- },
- {
-  "id": "shimabara",
-  "name": "ホテル南風楼",
-  "url": "https://www.nampuro.com/",
-  "title": "【公式】海の見えるスパ＆リゾート オールインクルーシブ 島原温泉ホテル南風楼",
-  "matched": [
-   "ホテル南風楼"
-  ]
- },
- {
-  "id": "beppu",
-  "name": "AMANE RESORT SEIKAI",
-  "url": "https://www.seikai.co.jp/",
-  "title": "AMANE RESORT SEIKAI（潮騒の宿 晴海）＜公式＞大分県別府市 上人ケ浜温泉",
-  "matched": [
-   "AMANE",
-   "RESORT",
-   "SEIKAI"
-  ]
- },
- {
-  "id": "yufuin-2",
-  "name": "由布院 玉の湯",
-  "url": "https://tamanoyu.co.jp/",
-  "title": "由布院 玉の湯",
-  "matched": [
-   "由布院",
-   "玉の湯"
-  ]
- },
- {
-  "id": "yufuin",
-  "name": "亀の井別荘",
-  "url": "https://www.kamenoi-bessou.jp/index.php/topic/home_ja",
-  "title": "亀の井別荘 - 由布院 金鱗湖畔 亀の井別荘",
-  "matched": [
-   "亀の井別荘"
-  ]
- },
- {
-  "id": "taketa",
-  "name": "長湯温泉 大丸旅館",
-  "url": "https://lamune-onsen.co.jp/",
-  "title": "ラムネ温泉",
-  "matched": [
-   "長湯温泉"
-  ]
- },
- {
-  "id": "hita",
-  "name": "亀山亭ホテル",
-  "url": "https://kizantei.com/",
-  "title": "【公式】亀山亭ホテル 大分県 日田温泉 [公式サイト・最安値]",
-  "matched": [
-   "亀山亭ホテル"
+   "城山ホテル鹿児島"
   ]
  }
 ]

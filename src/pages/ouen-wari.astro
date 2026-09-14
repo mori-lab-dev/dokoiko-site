@@ -79,6 +79,10 @@ const jsonLd = JSON.stringify({
     .ow-card-badge.soon { background: #C9A84C; }
     .ow-card-count { margin-left: auto; font-size: 11px; color: #999; }
     .ow-card-name { font-size: 13px; color: #2A6049; margin-bottom: 10px; line-height: 1.7; }
+    .ow-card-own {
+      display: inline-block; margin-left: 8px; font-size: 10px; color: #8a6d1f;
+      border: 1px solid #d8c48a; border-radius: 3px; padding: 1px 6px; vertical-align: middle;
+    }
     .ow-card-rows { font-size: 12px; line-height: 1.9; color: #555; }
     .ow-card-rows dt { display: inline; color: #999; }
     .ow-card-rows dd { display: inline; margin: 0 0 0 6px; }
@@ -117,6 +121,8 @@ const jsonLd = JSON.stringify({
       {PARENT.start}の開始で、予約開始日と対象期間は県ごとに決まります。
       <strong>割引率・上限額・対象施設は県によって違い、変更されることもあります。</strong>
       条件は必ず公式の発表でご確認ください。
+      なお、これとは別に県が独自に実施しているキャンペーンもあります。
+      併用できないことがあるので、あわせて公式でご確認ください。
       <div class="ow-notice-links">
         {PARENT.official.map((o) => (
           <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
@@ -140,7 +146,10 @@ const jsonLd = JSON.stringify({
               </span>
               <span class="ow-card-count">県内{countByPref(s.pref)}か所</span>
             </div>
-            <p class="ow-card-name">{s.name}</p>
+            <p class="ow-card-name">
+              {s.name}
+              {!s.parent && <span class="ow-card-own">県独自</span>}
+            </p>
             <dl class="ow-card-rows">
               <div><dt>対象期間</dt><dd>{s.period}</dd></div>
               <div><dt>予約開始</dt><dd>{s.booking}</dd></div>
