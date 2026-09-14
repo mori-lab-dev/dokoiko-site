@@ -1,0 +1,172 @@
+{
+ "resolved": [
+  {
+   "id": "ibusuki",
+   "name": "指宿",
+   "city": "指宿市",
+   "area": "南薩摩エリア"
+  },
+  {
+   "id": "amami",
+   "name": "奄美大島",
+   "city": "奄美市",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "koshikijima",
+   "name": "甑島",
+   "city": "薩摩川内市",
+   "area": "北薩摩エリア"
+  },
+  {
+   "id": "kirishima",
+   "name": "霧島",
+   "city": "霧島市",
+   "area": "霧島・姶良エリア"
+  },
+  {
+   "id": "chiran",
+   "name": "知覧",
+   "city": "南九州市",
+   "area": "南薩摩エリア"
+  },
+  {
+   "id": "minamikyushu",
+   "name": "南九州",
+   "city": "南九州市",
+   "area": "南薩摩エリア"
+  },
+  {
+   "id": "minamiosumi",
+   "name": "南大隅",
+   "city": "南大隅町",
+   "area": "大隅エリア"
+  },
+  {
+   "id": "izumi-kagoshima",
+   "name": "出水",
+   "city": "出水市",
+   "area": "北薩摩エリア"
+  },
+  {
+   "id": "makurazaki",
+   "name": "枕崎",
+   "city": "枕崎市",
+   "area": "南薩摩エリア"
+  },
+  {
+   "id": "hioki",
+   "name": "日置",
+   "city": "日置市",
+   "area": "中薩摩エリア"
+  },
+  {
+   "id": "yoron-island",
+   "name": "与論島",
+   "city": "与論町",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "kakeroma-island",
+   "name": "加計呂麻島",
+   "city": "瀬戸内町",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "sakurajima",
+   "name": "桜島",
+   "city": "鹿児島市",
+   "area": "中薩摩エリア"
+  },
+  {
+   "id": "yorojima",
+   "name": "与路島",
+   "city": "宇検村",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "kuchinoerabu",
+   "name": "口永良部島",
+   "city": "屋久島町",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "kikai-island",
+   "name": "喜界島",
+   "city": "喜界町",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "tokunoshima",
+   "name": "徳之島",
+   "city": "徳之島町",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "okinoerabu",
+   "name": "沖永良部島",
+   "city": "知名町",
+   "area": "その他離島エリア"
+  },
+  {
+   "id": "kagoshima-city",
+   "name": "鹿児島",
+   "city": "鹿児島市",
+   "area": "中薩摩エリア"
+  },
+  {
+   "id": "ibusuki-onsen",
+   "name": "指宿温泉",
+   "city": "指宿市",
+   "area": "南薩摩エリア"
+  },
+  {
+   "id": "iso",
+   "name": "仙巌園",
+   "city": "鹿児島市",
+   "area": "中薩摩エリア"
+  },
+  {
+   "id": "sakurajima-onsen",
+   "name": "古里温泉",
+   "city": "鹿児島市",
+   "area": "中薩摩エリア"
+  },
+  {
+   "id": "niche_鹿児島_1",
+   "name": "串木野港周辺の漁師町",
+   "city": "いちき串木野市",
+   "area": "中薩摩エリア"
+  },
+  {
+   "id": "niche_鹿児島_3",
+   "name": "白糸の滝",
+   "city": "湧水町",
+   "area": "霧島・姶良エリア"
+  },
+  {
+   "id": "niche_鹿児島_5",
+   "name": "栗野岳温泉郷",
+   "city": "湧水町",
+   "area": "霧島・姶良エリア"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "yakushima",
+   "name": "屋久島",
+   "lat": 30.3928,
+   "lng": 130.6576,
+   "gsi": null,
+   "osm": "屋久島町"
+  },
+  {
+   "id": "tanegashima",
+   "name": "種子島",
+   "lat": 30.743,
+   "lng": 130.976,
+   "gsi": null,
+   "osm": "西之表市"
+  }
+ ]
+}

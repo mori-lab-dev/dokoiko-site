@@ -18,7 +18,16 @@ const server = http.createServer((req, res) => {
 });
 await new Promise((r) => server.listen(PORT, r));
 
-const IDS = ['ouen-wari', 'kumamoto-oen', 'saga-oen', 'nagasaki-oen', 'oita-oen'];
+// 対象はdistの実物から拾う。ページを足すたびにここを書き換えるのを忘れて
+// 検査から漏れる（実際にkagoshima-oenが漏れた）ので、一覧を手で持たない。
+const areaSlugs = JSON.parse(fs.readFileSync('src/data/kagoshimaAreas.json', 'utf8')).map((a) => a.slug);
+const IDS = [
+  'ouen-wari',
+  ...fs.readdirSync(ROOT, { withFileTypes: true })
+    .filter((e) => e.isDirectory() && e.name.endsWith('-oen'))
+    .map((e) => e.name).sort(),
+  ...areaSlugs.map((s) => `kagoshima-oen/${s}`),
+];
 
 fs.mkdirSync('logs/shots', { recursive: true });
 const browser = await chromium.launch();
@@ -41,7 +50,8 @@ for (const id of IDS) {
   const title = await page.title();
   const bad = !r.ok() || own.broken > 0 || overflow;
   if (bad) ng++;
-  console.log(`${bad ? '❌' : '✅'} ${String(r.status())} ${id.padEnd(17)} 自ページ画像${own.total}枚 欠損${own.broken} 横スクロール${overflow ? 'あり' : 'なし'}  ${title.slice(0, 42)}`);
+  await page.screenshot({ path: `logs/shots/ouen_${id.replace(/\//g, '_')}.png`, fullPage: false });
+  console.log(`${bad ? '❌' : '✅'} ${String(r.status())} ${id.padEnd(26)} 自ページ画像${own.total}枚 欠損${own.broken} 横スクロール${overflow ? 'あり' : 'なし'}  ${title.slice(0, 42)}`);
 }
 await page.goto(`http://localhost:${PORT}/destinations/kuronagi/`, { waitUntil: 'networkidle' });
 await page.screenshot({ path: 'logs/shots/dest-kuronagi.png' });

@@ -18,9 +18,18 @@ await new Promise((r) => server.listen(PORT, r));
 const b = await chromium.launch();
 const page = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
 fs.mkdirSync('logs/shots', { recursive: true });
-for (const id of process.argv.slice(2)) {
+// --full でページ全体、--sel <CSS> でその要素だけを撮る（長いページの一部を読みたいとき用）
+const args = process.argv.slice(2);
+const full = args[0] === '--full';
+let sel = null;
+let rest = full ? args.slice(1) : args;
+if (rest[0] === '--sel') { sel = rest[1]; rest = rest.slice(2); }
+for (const id of rest) {
   await page.goto(`http://localhost:${PORT}/${id}/`, { waitUntil: 'networkidle' });
-  await page.screenshot({ path: `logs/shots/ouen_${id}.png`, fullPage: false });
-  console.log(`logs/shots/ouen_${id}.png`);
+  const tag = `${id.replace(/\//g, '_')}${sel ? '_sel' : full ? '_full' : ''}`;
+  const out = `logs/shots/ouen_${tag}.png`;
+  if (sel) await page.locator(sel).first().screenshot({ path: out });
+  else await page.screenshot({ path: out, fullPage: full });
+  console.log(out);
 }
 await b.close(); server.close();

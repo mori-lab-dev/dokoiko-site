@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import destinations from '../data/destinations.json';
 import hubCities from '../data/hubCities.json';
 import { SCHEMES } from '../data/ouenWari';
+import kagoshimaAreas from '../data/kagoshimaAreas.json';
 
 export const GET: APIRoute = () => {
   const BASE = 'https://tabidokoiko.com';
@@ -16,6 +17,12 @@ export const GET: APIRoute = () => {
       loc: `${BASE}/${s.slug}/`,
       changefreq: 'weekly',
       priority: '0.8',
+    })),
+    // かごしま観光応援割のエリア別ページ（公式のエリア区分に合わせた6枚）
+    ...(kagoshimaAreas as any[]).map(a => ({
+      loc: `${BASE}/kagoshima-oen/${a.slug}/`,
+      changefreq: 'weekly',
+      priority: '0.7',
     })),
     { loc: `${BASE}/about/`,        changefreq: 'yearly',  priority: '0.4' },
     { loc: `${BASE}/contact/`,      changefreq: 'yearly',  priority: '0.4' },

@@ -1,0 +1,165 @@
+[
+  {
+    "slug": "hokusatsuma",
+    "name": "北薩摩エリア",
+    "short": "北薩摩",
+    "towns": [
+      "阿久根市",
+      "出水市",
+      "薩摩川内市",
+      "薩摩郡さつま町",
+      "出水郡長島町"
+    ],
+    "destIds": [
+      "koshikijima",
+      "izumi-kagoshima"
+    ],
+    "cities": {
+      "koshikijima": "薩摩川内市",
+      "izumi-kagoshima": "出水市"
+    }
+  },
+  {
+    "slug": "kirishima-aira",
+    "name": "霧島・姶良エリア",
+    "short": "霧島・姶良",
+    "towns": [
+      "霧島市",
+      "伊佐市",
+      "姶良市",
+      "姶良郡湧水町"
+    ],
+    "destIds": [
+      "kirishima",
+      "niche_鹿児島_3",
+      "niche_鹿児島_5"
+    ],
+    "cities": {
+      "kirishima": "霧島市",
+      "niche_鹿児島_3": "湧水町",
+      "niche_鹿児島_5": "湧水町"
+    }
+  },
+  {
+    "slug": "chusatsuma",
+    "name": "中薩摩エリア",
+    "short": "中薩摩",
+    "towns": [
+      "鹿児島市",
+      "日置市",
+      "いちき串木野市"
+    ],
+    "destIds": [
+      "hioki",
+      "sakurajima",
+      "kagoshima-city",
+      "iso",
+      "sakurajima-onsen",
+      "niche_鹿児島_1"
+    ],
+    "cities": {
+      "hioki": "日置市",
+      "sakurajima": "鹿児島市",
+      "kagoshima-city": "鹿児島市",
+      "iso": "鹿児島市",
+      "sakurajima-onsen": "鹿児島市",
+      "niche_鹿児島_1": "いちき串木野市"
+    }
+  },
+  {
+    "slug": "minamisatsuma",
+    "name": "南薩摩エリア",
+    "short": "南薩摩",
+    "towns": [
+      "指宿市",
+      "枕崎市",
+      "南さつま市",
+      "南九州市"
+    ],
+    "destIds": [
+      "ibusuki",
+      "makurazaki",
+      "ibusuki-onsen",
+      "chiran",
+      "minamikyushu"
+    ],
+    "cities": {
+      "ibusuki": "指宿市",
+      "makurazaki": "枕崎市",
+      "ibusuki-onsen": "指宿市",
+      "chiran": "南九州市",
+      "minamikyushu": "南九州市"
+    }
+  },
+  {
+    "slug": "osumi",
+    "name": "大隅エリア",
+    "short": "大隅",
+    "towns": [
+      "鹿屋市",
+      "垂水市",
+      "曽於市",
+      "志布志市",
+      "曽於郡大崎町",
+      "肝属郡東串良町",
+      "肝属郡錦江町",
+      "肝属郡南大隅町",
+      "肝属郡肝付町"
+    ],
+    "destIds": [
+      "minamiosumi"
+    ],
+    "cities": {
+      "minamiosumi": "南大隅町"
+    }
+  },
+  {
+    "slug": "ritou",
+    "name": "その他離島エリア",
+    "short": "その他離島",
+    "towns": [
+      "西之表市",
+      "熊毛郡中種子町",
+      "熊毛郡南種子町",
+      "熊毛郡屋久島町",
+      "鹿児島郡十島村",
+      "鹿児島郡三島村",
+      "奄美市",
+      "大島郡大和村",
+      "大島郡宇検村",
+      "大島郡瀬戸内町",
+      "大島郡龍郷町",
+      "大島郡喜界町",
+      "大島郡徳之島町",
+      "大島郡天城町",
+      "大島郡伊仙町",
+      "大島郡和泊町",
+      "大島郡知名町",
+      "大島郡与論町"
+    ],
+    "destIds": [
+      "yakushima",
+      "tanegashima",
+      "yoron-island",
+      "kakeroma-island",
+      "kuchinoerabu",
+      "yorojima",
+      "amami",
+      "kikai-island",
+      "tokunoshima",
+      "okinoerabu"
+    ],
+    "cities": {
+      "yakushima": "屋久島町",
+      "tanegashima": "西之表市・中種子町・南種子町",
+      "yoron-island": "与論町",
+      "kakeroma-island": "瀬戸内町",
+      "kuchinoerabu": "屋久島町",
+      "yorojima": "宇検村",
+      "amami": "奄美市",
+      "kikai-island": "喜界町",
+      "tokunoshima": "徳之島町",
+      "okinoerabu": "知名町"
+    }
+  }
+]

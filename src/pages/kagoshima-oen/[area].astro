@@ -1,0 +1,294 @@
+---
+/**
+ * かごしま観光応援割のエリア別ページ。/kagoshima-oen/hokusatsuma/ のように6枚作る。
+ *
+ * エリアの分け方と名前は公式サイトのエリアマップ（/stay/ の「エリアで探す」）に合わせてある。
+ * ここで独自の区分を作ると、公式で宿を探すときに対応が取れなくなるため。
+ * 制度の詳細はこのページには置かず、/kagoshima-oen/ と公式サイトへ送る。
+ */
+import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import destinations from '../../data/destinations.json';
+import areas from '../../data/kagoshimaAreas.json';
+import { SCHEMES, STAY_OFFICIAL } from '../../data/ouenWari';
+import fs from 'fs';
+import path from 'path';
+
+export function getStaticPaths() {
+  return (areas as any[]).map((a) => ({ params: { area: a.slug }, props: { a } }));
+}
+
+const { a } = Astro.props;
+const s = SCHEMES.find((x) => x.slug === 'kagoshima-oen')!;
+
+const imgDir = path.join(process.cwd(), 'public/images');
+function destImageUrl(d: any): string | null {
+  if (fs.existsSync(path.join(imgDir, d.id, 'main.jpg'))) return `/images/${d.id}/main.jpg`;
+  if (fs.existsSync(path.join(imgDir, `${d.id}.jpg`))) return `/images/${d.id}.jpg`;
+  return null;
+}
+
+const byId = new Map((destinations as any[]).map((d) => [d.id, d]));
+const inArea = (a.destIds as string[]).map((id) => byId.get(id)).filter(Boolean);
+const stays = inArea.filter((d: any) => d.featured_stay?.name);
+const others = (areas as any[]).filter((x) => x.slug !== a.slug);
+
+const title = `${a.short}の応援割で行く旅先と宿｜かごしま観光応援割｜どこ行こ？`;
+const description =
+  `かごしま観光応援割の${a.name}（${(a.towns as string[]).length}市町村）で行ける旅先${inArea.length}か所と、`
+  + `泊まりたい宿${stays.length}軒をまとめました。対象期間は${s.period}。`
+  + '割引の条件と対象施設は公式サイトでご確認ください。';
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  description,
+  url: `https://tabidokoiko.com/kagoshima-oen/${a.slug}/`,
+  isPartOf: { '@type': 'CollectionPage', name: 'かごしま観光応援割', url: 'https://tabidokoiko.com/kagoshima-oen/' },
+  about: { '@type': 'Place', name: `鹿児島県 ${a.name}` },
+});
+---
+
+<DestinationLayout title={title} description={description} image={null}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
+
+  <style>
+    .ka-hero {
+      background: linear-gradient(135deg, #1e4d38 0%, #2A6049 100%);
+      padding: 40px 24px 34px; color: #fff;
+    }
+    .ka-hero-inner { max-width: 680px; margin: 0 auto; }
+    .ka-hero-eyebrow {
+      font-size: 10px; letter-spacing: 0.22em; color: #C9A84C;
+      text-transform: uppercase; margin-bottom: 10px;
+    }
+    .ka-hero-title {
+      font-family: 'Noto Serif JP', serif; font-size: 25px; font-weight: 400;
+      line-height: 1.55; margin-bottom: 12px;
+    }
+    .ka-hero-lead { font-size: 13px; line-height: 2; color: rgba(255,255,255,0.9); }
+
+    .ka-body { max-width: 680px; margin: 0 auto; padding: 24px 24px 60px; }
+    .ka-back { display: inline-block; font-size: 12px; color: #2A6049; margin-bottom: 18px; text-decoration: none; }
+
+    .ka-towns {
+      border: 1px solid #e8e8e8; border-radius: 8px; padding: 14px 16px;
+      font-size: 12px; line-height: 2; color: #555; margin-bottom: 16px;
+    }
+    .ka-towns-label { display: block; font-size: 10.5px; color: #999; margin-bottom: 3px; }
+
+    .ka-notice {
+      background: #f7f5f0; border-left: 3px solid #C9A84C;
+      padding: 14px 16px; font-size: 12.5px; line-height: 2; color: #4a4a4a;
+      margin-bottom: 30px;
+    }
+    .ka-rows { font-size: 12.5px; line-height: 2; margin: 8px 0 0; }
+    .ka-rows div { display: flex; gap: 10px; }
+    .ka-rows dt { color: #999; min-width: 5.2em; }
+    .ka-rows dd { margin: 0; color: #444; flex: 1; }
+    .ka-notice-links { margin-top: 9px; display: flex; flex-direction: column; gap: 5px; }
+    .ka-notice-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
+    .ka-section { margin-bottom: 42px; }
+    .ka-eyebrow {
+      display: block; font-size: 10px; letter-spacing: 0.2em; color: #C9A84C;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .ka-title {
+      font-family: 'Noto Serif JP', serif; font-size: 19px; font-weight: 400;
+      margin-bottom: 10px; padding-bottom: 12px; border-bottom: 1px solid #e8e8e8;
+    }
+    .ka-count { font-size: 11px; color: #999; margin-left: 8px; }
+    .ka-sub { font-size: 12.5px; line-height: 2; color: #666; margin-bottom: 18px; }
+
+    .ka-stays { display: flex; flex-direction: column; gap: 14px; }
+    .ka-stay {
+      display: flex; gap: 14px; border: 1px solid #e8e8e8; border-radius: 8px;
+      overflow: hidden; background: #fff;
+    }
+    .ka-stay-img, .ka-stay-ph {
+      width: 108px; min-height: 108px; object-fit: cover; flex-shrink: 0; background: #f0f0f0;
+    }
+    .ka-stay-body { padding: 13px 14px 13px 0; flex: 1; }
+    .ka-stay-name {
+      font-family: 'Noto Serif JP', serif; font-size: 14.5px; color: #1a1a1a;
+      display: block; margin-bottom: 3px;
+    }
+    .ka-stay-where { font-size: 11px; color: #999; display: block; margin-bottom: 6px; }
+    .ka-stay-copy { font-size: 12px; color: #666; line-height: 1.8; display: block; margin-bottom: 9px; }
+    .ka-stay-links { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .ka-stay-links a { font-size: 11.5px; text-decoration: none; }
+    .ka-stay-detail { color: #2A6049; }
+    .ka-stay-official { color: #555; border: 1px solid #ddd; border-radius: 4px; padding: 3px 9px; }
+    .ka-stay-official:hover { border-color: #2A6049; color: #2A6049; }
+    .ka-official-note { font-size: 10.5px; color: #aaa; margin-top: 7px; line-height: 1.7; }
+
+    .ka-apply {
+      margin-top: 16px; background: #f7f5f0; border-left: 3px solid #2A6049;
+      padding: 14px 16px; font-size: 12.5px; line-height: 2; color: #4a4a4a;
+    }
+    .ka-apply-title { font-weight: 500; color: #2A6049; margin-bottom: 4px; }
+    .ka-apply-links { margin-top: 8px; display: flex; flex-direction: column; gap: 5px; }
+    .ka-apply-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
+    .ka-dests { display: flex; flex-direction: column; gap: 10px; }
+    .ka-dest {
+      display: flex; gap: 12px; align-items: center; border: 1px solid #eee;
+      border-radius: 8px; padding: 10px 12px; text-decoration: none; color: inherit;
+      transition: border-color 0.2s;
+    }
+    .ka-dest:hover { border-color: #2A6049; }
+    .ka-dest-img, .ka-dest-ph {
+      width: 56px; height: 56px; border-radius: 5px; object-fit: cover;
+      flex-shrink: 0; background: #f0f0f0;
+    }
+    .ka-dest-name { font-family: 'Noto Serif JP', serif; font-size: 14px; display: block; }
+    .ka-dest-city { font-size: 11px; color: #999; }
+    .ka-dest-go { margin-left: auto; font-size: 12px; color: #2A6049; }
+
+    .ka-empty {
+      border: 1px dashed #ddd; border-radius: 8px; padding: 16px 18px;
+      font-size: 12px; line-height: 2; color: #777;
+    }
+
+    .ka-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .ka-chip {
+      display: inline-block; padding: 7px 13px; border: 1px solid #ddd; border-radius: 20px;
+      font-size: 12px; color: #444; text-decoration: none;
+    }
+    .ka-chip:hover { border-color: #2A6049; color: #2A6049; }
+  </style>
+
+  <section class="ka-hero">
+    <div class="ka-hero-inner">
+      <p class="ka-hero-eyebrow">かごしま観光応援割 / {a.name}</p>
+      <h1 class="ka-hero-title">{a.short}で使う応援割、<br>泊まりたい宿と旅先</h1>
+      <p class="ka-hero-lead">
+        公式サイトのエリアマップと同じ区分でまとめました。
+        {a.name}は{(a.towns as string[]).length}市町村。
+        このうち当サイトで紹介している旅先が{inArea.length}か所、宿が{stays.length}軒あります。
+      </p>
+    </div>
+  </section>
+
+  <div class="ka-body">
+    <a class="ka-back" href="/kagoshima-oen/">← かごしま観光応援割のまとめに戻る</a>
+
+    <div class="ka-towns">
+      <span class="ka-towns-label">{a.name}に入る市町村（公式サイトの区分）</span>
+      {(a.towns as string[]).join('／')}
+    </div>
+
+    <div class="ka-notice">
+      <strong>{s.name}</strong>
+      <dl class="ka-rows">
+        <div><dt>対象期間</dt><dd>{s.period}</dd></div>
+        <div><dt>予約開始</dt><dd>{s.booking}</dd></div>
+      </dl>
+      <p style="margin-top:8px;">
+        割引率・上限額・対象になる施設は、このページには書いていません。変わることがあるためです。
+        条件のくわしい説明は<a href="/kagoshima-oen/" style="color:#2A6049;">かごしま観光応援割のまとめ</a>に、
+        対象施設の一覧は公式サイトにあります。
+      </p>
+      <div class="ka-notice-links">
+        {s.official.map((o) => (
+          <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
+        ))}
+      </div>
+    </div>
+
+    <section class="ka-section">
+      <span class="ka-eyebrow">Where to stay</span>
+      <h2 class="ka-title">{a.short}の泊まりたい宿<span class="ka-count">{stays.length}軒</span></h2>
+      {stays.length > 0 ? (
+        <>
+          <p class="ka-sub">その宿に泊まること自体が目的になる場所を選びました。料金や空室は各予約サイトでご確認ください。</p>
+          <div class="ka-stays">
+            {stays.map((d: any) => {
+              const img = destImageUrl(d);
+              const official = STAY_OFFICIAL[d.id];
+              return (
+                <div class="ka-stay">
+                  {img
+                    ? <img class="ka-stay-img" src={img} alt={`${d.name}の風景`} loading="lazy" />
+                    : <span class="ka-stay-ph" />}
+                  <div class="ka-stay-body">
+                    <span class="ka-stay-name">{d.featured_stay.name}</span>
+                    <span class="ka-stay-where">{a.cities[d.id]}・{d.name}</span>
+                    {d.featured_stay.catchcopy && <span class="ka-stay-copy">{d.featured_stay.catchcopy}</span>}
+                    <span class="ka-stay-links">
+                      <a class="ka-stay-detail" href={`/destinations/${d.id}/`}>旅先のページを見る →</a>
+                      {official && (
+                        <a class="ka-stay-official" href={official} target="_blank" rel="noopener">
+                          公式サイトで詳細を見る
+                        </a>
+                      )}
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <p class="ka-official-note">
+            「公式サイトで詳細を見る」は宿の公式ページへの案内です。予約サイトへのリンクとは別枠で、
+            アフィリエイトを含みません。公式ページの所在を確認できた宿にだけ表示しています。
+          </p>
+        </>
+      ) : (
+        <div class="ka-empty">
+          {a.short}で「泊まること自体が目的になる宿」として紹介できる宿は、まだ見つけられていません。
+          このエリアの対象施設は、公式サイトの「宿泊施設を探す」でお探しください。
+        </div>
+      )}
+
+      <div class="ka-apply">
+        <p class="ka-apply-title">割引を使うときの申し込み方法</p>
+        <p>{s.applyNote}</p>
+        <p class="ka-apply-links">
+          {s.official.map((o) => (
+            <a href={o.url} target="_blank" rel="noopener">{o.label} →</a>
+          ))}
+        </p>
+      </div>
+    </section>
+
+    <section class="ka-section">
+      <span class="ka-eyebrow">Destinations</span>
+      <h2 class="ka-title">{a.short}の旅先<span class="ka-count">{inArea.length}か所</span></h2>
+      <p class="ka-sub">
+        {inArea.length >= 3
+          ? '名前を聞いたことのある温泉地から、宿が数軒しかない集落まで。'
+          : `${a.short}で紹介しているのは、いまのところこの${inArea.length}か所です。ほかの場所は順次追加していきます。`}
+      </p>
+      <div class="ka-dests">
+        {inArea.map((d: any) => {
+          const img = destImageUrl(d);
+          return (
+            <a class="ka-dest" href={`/destinations/${d.id}/`}>
+              {img
+                ? <img class="ka-dest-img" src={img} alt={`${d.name}の風景`} loading="lazy" />
+                : <span class="ka-dest-ph" />}
+              <span>
+                <span class="ka-dest-name">{d.name}</span>
+                <span class="ka-dest-city">{a.cities[d.id]}</span>
+              </span>
+              <span class="ka-dest-go">→</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="ka-section">
+      <span class="ka-eyebrow">Other areas</span>
+      <h2 class="ka-title">ほかのエリア</h2>
+      <div class="ka-chips">
+        {others.map((o: any) => (
+          <a class="ka-chip" href={`/kagoshima-oen/${o.slug}/`}>{o.short}</a>
+        ))}
+        <a class="ka-chip" href="/kagoshima-oen/">かごしま観光応援割のまとめ</a>
+        <a class="ka-chip" href="/ouen-wari/">全国の応援割まとめ</a>
+      </div>
+    </section>
+  </div>
+</DestinationLayout>

@@ -7,6 +7,7 @@
 import DestinationLayout from '../layouts/DestinationLayout.astro';
 import destinations from '../data/destinations.json';
 import { SCHEMES, PARENT, STAY_OFFICIAL } from '../data/ouenWari';
+import kagoshimaAreas from '../data/kagoshimaAreas.json';
 import fs from 'fs';
 import path from 'path';
 
@@ -28,6 +29,10 @@ const inPref = (destinations as any[])
   .sort((a, b) => (b.weight ?? 1) - (a.weight ?? 1));
 const stays = inPref.filter((d) => d.featured_stay?.name);
 const others = SCHEMES.filter((x) => x.slug !== s.slug);
+
+// 鹿児島だけ、公式サイトと同じエリア区分で下の階層を持っている。
+// ほかの県はまだエリア分けしていないので、そのときは空になる。
+const areas = s.slug === 'kagoshima-oen' ? (kagoshimaAreas as any[]) : [];
 
 const title = `${s.prefShort}の応援割で行く旅先と宿｜どこ行こ？`;
 const description =
@@ -139,6 +144,24 @@ const jsonLd = JSON.stringify({
     .kf-apply-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
 
     .kf-pref-count { font-size: 11px; color: #999; margin-left: 8px; }
+
+    /* エリアから選ぶ（公式のエリア区分を持っている県だけ出る） */
+    .kf-areas { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .kf-area {
+      border: 1px solid #e4e4e4; border-radius: 8px; padding: 13px 14px;
+      text-decoration: none; color: inherit; background: #fff; transition: border-color 0.2s;
+    }
+    .kf-area:hover { border-color: #2A6049; }
+    .kf-area-name {
+      font-family: 'Noto Serif JP', serif; font-size: 15px; color: #1a1a1a;
+      display: block; margin-bottom: 5px;
+    }
+    .kf-area-num { font-size: 11px; color: #999; display: block; margin-bottom: 6px; }
+    .kf-area-towns {
+      font-size: 10.5px; color: #aaa; line-height: 1.7; display: block;
+      overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    }
+    @media (max-width: 380px) { .kf-areas { grid-template-columns: 1fr; } }
   </style>
 
   <section class="kf-hero">
@@ -184,6 +207,25 @@ const jsonLd = JSON.stringify({
       このページでは営業を確認できた旅先を掲載していますが、状況は日々変わります。
       出発前に各施設・自治体の最新情報をご確認ください。
     </div>
+
+    {areas.length > 0 && (
+      <section class="kf-section">
+        <span class="kf-eyebrow">Areas</span>
+        <h2 class="kf-title">エリアから選ぶ<span class="kf-pref-count">{areas.length}エリア</span></h2>
+        <p class="kf-sub">
+          公式サイトのエリアマップと同じ分け方です。公式で宿を探すときの絞り込みとそろえてあります。
+        </p>
+        <div class="kf-areas">
+          {areas.map((a: any) => (
+            <a class="kf-area" href={`/${s.slug}/${a.slug}/`}>
+              <span class="kf-area-name">{a.name}</span>
+              <span class="kf-area-num">旅先{a.destIds.length}か所</span>
+              <span class="kf-area-towns">{a.towns.join('／')}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <section class="kf-section">
       <span class="kf-eyebrow">Where to stay</span>
