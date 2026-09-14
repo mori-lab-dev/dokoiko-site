@@ -1,0 +1,5085 @@
+[
+ {
+  "destId": "onomichi",
+  "idx": 0,
+  "spotName": "千光寺",
+  "imageUrl": "/images/spots/onomichi/0.jpg",
+  "imageCredit": {
+   "author": "AlexanderWeichsel",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E9%B3%A5%E5%B1%85-%E5%AF%BA-%E5%8E%B3%E5%B3%B6-%E6%B0%B4-9074037/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 自然, 鳥居, 寺, 厳島, 水, ゲート, 宮島, 広島, 神社"
+ },
+ {
+  "destId": "aizu",
+  "idx": 3,
+  "spotName": "五色沼",
+  "imageUrl": "/images/spots/aizu/3.jpg",
+  "imageCredit": {
+   "author": "Wassy_ST",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%A3%90%E6%A2%AF%E5%B1%B1-%E8%A3%8F%E7%A3%90%E6%A2%AF-%E4%BA%94%E8%89%B2%E6%B2%BC-%E7%A7%8B-1199204/",
+   "attributionRequired": false
+  },
+  "tags": "磐梯山, 自然, 裏磐梯, 五色沼, 秋, 葉, 風景, 緑, 水, 湖"
+ },
+ {
+  "destId": "hirado",
+  "idx": 1,
+  "spotName": "オランダ商館",
+  "imageUrl": "/images/spots/hirado/1.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/cannal-%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-4918751/",
+   "attributionRequired": false
+  },
+  "tags": "cannal, オランダ"
+ },
+ {
+  "destId": "yuda-onsen",
+  "idx": 2,
+  "spotName": "白狐の湯",
+  "imageUrl": "/images/spots/yuda-onsen/2.jpg",
+  "imageCredit": {
+   "author": "12019",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%89-%E3%83%9B%E3%83%83%E3%82%AD%E3%83%A7%E3%82%AF%E3%82%AE%E3%83%84%E3%83%8D-1979445/",
+   "attributionRequired": false
+  },
+  "tags": "アイスランド, ホッキョクギツネ, 狐, 白い, 白狐, 犬, 野生動物, 荒野, 動物の世界, 野生動物の写真, 動物, 冬, 雪, 自然, 寒い, 哺乳類, 犬, 犬, 犬, 動物, 動物, 動物, 動物, 動物, 冬, 冬, 冬, 雪, 雪"
+ },
+ {
+  "destId": "naruko-onsen",
+  "idx": 2,
+  "spotName": "早稲田桟敷湯",
+  "imageUrl": "/images/spots/naruko-onsen/2.jpg",
+  "imageCredit": {
+   "author": "jyleen21",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%91%B3%E5%99%8C%E3%83%81%E3%82%B2-%E5%9B%BD-%E5%91%B3%E5%99%8C-%E6%B9%AF-749368/",
+   "attributionRequired": false
+  },
+  "tags": "味噌チゲ, 国, 味噌, 湯, 味噌, 味噌, 味噌, 味噌, 味噌"
+ },
+ {
+  "destId": "itoshima",
+  "idx": 0,
+  "spotName": "二見ヶ浦",
+  "imageUrl": "/images/spots/itoshima/0.jpg",
+  "imageCredit": {
+   "author": "Jiashuh",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%A6%8F%E5%B2%A1-%E8%8D%89%E5%8E%9F-1382053/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 福岡, 草原, 福岡, 福岡, 福岡, 福岡, 福岡"
+ },
+ {
+  "destId": "sakunami-onsen",
+  "idx": 2,
+  "spotName": "鷺景の湯",
+  "imageUrl": "/images/spots/sakunami-onsen/2.jpg",
+  "imageCredit": {
+   "author": "jyleen21",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%91%B3%E5%99%8C%E3%83%81%E3%82%B2-%E5%9B%BD-%E5%91%B3%E5%99%8C-%E6%B9%AF-749368/",
+   "attributionRequired": false
+  },
+  "tags": "味噌チゲ, 国, 味噌, 湯, 味噌, 味噌, 味噌, 味噌, 味噌"
+ },
+ {
+  "destId": "sado-island",
+  "idx": 2,
+  "spotName": "北沢浮游選鉱場",
+  "imageUrl": "/images/spots/sado-island/2.jpg",
+  "imageCredit": {
+   "author": "wal_172619",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%AB%8B%E4%BD%93%E9%A7%90%E8%BB%8A%E5%A0%B4-%E8%87%AA%E5%8B%95%E8%BB%8A-%E9%A7%90%E8%BB%8A%E5%A0%B4-7921955/",
+   "attributionRequired": false
+  },
+  "tags": "立体駐車場, 自動車, 駐車場, 建物, 都市"
+ },
+ {
+  "destId": "yunotsu-onsen",
+  "idx": 2,
+  "spotName": "石見焼",
+  "imageUrl": "/images/spots/yunotsu-onsen/2.jpg",
+  "imageCredit": {
+   "author": "LoggaWiggler",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%83%A0%E3%83%83%E3%82%AB%E3%83%AC-%E7%84%BC%E7%B5%90%E7%9F%B3%E7%81%B0%E3%83%86%E3%83%A9%E3%82%B9-14986/",
+   "attributionRequired": false
+  },
+  "tags": "パムッカレ, 焼結石灰テラス, 自然, 焼結テラス, カルシウム, ユネスコ, 石灰岩, 七面鳥, 風景, ミネラル, 温泉, 水"
+ },
+ {
+  "destId": "hasami",
+  "idx": 2,
+  "spotName": "中尾山",
+  "imageUrl": "/images/spots/hasami/2.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%9C%E6%99%AF-%E9%95%B7%E5%B4%8E-%E9%95%B7%E5%B4%8E%E6%B8%AF-%E3%83%9D%E3%83%BC%E3%83%88-6950732/",
+   "attributionRequired": false
+  },
+  "tags": "夜景, 長崎, 長崎港, ポート, 街の灯, 日本, 夜景, 夜景, 長崎, 長崎, 長崎, 長崎, 長崎"
+ },
+ {
+  "destId": "yonaguni-island",
+  "idx": 1,
+  "spotName": "海底遺跡",
+  "imageUrl": "/images/spots/yonaguni-island/1.jpg",
+  "imageCredit": {
+   "author": "Alexandra_Koch",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B0%B4%E4%B8%AD-%E6%B5%B7-%E6%B3%A2-%E7%A9%BA-%E6%B5%B7%E5%BA%95-4286600/",
+   "attributionRequired": false
+  },
+  "tags": "水中, 海, 波, 空, 海底, ダイビング, 自然, 泳ぐ, 動物, 水中世界, 深い, 水中, 海, 海, 海, 海, 海, 海底"
+ },
+ {
+  "destId": "ie-island",
+  "idx": 2,
+  "spotName": "伊江島百合の花まつり",
+  "imageUrl": "/images/spots/ie-island/2.jpg",
+  "imageCredit": {
+   "author": "shell_ghostcage",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E9%A2%A8%E6%99%AF-%E6%A4%8D%E7%89%A9-%E8%8A%B1%E7%95%91-%E7%99%BE%E5%90%88-3490603/",
+   "attributionRequired": false
+  },
+  "tags": "自然, 風景, 植物, 花の壁紙, 自然, 花畑, 百合, ピンク, 花の背景, 美しい花, 花, ユリ"
+ },
+ {
+  "destId": "kohama-island",
+  "idx": 1,
+  "spotName": "大岳",
+  "imageUrl": "/images/spots/kohama-island/1.jpg",
+  "imageCredit": {
+   "author": "139904",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AF%8C%E6%B1%9F%E5%A4%A7%E7%AB%B9%E7%A0%94%E7%A9%B6%E6%89%80-%E3%83%A2%E3%83%80%E3%83%B3%E3%81%AA%E5%BB%BA%E7%89%A9-251543/",
+   "attributionRequired": false
+  },
+  "tags": "富江大竹研究所, モダンな建物, 建築, 近代建築, サンパウロ, 現代建築"
+ },
+ {
+  "destId": "tsuyama",
+  "idx": 2,
+  "spotName": "出雲街道",
+  "imageUrl": "/images/spots/tsuyama/2.jpg",
+  "imageCredit": {
+   "author": "n-k",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%87%BA%E9%9B%B2%E5%A4%A7%E7%A4%BE-%E3%81%97%E3%82%81%E7%B8%84-%E7%A5%9E%E4%BA%8B-2812618/",
+   "attributionRequired": false
+  },
+  "tags": "出雲大社, しめ縄, 神事, 出雲大社, 出雲大社, 出雲大社, 出雲大社, 出雲大社, しめ縄"
+ },
+ {
+  "destId": "rausu",
+  "idx": 1,
+  "spotName": "知床峠展望台",
+  "imageUrl": "/images/spots/rausu/1.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "esashi-hokkaido",
+  "idx": 1,
+  "spotName": "旧中村家住宅",
+  "imageUrl": "/images/spots/esashi-hokkaido/1.jpg",
+  "imageCredit": {
+   "author": "Rosy_Photo",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BB%BA%E7%89%A9-%E6%95%99%E4%BC%9A-%E8%A1%97-%E6%9D%91-%E5%AE%B6-5644899/",
+   "attributionRequired": false
+  },
+  "tags": "建物, 教会, 街, 村, 家, 住宅, アパート, ベルタワー, 旧市街, アーキテクチャ"
+ },
+ {
+  "destId": "kasaoka",
+  "idx": 1,
+  "spotName": "笠岡市立竹喬美術館",
+  "imageUrl": "/images/spots/kasaoka/1.jpg",
+  "imageCredit": {
+   "author": "qgadrian",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%83%B3%E3%83%80-pandabear-%E7%AB%B9-4461766/",
+   "attributionRequired": false
+  },
+  "tags": "パンダ, pandabear, 竹, 食べる, パンダ, パンダ, パンダ, パンダ, パンダ"
+ },
+ {
+  "destId": "misaki-sadamisaki",
+  "idx": 1,
+  "spotName": "三崎港",
+  "imageUrl": "/images/spots/misaki-sadamisaki/1.jpg",
+  "imageCredit": {
+   "author": "lccrichard",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%95%E7%84%BC%E3%81%91-%E5%A4%95%E6%9A%AE%E3%82%8C%E6%99%82%E3%81%AB-%E5%8F%B0%E5%8C%97%E6%B8%AF-7425170/",
+   "attributionRequired": false
+  },
+  "tags": "夕焼け, 夕暮れ時に, 台北港, 台湾, 夕焼け, 夕焼け, 夕焼け, 夕焼け, 夕焼け"
+ },
+ {
+  "destId": "misaki-sadamisaki",
+  "idx": 2,
+  "spotName": "伊方原子力発電所展示館",
+  "imageUrl": "/images/spots/misaki-sadamisaki/2.jpg",
+  "imageCredit": {
+   "author": "distelAPPArath",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%99%BA%E9%9B%BB%E6%89%80-%E3%83%A9%E3%82%A4%E3%83%B3-%E3%83%95%E3%83%AD%E3%83%BC-4535760/",
+   "attributionRequired": false
+  },
+  "tags": "原子力発電所, ライン, フロー, 原子力発電, 原子力, 煙, 蒸気, 工業用, エネルギー, 電源装置, 電気, 原子炉, バックライト, 原子力発電所, 原子力発電所, 原子力発電所, 原子力発電, 原子力発電, 原子力発電, 原子力, 原子力, 原子力, 原子力, 原子力, 煙, 煙, 原子炉"
+ },
+ {
+  "destId": "kasama",
+  "idx": 2,
+  "spotName": "陶炎祭",
+  "imageUrl": "/images/spots/kasama/2.jpg",
+  "imageCredit": {
+   "author": "hudsoncrafted",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%84%9F%E8%AC%9D%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B-%E6%84%9F%E8%AC%9D%E7%A5%AD-%E5%AD%A3%E7%AF%80-2947263/",
+   "attributionRequired": false
+  },
+  "tags": "感謝している, 感謝祭, 季節, 休日, お祝い, テーブル, 木材, 感謝祭のテーブル, 感謝祭, 季節, 休日, 休日, お祝い, お祝い, テーブル, テーブル, テーブル, テーブル, テーブル"
+ },
+ {
+  "destId": "tateshina",
+  "idx": 2,
+  "spotName": "親湯温泉",
+  "imageUrl": "/images/spots/tateshina/2.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%8B%E3%83%9B%E3%83%B3%E3%82%B6%E3%83%AB-%E9%87%8E%E7%94%9F-%E5%8B%95%E7%89%A9-4809479/",
+   "attributionRequired": false
+  },
+  "tags": "ニホンザル, 野生, 動物, 野生動物, 温泉, 自然, 日本, 可愛い, 観光, 長野, 霊長目, 母親, 赤ちゃん, 愛, お手入れ, 思いやりのあります, 地獄谷野猿公衛, 繋がり, 温泉, 温泉, 温泉, 温泉, 温泉"
+ },
+ {
+  "destId": "ama-island",
+  "idx": 1,
+  "spotName": "中ノ島",
+  "imageUrl": "/images/spots/ama-island/1.jpg",
+  "imageCredit": {
+   "author": "kazu_nari",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%83%BD%E4%BC%9A%E3%81%AE%E5%85%AC%E5%9C%92-%E3%83%90%E3%83%A9-%E8%96%94%E8%96%87-%E5%85%AC%E5%9C%92-3908340/",
+   "attributionRequired": false
+  },
+  "tags": "都会の公園, バラ, 薔薇, 公園, 自然, 庭, 観光地, 中ノ島, バラの花, 大阪"
+ },
+ {
+  "destId": "teshima",
+  "idx": 2,
+  "spotName": "唐檜の棚田",
+  "imageUrl": "/images/spots/teshima/2.jpg",
+  "imageCredit": {
+   "author": "mercierzeng",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A5%B3%E6%80%A7-%E4%B8%AD%E5%9B%BD-%E3%83%A4%E3%82%AA%E3%83%9E%E3%82%A4%E3%83%8E%E3%83%AA%E3%83%86%E3%82%A3-7217461/",
+   "attributionRequired": false
+  },
+  "tags": "女性, 中国, ヤオマイノリティ, マイノリティの女性, 桂林, ロンジー, 龍寺棚田, ご飯, 秋, 電話を使う, 村, 自然, 田舎, 女性, 女性, 中国, 中国, 中国, 中国, 中国, 村, 田舎"
+ },
+ {
+  "destId": "yoshinogari",
+  "idx": 2,
+  "spotName": "物見やぐら",
+  "imageUrl": "/images/spots/yoshinogari/2.jpg",
+  "imageCredit": {
+   "author": "bummelhummel",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E6%B0%B4-%E3%82%B9%E3%82%B3%E3%83%83%E3%83%88%E3%83%A9%E3%83%B3%E3%83%89-4715309/",
+   "attributionRequired": false
+  },
+  "tags": "自然, 水, スコットランド, スカイ島, スカイ, 高地や島々, 石"
+ },
+ {
+  "destId": "ojika-island",
+  "idx": 0,
+  "spotName": "古民家宿ほんまもん",
+  "imageUrl": "/images/spots/ojika-island/0.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB-%E5%8C%97%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-5039356/",
+   "attributionRequired": false
+  },
+  "tags": "オランダ, のホテル, 北オランダ, 本格, 歴史, 古民家, オランダ, オランダ, オランダ, オランダ, オランダ, 古民家, 古民家, 古民家"
+ },
+ {
+  "destId": "ojika-island",
+  "idx": 2,
+  "spotName": "大島神社",
+  "imageUrl": "/images/spots/ojika-island/2.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%86%8A%E6%9C%AC-%E7%A5%9E%E7%A4%BE-%E6%B5%B7-530348/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 熊本, 神社, 海, 長尾神社, 自然, 雲, 空, アジア"
+ },
+ {
+  "destId": "niijima",
+  "idx": 0,
+  "spotName": "コシキビーチ",
+  "imageUrl": "/images/spots/niijima/0.jpg",
+  "imageCredit": {
+   "author": "konpik",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%A1%97%E4%B8%A6%E3%81%BF-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E5%BB%BA%E7%89%A9-9567180/",
+   "attributionRequired": false
+  },
+  "tags": "街並み, アーキテクチャ, 建物, 超高層ビル, 反射, 日本, 東京"
+ },
+ {
+  "destId": "kakegawa",
+  "idx": 2,
+  "spotName": "大東きらりの里",
+  "imageUrl": "/images/spots/kakegawa/2.jpg",
+  "imageCredit": {
+   "author": "tingyaoh",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%A7%E6%9D%B1%E6%96%87%E5%8C%96%E8%8A%B8%E8%A1%93%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC-%E9%AB%98%E9%9B%84%E5%B8%82-1723972/",
+   "attributionRequired": false
+  },
+  "tags": "大東文化芸術センター, 高雄市, 鳳山区, 夜景, 熱気球"
+ },
+ {
+  "destId": "fukuchiyama",
+  "idx": 2,
+  "spotName": "長安寺",
+  "imageUrl": "/images/spots/fukuchiyama/2.jpg",
+  "imageCredit": {
+   "author": "rmsep4",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%A1%97-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E5%A4%9C-%E6%97%A5%E6%9C%AC-%E4%BA%AC%E9%83%BD-4942809/",
+   "attributionRequired": false
+  },
+  "tags": "街, 自転車, 夜, 日本, 京都, 近所, 日本, 日本, 京都, 京都, 京都, 京都, 京都"
+ },
+ {
+  "destId": "kishiwada",
+  "idx": 2,
+  "spotName": "旧紀州街道",
+  "imageUrl": "/images/spots/kishiwada/2.jpg",
+  "imageCredit": {
+   "author": "edmondlafoto",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%83%AA-%E3%83%A2%E3%83%B3%E3%83%9E%E3%83%AB%E3%83%88%E3%83%AB-%E9%81%93-%E8%88%97%E8%A3%85-3193674/",
+   "attributionRequired": false
+  },
+  "tags": "パリ, モンマルトル, 道, 舗装, 旧市街, 街, 市, 茶市, 茶色の街, 茶色の旧, 茶道, パリ, パリ, パリ, 街, 街, 街, 街, 街"
+ },
+ {
+  "destId": "sukumo",
+  "idx": 0,
+  "spotName": "ビオスの里（沖の島）",
+  "imageUrl": "/images/spots/sukumo/0.jpg",
+  "imageCredit": {
+   "author": "7060673",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%83%87%E3%83%BC%E3%81%AE%E8%83%8C%E6%99%AF-%E3%82%AB%E3%83%83%E3%83%97%E3%83%AB-3098951/",
+   "attributionRequired": false
+  },
+  "tags": "バレンタインデーの背景, カップル, ビーチ, 歩く, 所蔵の手, 自然, 海, 屋外, 人里離れたビーチ, 風景, 楽しんで"
+ },
+ {
+  "destId": "yuwaku-onsen",
+  "idx": 2,
+  "spotName": "湯涌梅林",
+  "imageUrl": "/images/spots/yuwaku-onsen/2.jpg",
+  "imageCredit": {
+   "author": "Caoha",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A2%85%E3%81%AE%E8%8A%B1-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89-%E9%9D%92%E3%81%84%E7%A9%BA-4702031/",
+   "attributionRequired": false
+  },
+  "tags": "梅の花, hdの壁紙, 4k壁紙, バックグラウンド, ノートパソコンの壁紙, フルhd壁紙, 青い空, デスクトップの背景, 壁紙hd, 美しい壁紙, windowsの壁紙, クールな背景, 風景, 無料の背景, 壁紙4k, 女の子, macの壁紙, 無料の壁紙, 4kの壁紙1920x1080, 梅林"
+ },
+ {
+  "destId": "minamikyushu",
+  "idx": 1,
+  "spotName": "頴娃大川の滝",
+  "imageUrl": "/images/spots/minamikyushu/1.jpg",
+  "imageCredit": {
+   "author": "NeilMorrell",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%BB%9D-%E3%83%9C%E3%83%BC%E3%83%88-%E3%83%8A%E3%82%A4%E3%82%A2%E3%82%AC%E3%83%A9%E3%81%AE%E6%BB%9D-5050298/",
+   "attributionRequired": false
+  },
+  "tags": "滝, ボート, ナイアガラの滝, 自然, カナダ, 水, 馬蹄形の滝, ナイアガラ川"
+ },
+ {
+  "destId": "minamiosumi",
+  "idx": 1,
+  "spotName": "根占温泉",
+  "imageUrl": "/images/spots/minamiosumi/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "himeshima",
+  "idx": 0,
+  "spotName": "姫島七不思議",
+  "imageUrl": "/images/spots/himeshima/0.jpg",
+  "imageCredit": {
+   "author": "realsmarthome",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%87%E9%87%8C%E3%81%AE%E9%95%B7%E5%9F%8E-%E4%B8%AD%E5%9B%BD-%E8%A6%B3%E5%85%89-%E5%8C%97%E4%BA%AC-2030311/",
+   "attributionRequired": false
+  },
+  "tags": "万里の長城, 中国, 観光, 北京, 壁, 世界の七不思議, 万里の長城, 万里の長城, 万里の長城, 万里の長城, 万里の長城"
+ },
+ {
+  "destId": "himeshima",
+  "idx": 2,
+  "spotName": "阿弥陀瀬温泉",
+  "imageUrl": "/images/spots/himeshima/2.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "hamada-shimane",
+  "idx": 1,
+  "spotName": "石見海浜公園",
+  "imageUrl": "/images/spots/hamada-shimane/1.jpg",
+  "imageCredit": {
+   "author": "nyan8",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%8D%83%E8%91%89-%E3%81%B2%E3%81%9F%E3%81%A1%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92-%E3%83%8D%E3%83%A2%E3%83%95%E3%82%A3%E3%83%A9-2190623/",
+   "attributionRequired": false
+  },
+  "tags": "千葉, ひたち海浜公園, ネモフィラ, 千葉, ひたち海浜公園, ネモフィラ, ネモフィラ, ネモフィラ, ネモフィラ, ネモフィラ"
+ },
+ {
+  "destId": "hamada-shimane",
+  "idx": 2,
+  "spotName": "石見神楽（常設上演）",
+  "imageUrl": "/images/spots/hamada-shimane/2.jpg",
+  "imageCredit": {
+   "author": "hyeok10_12",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%AC-%E5%9B%B3%E6%9B%B8%E9%A4%A8-%E7%89%A9%E8%AA%9E-%E6%96%87%E5%AD%A6-%E5%B0%8F%E8%AA%AC-8934573/",
+   "attributionRequired": false
+  },
+  "tags": "本, 図書館, 物語, 文学, 小説, 読む, 勉強, 知識, 書店"
+ },
+ {
+  "destId": "ikata",
+  "idx": 1,
+  "spotName": "三崎港",
+  "imageUrl": "/images/spots/ikata/1.jpg",
+  "imageCredit": {
+   "author": "lccrichard",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%95%E7%84%BC%E3%81%91-%E5%A4%95%E6%9A%AE%E3%82%8C%E6%99%82%E3%81%AB-%E5%8F%B0%E5%8C%97%E6%B8%AF-7425170/",
+   "attributionRequired": false
+  },
+  "tags": "夕焼け, 夕暮れ時に, 台北港, 台湾, 夕焼け, 夕焼け, 夕焼け, 夕焼け, 夕焼け"
+ },
+ {
+  "destId": "shibu-onsen",
+  "idx": 0,
+  "spotName": "渋温泉九湯めぐり",
+  "imageUrl": "/images/spots/shibu-onsen/0.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%8D%B5-%E6%B8%A9%E6%B3%89%E3%81%9F%E3%81%BE%E3%81%94-%E3%82%AF%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0-4820458/",
+   "attributionRequired": false
+  },
+  "tags": "卵, 温泉たまご, クッキング, 伝統的, ホット, 日本, 温泉, ゆっくりと調理, 水, 半熟卵, ポーチ, 密猟, 渋温泉, 長野, 茶の料理, 自然, 茶色の卵"
+ },
+ {
+  "destId": "hirakawa",
+  "idx": 2,
+  "spotName": "りんご農園見学",
+  "imageUrl": "/images/spots/hirakawa/2.jpg",
+  "imageCredit": {
+   "author": "NoName_13",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%8A%E3%82%93%E3%81%94-%E8%B5%A4-%E8%B5%A4%E3%81%84%E3%83%AA%E3%83%B3%E3%82%B4-2788616/",
+   "attributionRequired": false
+  },
+  "tags": "りんご, 赤, 赤いリンゴ, リンゴ農園, うまい, フルーツ, ビタミン, 新鮮, 自然, 健康, 熟した, ナシ状果の家族, リンゴの木, 果樹園, 木, 果物の木, 秋, 収穫, りんご, りんご, りんご, りんご, りんご"
+ },
+ {
+  "destId": "miyota",
+  "idx": 1,
+  "spotName": "御代田町縄文遺跡",
+  "imageUrl": "/images/spots/miyota/1.jpg",
+  "imageCredit": {
+   "author": "YangGuangWu",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%AD%E5%9B%BD-%E5%9F%8E%E9%96%80-%E5%8F%A4%E4%BB%A3%E3%81%AE%E7%94%BA-%E8%A1%97-6923088/",
+   "attributionRequired": false
+  },
+  "tags": "中国, 城門, 古代の町, 街, ランタン, 古代の"
+ },
+ {
+  "destId": "hiji",
+  "idx": 1,
+  "spotName": "城下かれい料理",
+  "imageUrl": "/images/spots/hiji/1.jpg",
+  "imageCredit": {
+   "author": "scholty1970",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AE%AE%E6%AE%BF%E3%81%AE%E5%BA%AD-%E5%9F%8E%E4%B8%8B%E3%82%AB%E3%83%95%E3%82%A7-%E5%85%AC%E5%9C%92-4493130/",
+   "attributionRequired": false
+  },
+  "tags": "宮殿の庭, 城下カフェ, 公園, 見通し, 椅子, テーブル, 城公園, 静かな, 快適, ベルリン"
+ },
+ {
+  "destId": "tsunan",
+  "idx": 1,
+  "spotName": "なじょもん縄文の里",
+  "imageUrl": "/images/spots/tsunan/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A8%B9%E6%9C%A8-%E5%B7%A8%E6%9C%A8-%E7%B8%84%E6%96%87%E6%9D%89-8027764/",
+   "attributionRequired": false
+  },
+  "tags": "樹木, 巨木, 縄文杉, 数千年の生命, 屋久島, 自然, 世界自然遺産地域, 霧, 日本"
+ },
+ {
+  "destId": "gen_北海_支笏湖温泉",
+  "idx": 1,
+  "spotName": "支笏湖ビジターセンター",
+  "imageUrl": "/images/spots/gen_北海_支笏湖温泉/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B9%96-%E6%97%A5%E3%81%AE%E5%87%BA-%E9%9D%84-%E6%94%AF%E7%AC%8F%E6%B9%96-7490021/",
+   "attributionRequired": false
+  },
+  "tags": "湖, 日の出, 靄, 支笏湖, 北海道, 自然, 日本, 風景"
+ },
+ {
+  "destId": "gen_北海_松前城",
+  "idx": 1,
+  "spotName": "松前藩屋敷",
+  "imageUrl": "/images/spots/gen_北海_松前城/1.jpg",
+  "imageCredit": {
+   "author": "darksouls1",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AE%B6-%E3%81%8A%E5%A2%93-%E3%81%8A%E5%8C%96%E3%81%91%E5%B1%8B%E6%95%B7-%E6%9A%97%E3%81%84-2187170/",
+   "attributionRequired": false
+  },
+  "tags": "家, お墓, お化け屋敷, 暗い, ホラー, ゴシック, 墓地, 幽霊, 墓石, 石造りの家, アーキテクチャ, ファサード, 外観, 家, 家, 家, ホラー, ホラー, ホラー, ホラー, ホラー"
+ },
+ {
+  "destId": "gen_北海_北海道神宮",
+  "idx": 2,
+  "spotName": "円山公園",
+  "imageUrl": "/images/spots/gen_北海_北海道神宮/2.jpg",
+  "imageCredit": {
+   "author": "1443435",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%A7%8B-%E7%B4%85%E8%91%89-%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A7%8B-%E5%86%86%E5%B1%B1%E5%85%AC%E5%9C%92-990448/",
+   "attributionRequired": false
+  },
+  "tags": "秋, 紅葉, 日本の秋, 円山公園, 日本, 北海道, 札幌市, 落ち葉, カラフル, 北海道, 北海道, 北海道, 北海道, 北海道"
+ },
+ {
+  "destId": "gen_北海_ピンネシリ温泉",
+  "idx": 1,
+  "spotName": "ピンネシリ岳",
+  "imageUrl": "/images/spots/gen_北海_ピンネシリ温泉/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BB%E5%B1%B1-%E9%A2%A8%E6%99%AF-%E6%97%A5%E6%9C%AC-%E4%BA%94%E7%AB%9C%E5%B2%B3-%E9%9B%AA-2130878/",
+   "attributionRequired": false
+  },
+  "tags": "登山, 風景, 日本, 自然, 五竜岳, 雪, 風, 寒さ"
+ },
+ {
+  "destId": "gen_栃木_中禅寺温泉",
+  "idx": 2,
+  "spotName": "立木観音",
+  "imageUrl": "/images/spots/gen_栃木_中禅寺温泉/2.jpg",
+  "imageCredit": {
+   "author": "bellergy",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%BB%8F-%E9%8A%85%E5%83%8F-%E7%A6%85-%E3%82%A2%E3%82%B8%E3%82%A2-%E6%96%87%E5%8C%96-3820620/",
+   "attributionRequired": false
+  },
+  "tags": "仏, 銅像, 禅, アジア, 文化, 日本, 観音, 灰色の仏像, 仏陀プルニマ, グレーの文化"
+ },
+ {
+  "destId": "gen_群馬_敷島温泉",
+  "idx": 0,
+  "spotName": "敷島温泉",
+  "imageUrl": "/images/spots/gen_群馬_敷島温泉/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "gen_青森_稲垣温泉",
+  "idx": 0,
+  "spotName": "稲垣温泉",
+  "imageUrl": "/images/spots/gen_青森_稲垣温泉/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "zaou-onsen",
+  "idx": 0,
+  "spotName": "蔵王温泉大露天風呂",
+  "imageUrl": "/images/spots/zaou-onsen/0.jpg",
+  "imageCredit": {
+   "author": "3503898",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB-%E7%8C%BF-%E6%97%A5%E6%9C%AC%E7%8C%BF-3892151/",
+   "attributionRequired": false
+  },
+  "tags": "アニマル, 猿, 日本猿, スノーモンキー, 温泉, 露天風呂, 入浴, 温浴効果, 美容, 湯治, ボス猿, 上下関係, 毛繕い, 日本, 長野県, 北信州, 自然, 湯田中渋温泉郷, 地獄谷野猿公苑, 観光名所, 旅行, 季節, 冬, 野性動物, 自然, 風景"
+ },
+ {
+  "destId": "hijori-onsen",
+  "idx": 2,
+  "spotName": "銅山川",
+  "imageUrl": "/images/spots/hijori-onsen/2.jpg",
+  "imageCredit": {
+   "author": "dep377",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%94%E9%A3%AF-%E8%BE%B2%E5%A0%B4-%E8%BE%B2%E6%A5%AD-%E5%B1%B1%E5%BD%A2-%E9%A2%A8%E6%99%AF-7480632/",
+   "attributionRequired": false
+  },
+  "tags": "ご飯, 農場, 農業, 山形, 風景, 田舎, アジア, 日本"
+ },
+ {
+  "destId": "kakeroma-island",
+  "idx": 0,
+  "spotName": "諸鈍長浜",
+  "imageUrl": "/images/spots/kakeroma-island/0.jpg",
+  "imageCredit": {
+   "author": "michael-cho",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B5%B7%E5%B2%B8-%E7%81%AF%E5%8F%B0-%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB-%E8%A6%B3%E5%85%89-6820201/",
+   "attributionRequired": false
+  },
+  "tags": "海岸, 灯台, トラベル, 観光, ジョドン港, 独島, 韓国, 自然, 海洋"
+ },
+ {
+  "destId": "awashima-island",
+  "idx": 2,
+  "spotName": "釜谷集落",
+  "imageUrl": "/images/spots/awashima-island/2.jpg",
+  "imageCredit": {
+   "author": "Tuor",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1%E3%81%AE%E9%9B%86%E8%90%BD-%E6%9D%91-%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9-%E5%B1%B1-6607314/",
+   "attributionRequired": false
+  },
+  "tags": "山の集落, 村, アルプス, 山, 牧草地, 自然, 風景, 谷"
+ },
+ {
+  "destId": "saiki",
+  "idx": 0,
+  "spotName": "やよいの里",
+  "imageUrl": "/images/spots/saiki/0.jpg",
+  "imageCredit": {
+   "author": "7060673",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%83%87%E3%83%BC%E3%81%AE%E8%83%8C%E6%99%AF-%E3%82%AB%E3%83%83%E3%83%97%E3%83%AB-3098951/",
+   "attributionRequired": false
+  },
+  "tags": "バレンタインデーの背景, カップル, ビーチ, 歩く, 所蔵の手, 自然, 海, 屋外, 人里離れたビーチ, 風景, 楽しんで"
+ },
+ {
+  "destId": "uradome",
+  "idx": 1,
+  "spotName": "城原海岸",
+  "imageUrl": "/images/spots/uradome/1.jpg",
+  "imageCredit": {
+   "author": "ELG21",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9F%8E-%E3%83%93%E3%83%BC%E3%83%81-%E6%B5%B7-%E6%B5%B7%E5%B2%B8-%E4%BA%BA-7705682/",
+   "attributionRequired": false
+  },
+  "tags": "城, ビーチ, 自然, 海, 海岸, 人, 雲, ペニスコラ, スペイン, 休日, 風景"
+ },
+ {
+  "destId": "minami-tokushima",
+  "idx": 2,
+  "spotName": "薬王寺",
+  "imageUrl": "/images/spots/minami-tokushima/2.jpg",
+  "imageCredit": {
+   "author": "masaushi",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3-%E3%83%95%E3%83%B3%E3%83%9C%E3%83%AB%E3%83%88-%E6%8C%AF%E3%82%8A%E5%90%91%E3%81%8F-9540780/",
+   "attributionRequired": false
+  },
+  "tags": "ペンギン, フンボルト, 振り向く, 鳥, 自然, 飛べない, 春, 日本, 徳山"
+ },
+ {
+  "destId": "ogijima",
+  "idx": 2,
+  "spotName": "オンバ・ファクトリー",
+  "imageUrl": "/images/spots/ogijima/2.jpg",
+  "imageCredit": {
+   "author": "dvuemedia",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%88-%E6%97%A5%E9%A3%9F-%E5%A4%A9%E6%96%87%E5%AD%A6-%E5%A4%9C-%E6%9C%88%E5%85%89-2123120/",
+   "attributionRequired": false
+  },
+  "tags": "月, 日食, 天文学, 夜, 月光, black moon, ガリレオファクトリー"
+ },
+ {
+  "destId": "sanagijima",
+  "idx": 0,
+  "spotName": "飛び猫スポット",
+  "imageUrl": "/images/spots/sanagijima/0.jpg",
+  "imageCredit": {
+   "author": "fotshot",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%81%E3%83%BC%E3%82%BF%E3%83%BC-%E7%8C%AB-%E9%87%8E%E7%94%9F%E3%81%AE%E7%8C%AB-448901/",
+   "attributionRequired": false
+  },
+  "tags": "チーター, 猫, 野生の猫, 大きな猫, 野生動物, 動物, 斑点のある毛皮, 肖像画, ペット, 動物園, 野生, 捕食者, 自然, スポット, 毛皮, コート, 顔, 頭, ひげ"
+ },
+ {
+  "destId": "mitsuminejinja",
+  "idx": 1,
+  "spotName": "妙法ヶ岳",
+  "imageUrl": "/images/spots/mitsuminejinja/1.jpg",
+  "imageCredit": {
+   "author": "proman9981",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A6%99%E6%B8%AF%E3%81%B8-%E5%9F%BC%E7%8E%89%E7%9C%8C-%E8%9F%B9-%E8%B5%A4%E3%81%BE%E3%81%A7-2563112/",
+   "attributionRequired": false
+  },
+  "tags": "香港へ, 埼玉県, 蟹, 赤まで"
+ },
+ {
+  "destId": "taro",
+  "idx": 2,
+  "spotName": "田老観光ホテル跡",
+  "imageUrl": "/images/spots/taro/2.jpg",
+  "imageCredit": {
+   "author": "ManuelaJaeger",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%9B%E3%83%86%E3%83%AB-%E3%83%9B%E3%83%86%E3%83%AB%E5%AE%A2%E5%AE%A4-%E5%AE%B6-%E8%A3%85%E9%A3%BE-1749602/",
+   "attributionRequired": false
+  },
+  "tags": "ホテル, ホテル客室, 家, 装飾, リラックス, ムード, 部屋, ベッド, ダブルベッド, 観光客, 私室, ホテル, ホテル, ホテル, ホテル, 部屋, 部屋, 部屋, 部屋, 部屋, ベッド, ベッド"
+ },
+ {
+  "destId": "shimekappu",
+  "idx": 1,
+  "spotName": "ミルキーウェイ",
+  "imageUrl": "/images/spots/shimekappu/1.jpg",
+  "imageCredit": {
+   "author": "Compose_the_Seen",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%98%9F%E7%A9%BA-%E5%87%BA%E6%BC%94%E8%80%85-%E5%A4%9C%E7%A9%BA-%E8%87%AA%E7%84%B6-10222199/",
+   "attributionRequired": false
+  },
+  "tags": "星空, 出演者, 夜空, 自然, 孤独, 銀河, 宇宙, スペース, 天文学, 木, 夜, 天の川, 風景, キャンプ, 暗い, 屋外, ライト, 広がり"
+ },
+ {
+  "destId": "aji-peninsula",
+  "idx": 1,
+  "spotName": "庵治漁港",
+  "imageUrl": "/images/spots/aji-peninsula/1.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "shionoe",
+  "idx": 2,
+  "spotName": "鵜の瀬不動",
+  "imageUrl": "/images/spots/shionoe/2.jpg",
+  "imageCredit": {
+   "author": "K-Vlogger",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%B3%A5-%E9%B5%9C-%E5%8B%95%E7%89%A9-%E8%87%AA%E7%84%B6-8022869/",
+   "attributionRequired": false
+  },
+  "tags": "鳥, 鵜, 動物, 自然"
+ },
+ {
+  "destId": "gonosen",
+  "idx": 3,
+  "spotName": "深浦",
+  "imageUrl": "/images/spots/gonosen/3.jpg",
+  "imageCredit": {
+   "author": "Pexels",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A3%AE%E6%9E%97-%E9%81%93-%E9%87%9D%E8%91%89%E6%A8%B9-%E7%92%B0%E5%A2%83-%E7%A7%8B-2179318/",
+   "attributionRequired": false
+  },
+  "tags": "森林, 道, 針葉樹, 環境, 秋, 霧, ヘイズ, 自然, 風景, 靄, 森, 木, ハイキング, 青森, 青い風景, ブルーツリー, 青パス"
+ },
+ {
+  "destId": "uryunuma",
+  "idx": 2,
+  "spotName": "ゲートパーク",
+  "imageUrl": "/images/spots/uryunuma/2.jpg",
+  "imageCredit": {
+   "author": "lfrankbaum",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BA%E5%85%89%E3%83%80%E3%83%AA%E3%82%A2-%E3%83%80%E3%83%AA%E3%82%A2-2098712/",
+   "attributionRequired": false
+  },
+  "tags": "発光ダリア, ダリア, ゴールデンゲートパーク"
+ },
+ {
+  "destId": "chokai-san",
+  "idx": 2,
+  "spotName": "鉾立展望台",
+  "imageUrl": "/images/spots/chokai-san/2.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "chinen-misaki",
+  "idx": 1,
+  "spotName": "久高島の眺め",
+  "imageUrl": "/images/spots/chinen-misaki/1.jpg",
+  "imageCredit": {
+   "author": "u_o3e5v42biz",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B5%B7%E3%81%AE%E7%9C%BA%E3%82%81-%E6%B5%B7-%E6%B5%B7%E6%B4%8B-%E8%87%AA%E7%84%B6-%E5%B1%B1-8838022/",
+   "attributionRequired": false
+  },
+  "tags": "海の眺め, 海, 海洋, 自然, 山, 波, 1人, 海岸, 崖"
+ },
+ {
+  "destId": "kudakajima",
+  "idx": 1,
+  "spotName": "フボー御嶽",
+  "imageUrl": "/images/spots/kudakajima/1.jpg",
+  "imageCredit": {
+   "author": "LukeL",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AF%8C%E5%A3%AB%E5%B1%B1-%E6%97%A5%E6%9C%AC-4751462/",
+   "attributionRequired": false
+  },
+  "tags": "富士山, 日本, 御岳ビジターセンターほか, 高尾山, 率引き上げ, 日没, 風景, 山脈, ミステリー, ネイチャー, 冒険, 山, 観光, 日本語, 東京, トラベル, 富士山, 富士山, 富士山, 高尾山, 高尾山, 高尾山, 高尾山, 高尾山"
+ },
+ {
+  "destId": "tonaki",
+  "idx": 1,
+  "spotName": "ハテノ浜",
+  "imageUrl": "/images/spots/tonaki/1.jpg",
+  "imageCredit": {
+   "author": "Peggy_Marco",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%B2%A1-%E3%83%90%E3%83%AC%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%AB-%E3%83%93%E3%83%BC%E3%83%81-5560658/",
+   "attributionRequired": false
+  },
+  "tags": "日没, バレーボール, ビーチ, 自然, シルエット, 浜のバレーボール, スポーツ, 遊ぶ, ゴールデンアワー, 太陽, 日光, 海岸, 海, 海洋, 余暇, 休暇, 人"
+ },
+ {
+  "destId": "kitadaitojima",
+  "idx": 2,
+  "spotName": "ジャネーガマ",
+  "imageUrl": "/images/spots/kitadaitojima/2.jpg",
+  "imageCredit": {
+   "author": "JordyMeow",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B0%B4%E6%97%8F%E9%A4%A8-%E3%82%B5%E3%83%A1-%E6%B2%96%E7%B8%84-%E6%97%A5%E6%9C%AC-725798/",
+   "attributionRequired": false
+  },
+  "tags": "水族館, サメ, 沖縄, 日本, 魚の水槽, 動物, 海洋生物, 自然, 人, 群衆, 水族館, 水族館, 水族館, 水族館, 水族館, 沖縄"
+ },
+ {
+  "destId": "sakushima",
+  "idx": 1,
+  "spotName": "アート作品群",
+  "imageUrl": "/images/spots/sakushima/1.jpg",
+  "imageCredit": {
+   "author": "jashmingg",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E9%99%B6%E8%8A%B8-%E9%99%B6%E5%99%A8-%E9%99%B6%E7%A3%81%E5%99%A8-5276736/",
+   "attributionRequired": false
+  },
+  "tags": "クラフト, 陶芸, 陶器, 陶磁器, アート, 作品, ホビー, 生涯学習, 成人学習, 陶芸家, 陶芸, 陶芸, 陶芸, 陶芸, 陶芸"
+ },
+ {
+  "destId": "hatoma-island",
+  "idx": 2,
+  "spotName": "ヒナイ崎",
+  "imageUrl": "/images/spots/hatoma-island/2.jpg",
+  "imageCredit": {
+   "author": "ochii_kai",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B2%B3%E5%8F%A3%E6%B9%96-%E6%B9%96-%E5%AF%8C%E5%A3%AB%E5%B1%B1-7412585/",
+   "attributionRequired": false
+  },
+  "tags": "河口湖, 湖, 富士山, 産屋ヶ崎神社, 日本, 自然, 風景, 河口湖, 富士山, 富士山, 富士山, 富士山, 富士山"
+ },
+ {
+  "destId": "izena-island",
+  "idx": 1,
+  "spotName": "ギタラ展望台",
+  "imageUrl": "/images/spots/izena-island/1.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "izumo-taisha",
+  "idx": 2,
+  "spotName": "うさぎ像",
+  "imageUrl": "/images/spots/izumo-taisha/2.jpg",
+  "imageCredit": {
+   "author": "jatocreate",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%8B%E3%83%BC-%E3%82%A6%E3%82%B5%E3%82%AE-%E3%83%90%E3%83%8D-5014814/",
+   "attributionRequired": false
+  },
+  "tags": "バニー, ウサギ, バネ, ベビーバニー, 赤ちゃんうさぎ, イースター, 野ウサギ, 動物, 可愛い, 自然, 草, 耳, 野生動物, うさぎ, 毛皮, 屋外, 愛らしい, ウサギ, うさぎ, うさぎ, うさぎ, うさぎ, うさぎ"
+ },
+ {
+  "destId": "hiruzen",
+  "idx": 1,
+  "spotName": "塩釜冷泉",
+  "imageUrl": "/images/spots/hiruzen/1.jpg",
+  "imageCredit": {
+   "author": "fsHH",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%89%A9%E8%AA%9E-%E7%BD%AB%E7%B7%9A-%E3%83%99%E3%83%AB%E3%83%AA%E3%83%B3-%E6%9D%B1%E3%83%89%E3%82%A4%E3%83%84-1673744/",
+   "attributionRequired": false
+  },
+  "tags": "物語, 罫線, ベルリン, 東ドイツ, 歴史的, 冷戦"
+ },
+ {
+  "destId": "hiruzen",
+  "idx": 2,
+  "spotName": "GREENable HIRUZEN",
+  "imageUrl": "/images/spots/hiruzen/2.jpg",
+  "imageCredit": {
+   "author": "anatoliachy",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B2%A1%E5%B1%B1%E5%9F%8E-%E5%B2%A1%E5%B1%B1-%E6%97%A5%E6%9C%AC-2797852/",
+   "attributionRequired": false
+  },
+  "tags": "岡山城, 岡山, 日本, 岡山城, 岡山城, 岡山, 岡山, 岡山, 岡山, 岡山"
+ },
+ {
+  "destId": "yunogo",
+  "idx": 2,
+  "spotName": "美作三湯",
+  "imageUrl": "/images/spots/yunogo/2.jpg",
+  "imageCredit": {
+   "author": "Ri_Ya",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%AC-%E8%AA%AD%E3%82%80-%E3%83%AD%E3%83%BC%E3%82%BA-6668398/",
+   "attributionRequired": false
+  },
+  "tags": "本, 読む, ローズ, ラブストーリー, 小説, 放置, 美夕, 不機嫌そう, 居心地の良い, 本の物語, フリーライン, ビンテージ, ブックマーク, ブックカバー, 本棚, ロマンス, 知恵の書, バラの花, 情熱, 反射, 詩的, 日陰と光, 黄色いバラ, ハイライトされたページ, その時, 章"
+ },
+ {
+  "destId": "okutsu",
+  "idx": 0,
+  "spotName": "奥津渓",
+  "imageUrl": "/images/spots/okutsu/0.jpg",
+  "imageCredit": {
+   "author": "hssym",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%AF%E6%B8%93%E5%8C%BA-%E6%81%B5%E5%B7%9E-%E6%A9%8B-%E5%B1%AF%E6%B8%93-%E4%B8%AD%E5%9B%BD-7854510/",
+   "attributionRequired": false
+  },
+  "tags": "屯渓区, 自然, 恵州, 橋, 屯渓, 中国, 湖"
+ },
+ {
+  "destId": "okutsu",
+  "idx": 1,
+  "spotName": "足踏み洗濯",
+  "imageUrl": "/images/spots/okutsu/1.jpg",
+  "imageCredit": {
+   "author": "analogicus",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B4%97%E6%BF%AF%E3%83%90%E3%82%B5%E3%83%9F-%E7%89%A9%E5%B9%B2%E3%81%97-%E3%82%AB%E3%83%A9%E3%83%95%E3%83%AB-3687611/",
+   "attributionRequired": false
+  },
+  "tags": "洗濯バサミ, 物干し, カラフル, 洗濯物干しロープ, ロープ, 下がる, クリップ, プラスチック, 閉じる"
+ },
+ {
+  "destId": "fukiya",
+  "idx": 0,
+  "spotName": "ベンガラの町並み",
+  "imageUrl": "/images/spots/fukiya/0.jpg",
+  "imageCredit": {
+   "author": "ignartonosbg",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%99%E3%83%B3%E3%82%AC%E3%83%A9%E3%83%88%E3%83%A9-%E8%99%8E-%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0-8041102/",
+   "attributionRequired": false
+  },
+  "tags": "ベンガラトラ, 虎, クライミング, 野生動物"
+ },
+ {
+  "destId": "nagi-okayama",
+  "idx": 1,
+  "spotName": "滝山キャンプ場",
+  "imageUrl": "/images/spots/nagi-okayama/1.jpg",
+  "imageCredit": {
+   "author": "ignartonosbg",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97-8260968/",
+   "attributionRequired": false
+  },
+  "tags": "グラウンドキャンプ, ファミリーキャンプ, ピクニック, テント, キャンプ場, 休暇, キャンプ, キャンプ場, キャンプ場, キャンプ, キャンプ, キャンプ, キャンプ, キャンプ"
+ },
+ {
+  "destId": "ogawa-saitama",
+  "idx": 0,
+  "spotName": "和紙の里",
+  "imageUrl": "/images/spots/ogawa-saitama/0.jpg",
+  "imageCredit": {
+   "author": "Kathy_Büscher",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%89%E3%83%A9%E3%83%BC-%E9%B7%B2-%E9%B3%A5-%E3%82%AA%E3%82%B8%E3%83%AD%E3%83%AF%E3%82%B7-2386314/",
+   "attributionRequired": false
+  },
+  "tags": "アドラー, 鷲, 鳥, オジロワシ, 白頭ワシ, ラプター, 自然, 動物, ワシの頭, 肖像画, 羽毛, 羽, 荒野, 野生動物, 動物の世界, 野生動物の写真, 鷲, 鷲, 鳥, 動物, 動物, 動物, 動物, 動物"
+ },
+ {
+  "destId": "katsuoji",
+  "idx": 1,
+  "spotName": "ダルマ群",
+  "imageUrl": "/images/spots/katsuoji/1.jpg",
+  "imageCredit": {
+   "author": "kalyanayahaluwo",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%9E%91%E6%83%B3-%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%83%95%E3%83%AB%E3%83%8D%E3%82%B9-%E5%A5%B3%E3%81%AE%E5%AD%90-7528123/",
+   "attributionRequired": false
+  },
+  "tags": "瞑想, マインドフルネス, 女の子, ダルマ, 落ち着いて, スリランカ, 幼稚園, 子供達, 子供, 宗教, 瞑想, マインドフルネス, マインドフルネス, マインドフルネス, マインドフルネス, マインドフルネス, 子供"
+ },
+ {
+  "destId": "sennan",
+  "idx": 2,
+  "spotName": "岬町漁業協同組合",
+  "imageUrl": "/images/spots/sennan/2.jpg",
+  "imageCredit": {
+   "author": "4238124",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B2%AC%E7%B5%84%E5%90%88-%E3%82%A2%E3%83%83%E3%83%86%E3%82%A3%E3%82%AB-%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3%E8%AA%9E-4141136/",
+   "attributionRequired": false
+  },
+  "tags": "岬組合, アッティカ, ギリシャ語, sunio"
+ },
+ {
+  "destId": "takatsuki",
+  "idx": 2,
+  "spotName": "高槻ジャズストリート",
+  "imageUrl": "/images/spots/takatsuki/2.jpg",
+  "imageCredit": {
+   "author": "Alexas_Fotos",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%81%E3%82%A7%E3%83%AD-%E9%9F%B3%E6%A5%BD%E5%AE%B6-%E9%9F%B3%E6%A5%BD-7219171/",
+   "attributionRequired": false
+  },
+  "tags": "チェロ, 音楽家, 音楽, ストリート アーティスト, ストリートミュージシャン, 楽器, チェロ, チェロ, チェロ, チェロ, チェロ, 楽器"
+ },
+ {
+  "destId": "imari",
+  "idx": 2,
+  "spotName": "伊万里牛",
+  "imageUrl": "/images/spots/imari/2.jpg",
+  "imageCredit": {
+   "author": "FrankyFromGermany",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%89%9B-%E5%8B%95%E7%89%A9-%E7%89%A7%E8%8D%89%E5%9C%B0-%E3%83%8F%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89%E7%89%9B-192976/",
+   "attributionRequired": false
+  },
+  "tags": "牛, 動物, 牧草地, ハイランド牛, 肉用牛, 哺乳動物, 家畜, 自然, スコットランド, 牛, 牛, 牛, 牛, 牛"
+ },
+ {
+  "destId": "echizen-pottery",
+  "idx": 2,
+  "spotName": "越前焼工房",
+  "imageUrl": "/images/spots/echizen-pottery/2.jpg",
+  "imageCredit": {
+   "author": "PIRO4D",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B5%E3%83%89%E3%83%AB-%E8%87%AA%E8%BB%A2%E8%BB%8A%E3%82%B5%E3%83%89%E3%83%AB-2614038/",
+   "attributionRequired": false
+  },
+  "tags": "サドル, 自転車サドル, レザーサドル, サスペンション, 手仕事, レザー, 春, 工房, 詳細, 郷愁, 快適, 日焼けした, 撃墜, 中古, を撤回し, サスペンション, 春, 春, 春, 春, 春, 中古"
+ },
+ {
+  "destId": "toyama-glass",
+  "idx": 2,
+  "spotName": "富山中央通り",
+  "imageUrl": "/images/spots/toyama-glass/2.jpg",
+  "imageCredit": {
+   "author": "NoName_13",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%AD%E5%A4%AE%E9%A7%85-%E9%89%84%E9%81%93%E9%A7%85-%E5%88%97%E8%BB%8A-%E3%82%B1%E3%83%AB%E3%83%B3-1527780/",
+   "attributionRequired": false
+  },
+  "tags": "中央駅, 鉄道駅, 列車, ケルン, ケルン中央駅, 鉄道, レール, 鉄道線路, 鉄道交通, 線路, 出発, シフトを傾ける, 列車, 列車, 列車, 鉄道, 鉄道, 鉄道, 鉄道, 鉄道, 線路"
+ },
+ {
+  "destId": "hakushu",
+  "idx": 1,
+  "spotName": "尾白川渓谷",
+  "imageUrl": "/images/spots/hakushu/1.jpg",
+  "imageCredit": {
+   "author": "the_p_adventure",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E6%B8%93%E8%B0%B7-%E5%96%89-%E8%87%AA%E7%84%B6-4741994/",
+   "attributionRequired": false
+  },
+  "tags": "山, 渓谷, 喉, 自然, フィールド, 風景, 空, 雲, 野蛮, 川, シーン, ボケ"
+ },
+ {
+  "destId": "hayakawa",
+  "idx": 0,
+  "spotName": "赤沢宿",
+  "imageUrl": "/images/spots/hayakawa/0.jpg",
+  "imageCredit": {
+   "author": "NguyenGianga2",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%81%93-%E8%A1%97-%E5%BB%BA%E7%89%A9-%E6%97%A7%E5%B8%82%E8%A1%97-%E6%97%A5%E6%9C%AC-7704729/",
+   "attributionRequired": false
+  },
+  "tags": "道, 街, 建物, 旧市街, 日本, 馬籠宿, 妻籠宿, トラベル, 冬, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "hayakawa",
+  "idx": 1,
+  "spotName": "奈良田の七不思議",
+  "imageUrl": "/images/spots/hayakawa/1.jpg",
+  "imageCredit": {
+   "author": "realsmarthome",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%87%E9%87%8C%E3%81%AE%E9%95%B7%E5%9F%8E-%E4%B8%AD%E5%9B%BD-%E8%A6%B3%E5%85%89-%E5%8C%97%E4%BA%AC-2030311/",
+   "attributionRequired": false
+  },
+  "tags": "万里の長城, 中国, 観光, 北京, 壁, 世界の七不思議, 万里の長城, 万里の長城, 万里の長城, 万里の長城, 万里の長城"
+ },
+ {
+  "destId": "hayakawa",
+  "idx": 2,
+  "spotName": "南アルプスの天然水",
+  "imageUrl": "/images/spots/hayakawa/2.jpg",
+  "imageCredit": {
+   "author": "rottonara",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E9%9C%A7-%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9-%E3%83%89%E3%83%AD%E3%83%9F%E3%83%86-8387889/",
+   "attributionRequired": false
+  },
+  "tags": "山, 霧, アルプス, ドロミテ, イタリア, 南チロル, 自然, 風景"
+ },
+ {
+  "destId": "iwaki-spa",
+  "idx": 2,
+  "spotName": "勿来の関",
+  "imageUrl": "/images/spots/iwaki-spa/2.jpg",
+  "imageCredit": {
+   "author": "newtjitsu",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%98%89%E5%B3%AA%E9%96%A2-%E5%9F%8E-%E4%B8%AD%E5%9B%BD-6464513/",
+   "attributionRequired": false
+  },
+  "tags": "嘉峪関, 城, 中国, 嘉峪関万里の長城, 要塞, 歴史的, アーキテクチャ, 観光の名所"
+ },
+ {
+  "destId": "miyama-kayabuki",
+  "idx": 2,
+  "spotName": "由良川",
+  "imageUrl": "/images/spots/miyama-kayabuki/2.jpg",
+  "imageCredit": {
+   "author": "rmsep4",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%A1%97-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E5%A4%9C-%E6%97%A5%E6%9C%AC-%E4%BA%AC%E9%83%BD-4942809/",
+   "attributionRequired": false
+  },
+  "tags": "街, 自転車, 夜, 日本, 京都, 近所, 日本, 日本, 京都, 京都, 京都, 京都, 京都"
+ },
+ {
+  "destId": "keihoku",
+  "idx": 2,
+  "spotName": "黒田の百年桜",
+  "imageUrl": "/images/spots/keihoku/2.jpg",
+  "imageCredit": {
+   "author": "Hans",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A1%9C%E3%81%AE%E8%8A%B1-%E6%97%A5%E6%9C%AC%E3%81%AE%E6%A1%9C-%E5%8C%82%E3%81%84-%E8%8A%B1-1260641/",
+   "attributionRequired": false
+  },
+  "tags": "桜の花, 日本の桜, 匂い, 花, ブルーム, 観賞用チェリー, バネ, ピンク, プルナスの serrulata, 観賞植物, オリエンタルチェリー, 東アジアの桜, grannenkirsche, サクラ属, バラ, バラ科, 開花枝, 支店, 木, つぼみ, 吉野の桜, 自然, 桜の木, 日本の文化, 日本, 伝統"
+ },
+ {
+  "destId": "takeda-castle",
+  "idx": 2,
+  "spotName": "虎臥城公園",
+  "imageUrl": "/images/spots/takeda-castle/2.jpg",
+  "imageCredit": {
+   "author": "garten-gg",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%99%8E-%E9%A0%AD-%E9%A1%94-%E7%8C%AB-%E9%87%8E%E7%94%9F%E3%81%AE%E7%8C%AB-2923186/",
+   "attributionRequired": false
+  },
+  "tags": "虎, 頭, 顔, 猫, 野生の猫, 大きな猫, ペット, 動物, アムールトラ, 自然, 捕食者, 危険な, シベリアトラ, 虎の頭, 虎の肖像画, 動物の肖像画, 孤立, ひげ, 鼻"
+ },
+ {
+  "destId": "hitoyoshi-onsen",
+  "idx": 2,
+  "spotName": "球磨川下り",
+  "imageUrl": "/images/spots/hitoyoshi-onsen/2.jpg",
+  "imageCredit": {
+   "author": "Surprising_Media",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A5%B3%E3%81%AE%E5%AD%90-%E3%82%AB%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-%E9%9A%8E%E6%AE%B5-%E4%B8%8B%E3%82%8A-8852892/",
+   "attributionRequired": false
+  },
+  "tags": "女の子, カジュアル, 階段, 下り, 公園, サングラス, 自然, リラクゼーション"
+ },
+ {
+  "destId": "nichinan-coast",
+  "idx": 2,
+  "spotName": "サンメッセ日南",
+  "imageUrl": "/images/spots/nichinan-coast/2.jpg",
+  "imageCredit": {
+   "author": "jarmoluk",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9C%B0%E5%9B%B3-%E5%9C%9F%E5%9C%B0-%E5%8D%97%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB-%E5%9C%B0%E7%90%86-428639/",
+   "attributionRequired": false
+  },
+  "tags": "地図, 土地, 南アメリカ, 地理, 大陸, 地球"
+ },
+ {
+  "destId": "niigata-city",
+  "idx": 1,
+  "spotName": "白山神社",
+  "imageUrl": "/images/spots/niigata-city/1.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%86%8A%E6%9C%AC-%E7%A5%9E%E7%A4%BE-%E6%B5%B7-530348/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 熊本, 神社, 海, 長尾神社, 自然, 雲, 空, アジア"
+ },
+ {
+  "destId": "rebun-no-tour",
+  "idx": 0,
+  "spotName": "礼文岳",
+  "imageUrl": "/images/spots/rebun-no-tour/0.jpg",
+  "imageCredit": {
+   "author": "ChiemSeherin",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%B9%BF-%E5%8C%97%E6%B5%B7%E9%81%93%E3%83%8B%E3%83%9B%E3%83%B3%E3%82%B8%E3%82%AB-%E3%83%8B%E3%83%9B%E3%83%B3%E3%82%B8%E3%82%AB-9214838/",
+   "attributionRequired": false
+  },
+  "tags": "鹿, 北海道ニホンジカ, ニホンジカ, レッド ・ ディア, 哺乳類, 枝角, 野生動物, 野生, 灯台, 海岸, 風景, 北海道, 日本"
+ },
+ {
+  "destId": "senjojiki-aomori",
+  "idx": 1,
+  "spotName": "白神山地",
+  "imageUrl": "/images/spots/senjojiki-aomori/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%A7%8B-%E5%B1%B1-%E7%99%BD%E7%A5%9E%E5%B1%B1%E5%9C%B0-%E6%A3%AE%E6%9E%97-%E4%B8%98-2183489/",
+   "attributionRequired": false
+  },
+  "tags": "秋, 山, 白神山地, 森林, 丘, 風景, 太陽光線, 日光, 山脈, 山岳地帯, 山の風景, 自然, 田舎, 秋, 山, 山, 山, 山, 山"
+ },
+ {
+  "destId": "zao-snow-monsters",
+  "idx": 1,
+  "spotName": "地蔵山",
+  "imageUrl": "/images/spots/zao-snow-monsters/1.jpg",
+  "imageCredit": {
+   "author": "dep377",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%94%E9%A3%AF-%E8%BE%B2%E5%A0%B4-%E8%BE%B2%E6%A5%AD-%E5%B1%B1%E5%BD%A2-%E9%A2%A8%E6%99%AF-7480632/",
+   "attributionRequired": false
+  },
+  "tags": "ご飯, 農場, 農業, 山形, 風景, 田舎, アジア, 日本"
+ },
+ {
+  "destId": "mogami-funakudari",
+  "idx": 2,
+  "spotName": "義経弁慶コース",
+  "imageUrl": "/images/spots/mogami-funakudari/2.jpg",
+  "imageCredit": {
+   "author": "HeungSoon",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B4%E3%83%AB%E3%83%95-%E3%82%B4%E3%83%AB%E3%83%95-%E3%83%9C%E3%83%BC%E3%83%AB-2571826/",
+   "attributionRequired": false
+  },
+  "tags": "ゴルフ, ゴルフ ・ ボール, スポーツ, ゴルフ コース, ゴルフ, ゴルフ, ゴルフ, ゴルフ, ゴルフ"
+ },
+ {
+  "destId": "soma-noma",
+  "idx": 2,
+  "spotName": "野馬追通り",
+  "imageUrl": "/images/spots/soma-noma/2.jpg",
+  "imageCredit": {
+   "author": "PublicDomainPictures",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%B7%AF%E5%9C%B0-%E8%A1%97-%E5%A4%9C-%E5%B8%82-%E9%83%BD%E5%B8%82-89197/",
+   "attributionRequired": false
+  },
+  "tags": "路地, 街, 夜, 市, 都市, 通りの明かり, 街路灯, 石畳, 暗い, イングランド, 街, 街, 夜, 夜, 夜, 夜, 夜"
+ },
+ {
+  "destId": "nakasendo-tsumago",
+  "idx": 2,
+  "spotName": "和智埜神社",
+  "imageUrl": "/images/spots/nakasendo-tsumago/2.jpg",
+  "imageCredit": {
+   "author": "ogamiichiro3",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%9B%E3%82%93%E3%81%BC%E3%82%93%E3%81%A8%E3%82%8A%E3%81%84-%E9%B3%A5%E5%B1%85-%E6%97%A5%E6%9C%AC%E4%BA%BA%E5%A5%B3%E6%80%A7-6389421/",
+   "attributionRequired": false
+  },
+  "tags": "せんぼんとりい, 鳥居, 日本人女性, 日本, 千鳥居, 赤い門, 神社, 道, 歩道, 京和傘, 着物, 京都, 鳥居, 日本, 日本, 神社, 神社, 神社, 神社, 神社, 着物, 着物, 着物, 着物, 京都, 京都, 京都"
+ },
+ {
+  "destId": "wajima-asaichi",
+  "idx": 2,
+  "spotName": "千枚田",
+  "imageUrl": "/images/spots/wajima-asaichi/2.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%A9%E3%82%A4%E3%82%B9-%E3%83%86%E3%83%A9%E3%82%B9-%E6%97%A5%E6%B2%A1-%E5%B1%B1-2389023/",
+   "attributionRequired": false
+  },
+  "tags": "ライス テラス, 日没, 山, 田んぼ, 農場, 農業, 稲作農家, プランテーション, 風景, 自然, 丸山千枚田, 日本, パノラマ, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "kibune-kurama",
+  "idx": 1,
+  "spotName": "奥の院",
+  "imageUrl": "/images/spots/kibune-kurama/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E5%86%AC-%E9%9B%AA-%E6%A8%B9%E6%9C%A8-%E5%9B%9E%E5%BB%8A-4861153/",
+   "attributionRequired": false
+  },
+  "tags": "風景, 冬, 雪, 樹木, 自然, 回廊, 霊場, 仏教, 高野山奥の院, 世界文化遺産, 和歌山県, 日本"
+ },
+ {
+  "destId": "koshien",
+  "idx": 1,
+  "spotName": "歴史館",
+  "imageUrl": "/images/spots/koshien/1.jpg",
+  "imageCredit": {
+   "author": "thegermankid",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A6%AC%E8%A1%93-%E8%B6%85%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB-%E9%8A%85%E5%83%8F-3852353/",
+   "attributionRequired": false
+  },
+  "tags": "馬術, 超高層ビル, 銅像, プラザ独立歴史館, 独立, ウルグアイ, モンテビデオ"
+ },
+ {
+  "destId": "kobe-port",
+  "idx": 1,
+  "spotName": "モザイク",
+  "imageUrl": "/images/spots/kobe-port/1.jpg",
+  "imageCredit": {
+   "author": "GLady",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%9D%B6-%E8%99%AB-%E5%8B%95%E7%89%A9-43476/",
+   "attributionRequired": false
+  },
+  "tags": "蝶, 虫, 動物, ダースビューティー, ゼブラモザイク, モザイク蝶, コロブラ・ダース, 動物相, 自然, 閉じる"
+ },
+ {
+  "destId": "narita",
+  "idx": 1,
+  "spotName": "成田参道",
+  "imageUrl": "/images/spots/narita/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9D%89%E3%81%AE%E6%9C%A8-%E6%88%B8%E9%9A%A0%E7%A5%9E%E7%A4%BE%E5%A5%A5%E7%A4%BE%E5%8F%82%E9%81%93-%E6%97%A5%E6%9C%AC-8393833/",
+   "attributionRequired": false
+  },
+  "tags": "杉の木, 戸隠神社奥社参道, 日本, 風景"
+ },
+ {
+  "destId": "aharen",
+  "idx": 1,
+  "spotName": "阿波連園地",
+  "imageUrl": "/images/spots/aharen/1.jpg",
+  "imageCredit": {
+   "author": "lin2015",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%AD%E5%9B%BD-%E8%B2%B4%E5%B7%9E-%E8%B2%B4%E9%99%BD-%E8%8A%B1%E3%81%AE%E5%9C%92-2934134/",
+   "attributionRequired": false
+  },
+  "tags": "中国, 貴州, 貴陽, 花の園, 花の園地, 花園、ホワイトハウス, シティ, 夜景, 花のオーチャードで泊, 建物, 夜, 花園湿地公園"
+ },
+ {
+  "destId": "omiya-bonsai",
+  "idx": 0,
+  "spotName": "世界盆栽美術館",
+  "imageUrl": "/images/spots/omiya-bonsai/0.jpg",
+  "imageCredit": {
+   "author": "LUCA_Finardi",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%9B%86%E6%A0%BD-%E6%A4%8D%E7%89%A9-%E3%83%9D%E3%83%83%E3%83%88-%E6%9C%A8-6114252/",
+   "attributionRequired": false
+  },
+  "tags": "盆栽, 植物, 自然, ポット, 木, 葉っぱ, 装飾"
+ },
+ {
+  "destId": "moroyama-saito",
+  "idx": 1,
+  "spotName": "高麗川",
+  "imageUrl": "/images/spots/moroyama-saito/1.jpg",
+  "imageCredit": {
+   "author": "proman9981",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A6%99%E6%B8%AF%E3%81%B8-%E5%9F%BC%E7%8E%89%E7%9C%8C-%E8%9F%B9-%E8%B5%A4%E3%81%BE%E3%81%A7-2563112/",
+   "attributionRequired": false
+  },
+  "tags": "香港へ, 埼玉県, 蟹, 赤まで"
+ },
+ {
+  "destId": "moroyama-saito",
+  "idx": 2,
+  "spotName": "聖天院",
+  "imageUrl": "/images/spots/moroyama-saito/2.jpg",
+  "imageCredit": {
+   "author": "bk_advtravlr",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%9F%B3%E6%A5%BD%E9%99%A2-%E6%A4%8D%E7%89%A9-%E6%B8%A9%E5%AE%A4-%E6%9C%A8-%E5%85%AC%E5%9C%92-4161955/",
+   "attributionRequired": false
+  },
+  "tags": "音楽院, 植物, 温室, 木, 公園, 自然, エコ, 園芸, 生態系, ガラス家, 環境, エコロジー, 農業, 六角形, トロピカル, アーキテクチャ, 保全, 温室, 温室, 温室, 温室, 温室"
+ },
+ {
+  "destId": "yutoku-inari",
+  "idx": 2,
+  "spotName": "上の境内",
+  "imageUrl": "/images/spots/yutoku-inari/2.jpg",
+  "imageCredit": {
+   "author": "a_m_o_u_t_o_n",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%8F%E3%82%A8%E3%83%88%E3%83%AA%E3%82%B0%E3%83%A2-%E3%82%AF%E3%83%A2%E9%A1%9E-%E3%82%AF%E3%83%A2-7537467/",
+   "attributionRequired": false
+  },
+  "tags": "ハエトリグモ, クモ類, クモ, 昆虫, 葉の上のクモ, 自然, ジャンピング, 可愛い, 緑, マクロ, 葉, 葉っぱ"
+ },
+ {
+  "destId": "saga-arima",
+  "idx": 2,
+  "spotName": "佐賀イカ",
+  "imageUrl": "/images/spots/saga-arima/2.jpg",
+  "imageCredit": {
+   "author": "T_Kohei",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC%E3%81%AE%E6%A1%9C%E3%81%AE%E8%8A%B1-%E7%99%BD%E3%81%84-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%82%BA-6125088/",
+   "attributionRequired": false
+  },
+  "tags": "日本の桜の花, 白い, フラワーズ, 美しい花, 木, 枝, 花, 桜, ブルーム, 白い花, さくら, フローラ, 桜の木, バネ, 春のシーズン, 花びら, 白い花びら, 花の背景, 自然, 花の壁紙, 佐賀城, 佐賀市"
+ },
+ {
+  "destId": "soni-kogen",
+  "idx": 1,
+  "spotName": "屛風岩",
+  "imageUrl": "/images/spots/soni-kogen/1.jpg",
+  "imageCredit": {
+   "author": "elizabethannphotolv",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E8%B5%A4%E3%81%84%E5%B2%A9-%E3%82%AD%E3%83%A3%E3%83%8B%E3%82%AA%E3%83%B3-%E5%B4%96-1303620/",
+   "attributionRequired": false
+  },
+  "tags": "山, 赤い岩, キャニオン, 崖, 岩層, 岩の崖, 侵食, バッドランズ, 急, ラスベガス, デザート, 岩, ネバダ, 自然, 風景, 砂岩, 風光明媚な, 地質学, 屋外, 乾燥, 崖, 崖, 岩, 岩, 岩, 岩, 岩"
+ },
+ {
+  "destId": "tottori-sakyu-2",
+  "idx": 1,
+  "spotName": "鳥取砂丘",
+  "imageUrl": "/images/spots/tottori-sakyu-2/1.jpg",
+  "imageCredit": {
+   "author": "shijimi",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%B3%A5%E5%8F%96%E7%A0%82%E4%B8%98-%E6%B8%A9%E6%B3%89-%E6%97%85%E8%A1%8C-706187/",
+   "attributionRequired": false
+  },
+  "tags": "鳥取砂丘, 温泉, 旅行, 鳥取砂丘, 鳥取砂丘, 鳥取砂丘, 鳥取砂丘, 鳥取砂丘"
+ },
+ {
+  "destId": "mizuki-shigeru-road",
+  "idx": 2,
+  "spotName": "妖怪ブロンズ像",
+  "imageUrl": "/images/spots/mizuki-shigeru-road/2.jpg",
+  "imageCredit": {
+   "author": "markus53",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BD%AB%E5%88%BB-%E9%8A%85%E5%83%8F-%E3%83%96%E3%83%AD%E3%83%B3%E3%82%BA%E5%BD%AB%E5%88%BB-%E6%B9%96%E7%95%94-507342/",
+   "attributionRequired": false
+  },
+  "tags": "彫刻, 銅像, ブロンズ彫刻, 湖畔, ブロンズ像, ボーデン湖, ローマンスホルン, スイス"
+ },
+ {
+  "destId": "mikuni-minato",
+  "idx": 0,
+  "spotName": "みくに龍翔館",
+  "imageUrl": "/images/spots/mikuni-minato/0.jpg",
+  "imageCredit": {
+   "author": "kokorocare",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AE%AE%E5%B4%8E-%E9%9D%92%E5%B3%B6-%E9%BE%8D-2470212/",
+   "attributionRequired": false
+  },
+  "tags": "宮崎, 青島, 龍, 龍, 龍, 龍, 龍, 龍"
+ },
+ {
+  "destId": "mikuni-minato",
+  "idx": 1,
+  "spotName": "三国港突堤",
+  "imageUrl": "/images/spots/mikuni-minato/1.jpg",
+  "imageCredit": {
+   "author": "Nordseher",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/kochelsee-%E6%97%A5%E6%B2%A1-9050376/",
+   "attributionRequired": false
+  },
+  "tags": "kochelsee, 日没, 水の反射, 木造の小屋, 背景の山々, のどかな風景, バイエルン湖, 夕方の空, 雲の形成, 穏やかな水, 湖の突堤, 自然写真, アルプスの峰, 絵のような雰囲気, ロマンチックなムード, 光の反射, 自然の風景, 夏の夜, リラックスした雰囲気, 高山の風景, ドイツ"
+ },
+ {
+  "destId": "nagoya-castle",
+  "idx": 1,
+  "spotName": "本丸御殿",
+  "imageUrl": "/images/spots/nagoya-castle/1.jpg",
+  "imageCredit": {
+   "author": "meschdm",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B5%E3%83%B3%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%82%B3-%E5%BE%A1%E6%AE%BF%E9%96%80%E6%A9%8B-1237484/",
+   "attributionRequired": false
+  },
+  "tags": "サンフランシスコ, 御殿門橋, トラフィック, 橋"
+ },
+ {
+  "destId": "atsuta",
+  "idx": 1,
+  "spotName": "本宮",
+  "imageUrl": "/images/spots/atsuta/1.jpg",
+  "imageCredit": {
+   "author": "kekopi",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E5%92%8C%E6%AD%8C%E5%B1%B1-%E7%A5%9E%E7%A4%BE-%E7%86%8A%E9%87%8E-2653775/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 和歌山, 神社, 熊野, 本宮大社, 熊野三山, お参り, 鳥居, 神秘的, 秋, 景色, 稲穂, 米, 水田, 田んぼ, 田園風景, 実り, 田舎, 和歌山, 和歌山, 和歌山, 和歌山, 和歌山, 熊野, 熊野, お参り, お参り, 鳥居, 鳥居, 鳥居, 稲穂, 稲穂, 稲穂, 稲穂"
+ },
+ {
+  "destId": "shitara",
+  "idx": 1,
+  "spotName": "長篠合戦場",
+  "imageUrl": "/images/spots/shitara/1.jpg",
+  "imageCredit": {
+   "author": "grooooomin",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%A6%B3%E8%A6%A7%E8%BB%8A-%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF-%E6%84%9B%E7%9F%A5%E7%9C%8C-826582/",
+   "attributionRequired": false
+  },
+  "tags": "観覧車, モンキーパーク, 愛知県, 犬山市, 愛知県, 愛知県, 愛知県, 愛知県, 愛知県"
+ },
+ {
+  "destId": "shinshiro-nagasinotown",
+  "idx": 1,
+  "spotName": "設楽原古戦場",
+  "imageUrl": "/images/spots/shinshiro-nagasinotown/1.jpg",
+  "imageCredit": {
+   "author": "Couleur",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%90%E3%83%AB-%E3%82%AE%E3%83%AB%E3%83%89-4874026/",
+   "attributionRequired": false
+  },
+  "tags": "カーニバル, ギルド, freiburgerクウィッチーズ, 木製のマスク, 彫刻, 三つ編み, 設楽, 中世gugelhaube, 草鞋, シュヴァーベン alemannic, 変装, 必要, fasnet, 祝うために"
+ },
+ {
+  "destId": "shoji-lake",
+  "idx": 2,
+  "spotName": "精進湖民宿村",
+  "imageUrl": "/images/spots/shoji-lake/2.jpg",
+  "imageCredit": {
+   "author": "n-k",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AF%8C%E5%A3%AB%E5%B1%B1-%E5%AD%90%E6%8A%B1%E5%AF%8C%E5%A3%AB-%E7%B2%BE%E9%80%B2%E6%B9%96-2779020/",
+   "attributionRequired": false
+  },
+  "tags": "富士山, 子抱富士, 精進湖, 富士山, 富士山, 富士山, 富士山, 富士山, 精進湖, 精進湖, 精進湖"
+ },
+ {
+  "destId": "hiwasa",
+  "idx": 2,
+  "spotName": "薬王寺",
+  "imageUrl": "/images/spots/hiwasa/2.jpg",
+  "imageCredit": {
+   "author": "masaushi",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3-%E3%83%95%E3%83%B3%E3%83%9C%E3%83%AB%E3%83%88-%E6%8C%AF%E3%82%8A%E5%90%91%E3%81%8F-9540780/",
+   "attributionRequired": false
+  },
+  "tags": "ペンギン, フンボルト, 振り向く, 鳥, 飛べない, 春, 自然, 日本, 徳山"
+ },
+ {
+  "destId": "chikugogawa",
+  "idx": 2,
+  "spotName": "うかい",
+  "imageUrl": "/images/spots/chikugogawa/2.jpg",
+  "imageCredit": {
+   "author": "Jiashuh",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%A6%8F%E5%B2%A1-%E8%8D%89%E5%8E%9F-1382053/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 福岡, 草原, 福岡, 福岡, 福岡, 福岡, 福岡"
+ },
+ {
+  "destId": "chikugogawa",
+  "idx": 3,
+  "spotName": "秋月城下町",
+  "imageUrl": "/images/spots/chikugogawa/3.jpg",
+  "imageCredit": {
+   "author": "jggrz",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9F%8E%E4%B8%8B%E7%94%BA-%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%84-%E3%83%86%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B2%E3%83%B3-3426609/",
+   "attributionRequired": false
+  },
+  "tags": "城下町, グライツ, テューリンゲン, 観光, 歴史的, 城下町, 城下町, 城下町, 城下町, 城下町"
+ },
+ {
+  "destId": "chikugogawa",
+  "idx": 4,
+  "spotName": "三連水車",
+  "imageUrl": "/images/spots/chikugogawa/4.jpg",
+  "imageCredit": {
+   "author": "IdaT",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B0%B4%E8%BB%8A-%E6%B9%96-%E3%83%A9%E3%83%B3%E3%83%89%E3%83%9E%E3%83%BC%E3%82%AF-5546706/",
+   "attributionRequired": false
+  },
+  "tags": "水車, 湖, ランドマーク, 観光の名所, 水, 木製水車小屋, 古い水車小屋, ヴィンテージ水車, 自然, ジェルカ, スロバキア"
+ },
+ {
+  "destId": "asakuradan",
+  "idx": 1,
+  "spotName": "黒門",
+  "imageUrl": "/images/spots/asakuradan/1.jpg",
+  "imageCredit": {
+   "author": "jhenning",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B2%E3%83%BC%E3%83%88-%E9%87%91%E5%B1%9E%E3%83%95%E3%82%A7%E3%83%B3%E3%82%B9-6771040/",
+   "attributionRequired": false
+  },
+  "tags": "ゲート, 金属フェンス, オールドファッションゲート, 黒門"
+ },
+ {
+  "destId": "izumi",
+  "idx": 2,
+  "spotName": "水間寺",
+  "imageUrl": "/images/spots/izumi/2.jpg",
+  "imageCredit": {
+   "author": "青枫161118",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%B4%AB%E7%AB%B9%E5%AF%BA-%E5%AF%BA-%E5%BB%BA%E7%89%A9-%E3%83%A9%E3%83%B3%E3%83%97-7627473/",
+   "attributionRequired": false
+  },
+  "tags": "紫竹寺, 寺, 建物, ランプ, 夜景, 夜景, 夜景, 夜景, 夜景, 夜景"
+ },
+ {
+  "destId": "uozu",
+  "idx": 1,
+  "spotName": "蜃気楼",
+  "imageUrl": "/images/spots/uozu/1.jpg",
+  "imageCredit": {
+   "author": "jimthao",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%88%A6%E9%97%98%E6%A9%9F-%E8%9C%83%E6%B0%97%E6%A5%BC-%E8%BB%8D%E9%9A%8A-%E8%88%AA%E7%A9%BA-4142357/",
+   "attributionRequired": false
+  },
+  "tags": "戦闘機, 蜃気楼, 軍隊, 航空, 炉, ダッソー-システムズ, フランス"
+ },
+ {
+  "destId": "totsukawa-2",
+  "idx": 2,
+  "spotName": "谷瀬の吊り橋",
+  "imageUrl": "/images/spots/totsukawa-2/2.jpg",
+  "imageCredit": {
+   "author": "HansLinde",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%80%E9%95%B7%E3%81%AE%E6%AD%A9%E9%81%93%E5%90%8A%E3%82%8A%E6%A9%8B-2363631/",
+   "attributionRequired": false
+  },
+  "tags": "最長の歩道吊り橋, rappbodetalsperre, 樹脂"
+ },
+ {
+  "destId": "kawayu",
+  "idx": 1,
+  "spotName": "仙人風呂",
+  "imageUrl": "/images/spots/kawayu/1.jpg",
+  "imageCredit": {
+   "author": "MarcelloRabozzi",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%A4%E3%83%89%E3%82%AB%E3%83%AA-%E7%94%B2%E6%AE%BB%E9%A1%9E-%E8%9F%B9%E4%BB%99%E4%BA%BA-2879637/",
+   "attributionRequired": false
+  },
+  "tags": "ヤドカリ, 甲殻類, 蟹仙人, 仙人海蟹, 貝殻"
+ },
+ {
+  "destId": "yamadera-2",
+  "idx": 2,
+  "spotName": "奥の院",
+  "imageUrl": "/images/spots/yamadera-2/2.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E5%86%AC-%E9%9B%AA-%E6%A8%B9%E6%9C%A8-%E5%9B%9E%E5%BB%8A-4861153/",
+   "attributionRequired": false
+  },
+  "tags": "風景, 冬, 雪, 樹木, 自然, 回廊, 霊場, 仏教, 高野山奥の院, 世界文化遺産, 和歌山県, 日本"
+ },
+ {
+  "destId": "sendai-2",
+  "idx": 2,
+  "spotName": "青葉山",
+  "imageUrl": "/images/spots/sendai-2/2.jpg",
+  "imageCredit": {
+   "author": "StockSnap",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/coba%E5%AE%AE%E5%9F%8E%E7%9C%8C-%E3%83%9E%E3%83%A4-%E5%BB%83%E5%A2%9F-2569360/",
+   "attributionRequired": false
+  },
+  "tags": "coba＆宮城県, マヤ, 廃墟, メキシコ, ピラミッド"
+ },
+ {
+  "destId": "zuiganji",
+  "idx": 1,
+  "spotName": "奥州随一",
+  "imageUrl": "/images/spots/zuiganji/1.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0-%E6%AD%B4%E5%8F%B2-%E6%97%A7%E5%B8%82%E8%A1%97-5367020/",
+   "attributionRequired": false
+  },
+  "tags": "アムステルダム, 歴史, 旧市街, オランダ, 欧州, 市, ストリート, オランダ, 欧州, 欧州, 欧州, 欧州, 欧州, 市, ストリート"
+ },
+ {
+  "destId": "shichirigahama",
+  "idx": 2,
+  "spotName": "稲村ヶ崎",
+  "imageUrl": "/images/spots/shichirigahama/2.jpg",
+  "imageCredit": {
+   "author": "5336885",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E6%9C%88%E8%A3%81%E5%88%A4%E6%89%80-%E9%8E%8C%E5%80%89-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C-2418041/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 月裁判所, 鎌倉, 神奈川県, 鎌倉, 鎌倉, 鎌倉, 鎌倉, 鎌倉"
+ },
+ {
+  "destId": "shigaraki-2-pottery",
+  "idx": 1,
+  "spotName": "スカーレット記念館",
+  "imageUrl": "/images/spots/shigaraki-2-pottery/1.jpg",
+  "imageCredit": {
+   "author": "luxstorm",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%88%A6%E4%BA%89%E8%A8%98%E5%BF%B5%E9%A4%A8-%E8%A8%98%E5%BF%B5%E6%97%A5-%E8%BB%8D%E9%9A%8A-%E3%81%8A%E5%A2%93-4665591/",
+   "attributionRequired": false
+  },
+  "tags": "戦争記念館, 記念日, 軍隊, お墓, 記念碑, ベテラン, グレーの戦争, グレーメモリ"
+ },
+ {
+  "destId": "toba-pearl",
+  "idx": 1,
+  "spotName": "真珠博物館",
+  "imageUrl": "/images/spots/toba-pearl/1.jpg",
+  "imageCredit": {
+   "author": "Clickofmeza",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/soumaya%E5%8D%9A%E7%89%A9%E9%A4%A8-%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3-6724229/",
+   "attributionRequired": false
+  },
+  "tags": "soumaya博物館, メキシコ, 自然, アーキテクチャ, 日没"
+ },
+ {
+  "destId": "toba-pearl",
+  "idx": 2,
+  "spotName": "海女ショー",
+  "imageUrl": "/images/spots/toba-pearl/2.jpg",
+  "imageCredit": {
+   "author": "Hans_Leuzinger",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%8A%B1-%E6%A4%8D%E7%89%A9-%E8%8A%B1%E3%81%B3%E3%82%89-%E3%83%9F%E3%83%A4%E3%83%9E%E3%83%8A%E3%82%BA%E3%83%8A-8331139/",
+   "attributionRequired": false
+  },
+  "tags": "花, 植物, 花びら, ミヤマナズナ, ブルーム, 花の背景, 花の壁紙, 野生動物, 自然, 閉じる, フローラ, 動物相, シルバーウィード, 美しい花, 海女, ブッシュ, 低木"
+ },
+ {
+  "destId": "akame-falls",
+  "idx": 1,
+  "spotName": "忍者修行",
+  "imageUrl": "/images/spots/akame-falls/1.jpg",
+  "imageCredit": {
+   "author": "mikuratv",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9C%B0%E8%94%B5-%E7%9F%B3-%E5%B1%B1-%E6%A3%AE-%E4%BB%8F-%E4%BF%AE%E8%A1%8C-66626/",
+   "attributionRequired": false
+  },
+  "tags": "地蔵, 仏陀プルニマ, 石, 山, 森, 仏, 自然, 修行"
+ },
+ {
+  "destId": "akame-falls",
+  "idx": 2,
+  "spotName": "長楽寺",
+  "imageUrl": "/images/spots/akame-falls/2.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%82%B4%E3%83%80-%E6%BB%9D-%E4%B8%89%E9%87%8D%E3%81%AE%E5%A1%94-%E7%86%8A%E9%87%8E%E5%8F%A4%E9%81%93-7868621/",
+   "attributionRequired": false
+  },
+  "tags": "パゴダ, 滝, 三重の塔, 熊野古道, 日本, 那智の大滝, なち, 和歌山, 那智の滝, 熊野那智大社, 霊的化合物, なちさん, 神聖, 宗教, 仏教, 神道, 仏教徒, 自然, 景色, 風景"
+ },
+ {
+  "destId": "hiroshima-2",
+  "idx": 1,
+  "spotName": "平和記念資料館",
+  "imageUrl": "/images/spots/hiroshima-2/1.jpg",
+  "imageCredit": {
+   "author": "planet_fox",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B9%B3%E5%92%8C%E3%81%AE%E5%A4%A9%E6%89%8D-%E5%B9%B3%E5%92%8C%E3%81%AE%E5%A4%A9%E4%BD%BF-7042013/",
+   "attributionRequired": false
+  },
+  "tags": "平和の天才, 平和の天使, ミュンヘン, 平和記念, パラペット, バルコニー, 記念碑, ランドマーク, トラベル"
+ },
+ {
+  "destId": "nagano-zenkoji",
+  "idx": 1,
+  "spotName": "戒壇めぐり",
+  "imageUrl": "/images/spots/nagano-zenkoji/1.jpg",
+  "imageCredit": {
+   "author": "wayoutradio",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9C%B0%E7%8D%84%E3%82%81%E3%81%90%E3%82%8A%E3%81%AE%E5%A4%A9%E4%BD%BF-%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A8%E3%83%BC%E3%82%AF-5103950/",
+   "attributionRequired": false
+  },
+  "tags": "地獄めぐりの天使, ニューヨーク, 新しい都市, 火, 天使, シンボル, バイク, ギャング, 本社, グレーの市, 灰色の火災, 灰色のニュース, グレーのエンジェル, グレーの新しい"
+ },
+ {
+  "destId": "niigata-spa",
+  "idx": 1,
+  "spotName": "日本一の硫黄泉",
+  "imageUrl": "/images/spots/niigata-spa/1.jpg",
+  "imageCredit": {
+   "author": "jhenning",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%A1%AB%E9%BB%84-%E7%B5%90%E6%99%B6-%E9%BB%84-%E5%9C%B0%E8%B3%AA%E5%AD%A6-7220327/",
+   "attributionRequired": false
+  },
+  "tags": "硫黄, 結晶, 黄, 地質学, ミネラル, 硫黄, 硫黄, 硫黄, 硫黄, 硫黄, 結晶, ミネラル"
+ },
+ {
+  "destId": "aizu-2",
+  "idx": 1,
+  "spotName": "大正浪漫の街並み",
+  "imageUrl": "/images/spots/aizu-2/1.jpg",
+  "imageCredit": {
+   "author": "wal_172619",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%99%E3%83%AB%E3%83%AA%E3%83%B3-%E3%83%86%E3%83%AC%E3%83%93%E5%A1%94-%E5%B8%82-%E8%A1%97%E4%B8%A6%E3%81%BF-6755246/",
+   "attributionRequired": false
+  },
+  "tags": "ベルリン, テレビ塔, 市, 街並み"
+ },
+ {
+  "destId": "fukushima-iwaki",
+  "idx": 2,
+  "spotName": "勿来の関",
+  "imageUrl": "/images/spots/fukushima-iwaki/2.jpg",
+  "imageCredit": {
+   "author": "newtjitsu",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%98%89%E5%B3%AA%E9%96%A2-%E5%9F%8E-%E4%B8%AD%E5%9B%BD-6464513/",
+   "attributionRequired": false
+  },
+  "tags": "嘉峪関, 城, 中国, 嘉峪関万里の長城, 要塞, 歴史的, アーキテクチャ, 観光の名所"
+ },
+ {
+  "destId": "akita-yokote",
+  "idx": 0,
+  "spotName": "横手かまくら",
+  "imageUrl": "/images/spots/akita-yokote/0.jpg",
+  "imageCredit": {
+   "author": "YoHa137",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%9D%80%E7%89%A9-%E6%97%A5%E6%9C%AC-%E9%8E%8C%E5%80%89-%E7%A5%9E%E7%A4%BE-6608076/",
+   "attributionRequired": false
+  },
+  "tags": "着物, 日本, 鎌倉, 神社, 着物, 着物, 着物, 日本, 日本, 日本, 日本, 日本, 鎌倉, 鎌倉, 鎌倉, 神社, 神社, 神社"
+ },
+ {
+  "destId": "akita-yokote",
+  "idx": 1,
+  "spotName": "後三年の合戦遺跡",
+  "imageUrl": "/images/spots/akita-yokote/1.jpg",
+  "imageCredit": {
+   "author": "magic689",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%A5%9E%E5%AE%AE%E6%A9%8B-%E9%A2%A8%E6%99%AF-%E5%8D%81%E4%B8%89%E8%A1%8C%E3%81%AE%E9%81%BA%E8%B7%A1-2865171/",
+   "attributionRequired": false
+  },
+  "tags": "神宮橋, 風景, 十三行の遺跡, 史跡, 金"
+ },
+ {
+  "destId": "shodoshima-canyon",
+  "idx": 2,
+  "spotName": "寒霞渓山頂",
+  "imageUrl": "/images/spots/shodoshima-canyon/2.jpg",
+  "imageCredit": {
+   "author": "haruharu",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A6%99%E5%B7%9D%E7%9C%8C-%E5%B0%8F%E8%B1%86%E5%B3%B6-%E5%AF%92%E9%9C%9E%E6%B8%93-9%E6%9C%88-945184/",
+   "attributionRequired": false
+  },
+  "tags": "香川県, 小豆島, 寒霞渓, 9月, 香川県, 香川県, 香川県, 香川県, 小豆島, 小豆島, 小豆島, 小豆島, 小豆島, 寒霞渓, 寒霞渓, 寒霞渓, 寒霞渓, 寒霞渓"
+ },
+ {
+  "destId": "kumamoto-suizenji",
+  "idx": 1,
+  "spotName": "出水神社",
+  "imageUrl": "/images/spots/kumamoto-suizenji/1.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%86%8A%E6%9C%AC-%E7%A5%9E%E7%A4%BE-%E6%B5%B7-530348/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 熊本, 神社, 海, 長尾神社, 自然, 雲, 空, アジア"
+ },
+ {
+  "destId": "iso",
+  "idx": 2,
+  "spotName": "異人館",
+  "imageUrl": "/images/spots/iso/2.jpg",
+  "imageCredit": {
+   "author": "KENHORI",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A4%A8-%E6%A8%AA%E6%B5%9C-%E7%95%B0%E4%BA%BA%E9%A4%A8-952610/",
+   "attributionRequired": false
+  },
+  "tags": "イタリア館, 横浜, 異人館, 横浜, 横浜, 横浜, 横浜, 横浜, 異人館, 異人館"
+ },
+ {
+  "destId": "sakurajima-onsen",
+  "idx": 0,
+  "spotName": "古里温泉",
+  "imageUrl": "/images/spots/sakurajima-onsen/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "kanazawa-21st",
+  "idx": 2,
+  "spotName": "市立美術館",
+  "imageUrl": "/images/spots/kanazawa-21st/2.jpg",
+  "imageCredit": {
+   "author": "AndreasGoellner",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A9%8B-%E8%88%97%E8%A3%85-3359936/",
+   "attributionRequired": false
+  },
+  "tags": "橋, 舗装, ムステルダム市立近代美術館も, 天国, 結石, 道"
+ },
+ {
+  "destId": "okinawa-cape-hedo",
+  "idx": 2,
+  "spotName": "奥ヤンバル",
+  "imageUrl": "/images/spots/okinawa-cape-hedo/2.jpg",
+  "imageCredit": {
+   "author": "suiwai",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%9C%9E%E6%B5%A6-%E3%83%A4%E3%83%B3-%E3%82%AF%E3%83%AA%E3%83%BC%E3%82%AF-%E9%A2%A8%E6%99%AF-2484640/",
+   "attributionRequired": false
+  },
+  "tags": "霞浦, ヤン-クリーク, 風景"
+ },
+ {
+  "destId": "fukui-castle",
+  "idx": 2,
+  "spotName": "日本最古天守",
+  "imageUrl": "/images/spots/fukui-castle/2.jpg",
+  "imageCredit": {
+   "author": "NaoYuasa",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E6%97%A5%E6%9C%AC-%E5%8D%97%E6%B9%96%E5%85%AC%E5%9C%92-%E7%A7%8B-4507361/",
+   "attributionRequired": false
+  },
+  "tags": "風景, 日本, 南湖公園, 秋, 自然, 紅葉, 水鳥, 水辺, 自然, 池, カモ, 季節, 水, 日本最古の公園"
+ },
+ {
+  "destId": "shiga-otsu",
+  "idx": 1,
+  "spotName": "根本中堂",
+  "imageUrl": "/images/spots/shiga-otsu/1.jpg",
+  "imageCredit": {
+   "author": "rmsep4",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%A1%97-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E5%A4%9C-%E6%97%A5%E6%9C%AC-%E4%BA%AC%E9%83%BD-4942809/",
+   "attributionRequired": false
+  },
+  "tags": "街, 自転車, 夜, 日本, 京都, 近所, 日本, 日本, 京都, 京都, 京都, 京都, 京都"
+ },
+ {
+  "destId": "akita-nyuto",
+  "idx": 0,
+  "spotName": "田沢湖高原温泉",
+  "imageUrl": "/images/spots/akita-nyuto/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "akita-nyuto",
+  "idx": 1,
+  "spotName": "水沢温泉",
+  "imageUrl": "/images/spots/akita-nyuto/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "akita-nyuto",
+  "idx": 2,
+  "spotName": "駒ヶ岳",
+  "imageUrl": "/images/spots/akita-nyuto/2.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88-%E9%9B%B2-%E3%83%94%E3%83%BC%E3%82%AF-6320288/",
+   "attributionRequired": false
+  },
+  "tags": "山, サミット, 雲, ピーク, 風景, 自然, 景色, 風光明媚な, 甲斐駒ヶ岳, 南アルプス国立公園, 日本, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "fukushima-aizu-2",
+  "idx": 1,
+  "spotName": "奇岩",
+  "imageUrl": "/images/spots/fukushima-aizu-2/1.jpg",
+  "imageCredit": {
+   "author": "FrankyFromGermany",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E5%B4%96-%E9%A2%A8%E6%99%AF-%E5%B1%B1%E3%81%AE%E9%A2%A8%E6%99%AF-540116/",
+   "attributionRequired": false
+  },
+  "tags": "山, 崖, 風景, 山の風景, スコットランド, 自然, 高地, quairaing, スカイ島, 丘, 奇岩, 牧歌的です, dm, 山, 山, 山, 崖, 崖, 崖, 崖, 崖"
+ },
+ {
+  "destId": "niigata-sado-3",
+  "idx": 2,
+  "spotName": "たらい舟体験",
+  "imageUrl": "/images/spots/niigata-sado-3/2.jpg",
+  "imageCredit": {
+   "author": "CharlesRondeau",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B0%B4-%E3%82%B9%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%97%E3%83%BC%E3%83%AB-%E6%B3%A2-1018808/",
+   "attributionRequired": false
+  },
+  "tags": "水, スイミングプール, 波, プール, 反射, たらい, 青色の水, 自然, 夏, 晴れ"
+ },
+ {
+  "destId": "iwami-kagura",
+  "idx": 0,
+  "spotName": "石見神楽伝承館",
+  "imageUrl": "/images/spots/iwami-kagura/0.jpg",
+  "imageCredit": {
+   "author": "IT-STUDIO",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%8A%E5%9F%8E-%E6%97%A5%E6%9C%AC-%E5%B3%B6%E6%A0%B9-%E6%9D%BE%E6%B1%9F%E5%9F%8E-1030461/",
+   "attributionRequired": false
+  },
+  "tags": "お城, 日本, 島根, 松江城, 島根, 島根, 島根, 島根, 島根, 松江城, 松江城, 松江城"
+ },
+ {
+  "destId": "ryugado",
+  "idx": 0,
+  "spotName": "龍河洞本洞",
+  "imageUrl": "/images/spots/ryugado/0.jpg",
+  "imageCredit": {
+   "author": "dimitrisvetsikas1969",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AD%E3%83%97%E3%83%AD%E3%82%B9-%E6%B5%B7%E5%B2%B8-%E5%B4%96-%E3%82%B0%E3%83%AC%E3%82%B3%E5%B2%AC-3184019/",
+   "attributionRequired": false
+  },
+  "tags": "キプロス, 海岸, 崖, グレコ岬, 国立公園, 日没, 海, 石, 侵食, 風景, 自然, 海食洞, 形成, 海岸, 崖, 崖, 崖, 崖, 崖, 海, 海, 自然"
+ },
+ {
+  "destId": "ryugado",
+  "idx": 1,
+  "spotName": "神の壷",
+  "imageUrl": "/images/spots/ryugado/1.jpg",
+  "imageCredit": {
+   "author": "botkennys",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%AF%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC-%E3%83%AF%E3%82%A4%E3%83%B3%E3%81%AE%E5%A3%B7-656944/",
+   "attributionRequired": false
+  },
+  "tags": "ワイナリー, ワインの壷, 古代の法則"
+ },
+ {
+  "destId": "niche_青森_4",
+  "idx": 1,
+  "spotName": "大川温泉・温泉街周辺",
+  "imageUrl": "/images/spots/niche_青森_4/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_岩手_1",
+  "idx": 1,
+  "spotName": "北山崎遊歩道",
+  "imageUrl": "/images/spots/niche_岩手_1/1.jpg",
+  "imageCredit": {
+   "author": "Sara32_jabar",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+   "attributionRequired": false
+  },
+  "tags": "老人, 海, カモメ, 自然, 男, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_宮城_1",
+  "idx": 1,
+  "spotName": "女川町営浜市場",
+  "imageUrl": "/images/spots/niche_宮城_1/1.jpg",
+  "imageCredit": {
+   "author": "Duong_Dinh_Luc",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B0%91%E5%A5%B3-%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0-%E8%BE%B2%E5%A4%AB%E3%81%AE%E5%B8%82%E5%A0%B4-7868485/",
+   "attributionRequired": false
+  },
+  "tags": "少女, ベトナム, 農夫の市場, 市場, 子供, 果物市場, 果物, 赤ちゃん, tet, テト市場"
+ },
+ {
+  "destId": "niche_宮城_3",
+  "idx": 1,
+  "spotName": "七ヶ宿町営温泉あやめ",
+  "imageUrl": "/images/spots/niche_宮城_3/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_宮城_5",
+  "idx": 1,
+  "spotName": "伊勢屋醤油醸造所",
+  "imageUrl": "/images/spots/niche_宮城_5/1.jpg",
+  "imageCredit": {
+   "author": "ArtTower",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%AC%E3%83%AB-%E6%A8%BD-%E3%83%AF%E3%82%A4%E3%83%B3%E5%AE%B9%E5%99%A8-52934/",
+   "attributionRequired": false
+  },
+  "tags": "バレル, 樽, ワイン容器, アルコール容器, コンテナ, ストレージ, オーク, 醸造所, フォトアート, 樽, 樽, 樽, 樽, 樽"
+ },
+ {
+  "destId": "niche_秋田_1",
+  "idx": 1,
+  "spotName": "湯瀬スキー場跡地の展望地",
+  "imageUrl": "/images/spots/niche_秋田_1/1.jpg",
+  "imageCredit": {
+   "author": "652234",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%AB%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%AD%E3%83%BC-%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%A4%E3%83%BC-5908416/",
+   "attributionRequired": false
+  },
+  "tags": "クロスカントリースキー, スキーヤー, スキー, スキー場, 木, もみ, 自然, 空, 雪, 冬, 寒い, 霜, 森林, 風景, スキー, スキー, スキー, スキー, スキー, 雪"
+ },
+ {
+  "destId": "niche_秋田_5",
+  "idx": 1,
+  "spotName": "滝瀬温泉",
+  "imageUrl": "/images/spots/niche_秋田_5/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_山形_1",
+  "idx": 1,
+  "spotName": "白鷹町紅花資料館",
+  "imageUrl": "/images/spots/niche_山形_1/1.jpg",
+  "imageCredit": {
+   "author": "tphananh",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%89%E3%83%AC%E3%82%B9%E3%83%87%E3%83%B3%E3%83%8B%E3%83%BC%E3%83%80%E3%83%BC%E3%82%B6%E3%82%AF%E3%82%BB%E3%83%B3%E5%B7%9E-4885641/",
+   "attributionRequired": false
+  },
+  "tags": "ドレスデン、ニーダーザクセン州, mrs桜, 市資料館"
+ },
+ {
+  "destId": "niche_山形_2",
+  "idx": 0,
+  "spotName": "庭月観音温泉旅館",
+  "imageUrl": "/images/spots/niche_山形_2/0.jpg",
+  "imageCredit": {
+   "author": "AG2016",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E6%B8%A9%E6%B3%89-%E6%97%85%E9%A4%A8-%E5%B1%B1%E5%BD%A2-%E9%8A%80%E5%B1%B1-1366872/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 温泉, 旅館, 山形, 自然, 銀山, 冬, 明かり, 夜景, 建物, 古い, 宿, 橋, 昭和, 雪, 旅行, 観光, 屋外, 休暇, ビュー, 風景, 景観"
+ },
+ {
+  "destId": "niche_山形_2",
+  "idx": 1,
+  "spotName": "朝日連峰トレッキング道",
+  "imageUrl": "/images/spots/niche_山形_2/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%9D%E6%97%A5%E9%80%A3%E5%B3%B0-%E5%B1%B1-%E9%9C%A7-%E6%9C%9D-%E6%97%A5%E6%9C%AC-6470643/",
+   "attributionRequired": false
+  },
+  "tags": "朝日連峰, 山, 霧, 朝, 日本, 風景, 自然, 自然, 山の範囲"
+ },
+ {
+  "destId": "niche_福島_1",
+  "idx": 1,
+  "spotName": "道の駅ただみ",
+  "imageUrl": "/images/spots/niche_福島_1/1.jpg",
+  "imageCredit": {
+   "author": "jplenio",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E3%83%8F%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89-%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88-%E9%9D%92-2565574/",
+   "attributionRequired": false
+  },
+  "tags": "風景, ハイランド, デザート, 青, 天国, 雲, 道, ただ, 地平線, 自然, 消失点, エンドレス"
+ },
+ {
+  "destId": "niche_福島_4",
+  "idx": 0,
+  "spotName": "小高の旧市街地",
+  "imageUrl": "/images/spots/niche_福島_4/0.jpg",
+  "imageCredit": {
+   "author": "r-q",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9D%B1%E4%BA%AC-%E6%97%A5%E6%9C%AC-%E3%82%B7%E3%83%86%E3%82%A3-%E8%B6%85%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB-9593234/",
+   "attributionRequired": false
+  },
+  "tags": "東京, 日本, シティ, 超高層ビル, 市, 我慢する, 道, 航空写真, 夜"
+ },
+ {
+  "destId": "niche_福島_4",
+  "idx": 1,
+  "spotName": "相馬焼工房",
+  "imageUrl": "/images/spots/niche_福島_4/1.jpg",
+  "imageCredit": {
+   "author": "GattolicLady",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%8A%E5%B0%BB-%E7%9B%B8%E9%A6%AC-%E5%B1%B1-%E3%83%AD%E3%83%BC%E3%83%89-%E7%94%A8%E5%93%81-554659/",
+   "attributionRequired": false
+  },
+  "tags": "お尻, 相馬, 山, 自然, ロード, 用品"
+ },
+ {
+  "destId": "niche_福島_5",
+  "idx": 0,
+  "spotName": "棚倉城址公園",
+  "imageUrl": "/images/spots/niche_福島_5/0.jpg",
+  "imageCredit": {
+   "author": "xprt007",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/kastelburg-%E5%9F%8E%E5%9D%80-2148993/",
+   "attributionRequired": false
+  },
+  "tags": "kastelburg, 城址, ヴァルトキルヒ, 黒い森, 1260年と1270年の間に建設, elz, 川"
+ },
+ {
+  "destId": "niche_福島_6",
+  "idx": 0,
+  "spotName": "昭和村の茅葺き民家群",
+  "imageUrl": "/images/spots/niche_福島_6/0.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BD%E5%B7%9D%E9%83%B7-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%97%A5%E6%9C%AC-%E5%B2%90%E9%98%9C-3968395/",
+   "attributionRequired": false
+  },
+  "tags": "白川郷, 伝統的, 日本, 自然, 岐阜, 家, 村, 冬, 行き先, 遺産, 茅葺き, アーキテクチャ, 合掌造りのスタイル, 農家, コテージ, デザイン, 木材, 素朴, 雪"
+ },
+ {
+  "destId": "niche_茨城_1",
+  "idx": 1,
+  "spotName": "八雲神社",
+  "imageUrl": "/images/spots/niche_茨城_1/1.jpg",
+  "imageCredit": {
+   "author": "morn_japan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%83%E3%83%97%E3%83%AB-%E6%AD%A9%E3%81%8F-%E6%A1%9C%E3%81%AE%E6%9C%A8-5832308/",
+   "attributionRequired": false
+  },
+  "tags": "カップル, 歩く, 桜の木, lane, 道, 散歩, 一緒, 一緒にお散歩, 男, 女性, 日本, 茨城, さくら, 桜, 散歩, 桜, 桜, 桜, 桜, 桜"
+ },
+ {
+  "destId": "niche_茨城_2",
+  "idx": 0,
+  "spotName": "磯原海岸",
+  "imageUrl": "/images/spots/niche_茨城_2/0.jpg",
+  "imageCredit": {
+   "author": "LittleMouse",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E3%81%AE%E5%87%BA-%E7%A3%AF%E5%8E%9F-%E5%A4%AA%E5%B9%B3%E6%B4%8B-1031836/",
+   "attributionRequired": false
+  },
+  "tags": "日の出, 磯原, 太平洋, 自然, 日本の太陽"
+ },
+ {
+  "destId": "niche_栃木_2",
+  "idx": 0,
+  "spotName": "田村の湯（共同浴場）",
+  "imageUrl": "/images/spots/niche_栃木_2/0.jpg",
+  "imageCredit": {
+   "author": "jyleen21",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%91%B3%E5%99%8C%E3%83%81%E3%82%B2-%E5%9B%BD-%E5%91%B3%E5%99%8C-%E6%B9%AF-749368/",
+   "attributionRequired": false
+  },
+  "tags": "味噌チゲ, 国, 味噌, 湯, 味噌, 味噌, 味噌, 味噌, 味噌"
+ },
+ {
+  "destId": "niche_栃木_2",
+  "idx": 1,
+  "spotName": "塩原ダム堰堤展望地",
+  "imageUrl": "/images/spots/niche_栃木_2/1.jpg",
+  "imageCredit": {
+   "author": "yksuk",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BF%A0%E5%B7%9E%E3%83%80%E3%83%A0-%E6%98%A5%E3%83%8A%E3%83%89%E3%82%A5%E3%83%AA-%E5%B1%95%E6%9C%9B%E5%8F%B0-717750/",
+   "attributionRequired": false
+  },
+  "tags": "忠州ダム, 春ナドゥリ, 展望台"
+ },
+ {
+  "destId": "niche_栃木_2",
+  "idx": 2,
+  "spotName": "新湯温泉街の飲食店と旅館",
+  "imageUrl": "/images/spots/niche_栃木_2/2.jpg",
+  "imageCredit": {
+   "author": "16944022",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%9C-%E6%9D%B1%E4%BA%AC-%E8%A1%97-%E6%97%A5%E6%9C%AC-%E9%83%BD%E5%B8%82-6876155/",
+   "attributionRequired": false
+  },
+  "tags": "夜, 東京, 街, 日本, 都市, 飲食店, 日本の建築, 東京, 東京, 東京, 日本, 日本, 日本, 日本, 日本, 飲食店"
+ },
+ {
+  "destId": "niche_栃木_4",
+  "idx": 1,
+  "spotName": "馬頭の古い商家街",
+  "imageUrl": "/images/spots/niche_栃木_4/1.jpg",
+  "imageCredit": {
+   "author": "WolfBlur",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A6%AC-%E9%A6%AC%E9%A0%AD-%E9%A0%AD-%E7%A8%AE%E7%89%A1%E9%A6%AC-1414889/",
+   "attributionRequired": false
+  },
+  "tags": "馬, 馬頭, 頭, 種牡馬, equines, 哺乳類, 自然, 動物, 農場の動物"
+ },
+ {
+  "destId": "niche_群馬_1",
+  "idx": 1,
+  "spotName": "佐野市街地の蔵造り通り",
+  "imageUrl": "/images/spots/niche_群馬_1/1.jpg",
+  "imageCredit": {
+   "author": "r-q",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9D%B1%E4%BA%AC-%E6%97%A5%E6%9C%AC-%E3%82%B7%E3%83%86%E3%82%A3-%E8%B6%85%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB-9593234/",
+   "attributionRequired": false
+  },
+  "tags": "東京, 日本, シティ, 超高層ビル, 市, 我慢する, 道, 航空写真, 夜"
+ },
+ {
+  "destId": "niche_群馬_4",
+  "idx": 0,
+  "spotName": "織姫神社へのアプローチ通り",
+  "imageUrl": "/images/spots/niche_群馬_4/0.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%86%8A%E6%9C%AC-%E7%A5%9E%E7%A4%BE-%E6%B5%B7-530348/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 熊本, 神社, 海, 長尾神社, 自然, 雲, 空, アジア"
+ },
+ {
+  "destId": "niche_群馬_4",
+  "idx": 1,
+  "spotName": "本町通りの生機問屋と工房カフェ",
+  "imageUrl": "/images/spots/niche_群馬_4/1.jpg",
+  "imageCredit": {
+   "author": "Couleur",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%86%E3%83%83%E3%83%AC-%E3%83%91%E3%82%B9%E3%82%BF-%E9%BA%BA-%E7%94%9F-1632153/",
+   "attributionRequired": false
+  },
+  "tags": "タリアテッレ, パスタ, 麺, 生, カラフル, 食物, 炭水化物, 生パスタ, 未調理, 食の写真, タリアテッレ, パスタ, パスタ, パスタ, パスタ, パスタ"
+ },
+ {
+  "destId": "niche_埼玉_1",
+  "idx": 1,
+  "spotName": "用土の吊り橋周辺",
+  "imageUrl": "/images/spots/niche_埼玉_1/1.jpg",
+  "imageCredit": {
+   "author": "TheAngryTeddy",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E3%82%AD%E3%83%BC-%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2-338505/",
+   "attributionRequired": false
+  },
+  "tags": "キーボード, キー, ハードウェア, pc, コンピューター, 周辺機器, ラップトップ, ノートブック, 仕事, 事務所, カメラ, 写真, 写真を撮る, 写真撮影, 写真のカメラ, カメラ, カメラ, カメラ, カメラ, カメラ"
+ },
+ {
+  "destId": "niche_千葉_1",
+  "idx": 1,
+  "spotName": "刑部岬遊歩道",
+  "imageUrl": "/images/spots/niche_千葉_1/1.jpg",
+  "imageCredit": {
+   "author": "Sara32_jabar",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+   "attributionRequired": false
+  },
+  "tags": "老人, 海, カモメ, 自然, 男, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_千葉_2",
+  "idx": 0,
+  "spotName": "小湊鐵道全線乗車",
+  "imageUrl": "/images/spots/niche_千葉_2/0.jpg",
+  "imageCredit": {
+   "author": "RonPorter",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B9%97%E8%BB%8A%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%81%E3%82%B1%E3%83%83%E3%83%88-%E3%83%AD%E3%83%B3%E3%83%89%E3%83%B3-429277/",
+   "attributionRequired": false
+  },
+  "tags": "乗車カード, チケット, ロンドン, 地下, チューブ, イギリス人, レール, 合格, チケット, チケット, チケット, チケット, チケット"
+ },
+ {
+  "destId": "niche_千葉_5",
+  "idx": 0,
+  "spotName": "御宿中央海岸",
+  "imageUrl": "/images/spots/niche_千葉_5/0.jpg",
+  "imageCredit": {
+   "author": "NoName_13",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%AD%E5%A4%AE%E9%A7%85-%E9%89%84%E9%81%93%E9%A7%85-%E5%88%97%E8%BB%8A-%E3%82%B1%E3%83%AB%E3%83%B3-1527780/",
+   "attributionRequired": false
+  },
+  "tags": "中央駅, 鉄道駅, 列車, ケルン, ケルン中央駅, 鉄道, レール, 鉄道線路, 鉄道交通, 線路, 出発, シフトを傾ける, 列車, 列車, 列車, 鉄道, 鉄道, 鉄道, 鉄道, 鉄道, 線路"
+ },
+ {
+  "destId": "niche_千葉_5",
+  "idx": 1,
+  "spotName": "町なか散策・歴史的建造物群",
+  "imageUrl": "/images/spots/niche_千葉_5/1.jpg",
+  "imageCredit": {
+   "author": "davidosta",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%A9%E3%82%A4%E3%83%88-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E8%89%B2%E5%90%88%E3%81%84-5083606/",
+   "attributionRequired": false
+  },
+  "tags": "ライト, アーキテクチャ, 色合い, 教会, 柱, バロック, 歴史的建造物, ゴシック建築, 教会, 教会, 教会, 教会, 教会"
+ },
+ {
+  "destId": "niche_東京_1",
+  "idx": 1,
+  "spotName": "秋川渓谷遊歩道",
+  "imageUrl": "/images/spots/niche_東京_1/1.jpg",
+  "imageCredit": {
+   "author": "Sara32_jabar",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+   "attributionRequired": false
+  },
+  "tags": "老人, 海, カモメ, 自然, 男, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_東京_1",
+  "idx": 2,
+  "spotName": "檜原村そば処",
+  "imageUrl": "/images/spots/niche_東京_1/2.jpg",
+  "imageCredit": {
+   "author": "takedahrs",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%92%8C%E9%A3%9F-%E6%97%A5%E6%9C%AC%E9%A3%9F-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%96%99%E7%90%86-7184637/",
+   "attributionRequired": false
+  },
+  "tags": "和食, 日本食, 伝統的, 料理, レストラン, 蕎麦, 日本そば, 手打ちそば, 美味しい, 健康的, 食べる, 食事, もりそば, ざる, japancontest"
+ },
+ {
+  "destId": "niche_東京_2",
+  "idx": 1,
+  "spotName": "長尾平展望台",
+  "imageUrl": "/images/spots/niche_東京_2/1.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "niche_東京_2",
+  "idx": 2,
+  "spotName": "山頂周辺のそば屋",
+  "imageUrl": "/images/spots/niche_東京_2/2.jpg",
+  "imageCredit": {
+   "author": "JACLOU-DL",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E5%B1%B1%E9%A0%82-%E9%9B%AA-%E5%86%AC-%E9%A2%A8%E6%99%AF-8272227/",
+   "attributionRequired": false
+  },
+  "tags": "山, 山頂, 雪, 冬, 風景, アルプス, 自然"
+ },
+ {
+  "destId": "niche_東京_3",
+  "idx": 1,
+  "spotName": "青梅商店街（本町通り）",
+  "imageUrl": "/images/spots/niche_東京_3/1.jpg",
+  "imageCredit": {
+   "author": "wal_172619",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
+   "attributionRequired": false
+  },
+  "tags": "商店街, 歩行者専用区域, ダウンタウン, 人, 街, 都市, 観光, トラベル, 商店街, 商店街, 商店街, 商店街, 商店街, 街, 街, 街, 街"
+ },
+ {
+  "destId": "niche_東京_3",
+  "idx": 2,
+  "spotName": "青梅アニメーションストリート",
+  "imageUrl": "/images/spots/niche_東京_3/2.jpg",
+  "imageCredit": {
+   "author": "systomer0",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%9D%92%E6%A2%85-%E6%A2%85-%E7%A7%BB%E8%B3%BC%E5%85%A5%E6%89%80-2429924/",
+   "attributionRequired": false
+  },
+  "tags": "青梅, 梅, 移購入所, 青梅, 青梅, 青梅, 青梅, 青梅, 梅, 梅, 梅"
+ },
+ {
+  "destId": "niche_東京_4",
+  "idx": 0,
+  "spotName": "小河内ダム・多摩水源管理資料館",
+  "imageUrl": "/images/spots/niche_東京_4/0.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E6%B0%B4%E6%BA%90-%E7%86%8A%E6%9C%AC-%E6%B9%A7%E3%81%8D%E6%B0%B4-859400/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 水源, 熊本, 湧き水, 轟水源, 湧き水, 湧き水, 湧き水, 湧き水, 湧き水"
+ },
+ {
+  "destId": "niche_東京_4",
+  "idx": 1,
+  "spotName": "奥多摩湖畔遊歩道",
+  "imageUrl": "/images/spots/niche_東京_4/1.jpg",
+  "imageCredit": {
+   "author": "junfangsjs",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%8B%95%E7%89%A9-%E9%B3%A5-%E3%82%B9%E3%82%BA%E3%83%A1-%E6%B9%96%E7%95%94-%E6%A9%8B%E8%84%9A-7544755/",
+   "attributionRequired": false
+  },
+  "tags": "動物, 鳥, スズメ, 自然, 湖畔, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_東京_4",
+  "idx": 2,
+  "spotName": "奥多摩町の古い木材問屋建築",
+  "imageUrl": "/images/spots/niche_東京_4/2.jpg",
+  "imageCredit": {
+   "author": "16944022",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%9C-%E6%9D%B1%E4%BA%AC-%E8%A1%97-%E6%97%A5%E6%9C%AC-%E9%83%BD%E5%B8%82-6876155/",
+   "attributionRequired": false
+  },
+  "tags": "夜, 東京, 街, 日本, 都市, 飲食店, 日本の建築, 東京, 東京, 東京, 日本, 日本, 日本, 日本, 日本, 飲食店"
+ },
+ {
+  "destId": "niche_東京_6",
+  "idx": 2,
+  "spotName": "小金井公園・雑木林散歩道",
+  "imageUrl": "/images/spots/niche_東京_6/2.jpg",
+  "imageCredit": {
+   "author": "Ottomanartist",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%85%AC%E5%9C%92-%E7%B7%91-%E4%B8%83%E9%9D%A2%E9%B3%A5-%E6%AD%A3%E7%BE%A9-928278/",
+   "attributionRequired": false
+  },
+  "tags": "公園, 緑, 七面鳥, 正義, 散歩道, 正義, 正義, 散歩道, 散歩道, 散歩道, 散歩道, 散歩道"
+ },
+ {
+  "destId": "niche_神奈川_4",
+  "idx": 0,
+  "spotName": "大磯松並木通り",
+  "imageUrl": "/images/spots/niche_神奈川_4/0.jpg",
+  "imageCredit": {
+   "author": "uniquedesign52",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%99%E3%83%8B%E3%83%A5%E3%83%BC-%E6%9C%A8-%E9%81%93-%E4%B8%A6%E6%9C%A8-656969/",
+   "attributionRequired": false
+  },
+  "tags": "アベニュー, 木, 道, 並木, 森林地帯, 秋, 自然, 落ち葉, 街"
+ },
+ {
+  "destId": "niche_神奈川_5",
+  "idx": 0,
+  "spotName": "開成菜の花畑",
+  "imageUrl": "/images/spots/niche_神奈川_5/0.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E8%8F%9C%E7%A8%AE%E7%95%91-%E8%8F%9C%E3%81%AE%E8%8A%B1-%E3%81%95%E3%81%8F%E3%82%89-7107951/",
+   "attributionRequired": false
+  },
+  "tags": "風景, 菜種畑, 菜の花, さくら, 黄, バネ, 開花, 日本, 自然, 菜の花, 菜の花, 菜の花, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "niche_神奈川_5",
+  "idx": 1,
+  "spotName": "開成つつじ祭り周辺の土手",
+  "imageUrl": "/images/spots/niche_神奈川_5/1.jpg",
+  "imageCredit": {
+   "author": "Couleur",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%8A%B1-%E3%81%A4%E3%81%A4%E3%81%98-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%A0-%E4%BD%8E%E6%9C%A8-3387715/",
+   "attributionRequired": false
+  },
+  "tags": "花, つつじ, ブルーム, 低木, 自然, シャクナゲ, カレンデュラセウム, ツツジ科, 観賞植物, 満開, 観賞用低木, バネ, 美しい花, 花の壁紙, 花の背景, イースター"
+ },
+ {
+  "destId": "niche_新潟_1",
+  "idx": 0,
+  "spotName": "瀬波温泉街の坂道",
+  "imageUrl": "/images/spots/niche_新潟_1/0.jpg",
+  "imageCredit": {
+   "author": "sarangib",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9D%82%E9%81%93-%E8%87%AA%E5%8B%95%E4%BA%BA%E5%8A%9B%E8%BB%8A-%E3%83%8A%E3%83%B3%E3%83%87%E3%82%A3%E3%83%92%E3%83%AB%E3%82%BA-371585/",
+   "attributionRequired": false
+  },
+  "tags": "坂道, 自動人力車, 自然, ナンディヒルズ, 森林, デカン高原, カルナタカ州, インド"
+ },
+ {
+  "destId": "niche_新潟_1",
+  "idx": 1,
+  "spotName": "日本海の露天風呂群",
+  "imageUrl": "/images/spots/niche_新潟_1/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%82%BA-%E6%B5%B7%E5%B2%B8-%E6%A4%8D%E7%89%A9-%E3%83%A6%E3%83%AA-8780868/",
+   "attributionRequired": false
+  },
+  "tags": "フラワーズ, 海岸, 植物, ユリ, 自然, 花の背景, 風景, 美しい花, 花の壁紙, 佐渡島, 日本固有の植物, 日本海"
+ },
+ {
+  "destId": "niche_新潟_2",
+  "idx": 0,
+  "spotName": "寺泊アメ横商店街",
+  "imageUrl": "/images/spots/niche_新潟_2/0.jpg",
+  "imageCredit": {
+   "author": "wal_172619",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
+   "attributionRequired": false
+  },
+  "tags": "商店街, 歩行者専用区域, ダウンタウン, 人, 街, 都市, 観光, トラベル, 商店街, 商店街, 商店街, 商店街, 商店街, 街, 街, 街, 街"
+ },
+ {
+  "destId": "niche_新潟_2",
+  "idx": 1,
+  "spotName": "寺泊港の漁師集落",
+  "imageUrl": "/images/spots/niche_新潟_2/1.jpg",
+  "imageCredit": {
+   "author": "DenitsaKireva",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%BC%81%E5%B8%AB-%E3%83%9C%E3%83%BC%E3%83%88-%E6%97%A5%E6%B2%A1-%E5%B1%8B%E5%A4%96-6977946/",
+   "attributionRequired": false
+  },
+  "tags": "漁師, ボート, 日没, 自然, 屋外, 夕暮れ, 船, 港, トラベル, 探検"
+ },
+ {
+  "destId": "niche_新潟_3",
+  "idx": 0,
+  "spotName": "松代の棚田群",
+  "imageUrl": "/images/spots/niche_新潟_3/0.jpg",
+  "imageCredit": {
+   "author": "mercierzeng",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A5%B3%E6%80%A7-%E4%B8%AD%E5%9B%BD-%E3%83%A4%E3%82%AA%E3%83%9E%E3%82%A4%E3%83%8E%E3%83%AA%E3%83%86%E3%82%A3-7217461/",
+   "attributionRequired": false
+  },
+  "tags": "女性, 中国, ヤオマイノリティ, マイノリティの女性, 桂林, ロンジー, 龍寺棚田, ご飯, 秋, 電話を使う, 村, 自然, 田舎, 女性, 女性, 中国, 中国, 中国, 中国, 中国, 村, 田舎"
+ },
+ {
+  "destId": "niche_新潟_3",
+  "idx": 1,
+  "spotName": "旧街道沿いの地蔵群",
+  "imageUrl": "/images/spots/niche_新潟_3/1.jpg",
+  "imageCredit": {
+   "author": "edmondlafoto",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%83%AA-%E3%83%A2%E3%83%B3%E3%83%9E%E3%83%AB%E3%83%88%E3%83%AB-%E9%81%93-%E8%88%97%E8%A3%85-3193674/",
+   "attributionRequired": false
+  },
+  "tags": "パリ, モンマルトル, 道, 舗装, 旧市街, 街, 市, 茶市, 茶色の街, 茶色の旧, 茶道, パリ, パリ, パリ, 街, 街, 街, 街, 街"
+ },
+ {
+  "destId": "niche_新潟_6",
+  "idx": 1,
+  "spotName": "地元の酒蔵直売所",
+  "imageUrl": "/images/spots/niche_新潟_6/1.jpg",
+  "imageCredit": {
+   "author": "congerdesign",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AD%A6%E6%A0%A1-%E5%B9%B4-%E6%9C%A8%E6%9D%90-%E3%82%B9%E3%83%AC%E3%83%BC%E3%83%88-543041/",
+   "attributionRequired": false
+  },
+  "tags": "学校, 年, 木材, スレート, 教育, 黒板, 地元の歴史博物館"
+ },
+ {
+  "destId": "niche_富山_1",
+  "idx": 0,
+  "spotName": "庄川峡遊覧船",
+  "imageUrl": "/images/spots/niche_富山_1/0.jpg",
+  "imageCredit": {
+   "author": "MARTINOPHUC",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%81%AE%E3%83%99%E3%83%8D%E3%83%81%E3%82%A2-%E8%A6%B3%E5%85%89-%E5%86%AC-7700549/",
+   "attributionRequired": false
+  },
+  "tags": "イタリアのベネチア, 観光, 冬, 木製の橋, 川のボート, お祭り, 日没, 遊覧船, 自然, 海, 船"
+ },
+ {
+  "destId": "niche_富山_1",
+  "idx": 1,
+  "spotName": "庄川町立歴史民俗資料館",
+  "imageUrl": "/images/spots/niche_富山_1/1.jpg",
+  "imageCredit": {
+   "author": "AKuptsova",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%9F%93%E5%9B%BD%E6%B0%91%E4%BF%97%E6%9D%91-%E6%A3%AE%E6%9E%97-%E6%9C%A8-%E6%95%A3%E6%AD%A9-5286449/",
+   "attributionRequired": false
+  },
+  "tags": "韓国民俗村, 森林, 木, 散歩, 秋, 公園, 文化, 村, 自然, 伝統的, 歴史, 観光, 韓屋, ミンソク村, ミンソクチョン, 南山, ソウル, 韓国, アジア"
+ },
+ {
+  "destId": "niche_富山_2",
+  "idx": 0,
+  "spotName": "利賀焔ノ塔（たご・えんのとう）",
+  "imageUrl": "/images/spots/niche_富山_2/0.jpg",
+  "imageCredit": {
+   "author": "Walkerssk",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%94%E3%82%B5-%E3%83%94%E3%82%B5%E3%81%AE%E6%96%9C%E5%A1%94-%E3%82%BF%E3%83%AF%E3%83%BC-%E6%96%9C%E5%A1%94-1998120/",
+   "attributionRequired": false
+  },
+  "tags": "ピサ, ピサの斜塔, タワー, 斜塔, イタリア, アーキテクチャ, 歴史, 建物, ピサ, ピサ, ピサ, ピサ, ピサ, ピサの斜塔, ピサの斜塔, ピサの斜塔, ピサの斜塔, ピサの斜塔, 建物"
+ },
+ {
+  "destId": "niche_富山_2",
+  "idx": 1,
+  "spotName": "合掌造り民家群",
+  "imageUrl": "/images/spots/niche_富山_2/1.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BD%E5%B7%9D%E9%83%B7-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%97%A5%E6%9C%AC-%E5%B2%90%E9%98%9C-3968395/",
+   "attributionRequired": false
+  },
+  "tags": "白川郷, 伝統的, 日本, 自然, 岐阜, 家, 村, 冬, 行き先, 遺産, 茅葺き, アーキテクチャ, 合掌造りのスタイル, 農家, コテージ, デザイン, 木材, 素朴, 雪"
+ },
+ {
+  "destId": "niche_富山_3",
+  "idx": 0,
+  "spotName": "福光和ろうそく工房",
+  "imageUrl": "/images/spots/niche_富山_3/0.jpg",
+  "imageCredit": {
+   "author": "ymyphoto",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB-%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%88-8286709/",
+   "attributionRequired": false
+  },
+  "tags": "キャンドル, キャンドルライト, ろうそくの光, 燃えるろうそく, 宗教, 祈り, 瞑想, ムード"
+ },
+ {
+  "destId": "niche_富山_3",
+  "idx": 1,
+  "spotName": "福光古町並み",
+  "imageUrl": "/images/spots/niche_富山_3/1.jpg",
+  "imageCredit": {
+   "author": "FranckinJapan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%BF%E3%83%AF%E3%83%BC-%E6%B9%96-%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E-%E5%AF%8C%E5%B1%B1-1631334/",
+   "attributionRequired": false
+  },
+  "tags": "タワー, 湖, パノラマ, 自然, 富山, 日本"
+ },
+ {
+  "destId": "niche_富山_4",
+  "idx": 0,
+  "spotName": "舟川べり菜の花ロード",
+  "imageUrl": "/images/spots/niche_富山_4/0.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E8%8F%9C%E7%A8%AE%E7%95%91-%E8%8F%9C%E3%81%AE%E8%8A%B1-%E3%81%95%E3%81%8F%E3%82%89-7107951/",
+   "attributionRequired": false
+  },
+  "tags": "風景, 菜種畑, 菜の花, さくら, 黄, バネ, 開花, 日本, 自然, 菜の花, 菜の花, 菜の花, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "niche_富山_4",
+  "idx": 1,
+  "spotName": "朝日町の地場産直売所",
+  "imageUrl": "/images/spots/niche_富山_4/1.jpg",
+  "imageCredit": {
+   "author": "ThomasWolter",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%81%93-%E7%9F%B3%E7%95%B3-%E8%B7%AF%E5%9C%B0-%E8%A1%97-%E4%BA%8B%E6%A5%AD%E6%89%80-949832/",
+   "attributionRequired": false
+  },
+  "tags": "道, 石畳, 路地, 街, 事業所, 石畳の通り, 中世の村, 黒と白, モノクロ, 道, 石畳, 路地, 路地, 路地, 路地, 街, 街, 街, 街, 街, モノクロ, モノクロ, モノクロ, モノクロ"
+ },
+ {
+  "destId": "niche_富山_6",
+  "idx": 0,
+  "spotName": "平村民俗資料館",
+  "imageUrl": "/images/spots/niche_富山_6/0.jpg",
+  "imageCredit": {
+   "author": "AKuptsova",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%9F%93%E5%9B%BD%E6%B0%91%E4%BF%97%E6%9D%91-%E6%A3%AE%E6%9E%97-%E6%9C%A8-%E6%95%A3%E6%AD%A9-5286449/",
+   "attributionRequired": false
+  },
+  "tags": "韓国民俗村, 森林, 木, 散歩, 秋, 公園, 文化, 村, 自然, 伝統的, 歴史, 観光, 韓屋, ミンソク村, ミンソクチョン, 南山, ソウル, 韓国, アジア"
+ },
+ {
+  "destId": "niche_富山_6",
+  "idx": 1,
+  "spotName": "平村の合掌造り民家",
+  "imageUrl": "/images/spots/niche_富山_6/1.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BD%E5%B7%9D%E9%83%B7-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%97%A5%E6%9C%AC-%E5%B2%90%E9%98%9C-3968395/",
+   "attributionRequired": false
+  },
+  "tags": "白川郷, 伝統的, 日本, 自然, 岐阜, 家, 村, 冬, 行き先, 遺産, 茅葺き, アーキテクチャ, 合掌造りのスタイル, 農家, コテージ, デザイン, 木材, 素朴, 雪"
+ },
+ {
+  "destId": "niche_石川_1",
+  "idx": 0,
+  "spotName": "大白川温泉露天風呂",
+  "imageUrl": "/images/spots/niche_石川_1/0.jpg",
+  "imageCredit": {
+   "author": "3503898",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB-%E7%8C%BF-%E6%97%A5%E6%9C%AC%E7%8C%BF-3892151/",
+   "attributionRequired": false
+  },
+  "tags": "アニマル, 猿, 日本猿, スノーモンキー, 温泉, 露天風呂, 入浴, 温浴効果, 美容, 湯治, ボス猿, 上下関係, 毛繕い, 日本, 長野県, 北信州, 自然, 湯田中渋温泉郷, 地獄谷野猿公苑, 観光名所, 旅行, 季節, 冬, 野性動物, 自然, 風景"
+ },
+ {
+  "destId": "niche_石川_1",
+  "idx": 1,
+  "spotName": "白川村の茅葺き民家群（大白川周辺）",
+  "imageUrl": "/images/spots/niche_石川_1/1.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BD%E5%B7%9D%E9%83%B7-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%97%A5%E6%9C%AC-%E5%B2%90%E9%98%9C-3968395/",
+   "attributionRequired": false
+  },
+  "tags": "白川郷, 伝統的, 日本, 自然, 岐阜, 家, 村, 冬, 行き先, 遺産, 茅葺き, アーキテクチャ, 合掌造りのスタイル, 農家, コテージ, デザイン, 木材, 素朴, 雪"
+ },
+ {
+  "destId": "niche_石川_3",
+  "idx": 0,
+  "spotName": "木場潟公園周辺の遊歩道",
+  "imageUrl": "/images/spots/niche_石川_3/0.jpg",
+  "imageCredit": {
+   "author": "Sara32_jabar",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+   "attributionRequired": false
+  },
+  "tags": "老人, 海, カモメ, 自然, 男, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_石川_3",
+  "idx": 1,
+  "spotName": "木場潟カヌースポット",
+  "imageUrl": "/images/spots/niche_石川_3/1.jpg",
+  "imageCredit": {
+   "author": "dominickvietor",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B9%96-%E6%B0%B4-%E3%82%AB%E3%83%8A%E3%83%80-%E8%87%AA%E7%84%B6-%E9%A2%A8%E6%99%AF-7541307/",
+   "attributionRequired": false
+  },
+  "tags": "湖, 水, カナダ, 自然, 風景, カヌー, ボート"
+ },
+ {
+  "destId": "niche_石川_4",
+  "idx": 1,
+  "spotName": "加佐ノ岬の漁港",
+  "imageUrl": "/images/spots/niche_石川_4/1.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_石川_6",
+  "idx": 0,
+  "spotName": "古い登窯・工房群",
+  "imageUrl": "/images/spots/niche_石川_6/0.jpg",
+  "imageCredit": {
+   "author": "manhnguyenfoto",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BB%BA%E7%89%A9-%E9%81%93-%E5%8F%A4%E3%81%84%E9%80%9A%E3%82%8A-%E3%83%91%E3%83%AC%E3%83%AB%E3%83%A2-6384966/",
+   "attributionRequired": false
+  },
+  "tags": "建物, 道, 古い通り, パレルモ, シチリア島"
+ },
+ {
+  "destId": "niche_石川_6",
+  "idx": 1,
+  "spotName": "九谷陶芸体験工房",
+  "imageUrl": "/images/spots/niche_石川_6/1.jpg",
+  "imageCredit": {
+   "author": "MrHà",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%99%B6%E5%99%A8-%E6%89%8B%E4%BD%9C%E3%82%8A-%E9%99%B6%E5%99%A8%E3%81%AE%E5%99%A8-%E3%82%8D%E3%81%8F%E3%82%8D-10258355/",
+   "attributionRequired": false
+  },
+  "tags": "陶器, 手作り, 陶器の器, ろくろ, 形, クリエイティブ, 美術, 伝統, 粘土, ベトナム, アーティスト, 手, ハノイ, 創造, 文化, クラフト, 接する, シンプルさ, 陶器の壺, アートワーク"
+ },
+ {
+  "destId": "niche_福井_1",
+  "idx": 0,
+  "spotName": "河野三角波紋帯",
+  "imageUrl": "/images/spots/niche_福井_1/0.jpg",
+  "imageCredit": {
+   "author": "ronymichaud",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B0%B4%E6%BB%B4-%E8%90%BD%E3%81%A8%E3%81%99-%E5%BD%B1%E9%9F%BF-%E6%B3%A2%E7%B4%8B-%E6%B0%B4-578897/",
+   "attributionRequired": false
+  },
+  "tags": "水滴, 落とす, 影響, 波紋, 自然, 水, 表面張力, 水面, 滴"
+ },
+ {
+  "destId": "niche_福井_1",
+  "idx": 1,
+  "spotName": "南越前町漁業協同組合周辺",
+  "imageUrl": "/images/spots/niche_福井_1/1.jpg",
+  "imageCredit": {
+   "author": "kasahariman",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%AF%E3%81%99-%E8%8A%B1-%E8%8A%B1%E3%81%AF%E3%81%99-%E5%8D%97%E8%B6%8A%E5%89%8D%E7%94%BA-3552774/",
+   "attributionRequired": false
+  },
+  "tags": "はす, 花の壁紙, 花, 花の背景, 花はす, 南越前町, 自然, 美しい花, 華麗"
+ },
+ {
+  "destId": "niche_福井_2",
+  "idx": 1,
+  "spotName": "門前の精進料理店",
+  "imageUrl": "/images/spots/niche_福井_2/1.jpg",
+  "imageCredit": {
+   "author": "WAgencia",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%8D%8B%E6%96%99%E7%90%86%E5%BA%97-%E8%B1%86paisas-5197354/",
+   "attributionRequired": false
+  },
+  "tags": "鍋料理店, 豆paisas, コロンビアの料理, 豆, 代表的な料理"
+ },
+ {
+  "destId": "niche_福井_4",
+  "idx": 0,
+  "spotName": "西野ダム展望台",
+  "imageUrl": "/images/spots/niche_福井_4/0.jpg",
+  "imageCredit": {
+   "author": "yksuk",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BF%A0%E5%B7%9E%E3%83%80%E3%83%A0-%E6%98%A5%E3%83%8A%E3%83%89%E3%82%A5%E3%83%AA-%E5%B1%95%E6%9C%9B%E5%8F%B0-717750/",
+   "attributionRequired": false
+  },
+  "tags": "忠州ダム, 春ナドゥリ, 展望台"
+ },
+ {
+  "destId": "niche_福井_4",
+  "idx": 1,
+  "spotName": "九頭竜湖周回道路",
+  "imageUrl": "/images/spots/niche_福井_4/1.jpg",
+  "imageCredit": {
+   "author": "44833",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%81%93-%E8%88%97%E8%A3%85-%E9%81%93%E8%B7%AF%E6%A8%99%E7%A4%BA-%E8%B7%AF%E9%9D%A2%E6%A8%99%E7%A4%BA-166543/",
+   "attributionRequired": false
+  },
+  "tags": "道, 舗装, 道路標示, 路面標示, 道路, ドライブ, ルート, 街, 道, 道, 道, 道路, 道路, 道路, 道路, 道路, 街, 街, 街"
+ },
+ {
+  "destId": "niche_山梨_1",
+  "idx": 0,
+  "spotName": "道志川渓谷キャンプ場群",
+  "imageUrl": "/images/spots/niche_山梨_1/0.jpg",
+  "imageCredit": {
+   "author": "ignartonosbg",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97-8260968/",
+   "attributionRequired": false
+  },
+  "tags": "グラウンドキャンプ, ファミリーキャンプ, ピクニック, テント, キャンプ場, 休暇, キャンプ, キャンプ場, キャンプ場, キャンプ, キャンプ, キャンプ, キャンプ, キャンプ"
+ },
+ {
+  "destId": "niche_山梨_2",
+  "idx": 1,
+  "spotName": "南部町栗園地帯",
+  "imageUrl": "/images/spots/niche_山梨_2/1.jpg",
+  "imageCredit": {
+   "author": "NoName_13",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%8F%E3%82%8B%E3%81%BF-%E7%A7%8B-%E6%8B%8D%E8%BB%8A-%E9%96%8B%E3%81%84%E3%81%9F-1698730/",
+   "attributionRequired": false
+  },
+  "tags": "くるみ, 秋, 拍車, 開いた, 開栗, シェル, ブラウン, とげのある, 自然, 栗フルーツ, 秋の果実, 閉じる"
+ },
+ {
+  "destId": "niche_山梨_3",
+  "idx": 0,
+  "spotName": "鍾乳洞温泉",
+  "imageUrl": "/images/spots/niche_山梨_3/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_山梨_3",
+  "idx": 1,
+  "spotName": "丹波山村の登山道（奥多摩山域）",
+  "imageUrl": "/images/spots/niche_山梨_3/1.jpg",
+  "imageCredit": {
+   "author": "Ralf1403",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0-%E5%B1%B1-%E9%A2%A8%E6%99%AF-%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9-9718263/",
+   "attributionRequired": false
+  },
+  "tags": "ハイキング, 山, 風景, アルプス, 山のハイキング, サミット, クラインヴァルサータール, オーストリア, 登山道, 自然, 高山"
+ },
+ {
+  "destId": "niche_山梨_4",
+  "idx": 1,
+  "spotName": "猿橋町の地元食堂と朴葉寿司",
+  "imageUrl": "/images/spots/niche_山梨_4/1.jpg",
+  "imageCredit": {
+   "author": "Mayorga-Photo",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%99%E3%81%97-%E5%B7%BB%E3%81%8D%E5%AF%BF%E5%8F%B8-%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86-4956246/",
+   "attributionRequired": false
+  },
+  "tags": "すし, 巻き寿司, 日本料理, 日本食, フラットレイ, すし, 日本料理, 日本料理, 日本料理, 日本料理, 日本食, 日本食, 日本食, 日本食, 日本食"
+ },
+ {
+  "destId": "niche_山梨_5",
+  "idx": 0,
+  "spotName": "猿が城跡・小金沢山登山道",
+  "imageUrl": "/images/spots/niche_山梨_5/0.jpg",
+  "imageCredit": {
+   "author": "Ralf1403",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0-%E5%B1%B1-%E9%A2%A8%E6%99%AF-%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9-9718263/",
+   "attributionRequired": false
+  },
+  "tags": "ハイキング, 山, 風景, アルプス, 山のハイキング, サミット, クラインヴァルサータール, オーストリア, 登山道, 自然, 高山"
+ },
+ {
+  "destId": "niche_山梨_5",
+  "idx": 1,
+  "spotName": "朝焼けの富士山展望タイム",
+  "imageUrl": "/images/spots/niche_山梨_5/1.jpg",
+  "imageCredit": {
+   "author": "OgawaTJ",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AF%8C%E5%A3%AB%E5%B1%B1-%E6%97%A9%E6%9C%9D-%E5%86%AC-%E9%9B%B2-%E7%99%BB%E5%B1%B1-3408712/",
+   "attributionRequired": false
+  },
+  "tags": "富士山, 早朝, 冬, 雲, 登山, 朝焼け, 日本, 自然, 富士山, 富士山, 富士山, 富士山, 富士山, 朝焼け"
+ },
+ {
+  "destId": "niche_山梨_7",
+  "idx": 0,
+  "spotName": "塩山梅林地帯",
+  "imageUrl": "/images/spots/niche_山梨_7/0.jpg",
+  "imageCredit": {
+   "author": "15147632",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1%E5%B2%B3%E5%9C%B0%E5%B8%AF-%E5%B1%B1%E3%81%AE%E9%A2%A8%E6%99%AF-%E5%B1%B1-%E9%A2%A8%E6%99%AF-5942962/",
+   "attributionRequired": false
+  },
+  "tags": "山岳地帯, 山の風景, 山, 風景, 自然, 山の風景, 山, 山, 風景, 風景, 風景, 風景, 風景"
+ },
+ {
+  "destId": "niche_山梨_7",
+  "idx": 1,
+  "spotName": "古い町並みと梅干し工房",
+  "imageUrl": "/images/spots/niche_山梨_7/1.jpg",
+  "imageCredit": {
+   "author": "Tama66",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%94%BA%E4%B8%A6%E3%81%BF-%E8%A1%97%E4%B8%A6%E3%81%BF-%E8%A1%97-%E5%B8%82-5584820/",
+   "attributionRequired": false
+  },
+  "tags": "町並み, 街並み, 街, 市, ダウンタウン, 建物, 橋, 川, ネッカー川, ハイデルベルク, ドイツ, 町並み, 街並み, 街並み, ドイツ, ドイツ, ドイツ, ドイツ, ドイツ"
+ },
+ {
+  "destId": "niche_長野_1",
+  "idx": 0,
+  "spotName": "昼神温泉郷",
+  "imageUrl": "/images/spots/niche_長野_1/0.jpg",
+  "imageCredit": {
+   "author": "katya-guseva0",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%89%A1%E4%B8%B9-%E3%83%94%E3%83%B3%E3%82%AF-%E7%A5%9E-%E3%81%A6%E3%82%93%E3%81%A8%E3%81%86%E8%99%AB-5420406/",
+   "attributionRequired": false
+  },
+  "tags": "牡丹, ピンク, 神, てんとう虫, マクロ, 牡丹, 牡丹, 牡丹, 牡丹, 牡丹, てんとう虫"
+ },
+ {
+  "destId": "niche_長野_2",
+  "idx": 0,
+  "spotName": "馬籠宿の石畳坂道",
+  "imageUrl": "/images/spots/niche_長野_2/0.jpg",
+  "imageCredit": {
+   "author": "NguyenGianga2",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%81%93-%E8%A1%97-%E5%BB%BA%E7%89%A9-%E6%97%A7%E5%B8%82%E8%A1%97-%E6%97%A5%E6%9C%AC-7704729/",
+   "attributionRequired": false
+  },
+  "tags": "道, 街, 建物, 旧市街, 日本, 馬籠宿, 妻籠宿, トラベル, 冬, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "niche_長野_4",
+  "idx": 0,
+  "spotName": "結東温泉",
+  "imageUrl": "/images/spots/niche_長野_4/0.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%8B%E3%83%9B%E3%83%B3%E3%82%B6%E3%83%AB-%E9%87%8E%E7%94%9F-%E5%8B%95%E7%89%A9-4809479/",
+   "attributionRequired": false
+  },
+  "tags": "ニホンザル, 野生, 動物, 野生動物, 温泉, 自然, 日本, 可愛い, 観光, 長野, 霊長目, 母親, 赤ちゃん, 愛, お手入れ, 思いやりのあります, 地獄谷野猿公衛, 繋がり, 温泉, 温泉, 温泉, 温泉, 温泉"
+ },
+ {
+  "destId": "niche_長野_4",
+  "idx": 1,
+  "spotName": "秋山郷の林道ドライブ",
+  "imageUrl": "/images/spots/niche_長野_4/1.jpg",
+  "imageCredit": {
+   "author": "sayama",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%B4%85%E8%91%89-%E7%A7%8B%E5%B1%B1%E9%83%B7-%E6%B8%93%E8%B0%B7-%E7%A7%8B-1813825/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 紅葉, 秋山郷, 渓谷, 秋, 長野, 新潟, 自然, 風景, 渓流, 長野, 長野, 長野, 長野, 新潟, 新潟, 新潟, 新潟, 新潟, 渓流, 渓流, 渓流, 渓流"
+ },
+ {
+  "destId": "niche_岐阜_1",
+  "idx": 1,
+  "spotName": "恵那峡サボテンランド",
+  "imageUrl": "/images/spots/niche_岐阜_1/1.jpg",
+  "imageCredit": {
+   "author": "VariousPhotography",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B5%E3%83%9C%E3%83%86%E3%83%B3-%E7%B7%91-%E3%81%A8%E3%81%92%E3%81%AE%E3%81%82%E3%82%8B-%E9%87%9D-1453793/",
+   "attributionRequired": false
+  },
+  "tags": "サボテン, 緑, とげのある, 針, サボテンの針, シャボテン工場, 自然, 植物, いばら, シャープ, 多肉植物, 公園, アリゾナ, サボテン, サボテン, サボテン, サボテン, サボテン"
+ },
+ {
+  "destId": "niche_岐阜_4",
+  "idx": 0,
+  "spotName": "日本庭園 恵那峡風景園地",
+  "imageUrl": "/images/spots/niche_岐阜_4/0.jpg",
+  "imageCredit": {
+   "author": "JamesDeMers",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A9%8B-%E5%85%AC%E5%9C%92-%E6%97%A5%E6%9C%AC%E5%BA%AD%E5%9C%92-%E9%81%93-%E6%AD%A9%E9%81%93-53769/",
+   "attributionRequired": false
+  },
+  "tags": "橋, 公園, 日本庭園, 道, 歩道, 景色, 自然, 橋, 橋, 公園, 公園, 公園, 日本庭園, 景色, 景色, 景色, 景色, 景色, 自然, 自然, 自然, 自然"
+ },
+ {
+  "destId": "niche_岐阜_4",
+  "idx": 1,
+  "spotName": "不動滝・観音滝",
+  "imageUrl": "/images/spots/niche_岐阜_4/1.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BD%E5%B7%9D%E9%83%B7-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%97%A5%E6%9C%AC-%E5%B2%90%E9%98%9C-3968395/",
+   "attributionRequired": false
+  },
+  "tags": "白川郷, 伝統的, 日本, 自然, 岐阜, 家, 村, 冬, 行き先, 遺産, 茅葺き, アーキテクチャ, 合掌造りのスタイル, 農家, コテージ, デザイン, 木材, 素朴, 雪"
+ },
+ {
+  "destId": "niche_岐阜_5",
+  "idx": 0,
+  "spotName": "淡墨桜周辺の野田の里",
+  "imageUrl": "/images/spots/niche_岐阜_5/0.jpg",
+  "imageCredit": {
+   "author": "Hans",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%A1%9C%E3%81%AE%E8%8A%B1-%E6%97%A5%E6%9C%AC%E3%81%AE%E6%A1%9C-%E5%8C%82%E3%81%84-%E8%8A%B1-1260641/",
+   "attributionRequired": false
+  },
+  "tags": "桜の花, 日本の桜, 匂い, 花, ブルーム, 観賞用チェリー, バネ, ピンク, プルナスの serrulata, 観賞植物, オリエンタルチェリー, 東アジアの桜, grannenkirsche, サクラ属, バラ, バラ科, 開花枝, 支店, 木, つぼみ, 吉野の桜, 自然, 桜の木, 日本の文化, 日本, 伝統"
+ },
+ {
+  "destId": "niche_岐阜_5",
+  "idx": 1,
+  "spotName": "根尾戸中地区の散策路",
+  "imageUrl": "/images/spots/niche_岐阜_5/1.jpg",
+  "imageCredit": {
+   "author": "Chikilino",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E6%AD%B4%E5%8F%B2%E5%AE%B6-%E5%AE%B6-4437756/",
+   "attributionRequired": false
+  },
+  "tags": "アーキテクチャ, 歴史家, 家, ボルゴ, イタリア, 風景, rustico, ファサード, 村, 工事, 歴史地区地区, 田舎, 古代の, アブルッツォ州"
+ },
+ {
+  "destId": "niche_岐阜_6",
+  "idx": 0,
+  "spotName": "太田宿中山道歴史館",
+  "imageUrl": "/images/spots/niche_岐阜_6/0.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A6%AC%E7%B1%A0%E5%AE%BF-%E9%A6%AC%E7%B1%A0-%E4%B8%AD%E5%B1%B1%E9%81%93-%E6%97%A7%E5%AE%BF%E5%A0%B4%E7%94%BA-7857919/",
+   "attributionRequired": false
+  },
+  "tags": "馬籠宿, 馬籠, 中山道, 旧宿場町, 江戸時代, 日本, 歴史的, 水車, 石畳, 岐阜, 村, 道, 江戸時代, 江戸時代, 江戸時代, 江戸時代, 江戸時代, 日本, 日本, 岐阜"
+ },
+ {
+  "destId": "niche_岐阜_6",
+  "idx": 1,
+  "spotName": "うだつの上がった商家群",
+  "imageUrl": "/images/spots/niche_岐阜_6/1.jpg",
+  "imageCredit": {
+   "author": "ArmbrustAnna",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%81%9D%E3%82%88%E9%A2%A8%E3%81%8C%E4%B8%8A%E3%81%8C%E3%81%A3%E3%81%9F-%E9%9D%92%E3%81%84%E8%8A%B1-%E5%BA%AD%E3%81%AE%E8%8A%B1-2768181/",
+   "attributionRequired": false
+  },
+  "tags": "そよ風が上がった, 青い花, 庭の花"
+ },
+ {
+  "destId": "niche_岐阜_7",
+  "idx": 0,
+  "spotName": "春日集落の茅葺き民家群",
+  "imageUrl": "/images/spots/niche_岐阜_7/0.jpg",
+  "imageCredit": {
+   "author": "pen_ash",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BD%E5%B7%9D%E9%83%B7-%E4%BC%9D%E7%B5%B1%E7%9A%84-%E6%97%A5%E6%9C%AC-%E5%B2%90%E9%98%9C-3968395/",
+   "attributionRequired": false
+  },
+  "tags": "白川郷, 伝統的, 日本, 自然, 岐阜, 家, 村, 冬, 行き先, 遺産, 茅葺き, アーキテクチャ, 合掌造りのスタイル, 農家, コテージ, デザイン, 木材, 素朴, 雪"
+ },
+ {
+  "destId": "niche_岐阜_8",
+  "idx": 0,
+  "spotName": "養老川上流の階段滝",
+  "imageUrl": "/images/spots/niche_岐阜_8/0.jpg",
+  "imageCredit": {
+   "author": "dannymoore1973",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3-%E9%AD%9A-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97-%E4%B8%8A%E6%B5%81%E3%81%AE-1107404/",
+   "attributionRequired": false
+  },
+  "tags": "サーモン, 自然, 魚, ジャンプ, 上流の, ジャンプする魚, ジャンピング, フライング ・ フィッシュ, 水, 淡水魚"
+ },
+ {
+  "destId": "niche_静岡_2",
+  "idx": 1,
+  "spotName": "大堀根ダム周辺の散策路",
+  "imageUrl": "/images/spots/niche_静岡_2/1.jpg",
+  "imageCredit": {
+   "author": "epicioci",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%A3%E7%AD%96%E8%B7%AF-%E9%81%93-%E6%A3%AE%E6%9E%97-%E5%85%AC%E5%9C%92-%E8%87%AA%E7%84%B6-7553795/",
+   "attributionRequired": false
+  },
+  "tags": "散策路, 道, 森林, 公園, 自然, 森, 木, トレイル"
+ },
+ {
+  "destId": "niche_静岡_3",
+  "idx": 0,
+  "spotName": "石部棚田",
+  "imageUrl": "/images/spots/niche_静岡_3/0.jpg",
+  "imageCredit": {
+   "author": "mercierzeng",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A5%B3%E6%80%A7-%E4%B8%AD%E5%9B%BD-%E3%83%A4%E3%82%AA%E3%83%9E%E3%82%A4%E3%83%8E%E3%83%AA%E3%83%86%E3%82%A3-7217461/",
+   "attributionRequired": false
+  },
+  "tags": "女性, 中国, ヤオマイノリティ, マイノリティの女性, 桂林, ロンジー, 龍寺棚田, ご飯, 秋, 電話を使う, 村, 自然, 田舎, 女性, 女性, 中国, 中国, 中国, 中国, 中国, 村, 田舎"
+ },
+ {
+  "destId": "niche_静岡_3",
+  "idx": 1,
+  "spotName": "松崎白壁地区",
+  "imageUrl": "/images/spots/niche_静岡_3/1.jpg",
+  "imageCredit": {
+   "author": "Chikilino",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E6%AD%B4%E5%8F%B2%E5%AE%B6-%E5%AE%B6-4437756/",
+   "attributionRequired": false
+  },
+  "tags": "アーキテクチャ, 歴史家, 家, ボルゴ, イタリア, 風景, rustico, ファサード, 村, 工事, 歴史地区地区, 田舎, 古代の, アブルッツォ州"
+ },
+ {
+  "destId": "niche_静岡_6",
+  "idx": 1,
+  "spotName": "大井川鐵道アプト式区間",
+  "imageUrl": "/images/spots/niche_静岡_6/1.jpg",
+  "imageCredit": {
+   "author": "17831348",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%8A%AC-%E3%83%9A%E3%83%83%E3%83%88-%E5%9B%BD%E5%86%85%E3%81%AE-%E8%A5%9F-%E5%8B%95%E7%89%A9-5482171/",
+   "attributionRequired": false
+  },
+  "tags": "犬, ペット, 自然, 国内の, 襟, 動物, 式"
+ },
+ {
+  "destId": "niche_愛知_1",
+  "idx": 1,
+  "spotName": "伊良湖岬周辺の漁師食堂",
+  "imageUrl": "/images/spots/niche_愛知_1/1.jpg",
+  "imageCredit": {
+   "author": "TrieuThien",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%BC%81%E5%B8%AB-%E6%BC%81%E5%B8%AB%E3%81%9F%E3%81%A1%E3%81%AF%E5%B7%9D%E3%81%A7%E5%83%8D%E3%81%8F-8449951/",
+   "attributionRequired": false
+  },
+  "tags": "漁師, 漁師たちは川で働く, リバークラフト, 川の漁師, 川の女性, 熊手はスープを調理しないでください"
+ },
+ {
+  "destId": "niche_愛知_2",
+  "idx": 1,
+  "spotName": "豊根村の山菜・わさび販売所",
+  "imageUrl": "/images/spots/niche_愛知_2/1.jpg",
+  "imageCredit": {
+   "author": "ThomasWolter",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%81%93-%E7%9F%B3%E7%95%B3-%E8%B7%AF%E5%9C%B0-%E8%A1%97-%E4%BA%8B%E6%A5%AD%E6%89%80-949832/",
+   "attributionRequired": false
+  },
+  "tags": "道, 石畳, 路地, 街, 事業所, 石畳の通り, 中世の村, 黒と白, モノクロ, 道, 石畳, 路地, 路地, 路地, 路地, 街, 街, 街, 街, 街, モノクロ, モノクロ, モノクロ, モノクロ"
+ },
+ {
+  "destId": "niche_愛知_3",
+  "idx": 0,
+  "spotName": "鳳来峡の吊橋",
+  "imageUrl": "/images/spots/niche_愛知_3/0.jpg",
+  "imageCredit": {
+   "author": "shogun",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B9%96-%E5%B1%B1-%E5%90%8A%E6%A9%8B-%E8%87%AA%E7%84%B6-%E6%A9%8B-7340473/",
+   "attributionRequired": false
+  },
+  "tags": "湖, 山, 吊橋, 自然, 橋, 風景, 山の世界, パノラマブリッジ, 山, 山, 山, 山, 山, 橋, 風景, 風景"
+ },
+ {
+  "destId": "niche_愛知_3",
+  "idx": 1,
+  "spotName": "鳳来峡ハイキングコース",
+  "imageUrl": "/images/spots/niche_愛知_3/1.jpg",
+  "imageCredit": {
+   "author": "jplenio",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%A8-%E3%82%A2%E3%83%99%E3%83%8B%E3%83%A5%E3%83%BC-%E9%81%93-%E8%87%AA%E7%84%B6-3092026/",
+   "attributionRequired": false
+  },
+  "tags": "木, アベニュー, 道, 自然, ハイキング, 森林, ハイキングコース, ムード, 道, 道, 道, 道, 道, ハイキング, ハイキング, ハイキング, 森林"
+ },
+ {
+  "destId": "niche_愛知_4",
+  "idx": 0,
+  "spotName": "内子町並み保存地区",
+  "imageUrl": "/images/spots/niche_愛知_4/0.jpg",
+  "imageCredit": {
+   "author": "blank76",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%9E%E3%83%86%E3%83%BC%E3%83%A9-%E8%A1%97%E4%B8%A6%E3%81%BF-%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2-%E5%B8%82-4612016/",
+   "attributionRequired": false
+  },
+  "tags": "マテーラ, 街並み, イタリア, 市, 歴史地区地区, basilicata, アーキテクチャ, ユネスコ, 古代の, 観光, 文化, 年, 家, 街, トラベル, 概要, 資本, ボルゴ, 階段, 記念碑, 歴史, ヨーロッパ, 歴史的, マテーラ, イタリア, イタリア, イタリア, イタリア, イタリア, 階段, 階段, ヨーロッパ, ヨーロッパ, ヨーロッパ, ヨーロッパ, ヨーロッパ"
+ },
+ {
+  "destId": "niche_愛知_4",
+  "idx": 1,
+  "spotName": "八日市護国神社と祭り",
+  "imageUrl": "/images/spots/niche_愛知_4/1.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%86%8A%E6%9C%AC-%E7%A5%9E%E7%A4%BE-%E6%B5%B7-530348/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 熊本, 神社, 海, 長尾神社, 自然, 雲, 空, アジア"
+ },
+ {
+  "destId": "niche_愛知_5",
+  "idx": 0,
+  "spotName": "木曽川河岸の古民家群",
+  "imageUrl": "/images/spots/niche_愛知_5/0.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB-%E5%8C%97%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-5039356/",
+   "attributionRequired": false
+  },
+  "tags": "オランダ, のホテル, 北オランダ, 本格, 歴史, 古民家, オランダ, オランダ, オランダ, オランダ, オランダ, 古民家, 古民家, 古民家"
+ },
+ {
+  "destId": "niche_愛知_5",
+  "idx": 1,
+  "spotName": "渡し跡カフェと地元蕎麦",
+  "imageUrl": "/images/spots/niche_愛知_5/1.jpg",
+  "imageCredit": {
+   "author": "Cparks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%95%E3%82%A7-%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%A8%E6%A4%85%E5%AD%90-%E3%83%93%E3%82%B9%E3%83%88%E3%83%AD-5579069/",
+   "attributionRequired": false
+  },
+  "tags": "カフェ, テーブルと椅子, ビストロ, テーブル, 椅子, 飲食店, 市, 都市, ブランチ, カフェ, カフェ, カフェ, カフェ, カフェ"
+ },
+ {
+  "destId": "niche_愛知_7",
+  "idx": 0,
+  "spotName": "吉良漁港の朝市と競り",
+  "imageUrl": "/images/spots/niche_愛知_7/0.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_愛知_7",
+  "idx": 1,
+  "spotName": "漁師の炭火焼き小屋",
+  "imageUrl": "/images/spots/niche_愛知_7/1.jpg",
+  "imageCredit": {
+   "author": "Bru-nO",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%BC%81%E5%B8%AB%E3%81%AE%E5%B0%8F%E5%B1%8B-%E5%B0%8F%E5%B1%8B-%E5%AE%B6-4478427/",
+   "attributionRequired": false
+  },
+  "tags": "漁師の小屋, 小屋, 家, 自然, holzhaus, スウェーデンの家, ボート, 水, 海, 湖, 石, スカンジナビア"
+ },
+ {
+  "destId": "niche_三重_2",
+  "idx": 0,
+  "spotName": "宮川渓谷・七ツ釜滝周辺",
+  "imageUrl": "/images/spots/niche_三重_2/0.jpg",
+  "imageCredit": {
+   "author": "TheAngryTeddy",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89-%E3%82%AD%E3%83%BC-%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2-338505/",
+   "attributionRequired": false
+  },
+  "tags": "キーボード, キー, ハードウェア, pc, コンピューター, 周辺機器, ラップトップ, ノートブック, 仕事, 事務所, カメラ, 写真, 写真を撮る, 写真撮影, 写真のカメラ, カメラ, カメラ, カメラ, カメラ, カメラ"
+ },
+ {
+  "destId": "niche_三重_2",
+  "idx": 1,
+  "spotName": "大台町森林セラピーロード",
+  "imageUrl": "/images/spots/niche_三重_2/1.jpg",
+  "imageCredit": {
+   "author": "IDarca",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%81%93-%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0-%E3%83%AD%E3%83%BC%E3%83%89-%E6%A3%AE%E6%9E%97-7349232/",
+   "attributionRequired": false
+  },
+  "tags": "道, ワインディング ロード, 森林, 自然, 田舎, 田舎道"
+ },
+ {
+  "destId": "niche_三重_3",
+  "idx": 0,
+  "spotName": "宇賀渚灯台・展望台",
+  "imageUrl": "/images/spots/niche_三重_3/0.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "niche_三重_3",
+  "idx": 1,
+  "spotName": "紀北町の漁村・朝市",
+  "imageUrl": "/images/spots/niche_三重_3/1.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB-%E6%BC%81%E6%9D%91-5039354/",
+   "attributionRequired": false
+  },
+  "tags": "オランダ, のホテル, 漁村, 北オランダ, 本格, 旧市街, オランダ, オランダ, オランダ, オランダ, オランダ, 漁村"
+ },
+ {
+  "destId": "niche_滋賀_1",
+  "idx": 1,
+  "spotName": "鍵懸峠茶屋跡",
+  "imageUrl": "/images/spots/niche_滋賀_1/1.jpg",
+  "imageCredit": {
+   "author": "Monikas_Wunderwelt",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A2%E3%83%AB%E3%83%97%E5%B3%A0-%E5%B1%B1%E3%81%AE%E9%81%93-7319059/",
+   "attributionRequired": false
+  },
+  "tags": "山, オーバーアルプ峠, 山の道, 自然, 夏, トラベル, ライト, 風景"
+ },
+ {
+  "destId": "niche_滋賀_3",
+  "idx": 0,
+  "spotName": "永源寺参詣道",
+  "imageUrl": "/images/spots/niche_滋賀_3/0.jpg",
+  "imageCredit": {
+   "author": "pdimaria",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%BC%E3%83%81%E9%81%93-%E9%80%9A%E8%B7%AF-%E5%8D%8A%E5%86%86%E3%82%A2%E3%83%BC%E3%83%81-5426581/",
+   "attributionRequired": false
+  },
+  "tags": "アーチ道, 通路, 半円アーチ, 目標, 通路, 通路, 通路, 通路, 通路, 目標, 目標"
+ },
+ {
+  "destId": "niche_滋賀_3",
+  "idx": 1,
+  "spotName": "愛知川沿い製紙跡地",
+  "imageUrl": "/images/spots/niche_滋賀_3/1.jpg",
+  "imageCredit": {
+   "author": "AG-Pics",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88-%E3%83%93%E3%83%BC%E3%83%81-%E6%97%A5%E6%B2%A1-8292291/",
+   "attributionRequired": false
+  },
+  "tags": "リゾート, ビーチ, 日没, モライラ, コスタブランカ, 自然, スペイン, 海岸沿いの町, 地中海, マリーナ, ウォーター スポーツ"
+ },
+ {
+  "destId": "niche_滋賀_6",
+  "idx": 0,
+  "spotName": "賤ヶ岳砲台跡",
+  "imageUrl": "/images/spots/niche_滋賀_6/0.jpg",
+  "imageCredit": {
+   "author": "tosiyuki",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E5%92%8C%E6%AD%8C%E5%B1%B1-%E6%B7%A1%E5%B3%B6%E7%A5%9E%E7%A4%BE-%E7%A0%B2%E5%8F%B0%E8%B7%A1-4774750/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 和歌山, 淡島神社, 砲台跡, 友が島, 和歌山, 和歌山, 和歌山, 和歌山, 和歌山"
+ },
+ {
+  "destId": "niche_滋賀_6",
+  "idx": 1,
+  "spotName": "山里の古寺と石仏群",
+  "imageUrl": "/images/spots/niche_滋賀_6/1.jpg",
+  "imageCredit": {
+   "author": "KPG_2016",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%BF%E3%82%A4-%E3%82%A2%E3%83%A6%E3%82%BF%E3%83%A4-%E5%BB%83%E5%A2%9F-%E7%89%A9%E8%AA%9E-4427412/",
+   "attributionRequired": false
+  },
+  "tags": "タイ, アユタヤ, 廃墟, 物語, 古寺"
+ },
+ {
+  "destId": "niche_京都_1",
+  "idx": 1,
+  "spotName": "白生地機械遺産館",
+  "imageUrl": "/images/spots/niche_京都_1/1.jpg",
+  "imageCredit": {
+   "author": "MustangJoe",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%AD%AF%E8%BB%8A-%E6%A9%9F%E6%A2%B0-%E6%A9%9F%E6%A2%B0%E7%9A%84-%E6%AD%AF%E8%BB%8A%E3%81%A8%E6%AD%AF%E8%BB%8A-1236578/",
+   "attributionRequired": false
+  },
+  "tags": "歯車, 機械, 機械的, 歯車と歯車, テクノロジー, 業界, 工業用, エンジニアリング, 金属, モノクロ, 黒と白, 歯車, 歯車, 機械, 機械, 機械, 機械, 機械"
+ },
+ {
+  "destId": "niche_京都_3",
+  "idx": 0,
+  "spotName": "青谷茶工場直売所",
+  "imageUrl": "/images/spots/niche_京都_3/0.jpg",
+  "imageCredit": {
+   "author": "Nennieinszweidrei",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%98%86%E5%B8%83%E8%8C%B6-%E7%99%BA%E9%85%B5%E9%A3%B2%E6%96%99-%E7%99%BA%E9%85%B5-8478515/",
+   "attributionRequired": false
+  },
+  "tags": "昆布茶, 発酵飲料, 発酵, コンブチャキノコ, スコビー, 茶茸, 発酵させる"
+ },
+ {
+  "destId": "niche_京都_3",
+  "idx": 1,
+  "spotName": "府立山城総合運動公園展望台",
+  "imageUrl": "/images/spots/niche_京都_3/1.jpg",
+  "imageCredit": {
+   "author": "kiyu_01",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%A9-%E7%A6%8F%E5%B3%B6-%E3%81%82%E3%81%A5%E3%81%BE%E7%B7%8F%E5%90%88%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92-785120/",
+   "attributionRequired": false
+  },
+  "tags": "バラ, バラの花, 福島, あづま総合運動公園, ピンク"
+ },
+ {
+  "destId": "niche_京都_5",
+  "idx": 0,
+  "spotName": "高屋橋周辺",
+  "imageUrl": "/images/spots/niche_京都_5/0.jpg",
+  "imageCredit": {
+   "author": "susnpics",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%AB%98%E5%B1%B1-%E6%B8%93%E6%B5%81-%E9%AB%98%E8%B0%B7-%E8%9B%87%E8%A1%8C-5455013/",
+   "attributionRequired": false
+  },
+  "tags": "高山, 渓流, 高谷, 蛇行, ヴァレー, スイス, 急流, 運河, 渓流, 渓流, 渓流, 渓流, 渓流, スイス, スイス, 運河, 運河, 運河"
+ },
+ {
+  "destId": "niche_京都_6",
+  "idx": 0,
+  "spotName": "北の宿温泉（村営施設）",
+  "imageUrl": "/images/spots/niche_京都_6/0.jpg",
+  "imageCredit": {
+   "author": "LoggaWiggler",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
+   "attributionRequired": false
+  },
+  "tags": "カルシウムプール, テラス, 観光の名所, 世界遺産, travertineル, 温泉, 自然, ライムシンターテラス, パムッカレ温泉プール, パムッカレ, デニズリ, 七面鳥, 世界遺産, 世界遺産, 世界遺産, 世界遺産, 世界遺産, 温泉, 温泉, パムッカレ"
+ },
+ {
+  "destId": "niche_京都_6",
+  "idx": 1,
+  "spotName": "南山城村の茶畑群",
+  "imageUrl": "/images/spots/niche_京都_6/1.jpg",
+  "imageCredit": {
+   "author": "sjoker13",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%8C%B6%E7%95%91-%E4%B8%98-%E6%97%A5%E3%81%AE%E5%87%BA-%E6%9C%9D-%E9%9C%A7-7344887/",
+   "attributionRequired": false
+  },
+  "tags": "茶畑, 丘, 日の出, 朝, 霧, 田畑, 農地, 農業, 栽培, 田舎, 自然, 風景, 日の出, 日の出, 日の出, 日の出, 日の出, 農業, 田舎, 自然"
+ },
+ {
+  "destId": "niche_大阪_1",
+  "idx": 0,
+  "spotName": "白滝",
+  "imageUrl": "/images/spots/niche_大阪_1/0.jpg",
+  "imageCredit": {
+   "author": "sarah4385",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%9D%E3%83%B3%E9%85%A2-%E9%BA%BA-%E7%99%BD%E6%BB%9D-%E3%83%A4%E3%83%A0%E3%82%A4%E3%83%A2-2272072/",
+   "attributionRequired": false
+  },
+  "tags": "ポン酢, 麺, 白滝, ヤムイモ, 日本, ズッキーニ, エビ, 人参, 夕食, 食物, お食事, ランチ, 料理, グルメ, シーフード, ソース, おいしい, 皿, 新鮮な, 健康, 野菜, 美味しい, 食べる, 準備, アジア人, 魚, にんじん, ハーブ"
+ },
+ {
+  "destId": "niche_大阪_1",
+  "idx": 1,
+  "spotName": "道の駅のせ",
+  "imageUrl": "/images/spots/niche_大阪_1/1.jpg",
+  "imageCredit": {
+   "author": "asd14235714",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9C%B0%E4%B8%8B%E9%89%84-%E3%83%A1%E3%83%88%E3%83%AD-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%81%AE%E9%A7%85-4823909/",
+   "attributionRequired": false
+  },
+  "tags": "地下鉄, メトロ, 地下鉄の駅, 鉄道駅, 駅, 鉄道, 韓国の地下鉄, プラットホーム, 交通機関, トラベル, 駅, 駅, 駅, 駅, 駅"
+ },
+ {
+  "destId": "niche_大阪_2",
+  "idx": 1,
+  "spotName": "太子町の竹林散策路",
+  "imageUrl": "/images/spots/niche_大阪_2/1.jpg",
+  "imageCredit": {
+   "author": "oakdog",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E6%97%A5%E6%9C%AC%E8%AA%9E-%E5%A4%A7%E9%98%AA-%E3%81%AA%E3%82%93%E3%81%B0-3664500/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 日本語, 大阪, なんば, guriko大阪, guriko, 京都, 神戸, 関西, 渋谷, 道路, 店, ボート, 町, 椿東, 独自の, 大阪, 大阪, 大阪, 大阪, 大阪"
+ },
+ {
+  "destId": "niche_大阪_3",
+  "idx": 1,
+  "spotName": "淀川河川敷の散歩道",
+  "imageUrl": "/images/spots/niche_大阪_3/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%8A%B1%E7%81%AB-%E5%A4%9C%E7%A9%BA-%E5%AD%A3%E7%AF%80%E3%81%AE%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88-8174733/",
+   "attributionRequired": false
+  },
+  "tags": "花火, 夜空, 季節のイベント, 淀川花火大会, 大阪, フィナーレ, 日本"
+ },
+ {
+  "destId": "niche_兵庫_1",
+  "idx": 1,
+  "spotName": "大池親水公園",
+  "imageUrl": "/images/spots/niche_兵庫_1/1.jpg",
+  "imageCredit": {
+   "author": "100YDesign",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B9%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%97%E3%83%BC%E3%83%AB-%E8%A6%AA%E6%B0%B4%E5%85%AC%E5%9C%92-2301549/",
+   "attributionRequired": false
+  },
+  "tags": "スイミングプール, 親水公園, ウォータースライダー, テーマパーク, 象, ウォータースライダー, ウォータースライダー, ウォータースライダー, ウォータースライダー, ウォータースライダー"
+ },
+ {
+  "destId": "niche_兵庫_2",
+  "idx": 0,
+  "spotName": "荒湯地獄谷",
+  "imageUrl": "/images/spots/niche_兵庫_2/0.jpg",
+  "imageCredit": {
+   "author": "5998679",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%99%BB%E5%88%A5%E5%9C%B0%E7%8D%84%E8%B0%B7-%E7%81%AB%E5%B1%B1-%E6%97%A5%E6%9C%AC-2540448/",
+   "attributionRequired": false
+  },
+  "tags": "登別地獄谷, 火山, 日本"
+ },
+ {
+  "destId": "niche_兵庫_4",
+  "idx": 0,
+  "spotName": "鳥飼漁港",
+  "imageUrl": "/images/spots/niche_兵庫_4/0.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_兵庫_4",
+  "idx": 1,
+  "spotName": "丸島の番所跡",
+  "imageUrl": "/images/spots/niche_兵庫_4/1.jpg",
+  "imageCredit": {
+   "author": "the_iop",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%8A%E3%83%9F%E3%83%93%E3%82%A2-%E7%A0%82%E6%BC%A0%E3%81%AE%E9%81%93-%E7%A0%82%E5%88%A9%E9%81%93-9992336/",
+   "attributionRequired": false
+  },
+  "tags": "ナミビア, 砂漠の道, 砂利道, タイヤのトラック, 曇った空, 砂の風景, 岩の風景, 孤独, 長距離旅行, 荒野, 広がり, 冒険, 未舗装道路, 自然, 草原, 乾燥した風景, 地平線, 絶縁, 車両トラック, 不毛の風景"
+ },
+ {
+  "destId": "niche_奈良_1",
+  "idx": 1,
+  "spotName": "黒滝温泉",
+  "imageUrl": "/images/spots/niche_奈良_1/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_奈良_1",
+  "idx": 2,
+  "spotName": "黒滝そばの店",
+  "imageUrl": "/images/spots/niche_奈良_1/2.jpg",
+  "imageCredit": {
+   "author": "Pexels",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%8D-%E8%A1%A3%E9%A1%9E-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-%E3%81%8A%E5%BA%97-1839935/",
+   "attributionRequired": false
+  },
+  "tags": "服, 衣類, ファッション, お店, 洋服店, 店, ラック, スタイル, 女性のファッション, 小売り, セール, 買い物, 服, 服, 服, 服, 服, ファッション, お店, 店"
+ },
+ {
+  "destId": "niche_奈良_2",
+  "idx": 0,
+  "spotName": "野迫川温泉",
+  "imageUrl": "/images/spots/niche_奈良_2/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_奈良_2",
+  "idx": 1,
+  "spotName": "野迫川村役場周辺の古民家群",
+  "imageUrl": "/images/spots/niche_奈良_2/1.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB-%E5%8C%97%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-5039356/",
+   "attributionRequired": false
+  },
+  "tags": "オランダ, のホテル, 北オランダ, 本格, 歴史, 古民家, オランダ, オランダ, オランダ, オランダ, オランダ, 古民家, 古民家, 古民家"
+ },
+ {
+  "destId": "niche_奈良_2",
+  "idx": 2,
+  "spotName": "村営食堂のジビエ料理",
+  "imageUrl": "/images/spots/niche_奈良_2/2.jpg",
+  "imageCredit": {
+   "author": "Morket",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3-%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3-%E6%A0%84%E9%A4%8A-4541294/",
+   "attributionRequired": false
+  },
+  "tags": "レストラン, キッチン, 栄養, 料理, 食堂, 健康, レストラン, レストラン, 料理, 料理, 料理, 料理, 料理, 食堂, 食堂"
+ },
+ {
+  "destId": "niche_奈良_3",
+  "idx": 0,
+  "spotName": "月ヶ瀬温泉",
+  "imageUrl": "/images/spots/niche_奈良_3/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_奈良_3",
+  "idx": 2,
+  "spotName": "梅酒・梅干し製造体験",
+  "imageUrl": "/images/spots/niche_奈良_3/2.jpg",
+  "imageCredit": {
+   "author": "Mrdidg",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%96%B0%E9%AE%AE%E3%83%91%E3%82%B9%E3%82%BF-%E8%A3%BD%E9%80%A0-5154248/",
+   "attributionRequired": false
+  },
+  "tags": "新鮮パスタ, 製造, tagliatelle, 伝統, 食物, 黄色, 小麦粉, 製造, 小麦粉, 小麦粉, 小麦粉, 小麦粉, 小麦粉"
+ },
+ {
+  "destId": "niche_奈良_4",
+  "idx": 1,
+  "spotName": "上北山村の民宿",
+  "imageUrl": "/images/spots/niche_奈良_4/1.jpg",
+  "imageCredit": {
+   "author": "ChiemSeherin",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9D%91-%E5%8F%A4%E3%81%84%E6%9D%91-%E5%8F%A4%E3%81%84%E5%AE%B6-%E4%B8%AD%E4%B8%96-7258991/",
+   "attributionRequired": false
+  },
+  "tags": "村, 古い村, 古い家, 中世, フランスの村, 建築, 建物, ロクロナン, フィニステール, ブルターニュ, フランス, 村, 村, 村, 中世, 建物, フランス, フランス, フランス, フランス, フランス"
+ },
+ {
+  "destId": "niche_奈良_4",
+  "idx": 2,
+  "spotName": "廃校ギャラリー「北山の家」",
+  "imageUrl": "/images/spots/niche_奈良_4/2.jpg",
+  "imageCredit": {
+   "author": "nonmisvegliate",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A4%A7%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC-%E8%A8%98%E5%BF%B5%E7%A2%91-4293985/",
+   "attributionRequired": false
+  },
+  "tags": "大ギャラリー, 記念碑, アーキテクチャ, 工事, venaria realeの, ギャラリー, パラッツォ, 建物, 王宮, 王宮, 王宮, 王宮, 王宮, 王宮"
+ },
+ {
+  "destId": "niche_奈良_6",
+  "idx": 2,
+  "spotName": "山小屋の郷土料理",
+  "imageUrl": "/images/spots/niche_奈良_6/2.jpg",
+  "imageCredit": {
+   "author": "jplenio",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9C%A8-%E8%8D%89-%E9%A2%A8%E6%99%AF-%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E-%E8%87%AA%E7%84%B6-3095683/",
+   "attributionRequired": false
+  },
+  "tags": "木, 草, 風景, パノラマ, 自然, 丘, 小屋, アルム, 高山小屋, 山小屋, 緑, 牧草地, 木造の小屋, アルプス, 道, ハイキング, トレイル, 草, 丘, 丘, 小屋, 小屋, 小屋, 小屋, 小屋, 山小屋, 山小屋, 山小屋, 緑, アルプス, 道"
+ },
+ {
+  "destId": "niche_奈良_8",
+  "idx": 0,
+  "spotName": "高取町古い町並み",
+  "imageUrl": "/images/spots/niche_奈良_8/0.jpg",
+  "imageCredit": {
+   "author": "Tama66",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%94%BA%E4%B8%A6%E3%81%BF-%E8%A1%97%E4%B8%A6%E3%81%BF-%E8%A1%97-%E5%B8%82-5584820/",
+   "attributionRequired": false
+  },
+  "tags": "町並み, 街並み, 街, 市, ダウンタウン, 建物, 橋, 川, ネッカー川, ハイデルベルク, ドイツ, 町並み, 街並み, 街並み, ドイツ, ドイツ, ドイツ, ドイツ, ドイツ"
+ },
+ {
+  "destId": "niche_奈良_8",
+  "idx": 1,
+  "spotName": "古民家ギャラリー",
+  "imageUrl": "/images/spots/niche_奈良_8/1.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB-%E5%8C%97%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-5039356/",
+   "attributionRequired": false
+  },
+  "tags": "オランダ, のホテル, 北オランダ, 本格, 歴史, 古民家, オランダ, オランダ, オランダ, オランダ, オランダ, 古民家, 古民家, 古民家"
+ },
+ {
+  "destId": "niche_奈良_8",
+  "idx": 2,
+  "spotName": "柿の葉寿司と梅酒",
+  "imageUrl": "/images/spots/niche_奈良_8/2.jpg",
+  "imageCredit": {
+   "author": "周游中国",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9F%BF%E3%81%AE%E6%9C%A8-%E6%9F%BF-%E7%94%98%E3%81%84%E6%9F%BF-%E7%A7%8B-9118395/",
+   "attributionRequired": false
+  },
+  "tags": "柿の木, 柿, 甘い柿, 秋, フルーツ, オレンジ, 健康, 自然"
+ },
+ {
+  "destId": "niche_和歌山_1",
+  "idx": 0,
+  "spotName": "湯浅醤油資料館",
+  "imageUrl": "/images/spots/niche_和歌山_1/0.jpg",
+  "imageCredit": {
+   "author": "StockSnap",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%AE%B8-%E9%86%A4%E6%B2%B9-%E3%81%99%E3%81%97-%E9%A3%B2%E9%A3%9F%E5%BA%97-698495/",
+   "attributionRequired": false
+  },
+  "tags": "箸, 醤油, すし, 飲食店, 醤油, 醤油, 醤油, 醤油, 醤油"
+ },
+ {
+  "destId": "niche_和歌山_2",
+  "idx": 0,
+  "spotName": "三輪崎漁港",
+  "imageUrl": "/images/spots/niche_和歌山_2/0.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_和歌山_2",
+  "idx": 1,
+  "spotName": "港沿いの食堂街",
+  "imageUrl": "/images/spots/niche_和歌山_2/1.jpg",
+  "imageCredit": {
+   "author": "BMeyendriesch",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B7%9D-%E5%BB%BA%E7%89%A9-%E6%B8%AF-%E5%A4%A7%E9%81%8B%E6%B2%B3-%E8%A1%97%E3%81%AE%E7%81%AF-6853339/",
+   "attributionRequired": false
+  },
+  "tags": "川, 建物, 港, 大運河, 街の灯, アーキテクチャ, 屋外, 市, ヴェネツィア, 川, 建物, 港, 港, 港, 港, 港, ヴェネツィア, ヴェネツィア"
+ },
+ {
+  "destId": "niche_和歌山_8",
+  "idx": 0,
+  "spotName": "くじらの浜",
+  "imageUrl": "/images/spots/niche_和歌山_8/0.jpg",
+  "imageCredit": {
+   "author": "Peggy_Marco",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%B2%A1-%E3%83%90%E3%83%AC%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%AB-%E3%83%93%E3%83%BC%E3%83%81-5560658/",
+   "attributionRequired": false
+  },
+  "tags": "日没, バレーボール, ビーチ, 自然, シルエット, 浜のバレーボール, スポーツ, 遊ぶ, ゴールデンアワー, 太陽, 日光, 海岸, 海, 海洋, 余暇, 休暇, 人"
+ },
+ {
+  "destId": "niche_和歌山_8",
+  "idx": 1,
+  "spotName": "旧鯨漁関連施設と商店街",
+  "imageUrl": "/images/spots/niche_和歌山_8/1.jpg",
+  "imageCredit": {
+   "author": "Tama66",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%83%BC%E3%82%BB%E3%83%AB-%E6%97%A7%E5%B8%82%E8%A1%97-%E9%83%BD%E5%B8%82-6402074/",
+   "attributionRequired": false
+  },
+  "tags": "カルーセル, 旧市街, 都市, ディジョン, フランス, 街, 歩行者専用区域, 人, ダウンタウン, 商店街, 市, 年, 歴史的, ストリートスナップ, フランス, フランス, フランス, フランス, フランス, 街, 街, 街, 街, 街, 商店街, 商店街, 商店街, 商店街"
+ },
+ {
+  "destId": "niche_鳥取_1",
+  "idx": 1,
+  "spotName": "龍鶴城跡",
+  "imageUrl": "/images/spots/niche_鳥取_1/1.jpg",
+  "imageCredit": {
+   "author": "kokorocare",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%AE%AE%E5%B4%8E-%E9%9D%92%E5%B3%B6-%E9%BE%8D-2470212/",
+   "attributionRequired": false
+  },
+  "tags": "宮崎, 青島, 龍, 龍, 龍, 龍, 龍, 龍"
+ },
+ {
+  "destId": "niche_鳥取_2",
+  "idx": 0,
+  "spotName": "若桜鉄道旧駅舎・蒸気機関車",
+  "imageUrl": "/images/spots/niche_鳥取_2/0.jpg",
+  "imageCredit": {
+   "author": "lizzyliz",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%88%97%E8%BB%8A-%E9%89%84%E9%81%93-%E5%B9%B4-%E6%94%BE%E6%A3%84%E3%81%95%E3%82%8C%E3%81%9F-178092/",
+   "attributionRequired": false
+  },
+  "tags": "列車, 鉄道, 年, 放棄された, 時代遅れ, レール トラック, レール, 機関車, 蒸気機関車, 鉄道機関車, 列車, 鉄道, 鉄道, 機関車, 機関車, 機関車, 機関車, 機関車, 蒸気機関車"
+ },
+ {
+  "destId": "niche_鳥取_5",
+  "idx": 0,
+  "spotName": "小松温泉の外湯",
+  "imageUrl": "/images/spots/niche_鳥取_5/0.jpg",
+  "imageCredit": {
+   "author": "MabelAmber",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B0%8F%E6%9D%BE-%E6%9D%BE%E3%81%AE%E6%9C%A8-%E9%87%9D%E8%91%89%E6%A8%B9-3282823/",
+   "attributionRequired": false
+  },
+  "tags": "小松, 松の木, 針葉樹, エバーグリーン, 針, 緑"
+ },
+ {
+  "destId": "niche_島根_1",
+  "idx": 0,
+  "spotName": "斐伊川峡谷遊歩道",
+  "imageUrl": "/images/spots/niche_島根_1/0.jpg",
+  "imageCredit": {
+   "author": "Sara32_jabar",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+   "attributionRequired": false
+  },
+  "tags": "老人, 海, カモメ, 自然, 男, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_島根_1",
+  "idx": 1,
+  "spotName": "荒島の蕎麦処",
+  "imageUrl": "/images/spots/niche_島根_1/1.jpg",
+  "imageCredit": {
+   "author": "takedahrs",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%92%8C%E9%A3%9F-%E6%97%A5%E6%9C%AC%E9%A3%9F-%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3-%E8%95%8E%E9%BA%A6-7476693/",
+   "attributionRequired": false
+  },
+  "tags": "和食, 日本食, レストラン, 蕎麦, かけ蕎麦, 温かい食べ物, 温かい, 冬, 蕎麦, 蕎麦, 蕎麦, 蕎麦, 蕎麦"
+ },
+ {
+  "destId": "niche_島根_4",
+  "idx": 0,
+  "spotName": "掛合町の鍾乳洞群",
+  "imageUrl": "/images/spots/niche_島根_4/0.jpg",
+  "imageCredit": {
+   "author": "MartinStr",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%BC%E3%83%AB%E3%82%B9%E3%83%90%E3%83%83%E3%83%89-226251/",
+   "attributionRequired": false
+  },
+  "tags": "カールスバッド, カールズバッド洞窟群, 鍾乳洞, 鍾乳石, 石筍, 鍾乳洞, 鍾乳洞, 鍾乳洞, 鍾乳洞, 鍾乳洞"
+ },
+ {
+  "destId": "niche_島根_4",
+  "idx": 1,
+  "spotName": "日野川清流散策路",
+  "imageUrl": "/images/spots/niche_島根_4/1.jpg",
+  "imageCredit": {
+   "author": "epicioci",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%A3%E7%AD%96%E8%B7%AF-%E9%81%93-%E6%A3%AE%E6%9E%97-%E5%85%AC%E5%9C%92-%E8%87%AA%E7%84%B6-7553795/",
+   "attributionRequired": false
+  },
+  "tags": "散策路, 道, 森林, 公園, 自然, 森, 木, トレイル"
+ },
+ {
+  "destId": "niche_島根_6",
+  "idx": 1,
+  "spotName": "匹見峡遊歩道",
+  "imageUrl": "/images/spots/niche_島根_6/1.jpg",
+  "imageCredit": {
+   "author": "Sara32_jabar",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+   "attributionRequired": false
+  },
+  "tags": "老人, 海, カモメ, 自然, 男, 橋脚, 遊歩道"
+ },
+ {
+  "destId": "niche_広島_6",
+  "idx": 1,
+  "spotName": "農家レストランと手作りジャム工房",
+  "imageUrl": "/images/spots/niche_広島_6/1.jpg",
+  "imageCredit": {
+   "author": "congerdesign",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B7%B7%E9%9B%91%E3%81%99%E3%82%8B-%E3%82%8A%E3%82%93%E3%81%94%E3%82%B8%E3%83%A3%E3%83%A0-%E3%82%8A%E3%82%93%E3%81%94-4521023/",
+   "attributionRequired": false
+  },
+  "tags": "混雑する, りんごジャム, りんご, 収穫, 公園, 果物, オーチャード, 自然, フルーツ バスケット, 手作りジャム, 保存"
+ },
+ {
+  "destId": "niche_山口_2",
+  "idx": 0,
+  "spotName": "錦川鐵道（錦町駅周辺）",
+  "imageUrl": "/images/spots/niche_山口_2/0.jpg",
+  "imageCredit": {
+   "author": "Sunriseforever",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9C%B0%E4%B8%8B%E9%89%84-%E3%83%A1%E3%83%88%E3%83%AD%E9%A7%85-%E4%BA%BA%E3%80%85-4957736/",
+   "attributionRequired": false
+  },
+  "tags": "地下鉄, メトロ駅, 人々, トランスポート, インテリア, 空港, アーキテクチャ, 駅, 電車駅, 鉄道駅, 後者, モスクワ, モスクワメトロ, 新しい地下鉄駅, デザイン, こんにちはテック, 地下鉄, 空港, 空港, 空港, 空港, 空港, 駅, 駅, 駅, 駅, デザイン"
+ },
+ {
+  "destId": "niche_山口_2",
+  "idx": 1,
+  "spotName": "錦町街道筋の古民家群",
+  "imageUrl": "/images/spots/niche_山口_2/1.jpg",
+  "imageCredit": {
+   "author": "mel_88",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-%E3%81%AE%E3%83%9B%E3%83%86%E3%83%AB-%E5%8C%97%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80-5039356/",
+   "attributionRequired": false
+  },
+  "tags": "オランダ, のホテル, 北オランダ, 本格, 歴史, 古民家, オランダ, オランダ, オランダ, オランダ, オランダ, 古民家, 古民家, 古民家"
+ },
+ {
+  "destId": "niche_山口_4",
+  "idx": 0,
+  "spotName": "仙崎漁港・いか資料館周辺",
+  "imageUrl": "/images/spots/niche_山口_4/0.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_山口_4",
+  "idx": 1,
+  "spotName": "北浦街道の町並み",
+  "imageUrl": "/images/spots/niche_山口_4/1.jpg",
+  "imageCredit": {
+   "author": "winterseitler",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9D%91-%E6%97%A5%E5%85%89-%E7%94%B0%E7%95%91-%E8%A1%97-%E7%94%BA%E4%B8%A6%E3%81%BF-2090495/",
+   "attributionRequired": false
+  },
+  "tags": "村, 日光, 田畑, 街, 町並み, 霧, 風景, 自然, ヘイズ, 霧深い, 日の出, 朝の霧, 地平線, 街, 風景, 日の出, 日の出, 日の出, 日の出, 日の出"
+ },
+ {
+  "destId": "niche_山口_6",
+  "idx": 1,
+  "spotName": "須佐駅周辺の蕎麦屋",
+  "imageUrl": "/images/spots/niche_山口_6/1.jpg",
+  "imageCredit": {
+   "author": "5116225",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9C%B0%E4%B8%8B%E9%89%84-%E9%A7%85-%E9%89%84%E9%81%93%E9%A7%85-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%81%AE%E9%A7%85-5623053/",
+   "attributionRequired": false
+  },
+  "tags": "地下鉄, 駅, 鉄道駅, 地下鉄の駅, ターンスタイル, 輸送, 人, 通勤, 通勤者, 長期露出, 都市, 首都圏, 駅, 駅, 駅, 駅, 駅, 通勤, 通勤"
+ },
+ {
+  "destId": "niche_徳島_4",
+  "idx": 0,
+  "spotName": "藍の館（あいの館）",
+  "imageUrl": "/images/spots/niche_徳島_4/0.jpg",
+  "imageCredit": {
+   "author": "KENHORI",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E9%A4%A8-%E6%A8%AA%E6%B5%9C-%E7%95%B0%E4%BA%BA%E9%A4%A8-952610/",
+   "attributionRequired": false
+  },
+  "tags": "イタリア館, 横浜, 異人館, 横浜, 横浜, 横浜, 横浜, 横浜, 異人館, 異人館"
+ },
+ {
+  "destId": "niche_徳島_4",
+  "idx": 1,
+  "spotName": "白地焼工房群",
+  "imageUrl": "/images/spots/niche_徳島_4/1.jpg",
+  "imageCredit": {
+   "author": "Johanna84",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%99%E3%83%AA%E3%83%BC-%E3%83%A9%E3%82%BA%E3%83%99%E3%83%AA%E3%83%BC-%E8%B5%A4-211887/",
+   "attributionRequired": false
+  },
+  "tags": "ベリー, ラズベリー, 赤, フルーツ, 切り取る, 下書き, 白地に, 白い背景に, ラズベリー, ラズベリー, ラズベリー, ラズベリー, ラズベリー, 切り取る, 切り取る, 切り取る"
+ },
+ {
+  "destId": "niche_徳島_6",
+  "idx": 0,
+  "spotName": "神山の茅葺き民家群",
+  "imageUrl": "/images/spots/niche_徳島_6/0.jpg",
+  "imageCredit": {
+   "author": "sfkjrgk",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E9%9B%AA-%E6%97%A5%E3%81%AE%E5%87%BA-%E9%9B%B2%E5%8D%97-8047293/",
+   "attributionRequired": false
+  },
+  "tags": "山, 雪, 日の出, 雲南, ユンベン村, ナチュラル, 自然, 日照神山"
+ },
+ {
+  "destId": "niche_徳島_6",
+  "idx": 1,
+  "spotName": "神山ヒノキ林トレッキング",
+  "imageUrl": "/images/spots/niche_徳島_6/1.jpg",
+  "imageCredit": {
+   "author": "sfkjrgk",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E9%9B%AA-%E6%97%A5%E3%81%AE%E5%87%BA-%E9%9B%B2%E5%8D%97-8047293/",
+   "attributionRequired": false
+  },
+  "tags": "山, 雪, 日の出, 雲南, ユンベン村, ナチュラル, 自然, 日照神山"
+ },
+ {
+  "destId": "niche_香川_1",
+  "idx": 1,
+  "spotName": "塩飽諸島の多島景観",
+  "imageUrl": "/images/spots/niche_香川_1/1.jpg",
+  "imageCredit": {
+   "author": "Pexels",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BB%BA%E7%89%A9-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3-%E5%B8%82-%E8%A1%97%E4%B8%A6%E3%81%BF-1850129/",
+   "attributionRequired": false
+  },
+  "tags": "建物, スカイライン, 市, 街並み, 高層ビル, 高層, 都市, 都市景観, 首都圏, アーキテクチャ, ニューヨーク市, マンハッタン, 米国, 塔, アメリカ, ズームの背景, 高層ビル, 都市, 都市, 都市, アメリカ, アメリカ, アメリカ, アメリカ, アメリカ"
+ },
+ {
+  "destId": "niche_香川_2",
+  "idx": 0,
+  "spotName": "北島酒造",
+  "imageUrl": "/images/spots/niche_香川_2/0.jpg",
+  "imageCredit": {
+   "author": "Juergen_Teltow",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E5%8C%97%E5%B3%B6-%E7%81%AB%E5%B1%B1-%E8%87%AA%E7%84%B6-%E9%A2%A8%E6%99%AF-4328719/",
+   "attributionRequired": false
+  },
+  "tags": "山, 北島, 火山, 自然, 風景, 火山, 火山, 火山, 火山, 火山, 風景"
+ },
+ {
+  "destId": "niche_香川_2",
+  "idx": 1,
+  "spotName": "仁尾漁港",
+  "imageUrl": "/images/spots/niche_香川_2/1.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_香川_6",
+  "idx": 0,
+  "spotName": "満濃池土手周回路",
+  "imageUrl": "/images/spots/niche_香川_6/0.jpg",
+  "imageCredit": {
+   "author": "reetdachfan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%8A%AC-%E9%A2%A8-%E5%8C%97%E6%B5%B7-%E6%80%A5%E3%81%AA%E5%9C%9F%E6%89%8B-49572/",
+   "attributionRequired": false
+  },
+  "tags": "犬, 動物, ペット, 風, 北海, 急な土手"
+ },
+ {
+  "destId": "niche_香川_6",
+  "idx": 1,
+  "spotName": "池畔の農村集落",
+  "imageUrl": "/images/spots/niche_香川_6/1.jpg",
+  "imageCredit": {
+   "author": "Tuor",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1%E3%81%AE%E9%9B%86%E8%90%BD-%E6%9D%91-%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9-%E5%B1%B1-6607314/",
+   "attributionRequired": false
+  },
+  "tags": "山の集落, 村, アルプス, 山, 牧草地, 自然, 風景, 谷"
+ },
+ {
+  "destId": "niche_高知_1",
+  "idx": 0,
+  "spotName": "司牡丹酒造",
+  "imageUrl": "/images/spots/niche_高知_1/0.jpg",
+  "imageCredit": {
+   "author": "katya-guseva0",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%89%A1%E4%B8%B9-%E3%83%94%E3%83%B3%E3%82%AF-%E7%A5%9E-%E3%81%A6%E3%82%93%E3%81%A8%E3%81%86%E8%99%AB-5420406/",
+   "attributionRequired": false
+  },
+  "tags": "牡丹, ピンク, 神, てんとう虫, マクロ, 牡丹, 牡丹, 牡丹, 牡丹, 牡丹, てんとう虫"
+ },
+ {
+  "destId": "niche_高知_5",
+  "idx": 0,
+  "spotName": "早明浦ダム展望台",
+  "imageUrl": "/images/spots/niche_高知_5/0.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "niche_高知_5",
+  "idx": 1,
+  "spotName": "本山町の蕎麦畑・高原地帯",
+  "imageUrl": "/images/spots/niche_高知_5/1.jpg",
+  "imageCredit": {
+   "author": "15147632",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1%E5%B2%B3%E5%9C%B0%E5%B8%AF-%E5%B1%B1%E3%81%AE%E9%A2%A8%E6%99%AF-%E5%B1%B1-%E9%A2%A8%E6%99%AF-5942962/",
+   "attributionRequired": false
+  },
+  "tags": "山岳地帯, 山の風景, 山, 風景, 自然, 山の風景, 山, 山, 風景, 風景, 風景, 風景, 風景"
+ },
+ {
+  "destId": "niche_高知_6",
+  "idx": 0,
+  "spotName": "日高村温泉",
+  "imageUrl": "/images/spots/niche_高知_6/0.jpg",
+  "imageCredit": {
+   "author": "Herm",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB-%E6%8E%A2%E6%A4%9C-%E5%B1%8B%E5%A4%96-4475932/",
+   "attributionRequired": false
+  },
+  "tags": "自然, トラベル, 探検, 屋外, 発見, アイスランド, 山, 高地, 風景, kerlingarfjöll, hveravellir, 温泉, 火山, 温泉, 温泉, 温泉, 温泉, 温泉, 火山"
+ },
+ {
+  "destId": "niche_高知_6",
+  "idx": 1,
+  "spotName": "ユズの畑と生産地",
+  "imageUrl": "/images/spots/niche_高知_6/1.jpg",
+  "imageCredit": {
+   "author": "NeilMorrell",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89-%E7%94%B0%E8%88%8E-%E5%B1%8B%E5%A4%96-6723113/",
+   "attributionRequired": false
+  },
+  "tags": "自然, フィールド, 田舎, 屋外, モノクロ, 黒と白, トウモロコシ畑, 収穫"
+ },
+ {
+  "destId": "niche_福岡_2",
+  "idx": 0,
+  "spotName": "吉井町筋（白壁の街並み）",
+  "imageUrl": "/images/spots/niche_福岡_2/0.jpg",
+  "imageCredit": {
+   "author": "wal_172619",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%99%E3%83%AB%E3%83%AA%E3%83%B3-%E3%83%86%E3%83%AC%E3%83%93%E5%A1%94-%E5%B8%82-%E8%A1%97%E4%B8%A6%E3%81%BF-6755246/",
+   "attributionRequired": false
+  },
+  "tags": "ベルリン, テレビ塔, 市, 街並み"
+ },
+ {
+  "destId": "niche_福岡_2",
+  "idx": 1,
+  "spotName": "筑後川温泉 清乃湯",
+  "imageUrl": "/images/spots/niche_福岡_2/1.jpg",
+  "imageCredit": {
+   "author": "Angelique1987",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%9B%B2%E8%8A%B8-%E7%A9%BA%E4%B8%AD%E6%9B%B2%E8%8A%B8-%E3%82%B5%E3%83%BC%E3%82%AB%E3%82%B9-%E7%A9%BA%E6%B0%97-4807245/",
+   "attributionRequired": false
+  },
+  "tags": "曲芸, 空中曲芸, サーカス, 空気, 航空筑後川の下流である大川は、, 航空フープ, 女性, 道具"
+ },
+ {
+  "destId": "niche_福岡_3",
+  "idx": 1,
+  "spotName": "稲築町商店街（古い商店）",
+  "imageUrl": "/images/spots/niche_福岡_3/1.jpg",
+  "imageCredit": {
+   "author": "wal_172619",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
+   "attributionRequired": false
+  },
+  "tags": "商店街, 歩行者専用区域, ダウンタウン, 人, 街, 都市, 観光, トラベル, 商店街, 商店街, 商店街, 商店街, 商店街, 街, 街, 街, 街"
+ },
+ {
+  "destId": "niche_福岡_4",
+  "idx": 0,
+  "spotName": "三井三池炭鉱跡（世界遺産）",
+  "imageUrl": "/images/spots/niche_福岡_4/0.jpg",
+  "imageCredit": {
+   "author": "JordyMeow",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B0%8F%E5%B3%B6-%E9%89%B1%E6%A5%AD%E6%96%BD%E8%A8%AD-%E6%B5%B7-%E8%BB%8D%E8%89%A6%E5%B3%B6-725792/",
+   "attributionRequired": false
+  },
+  "tags": "小島, 鉱業施設, 海, 軍艦島, 端島, 放棄された, 破滅, 工業用, 建物, 自然, 海洋, 水, 年, ユネスコ, 遺産, 炭鉱, 戦艦島, 羽島, 九州, 長崎, 日本"
+ },
+ {
+  "destId": "niche_福岡_4",
+  "idx": 1,
+  "spotName": "大牟田動物園",
+  "imageUrl": "/images/spots/niche_福岡_4/1.jpg",
+  "imageCredit": {
+   "author": "ChiemSeherin",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%86%E3%83%8A%E3%82%AC%E3%82%B6%E3%83%AB-%E9%A1%9E%E4%BA%BA%E7%8C%BF-%E5%93%BA%E4%B9%B3%E9%A1%9E-8573117/",
+   "attributionRequired": false
+  },
+  "tags": "テナガザル, 類人猿, 哺乳類, 霊長目, 野生動物, 動物園, ザルツブルク動物園"
+ },
+ {
+  "destId": "niche_福岡_6",
+  "idx": 0,
+  "spotName": "英彦山参詣道",
+  "imageUrl": "/images/spots/niche_福岡_6/0.jpg",
+  "imageCredit": {
+   "author": "pdimaria",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%83%BC%E3%83%81%E9%81%93-%E9%80%9A%E8%B7%AF-%E5%8D%8A%E5%86%86%E3%82%A2%E3%83%BC%E3%83%81-5426581/",
+   "attributionRequired": false
+  },
+  "tags": "アーチ道, 通路, 半円アーチ, 目標, 通路, 通路, 通路, 通路, 通路, 目標, 目標"
+ },
+ {
+  "destId": "niche_福岡_7",
+  "idx": 0,
+  "spotName": "湯の朝温泉",
+  "imageUrl": "/images/spots/niche_福岡_7/0.jpg",
+  "imageCredit": {
+   "author": "Be_Stasya",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-%E3%83%9F%E3%83%AB%E3%82%AF-%E3%82%AB%E3%83%97%E3%83%81%E3%83%BC%E3%83%8E-4862622/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, コーヒーカップ, ミルク, カプチーノ, 飲む, カフェ, マグ, 温泉, カフェイン, エスプレッソ, 香り, 朝ごはん"
+ },
+ {
+  "destId": "niche_佐賀_1",
+  "idx": 0,
+  "spotName": "白石町れんこん畑",
+  "imageUrl": "/images/spots/niche_佐賀_1/0.jpg",
+  "imageCredit": {
+   "author": "GoranH",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%B3-%E3%83%88%E3%82%A6%E3%83%A2%E3%83%AD%E3%82%B3%E3%82%B7%E7%95%91-%E8%BE%B2%E6%A5%AD-8299009/",
+   "attributionRequired": false
+  },
+  "tags": "コーン, トウモロコシ畑, 農業, 植物, 食物, 秋, 収穫, 自然, 閉じる, 作物"
+ },
+ {
+  "destId": "niche_佐賀_1",
+  "idx": 1,
+  "spotName": "ゆ〜ふる白石",
+  "imageUrl": "/images/spots/niche_佐賀_1/1.jpg",
+  "imageCredit": {
+   "author": "GAIMARD",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%BD%AB%E5%88%BB-%E7%99%BD%E7%9F%B3-%E5%A2%93%E5%9C%B0-%E5%AE%97%E6%95%99-4355184/",
+   "attributionRequired": false
+  },
+  "tags": "彫刻, 白石, 墓地, 宗教, サン-ジョセフ, 形, 銅像, 記念碑, 美術, ヘッド, 年"
+ },
+ {
+  "destId": "niche_佐賀_5",
+  "idx": 0,
+  "spotName": "黒髪山",
+  "imageUrl": "/images/spots/niche_佐賀_5/0.jpg",
+  "imageCredit": {
+   "author": "T_Kohei",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC%E3%81%AE%E6%A1%9C%E3%81%AE%E8%8A%B1-%E7%99%BD%E3%81%84-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%82%BA-6125088/",
+   "attributionRequired": false
+  },
+  "tags": "日本の桜の花, 白い, フラワーズ, 美しい花, 木, 枝, 花, 桜, ブルーム, 白い花, さくら, フローラ, 桜の木, バネ, 春のシーズン, 花びら, 白い花びら, 花の背景, 自然, 花の壁紙, 佐賀城, 佐賀市"
+ },
+ {
+  "destId": "niche_佐賀_5",
+  "idx": 1,
+  "spotName": "多久城下町周辺",
+  "imageUrl": "/images/spots/niche_佐賀_5/1.jpg",
+  "imageCredit": {
+   "author": "jggrz",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9F%8E%E4%B8%8B%E7%94%BA-%E3%82%B0%E3%83%A9%E3%82%A4%E3%83%84-%E3%83%86%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B2%E3%83%B3-3426609/",
+   "attributionRequired": false
+  },
+  "tags": "城下町, グライツ, テューリンゲン, 観光, 歴史的, 城下町, 城下町, 城下町, 城下町, 城下町"
+ },
+ {
+  "destId": "niche_佐賀_6",
+  "idx": 0,
+  "spotName": "樺島の海中鳥居",
+  "imageUrl": "/images/spots/niche_佐賀_6/0.jpg",
+  "imageCredit": {
+   "author": "Pexels",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%A5%9E%E7%A4%BE%E3%81%AE%E9%96%80-%E9%B3%A5%E5%B1%85%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB-%E9%81%93-1869216/",
+   "attributionRequired": false
+  },
+  "tags": "神社の門, 鳥居トンネル, 道, 伏見稲荷大社, 通路, 小道, 木材, ランドマーク, アーキテクチャ, 美術, 鳥居, 有名, 日本の文化, 京都, 日本, 伏見稲荷大社, 伏見稲荷大社, 鳥居, 鳥居, 京都, 京都, 京都, 京都, 京都, 日本, 日本, 日本"
+ },
+ {
+  "destId": "niche_佐賀_6",
+  "idx": 1,
+  "spotName": "太良町の潮干狩りスポット",
+  "imageUrl": "/images/spots/niche_佐賀_6/1.jpg",
+  "imageCredit": {
+   "author": "GLady",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E8%99%AB-%E8%9D%B6-22998/",
+   "attributionRequired": false
+  },
+  "tags": "自然, 虫, 蝶, メキシコのシルバースポット, 動物, 植物, フローラ, 閉じる"
+ },
+ {
+  "destId": "niche_長崎_3",
+  "idx": 1,
+  "spotName": "灯台下カフェ・漁師小屋改造店",
+  "imageUrl": "/images/spots/niche_長崎_3/1.jpg",
+  "imageCredit": {
+   "author": "Bru-nO",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%BC%81%E5%B8%AB%E3%81%AE%E5%B0%8F%E5%B1%8B-%E5%B0%8F%E5%B1%8B-%E5%AE%B6-4478427/",
+   "attributionRequired": false
+  },
+  "tags": "漁師の小屋, 小屋, 家, 自然, holzhaus, スウェーデンの家, ボート, 水, 海, 湖, 石, スカンジナビア"
+ },
+ {
+  "destId": "niche_長崎_7",
+  "idx": 0,
+  "spotName": "高島炭鉱跡地",
+  "imageUrl": "/images/spots/niche_長崎_7/0.jpg",
+  "imageCredit": {
+   "author": "JordyMeow",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B0%8F%E5%B3%B6-%E9%89%B1%E6%A5%AD%E6%96%BD%E8%A8%AD-%E6%B5%B7-%E8%BB%8D%E8%89%A6%E5%B3%B6-725792/",
+   "attributionRequired": false
+  },
+  "tags": "小島, 鉱業施設, 海, 軍艦島, 端島, 放棄された, 破滅, 工業用, 建物, 自然, 海洋, 水, 年, ユネスコ, 遺産, 炭鉱, 戦艦島, 羽島, 九州, 長崎, 日本"
+ },
+ {
+  "destId": "niche_熊本_5",
+  "idx": 0,
+  "spotName": "菊池渓谷の支流沿い無名滝ハイキング",
+  "imageUrl": "/images/spots/niche_熊本_5/0.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E7%86%8A%E6%9C%AC-%E8%8F%8A%E6%B1%A0-%E6%B8%93%E8%B0%B7-%E5%B7%9D-1040659/",
+   "attributionRequired": false
+  },
+  "tags": "日本, 熊本, 自然, 菊池, 渓谷, 川, 滝, 秋"
+ },
+ {
+  "destId": "niche_熊本_5",
+  "idx": 1,
+  "spotName": "龍門ダム周辺の廃墟温泉街",
+  "imageUrl": "/images/spots/niche_熊本_5/1.jpg",
+  "imageCredit": {
+   "author": "DeltaWorks",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%83%E3%83%97%E3%83%AB-%E8%A1%97-%E5%B8%82-%E7%94%B7-%E5%A5%B3%E6%80%A7-3467634/",
+   "attributionRequired": false
+  },
+  "tags": "カップル, 街, 市, 男, 女性, 歩く, 都市, 熊本, 日本, カップル, 熊本, 日本, 日本, 日本, 日本, 日本"
+ },
+ {
+  "destId": "niche_熊本_6",
+  "idx": 1,
+  "spotName": "村内の棚田と蕎麦屋",
+  "imageUrl": "/images/spots/niche_熊本_6/1.jpg",
+  "imageCredit": {
+   "author": "mercierzeng",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%A5%B3%E6%80%A7-%E4%B8%AD%E5%9B%BD-%E3%83%A4%E3%82%AA%E3%83%9E%E3%82%A4%E3%83%8E%E3%83%AA%E3%83%86%E3%82%A3-7217461/",
+   "attributionRequired": false
+  },
+  "tags": "女性, 中国, ヤオマイノリティ, マイノリティの女性, 桂林, ロンジー, 龍寺棚田, ご飯, 秋, 電話を使う, 村, 自然, 田舎, 女性, 女性, 中国, 中国, 中国, 中国, 中国, 村, 田舎"
+ },
+ {
+  "destId": "niche_熊本_8",
+  "idx": 0,
+  "spotName": "三角町の海辺の古い倉庫群",
+  "imageUrl": "/images/spots/niche_熊本_8/0.jpg",
+  "imageCredit": {
+   "author": "Antogiu_ph",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3-%E9%A2%A8%E6%99%AF-%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88-%E6%9C%A8%E6%98%9F-9465044/",
+   "attributionRequired": false
+  },
+  "tags": "ドローン, 風景, フライト, 木星, テラチーナ, 寺, 不安, ポンティン, ラテン語, ビーチ, 海, 市, ラツィオ州, 自然, イタリア, パノラマ"
+ },
+ {
+  "destId": "niche_熊本_8",
+  "idx": 1,
+  "spotName": "漁師町の食堂",
+  "imageUrl": "/images/spots/niche_熊本_8/1.jpg",
+  "imageCredit": {
+   "author": "TrieuThien",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%BC%81%E5%B8%AB-%E6%BC%81%E5%B8%AB%E3%81%9F%E3%81%A1%E3%81%AF%E5%B7%9D%E3%81%A7%E5%83%8D%E3%81%8F-8449951/",
+   "attributionRequired": false
+  },
+  "tags": "漁師, 漁師たちは川で働く, リバークラフト, 川の漁師, 川の女性, 熊手はスープを調理しないでください"
+ },
+ {
+  "destId": "niche_大分_1",
+  "idx": 0,
+  "spotName": "佐賀関漁港",
+  "imageUrl": "/images/spots/niche_大分_1/0.jpg",
+  "imageCredit": {
+   "author": "fotoblend",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%91%E5%91%BD%E6%B5%AE%E8%BC%AA-%E9%87%A3%E3%82%8A%E7%94%A8%E5%93%81-%E5%AE%89%E5%85%A8-%E6%BC%81%E6%B8%AF-5839836/",
+   "attributionRequired": false
+  },
+  "tags": "救命浮輪, 釣り用品, 安全, 漁港, 網タイツ, 釣り, 船乗り, 乱獲, 海上, 漁港, 漁港, 漁港, 釣り, 釣り, 釣り, 釣り, 釣り, 船乗り, 船乗り, 海上"
+ },
+ {
+  "destId": "niche_大分_1",
+  "idx": 1,
+  "spotName": "佐賀関展望台",
+  "imageUrl": "/images/spots/niche_大分_1/1.jpg",
+  "imageCredit": {
+   "author": "Z3RAJIRAIYA",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+   "attributionRequired": false
+  },
+  "tags": "展望台, 東京スカイツリー, アーキテクチャ, 日本, 黒と白, 都市, 歩道, トンネル, 建物, 展望台, 展望台, 展望台, 展望台, 展望台, 東京スカイツリー, 東京スカイツリー, 日本"
+ },
+ {
+  "destId": "niche_大分_2",
+  "idx": 1,
+  "spotName": "山国川沿いの散歩道",
+  "imageUrl": "/images/spots/niche_大分_2/1.jpg",
+  "imageCredit": {
+   "author": "AG-Pics",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88-%E3%83%93%E3%83%BC%E3%83%81-%E6%97%A5%E6%B2%A1-8292291/",
+   "attributionRequired": false
+  },
+  "tags": "リゾート, ビーチ, 日没, モライラ, コスタブランカ, 自然, スペイン, 海岸沿いの町, 地中海, マリーナ, ウォーター スポーツ"
+ },
+ {
+  "destId": "niche_大分_3",
+  "idx": 0,
+  "spotName": "温泉地蔵堂",
+  "imageUrl": "/images/spots/niche_大分_3/0.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_大分_4",
+  "idx": 0,
+  "spotName": "稲積水中鍾乳洞（ボートツアー）",
+  "imageUrl": "/images/spots/niche_大分_4/0.jpg",
+  "imageCredit": {
+   "author": "44528033",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B5%B7-%E6%B5%B7%E6%B4%8B-%E3%83%93%E3%83%BC%E3%83%81-%E6%97%A5%E6%B2%A1-%E6%B5%B7%E6%99%AF-8846477/",
+   "attributionRequired": false
+  },
+  "tags": "海, 海洋, ビーチ, 日没, 海景, ボート, 水中, 太陽, 日の出, 空, 雲, 自然, 風景"
+ },
+ {
+  "destId": "niche_大分_4",
+  "idx": 1,
+  "spotName": "洞口の散策路",
+  "imageUrl": "/images/spots/niche_大分_4/1.jpg",
+  "imageCredit": {
+   "author": "epicioci",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%A3%E7%AD%96%E8%B7%AF-%E9%81%93-%E6%A3%AE%E6%9E%97-%E5%85%AC%E5%9C%92-%E8%87%AA%E7%84%B6-7553795/",
+   "attributionRequired": false
+  },
+  "tags": "散策路, 道, 森林, 公園, 自然, 森, 木, トレイル"
+ },
+ {
+  "destId": "niche_宮崎_2",
+  "idx": 1,
+  "spotName": "西米良村の茶畑",
+  "imageUrl": "/images/spots/niche_宮崎_2/1.jpg",
+  "imageCredit": {
+   "author": "sjoker13",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E8%8C%B6%E7%95%91-%E4%B8%98-%E6%97%A5%E3%81%AE%E5%87%BA-%E6%9C%9D-%E9%9C%A7-7344887/",
+   "attributionRequired": false
+  },
+  "tags": "茶畑, 丘, 日の出, 朝, 霧, 田畑, 農地, 農業, 栽培, 田舎, 自然, 風景, 日の出, 日の出, 日の出, 日の出, 日の出, 農業, 田舎, 自然"
+ },
+ {
+  "destId": "niche_宮崎_3",
+  "idx": 0,
+  "spotName": "みやざき地鶏直売所・食堂",
+  "imageUrl": "/images/spots/niche_宮崎_3/0.jpg",
+  "imageCredit": {
+   "author": "Danganhfoto",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%81%E3%82%AD%E3%83%B3-%E3%82%AA%E3%83%B3%E3%83%89%E3%83%AA-%E9%B6%8F-%E3%81%B2%E3%82%88%E3%81%93-4849979/",
+   "attributionRequired": false
+  },
+  "tags": "チキン, オンドリ, 鶏, ひよこ, イースター, 可愛い, 動物, 農業, ナチュラ, 食物, 国内の, 自然, 農場, ベトナム, 小鶏, eastercollection"
+ },
+ {
+  "destId": "niche_宮崎_3",
+  "idx": 1,
+  "spotName": "諸塚ダム湖周辺",
+  "imageUrl": "/images/spots/niche_宮崎_3/1.jpg",
+  "imageCredit": {
+   "author": "Peggychoucair",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%B9%96-%E3%83%80%E3%83%A0%E3%81%AE%E5%A3%81-%E9%9B%B2-%E9%9C%A7-%E9%9B%AA-6751477/",
+   "attributionRequired": false
+  },
+  "tags": "湖, ダムの壁, 雲, 霧, 雪, ダム, 山の風景, 風景, 水, 自然, 風光明媚です, オーストリア, bielerhöhe"
+ },
+ {
+  "destId": "niche_宮崎_4",
+  "idx": 0,
+  "spotName": "渡川温泉の共同浴場",
+  "imageUrl": "/images/spots/niche_宮崎_4/0.jpg",
+  "imageCredit": {
+   "author": "LoggaWiggler",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
+   "attributionRequired": false
+  },
+  "tags": "カルシウムプール, テラス, 観光の名所, 世界遺産, travertineル, 温泉, 自然, ライムシンターテラス, パムッカレ温泉プール, パムッカレ, デニズリ, 七面鳥, 世界遺産, 世界遺産, 世界遺産, 世界遺産, 世界遺産, 温泉, 温泉, パムッカレ"
+ },
+ {
+  "destId": "niche_宮崎_4",
+  "idx": 1,
+  "spotName": "周辺の栗園と段々畑",
+  "imageUrl": "/images/spots/niche_宮崎_4/1.jpg",
+  "imageCredit": {
+   "author": "CongVuphotographer",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E6%AE%B5%E3%80%85%E7%95%91-%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0-5104510/",
+   "attributionRequired": false
+  },
+  "tags": "風景, 段々畑, ベトナム, ベトナム米, 分野, ベトナムの風景, 風景, 段々畑, 段々畑, 段々畑, 段々畑, 段々畑, ベトナム"
+ },
+ {
+  "destId": "niche_宮崎_6",
+  "idx": 1,
+  "spotName": "高岡麺の食堂",
+  "imageUrl": "/images/spots/niche_宮崎_6/1.jpg",
+  "imageCredit": {
+   "author": "RitaE",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%BA%BA-%E3%82%BF%E3%83%AA%E3%82%A2%E3%83%86%E3%83%83%E3%83%AC-%E3%83%91%E3%82%B9%E3%82%BF-%E7%94%9F-2060886/",
+   "attributionRequired": false
+  },
+  "tags": "麺, タリアテッレ, パスタ, 生, カラフル, 食物, 炭水化物, 生パスタ, 主食, イタリアの, 食用, 新鮮な, ほうれん草麺, トマトパスタ, 地中海料理, イタリア料理, 麺, 麺, パスタ, パスタ, パスタ, パスタ, パスタ"
+ },
+ {
+  "destId": "niche_宮崎_7",
+  "idx": 0,
+  "spotName": "湯の元温泉 旅館",
+  "imageUrl": "/images/spots/niche_宮崎_7/0.jpg",
+  "imageCredit": {
+   "author": "LoggaWiggler",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
+   "attributionRequired": false
+  },
+  "tags": "カルシウムプール, テラス, 観光の名所, 世界遺産, travertineル, 温泉, 自然, ライムシンターテラス, パムッカレ温泉プール, パムッカレ, デニズリ, 七面鳥, 世界遺産, 世界遺産, 世界遺産, 世界遺産, 世界遺産, 温泉, 温泉, パムッカレ"
+ },
+ {
+  "destId": "niche_宮崎_7",
+  "idx": 1,
+  "spotName": "周辺の雑木林散策路",
+  "imageUrl": "/images/spots/niche_宮崎_7/1.jpg",
+  "imageCredit": {
+   "author": "epicioci",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%95%A3%E7%AD%96%E8%B7%AF-%E9%81%93-%E6%A3%AE%E6%9E%97-%E5%85%AC%E5%9C%92-%E8%87%AA%E7%84%B6-7553795/",
+   "attributionRequired": false
+  },
+  "tags": "散策路, 道, 森林, 公園, 自然, 森, 木, トレイル"
+ },
+ {
+  "destId": "niche_鹿児島_1",
+  "idx": 1,
+  "spotName": "薩摩焼の窯元群",
+  "imageUrl": "/images/spots/niche_鹿児島_1/1.jpg",
+  "imageCredit": {
+   "author": "enka16",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E4%B8%89%E5%B0%BA%E7%8E%89-%E8%8A%B1%E7%81%AB-%E9%B9%BF%E5%85%90%E5%B3%B6%E7%9C%8C-%E6%9E%95%E5%B4%8E%E5%B8%82-1566809/",
+   "attributionRequired": false
+  },
+  "tags": "三尺玉, 花火, 鹿児島県, 枕崎市, 六葉煙火, 鹿児島県, 鹿児島県, 鹿児島県, 鹿児島県, 鹿児島県"
+ },
+ {
+  "destId": "niche_鹿児島_2",
+  "idx": 1,
+  "spotName": "甌穴群",
+  "imageUrl": "/images/spots/niche_鹿児島_2/1.jpg",
+  "imageCredit": {
+   "author": "manfredrichter",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%82%B9%E3%83%95%E3%82%A1%E3%83%AB%E3%83%88-%E8%8D%89-%E9%81%93-%E5%B7%A5%E5%A0%B4-3439575/",
+   "attributionRequired": false
+  },
+  "tags": "アスファルト, 草, 道, 工場, パワー, 甌穴, 穴, 自然, ドライブ, バスト, 強力, 道路天井, 穴あき, 壊れた"
+ },
+ {
+  "destId": "niche_鹿児島_5",
+  "idx": 0,
+  "spotName": "栗野岳山頂",
+  "imageUrl": "/images/spots/niche_鹿児島_5/0.jpg",
+  "imageCredit": {
+   "author": "JACLOU-DL",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E5%B1%B1%E9%A0%82-%E9%9B%AA-%E5%86%AC-%E9%A2%A8%E6%99%AF-8272227/",
+   "attributionRequired": false
+  },
+  "tags": "山, 山頂, 雪, 冬, 風景, アルプス, 自然"
+ },
+ {
+  "destId": "niche_鹿児島_5",
+  "idx": 1,
+  "spotName": "栗野温泉",
+  "imageUrl": "/images/spots/niche_鹿児島_5/1.jpg",
+  "imageCredit": {
+   "author": "tathanhtuan",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+   "attributionRequired": false
+  },
+  "tags": "コーヒー, capuchino, 温泉, 暗, 飲み物, 手, コーヒー, コーヒー, コーヒー, 温泉, 温泉, 温泉, 温泉, 温泉, 飲み物, 飲み物, 飲み物"
+ },
+ {
+  "destId": "niche_沖縄_1",
+  "idx": 1,
+  "spotName": "瀬長島灯台周辺",
+  "imageUrl": "/images/spots/niche_沖縄_1/1.jpg",
+  "imageCredit": {
+   "author": "Kanenori",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E7%81%AF%E5%8F%B0-%E6%98%9F%E7%A9%BA-%E5%AE%87%E5%AE%99-%E5%A4%A9%E3%81%AE%E5%B7%9D-6785763/",
+   "attributionRequired": false
+  },
+  "tags": "灯台, 星空, 宇宙, 天の川, 石垣島, 日本, 灯台, 星空, 星空, 星空, 宇宙, 宇宙, 宇宙, 宇宙, 宇宙, 日本"
+ },
+ {
+  "destId": "maebashi",
+  "idx": 3,
+  "spotName": "臨江閣",
+  "imageUrl": "/images/spots/maebashi/3.jpg",
+  "imageCredit": {
+   "author": "Akela999",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%9B%BB%E6%B0%97-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC-%E9%9B%BB%E6%B0%97%E9%96%A3-2476782/",
+   "attributionRequired": false
+  },
+  "tags": "電気, データセンター, 電気閣, データセンター, データセンター, データセンター, データセンター, データセンター"
+ },
+ {
+  "destId": "yamagata",
+  "idx": 1,
+  "spotName": "蔵王",
+  "imageUrl": "/images/spots/yamagata/1.jpg",
+  "imageCredit": {
+   "author": "dep377",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%B1%B1-%E9%A2%A8%E6%99%AF-%E6%97%A5%E6%9C%AC-%E8%94%B5%E7%8E%8B-%E6%9D%B1%E5%8C%97-7403713/",
+   "attributionRequired": false
+  },
+  "tags": "山, 風景, 日本, 蔵王, 東北, 自然, 日の出"
+ },
+ {
+  "destId": "matsue",
+  "idx": 3,
+  "spotName": "堀川遊覧",
+  "imageUrl": "/images/spots/matsue/3.jpg",
+  "imageCredit": {
+   "author": "MARTINOPHUC",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E3%81%AE%E3%83%99%E3%83%8D%E3%83%81%E3%82%A2-%E8%A6%B3%E5%85%89-%E5%86%AC-7700549/",
+   "attributionRequired": false
+  },
+  "tags": "イタリアのベネチア, 観光, 冬, 木製の橋, 川のボート, お祭り, 日没, 遊覧船, 自然, 海, 船"
+ },
+ {
+  "destId": "yamaguchi",
+  "idx": 3,
+  "spotName": "山口サビエル記念聖堂",
+  "imageUrl": "/images/spots/yamaguchi/3.jpg",
+  "imageCredit": {
+   "author": "TerapiasNaturales",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E5%A4%A7%E8%81%96%E5%A0%82-%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3-%E5%A4%A7%E8%81%96%E5%A0%82-7585300/",
+   "attributionRequired": false
+  },
+  "tags": "ライオン大聖堂, ライオン, 大聖堂, 自然, 教会, 記念碑, 歴史"
+ },
+ {
+  "destId": "kochi",
+  "idx": 3,
+  "spotName": "はりまや橋",
+  "imageUrl": "/images/spots/kochi/3.jpg",
+  "imageCredit": {
+   "author": "HenryMurumaa",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E9%AB%98%E7%9F%A5-%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2-%E5%A4%9C-2387858/",
+   "attributionRequired": false
+  },
+  "tags": "高知, エストニア, 夜"
+ },
+ {
+  "destId": "saga",
+  "idx": 3,
+  "spotName": "武雄温泉",
+  "imageUrl": "/images/spots/saga/3.jpg",
+  "imageCredit": {
+   "author": "T_Kohei",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC%E3%81%AE%E6%A1%9C%E3%81%AE%E8%8A%B1-%E7%99%BD%E3%81%84-%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%82%BA-6125088/",
+   "attributionRequired": false
+  },
+  "tags": "日本の桜の花, 白い, フラワーズ, 美しい花, 木, 枝, 花, 桜, ブルーム, 白い花, さくら, フローラ, 桜の木, バネ, 春のシーズン, 花びら, 白い花びら, 花の背景, 自然, 花の壁紙, 佐賀城, 佐賀市"
+ },
+ {
+  "destId": "oita",
+  "idx": 0,
+  "spotName": "府内城跡",
+  "imageUrl": "/images/spots/oita/0.jpg",
+  "imageCredit": {
+   "author": "Istvan_Karoly_Bocs",
+   "license": "Pixabay Content License",
+   "url": "https://pixabay.com/ja/photos/%E5%9F%8E-%E5%9F%8E%E8%B7%A1-%E8%A8%98%E5%BF%B5%E7%A2%91-%E4%B8%AD%E9%96%93%E5%B9%B4%E9%BD%A2-6579254/",
+   "attributionRequired": false
+  },
+  "tags": "城, 城跡, 記念碑, 中間年齢, アーキテクチャ"
+ }
+]
