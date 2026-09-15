@@ -1,0 +1,969 @@
+[
+ {
+  "id": "niche_宮城_5",
+  "name": "登米の蔵の町並み",
+  "prefecture": "宮城県",
+  "lat": 38.6918037,
+  "lng": 141.1877688,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "登米町の土蔵群",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮城県登米郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "伊勢屋醤油醸造所",
+    "km": 407.4,
+    "src": "gsi",
+    "label": "富山県立山町伊勢屋",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "教育資料館（旧登米高等尋常小学校）",
+    "km": 54.5,
+    "src": "gsi",
+    "label": "宮城県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "伊勢屋醤油醸造所",
+   "km": 407.4,
+   "src": "gsi",
+   "label": "富山県立山町伊勢屋",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_戸切地陣屋",
+  "name": "戸切地陣屋",
+  "prefecture": "北海道",
+  "lat": 41.85418444,
+  "lng": 140.61923583,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "戸切地陣屋",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "美幌町立美幌博物館",
+    "km": 358.9,
+    "src": "gsi",
+    "label": "北海道美幌町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美幌峠",
+    "km": 358.9,
+    "src": "gsi",
+    "label": "北海道美幌",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "美幌町立美幌博物館",
+   "km": 358.9,
+   "src": "gsi",
+   "label": "北海道美幌町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_水無海浜温泉",
+  "name": "水無海浜温泉",
+  "prefecture": "北海道",
+  "lat": 41.81111111,
+  "lng": 141.18433333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "水無海浜温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "水無海岸",
+    "km": 140,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "湧別町郷土資料館",
+    "km": 324.8,
+    "src": "gsi",
+    "label": "北海道湧別町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "湧別町郷土資料館",
+   "km": 324.8,
+   "src": "gsi",
+   "label": "北海道湧別町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_北海道",
+  "name": "北海道",
+  "prefecture": "北海道",
+  "lat": 43.06433333,
+  "lng": 141.34688889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北海道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "阿寒湖",
+    "km": 226.7,
+    "src": "gsi",
+    "label": "阿寒湖",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美幌峠",
+    "km": 238.3,
+    "src": "gsi",
+    "label": "北海道美幌",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "層雲峡温泉",
+    "km": 0,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "阿寒湖",
+   "km": 226.7,
+   "src": "gsi",
+   "label": "阿寒湖",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_見市温泉",
+  "name": "見市温泉",
+  "prefecture": "北海道",
+  "lat": 42.15513889,
+  "lng": 140.04102778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "見市温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "シラカバ林",
+    "km": 147.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "歌志内炭鉱遺跡",
+    "km": 222.5,
+    "src": "gsi",
+    "label": "北海道歌志内市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "歌志内炭鉱遺跡",
+   "km": 222.5,
+   "src": "gsi",
+   "label": "北海道歌志内市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_札幌八幡宮",
+  "name": "札幌八幡宮",
+  "prefecture": "北海道",
+  "lat": 42.94161111,
+  "lng": 141.50333333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "札幌八幡宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "円山公園",
+    "km": 18.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "北海道神宮",
+    "km": 215.7,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "札幌市円山動物園",
+    "km": 18.1,
+    "src": "gsi",
+    "label": "北海道札幌市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "北海道神宮",
+   "km": 215.7,
+   "src": "gsi",
+   "label": "北海道北見市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_菅野温泉",
+  "name": "菅野温泉",
+  "prefecture": "北海道",
+  "lat": 43.32583333,
+  "lng": 143.04944444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "菅野温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "天塩町郷土資料館",
+    "km": 202.5,
+    "src": "gsi",
+    "label": "北海道天塩町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "天塩川河川公園",
+    "km": 202.5,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "天塩町郷土資料館",
+   "km": 202.5,
+   "src": "gsi",
+   "label": "北海道天塩町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_天に続く道",
+  "name": "天に続く道",
+  "prefecture": "北海道",
+  "lat": 43.90684444,
+  "lng": 144.79869944,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "天に続く道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "道の駅 まくべつ",
+    "km": 293.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "中富良野町営ラベンダー園",
+    "km": 198.9,
+    "src": "gsi",
+    "label": "北海道中富良野町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "中富良野町営ラベンダー園",
+   "km": 198.9,
+   "src": "gsi",
+   "label": "北海道中富良野町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_多和平",
+  "name": "多和平",
+  "prefecture": "北海道",
+  "lat": 43.43722222,
+  "lng": 144.58861111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "多和平",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北の丘牧場",
+    "km": 69.1,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美瑛の丘（パッチワークの丘）",
+    "km": 171.9,
+    "src": "gsi",
+    "label": "北海道美瑛",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "美瑛の丘（パッチワークの丘）",
+   "km": 171.9,
+   "src": "gsi",
+   "label": "北海道美瑛",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_神威脇温泉",
+  "name": "神威脇温泉",
+  "prefecture": "北海道",
+  "lat": 42.17145,
+  "lng": 139.41067,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "神威脇温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "神威岬",
+    "km": 136.5,
+    "src": "gsi",
+    "label": "北海道神恵内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "積丹ブルーの海",
+    "km": 158.5,
+    "src": "gsi",
+    "label": "北海道積丹",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "積丹町産業振興室・観光案内",
+    "km": 158.5,
+    "src": "gsi",
+    "label": "北海道積丹町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 3,
+   "name": "積丹町産業振興室・観光案内",
+   "km": 158.5,
+   "src": "gsi",
+   "label": "北海道積丹町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_太田山神社",
+  "name": "太田山神社",
+  "prefecture": "北海道",
+  "lat": 42.26759167,
+  "lng": 139.78125278,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "太田山神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "寺下遺跡公園",
+    "km": 155.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "苫小牧西港マリーナ",
+    "km": 155.1,
+    "src": "gsi",
+    "label": "北海道苫小牧市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "苫小牧西港マリーナ",
+   "km": 155.1,
+   "src": "gsi",
+   "label": "北海道苫小牧市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_オソウシ温泉",
+  "name": "オソウシ温泉",
+  "prefecture": "北海道",
+  "lat": 43.23227778,
+  "lng": 142.96077778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "オソウシ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "オソウシ灯台",
+    "km": 132.3,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "湧別町郷土館",
+    "km": 113.5,
+    "src": "gsi",
+    "label": "北海道湧別町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "湧別町郷土館",
+   "km": 113.5,
+   "src": "gsi",
+   "label": "北海道湧別町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_六花の森",
+  "name": "六花の森",
+  "prefecture": "北海道",
+  "lat": 42.69277778,
+  "lng": 143.11583333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "六花の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "中富良野町営ラベンダー園",
+    "km": 97.1,
+    "src": "gsi",
+    "label": "北海道中富良野町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "ファーム富田",
+    "km": 149.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "中富良野町営ラベンダー園",
+   "km": 97.1,
+   "src": "gsi",
+   "label": "北海道中富良野町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_養老牛温泉",
+  "name": "養老牛温泉",
+  "prefecture": "北海道",
+  "lat": 43.58761111,
+  "lng": 144.72269444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "養老牛温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "白糠町営牧場",
+    "km": 87.8,
+    "src": "gsi",
+    "label": "北海道白糠町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "シーサイドパーク白糠",
+    "km": 279.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "白糠町営牧場",
+   "km": 87.8,
+   "src": "gsi",
+   "label": "北海道白糠町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_青森_相乗温泉",
+  "name": "相乗温泉",
+  "prefecture": "青森県",
+  "lat": 40.42655556,
+  "lng": 140.63433333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "相乗温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "鮫角灯台",
+    "km": 45.2,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "北上高地の断崖群",
+    "km": 456.8,
+    "src": "gsi",
+    "label": "北海道北見市北上",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "八戸市街地の朝市",
+    "km": 72.9,
+    "src": "gsi",
+    "label": "青森県八戸市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 3,
+   "name": "八戸市街地の朝市",
+   "km": 72.9,
+   "src": "gsi",
+   "label": "青森県八戸市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_納沙布岬",
+  "name": "納沙布岬",
+  "prefecture": "北海道",
+  "lat": 43.38505556,
+  "lng": 145.81627778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "納沙布岬",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北太平洋シーサイドライン",
+    "km": 161.6,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "中標津町営牧場",
+    "km": 70.8,
+    "src": "gsi",
+    "label": "北海道中標津町",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "根室市歴史と民俗の館",
+    "km": 19.8,
+    "src": "gsi",
+    "label": "北海道根室市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "中標津町営牧場",
+   "km": 70.8,
+   "src": "gsi",
+   "label": "北海道中標津町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_十勝千年の森",
+  "name": "十勝千年の森",
+  "prefecture": "北海道",
+  "lat": 42.93222222,
+  "lng": 142.86833333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝千年の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大樹町多目的広場",
+    "km": 58.8,
+    "src": "gsi",
+    "label": "北海道大樹町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "生活工芸館",
+    "km": 124.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "大樹町郷土資料館",
+    "km": 58.8,
+    "src": "gsi",
+    "label": "北海道大樹町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "大樹町多目的広場",
+   "km": 58.8,
+   "src": "gsi",
+   "label": "北海道大樹町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_十勝千年の森",
+  "name": "十勝千年の森",
+  "prefecture": "北海道",
+  "lat": 42.93222222,
+  "lng": 142.86833333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝千年の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大樹町多目的広場",
+    "km": 58.8,
+    "src": "gsi",
+    "label": "北海道大樹町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "生活工芸館",
+    "km": 124.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "大樹町郷土資料館",
+    "km": 58.8,
+    "src": "gsi",
+    "label": "北海道大樹町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 3,
+   "name": "大樹町郷土資料館",
+   "km": 58.8,
+   "src": "gsi",
+   "label": "北海道大樹町",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "niche_京都_5",
+  "name": "由良川渓谷",
+  "prefecture": "京都府",
+  "lat": 35.2989655,
+  "lng": 135.2588086,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "高屋橋周辺",
+    "km": 54.7,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "京都府立植物園の上流遊歩道",
+    "km": 56.3,
+    "src": "gsi",
+    "label": "京都府京都市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "安国寺",
+    "km": 54.7,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "京都府立植物園の上流遊歩道",
+   "km": 56.3,
+   "src": "gsi",
+   "label": "京都府京都市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_神居岩温泉",
+  "name": "神居岩温泉",
+  "prefecture": "北海道",
+  "lat": 43.93963889,
+  "lng": 141.68344444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "神居岩温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "神居古潭",
+    "km": 134.3,
+    "src": "gsi",
+    "label": "北海道神恵内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "旭川市旭山動物園",
+    "km": 52.9,
+    "src": "gsi",
+    "label": "北海道旭川市旭岡",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "旭川市旭山動物園",
+   "km": 52.9,
+   "src": "gsi",
+   "label": "北海道旭川市旭岡",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_青森_黄金崎不老不死温泉",
+  "name": "黄金崎不老不死温泉",
+  "prefecture": "青森県",
+  "lat": 40.61411,
+  "lng": 139.862,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "黄金崎不老不死温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "権現崎灯台",
+    "km": 77.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "つがる市民俗史料館",
+    "km": 48.7,
+    "src": "gsi",
+    "label": "青森県つがる市",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "金ヶ沢の大銀杏",
+    "km": 77.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "つがる市民俗史料館",
+   "km": 48.7,
+   "src": "gsi",
+   "label": "青森県つがる市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_茨城_大杉神社",
+  "name": "大杉神社",
+  "prefecture": "茨城県",
+  "lat": 35.95224722,
+  "lng": 140.38272222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大杉神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "水戸市植物公園",
+    "km": 46.7,
+    "src": "gsi",
+    "label": "茨城県水戸市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "那珂川河畔の水辺散策路",
+    "km": 56.9,
+    "src": "gsi",
+    "label": "茨城県那珂郡",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 1,
+   "name": "水戸市植物公園",
+   "km": 46.7,
+   "src": "gsi",
+   "label": "茨城県水戸市",
+   "verdict": "far"
+  }
+ },
+ {
+  "id": "gen_北海_塩別温泉",
+  "name": "塩別温泉",
+  "prefecture": "北海道",
+  "lat": 43.73838889,
+  "lng": 143.42038889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "塩別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "塩別川",
+    "km": 183.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "常呂町郷土資料館",
+    "km": 42.5,
+    "src": "gsi",
+    "label": "北海道北見市常呂町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true,
+  "spot": {
+   "idx": 2,
+   "name": "常呂町郷土資料館",
+   "km": 42.5,
+   "src": "gsi",
+   "label": "北海道北見市常呂町",
+   "verdict": "far"
+  }
+ }
+]

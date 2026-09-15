@@ -1,0 +1,10282 @@
+[
+ {
+  "id": "gen_北海_愛山渓温泉",
+  "name": "愛山渓温泉",
+  "prefecture": "北海道",
+  "lat": 43.71936111,
+  "lng": 142.81530556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "愛山渓温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "愛山渓渓谷",
+    "km": 28.2,
+    "src": "gsi",
+    "label": "北海道愛別",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "旭正園",
+    "km": 36.6,
+    "src": "gsi",
+    "label": "北海道旭川市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_旭岳温泉",
+  "name": "旭岳温泉",
+  "prefecture": "北海道",
+  "lat": 43.64847,
+  "lng": 142.791083,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "旭岳温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "旭岳ロープウェイ",
+    "km": 36.9,
+    "src": "gsi",
+    "label": "北海道旭川市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "旭岳温泉スキー場",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_朝里川温泉",
+  "name": "朝里川温泉",
+  "prefecture": "北海道",
+  "lat": 43.14555556,
+  "lng": 141.04044444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "朝里川温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "朝里川スキー場",
+    "km": 26.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "朝里川温泉ゴルフコース",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_網走湖畔温泉",
+  "name": "網走湖畔温泉",
+  "prefecture": "北海道",
+  "lat": 43.96825,
+  "lng": 144.21088889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "網走湖畔温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "網走湖",
+    "km": 7.4,
+    "src": "gsi",
+    "label": "北海道網走市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "北海道立北方民族博物館",
+    "km": 31.3,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "網走監獄博物館",
+    "km": 7.4,
+    "src": "gsi",
+    "label": "北海道網走市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_岩尾別温泉",
+  "name": "岩尾別温泉",
+  "prefecture": "北海道",
+  "lat": 44.10997222,
+  "lng": 145.08944444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "岩尾別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "羅臼岳",
+    "km": 12.6,
+    "src": "gsi",
+    "label": "北海道羅臼",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "知床五湖",
+    "km": 472,
+    "src": "gsi",
+    "label": "北海道知内",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "知床自然センター",
+    "km": 472,
+    "src": "gsi",
+    "label": "北海道知内",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_ウトロ温泉",
+  "name": "ウトロ温泉",
+  "prefecture": "北海道",
+  "lat": 44.07908,
+  "lng": 145.00917,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "ウトロ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "知床岬",
+    "km": 464.8,
+    "src": "gsi",
+    "label": "北海道知内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "フレペの滝",
+    "km": 315.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "オロンコ岩",
+    "km": 315.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_北湯沢温泉",
+  "name": "北湯沢温泉",
+  "prefecture": "北海道",
+  "lat": 42.62138889,
+  "lng": 141.02333333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北湯沢温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北湯沢温泉森林公園",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "月形軽種馬育成牧場",
+    "km": 95.5,
+    "src": "gsi",
+    "label": "北海道月形",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_然別湖畔温泉",
+  "name": "然別湖畔温泉",
+  "prefecture": "北海道",
+  "lat": 43.27305556,
+  "lng": 143.10472222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "然別湖畔温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "ナチュラリスト村",
+    "km": 144.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "然別湖アイスロッジ（冬季）",
+    "km": 144.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_支笏湖温泉",
+  "name": "支笏湖温泉",
+  "prefecture": "北海道",
+  "lat": 42.77388889,
+  "lng": 141.40333333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "支笏湖温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "支笏湖ビジターセンター",
+    "km": 32.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "モラップキャンプ場・モラップ浜",
+    "km": 32.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "樽前ガロー（サンセットビーチ）",
+    "km": 32.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_定山渓温泉",
+  "name": "定山渓温泉",
+  "prefecture": "北海道",
+  "lat": 42.96444444,
+  "lng": 141.16138889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "定山渓温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "定山渓自然遊歩道",
+    "km": 18.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "定山渓二見公園",
+    "km": 18.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "かっぱ淵",
+    "km": 18.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_層雲峡温泉",
+  "name": "層雲峡温泉",
+  "prefecture": "北海道",
+  "lat": 43.72861111,
+  "lng": 142.94583333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "層雲峡温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "銀河の滝・流星の滝",
+    "km": 148.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "層雲峡大函",
+    "km": 148.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "層雲峡温泉スキー場",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_天人峡温泉",
+  "name": "天人峡温泉",
+  "prefecture": "北海道",
+  "lat": 43.62152778,
+  "lng": 142.78055556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "天人峡温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "天人峡の滝（天ノ沢滝）",
+    "km": 163.2,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "天人峡温泉散策路",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "鮎の滝展望台",
+    "km": 131.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_洞爺湖温泉",
+  "name": "洞爺湖温泉",
+  "prefecture": "北海道",
+  "lat": 42.56416667,
+  "lng": 140.81777778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "洞爺湖温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "洞爺湖サイロ展望台",
+    "km": 4.6,
+    "src": "gsi",
+    "label": "北海道洞爺湖",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "火山科学館",
+    "km": 70.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "洞爺湖ぐるっと彫刻公園",
+    "km": 4.6,
+    "src": "gsi",
+    "label": "北海道洞爺湖",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_十勝岳温泉",
+  "name": "十勝岳温泉",
+  "prefecture": "北海道",
+  "lat": 43.41361111,
+  "lng": 142.64277778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝岳温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "十勝岳望岳台",
+    "km": 114.9,
+    "src": "gsi",
+    "label": "北海道浦幌町十勝",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "白糸の滝",
+    "km": 126.5,
+    "src": "gsi",
+    "label": "北海道白糠",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_豊富温泉",
+  "name": "豊富温泉",
+  "prefecture": "北海道",
+  "lat": 45.0736,
+  "lng": 141.8397,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "豊富温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "豊富温泉オートキャンプ場隣接の足湯",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "豊富温泉郷 兜沼",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_濁川温泉",
+  "name": "濁川温泉",
+  "prefecture": "北海道",
+  "lat": 42.12519444,
+  "lng": 140.45488889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "濁川温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "雨竜沼湿原",
+    "km": 205.4,
+    "src": "gsi",
+    "label": "北海道雨竜",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "朝日山荘跡と山頂展望台",
+    "km": 127.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_ぬかびら温泉",
+  "name": "糠平温泉",
+  "prefecture": "北海道",
+  "lat": 43.36544444,
+  "lng": 143.18944444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "ぬかびら温泉",
+    "km": 153,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "旭岳",
+    "km": 80.3,
+    "src": "gsi",
+    "label": "北海道旭川市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "大雪湖",
+    "km": 99.8,
+    "src": "gsi",
+    "label": "北海道大空",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_登別温泉",
+  "name": "登別温泉",
+  "prefecture": "北海道",
+  "lat": 42.49506,
+  "lng": 141.14406,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "登別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "地獄谷",
+    "km": 65.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "クマ牧場",
+    "km": 65.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "大湯沼川歩道",
+    "km": 291.6,
+    "src": "gsi",
+    "label": "北海道大空",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_水無海浜温泉",
+  "name": "水無海浜温泉",
+  "prefecture": "北海道",
+  "lat": 41.81111111,
+  "lng": 141.18433333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "水無海浜温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "水無海岸",
+    "km": 140,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "湧別町郷土資料館",
+    "km": 324.8,
+    "src": "gsi",
+    "label": "北海道湧別町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_雌阿寒温泉",
+  "name": "雌阿寒温泉",
+  "prefecture": "北海道",
+  "lat": 43.39533889,
+  "lng": 143.9836,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "雌阿寒温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "雌阿寒岳",
+    "km": 216.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "雌阿寒温泉スキー場跡地の森林路",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_谷地頭温泉",
+  "name": "谷地頭温泉",
+  "prefecture": "北海道",
+  "lat": 41.75186111,
+  "lng": 140.71425,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "谷地頭温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "函館山ロープウェイ麓駅周辺の古町商店街",
+    "km": 2.2,
+    "src": "gsi",
+    "label": "北海道函館市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "函館山展望台",
+    "km": 2.2,
+    "src": "gsi",
+    "label": "北海道函館市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_羅臼温泉",
+  "name": "羅臼温泉",
+  "prefecture": "北海道",
+  "lat": 44.031667,
+  "lng": 145.155278,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "羅臼温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "知床峠",
+    "km": 471.5,
+    "src": "gsi",
+    "label": "北海道知内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "羅臼漁港",
+    "km": 2.9,
+    "src": "gsi",
+    "label": "北海道羅臼",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_奥尻島",
+  "name": "奥尻島",
+  "prefecture": "北海道",
+  "lat": 42.14916667,
+  "lng": 139.46722222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "奥尻島",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "青苑の館",
+    "km": 184.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "稲穂埼灯台",
+    "km": 184.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "奥尻島郷土資料館",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_北海道",
+  "name": "北海道",
+  "prefecture": "北海道",
+  "lat": 43.06433333,
+  "lng": 141.34688889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北海道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "阿寒湖",
+    "km": 226.7,
+    "src": "gsi",
+    "label": "阿寒湖",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美幌峠",
+    "km": 238.3,
+    "src": "gsi",
+    "label": "北海道美幌",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "層雲峡温泉",
+    "km": 0,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_焼尻島",
+  "name": "焼尻島",
+  "prefecture": "北海道",
+  "lat": 44.43333333,
+  "lng": 141.42388889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "焼尻島",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "焼尻島郷土資料館",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "焼尻島のトドマツ林道",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "焼尻島チャシ跡",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_襟裳岬",
+  "name": "襟裳岬",
+  "prefecture": "北海道",
+  "lat": 41.92444444,
+  "lng": 143.24916667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "襟裳岬",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "襟裳岬風の館",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "アザラシ保護観察所",
+    "km": 201,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_小樽運河",
+  "name": "小樽運河",
+  "prefecture": "北海道",
+  "lat": 43.2,
+  "lng": 141,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "小樽運河",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "旧日本銀行小樽支店",
+    "km": 31.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "小樽芸術村",
+    "km": 1.1,
+    "src": "gsi",
+    "label": "北海道小樽市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_就実の丘",
+  "name": "就実の丘",
+  "prefecture": "北海道",
+  "lat": 43.63055556,
+  "lng": 142.49666667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "就実の丘",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "美瑛の丘",
+    "km": 5.3,
+    "src": "gsi",
+    "label": "北海道美瑛",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "白金温泉",
+    "km": 147.9,
+    "src": "gsi",
+    "label": "北海道白糠",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_知床国立公園",
+  "name": "知床国立公園",
+  "prefecture": "北海道",
+  "lat": 44.16194,
+  "lng": 145.23556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "知床国立公園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "五湖めぐりコース",
+    "km": 336,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "オシンコシンの滝",
+    "km": 336,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_チキウ岬",
+  "name": "チキウ岬",
+  "prefecture": "北海道",
+  "lat": 42.30166667,
+  "lng": 141.00194444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "チキウ岬",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "利尻島",
+    "km": 321,
+    "src": "gsi",
+    "label": "北海道利尻",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "礼文島",
+    "km": 333.8,
+    "src": "gsi",
+    "label": "北海道礼文",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_トラピスト修道院",
+  "name": "トラピスト修道院",
+  "prefecture": "北海道",
+  "lat": 41.74055556,
+  "lng": 140.56886111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "トラピスト修道院",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "湯の沢温泉",
+    "km": 160.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "大沼国定公園",
+    "km": 380.3,
+    "src": "gsi",
+    "label": "北海道大空",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_納沙布岬",
+  "name": "納沙布岬",
+  "prefecture": "北海道",
+  "lat": 43.38505556,
+  "lng": 145.81627778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "納沙布岬",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北太平洋シーサイドライン",
+    "km": 161.6,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "中標津町営牧場",
+    "km": 70.8,
+    "src": "gsi",
+    "label": "北海道中標津町",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "根室市歴史と民俗の館",
+    "km": 19.8,
+    "src": "gsi",
+    "label": "北海道根室市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_東川町",
+  "name": "東川町",
+  "prefecture": "北海道",
+  "lat": 43.6989,
+  "lng": 142.51,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "東川町",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "旭岳トロッコ王国",
+    "km": 14.1,
+    "src": "gsi",
+    "label": "北海道旭川市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "東川町立文化ギャラリー",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "忠別川上流渓谷",
+    "km": 117.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_麓郷の森",
+  "name": "麓郷の森",
+  "prefecture": "北海道",
+  "lat": 43.31241667,
+  "lng": 142.54052778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "麓郷の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "麓郷展望台",
+    "km": 100.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "新栄の丘展望公園",
+    "km": 59.7,
+    "src": "gsi",
+    "label": "北海道新十津川",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_五稜郭",
+  "name": "五稜郭",
+  "prefecture": "北海道",
+  "lat": 41.7969,
+  "lng": 140.75696111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "五稜郭",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "五稜郭タワー",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "函館奉行所",
+    "km": 3.9,
+    "src": "gsi",
+    "label": "北海道函館市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_戸切地陣屋",
+  "name": "戸切地陣屋",
+  "prefecture": "北海道",
+  "lat": 41.85418444,
+  "lng": 140.61923583,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "戸切地陣屋",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "美幌町立美幌博物館",
+    "km": 358.9,
+    "src": "gsi",
+    "label": "北海道美幌町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美幌峠",
+    "km": 358.9,
+    "src": "gsi",
+    "label": "北海道美幌",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_弁天台場",
+  "name": "弁天台場",
+  "prefecture": "北海道",
+  "lat": 41.77422222,
+  "lng": 140.70408333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "弁天台場",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "函館市北方歴史資料館",
+    "km": 6.9,
+    "src": "gsi",
+    "label": "北海道函館市北美原",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "五稜郭公園",
+    "km": 152.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_松前城",
+  "name": "松前城",
+  "prefecture": "北海道",
+  "lat": 41.430325,
+  "lng": 140.1086,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "松前城",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "松前藩屋敷",
+    "km": 0.2,
+    "src": "gsi",
+    "label": "北海道松前",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "松前町営 松前城下町武家屋敷群",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_北海道神宮",
+  "name": "北海道神宮",
+  "prefecture": "北海道",
+  "lat": 43.05433333,
+  "lng": 141.3075,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北海道神宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北海道神宮参道の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "円山公園",
+    "km": 3.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_太田山神社",
+  "name": "太田山神社",
+  "prefecture": "北海道",
+  "lat": 42.26759167,
+  "lng": 139.78125278,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "太田山神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "寺下遺跡公園",
+    "km": 155.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "苫小牧西港マリーナ",
+    "km": 155.1,
+    "src": "gsi",
+    "label": "北海道苫小牧市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_大雪展望台",
+  "name": "大雪展望台",
+  "prefecture": "北海道",
+  "lat": 43.85683333,
+  "lng": 142.761,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大雪展望台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "層雲峡温泉",
+    "km": 144.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "黒岳ロープウェイ",
+    "km": 238.6,
+    "src": "gsi",
+    "label": "北海道黒松内",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_多和平",
+  "name": "多和平",
+  "prefecture": "北海道",
+  "lat": 43.43722222,
+  "lng": 144.58861111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "多和平",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北の丘牧場",
+    "km": 69.1,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美瑛の丘（パッチワークの丘）",
+    "km": 171.9,
+    "src": "gsi",
+    "label": "北海道美瑛",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_天に続く道",
+  "name": "天に続く道",
+  "prefecture": "北海道",
+  "lat": 43.90684444,
+  "lng": 144.79869944,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "天に続く道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "道の駅 まくべつ",
+    "km": 293.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "中富良野町営ラベンダー園",
+    "km": 198.9,
+    "src": "gsi",
+    "label": "北海道中富良野町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_十勝千年の森",
+  "name": "十勝千年の森",
+  "prefecture": "北海道",
+  "lat": 42.93222222,
+  "lng": 142.86833333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝千年の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大樹町多目的広場",
+    "km": 58.8,
+    "src": "gsi",
+    "label": "北海道大樹町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "生活工芸館",
+    "km": 124.6,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "大樹町郷土資料館",
+    "km": 58.8,
+    "src": "gsi",
+    "label": "北海道大樹町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_相泊温泉",
+  "name": "相泊温泉",
+  "prefecture": "北海道",
+  "lat": 44.18447222,
+  "lng": 145.3175,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "相泊温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "相泊海岸",
+    "km": 343,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "稚内公園アルコ24",
+    "km": 318.5,
+    "src": "gsi",
+    "label": "北海道稚内市",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "宗谷黒牛の館",
+    "km": 1326.7,
+    "src": "gsi",
+    "label": "大阪府枚方市宗谷",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_枝幸温泉",
+  "name": "枝幸温泉",
+  "prefecture": "北海道",
+  "lat": 44.93475,
+  "lng": 142.56644444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "枝幸温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "枝幸町郷土資料館",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "北海道枝幸町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "北オホーツク遠軽地域森林公園",
+    "km": 164.3,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_長万部温泉",
+  "name": "長万部温泉",
+  "prefecture": "北海道",
+  "lat": 42.51686111,
+  "lng": 140.37580556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "長万部温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "長万部ダム",
+    "km": 0.5,
+    "src": "gsi",
+    "label": "北海道長万部",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "長万部町立郷土資料館",
+    "km": 0.5,
+    "src": "gsi",
+    "label": "北海道長万部町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_菅野温泉",
+  "name": "菅野温泉",
+  "prefecture": "北海道",
+  "lat": 43.32583333,
+  "lng": 143.04944444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "菅野温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "天塩町郷土資料館",
+    "km": 202.5,
+    "src": "gsi",
+    "label": "北海道天塩町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "天塩川河川公園",
+    "km": 202.5,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_北見温泉",
+  "name": "北見温泉",
+  "prefecture": "北海道",
+  "lat": 43.78688889,
+  "lng": 143.64169444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北見温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北見市立美術館",
+    "km": 20.4,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "北見総合振興局舎周辺散策路",
+    "km": 20.4,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "北見市農業試験場跡地公園",
+    "km": 20.4,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_白老温泉",
+  "name": "白老温泉",
+  "prefecture": "北海道",
+  "lat": 42.55927778,
+  "lng": 141.36908333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白老温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "アイヌ民族博物館野外展示区",
+    "km": 56.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "白老町立図書館＆郷土資料室",
+    "km": 1.4,
+    "src": "gsi",
+    "label": "北海道白老町",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "虎杖浜海岸",
+    "km": 56.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_瀬石温泉",
+  "name": "瀬石温泉",
+  "prefecture": "北海道",
+  "lat": 44.17805556,
+  "lng": 145.31219444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "瀬石温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "瀬石の滝",
+    "km": 0.4,
+    "src": "gsi",
+    "label": "北海道羅臼町瀬石",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "雨竜沼湿原展望台",
+    "km": 280.5,
+    "src": "gsi",
+    "label": "北海道雨竜",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_大雪高原温泉",
+  "name": "大雪高原温泉",
+  "prefecture": "北海道",
+  "lat": 43.62631944,
+  "lng": 142.93096944,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大雪高原温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "黒岳ロープウェイ",
+    "km": 238,
+    "src": "gsi",
+    "label": "北海道黒松内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "層雲峡温泉街の峡谷遊歩道",
+    "km": 142.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_滝の湯温泉",
+  "name": "滝の湯温泉",
+  "prefecture": "北海道",
+  "lat": 43.73361111,
+  "lng": 143.423,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "滝の湯温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "朱鞠内湖",
+    "km": 183.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "雨竜川清流公園",
+    "km": 123.7,
+    "src": "gsi",
+    "label": "北海道雨竜",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_天塩温泉",
+  "name": "天塩温泉",
+  "prefecture": "北海道",
+  "lat": 44.87655556,
+  "lng": 141.74413889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "天塩温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "天塩川歴史資料館",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "天塩海岸の夕日ビーチ",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_天塩川温泉",
+  "name": "天塩川温泉",
+  "prefecture": "北海道",
+  "lat": 44.6605,
+  "lng": 142.25433333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "天塩川温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "天塩川歴史資料館",
+    "km": 47.5,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "天塩川源流部の渓谷歩道",
+    "km": 47.5,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_十勝川温泉",
+  "name": "十勝川温泉",
+  "prefecture": "北海道",
+  "lat": 42.93416667,
+  "lng": 143.29611111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝川温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "十勝川白糠油田跡地公園",
+    "km": 40.2,
+    "src": "gsi",
+    "label": "北海道浦幌町十勝",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "十勝川河畔の野鳥湿地保護区",
+    "km": 40.2,
+    "src": "gsi",
+    "label": "北海道浦幌町十勝",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "豊頃町郷土資料館",
+    "km": 22.6,
+    "src": "gsi",
+    "label": "北海道豊頃町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_浜頓別温泉",
+  "name": "浜頓別温泉",
+  "prefecture": "北海道",
+  "lat": 45.12519444,
+  "lng": 142.34819444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "浜頓別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "クッチャロ湖",
+    "km": 242.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "頓別川河口の野生生物観察地",
+    "km": 242.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_びふか温泉",
+  "name": "びふか温泉",
+  "prefecture": "北海道",
+  "lat": 44.55863889,
+  "lng": 142.32352778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "びふか温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "美深町農業遺産体験施設",
+    "km": 8.8,
+    "src": "gsi",
+    "label": "北海道美深町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "音威子府村の黒い潮吹き井戸",
+    "km": 19.1,
+    "src": "gsi",
+    "label": "北海道音威子府村",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "びふか町の針葉樹林帯散策路",
+    "km": 183.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_ピンネシリ温泉",
+  "name": "ピンネシリ温泉",
+  "prefecture": "北海道",
+  "lat": 44.87647222,
+  "lng": 142.21177778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "ピンネシリ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "ピンネシリ岳",
+    "km": 213.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "豊似湖",
+    "km": 282,
+    "src": "gsi",
+    "label": "北海道豊浦",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_稚内温泉",
+  "name": "稚内温泉",
+  "prefecture": "北海道",
+  "lat": 45.42141667,
+  "lng": 141.63788889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "稚内温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "稚内灯台",
+    "km": 2.8,
+    "src": "gsi",
+    "label": "北海道稚内市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "稚内副港市場",
+    "km": 2.8,
+    "src": "gsi",
+    "label": "北海道稚内市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_さるふつ温泉",
+  "name": "さるふつ温泉",
+  "prefecture": "北海道",
+  "lat": 45.32933333,
+  "lng": 142.17630556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "さるふつ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "猿浦漁港",
+    "km": 5.3,
+    "src": "gsi",
+    "label": "北海道猿払",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "さるふつ公園",
+    "km": 260.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_雷電温泉",
+  "name": "雷電温泉",
+  "prefecture": "北海道",
+  "lat": 42.92416667,
+  "lng": 140.40277778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "雷電温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "雷電火山群",
+    "km": 78.3,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "地獄谷展望台",
+    "km": 78.3,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_十勝岳望岳台",
+  "name": "十勝岳望岳台",
+  "prefecture": "北海道",
+  "lat": 43.44611111,
+  "lng": 142.65,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝岳望岳台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "白ひげの滝",
+    "km": 127.5,
+    "src": "gsi",
+    "label": "北海道白糠",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "びえい白金温泉",
+    "km": 113.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "赤岳展望駐車公園",
+    "km": 154.1,
+    "src": "gsi",
+    "label": "北海道赤井川",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_十勝ヒルズ",
+  "name": "十勝ヒルズ",
+  "prefecture": "北海道",
+  "lat": 42.86333333,
+  "lng": 143.24333333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十勝ヒルズ",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "オーロラ牧場",
+    "km": 155.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "新栄の丘展望台",
+    "km": 134.4,
+    "src": "gsi",
+    "label": "北海道新十津川",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "ぐるぐるの丘",
+    "km": 155.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_中札内美術村",
+  "name": "中札内美術村",
+  "prefecture": "北海道",
+  "lat": 42.6775,
+  "lng": 143.1625,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "中札内美術村",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "中札内農村舞台",
+    "km": 3.2,
+    "src": "gsi",
+    "label": "北海道中札内",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "広野牧場",
+    "km": 45.2,
+    "src": "gsi",
+    "label": "北海道広尾",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "依田百樹のムック工房",
+    "km": 154.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_花の拠点「はなふる」",
+  "name": "花の拠点 はなふる",
+  "prefecture": "北海道",
+  "lat": 42.89805556,
+  "lng": 141.58638889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "花の拠点「はなふる」",
+    "km": 26.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "中山峠スカイライン",
+    "km": 128.2,
+    "src": "gsi",
+    "label": "北海道中札内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "羊ヶ丘展望台",
+    "km": 26.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_丸瀬布森林公園いこいの森",
+  "name": "丸瀬布森林公園いこいの森",
+  "prefecture": "北海道",
+  "lat": 43.93141667,
+  "lng": 143.33613889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "丸瀬布森林公園いこいの森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "丸瀬布動物園",
+    "km": 187.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "丸瀬布温泉 ちんたの湯",
+    "km": 187.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_余市蒸溜所",
+  "name": "余市蒸溜所",
+  "prefecture": "北海道",
+  "lat": 43.1875,
+  "lng": 140.79166667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "余市蒸溜所",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "ニッカウイスキー余市蒸溜所 竹鶴資料館",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "宇宙記念館（スペース童夢）",
+    "km": 47.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_六花の森",
+  "name": "六花の森",
+  "prefecture": "北海道",
+  "lat": 42.69277778,
+  "lng": 143.11583333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "六花の森",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "中富良野町営ラベンダー園",
+    "km": 97.1,
+    "src": "gsi",
+    "label": "北海道中富良野町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "ファーム富田",
+    "km": 149.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_白ひげの滝",
+  "name": "白ひげの滝",
+  "prefecture": "北海道",
+  "lat": 43.47466667,
+  "lng": 142.63919444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白ひげの滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "美瑛の青い池",
+    "km": 18.8,
+    "src": "gsi",
+    "label": "北海道美瑛",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "十勝岳温泉郷",
+    "km": 119.7,
+    "src": "gsi",
+    "label": "北海道浦幌町十勝",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_フレペの滝",
+  "name": "フレペの滝",
+  "prefecture": "北海道",
+  "lat": 44.09713889,
+  "lng": 145.01455556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "フレペの滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "知床峠",
+    "km": 466.3,
+    "src": "gsi",
+    "label": "北海道知内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "羅臼温泉",
+    "km": 16.3,
+    "src": "gsi",
+    "label": "北海道羅臼",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_上の湯温泉",
+  "name": "上の湯温泉",
+  "prefecture": "北海道",
+  "lat": 42.11986111,
+  "lng": 140.37302778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "上の湯温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "上の湯渓谷",
+    "km": 41.1,
+    "src": "gsi",
+    "label": "北海道上ノ国",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "層雲峡温泉",
+    "km": 131.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_かみゆうべつ温泉",
+  "name": "かみゆうべつ温泉",
+  "prefecture": "北海道",
+  "lat": 44.18447222,
+  "lng": 143.59497222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "かみゆうべつ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "湧別町営牧場",
+    "km": 4.1,
+    "src": "gsi",
+    "label": "北海道湧別町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "湧別町立湖畔公園",
+    "km": 4.1,
+    "src": "gsi",
+    "label": "北海道湧別町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_神居岩温泉",
+  "name": "神居岩温泉",
+  "prefecture": "北海道",
+  "lat": 43.93963889,
+  "lng": 141.68344444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "神居岩温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "神居古潭",
+    "km": 134.3,
+    "src": "gsi",
+    "label": "北海道神恵内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "旭川市旭山動物園",
+    "km": 52.9,
+    "src": "gsi",
+    "label": "北海道旭川市旭岡",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_黒松内温泉",
+  "name": "黒松内温泉",
+  "prefecture": "北海道",
+  "lat": 42.65716667,
+  "lng": 140.30925,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "黒松内温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "黒松内白糸の滝",
+    "km": 1.2,
+    "src": "gsi",
+    "label": "北海道黒松内",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "ブナ林遊歩道",
+    "km": 95.9,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_見市温泉",
+  "name": "見市温泉",
+  "prefecture": "北海道",
+  "lat": 42.15513889,
+  "lng": 140.04102778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "見市温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "シラカバ林",
+    "km": 147.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "歌志内炭鉱遺跡",
+    "km": 222.5,
+    "src": "gsi",
+    "label": "北海道歌志内市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_沙流川温泉",
+  "name": "沙流川温泉",
+  "prefecture": "北海道",
+  "lat": 42.86925,
+  "lng": 142.44511111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "沙流川温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "アイヌコタン(二風谷)",
+    "km": 92,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "沙流川渓谷",
+    "verdict": "unresolved"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_鹿の湯",
+  "name": "鹿の湯",
+  "prefecture": "北海道",
+  "lat": 43.32861111,
+  "lng": 143.04444444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鹿の湯",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "層雲峡温泉街",
+    "km": 140.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "大雪山旭岳ロープウェイ",
+    "km": 111.6,
+    "src": "gsi",
+    "label": "北海道大空",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "銀河・銀泉の滝",
+    "km": 140.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_支笏湖いとう温泉",
+  "name": "支笏湖温泉",
+  "prefecture": "北海道",
+  "lat": 42.78225,
+  "lng": 141.31286111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "支笏湖いとう温泉",
+    "km": 31.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "支笏湖",
+    "km": 31.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "モラップキャンプ場展望台",
+    "km": 31.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "恵庭岳",
+    "km": 24.3,
+    "src": "gsi",
+    "label": "北海道恵庭市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_樹海温泉",
+  "name": "樹海温泉",
+  "prefecture": "北海道",
+  "lat": 42.86755556,
+  "lng": 142.15788889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "樹海温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "樹海公園",
+    "km": 69.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "苫小牧樹海温泉キャンプ場周辺自然観察路",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "ウトナイ湖野生動物保護区",
+    "km": 69.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_初山別温泉",
+  "name": "初山別温泉",
+  "prefecture": "北海道",
+  "lat": 44.5635,
+  "lng": 141.77677778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "初山別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "初山別村民浜海水浴場",
+    "km": 3.6,
+    "src": "gsi",
+    "label": "北海道初山別村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "初山別灯台",
+    "km": 3.6,
+    "src": "gsi",
+    "label": "北海道初山別",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "初山別村暑寒別岳",
+    "km": 3.6,
+    "src": "gsi",
+    "label": "北海道初山別村",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_伊達温泉",
+  "name": "伊達温泉",
+  "prefecture": "北海道",
+  "lat": 42.48480556,
+  "lng": 140.85077778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "伊達温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "伊達市のふるさと美術館",
+    "km": 1.8,
+    "src": "gsi",
+    "label": "北海道伊達市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "噴火湾パノラマパーク",
+    "km": 76.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_トムラウシ温泉",
+  "name": "トムラウシ温泉",
+  "prefecture": "北海道",
+  "lat": 43.46083333,
+  "lng": 142.8725,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "トムラウシ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "トムラウシ山登山口",
+    "km": 131.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "十勝岳温泉地の自然探勝路",
+    "km": 105.7,
+    "src": "gsi",
+    "label": "北海道浦幌町十勝",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_養老牛温泉",
+  "name": "養老牛温泉",
+  "prefecture": "北海道",
+  "lat": 43.58761111,
+  "lng": 144.72269444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "養老牛温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "白糠町営牧場",
+    "km": 87.8,
+    "src": "gsi",
+    "label": "北海道白糠町",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "シーサイドパーク白糠",
+    "km": 279.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_茨城_牛久シャトー",
+  "name": "牛久シャトー",
+  "prefecture": "茨城県",
+  "lat": 35.97847222,
+  "lng": 140.14711111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "牛久シャトー",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "牛久大仏",
+    "km": 0.2,
+    "src": "gsi",
+    "label": "茨城県牛久市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "牛久自然観察の森",
+    "km": 0.2,
+    "src": "gsi",
+    "label": "茨城県牛久市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_偕楽園",
+  "name": "偕楽園",
+  "prefecture": "茨城県",
+  "lat": 36.37306,
+  "lng": 140.456214,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "偕楽園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "千波湖",
+    "km": 3.6,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "水戸城跡本丸跡広場",
+    "km": 1.6,
+    "src": "gsi",
+    "label": "茨城県水戸市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_国営ひたち海浜公園",
+  "name": "国営ひたち海浜公園",
+  "prefecture": "茨城県",
+  "lat": 36.40055556,
+  "lng": 140.59138889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "国営ひたち海浜公園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "日立駅周辺の海岸線",
+    "km": 22.7,
+    "src": "gsi",
+    "label": "茨城県日立市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "日立シビックセンター",
+    "km": 22.7,
+    "src": "gsi",
+    "label": "茨城県日立市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_水郷筑波国定公園",
+  "name": "水郷筑波国定公園",
+  "prefecture": "茨城県",
+  "lat": 35.92,
+  "lng": 140.52,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "水郷筑波国定公園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "霞ヶ浦大橋周辺の湖畔",
+    "km": 47.4,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "麻生池憩いの道",
+    "km": 47.4,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_茨城_西山荘",
+  "name": "西山荘",
+  "prefecture": "茨城県",
+  "lat": 36.54125,
+  "lng": 140.50631,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "西山荘",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "月居山ハイキングコース",
+    "km": 22.8,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "大子町歴史民俗資料館",
+    "km": 27.9,
+    "src": "gsi",
+    "label": "茨城県大子町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_袋田の滝",
+  "name": "袋田の滝",
+  "prefecture": "茨城県",
+  "lat": 36.76419444,
+  "lng": 140.40736111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "袋田の滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "月待の滝",
+    "km": 47.1,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "竜神大吊橋",
+    "km": 96.9,
+    "src": "gsi",
+    "label": "茨城県龍ケ崎市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_茨城_大洗磯前神社",
+  "name": "大洗磯前神社",
+  "prefecture": "茨城県",
+  "lat": 36.31583333,
+  "lng": 140.58744444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大洗磯前神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大洗海岸（おおあらいかいがん）",
+    "km": 1.2,
+    "src": "gsi",
+    "label": "茨城県大洗",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "大洗水族館（アクアワールド茨城県大洗水族館）",
+    "km": 1.2,
+    "src": "gsi",
+    "label": "茨城県大洗",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_大杉神社",
+  "name": "大杉神社",
+  "prefecture": "茨城県",
+  "lat": 35.95224722,
+  "lng": 140.38272222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大杉神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "水戸市植物公園",
+    "km": 46.7,
+    "src": "gsi",
+    "label": "茨城県水戸市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "那珂川河畔の水辺散策路",
+    "km": 56.9,
+    "src": "gsi",
+    "label": "茨城県那珂郡",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_茨城_笠間稲荷神社",
+  "name": "笠間稲荷神社",
+  "prefecture": "茨城県",
+  "lat": 36.38608333,
+  "lng": 140.25411111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "笠間稲荷神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "笠間陶芸の里",
+    "km": 6.4,
+    "src": "gsi",
+    "label": "茨城県笠間市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "笠間城跡",
+    "km": 6.4,
+    "src": "gsi",
+    "label": "茨城県笠間市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_鹿島神宮",
+  "name": "鹿島神宮",
+  "prefecture": "茨城県",
+  "lat": 35.96885556,
+  "lng": 140.63149167,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鹿島神宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "鹿島神宮の参道商店街",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "北浦遊歩道",
+    "km": 93.2,
+    "src": "gsi",
+    "label": "茨城県北茨城市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_茨城_酒列磯前神社",
+  "name": "酒列磯前神社",
+  "prefecture": "茨城県",
+  "lat": 36.38230556,
+  "lng": 140.62369444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "酒列磯前神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "日立港沿岸の磯遊歩道",
+    "km": 24.2,
+    "src": "gsi",
+    "label": "茨城県日立市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "日立シビックセンター科学館",
+    "km": 24.2,
+    "src": "gsi",
+    "label": "茨城県日立市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_常磐神社",
+  "name": "常磐神社",
+  "prefecture": "茨城県",
+  "lat": 36.375,
+  "lng": 140.45566667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "常磐神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "水戸偕楽園の杉林散策路",
+    "km": 1.8,
+    "src": "gsi",
+    "label": "茨城県水戸市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "水戸徳川ミュージアム",
+    "km": 1.8,
+    "src": "gsi",
+    "label": "茨城県水戸市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_水戸東照宮",
+  "name": "水戸東照宮",
+  "prefecture": "茨城県",
+  "lat": 36.3725,
+  "lng": 140.47333333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "水戸東照宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "水戸城跡",
+    "km": 0.8,
+    "src": "gsi",
+    "label": "茨城県水戸市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "偕楽園",
+    "km": 4.2,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "千波湖",
+    "km": 4.2,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_茨城_水戸八幡宮",
+  "name": "水戸八幡宮",
+  "prefecture": "茨城県",
+  "lat": 36.38772222,
+  "lng": 140.45991667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "水戸八幡宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "茨城県立歴史館",
+    "km": 11.6,
+    "src": "gsi",
+    "label": "茨城県茨城",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "泉町薬師堂",
+    "km": 5.2,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "弘道館",
+    "km": 5.2,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_川俣温泉",
+  "name": "川俣温泉",
+  "prefecture": "栃木県",
+  "lat": 36.88194444,
+  "lng": 139.45888889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "川俣温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "川俣大滝",
+    "km": 51.6,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "男体山登山道",
+    "km": 51.6,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "中禅寺湖の西岸遊歩道",
+    "km": 51.6,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_栃木_三斗小屋温泉",
+  "name": "三斗小屋温泉",
+  "prefecture": "栃木県",
+  "lat": 37.138056,
+  "lng": 139.946389,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "三斗小屋温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "朝日岳",
+    "km": 63.9,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "峰の湯",
+    "km": 63.9,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_栃木_中禅寺温泉",
+  "name": "中禅寺温泉",
+  "prefecture": "栃木県",
+  "lat": 36.74039,
+  "lng": 139.498,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "中禅寺温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "中禅寺湖スカイライン",
+    "km": 39.5,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "立木観音",
+    "km": 39.5,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "戦場ヶ原",
+    "km": 39.5,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_那須温泉郷",
+  "name": "那須温泉郷",
+  "prefecture": "栃木県",
+  "lat": 37.12406,
+  "lng": 139.99636,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "那須温泉郷",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "那須ロープウェイ",
+    "km": 16,
+    "src": "gsi",
+    "label": "栃木県那須郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "那須湖",
+    "km": 16,
+    "src": "gsi",
+    "label": "栃木県那須郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "那須動物王国",
+    "km": 16,
+    "src": "gsi",
+    "label": "栃木県那須郡",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_日光湯元温泉",
+  "name": "日光湯元温泉",
+  "prefecture": "栃木県",
+  "lat": 36.8065,
+  "lng": 139.42442,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日光湯元温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "湯の湖",
+    "km": 48.9,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "金精峠",
+    "km": 48.9,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "日光山輪王寺 大猷院廟",
+    "km": 26.2,
+    "src": "gsi",
+    "label": "栃木県日光市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_栃木_湯西川温泉",
+  "name": "湯西川温泉",
+  "prefecture": "栃木県",
+  "lat": 36.96211,
+  "lng": 139.59147,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "湯西川温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "湯西川水生植物園",
+    "km": 51.2,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "落合橋（竜王の滝展望台）",
+    "km": 51.2,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "上滝沢不動滝",
+    "km": 64.7,
+    "src": "gsi",
+    "label": "栃木県上三川",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_栃木_佐野プレミアム・アウトレット",
+  "name": "佐野アウトレット",
+  "prefecture": "栃木県",
+  "lat": 36.29303333,
+  "lng": 139.60487222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "佐野プレミアム・アウトレット",
+    "km": 3.4,
+    "src": "gsi",
+    "label": "栃木県佐野市",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "佐野厳島神社",
+    "km": 3.4,
+    "src": "gsi",
+    "label": "栃木県佐野市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "出流原弁天池",
+    "km": 39.3,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "佐野ラーメン街道",
+    "km": 3.4,
+    "src": "gsi",
+    "label": "栃木県佐野市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_殺生石",
+  "name": "殺生石",
+  "prefecture": "栃木県",
+  "lat": 37.10147222,
+  "lng": 139.99891667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "殺生石",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "那須湯本温泉街",
+    "km": 14.1,
+    "src": "gsi",
+    "label": "栃木県那須郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "八幡温泉 玉の湯",
+    "km": 60.4,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_栃木_那須高原",
+  "name": "那須高原",
+  "prefecture": "栃木県",
+  "lat": 37.10968056,
+  "lng": 140.00118333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "那須高原",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "那須どうぶつ王国",
+    "km": 14.6,
+    "src": "gsi",
+    "label": "栃木県那須郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "那須ロープウェイ・茶臼岳",
+    "km": 14.6,
+    "src": "gsi",
+    "label": "栃木県那須郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "那須ガーデンアウトレット",
+    "km": 14.6,
+    "src": "gsi",
+    "label": "栃木県那須町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_日光杉並木",
+  "name": "日光杉並木",
+  "prefecture": "栃木県",
+  "lat": 36.72,
+  "lng": 139.69,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日光杉並木",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "いろは坂",
+    "km": 24.3,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "日光東照宮",
+    "km": 0.7,
+    "src": "gsi",
+    "label": "栃木県日光市",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "二荒山神社",
+    "km": 24.3,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_宇都宮城",
+  "name": "宇都宮城",
+  "prefecture": "栃木県",
+  "lat": 36.55444444,
+  "lng": 139.88583333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "宇都宮城",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大谷資料館",
+    "km": 37,
+    "src": "gsi",
+    "label": "栃木県大田原市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "清巌寺",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "大谷観音",
+    "km": 37,
+    "src": "gsi",
+    "label": "栃木県大田原市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_宇都宮二荒山神社",
+  "name": "宇都宮二荒山神社",
+  "prefecture": "栃木県",
+  "lat": 36.56269444,
+  "lng": 139.88569444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "宇都宮二荒山神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "宇都宮城址公園",
+    "km": 0.9,
+    "src": "gsi",
+    "label": "栃木県宇都宮市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "大谷石採石場地下坑道ツアー",
+    "km": 36.2,
+    "src": "gsi",
+    "label": "栃木県大田原市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_太平山神社",
+  "name": "太平山神社",
+  "prefecture": "栃木県",
+  "lat": 36.36255556,
+  "lng": 139.69308333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "太平山神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "太平山栃木縣護国神社",
+    "km": 28.3,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "太平山自然公園",
+    "km": 28.3,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_唐沢山神社",
+  "name": "唐沢山神社",
+  "prefecture": "栃木県",
+  "lat": 36.35378056,
+  "lng": 139.60084722,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "唐沢山神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "唐沢山城",
+    "km": 34.6,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_栃木_日光東照宮",
+  "name": "日光東照宮",
+  "prefecture": "栃木県",
+  "lat": 36.75805556,
+  "lng": 139.59894444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日光東照宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "日光山輪王寺",
+    "km": 9.8,
+    "src": "gsi",
+    "label": "栃木県日光市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "奥日光 湯元温泉",
+    "km": 33.2,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "中禅寺湖",
+    "km": 33.2,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_群馬_老神温泉",
+  "name": "老神温泉",
+  "prefecture": "群馬県",
+  "lat": 36.67111111,
+  "lng": 139.20972222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "老神温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "吾妻渓谷",
+    "km": 104.1,
+    "src": "gsi",
+    "label": "茨城県つくば市吾妻",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "利根川ダム（下久保ダム）周辺",
+    "km": 123,
+    "src": "gsi",
+    "label": "茨城県北相馬郡利根町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_奥嬬恋温泉",
+  "name": "奥嬬恋温泉",
+  "prefecture": "群馬県",
+  "lat": 36.53289,
+  "lng": 138.50328,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "奥嬬恋温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "鬼押出し園",
+    "km": 52.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "浅間山北麓ジオパークの溶岩洞穴群",
+    "km": 52.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_鹿沢温泉",
+  "name": "鹿沢温泉",
+  "prefecture": "群馬県",
+  "lat": 36.45233,
+  "lng": 138.42472,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鹿沢温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "万座温泉への登山道沿い景観",
+    "km": 57.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "鹿沢白樺牧場跡周辺",
+    "km": 57.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_片品温泉",
+  "name": "片品温泉",
+  "prefecture": "群馬県",
+  "lat": 36.81061,
+  "lng": 139.23811,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "片品温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "尾瀬ヶ原",
+    "km": 49.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "鎌田醤油 本社/昭和の森",
+    "km": 49.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "丸沼高原スキー場",
+    "km": 49.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_上牧温泉",
+  "name": "上牧温泉",
+  "prefecture": "群馬県",
+  "lat": 36.738,
+  "lng": 138.98203,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "上牧温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "上牧温泉 町営露天風呂",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "吹割の滝",
+    "km": 39.2,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "沼田城跡 公園",
+    "km": 11.8,
+    "src": "gsi",
+    "label": "群馬県沼田市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_群馬_川中温泉",
+  "name": "川中温泉",
+  "prefecture": "群馬県",
+  "lat": 36.57856,
+  "lng": 138.72542,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "川中温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "川中温泉 熊野皮膚科医クリニック跡",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "利根川渓谷遊歩道（川中～後閑区間）",
+    "km": 150,
+    "src": "gsi",
+    "label": "茨城県北相馬郡利根町",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "黒岩の不動滝",
+    "km": 36.5,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_川原湯温泉",
+  "name": "川原湯温泉",
+  "prefecture": "群馬県",
+  "lat": 36.54761,
+  "lng": 138.70033,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "川原湯温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "八ッ場ダム",
+    "km": 36.6,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "川原湯温泉 公共露天風呂（復興跡地）",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "天狗岩",
+    "km": 36.6,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_群馬_猿ヶ京温泉",
+  "name": "猿ヶ京温泉",
+  "prefecture": "群馬県",
+  "lat": 36.73064,
+  "lng": 138.89278,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "猿ヶ京温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "赤谷湖",
+    "km": 40.7,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "永徳寺",
+    "km": 40.7,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "猿ヶ京温泉スキー場",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_敷島温泉",
+  "name": "敷島温泉",
+  "prefecture": "群馬県",
+  "lat": 36.53380556,
+  "lng": 139.03177778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "敷島温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "敷島峡",
+    "km": 16.1,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "法師温泉 長寿館",
+    "km": 16.1,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_群馬_尻焼温泉",
+  "name": "尻焼温泉",
+  "prefecture": "群馬県",
+  "lat": 36.648111,
+  "lng": 138.641389,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "尻焼温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "川原湯温泉",
+    "km": 41.5,
+    "src": "gsi",
+    "label": "群馬県川場",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "八ッ場ダム 資料館",
+    "km": 47.1,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_花敷温泉",
+  "name": "花敷温泉",
+  "prefecture": "群馬県",
+  "lat": 36.64758,
+  "lng": 138.64783,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "花敷温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "中ノ条温泉街 六合地区",
+    "km": 18.4,
+    "src": "gsi",
+    "label": "群馬県中之条",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "日本ロマンチック街道（北ルート）",
+    "km": 46.6,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_法師温泉",
+  "name": "法師温泉",
+  "prefecture": "群馬県",
+  "lat": 36.74388889,
+  "lng": 138.83194444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "法師温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "法師温泉 長寿館",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "鬼岩公園",
+    "km": 44.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "スメ樹園",
+    "km": 44.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_群馬_万座温泉",
+  "name": "万座温泉",
+  "prefecture": "群馬県",
+  "lat": 36.63717,
+  "lng": 138.51008,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "万座温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "万座ハイウェイオアシス",
+    "km": 56.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "万座温泉スキー場",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "志賀高原との境界展望地",
+    "km": 56.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_臼別温泉",
+  "name": "臼別温泉",
+  "prefecture": "北海道",
+  "lat": 42.22947222,
+  "lng": 139.91869444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "臼別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "臼別駅",
+    "km": 149.2,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "臼別温泉周辺の山林景観",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_オーロラ温泉",
+  "name": "オーロラ温泉",
+  "prefecture": "北海道",
+  "lat": 43.32525,
+  "lng": 144.52736111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "オーロラ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "オーロラ温泉駅",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "天塩川流域の秘境谷",
+    "km": 282,
+    "src": "gsi",
+    "label": "北海道天塩",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_奥美利河温泉",
+  "name": "奥美利河温泉",
+  "prefecture": "北海道",
+  "lat": 42.53902778,
+  "lng": 140.25188889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "奥美利河温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "奥美利河温泉駅",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "美利河ダム",
+    "km": 157.5,
+    "src": "gsi",
+    "label": "北海道美唄市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_オソウシ温泉",
+  "name": "オソウシ温泉",
+  "prefecture": "北海道",
+  "lat": 43.23227778,
+  "lng": 142.96077778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "オソウシ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "オソウシ灯台",
+    "km": 132.3,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "湧別町郷土館",
+    "km": 113.5,
+    "src": "gsi",
+    "label": "北海道湧別町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_オホーツクオムイ温泉",
+  "name": "オホーツクオムイ温泉",
+  "prefecture": "北海道",
+  "lat": 44.52669444,
+  "lng": 143.05738889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "オホーツクオムイ温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大見有機農場",
+    "km": 112.1,
+    "src": "gsi",
+    "label": "北海道大空",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "海浜公園キャンプ場",
+    "km": 212.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_神威脇温泉",
+  "name": "神威脇温泉",
+  "prefecture": "北海道",
+  "lat": 42.17145,
+  "lng": 139.41067,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "神威脇温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "神威岬",
+    "km": 136.5,
+    "src": "gsi",
+    "label": "北海道神恵内",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "積丹ブルーの海",
+    "km": 158.5,
+    "src": "gsi",
+    "label": "北海道積丹",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "積丹町産業振興室・観光案内",
+    "km": 158.5,
+    "src": "gsi",
+    "label": "北海道積丹町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_金花湯",
+  "name": "金花湯",
+  "prefecture": "北海道",
+  "lat": 42.59138889,
+  "lng": 140.1375,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "金花湯",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "赤倉温泉街の足湯",
+    "km": 77.7,
+    "src": "gsi",
+    "label": "北海道赤井川",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "赤倉峠展望台",
+    "km": 77.7,
+    "src": "gsi",
+    "label": "北海道赤井川",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_塩別温泉",
+  "name": "塩別温泉",
+  "prefecture": "北海道",
+  "lat": 43.73838889,
+  "lng": 143.42038889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "塩別温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "塩別川",
+    "km": 183.5,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "常呂町郷土資料館",
+    "km": 42.5,
+    "src": "gsi",
+    "label": "北海道北見市常呂町",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_鹿部温泉",
+  "name": "鹿部温泉",
+  "prefecture": "北海道",
+  "lat": 42.03266667,
+  "lng": 140.82002778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鹿部温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "鹿部火山",
+    "km": 1.2,
+    "src": "gsi",
+    "label": "北海道鹿部",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "鹿部漁港",
+    "km": 1.2,
+    "src": "gsi",
+    "label": "北海道鹿部",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_瀬戸瀬温泉",
+  "name": "瀬戸瀬温泉",
+  "prefecture": "北海道",
+  "lat": 43.93944444,
+  "lng": 143.42916667,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "瀬戸瀬温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "瀬戸瀬川渓谷",
+    "km": 759.3,
+    "src": "gsi",
+    "label": "福島県喜多方市瀬戸",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "響山園地",
+    "km": 194.1,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_平田内温泉",
+  "name": "平田内温泉",
+  "prefecture": "北海道",
+  "lat": 42.13444444,
+  "lng": 140.00555556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "平田内温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "平田内湖",
+    "km": 181.5,
+    "src": "gsi",
+    "label": "北海道平取",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "晩生内の滝",
+    "km": 150.8,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_美利河温泉",
+  "name": "美利河温泉",
+  "prefecture": "北海道",
+  "lat": 42.46830556,
+  "lng": 140.20155556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "美利河温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "美利河町営スキー場",
+    "km": 165.4,
+    "src": "gsi",
+    "label": "北海道美唄市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美利河ダム",
+    "km": 165.4,
+    "src": "gsi",
+    "label": "北海道美唄市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_真鍋庭園",
+  "name": "真鍋庭園",
+  "prefecture": "北海道",
+  "lat": 42.88441667,
+  "lng": 143.20408333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "真鍋庭園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "真鍋庭園隣接の丘陵地帯",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "近隣農家の直売所",
+    "km": 152.4,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_山彦の滝",
+  "name": "山彦の滝",
+  "prefecture": "北海道",
+  "lat": 43.88238889,
+  "lng": 143.30305556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "山彦の滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "山彦の滝上流の渓谷",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "滝周辺の原生林遊歩道",
+    "km": 38.9,
+    "src": "gsi",
+    "label": "北海道滝上",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_石狩弁天社",
+  "name": "石狩弁天社",
+  "prefecture": "北海道",
+  "lat": 43.24766667,
+  "lng": 141.35305556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "石狩弁天社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "石狩川河口野鳥観察舎",
+    "km": 9,
+    "src": "gsi",
+    "label": "北海道石狩振興局",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "厚田村望郷の丘",
+    "km": 284.3,
+    "src": "gsi",
+    "label": "北海道厚岸",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_北海_浦臼神社",
+  "name": "浦臼神社",
+  "prefecture": "北海道",
+  "lat": 43.45105556,
+  "lng": 141.83275,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "浦臼神社",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "浦臼町郷土資料館",
+    "km": 2.6,
+    "src": "gsi",
+    "label": "北海道浦臼町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "月山湖",
+    "km": 18.2,
+    "src": "gsi",
+    "label": "北海道月形",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_北海_札幌八幡宮",
+  "name": "札幌八幡宮",
+  "prefecture": "北海道",
+  "lat": 42.94161111,
+  "lng": 141.50333333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "札幌八幡宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "円山公園",
+    "km": 18.7,
+    "src": "gsi",
+    "label": "北海道",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "北海道神宮",
+    "km": 215.7,
+    "src": "gsi",
+    "label": "北海道北見市",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "札幌市円山動物園",
+    "km": 18.1,
+    "src": "gsi",
+    "label": "北海道札幌市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_相乗温泉",
+  "name": "相乗温泉",
+  "prefecture": "青森県",
+  "lat": 40.42655556,
+  "lng": 140.63433333,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "相乗温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "鮫角灯台",
+    "km": 45.2,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "北上高地の断崖群",
+    "km": 456.8,
+    "src": "gsi",
+    "label": "北海道北見市北上",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "八戸市街地の朝市",
+    "km": 72.9,
+    "src": "gsi",
+    "label": "青森県八戸市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_青荷温泉",
+  "name": "青荷温泉",
+  "prefecture": "青森県",
+  "lat": 40.57164,
+  "lng": 140.72897,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "青荷温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "国道103号線沿い 滝の湯",
+    "km": 28.1,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "七滝沢渓谷",
+    "km": 41,
+    "src": "gsi",
+    "label": "青森県七戸",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_秋元温泉",
+  "name": "秋元温泉",
+  "prefecture": "青森県",
+  "lat": 40.4292,
+  "lng": 140.6139,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "秋元温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "嶽温泉・嶽スキー場",
+    "km": 45.2,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "白神山地ビジターセンター",
+    "km": 45.2,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_板留温泉",
+  "name": "板留温泉",
+  "prefecture": "青森県",
+  "lat": 40.6057,
+  "lng": 140.683,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "板留温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "丹藤峡谷",
+    "km": 24.8,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "有戸の松並木",
+    "km": 24.8,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_青森_稲垣温泉",
+  "name": "稲垣温泉",
+  "prefecture": "青森県",
+  "lat": 40.87530556,
+  "lng": 140.39555556,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "稲垣温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "稲垣温泉駅周辺の津軽平野",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "つがる市稲垣地域の歴史民俗資料館",
+    "km": 3,
+    "src": "gsi",
+    "label": "青森県つがる市稲垣町千年",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "稲垣温泉近郊の日本海沿岸散策路",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_青森_奥入瀬渓流温泉",
+  "name": "奥入瀬渓流温泉",
+  "prefecture": "青森県",
+  "lat": 40.57886,
+  "lng": 140.995,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "奥入瀬渓流温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "奥入瀬渓流の銚子大滝",
+    "km": 34.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "焼山の眺望台",
+    "km": 34.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "奥入瀬渓流マイナスイオン歩道",
+    "km": 34.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_青森_落合温泉",
+  "name": "落合温泉",
+  "prefecture": "青森県",
+  "lat": 40.6067,
+  "lng": 140.6773,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "落合温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "落合温泉近傍の渓谷探勝路",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "落合温泉周辺の北股川の滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "弘前市周辺へのアクセス経由となる津軽伝統工芸品販売地点",
+    "km": 18,
+    "src": "gsi",
+    "label": "青森県弘前市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_青森_黄金崎不老不死温泉",
+  "name": "黄金崎不老不死温泉",
+  "prefecture": "青森県",
+  "lat": 40.61411,
+  "lng": 139.862,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "黄金崎不老不死温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "権現崎灯台",
+    "km": 77.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "つがる市民俗史料館",
+    "km": 48.7,
+    "src": "gsi",
+    "label": "青森県つがる市",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "金ヶ沢の大銀杏",
+    "km": 77.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_下風呂温泉",
+  "name": "下風呂温泉",
+  "prefecture": "青森県",
+  "lat": 41.46769,
+  "lng": 141.09311,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "下風呂温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "風呂のくらや",
+    "km": 8.4,
+    "src": "gsi",
+    "label": "青森県風間浦",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "恐山イタコの館",
+    "km": 77.4,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "北の防波堤ドーム",
+    "km": 181.6,
+    "src": "gsi",
+    "label": "北海道札幌市北区",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_城ヶ倉温泉",
+  "name": "城ヶ倉温泉",
+  "prefecture": "青森県",
+  "lat": 40.65565,
+  "lng": 140.83733,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "城ヶ倉温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "八甲田ロープウェー",
+    "km": 57.2,
+    "src": "gsi",
+    "label": "青森県八戸市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "城ヶ倉大橋",
+    "km": 20.5,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "猿倉温泉",
+    "km": 20.5,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_酸ヶ湯",
+  "name": "酸ヶ湯",
+  "prefecture": "青森県",
+  "lat": 40.65,
+  "lng": 140.85,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "酸ヶ湯",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "八甲田山自然観察教育林",
+    "km": 56,
+    "src": "gsi",
+    "label": "青森県八戸市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "酸ヶ湯展望台",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "八甲田森吉林道",
+    "km": 56,
+    "src": "gsi",
+    "label": "青森県八戸市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_嶽温泉",
+  "name": "嶽温泉",
+  "prefecture": "青森県",
+  "lat": 40.63075,
+  "lng": 140.26803,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "嶽温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "嶽岳",
+    "km": 45.3,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "嶽温泉周辺の渓流散策路",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "大鰐町りんご温泉観光りんご園",
+    "km": 28.2,
+    "src": "gsi",
+    "label": "青森県大鰐町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_蔦温泉",
+  "name": "蔦温泉",
+  "prefecture": "青森県",
+  "lat": 40.596944,
+  "lng": 140.953056,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "蔦温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "蔦沼",
+    "km": 31,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "蔦七沼遊歩道",
+    "km": 31,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "高顔山",
+    "km": 31,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "gen_青森_十和田湖畔温泉",
+  "name": "十和田湖畔温泉",
+  "prefecture": "青森県",
+  "lat": 40.425,
+  "lng": 140.8939,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "十和田湖畔温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "十和田湖",
+    "km": 33.6,
+    "src": "gsi",
+    "label": "青森県十和田市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "十和田市現代美術館",
+    "km": 33.6,
+    "src": "gsi",
+    "label": "青森県十和田市",
+    "verdict": "near"
+   },
+   {
+    "idx": 3,
+    "name": "奥入瀬渓流",
+    "km": 46.3,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_馬門温泉",
+  "name": "馬門温泉",
+  "prefecture": "青森県",
+  "lat": 40.87622,
+  "lng": 141.06322,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "馬門温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "馬門岳",
+    "km": 27.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "南部煎餅の製造体験施設",
+    "km": 55.5,
+    "src": "gsi",
+    "label": "青森県南部",
+    "verdict": "far"
+   },
+   {
+    "idx": 3,
+    "name": "新田矢部川渓谷",
+    "km": 46.6,
+    "src": "gsi",
+    "label": "青森県新郷",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "gen_青森_谷地温泉",
+  "name": "谷地温泉",
+  "prefecture": "青森県",
+  "lat": 40.633017,
+  "lng": 140.924533,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "谷地温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "谷地温泉周辺の白糠火山群",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "谷地温泉スキー場",
+    "verdict": "self"
+   },
+   {
+    "idx": 3,
+    "name": "谷地温泉駅と周辺の廃線跡",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_青森_4",
+  "name": "黒石こみせ通り",
+  "prefecture": "青森県",
+  "lat": 40.6423427,
+  "lng": 140.5951263,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "こみせ通り",
+    "km": 23.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "大川温泉・温泉街周辺",
+    "km": 101.2,
+    "src": "gsi",
+    "label": "青森県大間",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "津軽こけし館",
+    "km": 23.7,
+    "src": "gsi",
+    "label": "青森県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_岩手_1",
+  "name": "北山崎",
+  "prefecture": "岩手県",
+  "lat": 39.9304666,
+  "lng": 141.8889631,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北山崎展望台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北山崎遊歩道",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "鵜の巣断崖",
+    "km": 67.8,
+    "src": "gsi",
+    "label": "岩手県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮城_1",
+  "name": "女川漁港と海産物市場",
+  "prefecture": "宮城県",
+  "lat": 38.4456238,
+  "lng": 141.4431399,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "シーパルピア女川",
+    "km": 53.5,
+    "src": "gsi",
+    "label": "宮城県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "女川町営浜市場",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮城県女川町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "女川温泉ゆぽっぽ",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮城県女川",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮城_3",
+  "name": "七ヶ宿町のダム湖",
+  "prefecture": "宮城県",
+  "lat": 37.959422,
+  "lng": 140.513078,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "七ヶ宿ダム",
+    "km": 7.3,
+    "src": "gsi",
+    "label": "宮城県七ヶ宿",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "七ヶ宿町営温泉あやめ",
+    "km": 7.3,
+    "src": "gsi",
+    "label": "宮城県七ヶ宿町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "滑津大滝",
+    "km": 46.6,
+    "src": "gsi",
+    "label": "宮城県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮城_5",
+  "name": "登米の蔵の町並み",
+  "prefecture": "宮城県",
+  "lat": 38.6918037,
+  "lng": 141.1877688,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "登米町の土蔵群",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮城県登米郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "伊勢屋醤油醸造所",
+    "km": 407.4,
+    "src": "gsi",
+    "label": "富山県立山町伊勢屋",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "教育資料館（旧登米高等尋常小学校）",
+    "km": 54.5,
+    "src": "gsi",
+    "label": "宮城県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_秋田_1",
+  "name": "湯瀬温泉",
+  "prefecture": "秋田県",
+  "lat": 40.1223045,
+  "lng": 140.8403769,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "阿仁川渓谷",
+    "km": 77.3,
+    "src": "gsi",
+    "label": "秋田県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "湯瀬スキー場跡地の展望地",
+    "km": 110.5,
+    "src": "gsi",
+    "label": "秋田県湯沢市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "湯瀬渓谷",
+    "km": 110.5,
+    "src": "gsi",
+    "label": "秋田県湯沢市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_秋田_4",
+  "name": "小坂鉄道遺産と銀山跡",
+  "prefecture": "秋田県",
+  "lat": 40.3333446,
+  "lng": 140.7359108,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "小坂鉱山資料館",
+    "km": 0,
+    "src": "gsi",
+    "label": "秋田県小坂",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "康楽館",
+    "km": 87.1,
+    "src": "gsi",
+    "label": "秋田県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "小坂鉄道レールパーク",
+    "km": 0,
+    "src": "gsi",
+    "label": "秋田県小坂",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_秋田_5",
+  "name": "太平湖と奥ノ松渓谷",
+  "prefecture": "秋田県",
+  "lat": 40.2157445,
+  "lng": 140.7882193,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "太平湖展望台",
+    "km": 80.4,
+    "src": "gsi",
+    "label": "秋田県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "滝瀬温泉",
+    "km": 80.4,
+    "src": "gsi",
+    "label": "秋田県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "小又峡",
+    "km": 13.8,
+    "src": "gsi",
+    "label": "秋田県小坂",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_山形_1",
+  "name": "白鷹町べにばな温泉郷",
+  "prefecture": "山形県",
+  "lat": 38.1830109,
+  "lng": 140.0983623,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "べにばな温泉センター",
+    "km": 24,
+    "src": "gsi",
+    "label": "山形県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "白鷹町紅花資料館",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "山形県白鷹町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅白鷹ヤナ公園",
+    "km": 24,
+    "src": "gsi",
+    "label": "山形県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山形_2",
+  "name": "庄内町庭月観音温泉",
+  "prefecture": "山形県",
+  "lat": 38.8499339,
+  "lng": 139.9042443,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "庭月観音温泉旅館",
+    "km": 78.7,
+    "src": "gsi",
+    "label": "山形県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "朝日連峰トレッキング道",
+    "km": 64.7,
+    "src": "gsi",
+    "label": "山形県朝日",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福島_1",
+  "name": "只見町ブナ林と清流",
+  "prefecture": "福島県",
+  "lat": 37.3488553,
+  "lng": 139.3161722,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "只見川渓谷遊歩道",
+    "km": 0,
+    "src": "gsi",
+    "label": "福島県只見",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "道の駅ただみ",
+    "km": 110.9,
+    "src": "gsi",
+    "label": "福島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "田子倉湖展望台",
+    "km": 111.8,
+    "src": "gsi",
+    "label": "福島県田村郡",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福島_2",
+  "name": "柳津虚空蔵尊温泉",
+  "prefecture": "福島県",
+  "lat": 37.533056,
+  "lng": 139.724722,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "福満虚空蔵尊",
+    "km": 70.7,
+    "src": "gsi",
+    "label": "福島県福島市",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "柳津温泉",
+    "km": 0.9,
+    "src": "gsi",
+    "label": "福島県柳津",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "斎藤清美術館",
+    "km": 69.7,
+    "src": "gsi",
+    "label": "福島県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福島_4",
+  "name": "小高区歴史的町並み",
+  "prefecture": "福島県",
+  "lat": 37.6421923,
+  "lng": 140.9572649,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "小高の旧市街地",
+    "km": 49.1,
+    "src": "gsi",
+    "label": "福島県小野",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "相馬焼工房",
+    "km": 17.6,
+    "src": "gsi",
+    "label": "福島県相馬郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "相馬小高神社",
+    "km": 17.6,
+    "src": "gsi",
+    "label": "福島県相馬郡",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福島_5",
+  "name": "棚倉城跡",
+  "prefecture": "福島県",
+  "lat": 37.0299106,
+  "lng": 140.3795451,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "棚倉城址公園",
+    "km": 0,
+    "src": "gsi",
+    "label": "福島県棚倉",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "八槻都々古別神社",
+    "km": 80.5,
+    "src": "gsi",
+    "label": "福島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "山本不動尊",
+    "km": 80.5,
+    "src": "gsi",
+    "label": "福島県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福島_6",
+  "name": "昭和村",
+  "prefecture": "福島県",
+  "lat": 37.3352574,
+  "lng": 139.6105609,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "昭和村の茅葺き民家群",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "からむし織工房",
+    "km": 88.5,
+    "src": "gsi",
+    "label": "福島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅からむし織の里しょうわ",
+    "km": 88.5,
+    "src": "gsi",
+    "label": "福島県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_茨城_1",
+  "name": "真壁の古い町並み",
+  "prefecture": "茨城県",
+  "lat": 36.277408,
+  "lng": 140.100728,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "真壁伝承館",
+    "km": 31.8,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "八雲神社",
+    "km": 31.8,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "雨引観音（楽法寺）",
+    "km": 31.8,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_茨城_2",
+  "name": "磯原漁港",
+  "prefecture": "茨城県",
+  "lat": 36.8018507,
+  "lng": 140.7513188,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "磯原海岸",
+    "km": 57.9,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "岬の湯",
+    "km": 57.9,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "野口雨情生家・資料館",
+    "km": 57.9,
+    "src": "gsi",
+    "label": "茨城県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_栃木_2",
+  "name": "新湯温泉",
+  "prefecture": "栃木県",
+  "lat": 36.9621788,
+  "lng": 140.0467207,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "田村の湯（共同浴場）",
+    "km": 46.4,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "塩原ダム堰堤展望地",
+    "km": 26.5,
+    "src": "gsi",
+    "label": "栃木県塩谷郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "新湯温泉街の飲食店と旅館",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_栃木_4",
+  "name": "馬頭温泉郷",
+  "prefecture": "栃木県",
+  "lat": 36.7356266,
+  "lng": 140.172496,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "岡田製本工房",
+    "km": 31.9,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "馬頭の古い商家街",
+    "km": 31.9,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "那珂川河岸段丘からの眺望",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "栃木県那珂川",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_群馬_1",
+  "name": "佐野の門前町",
+  "prefecture": "栃木県",
+  "lat": 36.35378056,
+  "lng": 139.60084722,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "唐沢山神社",
+    "km": 34.6,
+    "src": "gsi",
+    "label": "栃木県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "佐野市街地の蔵造り通り",
+    "km": 4.8,
+    "src": "gsi",
+    "label": "栃木県佐野市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "佐野厄除け大師（惣宗寺）",
+    "km": 4.8,
+    "src": "gsi",
+    "label": "栃木県佐野市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_群馬_4",
+  "name": "桐生の工場跡と町並み",
+  "prefecture": "群馬県",
+  "lat": 36.4057374,
+  "lng": 139.3308366,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "織姫神社へのアプローチ通り",
+    "km": 24.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "本町通りの生機問屋と工房カフェ",
+    "km": 24.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "有鄰館",
+    "km": 24.3,
+    "src": "gsi",
+    "label": "群馬県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_埼玉_1",
+  "name": "寄居町の荒川渓谷",
+  "prefecture": "埼玉県",
+  "lat": 36.1182741,
+  "lng": 139.1927779,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "玉淀湖",
+    "km": 50.3,
+    "src": "gsi",
+    "label": "埼玉県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "用土の吊り橋周辺",
+    "km": 50.3,
+    "src": "gsi",
+    "label": "埼玉県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "鉢形城公園",
+    "km": 50.3,
+    "src": "gsi",
+    "label": "埼玉県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_千葉_1",
+  "name": "飯岡刑部岬",
+  "prefecture": "千葉県",
+  "lat": 35.693056,
+  "lng": 140.739167,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "飯岡灯台",
+    "km": 56.5,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "刑部岬遊歩道",
+    "km": 56.5,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "飯岡漁港",
+    "km": 56.5,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_千葉_2",
+  "name": "小湊鐵道沿線",
+  "prefecture": "千葉県",
+  "lat": 35.262023,
+  "lng": 140.159844,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "小湊鐵道全線乗車",
+    "km": 38.2,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "上総鶴舞駅",
+    "km": 38.2,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "飯給駅",
+    "km": 38.2,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_千葉_4",
+  "name": "片貝海岸",
+  "prefecture": "千葉県",
+  "lat": 35.7204126,
+  "lng": 140.6464527,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "片貝漁港",
+    "km": 49,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "片貝海岸",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "海の駅九十九里",
+    "km": 49,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_千葉_5",
+  "name": "御宿中央海岸",
+  "prefecture": "千葉県",
+  "lat": 35.1916611,
+  "lng": 140.3487766,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "御宿中央海岸",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "町なか散策・歴史的建造物群",
+    "km": 50.3,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "メキシコ記念塔",
+    "km": 50.3,
+    "src": "gsi",
+    "label": "千葉県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_東京_1",
+  "name": "檜原村",
+  "prefecture": "東京都",
+  "lat": 35.7307843,
+  "lng": 139.1435125,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "数馬の湯",
+    "km": 49.7,
+    "src": "gsi",
+    "label": "東京都",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "秋川渓谷遊歩道",
+    "km": 49.7,
+    "src": "gsi",
+    "label": "東京都",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "檜原村そば処",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_東京_2",
+  "name": "御岳山",
+  "prefecture": "東京都",
+  "lat": 35.7897155,
+  "lng": 139.1536401,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "武蔵御嶽神社",
+    "km": 21.4,
+    "src": "gsi",
+    "label": "東京都武蔵村山市",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "長尾平展望台",
+    "km": 49.8,
+    "src": "gsi",
+    "label": "東京都",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "山頂周辺のそば屋",
+    "km": 49.8,
+    "src": "gsi",
+    "label": "東京都",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_東京_3",
+  "name": "青梅赤塚不二夫会館",
+  "prefecture": "東京都",
+  "lat": 35.7880531,
+  "lng": 139.2753553,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "赤塚不二夫会館",
+    "km": 39.1,
+    "src": "gsi",
+    "label": "東京都",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "青梅商店街（本町通り）",
+    "km": 0,
+    "src": "gsi",
+    "label": "東京都青梅市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "青梅アニメーションストリート",
+    "km": 0,
+    "src": "gsi",
+    "label": "東京都青梅市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_東京_4",
+  "name": "奥多摩湖",
+  "prefecture": "東京都",
+  "lat": 35.7925449,
+  "lng": 139.0483594,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "小河内ダム・多摩水源管理資料館",
+    "km": 1012,
+    "src": "gsi",
+    "label": "東京都小笠原村",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "奥多摩湖畔遊歩道",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "奥多摩町の古い木材問屋建築",
+    "km": 4.7,
+    "src": "gsi",
+    "label": "東京都奥多摩町",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_東京_6",
+  "name": "江戸東京たてもの園",
+  "prefecture": "東京都",
+  "lat": 35.7041083,
+  "lng": 139.5106759,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "江戸東京たてもの園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "園内・大正時代洋館カフェ",
+    "km": 16.4,
+    "src": "gsi",
+    "label": "東京都",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "小金井公園・雑木林散歩道",
+    "km": 0.9,
+    "src": "gsi",
+    "label": "東京都小金井市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_神奈川_4",
+  "name": "大磯照ヶ崎海岸",
+  "prefecture": "神奈川県",
+  "lat": 35.3068949,
+  "lng": 139.3113254,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大磯松並木通り",
+    "km": 0,
+    "src": "gsi",
+    "label": "神奈川県大磯",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "照ヶ崎海岸",
+    "km": 33.9,
+    "src": "gsi",
+    "label": "神奈川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "旧吉田茂邸（大磯城山公園）",
+    "km": 33.9,
+    "src": "gsi",
+    "label": "神奈川県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_神奈川_5",
+  "name": "開成町水田",
+  "prefecture": "神奈川県",
+  "lat": 35.3360434,
+  "lng": 139.1233133,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "開成菜の花畑",
+    "km": 0,
+    "src": "gsi",
+    "label": "神奈川県開成",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "開成つつじ祭り周辺の土手",
+    "km": 0,
+    "src": "gsi",
+    "label": "神奈川県開成",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "あしがり郷瀬戸屋敷",
+    "km": 48.7,
+    "src": "gsi",
+    "label": "神奈川県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_新潟_1",
+  "name": "瀬波温泉",
+  "prefecture": "新潟県",
+  "lat": 38.2148844,
+  "lng": 139.4442165,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "瀬波温泉街の坂道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "日本海の露天風呂群",
+    "km": 50.6,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "イヨボヤ会館",
+    "km": 50.6,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_新潟_2",
+  "name": "寺泊アメの横丁",
+  "prefecture": "新潟県",
+  "lat": 37.446996,
+  "lng": 138.8512199,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "寺泊アメ横商店街",
+    "km": 52.9,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "寺泊港の漁師集落",
+    "km": 52.9,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "寺泊水族博物館",
+    "km": 52.9,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_新潟_3",
+  "name": "越後松代の棚田と旧街道",
+  "prefecture": "新潟県",
+  "lat": 37.1276085,
+  "lng": 138.755504,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "松代の棚田群",
+    "km": 89.3,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "旧街道沿いの地蔵群",
+    "km": 89.3,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "美人林",
+    "km": 89.3,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_新潟_6",
+  "name": "加茂の古い酒蔵群と職人街",
+  "prefecture": "新潟県",
+  "lat": 37.6661851,
+  "lng": 139.04018,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "加茂の酒蔵群",
+    "km": 0,
+    "src": "gsi",
+    "label": "新潟県加茂市",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "地元の酒蔵直売所",
+    "km": 26.3,
+    "src": "gsi",
+    "label": "新潟県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "加茂山公園",
+    "km": 0,
+    "src": "gsi",
+    "label": "新潟県加茂市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_富山_1",
+  "name": "庄川峡",
+  "prefecture": "富山県",
+  "lat": 36.5793069,
+  "lng": 136.9848226,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "庄川峡遊覧船",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "庄川町立歴史民俗資料館",
+    "km": 24,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "庄川水記念公園",
+    "km": 24,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_富山_2",
+  "name": "利賀村",
+  "prefecture": "富山県",
+  "lat": 36.457393,
+  "lng": 137.028167,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "利賀焔ノ塔（たご・えんのとう）",
+    "km": 31.1,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "合掌造り民家群",
+    "km": 31.1,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "利賀芸術公園",
+    "km": 31.1,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_富山_3",
+  "name": "福光地区",
+  "prefecture": "富山県",
+  "lat": 36.5882176,
+  "lng": 136.9192079,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "福光和ろうそく工房",
+    "km": 28.7,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "福光古町並み",
+    "km": 28.7,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "棟方志功記念館 愛染苑",
+    "km": 28.7,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_富山_4",
+  "name": "舟川べり",
+  "prefecture": "富山県",
+  "lat": 36.945664,
+  "lng": 137.5594579,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "舟川べり菜の花ロード",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "朝日町の地場産直売所",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "富山県朝日町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "ヒスイ海岸",
+    "km": 41.7,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_富山_6",
+  "name": "五箇山平村",
+  "prefecture": "富山県",
+  "lat": 36.4099428,
+  "lng": 136.9335683,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "平村民俗資料館",
+    "km": 40.3,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "平村の合掌造り民家",
+    "km": 40.3,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "相倉合掌造り集落",
+    "km": 40.3,
+    "src": "gsi",
+    "label": "富山県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_石川_1",
+  "name": "大白川温泉",
+  "prefecture": "岐阜県",
+  "lat": 36.1353,
+  "lng": 136.81678,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "大白川温泉露天風呂",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "白川村の茅葺き民家群（大白川周辺）",
+    "km": 16.8,
+    "src": "gsi",
+    "label": "岐阜県白川村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "白水の滝",
+    "km": 16.8,
+    "src": "gsi",
+    "label": "岐阜県白川",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_石川_3",
+  "name": "木場潟",
+  "prefecture": "石川県",
+  "lat": 36.4032931,
+  "lng": 136.4495465,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "木場潟公園周辺の遊歩道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "木場潟カヌースポット",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "安宅の関跡",
+    "km": 26.5,
+    "src": "gsi",
+    "label": "石川県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_石川_4",
+  "name": "加佐ノ岬",
+  "prefecture": "石川県",
+  "lat": 36.3027624,
+  "lng": 136.3151159,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "加佐ノ岬灯台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "加佐ノ岬の漁港",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "尼御前岬",
+    "km": 42.7,
+    "src": "gsi",
+    "label": "石川県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_石川_6",
+  "name": "九谷陶芸村",
+  "prefecture": "石川県",
+  "lat": 36.4392262,
+  "lng": 136.5424414,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "古い登窯・工房群",
+    "km": 18.8,
+    "src": "gsi",
+    "label": "石川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "九谷陶芸体験工房",
+    "km": 18.8,
+    "src": "gsi",
+    "label": "石川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "能美市九谷焼美術館 五彩館",
+    "km": 1.4,
+    "src": "gsi",
+    "label": "石川県能美市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福井_1",
+  "name": "河野海岸の三角波紋",
+  "prefecture": "福井県",
+  "lat": 35.833286,
+  "lng": 136.1945582,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "河野三角波紋帯",
+    "km": 25.9,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "南越前町漁業協同組合周辺",
+    "km": 0.2,
+    "src": "gsi",
+    "label": "福井県南越前町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "北前船主の館 右近家",
+    "km": 25.9,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福井_2",
+  "name": "白山平泉寺門前町",
+  "prefecture": "福井県",
+  "lat": 36.043747,
+  "lng": 136.538889,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白山平泉寺",
+    "km": 28.6,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "門前の精進料理店",
+    "km": 28.6,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "福井県立恐竜博物館",
+    "km": 28.8,
+    "src": "gsi",
+    "label": "福井県福井市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福井_3",
+  "name": "あわら温泉",
+  "prefecture": "福井県",
+  "lat": 36.225,
+  "lng": 136.194444,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "芦湯",
+    "km": 17.9,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "セントピアあわら",
+    "km": 17.9,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "湯けむり横丁",
+    "km": 17.9,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福井_4",
+  "name": "九頭竜湖・西野ダム展望台",
+  "prefecture": "福井県",
+  "lat": 35.9797101,
+  "lng": 136.4874356,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "西野ダム展望台",
+    "km": 25.7,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "九頭竜湖周回道路",
+    "km": 25.7,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅九頭竜",
+    "km": 25.7,
+    "src": "gsi",
+    "label": "福井県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山梨_1",
+  "name": "道志村渓谷",
+  "prefecture": "山梨県",
+  "lat": 35.5280748,
+  "lng": 139.0335498,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "道志川渓谷キャンプ場群",
+    "km": 0,
+    "src": "gsi",
+    "label": "山梨県道志",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "道志の湯",
+    "km": 0,
+    "src": "gsi",
+    "label": "山梨県道志",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅どうし",
+    "km": 0,
+    "src": "gsi",
+    "label": "山梨県道志",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山梨_2",
+  "name": "南部町・湯船温泉",
+  "prefecture": "山梨県",
+  "lat": 35.2423419,
+  "lng": 138.4859164,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "湯船温泉",
+    "km": 47.5,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "南部町栗園地帯",
+    "km": 0,
+    "src": "gsi",
+    "label": "山梨県南部町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "佐野川温泉",
+    "km": 47.5,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_山梨_3",
+  "name": "丹波山温泉・多摩川源流",
+  "prefecture": "山梨県",
+  "lat": 35.7916861,
+  "lng": 138.9179219,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鍾乳洞温泉",
+    "km": 34.6,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "丹波山村の登山道（奥多摩山域）",
+    "km": 0,
+    "src": "gsi",
+    "label": "山梨県丹波山村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅たばやま",
+    "km": 31.1,
+    "src": "gsi",
+    "label": "山梨県道志",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山梨_4",
+  "name": "猿橋宿場町",
+  "prefecture": "山梨県",
+  "lat": 35.615722,
+  "lng": 138.980222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "猿橋",
+    "km": 37.6,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "猿橋町の地元食堂と朴葉寿司",
+    "km": 37.6,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山梨_5",
+  "name": "猿が城跡",
+  "prefecture": "山梨県",
+  "lat": 35.6128834,
+  "lng": 138.9429092,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "猿が城跡・小金沢山登山道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "朝焼けの富士山展望タイム",
+    "km": 34.3,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "稚児落とし",
+    "km": 34.3,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山梨_7",
+  "name": "塩山梅林",
+  "prefecture": "山梨県",
+  "lat": 35.7043662,
+  "lng": 138.7293579,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "塩山梅林地帯",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "古い町並みと梅干し工房",
+    "km": 15.2,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "恵林寺",
+    "km": 15.2,
+    "src": "gsi",
+    "label": "山梨県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_長野_1",
+  "name": "昼神温泉",
+  "prefecture": "長野県",
+  "lat": 35.4441022,
+  "lng": 137.747532,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "昼神温泉郷",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "ヘブンスそのはら",
+    "km": 139.8,
+    "src": "gsi",
+    "label": "長野県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "花桃の里",
+    "km": 139.8,
+    "src": "gsi",
+    "label": "長野県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_長野_2",
+  "name": "馬籠宿",
+  "prefecture": "岐阜県",
+  "lat": 35.526756,
+  "lng": 137.567611,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "馬籠宿の石畳坂道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "芭蕉記念館・坂本家",
+    "km": 77.9,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "馬籠宿展望台",
+    "verdict": "self"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_長野_4",
+  "name": "結東温泉",
+  "prefecture": "長野県",
+  "lat": 36.881745,
+  "lng": 138.586155,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "結東温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "秋山郷の林道ドライブ",
+    "km": 44.3,
+    "src": "gsi",
+    "label": "長野県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "蛇淵の滝",
+    "km": 44.3,
+    "src": "gsi",
+    "label": "長野県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_岐阜_1",
+  "name": "恵那峡",
+  "prefecture": "岐阜県",
+  "lat": 35.4783914,
+  "lng": 137.4053003,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "恵那峡遊覧船",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "恵那峡サボテンランド",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "傘岩",
+    "km": 62.5,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_岐阜_4",
+  "name": "付知峡",
+  "prefecture": "岐阜県",
+  "lat": 35.4876463,
+  "lng": 137.5005402,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日本庭園 恵那峡風景園地",
+    "km": 71.2,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "不動滝・観音滝",
+    "km": 537.1,
+    "src": "gsi",
+    "label": "岩手県花巻市不動",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅花街道付知",
+    "km": 71.2,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_岐阜_5",
+  "name": "根尾谷淡墨桜",
+  "prefecture": "岐阜県",
+  "lat": 35.4830261,
+  "lng": 136.6780554,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "淡墨桜周辺の野田の里",
+    "km": 11,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "根尾戸中地区の散策路",
+    "km": 11,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "樽見鉄道・樽見駅",
+    "km": 11,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_岐阜_6",
+  "name": "太田宿",
+  "prefecture": "岐阜県",
+  "lat": 35.4406551,
+  "lng": 137.0155052,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "太田宿中山道歴史館",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "うだつの上がった商家群",
+    "km": 27,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "太田の渡し跡",
+    "km": 27,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_岐阜_7",
+  "name": "春日集落",
+  "prefecture": "岐阜県",
+  "lat": 35.487325,
+  "lng": 136.5685564,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "春日集落の茅葺き民家群",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "集落周辺の里山トレッキング",
+    "km": 17.7,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "かすがモリモリ村リフレッシュ館",
+    "km": 17.7,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_岐阜_8",
+  "name": "養老公園",
+  "prefecture": "岐阜県",
+  "lat": 35.3055238,
+  "lng": 136.5616373,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "養老川上流の階段滝",
+    "km": 0.3,
+    "src": "gsi",
+    "label": "岐阜県養老郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "湿地帯の群生植物園",
+    "km": 17.5,
+    "src": "gsi",
+    "label": "岐阜県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "養老天命反転地",
+    "km": 0.3,
+    "src": "gsi",
+    "label": "岐阜県養老郡",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_静岡_2",
+  "name": "須走温泉",
+  "prefecture": "静岡県",
+  "lat": 35.3601154,
+  "lng": 138.9872233,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "須走温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大堀根ダム周辺の散策路",
+    "km": 69.5,
+    "src": "gsi",
+    "label": "静岡県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "冨士浅間神社（須走）",
+    "km": 35.9,
+    "src": "gsi",
+    "label": "静岡県富士郡",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_静岡_3",
+  "name": "石部棚田",
+  "prefecture": "静岡県",
+  "lat": 34.721635,
+  "lng": 138.76308,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "石部棚田",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "松崎白壁地区",
+    "km": 3.8,
+    "src": "gsi",
+    "label": "静岡県松崎",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "伊豆の長八美術館",
+    "km": 37.2,
+    "src": "gsi",
+    "label": "静岡県伊豆の国市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_静岡_4",
+  "name": "ヒリゾ浜",
+  "prefecture": "静岡県",
+  "lat": 34.607333,
+  "lng": 138.825778,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "ヒリゾ浜",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "弓ヶ浜",
+    "km": 57.6,
+    "src": "gsi",
+    "label": "静岡県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "石廊崎",
+    "km": 57.6,
+    "src": "gsi",
+    "label": "静岡県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_静岡_6",
+  "name": "奥大井湖上駅",
+  "prefecture": "静岡県",
+  "lat": 35.167874,
+  "lng": 138.180856,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "奥大井湖上駅",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大井川鐵道アプト式区間",
+    "km": 28.1,
+    "src": "gsi",
+    "label": "静岡県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "寸又峡・夢の吊り橋",
+    "km": 28.1,
+    "src": "gsi",
+    "label": "静岡県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_愛知_1",
+  "name": "伊良湖岬",
+  "prefecture": "愛知県",
+  "lat": 34.579444,
+  "lng": 137.016111,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "伊良湖岬灯台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "伊良湖岬周辺の漁師食堂",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "恋路ヶ浜",
+    "km": 67.5,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_愛知_2",
+  "name": "奥三河温泉郷",
+  "prefecture": "愛知県",
+  "lat": 35.17104,
+  "lng": 137.7420171,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "湯~らん館",
+    "km": 75.9,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "豊根村の山菜・わさび販売所",
+    "km": 3.4,
+    "src": "gsi",
+    "label": "愛知県豊根村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "茶臼山高原",
+    "km": 75.9,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_愛知_3",
+  "name": "鳳来峡",
+  "prefecture": "愛知県",
+  "lat": 34.8988809,
+  "lng": 137.4977484,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鳳来峡の吊橋",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "鳳来峡ハイキングコース",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "鳳来寺山",
+    "km": 62.3,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_愛知_4",
+  "name": "内子町の三間町並み",
+  "prefecture": "愛媛県",
+  "lat": 33.5582561,
+  "lng": 132.6524501,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "内子町並み保存地区",
+    "km": 2.9,
+    "src": "gsi",
+    "label": "愛媛県内子町",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "八日市護国神社と祭り",
+    "km": 23.7,
+    "src": "gsi",
+    "label": "愛媛県八幡浜市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "内子座",
+    "km": 2.9,
+    "src": "gsi",
+    "label": "愛媛県内子",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_愛知_5",
+  "name": "南木曽宿場町",
+  "prefecture": "長野県",
+  "lat": 35.57667,
+  "lng": 137.59528,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "木曽川河岸の古民家群",
+    "km": 30.7,
+    "src": "gsi",
+    "label": "長野県木曽郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "渡し跡カフェと地元蕎麦",
+    "km": 130.6,
+    "src": "gsi",
+    "label": "長野県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "桃介橋",
+    "km": 130.6,
+    "src": "gsi",
+    "label": "長野県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_愛知_7",
+  "name": "吉良町漁村",
+  "prefecture": "愛知県",
+  "lat": 34.822498,
+  "lng": 137.069626,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "吉良漁港の朝市と競り",
+    "km": 42.5,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "漁師の炭火焼き小屋",
+    "km": 42.5,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "華蔵寺",
+    "km": 42.5,
+    "src": "gsi",
+    "label": "愛知県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_三重_2",
+  "name": "宮川渓谷",
+  "prefecture": "三重県",
+  "lat": 34.3476784,
+  "lng": 136.3213562,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "宮川渓谷・七ツ釜滝周辺",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大台町森林セラピーロード",
+    "km": 9.4,
+    "src": "gsi",
+    "label": "三重県大台町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅奥伊勢おおだい",
+    "km": 45.9,
+    "src": "gsi",
+    "label": "三重県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_三重_3",
+  "name": "海山湾",
+  "prefecture": "三重県",
+  "lat": 34.1660014,
+  "lng": 136.2253472,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "宇賀渚灯台・展望台",
+    "km": 67.9,
+    "src": "gsi",
+    "label": "三重県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "紀北町の漁村・朝市",
+    "km": 11.5,
+    "src": "gsi",
+    "label": "三重県紀北町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "銚子川",
+    "km": 67.9,
+    "src": "gsi",
+    "label": "三重県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_滋賀_1",
+  "name": "日野商人の町並み",
+  "prefecture": "滋賀県",
+  "lat": 35.0180606,
+  "lng": 136.2460616,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日野本町商店街",
+    "km": 0,
+    "src": "gsi",
+    "label": "滋賀県日野",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "鍵懸峠茶屋跡",
+    "km": 34.4,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "馬見岡綿向神社",
+    "km": 34.4,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_滋賀_3",
+  "name": "永源寺門前と愛知川",
+  "prefecture": "滋賀県",
+  "lat": 35.0805847,
+  "lng": 136.3199926,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "永源寺参詣道",
+    "km": 42,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "愛知川沿い製紙跡地",
+    "km": 14.2,
+    "src": "gsi",
+    "label": "滋賀県愛荘町愛知川",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "木地師のふるさと（蛭谷・君ヶ畑）",
+    "km": 42,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_滋賀_4",
+  "name": "五個荘近江商人の館",
+  "prefecture": "滋賀県",
+  "lat": 35.152351,
+  "lng": 136.191109,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "外村宇兵衛邸・石馬寺周辺",
+    "km": 33.6,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "五個荘藍染工房群",
+    "km": 33.6,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "近江商人博物館",
+    "km": 8.9,
+    "src": "gsi",
+    "label": "滋賀県近江八幡市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_滋賀_6",
+  "name": "賤ヶ岳と湖北山里",
+  "prefecture": "滋賀県",
+  "lat": 35.506105,
+  "lng": 136.193078,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "賤ヶ岳砲台跡",
+    "km": 63.1,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "山里の古寺と石仏群",
+    "km": 63.1,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "余呉湖",
+    "km": 63.1,
+    "src": "gsi",
+    "label": "滋賀県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_京都_1",
+  "name": "加悦谷",
+  "prefecture": "京都府",
+  "lat": 35.565302,
+  "lng": 135.1527907,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "加悦SL広場",
+    "km": 81.6,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "白生地機械遺産館",
+    "km": 81.6,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "ちりめん街道",
+    "km": 81.6,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_京都_3",
+  "name": "青谷地区",
+  "prefecture": "京都府",
+  "lat": 34.8530163,
+  "lng": 135.7799322,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "青谷茶工場直売所",
+    "km": 18.8,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "府立山城総合運動公園展望台",
+    "km": 18.8,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "青谷梅林",
+    "km": 18.8,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_京都_5",
+  "name": "由良川渓谷",
+  "prefecture": "京都府",
+  "lat": 35.2989655,
+  "lng": 135.2588086,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "高屋橋周辺",
+    "km": 54.7,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "京都府立植物園の上流遊歩道",
+    "km": 56.3,
+    "src": "gsi",
+    "label": "京都府京都市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "安国寺",
+    "km": 54.7,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_京都_6",
+  "name": "北の宿温泉",
+  "prefecture": "京都府",
+  "lat": 34.772676,
+  "lng": 135.9937309,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北の宿温泉（村営施設）",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "南山城村の茶畑群",
+    "km": 0,
+    "src": "gsi",
+    "label": "京都府南山城村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅お茶の京都 みなみやましろ村",
+    "km": 35.1,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_大阪_1",
+  "name": "能勢白滝",
+  "prefecture": "大阪府",
+  "lat": 34.9760226,
+  "lng": 135.4138614,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白滝",
+    "km": 33.6,
+    "src": "gsi",
+    "label": "大阪府",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "道の駅のせ",
+    "km": 33.6,
+    "src": "gsi",
+    "label": "大阪府",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "能勢妙見山",
+    "km": 0.3,
+    "src": "gsi",
+    "label": "大阪府能勢",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_大阪_2",
+  "name": "太子町の古刹群",
+  "prefecture": "大阪府",
+  "lat": 34.518625,
+  "lng": 135.639761,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "叡福寺",
+    "km": 21.6,
+    "src": "gsi",
+    "label": "大阪府",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "太子町の竹林散策路",
+    "km": 0.7,
+    "src": "gsi",
+    "label": "大阪府太子町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "竹内街道歴史資料館",
+    "km": 21.6,
+    "src": "gsi",
+    "label": "大阪府",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_大阪_3",
+  "name": "山崎の古い町並み",
+  "prefecture": "京都府",
+  "lat": 34.8837129,
+  "lng": 135.6630537,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "山崎の造り酒屋群",
+    "km": 17.5,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "淀川河川敷の散歩道",
+    "km": 17.5,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "妙喜庵待庵",
+    "km": 17.5,
+    "src": "gsi",
+    "label": "京都府",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_兵庫_1",
+  "name": "武庫川渓谷",
+  "prefecture": "兵庫県",
+  "lat": 34.855582,
+  "lng": 135.306031,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "武庫川渓谷",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大池親水公園",
+    "km": 21.4,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "武田尾温泉",
+    "km": 21.4,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_兵庫_2",
+  "name": "湯村温泉・荒湯地獄",
+  "prefecture": "兵庫県",
+  "lat": 35.554868,
+  "lng": 134.488098,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "荒湯地獄谷",
+    "km": 115,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "湯村温泉街",
+    "km": 115,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "夢千代館",
+    "km": 115,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_兵庫_4",
+  "name": "鳥飼漁港と丸島番所跡",
+  "prefecture": "兵庫県",
+  "lat": 34.2945545,
+  "lng": 134.7798281,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鳥飼漁港",
+    "km": 57.5,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "丸島の番所跡",
+    "km": 57.5,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "慶野松原",
+    "km": 57.5,
+    "src": "gsi",
+    "label": "兵庫県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_奈良_1",
+  "name": "黒滝村の清流と黒滝",
+  "prefecture": "奈良県",
+  "lat": 34.3139813,
+  "lng": 135.8651138,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "黒滝",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "奈良県黒滝",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "黒滝温泉",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "奈良県黒滝",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "黒滝そばの店",
+    "km": 1.3,
+    "src": "gsi",
+    "label": "奈良県黒滝",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_奈良_2",
+  "name": "野迫川村の深山と秘湯群",
+  "prefecture": "奈良県",
+  "lat": 34.1667477,
+  "lng": 135.6329753,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "野迫川温泉",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "奈良県野迫川",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "野迫川村役場周辺の古民家群",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "奈良県野迫川村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "村営食堂のジビエ料理",
+    "km": 60.5,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_奈良_3",
+  "name": "月ヶ瀬温泉と梅林の里",
+  "prefecture": "奈良県",
+  "lat": 34.708483,
+  "lng": 136.041699,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "月ヶ瀬温泉",
+    "km": 19.3,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "月ヶ瀬梅渓",
+    "km": 19.3,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "梅酒・梅干し製造体験",
+    "km": 19.3,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_奈良_4",
+  "name": "上北山村",
+  "prefecture": "奈良県",
+  "lat": 34.1344914,
+  "lng": 136.0002012,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白川ダム周辺遊歩道",
+    "km": 63.1,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "上北山村の民宿",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "廃校ギャラリー「北山の家」",
+    "km": 63.1,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_奈良_6",
+  "name": "吉野川源流",
+  "prefecture": "奈良県",
+  "lat": 34.3383074,
+  "lng": 135.9546163,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "川上村檜の遊歩道",
+    "km": 0,
+    "src": "gsi",
+    "label": "奈良県川上村",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "檜の湯",
+    "km": 40.2,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "山小屋の郷土料理",
+    "km": 39,
+    "src": "gsi",
+    "label": "奈良県山添",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_奈良_8",
+  "name": "土佐街道",
+  "prefecture": "奈良県",
+  "lat": 34.4500421,
+  "lng": 135.7917552,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "高取町古い町並み",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "奈良県高取町",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "古民家ギャラリー",
+    "km": 26.4,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "柿の葉寿司と梅酒",
+    "km": 26.4,
+    "src": "gsi",
+    "label": "奈良県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_和歌山_1",
+  "name": "湯浅醤油蔵と古い町並み",
+  "prefecture": "和歌山県",
+  "lat": 34.0324017,
+  "lng": 135.1787405,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "湯浅醤油資料館",
+    "km": 1.1,
+    "src": "gsi",
+    "label": "和歌山県湯浅",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "醤油蔵の町並み",
+    "km": 21.6,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "甚風呂",
+    "km": 21.6,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_和歌山_2",
+  "name": "三輪崎の漁港と海鮮食堂街",
+  "prefecture": "和歌山県",
+  "lat": 33.691423,
+  "lng": 135.986141,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "三輪崎漁港",
+    "km": 96.1,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "港沿いの食堂街",
+    "km": 96.1,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "孔島・鈴島",
+    "km": 96.1,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_和歌山_3",
+  "name": "北山村いかだ下り",
+  "prefecture": "和歌山県",
+  "lat": 33.9324762,
+  "lng": 135.9690709,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "熊野川いかだ下り",
+    "km": 80.7,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "北山温泉",
+    "km": 0,
+    "src": "gsi",
+    "label": "和歌山県北山",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅おくとろ",
+    "km": 80.7,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_和歌山_6",
+  "name": "高野龍神スカイライン",
+  "prefecture": "和歌山県",
+  "lat": 34.061222,
+  "lng": 135.564332,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "高野龍神スカイライン",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "南端展望地",
+    "km": 40.9,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "ごまさんスカイタワー",
+    "km": 40.9,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_和歌山_8",
+  "name": "印南くじらの浜",
+  "prefecture": "和歌山県",
+  "lat": 33.8165925,
+  "lng": 135.2177926,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "くじらの浜",
+    "km": 45.8,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "旧鯨漁関連施設と商店街",
+    "km": 45.8,
+    "src": "gsi",
+    "label": "和歌山県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "かえる橋",
+    "km": 59.5,
+    "src": "gsi",
+    "label": "和歌山県かつらぎ",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_鳥取_1",
+  "name": "東郷湖",
+  "prefecture": "鳥取県",
+  "lat": 35.4898289,
+  "lng": 133.8648427,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "東郷湖畔の露天風呂",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "龍鶴城跡",
+    "km": 33.8,
+    "src": "gsi",
+    "label": "鳥取県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "はわい温泉",
+    "km": 33.8,
+    "src": "gsi",
+    "label": "鳥取県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_鳥取_2",
+  "name": "若桜町商店街",
+  "prefecture": "鳥取県",
+  "lat": 35.345211,
+  "lng": 134.398136,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "若桜鉄道旧駅舎・蒸気機関車",
+    "km": 0.6,
+    "src": "gsi",
+    "label": "鳥取県若桜",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "若桜町民俗資料館",
+    "km": 0.6,
+    "src": "gsi",
+    "label": "鳥取県若桜町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "不動院岩屋堂",
+    "km": 22.8,
+    "src": "gsi",
+    "label": "鳥取県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_鳥取_5",
+  "name": "小松温泉",
+  "prefecture": "鳥取県",
+  "lat": 35.40843,
+  "lng": 133.861713,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "小松温泉の外湯",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "三徳川沿いの渓谷散策路",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "鳥取県三朝",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "三徳山三佛寺",
+    "km": 0.1,
+    "src": "gsi",
+    "label": "鳥取県三朝",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_鳥取_8",
+  "name": "琴浦町の漁村風景",
+  "prefecture": "鳥取県",
+  "lat": 35.495189,
+  "lng": 133.692815,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "あたら本館",
+    "km": 49.4,
+    "src": "gsi",
+    "label": "鳥取県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "赤碕漁港・朝市",
+    "km": 49.4,
+    "src": "gsi",
+    "label": "鳥取県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "鳴り石の浜",
+    "km": 49.4,
+    "src": "gsi",
+    "label": "鳥取県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_島根_1",
+  "name": "斐伊川荒島地区",
+  "prefecture": "島根県",
+  "lat": 35.2880963,
+  "lng": 132.9001494,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "斐伊川峡谷遊歩道",
+    "km": 24.6,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "荒島の蕎麦処",
+    "km": 24.6,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "須我神社",
+    "km": 24.6,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_島根_4",
+  "name": "掛合町の鐘乳洞群",
+  "prefecture": "島根県",
+  "lat": 35.468115,
+  "lng": 133.048768,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "掛合町の鍾乳洞群",
+    "km": 0.5,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "日野川清流散策路",
+    "km": 0.5,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "龍頭が滝",
+    "km": 0.5,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_島根_6",
+  "name": "黒淵の滝",
+  "prefecture": "島根県",
+  "lat": 34.6748584,
+  "lng": 131.8428933,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "黒淵の滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "匹見峡遊歩道",
+    "km": 141.2,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "医光寺",
+    "km": 141.2,
+    "src": "gsi",
+    "label": "島根県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_岡山_3",
+  "name": "閑谷学校",
+  "prefecture": "岡山県",
+  "lat": 34.744987,
+  "lng": 134.1882633,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日本刀剣博物館",
+    "km": 24.9,
+    "src": "gsi",
+    "label": "岡山県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "閑谷学校",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "伊部の町並み",
+    "km": 24.9,
+    "src": "gsi",
+    "label": "岡山県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_広島_6",
+  "name": "世羅ラベンダー畑",
+  "prefecture": "広島県",
+  "lat": 34.580307,
+  "lng": 133.057402,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "ラベンダー畑",
+    "km": 58.5,
+    "src": "gsi",
+    "label": "広島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "農家レストランと手作りジャム工房",
+    "km": 58.5,
+    "src": "gsi",
+    "label": "広島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "今高野山",
+    "km": 58.5,
+    "src": "gsi",
+    "label": "広島県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_山口_2",
+  "name": "錦川峡谷",
+  "prefecture": "山口県",
+  "lat": 34.2955269,
+  "lng": 132.0374155,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "錦川鐵道（錦町駅周辺）",
+    "km": 53.5,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "錦町街道筋の古民家群",
+    "km": 53.5,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "とことこトレイン",
+    "km": 53.5,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_山口_4",
+  "name": "仙崎漁港",
+  "prefecture": "山口県",
+  "lat": 34.3708941,
+  "lng": 131.1821587,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "仙崎漁港・いか資料館周辺",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "北浦街道の町並み",
+    "km": 33.5,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "金子みすゞ記念館",
+    "km": 33.5,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_山口_6",
+  "name": "須佐ホルンフェルス",
+  "prefecture": "山口県",
+  "lat": 34.623363,
+  "lng": 131.616331,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "須佐ホルンフェルス（遊歩道）",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "須佐駅周辺の蕎麦屋",
+    "km": 50.4,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "須佐湾",
+    "km": 50.4,
+    "src": "gsi",
+    "label": "山口県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_徳島_2",
+  "name": "勝浦川峡谷",
+  "prefecture": "徳島県",
+  "lat": 33.9313399,
+  "lng": 134.5113773,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "勝浦川峡谷遊歩道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "勝浦温泉",
+    "km": 0,
+    "src": "gsi",
+    "label": "徳島県勝浦郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "人形文化交流館（ビッグひな祭り会場）",
+    "km": 15.6,
+    "src": "gsi",
+    "label": "徳島県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_徳島_4",
+  "name": "藍住町",
+  "prefecture": "徳島県",
+  "lat": 34.115611,
+  "lng": 134.482278,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "藍の館（あいの館）",
+    "km": 1.7,
+    "src": "gsi",
+    "label": "徳島県藍住",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "白地焼工房群",
+    "km": 9,
+    "src": "gsi",
+    "label": "徳島県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "勝瑞城館跡",
+    "km": 20.7,
+    "src": "gsi",
+    "label": "徳島県勝浦郡",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_徳島_6",
+  "name": "神山町",
+  "prefecture": "徳島県",
+  "lat": 33.967159,
+  "lng": 134.3504691,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "神山の茅葺き民家群",
+    "km": 0,
+    "src": "gsi",
+    "label": "徳島県神山",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "神山ヒノキ林トレッキング",
+    "km": 0,
+    "src": "gsi",
+    "label": "徳島県神山",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "雨乞の滝",
+    "km": 22.1,
+    "src": "gsi",
+    "label": "徳島県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_香川_1",
+  "name": "与島PA展望台",
+  "prefecture": "香川県",
+  "lat": 34.3166804,
+  "lng": 133.8604011,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "与島PA展望台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "塩飽諸島の多島景観",
+    "km": 17,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "瀬戸大橋記念公園",
+    "km": 17,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_香川_2",
+  "name": "仁尾の町並みと造り酒屋",
+  "prefecture": "香川県",
+  "lat": 34.1986856,
+  "lng": 133.7179334,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "北島酒造",
+    "km": 33.8,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "仁尾漁港",
+    "km": 33.8,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "父母ヶ浜",
+    "km": 33.8,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_香川_6",
+  "name": "満濃池",
+  "prefecture": "香川県",
+  "lat": 34.1921406,
+  "lng": 133.8415994,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "満濃池土手周回路",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "池畔の農村集落",
+    "km": 24.8,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "国営讃岐まんのう公園",
+    "km": 24.8,
+    "src": "gsi",
+    "label": "香川県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_高知_1",
+  "name": "佐川町の酒蔵と古い町並み",
+  "prefecture": "高知県",
+  "lat": 33.4989775,
+  "lng": 133.2899816,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "司牡丹酒造",
+    "km": 23.3,
+    "src": "gsi",
+    "label": "高知県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "佐川町立青山文庫",
+    "km": 0.4,
+    "src": "gsi",
+    "label": "高知県佐川町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "牧野富太郎ふるさと館",
+    "km": 23.3,
+    "src": "gsi",
+    "label": "高知県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_高知_5",
+  "name": "本山町",
+  "prefecture": "高知県",
+  "lat": 33.756799,
+  "lng": 133.550672,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "早明浦ダム展望台",
+    "km": 22,
+    "src": "gsi",
+    "label": "高知県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "本山町の蕎麦畑・高原地帯",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "帰全山公園",
+    "km": 22,
+    "src": "gsi",
+    "label": "高知県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_高知_6",
+  "name": "日高村",
+  "prefecture": "高知県",
+  "lat": 33.5418852,
+  "lng": 133.3558752,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "日高村温泉",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "ユズの畑と生産地",
+    "km": 16.4,
+    "src": "gsi",
+    "label": "高知県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "名越屋沈下橋",
+    "km": 16.4,
+    "src": "gsi",
+    "label": "高知県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福岡_2",
+  "name": "うきは市",
+  "prefecture": "福岡県",
+  "lat": 33.3473997,
+  "lng": 130.7552293,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "吉井町筋（白壁の街並み）",
+    "km": 48.3,
+    "src": "gsi",
+    "label": "福岡県吉富",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "筑後川温泉 清乃湯",
+    "km": 27.9,
+    "src": "gsi",
+    "label": "福岡県筑後市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "つづら棚田",
+    "km": 42.5,
+    "src": "gsi",
+    "label": "福岡県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福岡_3",
+  "name": "嘉穂劇場",
+  "prefecture": "福岡県",
+  "lat": 33.636486,
+  "lng": 130.687143,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "嘉穂劇場",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "稲築町商店街（古い商店）",
+    "km": 25.1,
+    "src": "gsi",
+    "label": "福岡県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "織田廣喜美術館",
+    "km": 25.1,
+    "src": "gsi",
+    "label": "福岡県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福岡_4",
+  "name": "三井三池炭鉱",
+  "prefecture": "福岡県",
+  "lat": 33.047013,
+  "lng": 130.464155,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "三井三池炭鉱跡（世界遺産）",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "大牟田動物園",
+    "km": 2.5,
+    "src": "gsi",
+    "label": "福岡県大牟田市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "宮原坑跡",
+    "km": 77.6,
+    "src": "gsi",
+    "label": "福岡県宮若市",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_福岡_6",
+  "name": "英彦山",
+  "prefecture": "福岡県",
+  "lat": 33.47611,
+  "lng": 130.92611,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "英彦山参詣道",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "英彦山神宮",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "英彦山スロープカー",
+    "verdict": "self"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_福岡_7",
+  "name": "福智山",
+  "prefecture": "福岡県",
+  "lat": 33.74219,
+  "lng": 130.80389,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "湯の朝温泉",
+    "km": 38.8,
+    "src": "gsi",
+    "label": "福岡県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "福智山登山道",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "上野峡・白糸の滝",
+    "km": 38,
+    "src": "gsi",
+    "label": "福岡県上毛",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_佐賀_1",
+  "name": "白石温泉",
+  "prefecture": "佐賀県",
+  "lat": 33.1625036,
+  "lng": 130.1427305,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白石町れんこん畑",
+    "km": 2.1,
+    "src": "gsi",
+    "label": "佐賀県白石町",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "ゆ〜ふる白石",
+    "km": 17.4,
+    "src": "gsi",
+    "label": "佐賀県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "稲佐神社",
+    "km": 17.4,
+    "src": "gsi",
+    "label": "佐賀県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_佐賀_5",
+  "name": "黒髪山",
+  "prefecture": "佐賀県",
+  "lat": 33.213835,
+  "lng": 129.902039,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "黒髪山",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "多久城下町周辺",
+    "km": 21.1,
+    "src": "gsi",
+    "label": "佐賀県多久市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "多久聖廟",
+    "km": 21.1,
+    "src": "gsi",
+    "label": "佐賀県多久市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_佐賀_6",
+  "name": "太良町の海中鳥居",
+  "prefecture": "佐賀県",
+  "lat": 33.0193802,
+  "lng": 130.1791833,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "樺島の海中鳥居",
+    "km": 27.9,
+    "src": "gsi",
+    "label": "佐賀県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "太良町の潮干狩りスポット",
+    "km": 0,
+    "src": "gsi",
+    "label": "佐賀県太良町",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "竹崎城址展望台",
+    "km": 27.9,
+    "src": "gsi",
+    "label": "佐賀県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_長崎_3",
+  "name": "鶴御崎灯台",
+  "prefecture": "大分県",
+  "lat": 32.93314,
+  "lng": 132.08539,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "鶴御崎灯台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "灯台下カフェ・漁師小屋改造店",
+    "km": 55.6,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "丹賀砲台園地",
+    "km": 55.6,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_長崎_4",
+  "name": "権現山展望台",
+  "prefecture": "長崎県",
+  "lat": 32.8950926,
+  "lng": 129.7812261,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "権現山展望台",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "山頂山小屋",
+    "km": 18,
+    "src": "gsi",
+    "label": "長崎県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "西海橋",
+    "km": 13.6,
+    "src": "gsi",
+    "label": "長崎県西海市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_長崎_7",
+  "name": "高島炭鉱遺跡",
+  "prefecture": "長崎県",
+  "lat": 32.6597278,
+  "lng": 129.751969,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "高島炭鉱跡地",
+    "km": 14.7,
+    "src": "gsi",
+    "label": "長崎県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "島の食堂",
+    "km": 59.6,
+    "src": "gsi",
+    "label": "長崎県島原市",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "高島石炭資料館",
+    "km": 14.7,
+    "src": "gsi",
+    "label": "長崎県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_熊本_1",
+  "name": "五木村の清流と棚田",
+  "prefecture": "熊本県",
+  "lat": 32.4203515,
+  "lng": 130.8407515,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "川辺川沿いドライブコース",
+    "km": 42.1,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "ふじの湯",
+    "km": 42.1,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "道の駅子守唄の里五木",
+    "km": 42.1,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_熊本_2",
+  "name": "産山村の星の宮古墳",
+  "prefecture": "熊本県",
+  "lat": 33.015436,
+  "lng": 131.207474,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "星の宮古墳",
+    "km": 50.2,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "山鳥の湯",
+    "km": 94.9,
+    "src": "gsi",
+    "label": "熊本県山江",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "池山水源",
+    "km": 50.2,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_熊本_5",
+  "name": "菊池渓谷の滝群",
+  "prefecture": "熊本県",
+  "lat": 32.9798234,
+  "lng": 130.8131987,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "菊池渓谷の支流沿い無名滝ハイキング",
+    "km": 0,
+    "src": "gsi",
+    "label": "熊本県菊池郡",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "龍門ダム周辺の廃墟温泉街",
+    "km": 22.2,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "菊池神社",
+    "km": 0,
+    "src": "gsi",
+    "label": "熊本県菊池郡",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_熊本_6",
+  "name": "白糸台地の棚田",
+  "prefecture": "熊本県",
+  "lat": 32.291777,
+  "lng": 130.838558,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白糸台地の眺望地点",
+    "km": 56.1,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "村内の棚田と蕎麦屋",
+    "km": 56.1,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "雨宮神社",
+    "km": 56.1,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_熊本_8",
+  "name": "三角町の漁師町",
+  "prefecture": "熊本県",
+  "lat": 32.647181,
+  "lng": 130.6839693,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "三角町の海辺の古い倉庫群",
+    "km": 16.7,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "漁師町の食堂",
+    "km": 16.7,
+    "src": "gsi",
+    "label": "熊本県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "天門橋",
+    "km": 50.5,
+    "src": "gsi",
+    "label": "熊本県天草郡",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_大分_1",
+  "name": "佐賀関漁港と三浦海岸",
+  "prefecture": "大分県",
+  "lat": 33.248642,
+  "lng": 131.881748,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "佐賀関漁港",
+    "km": 32.2,
+    "src": "gsi",
+    "label": "大分県佐伯市",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "佐賀関展望台",
+    "km": 32.2,
+    "src": "gsi",
+    "label": "大分県佐伯市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "関崎海星館",
+    "km": 25.1,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_大分_2",
+  "name": "青の洞門と耶馬渓",
+  "prefecture": "大分県",
+  "lat": 33.500105,
+  "lng": 131.171814,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "青の洞門",
+    "km": 50.2,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "山国川沿いの散歩道",
+    "km": 50.2,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "羅漢寺",
+    "km": 50.2,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_大分_3",
+  "name": "長湯温泉",
+  "prefecture": "大分県",
+  "lat": 33.06364,
+  "lng": 131.365068,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "温泉地蔵堂",
+    "km": 30.1,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "鍋温泉",
+    "km": 30.1,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "ラムネ温泉館",
+    "km": 30.1,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_大分_4",
+  "name": "稲積水中鍾乳洞",
+  "prefecture": "大分県",
+  "lat": 32.900632,
+  "lng": 131.543809,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "稲積水中鍾乳洞（ボートツアー）",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "洞口の散策路",
+    "km": 38.1,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "原尻の滝",
+    "km": 38.1,
+    "src": "gsi",
+    "label": "大分県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_宮崎_2",
+  "name": "西米良村 仙人の湯",
+  "prefecture": "宮崎県",
+  "lat": 32.2262835,
+  "lng": 131.1543871,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "仙人の湯",
+    "km": 43.3,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "西米良村の茶畑",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮崎県西米良村",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "かりこぼうず大橋",
+    "km": 43.3,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮崎_3",
+  "name": "みやざき地鶏の里",
+  "prefecture": "宮崎県",
+  "lat": 32.5121707,
+  "lng": 131.3304503,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "みやざき地鶏直売所・食堂",
+    "km": 67.4,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "諸塚ダム湖周辺",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮崎県諸塚",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "諸塚山",
+    "km": 0,
+    "src": "gsi",
+    "label": "宮崎県諸塚",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮崎_4",
+  "name": "渡川温泉",
+  "prefecture": "宮崎県",
+  "lat": 31.9966841,
+  "lng": 130.9731456,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "渡川温泉の共同浴場",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "周辺の栗園と段々畑",
+    "km": 43.6,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "すきむらんど",
+    "km": 43.6,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮崎_6",
+  "name": "観音池公園",
+  "prefecture": "宮崎県",
+  "lat": 31.825457,
+  "lng": 131.137141,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "観音池公園",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "高岡麺の食堂",
+    "km": 99.8,
+    "src": "gsi",
+    "label": "宮崎県高千穂",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "月知梅",
+    "km": 28.7,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_宮崎_7",
+  "name": "湯の元温泉",
+  "prefecture": "宮崎県",
+  "lat": 32.276118,
+  "lng": 131.5081985,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "湯の元温泉 旅館",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "周辺の雑木林散策路",
+    "km": 41.4,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "青井岳温泉（青井岳荘）",
+    "km": 41.4,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_鹿児島_1",
+  "name": "串木野港周辺の漁師町",
+  "prefecture": "鹿児島県",
+  "lat": 31.722622,
+  "lng": 130.252861,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "串木野新港",
+    "km": 34.1,
+    "src": "gsi",
+    "label": "鹿児島県",
+    "verdict": "near"
+   },
+   {
+    "idx": 1,
+    "name": "薩摩焼の窯元群",
+    "km": 11.2,
+    "src": "gsi",
+    "label": "鹿児島県薩摩川内市",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "冠岳",
+    "km": 34.1,
+    "src": "gsi",
+    "label": "鹿児島県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ },
+ {
+  "id": "niche_鹿児島_2",
+  "name": "関之尾滝",
+  "prefecture": "宮崎県",
+  "lat": 31.76111111,
+  "lng": 130.98722222,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "関之尾滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "甌穴群",
+    "km": 44.5,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "母智丘公園",
+    "km": 44.5,
+    "src": "gsi",
+    "label": "宮崎県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_鹿児島_3",
+  "name": "白糸の滝",
+  "prefecture": "鹿児島県",
+  "lat": 31.95173,
+  "lng": 130.7210161,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "白糸の滝",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "湧水めぐりの道",
+    "km": 0,
+    "src": "gsi",
+    "label": "鹿児島県湧水",
+    "verdict": "near"
+   },
+   {
+    "idx": 2,
+    "name": "丸池湧水",
+    "km": 46.2,
+    "src": "gsi",
+    "label": "鹿児島県",
+    "verdict": "far"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_鹿児島_5",
+  "name": "栗野岳温泉郷",
+  "prefecture": "鹿児島県",
+  "lat": 31.953246,
+  "lng": 130.787441,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "栗野岳山頂",
+    "km": 48.8,
+    "src": "gsi",
+    "label": "鹿児島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 1,
+    "name": "栗野温泉",
+    "km": 48.8,
+    "src": "gsi",
+    "label": "鹿児島県",
+    "verdict": "far"
+   },
+   {
+    "idx": 2,
+    "name": "霧島アートの森",
+    "km": 23.7,
+    "src": "gsi",
+    "label": "鹿児島県霧島市",
+    "verdict": "near"
+   }
+  ],
+  "flagged": true
+ },
+ {
+  "id": "niche_沖縄_1",
+  "name": "瀬長島",
+  "prefecture": "沖縄県",
+  "lat": 26.1753131,
+  "lng": 127.6423895,
+  "spots": [
+   {
+    "idx": 0,
+    "name": "瀬長島ウミカジテラス",
+    "verdict": "self"
+   },
+   {
+    "idx": 1,
+    "name": "瀬長島灯台周辺",
+    "verdict": "self"
+   },
+   {
+    "idx": 2,
+    "name": "旧海軍司令部壕",
+    "km": 5.6,
+    "src": "gsi",
+    "label": "沖縄県",
+    "verdict": "near"
+   }
+  ],
+  "flagged": false
+ }
+]

@@ -47,7 +47,10 @@ console.log(`  平均字数 ${avg(before)} → ${avg(after)}`);
 console.log(`  「ここでしか」を含む件数 ${before.filter((t) => t.includes('ここでしか')).length} → ${after.filter((t) => t.includes('ここでしか')).length}`);
 
 if (APPLY) {
-  fs.writeFileSync('logs/desc_rewrite_backup.json', JSON.stringify(backup, null, 1));
+  // バッチごとに上書きすると前のバッチの元文が消えるので、必ず足し込む
+  const BK = 'logs/desc_rewrite_backup.json';
+  const prev = fs.existsSync(BK) ? JSON.parse(fs.readFileSync(BK, 'utf8')) : {};
+  fs.writeFileSync(BK, JSON.stringify({ ...prev, ...backup }, null, 1));
   const json = JSON.stringify(data, null, 2) + '\n';
   for (const f of FILES) fs.writeFileSync(f, json);
   console.log('✅ destinations.json を更新 / 元の文は logs/desc_rewrite_backup.json');
