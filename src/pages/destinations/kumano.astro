@@ -1,0 +1,55 @@
+---
+/**
+ * /destinations/kumano/ の転送ページ。
+ *
+ * 「熊野」は中身が那智勝浦と重複していた（spotsも座標も和歌山側だった）ので統合した。
+ * 旧URLに来た人と検索エンジンを那智勝浦へ送る。
+ *
+ * GitHub Pages はサーバ側で301を返せないので、静的HTMLでできる最大限をやる。
+ *   link rel="canonical"  評価の集約先を示す。これが本体
+ *   meta refresh 0        即時のリダイレクト。Googleは遅延0のmeta refreshを
+ *                         恒久的な転送として扱う
+ *   location.replace      JSが動く環境では履歴を汚さずに飛ばす
+ *   本文のリンク          上のどれも効かないとき用
+ *
+ * Astro の redirects 設定（astro.config.mjs）を使うと、生成されるページに
+ * robots noindex が入る。noindex を付けると Google はそのURLを評価ごと落とすので、
+ * 「評価を引き継ぐ」目的には逆効果になる。だから設定ではなくこのページで出す。
+ * noindex を入れないことは auditIndexability.mjs の検査とも整合する。
+ */
+const TO = '/destinations/nachikatsuura/';
+const ABS = `https://tabidokoiko.com${TO}`;
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>熊野は「那智勝浦」に統合しました｜どこ行こ？</title>
+    <link rel="canonical" href={ABS} />
+    <meta http-equiv="refresh" content={`0; url=${TO}`} />
+    <meta name="description" content="「熊野」のページは那智勝浦に統合しました。那智の大滝・熊野那智大社・瀞峡はそちらでご覧いただけます。" />
+    <!-- 旧URLがSNSで共有されたときにカードが崩れないよう、OGPも持たせておく。
+         verifyOgImageDist.mjs が全ページに og:image を要求するのにも合わせる。 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={ABS} />
+    <meta property="og:title" content="那智勝浦｜どこ行こ？" />
+    <meta property="og:description" content="「熊野」のページは那智勝浦に統合しました。" />
+    <meta property="og:image" content="https://tabidokoiko.com/images/share_default.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://tabidokoiko.com/images/share_default.jpg" />
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; padding: 60px 24px;
+             background: #faf9f7; color: #333; text-align: center; line-height: 2; }
+      a { color: #2A6049; }
+    </style>
+  </head>
+  <body>
+    <p>「熊野」のページは<strong>那智勝浦</strong>に統合しました。</p>
+    <p><a href={TO}>那智勝浦のページへ移動する →</a></p>
+    <script is:inline define:vars={{ TO }}>
+      location.replace(TO);
+    </script>
+  </body>
+</html>

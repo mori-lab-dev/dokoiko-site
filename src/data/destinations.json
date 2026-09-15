@@ -25886,223 +25886,6 @@
     }
   },
   {
-    "id": "kumano",
-    "name": "熊野",
-    "type": "destination",
-    "region": "近畿",
-    "hub": "名古屋",
-    "stayAllowed": [
-      "2night"
-    ],
-    "departures": [
-      "大阪",
-      "名古屋",
-      "京都",
-      "奈良",
-      "和歌山",
-      "新宮"
-    ],
-    "weight": 1.19,
-    "description": "熊野那智大社へは467段の石段を登る。霧の出る日は参道の先が白く霞む。那智の滝は飛瀧神社の御滝拝所から見上げる。入場料300円で、滝まで約100mの距離まで近づける。瀞峡はウォータージェット船で巡る渓谷で、巨岩のあいだをエメラルド色の水が流れていく。昼はまぐろの水揚げ量が日本一の那智勝浦で食べたい。10月の週末は宿が埋まりやすいので、2週間前には押さえる。山が深い。空が狭く見える土地だ。拠点は新宮駅で、現地は車がないと回れない。",
-    "tags": [
-      "自然",
-      "渓谷",
-      "秘境",
-      "秋"
-    ],
-    "spots": [
-      {
-        "name": "熊野那智大社",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Shrine_Kumano_nachi01.jpg/500px-Shrine_Kumano_nachi01.jpg",
-        "description": "467段の石段が霧の中へ続く参道を登って参拝する古社。一段ずつ踏みしめるほどに、信仰の深さが伝わってくる。",
-        "imageCredit": {
-          "author": "Miya.m at Japanese Wikipedia",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Shrine_Kumano_nachi01.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "那智の滝",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Nachi_Falls_%2851929861348%29.jpg/1280px-Nachi_Falls_%2851929861348%29.jpg",
-        "description": "飛瀧神社の御滝拝所（入場料300円）から約100メートルの距離で仰げる滝。近くで浴びる轟音と迫力が段違いだ。",
-        "imageCredit": {
-          "author": "Raita Futo from Tokyo, Japan",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Nachi_Falls_(51929861348).jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "瀞峡",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dorokyo_in_2019_August_B.jpg/1280px-Dorokyo_in_2019_August_B.jpg",
-        "description": "エメラルド色に澄んだ水面が巨岩の間を縫う深い渓谷。ウォータージェット船に乗り、風を切って絶景を巡れる。",
-        "imageCredit": {
-          "author": "さかおり",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Dorokyo_in_2019_August_B.jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": true,
-    "hotelSearch": "熊野新宮",
-    "gateways": {
-      "rail": [
-        "新宮駅"
-      ],
-      "airport": [],
-      "bus": [],
-      "ferry": []
-    },
-    "accessHub": null,
-    "railNote": null,
-    "nearby": [
-      "那智勝浦",
-      "白浜",
-      "伊勢",
-      "吉野"
-    ],
-    "itinerary": [
-      "熊野那智大社",
-      "那智の滝",
-      "熊野本宮大社",
-      "瀞峡"
-    ],
-    "destType": "remote",
-    "railGateway": "新宮駅",
-    "busGateway": null,
-    "ferryGateway": null,
-    "airportGateway": null,
-    "prefecture": "三重県",
-    "lat": 33.72,
-    "lng": 135.9897,
-    "stayBias": 1,
-    "airportHub": null,
-    "railProvider": "e5489",
-    "travelTime": {
-      "tokyo": 285,
-      "osaka": 220,
-      "nagoya": 200,
-      "fukuoka": 370,
-      "takamatsu": 320,
-      "wakayama": 250,
-      "mito": 330,
-      "maebashi": 345,
-      "takasaki": 345,
-      "hamamatsu": 230,
-      "gifu": 220,
-      "kofu": 375,
-      "shingu": 340,
-      "tanabe": 310,
-      "shirahama": 320,
-      "kushimoto": 340,
-      "tottori": 340,
-      "shimonoseki": 400,
-      "saga": 400,
-      "oita": 430,
-      "beppu": 440
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": null,
-    "city": "熊野市",
-    "hubStation": "新宮駅",
-    "accessStation": "新宮駅",
-    "hotelArea": "mie",
-    "accessType": "car",
-    "hotelKeyword": "熊野市",
-    "access": {
-      "steps": [
-        {
-          "type": "rail",
-          "to": "新宮駅",
-          "provider": "e5489"
-        },
-        {
-          "type": "local",
-          "from": "新宮駅",
-          "to": "熊野",
-          "method": "レンタカー"
-        }
-      ]
-    },
-    "fallbackCity": "伊勢",
-    "gateway": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "誰も知らない秋の底で、水の色が息をしていた。",
-    "primary": [
-      "秘境",
-      "自然",
-      "渓谷"
-    ],
-    "secondary": [
-      "秋"
-    ],
-    "onsenLevel": 0,
-    "hasDirectFlight": false,
-    "mapPoint": "熊野那智大社",
-    "subType": "remote",
-    "stayDescription": "スマホを鞄に入れたまま、山の時間に身を委ねる旅。",
-    "hubCity": "新宮",
-    "stayPriority": "low",
-    "representativeStation": "新宮駅",
-    "finalAccess": {
-      "type": "walk"
-    },
-    "accessPoint": {
-      "type": "station",
-      "name": "新宮"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E7%86%8A%E9%87%8E&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E7%86%8A%E9%87%8E",
-    "bookingStation": {
-      "name": "新宮駅",
-      "company": "JR"
-    },
-    "mainSpot": "熊野那智大社",
-    "stayArea": {
-      "rakuten": "熊野新宮",
-      "jalan": "熊野新宮"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fmie%2Fkumano.html",
-      "jalan": "https://www.jalan.net/240000/"
-    },
-    "tier": "spot",
-    "icCard": "icoca",
-    "tier2": "spot",
-    "hubName": "名古屋",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/kumano/main.jpg",
-      "/images/kumano/spot-1.jpg",
-      "/images/kumano/spot-2.jpg",
-      "/images/kumano/spot-3.jpg"
-    ],
-    "reasonChips": [
-      "歴史を辿る",
-      "寺社めぐり",
-      "自然と過ごす",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "秘境感あり",
-      "ゆっくり滞在"
-    ],
-    "bestSeason": "秋",
-    "featured_stay": {
-      "name": "里創人 熊野倶楽部",
-      "catchcopy": "世界遺産熊野の山里に広がる全室スイートの隠れ里。美食オールインクルーシブ",
-      "hasShuttle": false,
-      "accessStation": "JR熊野市駅",
-      "jalanUrl": "https://www.jalan.net/yad398080/"
-    }
-  },
-  {
     "id": "iriomote",
     "name": "西表島",
     "type": "destination",
@@ -48406,14 +48189,15 @@
       "白浜",
       "串本"
     ],
-    "weight": 1.14,
-    "description": "那智の大滝は落差133m。飛瀧神社の参道を下りて正面に立つと、水音で会話が聞こえなくなる。熊野那智大社へは大門坂から467段の石段を登る。杉の巨木が両側に並ぶ。那智黒石が砂になった黒い砂浜もあり、少し異様な風景になっている。港町なので、朝から開くマグロ食堂は売り切れが早い。熊野別邸 中の島は船でしか行けない宿で、勝浦港の桟橋から無料の送迎船が約5分。那智山へのバスは1日4〜6本しかない。拠点は紀伊勝浦駅。",
+    "weight": 1.19,
+    "description": "那智の大滝は落差133m。飛瀧神社の参道を下りて正面に立つと、水音で会話が聞こえなくなる。熊野那智大社へは大門坂から467段の石段を登る。杉の巨木が両側に並ぶ。那智黒石が砂になった黒い砂浜もあり、少し異様な風景になっている。北へ車で30分ほど走ると瀞峡がある。三県にまたがる渓谷で、岩壁のあいだを深い色の水が流れる。港町なので、朝から開くマグロ食堂は売り切れが早い。熊野別邸 中の島は船でしか行けない宿で、勝浦港の桟橋から無料の送迎船が約5分。那智山へのバスは1日4〜6本しかない。拠点は紀伊勝浦駅。",
     "tags": [
       "寺社",
       "滝",
       "自然",
       "グルメ",
-      "秋"
+      "秋",
+      "渓谷"
     ],
     "spots": [
       {
@@ -48446,6 +48230,17 @@
           "author": "Daniel Plazanet (Daplaza)",
           "license": "CC BY-SA 2.5",
           "url": "https://commons.wikimedia.org/wiki/File:Stone_IMAG1030.JPG",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "瀞峡",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dorokyo_in_2019_August_B.jpg/1280px-Dorokyo_in_2019_August_B.jpg",
+        "description": "三重・奈良・和歌山の三県にまたがる渓谷。切り立った岩壁のあいだを、緑とも青ともつかない深い色の水が流れている。",
+        "imageCredit": {
+          "author": "さかおり",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Dorokyo_in_2019_August_B.jpg",
           "attributionRequired": true
         }
       }
