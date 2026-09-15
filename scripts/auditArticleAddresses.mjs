@@ -65,7 +65,11 @@ for (const f of files) {
   const id = path.basename(f, '.json');
   const d = byId.get(id);
   if (!d?.lat) continue;
-  const article = JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'));
+  const p = path.join(DIR, f);
+  // 実行中にファイルが消えることがある（記事を外す修正と並行したとき）ので、
+  // 1件の欠落で全体を落とさない
+  if (!fs.existsSync(p)) { console.log(`--  ${id} は実行中に無くなった`); continue; }
+  const article = JSON.parse(fs.readFileSync(p, 'utf8'));
   const addrs = addresses(article);
   if (!addrs.length) continue;
 

@@ -1,0 +1,291 @@
+{
+ "accept": [
+  {
+   "id": "ryujin-onsen",
+   "name": "龍神温泉",
+   "prefecture": "和歌山県",
+   "from": [
+    33.9547,
+    135.6393
+   ],
+   "to": [
+    33.95607,
+    135.56206
+   ],
+   "movedKm": 7.13,
+   "agree": "wikipedia×wikidata 0.02km",
+   "box": {
+    "pref": "和歌山県",
+    "city": "田辺市"
+   }
+  },
+  {
+   "id": "gokayama",
+   "name": "五箇山",
+   "prefecture": "富山県",
+   "from": [
+    36.2383,
+    136.8899
+   ],
+   "to": [
+    36.42812,
+    136.92488
+   ],
+   "movedKm": 21.34,
+   "agree": "wikidata×gsi 2.02km",
+   "box": {
+    "pref": "富山県",
+    "city": "南砺市"
+   }
+  },
+  {
+   "id": "oku-izumo",
+   "name": "奥出雲",
+   "prefecture": "島根県",
+   "from": [
+    35.0048,
+    133.0082
+   ],
+   "to": [
+    35.19733,
+    133.00231
+   ],
+   "movedKm": 21.42,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "島根県",
+    "city": "奥出雲町"
+   }
+  },
+  {
+   "id": "sakaiminato",
+   "name": "境港",
+   "prefecture": "鳥取県",
+   "from": [
+    35.5517,
+    133.2301
+   ],
+   "to": [
+    35.53961,
+    133.23161
+   ],
+   "movedKm": 1.35,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "鳥取県",
+    "city": "境港市"
+   }
+  },
+  {
+   "id": "ebino-kogen",
+   "name": "えびの高原",
+   "prefecture": "宮崎県",
+   "from": [
+    31.9489,
+    130.8048
+   ],
+   "to": [
+    31.99686,
+    130.84409
+   ],
+   "movedKm": 6.49,
+   "agree": "gsi×osm 3.02km",
+   "box": {
+    "pref": "宮崎県",
+    "city": "えびの市"
+   }
+  },
+  {
+   "id": "shigaraki",
+   "name": "信楽",
+   "prefecture": "滋賀県",
+   "from": [
+    34.8774,
+    136.1324
+   ],
+   "to": [
+    34.878,
+    136.05858
+   ],
+   "movedKm": 6.73,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "滋賀県",
+    "city": "甲賀市"
+   }
+  },
+  {
+   "id": "innoshima",
+   "name": "因島",
+   "prefecture": "広島県",
+   "from": [
+    34.2458,
+    133.1771
+   ],
+   "to": [
+    34.31931,
+    133.17042
+   ],
+   "movedKm": 8.2,
+   "agree": "wikipedia×wikidata 0.9km",
+   "box": {
+    "pref": "広島県",
+    "city": "尾道市"
+   }
+  },
+  {
+   "id": "ebino",
+   "name": "えびの",
+   "prefecture": "宮崎県",
+   "from": [
+    32.0476,
+    130.694
+   ],
+   "to": [
+    32.04536,
+    130.81081
+   ],
+   "movedKm": 11.01,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "宮崎県",
+    "city": "えびの市"
+   }
+  },
+  {
+   "id": "otari-onsen",
+   "name": "小谷温泉",
+   "prefecture": "長野県",
+   "from": [
+    36.8083,
+    137.8278
+   ],
+   "to": [
+    36.86217,
+    137.98019
+   ],
+   "movedKm": 14.83,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "長野県",
+    "city": "小谷村"
+   }
+  },
+  {
+   "id": "uradome",
+   "name": "浦富海岸",
+   "prefecture": "鳥取県",
+   "from": [
+    35.6156,
+    134.4542
+   ],
+   "to": [
+    35.58923,
+    134.30967
+   ],
+   "movedKm": 13.39,
+   "agree": "wikipedia×wikidata 2.97km",
+   "box": {
+    "pref": "鳥取県",
+    "city": "岩美町"
+   }
+  },
+  {
+   "id": "shishikui",
+   "name": "宍喰",
+   "prefecture": "徳島県",
+   "from": [
+    33.5,
+    134.2833
+   ],
+   "to": [
+    33.56733,
+    134.30317
+   ],
+   "movedKm": 7.71,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "徳島県",
+    "city": "海陽町"
+   }
+  },
+  {
+   "id": "metasequoia",
+   "name": "メタセコイア並木",
+   "prefecture": "滋賀県",
+   "from": [
+    35.5245,
+    135.9638
+   ],
+   "to": [
+    35.46431,
+    136.04538
+   ],
+   "movedKm": 9.97,
+   "agree": "gsi×osm 0.45km",
+   "box": {
+    "pref": "滋賀県",
+    "city": "高島市"
+   }
+  },
+  {
+   "id": "gokase",
+   "name": "五ヶ瀬",
+   "prefecture": "宮崎県",
+   "from": [
+    32.8058,
+    131.1056
+   ],
+   "to": [
+    32.68289,
+    131.19617
+   ],
+   "movedKm": 16.08,
+   "agree": "wikipedia×wikidata 0km",
+   "box": {
+    "pref": "宮崎県",
+    "city": "五ヶ瀬町"
+   }
+  }
+ ],
+ "reject": [
+  {
+   "id": "oze",
+   "name": "尾瀬",
+   "why": "新しい座標も宣言県に入らない（取得できず）",
+   "lat": 36.937,
+   "lng": 139.25102
+  },
+  {
+   "id": "niyodogawa",
+   "name": "仁淀川",
+   "why": "2ソースが5km以内で一致しない",
+   "cands": [
+    {
+     "src": "wikidata",
+     "lat": 33.7636,
+     "lng": 133.1077
+    },
+    {
+     "src": "gsi",
+     "lat": 33.548717,
+     "lng": 133.427811
+    }
+   ]
+  },
+  {
+   "id": "kisakata",
+   "name": "象潟",
+   "why": "新しい座標も宣言県に入らない（取得できず）",
+   "lat": 39.20306,
+   "lng": 139.90764
+  },
+  {
+   "id": "gen_茨城_水郷筑波国定公園",
+   "name": "水郷筑波国定公園",
+   "why": "新しい座標も宣言県に入らない（千葉県香取市）",
+   "lat": 35.9183,
+   "lng": 140.519
+  }
+ ]
+}
