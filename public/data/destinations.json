@@ -98070,7 +98070,7 @@
       "officialUrl": "https://nukabira-nakamuraya.com/",
       "bookingNote": "予約は電話・メール・公式サイトから",
       "hasShuttle": false,
-      "shuttleInfo": "送迎なし（公式サイトに明記）",
+      "shuttleInfo": "送迎なし",
       "accessStation": "帯広駅から十勝バス糠平行き、糠平中央公園前下車"
     }
   },
@@ -206518,7 +206518,7 @@
     },
     "stayRecommendation": "daytrip",
     "secondaryTransport": null,
-    "city": "豊後大野市長湯",
+    "city": "竹田市直入町長湯",
     "hubStation": "大分駅",
     "accessStation": "大分駅",
     "hotelArea": "大分",

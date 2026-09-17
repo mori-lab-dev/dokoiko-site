@@ -109,7 +109,7 @@ export default {
     officialUrl: 'https://nukabira-nakamuraya.com/',
     bookingNote: '予約は電話・メール・公式サイトから',
     hasShuttle: false,
-    shuttleInfo: '送迎なし（公式サイトに明記）',
+    shuttleInfo: '送迎なし',  // 公式サイトに「送迎は行っておりません」と明記
     accessStation: '帯広駅から十勝バス糠平行き、糠平中央公園前下車',
   },
   'gen_群馬_川原湯温泉': {

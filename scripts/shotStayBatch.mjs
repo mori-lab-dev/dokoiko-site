@@ -36,8 +36,12 @@ async function shot(url, file, selector) {
   await page.goto(base + url, { waitUntil: 'networkidle' });
   if (selector) {
     const el = page.locator(selector).first();
-    await el.scrollIntoViewIfNeeded();
-    await page.evaluate(() => window.scrollBy(0, -60));
+    if (await el.count()) {
+      await el.scrollIntoViewIfNeeded();
+      await page.evaluate(() => window.scrollBy(0, -60));
+    } else {
+      console.log(`  （${selector} が無いのでページ上部を撮る）`);
+    }
   }
   await page.waitForTimeout(700);
   await page.screenshot({ path: path.join(OUT, file) });

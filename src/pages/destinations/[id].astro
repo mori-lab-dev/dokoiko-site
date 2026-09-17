@@ -132,25 +132,11 @@ const hotelLinks = (dest as any).hotelLinks as { rakuten: string; jalan: string 
 const RAKUTEN_AFF = 'https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/';
 const JALAN_AFF   = 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=';
 
-const HUB_CITY_TO_PREF: Record<string, string> = {
-  '那覇': 'okinawa', '広島': 'hiroshima', '東京': 'tokyo', '鹿児島': 'kagoshima',
-  '岡山': 'okayama', '長崎': 'nagasaki', '札幌': 'hokkaido', '新潟': 'niigata',
-  '高知': 'kochi', '山形': 'yamagata', '大阪': 'osaka', '名古屋': 'aichi',
-  '松山': 'ehime', '高松': 'kagawa', '神戸': 'hyogo', '福岡': 'fukuoka',
-  '熊本': 'kumamoto', '宮崎': 'miyazaki', '大分': 'oita', '仙台': 'miyagi',
-  '盛岡': 'iwate', '秋田': 'akita', '青森': 'aomori', '函館': 'hokkaido',
-  '旭川': 'hokkaido', '釧路': 'hokkaido', '稚内': 'hokkaido',
-};
-
 // 楽天のキーワード検索。yado/japan.html?f_query= は現在キーワードが効かず
 // 「地図から探す」トップ相当に着地してしまうため、実際に検索結果が返る
 // キーワード検索エンドポイント（楽天トラベル公式の検索フォーム送信先）を使う。
 function buildRakutenUrl(keyword: string): string {
   const target = `https://kw.travel.rakuten.co.jp/keyword/Search.do?f_query=${encodeURIComponent(keyword)}`;
-  return `${RAKUTEN_AFF}?pc=${encodeURIComponent(target)}`;
-}
-function buildRakutenPrefUrl(prefSlug: string): string {
-  const target = `https://travel.rakuten.co.jp/yado/${prefSlug}/`;
   return `${RAKUTEN_AFF}?pc=${encodeURIComponent(target)}`;
 }
 // じゃらんの宿キーワード検索はShift_JISエンコード必須(scripts/jalanUrl.js参照)。
@@ -165,6 +151,27 @@ function toRakutenAffiliate(url: string): string {
   if (url.startsWith('https://hb.afl.rakuten.co.jp/')) return url; // 既にアフィリ
   if (url.includes('rakuten.co.jp')) return `${RAKUTEN_AFF}?pc=${encodeURIComponent(url)}`;
   return url;
+}
+// 【2026-09-17】楽天の宿リンクはキーワード検索（kw.travel.rakuten.co.jp）だけを許可する。
+// 楽天トラベルの AASA は /HOTEL/* や /yado/*/* をアプリの対象にしており、さらにアフィリの
+// リダイレクタは宛先が travel.rakuten.co.jp だと必ず hb.afl.rakuten.co.jp/travel/…
+// （これもアプリ対象）を経由させる。個別ページ・県トップ・エリアページはどれも
+// リダイレクト途中で楽天トラベルアプリが起動する（scripts/auditRakutenAppLinks.mjs で実測）。
+// キーワード検索の宛先だけはこの経路を通らないので、それ以外は宿名・地名の検索に置き換える。
+// じゃらんの safeJalanUrl（2026-08-12）と同じ許可リスト方式。
+function isRakutenSafeTarget(rawUrl: string): boolean {
+  let inner = rawUrl;
+  try {
+    const u = new URL(rawUrl);
+    if (u.hostname === 'hb.afl.rakuten.co.jp') inner = u.searchParams.get('pc') || '';
+    return new URL(inner).hostname === 'kw.travel.rakuten.co.jp';
+  } catch {
+    return false;
+  }
+}
+function safeRakutenUrl(rawUrl: string | null | undefined, keyword: string): string {
+  if (rawUrl && isRakutenSafeTarget(rawUrl)) return toRakutenAffiliate(rawUrl);
+  return buildRakutenUrl(keyword);
 }
 function toJalanAffiliate(url: string): string {
   if (!url) return url;
@@ -203,7 +210,7 @@ function safeJalanUrl(rawUrl: string | null | undefined, keyword: string): strin
 // rakutenUrl/jalanUrl 省略時は宿名での検索リンクにフォールバック（404リスク回避）。
 const featuredStay = (dest as any).featured_stay || null;
 const fsRakutenUrl = featuredStay
-  ? (featuredStay.rakutenUrl ? toRakutenAffiliate(featuredStay.rakutenUrl) : buildRakutenUrl(featuredStay.name))
+  ? safeRakutenUrl(featuredStay.rakutenUrl, featuredStay.name)
   : '';
 const fsJalanUrl = featuredStay
   ? safeJalanUrl(featuredStay.jalanUrl, featuredStay.name)
@@ -211,13 +218,20 @@ const fsJalanUrl = featuredStay
 // 楽天・じゃらんに掲載の無い宿（電話予約のみの山小屋・秘湯宿など）。
 // 宿名検索のボタンを出しても何もヒットせず、別の宿が出ることさえあるので、
 // 公式サイトへのボタンだけを出す。otaListed を明示的に false にした宿に限る。
+// 送迎の表示。データに書いてあることだけを出す（2026-09-17 再表示）。
+//   shuttleInfo があればその文言 / hasShuttle:true で文言が無ければ「送迎あり」/
+//   それ以外（hasShuttle:false だけ、または未設定）は何も出さない。
+//   hasShuttle:false だけの行は「送迎なし」と断定できる根拠が無い古いデータが多いため。
+const fsShuttleText: string = featuredStay
+  ? (featuredStay.shuttleInfo || (featuredStay.hasShuttle === true ? '送迎あり' : ''))
+  : '';
 const fsOfficialOnly: boolean = !!(featuredStay
   && featuredStay.otaListed === false
   && typeof featuredStay.officialUrl === 'string'
   && /^https:\/\//.test(featuredStay.officialUrl));
 
 const hotelKeyword = (dest as any).hotelSearch || dest.name;
-const rakutenHotelUrl = hotelLinks?.rakuten ? toRakutenAffiliate(hotelLinks.rakuten) : buildRakutenUrl(hotelKeyword);
+const rakutenHotelUrl = safeRakutenUrl(hotelLinks?.rakuten, hotelKeyword);
 const jalanHotelUrl = safeJalanUrl(hotelLinks?.jalan, hotelKeyword);
 
 // 宿セクション: 現地泊・hub泊・prefecture fallbackの三段構え
@@ -242,11 +256,11 @@ if (showHubHotel) {
   const hubDest = (destinations as any[]).find((d: any) => d.name === hubCityName && d.hotelLinks);
   if (hubDest) {
     const hubKeyword = hubDest.hotelSearch || hubDest.name;
-    hubRakutenUrl = hubDest.hotelLinks.rakuten ? toRakutenAffiliate(hubDest.hotelLinks.rakuten) : buildRakutenUrl(hubKeyword);
+    hubRakutenUrl = safeRakutenUrl(hubDest.hotelLinks.rakuten, hubKeyword);
     hubJalanUrl   = safeJalanUrl(hubDest.hotelLinks.jalan, hubCityName);
   } else {
-    const hubPref = HUB_CITY_TO_PREF[hubCityName];
-    hubRakutenUrl = hubPref ? buildRakutenPrefUrl(hubPref) : buildRakutenUrl(hubCityName);
+    // 県トップ（/yado/{県}/）はアプリ起動の対象なので使わず、じゃらんと同じく都市名で検索する。
+    hubRakutenUrl = buildRakutenUrl(hubCityName);
     hubJalanUrl   = buildJalanUrl(hubCityName);
   }
 }
@@ -1206,15 +1220,21 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     line-height: 1.7;
     margin-bottom: 10px;
   }
+  .fs-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
   .fs-shuttle, .fs-access {
     display: inline-block;
     font-size: 12px;
     font-weight: 600;
     color: #2A6049;
     background: #eef6f0;
-    border-radius: 20px;
+    border-radius: 14px;
     padding: 5px 12px;
-    margin-bottom: 12px;
+    margin: 0;
     line-height: 1.5;
   }
   .fs-links { display: flex; gap: 10px; flex-wrap: wrap; }
@@ -2059,6 +2079,13 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
         <div class="fs-body">
           <p class="fs-eyebrow">おすすめの宿はこちら</p>
           <h3 class="fs-name">{featuredStay.name}</h3>
+          {featuredStay.catchcopy && <p class="fs-catch">{featuredStay.catchcopy}</p>}
+          {(fsShuttleText || featuredStay.accessStation) && (
+            <div class="fs-meta">
+              {fsShuttleText && <p class="fs-shuttle">🚐 {fsShuttleText}</p>}
+              {featuredStay.accessStation && <p class="fs-access">📍 {featuredStay.accessStation}</p>}
+            </div>
+          )}
           {fsOfficialOnly ? (
             <>
               {featuredStay.bookingNote && <p class="fs-booking-note">{featuredStay.bookingNote}</p>}

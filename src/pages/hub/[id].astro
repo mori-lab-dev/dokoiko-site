@@ -18,7 +18,9 @@ const { hub } = Astro.props;
 const RAKUTEN_AFF = 'https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/';
 const JALAN_AFF  = 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=';
 
-const rakutenUrl = `${RAKUTEN_AFF}?pc=${encodeURIComponent('https://travel.rakuten.co.jp/yado/' + hub.prefSlug + '/')}`;
+// 県トップ（/yado/{県}/）は楽天トラベルアプリの起動対象なので使わない（2026-09-17）。
+// じゃらんと同じく拠点名でキーワード検索する。
+const rakutenUrl = `${RAKUTEN_AFF}?pc=${encodeURIComponent('https://kw.travel.rakuten.co.jp/keyword/Search.do?f_query=' + encodeURIComponent(hub.name))}`;
 // キーワードはSJISエンコード必須(scripts/jalanUrl.js参照。UTF-8のままだと文字化け0件)
 const jalanUrl   = `${JALAN_AFF}${encodeURIComponent(jalanKeywordSearchTarget(hub.name))}`;
 
