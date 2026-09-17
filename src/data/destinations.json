@@ -95864,6 +95864,14 @@
       "license": "CC BY 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:140828_Utoro_Port_Shari_Hokkaido_Japan04bs.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "KIKI知床 ナチュラルリゾート",
+      "catchcopy": "世界自然遺産・知床のウトロ温泉、坂の上の高台に建つリゾートホテル",
+      "jalanUrl": "https://www.jalan.net/yad365748/",
+      "hasShuttle": true,
+      "shuttleInfo": "ウトロ温泉バスターミナルに着いてから連絡すると迎えに来てもらえる",
+      "accessStation": "知床斜里駅からバス、ウトロ温泉バスターミナル下車"
     }
   },
   {
@@ -96238,6 +96246,12 @@
       "license": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:%E7%84%B6%E5%88%A5%E6%B9%96%E6%B8%A9%E6%B3%89%EF%BC%88Lake_Shikaribetsu_hot_spring_hotel%EF%BC%89_-_panoramio.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "然別湖畔温泉ホテル風水",
+      "catchcopy": "標高800m、大雪山国立公園の湖畔に建つ。全室レイクサイドビューの源泉かけ流しの宿",
+      "jalanUrl": "https://www.jalan.net/yad309652/",
+      "accessStation": "帯広駅からバス約1時間20分（新得駅からは約1時間）"
     }
   },
   {
@@ -96436,6 +96450,14 @@
       "license": "CC BY 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu25n4272.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "しこつ湖 鶴雅リゾートスパ 水の謌",
+      "catchcopy": "支笏湖温泉の湖畔に建つ、鶴雅グループのリゾートスパ",
+      "jalanUrl": "https://www.jalan.net/yad395279/",
+      "hasShuttle": true,
+      "shuttleInfo": "新千歳空港・JR千歳駅から無料送迎バスあり（3日前の19時までに要予約）",
+      "accessStation": "千歳駅"
     }
   },
   {
@@ -96635,6 +96657,14 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:JozankeiOnsen.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "定山渓鶴雅リゾートスパ 森の謌",
+      "catchcopy": "札幌の奥座敷・定山渓温泉で、森に包まれて過ごすリゾートスパ",
+      "jalanUrl": "https://www.jalan.net/yad352535/",
+      "hasShuttle": true,
+      "shuttleInfo": "地下鉄南北線・真駒内駅から無料送迎バスあり（前日17時までに電話で要予約）",
+      "accessStation": "札幌駅から予約制バス「かっぱライナー」約60分"
     }
   },
   {
@@ -97226,7 +97256,15 @@
       "温泉がおすすめ",
       "街歩き向け"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "ザ レイクビュー TOYA 乃の風リゾート",
+      "catchcopy": "洞爺湖温泉の湖畔に建つ、湖を望むリゾートホテル",
+      "jalanUrl": "https://www.jalan.net/yad384352/",
+      "hasShuttle": true,
+      "shuttleInfo": "JR札幌駅北口・新千歳空港から送迎バスあり（有料。予約者は割引、札幌駅発は予約者無料。3日前までネット予約可）",
+      "accessStation": "洞爺駅からバス約20分"
+    }
   },
   {
     "id": "gen_北海_十勝岳温泉",
@@ -97419,6 +97457,12 @@
       "license": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tokachidake_Onsen.JPG",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "十勝岳温泉 湯元 凌雲閣",
+      "catchcopy": "標高1,280m、北海道でいちばん高い所にある温泉宿。泉質の違う2本の源泉をもつ",
+      "jalanUrl": "https://www.jalan.net/yad399072/",
+      "accessStation": "上富良野駅から町営バス約40分"
     }
   },
   {
@@ -97612,6 +97656,14 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Toyotomi-fureai-center_20171026.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "豊富温泉 川島旅館",
+      "catchcopy": "油分を含む珍しい「天然オイルバス」の湯に浸かる、豊富温泉の湯宿",
+      "jalanUrl": "https://www.jalan.net/yad386526/",
+      "hasShuttle": true,
+      "shuttleInfo": "豊富駅から列車の到着・出発に合わせて送迎あり（3日前までに要予約）",
+      "accessStation": "豊富駅からバス約10分、豊富温泉下車徒歩1分"
     }
   },
   {
@@ -98010,6 +98062,16 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:Nukabira_spa_Yumotokan_josei_rotenburo.jpg",
       "attributionRequired": false
+    },
+    "featured_stay": {
+      "name": "糠平温泉 中村屋",
+      "catchcopy": "「源泉かけ流し100%宣言」のぬかびら源泉郷に建つ湯宿",
+      "otaListed": false,
+      "officialUrl": "https://nukabira-nakamuraya.com/",
+      "bookingNote": "予約は電話・メール・公式サイトから",
+      "hasShuttle": false,
+      "shuttleInfo": "送迎なし（公式サイトに明記）",
+      "accessStation": "帯広駅から十勝バス糠平行き、糠平中央公園前下車"
     }
   },
   {
@@ -113780,6 +113842,14 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Spa_Sandogoya,_Nasushiobara,_Tochigi.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "三斗小屋温泉 大黒屋",
+      "catchcopy": "江戸時代創業、ランプの灯る山の湯宿。登山口から歩いてしか行けない",
+      "otaListed": false,
+      "officialUrl": "https://sandogoya-onsen.com/",
+      "bookingNote": "予約は電話のみ。4月上旬〜11月下旬の季節営業",
+      "accessStation": "峠の茶屋駐車場（登山口）から徒歩約2時間"
     }
   },
   {
@@ -113984,6 +114054,14 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Chuzenji_Onsen_Town.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "中禅寺金谷ホテル",
+      "catchcopy": "中禅寺湖畔の森に建つ、金谷ホテルのリゾートホテル",
+      "jalanUrl": "https://www.jalan.net/yad320110/",
+      "hasShuttle": true,
+      "shuttleInfo": "東武日光駅から無料シャトルバスあり（要予約）",
+      "accessStation": "日光駅から湯元温泉行きバス約1時間、中禅寺金谷ホテル前下車"
     }
   },
   {
@@ -116930,6 +117008,11 @@
       "license": "CC0",
       "url": "https://commons.wikimedia.org/wiki/File:KASAWAONSEN.JPG",
       "attributionRequired": false
+    },
+    "featured_stay": {
+      "name": "鹿沢温泉 紅葉館",
+      "catchcopy": "明治2年創業。鹿沢温泉に唯一残る、加水も加温もしない源泉かけ流しの一軒宿",
+      "accessStation": "万座・鹿沢口駅からタクシー約20分"
     }
   },
   {
@@ -117726,6 +117809,14 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Kawarayu_Onsen_Marukiya.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "川原湯温泉 山木館",
+      "catchcopy": "歴史と文化を紡ぐ古民家の湯宿。川原湯温泉の老舗",
+      "jalanUrl": "https://www.jalan.net/yad389194/",
+      "hasShuttle": true,
+      "shuttleInfo": "川原湯温泉駅から無料送迎あり（予約時の備考欄で要連絡。到着15〜18時頃・出発10時頃）",
+      "accessStation": "川原湯温泉駅"
     }
   },
   {
@@ -118692,6 +118783,12 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File:A_stream_of_H%C5%8CSHI_Onsen_%E6%B3%95%E5%B8%AB%E6%B8%A9%E6%B3%89%E3%81%AE%E5%B0%8F%E5%B7%9D.jpg",
       "attributionRequired": false
+    },
+    "featured_stay": {
+      "name": "法師温泉 長寿館",
+      "catchcopy": "創業150年の一軒宿。国登録有形文化財「法師乃湯」の足元湧出の湯",
+      "jalanUrl": "https://www.jalan.net/yad325526/",
+      "accessStation": "上毛高原駅からバス（猿ヶ京で乗り換え）、法師温泉下車"
     }
   },
   {
@@ -122419,6 +122516,14 @@
       "license": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:Lamp_no_Yado_Aoni_Onsen_(52087066150).jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "ランプの宿 青荷温泉",
+      "catchcopy": "電灯もテレビもなく、夜はランプの灯りだけで過ごす青荷渓谷の宿",
+      "jalanUrl": "https://www.jalan.net/yad366208/",
+      "hasShuttle": true,
+      "shuttleInfo": "要予約。4〜11月は道の駅虹の湖から、12〜3月は黒石駅・道の駅虹の湖から（冬季は一般車の乗り入れ不可）",
+      "accessStation": "黒石駅"
     }
   },
   {
@@ -125238,7 +125343,15 @@
       "友達と",
       "温泉がおすすめ"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "谷地温泉",
+      "catchcopy": "開湯400年余、日本三秘湯のひとつ。足元から自噴する湯をかけ流す八甲田の宿",
+      "jalanUrl": "https://www.jalan.net/yad344448/",
+      "hasShuttle": true,
+      "shuttleInfo": "無料送迎あり（7日前までに電話で要予約）。4/1〜11/18は青森駅・新青森駅、11/19〜3/31は八戸駅から",
+      "accessStation": "青森駅"
+    }
   },
   {
     "id": "zaou-onsen",

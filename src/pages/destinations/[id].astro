@@ -208,6 +208,13 @@ const fsRakutenUrl = featuredStay
 const fsJalanUrl = featuredStay
   ? safeJalanUrl(featuredStay.jalanUrl, featuredStay.name)
   : '';
+// 楽天・じゃらんに掲載の無い宿（電話予約のみの山小屋・秘湯宿など）。
+// 宿名検索のボタンを出しても何もヒットせず、別の宿が出ることさえあるので、
+// 公式サイトへのボタンだけを出す。otaListed を明示的に false にした宿に限る。
+const fsOfficialOnly: boolean = !!(featuredStay
+  && featuredStay.otaListed === false
+  && typeof featuredStay.officialUrl === 'string'
+  && /^https:\/\//.test(featuredStay.officialUrl));
 
 const hotelKeyword = (dest as any).hotelSearch || dest.name;
 const rakutenHotelUrl = hotelLinks?.rakuten ? toRakutenAffiliate(hotelLinks.rakuten) : buildRakutenUrl(hotelKeyword);
@@ -1224,7 +1231,15 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   }
   .fs-link-rakuten { background: #BF0000; color: #fff; }
   .fs-link-jalan   { background: #FF6D0B; color: #fff; }
+  /* 楽天・じゃらんに掲載の無い宿の公式サイトボタン（サイトの基調色に合わせる） */
+  .fs-link-official { background: #2A6049; color: #fff; }
   .fs-link:hover { opacity: 0.88; }
+  .fs-booking-note {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
 
   .hotel-section { margin-bottom: 56px; }
   /* Hotel tabs (CSS-only with radio inputs) */
@@ -2044,10 +2059,19 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
         <div class="fs-body">
           <p class="fs-eyebrow">おすすめの宿はこちら</p>
           <h3 class="fs-name">{featuredStay.name}</h3>
-          <div class="fs-links">
-            <a href={fsRakutenUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-rakuten">楽天トラベルで見る</a>
-            <a href={fsJalanUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-jalan">じゃらんで見る</a>
-          </div>
+          {fsOfficialOnly ? (
+            <>
+              {featuredStay.bookingNote && <p class="fs-booking-note">{featuredStay.bookingNote}</p>}
+              <div class="fs-links">
+                <a href={featuredStay.officialUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-official">公式サイトで見る</a>
+              </div>
+            </>
+          ) : (
+            <div class="fs-links">
+              <a href={fsRakutenUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-rakuten">楽天トラベルで見る</a>
+              <a href={fsJalanUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-jalan">じゃらんで見る</a>
+            </div>
+          )}
         </div>
       </div>
     )}
