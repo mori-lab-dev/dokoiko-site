@@ -3,7 +3,8 @@
  * shotStayBatch.mjs — featured_stay 追加後の標準確認スクショ。
  * 標準フローの4枚（トップ hero / トップ 地域カード / 直島 記事上部 / 直島 宿セクション）に加え、
  * 今回追加した宿カードを撮る。
- *   node scripts/shotStayBatch.mjs <出力ディレクトリ> [destinationId ...]
+ *   node scripts/shotStayBatch.mjs <出力ディレクトリ> [destinationId ...] [--sel=<CSSセレクタ>]
+ *   --sel を付けると宿カードの代わりにそのセレクタの位置を撮る
  */
 import { chromium } from 'playwright';
 import fs from 'fs';
@@ -11,7 +12,9 @@ import http from 'http';
 import path from 'path';
 
 const OUT = process.argv[2];
-const EXTRA = process.argv.slice(3);
+const SEL_ARG = process.argv.find((a) => a.startsWith('--sel='));
+const SEL = SEL_ARG ? SEL_ARG.slice(6) : '.fs-card';
+const EXTRA = process.argv.slice(3).filter((a) => !a.startsWith('--sel='));
 if (!OUT) { console.error('出力ディレクトリを指定すること'); process.exit(1); }
 fs.mkdirSync(OUT, { recursive: true });
 
@@ -53,7 +56,7 @@ await shot('/', 'トップ_地域カード.png', '.jp-region');
 await shot('/destinations/naoshima/', '直島_記事上部.png', null);
 await shot('/destinations/naoshima/', '直島_宿セクション.png', '.fs-card, .hotel-section');
 for (const id of EXTRA) {
-  await shot(`/destinations/${encodeURIComponent(id)}/`, `宿カード_${id}.png`, '.fs-card');
+  await shot(`/destinations/${encodeURIComponent(id)}/`, `${SEL === '.fs-card' ? '宿カード' : 'セクション'}_${id}.png`, SEL);
 }
 await b.close();
 server.close();

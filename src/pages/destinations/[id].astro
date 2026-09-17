@@ -405,7 +405,9 @@ for (const sp of (((dest as any).spots) || [])) {
 for (const line of parkingSentences(dest.description)) pushParking('', line);
 
 // レンタカー（車タブのメインコンテンツ）。じゃらんは /rentacar/ が許可リスト形式。
-const rentacarRakutenUrl = `${RAKUTEN_AFF}?pc=${encodeURIComponent('https://travel.rakuten.co.jp/cars/')}`;
+// 楽天レンタカーは置かない（2026-09-17）。アフィリの転送が hb.afl…/travel/<id>/ を必ず経由し、
+// そこが楽天アプリのユニバーサルリンク対象のため、タップすると楽天アプリが起動する。
+// アフィリを付けたままブラウザで開かせる経路が無いので、じゃらんレンタカーだけにした。
 const rentacarJalanUrl = toJalanAffiliate('https://www.jalan.net/rentacar/');
 
 const nearbyDests = (destinations as any[])
@@ -1846,13 +1848,6 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <p class="car-rentacar-title">🚗 レンタカーを予約する</p>
             <p class="car-rentacar-desc">{dest.name}を車でまわるなら、出発地・現地どちらでも借りられます</p>
             <div class="hotel-cards">
-              <a href={rentacarRakutenUrl} target="_blank" rel="nofollow sponsored noopener" class="hotel-card hotel-card-rakuten">
-                <div>
-                  <p class="hotel-card-name">楽天レンタカー</p>
-                  <p class="hotel-card-desc">ポイントが貯まる・使える</p>
-                </div>
-                <span class="hotel-card-arrow">→</span>
-              </a>
               <a href={rentacarJalanUrl} target="_blank" rel="nofollow sponsored noopener" class="hotel-card hotel-card-jalan">
                 <div>
                   <p class="hotel-card-name">じゃらんレンタカー</p>
@@ -2109,13 +2104,6 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
         <h2 class="section-title">{dest.name}はレンタカーがおすすめ</h2>
         <p class="hotel-description" style="font-size:13px;color:#888;">現地で自由に動きたいならレンタカーが便利です</p>
         <div class="hotel-cards">
-          <a href="https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fcars%2F" target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
-            <div>
-              <p class="hotel-card-name">楽天レンタカー</p>
-              <p class="hotel-card-desc">ポイントが貯まる・使える</p>
-            </div>
-            <span class="hotel-card-arrow">→</span>
-          </a>
           <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=https%3A%2F%2Fwww.jalan.net%2Frentacar%2F" target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
             <div>
               <p class="hotel-card-name">じゃらんレンタカー</p>
@@ -2127,23 +2115,26 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
       </div>
     )}
 
-    <!-- 楽天レンタカー & じゃらん体験 -->
+    <!-- じゃらんレンタカー & じゃらん体験 -->
     {(showLocalHotel || showHubHotel || showPrefHotel) && (
       <>
+        {/* 上の「レンタカーがおすすめ」を出した旅先では、同じじゃらんレンタカーが続くので出さない */}
+        {!(dest as any).rentalCarRecommended && (
         <div class="rentacar-section">
           <a
-            href="https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fcars%2F&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
+            href={rentacarJalanUrl}
             target="_blank"
             rel="nofollow sponsored noopener"
             class="hotel-card rentacar-card"
           >
             <div>
               <p class="hotel-card-name">🚗 レンタカーを探す</p>
-              <p class="hotel-card-desc">現地でクルマ移動するなら楽天レンタカー</p>
+              <p class="hotel-card-desc">現地でクルマ移動するならじゃらんレンタカー</p>
             </div>
             <span class="hotel-card-arrow">→</span>
           </a>
         </div>
+        )}
         <div class="activity-section">
           <a
             href={toJalanAffiliate(`https://www.jalan.net/activity/?keyword=${encodeURIComponent(dest.name)}`)}
