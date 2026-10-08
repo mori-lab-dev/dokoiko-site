@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "batch": "scripts/stays/n9_west.mjs",
+  "adopted": [
+    {"id":"niche_奈良_2","name":"ホテルのせ川","officialUrl":"https://hotel-nosegawa.jp/","facts":"公式で2026-10の営業案内(日帰り温泉の臨時休業日告知)あり。住所 野迫川村北今西426。高野山駅から宿泊者向け送迎車(要予約)。じゃらん yad317846 200","geo":"GSI 野迫川村北今西 → 5.7km / OSM 宿名 → 5.7km。近隣 koyasan(恵光院)は6.8km離れた別の宿場で温泉地も別"},
+    {"id":"nishinoshima","name":"国賀荘","officialUrl":"https://kunigasou.com/","facts":"公式で営業中・2024年新設スイート・展望大浴場。住所 西ノ島町浦郷192。浦郷/別府港との送迎あり(予約制)。じゃらん yad387621・楽天掲載","geo":"GSI 西ノ島町浦郷 → 2.3km / OSM 宿名 → 3.2km。Entô は中ノ島(別島)の宿で重複なし"},
+    {"id":"tokashiki-jima","name":"ケラマテラス","officialUrl":"https://www.keramaterrace.jp/","facts":"公式に全7室・渡嘉敷港からの送迎車記載。2026-03の宿泊口コミ・2026-11-30までの宿泊プランをOTAで確認。住所 渡嘉敷村阿波連103。じゃらん yad313368・楽天130626","geo":"GSI 渡嘉敷村阿波連 → 3.1km。zamami-island の宿は別島"},
+    {"id":"minamidaitojima","name":"ホテルよしざと","officialUrl":"https://www.hotelyoshizato.com/","facts":"公式200(営業時間8-20時の電話受付)。島唯一のホテル・19室。住所 南大東村在所249。港から無料送迎(公式)。予約は電話のみのため otaListed:false(JTB/KNT/日本旅行等の取扱いはあるが楽天/じゃらん個別ページは確認できず)","geo":"GSI 南大東村在所 → 0.9km"},
+    {"id":"itoshima","name":"グローカルホテル糸島","officialUrl":"https://glocal-hotel.com/","facts":"公式で2026-09-30更新・営業中。住所 糸島市泊844-1。85室。送迎は記載なし(省略)。じゃらん yad326485","geo":"GSI 糸島市泊 → 3.7km / OSM 宿名 → 4.4km"},
+    {"id":"uchiko","name":"内子の宿 織","officialUrl":"https://uchiko-inn.com/","facts":"公式で営業中(お知らせ2026-04-22更新)。住所 内子町内子1995。八日市護国の町並みの古民家・1日1組。じゃらん yad363856","geo":"GSI 内子町内子1995 → 1.6km。ozu(NIPPONIA大洲)は11.5km離れ別地区"},
+    {"id":"usuki","name":"石仏旅館","officialUrl":"https://sekibutsuryokan.com/","facts":"公式200・2020-10改装・予約システム更新(2026-04-21)。住所 臼杵市深田785-4。国宝臼杵石仏まで徒歩1分。じゃらん yad301103","geo":"GSI 臼杵市深田785 → 5.1km"},
+    {"id":"chikubushima","name":"旅館 紅鮎","officialUrl":"https://www.beniayu.com/","facts":"公式でお知らせ2026-09-23更新。住所 長浜市湖北町尾上312。全室温泉露天付き。高月駅西口から無料送迎バス(要予約・約10分)を公式access頁で確認。じゃらん yad360828","geo":"GSI 湖北町尾上312 → 4.7km / OSM 宿名 → 4.7km。nagahama(グランドメルキュール)は14.9km離れ"},
+    {"id":"tomari-okinawa","name":"ホテルにしえ","officialUrl":"https://www.hotel-nishie.com/","facts":"公式200・営業案内あり。住所 伊平屋村前泊453。フェリー発着時のみ送迎(要電話予約)。電話予約中心のため otaListed:false","geo":"GSI 伊平屋村前泊 → 2.3km"}
+  ],
+  "rejected": [
+    {"id":"niche_鳥取_1","candidate":"はわい温泉 千年亭","reason":"公式は営業中(2026-07更新)だが、近隣 togo が東郷温泉の国民宿舎 水明荘を保持(3.8km)。同じ東郷湖周辺の温泉地で重複回避"},
+    {"id":"niche_宮崎_7","candidate":"湯之元温泉(高原町)","reason":"公式は営業中だが、住所が destination 座標から66.2km離れており、destination の『湯の元温泉』は別地点。同名異所"},
+    {"id":"niche_徳島_2","candidate":"月ヶ谷温泉 月の宿","reason":"営業中だが destination(勝浦川峡谷)から9.9kmで8km超"},
+    {"id":"niche_鹿児島_5","candidate":"栗野岳温泉 南洲館","reason":"ニフティ温泉・秘境系サイトに休業中の表示。営業確認できない"},
+    {"id":"wakimachi","candidate":"うだつの縁が和 ぜにや","reason":"公式は http のみ(https は TLS エラー)・古いWordPress。officialUrl が https で取れず、営業日付も確認できない"},
+    {"id":"shigaraki","candidate":"信楽の里 やきものの宿 平岡家","reason":"OTA掲載はあるが公式サイトに到達できない(biwa.ne.jp 接続拒否)ため営業を公式で確認できず"},
+    {"id":"itoshima","candidate":"僧伽小野 一秀庵","reason":"公式 sangaono.com の証明書が失効しており開けない。営業を公式で確認できず(グローカルホテル糸島に差し替え)"},
+    {"id":"kikuchi","candidate":"菊池温泉 城乃井旅館","reason":"公式に『公衆浴場 城乃井温泉 休館』(2026-09-25)・復興応援割の告知。宿の営業範囲が読み取れないため見送り"},
+    {"id":"niche_京都_6","candidate":"北の宿温泉","reason":"検索で該当の宿を特定できない"},
+    {"id":"niche_奈良_3","candidate":"月ヶ瀬温泉","reason":"日帰り温泉施設のみで宿泊施設を確認できない"},
+    {"id":"uda-nara/hiketa/takahashi","candidate":"NIPPONIA 宇陀・讃岐引田・高梁","reason":"検索で存在を確認できない(推測で作らない)"},
+    {"id":"tobe/yawatahama/otoyo/kurayoshi/izushi/muroto-cape","candidate":"(各地の宿)","reason":"ビジネスホテル・民宿中心、または公式サイトの営業確認まで至らず見送り"},
+    {"id":"oki-island/kakeroma/hateruma/mishima","candidate":"(離島の民宿)","reason":"民宿中心で公式サイト・営業日付を確認できず"}
+  ],
+  "qa": "node scripts/qaStayBatch.mjs scripts/stays/n9_west.mjs: 重複なし・jalanUrl 200かつ宿名一致(7件)・otaListed:false 2件の公式URLは200。NG 9件は全て『適用されていない』(未適用のため想定通り)"
+}

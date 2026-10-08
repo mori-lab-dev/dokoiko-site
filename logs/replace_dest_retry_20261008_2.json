@@ -1,0 +1,555 @@
+{
+ "adopted": [
+  {
+   "id": "makurazaki",
+   "name": "枕崎",
+   "file": "File:Tategami-Rock6983.JPG",
+   "credit": {
+    "author": "日:Jnn",
+    "license": "CC BY 2.1 jp",
+    "url": "https://commons.wikimedia.org/wiki/File:Tategami-Rock6983.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "枕崎沖の象徴的な岩礁風景。海の景観として見映えよく、枕崎を代表する景観資源として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Makurazaki Port inner harbor 250817.jpg"
+  },
+  {
+   "id": "ikeda-osaka",
+   "name": "池田",
+   "file": "File:池田泉州銀行池田営業部.JPG",
+   "credit": {
+    "author": "Bergmann",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%B1%A0%E7%94%B0%E6%B3%89%E5%B7%9E%E9%8A%80%E8%A1%8C%E6%B1%A0%E7%94%B0%E5%96%B6%E6%A5%AD%E9%83%A8.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "インスタントラーメン発明記念館の外観が明るく、建築の特徴が良く映っている。看板も視認でき、池田の主要観光施設として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.2,
+   "replaced": "File:240810 Ikeda Station Ikeda Osaka pref Japan02s3.jpg"
+  },
+  {
+   "id": "iriomote",
+   "name": "西表島",
+   "file": "File:Iriomote jungle hiking (52116054047).jpg",
+   "credit": {
+    "author": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Iriomote_jungle_hiking_(52116054047).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "西表島の亜熱帯ジャングルの特徴的な風景。苔むした岩、川、豊かな緑が明るく美しく撮影されており、ピナイサーラの滝へのトレッキングルート風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:Iriomote.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "niche_愛知_2",
+   "name": "奥三河温泉郷",
+   "current": "File:Nikkosawa Hotspring in Japan.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_宮城_5",
+   "name": "登米の蔵の町並み",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:Uniform police office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の展示室です。登米の蔵の町並みという屋外の風景・名所が写っていません。"
+    },
+    {
+     "title": "File:Prison Police Office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "土蔵の内部展示。看板・資料が主体で、紹介ページのヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:Birmingham City Police Lockup.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の通路・施設で、登米の蔵の町並みの外観が写っていません。紹介画像には不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "kamishihoro",
+   "name": "上士幌",
+   "current": "File:上士幌町鉄道資料館 - panoramio.jpg",
+   "candidates": 33,
+   "tried": [
+    {
+     "title": "File:The Shihoro Line's Taushubetsu Bridge.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "湖畔風景だが、ナイタイ高原牧場を特定できる手がかりがない。別地域の可能性がある。"
+    },
+    {
+     "title": "File:Michinoeki-Kamishihoro.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "ナイタイ高原牧場の施設建物ですが、屋内施設・駐車場が主体で、牧場の風景・景観が見えていません。"
+    },
+    {
+     "title": "File:広尾 中札内 浜頓別 音威子府 上士幌 共和 芽室 (49034157822).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "駅名標を集めたおもちゃ・グッズで、ナイタイ高原牧場の風景ではない。紹介画像として不適切。"
+    },
+    {
+     "title": "File:幌加温泉コースの三条沼２.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "上士幌の自然風景だが、ナイタイ高原牧場の特徴的な高原景観（牧場、広大な草地、放牧景観）が写っていない。湿地・池の風景で場所の特定ができない。"
+    },
+    {
+     "title": "File:幌加温泉コースの三条沼.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "上士幌・ナイタイ高原牧場の特定の手がかりがない沼地風景。牧場を連想させにくい。"
+    },
+    {
+     "title": "File:Taushubetsu-Bridge.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "上士幌の見どころではない。この遺跡は北海道内の別地域の施設と思われます。"
+    },
+    {
+     "title": "File:Taushubetsu-River-Bridge.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "アーチ橋が主役で、ナイタイ高原牧場の風景として認識できない。牧場らしさが欠けている。"
+    },
+    {
+     "title": "File:Taushubetsu-Bridge Forest-road.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "看板・案内板が画面に占める割合が大きく、風景よりも看板が主役になっている。ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:Taushubetsu-Bridge 2022.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "石造のアーチ橋の写真ですが、上士幌町やナイタイ高原牧場の特徴的景観ではありません。別の場所の写真と判断します。"
+    },
+    {
+     "title": "File:Michinoeki Kamishihoro Appearance.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場と建物の施設風景。ナイタイ高原牧場の特徴的な景観ではなく、汎用的な公共施設に見えます。"
+    },
+    {
+     "title": "File:Kamishihoro remains.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "看板・案内板が画面中央の主役になっており、風景写真として適切でない。牧場の風景は背景に過ぎない。"
+    },
+    {
+     "title": "File:Forest Trolley Railway Ecorail.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "林業遺産の展示物が主役で、上士幌の風景・景観として機能していない。紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_宮崎_4",
+   "name": "渡川温泉",
+   "current": "File:渡瀬温泉（わたらせ温泉） 大露天風呂.JPG",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "otoyo",
+   "name": "大豊",
+   "current": "File:Otoyo town hall.JPG",
+   "candidates": 15,
+   "tried": [
+    {
+     "title": "File:Yutorisuto Park Otoyo - aerial.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "上空からの俯瞰写真で、大杉が特定できない。見どころの大杉が明確に映っていない。"
+    },
+    {
+     "title": "File:Otoyo IC.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "高速道路の料金所施設が主体。大豊町の主な見どころ「日本一の大杉」が写っていません。"
+    },
+    {
+     "title": "File:Otoyo-jinja Inari.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "大杉が主見どころだが、社殿が中心で大杉が写っていない。建築は見映えよいが、紹介内容に合致していない。"
+    },
+    {
+     "title": "File:Otoyo-jinja.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "神社の社殿が主役で、日本一の大杉が見えていません。ヒーロー画像には巨木の壮大さが必要です。"
+    },
+    {
+     "title": "File:Otoyo-jinja Komanezumi2.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "石造りの動物像が主役で、大豊町の主な見どころ「日本一の大杉」が写っていません。紹介画像には相応しくありません。"
+    },
+    {
+     "title": "File:Otoyo-jinja haiden.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日本一の大杉が見どころだが、写真に写っているのは神社建築のみ。杉の木が背景に小さく見えるだけで主役になっていない。"
+    },
+    {
+     "title": "File:Otoyo-jinja Daikokusha.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "神社の社殿の正面で、建築と参拝施設が主体。大杉そのものが写っていない。"
+    },
+    {
+     "title": "File:Otoyo-jinja Atago+hiyoshi.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "神社の社殿で、大杉そのものが主被写体ではない。紹介画像には大杉の雄大さが必要。"
+    },
+    {
+     "title": "File:国道439号大豊町西土居.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識と施設が主役。日本一の大杉が見えず、紹介画像に不適切。"
+    },
+    {
+     "title": "File:国道439号大豊町西峰.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "道路と緑の風景だが、大杉など大豊の特定の見どころが明確に写っていない。汎用的な林道で場所特定が困難。"
+    },
+    {
+     "title": "File:Otoyo-seizai.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場や施設の入口で、大杉などの主要景観が写っていない。看板はあるが景観画像として不適切。"
+    },
+    {
+     "title": "File:大豊町大平 付近 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "大豊町の街並みですが、主な見どころ「日本一の大杉」が写っていません。ヒーロー画像として不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "hitachi",
+   "name": "日立",
+   "current": "File:Hitachi station 21-11-14-2.jpg",
+   "candidates": 55,
+   "tried": [
+    {
+     "title": "File:Hitachi Civic Sports Park Baseball Stadium 04.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "野球場のグラウンド写真。日立の主要な見どころ（日立駅の建築）ではなく、別の施設が被写体。"
+    },
+    {
+     "title": "File:Elephas maximus 01.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "象の写真で、日立市の風景・名所・建築ではない。旅先と無関係。"
+    },
+    {
+     "title": "File:Hydrochoerus hydrochaeris 02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "カピバラなどの動物園展示。日立の見どころとは関連なく、紹介ページのヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:Hydrochoerus hydrochaeris 01.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "カピバラなどの動物で、日立の見どころと無関係。ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Dolichotis patagonum 02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "動物（カピバラ？）の写真。日立の景観・名所・建築とは関係なし。"
+    },
+    {
+     "title": "File:ED15 1 (No 1 end) Hitachi Mito Factory 20170603.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅舎の屋内展示（古い車両）が主体。ガラス張り駅舎の外観が見えず、紹介画像に不適切。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 06.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "森林と巨石の風景だが、日立駅や日立市固有の見どころとは関連性が不明。指定見どころとの関連性なし。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 16.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "森林の風景だが、看板が主役になっている。日立駅の紹介画像として不適切。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 21.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "日立駅やその風景ではなく、岩場の洞窟跡と思われる。日立の紹介画像として不適切。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "日立駅ではなく神社の鳥居。日立の主要見どころとして指定された駅とは無関係の別スポット。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 04.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "森林風景で日立との関連性が不明。駅舎のガラス張り外観が全く写っていない。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 23.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "看板が主体。日立駅の紹介には不適切。風景情報が限定的。"
+    }
+   ]
+  },
+  {
+   "id": "futamata-onsen",
+   "name": "二岐温泉",
+   "current": "File:二股ラヂウム温泉P6190061.JPG",
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:20120608二岐温泉2.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "駐車場と車が主役。旅館の外観は部分的に見えるが、風景としての魅力に欠け、ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:20120608二岐温泉1.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉地の風景というより駅施設・鉄道設備が主体。温泉地の魅力が伝わらない。"
+    },
+    {
+     "title": "File:20071201NasuDake.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "航空写真で地図的な表記が多数焼き込まれており、風景紹介というより地理情報図となっている。二岐温泉の地上風景ではない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_静岡_2",
+   "name": "須走温泉",
+   "current": "File:Sugawa spa sunset.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_5",
+   "name": "由良川渓谷",
+   "current": null,
+   "candidates": 4,
+   "tried": [
+    {
+     "title": "File:Gunze memorial hall01s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷・高屋橋周辺ではなく、市街地の建築物です。渓谷景観が全く写っていません。"
+    },
+    {
+     "title": "File:Gunze memorial hall02s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の紹介画像として不適切。渓谷風景でなく、一般的な建築物で、高屋橋周辺の見どころとして関連性が低い。"
+    },
+    {
+     "title": "File:Gunze01s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の景観ではなく、街中の建築物を撮影した写真。渓谷の風景が全く写っていない。"
+    },
+    {
+     "title": "File:Gunze04s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "由良川渓谷の風景ではなく、建物や庭園など施設の敷地内写真。渓谷の景観が見当たらない。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-08",
+  "scope": "東日本（第2ラウンド）",
+  "adoptedCount": 14,
+  "rejectedCount": 21,
+  "adopted": [
+    {
+      "id": "gen_北海_網走湖畔温泉",
+      "name": "ホテル網走湖荘",
+      "officialUrl": "https://www.abashirikoso.com/",
+      "facts": "公式200。2026-07-01付で新レストラン開業のお知らせ。網走市呼人78。大浴場「火口原」(4浴槽・露天・サウナ)、湖を望むテラス付き客室",
+      "geocode": "GSI 網走市呼人 0.5km／OSM施設名 1.8km",
+      "ota": "jalan yad347994（title一致）"
+    },
+    {
+      "id": "gen_北海_鹿部温泉",
+      "name": "温泉旅館 鹿の湯",
+      "officialUrl": "https://www.shikabe-shikanoyu.net/",
+      "facts": "公式200。鹿部町字鹿部58。大正時代から続く老舗、和室10室、3本の源泉かけ流し。函館バス「鹿の湯前」下車。じゃらんの yad327900 は別の「鹿の湯ホテル」のため jalanUrl は記載せず。同温泉地の既存 featured_stay なし",
+      "geocode": "GSI 鹿部町鹿部 2.4km／OSM施設名 0.5km",
+      "ota": "OTA掲載は検索結果（JTB・楽天系）で確認、個別URLは記載せず"
+    },
+    {
+      "id": "shoji-lake",
+      "name": "精進レークホテル",
+      "officialUrl": "https://shojilake.jp/",
+      "facts": "公式200。富士河口湖町精進255。全客室から富士山と精進湖を望む。露天風呂・ロウリュ対応サウナ。じゃらん宿泊プランページに料金付きプランが生きている",
+      "geocode": "GSI 精進255 1.1km",
+      "ota": "jalan yad382611（title一致）"
+    },
+    {
+      "id": "gassan",
+      "name": "月山志津温泉 旅館仙台屋",
+      "officialUrl": "https://www.sendaiya.jp/",
+      "facts": "公式200。西川町志津22。約400年前から行者宿として営む。公式お知らせの最新は2025-02-24で古いため、じゃらん宿泊プランページ(料金付き・12室・送迎バスの記載)の生存で補った",
+      "geocode": "GSI 志津(町名レベル) 7.7km。志津集落自体は destination から約3km",
+      "ota": "jalan yad311635（title一致）"
+    },
+    {
+      "id": "oze",
+      "name": "長蔵小屋",
+      "officialUrl": "https://chozogoya.com/",
+      "facts": "公式200。お知らせ最新 2026-10-05。尾瀬沼畔(福島県檜枝岐村)、明治23年創業。2026年の営業は 4/28〜10/24。大清水から徒歩約3時間・沼山峠から約1時間。第二長蔵小屋(尾瀬ヶ原)は2026年改修で休館のため対象外。季節営業のため otaListed:false+bookingNote",
+      "geocode": "OSM 長蔵小屋 5.4km／GSI 戸倉 0.0km",
+      "ota": "OTA掲載なし(公式のみ)"
+    },
+    {
+      "id": "gen_群馬_猿ヶ京温泉",
+      "name": "旅籠屋丸一 時を結ぶ 和美心の宿",
+      "officialUrl": "https://hatagoya-maruichi.com/",
+      "facts": "公式200。お知らせ最新 2026-08-02(冬季営業案内)。みなかみ町猿ケ京温泉199。自家源泉100%かけ流し、13タイプの客室。江戸創業(じゃらんの紹介は1728年)",
+      "geocode": "GSI 猿ヶ京温泉 0.9km",
+      "ota": "jalan yad386416（title一致）"
+    },
+    {
+      "id": "gen_群馬_片品温泉",
+      "name": "旅館つちいで",
+      "officialUrl": "https://tsuchiide.com/",
+      "facts": "公式200。片品村土出1958。家族経営、天然温泉、ジビエ・川魚の料理。公式に休業表記なし。じゃらん宿泊プランページ生存",
+      "geocode": "GSI 片品村土出 1.6km",
+      "ota": "jalan yad341357（title一致）"
+    },
+    {
+      "id": "niche_富山_2",
+      "name": "大牧温泉観光旅館",
+      "officialUrl": "https://www.oomaki.jp/",
+      "facts": "公式200。お知らせ最新 2026-10-06。南砺市利賀村大牧44。小牧港から庄川遊覧船で約30分、船でしか行けない一軒宿。遊覧船の運航ダイヤは公式で確認要。利賀村の destination に紐づけ(庄川峡の destination は GSI 8.6km で範囲外)",
+      "geocode": "GSI 利賀村大牧(町名レベル) 5.5km",
+      "ota": "jalan・楽天に掲載(検索で確認)、個別URLは記載せず"
+    },
+    {
+      "id": "manazuru",
+      "name": "グルメと天然温泉の宿 ペンションSHIOSAI",
+      "officialUrl": "https://shiosai-resort.com/",
+      "facts": "公式200。真鶴町真鶴1046。海を一望する大理石の温泉風呂(貸切可)。公式の更新は2025-01と古いため、じゃらん宿泊プランページ(料金付き95件)の生存で補った。2020-11に全面改装して再開",
+      "geocode": "GSI 真鶴町真鶴 1.1km",
+      "ota": "jalan yad319181（title一致）"
+    },
+    {
+      "id": "norikura",
+      "name": "乗鞍高原温泉 旅館 仙山乗鞍",
+      "officialUrl": "https://sen-zan.com/",
+      "facts": "公式200。松本市安曇4238-1。乳白色のかけ流し、24時間利用できる貸切露天風呂。公式の更新は2023年と古いため、じゃらん宿泊プランページ(料金付き)の生存で補った。客室9室は検索結果の記載",
+      "geocode": "OSM 同じ番地帯の乗鞍高原温泉ユースホステル 5.6km（宿名のOSM検索はヒットせず）／GSI 安曇(町名) 17.3km は粗すぎるため不採用",
+      "ota": "jalan yad311277（title一致）"
+    },
+    {
+      "id": "mashiko",
+      "name": "益子舘 里山リゾートホテル",
+      "officialUrl": "https://mashikokan.jp/",
+      "facts": "公式200。お知らせ最新 2026-10-05。益子町益子243-3。滝見露天風呂、益子焼の展示。2026秋の陶器市の無料送迎は期間限定のため shuttle は記載せず",
+      "geocode": "GSI 益子243 2.3km",
+      "ota": "jalan yad314110（title一致）"
+    },
+    {
+      "id": "tateyama-chiba",
+      "name": "南房総館山温泉 お宿やまもと",
+      "officialUrl": "https://oyado-yamamoto.com/",
+      "facts": "公式200。館山市沼974。本館『和み館』・別館『浪漫館』、オールドノリタケの展示、南房総の海の幸の料理。2023-03に和み館の風呂を改装",
+      "geocode": "GSI 館山市沼974 2.7km",
+      "ota": "jalan yad311375（title一致）"
+    },
+    {
+      "id": "aizu-bandaisan",
+      "name": "猪苗代 磐梯山麓温泉 静楓亭",
+      "officialUrl": "https://seifutei.jp/",
+      "facts": "公式200。お知らせ最新 2026-04-01。猪苗代町大道南1640-6。全客室に源泉かけ流しの個室露天風呂、2025-02に客室改装。裏磐梯高原ホテル(urabandai)とは別の宿・別の温泉地",
+      "geocode": "GSI 大道南1640 4.1km（猪苗代湖の destination へは6.9km）",
+      "ota": "jalan yad324402（title一致）"
+    },
+    {
+      "id": "kirigamine",
+      "name": "ヒュッテ霧ヶ峰",
+      "officialUrl": "http://www.hutte-kirigamine.jp/",
+      "facts": "公式は http で200(https は不通)、ページは住所(諏訪市上諏訪13338-74・通称強清水)のみの簡素なページで更新日の記載なし。営業の裏取りは、じゃらんの宿泊プランページ(yad376715・料金付き)の生存と、複数の予約サイトの掲載。通年営業・定休日なしは検索結果の記載。確認が最も弱い1件",
+      "geocode": "GSI 上諏訪13338 6.8km(町名)／OSM 近傍のヒュッテ・ジャヴェル 4.7km",
+      "ota": "jalan yad376715（名称が『ヒュッテ霧ケ峰』表記で ケ/ヶ が異なるため jalanUrl は記載せず）"
+    }
+  ],
+  "rejected": [
+    { "dest": "osorezan-area", "name": "恐山宿坊 吉祥閣", "reason": "既に osorezan の featured_stay" },
+    { "dest": "gen_北海_白老温泉", "name": "星野リゾート 界 ポロト", "reason": "既に shiraoi の featured_stay（同じ宿）" },
+    { "dest": "gokayama / niche_富山_6", "name": "五箇山の民宿", "reason": "既に gokayama・gokayama-2 が民宿勇助を持つ" },
+    { "dest": "gen_青森_下風呂温泉", "name": "下風呂温泉の旅館各種", "reason": "既に shimokita がまるほん旅館を持つ（同じ温泉地）" },
+    { "dest": "tsunan", "name": "秋山郷の民宿各種", "reason": "既に akiyamago がかたくりの宿を持つ（同じ地域）" },
+    { "dest": "sanriku-miyako側の宮古", "name": "浄土ヶ浜パークホテル", "reason": "既に sanriku-miyako の featured_stay" },
+    { "dest": "shinojima", "name": "篠島 香翠荘（営業中を公式で確認）", "reason": "destination の座標が実際の篠島から約12km ずれており、8km 以内を満たせない。座標の修正が先" },
+    { "dest": "tobishima-island", "name": "沢口旅館ほか", "reason": "destination の座標(139.69E)が飛島の実位置から約12km ずれている。座標の修正が先" },
+    { "dest": "ryusendo", "name": "岩泉龍泉洞ホテル 龍のすみか（旧 龍泉洞温泉ホテル）", "reason": "destination(39.7072N)が龍泉洞の実位置から約16km ずれている。座標の修正が先" },
+    { "dest": "rokkozaki / suzu", "name": "ランプの宿", "reason": "能登半島地震の影響で休業中（珠洲市の案内）。再開時期の記載なし" },
+    { "dest": "gen_栃木_川俣温泉", "name": "川俣温泉 蔵", "reason": "公式 kura-ryokan.com が tajplazahotel.com へ301転送され、別ドメインに変わっていて事実確認できない。川俣一柳閣は2019年の台風以降の休館情報が前ラウンドで報告済み" },
+    { "dest": "gen_群馬_尻焼温泉", "name": "ホテル光山荘", "reason": "公式ページの取得結果が住所・施設名で食い違い（みなかみ町笠間と表示）、同一施設と確認できなかった" },
+    { "dest": "gen_群馬_花敷温泉", "name": "囲炉裏の御宿 花敷の湯", "reason": "公式サイトの証明書が自己署名で開けず、営業確認が取れなかった" },
+    { "dest": "teuri-island", "name": "旅館オロロン荘ほか", "reason": "公式サイトも大手OTAの個別掲載も確認できず、otaListed:false に必要な officialUrl が無い" },
+    { "dest": "awashima-island", "name": "旅館たてしま", "reason": "通年営業・電話予約の記載はあるが、宿自身の公式サイトが無く(島の観光ポータルのみ)、OTA掲載も未確認" },
+    { "dest": "gen_北海_雷電温泉", "name": "三浦屋旅館", "reason": "雷電温泉の施設は2019年までに全て閉館、営業中の宿なし" },
+    { "dest": "gen_北海_谷地頭温泉", "name": "谷地頭温泉", "reason": "日帰り入浴施設で宿泊施設ではない" },
+    { "dest": "korankei", "name": "三州足助香嵐渓 香嵐亭", "reason": "2025-02-01から期間未定で休館" },
+    { "dest": "minami-aizu", "name": "湯野上温泉の旅館各種", "reason": "湯野上は destination から約25km（距離超過）" },
+    { "dest": "ichinoseki-geibikei", "name": "かぢや別館 らまっころ山猫宿ほか", "reason": "宿自身の公式サイトを確認できなかった" },
+    { "dest": "複数（未確認）", "name": "御前崎・昇仙峡・木曽（奈良井宿）・七尾/輪島・越前・三方五湖・飛騨周辺", "reason": "候補は出たが、公式での営業確認または destination との距離確認まで至らず採用せず（件数を無理に埋めない方針）" }
+  ]
+}

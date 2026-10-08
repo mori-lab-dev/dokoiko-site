@@ -1,0 +1,920 @@
+{
+ "adopted": [
+  {
+   "id": "shirahama-o",
+   "name": "白浜",
+   "file": "File:131221 Shirarahama Beach Shirahama Wakayama pref Japan06s3bs.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan06s3bs.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "白良浜の特徴的な白砂のビーチと透明度の高い海が明るく見映えよく写っている。背景のホテル群も白浜の識別手がかりになっている。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Nanki Shirahama Airport Terminal.jpg"
+  },
+  {
+   "id": "ine",
+   "name": "伊根",
+   "file": "File:Panoramic view of Ine Bay 001.jpg",
+   "credit": {
+    "author": "Naokijp",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Ine_Bay_001.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "伊根湾の特徴的な風景で、舟屋の養殖筏が見え、周囲の山々と海の美しい景観が明るく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:Ineura Ine Bay 2017-04 ac (2).jpg"
+  },
+  {
+   "id": "obuse",
+   "name": "小布施",
+   "file": "File:Obuse buildings ac (2).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Obuse_buildings_ac_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "小布施の歴史的な建造物が明るく鮮明に写っている。看板により場所が特定可能。"
+    }
+   },
+   "pixelDiffAfter": 2.3,
+   "replaced": "File:Obuse town-office.jpg"
+  },
+  {
+   "id": "abashiri",
+   "name": "網走",
+   "file": "File:130714 Lake Abashiri Hokkaido Japan01bs5.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:130714_Lake_Abashiri_Hokkaido_Japan01bs5.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "網走湖の美しい水景と湿地帯の景観。明るく映映えよく、網走地域の自然風景として適切"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:Abashiri Hokkaido - random scenes - 2022 Aug 9 various 13 39 42 727000.jpeg"
+  },
+  {
+   "id": "kashiwajima",
+   "name": "柏島",
+   "file": "File:Kashiwajima (Otsuki), zenkei-1.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kashiwajima_(Otsuki),_zenkei-1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "柏島の特徴的な地形と養殖筏が写っており、柏島海岸と断定できる。明るく見映えよい景観写真。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:Kashiwajima Tourist Information Center.jpg"
+  },
+  {
+   "id": "chichibu",
+   "name": "秩父",
+   "file": "File:Zuishinmon Gate, Mitsumine Shrine, Chichibu - Sep 23, 2022.jpg",
+   "credit": {
+    "author": "Zengame",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Zuishinmon_Gate,_Mitsumine_Shrine,_Chichibu_-_Sep_23,_2022.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "秩父神社の三峰門と思われる朱色の楼門。金色の装飾と特徴的な建築が明瞭で、見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Seibu Kanko Bus anohana wrapping.jpg"
+  },
+  {
+   "id": "teshima",
+   "name": "豊島",
+   "file": "File:Teshima - 10498157796.jpg",
+   "credit": {
+    "author": "Kentaro Ohno",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Teshima_-_10498157796.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "豊島美術館の特徴的な建築（白い曲線構造）と瀬戸内海の景観が明るく写っており、この場所を象徴する景観です。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:TT-Toshima-station-sign.jpg"
+  },
+  {
+   "id": "kashima",
+   "name": "鹿嶋",
+   "file": "File:Kashima-jingu shasou.JPG",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kashima-jingu_shasou.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "鹿島神宮の参道を示す巨木の杉並木と石灯籠が特徴的。明るく見映えよく、鹿嶋の主要観光地を代表する景観。"
+    }
+   },
+   "pixelDiffAfter": 2.5,
+   "replaced": "File:Ibaraki-Kashima-City-Office.JPG"
+  },
+  {
+   "id": "monbetsu",
+   "name": "紋別",
+   "file": "File:ガリンコ号III IMERU 修理中.jpg",
+   "credit": {
+    "author": "Ryo FUKAsawa",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AC%E3%83%AA%E3%83%B3%E3%82%B3%E5%8F%B7III_IMERU_%E4%BF%AE%E7%90%86%E4%B8%AD.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "ガリンコ号の特徴的なオレンジ色の船体が明るく鮮明に写っており、紋別の主な見どころとして適切な画像。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:Boeing 737 of the monbetsu airport.jpg"
+  },
+  {
+   "id": "nakatosa",
+   "name": "中土佐",
+   "file": "File:Taishomachi Marcket ac (2).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Taishomachi_Marcket_ac_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "久礼大正市場の内部。特徴的な木造建築、看板、レトロな雰囲気が明確に写っており、その場所と断定可能。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Zeyopia ac (1).jpg"
+  },
+  {
+   "id": "gen_栃木_宇都宮二荒山神社",
+   "name": "宇都宮二荒山神社",
+   "file": "File:Utsunomiya Futaarayama Shrine - Jul 11, 2023.jpg",
+   "credit": {
+    "author": "Sergiy Galyonkin",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Utsunomiya_Futaarayama_Shrine_-_Jul_11,_2023.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "宇都宮二荒山神社の本殿が明るく鮮明に写っており、狛犬や装飾など特徴的な要素が見える。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:Writing tables at Utsunomiya-Futaarayama shrine.jpg"
+  },
+  {
+   "id": "nagatoro",
+   "name": "長瀞",
+   "file": "File:Nagatoro Keikoku, iwa-datami.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Nagatoro_Keikoku,_iwa-datami.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "長瀞岩畳の特徴的な岩盤と荒川、緑豊かな山々が明るく鮮明に写っており、紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 2.7,
+   "replaced": "File:Nagatoro Town Office.JPG"
+  },
+  {
+   "id": "higashi-chaya",
+   "name": "ひがし茶屋街",
+   "file": "File:ひがし茶屋街 01.jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%81%B2%E3%81%8C%E3%81%97%E8%8C%B6%E5%B1%8B%E8%A1%97_01.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "ひがし茶屋街の特徴的な木造建築と石畳通りが明るく見映えよく撮影されており、紹介画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:ひがし茶屋街 Higashiyama, Kanazawa - Jan 21, 2017.jpg"
+  },
+  {
+   "id": "gen_北海_北海道",
+   "name": "北海道",
+   "file": "File:Kushiro Marsh Wetland Hokkaido Panorama 2014.png",
+   "credit": {
+    "author": "Kzaral",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kushiro_Marsh_Wetland_Hokkaido_Panorama_2014.png",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "北海道の広大な丘陵地帯の風景が明るく見映えよく撮影されている。展望台からの眺望で北海道らしさが表現されている。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:140829 Ichiko of Shiretoko Goko Lakes Hokkaido Japan04s3.jpg"
+  },
+  {
+   "id": "gen_北海_菅野温泉",
+   "name": "菅野温泉",
+   "file": "File:然別湖 - panoramio (1).jpg",
+   "credit": {
+    "author": "Mamusi Taka",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%84%B6%E5%88%A5%E6%B9%96_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "湖上の鳥居は菅野温泉を代表する景観。森林と湖の美しい構図で、見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:かんの温泉全景.jpg"
+  },
+  {
+   "id": "fukuoka",
+   "name": "福岡",
+   "file": "File:Canalcityhakata2019.jpg",
+   "credit": {
+    "author": "Fukuoka Photo",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Canalcityhakata2019.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "キャナルシティ博多の特徴的な赤い大型オブジェと建築群が明確に写っており、福岡の象徴的な商業施設として識別可能。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Hakata Port from Fukuoka Tower.jpg"
+  },
+  {
+   "id": "hakushu",
+   "name": "白州",
+   "file": "File:Yamanashi Ojiro keikoku xl.jpg",
+   "credit": {
+    "author": "TAKAO_Tsushima",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Yamanashi_Ojiro_keikoku_xl.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "白州地域の豊かな自然を表現した渓谷風景。明るく美しい画像で紹介ページに適切。ただし特定の場所を示す標識がない。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "白州周辺の清流・渓谷の美しい自然風景で明るく見映えがよい"
+    }
+   },
+   "pixelDiffAfter": 2.1,
+   "replaced": "File:Michinoeki Hakushu and Mount Kaikoma.jpg"
+  },
+  {
+   "id": "isesaki",
+   "name": "伊勢崎",
+   "file": "File:Shidori-jinja (Isesaki) honden.JPG",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shidori-jinja_(Isesaki)_honden.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "華蔵寺公園内の歴史的建造物と秋の自然が調和した見映えの良い風景。明るく、ゲートウェイとして機能する。"
+    }
+   },
+   "pixelDiffAfter": 2.5,
+   "replaced": "File:Isesaki Station south 2020-11.jpg"
+  },
+  {
+   "id": "kumanokawa-onsen",
+   "name": "熊の川温泉",
+   "file": "File:Kumanokawa Onsen view.JPG",
+   "credit": {
+    "author": "Pekachu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kumanokawa_Onsen_view.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "熊ノ川沿いの自然風景が明るく写っており、温泉地の雰囲気を表現できている。山並みと川が特徴的。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:Kumanokawa Chidori no Yu entry signboard.jpg"
+  },
+  {
+   "id": "nachikatsuura",
+   "name": "那智勝浦",
+   "file": "File:Kumano-Nachi Taisha (51928795142).jpg",
+   "credit": {
+    "author": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kumano-Nachi_Taisha_(51928795142).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "那智勝浦の象徴的な建築と山々の風景。明るく見映えよく撮影されており、紹介画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:那智勝浦港の夕陽.jpg"
+  },
+  {
+   "id": "shitara",
+   "name": "設楽",
+   "file": "File:Mt.Tyausu Moss phlox.jpg",
+   "credit": {
+    "author": "Bariston",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mt.Tyausu_Moss_phlox.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "茶臼山高原の芝桜まつりの風景。鮮やかなピンク色の芝桜と雄大な山々が映え、訪問客の多さもスポットの人気を示している。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": "File:道の駅 つぐ高原グリーン・パーク.jpg"
+  },
+  {
+   "id": "utsukushigahara",
+   "name": "美ヶ原",
+   "file": "File:250426 At Utsukushigahara Nagano pref Japan01s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:250426_At_Utsukushigahara_Nagano_pref_Japan01s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "美ヶ原高原の雄大な景観と美しの塔が写っており、朝焼けの光で明るく見映えよく撮影されている"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:(長野県) 霧ケ峰草原。諏訪湖からすぐそば。少し行くと美ヶ原がある。 - panoramio.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "iriomote",
+   "name": "西表島",
+   "current": "File:Iriomote.jpg",
+   "candidates": 47,
+   "tried": [
+    {
+     "title": "File:Iriomotejima kotsu bus 2024.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "バスが主体で、西表島やピナイサーラの滝の風景・景観が全く写っていない。交通手段の写真であり、紹介画像に不適切。"
+    },
+    {
+     "title": "File:Ticket office at Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "旅行ツアー拠点の駅舎であり、ピナイサーラの滝のような自然風景ではない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Souvenir shop on Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "小売店舗の外観。ピナイサーラの滝など西表島の自然景観が写っていない。ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Restaurants on Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "店舗・休憩施設の外観で、ピナイサーラの滝などの自然景観が写っていない。紹介画像として不適切。"
+    },
+    {
+     "title": "File:Ox cart on Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "水上タクシー乗り場の施設が写っているが、ピナイサーラの滝そのものが写っていない。滝への移動手段の写真であり、見どころの風景ではない。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan12bs4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "西表島の海岸風景だが、ピナイサーラの滝は写っていない。滝が主見どころなのに不適切。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan03s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "庭園や公園の植栽景観。ピナイサーラの滝の写真ではなく、特定地点を示す手がかりがない。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan05s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "造園された花壇と散策路の屋外施設。西表島やピナイサーラの滝を特定できる要素がなく、どこかの公園・植物園の可能性が高い。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan09s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "看板・のれん・建物など施設の要素が主役。ピナイサーラの滝の風景ではなく、飲食店などの施設が写っている。"
+    }
+   ]
+  },
+  {
+   "id": "onna",
+   "name": "恩納村",
+   "current": "File:Views of Onna 21.jpg",
+   "candidates": 118,
+   "tried": [
+    {
+     "title": "File:Just leave it like this, it already looks good (33446484946).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "電力塔と工事用設備が目立ち、万座毛の特徴的な断崖絶壁が写っていない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Just leave it like this, it already looks good (32644022664).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "電線と鉄塔が目立ち、万座毛の特徴的な崖が写っていない。汎用的な夕焼け風景で恩納村固有の見どころとして識別困難。"
+    },
+    {
+     "title": "File:Lines up the hill (33305964681).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "電柱・電線・ガードレールが主体で、恩納村の見どころを表現していない"
+    },
+    {
+     "title": "File:Bright and warm (33050974650).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "沖縄の道路風景ですが、万座毛の特徴的な絶壁や海が見えず、電柱・電線が目立つため見映えが良くありません。"
+    },
+    {
+     "title": "File:Lines into the sunset (33446531176).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "電柱と電線が主体。恩納村や万座毛の景観を表現できていない。"
+    },
+    {
+     "title": "File:Electrical Power (32620059473).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "高圧鉄塔が主役。恩納村の観光地には相応しくない。万座毛の景観ではない。"
+    },
+    {
+     "title": "File:Back down the running track and into the sun (32643981274).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "電柱・電線が主役となっており、恩納村や万座毛の特徴的な景観が見えない。紹介画像として不適切。"
+    },
+    {
+     "title": "File:Onna Okinawa Japan Cape-Manzamo-02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "看板が主役になっており、風景の紹介画像に不適切。背景の海と崖は見えるが、看板が占める割合が大きすぎる。"
+    },
+    {
+     "title": "File:Just leave it like this, it already looks good (33359219481).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "送電塔と工事現場が主体。万座毛の特徴的な絶壁・海の景観が写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "yubu-island",
+   "name": "由布島",
+   "current": "File:Restaurants on Yubu Island.jpg",
+   "candidates": 57,
+   "tried": [
+    {
+     "title": "File:Ticket office at Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "チケット売り場などの施設が主体。水牛車や自然風景がなく、ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Souvenir shop on Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "駅舎・売店などの施設が主体で、由布島の風景・水牛車などの見どころが写っていない。"
+    },
+    {
+     "title": "File:Ox cart on Yubu Island.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "水牛車が置かれた駐車エリアの写真。乗車体験の風景ではなく、施設の駐車状況が主体となっており、由布島の魅力を伝える紹介画像として不適切。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan12bs4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "由布島の風景ですが、主な見どころの水牛車が写っていません。浜辺の風景のみで特定性に欠けます。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan03s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "由布島の主見どころである水牛車が写っていない。植物園の風景のみで、地域固有性が不足。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan05s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "由布島の主な見どころ（水牛車）が写っていない。園内の花壇と遊歩道で、特定の場所を断定できない。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan09s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "看板・案内標識・建物が主体。由布島の風景や水牛車が見当たらない。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan06s3s4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "由布島の特徴である水牛車が写っていない。南国の植生は見えるが、由布島と特定できる手がかりがない。"
+    },
+    {
+     "title": "File:Yubu Island Okinawa Pref Japan08n4592.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "建物・施設が主体で、由布島の象徴である水牛車が写っていない。屋外施設だが紹介画像として不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_静岡_2",
+   "name": "須走温泉",
+   "current": "File:Sugawa spa sunset.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_佐賀_1",
+   "name": "白石温泉",
+   "current": "File:泡の湯 Awanoyu - panoramio.jpg",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Lotus roots pre-harvest fields in Fukudomi, Shiroishi, Saga.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "れんこん畑の収穫後の枯れた状態で、見映えが悪く、観光地のヒーロー画像に不適切"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_戸切地陣屋",
+   "name": "戸切地陣屋",
+   "current": "File:KIMG0198.jpg",
+   "candidates": 9,
+   "tried": [
+    {
+     "title": "File:サヴァール教本と戸切地陣屋の比較.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "陣屋の設計図・図面であり、実際の風景写真ではない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:The view to the north from Hekirichi Bastion Fort.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が写っていない。北海道の一般的な農村風景だが、特定の場所を示す手がかりがない。"
+    },
+    {
+     "title": "File:戸切地陣屋外郭構造.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "文字の焼き込み・図面・解説付きで、紹介ページのヒーロー画像として不適切"
+    },
+    {
+     "title": "File:戸切地陣屋砲台構造.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋外",
+     "reason": "教育的な図解画像。学習用に各部名称の注釈が大量にあり、紹介画像としては不適切。"
+    },
+    {
+     "title": "File:戸切地陣屋平面構造図.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "図表",
+     "reason": "戸切地陣屋の建造物や風景がなく、建築図面・設計図のみ。紹介画像として不適切。"
+    },
+    {
+     "title": "File:きじひき高原 パノラマ展望台より 2 (51384249473).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が写っておらず、汎用的な雑木林と平野の風景のみ。特定場所の判定不可。"
+    },
+    {
+     "title": "File:きじひき高原 パノラマ展望台より 1 (51384741489).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が写っておらず、一般的な山景観のみ。陣屋の紹介画像として不適切。"
+    },
+    {
+     "title": "File:The view to the east from Hekirichi basution Fort, with Goryokaku located almost directly in front.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が見当たらず、一般的な農村風景。赤矢印で指示がある施設も判別困難。"
+    },
+    {
+     "title": "File:Inner Enclosure Structures of Hekirichi Bastion Fort (Initial Phase).png",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "地図・図表・イラスト",
+     "reason": "戸切地陣屋の平面図・イラストです。実際の風景写真ではなく図表のため、ヒーロー画像には不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "niche_京都_5",
+   "name": "由良川渓谷",
+   "current": null,
+   "candidates": 4,
+   "tried": [
+    {
+     "title": "File:Gunze memorial hall01s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の見どころではなく、町中の歴史的建造物。渓谷の風景がなく不適切。"
+    },
+    {
+     "title": "File:Gunze memorial hall02s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の紹介画像として不適切。渓谷の風景ではなく、建築物（役所等の公共施設）が主体で、渓谷景観を表現していない。"
+    },
+    {
+     "title": "File:Gunze01s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の見どころではなく、町並みの建築物が主体。渓谷景観や高屋橋が映っていない。"
+    },
+    {
+     "title": "File:Gunze04s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "由良川渓谷の風景ではなく、施設・庭園の一角。渓谷の景観が見当たらない。"
+    }
+   ]
+  }
+ ]
+}

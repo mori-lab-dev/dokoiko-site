@@ -1,0 +1,911 @@
+{
+ "adopted": [
+  {
+   "id": "otaru",
+   "name": "小樽",
+   "file": "File:小樽運河 - panoramio (7).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3_-_panoramio_(7).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "小樽運河の特徴的な倉庫群と運河が明確に写っており、青空も映えている。紹介画像として最適。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:魚板, 魚板榮, KAMA榮, 小樽, 北海道, 日本, Kamaei, Otaru, Hokkaido, Japan, かま栄, 工場直売店, おたるし, ほっかいどう, にっぽん, にほん (32871713447).jpg"
+  },
+  {
+   "id": "hiraizumi",
+   "name": "平泉",
+   "file": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (03).jpg",
+   "credit": {
+    "author": "_steffen",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hiraizumi%27s_surroundings,_Iwate_Prefecture;_August_2018_(03).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "中尊寺金色堂の参道と建造物が、明るく見映えよく撮影されている。樹齢の長い杉木立と建築が平泉の景観を象徴している。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:Michinoeki Hiraizumi 02.JPG"
+  },
+  {
+   "id": "akita",
+   "name": "秋田",
+   "file": "File:Akita kanto matsuri xl.jpg",
+   "credit": {
+    "author": "https://search.find47.jp/ja/i/unXp4",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Akita_kanto_matsuri_xl.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "秋田竿燈まつりの象徴的な提灯装飾が鮮明に映っており、秋田を代表する祭りとして十分な認識性がある。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Akita Airport Domestic Terminal 20190602.jpg"
+  },
+  {
+   "id": "tsumago",
+   "name": "妻籠",
+   "file": "File:Tsumago-juku(post town) , 妻籠宿 本陣 - panoramio.jpg",
+   "credit": {
+    "author": "z tanuki",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tsumago-juku(post_town)_,_%E5%A6%BB%E7%B1%A0%E5%AE%BF_%E6%9C%AC%E9%99%A3_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "妻籠宿の古民家群と本陣が明るく見映えよく写っており、江戸時代の宿場町の雰囲気が伝わる良好な画像です。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:妻籠城ー本丸跡.JPG"
+  },
+  {
+   "id": "izu-kogen",
+   "name": "伊豆高原",
+   "file": "File:大室山八ヶ岳地蔵尊.jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%AE%A4%E5%B1%B1%E5%85%AB%E3%83%B6%E5%B2%B3%E5%9C%B0%E8%94%B5%E5%B0%8A.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "大室山の麓の羅漢像群と背景の山々が特徴的。青空と緑が映えており、伊豆高原の風景を代表する要素が含まれている。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": "File:伊豆高原駅 - panoramio (1).jpg"
+  },
+  {
+   "id": "choshi",
+   "name": "銚子",
+   "file": "File:犬吠埼灯台 - panoramio (1).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%8A%AC%E5%90%A0%E5%9F%BC%E7%81%AF%E5%8F%B0_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "犬吠埼灯台の特徴的な白い塔が明るく見映えよく撮影されており、銚子の象徴的な景観として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:サルエビかき揚げ（犬若食堂・千葉県銚子市犬若）20250222-P1064474.jpg"
+  },
+  {
+   "id": "kikuchi",
+   "name": "菊池",
+   "file": "File:Kikuchi Gorge Hirogawara 20240518.jpg",
+   "credit": {
+    "author": "ja:User:Sanjo",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kikuchi_Gorge_Hirogawara_20240518.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "菊池渓谷の特徴的な清流、苔むした岩、渓谷を覆う豊かな緑が明るく見映えよく撮影されている。紹介画像として最適。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:熊本県菊池市立菊池南中学校.jpg"
+  },
+  {
+   "id": "myoko-kogen",
+   "name": "妙高高原",
+   "file": "File:Mout Myoko from Imori-ike (7695777960).jpg",
+   "credit": {
+    "author": "TANAKA Juuyoh (田中十洋)",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mout_Myoko_from_Imori-ike_(7695777960).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "妙高山の特徴的な山容が明るく美しく写されており、高原の風景として申し分ない構図。看板や駅設備も無く、紹介画像に最適。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:Myoko-Kogen sta SR1-S308+ET127-V1.jpg"
+  },
+  {
+   "id": "kujukuri",
+   "name": "九十九里",
+   "file": "File:蓮沼海浜公園付近（九十九里浜、山武市） - panoramio.jpg",
+   "credit": {
+    "author": "☆ブロッコリーマン☆",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E8%93%AE%E6%B2%BC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%E4%BB%98%E8%BF%91%EF%BC%88%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C%E3%80%81%E5%B1%B1%E6%AD%A6%E5%B8%82%EF%BC%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "九十九里浜の広大な砂浜と波が明るく見映えよく写っている。ただし具体的な特徴物がなく場所特定は困難。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "広大な砂浜と青空が美しく映えるビーチ景観だが場所を特定する手がかりはない"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": "File:Kujukuri town landscapes.jpg"
+  },
+  {
+   "id": "ryusendo",
+   "name": "龍泉洞",
+   "file": "File:龍泉洞の前の谷川 - panoramio.jpg",
+   "credit": {
+    "author": "Mamusi Taka",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%BE%8D%E6%B3%89%E6%B4%9E%E3%81%AE%E5%89%8D%E3%81%AE%E8%B0%B7%E5%B7%9D_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "龍泉洞周辺の清流と遊歩道。木立の中を流れる美しい渓流と整備された散策路が写っており、龍泉洞の自然景観を良く表現している。明るく見映えよい構図。"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": "File:Ryusendo Cave Underground Lake R0012465 20201115101018.JPG"
+  },
+  {
+   "id": "nagi",
+   "name": "奈義",
+   "file": "File:Nagi MOCA.jpg",
+   "credit": {
+    "author": "Phronimoi",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Nagi_MOCA.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "奈義町現代美術館の特徴的な赤い立方体建築と白い円形オブジェが写っており、明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:Nagi-jinja shaden.JPG"
+  },
+  {
+   "id": "takasaki",
+   "name": "高崎",
+   "file": "File:Takasaki Kannon 6.jpg",
+   "credit": {
+    "author": "photo: Qurren (talk) Taken with Canon IXY 10S (Digital IXUS 210)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Takasaki_Kannon_6.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "高崎白衣大観音が明るく鮮明に撮影されており、紹介画像として適切。見映えも良い。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "高崎白衣大観音の白い巨大像が青空背景で明瞭に写り見映えよい"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:JRE-Takasaki-STA Home5-6.jpg"
+  },
+  {
+   "id": "kurikoma",
+   "name": "栗駒",
+   "file": "File:Mount Kurikoma panorama (53344291491).jpg",
+   "credit": {
+    "author": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Kurikoma_panorama_(53344291491).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "栗駒山の特徴的な山容と紅葉の景観が明るく美しく写っている。山岳風景として見映えが良い。"
+    }
+   },
+   "pixelDiffAfter": 2.3,
+   "replaced": "File:名残ヶ原からの須川岳（栗駒山） Peak Sukawa(Mt. Kurikoma) from Nagoriga-hara marsh - panoramio.jpg"
+  },
+  {
+   "id": "kakeroma-island",
+   "name": "加計呂麻島",
+   "file": "File:Oochon jinja Torii.jpg",
+   "credit": {
+    "author": "Suikotei",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Oochon_jinja_Torii.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "加計呂麻島の神社鳥居と思われる。社号標が見え、特徴的な建造物として識別可能。島の文化的景観を表現している。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:Ferry Kakeroma at Ikenma Port 20180430.jpg"
+  },
+  {
+   "id": "niihama",
+   "name": "新居浜",
+   "file": "File:Niihama Country Club, Niihama Ehime Aerial photograph.2010.jpg",
+   "credit": {
+    "author": "国土地理院",
+    "license": "Attribution",
+    "url": "https://commons.wikimedia.org/wiki/File:Niihama_Country_Club,_Niihama_Ehime_Aerial_photograph.2010.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "別子銅山の露天掘り跡が特徴的に写っており、新居浜の歴史を象徴する風景。航空写真で見映えよく表現されている。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:愛媛県新居浜市出土 平形銅剣.JPG"
+  },
+  {
+   "id": "ashinoko",
+   "name": "芦ノ湖",
+   "file": "File:260504 Moto-Hakone Hakone Japan01s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:260504_Moto-Hakone_Hakone_Japan01s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "芦ノ湖の湖面と周囲の山々、桟橋が明るく見映えよく写っている。箱根の特徴的な風景が確認できる。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:The Prince Hakone Lake Asinoko (Winter) 2019.png"
+  },
+  {
+   "id": "aomori-hirosaki-2",
+   "name": "弘前城",
+   "file": "File:Tsuru-no-matsu the large pine tree in Hirosaki Castle.jpg",
+   "credit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tsuru-no-matsu_the_large_pine_tree_in_Hirosaki_Castle.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "弘前城公園の象徴的な樹齢300年を超える老松と石垣が写っており、明るく見映えよい景観。弘前城の特徴的風景として識別可能。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Hirosaki Castle 弘前城 (2492837538).jpg"
+  },
+  {
+   "id": "gen_北海_水無海浜温泉",
+   "name": "水無海浜温泉",
+   "file": "File:Mizunashi Kaihin onsen (hot spring bath), Hakodate, Japan.jpg",
+   "credit": {
+    "author": "OKJaguar",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mizunashi_Kaihin_onsen_(hot_spring_bath),_Hakodate,_Japan.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "磯の風景と温泉の特徴的な岩場・湯だまりが明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:Mizunasi kaihin spa kantyou.jpg"
+  },
+  {
+   "id": "gen_北海_養老牛温泉",
+   "name": "養老牛温泉",
+   "file": "File:開陽台からの武佐岳.jpg",
+   "credit": {
+    "author": "Koda6029",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%96%8B%E9%99%BD%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E6%AD%A6%E4%BD%90%E5%B2%B3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "北海道の雄大な山々と緑の景観が美しく撮影されており、養老牛温泉周辺の典型的な風景として適切。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:Yorousi spa karamatu no yu 2009.jpg"
+  },
+  {
+   "id": "chiba-ko",
+   "name": "幸手",
+   "file": "File:権現堂桜堤 01.jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%A8%A9%E7%8F%BE%E5%A0%82%E6%A1%9C%E5%A0%A4_01.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "権現堂桜堤の象徴的な景観。桜並木と菜の花畑の美しいコントラストが映えており、紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Satte Gongendo Bank In Spling 1.JPG"
+  },
+  {
+   "id": "gen_北海_ウトロ温泉",
+   "name": "ウトロ温泉",
+   "file": "File:140828 Utoro Port Shari Hokkaido Japan05bs5.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140828_Utoro_Port_Shari_Hokkaido_Japan05bs5.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "ウトロ温泉の海岸線と温泉施設、知床の山々が明るく見映えよく写っている。特徴的な景観。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:140828 Utoro Port Shari Hokkaido Japan04bs.jpg"
+  },
+  {
+   "id": "karuizawa",
+   "name": "軽井沢",
+   "file": "File:Old Karuizawa ginza06n3872.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Old_Karuizawa_ginza06n3872.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "旧軽井沢銀座の街並みが明るく見映えよく撮影されている。特徴的な建築と看板から場所が判定できる。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:軽井沢駅からの風景 - panoramio.jpg"
+  },
+  {
+   "id": "niche_徳島_4",
+   "name": "藍住町",
+   "file": "File:藍住町総合文化ホール 徳島県 Jun 1, 2024.jpg",
+   "credit": {
+    "author": "nagi usano",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E8%97%8D%E4%BD%8F%E7%94%BA%E7%B7%8F%E5%90%88%E6%96%87%E5%8C%96%E3%83%9B%E3%83%BC%E3%83%AB_%E5%BE%B3%E5%B3%B6%E7%9C%8C_Jun_1,_2024.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "藍の館の現代的な外観が明るく見映えよく撮影されている。建物の特徴的なデザインで識別可能。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:Aizumi town hall.JPG"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "niche_鳥取_5",
+   "name": "小松温泉",
+   "current": "File:Ogawa Onsen Motoyu Doukutu.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_宮崎_4",
+   "name": "渡川温泉",
+   "current": "File:渡瀬温泉（わたらせ温泉） 大露天風呂.JPG",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_塩別温泉",
+   "name": "塩別温泉",
+   "current": "File:Shiobetsu-turuturu-Onsen 2009.jpg",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Shiobetu Tsurutsuru onsen 2011.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉旅館の建物ですが、曇天で地味、景観価値が低い。ヒーロー画像には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "himakajima",
+   "name": "日間賀島",
+   "current": "File:Himakajima West Port 2019-06 ac.jpg",
+   "candidates": 32,
+   "tried": [
+    {
+     "title": "File:Himakajima Donkaiin 2019-06 ac.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "寺院と思われる建築物で、日間賀島の特定の名所とは判断できない。港の風景ではなく屋内施設。"
+    },
+    {
+     "title": "File:Himakajima Service Center 2019-06 ac.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港湾施設の建物のみで、日間賀島の風景・景観が見えない。ヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:Himakajima Anrakuji 2019-06 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "寺社の屋内展示・資料が主役。島の風景や港の景観ではない屋内写真。"
+    },
+    {
+     "title": "File:Himakajima West Port 2019-06 ac (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "港の待合室などの屋内施設。島の風景や景観が写っておらず、ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Himakajima East Port 2019-06 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "港の設備",
+     "reason": "港の乗降施設と船が主体。島の風景や景観ではなく港の設備が中心で、紹介ページのヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:Himakajima Choshinji 2019-06 ac (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島の特定の建築物ですが、ヒーロー画像として島全体の魅力を表現できていません。港の風景ではなく寺院境内の撮影です。"
+    },
+    {
+     "title": "File:Himakajima Anrakuji 2019-06 ac (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島港の紹介画像として不適切。寺院の建築が主体で、島固有の風景・港湾景観が写っていない。"
+    },
+    {
+     "title": "File:Himakajima Choshinji 2019-06 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島の寺院建築ですが、港の風景ではなく、ヒーロー画像としては島の特徴性に欠けます。"
+    },
+    {
+     "title": "File:Himakajima Anrakuji 2019-06 ac (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島の寺院門と思われるが、港や島の風景ではなく屋内施設。ヒーロー画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "makurazaki",
+   "name": "枕崎",
+   "current": "File:Makurazaki Port inner harbor 250817.jpg",
+   "candidates": 28,
+   "tried": [
+    {
+     "title": "File:Makurazaki Fisheries Center 250817.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "枕崎市水産センターなどの施設建築であり、港の風景・景観ではない。"
+    },
+    {
+     "title": "File:Makurazaki-STA Inside.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の施設内部。駅舎や観光施設の待合室と見られますが、枕崎港の風景・景観が写っていません。"
+    },
+    {
+     "title": "File:Makurazaki-STA Entrance.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "枕崎駅の駅舎が主役になっており、港の風景ではなく駅施設の紹介になっています。"
+    },
+    {
+     "title": "File:Makurazaki-STA Bus-waiting-space.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港の設備・駐車場が主役。枕崎の風景・景観として見映えが悪く、紹介画像に不適切。"
+    },
+    {
+     "title": "File:Makurazaki city center area Aerial photograph.1975.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "航空写真で港湾施設が主体。紹介画像には風景・景観の見映えが不足している。"
+    },
+    {
+     "title": "File:海道八景No.8 耳取峠.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "枕崎港の特定の手がかりが不足。一般的な海岸風景で、枕崎固有の見どころが明確でない。"
+    },
+    {
+     "title": "File:受難鎮魂之碑（戦艦大和など枕崎市）.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "枕崎港の記念碑・モニュメント施設の写真で、港の風景ではなく屋外展示物が主体。ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:殉難鎮魂之碑裏面（枕崎市）.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "記念碑と案内板が主体。枕崎港の風景・景観として見映えが悪く、紹介画像に不適切。"
+    },
+    {
+     "title": "File:Makurazaki ekisha.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "枕崎駅の駅舎が主役の写真。港の風景ではなく駅施設のため不適切。"
+    }
+   ]
+  },
+  {
+   "id": "tango-kyoto",
+   "name": "丹後",
+   "current": "File:加悦鉄道 丹後四辻駅跡-04.jpg",
+   "candidates": 40,
+   "tried": [
+    {
+     "title": "File:WUL-bunko31 e0544 丹後国天橋立之図 (cropped).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "古い版画・地図で現代の風景写真ではない。紹介画像として不適切。"
+    },
+    {
+     "title": "File:丹後海陸交通 傘松↔︎成相寺.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "バス停留所の施設が主体。丹後の景観や名所が写っていません。"
+    },
+    {
+     "title": "File:Kyotango City Tango Library 2021-02 ac (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の窓から撮影した風景。ヒーロー画像には屋外の開放的な景観が必要です。"
+    },
+    {
+     "title": "File:JASDF Kyougamisaki Sub Base 2021-04 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "電線が目立ち、海岸の緑の景観のみで伊根の舟屋などの特徴的な見どころが写っていない。"
+    },
+    {
+     "title": "File:Tenki Tenki Tango 2021-02 ac.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅舎または道の駅などの施設で、ヒーロー画像として不適切。丹後の風景・名所ではない。"
+    },
+    {
+     "title": "File:JASDF Kyougamisaki Sub Base 2021-04 ac (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "工業施設・インフラ設備が主体。丹後の風景や伊根の舟屋とは無関係。"
+    },
+    {
+     "title": "File:丹後の大溝.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "農業用パイプラインと雑草地。丹後の特徴的な風景や名所が不明。紹介画像に不適切。"
+    },
+    {
+     "title": "File:京都府京丹後市久美浜町蒲井（集落南側）の地蔵.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "小規模な石仏群の写真。丹後の主な見どころ（伊根の舟屋など）の風景・景観として適さない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:京都府京丹後市久美浜町蒲井の仏像を納めた堂.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "小規模な祠・屋根の老朽化が目立ち、丹後の主要景観として不適切。見映えが悪い。"
+    }
+   ]
+  },
+  {
+   "id": "yokosuka",
+   "name": "横須賀",
+   "current": "File:Nagai Port, Yokosuka, Japan CIMG0480.jpg",
+   "candidates": 56,
+   "tried": [
+    {
+     "title": "File:220706-N-OC881-1050 - Yokosuka NEX wins Best of Pacific Award.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内のデパート・商業施設内のイベント会場。猿島の風景・景観が全く写っていない。"
+    },
+    {
+     "title": "File:220706-N-OC881-1003 - Yokosuka NEX wins Best of Pacific Award.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内施設での人物記念撮影。猿島の風景・景観が全く映っていません。"
+    },
+    {
+     "title": "File:赤星直忠の墓.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "墓地の写真であり、猿島の景観や見どころとは無関係。紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Verny Park, Yokosuka - Oct 31, 2015.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "横須賀の海岸公園の風景だが、猿島の特徴的な景観が映っていない。都市風景が主役であり見どころの紹介に不適切。"
+    },
+    {
+     "title": "File:Sarushima Yokosuka 211016g.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の展示施設・資料館の内部写真。猿島の紹介ページのヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Sarushima Yokosuka 211016c.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "猿島の風景・景観より施設の屋内外観が主体。紹介画像は島の自然美や名所を優先すべき。"
+    },
+    {
+     "title": "File:Sarushima Yokosuka 211016d.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "猿島の施設内部（食堂・休憩所）。風景より施設と人物が主役になっており、ヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:Sarushima Yokosuka 211016i.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "猿島へのフェリー船が主役だが、港の設備・船そのものが対象。横須賀や猿島の風景・名所が写っていない。"
+    },
+    {
+     "title": "File:Sarushima Yokosuka 211016b.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港の設備（船舶と桟橋）が主体。猿島の風景や景観が写っておらず、紹介画像に不適切。"
+    }
+   ]
+  }
+ ]
+}

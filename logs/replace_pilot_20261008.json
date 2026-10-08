@@ -1,0 +1,71 @@
+{
+ "adopted": [
+  {
+   "id": "kirishima",
+   "name": "霧島",
+   "file": "File:Kirishima-Jingu Front.jpg",
+   "credit": {
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kirishima-Jingu_Front.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "霧島神宮の本殿が鮮明に写っており、特徴的な朱塗りの社殿と周囲の緑が映えている。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 2.1,
+   "replaced": "File:Kagoshima Airport01n4592.jpg"
+  },
+  {
+   "id": "sakurajima-onsen",
+   "name": "古里温泉",
+   "file": "File:Furusato Hotsprings and Route 224 For Tarumizu View From Furusato Park.jpg",
+   "credit": {
+    "author": "Sakoppi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Furusato_Hotsprings_and_Route_224_For_Tarumizu_View_From_Furusato_Park.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "古里温泉の温泉旅館と桜島・錦江湾の風景が明るく見映えよく写っている。地形と建築で特定可能。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:Kirishima Onsen01n4592.jpg"
+  },
+  {
+   "id": "kyoto",
+   "name": "京都",
+   "file": "File:Sunlight through clouds and view of Ginkaku-ji Temple from above, Kyoto, Japan.jpg",
+   "credit": {
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sunlight_through_clouds_and_view_of_Ginkaku-ji_Temple_from_above,_Kyoto,_Japan.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "清水寺の特徴的な建築（舞台造り）と京都の山並みが明るく見映えよく写っており、紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:京都府福知山市夜久野町板生の庚申塔.jpg"
+  }
+ ],
+ "unresolved": []
+}

@@ -111,11 +111,27 @@ function acceptable(c, d, current) {
   return true;
 }
 
+/** 記事のリード画像（ja/en の Wikipedia）。Commons にあるファイルだけ拾う。記事を書いた人が選んだ代表写真なので所在地の外れが少ない */
+async function pageImages(title) {
+  const out = [];
+  for (const lang of ['ja', 'en']) {
+    const j = await http(`https://${lang}.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=name&redirects=1&titles=${encodeURIComponent(title)}`);
+    const name = Object.values(j?.query?.pages || {})[0]?.pageimage;
+    await sleep(250);
+    if (!name) continue;
+    const k = await http(`https://commons.wikimedia.org/w/api.php?action=query&format=json&${IMG_Q}&titles=${encodeURIComponent('File:' + name)}`);
+    out.push(...pack(k?.query?.pages));
+    await sleep(250);
+  }
+  return out;
+}
+
 async function gather(d, current) {
   const spotNames = (d.spots || []).filter((s) => s && typeof s === 'object').map((s) => s.name).filter(Boolean);
   const jaTitles = [...new Set([d.mainSpot, d.name, spotNames[0]].filter(Boolean))];
   const pool = new Map();
   const add = (list) => { for (const c of list) if (!pool.has(c.title)) pool.set(c.title, c); };
+  for (const ja of jaTitles.slice(0, 3)) { add(await pageImages(ja)); }
   for (const ja of jaTitles.slice(0, 3)) {
     const en = await enTitle(ja);
     await sleep(250);

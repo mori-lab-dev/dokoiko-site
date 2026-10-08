@@ -1,0 +1,2682 @@
+[
+ {
+  "id": "karuizawa",
+  "name": "軽井沢",
+  "prefecture": "長野県",
+  "file": "File:Old Karuizawa ginza06n3872.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:Old_Karuizawa_ginza06n3872.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/karuizawa/main.jpg",
+  "pixelDiff": 2.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ishigaki",
+  "name": "石垣島",
+  "prefecture": "沖縄県",
+  "file": "File:Kabira Bay (52117120293).jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_(52117120293).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ishigaki/main.jpg",
+  "pixelDiff": 0.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "otaru",
+  "name": "小樽",
+  "prefecture": "北海道",
+  "file": "File:小樽運河 - panoramio (7).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3_-_panoramio_(7).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/otaru/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "shodoshima",
+  "name": "小豆島",
+  "prefecture": "香川県",
+  "file": "File:201211Kankakei Shodoshima Kagawa pref Japan02s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:201211Kankakei_Shodoshima_Kagawa_pref_Japan02s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/shodoshima/main.jpg",
+  "pixelDiff": 1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hakone",
+  "name": "箱根",
+  "prefecture": "神奈川県",
+  "file": "File:161223 Lake Ashi Hakone Japan02n.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:161223_Lake_Ashi_Hakone_Japan02n.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hakone/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "izu-oshima",
+  "name": "伊豆大島",
+  "prefecture": "東京都",
+  "file": "File:Mount Mihara on Izu Oshima in Japan - 2016-03-26 A.jpg",
+  "credit": {
+   "author": "Kentaro Ohno (https://www.flickr.com/photos/inucara/)",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mount_Mihara_on_Izu_Oshima_in_Japan_-_2016-03-26_A.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/izu-oshima/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "weak",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kinosaki-onsen",
+  "name": "城崎温泉",
+  "prefecture": "兵庫県",
+  "file": "File:161030 Kinosaki Onsen Toyooka Hyogo pref Japan09s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:161030_Kinosaki_Onsen_Toyooka_Hyogo_pref_Japan09s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kinosaki-onsen/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "shirahama-o",
+  "name": "白浜",
+  "prefecture": "和歌山県",
+  "file": "File:131221 Shirarahama Beach Shirahama Wakayama pref Japan06s3bs.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan06s3bs.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/shirahama-o/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "amakusa",
+  "name": "天草",
+  "prefecture": "熊本県",
+  "file": "File:Tenmon Bridge ac (1).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Tenmon_Bridge_ac_(1).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/amakusa/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hiraizumi",
+  "name": "平泉",
+  "prefecture": "岩手県",
+  "file": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (03).jpg",
+  "credit": {
+   "author": "_steffen",
+   "license": "CC BY-SA 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Hiraizumi%27s_surroundings,_Iwate_Prefecture;_August_2018_(03).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hiraizumi/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "aizu",
+  "name": "会津若松",
+  "prefecture": "福島県",
+  "file": "File:Aizuwakamatsu Castle ac (2).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Aizuwakamatsu_Castle_ac_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/aizu/main.jpg",
+  "pixelDiff": 3.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "uwajima",
+  "name": "宇和島",
+  "prefecture": "愛媛県",
+  "file": "File:Uwajima Castle, honmaru ishigaki-2.jpg",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Uwajima_Castle,_honmaru_ishigaki-2.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/uwajima/main.jpg",
+  "pixelDiff": 3.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "shiretoko",
+  "name": "知床",
+  "prefecture": "北海道",
+  "file": "File:140829 Niko of Shiretoko Goko Lakes Hokkaido Japan07s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:140829_Niko_of_Shiretoko_Goko_Lakes_Hokkaido_Japan07s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/shiretoko/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ine",
+  "name": "伊根",
+  "prefecture": "京都府",
+  "file": "File:Panoramic view of Ine Bay 001.jpg",
+  "credit": {
+   "author": "Naokijp",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Ine_Bay_001.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ine/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "sasebo",
+  "name": "佐世保",
+  "prefecture": "長崎県",
+  "file": "File:Kujukushima islands (49657979023).jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kujukushima_islands_(49657979023).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/sasebo/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "akita",
+  "name": "秋田",
+  "prefecture": "秋田県",
+  "file": "File:Akita kanto matsuri xl.jpg",
+  "credit": {
+   "author": "https://search.find47.jp/ja/i/unXp4",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Akita_kanto_matsuri_xl.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/akita/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "oboke",
+  "name": "大歩危",
+  "prefecture": "徳島県",
+  "file": "File:Oboke gorge pleasure boat 2106 August 13.B.jpg",
+  "credit": {
+   "author": "さかおり",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Oboke_gorge_pleasure_boat_2106_August_13.B.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/oboke/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yuda-onsen",
+  "name": "湯田温泉",
+  "prefecture": "山口県",
+  "file": "File:140720 Ruriko-ji Yamaguchi Yamaguchi pref Japan04s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:140720_Ruriko-ji_Yamaguchi_Yamaguchi_pref_Japan04s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yuda-onsen/main.jpg",
+  "pixelDiff": 1.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ureshino-onsen",
+  "name": "嬉野温泉",
+  "prefecture": "佐賀県",
+  "file": "File:Shiodariver1.jpg",
+  "credit": {
+   "author": "ゆりのき橋",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Shiodariver1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ureshino-onsen/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "obuse",
+  "name": "小布施",
+  "prefecture": "長野県",
+  "file": "File:Obuse buildings ac (2).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Obuse_buildings_ac_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/obuse/main.jpg",
+  "pixelDiff": 5.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "takehara",
+  "name": "竹原",
+  "prefecture": "広島県",
+  "file": "File:町並み保存地区 - panoramio.jpg",
+  "credit": {
+   "author": "OS6",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%94%BA%E4%B8%A6%E3%81%BF%E4%BF%9D%E5%AD%98%E5%9C%B0%E5%8C%BA_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/takehara/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tsumago",
+  "name": "妻籠",
+  "prefecture": "長野県",
+  "file": "File:Tsumago-juku(post town) , 妻籠宿 本陣 - panoramio.jpg",
+  "credit": {
+   "author": "z tanuki",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Tsumago-juku(post_town)_,_%E5%A6%BB%E7%B1%A0%E5%AE%BF_%E6%9C%AC%E9%99%A3_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tsumago/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hikone",
+  "name": "彦根",
+  "prefecture": "滋賀県",
+  "file": "File:玄宮園 - panoramio (1).jpg",
+  "credit": {
+   "author": "daidarabotti",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%84%E5%AE%AE%E5%9C%92_-_panoramio_(1).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hikone/main.jpg",
+  "pixelDiff": 2.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gero-onsen",
+  "name": "下呂温泉",
+  "prefecture": "岐阜県",
+  "file": "File:Hida River in Gero city ac.jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Hida_River_in_Gero_city_ac.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gero-onsen/main.jpg",
+  "pixelDiff": 2.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "bessho-onsen",
+  "name": "別所温泉",
+  "prefecture": "長野県",
+  "file": "File:260828 Kitamuki-kannon Ueda Nagano pref Japan08s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:260828_Kitamuki-kannon_Ueda_Nagano_pref_Japan08s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/bessho-onsen/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "minakami-onsen",
+  "name": "水上温泉",
+  "prefecture": "群馬県",
+  "file": "File:Mount Tanigawa hiking (51984153239).jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mount_Tanigawa_hiking_(51984153239).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/minakami-onsen/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "iriomote",
+  "name": "西表島",
+  "prefecture": "沖縄県",
+  "file": "File:Iriomote jungle hiking (52116054047).jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Iriomote_jungle_hiking_(52116054047).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/iriomote/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hida-furukawa",
+  "name": "飛騨古川",
+  "prefecture": "岐阜県",
+  "file": "File:Hida Furukawa 20200620.jpg",
+  "credit": {
+   "author": "皓月旗",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Hida_Furukawa_20200620.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hida-furukawa/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "izu-kogen",
+  "name": "伊豆高原",
+  "prefecture": "静岡県",
+  "file": "File:大室山八ヶ岳地蔵尊.jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%AE%A4%E5%B1%B1%E5%85%AB%E3%83%B6%E5%B2%B3%E5%9C%B0%E8%94%B5%E5%B0%8A.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/izu-kogen/main.jpg",
+  "pixelDiff": 2.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "mojiko",
+  "name": "門司港",
+  "prefecture": "福岡県",
+  "file": "File:140721 Mojiko Retro Kitakyushu Japan01s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:140721_Mojiko_Retro_Kitakyushu_Japan01s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/mojiko/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "itoshima",
+  "name": "糸島",
+  "prefecture": "福岡県",
+  "file": "File:糸島二見ヶ浦と小呂島.jpg",
+  "credit": {
+   "author": "淤能碁呂太郎",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%B3%B8%E5%B3%B6%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6%E3%81%A8%E5%B0%8F%E5%91%82%E5%B3%B6.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/itoshima/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tsuruga",
+  "name": "敦賀",
+  "prefecture": "福井県",
+  "file": "File:Tsuruga Kehi Jingu ac (2).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Tsuruga_Kehi_Jingu_ac_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tsuruga/main.jpg",
+  "pixelDiff": 5.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "rishiri-island",
+  "name": "利尻島",
+  "prefecture": "北海道",
+  "file": "File:姫沼からの利尻山.jpg",
+  "credit": {
+   "author": "Koda6029",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%A7%AB%E6%B2%BC%E3%81%8B%E3%82%89%E3%81%AE%E5%88%A9%E5%B0%BB%E5%B1%B1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/rishiri-island/main.jpg",
+  "pixelDiff": 0.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "abashiri",
+  "name": "網走",
+  "prefecture": "北海道",
+  "file": "File:130714 Lake Abashiri Hokkaido Japan01bs5.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:130714_Lake_Abashiri_Hokkaido_Japan01bs5.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/abashiri/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yonezawa",
+  "name": "米沢",
+  "prefecture": "山形県",
+  "file": "File:Uesugi Shrine 20250713a.jpg",
+  "credit": {
+   "author": "掬茶",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Uesugi_Shrine_20250713a.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yonezawa/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "goshogawara",
+  "name": "五所川原",
+  "prefecture": "青森県",
+  "file": "File:Goshogawara City Government Office 20191124.jpg",
+  "credit": {
+   "author": "掬茶",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Goshogawara_City_Government_Office_20191124.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/goshogawara/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "choshi",
+  "name": "銚子",
+  "prefecture": "千葉県",
+  "file": "File:犬吠埼灯台 - panoramio (1).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%8A%AC%E5%90%A0%E5%9F%BC%E7%81%AF%E5%8F%B0_-_panoramio_(1).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/choshi/main.jpg",
+  "pixelDiff": 1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kiyosato",
+  "name": "清里",
+  "prefecture": "山梨県",
+  "file": "File:150719 Seisenryo Hokuto Yamanashi pref Japan01s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:150719_Seisenryo_Hokuto_Yamanashi_pref_Japan01s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kiyosato/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ito",
+  "name": "伊東",
+  "prefecture": "静岡県",
+  "file": "File:231007 Matsukawa Promenade Path Ito Shizuoka pref Japan05s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:231007_Matsukawa_Promenade_Path_Ito_Shizuoka_pref_Japan05s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ito/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "asuka",
+  "name": "飛鳥",
+  "prefecture": "奈良県",
+  "file": "File:Ishibutai Kofun, 3D-B1.jpg",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Ishibutai_Kofun,_3D-B1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/asuka/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "iwakuni",
+  "name": "岩国",
+  "prefecture": "山口県",
+  "file": "File:Iwakuni, ponte kintai-kyo, 03,0.jpg",
+  "credit": {
+   "author": "Sailko",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Iwakuni,_ponte_kintai-kyo,_03,0.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/iwakuni/main.jpg",
+  "pixelDiff": 4.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kashiwajima",
+  "name": "柏島",
+  "prefecture": "高知県",
+  "file": "File:Kashiwajima (Otsuki), zenkei-1.jpg",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kashiwajima_(Otsuki),_zenkei-1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kashiwajima/main.jpg",
+  "pixelDiff": 2.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "saijo",
+  "name": "西条",
+  "prefecture": "愛媛県",
+  "file": "File:Saijo City Saijo Library.jpg",
+  "credit": {
+   "author": "Suikotei",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Saijo_City_Saijo_Library.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/saijo/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kikuchi",
+  "name": "菊池",
+  "prefecture": "熊本県",
+  "file": "File:Kikuchi Gorge Hirogawara 20240518.jpg",
+  "credit": {
+   "author": "ja:User:Sanjo",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kikuchi_Gorge_Hirogawara_20240518.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kikuchi/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "zamami-island",
+  "name": "座間味島",
+  "prefecture": "沖縄県",
+  "file": "File:Zamami Island, Japan (Panorama).jpg",
+  "credit": {
+   "author": "Laurie Nevay",
+   "license": "CC BY-SA 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Zamami_Island,_Japan_(Panorama).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/zamami-island/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ofunato",
+  "name": "大船渡",
+  "prefecture": "岩手県",
+  "file": "File:Goishi-kaigan1.jpg",
+  "credit": {
+   "author": "Searobin",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Goishi-kaigan1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ofunato/main.jpg",
+  "pixelDiff": 0.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "esashi-hokkaido",
+  "name": "江差",
+  "prefecture": "北海道",
+  "file": "File:Former Nakamura's house.jpg",
+  "credit": {
+   "author": "Ozizo",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Former_Nakamura%27s_house.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/esashi-hokkaido/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "chichibu",
+  "name": "秩父",
+  "prefecture": "埼玉県",
+  "file": "File:Zuishinmon Gate, Mitsumine Shrine, Chichibu - Sep 23, 2022.jpg",
+  "credit": {
+   "author": "Zengame",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Zuishinmon_Gate,_Mitsumine_Shrine,_Chichibu_-_Sep_23,_2022.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/chichibu/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "narai-juku",
+  "name": "奈良井宿",
+  "prefecture": "長野県",
+  "file": "File:Narai-juku 6-Jun-2020.jpg",
+  "credit": {
+   "author": "皓月旗",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Narai-juku_6-Jun-2020.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/narai-juku/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [
+   "奈良県"
+  ],
+  "verdict": "ok"
+ },
+ {
+  "id": "myoko-kogen",
+  "name": "妙高高原",
+  "prefecture": "新潟県",
+  "file": "File:Mout Myoko from Imori-ike (7695777960).jpg",
+  "credit": {
+   "author": "TANAKA Juuyoh (田中十洋)",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mout_Myoko_from_Imori-ike_(7695777960).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/myoko-kogen/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nachikatsuura",
+  "name": "那智勝浦",
+  "prefecture": "和歌山県",
+  "file": "File:Kumano-Nachi Taisha (51928795142).jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kumano-Nachi_Taisha_(51928795142).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nachikatsuura/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "fushimi",
+  "name": "伏見",
+  "prefecture": "京都府",
+  "file": "File:A temple in Kyoto (52407317930).jpg",
+  "credit": {
+   "author": "Sergiy Galyonkin from Raleigh, USA",
+   "license": "CC BY-SA 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:A_temple_in_Kyoto_(52407317930).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/fushimi/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ushimado",
+  "name": "牛窓",
+  "prefecture": "岡山県",
+  "file": "File:Ushimado -01.jpg",
+  "credit": {
+   "author": "Aimaimyi",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Ushimado_-01.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ushimado/main.jpg",
+  "pixelDiff": 1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "marugame",
+  "name": "丸亀",
+  "prefecture": "香川県",
+  "file": "File:Nakatsu-bansho-en Marugame Kagawa pref01n4350.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:Nakatsu-bansho-en_Marugame_Kagawa_pref01n4350.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/marugame/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kirishima",
+  "name": "霧島",
+  "prefecture": "鹿児島県",
+  "file": "File:Kirishima-Jingu Front.jpg",
+  "credit": {
+   "author": "MaedaAkihiko",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kirishima-Jingu_Front.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kirishima/main.jpg",
+  "pixelDiff": 2.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "onna",
+  "name": "恩納村",
+  "prefecture": "沖縄県",
+  "file": "File:Onna Okinawa Japan Cape-Manzamo-01.jpg",
+  "credit": {
+   "author": "CEphoto, Uwe Aranas",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/onna/main.jpg",
+  "pixelDiff": 1.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nago",
+  "name": "名護",
+  "prefecture": "沖縄県",
+  "file": "File:View from Nangusuku Park 202508.jpg",
+  "credit": {
+   "author": "Kugel~commonswiki",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:View_from_Nangusuku_Park_202508.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nago/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kujukuri",
+  "name": "九十九里",
+  "prefecture": "千葉県",
+  "file": "File:蓮沼海浜公園付近（九十九里浜、山武市） - panoramio.jpg",
+  "credit": {
+   "author": "☆ブロッコリーマン☆",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E8%93%AE%E6%B2%BC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%E4%BB%98%E8%BF%91%EF%BC%88%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C%E3%80%81%E5%B1%B1%E6%AD%A6%E5%B8%82%EF%BC%89_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kujukuri/main.jpg",
+  "pixelDiff": 0.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tateshina",
+  "name": "蓼科",
+  "prefecture": "長野県",
+  "file": "File:Drone panorama of Shirakaba Lake, Nagano Prefecture.jpg",
+  "credit": {
+   "author": "Benlisquare",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Drone_panorama_of_Shirakaba_Lake,_Nagano_Prefecture.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tateshina/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "norikura",
+  "name": "乗鞍",
+  "prefecture": "長野県",
+  "file": "File:Mount Norikura Volcano Panorama - Flickr - 雷太.jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mount_Norikura_Volcano_Panorama_-_Flickr_-_%E9%9B%B7%E5%A4%AA.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/norikura/main.jpg",
+  "pixelDiff": 6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tokoname",
+  "name": "常滑",
+  "prefecture": "愛知県",
+  "file": "File:Tokoname shochu bottles ac (3).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Tokoname_shochu_bottles_ac_(3).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tokoname/main.jpg",
+  "pixelDiff": 4.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "shigaraki",
+  "name": "信楽",
+  "prefecture": "滋賀県",
+  "file": "File:信楽 陶芸の森 - panoramio.jpg",
+  "credit": {
+   "author": "z tanuki",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E4%BF%A1%E6%A5%BD_%E9%99%B6%E8%8A%B8%E3%81%AE%E6%A3%AE_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/shigaraki/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "teshima",
+  "name": "豊島",
+  "prefecture": "香川県",
+  "file": "File:Teshima - 10498157796.jpg",
+  "credit": {
+   "author": "Kentaro Ohno",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Teshima_-_10498157796.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/teshima/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yamaga",
+  "name": "山鹿",
+  "prefecture": "熊本県",
+  "file": "File:Yamaga-shuku 20180604 01.jpg",
+  "credit": {
+   "author": "STA3816",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Yamaga-shuku_20180604_01.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yamaga/main.jpg",
+  "pixelDiff": 0.8,
+  "place": "ok",
+  "placeWhy": [
+   "鹿児島県"
+  ],
+  "verdict": "ok"
+ },
+ {
+  "id": "niijima",
+  "name": "新島",
+  "prefecture": "東京都",
+  "file": "File:Nii-jima zenkei.JPG",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Nii-jima_zenkei.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/niijima/main.jpg",
+  "pixelDiff": 0.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ryusendo",
+  "name": "龍泉洞",
+  "prefecture": "岩手県",
+  "file": "File:龍泉洞の前の谷川 - panoramio.jpg",
+  "credit": {
+   "author": "Mamusi Taka",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E9%BE%8D%E6%B3%89%E6%B4%9E%E3%81%AE%E5%89%8D%E3%81%AE%E8%B0%B7%E5%B7%9D_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ryusendo/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ichinoseki",
+  "name": "一関",
+  "prefecture": "岩手県",
+  "file": "File:Stream 流れ(ながれ) (4622566442).jpg",
+  "credit": {
+   "author": "TANAKA Juuyoh (田中十洋) from Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Stream_%E6%B5%81%E3%82%8C(%E3%81%AA%E3%81%8C%E3%82%8C)_(4622566442).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ichinoseki/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yokosuka",
+  "name": "横須賀",
+  "prefecture": "神奈川県",
+  "file": "File:Saru-shima island Aerial photograph.jpg",
+  "credit": {
+   "author": "ブルーノ・プラス",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Saru-shima_island_Aerial_photograph.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yokosuka/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "mishima",
+  "name": "三島",
+  "prefecture": "静岡県",
+  "file": "File:Mishima-taisha soumon.JPG",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mishima-taisha_soumon.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/mishima/main.jpg",
+  "pixelDiff": 1.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "dazaifu",
+  "name": "太宰府",
+  "prefecture": "福岡県",
+  "file": "File:Dazaifu Tenman-gū 20230225 15.jpg",
+  "credit": {
+   "author": "先従隗始",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Dazaifu_Tenman-g%C5%AB_20230225_15.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/dazaifu/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kashima",
+  "name": "鹿嶋",
+  "prefecture": "茨城県",
+  "file": "File:Kashima-jingu shasou.JPG",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kashima-jingu_shasou.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/kashima/main.jpg",
+  "pixelDiff": 5.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nanao",
+  "name": "七尾",
+  "prefecture": "石川県",
+  "file": "File:能登食祭市場からの風景 - panoramio.jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E8%83%BD%E7%99%BB%E9%A3%9F%E7%A5%AD%E5%B8%82%E5%A0%B4%E3%81%8B%E3%82%89%E3%81%AE%E9%A2%A8%E6%99%AF_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nanao/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nagi",
+  "name": "奈義",
+  "prefecture": "岡山県",
+  "file": "File:Nagi MOCA.jpg",
+  "credit": {
+   "author": "Phronimoi",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Nagi_MOCA.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nagi/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "sukumo",
+  "name": "宿毛",
+  "prefecture": "高知県",
+  "file": "File:151229 Sukumo Kochi pref Japan01s.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:151229_Sukumo_Kochi_pref_Japan01s.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/sukumo/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "asakura",
+  "name": "朝倉",
+  "prefecture": "福岡県",
+  "file": "File:Kuro mon gate Chikuzen Akizuki Castle.jpg",
+  "credit": {
+   "author": "Mukai",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/asakura/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "monbetsu",
+  "name": "紋別",
+  "prefecture": "北海道",
+  "file": "File:ガリンコ号III IMERU 修理中.jpg",
+  "credit": {
+   "author": "Ryo FUKAsawa",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AC%E3%83%AA%E3%83%B3%E3%82%B3%E5%8F%B7III_IMERU_%E4%BF%AE%E7%90%86%E4%B8%AD.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/monbetsu/main.jpg",
+  "pixelDiff": 1.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "omagari",
+  "name": "大曲",
+  "prefecture": "秋田県",
+  "file": "File:大会提供花火（2014）.JPG",
+  "credit": {
+   "author": "KANSEI",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E4%BC%9A%E6%8F%90%E4%BE%9B%E8%8A%B1%E7%81%AB%EF%BC%882014%EF%BC%89.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/omagari/main.jpg",
+  "pixelDiff": 2.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "takasaki",
+  "name": "高崎",
+  "prefecture": "群馬県",
+  "file": "File:Takasaki Kannon 6.jpg",
+  "credit": {
+   "author": "photo: Qurren (talk) Taken with Canon IXY 10S (Digital IXUS 210)",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Takasaki_Kannon_6.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/takasaki/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "weak",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "odawara",
+  "name": "小田原",
+  "prefecture": "神奈川県",
+  "file": "File:Odawara Castle - 2022 May 2 360 panorama various 15 15 00 405000.jpeg",
+  "credit": {
+   "author": "Nesnad",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Odawara_Castle_-_2022_May_2_360_panorama_various_15_15_00_405000.jpeg",
+   "attributionRequired": true
+  },
+  "local": "public/images/odawara/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tango-kyoto",
+  "name": "丹後",
+  "prefecture": "京都府",
+  "file": "File:日吉神社あるいは島児神社の鳥居（京都府京丹後市網野町浅茂川）.jpg",
+  "credit": {
+   "author": "VinayaMoto",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%90%89%E7%A5%9E%E7%A4%BE%E3%81%82%E3%82%8B%E3%81%84%E3%81%AF%E5%B3%B6%E5%85%90%E7%A5%9E%E7%A4%BE%E3%81%AE%E9%B3%A5%E5%B1%85%EF%BC%88%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E4%B8%B9%E5%BE%8C%E5%B8%82%E7%B6%B2%E9%87%8E%E7%94%BA%E6%B5%85%E8%8C%82%E5%B7%9D%EF%BC%89.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tango-kyoto/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hamada-shimane",
+  "name": "浜田",
+  "prefecture": "島根県",
+  "file": "File:Hamada Port Shimane 2014.JPG",
+  "credit": {
+   "author": "ja:User:Sanjo",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Hamada_Port_Shimane_2014.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/hamada-shimane/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kure",
+  "name": "呉",
+  "prefecture": "広島県",
+  "file": "File:Kure 20200102100619 (50277888538).jpg",
+  "credit": {
+   "author": "inunami",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kure_20200102100619_(50277888538).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kure/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kurume",
+  "name": "久留米",
+  "prefecture": "福岡県",
+  "file": "File:Kurume Suitengu ac (9).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kurume_Suitengu_ac_(9).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kurume/main.jpg",
+  "pixelDiff": 4.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "makurazaki",
+  "name": "枕崎",
+  "prefecture": "鹿児島県",
+  "file": "File:Tategami-Rock6983.JPG",
+  "credit": {
+   "author": "日:Jnn",
+   "license": "CC BY 2.1 jp",
+   "url": "https://commons.wikimedia.org/wiki/File:Tategami-Rock6983.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/makurazaki/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nakatosa",
+  "name": "中土佐",
+  "prefecture": "高知県",
+  "file": "File:Taishomachi Marcket ac (2).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Taishomachi_Marcket_ac_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nakatosa/main.jpg",
+  "pixelDiff": 3.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "uda-nara",
+  "name": "宇陀",
+  "prefecture": "奈良県",
+  "file": "File:Murouji, hondou-3.jpg",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Murouji,_hondou-3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/uda-nara/main.jpg",
+  "pixelDiff": 6.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "credit-mismatch"
+ },
+ {
+  "id": "miyanoshita",
+  "name": "宮ノ下",
+  "prefecture": "神奈川県",
+  "file": "File:Fujiya Hotel - Aug 28 2020 - various 12 51 58 108000.jpeg",
+  "credit": {
+   "author": "Nesnad",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Fujiya_Hotel_-_Aug_28_2020_-_various_12_51_58_108000.jpeg",
+   "attributionRequired": true
+  },
+  "local": "public/images/miyanoshita/main.jpg",
+  "pixelDiff": 4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kurikoma",
+  "name": "栗駒",
+  "prefecture": "宮城県",
+  "file": "File:Mount Kurikoma panorama (53344291491).jpg",
+  "credit": {
+   "author": "Raita Futo from Tokyo, Japan",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mount_Kurikoma_panorama_(53344291491).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kurikoma/main.jpg",
+  "pixelDiff": 2.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "isesaki",
+  "name": "伊勢崎",
+  "prefecture": "群馬県",
+  "file": "File:Shidori-jinja (Isesaki) honden.JPG",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Shidori-jinja_(Isesaki)_honden.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/isesaki/main.jpg",
+  "pixelDiff": 5.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "matsumoto-kaido",
+  "name": "塩尻",
+  "prefecture": "長野県",
+  "file": "File:Shiojiri-juku Honjin.jpg",
+  "credit": {
+   "author": "photo: Qurren (talk) Taken with Canon PowerShot G9 X",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Shiojiri-juku_Honjin.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/matsumoto-kaido/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "agematsu",
+  "name": "上松",
+  "prefecture": "長野県",
+  "file": "File:寝覚の床 (51428533802).jpg",
+  "credit": {
+   "author": "m-louis .® from Osaka, Japan",
+   "license": "CC BY-SA 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%AF%9D%E8%A6%9A%E3%81%AE%E5%BA%8A_(51428533802).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/agematsu/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kurobe",
+  "name": "黒部",
+  "prefecture": "富山県",
+  "file": "File:黒部平 - panoramio (5).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E9%BB%92%E9%83%A8%E5%B9%B3_-_panoramio_(5).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kurobe/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_ウトロ温泉",
+  "name": "ウトロ温泉",
+  "prefecture": "北海道",
+  "file": "File:140828 Utoro Port Shari Hokkaido Japan05bs5.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:140828_Utoro_Port_Shari_Hokkaido_Japan05bs5.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_ウトロ温泉/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_水無海浜温泉",
+  "name": "水無海浜温泉",
+  "prefecture": "北海道",
+  "file": "File:Mizunashi Kaihin onsen (hot spring bath), Hakodate, Japan.jpg",
+  "credit": {
+   "author": "OKJaguar",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mizunashi_Kaihin_onsen_(hot_spring_bath),_Hakodate,_Japan.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_水無海浜温泉/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_北海道",
+  "name": "北海道",
+  "prefecture": "北海道",
+  "file": "File:Kushiro Marsh Wetland Hokkaido Panorama 2014.png",
+  "credit": {
+   "author": "Kzaral",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kushiro_Marsh_Wetland_Hokkaido_Panorama_2014.png",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_北海道/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_納沙布岬",
+  "name": "納沙布岬",
+  "prefecture": "北海道",
+  "file": "File:根室市納沙布岬より国後島羅臼山を望む.jpg",
+  "credit": {
+   "author": "Associate professor",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%A0%B9%E5%AE%A4%E5%B8%82%E7%B4%8D%E6%B2%99%E5%B8%83%E5%B2%AC%E3%82%88%E3%82%8A%E5%9B%BD%E5%BE%8C%E5%B3%B6%E7%BE%85%E8%87%BC%E5%B1%B1%E3%82%92%E6%9C%9B%E3%82%80.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_納沙布岬/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_太田山神社",
+  "name": "太田山神社",
+  "prefecture": "北海道",
+  "file": "File:Ota shrine.JPG",
+  "credit": {
+   "author": "アラツク",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Ota_shrine.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_太田山神社/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_多和平",
+  "name": "多和平",
+  "prefecture": "北海道",
+  "file": "File:TawadairaS.JPG",
+  "credit": {
+   "author": "self",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:TawadairaS.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_多和平/main.jpg",
+  "pixelDiff": 3.3,
+  "place": "weak",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_天に続く道",
+  "name": "天に続く道",
+  "prefecture": "北海道",
+  "file": "File:Shari road01.JPG",
+  "credit": {
+   "author": "221.20 (talk)",
+   "license": "Public domain",
+   "url": "https://commons.wikimedia.org/wiki/File:Shari_road01.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_天に続く道/main.jpg",
+  "pixelDiff": 0.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_菅野温泉",
+  "name": "菅野温泉",
+  "prefecture": "北海道",
+  "file": "File:然別湖 - panoramio (1).jpg",
+  "credit": {
+   "author": "Mamusi Taka",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%84%B6%E5%88%A5%E6%B9%96_-_panoramio_(1).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_菅野温泉/main.jpg",
+  "pixelDiff": 0.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_六花の森",
+  "name": "六花の森",
+  "prefecture": "北海道",
+  "file": "File:131013 Rokka-no-Mori Nakasatsunai Hokkaido Japan16bs.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:131013_Rokka-no-Mori_Nakasatsunai_Hokkaido_Japan16bs.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_六花の森/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_フレペの滝",
+  "name": "フレペの滝",
+  "prefecture": "北海道",
+  "file": "File:140829 Furepe Falls Shiretoko Hokkaido Japan05s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:140829_Furepe_Falls_Shiretoko_Hokkaido_Japan05s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_フレペの滝/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_養老牛温泉",
+  "name": "養老牛温泉",
+  "prefecture": "北海道",
+  "file": "File:開陽台からの武佐岳.jpg",
+  "credit": {
+   "author": "Koda6029",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E9%96%8B%E9%99%BD%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E6%AD%A6%E4%BD%90%E5%B2%B3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_養老牛温泉/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_茨城_大杉神社",
+  "name": "大杉神社",
+  "prefecture": "茨城県",
+  "file": "File:大杉神社虚空蔵尊 - panoramio.jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%9D%89%E7%A5%9E%E7%A4%BE%E8%99%9A%E7%A9%BA%E8%94%B5%E5%B0%8A_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_茨城_大杉神社/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_栃木_宇都宮二荒山神社",
+  "name": "宇都宮二荒山神社",
+  "prefecture": "栃木県",
+  "file": "File:Utsunomiya Futaarayama Shrine - Jul 11, 2023.jpg",
+  "credit": {
+   "author": "Sergiy Galyonkin",
+   "license": "CC BY-SA 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Utsunomiya_Futaarayama_Shrine_-_Jul_11,_2023.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_栃木_宇都宮二荒山神社/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_オソウシ温泉",
+  "name": "オソウシ温泉",
+  "prefecture": "北海道",
+  "file": "File:オソウシ温泉（Open-air bath） - panoramio.jpg",
+  "credit": {
+   "author": "pakku",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89%EF%BC%88Open-air_bath%EF%BC%89_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_オソウシ温泉/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_神威脇温泉",
+  "name": "神威脇温泉",
+  "prefecture": "北海道",
+  "file": "File:鍋釣岩 - panoramio.jpg",
+  "credit": {
+   "author": "tuyainu",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_神威脇温泉/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_北海_札幌八幡宮",
+  "name": "札幌八幡宮",
+  "prefecture": "北海道",
+  "file": "File:Nishioka Hachiman-gū in Spring.JPG",
+  "credit": {
+   "author": "禁樹なずな",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Nishioka_Hachiman-g%C5%AB_in_Spring.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_北海_札幌八幡宮/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "weak",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "gen_青森_黄金崎不老不死温泉",
+  "name": "黄金崎不老不死温泉",
+  "prefecture": "青森県",
+  "file": "File:Furofushi-onsen in the evening.jpg",
+  "credit": {
+   "author": "おにく",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Furofushi-onsen_in_the_evening.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/gen_青森_黄金崎不老不死温泉/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "utsukushigahara",
+  "name": "美ヶ原",
+  "prefecture": "長野県",
+  "file": "File:250426 At Utsukushigahara Nagano pref Japan01s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:250426_At_Utsukushigahara_Nagano_pref_Japan01s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/utsukushigahara/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kakeroma-island",
+  "name": "加計呂麻島",
+  "prefecture": "鹿児島県",
+  "file": "File:Oochon jinja Torii.jpg",
+  "credit": {
+   "author": "Suikotei",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Oochon_jinja_Torii.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kakeroma-island/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "teuri-island",
+  "name": "天売島",
+  "prefecture": "北海道",
+  "file": "File:Teuri Island Aerial photograph.1977.jpg",
+  "credit": {
+   "author": "国土交通省",
+   "license": "Attribution",
+   "url": "https://commons.wikimedia.org/wiki/File:Teuri_Island_Aerial_photograph.1977.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/teuri-island/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yunokami-onsen",
+  "name": "湯野上温泉",
+  "prefecture": "福島県",
+  "file": "File:湯野上温泉駅 - panoramio (1).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%B9%AF%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%A7%85_-_panoramio_(1).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yunokami-onsen/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nagatoro",
+  "name": "長瀞",
+  "prefecture": "埼玉県",
+  "file": "File:Nagatoro Keikoku, iwa-datami.jpg",
+  "credit": {
+   "author": "Saigen Jiro",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Nagatoro_Keikoku,_iwa-datami.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nagatoro/main.jpg",
+  "pixelDiff": 6.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "credit-mismatch"
+ },
+ {
+  "id": "ikeda-osaka",
+  "name": "池田",
+  "prefecture": "大阪府",
+  "file": "File:池田泉州銀行池田営業部.JPG",
+  "credit": {
+   "author": "Bergmann",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%B1%A0%E7%94%B0%E6%B3%89%E5%B7%9E%E9%8A%80%E8%A1%8C%E6%B1%A0%E7%94%B0%E5%96%B6%E6%A5%AD%E9%83%A8.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/ikeda-osaka/main.jpg",
+  "pixelDiff": 3.1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "taro",
+  "name": "田老",
+  "prefecture": "岩手県",
+  "file": "File:防潮堤跡（宮古市田老野原） - panoramio.jpg",
+  "credit": {
+   "author": "Yoshio Kohara",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E9%98%B2%E6%BD%AE%E5%A0%A4%E8%B7%A1%EF%BC%88%E5%AE%AE%E5%8F%A4%E5%B8%82%E7%94%B0%E8%80%81%E9%87%8E%E5%8E%9F%EF%BC%89_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/taro/main.jpg",
+  "pixelDiff": 2.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "manazuru",
+  "name": "真鶴",
+  "prefecture": "神奈川県",
+  "file": "File:真鶴漁港1.jpg",
+  "credit": {
+   "author": "GuchuanYanyi",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%9C%9F%E9%B6%B4%E6%BC%81%E6%B8%AF1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/manazuru/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "niihama",
+  "name": "新居浜",
+  "prefecture": "愛媛県",
+  "file": "File:Niihama Country Club, Niihama Ehime Aerial photograph.2010.jpg",
+  "credit": {
+   "author": "国土地理院",
+   "license": "Attribution",
+   "url": "https://commons.wikimedia.org/wiki/File:Niihama_Country_Club,_Niihama_Ehime_Aerial_photograph.2010.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niihama/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "misaki-kochi",
+  "name": "三崎",
+  "prefecture": "高知県",
+  "file": "File:Cape Ashizuri - 足摺岬 - panoramio (8).jpg",
+  "credit": {
+   "author": "z tanuki",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Cape_Ashizuri_-_%E8%B6%B3%E6%91%BA%E5%B2%AC_-_panoramio_(8).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/misaki-kochi/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "sakushima",
+  "name": "佐久島",
+  "prefecture": "愛知県",
+  "file": "File:Saku Island from Mount Amagoi.jpg",
+  "credit": {
+   "author": "Alpsdake",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Saku_Island_from_Mount_Amagoi.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/sakushima/main.jpg",
+  "pixelDiff": 0.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hakatajima",
+  "name": "伯方島",
+  "prefecture": "愛媛県",
+  "file": "File:伯方ビーチ.jpg",
+  "credit": {
+   "author": "地方の田舎もの",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E4%BC%AF%E6%96%B9%E3%83%93%E3%83%BC%E3%83%81.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hakatajima/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tokunoshima",
+  "name": "徳之島",
+  "prefecture": "鹿児島県",
+  "file": "File:ムシロ瀬を空から - panoramio.jpg",
+  "credit": {
+   "author": "clear_and_sunny",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E3%83%A0%E3%82%B7%E3%83%AD%E7%80%AC%E3%82%92%E7%A9%BA%E3%81%8B%E3%82%89_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tokunoshima/main.jpg",
+  "pixelDiff": 1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yubu-island",
+  "name": "由布島",
+  "prefecture": "沖縄県",
+  "file": "File:Yubu Island Okinawa Pref Japan17s3s4592.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:Yubu_Island_Okinawa_Pref_Japan17s3s4592.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yubu-island/main.jpg",
+  "pixelDiff": 5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ohara",
+  "name": "大原",
+  "prefecture": "京都府",
+  "file": "File:Sanzen-in 三千院 (KYOTO-JAPAN) (4950794717).jpg",
+  "credit": {
+   "author": "Chi King",
+   "license": "CC BY 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_(KYOTO-JAPAN)_(4950794717).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ohara/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "ashinoko",
+  "name": "芦ノ湖",
+  "prefecture": "神奈川県",
+  "file": "File:260504 Moto-Hakone Hakone Japan01s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:260504_Moto-Hakone_Hakone_Japan01s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/ashinoko/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "tamatsukuri-onsen",
+  "name": "玉造温泉",
+  "prefecture": "島根県",
+  "file": "File:140427 Tamatsukuri Onsen Matsue Shimane pref Japan04bs3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:140427_Tamatsukuri_Onsen_Matsue_Shimane_pref_Japan04bs3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/tamatsukuri-onsen/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "nagi-okayama",
+  "name": "奈義町",
+  "prefecture": "岡山県",
+  "file": "File:Japan National Route 53 -05.jpg",
+  "credit": {
+   "author": "Aimaimyi",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Japan_National_Route_53_-05.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/nagi-okayama/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "imari",
+  "name": "伊万里",
+  "prefecture": "佐賀県",
+  "file": "File:Centre of Imari city from Joyama Park.jpg",
+  "credit": {
+   "author": "Peka",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Centre_of_Imari_city_from_Joyama_Park.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/imari/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "zuiryuji",
+  "name": "高岡",
+  "prefecture": "富山県",
+  "file": "File:瑞龍寺 - panoramio (2).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E7%91%9E%E9%BE%8D%E5%AF%BA_-_panoramio_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/zuiryuji/main.jpg",
+  "pixelDiff": 1.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hakushu",
+  "name": "白州",
+  "prefecture": "山梨県",
+  "file": "File:Yamanashi Ojiro keikoku xl.jpg",
+  "credit": {
+   "author": "TAKAO_Tsushima",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Yamanashi_Ojiro_keikoku_xl.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hakushu/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "higashi-chaya",
+  "name": "ひがし茶屋街",
+  "prefecture": "石川県",
+  "file": "File:ひがし茶屋街 01.jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E3%81%B2%E3%81%8C%E3%81%97%E8%8C%B6%E5%B1%8B%E8%A1%97_01.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/higashi-chaya/main.jpg",
+  "pixelDiff": 1.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "dazaifu-2",
+  "name": "太宰府",
+  "prefecture": "福岡県",
+  "file": "File:Dazaifu Tenman-gū 20230225 15.jpg",
+  "credit": {
+   "author": "先従隗始",
+   "license": "CC0",
+   "url": "https://commons.wikimedia.org/wiki/File:Dazaifu_Tenman-g%C5%AB_20230225_15.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/dazaifu-2/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "shitara",
+  "name": "設楽",
+  "prefecture": "愛知県",
+  "file": "File:Mt.Tyausu Moss phlox.jpg",
+  "credit": {
+   "author": "Bariston",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mt.Tyausu_Moss_phlox.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/shitara/main.jpg",
+  "pixelDiff": 2.2,
+  "place": "ok",
+  "placeWhy": [
+   "長野県"
+  ],
+  "verdict": "ok"
+ },
+ {
+  "id": "chikugogawa",
+  "name": "原鶴温泉",
+  "prefecture": "福岡県",
+  "file": "File:View of Yamada Weir on Chikugogawa River.jpg",
+  "credit": {
+   "author": "そらみみ",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:View_of_Yamada_Weir_on_Chikugogawa_River.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/chikugogawa/main.jpg",
+  "pixelDiff": 0.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "shinjuku",
+  "name": "新宿",
+  "prefecture": "東京都",
+  "file": "File:2018-09-23 trees in Shinjuku Gyo-en.jpg",
+  "credit": {
+   "author": "Sergey Galyonkin",
+   "license": "CC BY-SA 2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:2018-09-23_trees_in_Shinjuku_Gyo-en.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/shinjuku/main.jpg",
+  "pixelDiff": 1.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "uozu",
+  "name": "魚津",
+  "prefecture": "富山県",
+  "file": "File:Uozu-tateyama.jpg",
+  "credit": {
+   "author": "蜃氣楼",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Uozu-tateyama.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/uozu/main.jpg",
+  "pixelDiff": 3.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "hakone-2",
+  "name": "箱根湯本",
+  "prefecture": "神奈川県",
+  "file": "File:Soun-ji 20260301 04.jpg",
+  "credit": {
+   "author": "Suikotei",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Soun-ji_20260301_04.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/hakone-2/main.jpg",
+  "pixelDiff": 1.3,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "chiba-zoo",
+  "name": "千葉動物公園",
+  "prefecture": "千葉県",
+  "file": "File:Futa 20261004 4.jpg",
+  "credit": {
+   "author": "Misei sen",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Futa_20261004_4.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/chiba-zoo/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "aomori-hirosaki-2",
+  "name": "弘前城",
+  "prefecture": "青森県",
+  "file": "File:Tsuru-no-matsu the large pine tree in Hirosaki Castle.jpg",
+  "credit": {
+   "author": "掬茶",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Tsuru-no-matsu_the_large_pine_tree_in_Hirosaki_Castle.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/aomori-hirosaki-2/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "sakurajima-onsen",
+  "name": "古里温泉",
+  "prefecture": "鹿児島県",
+  "file": "File:Furusato Hotsprings and Route 224 For Tarumizu View From Furusato Park.jpg",
+  "credit": {
+   "author": "Sakoppi",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Furusato_Hotsprings_and_Route_224_For_Tarumizu_View_From_Furusato_Park.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/sakurajima-onsen/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "oze-2",
+  "name": "尾瀬ヶ原",
+  "prefecture": "福島県",
+  "file": "File:Mt.Hiuchigatake 10.jpg",
+  "credit": {
+   "author": "Σ64",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Mt.Hiuchigatake_10.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/oze-2/main.jpg",
+  "pixelDiff": 1.1,
+  "place": "ok",
+  "placeWhy": [
+   "群馬県"
+  ],
+  "verdict": "ok"
+ },
+ {
+  "id": "chiba-ko",
+  "name": "幸手",
+  "prefecture": "埼玉県",
+  "file": "File:権現堂桜堤 01.jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%A8%A9%E7%8F%BE%E5%A0%82%E6%A1%9C%E5%A0%A4_01.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/chiba-ko/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kyoto",
+  "name": "京都",
+  "prefecture": "京都府",
+  "file": "File:Sunlight through clouds and view of Ginkaku-ji Temple from above, Kyoto, Japan.jpg",
+  "credit": {
+   "author": "Basile Morin",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Sunlight_through_clouds_and_view_of_Ginkaku-ji_Temple_from_above,_Kyoto,_Japan.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kyoto/main.jpg",
+  "pixelDiff": 1.5,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kobe",
+  "name": "神戸",
+  "prefecture": "兵庫県",
+  "file": "File:150111 Nakatottei Central Terminal Kobe Port Japan02s3.jpg",
+  "credit": {
+   "author": "663highland",
+   "license": "CC BY 2.5",
+   "url": "https://commons.wikimedia.org/wiki/File:150111_Nakatottei_Central_Terminal_Kobe_Port_Japan02s3.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/kobe/main.jpg",
+  "pixelDiff": 2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "fukuoka",
+  "name": "福岡",
+  "prefecture": "福岡県",
+  "file": "File:Canalcityhakata2019.jpg",
+  "credit": {
+   "author": "Fukuoka Photo",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Canalcityhakata2019.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/fukuoka/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "niche_福島_2",
+  "name": "柳津虚空蔵尊温泉",
+  "prefecture": "福島県",
+  "file": "File:只見川 - panoramio (1).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%8F%AA%E8%A6%8B%E5%B7%9D_-_panoramio_(1).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niche_福島_2/main.jpg",
+  "pixelDiff": 1.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "niche_茨城_2",
+  "name": "磯原漁港",
+  "prefecture": "茨城県",
+  "file": "File:Futatsushima Island 02.jpg",
+  "credit": {
+   "author": "Σ64",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Futatsushima_Island_02.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niche_茨城_2/main.jpg",
+  "pixelDiff": 1,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "niche_徳島_4",
+  "name": "藍住町",
+  "prefecture": "徳島県",
+  "file": "File:藍住町総合文化ホール 徳島県 Jun 1, 2024.jpg",
+  "credit": {
+   "author": "nagi usano",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E8%97%8D%E4%BD%8F%E7%94%BA%E7%B7%8F%E5%90%88%E6%96%87%E5%8C%96%E3%83%9B%E3%83%BC%E3%83%AB_%E5%BE%B3%E5%B3%B6%E7%9C%8C_Jun_1,_2024.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niche_徳島_4/main.jpg",
+  "pixelDiff": 1.2,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "niche_福岡_3",
+  "name": "嘉穂劇場",
+  "prefecture": "福岡県",
+  "file": "File:Kaho Gekijo ac (2).jpg",
+  "credit": {
+   "author": "Asturio Cantabrio",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kaho_Gekijo_ac_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niche_福岡_3/main.jpg",
+  "pixelDiff": 7.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "credit-mismatch"
+ },
+ {
+  "id": "niche_福岡_4",
+  "name": "三井三池炭鉱",
+  "prefecture": "福岡県",
+  "file": "File:View of Manda Pit of Miike Coal Mine near Manda Coal Mine Information Center.jpg",
+  "credit": {
+   "author": "そらみみ (Soramimi)",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:View_of_Manda_Pit_of_Miike_Coal_Mine_near_Manda_Coal_Mine_Information_Center.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niche_福岡_4/main.jpg",
+  "pixelDiff": 0.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "niche_長崎_4",
+  "name": "権現山展望台",
+  "prefecture": "長崎県",
+  "file": "File:権現山展望台から軍艦島 - panoramio.jpg",
+  "credit": {
+   "author": "mahlervv",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%A8%A9%E7%8F%BE%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0%E3%81%8B%E3%82%89%E8%BB%8D%E8%89%A6%E5%B3%B6_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/niche_長崎_4/main.jpg",
+  "pixelDiff": 0.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "matsue",
+  "name": "松江",
+  "prefecture": "島根県",
+  "file": "File:Matsue Castle Keep Tower 1985 -1.jpg",
+  "credit": {
+   "author": "Marie-Sophie Mejan",
+   "license": "CC BY 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Matsue_Castle_Keep_Tower_1985_-1.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/matsue/main.jpg",
+  "pixelDiff": 3.1,
+  "place": "ok",
+  "placeWhy": [
+   "東京都",
+   "北海道"
+  ],
+  "verdict": "ok"
+ },
+ {
+  "id": "fukaya",
+  "name": "深谷",
+  "prefecture": "埼玉県",
+  "file": "File:深谷駅 - panoramio (2).jpg",
+  "credit": {
+   "author": "くろふね",
+   "license": "CC BY 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E8%B0%B7%E9%A7%85_-_panoramio_(2).jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/fukaya/main.jpg",
+  "pixelDiff": 1.4,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "funagoya-onsen",
+  "name": "船小屋温泉",
+  "prefecture": "福岡県",
+  "file": "File:Funagoyaonsen Bridge.JPG",
+  "credit": {
+   "author": "hyolee2",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Funagoyaonsen_Bridge.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/funagoya-onsen/main.jpg",
+  "pixelDiff": 0.8,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "kumanokawa-onsen",
+  "name": "熊の川温泉",
+  "prefecture": "佐賀県",
+  "file": "File:Kumanokawa Onsen view.JPG",
+  "credit": {
+   "author": "Pekachu",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Kumanokawa_Onsen_view.JPG",
+   "attributionRequired": true
+  },
+  "local": "public/images/kumanokawa-onsen/main.jpg",
+  "pixelDiff": 0.7,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "yunoura",
+  "name": "湯ノ浦温泉",
+  "prefecture": "愛媛県",
+  "file": "File:R196-2020-041.jpg",
+  "credit": {
+   "author": "Puchi-masashi",
+   "license": "CC BY-SA 4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:R196-2020-041.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/yunoura/main.jpg",
+  "pixelDiff": 2.6,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ },
+ {
+  "id": "inunakiyama",
+  "name": "犬鳴山温泉",
+  "prefecture": "大阪府",
+  "file": "File:七宝瀧寺観音堂 泉佐野市 2013.11.23 - panoramio.jpg",
+  "credit": {
+   "author": "Nankou Oronain (as36…",
+   "license": "CC BY-SA 3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:%E4%B8%83%E5%AE%9D%E7%80%A7%E5%AF%BA%E8%A6%B3%E9%9F%B3%E5%A0%82_%E6%B3%89%E4%BD%90%E9%87%8E%E5%B8%82_2013.11.23_-_panoramio.jpg",
+   "attributionRequired": true
+  },
+  "local": "public/images/inunakiyama/main.jpg",
+  "pixelDiff": 1.9,
+  "place": "ok",
+  "placeWhy": [],
+  "verdict": "ok"
+ }
+]

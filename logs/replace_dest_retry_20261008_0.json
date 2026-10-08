@@ -1,0 +1,360 @@
+{
+ "adopted": [
+  {
+   "id": "nanao",
+   "name": "七尾",
+   "file": "File:能登食祭市場からの風景 - panoramio.jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E8%83%BD%E7%99%BB%E9%A3%9F%E7%A5%AD%E5%B8%82%E5%A0%B4%E3%81%8B%E3%82%89%E3%81%AE%E9%A2%A8%E6%99%AF_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "七尾湾の海景と能登島が見える典型的な景観。明るく清々しい海辺風景で紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:石川県七尾美術館 Nanao Art Museum.jpg"
+  },
+  {
+   "id": "funagoya-onsen",
+   "name": "船小屋温泉",
+   "file": "File:Funagoyaonsen Bridge.JPG",
+   "credit": {
+    "author": "hyolee2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Funagoyaonsen_Bridge.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "船小屋温泉の象徴的な赤い橋。明るく見映えよく、独特の建造物が地域を特定できる。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Entrance sign of Funagoya Onsen.jpg"
+  },
+  {
+   "id": "tango-kyoto",
+   "name": "丹後",
+   "file": "File:日吉神社あるいは島児神社の鳥居（京都府京丹後市網野町浅茂川）.jpg",
+   "credit": {
+    "author": "VinayaMoto",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E5%90%89%E7%A5%9E%E7%A4%BE%E3%81%82%E3%82%8B%E3%81%84%E3%81%AF%E5%B3%B6%E5%85%90%E7%A5%9E%E7%A4%BE%E3%81%AE%E9%B3%A5%E5%B1%85%EF%BC%88%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E4%B8%B9%E5%BE%8C%E5%B8%82%E7%B6%B2%E9%87%8E%E7%94%BA%E6%B5%85%E8%8C%82%E5%B7%9D%EF%BC%89.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "丹後の海岸に立つ鳥居で、地域の景観を象徴する存在。明るく見映えよく撮影されており、ヒーロー画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:加悦鉄道 丹後四辻駅跡-04.jpg"
+  },
+  {
+   "id": "ofunato",
+   "name": "大船渡",
+   "file": "File:Goishi-kaigan1.jpg",
+   "credit": {
+    "author": "Searobin",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Goishi-kaigan1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "碁石海岸の特徴的な岩礁と海岸線が夕焼けに映える風景。見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Japan fires in Ofunato now tmo 20250301 lrg.jpg"
+  },
+  {
+   "id": "onna",
+   "name": "恩納村",
+   "file": "File:Onna Okinawa Japan Cape-Manzamo-01.jpg",
+   "credit": {
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "万座毛の象徴的な象の鼻のような岩石断崖が明確に写っており、青い海と空とのコントラストも美しく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:Views of Onna 21.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_十勝千年の森",
+   "name": "十勝千年の森",
+   "current": "File:Tokachi Millennium Forest.jpg",
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:SAKURAKO - Glass tree. (7766732422).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "人物",
+     "reason": "人物が主役となっており、ヒーロー画像として不適切。施設の風景・景観が判別できない。"
+    },
+    {
+     "title": "File:SAKURAKO - Break time. (7766865940).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "カフェでの食事風景が主体。施設の風景・景観を示していない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_千葉_5",
+   "name": "御宿中央海岸",
+   "current": "File:Monument of JPN-ESP-MEX Diplomatic Orijin 20160529.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_塩別温泉",
+   "name": "塩別温泉",
+   "current": "File:Shiobetsu-turuturu-Onsen 2009.jpg",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Shiobetu Tsurutsuru onsen 2011.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉地の施設建物ですが、看板が小さく読めず場所特定が困難。風景性に欠ける。"
+    }
+   ]
+  },
+  {
+   "id": "shishikui",
+   "name": "宍喰",
+   "current": "File:Hotel Riviera Shishikui.jpg",
+   "candidates": 4,
+   "tried": [
+    {
+     "title": "File:Tokushima Prefectural Road No309 250622.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "道路と看板が主体で、漁港の風景・景観が不十分。建物は目立つが背景的。"
+    },
+    {
+     "title": "File:Sisikui ootekaigan 20240402 1.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "港の設備",
+     "reason": "港湾施設（防波堤・船舶・産業設備）が主体で、風景の見映えが悪い。観光地紹介に不適切。"
+    },
+    {
+     "title": "File:2017-09-21T21-12-06 Japan (37382662452).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港湾施設・橋脚が主体で、漁港の魅力的な景観が見えない。暗くて見映えが悪い。"
+    },
+    {
+     "title": "File:Asa-Kaigan-Shishikui-garage.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "宍喰駅の駅舎と線路が写っており、漁港ではなく駅施設が主体。紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_神居岩温泉",
+   "name": "神居岩温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:北海道道1031号神居岩総合公園線.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識が主役となっており、温泉地の風景や景観が写っていない。紹介画像には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "saiki",
+   "name": "佐伯",
+   "current": "File:Saiki city hall.JPG",
+   "candidates": 41,
+   "tried": [
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港湾施設が前景にあり、景観より施設が主体。豊後二見ヶ浦の特徴的な岩礁が明確に見えない。"
+    },
+    {
+     "title": "File:Saiki city center area Aerial photograph.2018.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "航空写真で佐伯の都市・港湾風景だが、豊後二見ヶ浦の特徴的な景観（夫婦岩など）が不明瞭。ヒーロー画像としての見映えに欠ける。"
+    },
+    {
+     "title": "File:Saiki - from Nooka Mt. West View Point - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港湾施設（クレーン・船舶）が画面の大部分を占めており、豊後二見ヶ浦の景観美が活かされていない。見映えが悪い。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (4).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場と街路灯が主体。豊後二見ヶ浦の特徴的な景観（夫婦岩など）が見当たらない。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "商業施設やロードサイド風景で、豊後二見ヶ浦の景観を示していない。紹介ページのヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (6).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港",
+     "reason": "港湾施設と船舶が主体。豊後二見ヶ浦の夫婦岩などの特徴的な見どころが写っていない。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港の設備",
+     "reason": "港湾施設（クレーン・赤い機械）が主体で、豊後二見ヶ浦の特徴的な景観が写っていない"
+    },
+    {
+     "title": "File:Saiki-Yayoi Parking Area West 2022.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場施設が主体。豊後二見ヶ浦の海岸景観が見当たらない。"
+    },
+    {
+     "title": "File:A-Coop Tsurumi (Saiki).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "道の駅などの施設が主役。豊後二見ヶ浦の景観（夫婦岩など）が見当たらない。"
+    },
+    {
+     "title": "File:Saiki-Katata IC 2015 01.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "高速道路の走行中の画像。豊後二見ヶ浦の風景ではなく、交通インフラが主体。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅舎と思われる施設の外観。豊後二見ヶ浦の景観・風景ではなく、駅設備が主体。"
+    },
+    {
+     "title": "File:Saiki Division Criminal Investigation & Oita District Legal Affairs Bureau Saiki Branch.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "豊後二見ヶ浦の海岸景観ではなく、公共施設の建物が写っています。紹介画像として不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "niche_佐賀_1",
+   "name": "白石温泉",
+   "current": "File:泡の湯 Awanoyu - panoramio.jpg",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Lotus roots pre-harvest fields in Fukudomi, Shiroishi, Saga.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "れんこん畑は確認できるが、枯れた状態で見映えが悪く、白石温泉の紹介画像として適切でない。"
+    }
+   ]
+  }
+ ]
+}

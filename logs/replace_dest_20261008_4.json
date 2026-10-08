@@ -1,0 +1,792 @@
+{
+ "adopted": [
+  {
+   "id": "izu-oshima",
+   "name": "伊豆大島",
+   "file": "File:Mount Mihara on Izu Oshima in Japan - 2016-03-26 A.jpg",
+   "credit": {
+    "author": "Kentaro Ohno (https://www.flickr.com/photos/inucara/)",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Mihara_on_Izu_Oshima_in_Japan_-_2016-03-26_A.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "伊豆大島の象徴である三原山の雄大な火山景観が明るく写っており、ヒーロー画像として適切。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "三原山の火山地形が全景で捉えられ見どころとして十分認識できる"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:UM8A-297 ① 【伊豆大島 土石流災害復興現場】より.jpg"
+  },
+  {
+   "id": "shiretoko",
+   "name": "知床",
+   "file": "File:140829 Niko of Shiretoko Goko Lakes Hokkaido Japan07s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140829_Niko_of_Shiretoko_Goko_Lakes_Hokkaido_Japan07s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "知床の象徴的な山々と湖の風景が明るく美しく写っており、ヒーロー画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Shiretoko National Park (panneau).jpg"
+  },
+  {
+   "id": "ureshino-onsen",
+   "name": "嬉野温泉",
+   "file": "File:Shiodariver1.jpg",
+   "credit": {
+    "author": "ゆりのき橋",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shiodariver1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "嬉野温泉の象徴的建築物シーボルトの湯が、川に映る姿を含め明るく美しく撮影されている。背景の山々も温泉地の風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:新幹線N700S-Y4, 嬉野温泉駅 (20250129) (54560611704).jpg"
+  },
+  {
+   "id": "minakami-onsen",
+   "name": "水上温泉",
+   "file": "File:Mount Tanigawa hiking (51984153239).jpg",
+   "credit": {
+    "author": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Tanigawa_hiking_(51984153239).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "水上温泉の主要景勝地である諏訪峡の渓谷美が明るく鮮明に写っており、季節の草花も含めヒーロー画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Minakami Onsenkyo Hotel Fujiwarago 2016-04.jpg"
+  },
+  {
+   "id": "rishiri-island",
+   "name": "利尻島",
+   "file": "File:姫沼からの利尻山.jpg",
+   "credit": {
+    "author": "Koda6029",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%A7%AB%E6%B2%BC%E3%81%8B%E3%82%89%E3%81%AE%E5%88%A9%E5%B0%BB%E5%B1%B1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "利尻山の特徴的な円錐形の山容が明るく美しく映っており、湖面の鏡像との構図も見映えよく、紹介画像に最適です。"
+    }
+   },
+   "pixelDiffAfter": 0.4,
+   "replaced": "File:Rishiri Airport 17-Sept-2018 p2.jpg"
+  },
+  {
+   "id": "iwakuni",
+   "name": "岩国",
+   "file": "File:Iwakuni, ponte kintai-kyo, 03,0.jpg",
+   "credit": {
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Iwakuni,_ponte_kintai-kyo,_03,0.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "錦帯橋の特徴的な5連のアーチ構造が明確に写っており、岩国を代表する風景として適切。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:20100724 Iwakuni 5235.jpg"
+  },
+  {
+   "id": "esashi-hokkaido",
+   "name": "江差",
+   "file": "File:Former Nakamura's house.jpg",
+   "credit": {
+    "author": "Ozizo",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Former_Nakamura%27s_house.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "いにしえ街道の歴史的建造物。明るく見映えよく撮影された木造建築で、江差の文化的特徴を表現している。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": "File:日本、北海道、江差町、江差駅、キハ40系.jpg"
+  },
+  {
+   "id": "marugame",
+   "name": "丸亀",
+   "file": "File:Nakatsu-bansho-en Marugame Kagawa pref01n4350.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Nakatsu-bansho-en_Marugame_Kagawa_pref01n4350.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "丸亀城の庭園内の赤い橋。明るく見映えよく、丸亀の景観を代表する風景。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Marugame City Hall 2021-08 ac (2).jpg"
+  },
+  {
+   "id": "tokoname",
+   "name": "常滑",
+   "file": "File:Tokoname shochu bottles ac (3).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tokoname_shochu_bottles_ac_(3).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "常滑のやきもの散歩道を代表する焼き物の壁装飾が鮮明に写っており、青空と緑も映えている。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": "File:Hoju-in (Tokoname Aichi) VLux5 hdsr 01.jpg"
+  },
+  {
+   "id": "dazaifu",
+   "name": "太宰府",
+   "file": "File:Dazaifu Tenman-gū 20230225 15.jpg",
+   "credit": {
+    "author": "先従隗始",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dazaifu_Tenman-g%C5%AB_20230225_15.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "太宰府天満宮の庭園と建築が写っており、池の景観、樹齢の高い木、建造物のシルエットから特定できる。見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:View of Dazaifu City near Kamado Shrine.jpg"
+  },
+  {
+   "id": "asakura",
+   "name": "朝倉",
+   "file": "File:Kuro mon gate Chikuzen Akizuki Castle.jpg",
+   "credit": {
+    "author": "Mukai",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kuro_mon_gate_Chikuzen_Akizuki_Castle.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "秋月城跡の門建築が明るく鮮明に写っており、ヒーロー画像として適切。朝倉の主な見どころを象徴している。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:朝倉市 2017-08 (36163497220).jpg"
+  },
+  {
+   "id": "kurume",
+   "name": "久留米",
+   "file": "File:Kurume Suitengu ac (9).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kurume_Suitengu_ac_(9).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "水天宮の参道の石灯籠と狛犬、古木が写る。久留米水天宮の象徴的な景観で明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:Kurume univ.jpg"
+  },
+  {
+   "id": "gen_北海_フレペの滝",
+   "name": "フレペの滝",
+   "file": "File:140829 Furepe Falls Shiretoko Hokkaido Japan05s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140829_Furepe_Falls_Shiretoko_Hokkaido_Japan05s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "フレペの滝の特徴的な断崖と水流、背景の知床連山が明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:フレペの滝 - panoramio.jpg"
+  },
+  {
+   "id": "hakatajima",
+   "name": "伯方島",
+   "file": "File:伯方ビーチ.jpg",
+   "credit": {
+    "author": "地方の田舎もの",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%BC%AF%E6%96%B9%E3%83%93%E3%83%BC%E3%83%81.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "伯方ビーチの特徴的な景観。ヤシの並木、砂浜、橋が写り、明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": "File:Hakatajima (68012).jpg"
+  },
+  {
+   "id": "zuiryuji",
+   "name": "高岡",
+   "file": "File:瑞龍寺 - panoramio (2).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%91%9E%E9%BE%8D%E5%AF%BA_-_panoramio_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "瑞龍寺の象徴的な三層塔が明るく見映えよく撮影されており、寺院の歴史的建造物として識別可能。高岡の代表的名所として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:Zuiryuji (Naniwa, Osaka)1.jpg"
+  },
+  {
+   "id": "niche_茨城_2",
+   "name": "磯原漁港",
+   "file": "File:Futatsushima Island 02.jpg",
+   "credit": {
+    "author": "Σ64",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Futatsushima_Island_02.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "磯原海岸の象徴的な岩礁が明るく写っており、海岸風景として見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:Isominato.jpg"
+  },
+  {
+   "id": "niche_福岡_4",
+   "name": "三井三池炭鉱",
+   "file": "File:View of Manda Pit of Miike Coal Mine near Manda Coal Mine Information Center.jpg",
+   "credit": {
+    "author": "そらみみ (Soramimi)",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:View_of_Manda_Pit_of_Miike_Coal_Mine_near_Manda_Coal_Mine_Information_Center.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "三井三池炭鉱の象徴的な竪坑櫓と関連施設が明るく写っており、世界遺産の主要構成要素が確認できる。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Miike Coal Mine Manda Pit.jpg"
+  },
+  {
+   "id": "gen_北海_六花の森",
+   "name": "六花の森",
+   "file": "File:131013 Rokka-no-Mori Nakasatsunai Hokkaido Japan16bs.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:131013_Rokka-no-Mori_Nakasatsunai_Hokkaido_Japan16bs.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "六花の森の特徴的な白い建築物と庭園の池が映った見映えの良い写真。施設の外観を適切に紹介できている。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:131013 Rokka-no-Mori Nakasatsunai Hokkaido Japan04bs.jpg"
+  },
+  {
+   "id": "gen_北海_太田山神社",
+   "name": "太田山神社",
+   "file": "File:Ota shrine.JPG",
+   "credit": {
+    "author": "アラツク",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ota_shrine.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "太田山神社の社殿と鳥居が明瞭に写っており、背景の山々と共に特徴的な景観が捉えられている。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": null
+  },
+  {
+   "id": "gen_北海_納沙布岬",
+   "name": "納沙布岬",
+   "file": "File:根室市納沙布岬より国後島羅臼山を望む.jpg",
+   "credit": {
+    "author": "Associate professor",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%A0%B9%E5%AE%A4%E5%B8%82%E7%B4%8D%E6%B2%99%E5%B8%83%E5%B2%AC%E3%82%88%E3%82%8A%E5%9B%BD%E5%BE%8C%E5%B3%B6%E7%BE%85%E8%87%BC%E5%B1%B1%E3%82%92%E6%9C%9B%E3%82%80.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "納沙布岬からの海氷と国後島の景観。北海道最東端の特徴的な風景が明るく写っている。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:Nosappu.jpg"
+  },
+  {
+   "id": "gen_青森_黄金崎不老不死温泉",
+   "name": "黄金崎不老不死温泉",
+   "file": "File:Furofushi-onsen in the evening.jpg",
+   "credit": {
+    "author": "おにく",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Furofushi-onsen_in_the_evening.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "日本海沿岸の岩礁と建築物が写った景観。黄金崎の特徴的な海岸風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": "File:Furofushi-spa.jpg"
+  },
+  {
+   "id": "fukaya",
+   "name": "深谷",
+   "file": "File:深谷駅 - panoramio (2).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E8%B0%B7%E9%A7%85_-_panoramio_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "深谷駅の赤レンガ造りの駅舎が明るく見映えよく撮影されており、建築自体が深谷の主要な見どころとして紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:深谷駅 - panoramio (3).jpg"
+  },
+  {
+   "id": "hakone-2",
+   "name": "箱根湯本",
+   "file": "File:Soun-ji 20260301 04.jpg",
+   "credit": {
+    "author": "Suikotei",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Soun-ji_20260301_04.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "箱根湯本の象徴的な鐘楼。木造建築と緑に囲まれた風景が箱根の雰囲気を良く表現している。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:Hakone-Yumoto-Station-Front-entrance.jpg"
+  },
+  {
+   "id": "inunakiyama",
+   "name": "犬鳴山温泉",
+   "file": "File:七宝瀧寺観音堂 泉佐野市 2013.11.23 - panoramio.jpg",
+   "credit": {
+    "author": "Nankou Oronain (as36…",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%B8%83%E5%AE%9D%E7%80%A7%E5%AF%BA%E8%A6%B3%E9%9F%B3%E5%A0%82_%E6%B3%89%E4%BD%90%E9%87%8E%E5%B8%82_2013.11.23_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "七宝瀧寺の本堂が明るく映っており、特徴的な建築と緑の自然背景が見映えよく写っている。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 2.1,
+   "replaced": "File:犬鳴山七宝瀧寺にて 道祖神^ 2013.11.23 - panoramio.jpg"
+  },
+  {
+   "id": "kobe",
+   "name": "神戸",
+   "file": "File:150111 Nakatottei Central Terminal Kobe Port Japan02s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:150111_Nakatottei_Central_Terminal_Kobe_Port_Japan02s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "神戸ハーバーランドの特徴的な港湾施設、背景の六甲山、神戸市街が明るく見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:Kobe Port Tower and Maritime Museum, November 2016.jpg"
+  },
+  {
+   "id": "mojiko",
+   "name": "門司港",
+   "file": "File:140721 Mojiko Retro Kitakyushu Japan01s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140721_Mojiko_Retro_Kitakyushu_Japan01s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "門司港の特徴的な港湾風景と赤レンガ建築が明るく写っている。レトロな建物が視認でき、場所特定可能。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:Mojiko Station 20190831.jpg"
+  },
+  {
+   "id": "shinjuku",
+   "name": "新宿",
+   "file": "File:2018-09-23 trees in Shinjuku Gyo-en.jpg",
+   "credit": {
+    "author": "Sergey Galyonkin",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2018-09-23_trees_in_Shinjuku_Gyo-en.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "新宿御苑の庭園風景が明るく見映えよく撮影されている。緑豊かな樹木と手入れされた芝生が特徴的。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:Buildings with colorful neon street signs at blue hour, Shinjuku, Tokyo.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "saiki",
+   "name": "佐伯",
+   "current": "File:Saiki city hall.JPG",
+   "candidates": 41,
+   "tried": [
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "商業施設やガソリンスタンドと思われる建物が主体。豊後二見ヶ浦の海岸景観が見えず、紹介画像として不適切。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港の設備（クレーン・赤い機械・船舶用施設）が主体。豊後二見ヶ浦の景観が見えません。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅舎またはビジネス施設と見られます。豊後二見ヶ浦の海岸景観ではなく、建物が主体で紹介画像に不適切です。"
+    },
+    {
+     "title": "File:Port of Saiki - 佐伯港 - panoramio (12).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港",
+     "reason": "港の設備（船舶・クレーン・岸壁）が主体で、豊後二見ヶ浦の見どころである海岸風景・景観が写っていない。"
+    },
+    {
+     "title": "File:Port of Saiki - 佐伯港 - panoramio (10).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港",
+     "reason": "港の設備と工業施設が主体。豊後二見ヶ浦の景勝地としての特徴が見当たらない。"
+    },
+    {
+     "title": "File:Port of Saiki - 佐伯港 - panoramio (5).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "船舶の甲板からの風景で、港の設備が主役。豊後二見ヶ浦の景観が背景にあるが、前景が船の機械設備で占められており、紹介画像には不適切。"
+    },
+    {
+     "title": "File:Port of Saiki - 佐伯港 - panoramio (6).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港の船舶・設備が主体。豊後二見ヶ浦の景観ではなく港湾施設のみ。"
+    },
+    {
+     "title": "File:Port of Saiki - 佐伯港 - panoramio (8).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港の設備",
+     "reason": "港湾施設・クレーン・船舶などが主体で、豊後二見ヶ浦の景観ではなく港の設備のみ。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Port of Saiki - 佐伯港 - panoramio (9).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "工業施設・港湾設備が主体。豊後二見ヶ浦の景観を示す画像ではなく、佐伯の港湾・工業地帯を撮影したもの。紹介画像には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "uozu",
+   "name": "魚津",
+   "current": "File:電鉄魚津駅バスターミナル２.jpg",
+   "candidates": 49,
+   "tried": [
+    {
+     "title": "File:Uozu Submerged Forest.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "博物館の屋内展示（埋没林）です。紹介ページのヒーロー画像は屋外の風景や名所を想定しており、屋内展示は不適切。"
+    },
+    {
+     "title": "File:Buried Forest in Uozu.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "埋没林博物館の屋内展示と思われます。紹介画像は屋外の風景・名所が適切です。"
+    },
+    {
+     "title": "File:Uozu-zenkei.jpg",
+     "place": "ok",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "魚津の町並みが広がる景観で、ヒーロー画像として適切。ただし特定地点の手がかりは不明瞭。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "魚津市街のパノラマだが博物館等の見どころが特定できず、曇天で見映えも低い"
+     }
+    },
+    {
+     "title": "File:Uozu Kokusai Country Club, Uozu Toyama Aerial photograph.2014.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "航空写真で地形は見えるが、魚津の特定の見どころを示す手がかけがなく、紹介画像として適切でない。"
+    },
+    {
+     "title": "File:Uozu-eki-hattori.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "駅の線路と電車が主役。魚津市街地の背景がわずかに見えるが、魚津埋没林博物館や主な見どころは写っていない。"
+    },
+    {
+     "title": "File:Uozu-nichika.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "廃線跡の線路が主体で、駅施設・設備が写っています。魚津埋没林博物館とは無関係で、紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Uozu-eki-houmen.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "魚津の街並みと山々は写っていますが、魚津埋没林博物館の特定の手がかりがなく、一般的な地方都市風景。紹介画像には魚津の特徴的な見どころが必要です。"
+    },
+    {
+     "title": "File:Uozu-chuo dori.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "魚津の商店街の風景ですが、埋没林博物館や魚津の主な見どころとは関連がなく、ヒーロー画像として不適切です。"
+    },
+    {
+     "title": "File:Uozu-kakikokiwari.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "駅・ホーム・電車が主体。魚津埋没林博物館とは無関係。"
+    }
+   ]
+  }
+ ]
+}

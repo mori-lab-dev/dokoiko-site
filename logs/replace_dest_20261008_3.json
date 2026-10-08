@@ -1,0 +1,810 @@
+{
+ "adopted": [
+  {
+   "id": "hakone",
+   "name": "箱根",
+   "file": "File:161223 Lake Ashi Hakone Japan02n.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:161223_Lake_Ashi_Hakone_Japan02n.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "芦ノ湖の湖面と周囲の山々、観光船が明るく鮮明に写っており、箱根の代表的な景観として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": "File:August 2009, Rain in Hakone -87760.jpeg"
+  },
+  {
+   "id": "uwajima",
+   "name": "宇和島",
+   "file": "File:Uwajima Castle, honmaru ishigaki-2.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Uwajima_Castle,_honmaru_ishigaki-2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "宇和島城の天守閣と石垣が明確に写っており、宇和島の代表的な見どころとして適切。明るく見映えよい構図。"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": "File:Uwajima Station, gaikan-2.jpg"
+  },
+  {
+   "id": "yuda-onsen",
+   "name": "湯田温泉",
+   "file": "File:140720 Ruriko-ji Yamaguchi Yamaguchi pref Japan04s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140720_Ruriko-ji_Yamaguchi_Yamaguchi_pref_Japan04s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "瑠璃光寺の建築と庭園が明るく見映えよく撮影。緑豊かな山々と寺院建築の特徴が確認でき、湯田温泉の主要見どころとして適切。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Yuda-Onsen Station, ekisha-1.jpg"
+  },
+  {
+   "id": "bessho-onsen",
+   "name": "別所温泉",
+   "file": "File:260828 Kitamuki-kannon Ueda Nagano pref Japan08s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:260828_Kitamuki-kannon_Ueda_Nagano_pref_Japan08s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "北向観音の本堂が明るく鮮明に撮影されており、特徴的な日本建築様式と周辺の自然が調和した良好な紹介画像です。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:Bessho Onsen center.jpg"
+  },
+  {
+   "id": "tsuruga",
+   "name": "敦賀",
+   "file": "File:Tsuruga Kehi Jingu ac (2).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tsuruga_Kehi_Jingu_ac_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "気比神宮の社殿が明るく鮮明に写っており、独特の建築様式と参道が見える。敦賀の主要観光地として最適。"
+    }
+   },
+   "pixelDiffAfter": 2.4,
+   "replaced": "File:Tsuruga 敦賀 Fukui Prefecture, Japan - window view 2024-09-12.jpg"
+  },
+  {
+   "id": "asuka",
+   "name": "飛鳥",
+   "file": "File:Ishibutai Kofun, 3D-B1.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ishibutai_Kofun,_3D-B1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "石舞台古墳の特徴的な巨石構造が明確に写っており、飛鳥の代表的見どころとして識別可能。明るく見映えの良い写真。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:小川晴暘撮影《観音菩薩立像（百済観音）》7世紀、飛鳥時代、法隆寺、奈良 2.jpg"
+  },
+  {
+   "id": "ushimado",
+   "name": "牛窓",
+   "file": "File:Ushimado -01.jpg",
+   "credit": {
+    "author": "Aimaimyi",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ushimado_-01.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "牛窓の海岸風景が明るく鮮やかに写っており、海水浴場として認識できる。瀬戸内海の景観が特徴的に表現されている。"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": "File:Ushimado Satake Toku's atelier.JPG"
+  },
+  {
+   "id": "norikura",
+   "name": "乗鞍",
+   "file": "File:Mount Norikura Volcano Panorama - Flickr - 雷太.jpg",
+   "credit": {
+    "author": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Norikura_Volcano_Panorama_-_Flickr_-_%E9%9B%B7%E5%A4%AA.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "乗鞍岳の雪景と特徴的な山容が明確に写っており、畳平からの典型的な眺望。ヒーロー画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 2.5,
+   "replaced": "File:乗鞍観光センター - panoramio (2).jpg"
+  },
+  {
+   "id": "mishima",
+   "name": "三島",
+   "file": "File:Mishima-taisha soumon.JPG",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mishima-taisha_soumon.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "三嶋大社の社殿正面が明るく映えよく写っており、緑の瓦屋根と木造建築が特徴的。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:静岡県三島市 20241227 1208.jpg"
+  },
+  {
+   "id": "sukumo",
+   "name": "宿毛",
+   "file": "File:151229 Sukumo Kochi pref Japan01s.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:151229_Sukumo_Kochi_pref_Japan01s.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "宿毛周辺の海岸線と島々の航空写真。明るく見映えよい景観だが、沖の島と特定する手がかりに乏しい。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "宿毛湾と思われる海岸・市街地の空撮で景観良好だが場所の断定手がかりなし"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:New Ashizuri in Port of Sukumowan.jpg"
+  },
+  {
+   "id": "kure",
+   "name": "呉",
+   "file": "File:Kure 20200102100619 (50277888538).jpg",
+   "credit": {
+    "author": "inunami",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kure_20200102100619_(50277888538).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "大和ミュージアムの特徴的な外観が明るく撮影されており、広場の雰囲気も良い。呉の観光拠点として適切な紹介画像。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:海上自衛隊 潜水艦桟橋 門 広島県呉市 Sep 25, 2017.jpg"
+  },
+  {
+   "id": "misaki-kochi",
+   "name": "三崎",
+   "file": "File:Cape Ashizuri - 足摺岬 - panoramio (8).jpg",
+   "credit": {
+    "author": "z tanuki",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cape_Ashizuri_-_%E8%B6%B3%E6%91%BA%E5%B2%AC_-_panoramio_(8).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "竜串海岸の特徴的な景観が明確。展望台からの海岸線、緑の岬、遠景の海が見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:Port of Misaki ac (3).jpg"
+  },
+  {
+   "id": "imari",
+   "name": "伊万里",
+   "file": "File:Centre of Imari city from Joyama Park.jpg",
+   "credit": {
+    "author": "Peka",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Centre_of_Imari_city_from_Joyama_Park.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "伊万里の市街地と川、背景の山々が写っており、地方都市の風景として見映えよく、伊万里地域と特定可能。"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": "File:Kusukutsu Park in Imari 2018.jpg"
+  },
+  {
+   "id": "niche_福島_2",
+   "name": "柳津虚空蔵尊温泉",
+   "file": "File:只見川 - panoramio (1).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%8F%AA%E8%A6%8B%E5%B7%9D_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "柳津虚空蔵尊温泉の象徴である赤い虹橋と只見川の風景が明るく見映えよく撮影されている。温泉街の建物も写っており、この地の特徴的な景観として識別可能。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:Hondo Yanaidukokuzo,Tome.jpg"
+  },
+  {
+   "id": "niche_福岡_3",
+   "name": "嘉穂劇場",
+   "file": "File:Kaho Gekijo ac (2).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kaho_Gekijo_ac_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "嘉穂劇場の特徴的な外観（入母屋造の屋根、赤い欄干、看板）が明るく鮮明に写っており、ヒーロー画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 3.4,
+   "replaced": "File:Kaho Gekijo ac (1).jpg"
+  },
+  {
+   "id": "gen_北海_オソウシ温泉",
+   "name": "オソウシ温泉",
+   "file": "File:オソウシ温泉（Open-air bath） - panoramio.jpg",
+   "credit": {
+    "author": "pakku",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89%EF%BC%88Open-air_bath%EF%BC%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉施設の露天風呂と思われる。青白い湯色、野趣あふれる石積み、花が咲いており見映えは良好。ただしオソウシ温泉の固有の特徴が判断困難。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "露天風呂の湯船と岩・草花が写り温泉の雰囲気を伝えるが場所特定の手がかりなし"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": "File:Osoushi spa 2011.JPG"
+  },
+  {
+   "id": "gen_北海_天に続く道",
+   "name": "天に続く道",
+   "file": "File:Shari road01.JPG",
+   "credit": {
+    "author": "221.20 (talk)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Shari_road01.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "天に続く道の特徴的な一直線の道路と両側の緑、遠方の地平線が明確に写っており、その場所を特定できる。明るく見映えの良い風景写真。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": "File:Tennituzukumichi 20190916.jpg"
+  },
+  {
+   "id": "chikugogawa",
+   "name": "原鶴温泉",
+   "file": "File:View of Yamada Weir on Chikugogawa River.jpg",
+   "credit": {
+    "author": "そらみみ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:View_of_Yamada_Weir_on_Chikugogawa_River.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "筑後川沿いの温泉地の風景。建築と川、山々が調和した見映え良い写真。原鶴温泉の特徴的な景観が表現されている。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Asakura Harazuruonsen Post office.JPG"
+  },
+  {
+   "id": "goshogawara",
+   "name": "五所川原",
+   "file": "File:Goshogawara City Government Office 20191124.jpg",
+   "credit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Goshogawara_City_Government_Office_20191124.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "立佞武多の館の外観が明るく映えよく撮影されている。五所川原の主要施設として識別可能。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:2015-02-15 Goshogawara Station 01.jpg"
+  },
+  {
+   "id": "kiyosato",
+   "name": "清里",
+   "file": "File:150719 Seisenryo Hokuto Yamanashi pref Japan01s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:150719_Seisenryo_Hokuto_Yamanashi_pref_Japan01s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "清泉寮の特徴的な建築外観が明るく写り、白い柵や煙突など識別可能な要素も含まれている"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:In front of Kiyosato Station03n4592.jpg"
+  },
+  {
+   "id": "miyanoshita",
+   "name": "宮ノ下",
+   "file": "File:Fujiya Hotel - Aug 28 2020 - various 12 51 58 108000.jpeg",
+   "credit": {
+    "author": "Nesnad",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Fujiya_Hotel_-_Aug_28_2020_-_various_12_51_58_108000.jpeg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "富士屋ホテルの特徴的な赤レンガ造りの外観と、緑に囲まれた歴史的景観が明るく映っている。宮ノ下の代表的な風景として識別可能。"
+    }
+   },
+   "pixelDiffAfter": 3.3,
+   "replaced": "File:Miyanoshita station platform 01.jpg"
+  },
+  {
+   "id": "shigaraki",
+   "name": "信楽",
+   "file": "File:信楽 陶芸の森 - panoramio.jpg",
+   "credit": {
+    "author": "z tanuki",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%BF%A1%E6%A5%BD_%E9%99%B6%E8%8A%B8%E3%81%AE%E6%A3%AE_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "信楽の陶芸の里らしい窯元施設と里山風景が広がる景観。明るく見映えよい撮影。"
+    }
+   },
+   "pixelDiffAfter": 3.6,
+   "replaced": "File:信楽駅 - panoramio.jpg"
+  },
+  {
+   "id": "tokunoshima",
+   "name": "徳之島",
+   "file": "File:ムシロ瀬を空から - panoramio.jpg",
+   "credit": {
+    "author": "clear_and_sunny",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%83%A0%E3%82%B7%E3%83%AD%E7%80%AC%E3%82%92%E7%A9%BA%E3%81%8B%E3%82%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "犬の門蓋の特徴的な柱状節理の岩石群と海岸景観が明確に写っており、徳之島の代表的な地形として識別可能。明るく見映えよい写真。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:Tokunoshima Airport Aerial photograph.jpg"
+  },
+  {
+   "id": "yunoura",
+   "name": "湯ノ浦温泉",
+   "file": "File:R196-2020-041.jpg",
+   "credit": {
+    "author": "Puchi-masashi",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:R196-2020-041.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "クアハウス今治の建物全体が明るく撮影されており、看板も視認できる。建築の外観が見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": "File:Roadside Station Imabari Yunoura onsen.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "ofunato",
+   "name": "大船渡",
+   "current": "File:Japan fires in Ofunato now tmo 20250301 lrg.jpg",
+   "candidates": 20,
+   "tried": [
+    {
+     "title": "File:Cityscape of Ofunato City, 2026.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "大船渡の市街地と周辺山々の風景ですが、碁石海岸の特徴的な岩礁や海岸景観が写っていません。主な見どころを表現できていません。"
+    },
+    {
+     "title": "File:Iwateken Kotsu Ofunato Depot.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "バス停留所と周辺建物が主体。碁石海岸などの見どころの風景がない。"
+    },
+    {
+     "title": "File:Ofunato City Agricultural Cooperative 1.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "大船渡の駅舎と思われる建築物。碁石海岸の風景ではなく、施設建築が主役。"
+    },
+    {
+     "title": "File:Route 45 Ofunato By-Pass 1 Iwate Prefectural Ofunato City 1.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "道路の案内標識や距離表示が主体。碁石海岸の風景・景観が写っておらず、紹介画像として不適切。"
+    },
+    {
+     "title": "File:Ofunato City Disaster Prevention Center 1.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "消防署の建物で、碁石海岸などの風景・景観が写っていません。紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Route 45 Sakari By-Pass 1 Iwate Prefectural Ofunato City 1.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "駅前の道路と駅舎が主体で、大船渡の景観・見どころを表現していない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Ofunato-Goishikaigan IC 2.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "道路と案内標識が主体。碁石海岸などの見どころの風景が写っていない。"
+    },
+    {
+     "title": "File:震災前の岩手県大船渡市.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "町並み風景だが、碁石海岸の特徴的な岩礁景観がなく、一般的な地方都市の景観。大船渡の紹介画像には不適切。"
+    },
+    {
+     "title": "File:Sanriku Expressway Ofunato Interchange.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "高速道路の走行風景で、大船渡や碁石海岸の景観が写っていません。紹介画像に不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_相泊温泉",
+   "name": "相泊温泉",
+   "current": "File:相泊温泉 - panoramio.jpg",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Aidomari hot spring.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "防波堤や土嚢などの港湾施設が主体。温泉地の風景・景観として見映えが悪い。"
+    }
+   ]
+  },
+  {
+   "id": "futamata-onsen",
+   "name": "二岐温泉",
+   "current": "File:二股ラヂウム温泉P6190061.JPG",
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:20120608二岐温泉2.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "駐車場と車が主体。旅館の外観は写っているが、建築美や景観としての魅力に欠ける。ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:20120608二岐温泉1.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅の設備（線路・機関車・駅舎）が主体で、温泉地の風景や名所として適切ではない"
+    },
+    {
+     "title": "File:20071201NasuDake.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "地図",
+     "reason": "航空写真に文字ラベルが焼き込まれた地図です。旅先の紹介ページのヒーロー画像として適切ではありません。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_神居岩温泉",
+   "name": "神居岩温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:北海道道1031号神居岩総合公園線.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "北海道1031号線の道路標識が主役。温泉地の風景・施設が見えず紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "name": "相乗温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Michinoeki Ikarigaseki 005.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、駐車場や看板が主体で、風景・景観として見映えに欠けます。"
+    }
+   ]
+  },
+  {
+   "id": "ikeda-osaka",
+   "name": "池田",
+   "current": "File:240810 Ikeda Station Ikeda Osaka pref Japan02s3.jpg",
+   "candidates": 19,
+   "tried": [
+    {
+     "title": "File:CupNoodle Factory (6).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の飲食スペースで、人物が主役。池田やラーメン館の特定要素がなく、紹介画像に不適切。"
+    },
+    {
+     "title": "File:CupNoodle Factory (4).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "インスタント麺の製造機械など館内の展示物が写っており、屋内施設の内部風景です。外観や風景ではなく屋内の展示が主体となっています。"
+    },
+    {
+     "title": "File:Laboratory of Momofuku (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "インスタントラーメン発明記念館の展示品ですが、屋内の資料・展示物のため紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Laboratory of Momofuku (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "屋内の展示品・資料であり、ヒーロー画像には不適切。池田の外観・風景が必要。"
+    },
+    {
+     "title": "File:CupNoodle Factory (11).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内のワークショップ風景で、人物が主役。外観や景観が見えず、ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:CupNoodle Factory (10).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "人物が主役で、屋内の展示風景。池田やラーメン館を象徴する風景ではない。"
+    },
+    {
+     "title": "File:CupNoodle Factory (5).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "インスタント麺関連の展示と見られますが、屋内の資料・展示が主体で、紹介画像として適さない。"
+    },
+    {
+     "title": "File:CupNoodle Factory (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "インスタント麺製造体験の屋内展示。人物が主役で、建築・風景が見えない。"
+    },
+    {
+     "title": "File:Noodle Bowl (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "インスタントラーメン発明記念館の展示物ですが、屋内の展示ケースで、紹介ページのヒーロー画像には不適切です。"
+    }
+   ]
+  }
+ ]
+}

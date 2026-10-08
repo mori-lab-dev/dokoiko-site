@@ -1,0 +1,831 @@
+{
+ "adopted": [
+  {
+   "id": "shodoshima",
+   "name": "小豆島",
+   "file": "File:201211Kankakei Shodoshima Kagawa pref Japan02s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:201211Kankakei_Shodoshima_Kagawa_pref_Japan02s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "寒霞渓の特徴的な渓谷地形と紅葉が写っており、小豆島の主要観光地として適切。風景が明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:Shodoshima Town Library ac (1).jpg"
+  },
+  {
+   "id": "aizu",
+   "name": "会津若松",
+   "file": "File:Aizuwakamatsu Castle ac (2).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aizuwakamatsu_Castle_ac_(2).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "鶴ヶ城の石垣と城門が明確に写っており、城郭の特徴的な構造が確認できる。背景に会津若松の町並みも見え、場所の特定が可能。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": "File:Aizuwakamatsu, Fukushima Oka.jpg"
+  },
+  {
+   "id": "oboke",
+   "name": "大歩危",
+   "file": "File:Oboke gorge pleasure boat 2106 August 13.B.jpg",
+   "credit": {
+    "author": "さかおり",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Oboke_gorge_pleasure_boat_2106_August_13.B.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "大歩危峡の特徴的な白亜の岸壁と緑色の川、観光船が写っており、景観が明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Ōboke Station 02.jpg"
+  },
+  {
+   "id": "hikone",
+   "name": "彦根",
+   "file": "File:玄宮園 - panoramio (1).jpg",
+   "credit": {
+    "author": "daidarabotti",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%84%E5%AE%AE%E5%9C%92_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "彦根城の堀と城郭の風景が明確に写っており、特徴的な石垣や建築が見え、明るく見映えよい写真。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:Hikone Port 20191108.jpg"
+  },
+  {
+   "id": "itoshima",
+   "name": "糸島",
+   "file": "File:糸島二見ヶ浦と小呂島.jpg",
+   "credit": {
+    "author": "淤能碁呂太郎",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%B3%B8%E5%B3%B6%E4%BA%8C%E8%A6%8B%E3%83%B6%E6%B5%A6%E3%81%A8%E5%B0%8F%E5%91%82%E5%B3%B6.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "二見ヶ浦の象徴的な夫婦岩と鳥居が明確に写っており、糸島の代表的景観として適切。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": "File:Itoshima Tsukiyama Kofun, Top 360-degree.jpg"
+  },
+  {
+   "id": "ito",
+   "name": "伊東",
+   "file": "File:231007 Matsukawa Promenade Path Ito Shizuoka pref Japan05s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:231007_Matsukawa_Promenade_Path_Ito_Shizuoka_pref_Japan05s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "伊東温泉の竹林風情ある路地。竹製フェンスと古木が特徴的で、温泉地の情緒的な雰囲気が明るく美しく表現されている。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:サンハトヤ.jpg"
+  },
+  {
+   "id": "zamami-island",
+   "name": "座間味島",
+   "file": "File:Zamami Island, Japan (Panorama).jpg",
+   "credit": {
+    "author": "Laurie Nevay",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Zamami_Island,_Japan_(Panorama).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "座間味島の海岸線と緑豊かな自然が明るく映えよく撮影されている。ヒーロー画像として適切。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "高台から望む古座間味ビーチの白砂とエメラルドグリーンの海が特徴的に写っている"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:Takatuki View in Zamami Island Okinawa001.jpg"
+  },
+  {
+   "id": "fushimi",
+   "name": "伏見",
+   "file": "File:A temple in Kyoto (52407317930).jpg",
+   "credit": {
+    "author": "Sergiy Galyonkin from Raleigh, USA",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:A_temple_in_Kyoto_(52407317930).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "伏見稲荷大社の象徴である朱色の鳥居が明確に写っており、緑に映える鮮やかで見映えの良い構図。旅先の代表的景観として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:Fushimi stn Kintetsu.jpg"
+  },
+  {
+   "id": "tateshina",
+   "name": "蓼科",
+   "file": "File:Drone panorama of Shirakaba Lake, Nagano Prefecture.jpg",
+   "credit": {
+    "author": "Benlisquare",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Drone_panorama_of_Shirakaba_Lake,_Nagano_Prefecture.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "蓼科の豊かな森林と川の流れが見える雄大な山岳風景。蓼科湖の水の流れが中央に見え、特徴的な地形が確認できる。"
+    }
+   },
+   "pixelDiffAfter": 0.4,
+   "replaced": "File:Tateshina high school in Nagano.jpg"
+  },
+  {
+   "id": "ichinoseki",
+   "name": "一関",
+   "file": "File:Stream 流れ(ながれ) (4622566442).jpg",
+   "credit": {
+    "author": "TANAKA Juuyoh (田中十洋) from Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Stream_%E6%B5%81%E3%82%8C(%E3%81%AA%E3%81%8C%E3%82%8C)_(4622566442).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "厳美渓の特徴的な渓谷風景。岩壁と清流が明るく見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:Mitake Shrine in Ichinoseki, Iwate (岩手県一関市千厩町).jpg"
+  },
+  {
+   "id": "odawara",
+   "name": "小田原",
+   "file": "File:Odawara Castle - 2022 May 2 360 panorama various 15 15 00 405000.jpeg",
+   "credit": {
+    "author": "Nesnad",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Odawara_Castle_-_2022_May_2_360_panorama_various_15_15_00_405000.jpeg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "小田原城の天守閣と城郭が中央に見え、周囲の緑地との調和が美しい。城跡公園の雰囲気が良く表現されている。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:161223 Odawara Station Odawara Japan01s3.jpg"
+  },
+  {
+   "id": "agematsu",
+   "name": "上松",
+   "file": "File:寝覚の床 (51428533802).jpg",
+   "credit": {
+    "author": "m-louis .® from Osaka, Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%AF%9D%E8%A6%9A%E3%81%AE%E5%BA%8A_(51428533802).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "寝覚の床の特徴的な岩盤と木曽川の渓谷美が明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Agematsu town office2021.jpg"
+  },
+  {
+   "id": "teuri-island",
+   "name": "天売島",
+   "file": "File:Teuri Island Aerial photograph.1977.jpg",
+   "credit": {
+    "author": "国土交通省",
+    "license": "Attribution",
+    "url": "https://commons.wikimedia.org/wiki/File:Teuri_Island_Aerial_photograph.1977.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "天売島全体の空撮。島の特徴的な形状と海岸線が明確に写っており、天売島と断定可能。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:Wiki-c-miyamahoojiro.jpg"
+  },
+  {
+   "id": "nagi-okayama",
+   "name": "奈義町",
+   "file": "File:Japan National Route 53 -05.jpg",
+   "credit": {
+    "author": "Aimaimyi",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_National_Route_53_-05.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "奈義町の山間の谷間風景。緑豊かで見映えよく、奈義町現代美術館の建築が谷間に位置する特徴的なロケーションが確認できる。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:Nagi-jinja shaden.JPG"
+  },
+  {
+   "id": "oze-2",
+   "name": "尾瀬ヶ原",
+   "file": "File:Mt.Hiuchigatake 10.jpg",
+   "credit": {
+    "author": "Σ64",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mt.Hiuchigatake_10.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "尾瀬ヶ原の湿原と燧ケ岳の特徴的な風景。広大な草原と山々が映えており、ヒーロー画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:Ozegahara 41.jpg"
+  },
+  {
+   "id": "matsue",
+   "name": "松江",
+   "file": "File:Matsue Castle Keep Tower 1985 -1.jpg",
+   "credit": {
+    "author": "Marie-Sophie Mejan",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Matsue_Castle_Keep_Tower_1985_-1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "松江城の特徴的な多層の反り屋根と黒白の外観が明確。城郭建築として見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": "File:Katsuyama Izumo-kaido.jpg"
+  },
+  {
+   "id": "gen_北海_多和平",
+   "name": "多和平",
+   "file": "File:TawadairaS.JPG",
+   "credit": {
+    "author": "self",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:TawadairaS.JPG",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "広大な緑の牧草地と特徴的な円形の農道が写っており、多和平の雄大な景観を良好に表現している"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "広大な緑の牧草地と展望台からのパノラマ景観が多和平の特徴を示す"
+    }
+   },
+   "pixelDiffAfter": 3.3,
+   "replaced": "File:Tawadaira.JPG"
+  },
+  {
+   "id": "gen_北海_神威脇温泉",
+   "name": "神威脇温泉",
+   "file": "File:鍋釣岩 - panoramio.jpg",
+   "credit": {
+    "author": "tuyainu",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "神威岩の特徴的なアーチ状の岩は神威脇温泉の象徴。明るく見映えよい海岸風景。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": null
+  },
+  {
+   "id": "gen_茨城_大杉神社",
+   "name": "大杉神社",
+   "file": "File:大杉神社虚空蔵尊 - panoramio.jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%9D%89%E7%A5%9E%E7%A4%BE%E8%99%9A%E7%A9%BA%E8%94%B5%E5%B0%8A_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "大杉神社の本殿と参道が明るく見映えよく撮影されており、獅子像や建築様式から大杉神社と特定できる。"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": null
+  },
+  {
+   "id": "chiba-zoo",
+   "name": "千葉動物公園",
+   "file": "File:Futa 20261004 4.jpg",
+   "credit": {
+    "author": "Misei sen",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Futa_20261004_4.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "動物",
+     "reason": "レッサーパンダが明るく見映えよく撮影されており、千葉動物公園の主な見どころとして適切。ただし場所特定の手がかりがない。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "レッサーパンダが主役で見映えよく撮影されているが千葉動物公園と断定できる手がかりはない"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Dōbutsukōen Station Dōbutsukōen route 2024.jpg"
+  },
+  {
+   "id": "gero-onsen",
+   "name": "下呂温泉",
+   "file": "File:Hida River in Gero city ac.jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hida_River_in_Gero_city_ac.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "景観",
+     "reason": "下呂温泉の象徴である噴泉池と飛騨川、背景の温泉街の建物群が写っており、その場所だと判定可能。明るく見映えよい"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": "File:Gero Hot Springs Museum ac.jpg"
+  },
+  {
+   "id": "kinosaki-onsen",
+   "name": "城崎温泉",
+   "file": "File:161030 Kinosaki Onsen Toyooka Hyogo pref Japan09s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:161030_Kinosaki_Onsen_Toyooka_Hyogo_pref_Japan09s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "城崎温泉の象徴的な和風建築「さとの湯」の外観が明るく見映えよく撮影されている。特徴的な屋根と佇まいで特定可能。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "さとの湯の特徴的な和風建築外観と柳の木が明るく写っている"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:161030 Kinosaki-Onsen Station Toyooka Hyogo pref Japan01bs3.jpg"
+  },
+  {
+   "id": "matsumoto-kaido",
+   "name": "塩尻",
+   "file": "File:Shiojiri-juku Honjin.jpg",
+   "credit": {
+    "author": "photo: Qurren (talk) Taken with Canon PowerShot G9 X",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shiojiri-juku_Honjin.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "塩尻ワイナリーの建物が明るく鮮明に写っており、看板と建築外観から場所特定可能。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": "File:長野県塩尻市洗馬の双体道祖神.jpg"
+  },
+  {
+   "id": "sakushima",
+   "name": "佐久島",
+   "file": "File:Saku Island from Mount Amagoi.jpg",
+   "credit": {
+    "author": "Alpsdake",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Saku_Island_from_Mount_Amagoi.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "佐久島の全景が写っており、背景の工業地帯との位置関係で特定可能。島の自然風景が明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": "File:Sakushima Elementary school and Junior high school s2.jpg"
+  },
+  {
+   "id": "taro",
+   "name": "田老",
+   "file": "File:防潮堤跡（宮古市田老野原） - panoramio.jpg",
+   "credit": {
+    "author": "Yoshio Kohara",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%98%B2%E6%BD%AE%E5%A0%A4%E8%B7%A1%EF%BC%88%E5%AE%AE%E5%8F%A4%E5%B8%82%E7%94%B0%E8%80%81%E9%87%8E%E5%8E%9F%EF%BC%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "田老の特徴的な防潮堤が明確に写っており、背景の山々とともに景観を示している。明るく見映えよい写真。"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": "File:TaroStation3.JPG"
+  },
+  {
+   "id": "yunokami-onsen",
+   "name": "湯野上温泉",
+   "file": "File:湯野上温泉駅 - panoramio (1).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%B9%AF%E9%87%8E%E4%B8%8A%E6%B8%A9%E6%B3%89%E9%A7%85_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "湯野上温泉駅の茅葺き屋根という特徴的な建築が明るく鮮明に写っており、紹介画像に適切"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:湯野上温泉駅.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "otoyo",
+   "name": "大豊",
+   "current": "File:Otoyo town hall.JPG",
+   "candidates": 15,
+   "tried": [
+    {
+     "title": "File:Yutorisuto Park Otoyo - aerial.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "航空写真で森林と道路のみ。日本一の大杉が特定できず、大豊の特徴的な見どころが視認不可。"
+    },
+    {
+     "title": "File:Otoyo IC.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "高速道路のETC料金所と駅舎が写っており、大豊の主要観光地である日本一の大杉が全く写っていない。"
+    },
+    {
+     "title": "File:Otoyo-jinja Inari.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "神社の社殿は写っているが、主な見どころ「日本一の大杉」が写っていない。建築物のみの紹介になっている。"
+    },
+    {
+     "title": "File:Otoyo-jinja.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "神社の鳥居と社殿が写っていますが、日本一の大杉が見えません。紹介画像として適切ではありません。"
+    },
+    {
+     "title": "File:Otoyo-jinja haiden.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "社殿は見映え良く撮影されていますが、大豊の主な見どころ「日本一の大杉」が写っていません。建築物が主役になっています。"
+    },
+    {
+     "title": "File:Otoyo-jinja Daikokusha.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "神社の参拝施設内部。大杉自体が写っていない。紹介画像としては不適切。"
+    },
+    {
+     "title": "File:国道439号大豊町西土居.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "道路標識と施設が主体。日本一の大杉の景観が不明瞭で、紹介画像として不適切。"
+    },
+    {
+     "title": "File:国道439号大豊町西峰.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "大杉の参道ですが、巨木が視認できず、道路・柵・苔むした壁が主役。大豊を象徴する景観が不明確。"
+    },
+    {
+     "title": "File:Otoyo-seizai.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場や施設の道路が写っており、主要見どころの大杉が見当たりません。紹介画像に不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "shishikui",
+   "name": "宍喰",
+   "current": "File:Hotel Riviera Shishikui.jpg",
+   "candidates": 4,
+   "tried": [
+    {
+     "title": "File:Tokushima Prefectural Road No309 250622.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "ロードサイン・電柱など設備が目立ち、漁港の景観として見映えが良くない。風景が分散している。"
+    },
+    {
+     "title": "File:Sisikui ootekaigan 20240402 1.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港の設備",
+     "reason": "漁港の設備（防波堤・階段・係留施設）が主体で、観光紹介画像には不適切。風景性に欠ける。"
+    },
+    {
+     "title": "File:2017-09-21T21-12-06 Japan (37382662452).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港の設備（橋・看板）が主体で、風景・景観として見映えが良くない。漁港らしさが伝わらない。"
+    },
+    {
+     "title": "File:Asa-Kaigan-Shishikui-garage.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "宍喰駅の駅舎と線路が写っており、港の風景ではなく駅施設が主体。漁港の紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_島根_6",
+   "name": "黒淵の滝",
+   "current": "File:Kuroiwa Falls Kamikawa Hyogo01n4272.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "hitachi",
+   "name": "日立",
+   "current": "File:Hitachi station 21-11-14-2.jpg",
+   "candidates": 55,
+   "tried": [
+    {
+     "title": "File:Hitachi Civic Sports Park Baseball Stadium 04.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "野球場の写真。日立駅やその見どころではなく、別施設の風景。"
+    },
+    {
+     "title": "File:Hydrochoerus hydrochaeris 02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "カピバラなどの動物が主役。日立の見どころ紹介に不適切。"
+    },
+    {
+     "title": "File:Hydrochoerus hydrochaeris 01.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "カピバラの写真。日立の見どころ（駅舎や風景）ではなく、動物園などの施設内容物の可能性が高い。ヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:ED15 1 (No 1 end) Hitachi Mito Factory 20170603.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "屋内の展示（古い車両）です。日立駅のガラス張りの外観が写っていません。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 16.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "森林内の看板が写っており、日立駅や日立の主要な見どころとの関連性が不明確。ヒーロー画像として適切ではありません。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 06.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "日立駅の特徴的なガラス張り建築が写っていない。森の岩石風景で日立固有の見どころを表現できていない。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "日立駅ではなく、神社の鳥居と石碑が写っており、別の観光地。主な見どころと不一致。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 04.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "日立の見どころ（日立駅など）と関連性が不明。森林風景のため、どの場所の写真かが特定できない。"
+    },
+    {
+     "title": "File:茨城県日立市十王町黒坂 21.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "岩場・洞窟の屋内展示と見られます。日立駅やその景観ではなく、紹介画像に適しません。"
+    }
+   ]
+  }
+ ]
+}

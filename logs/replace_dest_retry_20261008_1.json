@@ -1,0 +1,380 @@
+{
+ "adopted": [
+  {
+   "id": "hamada-shimane",
+   "name": "浜田",
+   "file": "File:Hamada Port Shimane 2014.JPG",
+   "credit": {
+    "author": "ja:User:Sanjo",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hamada_Port_Shimane_2014.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "浜田港の全景が広がり、特徴的な橋梁と島々が見え、港町の風景として適切。明るく視認性が良い。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:Rikuzen-Hamada Station building.jpg"
+  },
+  {
+   "id": "yokosuka",
+   "name": "横須賀",
+   "file": "File:Saru-shima island Aerial photograph.jpg",
+   "credit": {
+    "author": "ブルーノ・プラス",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Saru-shima_island_Aerial_photograph.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "横須賀と猿島が明確に識別できる空撮。猿島の特徴的な形状と周囲の港湾風景が見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": "File:Nagai Port, Yokosuka, Japan CIMG0480.jpg"
+  },
+  {
+   "id": "uozu",
+   "name": "魚津",
+   "file": "File:Uozu-tateyama.jpg",
+   "credit": {
+    "author": "蜃氣楼",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Uozu-tateyama.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "魚津市街地と背景の立山連峰が写っており、魚津の代表的な風景。明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": "File:電鉄魚津駅バスターミナル２.jpg"
+  },
+  {
+   "id": "yubu-island",
+   "name": "由布島",
+   "file": "File:Yubu Island Okinawa Pref Japan17s3s4592.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Yubu_Island_Okinawa_Pref_Japan17s3s4592.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "由布島の特徴的な亜熱帯植生（ヤシ類など）と山々が写っており、明るく見映えよい風景。島の雰囲気が良く伝わる。"
+    }
+   },
+   "pixelDiffAfter": 2.1,
+   "replaced": "File:Restaurants on Yubu Island.jpg"
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "takarakawa-onsen",
+   "name": "宝川温泉",
+   "current": "File:Gunma hot springs 2017.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_見市温泉",
+   "name": "見市温泉",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Kenichi spa bath room.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の温泉浴場で、ヒーロー画像として不適切。温泉地の景観を示していない。"
+    },
+    {
+     "title": "File:TsukimiBashi2004-12.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉地の建物群と川が写っていますが、見市温泉を特定できる社号標や固有の標識がなく、複数の温泉地で同様の風景が存在します。"
+    }
+   ]
+  },
+  {
+   "id": "niche_鳥取_5",
+   "name": "小松温泉",
+   "current": "File:Ogawa Onsen Motoyu Doukutu.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "himakajima",
+   "name": "日間賀島",
+   "current": "File:Himakajima West Port 2019-06 ac.jpg",
+   "candidates": 32,
+   "tried": [
+    {
+     "title": "File:Himakajima Donkaiin 2019-06 ac.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島の特定の寺院と思われるが、島全体の風景や港の景観ではなく、単一建築の外観のため紹介画像には不適切。"
+    },
+    {
+     "title": "File:Himakajima Service Center 2019-06 ac.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港湾施設の建物のみで、島の風景・景観が見えない。ヒーロー画像として適さない。"
+    },
+    {
+     "title": "File:Himakajima Anrakuji 2019-06 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "寺院や神社の屋内展示・装飾品を撮影した写真。日間賀島の風景や名所の外観ではなく、屋内の資料・装飾が主体となっているため、ヒーロー画像として不適切です。"
+    },
+    {
+     "title": "File:Himakajima West Port 2019-06 ac (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "港の屋内施設（待合室）の写真です。ヒーロー画像として必要な島の風景・景観が写っていません。"
+    },
+    {
+     "title": "File:Himakajima East Port 2019-06 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "港の設備（桟橋・看板）が主役。ヒーロー画像には島の風景や景観が必要。"
+    },
+    {
+     "title": "File:Himakajima Choshinji 2019-06 ac (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "寺院などの建築物が写っており、日間賀島の港の紹介画像として不適切。港の風景ではなく内陸の施設"
+    },
+    {
+     "title": "File:Himakajima Anrakuji 2019-06 ac (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島港の紹介画像として不適切。港湾風景でなく、寺院の建造物が主役。場所の特定手がかりなし。"
+    },
+    {
+     "title": "File:Himakajima Choshinji 2019-06 ac (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島の寺院建築と思われますが、港の風景ではなく屋内施設。ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Himakajima Anrakuji 2019-06 ac (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "日間賀島の寺社建築ですが、島の風景や港の景観ではなく屋内施設に該当します。ヒーロー画像には不適切です。"
+    },
+    {
+     "title": "File:Himakajima Daikoin 2019-06 ac.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "寺院などの建築物で日間賀島の特徴的な風景ではない。港の見どころとして不適切。"
+    },
+    {
+     "title": "File:Meitetu himakajima 01.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "港の設備・売店が主体。島の風景や景観的価値が不足。紹介画像には不向き。"
+    },
+    {
+     "title": "File:Meitetu himakajima 02.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "港の乗降設備・看板が主体。風景・景観としての魅力に欠ける。"
+    }
+   ]
+  },
+  {
+   "id": "niche_島根_6",
+   "name": "黒淵の滝",
+   "current": "File:Kuroiwa Falls Kamikawa Hyogo01n4272.jpg",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_相泊温泉",
+   "name": "相泊温泉",
+   "current": "File:相泊温泉 - panoramio.jpg",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Aidomari hot spring.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "防波堤などの港湾施設が主体で、温泉地の風景として見映えが悪い。白い土嚢袋が目立ち、利用済み物資感が強い。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "name": "相乗温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Michinoeki Ikarigaseki 005.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉施設の外観ですが、駐車場・看板・施設の外装が主で、温泉地としての風景的魅力が感じられません。ヒーロー画像には不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_戸切地陣屋",
+   "name": "戸切地陣屋",
+   "current": "File:KIMG0198.jpg",
+   "candidates": 9,
+   "tried": [
+    {
+     "title": "File:サヴァール教本と戸切地陣屋の比較.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "陣屋の設計図・図面です。紹介ページのヒーロー画像には実際の風景や建築の外観写真が必要です。"
+    },
+    {
+     "title": "File:The view to the north from Hekirichi Bastion Fort.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が写っていない。一般的な北海道の農村風景で、指定場所との特定ができない。"
+    },
+    {
+     "title": "File:戸切地陣屋外郭構造.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "文字焼き込み・図表・注釈が多く、紹介画像としての見映えが損なわれている"
+    },
+    {
+     "title": "File:戸切地陣屋砲台構造.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "図解・註釈が多数焼き込まれており、旅行ガイドの紹介画像として不適切。"
+    },
+    {
+     "title": "File:戸切地陣屋平面構造図.png",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "図表",
+     "reason": "戸切地陣屋の建造物や風景ではなく、陣屋の平面図・設計図です。紹介画像として不適切。"
+    },
+    {
+     "title": "File:きじひき高原 パノラマ展望台より 1 (51384741489).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が写っておらず、一般的な山岳風景のみ。陣屋を識別できる手がかけがない。"
+    },
+    {
+     "title": "File:きじひき高原 パノラマ展望台より 2 (51384249473).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が写っていない。一般的な丘陵地の風景で場所特定不可。"
+    },
+    {
+     "title": "File:The view to the east from Hekirichi basution Fort, with Goryokaku located almost directly in front.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "戸切地陣屋の建造物が見当たらず、一般的な農村風景。特定の手がかりなし。"
+    },
+    {
+     "title": "File:Inner Enclosure Structures of Hekirichi Bastion Fort (Initial Phase).png",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "図表",
+     "reason": "戸切地陣屋の構造図・平面図であり、実際の風景写真ではなく図表です。紹介ページのヒーロー画像には不適切。"
+    }
+   ]
+  }
+ ]
+}
