@@ -42,7 +42,11 @@ function localMain(d) {
   return null;
 }
 
-const targets = dests.filter((d) => d.imageCredit?.url && localMain(d)).slice(SKIP, SKIP + LIMIT);
+// --ids <json>: id の配列（または {id} の配列）だけを検査する。差し替えの前後で同じ物差しで測り直すため（2026-10-08）
+const IDS = args.includes('--ids')
+  ? new Set(JSON.parse(fs.readFileSync(args[args.indexOf('--ids') + 1], 'utf8')).map((x) => (typeof x === 'string' ? x : x.id)))
+  : null;
+const targets = dests.filter((d) => d.imageCredit?.url && localMain(d) && (!IDS || IDS.has(d.id))).slice(SKIP, SKIP + LIMIT);
 
 /** 64x36のグレースケールにして平均絶対差を取る。同じ写真なら数以下に収まる */
 const fp = (buf) => sharp(buf).resize(64, 36, { fit: 'fill' }).greyscale().raw().toBuffer();

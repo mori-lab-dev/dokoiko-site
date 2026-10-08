@@ -8881,6 +8881,11 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File%3AMichinoeki_Hiraizumi_02.JPG",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "平泉ホテル武蔵坊",
+      "catchcopy": "世界遺産・平泉の町なかにある温泉ホテル。世界文化遺産の5つを歩いて巡れる",
+      "jalanUrl": "https://www.jalan.net/yad319505/"
     }
   },
   {
@@ -20850,6 +20855,14 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:211021_Kurokabe_Square_Nagahama_Shiga_prefecture_Japan01s3.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "グランドメルキュール琵琶湖リゾート＆スパ",
+      "catchcopy": "琵琶湖畔の長浜に建つリゾートホテル。黒壁スクエアへ徒歩圏",
+      "jalanUrl": "https://www.jalan.net/yad316793/",
+      "hasShuttle": true,
+      "shuttleInfo": "JR長浜駅西口（びわこ口）から無料送迎バスあり（予約不要）",
+      "accessStation": "長浜駅"
     }
   },
   {
@@ -35749,6 +35762,12 @@
       "license": "CC BY 2.0",
       "url": "https://commons.wikimedia.org/wiki/File:711a_Daisen_Japan_1971_(51374457952).jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "ホテル大山 しろがね",
+      "catchcopy": "大山の夏山登山口まで徒歩約5分。登山拠点になる客室24室の宿",
+      "jalanUrl": "https://www.jalan.net/yad310372/",
+      "accessStation": "米子駅からバス約50分"
     }
   },
   {
@@ -38812,6 +38831,12 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B5%E7%AF%89%E5%B8%82_%E5%A4%A7%E5%8E%9F%E9%82%B8_2022.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "杵築百年旅館 日向屋",
+      "catchcopy": "大正5年創業の旅館。杵築の海辺で地魚とオコゼ料理を出す",
+      "jalanUrl": "https://www.jalan.net/yad332265/",
+      "accessStation": "杵築駅"
     }
   },
   {
@@ -39507,7 +39532,15 @@
       "鹿児島に泊まるのがおすすめ",
       "離島の絶景"
     ],
-    "bestSeason": "夏"
+    "bestSeason": "夏",
+    "featured_stay": {
+      "name": "種子島あらきホテル",
+      "catchcopy": "西之表港から徒歩約4分。天然温泉「赤尾木の湯」を併設する宿",
+      "jalanUrl": "https://www.jalan.net/yad325240/",
+      "hasShuttle": true,
+      "shuttleInfo": "西之表港から無料送迎あり（事前予約必須・空港との送迎は行っていない）",
+      "accessStation": "西之表港から徒歩約4分"
+    }
   },
   {
     "id": "kikuchi",
@@ -40848,6 +40881,12 @@
       "license": "CC BY 3.0",
       "url": "https://commons.wikimedia.org/wiki/File%3ATakatuki_View_in_Zamami_Island_Okinawa001.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "サンメール座間味",
+      "catchcopy": "2023年開業の全5室の小さなリゾートホテル。プライベートプール付きの客室もある",
+      "jalanUrl": "https://www.jalan.net/yad367480/",
+      "accessStation": "泊港から高速船約1時間、座間味港"
     }
   },
   {
@@ -41063,7 +41102,12 @@
       "友達と",
       "那覇に泊まるのがおすすめ"
     ],
-    "bestSeason": "夏"
+    "bestSeason": "夏",
+    "featured_stay": {
+      "name": "ホテルYYY CLUB iE RESORT",
+      "catchcopy": "伊江島の海沿いに建つリゾートホテル。本館とコテージがある",
+      "accessStation": "本部港からフェリー約30分、伊江港"
+    }
   },
   {
     "id": "kohama-island",
@@ -42087,6 +42131,12 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Tuyama-1311-6.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "津山城東むかし町 城下小宿 糀や",
+      "catchcopy": "出雲街道沿いの城東地区。旧苅田酒造の建物を改修した町家の宿",
+      "jalanUrl": "https://www.jalan.net/yad312890/",
+      "accessStation": "津山駅から徒歩約15分"
     }
   },
   {
@@ -75898,7 +75948,13 @@
       "海を眺める",
       "ゆっくり滞在"
     ],
-    "bestSeason": "夏"
+    "bestSeason": "夏",
+    "featured_stay": {
+      "name": "ヒルトン沖縄北谷リゾート",
+      "catchcopy": "北谷・美浜エリアのリゾートホテル。大きなラグーンプールがある",
+      "jalanUrl": "https://www.jalan.net/yad308366/",
+      "accessStation": "那覇空港から車で約40分"
+    }
   },
   {
     "id": "uruma",
@@ -80432,7 +80488,14 @@
       "カップル向け",
       "友達と"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "さざね",
+      "catchcopy": "房総・鋸南町の海辺に建つ、全12室に露天風呂を備えたオーシャンビューの宿",
+      "hasShuttle": true,
+      "shuttleInfo": "安房勝山駅から14:30以降に送迎可（要事前予約）",
+      "accessStation": "安房勝山駅から徒歩10分"
+    }
   },
   {
     "id": "katsuura-chiba",
@@ -82911,6 +82974,12 @@
       "license": "CC BY 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:180428_Umikongo_Kushimoto_Wakayama_pref_Japan01bs.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "メルキュール和歌山串本リゾート＆スパ",
+      "catchcopy": "本州最南端の串本町、太平洋を望む温泉リゾートホテル",
+      "jalanUrl": "https://www.jalan.net/yad322847/",
+      "accessStation": "串本駅"
     }
   },
   {
@@ -84796,7 +84865,13 @@
       "友達と",
       "温泉がおすすめ"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "湯宿 小国のオーベルジュ わいた館",
+      "catchcopy": "わいた温泉郷のはげの湯にある宿。小国フレンチと貸切の湯が特徴",
+      "jalanUrl": "https://www.jalan.net/yad308676/",
+      "accessStation": "大分自動車道・玖珠ICから車約30分"
+    }
   },
   {
     "id": "izumi-kagoshima",
@@ -95259,7 +95334,12 @@
       "友達と",
       "温泉がおすすめ"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "小樽朝里クラッセホテル",
+      "catchcopy": "朝里川温泉の森に建つ、キャンドルをテーマにしたリゾート。岩造りの露天風呂がある",
+      "jalanUrl": "https://www.jalan.net/yad336996/"
+    }
   },
   {
     "id": "gen_北海_網走湖畔温泉",
@@ -96059,7 +96139,15 @@
       "カップル向け",
       "友達と"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "緑の風リゾート きたゆざわ",
+      "catchcopy": "北湯沢温泉の森にある、150坪の露天風呂と約40の湯船をもつリゾート",
+      "jalanUrl": "https://www.jalan.net/yad322984/",
+      "hasShuttle": true,
+      "shuttleInfo": "札幌駅（宿泊予約者は無料）・新千歳空港（宿泊予約者1,000円）から送迎バスあり。満席になり次第受付終了のため要予約",
+      "accessStation": "伊達紋別駅から道南バスまたはタクシー"
+    }
   },
   {
     "id": "gen_北海_然別湖畔温泉",
@@ -96870,6 +96958,12 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:%E5%B1%A4%E9%9B%B2%E5%B3%A1%E6%B8%A9%E6%B3%89_-_panoramio.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "層雲閣 MOUNTAIN RESORT 1923",
+      "catchcopy": "大正12年（1923年）創業。層雲峡温泉に建つ、旧・層雲閣グランドホテル",
+      "hasShuttle": true,
+      "shuttleInfo": "公式サイトに送迎バスの案内あり（詳細は公式サイトで確認）"
     }
   },
   {
@@ -97057,7 +97151,15 @@
       "友達と",
       "温泉がおすすめ"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "天人峡温泉 御やど しきしま荘",
+      "catchcopy": "大雪山国立公園の天人峡温泉、最奥に建つ全18室の宿。源泉かけ流し100%",
+      "jalanUrl": "https://www.jalan.net/yad342210/",
+      "hasShuttle": true,
+      "shuttleInfo": "バス利用時のみ送迎あり（要予約）。旭川駅前から「いで湯号」で約90分、「旭岳源水公園前」下車後",
+      "accessStation": "旭川駅前からバス「いで湯号」約90分"
+    }
   },
   {
     "id": "gen_北海_洞爺湖温泉",
@@ -98376,7 +98478,14 @@
       },
       {
         "name": "恵山",
-        "description": "標高618mの活火山。水無海浜温泉のすぐ背後にそびえ、山肌がむき出しの荒い姿をしている。"
+        "description": "標高618mの活火山。水無海浜温泉のすぐ背後にそびえ、山肌がむき出しの荒い姿をしている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mount_E%2C_Hokkaido%2C_Japan_27-Aug-2016_p3.jpg/500px-Mount_E%2C_Hokkaido%2C_Japan_27-Aug-2016_p3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "皓月旗",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Mount_E,_Hokkaido,_Japan_27-Aug-2016_p3.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "灰色の空と波の音の中、砂浜のあちこちから湯気が立ち上る。干潮の時間だけ海岸に現れる約40〜42℃の湯だまりは、ちょうどいい湯加減。潮の満ち引きが浴槽をつくる天然温泉の体験は、ここでしか味わえない。入浴は無料で、簡素な脱衣所が1棟あるだけ。訪問前に潮汐表で干潮の時間を必ず確認したい。黒い火山性の砂が広がる水無海岸の散策や、漁業の歴史を伝える郷土資料館の見学も合わせて楽しめる。拠点は札幌駅で、現地の移動はレンタカーが便利。冬は路面凍結があるためスタッドレスタイヤが必須だ。",
@@ -100890,7 +100999,14 @@
       },
       {
         "name": "落石岬",
-        "description": "根室市の南に突き出た岬。北海道三大秘岬のひとつに数えられ、木道を歩いて先端へ向かう。"
+        "description": "根室市の南に突き出た岬。北海道三大秘岬のひとつに数えられ、木道を歩いて先端へ向かう。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Cape_Ochiishi_and_Groups_of_Ezo-deer_1.jpg/500px-Cape_Ochiishi_and_Groups_of_Ezo-deer_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "京浜にけ",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cape_Ochiishi_and_Groups_of_Ezo-deer_1.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "根室市歴史と民俗の館",
@@ -101653,7 +101769,14 @@
       },
       {
         "name": "トラピスト修道院",
-        "description": "正式には灯台の聖母大修道院という。北斗市三ツ石にあり、杉並木の長い参道が入口から続く。"
+        "description": "正式には灯台の聖母大修道院という。北斗市三ツ石にあり、杉並木の長い参道が入口から続く。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Tobetsu_Trappist_Monastery_in_snow_202602.jpg/500px-Tobetsu_Trappist_Monastery_in_snow_202602.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Tobetsu_Trappist_Monastery_in_snow_202602.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "桜並木の奥に土塁がそびえ、観光地らしい賑わいのない静けさが心地よい。1855年、北方警備のため江戸幕府が構えた陣屋跡は、歴史と自然が静かに重なる場所だ。春に約800本の桜が咲き誇る土塁の風景は、ここでしか出会えない。人の少ない朝8時台は別世界のような静寂に包まれる。周辺では美幌町立美幌博物館で屯田兵制度と開拓の歴史を学び、美幌峠から屈斜路湖の全景を見渡したい。陣屋内に売店や自販機はないので飲み物の準備を。拠点は札幌駅で、現地の移動はバスが中心。レンタカーの利用もおすすめだ。",
@@ -102763,7 +102886,14 @@
       },
       {
         "name": "塘路湖",
-        "description": "釧路湿原の北の端にある湖。標茶町にあり、カヌーで漕ぎ出せる。"
+        "description": "釧路湿原の北の端にある湖。標茶町にあり、カヌーで漕ぎ出せる。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Touro_rake.jpg/500px-Touro_rake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "User:欅",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Touro_rake.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "丘の上に立った瞬間、自分がどこにいるのかわからなくなる。牧草地と空と、遠くに連なる山。多和平では本当に360度、ぐるりと地平線が見える。日本にいることを忘れるほどのスケールは、ここでしか体感できない。標高約330mの展望台の階段を上りきれば、視界を遮るものが何もない大パノラマが待つ。北の丘牧場では搾りたての牛乳やジェラートを味わえる。夏でも夜は10度以下になる日があり、フリースと雨具は必携。買い物は標茶町内で済ませておきたい。拠点は札幌駅で、現地の移動はバスが中心。レンタカーの利用もおすすめだ。",
@@ -102939,7 +103069,14 @@
       },
       {
         "name": "オシンコシンの滝",
-        "description": "知床八景のひとつ。斜里町ウトロの国道沿いにあり、途中で流れが二つに分かれて落ちる。"
+        "description": "知床八景のひとつ。斜里町ウトロの国道沿いにあり、途中で流れが二つに分かれて落ちる。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E3%82%AA%E3%82%B7%E3%83%B3%E3%82%B3%E3%82%B7%E3%83%B3%E3%81%AE%E6%BB%9D_20120906_-_panoramio.jpg/500px-%E3%82%AA%E3%82%B7%E3%83%B3%E3%82%B3%E3%82%B7%E3%83%B3%E3%81%AE%E6%BB%9D_20120906_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "690 Noda",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%B7%E3%83%B3%E3%82%B3%E3%82%B7%E3%83%B3%E3%81%AE%E6%BB%9D_20120906_-_panoramio.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "午前6時、車のない展望台に立つと、静寂の中にあの道がある。オホーツク海を背景に斜里町から小清水町へ伸びる全長18kmの直線路は、地平線へ吸い込まれるように消えていく。秋には両脇の草地が黄金色に染まり、澄んだ大気に牧草と土の甘い香りが漂う。どこまでも続く一本の線を静かに眺められる早朝は、この地ならではの時間だ。道の駅まくべつで地元農家の野菜を手に取り、中富良野町営ラベンダー園では夏、紫の波と蜜の香りに包まれたい。拠点は札幌駅で、現地の移動はバスが中心。レンタカーの利用もおすすめだ。",
@@ -103789,6 +103926,13 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/w/index.php?curid=74478301",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "長万部温泉ホテル",
+      "catchcopy": "長万部駅から徒歩16分ほどの温泉ホテル。日帰り入浴も年中受け付ける",
+      "hasShuttle": true,
+      "shuttleInfo": "連絡すれば送迎サービスあり（要相談）",
+      "accessStation": "長万部駅から徒歩16分ほど"
     }
   },
   {
@@ -103869,7 +104013,14 @@
       },
       {
         "name": "然別湖",
-        "description": "大雪山国立公園の中にある湖。鹿追町の北のはずれにあり、周りを原生林に囲まれている。"
+        "description": "大雪山国立公園の中にある湖。鹿追町の北のはずれにあり、周りを原生林に囲まれている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/%E7%99%BD%E9%9B%B2%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E5%91%A8%E5%9B%B2%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%A8%E7%84%B6%E5%88%A5%E6%B9%96.jpg/500px-%E7%99%BD%E9%9B%B2%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E5%91%A8%E5%9B%B2%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%A8%E7%84%B6%E5%88%A5%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "Koda6029",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E9%9B%B2%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E5%91%A8%E5%9B%B2%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%A8%E7%84%B6%E5%88%A5%E6%B9%96.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "扇ヶ原展望台",
@@ -107894,11 +108045,25 @@
       },
       {
         "name": "中札内美術村",
-        "description": "六花の森と同じ中札内村にある美術館群。北の大地美術館など四つの館が林の中に点在する。"
+        "description": "六花の森と同じ中札内村にある美術館群。北の大地美術館など四つの館が林の中に点在する。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/131013_Nakasatsunai_Art_Village_Hokkaido_Japan00s3.jpg/500px-131013_Nakasatsunai_Art_Village_Hokkaido_Japan00s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:131013_Nakasatsunai_Art_Village_Hokkaido_Japan00s3.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "ピョウタンの滝",
-        "description": "中札内村の札内川園地にある滝。ダムがそのまま滝になった、めずらしい姿をしている。"
+        "description": "中札内村の札内川園地にある滝。ダムがそのまま滝になった、めずらしい姿をしている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Waterfalls_of_Pyotan.JPG/500px-Waterfalls_of_Pyotan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "アラツク",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Waterfalls_of_Pyotan.JPG",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "園内を歩めば湿った土の香りと初夏の草の薫りが交じり合い、北の大地らしい清廉な空気に包まれる。約7ヘクタールの森にエゾリンドウやハマナスなど北海道を象徴する花々が咲き、著名な芸術家の作品が点在する。菓子の名店・六花亭が手がけた庭園美術館という、ここだけの世界観だ。花と芸術が融け込んだ森を巡れば、訪れるたびに新しい発見がある。足を延ばせば中富良野町営ラベンダー園やファーム富田で、紫の花畑と甘い香りにも浸れる。拠点は札幌駅。バスも通じるがレンタカーが便利だ。",
@@ -108821,7 +108986,14 @@
       },
       {
         "name": "黄金岬",
-        "description": "留萌市の海に突き出た岬。夕陽の名所として知られ、波濤の門と呼ばれる岩がある。"
+        "description": "留萌市の海に突き出た岬。夕陽の名所として知られ、波濤の門と呼ばれる岩がある。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/%E9%BB%84%E9%87%91%E5%B2%AC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%EF%BC%88Gold_Cape_Seaside_Park%EF%BC%89_-_panoramio.jpg/500px-%E9%BB%84%E9%87%91%E5%B2%AC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%EF%BC%88Gold_Cape_Seaside_Park%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "t-konno",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E9%BB%84%E9%87%91%E5%B2%AC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%EF%BC%88Gold_Cape_Seaside_Park%EF%BC%89_-_panoramio.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "雪の中に、白い湯気が立ちのぼる。派手な看板も混雑した駐車場もなく、あるのは山と雪と源泉かけ流しの湯だけだ。沼田町の奥まで辿り着いた人だけが「やっと来られた」と顔をほころばせる、そんな静かな湯である。狙い目は空いている平日の午前中で、タオルは持参がおすすめ。足を延ばせば石狩川が刻んだ渓谷・神居古潭で船からの峡谷巡り、旭山動物園ではペンギンの水中遊泳など行動展示も楽しめる。拠点は札幌駅。現地へはバスも通じるが、冬は道が凍結するため4WDかスタッドレスのレンタカーで。",
@@ -109183,7 +109355,14 @@
       },
       {
         "name": "平田内温泉",
-        "description": "見市温泉と同じ八雲町に湧く温泉。どちらも旧熊石町の日本海側にあり、車ですぐの距離にある。"
+        "description": "見市温泉と同じ八雲町に湧く温泉。どちらも旧熊石町の日本海側にあり、車ですぐの距離にある。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Hiratanai_spa_kumanoyu.jpg/500px-Hiratanai_spa_kumanoyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "Soica2001 (talk)",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Hiratanai_spa_kumanoyu.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "湯けむり立ちこめる露天風呂の先に、雪をまとった針葉樹林の白い景色が広がる。肌に触れる冷たい空気と湯の温もりのコントラストが、五感を静かに研ぎ澄ませていく。開湯から百年以上、観光地化されず地元の人々に愛されてきた湯は、ここでしか出会えない時間の流れ方をしている。昭和の面影を残す旅館の廊下のきしみさえ心地よく、冬の夜には驚くほどの星空も待つ。周辺では雪のシラカバ林の散策や歌志内炭鉱遺跡めぐりも。拠点は札幌駅で、現地へはバスも通じるがレンタカーの利用がおすすめだ。",
@@ -110716,7 +110895,14 @@
       },
       {
         "name": "開陽台",
-        "description": "中標津町の展望台。根釧台地が地平線まで続き、丘のアップダウンを抜けて上がっていく。"
+        "description": "中標津町の展望台。根釧台地が地平線まで続き、丘のアップダウンを抜けて上がっていく。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/%E9%96%8B%E9%99%BD%E5%8F%B0%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E_-_kaiyodai_panorama_20120906_-_panoramio.jpg/500px-%E9%96%8B%E9%99%BD%E5%8F%B0%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E_-_kaiyodai_panorama_20120906_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "690 Noda",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E9%96%8B%E9%99%BD%E5%8F%B0%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E_-_kaiyodai_panorama_20120906_-_panoramio.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "モアン山の「牛」の文字",
@@ -112196,11 +112382,25 @@
       },
       {
         "name": "和田公園",
-        "description": "稲敷市の霞ヶ浦に面した公園。春にチューリップまつりが開かれる。"
+        "description": "稲敷市の霞ヶ浦に面した公園。春にチューリップまつりが開かれる。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Wadabori_Park-4.jpg/500px-Wadabori_Park-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "江戸村のとくぞう",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wadabori_Park-4.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "横利根閘門ふれあい公園",
-        "description": "利根川と横利根川をつなぐ閘門のそばの公園。閘門は国の重要文化財になっている。"
+        "description": "利根川と横利根川をつなぐ閘門のそばの公園。閘門は国の重要文化財になっている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Yokotone_Lock_old_big_gate.jpg/500px-Yokotone_Lock_old_big_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "アリオト",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Yokotone_Lock_old_big_gate.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "一面の田園風景の中を進むと、突然巨大な鳥居が現れる。くぐった瞬間に空気が変わり、杉の香りと静けさが日常をすっと遠ざけていく。「夢むすび・縁むすびの神様」と呼ばれ全国から参拝者が集まる大杉神社は、この意外性ごと味わいたい場所だ。参拝後は那珂川河畔の水辺散策路や、梅園の広がる水戸市植物公園にも足を延ばせる。ゆっくり参拝するなら平日の午前中がいい。拠点は水戸駅でバス移動が基本。現地へは佐原駅か潮来駅からのタクシーが現実的で、レンタカーがあると効率よく回れる。",
@@ -114469,6 +114669,11 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:200801_Nikko_Yumoto_Onsen_Nikko_Tochigi_pref_Japan01s3.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "湯元板屋",
+      "catchcopy": "奥日光・湯元温泉にある源泉かけ流しの旅館",
+      "jalanUrl": "https://www.jalan.net/yad348921/"
     }
   },
   {
@@ -116633,6 +116838,12 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Oigami_Onsen_view_from_Nairaku_Bridge.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "吟松亭あわしま",
+      "catchcopy": "老神温泉の高台に建つ。3本の源泉をかけ流し、客室から片品渓谷の山々を望む",
+      "jalanUrl": "https://www.jalan.net/yad308616/",
+      "accessStation": "沼田ICから車で約20分"
     }
   },
   {
@@ -119633,7 +119844,14 @@
       },
       {
         "name": "狩勝峠",
-        "description": "新得町と南富良野町の境にある峠。展望台が置かれ、十勝平野を見下ろせる。"
+        "description": "新得町と南富良野町の境にある峠。展望台が置かれ、十勝平野を見下ろせる。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/KarikachiPassView.JPG/500px-KarikachiPassView.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "Ippukucho",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:KarikachiPassView.JPG",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "硫黄の香りが立ち込める浴場に身を沈めると、オホーツクから運ばれてきた冷たい風との温度差が全身に心地よく刻まれる。源泉かけ流しの湯は約43度、熱すぎないぬくもりが長湯を誘う。観光路から外れた原野の秘湯は、温泉愛好家だけが知る特別な存在だ。雪原を歩いてオソウシ灯台へ向かえば、流氷の季節には白い海原が地平まで続き、音のない世界が広がる。湧別町郷土館では屯田兵が切り拓いた開拓の記録にも触れられる。拠点は札幌駅で、二次交通はバス。レンタカーの利用がおすすめだ。",
@@ -120005,7 +120223,14 @@
       },
       {
         "name": "鍋釣岩",
-        "description": "奥尻港のそばに立つ、輪のかたちに穴の空いた岩。島の象徴として知られている。"
+        "description": "奥尻港のそばに立つ、輪のかたちに穴の空いた岩。島の象徴として知られている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg/500px-%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "tuyainu",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "奥尻島の西海岸",
@@ -120377,7 +120602,14 @@
       },
       {
         "name": "北の大地の水族館",
-        "description": "留辺蘂町の山の中にある淡水魚の水族館。1978年に開き、2012年に建て替えられた。"
+        "description": "留辺蘂町の山の中にある淡水魚の水族館。1978年に開き、2012年に建て替えられた。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yama-no-aquarium.jpg/500px-Yama-no-aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "rela1470",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Yama-no-aquarium.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "野生動物の痕跡が残る林道を抜けると、温泉の独特な鉱物臭が森に満ちてくる。湯に浸かれば真夜中の星が手の届く距離に見え、湯が肌をやさしく包む。雪に埋もれた静寂の中、ただ森を眺めて何も考えない——そんな時間のためだけに来る価値のある、知る人ぞ知る湯の里だ。夏は塩別川沿いの遊歩道でトドマツやダケカンバの林と冷涼な水音を楽しみ、郷土資料館ではアイヌ文化や鉄道史の展示からこの地の歴史層に触れられる。拠点は札幌駅で、二次交通はバス。レンタカーの利用がおすすめだ。",
@@ -122227,15 +122459,36 @@
       },
       {
         "name": "碇ヶ関御関所",
-        "description": "弘前藩の関所を再現した施設。相乗温泉と同じ旧碇ヶ関村にあり、街道の要衝だった場所だ。"
+        "description": "弘前藩の関所を再現した施設。相乗温泉と同じ旧碇ヶ関村にあり、街道の要衝だった場所だ。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Michinoeki_Ikarigaseki_005.jpg/500px-Michinoeki_Ikarigaseki_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "掬茶",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Michinoeki_Ikarigaseki_005.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "盛美園",
-        "description": "平川市にある回遊式の日本庭園。和と洋を混ぜた造りの盛美館が、庭に面して立っている。"
+        "description": "平川市にある回遊式の日本庭園。和と洋を混ぜた造りの盛美館が、庭に面して立っている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Seibien_Hirakawa_Aomori_pref_Japan06n.jpg/500px-Seibien_Hirakawa_Aomori_pref_Japan06n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:Seibien_Hirakawa_Aomori_pref_Japan06n.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "猿賀神社",
-        "description": "平川市の旧尾上町に鎮座する神社。本殿は青森県の重宝に指定されている。"
+        "description": "平川市の旧尾上町に鎮座する神社。本殿は青森県の重宝に指定されている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kagamigaike_and_Munakata_Shrine.jpg/500px-Kagamigaike_and_Munakata_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "掬茶",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Kagamigaike_and_Munakata_Shrine.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "description": "冬の夜明け前、雪化粧した山々を背に温泉街を歩けば、木造の旅館から漂う硫黄の香りが身体を包み込む。窓の外に広がるのは一面の雪景色だ。江戸時代から湯治客に愛されてきた素朴な湯の空気は、ここでしか味わえない。泉質は含硫黄・含食塩泉で、肌に纏わりつく湯の感触が格別。湯上がりには太平洋を望む鮫角灯台や、活け海鮮の香りが漂う八戸の朝市へ足を延ばすのもいい。拠点は新青森駅で、現地へはバスを利用。レンタカーも便利だ。",
@@ -123584,7 +123837,14 @@
       },
       {
         "name": "十二湖",
-        "description": "白神山地のふもとに点在する湖沼群。ブナの自然林に囲まれ、全部で33の湖がある。"
+        "description": "白神山地のふもとに点在する湖沼群。ブナの自然林に囲まれ、全部で33の湖がある。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Juniko_%28%E5%8D%81%E4%BA%8C%E6%B9%96%29_%283784975430%29.jpg/500px-Juniko_%28%E5%8D%81%E4%BA%8C%E6%B9%96%29_%283784975430%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "Chi King",
+          "license": "CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Juniko_(%E5%8D%81%E4%BA%8C%E6%B9%96)_(3784975430).jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "金ヶ沢の大銀杏",
@@ -124125,6 +124385,14 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Jogakura_140919.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "八甲田城ヶ倉温泉 ホテル城ヶ倉",
+      "catchcopy": "八甲田のブナ原生林に囲まれた北欧風のリゾートホテル。露天風呂は源泉かけ流し",
+      "jalanUrl": "https://www.jalan.net/yad393575/",
+      "hasShuttle": true,
+      "shuttleInfo": "青森駅から無料送迎あり",
+      "accessStation": "新青森駅から車で約50分"
     }
   },
   {
@@ -124533,7 +124801,11 @@
       "友達と",
       "温泉がおすすめ"
     ],
-    "bestSeason": "冬"
+    "bestSeason": "冬",
+    "featured_stay": {
+      "name": "嶽温泉 小島旅館",
+      "catchcopy": "岩木山麓の湯宿。白く濁った嶽温泉を100%源泉かけ流しで楽しめる"
+    }
   },
   {
     "id": "gen_青森_蔦温泉",
@@ -132105,6 +132377,12 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:%E5%91%BC%E5%AD%90%E5%A4%A7%E6%A9%8B_-_panoramio.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "尾ノ上Ryokan",
+      "catchcopy": "玄界灘を見下ろす丘の上の宿。呼子のイカ料理とペット同伴の宿泊に対応",
+      "jalanUrl": "https://www.jalan.net/yad389265/",
+      "accessStation": "西唐津駅からバス約25分"
     }
   },
   {
@@ -141291,6 +141569,12 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File%3AShionoe_Hotspring_Street.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "いろりの宿 魚虎",
+      "catchcopy": "塩江温泉の家族経営の小さな宿。囲炉裏を囲んで地元食材の料理を味わう",
+      "jalanUrl": "https://www.jalan.net/yad333552/",
+      "accessStation": "高松駅からバス約1時間、塩江バス停から徒歩約5分"
     }
   },
   {
@@ -145195,6 +145479,11 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Mt._Chokai,_19_Oct._2013.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "湯の台温泉 鳥海山荘",
+      "catchcopy": "鳥海山の山麓に建つ湯の台温泉の宿。星空観賞のイベントを開く",
+      "jalanUrl": "https://www.jalan.net/yad322208/"
     }
   },
   {
@@ -184152,6 +184441,11 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Yuze_Onsen_2018.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "湯瀬ホテル",
+      "catchcopy": "川の瀬から湯が湧いたという由来の湯瀬温泉。渓流を聴く露天風呂のある宿",
+      "jalanUrl": "https://www.jalan.net/yad319164/"
     }
   },
   {
@@ -188803,6 +189097,11 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:%E8%AB%B8%E4%B8%8A%E5%AF%BA%E5%85%AC%E5%9C%92%E3%81%8B%E3%82%89%E7%B2%9F%E5%B3%B6_-_panoramio.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "椿の宿 吉田や",
+      "catchcopy": "創業1907年。瀬波温泉の木造3階建て、全15室の純和風旅館",
+      "jalanUrl": "https://www.jalan.net/yad329792/"
     }
   },
   {
@@ -192525,6 +192824,14 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:Hirugami001.JPG",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "湯元ホテル阿智川",
+      "catchcopy": "昼神温泉の宿。pH9.73の源泉をひく洞窟風呂や奇岩庭園の露天風呂がある",
+      "jalanUrl": "https://www.jalan.net/yad342120/",
+      "hasShuttle": true,
+      "shuttleInfo": "無料送迎あり（予約制）。飯田駅などから運行。時刻は公式サイトのPDFで案内",
+      "accessStation": "飯田駅から送迎バス"
     }
   },
   {
@@ -196866,7 +197173,14 @@
       },
       {
         "name": "グンゼ博物苑",
-        "description": "綾部はグンゼ発祥の地で、創業当時の建物を使った博物苑と記念館が残っている。"
+        "description": "綾部はグンゼ発祥の地で、創業当時の建物を使った博物苑と記念館が残っている。",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Gunze_memorial_hall01s3200.jpg/500px-Gunze_memorial_hall01s3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "imageCredit": {
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:Gunze_memorial_hall01s3200.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "安国寺",
@@ -199357,7 +199671,12 @@
       "友達と"
     ],
     "bestSeason": "通年",
-    "isIsland": false
+    "isIsland": false,
+    "featured_stay": {
+      "name": "古民家・町屋の宿 千山庵 SenzanAn",
+      "catchcopy": "醤油発祥の地・湯浅の伝統的建造物群保存地区で、古い町家に1組ずつ泊まる",
+      "accessStation": "湯浅駅から徒歩約9分"
+    }
   },
   {
     "id": "niche_和歌山_2",
@@ -208482,6 +208801,12 @@
       "license": "CC BY-SA 4.0",
       "url": "https://commons.wikimedia.org/wiki/File:Senaga_Island_202009.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "琉球温泉 瀬長島ホテル",
+      "catchcopy": "那覇空港から車で約15分。瀬長島に建ち、天然温泉「龍神の湯」を備える",
+      "jalanUrl": "https://www.jalan.net/yad352977/",
+      "accessStation": "赤嶺駅からバス約10分"
     }
   },
   {
@@ -226462,6 +226787,14 @@
     "hotelLinks": {
       "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fnagasaki%2F",
       "jalan": "https://www.jalan.net/420000/"
+    },
+    "featured_stay": {
+      "name": "i+Land nagasaki",
+      "catchcopy": "長崎港の沖、伊王島にある温泉・ビーチ併設のリゾートホテル",
+      "jalanUrl": "https://www.jalan.net/yad319516/",
+      "hasShuttle": true,
+      "shuttleInfo": "長崎駅発の無料送迎バスあり（予約制）",
+      "accessStation": "長崎駅"
     }
   },
   {

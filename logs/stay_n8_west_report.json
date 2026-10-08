@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-08",
+  "batch": "scripts/stays/n8_west.mjs",
+  "adopted": [
+    {"id":"iojima-nagasaki","name":"i+Land nagasaki","officialUrl":"https://www.islandnagasaki.jp/","facts":"公式トップ200・新着情報更新中(2026-10)。アクセスページに長崎駅発の無料送迎バス(予約制)の記載","geo":"GSI 長崎市伊王島町一丁目3277 → 0.8km"},
+    {"id":"niche_沖縄_1","name":"琉球温泉 瀬長島ホテル","officialUrl":"https://www.resorts.co.jp/senaga","facts":"公式200・営業中(龍神の湯 営業再開のお知らせ)。住所 豊見城市瀬長174-5。無料送迎は記載なし(空港シャトルは有料)","geo":"Nominatim 宿名 → 0.1km"},
+    {"id":"kushimoto","name":"メルキュール和歌山串本リゾート＆スパ","officialUrl":"https://mercure-wakayamakushimoto-resortandspa.jp/","facts":"公式(WebFetch)で営業中を確認。送迎バスは夏季限定の記載のため shuttle は未記載","geo":"GSI 串本町サンゴ台1184 → 1.2km"},
+    {"id":"oguni-kumamoto","name":"湯宿 小国のオーベルジュ わいた館","officialUrl":"https://waitakan.com/","facts":"公式200・営業中。住所 小国町西里3006-2。じゃらん掲載(yad308676)","geo":"GSI 小国町西里 → 5.0km"},
+    {"id":"shionoe","name":"いろりの宿 魚虎","officialUrl":"https://uotora-ryokan.com/","facts":"公式200・2024-10 HP更新。じゃらん yad333552・楽天137431掲載","geo":"GSI 塩江町安原上東 → 7.2km(温泉街内。8km以内)"},
+    {"id":"daisen","name":"ホテル大山 しろがね","officialUrl":"https://hotel-daisen.jp/","facts":"公式200・お知らせ2026-10-08更新。住所 大山町大山136-2","geo":"GSI 大山町大山136-2 → 0.3km"},
+    {"id":"yobuko","name":"尾ノ上Ryokan","officialUrl":"https://yobuko-onoue.com/","facts":"公式200・2026-09-17更新。住所 唐津市呼子町呼子1413。じゃらん/楽天掲載","geo":"GSI 呼子町呼子1413 → 0.8km"},
+    {"id":"chatan","name":"ヒルトン沖縄北谷リゾート","officialUrl":"https://chatan.hiltonjapan.co.jp/","facts":"公式200・営業中。住所 北谷町美浜40-1。送迎は有料空港シャトルのみで shuttle 未記載","geo":"Nominatim 宿名 → 1.1km"},
+    {"id":"zamami-island","name":"サンメール座間味","officialUrl":"https://st-mairezamami.com/","facts":"公式200。2023-06開業・全5室。住所 座間味村座間味161。じゃらん/楽天掲載","geo":"GSI 座間味村座間味 → 1.0km"},
+    {"id":"ie-island","name":"ホテルYYY CLUB iE RESORT","officialUrl":"https://ie-resort.com/","facts":"公式200・2026-10-03更新。港送迎は有料チャーターのため shuttle 未記載。じゃらん/楽天掲載(検索結果)","geo":"GSI 伊江村東江上 → 0.8km"},
+    {"id":"tanegashima","name":"種子島あらきホテル","officialUrl":"https://araki-hotel.co.jp/","facts":"公式200。アクセスに西之表港から無料送迎(事前予約必須・空港送迎なし)。住所 西之表市西町78。じゃらん yad325240","geo":"GSI 西之表市西之表 → 4.5km(町域代表点)"},
+    {"id":"kitsuki","name":"杵築百年旅館 日向屋","officialUrl":"https://hyugaya.net/","facts":"公式で大正5年創業・営業中を確認。住所 杵築市守江4776-4。じゃらん yad332265・楽天74754","geo":"GSI 杵築市守江4776 → 5.1km"},
+    {"id":"tsuyama","name":"津山城東むかし町 城下小宿 糀や","officialUrl":"https://www.tsuyama-kojiya.com/","facts":"公式200。旧苅田酒造を改修、3棟。住所 津山市林田町68。じゃらん yad312890・楽天180152","geo":"GSI 津山市林田町68 → 1.0km"},
+    {"id":"niche_和歌山_1","name":"古民家・町屋の宿 千山庵 SenzanAn","officialUrl":"https://www.senzanan.com/","facts":"公式200。湯浅伝建地区の一棟貸し(築130-150年)。楽天に複数棟掲載。jalanUrl未確認のため省略","geo":"Nominatim 千山庵 → 0.6km"},
+    {"id":"nagahama","name":"グランドメルキュール琵琶湖リゾート＆スパ","officialUrl":"https://grand-mercure-lakebiwa-resortandspa.jp/","facts":"公式(WebFetch)で営業中・長浜駅西口からの無料送迎バス(予約不要)を確認。住所 長浜市大島町38","geo":"GSI 長浜市大島町 → 0.7km"}
+  ],
+  "rejected": [
+    {"id":"aoshima","candidate":"青島グランドホテル","reason":"公式が403で開けず、ニフティ温泉に「休業中」の表示。営業確認できない"},
+    {"id":"sensui-jima","candidate":"人生感が変わる宿「ここから」／国民宿舎 仙酔島","reason":"公式に2026-09-04から全館メンテナンスで休館の告知。国民宿舎は公式未確認"},
+    {"id":"suo-oshima","candidate":"マリッサリゾート サザンセト周防大島","reason":"destination 座標から約13.9km で8km超(同名異所ではないが距離基準外)"},
+    {"id":"niche_徳島_6","candidate":"WEEK神山","reason":"公式は営業中だが、楽天/じゃらん掲載の有無が確認できず otaListed を決められない"},
+    {"id":"niche_和歌山_1","candidate":"NIPPONIA HOTEL 湯浅 醤油職人の家","reason":"検索で存在を確認できず。千山庵に差し替え"},
+    {"id":"mimasaka","candidate":"(湯郷温泉の宿)","reason":"近隣 destination yunogo が季譜の里を保持済み。重複回避"},
+    {"id":"niche_大分_3","candidate":"長湯温泉","reason":"taketa が長湯温泉 大丸旅館を保持済み(メモ記載の重複)"},
+    {"id":"niche_兵庫_2","candidate":"湯村温泉","reason":"yumura-hyogo が井づつやを保持済み"},
+    {"id":"kakeroma-island","candidate":"加計呂麻島の宿","reason":"民宿中心で公式営業確認まで至らず"},
+    {"id":"hateruma-island","candidate":"波照間島の宿","reason":"民宿中心で公式営業・OTA掲載を確認できず"}
+  ],
+  "qa": "node scripts/qaStayBatch.mjs scripts/stays/n8_west.mjs: 重複なし・jalanUrl 200かつ宿名一致(13件)。NG表示15件は全て『適用されていない』(未適用のため想定通り)"
+}

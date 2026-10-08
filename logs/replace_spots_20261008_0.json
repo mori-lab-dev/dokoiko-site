@@ -1,0 +1,201 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_水無海浜温泉",
+   "idx": 2,
+   "name": "恵山",
+   "file": "File:Mount E, Hokkaido, Japan 27-Aug-2016 p3.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mount_E%2C_Hokkaido%2C_Japan_27-Aug-2016_p3.jpg/500px-Mount_E%2C_Hokkaido%2C_Japan_27-Aug-2016_p3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "皓月旗",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_E,_Hokkaido,_Japan_27-Aug-2016_p3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "恵山の特徴的な円錐形山容と海岸の崖が明確に写っており、スポット特定可能。海からの景観として適切"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_多和平",
+   "idx": 2,
+   "name": "塘路湖",
+   "file": "File:Touro rake.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Touro_rake.jpg/500px-Touro_rake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "User:欅",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Touro_rake.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "塘路湖の広大な水面と周囲の緑豊かな丘陵地帯が明確に写っており、多和平からの眺望として典型的な景観です。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_六花の森",
+   "idx": 1,
+   "name": "中札内美術村",
+   "file": "File:131013 Nakasatsunai Art Village Hokkaido Japan00s3.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/131013_Nakasatsunai_Art_Village_Hokkaido_Japan00s3.jpg/500px-131013_Nakasatsunai_Art_Village_Hokkaido_Japan00s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:131013_Nakasatsunai_Art_Village_Hokkaido_Japan00s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "六花の森の特徴的な洋館建築が樹木越しに見える景観。スポットの象徴的な風景として適切。"
+    }
+   }
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "idx": 3,
+   "name": "猿賀神社",
+   "file": "File:Kagamigaike and Munakata Shrine.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kagamigaike_and_Munakata_Shrine.jpg/500px-Kagamigaike_and_Munakata_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kagamigaike_and_Munakata_Shrine.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "赤い建築と蓮池が猿賀神社の特徴的な風景。季節感のある美しい構図で紹介画像に適切。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_神居岩温泉",
+   "idx": 2,
+   "name": "黄金岬",
+   "file": "File:黄金岬海浜公園（Gold Cape Seaside Park） - panoramio.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/%E9%BB%84%E9%87%91%E5%B2%AC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%EF%BC%88Gold_Cape_Seaside_Park%EF%BC%89_-_panoramio.jpg/500px-%E9%BB%84%E9%87%91%E5%B2%AC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%EF%BC%88Gold_Cape_Seaside_Park%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "t-konno",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%BB%84%E9%87%91%E5%B2%AC%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%EF%BC%88Gold_Cape_Seaside_Park%EF%BC%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "黄金岬の特徴的な防波堤と岩礁群、海岸景観が明確に写っており、スポット特定可能。"
+    }
+   }
+  },
+  {
+   "id": "gen_茨城_大杉神社",
+   "idx": 2,
+   "name": "横利根閘門ふれあい公園",
+   "file": "File:Yokotone Lock old big gate.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Yokotone_Lock_old_big_gate.jpg/500px-Yokotone_Lock_old_big_gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "アリオト",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Yokotone_Lock_old_big_gate.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "横利根閘門ふれあい公園の特徴的な建造物（閘門）と東屋が写っており、スポットを特定できます。"
+    }
+   }
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "niche_宮城_5",
+   "idx": 1,
+   "name": "警察資料館（旧登米警察署庁舎）",
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:Uniform police office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の展示パネルと展示物のみで、建造物の外観や特徴が見えない"
+    },
+    {
+     "title": "File:Prison Police Office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の展示パネルと牢獄の展示物が主体。建物外観や特定できる外部特徴がない"
+    },
+    {
+     "title": "File:Birmingham City Police Lockup.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の展示スペースのみで、建築物の外観や特徴的な要素が見られない。スポット特定不可。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_菅野温泉",
+   "idx": 2,
+   "name": "扇ヶ原展望台",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_太田山神社",
+   "idx": 2,
+   "name": "三本杉岩",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_養老牛温泉",
+   "idx": 2,
+   "name": "モアン山の「牛」の文字",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_十勝千年の森",
+   "idx": 3,
+   "name": "美蔓パノラマパーク",
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

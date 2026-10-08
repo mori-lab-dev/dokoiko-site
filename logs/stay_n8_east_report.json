@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-08",
+  "scope": "東日本",
+  "adoptedCount": 15,
+  "rejectedCount": 16,
+  "adopted": [
+    {
+      "id": "gen_北海_朝里川温泉",
+      "name": "小樽朝里クラッセホテル",
+      "officialUrl": "https://ambix.co.jp/resort/asariclasse/",
+      "facts": "公式（アンビックス）200。CANDLE RESORT、岩造りの露天風呂。じゃらん2026年10月カレンダー生存",
+      "geocode": "GSI 小樽市朝里川温泉2-676 → 1.0km／OSM施設名 0.1km",
+      "ota": "jalan yad336996"
+    },
+    {
+      "id": "gen_北海_北湯沢温泉",
+      "name": "緑の風リゾート きたゆざわ",
+      "officialUrl": "https://midorinokaze-resort.com/",
+      "facts": "公式200。伊達市大滝区北湯沢温泉町300-2。送迎: 札幌駅(宿泊予約者無料)・新千歳空港(宿泊予約者1,000円)、満席で受付終了。2025-07サウナ改装・ラウンジ開業",
+      "geocode": "GSI 町名レベル 3.0km",
+      "ota": "jalan yad322984"
+    },
+    {
+      "id": "gen_北海_天人峡温泉",
+      "name": "天人峡温泉 御やど しきしま荘",
+      "officialUrl": "https://www.sikisimasou.jp/",
+      "facts": "公式200。2026-08-01付お知らせあり。全18室・源泉かけ流し100%。住所表記は東川町松山温泉（天人峡温泉内）。バス利用時のみ要予約で送迎",
+      "geocode": "GSI 東川町松山温泉 5.1km（町名レベル）。羽衣の滝は dest から0.7km",
+      "ota": "jalan yad342210"
+    },
+    {
+      "id": "gen_北海_層雲峡温泉",
+      "name": "層雲閣 MOUNTAIN RESORT 1923",
+      "officialUrl": "https://sounkaku.co.jp/",
+      "facts": "公式200。大正12年創業。送迎バスの案内あり。2026-11-04〜06は電気設備点検で休館（その他は営業）。同destに朝陽亭が既存だが別の宿",
+      "geocode": "OSM 層雲閣 0.7km",
+      "ota": "jalan yad328745（title不一致のため jalanUrl は記載せず）"
+    },
+    {
+      "id": "gen_北海_長万部温泉",
+      "name": "長万部温泉ホテル",
+      "officialUrl": "http://onsenhotel.co.jp/",
+      "facts": "公式は200（証明書が古い）。長万部町温泉町402。長万部駅から徒歩16分、連絡すれば送迎。楽天 f_no=39644 掲載・カレンダー有",
+      "geocode": "GSI 長万部町長万部402 0.1km／OSM 0.0km",
+      "ota": "楽天掲載確認"
+    },
+    {
+      "id": "gen_青森_城ヶ倉温泉",
+      "name": "八甲田城ヶ倉温泉 ホテル城ヶ倉",
+      "officialUrl": "https://www.jogakura.com/",
+      "facts": "公式200。2026-09-30付お知らせあり。青森駅から無料送迎、新青森駅から車約50分",
+      "geocode": "OSM 0.1km",
+      "ota": "jalan yad393575"
+    },
+    {
+      "id": "gen_青森_嶽温泉",
+      "name": "嶽温泉 小島旅館",
+      "officialUrl": "https://kojimaryokan.com/",
+      "facts": "公式200。弘前市常盤野湯の沢20、和室14室、100%源泉かけ流し。楽天(11357)掲載・弘前市観光サイトに掲載。公式の更新日は不明",
+      "geocode": "GSI 常盤野 1.6km（町名レベル）",
+      "ota": "楽天掲載確認"
+    },
+    {
+      "id": "niche_秋田_1",
+      "name": "湯瀬ホテル",
+      "officialUrl": "https://www.yuzehotel.jp/",
+      "facts": "公式200。2026年4月に特別室オープンの告知。鹿角市八幡平字湯瀬湯端43",
+      "geocode": "GSI 0.5km／OSM 0.4km",
+      "ota": "jalan yad319164"
+    },
+    {
+      "id": "gen_栃木_日光湯元温泉",
+      "name": "湯元板屋",
+      "officialUrl": "https://www.yumoto-itaya.jp/",
+      "facts": "公式200。日光市湯元2530。源泉かけ流し。じゃらん2026年10月カレンダー生存。同名温泉街の湯守釜屋は2024-11閉業のため不採用",
+      "geocode": "GSI 日光市湯元2530 0.7km／OSM 0.1km",
+      "ota": "jalan yad348921"
+    },
+    {
+      "id": "gen_群馬_老神温泉",
+      "name": "吟松亭あわしま",
+      "officialUrl": "https://www.g-awashima.com/",
+      "facts": "公式200。沼田市利根町老神603。3本の源泉。沼田ICから車約20分。じゃらん2026年10月カレンダー生存",
+      "geocode": "GSI 0.2km／OSM 0.1km",
+      "ota": "jalan yad308616"
+    },
+    {
+      "id": "niche_長野_1",
+      "name": "湯元ホテル阿智川",
+      "officialUrl": "https://www.hotel-achigawa.jp/",
+      "facts": "公式200。2026-04-17付お知らせ。阿智村智里503-115。pH9.73。無料送迎は予約制（飯田駅ほか）",
+      "geocode": "OSM 4.0km（GSI 町名8.0km）",
+      "ota": "jalan yad342120"
+    },
+    {
+      "id": "niche_新潟_1",
+      "name": "椿の宿 吉田や",
+      "officialUrl": "https://www.tyy.jp/",
+      "facts": "公式200。村上市瀬波温泉2-5-36、創業1907年、15室。公式お知らせは2024-03が最新だが、じゃらんプランページに2026年10月カレンダー生存",
+      "geocode": "GSI 瀬波温泉 1.0km",
+      "ota": "jalan yad329792"
+    },
+    {
+      "id": "nokogiriyama",
+      "name": "さざね",
+      "officialUrl": "https://www.sazane.jp/",
+      "facts": "公式200。2026-07-24付お知らせ。鋸南町竜島972-1、全12室露天風呂付。安房勝山駅から徒歩10分、14:30以降送迎可（要予約）。OTA掲載は未確認（既定のまま）",
+      "geocode": "GSI 鋸南町竜島 5.2km（町名レベル）",
+      "ota": ""
+    },
+    {
+      "id": "hiraizumi",
+      "name": "平泉ホテル武蔵坊",
+      "officialUrl": "http://www.musasibou.co.jp/",
+      "facts": "公式200。2026-07-05付お知らせ。平泉町平泉大沢15",
+      "geocode": "GSI 番地一致 0.4km",
+      "ota": "jalan yad319505"
+    },
+    {
+      "id": "chokai-san",
+      "name": "湯の台温泉 鳥海山荘",
+      "officialUrl": "https://www.choukai.jp/choukaisansou/",
+      "facts": "公式200。通年営業。2026-09-01〜11月下旬に浄化槽改修工事、2026-10-01入浴料改定のお知らせ。酒田市草津字湯ノ台66-1",
+      "geocode": "OSM施設名 7.5km（GSI町名 9.0km）。境界に近いため注意",
+      "ota": "jalan yad322208"
+    }
+  ],
+  "rejected": [
+    {
+      "dest": "gen_北海_大雪高原温泉",
+      "name": "大雪高原山荘",
+      "reason": "2025年度は休業。2026年の営業を確認できず"
+    },
+    {
+      "dest": "niche_愛知_2",
+      "name": "湯の風HAZU",
+      "reason": "destination から約25km（距離超過）"
+    },
+    {
+      "dest": "kurikoma",
+      "name": "須川温泉 栗駒山荘",
+      "reason": "destination から約18km（距離超過）。夏季のみ営業"
+    },
+    {
+      "dest": "gen_栃木_日光湯元温泉",
+      "name": "湯守釜屋",
+      "reason": "2024-11-25 営業終了"
+    },
+    {
+      "dest": "gen_青森_嶽温泉",
+      "name": "嶽温泉 山のホテル",
+      "reason": "閉館（ニフティ温泉に「閉館しました」）。公式は DNS 不通"
+    },
+    {
+      "dest": "gen_青森_十和田湖畔温泉",
+      "name": "ホテル十和田荘",
+      "reason": "公式サイトの更新が2018年前後で止まり、事実確認が弱い（じゃらんカレンダーは生存）。登録有形文化財は別の宿の十和田ホテル"
+    },
+    {
+      "dest": "gen_群馬_川中温泉",
+      "name": "かど半旅館",
+      "reason": "公式にコロナ対策表記のまま。楽天・じゃらん掲載を確認できず otaListed 判定不能"
+    },
+    {
+      "dest": "tokusa",
+      "name": "木賊温泉 井筒屋",
+      "reason": "自社の公式サイトを確認できず（秘湯を守る会の頁のみ）"
+    },
+    {
+      "dest": "notojima",
+      "name": "能登 島宿せがわ",
+      "reason": "公式あり・営業再開済みだが、OTA掲載の有無を確定できず"
+    },
+    {
+      "dest": "mashu-ko",
+      "name": "ホテル摩周",
+      "reason": "destination から11.6km（距離超過）"
+    },
+    {
+      "dest": "gen_北海_岩尾別温泉",
+      "name": "ホテル地の涯",
+      "reason": "2025年は臨時休業。2026年の営業を確認できず"
+    },
+    {
+      "dest": "gen_北海_白老温泉",
+      "name": "海の別邸ふる川ほか",
+      "reason": "海の別邸ふる川は虎杖浜で白老温泉と約18km（既出の知見）"
+    },
+    {
+      "dest": "gen_北海_羅臼温泉",
+      "name": "陶灯りの宿らうす第一ホテル",
+      "reason": "既に別destinationの featured_stay"
+    },
+    {
+      "dest": "chokai-san",
+      "name": "鳥海山四合目 大平山荘",
+      "reason": "2026年度は休業"
+    },
+    {
+      "dest": "sakushima",
+      "name": "佐久島館",
+      "reason": "2026年3月末で閉館"
+    },
+    {
+      "dest": "gen_北海_ほか",
+      "name": "吟味した他の温泉地（川俣一柳閣＝2019年台風以降休館中の記載のみ、ほか公式未確認の民宿など）",
+      "reason": "営業確認できず"
+    }
+  ]
+}

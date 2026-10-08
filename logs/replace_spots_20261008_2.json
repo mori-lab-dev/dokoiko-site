@@ -1,0 +1,203 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_戸切地陣屋",
+   "idx": 2,
+   "name": "トラピスト修道院",
+   "file": "File:Tobetsu Trappist Monastery in snow 202602.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Tobetsu_Trappist_Monastery_in_snow_202602.jpg/500px-Tobetsu_Trappist_Monastery_in_snow_202602.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tobetsu_Trappist_Monastery_in_snow_202602.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "赤レンガの修道院建物が雪景色の中で明確に映っており、トラピスト修道院の特徴的な建築が識別可能。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_菅野温泉",
+   "idx": 1,
+   "name": "然別湖",
+   "file": "File:白雲山山頂から周囲の山々と然別湖.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/%E7%99%BD%E9%9B%B2%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E5%91%A8%E5%9B%B2%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%A8%E7%84%B6%E5%88%A5%E6%B9%96.jpg/500px-%E7%99%BD%E9%9B%B2%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E5%91%A8%E5%9B%B2%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%A8%E7%84%B6%E5%88%A5%E6%B9%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "Koda6029",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E9%9B%B2%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E5%91%A8%E5%9B%B2%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%A8%E7%84%B6%E5%88%A5%E6%B9%96.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "然別湖の広大な湖面と周囲の山々、森林が明確に映る。北海道の自然景観として適切。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_天に続く道",
+   "idx": 2,
+   "name": "オシンコシンの滝",
+   "file": "File:オシンコシンの滝 20120906 - panoramio.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%E3%82%AA%E3%82%B7%E3%83%B3%E3%82%B3%E3%82%B7%E3%83%B3%E3%81%AE%E6%BB%9D_20120906_-_panoramio.jpg/500px-%E3%82%AA%E3%82%B7%E3%83%B3%E3%82%B3%E3%82%B7%E3%83%B3%E3%81%AE%E6%BB%9D_20120906_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "690 Noda",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%B7%E3%83%B3%E3%82%B3%E3%82%B7%E3%83%B3%E3%81%AE%E6%BB%9D_20120906_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "オシンコシンの滝の特徴的な双流の滝が明確に写っており、スポットとして断定可能。構図・光・スケール感が良好。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_オソウシ温泉",
+   "idx": 2,
+   "name": "狩勝峠",
+   "file": "File:KarikachiPassView.JPG",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/KarikachiPassView.JPG/500px-KarikachiPassView.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "Ippukucho",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:KarikachiPassView.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "狩勝峠の山々と谷間を望む風景。峠からの眺望として適切だが、特定手がかりに乏しい。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "峠からの広大な山岳・平野の眺望で雰囲気は合致するが断定できる特徴的な目印は不在"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_養老牛温泉",
+   "idx": 1,
+   "name": "開陽台",
+   "file": "File:開陽台パノラマ - kaiyodai panorama 20120906 - panoramio.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/%E9%96%8B%E9%99%BD%E5%8F%B0%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E_-_kaiyodai_panorama_20120906_-_panoramio.jpg/500px-%E9%96%8B%E9%99%BD%E5%8F%B0%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E_-_kaiyodai_panorama_20120906_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "690 Noda",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%96%8B%E9%99%BD%E5%8F%B0%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E_-_kaiyodai_panorama_20120906_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "開陽台からの広大な十勝平野の眺望が明確に写っており、特徴的な地形と景観が確認できる。"
+    }
+   }
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "idx": 2,
+   "name": "盛美園",
+   "file": "File:Seibien Hirakawa Aomori pref Japan06n.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Seibien_Hirakawa_Aomori_pref_Japan06n.jpg/500px-Seibien_Hirakawa_Aomori_pref_Japan06n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Seibien_Hirakawa_Aomori_pref_Japan06n.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "盛美園の特徴的な白木の鳥居と緑豊かな庭園景観が明確に写っており、スポット特定が可能。"
+    }
+   }
+  },
+  {
+   "id": "gen_茨城_大杉神社",
+   "idx": 1,
+   "name": "和田公園",
+   "file": "File:Wadabori Park-4.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Wadabori_Park-4.jpg/500px-Wadabori_Park-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "江戸村のとくぞう",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Wadabori_Park-4.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "大杉神社の茅葺き屋根の社殿が主役。積雪環境と特徴的な建造物で同スポットと判定可能。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "雪景色の公園内に茅葺き屋根の竪穴式住居復元建物が写り、和田公園の展示物と判断できる"
+    }
+   }
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_神威脇温泉",
+   "idx": 2,
+   "name": "奥尻島の西海岸",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_十勝千年の森",
+   "idx": 1,
+   "name": "日勝峠展望台",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_神居岩温泉",
+   "idx": 1,
+   "name": "神居岩公園",
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:北海道道1031号神居岩総合公園線.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識が主体。公園そのものが写っておらず、紹介画像として不適切。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_見市温泉",
+   "idx": 2,
+   "name": "平田内温泉",
+   "file": "File:Hiratanai spa kumanoyu.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Hiratanai_spa_kumanoyu.jpg/500px-Hiratanai_spa_kumanoyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "Soica2001 (talk)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Hiratanai_spa_kumanoyu.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "温泉地の自然風景として適切。渓流と岩場の景観が温泉地の雰囲気を表現しており、紹介画像に適している。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "岩盤に囲まれた野湯の湯船とホースが写り、平田内温泉の特徴的な露天風呂と判断できる"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_神威脇温泉",
+   "idx": 1,
+   "name": "鍋釣岩",
+   "file": "File:鍋釣岩 - panoramio.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg/500px-%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "tuyainu",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%8D%8B%E9%87%A3%E5%B2%A9_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "鍋釣岩の特徴的なアーチ状の岩石が海中に明確に写っており、スポット同定可能。風景として適切な構図。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_六花の森",
+   "idx": 2,
+   "name": "ピョウタンの滝",
+   "file": "File:Waterfalls of Pyotan.JPG",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Waterfalls_of_Pyotan.JPG/500px-Waterfalls_of_Pyotan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "アラツク",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Waterfalls_of_Pyotan.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "ピョウタンの滝の特徴的な段状の流れと岩肌が明確に写っており、滝そのものが主役。季節感もある。"
+    }
+   }
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "idx": 1,
+   "name": "碇ヶ関御関所",
+   "file": "File:Michinoeki Ikarigaseki 005.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Michinoeki_Ikarigaseki_005.jpg/500px-Michinoeki_Ikarigaseki_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Michinoeki_Ikarigaseki_005.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "碇ヶ関御関所の復元建造物が明確に写っており、歴史的施設の紹介に適切。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_納沙布岬",
+   "idx": 2,
+   "name": "落石岬",
+   "file": "File:Cape Ochiishi and Groups of Ezo-deer 1.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Cape_Ochiishi_and_Groups_of_Ezo-deer_1.jpg/500px-Cape_Ochiishi_and_Groups_of_Ezo-deer_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "京浜にけ",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cape_Ochiishi_and_Groups_of_Ezo-deer_1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "落石岬の特徴的な海岸地形と流氷、海の風景が主題。岬の地理的特徴が視認できる。"
+    }
+   }
+  },
+  {
+   "id": "niche_京都_5",
+   "idx": 1,
+   "name": "グンゼ博物苑",
+   "file": "File:Gunze memorial hall01s3200.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Gunze_memorial_hall01s3200.jpg/500px-Gunze_memorial_hall01s3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Gunze_memorial_hall01s3200.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "グンゼ博物苑の主要建築物である洋館が明確に写っており、スポットの象徴的な施設として適切な紹介画像です。"
+    }
+   }
+  },
+  {
+   "id": "gen_青森_黄金崎不老不死温泉",
+   "idx": 2,
+   "name": "十二湖",
+   "file": "File:Juniko (十二湖) (3784975430).jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Juniko_%28%E5%8D%81%E4%BA%8C%E6%B9%96%29_%283784975430%29.jpg/500px-Juniko_%28%E5%8D%81%E4%BA%8C%E6%B9%96%29_%283784975430%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "Chi King",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Juniko_(%E5%8D%81%E4%BA%8C%E6%B9%96)_(3784975430).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "十二湖の湖面と周囲の緑が主役。ボート配置が地域の観光活動を示し、スポット特性を表現している。"
+    }
+   }
+  },
+  {
+   "id": "gen_北海_塩別温泉",
+   "idx": 2,
+   "name": "北の大地の水族館",
+   "file": "File:Yama-no-aquarium.jpg",
+   "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Yama-no-aquarium.jpg/500px-Yama-no-aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "imageCredit": {
+    "author": "rela1470",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Yama-no-aquarium.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "北の大地の水族館の外観が明確に写っており、看板も見える。建築の特徴的なデザインで特定可能。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "山の水族館の外観と施設名看板が明確に写っており紹介画像として適切"
+    }
+   }
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_戸切地陣屋",
+   "idx": 1,
+   "name": "きじひき高原パノラマ展望台",
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:きじひき高原 パノラマ展望台より 2 (51384249473).jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "パノラマ展望台からの眺望として適切。高原からの広大な景観を捉えている。"
+     },
+     "sonnet": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "高原からの広大なパノラマ眺望が映るが、特定できる目印は写っていない"
+     }
+    },
+    {
+     "title": "File:きじひき高原 パノラマ展望台より 1 (51384741489).jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "高原からの雄大なパノラマ景観。展望台からの眺望を示す適切な画像だが、特定の識別標識がない。"
+     },
+     "sonnet": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "高原からの広大なパノラマ眺望で展望台らしい景観だが特定する手がかりは薄い"
+     }
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_天に続く道",
+   "idx": 1,
+   "name": "以久科原生花園",
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_オソウシ温泉",
+   "idx": 1,
+   "name": "屈足湖",
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}
