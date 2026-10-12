@@ -44,6 +44,9 @@ const OUT = arg('--out', 'logs/replace_dest_images.json');
 const [SHARD_I, SHARD_N] = (arg('--shard', '0/1')).split('/').map(Number);
 const LIMIT = Number(arg('--limit', Infinity));
 const MAX_CAND = Number(arg('--max-cand', 9));
+// --extra <json>: id → { queries:[…], pages:[Wikipedia記事名…], words:[所在地の手がかり…], ctx:'Visionへの補足' }
+// 英語表記・旧地名・近隣ランドマーク・記事本文中の画像など、既定の検索で当たらない旅先のための追加材料（2026-10-13）
+const EXTRA = arg('--extra') ? JSON.parse(fs.readFileSync(arg('--extra'), 'utf8')) : {};
 
 const dests = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8'));
 const byId = new Map(dests.map((d) => [d.id, d]));
@@ -78,14 +81,15 @@ async function enTitle(ja) {
   return p?.langlinks?.[0]?.['*'] || null;
 }
 
-const IMG_Q = 'prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600';
+const IMG_Q = 'prop=imageinfo|coordinates&colimit=1&iiprop=url|size|mime|extmetadata&iiurlwidth=1600';
 function pack(pages) {
   const out = [];
   for (const p of Object.values(pages || {})) {
     const ii = p.imageinfo?.[0];
     if (!ii) continue;
     out.push({ title: p.title, url: ii.thumburl || ii.url, descurl: ii.descriptionurl, w: ii.width, h: ii.height,
-      mime: ii.mime, em: ii.extmetadata || {}, order: p.index ?? 99 });
+      mime: ii.mime, em: ii.extmetadata || {}, order: p.index ?? 99,
+      geo: p.coordinates?.[0] ? { lat: p.coordinates[0].lat, lng: p.coordinates[0].lon } : null });
   }
   return out.sort((a, b) => a.order - b.order);
 }
@@ -108,7 +112,16 @@ function acceptable(c, d, current) {
   const bad = c.title.match(BAD_TITLE);
   if (bad && !name.toLowerCase().includes(bad[1].toLowerCase())) return false;
   if (current && c.title === current) return false;
+  // 撮影地点（Commons の GeoData 座標）が旅先から離れすぎているものは別の場所（2026-10-13）。
+  // 県名の一致だけでは同じ県の別の場所を通してしまうため、座標のあるファイルは距離で落とす。島・山の遠景があるので閾値は広め
+  if (c.geo && d.lat != null && geoKm(c.geo, d) > GEO_MAX_KM) return false;
   return true;
+}
+const GEO_MAX_KM = Number(arg('--geo-km', 60));
+function geoKm(a, b) {
+  const r = (x) => (x * Math.PI) / 180;
+  const h = Math.sin(r(b.lat - a.lat) / 2) ** 2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(r(b.lng - a.lng) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
 }
 
 /** 記事のリード画像（ja/en の Wikipedia）。Commons にあるファイルだけ拾う。記事を書いた人が選んだ代表写真なので所在地の外れが少ない */
@@ -122,6 +135,23 @@ async function pageImages(title) {
     const k = await http(`https://commons.wikimedia.org/w/api.php?action=query&format=json&${IMG_Q}&titles=${encodeURIComponent('File:' + name)}`);
     out.push(...pack(k?.query?.pages));
     await sleep(250);
+  }
+  return out;
+}
+
+/** 記事本文に載っている画像（prop=images）。記事の書き手が選んだ関連写真で、Commons にあるものだけ拾う */
+async function articleImages(title) {
+  const out = [];
+  for (const lang of ['ja', 'en']) {
+    const j = await http(`https://${lang}.wikipedia.org/w/api.php?action=query&format=json&prop=images&imlimit=60&redirects=1&titles=${encodeURIComponent(title)}`);
+    const files = (Object.values(j?.query?.pages || {})[0]?.images || []).map((x) => x.title)
+      .filter((n) => /\.(jpe?g|png)$/i.test(n) && !/(icon|logo|flag|map|symbol|commons-logo|Question_book|Wikidata)/i.test(n));
+    await sleep(250);
+    for (let i = 0; i < files.length; i += 25) {
+      const k = await http(`https://commons.wikimedia.org/w/api.php?action=query&format=json&${IMG_Q}&titles=${encodeURIComponent(files.slice(i, i + 25).join('|'))}`);
+      out.push(...pack(k?.query?.pages));
+      await sleep(250);
+    }
   }
   return out;
 }
@@ -142,6 +172,14 @@ async function gather(d, current) {
   }
   for (const q of [d.mainSpot, `${d.name} ${d.prefecture}`, d.name, spotNames[1]].filter(Boolean)) {
     add(await search(q)); await sleep(250);
+  }
+  const ex = EXTRA[d.id];
+  if (ex) {
+    for (const q of ex.queries || []) {
+      add(await catFiles(q)); await sleep(250);          // その語を Commons のカテゴリ名として当てる
+      add(await search(q)); await sleep(250);
+    }
+    for (const pg of ex.pages || []) { add(await pageImages(pg)); add(await articleImages(pg)); }
   }
   return [...pool.values()].filter((c) => acceptable(c, d, current));
 }
@@ -195,8 +233,8 @@ for (const id of targets) {
   if (done.has(id)) continue;
   const d = byId.get(id);
   const current = d.imageCredit?.url ? decodeURIComponent((d.imageCredit.url.split('/wiki/')[1] || '').replace(/_/g, ' ')) : null;
-  const ctx = `${d.name}（${d.prefecture}）${d.mainSpot ? ' 主な見どころ: ' + d.mainSpot : ''}`;
-  const words = [d.name, d.mainSpot, ...(d.spots || []).filter((s) => s && typeof s === 'object').map((s) => s.name)].filter(Boolean);
+  const ctx = `${d.name}（${d.prefecture}）${d.mainSpot ? ' 主な見どころ: ' + d.mainSpot : ''}${EXTRA[id]?.ctx ? ' 補足: ' + EXTRA[id].ctx : ''}`;
+  const words = [d.name, d.mainSpot, ...(d.spots || []).filter((s) => s && typeof s === 'object').map((s) => s.name), ...(EXTRA[id]?.words || [])].filter(Boolean);
 
   const cands = await gather(d, current);
   // 所在地照合を先に（無料）。ng は捨て、ok を先頭に

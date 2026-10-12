@@ -1,0 +1,71 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_相泊温泉",
+   "name": "相泊温泉",
+   "file": "File:140828 Mount Rausu Shiretoko Hokkaido Japan01s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140828_Mount_Rausu_Shiretoko_Hokkaido_Japan01s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "知床半島の特徴的な山々と海岸線が明るく見映えよく撮影されており、相泊温泉の立地を表現している。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:相泊温泉 - panoramio.jpg"
+  },
+  {
+   "id": "niche_鳥取_5",
+   "name": "小松温泉",
+   "file": "File:Sanbutsu-ji, nageiredou-1-2.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sanbutsu-ji,_nageiredou-1-2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "三徳川沿いの崖に建つ小松温泉の外湯施設。独特の建築様式と岩壁の景観が小松温泉を特徴づける見どころとして明確に識別でき、紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 2.7,
+   "replaced": null
+  },
+  {
+   "id": "futamata-onsen",
+   "name": "二岐温泉",
+   "file": "File:Futamata Jinja Iwaki Iriguchi.jpg",
+   "credit": {
+    "author": "Zeter114514",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Futamata_Jinja_Iwaki_Iriguchi.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "二岐温泉の渓谷風景と特徴的な橋、温泉地の雰囲気が表現されている。看板から場所の特定が可能。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": null
+  }
+ ],
+ "unresolved": []
+}

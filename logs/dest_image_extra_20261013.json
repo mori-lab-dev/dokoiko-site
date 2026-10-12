@@ -1,0 +1,417 @@
+{
+ "shishikui": {
+  "queries": [
+   "Shishikui",
+   "Shishikui Tokushima",
+   "宍喰",
+   "宍喰海岸",
+   "Shishikui Onsen",
+   "Asa Seacoast Railway DMV",
+   "Kaifu River",
+   "Takegashima Tokushima",
+   "海陽町"
+  ],
+  "pages": [
+   "宍喰町",
+   "海陽町",
+   "阿佐海岸鉄道",
+   "竹ヶ島"
+  ],
+  "words": [
+   "宍喰",
+   "海陽",
+   "Kaiyo",
+   "Shishikui",
+   "阿佐",
+   "竹ヶ島",
+   "Takegashima"
+  ],
+  "ctx": "徳島県海陽町の宍喰（漁港・海岸・阿佐海岸鉄道のある港町）"
+ },
+ "saiki": {
+  "queries": [
+   "Bungo Futamigaura",
+   "豊後二見ヶ浦",
+   "Saiki Castle",
+   "佐伯城",
+   "Saiki Oita",
+   "Saiki Castle ruins",
+   "Yayoi no Sato",
+   "やよいの里",
+   "Saiki city Oita"
+  ],
+  "pages": [
+   "豊後二見ヶ浦",
+   "佐伯城",
+   "佐伯市"
+  ],
+  "words": [
+   "佐伯",
+   "Saiki",
+   "豊後二見",
+   "Futamigaura",
+   "Bungo",
+   "やよい"
+  ],
+  "ctx": "大分県佐伯市（豊後二見ヶ浦・佐伯城跡・やよいの里）"
+ },
+ "takarakawa-onsen": {
+  "queries": [
+   "Takaragawa Onsen",
+   "宝川温泉",
+   "Osenkaku",
+   "汪泉閣",
+   "Minakami",
+   "Mount Tanigawa",
+   "谷川岳",
+   "Tanigawadake",
+   "Minakami Gunma onsen"
+  ],
+  "pages": [
+   "宝川温泉",
+   "谷川岳",
+   "みなかみ町",
+   "水上温泉"
+  ],
+  "words": [
+   "宝川",
+   "みなかみ",
+   "谷川",
+   "Minakami",
+   "Takaragawa",
+   "Tanigawa",
+   "Gunma",
+   "群馬"
+  ],
+  "ctx": "群馬県みなかみ町の宝川温泉（谷川連峰の渓流沿いの大露天風呂）"
+ },
+ "gen_北海_相泊温泉": {
+  "queries": [
+   "Aidomari",
+   "相泊",
+   "Rausu",
+   "羅臼",
+   "Rausu Hokkaido coast",
+   "Shiretoko Rausu",
+   "Rausu Onsen",
+   "Kunashiri Island view from Rausu",
+   "知床 羅臼 海岸"
+  ],
+  "pages": [
+   "羅臼町",
+   "知床半島",
+   "羅臼温泉",
+   "相泊"
+  ],
+  "words": [
+   "相泊",
+   "羅臼",
+   "Rausu",
+   "知床",
+   "Shiretoko",
+   "Aidomari",
+   "根室海峡"
+  ],
+  "ctx": "北海道羅臼町の相泊（知床半島の根室海峡側の海岸）"
+ },
+ "otoyo": {
+  "queries": [
+   "Ōsugi Otoyo",
+   "杉の大スギ",
+   "Sugi no Osugi",
+   "Daisugi Otoyo",
+   "大豊町",
+   "Otoyo Kochi",
+   "Horakuji",
+   "豊楽寺",
+   "Great cedar Kochi",
+   "Osugi station"
+  ],
+  "pages": [
+   "杉の大スギ",
+   "大豊町",
+   "豊楽寺",
+   "大杉駅"
+  ],
+  "words": [
+   "大豊",
+   "杉の大",
+   "Otoyo",
+   "Osugi",
+   "Kochi",
+   "高知",
+   "豊楽寺",
+   "Horaku",
+   "Sugi no"
+  ],
+  "ctx": "高知県大豊町（杉の大スギ・豊楽寺薬師堂）"
+ },
+ "niche_静岡_2": {
+  "queries": [
+   "Subashiri",
+   "Subashiri Shizuoka",
+   "須走",
+   "須走口",
+   "Mount Fuji Subashiri trail",
+   "Fuji Subashiri Sengen Shrine",
+   "須走浅間神社",
+   "Oyama Shizuoka",
+   "小山町",
+   "Fujisan from Subashiri"
+  ],
+  "pages": [
+   "須走",
+   "須走口登山道",
+   "小山町",
+   "冨士浅間神社 (須走)"
+  ],
+  "words": [
+   "須走",
+   "小山町",
+   "Subashiri",
+   "Oyama",
+   "Shizuoka",
+   "静岡",
+   "Fuji",
+   "富士"
+  ],
+  "ctx": "静岡県小山町の須走（富士山須走口・須走浅間神社の周辺）"
+ },
+ "niche_愛知_2": {
+  "queries": [
+   "Okumikawa",
+   "奥三河",
+   "Yuya Onsen",
+   "湯谷温泉",
+   "Toei Aichi",
+   "東栄町",
+   "Toyone Aichi",
+   "豊根村",
+   "Horaiji",
+   "鳳来寺山",
+   "Shitara Aichi",
+   "設楽町",
+   "Chausuyama",
+   "茶臼山高原"
+  ],
+  "pages": [
+   "奥三河",
+   "湯谷温泉",
+   "東栄町",
+   "豊根村",
+   "茶臼山高原",
+   "設楽町"
+  ],
+  "words": [
+   "奥三河",
+   "湯谷",
+   "東栄",
+   "豊根",
+   "設楽",
+   "新城",
+   "茶臼山",
+   "Okumikawa",
+   "Yuya",
+   "Toei",
+   "Toyone",
+   "Shitara",
+   "Shinshiro",
+   "Aichi",
+   "愛知"
+  ],
+  "ctx": "愛知県奥三河（豊根村・設楽町・東栄町・新城市の山間部）"
+ },
+ "niche_鳥取_5": {
+  "queries": [
+   "Misasa Onsen",
+   "三朝温泉",
+   "Mitokusan",
+   "三徳山",
+   "Nageiredo",
+   "投入堂",
+   "Sanbutsuji",
+   "三佛寺",
+   "Misasa Tottori",
+   "Mitoku River",
+   "三徳川",
+   "Misasa town"
+  ],
+  "pages": [
+   "三朝温泉",
+   "三徳山",
+   "三佛寺",
+   "三朝町"
+  ],
+  "words": [
+   "三朝",
+   "三徳",
+   "Misasa",
+   "Mitoku",
+   "投入堂",
+   "Nageiredo",
+   "Tottori",
+   "鳥取",
+   "Sanbutsu"
+  ],
+  "ctx": "鳥取県三朝町の三徳川沿い（三徳山三佛寺・投入堂・三朝温泉の近く）"
+ },
+ "niche_佐賀_1": {
+  "queries": [
+   "Shiroishi Saga",
+   "白石町",
+   "佐賀県白石町",
+   "Ariake Sea tidal flat Saga",
+   "有明海 干潟",
+   "Inasa Shrine Saga",
+   "稲佐神社",
+   "Saga Plain",
+   "佐賀平野",
+   "lotus root field Saga",
+   "れんこん畑",
+   "Shiroishi town"
+  ],
+  "pages": [
+   "白石町",
+   "佐賀平野",
+   "有明海"
+  ],
+  "words": [
+   "白石",
+   "Shiroishi",
+   "有明",
+   "Ariake",
+   "Saga",
+   "佐賀",
+   "レンコン",
+   "れんこん",
+   "稲佐",
+   "Inasa"
+  ],
+  "ctx": "佐賀県白石町（有明海沿いの佐賀平野・れんこん畑・稲佐神社）"
+ },
+ "niche_宮崎_4": {
+  "queries": [
+   "Suki Miyazaki",
+   "須木",
+   "須木村",
+   "すきむらんど",
+   "Kobayashi Miyazaki",
+   "小林市",
+   "Kobayashi city",
+   "Takaharu",
+   "Ebino",
+   "Miyazaki mountains chestnut",
+   "須木ダム",
+   "Suki Dam",
+   "霧島連山 小林"
+  ],
+  "pages": [
+   "須木村",
+   "小林市",
+   "須木ダム",
+   "須木"
+  ],
+  "words": [
+   "須木",
+   "小林",
+   "Suki",
+   "Kobayashi",
+   "Miyazaki",
+   "宮崎",
+   "Ebino",
+   "えびの"
+  ],
+  "ctx": "宮崎県小林市須木地区（山あいの集落・須木ダム・すきむらんど）"
+ },
+ "niche_島根_6": {
+  "queries": [
+   "Hikimi Gorge",
+   "匹見峡",
+   "Hikimi",
+   "匹見",
+   "Masuda Shimane",
+   "益田市",
+   "Hikimi valley",
+   "Shimane waterfall",
+   "匹見川",
+   "Kuroibuchi",
+   "Hikimi Masuda gorge",
+   "Wasabi Hikimi"
+  ],
+  "pages": [
+   "匹見峡",
+   "匹見町",
+   "益田市",
+   "匹見川"
+  ],
+  "words": [
+   "匹見",
+   "益田",
+   "Hikimi",
+   "Masuda",
+   "Shimane",
+   "島根",
+   "石見",
+   "Iwami"
+  ],
+  "ctx": "島根県益田市匹見町の匹見峡（渓谷と滝）"
+ },
+ "futamata-onsen": {
+  "queries": [
+   "Futamata Onsen",
+   "二岐温泉",
+   "Tenei Fukushima",
+   "天栄村",
+   "Futamata Fukushima",
+   "Futamatayama",
+   "二岐山",
+   "Omaru Asunaro",
+   "大丸あすなろ荘",
+   "Tenei village",
+   "Shirakawa Fukushima onsen",
+   "Nishigo"
+  ],
+  "pages": [
+   "二岐温泉",
+   "天栄村",
+   "二岐山",
+   "日本秘湯を守る会"
+  ],
+  "words": [
+   "二岐",
+   "天栄",
+   "Futamata",
+   "Tenei",
+   "Fukushima",
+   "福島",
+   "大丸",
+   "Asunaro"
+  ],
+  "ctx": "福島県天栄村の二岐温泉（二岐川沿いの渓谷の秘湯）"
+ },
+ "gen_茨城_大杉神社": {
+  "queries": [
+   "Osugi Shrine Ibaraki",
+   "大杉神社",
+   "Ōsugi Jinja Inashiki",
+   "稲敷市",
+   "Abe Inashiki",
+   "阿波大杉神社",
+   "Inashiki Ibaraki"
+  ],
+  "pages": [
+   "大杉神社",
+   "稲敷市"
+  ],
+  "words": [
+   "稲敷",
+   "阿波",
+   "Inashiki",
+   "Abe",
+   "大杉",
+   "Osugi",
+   "Ibaraki"
+  ],
+  "ctx": "茨城県稲敷市阿波の大杉神社（夢むすび・あんばさま）"
+ }
+}

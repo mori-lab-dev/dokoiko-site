@@ -1,0 +1,77 @@
+{
+ "adopted": [
+  {
+   "id": "takarakawa-onsen",
+   "name": "宝川温泉",
+   "file": "File:Mount Tanigawa panorama (51984152224).jpg",
+   "credit": {
+    "author": "Raita Futo from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Tanigawa_panorama_(51984152224).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "谷川連峰の特徴的な山容が明るく映える。宝川温泉の主要な見どころとして適切。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Gunma hot springs 2017.jpg"
+  },
+  {
+   "id": "niche_愛知_2",
+   "name": "奥三河温泉郷",
+   "file": "File:Toei town Tsuta-no-fuchi waterfall ac (1).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Toei_town_Tsuta-no-fuchi_waterfall_ac_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "奥三河の山間部の自然風景として適切。清流と滝、緑豊かな山々が明るく映えている。ただし具体的な場所特定は困難。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "山間の渓流・滝の自然風景で明るく見映えよいが場所の特定手がかりなし"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": null
+  },
+  {
+   "id": "niche_島根_6",
+   "name": "黒淵の滝",
+   "file": "File:140426 Yuushien Matsue Shimane pref Japan02s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140426_Yuushien_Matsue_Shimane_pref_Japan02s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "黒淵の滝の特徴的な段状の滝と渓谷の緑豊かな自然景観が明るく見映えよく撮影されており、ヒーロー画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": null
+  }
+ ],
+ "unresolved": []
+}

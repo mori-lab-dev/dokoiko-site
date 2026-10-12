@@ -1,0 +1,71 @@
+{
+ "adopted": [
+  {
+   "id": "shishikui",
+   "name": "宍喰",
+   "file": "File:Port of Kannoura and Takegashima Island Aerial photograph.1975.jpg",
+   "credit": {
+    "author": "国土交通省",
+    "license": "Attribution",
+    "url": "https://commons.wikimedia.org/wiki/File:Port_of_Kannoura_and_Takegashima_Island_Aerial_photograph.1975.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "宍喰の海岸線と漁港周辺の地形が空撮で明るく美しく捉えられており、緑豊かな山々と清涼感のある海が見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:Hotel Riviera Shishikui.jpg"
+  },
+  {
+   "id": "otoyo",
+   "name": "大豊",
+   "file": "File:Sugi no Osugi, gaikan-3.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sugi_no_Osugi,_gaikan-3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "日本一の大杉（杉の大スギ）の巨大な樹体が明確に写っており、説明板も確認できる。大豊町の代表的な見どころとして適切。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": "File:Otoyo town hall.JPG"
+  },
+  {
+   "id": "niche_佐賀_1",
+   "name": "白石温泉",
+   "file": "File:Tara mudflat coast of Ariake Sea.jpg",
+   "credit": {
+    "author": "Pekachu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tara_mudflat_coast_of_Ariake_Sea.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "有明海と佐賀平野の広大な景観が明るく写っており、白石町の特徴的な地形と環境が表現されている。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  }
+ ],
+ "unresolved": []
+}

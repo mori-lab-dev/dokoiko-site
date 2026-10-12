@@ -1,0 +1,27 @@
+{
+ "adopted": [
+  {
+   "id": "gen_茨城_大杉神社",
+   "name": "大杉神社",
+   "file": "File:Zuishoin Temple (Inashiki, Ibaraki, Japan) 01.jpg",
+   "credit": {
+    "author": "小石川人晃",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Zuishoin_Temple_(Inashiki,_Ibaraki,_Japan)_01.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "大杉神社の本殿と思われる特徴的な建築が明るく写っている。神社の看板も確認でき、境内の景観も良好。"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": null
+  }
+ ],
+ "unresolved": []
+}

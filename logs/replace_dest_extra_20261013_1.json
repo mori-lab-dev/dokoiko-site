@@ -1,0 +1,166 @@
+{
+ "adopted": [
+  {
+   "id": "niche_静岡_2",
+   "name": "須走温泉",
+   "file": "File:Fuji Sengen-jinja Shrine2.jpg",
+   "credit": {
+    "author": "Sablier de Verrie",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Fuji_Sengen-jinja_Shrine2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "須走浅間神社の社殿。朱色の建物と特徴的な建築様式で、その場所の象徴的な構造物として識別可能。明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": null
+  },
+  {
+   "id": "niche_宮崎_4",
+   "name": "渡川温泉",
+   "file": "File:Miyazaki Ikoma-plateau Hinamori-mountain.jpg",
+   "credit": {
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Miyazaki_Ikoma-plateau_Hinamori-mountain.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "山々と花畑の美しい風景。宮崎県の山あいの集落の特徴的な景観として、紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "saiki",
+   "name": "佐伯",
+   "current": "File:Saiki city hall.JPG",
+   "candidates": 55,
+   "tried": [
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港の設備（防波堤・係留施設）が前景で目立ち、風景は背景。豊後二見ヶ浦の特徴的な岩が不明確。"
+    },
+    {
+     "title": "File:Saiki city center area Aerial photograph.2018.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "航空写真で都市計画・港湾施設が主体。豊後二見ヶ浦の景観的魅力が表現されていない。"
+    },
+    {
+     "title": "File:Saiki - from Nooka Mt. West View Point - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "港湾施設（クレーン・積み荷設備）が画面の大半を占める。豊後二見ヶ浦の海岸景観が背景にあるが、主役が産業施設になっている。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (4).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場と街灯が主体。豊後二見ヶ浦などの見どころが写っていない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "ロードサイド施設（おそらく商業施設）の外観で、豊後二見ヶ浦などの自然風景・名所が見当たりません。紹介ページのヒーロー画像として不適切です。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (6).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港",
+     "reason": "港の設備（フェンス・船舶）が主役で、佐伯の特徴的な景観が不足。ヒーロー画像として適さない。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港の設備",
+     "reason": "港湾設備（ゲート・機械）が主体で、豊後二見ヶ浦の景観を示していない"
+    },
+    {
+     "title": "File:Saiki City Yonozu District Kominkan.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅舎または観光施設の建物。豊後二見ヶ浦などの自然風景ではなく、紹介ページのヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:Saiki-Yayoi Parking Area West 2022.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場・サービス施設の外観。豊後二見ヶ浦など佐伯の見どころ風景ではなく、紹介画像に不適切。"
+    },
+    {
+     "title": "File:Saiki-Katata IC 2015 01.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "高速道路の走行中の視点。佐伯市の景観・名所が写っていません。標識のみ。"
+    },
+    {
+     "title": "File:Saiki ferry terminal - 佐伯 フェリーターミナル - panoramio (3).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駅舎や商業施設などの公共施設の外観。豊後二見ヶ浦などの主要な見どころの風景ではなく、紹介ページのヒーロー画像に不適切。"
+    },
+    {
+     "title": "File:Saiki Division Criminal Investigation & Oita District Legal Affairs Bureau Saiki Branch.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "豊後二見ヶ浦の海景観や名所が写っていない。公共施設と思われる建物が主体で、紹介画像として不適切です。"
+    }
+   ]
+  }
+ ]
+}
