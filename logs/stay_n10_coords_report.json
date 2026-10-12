@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-13",
+  "batch": "scripts/stays/n10_coords.mjs",
+  "adopted": [
+    { "dest": "shinojima", "name": "篠島 香翠荘", "address": "愛知県知多郡南知多町篠島堂山81-1", "geocode": "GSI 34.676144,137.003876（destination 34.6764,137.0038 から約0.1km）", "evidence": "公式 https://www.kasuiso.com/ （アクセスページ200・休業告知なし）。送迎は公式に『篠島港から当館まで送迎』と明記。じゃらん yad336193 は title 一致", "note": "他の destination に同宿なし（himakajima は別宿）" },
+    { "dest": "ryusendo", "name": "岩泉龍泉洞ホテル 龍のすみか", "address": "岩手県下閉伊郡岩泉町岩泉府金48", "geocode": "GSI 39.854637,141.80162（destination 39.8603,141.7971 から約0.8km）", "evidence": "公式 https://ryusendo-hotel.com/ 200・営業中。休館告知は2026-01-09〜03-27の毎週木金メンテのみで期間終了。じゃらん yad383586 は title 一致", "note": "公式の送迎記載は発着地点が曖昧なため shuttle 項目は省略。龍泉洞前バス停から徒歩約1分" },
+    { "dest": "tobishima-island", "name": "沢口旅館", "address": "山形県酒田市飛島勝浦甲73", "geocode": "GSI は『酒田市飛島』の島代表点 39.195004,139.549728 に当たる粗い結果。三剣グループ観光ページの宿座標 39.1974,139.5349 は勝浦地区で destination から約1.4kmの島内", "evidence": "酒田市公式 飛島宿泊のご案内に掲載（2026年・予約受付中・電話2件・公式予約サイト）。10室30名", "note": "公式予約サイト reserva.be/sawaguchi が Cloudflare で自動アクセスに 403 を返すため qaStayBatch は officialUrl HTTP 403 でNG。ブラウザでは開ける想定だが未確認。宿独自サイトは無し。OTA掲載は未確認で otaListed:false" }
+  ],
+  "rejected": [
+    { "name": "飛島 その他の宿（港旅館・中央旅館・みのり荘・旅館おばこ・おらが海の家・乱舞・シェアハウスMYA）", "reason": "営業は市ページに掲載されるが、公式サイト200と営業状況を個別に確認できず見送り。乱舞は宿泊のみ・Wixサイトで内容未確認" }
+  ],
+  "qa_result": "shinojima/ryusendo は jalan=200 で適用前NGのみ。tobishima-island は officialUrl 403（ボット対策）"
+}

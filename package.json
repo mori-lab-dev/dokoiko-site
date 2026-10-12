@@ -12,7 +12,9 @@
     "prebuild": "node scripts/copyData.js",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "audit:all": "node scripts/auditAll.mjs",
+    "audit:live": "node scripts/auditAll.mjs --live"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.92.0",

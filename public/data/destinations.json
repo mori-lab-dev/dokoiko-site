@@ -64345,8 +64345,8 @@
     "ferryGateway": null,
     "airportGateway": null,
     "prefecture": "岩手県",
-    "lat": 39.7072,
-    "lng": 141.7944,
+    "lat": 39.8603,
+    "lng": 141.7971,
     "stayBias": 1,
     "airportHub": null,
     "railProvider": "ekinet",
@@ -64455,6 +64455,12 @@
       "license": "CC BY-SA 3.0",
       "url": "https://commons.wikimedia.org/wiki/File:%E9%BE%8D%E6%B3%89%E6%B4%9E%E3%81%AE%E5%89%8D%E3%81%AE%E8%B0%B7%E5%B7%9D_-_panoramio.jpg",
       "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "岩泉龍泉洞ホテル 龍のすみか",
+      "catchcopy": "龍泉洞の入口近く。大浴場と貸切の炭風呂がある旧・龍泉洞温泉ホテル",
+      "jalanUrl": "https://www.jalan.net/yad383586/",
+      "accessStation": "龍泉洞前バス停から徒歩約1分（盛岡駅からJRバス約131分）"
     }
   },
   {
@@ -128418,8 +128424,8 @@
     "ferryGateway": "酒田港",
     "airportGateway": null,
     "prefecture": "山形県",
-    "lat": 39.2028,
-    "lng": 139.69,
+    "lat": 39.195,
+    "lng": 139.5498,
     "stayBias": 1,
     "airportHub": null,
     "railProvider": "ekinet",
@@ -128546,7 +128552,15 @@
       "離島の絶景"
     ],
     "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E9%25A3%259B%25E5%25B3%25B6",
-    "bestSeason": "通年"
+    "bestSeason": "通年",
+    "featured_stay": {
+      "name": "沢口旅館",
+      "catchcopy": "飛島の勝浦にある本館・別館2棟の純和風の旅館。全10室",
+      "otaListed": false,
+      "officialUrl": "https://reserva.be/sawaguchi",
+      "bookingNote": "予約は公式予約サイトまたは電話（080-2805-5686）",
+      "accessStation": "飛島・勝浦港"
+    }
   },
   {
     "id": "awashima-island",
@@ -151721,8 +151735,8 @@
       "1night",
       "2night"
     ],
-    "lat": 34.7858,
-    "lng": 136.9993,
+    "lat": 34.6764,
+    "lng": 137.0038,
     "tags": [
       "離島",
       "島",
@@ -151829,7 +151843,15 @@
       "url": "https://commons.wikimedia.org/wiki/File:%E6%84%9B%E7%9F%A5%E7%9C%8C%E7%9F%A5%E5%A4%9A%E9%83%A1%E5%8D%97%E7%9F%A5%E5%A4%9A%E7%94%BA%E7%AF%A0%E5%B3%B6_-_panoramio.jpg",
       "attributionRequired": true
     },
-    "mainSpot": "篠島港"
+    "mainSpot": "篠島港",
+    "featured_stay": {
+      "name": "篠島 香翠荘",
+      "catchcopy": "篠島の堂山にある全10室オーシャンビューの宿。展望露天風呂あり",
+      "jalanUrl": "https://www.jalan.net/yad336193/",
+      "hasShuttle": true,
+      "shuttleInfo": "篠島港から宿まで送迎あり（師崎港・河和港・伊良湖港での乗船時に連絡）",
+      "accessStation": "篠島港から徒歩約13分"
+    }
   },
   {
     "id": "himakajima",
@@ -214648,7 +214670,6 @@
     "region": "関東",
     "hub": "東京",
     "stayAllowed": [
-      "daytrip",
       "1night"
     ],
     "departures": [
@@ -214746,7 +214767,6 @@
       "友達と",
       "海を眺める",
       "絶景",
-      "日帰り最適",
       "1泊がおすすめ"
     ],
     "primary": [
@@ -214768,7 +214788,8 @@
     "hotelLinks": {
       "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fchiba%2Ftateyama.html",
       "jalan": "https://www.jalan.net/120000/"
-    }
+    },
+    "stayRecommendation": "1night"
   },
   {
     "id": "kawasaki-daishi",
@@ -215332,7 +215353,7 @@
     "name": "寒の地獄温泉",
     "type": "destination",
     "region": "九州",
-    "hub": "大分",
+    "hub": "福岡",
     "stayAllowed": [
       "1night"
     ],
@@ -215467,7 +215488,7 @@
     "name": "湯平温泉",
     "type": "destination",
     "region": "九州",
-    "hub": "大分",
+    "hub": "福岡",
     "stayAllowed": [
       "1night"
     ],
