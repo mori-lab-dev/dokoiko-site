@@ -5,6 +5,7 @@ import hubCities from '../../data/hubCities.json';
 import { pickJRService, jrServiceUrl, jrServiceLabel } from '../../../scripts/jrServiceMap.js';
 import { skyscannerUrl } from '../../../scripts/airportMap.js';
 import { jalanKeywordSearchTarget } from '../../../scripts/jalanUrl.js';
+import { rakutenKeywordSearchTarget } from '../../../scripts/rakutenUrl.js';
 import fs from 'fs';
 import path from 'path';
 import { relatedFor } from '../../lib/related';
@@ -137,7 +138,8 @@ const JALAN_AFF   = 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=376
 // 「地図から探す」トップ相当に着地してしまうため、実際に検索結果が返る
 // キーワード検索エンドポイント（楽天トラベル公式の検索フォーム送信先）を使う。
 function buildRakutenUrl(keyword: string): string {
-  const target = `https://kw.travel.rakuten.co.jp/keyword/Search.do?f_query=${encodeURIComponent(keyword)}`;
+  // f_query は Shift_JIS 必須（UTF-8 だと文字化けして 0 件。scripts/rakutenUrl.js・2026-10-13 実測）
+  const target = rakutenKeywordSearchTarget(keyword);
   return `${RAKUTEN_AFF}?pc=${encodeURIComponent(target)}`;
 }
 // じゃらんの宿キーワード検索はShift_JISエンコード必須(scripts/jalanUrl.js参照)。

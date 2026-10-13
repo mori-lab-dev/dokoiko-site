@@ -1,0 +1,69 @@
+{
+ "date": "2026-10-13T14:22:40.938Z",
+ "static": {
+  "pages": 1381,
+  "uniqueTargets": 3010,
+  "counts": {
+   "rakutenStay": 2794,
+   "jalanStay": 2791,
+   "rentacarJalan": 1307,
+   "rentacarRakuten": 0,
+   "activity": 1307
+  },
+  "fail": {
+   "S1 ラッパー不備・素リンク": 0,
+   "S2 アプリ起動の恐れ": 0,
+   "S3 文字コード不備": 0,
+   "S4 注目の宿の宿名検索が無い": 0,
+   "S5 レンタカー不備": 0
+  },
+  "details": {
+   "pages": 1381,
+   "rakutenStay": 2794,
+   "jalanStay": 2791,
+   "rentacarJalan": 1307,
+   "rentacarRakuten": 0,
+   "activity": 1307,
+   "badWrapper": [],
+   "rawLinks": [],
+   "appRisk": [],
+   "badEncoding": [],
+   "unexpectedKeyword": [],
+   "fsMissing": [],
+   "rentacarMissing": [],
+   "rentacarBad": [],
+   "otherAff": [],
+   "stubs": 1
+  }
+ },
+ "live": {
+  "tally": {
+   "rakuten": {
+    "対象": 1506,
+    "ok": 1506,
+    "zero-hits": 0,
+    "garbled": 0,
+    "no-echo": 0,
+    "http-error": 0,
+    "redirect-loop": 0,
+    "app-risk": 0,
+    "blocked": 0,
+    "未取得": 0
+   },
+   "jalan": {
+    "対象": 1504,
+    "ok": 1504,
+    "zero-hits": 0,
+    "garbled": 0,
+    "no-echo": 0,
+    "http-error": 0,
+    "redirect-loop": 0,
+    "app-risk": 0,
+    "blocked": 0,
+    "未取得": 0
+   }
+  },
+  "rows": []
+ },
+ "fail": 0
+}

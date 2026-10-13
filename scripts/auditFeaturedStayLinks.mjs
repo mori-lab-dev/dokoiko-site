@@ -7,6 +7,8 @@
  * 検出のみ。
  */
 import fs from 'fs';
+import { jalanKeywordSearchTarget } from './jalanUrl.js';
+import { rakutenKeywordSearchTarget } from './rakutenUrl.js';
 
 const D = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8'));
 const UA = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36', 'Accept-Language': 'ja' };
@@ -60,8 +62,8 @@ const sample = fallback.slice(0, 12);
 const fbNg = [];
 console.log(`\n宿名検索フォールバックのサンプル ${sample.length}件を確認…`);
 for (const s of sample) {
-  const rk = `https://kw.travel.rakuten.co.jp/keyword/Search.do?f_query=${encodeURIComponent(s.name)}`;
-  const jl = `https://www.jalan.net/uw/uwp2011/uww2011init.do?keyword=${encodeURIComponent(s.name)}`;
+  const rk = rakutenKeywordSearchTarget(s.name); // Shift_JIS 必須（UTF-8 だと文字化けして 0 件・2026-10-13）
+  const jl = jalanKeywordSearchTarget(s.name);
   const a = await check(rk); await sleep(900);
   const b = await check(jl); await sleep(900);
   if (a.status !== 200) fbNg.push({ id: s.d.id, name: s.name, which: '楽天検索', ...a });
