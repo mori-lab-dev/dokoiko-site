@@ -7,6 +7,7 @@ import { skyscannerUrl } from '../../../scripts/airportMap.js';
 import { jalanKeywordSearchTarget } from '../../../scripts/jalanUrl.js';
 import fs from 'fs';
 import path from 'path';
+import { relatedFor } from '../../lib/related';
 
 export function getStaticPaths() {
   return destinations.map(dest => ({
@@ -410,50 +411,79 @@ for (const line of parkingSentences(dest.description)) pushParking('', line);
 // アフィリを付けたままブラウザで開かせる経路が無いので、じゃらんレンタカーだけにした。
 const rentacarJalanUrl = toJalanAffiliate('https://www.jalan.net/rentacar/');
 
-const nearbyDests = (destinations as any[])
-  .filter((d: any) => d.id !== dest.id && d.region === dest.region)
-  .slice(0, 8);
-
-// 同じ都道府県の他目的地（最大8件）
-// 県をまたぐ行（「長野県・岐阜県」等）は、どちらの県から見ても同県として拾う。
-const samePrefDests = (destinations as any[])
-  .filter((d: any) => d.id !== dest.id && sharesPrefecture(d.prefecture, dest.prefecture))
-  .slice(0, 8);
+// 関連リンク（2026-10-13）: 座標の近い順・特徴的なタグが同じ・同じ県の3系統。計算は src/lib/related.ts
+const related = relatedFor(dest, destinations as any[]);
+const nearbyDests = related.nearby;               // [{ d, km }]
+const nearbyMore = related.nearbyMore;
+const samePrefDests = related.samePref;
+const samePrefMore = related.samePrefMore;
 // 見出しは prefecture の表記をそのまま使う（「長野県・岐阜県の他の旅先」）。
 // 代表1県＋「ほか」に丸めると「長野県ほかの他の旅先」と重複表現になるため。
 const samePrefLabel = dest.prefecture;
+const primaryTag = related.themeTag;
+const sameTagDests = related.theme;
+const sameTagMore = related.themeMore;
 
-// 同じタグを持つ他目的地（最大8件、まずは「離島」「温泉」「絶景」など主要タグ優先）
-const PRIMARY_TAGS = ['離島','温泉','絶景','世界遺産','寺社','街歩き','自然','海','山','湖','歴史'];
-const destTags: string[] = (dest as any).tags || [];
-const primaryTag = destTags.find(t => PRIMARY_TAGS.includes(t)) || destTags[0];
-const sameTagDests = primaryTag
-  ? (destinations as any[])
-      .filter((d: any) => d.id !== dest.id && (d.tags || []).includes(primaryTag))
-      .filter((d: any) => !samePrefDests.some(s => s.id === d.id))
-      .slice(0, 8)
-  : [];
-
-// JSON-LD (TouristAttraction)
-const jsonLd = JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "TouristAttraction",
+// JSON-LD（構造化データ）。ページに表示している内容だけを書く（表示していない事実は載せない）。
+//   TouristAttraction … 旅先そのもの。スポット（includesAttraction）・画像・地図・向いている旅の形（touristType）
+//   LodgingBusiness   … 注目の宿（featured_stay）。ページの「おすすめの宿」に出している名前・紹介・公式サイト・送迎
+//   BreadcrumbList    … 画面のパンくず（HOME › 地方 › 旅先）と同じ3段
+const SITE = 'https://tabidokoiko.com';
+const pageUrl = `${SITE}/destinations/${dest.id}/`;
+const absUrl = (u: string) => (u.startsWith('http') ? u : `${SITE}${u.startsWith('/') ? '' : '/'}${u}`);
+const spotNodes = ((dest as any).spots || [])
+  .filter((s: any) => s && typeof s === 'object' && s.name)
+  .map((s: any) => ({
+    "@type": "TouristAttraction",
+    "name": s.name,
+    ...(s.description ? { "description": s.description } : {}),
+    ...(s.imageUrl ? { "image": absUrl(s.imageUrl) } : {}),
+  }));
+const TOURIST_TYPES = ['ひとり旅向け', 'カップル向け', '友達と', '家族向け', 'シニア向け'];
+const touristTypes = (((dest as any).reasonChips || []) as string[]).filter((c) => TOURIST_TYPES.includes(c));
+const ldImages = [imageUrl, ...((dest as any).spots || []).map((s: any) => s?.imageUrl).filter(Boolean)]
+  .filter(Boolean).map((u: string) => absUrl(u)).filter((u: string, i: number, arr: string[]) => arr.indexOf(u) === i).slice(0, 4);
+const attractionLd: any = {
+  "@type": ["TouristAttraction", "TouristDestination"],
+  "@id": `${pageUrl}#attraction`,
   "name": dest.name,
   "description": description,
-  "url": `https://tabidokoiko.com/destinations/${dest.id}/`,
-  ...(imageUrl ? { "image": imageUrl } : {}),
+  "url": pageUrl,
+  ...(ldImages.length ? { "image": ldImages } : {}),
   ...(dest.lat && dest.lng ? {
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": dest.lat,
-      "longitude": dest.lng,
-    }
+    "geo": { "@type": "GeoCoordinates", "latitude": dest.lat, "longitude": dest.lng },
+    "hasMap": `https://www.google.com/maps/search/?api=1&query=${dest.lat},${dest.lng}`,
   } : {}),
-  "containedInPlace": {
-    "@type": "AdministrativeArea",
-    "name": dest.prefecture || dest.region,
-  },
+  "address": { "@type": "PostalAddress", "addressRegion": dest.prefecture || dest.region, "addressCountry": "JP" },
+  "containedInPlace": { "@type": "AdministrativeArea", "name": dest.prefecture || dest.region },
+  ...(touristTypes.length ? { "touristType": touristTypes } : {}),
+  ...(spotNodes.length ? { "includesAttraction": spotNodes } : {}),
+};
+const ldGraph: any[] = [attractionLd];
+const fsLd = (dest as any).featured_stay;
+if (fsLd?.name) {
+  const fsOfficial = fsLd.otaListed === false && typeof fsLd.officialUrl === 'string' && /^https:\/\//.test(fsLd.officialUrl);
+  const fsShuttle = fsLd.shuttleInfo || (fsLd.hasShuttle === true ? '送迎あり' : '');
+  ldGraph.push({
+    "@type": "LodgingBusiness",
+    "@id": `${pageUrl}#stay`,
+    "name": fsLd.name,
+    ...(fsLd.catchcopy ? { "description": fsLd.catchcopy } : {}),
+    ...(fsOfficial ? { "url": fsLd.officialUrl } : {}),
+    "address": { "@type": "PostalAddress", "addressRegion": dest.prefecture || dest.region, "addressCountry": "JP" },
+    ...(fsShuttle ? { "amenityFeature": { "@type": "LocationFeatureSpecification", "name": "送迎", "value": fsShuttle } } : {}),
+    "containedInPlace": { "@id": `${pageUrl}#attraction` },
+  });
+}
+ldGraph.push({
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "HOME", "item": `${SITE}/` },
+    { "@type": "ListItem", "position": 2, "name": dest.region || dest.prefecture, "item": `${SITE}/destinations/` },
+    { "@type": "ListItem", "position": 3, "name": dest.name, "item": pageUrl },
+  ],
 });
+const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": ldGraph });
 
 // ハブ都市ページリンク (自身がhubCityの場合は表示しない)
 const _destHubCity = (dest as any).hubCity || hubName || '';
@@ -1392,6 +1422,8 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     text-overflow: ellipsis;
   }
   .nearby-card-pref { font-size: 10px; color: #bbb; }
+  .related-more { margin: 12px 0 0; font-size: 12px; line-height: 2; color: #777; }
+  .related-more a { color: #2A6049; text-decoration: underline; text-underline-offset: 2px; }
 
   /* ═══════════════════════════════════════
      CTA
@@ -2154,34 +2186,42 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
 
     <hr class="section-divider" />
 
-    <!-- 近くの旅先（横スクロール） -->
+    <!-- 近くの旅先（座標が近い順。県をまたぐ近隣も含む） -->
     {nearbyDests.length > 0 && (
       <div class="nearby-section">
         <h2 class="section-title">近くの旅先</h2>
         <div class="nearby-scroll">
-          {nearbyDests.map((d: any) => (
+          {nearbyDests.map(({ d, km }: any) => (
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
                 <img
                   class="nearby-card-img"
                   src={`/images/${d.id}/main.jpg`}
-                  alt={d.name}
+                  alt={`${d.name}の風景`}
                   loading="lazy"
                   onerror="this.style.display='none'"
                 />
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
-                <div class="nearby-card-pref">{d.prefecture}</div>
+                <div class="nearby-card-pref">{d.prefecture}・約{km}km</div>
               </div>
             </a>
           ))}
         </div>
+        {nearbyMore.length > 0 && (
+          <p class="related-more">
+            このほか{dest.name}の近くの旅先:
+            {nearbyMore.map(({ d, km }: any, i: number) => (
+              <><a href={`/destinations/${d.id}/`}>{d.name}（{d.prefecture}・約{km}km）</a>{i < nearbyMore.length - 1 ? '、' : ''}</>
+            ))}
+          </p>
+        )}
       </div>
     )}
 
-    <!-- 同じ都道府県の旅先 -->
+    <!-- 同じ県の旅先 -->
     {samePrefDests.length > 0 && (
       <div class="nearby-section">
         <h2 class="section-title">{samePrefLabel}の他の旅先</h2>
@@ -2190,7 +2230,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={d.name} loading="lazy" onerror="this.style.display='none'" />
+                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
@@ -2199,19 +2239,27 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             </a>
           ))}
         </div>
+        {samePrefMore.length > 0 && (
+          <p class="related-more">
+            {samePrefLabel}のほかの旅先:
+            {samePrefMore.map((d: any, i: number) => (
+              <><a href={`/destinations/${d.id}/`}>{d.name}</a>{i < samePrefMore.length - 1 ? '、' : ''}</>
+            ))}
+          </p>
+        )}
       </div>
     )}
 
-    <!-- 同じテーマの旅先 -->
+    <!-- 同じテーマの旅先（その旅先の特徴的なタグ。共有するタグが多く、近い順） -->
     {sameTagDests.length > 0 && primaryTag && (
       <div class="nearby-section">
-        <h2 class="section-title">「{primaryTag}」の他の旅先</h2>
+        <h2 class="section-title">「{primaryTag}」の旅先をもっと</h2>
         <div class="nearby-scroll">
           {sameTagDests.map((d: any) => (
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={d.name} loading="lazy" onerror="this.style.display='none'" />
+                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
@@ -2220,6 +2268,14 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             </a>
           ))}
         </div>
+        {sameTagMore.length > 0 && (
+          <p class="related-more">
+            「{primaryTag}」でほかに行ける旅先:
+            {sameTagMore.map((d: any, i: number) => (
+              <><a href={`/destinations/${d.id}/`}>{d.name}（{d.prefecture}）</a>{i < sameTagMore.length - 1 ? '、' : ''}</>
+            ))}
+          </p>
+        )}
       </div>
     )}
 

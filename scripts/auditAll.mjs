@@ -67,6 +67,23 @@ const AUDITS = [
     parse: (o) => ({ '新規検出': R(num(/新規検出\s*(\d+)\s*件/, o)),
       '画像出典の共有(F)': R(num(/F:credit共有=(\d+)/, o, 0)), '地理矛盾(H)': R(num(/H:地理矛盾=(\d+)/, o, 0)) }) },
 
+  { id: 'ouen-wari', tier: 'static', title: '応援割の表示が日付に対して古くなっていないか（終了日・開始日・確認日・公式リンク）',
+    cmd: ['node', 'scripts/auditOuenWari.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '終了日を過ぎても受付中のまま': Z(num(/終了日を過ぎているのに受付中・開始前のまま:\s*(\d+)件/, o)),
+      '開始日を過ぎても「まもなく」のまま': Z(num(/開始日を過ぎているのに「まもなく」のまま:\s*(\d+)件/, o)),
+      '確認日が古い': Z(num(/確認日が\d+日より古い:\s*(\d+)件/, o)),
+      '公式リンクの不備': Z(num(/公式リンクが無い・https でない:\s*(\d+)件/, o)) }) },
+
+  { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',
+    cmd: ['node', 'scripts/auditStructuredData.mjs'], exitMeansFail: true,
+    parse: (o) => { const ns = [...o.matchAll(/^[^\n:]+:\s*(\d+)件/gm)].map((m) => Number(m[1]));
+      return { '構造化データの不備（合計）': Z(ns.length >= 7 ? ns.reduce((a, b) => a + b, 0) : null), 'LodgingBusiness のあるページ': I(num(/LodgingBusiness あり (\d+) 件/, o)) }; } },
+  { id: 'internal-links', tier: 'dist', title: '旅先ページどうしの内部リンク（少ないページ・孤立ページ）',
+    cmd: ['node', 'scripts/auditInternalLinks.mjs'],
+    parse: (o) => ({ 'リンクが10本未満のページ': Z(num(/リンクが\d+本未満のページ:\s*(\d+)件/, o)),
+      'どこからもリンクされない孤立ページ': Z(num(/孤立）:\s*(\d+)件/, o)),
+      '他の旅先へのリンク平均': I(num(/平均\s*([0-9.]+)本/, o)) }) },
+
   { id: 'indexability', tier: 'dist', title: '検索に載るか（noindex・{id}.html スタブ・sitemap・canonical）',
     cmd: ['node', 'scripts/auditIndexability.mjs'],
     parse: (o) => ({ 'noindex のページ': Z(num(/noindex が付いているページ:\s*(\d+)/, o)),
