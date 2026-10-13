@@ -6,7 +6,7 @@
  */
 import DestinationLayout from '../layouts/DestinationLayout.astro';
 import destinations from '../data/destinations.json';
-import { SCHEMES, PARENT, STAY_OFFICIAL } from '../data/ouenWari';
+import { SCHEMES, PARENT, STAY_OFFICIAL, STATUS_LABEL } from '../data/ouenWari';
 import kagoshimaAreas from '../data/kagoshimaAreas.json';
 import fs from 'fs';
 import path from 'path';
@@ -34,10 +34,15 @@ const others = SCHEMES.filter((x) => x.slug !== s.slug);
 // ほかの県はまだエリア分けしていないので、そのときは空になる。
 const areas = s.slug === 'kagoshima-oen' ? (kagoshimaAreas as any[]) : [];
 
-const title = `${s.prefShort}の応援割で行く旅先と宿｜どこ行こ？`;
-const description =
-  `${s.name}の対象期間は${s.period}。${s.prefShort}の旅先${inPref.length}か所と、`
-  + `泊まりたい宿${stays.length}軒をまとめました。割引の条件は公式サイトでご確認ください。`;
+const ended = s.status === 'ended';
+// 終了した制度のページも残す（検索や共有で来た人が混乱しないよう、終了を見出しと説明に明記する）
+const title = `${s.prefShort}の応援割で行く旅先と宿${ended ? '（受付終了）' : ''}｜どこ行こ？`;
+const description = ended
+  ? `${s.name}は終了しました（${s.period}）。${s.prefShort}の旅先${inPref.length}か所と、泊まりたい宿${stays.length}軒は、次の応援割にも使えるようまとめて残しています。`
+  : `${s.name}の対象期間は${s.period}。${s.prefShort}の旅先${inPref.length}か所と、`
+    + `泊まりたい宿${stays.length}軒をまとめました。割引の条件は公式サイトでご確認ください。`;
+// 終了した鹿児島のかごしま観光応援割から、同じ県で続く制度（鹿児島ふっこう応援割）へ案内する
+const successor = ended ? SCHEMES.find((x) => x.pref === s.pref && x.slug !== s.slug && x.status !== 'ended') : null;
 
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
@@ -86,6 +91,21 @@ const jsonLd = JSON.stringify({
     .kf-rows dd { margin: 0; color: #444; flex: 1; }
     .kf-notice-links { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
     .kf-notice-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
+    .kf-status {
+      border: 1px solid #d9e6dd; background: #f3f8f4; border-radius: 8px;
+      padding: 14px 18px; margin-bottom: 14px; font-size: 12.5px; line-height: 2; color: #3f4a43;
+    }
+    .kf-status-badge {
+      display: inline-block; font-size: 11px; letter-spacing: 0.08em; padding: 3px 10px;
+      border-radius: 3px; background: #2A6049; color: #fff; margin-right: 10px;
+    }
+    .kf-status-soon .kf-status-badge { background: #C9A84C; }
+    .kf-status-ended { background: #f4f2ee; border-color: #ddd6c8; }
+    .kf-status-ended .kf-status-badge { background: #8b8578; }
+    .kf-status-checked { font-size: 11.5px; color: #8a8a8a; }
+    .kf-status-text { margin: 6px 0 0; }
+    .kf-status-text a { color: #2A6049; text-decoration: underline; }
 
     .kf-caution {
       border: 1px solid #e8ddd0; border-radius: 6px; padding: 14px 16px;
@@ -169,7 +189,8 @@ const jsonLd = JSON.stringify({
       <p class="kf-hero-eyebrow">{s.prefShort}</p>
       <h1 class="kf-hero-title">{s.prefShort}の応援割で行く、<br>泊まりたい宿と旅先</h1>
       <p class="kf-hero-lead">
-        {s.name}の対象期間は{s.period}です。
+        {ended && <><strong>{s.name}は受付を終了しました。</strong><br /></>}
+        {s.name}の対象期間は{s.period}{ended ? 'でした' : 'です'}。
         {s.prefShort}の旅先{inPref.length}か所と、その宿に泊まること自体が目的になる{stays.length}軒をまとめました。
       </p>
     </div>
@@ -177,6 +198,17 @@ const jsonLd = JSON.stringify({
 
   <div class="kf-body">
     <a class="kf-back" href="/ouen-wari/">← 旅行支援・応援割まとめに戻る</a>
+
+    <div class={`kf-status kf-status-${s.status}`} data-scheme-status={s.status} data-starts={s.startsOn ?? ''} data-ends={s.endsOn ?? ''}>
+      <span class="kf-status-badge" data-status-badge>{STATUS_LABEL[s.status]}</span>
+      <span class="kf-status-checked">{s.checked}に公式サイトで確認</span>
+      {s.state && <p class="kf-status-text">{s.state}</p>}
+      {successor && (
+        <p class="kf-status-text">
+          続く制度: <a href={`/${successor.slug}/`}>{successor.name}</a>（{successor.booking}）
+        </p>
+      )}
+    </div>
 
     <div class="kf-notice">
       <strong>{s.name}</strong>
@@ -308,4 +340,24 @@ const jsonLd = JSON.stringify({
       </div>
     </section>
   </div>
+  <script is:inline>
+    // 予約開始日・終了日を過ぎたら、ビルドし直さなくてもバッジを進める（まもなく→受付中→終了）。終了は受付中に戻さない。
+    (function () {
+      var order = { soon: 0, open: 1, ended: 2 };
+      var label = { soon: 'まもなく予約開始', open: '予約受付中', ended: '受付終了' };
+      var today = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+      document.querySelectorAll('[data-scheme-status]').forEach(function (el) {
+        var cur = el.getAttribute('data-scheme-status');
+        var st = el.getAttribute('data-starts'), en = el.getAttribute('data-ends');
+        var next = cur;
+        if (en && today > en) next = 'ended';
+        else if (st && today >= st && order[cur] < order.open) next = 'open';
+        if (order[next] > order[cur]) {
+          var b = el.querySelector('[data-status-badge]');
+          if (b) b.textContent = label[next];
+          el.className = el.className.replace(/kf-status-(soon|open|ended)/, 'kf-status-' + next);
+        }
+      });
+    })();
+  </script>
 </DestinationLayout>

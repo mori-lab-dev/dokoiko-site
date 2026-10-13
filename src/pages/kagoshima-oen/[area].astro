@@ -32,7 +32,7 @@ const inArea = (a.destIds as string[]).map((id) => byId.get(id)).filter(Boolean)
 const stays = inArea.filter((d: any) => d.featured_stay?.name);
 const others = (areas as any[]).filter((x) => x.slug !== a.slug);
 
-const title = `${a.short}の応援割で行く旅先と宿｜かごしま観光応援割｜どこ行こ？`;
+const title = `${a.short}の応援割で行く旅先と宿${s.status === 'ended' ? '（受付終了）' : ''}｜かごしま観光応援割｜どこ行こ？`;
 const description =
   `かごしま観光応援割の${a.name}（${(a.towns as string[]).length}市町村）で行ける旅先${inArea.length}か所と、`
   + `泊まりたい宿${stays.length}軒をまとめました。対象期間は${s.period}。`
@@ -178,6 +178,14 @@ const jsonLd = JSON.stringify({
       <span class="ka-towns-label">{a.name}に入る市町村（公式サイトの区分）</span>
       {(a.towns as string[]).join('／')}
     </div>
+
+    {s.status === 'ended' && (
+      <div class="ka-notice" style="background:#f4f2ee;border-left-color:#8b8578;">
+        <strong>{s.name}は受付を終了しました。</strong>
+        {s.state}
+        <p style="margin-top:8px;">続く制度: <a href="/kagoshima-fukko/" style="color:#2A6049;text-decoration:underline;">鹿児島ふっこう応援割</a>（2026年10月14日から）</p>
+      </div>
+    )}
 
     <div class="ka-notice">
       <strong>{s.name}</strong>

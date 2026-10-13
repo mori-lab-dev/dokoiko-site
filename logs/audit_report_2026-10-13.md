@@ -1,6 +1,6 @@
 # 監査レポート 2026-10-13
 
-- 実行: 2026/10/13 13:54:27　コミット: 8ace56f0（未コミットの変更 217 件）
+- 実行: 2026/10/13 14:16:38　コミット: aff4a345（未コミットの変更 86 件）
 - 範囲: static・dist
 - 結果: **すべて合格**（11 監査中 11 合格）
 
@@ -21,10 +21,10 @@
 - ✅ **same-name-stay** — 同名異所の混同・離島タグ・滞在日数の妥当性（0.1秒）
 - ✅ **duplicates** — 座標・名称の重複 destination（0.2秒）
 - ✅ **contamination** — 他 destination のデータ混入（hotelArea・鉄道会社・駅・画像出典の共有・地理矛盾）（0.3秒）
-- ✅ **indexability** — 検索に載るか（noindex・{id}.html スタブ・sitemap・canonical）（0.4秒）
+- ✅ **indexability** — 検索に載るか（noindex・{id}.html スタブ・sitemap・canonical）（1.2秒）
 - ✅ **jalan-app-links** — じゃらんリンクが許可リスト形式だけか（アプリ起動の防止）（0.5秒）
 - ✅ **affiliate** — アフィリリンクの形式とID（楽天・じゃらん）（0.4秒）
-- ✅ **spot-credits** — spot 画像のクレジットが実ファイルと一致するか（0.3秒）
+- ✅ **spot-credits** — spot 画像のクレジットが実ファイルと一致するか（0.4秒）
 
 ## 指標
 

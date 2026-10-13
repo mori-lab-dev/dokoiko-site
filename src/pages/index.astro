@@ -23,7 +23,7 @@ const destCount = (destinations as any[]).length;
 // 制度は県ごとに増減するので、九州に限定した文言ではなく汎用の導線にしている。
 const KYUSHU_PREFS = ['福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県'];
 const kyushuCount = (destinations as any[]).filter((d: any) => KYUSHU_PREFS.includes(d.prefecture)).length;
-const schemeCount = SCHEMES.length;
+const schemeCount = SCHEMES.filter((s) => s.status !== 'ended').length;   // 受付終了を除いた、いま受付中・開始前の件数
 
 const REGION_EN: Record<string, string> = {
   '北海道': 'Hokkaido', '東北': 'Tohoku', '関東': 'Kanto',
