@@ -1,0 +1,435 @@
+{
+ "adopted": [
+  {
+   "id": "kagoshima-city",
+   "name": "鹿児島",
+   "file": "File:Kagoshima neighborhood, Kagoshima Prefecture; March 2019 (07).jpg",
+   "credit": {
+    "author": "_steffen",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kagoshima_neighborhood,_Kagoshima_Prefecture;_March_2019_(07).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "仙厳園の特徴的な庭園風景。季節感ある樹木、手すり、奥に見える錦江湾の海が写っており、この場所を特定できる要素がある。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:Sengan-en2.jpg"
+  },
+  {
+   "id": "hitoyoshi-city",
+   "name": "人吉・球磨",
+   "file": "File:Hitoyoshi City viewed from Hitoyoshi Castle-2.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hitoyoshi_City_viewed_from_Hitoyoshi_Castle-2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "人吉市街地と球磨川が見える見晴らしの良い風景。主な見どころの地理的背景が明確に映っている。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": "File:Hitoyoshi City viewed from Hitoyoshi Castle.jpg"
+  },
+  {
+   "id": "mimasaka",
+   "name": "美作",
+   "file": "File:Mimasaka Kokubunji, sanmon.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mimasaka_Kokubunji,_sanmon.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "湯郷温泉の象徴的な門構造。明るく見映えよく撮影された伝統建築で、紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": null
+  },
+  {
+   "id": "gen_北海_天塩温泉",
+   "name": "天塩温泉",
+   "file": "File:Asahi spa roten2007.jpg",
+   "credit": {
+    "author": "Soica2001 (talk)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Asahi_spa_roten2007.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "天塩温泉の露天風呂エリアと思われる。湯煙、岩風呂、木製建築、渓流が写っており、温泉地の特徴を表現できている。"
+    }
+   },
+   "pixelDiffAfter": 0.3,
+   "replaced": null
+  },
+  {
+   "id": "futamata-onsen",
+   "name": "二岐温泉",
+   "file": "File:Futamata Jinja Iwaki Iriguchi.jpg",
+   "credit": {
+    "author": "Zeter114514",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Futamata_Jinja_Iwaki_Iriguchi.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "二岐温泉の特徴的な橋と渓谷の緑が見える。白い社標柱と階段が目印になる秘湯の入口風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": null
+  },
+  {
+   "id": "yura-wakayama",
+   "name": "由良",
+   "file": "File:Yura bay.jpg",
+   "credit": {
+    "author": "Opqr",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Yura_bay.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "由良の美しい海岸線と清澄な海が明るく映えている。ただし固有の建造物や標識がなく、特定場所の断定は難しい"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "透明度の高い青い海と岩礁・島々が明るく映え、由良周辺の海岸景観として十分魅力的"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "fukushima-aizu-2",
+   "name": "塔のへつり",
+   "file": "File:View 景色(けしき).jpg",
+   "credit": {
+    "author": "TANAKA Juuyoh (田中十洋)",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:View_%E6%99%AF%E8%89%B2(%E3%81%91%E3%81%97%E3%81%8D).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "塔のへつりの特徴的な吊橋と奇岩地形が明るく鮮明に写っており、紹介画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": null
+  },
+  {
+   "id": "niche_宮城_1",
+   "name": "女川漁港と海産物市場",
+   "file": "File:Hama Terrace in Onagawa, Miyagi, Japan.jpg",
+   "credit": {
+    "author": "Yasu (talk)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hama_Terrace_in_Onagawa,_Miyagi,_Japan.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "シーパルピア女川の特徴的な黒い建築外観が明るく写っている。広場と共に施設全体が見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "niche_広島_6",
+   "name": "世羅ラベンダー畑",
+   "file": "File:夏のラベンダー畑P6280659.JPG",
+   "credit": {
+    "author": "松岡明芳",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%8F%E3%81%AE%E3%83%A9%E3%83%99%E3%83%B3%E3%83%80%E3%83%BC%E7%95%91P6280659.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "ラベンダーの紫色の花が手前いっぱいに咲き、奥に黄色い花畑が見える。世羅ラベンダー畑の特徴的な景観が明るく美しく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 0.3,
+   "replaced": null
+  },
+  {
+   "id": "niche_佐賀_1",
+   "name": "白石温泉",
+   "file": "File:Tara mudflat coast of Ariake Sea.jpg",
+   "credit": {
+    "author": "Pekachu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tara_mudflat_coast_of_Ariake_Sea.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "有明海沿いの佐賀平野とれんこん畑の広がりが明るく写っており、白石町の特徴的な景観が表現されている。紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "niche_大分_2",
+   "name": "青の洞門と耶馬渓",
+   "file": "File:North entrance of Aonodomon Tunnel 2.jpg",
+   "credit": {
+    "author": "そらみみ",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:North_entrance_of_Aonodomon_Tunnel_2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "青の洞門の特徴的なトンネル入口が明確に写っており、岩壁と洞門の形状で場所が特定できる。照明良好で見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_樹海温泉",
+   "name": "樹海温泉",
+   "current": null,
+   "candidates": 4,
+   "tried": [
+    {
+     "title": "File:Mount Hachimantai and its surroundings, Japan; October 2017 (10).jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "樹海温泉周辺の自然風景を示す雄大な山岳景観。明るく見映えよく撮影されており、紹介ページのヒーロー画像として適切。ただし具体的な温泉施設や特定地点を示す手がかりは見当たらない。"
+     },
+     "sonnet": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "北海道らしい広大な山岳・樹海の風景で見映えよいが特定の手がかりはない"
+     }
+    },
+    {
+     "title": "File:Mount Hachimantai and its surroundings, Japan; October 2017 (11).jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "風景",
+      "reason": "北海道の山岳風景。樹海の特徴である豊かな森林と火山地形が明るく見映えよく表現されている。"
+     },
+     "sonnet": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "北海道らしい山岳・紅葉の広大な風景で見映えよいが、樹海温泉と断定できる手がかりはない"
+     }
+    },
+    {
+     "title": "File:Mount Hachimantai and its surroundings, Japan; October 2017 (13).jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "風景",
+      "reason": "樹海の豊かな森林と火山地形が特徴的に捉えられた明るい風景写真。北海道の自然景観を効果的に表現している。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "山岳・樹林の風景で温泉施設の特定要素がなく場所の断定不可"
+     }
+    },
+    {
+     "title": "File:Mount Hachimantai and its surroundings, Japan; October 2017 (07).jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "風景",
+      "reason": "樹海の森林風景と背景の山が特徴的に写っており、北海道の自然景観を効果的に表現。明るく見映えよい構図。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "樹海温泉の施設が写っておらず、森林と山の風景のみで場所の特定不可"
+     }
+    }
+   ]
+  },
+  {
+   "id": "gen_群馬_花敷温泉",
+   "name": "花敷温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_青森_板留温泉",
+   "name": "板留温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山形_2",
+   "name": "庄内町庭月観音温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_群馬_4",
+   "name": "桐生の工場跡と町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_新潟_3",
+   "name": "越後松代の棚田と旧街道",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_福井_4",
+   "name": "九頭竜湖・西野ダム展望台",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_7",
+   "name": "塩山梅林",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_三重_2",
+   "name": "宮川渓谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_5",
+   "name": "由良川渓谷",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:Gunze memorial hall02s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の紹介画像として不適切。渓谷風景ではなく、道路沿いの建築物のみ。見どころの高屋橋が写っていない。"
+    },
+    {
+     "title": "File:Gunze01s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の紹介画像として不適切。渓谷の風景ではなく、街中の建築物を撮影した写真です。"
+    },
+    {
+     "title": "File:Gunze04s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "由良川渓谷の風景ではなく、建物周辺の庭園施設。渓谷の自然景観が写っておらず、紹介画像として不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_兵庫_4",
+   "name": "鳥飼漁港と丸島番所跡",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_和歌山_8",
+   "name": "印南くじらの浜",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

@@ -413,5 +413,88 @@
    "Ibaraki"
   ],
   "ctx": "茨城県稲敷市阿波の大杉神社（夢むすび・あんばさま）"
+ },
+ "sagae": {
+  "queries": [
+   "Sagae Yamagata",
+   "寒河江",
+   "寒河江市",
+   "Jionji Sagae",
+   "慈恩寺",
+   "寒河江ダム",
+   "Sagae Dam",
+   "Sagae cherry orchard",
+   "さくらんぼ 寒河江",
+   "Sagae city Yamagata"
+  ],
+  "pages": [
+   "寒河江市",
+   "慈恩寺 (寒河江市)",
+   "寒河江ダム"
+  ],
+  "words": [
+   "寒河江",
+   "Sagae",
+   "慈恩寺",
+   "Jionji",
+   "山形",
+   "Yamagata"
+  ],
+  "ctx": "山形県寒河江市（慈恩寺・寒河江ダム・さくらんぼ）。天童市ではない"
+ },
+ "niche_宮崎_7": {
+  "queries": [
+   "Yamanokuchi Miyazaki",
+   "山之口町",
+   "都城市",
+   "Miyakonojo",
+   "青井岳",
+   "Aoidake",
+   "Aoidake onsen",
+   "Miyakonojo Miyazaki",
+   "Kirishima Miyakonojo"
+  ],
+  "pages": [
+   "山之口町",
+   "青井岳温泉",
+   "都城市"
+  ],
+  "words": [
+   "山之口",
+   "都城",
+   "青井岳",
+   "Miyakonojo",
+   "Yamanokuchi",
+   "Aoidake",
+   "Miyazaki",
+   "宮崎"
+  ],
+  "ctx": "宮崎県都城市山之口町の山中の温泉（青井岳温泉の近く）。和歌山の湯の峰ではない"
+ },
+ "gen_北海_神威脇温泉": {
+  "queries": [
+   "Kamuiwaki Onsen",
+   "神威脇温泉",
+   "Okushiri",
+   "奥尻島",
+   "Okushiri Island Hokkaido",
+   "Okushiri coast",
+   "Okushiri Port",
+   "Hokkaido Okushiri onsen",
+   "奥尻町"
+  ],
+  "pages": [
+   "奥尻島",
+   "奥尻町",
+   "神威脇温泉"
+  ],
+  "words": [
+   "奥尻",
+   "Okushiri",
+   "神威脇",
+   "Kamuiwaki",
+   "湯浜"
+  ],
+  "ctx": "北海道奥尻島の神威脇温泉（港の近くの漁港横の温泉）。鍋釣岩の写真は奥尻島に使用済みなので別の写真"
  }
 }

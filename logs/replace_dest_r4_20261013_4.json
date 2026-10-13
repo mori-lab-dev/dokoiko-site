@@ -1,0 +1,379 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_札幌八幡宮",
+   "name": "札幌八幡宮",
+   "file": "File:Nishioka Hachiman-gū in Spring.JPG",
+   "credit": {
+    "author": "禁樹なずな",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Nishioka_Hachiman-g%C5%AB_in_Spring.JPG",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "札幌八幡宮の本殿が桜と共に明るく写り、神社の特徴的な建造物が確認できる。紹介画像として適切。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "桜咲く神社拝殿・灯籠・社号標が写り神社の外観として適切"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_神居岩温泉",
+   "name": "神居岩温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:北海道道1031号神居岩総合公園線.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識が主役で、神居岩温泉の風景・景観が写っていません。"
+    }
+   ]
+  },
+  {
+   "id": "gen_群馬_川中温泉",
+   "name": "川中温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Agatsuma Gorge Aerial photograph.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "航空写真で地形は美しいが、川中温泉の温泉地としての特徴が不明確。温泉施設や建築が見当たらない。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_秋元温泉",
+   "name": "秋元温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "ainan",
+   "name": "愛南",
+   "current": null,
+   "candidates": 17,
+   "tried": [
+    {
+     "title": "File:SZ 深圳 Shenzhen 龍崗 Longgang 寶龍 BaoLong 植物園路 ZiWuYuan Road 南約 Nanyue 碧新路 BiXin Road June 2024 R12S 13.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識と交差点の風景で、愛南の見どころを示す特定の場所や風景が写っていない。"
+    },
+    {
+     "title": "File:愛南ゴールド 贈答用 10kg ￥4500 (44179470852).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "屋内の販売品展示。温泉施設の外観や景観が全く見えない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:JA Ehime-minami Iekushi branch office.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "駐車場が主体で、建物も小さく、ヒーロー画像として見映えに欠ける。風景性が低い。"
+    },
+    {
+     "title": "File:愛買板橋南雅店的6F露天停車場 20240917.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "愛南とは異なる場所（都市部の駐車場・港湾施設）の写真。一本松温泉あけぼの荘の特徴が写っていない。"
+    },
+    {
+     "title": "File:Charaki Feraclos Castle Rhodes Greece.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "名所",
+     "reason": "愛南の見どころ（一本松温泉あけぼの荘）とは異なる場所。中東またはトルコの遺跡と思われます。"
+    },
+    {
+     "title": "File:Graffiti on train in Nafplio (2).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "グラフィティで覆われた廃車両。愛南の見どころとの関連性が不明で、紹介画像として不適切。"
+    },
+    {
+     "title": "File:Erechtheum Acropolis Athens.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "これはギリシャのアテネ（パルテノン神殿）の画像で、愛南町とは無関係です。"
+    },
+    {
+     "title": "File:Venetian Fortress of Koules in Heraklion, Crete 003.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "愛南の見どころ（一本松温泉あけぼの荘）ではなく、別地域の港湾風景。古い要塞と漁船が写っており、愛南とは無関係。"
+    },
+    {
+     "title": "File:View of Rethymno in Crete 001.jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "愛南町の海岸風景として適切。明るく見映えよい景観で、紹介ページのヒーロー画像に使用可能。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "地中海風の街並みで愛南町・あけぼの荘とは無関係の別地域の景観"
+     }
+    },
+    {
+     "title": "File:愛買南雅店.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "屋内の商業施設（スーパー）で、愛南の見どころである温泉施設とは無関係。"
+    },
+    {
+     "title": "File:Building at the crater rim near Athinios port - Santorini - Greece.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "白い建物が写っていますが、一本松温泉あけぼの荘と特定できる手がかけがなく、別施設の可能性があります。また、建物は遠景で小さく、愛南の景観を紹介するのに不十分です。"
+    },
+    {
+     "title": "File:愛買板橋南雅店.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "商業施設の看板が主役。温泉施設というより商業ビルに見える。愛南の景観を表現していない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_山形_2",
+   "name": "庄内町庭月観音温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_埼玉_1",
+   "name": "寄居町の荒川渓谷",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:玉淀ダム.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "橋と堰堤が主役になっており、荒川渓谷の自然景観が背景的。紹介画像として風景美が不足。"
+    },
+    {
+     "title": "File:Tamayodo Dam left view.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "ダム設備が主役。荒川渓谷の風景美が表現されておらず、ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Tamayodo Dam.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "ダムの水門が主体。渓谷の自然風景が欠けており、紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_石川_6",
+   "name": "九谷陶芸村",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_5",
+   "name": "猿が城跡",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_三重_2",
+   "name": "宮川渓谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_5",
+   "name": "由良川渓谷",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:Gunze memorial hall02s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の紹介画像として不適切。渓谷景観ではなく、街中の建築物が主体。由良川や高屋橋などの見どころが全く写っていません。"
+    },
+    {
+     "title": "File:Gunze01s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "由良川渓谷の景観ではなく、街中の建築物（役場等の公共施設と思われる）。渓谷の自然景観が全く写っていない。"
+    },
+    {
+     "title": "File:Gunze04s3200.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "由良川渓谷の風景ではなく、建物や施設が主体。渓谷の景観が写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_奈良_2",
+   "name": "野迫川村の深山と秘湯群",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_島根_1",
+   "name": "斐伊川荒島地区",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_香川_2",
+   "name": "仁尾の町並みと造り酒屋",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_熊本_6",
+   "name": "白糸台地の棚田",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:山都白糸の滝 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "森林と河川の風景だが、白糸台地の棚田が見えない。別地点の写真の可能性が高い。"
+    },
+    {
+     "title": "File:鮎の瀬大橋 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "橋と道路施設が主役になっており、白糸台地の棚田風景が不明瞭。眺望地点の紹介画像として不適切。"
+    },
+    {
+     "title": "File:内大臣橋 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "高圧電塔と橋が主役になっており、棚田の景観が十分に表現されていない。屋根も前景を占める。"
+    }
+   ]
+  },
+  {
+   "id": "niche_鹿児島_1",
+   "name": "串木野港周辺の漁師町",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Kushikino.newport.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "串木野新港の施設建物ですが、港湾設備・看板が主体で、紹介ページのヒーロー画像として適さない。漁師町の風景や港の景観が必要。"
+    },
+    {
+     "title": "File:Kagoshima prefectural road 24 at Miyama, Hioki.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場標識と一般的な漁師町の住宅・道路が写っているが、串木野新港や特徴的な漁港風景が見えず、紹介画像として映えに欠ける。"
+    }
+   ]
+  }
+ ]
+}

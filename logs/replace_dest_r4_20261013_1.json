@@ -1,0 +1,352 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_滝の湯温泉",
+   "name": "滝の湯温泉",
+   "file": "File:140828 Kamuiwakka Falls and Mount Io Shiretoko Hokkaido Japan02sbs13.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140828_Kamuiwakka_Falls_and_Mount_Io_Shiretoko_Hokkaido_Japan02sbs13.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "滝の湯温泉周辺の自然風景として適切。山々と渓谷の雄大な景観が明るく美しく撮影されている。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "緑豊かな断崖から流れ落ちる滝と山並みが明るく映え、北海道の自然景観として訴求力がある"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": null
+  },
+  {
+   "id": "gen_北海_支笏湖いとう温泉",
+   "name": "支笏湖温泉",
+   "file": "File:Lake Shikotsu, Hokkaido, Japan by Planet Labs.jpg",
+   "credit": {
+    "author": "Planet Labs, Inc.",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu,_Hokkaido,_Japan_by_Planet_Labs.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "支笏湖の特徴的な湖面と周囲の山々が空撮で明確に捉えられており、支笏湖温泉地域の風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "yamaguchi-city",
+   "name": "山口市",
+   "file": "File:140720 Ruriko-ji Yamaguchi Yamaguchi pref Japan02s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140720_Ruriko-ji_Yamaguchi_Yamaguchi_pref_Japan02s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "瑠璃光寺五重塔が庭園と水に映える構図で明るく鮮明に写っている。山口市を代表する景観として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": null
+  },
+  {
+   "id": "niche_佐賀_1",
+   "name": "白石温泉",
+   "file": "File:Tara mudflat coast of Ariake Sea.jpg",
+   "credit": {
+    "author": "Pekachu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tara_mudflat_coast_of_Ariake_Sea.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "有明海と佐賀平野の広がりを見下ろす景観。れんこん畑と思われる水田、町並み、特徴的な海岸線が映り込んでおり、白石町の立地を示す風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "niche_宮崎_2",
+   "name": "西米良村 仙人の湯",
+   "file": "File:幾稲鳴滝の湯.jpg",
+   "credit": {
+    "author": "大雪山仙人",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BE%E7%A8%B2%E9%B3%B4%E6%BB%9D%E3%81%AE%E6%B9%AF.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "仙人の湯の特徴的な丸太造りの露天風呂と森林風景が明確に写っており、見映えよく撮影されている。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "丸太造りの露天風呂と滝・緑が映え、仙人の湯の特徴的な浴槽が明確に写っている"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_オーロラ温泉",
+   "name": "オーロラ温泉",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Aurora vilage farm2.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "簡易的な浴場施設の建物で、温泉地の風景としての魅力に欠ける。ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:Aurora villegge farm1.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "屋内からの撮影で、温泉施設の内部が主。風景が見えづらく、ヒーロー画像として見映えが不十分。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_嶽温泉",
+   "name": "嶽温泉",
+   "current": null,
+   "candidates": 10,
+   "tried": [
+    {
+     "title": "File:Tombs of Yue Fei and Yue Yun, Feb 2017.jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "名所",
+      "reason": "嶽温泉の象徴的な石碑と参道が写っており、温泉地の雰囲気が良く表現されている。黄色い花と緑の苔が美しく、見映えも良好。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "その他",
+      "reason": "中国語碑文の墓地であり嶽温泉と無関係な別の場所"
+     }
+    },
+    {
+     "title": "File:Entrance to Yue Fei Temple, Hangzhou.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "嶽温泉ではなく、中国風の寺院建築。青森県の温泉地とは関連性がない。"
+    },
+    {
+     "title": "File:Yue Wan Market.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "駅の構内・ホーム周辺の写真です。嶽温泉の風景や名所が写っていません。"
+    },
+    {
+     "title": "File:Yue Loong Feeling 1.8GTX FP-BV-92 20141101f.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の自動車修理工場の風景。嶽温泉の紹介画像として不適切。"
+    },
+    {
+     "title": "File:Yue Loong Feeling 1.8GTX FP-BV-92 20141101e.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "屋内の駐車場で自動車を撮影した写真。嶽温泉の風景・景観・名所が全く写っていない。"
+    },
+    {
+     "title": "File:Tombs of Yue Fei and Yue Yun 20161002.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "慰霊碑・記念碑が主体。温泉地の風景や景観ではなく、施設内の記念物が被写体。"
+    },
+    {
+     "title": "File:Yue Fei Mother Tattooing Yue Fei statues back 2016 January.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "其他",
+     "reason": "人物像（彫像）が主役。嶽温泉の風景・景観として適切でない。"
+    },
+    {
+     "title": "File:Tomb of Yue Fei, 1907.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "古い白黒写真で極端に暗く、温泉地の特徴が不明瞭。紹介画像の見映えとしては不適切。"
+    },
+    {
+     "title": "File:20100326 Tombs of Yue Fei and Yue Yun.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "墓碑・慰霊碑が主役の写真。温泉地の紹介ページのヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Tomb of Yue Fei (Stone Statue).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "嶽温泉の特定手がかりがない古い建築物の写真。場所が特定できず、極端に色褪せている。"
+    }
+   ]
+  },
+  {
+   "id": "niche_宮城_5",
+   "name": "登米の蔵の町並み",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Uniform police office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "博物館・資料館の屋内展示です。登米の蔵の町並みの紹介画像として不適切。"
+    },
+    {
+     "title": "File:Prison Police Office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "土蔵の内部展示・資料が主体。蔵の町並みの風景ではなく、屋内の看板・説明文・歴史資料が占める。"
+    }
+   ]
+  },
+  {
+   "id": "niche_栃木_4",
+   "name": "馬頭温泉郷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_新潟_3",
+   "name": "越後松代の棚田と旧街道",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_1",
+   "name": "道志村渓谷",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:道志の湯 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場・施設入口が中心で、渓谷の景観が見えない。紹介画像には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_静岡_3",
+   "name": "石部棚田",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_4",
+   "name": "五個荘近江商人の館",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_大阪_3",
+   "name": "山崎の古い町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_和歌山_8",
+   "name": "印南くじらの浜",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山口_2",
+   "name": "錦川峡谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

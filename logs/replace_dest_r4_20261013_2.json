@@ -1,0 +1,214 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_天塩温泉",
+   "name": "天塩温泉",
+   "file": "File:Asahi spa roten2007.jpg",
+   "credit": {
+    "author": "Soica2001 (talk)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Asahi_spa_roten2007.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "天塩温泉の野湯施設を捉えた写真。湯気、露天風呂の構造、自然環境が特徴的で判定可能。明るく風情がある。"
+    }
+   },
+   "pixelDiffAfter": 0.3,
+   "replaced": null
+  },
+  {
+   "id": "niche_鳥取_2",
+   "name": "若桜町商店街",
+   "file": "File:Wakasa kyodobunka-no-sato06n4592.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Wakasa_kyodobunka-no-sato06n4592.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "若桜鉄道旧駅舎の特徴的な日本家屋建築が明るく見映えよく撮影されており、商店街の主要な見どころとして適切です。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_樹海温泉",
+   "name": "樹海温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_鹿部温泉",
+   "name": "鹿部温泉",
+   "current": null,
+   "candidates": 5,
+   "tried": [
+    {
+     "title": "File:Shikabe Onsen, Yoshinoyu 03.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "温泉地の料理ですが、屋内の食事風景で風景・景観がありません。ヒーロー画像に不適切です。"
+    },
+    {
+     "title": "File:Shikabe Onsen, Yoshinoyu 01.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉の源泉や湯池の一部と思われますが、屋内または施設内の濁った湯の様子で、景観として見映えが悪く、紹介画像に不適切です。"
+    },
+    {
+     "title": "File:Shikabe Onsen, Yoshinoyu 02.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "温泉浴場の屋内撮影。暗く、清掃用具が写っており、紹介画像には不適切。"
+    },
+    {
+     "title": "File:Hakodate bus H022F 0421.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "駅前のバスと駅舎が写っており、交通施設が主体。温泉地の風景・景観として不適切。"
+    },
+    {
+     "title": "File:Hakodate bus H200F 0126rear.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "鹿部温泉の観光バスですが、バス車両が主役で温泉地の風景・景観が不足。ヒーロー画像には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_馬門温泉",
+   "name": "馬門温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_花の拠点「はなふる」",
+   "name": "花の拠点 はなふる",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_秋田_5",
+   "name": "太平湖と奥ノ松渓谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_群馬_1",
+   "name": "佐野の門前町",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:A picture of Mt.Fuji 白石山房即目富士図.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "浮世絵風の古い絵画作品で、実写ではなく、また佐野門前町や唐沢山神社と特定できる手がかりがない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_新潟_6",
+   "name": "加茂の古い酒蔵群と職人街",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_2",
+   "name": "南部町・湯船温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Spa Yokomuki, Takigawayaya, Inawashiro town Fukushima.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "温泉の内湯撮影で屋内施設。ヒーロー画像として適さず、その場所の特定手がかりがない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_愛知_4",
+   "name": "内子町の三間町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_6",
+   "name": "賤ヶ岳と湖北山里",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_兵庫_2",
+   "name": "湯村温泉・荒湯地獄",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_徳島_2",
+   "name": "勝浦川峡谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_熊本_1",
+   "name": "五木村の清流と棚田",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_宮崎_3",
+   "name": "みやざき地鶏の里",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

@@ -1,992 +1,350 @@
 [
  {
-  "id": "kirishima",
-  "name": "霧島",
-  "file": "File:Kirishima-Jingu Front.jpg",
+  "id": "ebino",
+  "name": "えびの",
+  "file": "File:Ebino Plateau02s3s4592.jpg",
   "km": null
  },
  {
-  "id": "sakurajima-onsen",
-  "name": "古里温泉",
-  "file": "File:Furusato Hotsprings and Route 224 For Tarumizu View From Furusato Park.jpg",
+  "id": "kumano-kodo",
+  "name": "熊野古道",
+  "file": "File:Tanabe Kumano Hongu-Taisha Honden Hongu 5.jpg",
   "km": null
  },
  {
-  "id": "kyoto",
-  "name": "京都",
-  "file": "File:Sunlight through clouds and view of Ginkaku-ji Temple from above, Kyoto, Japan.jpg",
-  "km": 3.3
- },
- {
-  "id": "ishigaki",
-  "name": "石垣島",
-  "file": "File:Kabira Bay (52117120293).jpg",
-  "km": 13
- },
- {
-  "id": "amakusa",
-  "name": "天草",
-  "file": "File:Tenmon Bridge ac (1).jpg",
+  "id": "hira",
+  "name": "比良山系",
+  "file": "File:Hira Mountains and Uminoko.jpg",
   "km": null
  },
  {
-  "id": "sasebo",
-  "name": "佐世保",
-  "file": "File:Kujukushima islands (49657979023).jpg",
-  "km": 3.7
+  "id": "gen_北海_羅臼温泉",
+  "name": "羅臼温泉",
+  "file": "File:熊の湯 - panoramio (1).jpg",
+  "km": 0.3
  },
  {
-  "id": "takehara",
-  "name": "竹原",
-  "file": "File:町並み保存地区 - panoramio.jpg",
-  "km": 0.7
- },
- {
-  "id": "hida-furukawa",
-  "name": "飛騨古川",
-  "file": "File:Hida Furukawa 20200620.jpg",
+  "id": "gen_群馬_奥嬬恋温泉",
+  "name": "奥嬬恋温泉",
+  "file": "File:Oniosidasi1210.JPG",
   "km": null
  },
  {
-  "id": "yonezawa",
-  "name": "米沢",
-  "file": "File:Uesugi Shrine 20250713a.jpg",
-  "km": 1.1
+  "id": "gen_青森_十和田湖畔温泉",
+  "name": "十和田湖畔温泉",
+  "file": "File:Lake Towada , 十和田湖 - panoramio (1).jpg",
+  "km": 0.3
  },
  {
-  "id": "saijo",
-  "name": "西条",
-  "file": "File:Saijo City Saijo Library.jpg",
+  "id": "mihara",
+  "name": "三原",
+  "file": "File:三原城.jpg",
   "km": null
  },
  {
-  "id": "narai-juku",
-  "name": "奈良井宿",
-  "file": "File:Narai-juku 6-Jun-2020.jpg",
-  "km": 7
- },
- {
-  "id": "nago",
-  "name": "名護",
-  "file": "File:View from Nangusuku Park 202508.jpg",
+  "id": "noto-kiriko",
+  "name": "奥能登",
+  "file": "File:Shiroyone Senmaida ac (3).jpg",
   "km": null
  },
  {
-  "id": "niijima",
-  "name": "新島",
-  "file": "File:Nii-jima zenkei.JPG",
+  "id": "niche_秋田_4",
+  "name": "小坂鉄道遺産と銀山跡",
+  "file": "File:Korakukan 2025-07 ac (4).jpg",
   "km": null
  },
  {
-  "id": "omagari",
-  "name": "大曲",
-  "file": "File:大会提供花火（2014）.JPG",
+  "id": "niche_茨城_1",
+  "name": "真壁の古い町並み",
+  "file": "File:Yakumo-jinja (Edogawa, Edogawa) 03.jpg",
   "km": null
  },
  {
-  "id": "uda-nara",
-  "name": "宇陀",
-  "file": "File:Murouji, hondou-3.jpg",
-  "km": null
- },
- {
-  "id": "manazuru",
-  "name": "真鶴",
-  "file": "File:真鶴漁港1.jpg",
-  "km": 1.2
- },
- {
-  "id": "ohara",
-  "name": "大原",
-  "file": "File:Sanzen-in 三千院 (KYOTO-JAPAN) (4950794717).jpg",
-  "km": null
- },
- {
-  "id": "dazaifu-2",
-  "name": "太宰府",
-  "file": "File:Dazaifu Tenman-gū 20230225 15.jpg",
-  "km": null
- },
- {
-  "id": "niche_長崎_4",
-  "name": "権現山展望台",
-  "file": "File:権現山展望台から軍艦島 - panoramio.jpg",
-  "km": 35.2
- },
- {
-  "id": "gen_北海_札幌八幡宮",
-  "name": "札幌八幡宮",
-  "file": "File:Nishioka Hachiman-gū in Spring.JPG",
-  "km": null
- },
- {
-  "id": "kurobe",
-  "name": "黒部",
-  "file": "File:黒部平 - panoramio (5).jpg",
-  "km": 37.7
- },
- {
-  "id": "tamatsukuri-onsen",
-  "name": "玉造温泉",
-  "file": "File:140427 Tamatsukuri Onsen Matsue Shimane pref Japan04bs3.jpg",
+  "id": "niche_神奈川_4",
+  "name": "大磯照ヶ崎海岸",
+  "file": "File:Terugasaki Coast - Oiso Kanagawa 2026 March 14 various 2.jpg",
   "km": 0.4
  },
  {
-  "id": "yamaga",
-  "name": "山鹿",
-  "file": "File:Yamaga-shuku 20180604 01.jpg",
+  "id": "niche_大阪_2",
+  "name": "太子町の古刹群",
+  "file": "File:Eifukuji Kita Kofun, funkyu.jpg",
+  "km": null
+ },
+ {
+  "id": "niche_奈良_4",
+  "name": "上北山村",
+  "file": "File:Ryusenji Temple, Kamikitayama Village, Nara Prefecture.jpg",
+  "km": 1.7
+ },
+ {
+  "id": "kashima",
+  "name": "鹿嶋",
+  "file": "File:Kashima-jingu karidono.JPG",
+  "km": null
+ },
+ {
+  "id": "sagae",
+  "name": "寒河江",
+  "file": "File:Lake Gassan 20250713.jpg",
+  "km": 21.5
+ },
+ {
+  "id": "gen_群馬_片品温泉",
+  "name": "片品温泉",
+  "file": "File:尾瀬ヶ原からの景鶴山.jpg",
+  "km": null
+ },
+ {
+  "id": "iga-ueno",
+  "name": "伊賀上野",
+  "file": "File:140412-1651 Ueno Park, Iga - panoramio.jpg",
+  "km": 0.5
+ },
+ {
+  "id": "akiyoshido",
+  "name": "秋芳洞",
+  "file": "File:Akiyoshidai Quasi-National Park - Wikivoyage Banner.jpg",
+  "km": null
+ },
+ {
+  "id": "gen_北海_浦臼神社",
+  "name": "浦臼神社",
+  "file": "File:Urausu Shrine.jpg",
+  "km": null
+ },
+ {
+  "id": "niche_山梨_4",
+  "name": "猿橋宿場町",
+  "file": "File:猿橋 - panoramio (4).jpg",
+  "km": 0
+ },
+ {
+  "id": "nabari",
+  "name": "名張",
+  "file": "File:Akame 48 Waterfalls, Nunobiki Falls.jpg",
   "km": null
  },
  {
   "id": "otaru",
   "name": "小樽",
-  "file": "File:小樽運河 - panoramio (7).jpg",
-  "km": 1.2
- },
- {
-  "id": "hiraizumi",
-  "name": "平泉",
-  "file": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (03).jpg",
-  "km": null
- },
- {
-  "id": "akita",
-  "name": "秋田",
-  "file": "File:Akita kanto matsuri xl.jpg",
-  "km": 0.2
- },
- {
-  "id": "tsumago",
-  "name": "妻籠",
-  "file": "File:Tsumago-juku(post town) , 妻籠宿 本陣 - panoramio.jpg",
-  "km": 3
- },
- {
-  "id": "izu-kogen",
-  "name": "伊豆高原",
-  "file": "File:大室山八ヶ岳地蔵尊.jpg",
-  "km": null
- },
- {
-  "id": "choshi",
-  "name": "銚子",
-  "file": "File:犬吠埼灯台 - panoramio (1).jpg",
-  "km": 4.9
- },
- {
-  "id": "kikuchi",
-  "name": "菊池",
-  "file": "File:Kikuchi Gorge Hirogawara 20240518.jpg",
-  "km": null
- },
- {
-  "id": "myoko-kogen",
-  "name": "妙高高原",
-  "file": "File:Mout Myoko from Imori-ike (7695777960).jpg",
-  "km": 7.1
- },
- {
-  "id": "kujukuri",
-  "name": "九十九里",
-  "file": "File:蓮沼海浜公園付近（九十九里浜、山武市） - panoramio.jpg",
-  "km": 2.4
- },
- {
-  "id": "ryusendo",
-  "name": "龍泉洞",
-  "file": "File:龍泉洞の前の谷川 - panoramio.jpg",
-  "km": 0.1
- },
- {
-  "id": "nagi",
-  "name": "奈義",
-  "file": "File:Nagi MOCA.jpg",
-  "km": null
- },
- {
-  "id": "takasaki",
-  "name": "高崎",
-  "file": "File:Takasaki Kannon 6.jpg",
-  "km": 2.4
- },
- {
-  "id": "kurikoma",
-  "name": "栗駒",
-  "file": "File:Mount Kurikoma panorama (53344291491).jpg",
-  "km": 1.3
- },
- {
-  "id": "kakeroma-island",
-  "name": "加計呂麻島",
-  "file": "File:Oochon jinja Torii.jpg",
-  "km": null
- },
- {
-  "id": "niihama",
-  "name": "新居浜",
-  "file": "File:Niihama Country Club, Niihama Ehime Aerial photograph.2010.jpg",
-  "km": null
- },
- {
-  "id": "ashinoko",
-  "name": "芦ノ湖",
-  "file": "File:260504 Moto-Hakone Hakone Japan01s3.jpg",
-  "km": null
- },
- {
-  "id": "aomori-hirosaki-2",
-  "name": "弘前城",
-  "file": "File:Tsuru-no-matsu the large pine tree in Hirosaki Castle.jpg",
-  "km": 0.1
- },
- {
-  "id": "gen_北海_水無海浜温泉",
-  "name": "水無海浜温泉",
-  "file": "File:Mizunashi Kaihin onsen (hot spring bath), Hakodate, Japan.jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_養老牛温泉",
-  "name": "養老牛温泉",
-  "file": "File:開陽台からの武佐岳.jpg",
-  "km": null
- },
- {
-  "id": "chiba-ko",
-  "name": "幸手",
-  "file": "File:権現堂桜堤 01.jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_ウトロ温泉",
-  "name": "ウトロ温泉",
-  "file": "File:140828 Utoro Port Shari Hokkaido Japan05bs5.jpg",
-  "km": 1.9
- },
- {
-  "id": "karuizawa",
-  "name": "軽井沢",
-  "file": "File:Old Karuizawa ginza06n3872.jpg",
-  "km": null
- },
- {
-  "id": "niche_徳島_4",
-  "name": "藍住町",
-  "file": "File:藍住町総合文化ホール 徳島県 Jun 1, 2024.jpg",
-  "km": null
- },
- {
-  "id": "shodoshima",
-  "name": "小豆島",
-  "file": "File:201211Kankakei Shodoshima Kagawa pref Japan02s3.jpg",
-  "km": 12.4
- },
- {
-  "id": "aizu",
-  "name": "会津若松",
-  "file": "File:Aizuwakamatsu Castle ac (2).jpg",
-  "km": null
- },
- {
-  "id": "oboke",
-  "name": "大歩危",
-  "file": "File:Oboke gorge pleasure boat 2106 August 13.B.jpg",
-  "km": 12.4
- },
- {
-  "id": "hikone",
-  "name": "彦根",
-  "file": "File:玄宮園 - panoramio (1).jpg",
-  "km": 0.3
- },
- {
-  "id": "itoshima",
-  "name": "糸島",
-  "file": "File:糸島二見ヶ浦と小呂島.jpg",
-  "km": null
- },
- {
-  "id": "ito",
-  "name": "伊東",
-  "file": "File:231007 Matsukawa Promenade Path Ito Shizuoka pref Japan05s3.jpg",
-  "km": 0.7
- },
- {
-  "id": "zamami-island",
-  "name": "座間味島",
-  "file": "File:Zamami Island, Japan (Panorama).jpg",
-  "km": 1.9
- },
- {
-  "id": "fushimi",
-  "name": "伏見",
-  "file": "File:A temple in Kyoto (52407317930).jpg",
-  "km": null
- },
- {
-  "id": "tateshina",
-  "name": "蓼科",
-  "file": "File:Drone panorama of Shirakaba Lake, Nagano Prefecture.jpg",
-  "km": 6.5
- },
- {
-  "id": "ichinoseki",
-  "name": "一関",
-  "file": "File:Stream 流れ(ながれ) (4622566442).jpg",
-  "km": 6.7
- },
- {
-  "id": "odawara",
-  "name": "小田原",
-  "file": "File:Odawara Castle - 2022 May 2 360 panorama various 15 15 00 405000.jpeg",
-  "km": null
- },
- {
-  "id": "agematsu",
-  "name": "上松",
-  "file": "File:寝覚の床 (51428533802).jpg",
-  "km": null
- },
- {
-  "id": "teuri-island",
-  "name": "天売島",
-  "file": "File:Teuri Island Aerial photograph.1977.jpg",
-  "km": null
- },
- {
-  "id": "nagi-okayama",
-  "name": "奈義町",
-  "file": "File:Japan National Route 53 -05.jpg",
-  "km": 7.1
- },
- {
-  "id": "oze-2",
-  "name": "尾瀬ヶ原",
-  "file": "File:Mt.Hiuchigatake 10.jpg",
-  "km": null
- },
- {
-  "id": "matsue",
-  "name": "松江",
-  "file": "File:Matsue Castle Keep Tower 1985 -1.jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_多和平",
-  "name": "多和平",
-  "file": "File:TawadairaS.JPG",
-  "km": 0
- },
- {
-  "id": "gen_北海_神威脇温泉",
-  "name": "神威脇温泉",
-  "file": "File:鍋釣岩 - panoramio.jpg",
-  "km": 8.8
- },
- {
-  "id": "gen_茨城_大杉神社",
-  "name": "大杉神社",
-  "file": "File:大杉神社虚空蔵尊 - panoramio.jpg",
-  "km": 112.5
- },
- {
-  "id": "chiba-zoo",
-  "name": "千葉動物公園",
-  "file": "File:Futa 20261004 4.jpg",
-  "km": null
- },
- {
-  "id": "gero-onsen",
-  "name": "下呂温泉",
-  "file": "File:Hida River in Gero city ac.jpg",
-  "km": null
- },
- {
-  "id": "kinosaki-onsen",
-  "name": "城崎温泉",
-  "file": "File:161030 Kinosaki Onsen Toyooka Hyogo pref Japan09s3.jpg",
-  "km": 0.6
- },
- {
-  "id": "matsumoto-kaido",
-  "name": "塩尻",
-  "file": "File:Shiojiri-juku Honjin.jpg",
+  "file": "File:220720 Wing Bay Otaru Otaru Hokkaido Japan01s3.jpg",
   "km": 2.3
  },
  {
-  "id": "sakushima",
-  "name": "佐久島",
-  "file": "File:Saku Island from Mount Amagoi.jpg",
+  "id": "niche_宮崎_7",
+  "name": "湯の元温泉",
+  "file": "File:王子神社の鳥居 都城市山之口町花木.jpg",
+  "km": 65.1
+ },
+ {
+  "id": "gen_北海_滝の湯温泉",
+  "name": "滝の湯温泉",
+  "file": "File:140828 Kamuiwakka Falls and Mount Io Shiretoko Hokkaido Japan02sbs13.jpg",
+  "km": 143.9
+ },
+ {
+  "id": "gen_北海_支笏湖いとう温泉",
+  "name": "支笏湖温泉",
+  "file": "File:Lake Shikotsu, Hokkaido, Japan by Planet Labs.jpg",
   "km": null
  },
  {
-  "id": "taro",
-  "name": "田老",
-  "file": "File:防潮堤跡（宮古市田老野原） - panoramio.jpg",
-  "km": 0.8
+  "id": "saga",
+  "name": "佐賀",
+  "file": "File:Gozanoma and Kan'nindokoro of Saga Castle outside.jpg",
+  "km": 0.6
  },
  {
-  "id": "yunokami-onsen",
-  "name": "湯野上温泉",
-  "file": "File:湯野上温泉駅 - panoramio (1).jpg",
-  "km": 15.4
- },
- {
-  "id": "hakone",
-  "name": "箱根",
-  "file": "File:161223 Lake Ashi Hakone Japan02n.jpg",
-  "km": 10.2
- },
- {
-  "id": "uwajima",
-  "name": "宇和島",
-  "file": "File:Uwajima Castle, honmaru ishigaki-2.jpg",
+  "id": "tajimi",
+  "name": "多治見",
+  "file": "File:Mosaic tile works ac (5).jpg",
   "km": null
  },
  {
-  "id": "yuda-onsen",
-  "name": "湯田温泉",
-  "file": "File:140720 Ruriko-ji Yamaguchi Yamaguchi pref Japan04s3.jpg",
-  "km": 1.7
- },
- {
-  "id": "bessho-onsen",
-  "name": "別所温泉",
-  "file": "File:260828 Kitamuki-kannon Ueda Nagano pref Japan08s3.jpg",
-  "km": null
- },
- {
-  "id": "tsuruga",
-  "name": "敦賀",
-  "file": "File:Tsuruga Kehi Jingu ac (2).jpg",
-  "km": null
- },
- {
-  "id": "asuka",
-  "name": "飛鳥",
-  "file": "File:Ishibutai Kofun, 3D-B1.jpg",
-  "km": null
- },
- {
-  "id": "ushimado",
-  "name": "牛窓",
-  "file": "File:Ushimado -01.jpg",
-  "km": 3.6
- },
- {
-  "id": "norikura",
-  "name": "乗鞍",
-  "file": "File:Mount Norikura Volcano Panorama - Flickr - 雷太.jpg",
+  "id": "niche_福井_2",
+  "name": "白山平泉寺門前町",
+  "file": "File:Heisenji, Hakusan - 05 - 2016-04-26.jpg",
   "km": 0.1
  },
  {
-  "id": "mishima",
-  "name": "三島",
-  "file": "File:Mishima-taisha soumon.JPG",
+  "id": "niche_島根_6",
+  "name": "黒淵の滝",
+  "file": "File:140426 Yuushien Matsue Shimane pref Japan02s3.jpg",
+  "km": 151.4
+ },
+ {
+  "id": "niche_高知_6",
+  "name": "日高村",
+  "file": "File:仁淀川の柳瀬橋の空撮写真.jpg",
   "km": null
  },
  {
-  "id": "sukumo",
-  "name": "宿毛",
-  "file": "File:151229 Sukumo Kochi pref Japan01s.jpg",
-  "km": 0.3
+  "id": "kagoshima-city",
+  "name": "鹿児島",
+  "file": "File:Kagoshima neighborhood, Kagoshima Prefecture; March 2019 (07).jpg",
+  "km": null
  },
  {
-  "id": "kure",
-  "name": "呉",
-  "file": "File:Kure 20200102100619 (50277888538).jpg",
-  "km": 1.3
+  "id": "hitoyoshi-city",
+  "name": "人吉・球磨",
+  "file": "File:Hitoyoshi City viewed from Hitoyoshi Castle-2.jpg",
+  "km": null
  },
  {
-  "id": "misaki-kochi",
-  "name": "三崎",
-  "file": "File:Cape Ashizuri - 足摺岬 - panoramio (8).jpg",
-  "km": 7.3
+  "id": "mimasaka",
+  "name": "美作",
+  "file": "File:Mimasaka Kokubunji, sanmon.jpg",
+  "km": null
  },
  {
-  "id": "imari",
-  "name": "伊万里",
-  "file": "File:Centre of Imari city from Joyama Park.jpg",
-  "km": 0.6
+  "id": "gen_北海_天塩温泉",
+  "name": "天塩温泉",
+  "file": "File:Asahi spa roten2007.jpg",
+  "km": null
  },
  {
-  "id": "niche_福島_2",
-  "name": "柳津虚空蔵尊温泉",
-  "file": "File:只見川 - panoramio (1).jpg",
+  "id": "yura-wakayama",
+  "name": "由良",
+  "file": "File:Yura bay.jpg",
+  "km": null
+ },
+ {
+  "id": "fukushima-aizu-2",
+  "name": "塔のへつり",
+  "file": "File:View 景色(けしき).jpg",
+  "km": 2.7
+ },
+ {
+  "id": "niche_宮城_1",
+  "name": "女川漁港と海産物市場",
+  "file": "File:Hama Terrace in Onagawa, Miyagi, Japan.jpg",
+  "km": 0.2
+ },
+ {
+  "id": "niche_広島_6",
+  "name": "世羅ラベンダー畑",
+  "file": "File:夏のラベンダー畑P6280659.JPG",
+  "km": null
+ },
+ {
+  "id": "niche_佐賀_1",
+  "name": "白石温泉",
+  "file": "File:Tara mudflat coast of Ariake Sea.jpg",
+  "km": 17.3
+ },
+ {
+  "id": "niche_大分_2",
+  "name": "青の洞門と耶馬渓",
+  "file": "File:North entrance of Aonodomon Tunnel 2.jpg",
   "km": 0
  },
  {
-  "id": "niche_福岡_3",
-  "name": "嘉穂劇場",
-  "file": "File:Kaho Gekijo ac (2).jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_オソウシ温泉",
-  "name": "オソウシ温泉",
-  "file": "File:オソウシ温泉（Open-air bath） - panoramio.jpg",
-  "km": 0
- },
- {
-  "id": "gen_北海_天に続く道",
-  "name": "天に続く道",
-  "file": "File:Shari road01.JPG",
-  "km": null
- },
- {
-  "id": "chikugogawa",
-  "name": "原鶴温泉",
-  "file": "File:View of Yamada Weir on Chikugogawa River.jpg",
-  "km": 2.4
- },
- {
-  "id": "goshogawara",
-  "name": "五所川原",
-  "file": "File:Goshogawara City Government Office 20191124.jpg",
-  "km": 0.7
- },
- {
-  "id": "kiyosato",
-  "name": "清里",
-  "file": "File:150719 Seisenryo Hokuto Yamanashi pref Japan01s3.jpg",
-  "km": 1.5
- },
- {
-  "id": "miyanoshita",
-  "name": "宮ノ下",
-  "file": "File:Fujiya Hotel - Aug 28 2020 - various 12 51 58 108000.jpeg",
-  "km": 0.7
- },
- {
-  "id": "shigaraki",
-  "name": "信楽",
-  "file": "File:信楽 陶芸の森 - panoramio.jpg",
-  "km": 0.9
- },
- {
-  "id": "tokunoshima",
-  "name": "徳之島",
-  "file": "File:ムシロ瀬を空から - panoramio.jpg",
-  "km": 8.9
- },
- {
-  "id": "yunoura",
-  "name": "湯ノ浦温泉",
-  "file": "File:R196-2020-041.jpg",
-  "km": 0.6
- },
- {
-  "id": "izu-oshima",
-  "name": "伊豆大島",
-  "file": "File:Mount Mihara on Izu Oshima in Japan - 2016-03-26 A.jpg",
-  "km": 2.1
- },
- {
-  "id": "shiretoko",
-  "name": "知床",
-  "file": "File:140829 Niko of Shiretoko Goko Lakes Hokkaido Japan07s3.jpg",
-  "km": 10.3
- },
- {
-  "id": "ureshino-onsen",
-  "name": "嬉野温泉",
-  "file": "File:Shiodariver1.jpg",
-  "km": null
- },
- {
-  "id": "minakami-onsen",
-  "name": "水上温泉",
-  "file": "File:Mount Tanigawa hiking (51984153239).jpg",
-  "km": 9.9
- },
- {
-  "id": "rishiri-island",
-  "name": "利尻島",
-  "file": "File:姫沼からの利尻山.jpg",
-  "km": null
- },
- {
-  "id": "iwakuni",
-  "name": "岩国",
-  "file": "File:Iwakuni, ponte kintai-kyo, 03,0.jpg",
-  "km": null
- },
- {
-  "id": "esashi-hokkaido",
-  "name": "江差",
-  "file": "File:Former Nakamura's house.jpg",
-  "km": null
- },
- {
-  "id": "marugame",
-  "name": "丸亀",
-  "file": "File:Nakatsu-bansho-en Marugame Kagawa pref01n4350.jpg",
-  "km": 2.6
- },
- {
-  "id": "tokoname",
-  "name": "常滑",
-  "file": "File:Tokoname shochu bottles ac (3).jpg",
-  "km": null
- },
- {
-  "id": "dazaifu",
-  "name": "太宰府",
-  "file": "File:Dazaifu Tenman-gū 20230225 15.jpg",
-  "km": null
- },
- {
-  "id": "asakura",
-  "name": "朝倉",
-  "file": "File:Kuro mon gate Chikuzen Akizuki Castle.jpg",
-  "km": 5.2
- },
- {
-  "id": "kurume",
-  "name": "久留米",
-  "file": "File:Kurume Suitengu ac (9).jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_フレペの滝",
-  "name": "フレペの滝",
-  "file": "File:140829 Furepe Falls Shiretoko Hokkaido Japan05s3.jpg",
-  "km": 0.6
- },
- {
-  "id": "hakatajima",
-  "name": "伯方島",
-  "file": "File:伯方ビーチ.jpg",
-  "km": null
- },
- {
-  "id": "zuiryuji",
-  "name": "高岡",
-  "file": "File:瑞龍寺 - panoramio (2).jpg",
-  "km": 2.6
- },
- {
-  "id": "niche_茨城_2",
-  "name": "磯原漁港",
-  "file": "File:Futatsushima Island 02.jpg",
-  "km": null
- },
- {
-  "id": "niche_福岡_4",
-  "name": "三井三池炭鉱",
-  "file": "File:View of Manda Pit of Miike Coal Mine near Manda Coal Mine Information Center.jpg",
-  "km": 5.2
- },
- {
-  "id": "gen_北海_六花の森",
-  "name": "六花の森",
-  "file": "File:131013 Rokka-no-Mori Nakasatsunai Hokkaido Japan16bs.jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_太田山神社",
-  "name": "太田山神社",
-  "file": "File:Ota shrine.JPG",
-  "km": 0
- },
- {
-  "id": "gen_北海_納沙布岬",
-  "name": "納沙布岬",
-  "file": "File:根室市納沙布岬より国後島羅臼山を望む.jpg",
-  "km": null
- },
- {
-  "id": "gen_青森_黄金崎不老不死温泉",
-  "name": "黄金崎不老不死温泉",
-  "file": "File:Furofushi-onsen in the evening.jpg",
-  "km": null
- },
- {
-  "id": "fukaya",
-  "name": "深谷",
-  "file": "File:深谷駅 - panoramio (2).jpg",
-  "km": 0.4
- },
- {
-  "id": "hakone-2",
-  "name": "箱根湯本",
-  "file": "File:Soun-ji 20260301 04.jpg",
-  "km": 0.3
- },
- {
-  "id": "inunakiyama",
-  "name": "犬鳴山温泉",
-  "file": "File:七宝瀧寺観音堂 泉佐野市 2013.11.23 - panoramio.jpg",
-  "km": 0.9
- },
- {
-  "id": "kobe",
-  "name": "神戸",
-  "file": "File:150111 Nakatottei Central Terminal Kobe Port Japan02s3.jpg",
-  "km": 1
- },
- {
-  "id": "mojiko",
-  "name": "門司港",
-  "file": "File:140721 Mojiko Retro Kitakyushu Japan01s3.jpg",
-  "km": 1.1
- },
- {
-  "id": "shinjuku",
-  "name": "新宿",
-  "file": "File:2018-09-23 trees in Shinjuku Gyo-en.jpg",
-  "km": null
- },
- {
-  "id": "shirahama-o",
-  "name": "白浜",
-  "file": "File:131221 Shirarahama Beach Shirahama Wakayama pref Japan06s3bs.jpg",
+  "id": "niche_長野_2",
+  "name": "馬籠宿",
+  "file": "File:220727 Nakasendo Magome-juku Nakatsugawa Gifu pref Japan04s3.jpg",
   "km": 1.2
  },
  {
-  "id": "ine",
-  "name": "伊根",
-  "file": "File:Panoramic view of Ine Bay 001.jpg",
-  "km": null
- },
- {
-  "id": "obuse",
-  "name": "小布施",
-  "file": "File:Obuse buildings ac (2).jpg",
-  "km": null
- },
- {
-  "id": "abashiri",
-  "name": "網走",
-  "file": "File:130714 Lake Abashiri Hokkaido Japan01bs5.jpg",
-  "km": null
- },
- {
-  "id": "kashiwajima",
-  "name": "柏島",
-  "file": "File:Kashiwajima (Otsuki), zenkei-1.jpg",
-  "km": null
- },
- {
-  "id": "chichibu",
-  "name": "秩父",
-  "file": "File:Zuishinmon Gate, Mitsumine Shrine, Chichibu - Sep 23, 2022.jpg",
-  "km": null
- },
- {
-  "id": "teshima",
-  "name": "豊島",
-  "file": "File:Teshima - 10498157796.jpg",
-  "km": 2.6
- },
- {
-  "id": "kashima",
-  "name": "鹿嶋",
-  "file": "File:Kashima-jingu shasou.JPG",
-  "km": null
- },
- {
-  "id": "monbetsu",
-  "name": "紋別",
-  "file": "File:ガリンコ号III IMERU 修理中.jpg",
-  "km": null
- },
- {
-  "id": "nakatosa",
-  "name": "中土佐",
-  "file": "File:Taishomachi Marcket ac (2).jpg",
-  "km": null
- },
- {
-  "id": "gen_栃木_宇都宮二荒山神社",
-  "name": "宇都宮二荒山神社",
-  "file": "File:Utsunomiya Futaarayama Shrine - Jul 11, 2023.jpg",
+  "id": "dazaifu-2",
+  "name": "太宰府",
+  "file": "File:Dazaifu tenmangu shrine , 太宰府天満宮 - panoramio (5).jpg",
   "km": 0.1
  },
  {
-  "id": "nagatoro",
-  "name": "長瀞",
-  "file": "File:Nagatoro Keikoku, iwa-datami.jpg",
+  "id": "gen_北海_朝里川温泉",
+  "name": "朝里川温泉",
+  "file": "File:130824 Asarigawa Onsen Otaru Hokkaido Japan03s3.jpg",
   "km": null
  },
  {
-  "id": "higashi-chaya",
-  "name": "ひがし茶屋街",
-  "file": "File:ひがし茶屋街 01.jpg",
-  "km": 0.1
- },
- {
-  "id": "gen_北海_北海道",
-  "name": "北海道",
-  "file": "File:Kushiro Marsh Wetland Hokkaido Panorama 2014.png",
+  "id": "tsuruoka-kinzan",
+  "name": "金山町",
+  "file": "File:Street in Kaneyama Town, Yamagata.jpg",
   "km": null
  },
  {
-  "id": "gen_北海_菅野温泉",
-  "name": "菅野温泉",
-  "file": "File:然別湖 - panoramio (1).jpg",
-  "km": 7.1
- },
- {
-  "id": "fukuoka",
-  "name": "福岡",
-  "file": "File:Canalcityhakata2019.jpg",
+  "id": "fuchu-hiroshima",
+  "name": "府中",
+  "file": "File:喫茶じょうれこ (52908907710).jpg",
   "km": null
  },
  {
-  "id": "hakushu",
-  "name": "白州",
-  "file": "File:Yamanashi Ojiro keikoku xl.jpg",
-  "km": 2.6
- },
- {
-  "id": "isesaki",
-  "name": "伊勢崎",
-  "file": "File:Shidori-jinja (Isesaki) honden.JPG",
+  "id": "higashine",
+  "name": "東根",
+  "file": "File:Higashine Ookeyaki.JPG",
   "km": null
  },
  {
-  "id": "kumanokawa-onsen",
-  "name": "熊の川温泉",
-  "file": "File:Kumanokawa Onsen view.JPG",
-  "km": 0.3
- },
- {
-  "id": "nachikatsuura",
-  "name": "那智勝浦",
-  "file": "File:Kumano-Nachi Taisha (51928795142).jpg",
-  "km": 6.4
- },
- {
-  "id": "shitara",
-  "name": "設楽",
-  "file": "File:Mt.Tyausu Moss phlox.jpg",
+  "id": "niche_宮城_3",
+  "name": "七ヶ宿町のダム湖",
+  "file": "File:ShichikashukuDam1.JPG",
   "km": null
  },
  {
-  "id": "utsukushigahara",
-  "name": "美ヶ原",
-  "file": "File:250426 At Utsukushigahara Nagano pref Japan01s3.jpg",
-  "km": 14.5
- },
- {
-  "id": "nanao",
-  "name": "七尾",
-  "file": "File:能登食祭市場からの風景 - panoramio.jpg",
-  "km": 0.5
- },
- {
-  "id": "funagoya-onsen",
-  "name": "船小屋温泉",
-  "file": "File:Funagoyaonsen Bridge.JPG",
+  "id": "niche_鳥取_2",
+  "name": "若桜町商店街",
+  "file": "File:Wakasa kyodobunka-no-sato06n4592.jpg",
   "km": null
  },
  {
-  "id": "tango-kyoto",
-  "name": "丹後",
-  "file": "File:日吉神社あるいは島児神社の鳥居（京都府京丹後市網野町浅茂川）.jpg",
+  "id": "niche_宮崎_2",
+  "name": "西米良村 仙人の湯",
+  "file": "File:幾稲鳴滝の湯.jpg",
   "km": null
  },
  {
-  "id": "ofunato",
-  "name": "大船渡",
-  "file": "File:Goishi-kaigan1.jpg",
+  "id": "niche_富山_6",
+  "name": "五箇山平村",
+  "file": "File:Gokayama traditional houses, Toyama Prefecture; September 2019 (10).jpg",
+  "km": 1.6
+ },
+ {
+  "id": "ichinoseki-hiraizumi2",
+  "name": "平泉",
+  "file": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (01).jpg",
   "km": null
  },
  {
-  "id": "onna",
-  "name": "恩納村",
-  "file": "File:Onna Okinawa Japan Cape-Manzamo-01.jpg",
+  "id": "gen_北海_網走湖畔温泉",
+  "name": "網走湖畔温泉",
+  "file": "File:130714 Lake Abashiri Hokkaido Japan02bs5.jpg",
   "km": null
  },
  {
-  "id": "hamada-shimane",
-  "name": "浜田",
-  "file": "File:Hamada Port Shimane 2014.JPG",
+  "id": "gen_栃木_湯西川温泉",
+  "name": "湯西川温泉",
+  "file": "File:Heikesyuraku2011-10-23.jpg",
   "km": null
  },
  {
-  "id": "yokosuka",
-  "name": "横須賀",
-  "file": "File:Saru-shima island Aerial photograph.jpg",
+  "id": "usuki",
+  "name": "臼杵",
+  "file": "File:臼杵三島神社.jpg",
   "km": null
  },
  {
-  "id": "uozu",
-  "name": "魚津",
-  "file": "File:Uozu-tateyama.jpg",
+  "id": "nakanoshima-oki",
+  "name": "中ノ島",
+  "file": "File:Camp site at Akyia-kaigan coast, Ama (Nakanoshima).jpg",
+  "km": 3.3
+ },
+ {
+  "id": "niche_千葉_2",
+  "name": "小湊鐵道沿線",
+  "file": "File:ゆるりと行く - panoramio.jpg",
+  "km": 13.3
+ },
+ {
+  "id": "niche_岐阜_8",
+  "name": "養老公園",
+  "file": "File:Taki Valley from Fudo Bridge 2023-05-03.jpg",
   "km": null
  },
  {
-  "id": "yubu-island",
-  "name": "由布島",
-  "file": "File:Yubu Island Okinawa Pref Japan17s3s4592.jpg",
-  "km": null
- },
- {
-  "id": "makurazaki",
-  "name": "枕崎",
-  "file": "File:Tategami-Rock6983.JPG",
-  "km": 3.6
- },
- {
-  "id": "ikeda-osaka",
-  "name": "池田",
-  "file": "File:池田泉州銀行池田営業部.JPG",
-  "km": null
- },
- {
-  "id": "iriomote",
-  "name": "西表島",
-  "file": "File:Iriomote jungle hiking (52116054047).jpg",
-  "km": 10.6
- },
- {
-  "id": "shishikui",
-  "name": "宍喰",
-  "file": "File:Port of Kannoura and Takegashima Island Aerial photograph.1975.jpg",
-  "km": null
- },
- {
-  "id": "otoyo",
-  "name": "大豊",
-  "file": "File:Sugi no Osugi, gaikan-3.jpg",
-  "km": null
- },
- {
-  "id": "niche_静岡_2",
-  "name": "須走温泉",
-  "file": "File:Fuji Sengen-jinja Shrine2.jpg",
-  "km": null
- },
- {
-  "id": "niche_宮崎_4",
-  "name": "渡川温泉",
-  "file": "File:Miyazaki Ikoma-plateau Hinamori-mountain.jpg",
-  "km": null
- },
- {
-  "id": "takarakawa-onsen",
-  "name": "宝川温泉",
-  "file": "File:Mount Tanigawa panorama (51984152224).jpg",
-  "km": 6.2
- },
- {
-  "id": "niche_愛知_2",
-  "name": "奥三河温泉郷",
-  "file": "File:Toei town Tsuta-no-fuchi waterfall ac (1).jpg",
-  "km": null
- },
- {
-  "id": "gen_北海_相泊温泉",
-  "name": "相泊温泉",
-  "file": "File:140828 Mount Rausu Shiretoko Hokkaido Japan01s3.jpg",
-  "km": 19.7
- },
- {
-  "id": "niche_鳥取_5",
-  "name": "小松温泉",
-  "file": "File:Sanbutsu-ji, nageiredou-1-2.jpg",
+  "id": "niche_奈良_3",
+  "name": "月ヶ瀬温泉と梅林の里",
+  "file": "File:Tsukigase 07.jpg",
   "km": null
  }
 ]

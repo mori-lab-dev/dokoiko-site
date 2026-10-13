@@ -1,0 +1,493 @@
+{
+ "adopted": [
+  {
+   "id": "ebino",
+   "name": "えびの",
+   "file": "File:Ebino Plateau02s3s4592.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Ebino_Plateau02s3s4592.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "えびの高原の象徴的な火山地形が明るく良く写っており、紹介画像として適切。火山と高原の特徴的な風景。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:Ebino Plateau01n4592.jpg"
+  },
+  {
+   "id": "kumano-kodo",
+   "name": "熊野古道",
+   "file": "File:Tanabe Kumano Hongu-Taisha Honden Hongu 5.jpg",
+   "credit": {
+    "author": "Zairon",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tanabe_Kumano_Hongu-Taisha_Honden_Hongu_5.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "熊野本宮大社の社殿の特徴的な建築様式が明るく鮮明に写っており、周囲の豊かな森林も熊野古道の風景を表現している。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:Inside the Kumano Hongu Taisha.jpg"
+  },
+  {
+   "id": "hira",
+   "name": "比良山系",
+   "file": "File:Hira Mountains and Uminoko.jpg",
+   "credit": {
+    "author": "Alpsdake",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hira_Mountains_and_Uminoko.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "比良山系の雪景色とびわ湖が明るく美しく写っている。山々の特徴的な形状で場所特定可能。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Biwako valley23n.jpg"
+  },
+  {
+   "id": "gen_北海_羅臼温泉",
+   "name": "羅臼温泉",
+   "file": "File:熊の湯 - panoramio (1).jpg",
+   "credit": {
+    "author": "Mamusi Taka",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%86%8A%E3%81%AE%E6%B9%AF_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "羅臼温泉の露天風呂が明るく撮影されており、温泉地の特徴が良く表現されている。周囲の自然環境も見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": null
+  },
+  {
+   "id": "gen_群馬_奥嬬恋温泉",
+   "name": "奥嬬恋温泉",
+   "file": "File:Oniosidasi1210.JPG",
+   "credit": {
+    "author": "osami",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Oniosidasi1210.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "浅間山と溶岩原の独特の地形が特徴的。奥嬬恋温泉の立地を表現する景観として適切。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": null
+  },
+  {
+   "id": "gen_青森_十和田湖畔温泉",
+   "name": "十和田湖畔温泉",
+   "file": "File:Lake Towada , 十和田湖 - panoramio (1).jpg",
+   "credit": {
+    "author": "z tanuki",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Towada_,_%E5%8D%81%E5%92%8C%E7%94%B0%E6%B9%96_-_panoramio_(1).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "十和田湖の湖畔風景が明るく美しく撮影されており、周囲の山々との構成が特徴的。紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": null
+  },
+  {
+   "id": "mihara",
+   "name": "三原",
+   "file": "File:三原城.jpg",
+   "credit": {
+    "author": "Carpkazu at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%8E%9F%E5%9F%8E.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "三原城跡の石垣と堀が明確に写っており、特徴的な城郭遺構として識別可能。景観も良好で紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 0.2,
+   "replaced": null
+  },
+  {
+   "id": "noto-kiriko",
+   "name": "奥能登",
+   "file": "File:Shiroyone Senmaida ac (3).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shiroyone_Senmaida_ac_(3).jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "白米千枚田の特徴的な段々畑と日本海が同時に写っており、この場所を特定できる。明るく見映えよい写真。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "海沿いの棚田と特徴的な松の木が白米千枚田の景観と一致し、見映えも良好"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": null
+  },
+  {
+   "id": "niche_秋田_4",
+   "name": "小坂鉄道遺産と銀山跡",
+   "file": "File:Korakukan 2025-07 ac (4).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Korakukan_2025-07_ac_(4).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "小坂鉱山資料館の外観が明るく鮮明に撮影されており、特徴的な建築様式と看板が確認できる。旅先紹介用ヒーロー画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": null
+  },
+  {
+   "id": "niche_茨城_1",
+   "name": "真壁の古い町並み",
+   "file": "File:Yakumo-jinja (Edogawa, Edogawa) 03.jpg",
+   "credit": {
+    "author": "Higa4",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Yakumo-jinja_(Edogawa,_Edogawa)_03.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "真壁の古い町並みを代表する伝統的な社寺建築が明るく鮮明に撮影されており、ヒーロー画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": null
+  },
+  {
+   "id": "niche_神奈川_4",
+   "name": "大磯照ヶ崎海岸",
+   "file": "File:Terugasaki Coast - Oiso Kanagawa 2026 March 14 various 2.jpg",
+   "credit": {
+    "author": "Nesnad",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Terugasaki_Coast_-_Oiso_Kanagawa_2026_March_14_various_2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "照ヶ崎海岸の海岸線と砂浜が明るく撮影されており、ヒーロー画像として適切。ただし特定の識別要素に欠ける。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "岩礁と海が広がる明るい海岸風景で見映え良いが大磯と断定できる特徴はない"
+    }
+   },
+   "pixelDiffAfter": 3.3,
+   "replaced": null
+  },
+  {
+   "id": "niche_大阪_2",
+   "name": "太子町の古刹群",
+   "file": "File:Eifukuji Kita Kofun, funkyu.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Eifukuji_Kita_Kofun,_funkyu.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "叡福寺の境内を示す石造物と参道の風景。古刹の雰囲気が明るく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": null
+  },
+  {
+   "id": "niche_奈良_4",
+   "name": "上北山村",
+   "file": "File:Ryusenji Temple, Kamikitayama Village, Nara Prefecture.jpg",
+   "credit": {
+    "author": "さかおり",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ryusenji_Temple,_Kamikitayama_Village,_Nara_Prefecture.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "白川ダム周辺の遊歩道施設が明るく、建築物と自然が調和した風景として見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_黒松内温泉",
+   "name": "黒松内温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_鹿部温泉",
+   "name": "鹿部温泉",
+   "current": null,
+   "candidates": 5,
+   "tried": [
+    {
+     "title": "File:Shikabe Onsen, Yoshinoyu 03.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "温泉地の食事風景ですが、屋内の料理写真で鹿部温泉を特定できる手がかりがありません。ヒーロー画像には温泉地の風景や景観が必要です。"
+    },
+    {
+     "title": "File:Shikabe Onsen, Yoshinoyu 01.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉の湯池を撮影した屋内写真。風景として映えず、ヒーロー画像には不適切です。"
+    },
+    {
+     "title": "File:Shikabe Onsen, Yoshinoyu 02.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "温泉浴場の屋内写真です。紹介ページのヒーロー画像には、屋外の風景や名所の外観が必要です。"
+    },
+    {
+     "title": "File:Hakodate bus H022F 0421.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "駅",
+     "reason": "バス停留所と駅舎が写っており、交通機関が主体。温泉地の風景や見どころが写っていない。"
+    },
+    {
+     "title": "File:Hakodate bus H200F 0126rear.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "鹿部温泉の交通手段（バス）が写っていますが、温泉地の風景・景観・名所ではなく交通機関が主役のため不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_石狩弁天社",
+   "name": "石狩弁天社",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Chōzuya of Ishikari Bentensha.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "石狩弁天社の境内施設（手水舎と思われる）が写っていますが、社殿や景観など旅先の主要な見どころが不足しており、ヒーロー画像として魅力的ではありません。"
+    },
+    {
+     "title": "File:Monument to drift netting off Kuril.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "石狩弁天社の記念碑・看板が主役。神社の建築や景観が見映えよく写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_石川_6",
+   "name": "九谷陶芸村",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_3",
+   "name": "丹波山温泉・多摩川源流",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_静岡_3",
+   "name": "石部棚田",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_4",
+   "name": "五個荘近江商人の館",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_島根_1",
+   "name": "斐伊川荒島地区",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_香川_2",
+   "name": "仁尾の町並みと造り酒屋",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_熊本_6",
+   "name": "白糸台地の棚田",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:山都白糸の滝 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "自然景観",
+     "reason": "森と川の風景だが、白糸台地の棚田が見当たらない。別の場所の写真と考えられる。"
+    },
+    {
+     "title": "File:鮎の瀬大橋 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "橋などの人工構造物が主役で、白糸台地の棚田の風景が不十分。眺望地点としては施設が邪魔になっている。"
+    },
+    {
+     "title": "File:内大臣橋 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "高圧鉄塔と橋が主役。棚田が見えるが、白糸台地の特徴的な風景として認定困難。"
+    }
+   ]
+  },
+  {
+   "id": "niche_鹿児島_1",
+   "name": "串木野港周辺の漁師町",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Kushikino.newport.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "港湾施設の待合所で、ヒーロー画像として風景・景観性に欠ける。看板・標識が主役。"
+    },
+    {
+     "title": "File:Kagoshima prefectural road 24 at Miyama, Hioki.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場看板と民家が写っているが、港の風景・景観がなく、紹介画像として不適切。"
+    }
+   ]
+  }
+ ]
+}

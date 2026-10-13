@@ -1,0 +1,387 @@
+{
+ "adopted": [
+  {
+   "id": "niche_長野_2",
+   "name": "馬籠宿",
+   "file": "File:220727 Nakasendo Magome-juku Nakatsugawa Gifu pref Japan04s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:220727_Nakasendo_Magome-juku_Nakatsugawa_Gifu_pref_Japan04s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "馬籠宿の特徴的な石畳坂道、伝統的な建築、緑豊かな景観が明るく見映えよく写っている。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": "File:馬籠宿 - panoramio (1).jpg"
+  },
+  {
+   "id": "dazaifu-2",
+   "name": "太宰府",
+   "file": "File:Dazaifu tenmangu shrine , 太宰府天満宮 - panoramio (5).jpg",
+   "credit": {
+    "author": "z tanuki",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dazaifu_tenmangu_shrine_,_%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE_-_panoramio_(5).jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "太宰府天満宮の象徴である赤い橋と本殿、参道が明確に写っており、風情ある景観が見映えよく表現されている。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "太宰府天満宮の赤い橋・石燈籠・緑豊かな境内がパノラマで映え、場所が特定できる"
+    }
+   },
+   "pixelDiffAfter": 2.9,
+   "replaced": "File:Dazaifu Tenman-gū 20230225 15.jpg"
+  },
+  {
+   "id": "gen_北海_朝里川温泉",
+   "name": "朝里川温泉",
+   "file": "File:130824 Asarigawa Onsen Otaru Hokkaido Japan03s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:130824_Asarigawa_Onsen_Otaru_Hokkaido_Japan03s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "朝里川温泉の自然風景を捉えた見映えよい写真。木製デッキ、渓流、緑の景観が温泉地の雰囲気を表現している。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "川沿いの遊歩道と緑豊かな自然風景で温泉地の景観として適切だが特定手がかりなし"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": null
+  },
+  {
+   "id": "tsuruoka-kinzan",
+   "name": "金山町",
+   "file": "File:Street in Kaneyama Town, Yamagata.jpg",
+   "credit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Street_in_Kaneyama_Town,_Yamagata.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "景観",
+     "reason": "金山町の重要文化財的な街並みが明るく見映えよく撮影されている。伝統建築と街道風景が特徴的。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": null
+  },
+  {
+   "id": "fuchu-hiroshima",
+   "name": "府中",
+   "file": "File:喫茶じょうれこ (52908907710).jpg",
+   "credit": {
+    "author": "m-louis .® from Osaka, Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%96%AB%E8%8C%B6%E3%81%98%E3%82%87%E3%81%86%E3%82%8C%E3%81%93_(52908907710).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "府中市上下町の伝統的な町家建築が明るく見映えよく撮影されている。黄色い看板と赤い橋が特徴的で場所の特定が可能。"
+    }
+   },
+   "pixelDiffAfter": 2.5,
+   "replaced": null
+  },
+  {
+   "id": "higashine",
+   "name": "東根",
+   "file": "File:Higashine Ookeyaki.JPG",
+   "credit": {
+    "author": "Resolution.2100",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Higashine_Ookeyaki.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "東根温泉の象徴的な大けやき（樹齢1500年以上）と周辺景観が明るく鮮明に写っており、地域を代表する見どころとして適切。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": null
+  },
+  {
+   "id": "niche_宮城_3",
+   "name": "七ヶ宿町のダム湖",
+   "file": "File:ShichikashukuDam1.JPG",
+   "credit": {
+    "author": "Ippukucho",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:ShichikashukuDam1.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "七ヶ宿ダムの堤体が明確に写っており、背景の山々とダム湖の風景が見映えよく撮影されている。ダム施設は旅先の主要な見どころとして適切。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "niche_鳥取_2",
+   "name": "若桜町商店街",
+   "file": "File:Wakasa kyodobunka-no-sato06n4592.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Wakasa_kyodobunka-no-sato06n4592.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "若桜鉄道旧駅舎の特徴的な日本家屋建築が明るく映えており、見映えよく撮影されている。歴史的価値のある建造物が主役となっている。"
+    }
+   },
+   "pixelDiffAfter": 2.2,
+   "replaced": null
+  },
+  {
+   "id": "niche_宮崎_2",
+   "name": "西米良村 仙人の湯",
+   "file": "File:幾稲鳴滝の湯.jpg",
+   "credit": {
+    "author": "大雪山仙人",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BE%E7%A8%B2%E9%B3%B4%E6%BB%9D%E3%81%AE%E6%B9%AF.jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "仙人の湯の特徴的な丸い木造露天風呂が明るく見映えよく撮影されている。森林に囲まれた自然景観も良好。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "丸太造りの露天風呂と滝が特徴的で仙人の湯と判断できる"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_かみゆうべつ温泉",
+   "name": "かみゆうべつ温泉",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Kitami bus Nakayūbetsu01.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の外観ですが、駐車場・エントランス施設が主体で、温泉地の自然風景や特徴的な景観に欠ける。ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:Michinoeki kamiyubetsu onsen Tulip no yu no.2.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "旧駅舎と列車の歴史的建造物ですが、これは温泉地の風景・景観ではなく駅施設が主体です。温泉紹介画像には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_伊達温泉",
+   "name": "伊達温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_臼別温泉",
+   "name": "臼別温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Yu-topia usubetu.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、看板・社号標などの識別標識が不明確で、臼別温泉と特定できません。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_落合温泉",
+   "name": "落合温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_福島_1",
+   "name": "只見町ブナ林と清流",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_埼玉_1",
+   "name": "寄居町の荒川渓谷",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:玉淀ダム.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "橋と堰が主役になっており、荒川渓谷の風景美が引き立たない。紹介画像には不適切。"
+    },
+    {
+     "title": "File:Tamayodo Dam left view.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "ダム施設が主役で、荒川渓谷の風景が従。紹介ページのヒーロー画像には渓谷美を優先すべき。"
+    },
+    {
+     "title": "File:Tamayodo Dam.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "ダム施設がメイン。渓谷美や玉淀湖の景観が表現されておらず、紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_新潟_6",
+   "name": "加茂の古い酒蔵群と職人街",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_1",
+   "name": "道志村渓谷",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:道志の湯 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "キャンプ場の駐車場・施設が主役。渓谷の景観が見えず、紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_長野_4",
+   "name": "結東温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_1",
+   "name": "日野商人の町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_6",
+   "name": "北の宿温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_奈良_2",
+   "name": "野迫川村の深山と秘湯群",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山口_2",
+   "name": "錦川峡谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_熊本_1",
+   "name": "五木村の清流と棚田",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

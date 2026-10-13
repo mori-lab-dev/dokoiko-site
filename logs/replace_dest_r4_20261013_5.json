@@ -1,0 +1,158 @@
+{
+ "adopted": [
+  {
+   "id": "niihama",
+   "name": "新居浜",
+   "file": "File:Maintopia 20250816 2.jpg",
+   "credit": {
+    "author": "Araiyasushige",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Maintopia_20250816_2.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "別子銅山の歴史を象徴する大砲と木製通路が写っており、記念館の雰囲気が伝わる。山並みも見え、新居浜らしい風景。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": null
+  },
+  {
+   "id": "esashi-hokkaido",
+   "name": "江差",
+   "file": "File:初めまして、日本海！ - panoramio.jpg",
+   "credit": {
+    "author": "百合の國",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%88%9D%E3%82%81%E3%81%BE%E3%81%97%E3%81%A6%E3%80%81%E6%97%A5%E6%9C%AC%E6%B5%B7%EF%BC%81_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "江差の海岸風景が明るく撮影されており、湾と山並みの特徴的な地形が写っています。いにしえ街道周辺の景観として適切です。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_黒松内温泉",
+   "name": "黒松内温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_群馬_花敷温泉",
+   "name": "花敷温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_青森_板留温泉",
+   "name": "板留温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_福島_1",
+   "name": "只見町ブナ林と清流",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_神奈川_5",
+   "name": "開成町水田",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_福井_1",
+   "name": "河野海岸の三角波紋",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_7",
+   "name": "塩山梅林",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_1",
+   "name": "日野商人の町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_6",
+   "name": "北の宿温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_和歌山_3",
+   "name": "北山村いかだ下り",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_島根_4",
+   "name": "掛合町の鐘乳洞群",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_高知_1",
+   "name": "佐川町の酒蔵と古い町並み",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Aoyama bunko.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場と案内表示が主で、酒蔵建築の特徴が不明瞭。景観美に欠ける。"
+    }
+   ]
+  },
+  {
+   "id": "niche_熊本_8",
+   "name": "三角町の漁師町",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_鹿児島_5",
+   "name": "栗野岳温泉郷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

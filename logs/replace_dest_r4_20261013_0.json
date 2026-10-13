@@ -1,0 +1,453 @@
+{
+ "adopted": [
+  {
+   "id": "shishikui",
+   "name": "宍喰",
+   "file": "File:Takegasima20220712 1.jpg",
+   "credit": {
+    "author": "Dokudami",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Takegasima20220712_1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "宍喰漁港の風景が明るく見映えよく写っている。漁船、防波堤、緑の山々が特徴的で、港町としての景観が良好に表現されている。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": null
+  },
+  {
+   "id": "monbetsu",
+   "name": "紋別",
+   "file": "File:がりんこ号 - panoramio.jpg",
+   "credit": {
+    "author": "Mamusi Taka",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%81%8C%E3%82%8A%E3%82%93%E3%81%93%E5%8F%B7_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "紋別港に停泊する赤いガリンコ号が明確に写っており、背景の山々や港湾施設と共に紋別の景観を良く表現している。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": null
+  },
+  {
+   "id": "niche_島根_6",
+   "name": "黒淵の滝",
+   "file": "File:140426 Yuushien Matsue Shimane pref Japan02s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140426_Yuushien_Matsue_Shimane_pref_Japan02s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "匹見峡の滝が緑に囲まれた自然豊かな渓谷風景として明るく見映えよく撮影されており、黒淵の滝の紹介に適切。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": null
+  },
+  {
+   "id": "niche_高知_6",
+   "name": "日高村",
+   "file": "File:仁淀川の柳瀬橋の空撮写真.jpg",
+   "credit": {
+    "author": "谷本 一郎",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%BB%81%E6%B7%80%E5%B7%9D%E3%81%AE%E6%9F%B3%E7%80%AC%E6%A9%8B%E3%81%AE%E7%A9%BA%E6%92%AE%E5%86%99%E7%9C%9F.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "山々に囲まれた渓谷と川の美しい自然風景。明るく見映えよく、日高村の地形的特徴を示す山河風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_白老温泉",
+   "name": "白老温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Siraoi spa 2009.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉浴槽の施設が写っていますが、屋内で薄暗く、見映えが悪い。白老温泉を特定する手がかりがない。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_見市温泉",
+   "name": "見市温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_臼別温泉",
+   "name": "臼別温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Yu-topia usubetu.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "温泉施設の建物ですが、看板・社号標など場所特定の手がかりがなく、臼別温泉と断定できません。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_落合温泉",
+   "name": "落合温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Shima4.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉街の建物・看板が主体で、自然風景が限定的。ヒーロー画像として映えに欠ける。"
+    }
+   ]
+  },
+  {
+   "id": "niche_福島_4",
+   "name": "小高区歴史的町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_新潟_2",
+   "name": "寺泊アメの横丁",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_福井_4",
+   "name": "九頭竜湖・西野ダム展望台",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_長野_4",
+   "name": "結東温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_3",
+   "name": "永源寺門前と愛知川",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_大阪_1",
+   "name": "能勢白滝",
+   "current": null,
+   "candidates": 10,
+   "tried": [
+    {
+     "title": "File:尾道市 白滝山山頂.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "能勢白滝（白滝）ではなく、別の場所の寺院・参道と思われます。仏像や寺院建築が写っており、滝の風景ではありません。"
+    },
+    {
+     "title": "File:Michinoeki Konze no sato Rittō 20210404 02.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "能勢白滝の紹介画像として不適切。滝の風景がなく、屋内レストランの料理写真であり、主な見どころの白滝が全く映っていない。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-08-07.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "食事料理の写真。能勢白滝（白滝風景）の紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (001).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "料理の写真です。能勢白滝の白滝という自然景観を紹介するヒーロー画像として不適切です。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (003).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "料理の接写。能勢白滝の白滝風景・名所が全く写っていない。旅先の紹介画像として不適切。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (002).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "料理の写真です。能勢白滝の風景・景観・名所を示していません。"
+    },
+    {
+     "title": "File:Wet shirataki noodles.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "食品パッケージの写真。能勢白滝の風景・名所・景観が写っていません。"
+    },
+    {
+     "title": "File:Tomato shirataki noodles.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "能勢白滝の白滝とは無関係な食事の写真。屋内撮影で観光地の風景・景観・名所が全く写っていない。"
+    },
+    {
+     "title": "File:Shirataki noodle dish.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "食事（麺料理）の屋内写真。白滝の風景・景観・名所が全く写っていません。"
+    },
+    {
+     "title": "File:麓郷の森 黒板五郎の丸太小屋 玄関部分 Akiyoshi's RoomP6220392P6220393.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "白滝そのものが写っていない。古い建物の屋内設備・資料展示で、紹介ページのヒーロー画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_和歌山_6",
+   "name": "高野龍神スカイライン",
+   "current": null,
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:高野龍神スカイライン入口(中の橋交差点) Koyaryujin Skyline (Nakanohashi) - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "道路標識と施設が主体で、スカイラインの風景・景観が見えない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:オートバイ高野龍神スカイラインPA060761.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "人物",
+     "reason": "バイク乗車者が主役になっており、旅先の景観・見どころが視認できない。"
+    },
+    {
+     "title": "File:Yamabousi tubomieda.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "植物",
+     "reason": "白い花の接写で、高野龍神スカイラインの景観・風景が写っていない。ドライブコース紹介のヒーロー画像として不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_大分_1",
+   "name": "佐賀関漁港と三浦海岸",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:神崎漁港から佐賀関大煙突を臨む - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "海と山の風景ですが、佐賀関漁港を特定できる手がかけが不足。汎用的な海景で、紹介画像として差別性に欠ける。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_神威脇温泉",
+   "name": "神威脇温泉",
+   "current": "File:鍋釣岩 - panoramio.jpg",
+   "candidates": 29,
+   "tried": [
+    {
+     "title": "File:Japan Coast Guard ship PM39 Okushiri at the Port of Hakodate, April 2023 02.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "海上保安庁の巡視船が主体で、温泉地の風景や名所ではない。港の設備と判断される。"
+    },
+    {
+     "title": "File:Japan Coast Guard ship PM39 Okushiri at the Port of Hakodate, April 2023 01.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港の設備",
+     "reason": "港湾設備と巡視船が主役。温泉地としての風景・景観が見当たらない。極端に暗い。"
+    },
+    {
+     "title": "File:1993 Events montage 16-grid version.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "複数の無関係な画像のコラージュ。神威脇温泉の風景・建築・景観が確認できない。"
+    },
+    {
+     "title": "File:JS Kumataka （PG-827）and PM39 Okushiri conducted a joint training.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "海上の船舶が主体。神威脇温泉の温泉施設や陸上の風景が写っていない。"
+    },
+    {
+     "title": "File:Kamuiwaki onsen.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、老朽化が目立ち暗く見映えが悪い。ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:Okushiri port.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "港湾設備（規制ロープ・バリケード）が前景を占める。温泉施設は写っているが、港の施設が主役になっている。"
+    },
+    {
+     "title": "File:Olishiri islands Tsunami Hall.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、屋外の外観でも暗く見映えが悪い。ヒーロー画像には不適切。"
+    },
+    {
+     "title": "File:青苗地区中心 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "温泉地の街並みですが、看板・電柱・道路が主体。温泉の特徴や魅力が視覚的に伝わらず、ヒーロー画像として映えが弱い。"
+    },
+    {
+     "title": "File:青苗地区 - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "道路と看板が主体で、温泉施設や景観が不明瞭。紹介画像として訴求力が低い。"
+    },
+    {
+     "title": "File:Kamuiwaki Hoyosho.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、駐車場が主体で風景・景観が乏しく、ヒーロー画像として見映えが良くありません。"
+    },
+    {
+     "title": "File:Nabetsuru iwa 2011.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "鍋釣岩は奥尻島の象徴的な景観ですが、補足で「鍋釣岩は奥尻島に使用済みなので別の写真」と指定されており、神威脇温泉専用の画像として不適切です。"
+    },
+    {
+     "title": "File:Avrora Okushiri in Okushiri port.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "フェリーなどの港湾施設が主役。温泉地の風景・景観として適切でない。"
+    }
+   ]
+  }
+ ]
+}

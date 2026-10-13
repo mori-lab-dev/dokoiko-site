@@ -1,0 +1,293 @@
+{
+ "adopted": [
+  {
+   "id": "futamata-onsen",
+   "name": "二岐温泉",
+   "file": "File:Futamata Jinja Iwaki Iriguchi.jpg",
+   "credit": {
+    "author": "Zeter114514",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Futamata_Jinja_Iwaki_Iriguchi.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "二岐温泉への入口橋と渓谷の緑が写っており、秘湯らしい情緒的な雰囲気が伝わる。明るく見映えよい。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": null
+  },
+  {
+   "id": "niche_徳島_4",
+   "name": "藍住町",
+   "file": "File:Aizumi town Aizumi-kita elem-sch.jpg",
+   "credit": {
+    "author": "鳴門のうずしお",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aizumi_town_Aizumi-kita_elem-sch.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "藍の館の特徴的な建築外観が明るく鮮明に写っており、看板も確認でき、施設の紹介画像として適切です。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": null
+  },
+  {
+   "id": "niche_宮崎_4",
+   "name": "渡川温泉",
+   "file": "File:Miyazaki Ikoma-plateau Hinamori-mountain.jpg",
+   "credit": {
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Miyazaki_Ikoma-plateau_Hinamori-mountain.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "宮崎県小林市須木地区の特徴的な山々と花畑の風景。山あいの集落の自然風景として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_かみゆうべつ温泉",
+   "name": "かみゆうべつ温泉",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Kitami bus Nakayūbetsu01.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の外観ですが、駅舎のような建築物で風景・景観として見映えに欠けます。ヒーロー画像には不適切です。"
+    },
+    {
+     "title": "File:Michinoeki kamiyubetsu onsen Tulip no yu no.2.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "鉄道車両と駅舎で、温泉地の風景・景観として不適切。温泉施設や温泉景観が見当たらない。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_伊達温泉",
+   "name": "伊達温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "name": "相乗温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_石狩弁天社",
+   "name": "石狩弁天社",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Chōzuya of Ishikari Bentensha.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "手水舎など神社施設は写っているが、社殿や社号標が見えず、紹介画像としては見映え不足。"
+    },
+    {
+     "title": "File:Monument to drift netting off Kuril.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "石狩弁天社の紹介画像としては、記念碑・看板が主体で、社殿や参道など神社の景観が欠けている。"
+    }
+   ]
+  },
+  {
+   "id": "niche_山形_1",
+   "name": "白鷹町べにばな温泉郷",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:湯野浜温泉 亀や 鶴岡市 Aug 7, 2020 (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "べにばな温泉郷の看板・銘板が主役となっており、風景や景観ではなく看板そのものの撮影。ヒーロー画像として不適切。"
+    },
+    {
+     "title": "File:湯野浜温泉 亀や 鶴岡市 Aug 7, 2020 (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "施設の外観写真ですが、看板が主要要素となっており、紹介画像として適切ではありません。"
+    }
+   ]
+  },
+  {
+   "id": "niche_群馬_4",
+   "name": "桐生の工場跡と町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_富山_3",
+   "name": "福光地区",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_3",
+   "name": "丹波山温泉・多摩川源流",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_愛知_7",
+   "name": "吉良町漁村",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_3",
+   "name": "青谷地区",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Aotani district Joyo Kyotopref back graund.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "青谷地区の特徴的な風景・名所が判別できません。空が大部分で被写体が不明確。"
+    }
+   ]
+  },
+  {
+   "id": "niche_兵庫_4",
+   "name": "鳥飼漁港と丸島番所跡",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_鳥取_8",
+   "name": "琴浦町の漁村風景",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_熊本_2",
+   "name": "産山村の星の宮古墳",
+   "current": null,
+   "candidates": 6,
+   "tried": [
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, funkyu-2.jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "名所",
+      "reason": "古墳の盛り上がった地形が明確に見え、周囲の裸木の林とともに特徴的な景観を示している。古墳としての造成地形が識別可能。"
+     },
+     "sonnet": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "名所",
+      "reason": "古墳の墳丘と落葉樹林が明瞭に写り景観として成立するが場所を特定する手がかりはない"
+     }
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, enkei.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "古墳が見当たらず、空き地・グラウンド・駐車場のような平坦な施設が写っている。星の宮古墳の特徴的な形状が視認できない。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, funcho.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "古墳の盛り上がりが見えにくく、樹木と落ち葉が主体。古墳だと判断できる手がかりが不足しています。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, funkyu-1.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "雑木林の風景だが、古墳の特徴的な形状（盛り上がり）が明確でなく、星の宮古墳だと特定できる手がかりがない。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, zenpoubu.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "名所",
+     "reason": "古墳の盛り上がりが見えるが、特定可能な標識や説明板がなく、一般的な雑木林に見える。古墳としての特徴が不明確。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, kouhoubu.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "古墳の塚が不明瞭。単なる雑木林の風景で、名所として特定できる手がかりがない。"
+    }
+   ]
+  }
+ ]
+}

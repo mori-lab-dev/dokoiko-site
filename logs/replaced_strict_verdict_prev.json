@@ -1,0 +1,779 @@
+[
+ {
+  "id": "kirishima",
+  "name": "霧島",
+  "file": "File:Kirishima-Jingu Front.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Japan photographs taken on 2023-05-14",
+   "May 2023 in Kagoshima prefecture",
+   "Self-published work",
+   "Shaden, Kirishima-jingu"
+  ],
+  "desc": "The main hall of Kirishima Shrine in Kirishima City, Kagoshima Prefecture",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも霧島市の霧島神宮本殿と明記しており、旅先の主な見どころと完全一致。"
+ },
+ {
+  "id": "hida-furukawa",
+  "name": "飛騨古川",
+  "file": "File:Hida Furukawa 20200620.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Self-published work",
+   "Setogawa Canal, White Walled Storehouse"
+  ],
+  "desc": "白壁土蔵街（岐阜県飛騨市古川町）",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ・説明文が飛騨古川の瀬戸川と白壁土蔵街と明記。水路沿いの白壁土蔵も一致。"
+ },
+ {
+  "id": "nago",
+  "name": "名護",
+  "file": "File:View from Nangusuku Park 202508.jpg",
+  "cats": [
+   "August 2025 in Okinawa prefecture",
+   "CC-BY-SA-4.0",
+   "Cityscapes in Nago",
+   "Nago Castle Ruin Site Park",
+   "Photographs taken on 2025-08-03",
+   "Roads in Okinawa Island"
+  ],
+  "desc": "View from Nangusuku Park, Nago, Okinawa Prefecture, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリにNago Castle Ruin Site Parkが含まれ、名護城跡公園からの眺望と一致する。"
+ },
+ {
+  "id": "niijima",
+  "name": "新島",
+  "file": "File:Nii-jima zenkei.JPG",
+  "cats": [
+   "Aerial photographs of Niijima",
+   "Aerial photographs of volcanoes in Japan",
+   "CC-Zero",
+   "Self-published work"
+  ],
+  "desc": "Aerial photo of Niijima in Tokyo, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文いずれも東京都新島の航空写真と明記されており、旅先と一致する。"
+ },
+ {
+  "id": "omagari",
+  "name": "大曲",
+  "file": "File:大会提供花火（2014）.JPG",
+  "cats": [
+   "All-Japan National Fireworks Competition",
+   "August 2014 in Akita prefecture",
+   "CC-BY-SA-4.0",
+   "Images with extracted images",
+   "Japan photographs taken on 2014-08-23",
+   "Night in Daisen, Akita"
+  ],
+  "desc": "大会提供花火（2014）ボレロの曲に乗せて約6分間の壮大な打上で76万人の観客を魅了した。",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ「All-Japan National Fireworks Competition」「Daisen, Akita」より大曲全国花火競技大会2014年の大会提供花火と確認できる。"
+ },
+ {
+  "id": "gen_北海_札幌八幡宮",
+  "name": "札幌八幡宮",
+  "file": "File:Nishioka Hachiman-gū in Spring.JPG",
+  "cats": [
+   "April 2015 in Sapporo",
+   "CC-BY-SA-4.0",
+   "Nishioka Hachiman-gū",
+   "Self-published work"
+  ],
+  "desc": "Nishioka Hachiman-gū",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "写真は札幌市西岡の西岡八幡宮であり、旅先の札幌八幡宮（手稲区）とは別の神社。"
+ },
+ {
+  "id": "yamaga",
+  "name": "山鹿",
+  "file": "File:Yamaga-shuku 20180604 01.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Japan photographs taken on 2018-06-04",
+   "June 2018 in Kumamoto prefecture",
+   "Self-published work",
+   "Taken with Nikon Coolpix A10",
+   "Yamaga-shuku"
+  ],
+  "desc": "Yamaga-shuku in Yamaga, Kumamoto, Japan. Yamaga was an old post town of the Satsuma Kaido connecting Kagoshima and Kokura during the Edo period.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ・説明文が熊本県山鹿の山鹿宿（豊前街道沿いの旧宿場町）と明示しており、旅先の山鹿と合致する。"
+ },
+ {
+  "id": "hiraizumi",
+  "name": "平泉",
+  "file": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (03).jpg",
+  "cats": [
+   "August 2018 in Iwate prefecture",
+   "CC-BY-SA-2.0",
+   "Flickr images reviewed by FlickreviewR 2",
+   "Konjikido (Chusonji)"
+  ],
+  "desc": "Hiraizumi is a town located in Nishiiwai District, Iwate Prefecture, Japan. The total area of the town was 63.39 km². It is noted for the Historic Monuments and Sites of Hiraizumi, which achieved UNES",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリに「Konjikido (Chusonji)」とあり、平泉・中尊寺金色堂の覆堂と一致する。"
+ },
+ {
+  "id": "kikuchi",
+  "name": "菊池",
+  "file": "File:Kikuchi Gorge Hirogawara 20240518.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "GFDL",
+   "Japan photographs taken on 2024-05-18",
+   "Kikuchi Ravines",
+   "License migration redundant",
+   "May 2024 in Kumamoto prefecture"
+  ],
+  "desc": "The Kikuchi Gorge - Hirogawara (Kikuchi City, Kumamoto Prefecture, Japan).",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも菊池渓谷（熊本県菊池市）と一致している。"
+ },
+ {
+  "id": "nagi",
+  "name": "奈義",
+  "file": "File:Nagi MOCA.jpg",
+  "cats": [
+   "CC-BY-SA-3.0,2.5,2.0,1.0",
+   "Files with coordinates missing SDC location of creation",
+   "GFDL",
+   "Japan photographs taken on 2011-07-14",
+   "License migration redundant",
+   "Nagi Museum Of Contemporary Art"
+  ],
+  "desc": "Nagi Museum Of Contemporary Art, Nagi, Okayama.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも奈義町現代美術館（岡山県）と一致し、建物の特徴的な幾何学的外観も合致する。"
+ },
+ {
+  "id": "kakeroma-island",
+  "name": "加計呂麻島",
+  "file": "File:Oochon jinja Torii.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Kakeromajima",
+   "Self-published work",
+   "Shrines in Kagoshima prefecture"
+  ],
+  "desc": "大屯神社（おおちょんじんじゃ、瀬戸内町諸鈍繰原）",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリにKakeromajima、説明に瀬戸内町諸鈍とあり、加計呂麻島・諸鈍集落内の大屯神社と確認できる。"
+ },
+ {
+  "id": "niihama",
+  "name": "新居浜",
+  "file": "File:Niihama Country Club, Niihama Ehime Aerial photograph.2010.jpg",
+  "cats": [
+   "Aerial photographs of Ehime prefecture",
+   "Attribution only license",
+   "Golf courses in Ehime prefecture",
+   "National Land Image Information",
+   "Niihama, Ehime"
+  ],
+  "desc": "Niihama Country Club, Niihama Ehime Aerial photograph.2010",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "新居浜市内のゴルフ場の航空写真であり、別子銅山記念館など主な見どころとは無関係。"
+ },
+ {
+  "id": "ashinoko",
+  "name": "芦ノ湖",
+  "file": "File:260504 Moto-Hakone Hakone Japan01s3.jpg",
+  "cats": [
+   "2026 in Hakone",
+   "CC-BY-SA-4.0",
+   "Files with coordinates missing SDC location of creation",
+   "Japan photographs taken on 2026-05-04",
+   "Lake Ashi",
+   "May 2026 in Kanagawa prefecture"
+  ],
+  "desc": "At Moto-Hakone in Hakone, Kanagawa prefecture, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリにLake Ashi、説明に元箱根（Moto-Hakone）と明記。写真左奥に朱の鳥居も確認でき、芦ノ湖と一致。"
+ },
+ {
+  "id": "gen_北海_水無海浜温泉",
+  "name": "水無海浜温泉",
+  "file": "File:Mizunashi Kaihin onsen (hot spring bath), Hakodate, Japan.jpg",
+  "cats": [
+   "2018 in Hakodate",
+   "Baths in Japan",
+   "CC-BY-SA-4.0",
+   "Coasts of Hokkaido",
+   "Japan photographs taken on 2018-06-13",
+   "June 2018 in Hokkaido"
+  ],
+  "desc": "Mizunashi-Kaihin Onsen is a unique outdoor bath in Hakodate, Japan, that combines a hot spring (water temperature 50 degrees Celsius) with the Pacific Ocean. Normally submerged, the bath only appears ",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・説明文に「Mizunashi-Kaihin Onsen, Hakodate」と明記され、海岸の岩場に囲まれた湯だまりの特徴的な景観と一致。"
+ },
+ {
+  "id": "karuizawa",
+  "name": "軽井沢",
+  "file": "File:Old Karuizawa ginza06n3872.jpg",
+  "cats": [
+   "CC-BY-2.5",
+   "CC-BY-SA-3.0-migrated",
+   "GFDL",
+   "License migration redundant",
+   "Old Karuizawa Ginza",
+   "Self-published work"
+  ],
+  "desc": "Old Karuizawa Ginza in Karuizawa, Nagano, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がすべて旧軽井沢銀座（長野県軽井沢）と一致し、商店街の風景も合致する。"
+ },
+ {
+  "id": "niche_徳島_4",
+  "name": "藍住町",
+  "file": "File:藍住町総合文化ホール 徳島県 Jun 1, 2024.jpg",
+  "cats": [
+   "Aizumi, Tokushima",
+   "Buildings in Japan photographed in 2024",
+   "CC-BY-4.0",
+   "Concert halls in Tokushima prefecture",
+   "Files from nagi usano Flickr stream",
+   "Flickr images missing SDC published in"
+  ],
+  "desc": "Aizumi Culture Hall, Aizumi town, Tokushima prefecture, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "藍住町の総合文化ホールであり、主な見どころの藍の館（藍染体験施設）とは別の建物。"
+ },
+ {
+  "id": "itoshima",
+  "name": "糸島",
+  "file": "File:糸島二見ヶ浦と小呂島.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Japan photographs taken on 2012-11-15",
+   "Meoto-iwa with the Kaichū-ōtorii, Sakurai-jinja",
+   "November 2012 in Fukuoka prefecture",
+   "Oronoshima",
+   "Ryōbu-torii"
+  ],
+  "desc": "古代から龍宮の入り口として、信仰されてきた。江戸時代以降は、桜井神社の浦宮として信仰される。夏至の夕日が夫婦岩の間に沈むことで有名。",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文いずれも糸島二見ヶ浦の夫婦岩と桜井神社の海中鳥居と一致。"
+ },
+ {
+  "id": "fushimi",
+  "name": "伏見",
+  "file": "File:A temple in Kyoto (52407317930).jpg",
+  "cats": [
+   "Ambiguous location in EXIF",
+   "CC-BY-SA-2.0",
+   "Files from Sergiy Galyonkin Flickr stream",
+   "Flickr images reviewed by FlickreviewR 2",
+   "Fushimi Inari-taisha",
+   "Kyoto photographs taken on 2022-07-29"
+  ],
+  "desc": "A temple in Kyoto",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリに「Fushimi Inari-taisha」とあり、朱色の鳥居と社殿が伏見稲荷大社の境内と一致する。"
+ },
+ {
+  "id": "teuri-island",
+  "name": "天売島",
+  "file": "File:Teuri Island Aerial photograph.1977.jpg",
+  "cats": [
+   "Aerial photographs of Hokkaido",
+   "Attribution only license",
+   "National Land Image Information",
+   "Teuri Island"
+  ],
+  "desc": "Teuri Island Aerial photograph.1977",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリともにTeuri Islandと明記された天売島の空撮写真で、島全体と北西端の断崖地形も確認できる。"
+ },
+ {
+  "id": "oze-2",
+  "name": "尾瀬ヶ原",
+  "file": "File:Mt.Hiuchigatake 10.jpg",
+  "cats": [
+   "CC-BY-3.0",
+   "GFDL",
+   "License migration redundant",
+   "Mount Hiuchi (Fukushima)",
+   "Ozegahara",
+   "Self-published work"
+  ],
+  "desc": "Mount Hiuchi and Ozegahara wetland, in Gunma and Fukushima Prefectures, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリにOzegaharaとMount Hiuchi(Fukushima)があり、尾瀬ヶ原湿原と燧ヶ岳を撮影した写真と確認できる。"
+ },
+ {
+  "id": "matsue",
+  "name": "松江",
+  "file": "File:Matsue Castle Keep Tower 1985 -1.jpg",
+  "cats": [
+   "CC-BY-4.0",
+   "Items with VRTS permission confirmed",
+   "Matsue Castle Keep Tower",
+   "Photographs by Marie-Sophie Mejan",
+   "Shimane prefecture in the 1980s"
+  ],
+  "desc": "photographs taken during our trip, April 1985, by Trans-Siberia Express from Hoek van Holland with a stopover in Moskou, to Nachodka at the easternmost border of the then USSR. By ship to Japan, by un",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリに「Matsue Castle Keep Tower」とあり、黒い下見板張りの天守が写真と一致する。"
+ },
+ {
+  "id": "chiba-zoo",
+  "name": "千葉動物公園",
+  "file": "File:Futa 20261004 4.jpg",
+  "cats": [
+   "CC-BY-4.0",
+   "Creative Commons Attribution 4.0 missing SDC copyright license",
+   "Creative Commons Attribution missing SDC copyright status",
+   "Futa (red panda)",
+   "October 2026 in Chiba",
+   "Self-published work"
+  ],
+  "desc": "千葉市動物公園の風太",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ「Futa (red panda)」・説明「千葉市動物公園の風太」が旅先の風太と完全に一致する。"
+ },
+ {
+  "id": "sakushima",
+  "name": "佐久島",
+  "file": "File:Saku Island from Mount Amagoi.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Saku Island",
+   "Self-published work",
+   "Views from Mount Amagoi (Tahara, Aichi)"
+  ],
+  "desc": "Mikawa Bay and Saku Island seen from Mount Amagoi in Aichi prefecture, Japan.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "佐久島が写っているが、遠景の俯瞰写真で大浦港など島内の見どころは確認できない。"
+ },
+ {
+  "id": "bessho-onsen",
+  "name": "別所温泉",
+  "file": "File:260828 Kitamuki-kannon Ueda Nagano pref Japan08s3.jpg",
+  "cats": [
+   "August 2026 in Nagano prefecture",
+   "CC-BY-SA-4.0",
+   "Files with coordinates missing SDC location of creation",
+   "Japan photographs taken on 2026-08-28",
+   "Kitamuki-kan'non",
+   "Self-published work"
+  ],
+  "desc": "Kitamuki-kan'non in Ueda, Nagano prefecture, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも上田市の北向観音を示しており、旅先の主な見どころと一致する。"
+ },
+ {
+  "id": "gen_北海_天に続く道",
+  "name": "天に続く道",
+  "file": "File:Shari road01.JPG",
+  "cats": [
+   "Files by User:221.20/Sony DSC-W300",
+   "PD-self",
+   "Self-published work",
+   "Transport in Shari"
+  ],
+  "desc": "Road of Shari, Hokkaido, Japan.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "unsure",
+  "reason": "斜里町の道路と確認できるが、「天に続く道」特有の展望台からの雄大な直線景観と一致するか断定不能。"
+ },
+ {
+  "id": "iwakuni",
+  "name": "岩国",
+  "file": "File:Iwakuni, ponte kintai-kyo, 03,0.jpg",
+  "cats": [
+   "All media supported by Wikimedia CH",
+   "Bridges in Japan photographed in November 2017",
+   "CC-BY-3.0",
+   "Images by Sailko - Supported by Wikimedia CH",
+   "Japan photographs taken on 2017-11-11",
+   "Kintaikyo"
+  ],
+  "desc": "Iwakuni, Yamaguchi",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリにKintaikyoと岩国山口の記載があり、画像にも5連木造アーチの錦帯橋が明確に写っている。"
+ },
+ {
+  "id": "esashi-hokkaido",
+  "name": "江差",
+  "file": "File:Former Nakamura's house.jpg",
+  "cats": [
+   "Buildings in Japan photographed in 2010",
+   "Buildings in Mukawa, Hokkaido",
+   "Houses in Hokkaido prefecture",
+   "Japan photographs taken on 2010-10-16",
+   "October 2010 in Hokkaido",
+   "PD-self"
+  ],
+  "desc": "Former Nakamura's house, Mukawa, Hokkaido, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "カテゴリ・説明文ともに鵡川町（Mukawa）の旧中村家住宅であり、江差の旧中村家住宅とは別物。"
+ },
+ {
+  "id": "niche_茨城_2",
+  "name": "磯原漁港",
+  "file": "File:Futatsushima Island 02.jpg",
+  "cats": [
+   "CC-BY-3.0",
+   "Futatsushima",
+   "GFDL",
+   "License migration redundant",
+   "Self-published work"
+  ],
+  "desc": "Futatsushima Island (Futatsu-shima ニツ島) in Kita-Ibaraki City, Ibaraki Pref., Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "北茨城市のニツ島（磯原海岸のシンボル的岩礁）であり、磯原海岸の主な見どころと合致する。"
+ },
+ {
+  "id": "gen_北海_六花の森",
+  "name": "六花の森",
+  "file": "File:131013 Rokka-no-Mori Nakasatsunai Hokkaido Japan16bs.jpg",
+  "cats": [
+   "CC-BY-2.5",
+   "CC-BY-SA-3.0-migrated",
+   "GFDL",
+   "License migration redundant",
+   "Rokka no Mori",
+   "Self-published work"
+  ],
+  "desc": "Rokka no Mori in Nakasatsunai, Hokkaido prefecture, Japan.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも中札内村の六花の森と明示しており、旅先と完全一致。"
+ },
+ {
+  "id": "gen_青森_黄金崎不老不死温泉",
+  "name": "黄金崎不老不死温泉",
+  "file": "File:Furofushi-onsen in the evening.jpg",
+  "cats": [
+   "CC-Zero",
+   "Furofushi Onsen",
+   "Self-published work"
+  ],
+  "desc": "不老ふ死温泉（青森県西津軽郡深浦町）夕景",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ・説明文が不老ふ死温泉（深浦町）と一致し、海岸に隣接する露天風呂施設らしき構造物も確認できる。"
+ },
+ {
+  "id": "shinjuku",
+  "name": "新宿",
+  "file": "File:2018-09-23 trees in Shinjuku Gyo-en.jpg",
+  "cats": [
+   "CC-BY-SA-2.0",
+   "Files from Sergiy Galyonkin Flickr stream",
+   "Flickr images reviewed by FlickreviewR 2",
+   "Forests in Tokyo",
+   "Shinjuku Gyo-en"
+  ],
+  "desc": "trees in Shinjuku Gyo-en",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも「Shinjuku Gyo-en（新宿御苑）」と明記しており、旅先の主な見どころと一致する。"
+ },
+ {
+  "id": "abashiri",
+  "name": "網走",
+  "file": "File:130714 Lake Abashiri Hokkaido Japan01bs5.jpg",
+  "cats": [
+   "CC-BY-2.5",
+   "CC-BY-SA-3.0-migrated",
+   "GFDL",
+   "Lake Abashiri",
+   "License migration redundant",
+   "Self-published work"
+  ],
+  "desc": "Lake Abashiri at Abashiri, Hokkaido, Japan.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "unsure",
+  "reason": "網走湖は網走市内にある見どころだが、紹介の主な見どころは網走監獄博物館であり、湖の写真は別スポットのため一致しない。"
+ },
+ {
+  "id": "chichibu",
+  "name": "秩父",
+  "file": "File:Zuishinmon Gate, Mitsumine Shrine, Chichibu - Sep 23, 2022.jpg",
+  "cats": [
+   "CC-BY-2.0",
+   "Flickr images reviewed by FlickreviewR 2",
+   "Gates in Saitama prefecture",
+   "Japan photographs taken on 2022-09-23",
+   "Mitsumine-jinja",
+   "September 2022 in Saitama prefecture"
+  ],
+  "desc": "Zuishinmon Gate, Mitsumine Shrine, Chichibu, Saitama pref Japan.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "写真は三峯神社（随身門）であり、主な見どころとして紹介されている秩父神社とは別の神社。"
+ },
+ {
+  "id": "monbetsu",
+  "name": "紋別",
+  "file": "File:ガリンコ号III IMERU 修理中.jpg",
+  "cats": [
+   "CC-BY-2.0",
+   "February 2022 in Hokkaido",
+   "Flickr images reviewed by FlickreviewR 2",
+   "Garinko",
+   "Japan photographs taken on 2022-02-27",
+   "Port of Wakkanai"
+  ],
+  "desc": "Docked at Wakkanai in Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "ガリンコ号IIIだが撮影地は稚内港（Port of Wakkanai）であり、紋別ではない。"
+ },
+ {
+  "id": "gen_北海_北海道",
+  "name": "北海道",
+  "file": "File:Kushiro Marsh Wetland Hokkaido Panorama 2014.png",
+  "cats": [
+   "CC-BY-2.0",
+   "Flickr images missing SDC creator",
+   "Flickr images missing SDC source of file",
+   "Flickr images reviewed by trusted users",
+   "Kushiro Wetland",
+   "Panoramics in Hokkaido"
+  ],
+  "desc": "Panorama of Kushiro Marsh (wetland) in Hokkaido (September 9, 2014). The photo was taken at Kushiro Shitsugen National Park Observation Platforms.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "釧路湿原国立公園展望台からのパノラマ写真で、北海道に所在することがカテゴリ・説明文から明確。"
+ },
+ {
+  "id": "onna",
+  "name": "恩納村",
+  "file": "File:Onna Okinawa Japan Cape-Manzamo-01.jpg",
+  "cats": [
+   "2016 in Manzamo, Okinawa prefecture",
+   "CC-BY-SA-3.0",
+   "Files with coordinates missing SDC location of creation",
+   "Images by Cccefalon",
+   "Images of Japan by User:Cccefalon",
+   "Information field template with formatting"
+  ],
+  "desc": "Onna, Okinawa, Japan: The scenic area of Cape Manzamo Cliffs.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がすべて恩納村の万座毛断崖と一致し、象の鼻状の琉球石灰岩も写真で確認できる。"
+ },
+ {
+  "id": "hamada-shimane",
+  "name": "浜田",
+  "file": "File:Hamada Port Shimane 2014.JPG",
+  "cats": [
+   "CC-BY-SA-3.0,2.5,2.0,1.0",
+   "GFDL",
+   "Hamada Fishing Port",
+   "License migration redundant",
+   "Self-published work",
+   "Taken with Sony DSC-HX30V"
+  ],
+  "desc": "Hamada Port in Hamada City, Shimane Prefecture, Japan",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "ファイル名・カテゴリ・説明文がいずれも島根県浜田市の浜田港と明記し、画像も港湾施設と特徴的な斜張橋が確認できる。"
+ },
+ {
+  "id": "yubu-island",
+  "name": "由布島",
+  "file": "File:Yubu Island Okinawa Pref Japan17s3s4592.jpg",
+  "cats": [
+   "CC-BY-2.5",
+   "CC-BY-SA-3.0-migrated",
+   "GFDL",
+   "License migration redundant",
+   "Self-published work",
+   "Subtropical Botanical Garden, Yubu Island"
+  ],
+  "desc": "at Subtropical Botanical Garden, Yubu Island in Taketomi Town, Okinawa Prefecture, Japan.",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ・説明文に「Subtropical Botanical Garden, Yubu Island」と明記され、由布島の亜熱帯植物園と一致する。"
+ },
+ {
+  "id": "shishikui",
+  "name": "宍喰",
+  "file": "File:Port of Kannoura and Takegashima Island Aerial photograph.1975.jpg",
+  "cats": [
+   "Aerial photographs of Kochi prefecture",
+   "Aerial photographs of Tokushima prefecture",
+   "Attribution only license",
+   "Kaiyo, Tokushima",
+   "National Land Image Information",
+   "Ports and harbours in Shikoku region"
+  ],
+  "desc": "Port of Kannoura and Takegashima Island Aerial photograph.1975",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "ファイル名・説明文は「甲浦港と竹ヶ島」（高知県）を示しており、宍喰漁港ではない。"
+ },
+ {
+  "id": "otoyo",
+  "name": "大豊",
+  "file": "File:Sugi no Osugi, gaikan-3.jpg",
+  "cats": [
+   "CC-Zero",
+   "Self-published work",
+   "Sugi no Osugi"
+  ],
+  "desc": "杉の大スギ 概観",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "看板に「特別天然記念物 杉ノ大杉」と明記され、カテゴリ・ファイル名も杉の大スギと一致。大豊町の日本一の大杉そのもの。"
+ },
+ {
+  "id": "niche_静岡_2",
+  "name": "須走温泉",
+  "file": "File:Fuji Sengen-jinja Shrine2.jpg",
+  "cats": [
+   "CC-Zero",
+   "Haiden, Higashiguchi-hongū Fuji-sengen-jinja",
+   "Self-published work"
+  ],
+  "desc": "冨士浅間神社（須走浅間神社）",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "yes",
+  "reason": "カテゴリ・説明文が須走浅間神社（東口本宮冨士浅間神社）と明示し、紹介文の冨士浅間神社と一致する。"
+ },
+ {
+  "id": "niche_宮崎_4",
+  "name": "渡川温泉",
+  "file": "File:Miyazaki Ikoma-plateau Hinamori-mountain.jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "Eschscholzia californica (cultivated)",
+   "Flowers in Miyazaki prefecture",
+   "Hometown Fuji",
+   "Japan photographs taken on 2023-05-14",
+   "Kobayashi, Miyazaki"
+  ],
+  "desc": "A field of California poppies blooming in the Ikoma Highlands in Kobayashi City, Miyazaki Prefecture, and Mt. Hinamori (commonly known as Ikoma Fuji) in the Kirishima mountain range",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "生駒高原のポピー畑と夷守岳を写したもので、渡川温泉の共同浴場とは無関係。"
+ },
+ {
+  "id": "niche_愛知_2",
+  "name": "奥三河温泉郷",
+  "file": "File:Toei town Tsuta-no-fuchi waterfall ac (1).jpg",
+  "cats": [
+   "CC-BY-SA-4.0",
+   "June 2018 in Aichi prefecture",
+   "Self-published work",
+   "Tsuta no Fuchi"
+  ],
+  "desc": "愛知県北設楽郡東栄町。大千瀬川にある滝「蔦の渕」（つたのふち）。幅約30m、落差約10m。「奥三河のナイアガラ」の異名を持つ。",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "撮影地は東栄町の蔦の渕で、旅先の豊根村・湯〜らん館とは別の場所。"
+ },
+ {
+  "id": "gen_北海_相泊温泉",
+  "name": "相泊温泉",
+  "file": "File:140828 Mount Rausu Shiretoko Hokkaido Japan01s3.jpg",
+  "cats": [
+   "CC-BY-2.5",
+   "CC-BY-SA-3.0-migrated",
+   "Files with coordinates missing SDC location of creation",
+   "GFDL",
+   "Japan photographs taken on 2014-08-28",
+   "License migration redundant"
+  ],
+  "desc": "Mount Rausu view from the Sea of Okhotsk at Shari, Hokkaido prefecture, Japan.",
+  "geoKm": 19.7,
+  "geoBad": false,
+  "match": "no",
+  "reason": "斜里町側のオホーツク海から羅臼岳を望む写真で、相泊温泉の湯小屋や相泊海岸を写したものではない。"
+ },
+ {
+  "id": "niche_鳥取_5",
+  "name": "小松温泉",
+  "file": "File:Sanbutsu-ji, nageiredou-1-2.jpg",
+  "cats": [
+   "Artworks digital representation of unknown type of work",
+   "Artworks with Wikidata item",
+   "Artworks with Wikidata item missing genre",
+   "CC-Zero",
+   "Nageire Hall, Sanbutsuji",
+   "Self-published work"
+  ],
+  "desc": "",
+  "geoKm": null,
+  "geoBad": false,
+  "match": "no",
+  "reason": "写真は三徳山三佛寺投入堂であり、小松温泉の外湯とは無関係。"
+ }
+]

@@ -1,0 +1,600 @@
+{
+ "adopted": [
+  {
+   "id": "niche_富山_6",
+   "name": "五箇山平村",
+   "file": "File:Gokayama traditional houses, Toyama Prefecture; September 2019 (10).jpg",
+   "credit": {
+    "author": "雷太",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gokayama_traditional_houses,_Toyama_Prefecture;_September_2019_(10).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "五箇山の合掌造り民家の特徴的な木造建築が明るく見映えよく撮影されている。伝統的な外観が旅先の魅力を効果的に表現。"
+    }
+   },
+   "pixelDiffAfter": 2,
+   "replaced": "File:Gokayama traditional houses, Toyama Prefecture; September 2019 (02).jpg"
+  },
+  {
+   "id": "ichinoseki-hiraizumi2",
+   "name": "平泉",
+   "file": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (01).jpg",
+   "credit": {
+    "author": "_steffen",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hiraizumi%27s_surroundings,_Iwate_Prefecture;_August_2018_(01).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "平泉の参道を思わせる緑豊かな雰囲気が明るく撮影されており、古い木製柵が歴史的な寺院地の特徴を示している。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (03).jpg"
+  },
+  {
+   "id": "gen_北海_網走湖畔温泉",
+   "name": "網走湖畔温泉",
+   "file": "File:130714 Lake Abashiri Hokkaido Japan02bs5.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:130714_Lake_Abashiri_Hokkaido_Japan02bs5.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "網走湖の湖畔風景が明るく見映えよく撮影されている。湖と周辺の緑が美しく、温泉地のロケーションを効果的に表現できている。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": null
+  },
+  {
+   "id": "gen_栃木_湯西川温泉",
+   "name": "湯西川温泉",
+   "file": "File:Heikesyuraku2011-10-23.jpg",
+   "credit": {
+    "author": "Sidelines",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Heikesyuraku2011-10-23.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "湯西川の清流、紅葉した山々、伝統的な建築が調和。温泉地の典型的な景観を明るく表現している。"
+    }
+   },
+   "pixelDiffAfter": 0.9,
+   "replaced": null
+  },
+  {
+   "id": "usuki",
+   "name": "臼杵",
+   "file": "File:臼杵三島神社.jpg",
+   "credit": {
+    "author": "COUNTR",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E8%87%BC%E6%9D%B5%E4%B8%89%E5%B3%B6%E7%A5%9E%E7%A4%BE.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "臼杵石仏への参道と思われる鳥居と石段。赤い灯籠と古い木造鳥居が特徴的で、臼杵の寺社仏閣エリアを表現できている。"
+    }
+   },
+   "pixelDiffAfter": 1.1,
+   "replaced": null
+  },
+  {
+   "id": "nakanoshima-oki",
+   "name": "中ノ島",
+   "file": "File:Camp site at Akyia-kaigan coast, Ama (Nakanoshima).jpg",
+   "credit": {
+    "author": "Yuvalr",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Camp_site_at_Akyia-kaigan_coast,_Ama_(Nakanoshima).jpg",
+    "attributionRequired": true
+   },
+   "place": "weak",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "中ノ島の海岸風景が明るく美しく撮影されており、ヒーロー画像として適切。ただし固有の手がかりがない。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "中ノ島の赤岩と碧い海が広がるパノラマ景観で島の特徴が明確"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": null
+  },
+  {
+   "id": "niche_千葉_2",
+   "name": "小湊鐵道沿線",
+   "file": "File:ゆるりと行く - panoramio.jpg",
+   "credit": {
+    "author": "ESU",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%82%86%E3%82%8B%E3%82%8A%E3%81%A8%E8%A1%8C%E3%81%8F_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "小湊鐵道の列車が特徴的な赤と白の塗装で写っており、緑豊かな房総の風景背景も美しく、紹介画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": null
+  },
+  {
+   "id": "niche_岐阜_8",
+   "name": "養老公園",
+   "file": "File:Taki Valley from Fudo Bridge 2023-05-03.jpg",
+   "credit": {
+    "author": "Alpsdake",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Taki_Valley_from_Fudo_Bridge_2023-05-03.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "養老川の階段滝と周囲の緑豊かな山々が明るく写っており、養老公園の代表的景観。見映えよく適切。"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": null
+  },
+  {
+   "id": "niche_奈良_3",
+   "name": "月ヶ瀬温泉と梅林の里",
+   "file": "File:Tsukigase 07.jpg",
+   "credit": {
+    "author": "N yotarou",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Tsukigase_07.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "月ヶ瀬の梅林と月ヶ瀬湖の景観が見映え良く撮影。季節の梅の花と渓谷美が表現されている。"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_神居岩温泉",
+   "name": "神居岩温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:北海道道1031号神居岩総合公園線.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識が主役で、温泉地の風景・景観・施設が写っていない。看板のみの撮影は紹介画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_オーロラ温泉",
+   "name": "オーロラ温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_青森_嶽温泉",
+   "name": "嶽温泉",
+   "current": null,
+   "candidates": 10,
+   "tried": [
+    {
+     "title": "File:Tombs of Yue Fei and Yue Yun, Feb 2017.jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "名所",
+      "reason": "嶽温泉の象徴的な石碑と参拝花が写っており、温泉地の雰囲気が良く表現されている。明るく見映えよい写真。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "その他",
+      "reason": "中国語碑文の墓所であり嶽温泉と無関係な別の場所"
+     }
+    },
+    {
+     "title": "File:Entrance to Yue Fei Temple, Hangzhou.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "嶽温泉ではなく、中国の古典建築（寺院）の写真。旅先と無関係。"
+    },
+    {
+     "title": "File:Yue Wan Market.JPG",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "駅",
+     "reason": "駅の構内・通路の写真。嶽温泉の風景や名所が写っていない。紹介画像に不適切。"
+    },
+    {
+     "title": "File:Yue Loong Feeling 1.8GTX FP-BV-92 20141101e.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "車の後部を撮った写真で、嶽温泉の風景・景観・名所が全く写っていません。旅先紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Yue Loong Feeling 1.8GTX FP-BV-92 20141101f.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内のガレージ・工場内で自動車を撮影した写真。嶽温泉の風景・景観・名所が写っていません。"
+    },
+    {
+     "title": "File:Tombs of Yue Fei and Yue Yun 20161002.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "記念碑・慰霊碑が主体で、嶽温泉の風景や名所として適切ではない。温泉地の紹介画像に不向き。"
+    },
+    {
+     "title": "File:Yue Fei Mother Tattooing Yue Fei statues back 2016 January.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "人物像（銅像）が主役で、嶽温泉の風景・景観が見えない。紹介画像には不適切。"
+    },
+    {
+     "title": "File:Tomb of Yue Fei, 1907.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "古い白黒写真で極端に色褪せており、温泉施設の特定が困難。紹介画像として見映えが悪い。"
+    },
+    {
+     "title": "File:20100326 Tombs of Yue Fei and Yue Yun.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "墓碑・記念碑が主役。温泉地の風景・景観・施設が写っておらず、紹介画像として不適切。"
+    },
+    {
+     "title": "File:Tomb of Yue Fei (Stone Statue).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "嶽温泉の特定手がかりがなく、古い白黒写真で暗い。建築物は写っているが場所の特定不可。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_花の拠点「はなふる」",
+   "name": "花の拠点 はなふる",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_宮城_5",
+   "name": "登米の蔵の町並み",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:Uniform police office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "屋内の展示施設の写真。登米の蔵の町並みのヒーロー画像には、土蔵群の外観風景が必要です。"
+    },
+    {
+     "title": "File:Prison Police Office,Tome.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "土蔵の内部展示・説明板が主。蔵の町並みの外観風景ではなく屋内の資料展示に該当します。"
+    }
+   ]
+  },
+  {
+   "id": "niche_福島_4",
+   "name": "小高区歴史的町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_富山_3",
+   "name": "福光地区",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_2",
+   "name": "南部町・湯船温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Spa Yokomuki, Takigawayaya, Inawashiro town Fukushima.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "温泉の屋内浴場の写真で、外観が見えません。紹介画像には屋外の風景や温泉地の雰囲気が必要です。"
+    }
+   ]
+  },
+  {
+   "id": "niche_滋賀_3",
+   "name": "永源寺門前と愛知川",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_大阪_1",
+   "name": "能勢白滝",
+   "current": null,
+   "candidates": 10,
+   "tried": [
+    {
+     "title": "File:尾道市 白滝山山頂.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "能勢白滝の白滝ではなく、寺院の参道と仏像。別の場所の写真と判定。"
+    },
+    {
+     "title": "File:Michinoeki Konze no sato Rittō 20210404 02.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "能勢白滝の紹介画像として不適切。屋内の食事風景で、滝などの風景・景観が写っていません。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-08-07.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "料理写真であり、能勢白滝の風景・景観・名所が写っていません。紹介ページのヒーロー画像として不適切です。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (001).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "食事の写真です。能勢白滝の自然風景や白滝の景観ではなく、ヒーロー画像として不適切です。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (003).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "料理の接写写真です。能勢白滝の白滝（滝の風景）とは無関係で、紹介ページのヒーロー画像に不適切です。"
+    },
+    {
+     "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (002).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "料理の写真で、能勢白滝の風景・景観・名所が写っていません。紹介画像に不適切です。"
+    },
+    {
+     "title": "File:Wet shirataki noodles.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "食品パッケージの写真です。能勢白滝の風景や白滝という名所が全く写っていません。"
+    },
+    {
+     "title": "File:Tomato shirataki noodles.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "料理の写真であり、能勢白滝の風景・景観・名所ではない。紹介画像として不適切。"
+    },
+    {
+     "title": "File:Shirataki noodle dish.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "屋内の食事（ラーメン/麺料理）の写真。旅先の風景や名所である白滝が全く写っていません。"
+    },
+    {
+     "title": "File:麓郷の森 黒板五郎の丸太小屋 玄関部分 Akiyoshi's RoomP6220392P6220393.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "白滝が主見どころだが、写真は古い木造建築の屋内。滝の風景がなく、紹介画像として不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_鳥取_8",
+   "name": "琴浦町の漁村風景",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_徳島_2",
+   "name": "勝浦川峡谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_熊本_2",
+   "name": "産山村の星の宮古墳",
+   "current": null,
+   "candidates": 6,
+   "tried": [
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, funkyu-2.jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": true,
+      "subject": "名所",
+      "reason": "古墳の盛り上がった地形が明確に見え、周囲の裸木林とともに古墳の特徴を表現。季節感もあり紹介画像に適切。"
+     },
+     "sonnet": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "名所",
+      "reason": "古墳の墳丘と落ち葉・冬木立が写り景観として成立するが場所を特定する手がかりなし"
+     }
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, enkei.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "古墳が見当たらず、競技場や運動施設に見えます。星の宮古墳の特徴的な地形が確認できません。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, funcho.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "古墳の特徴的な形状が見えず、単なる木立と地面に見える。古墳であると断定できる手がかりがない。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, funkyu-1.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "古墳の特徴的な形状が不明確。樹林地の一般的な風景に見え、星の宮古墳だと特定できる手がかけがない。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, zenpoubu.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "名所",
+     "reason": "古墳の土塁が写っているが、樹木が大部分を占め古墳自体が明確に見えない。ヒーロー画像として見映えが悪い。"
+    },
+    {
+     "title": "File:Hoshinomiya Sengenzuka Kofun, kouhoubu.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "古墳の特徴的な形状や遺構が視認できず、単なる雑木林の風景。星の宮古墳と断定できる手がかりがない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_宮崎_3",
+   "name": "みやざき地鶏の里",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

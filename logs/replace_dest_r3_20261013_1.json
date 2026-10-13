@@ -1,0 +1,317 @@
+{
+ "adopted": [
+  {
+   "id": "kashima",
+   "name": "鹿嶋",
+   "file": "File:Kashima-jingu karidono.JPG",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kashima-jingu_karidono.JPG",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "鹿島神宮の境内施設と思われる神社建築。古風な木造社殿、参拝者の奉納絵馬、石燈籠など神社特有の要素が写り、鹿嶋の主要見どころとして適切。"
+    }
+   },
+   "pixelDiffAfter": 2.3,
+   "replaced": "File:Kashima-jingu shasou.JPG"
+  },
+  {
+   "id": "sagae",
+   "name": "寒河江",
+   "file": "File:Lake Gassan 20250713.jpg",
+   "credit": {
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Gassan_20250713.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "景観",
+     "reason": "寒河江ダムの湖面と周辺山々の風景。明るく見映えよく、寒河江の主な見どころを表現している。"
+    }
+   },
+   "pixelDiffAfter": 0.7,
+   "replaced": "File:Tendo station.jpg"
+  },
+  {
+   "id": "gen_群馬_片品温泉",
+   "name": "片品温泉",
+   "file": "File:尾瀬ヶ原からの景鶴山.jpg",
+   "credit": {
+    "author": "Koda6029",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%BE%E7%80%AC%E3%83%B6%E5%8E%9F%E3%81%8B%E3%82%89%E3%81%AE%E6%99%AF%E9%B6%B4%E5%B1%B1.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "片品温泉周辺の山々と湿原を捉えた景観。自然風景として見映えよく、地域特性を表現している。"
+    }
+   },
+   "pixelDiffAfter": 0.4,
+   "replaced": null
+  },
+  {
+   "id": "iga-ueno",
+   "name": "伊賀上野",
+   "file": "File:140412-1651 Ueno Park, Iga - panoramio.jpg",
+   "credit": {
+    "author": "carloshonda",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:140412-1651_Ueno_Park,_Iga_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "伊賀上野の城跡と町並みを俯瞰した明るく見映えの良い景観写真。桜の時期の緑と建造物が調和している。"
+    }
+   },
+   "pixelDiffAfter": 0.6,
+   "replaced": null
+  },
+  {
+   "id": "akiyoshido",
+   "name": "秋芳洞",
+   "file": "File:Akiyoshidai Quasi-National Park - Wikivoyage Banner.jpg",
+   "credit": {
+    "author": "Missvain",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Akiyoshidai_Quasi-National_Park_-_Wikivoyage_Banner.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "屋内",
+     "reason": "秋芳洞の地下空間の特徴的な鍾乳石と照明が写っており、秋芳洞だと判定可能。明るく壮観な景観が表現されている。"
+    }
+   },
+   "pixelDiffAfter": 2.9,
+   "replaced": null
+  },
+  {
+   "id": "gen_北海_浦臼神社",
+   "name": "浦臼神社",
+   "file": "File:Urausu Shrine.jpg",
+   "credit": {
+    "author": "禁樹なずな",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Urausu_Shrine.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "浦臼神社の鳥居と社号標が明確に写っており、神社の参道風景として適切。明るく見映えよい"
+    }
+   },
+   "pixelDiffAfter": 0.8,
+   "replaced": null
+  },
+  {
+   "id": "niche_山梨_4",
+   "name": "猿橋宿場町",
+   "file": "File:猿橋 - panoramio (4).jpg",
+   "credit": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%8C%BF%E6%A9%8B_-_panoramio_(4).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "猿橋の特徴的な桶樋造りの木造橋が明るく、周囲の緑とともに見映えよく撮影されている。歴史的建造物として識別可能。"
+    }
+   },
+   "pixelDiffAfter": 1.7,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_北海_神威脇温泉",
+   "name": "神威脇温泉",
+   "current": "File:鍋釣岩 - panoramio.jpg",
+   "candidates": 3,
+   "tried": [
+    {
+     "title": "File:Kamuiwaki onsen.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、経年劣化が目立ち、駐車場や周辺施設が映り込んでいます。ヒーロー画像として見映えが良くありません。"
+    },
+    {
+     "title": "File:Kamuiwaki Hoyosho.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の建物ですが、駐車場と電柱が目立ち、ヒーロー画像として風景的な美しさや魅力が不足しています。"
+    },
+    {
+     "title": "File:Nabetsuru iwa 2011.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "神威脇温泉の見どころとは無関係。岩礁の奇岩であり、温泉地の特徴を示していない。"
+    }
+   ]
+  },
+  {
+   "id": "gen_北海_白老温泉",
+   "name": "白老温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_北海_見市温泉",
+   "name": "見市温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "name": "相乗温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "gen_青森_馬門温泉",
+   "name": "馬門温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_秋田_5",
+   "name": "太平湖と奥ノ松渓谷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_栃木_4",
+   "name": "馬頭温泉郷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_神奈川_5",
+   "name": "開成町水田",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_福井_1",
+   "name": "河野海岸の三角波紋",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_愛知_4",
+   "name": "内子町の三間町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_滋賀_6",
+   "name": "賤ヶ岳と湖北山里",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_大阪_3",
+   "name": "山崎の古い町並み",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_和歌山_3",
+   "name": "北山村いかだ下り",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_島根_4",
+   "name": "掛合町の鐘乳洞群",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_高知_1",
+   "name": "佐川町の酒蔵と古い町並み",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Aoyama bunko.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "駐車場からの撮影で、建築が部分的で全景が見えない。風景写真として見映えが不十分。"
+    }
+   ]
+  },
+  {
+   "id": "niche_熊本_8",
+   "name": "三角町の漁師町",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_鹿児島_5",
+   "name": "栗野岳温泉郷",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  }
+ ]
+}

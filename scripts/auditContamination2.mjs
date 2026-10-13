@@ -13,6 +13,13 @@
  *  H. 本文中の河川・湖・山などの固有名詞が、その県を流れない/存在しない
  *
  * 修正は行わず検出のみ。前回対応済みの16件は除外する。
+ *
+ * 【2026-10-13 精度向上】147件の内訳を実物で確認したところ、本物の混入は2件だけだった。誤検出の型を除いた。
+ *   B  railProvider は src のどこからも参照されない項目で、県ごとに決まる値でもない（hub が東京でも e5489 が32件）→ 対象外
+ *   A  「長野県・岐阜県」のような複数県の表記は、どれかに一致すればよい。五箇山の宿検索=高山は設計どおり（INTENDED_A）
+ *   C  hubStation は「出発駅」の表記で、拠点の県とは別の場所を指すのが正常 → 対象外（railGateway・accessStation は従来どおり）
+ *   G  その destination 自身の本文・スポットにも出てくる名前（糸島の夫婦岩・摩周湖の川湯温泉）は同名の別地ではない → 除外
+ *   H  語の境界で判定（仁淀川・大淀川を「淀川」と誤読しない）。那珂川(福岡)・吉野川(奈良)・天竜川(愛知)の流域を追加
  */
 import fs from 'fs';
 import path from 'path';
@@ -62,18 +69,23 @@ const GEO_FEATURES = [
   ['信濃川', ['新潟県','長野県']], ['千曲川', ['長野県']],
   ['最上川', ['山形県']], ['北上川', ['岩手県','宮城県']], ['阿武隈川', ['福島県','宮城県']],
   ['木曽川', ['長野県','岐阜県','愛知県','三重県']], ['長良川', ['岐阜県','三重県']],
-  ['天竜川', ['長野県','静岡県']], ['富士川', ['山梨県','静岡県']],
+  ['天竜川', ['長野県','静岡県','愛知県']], ['富士川', ['山梨県','静岡県']],
   ['淀川', ['京都府','大阪府','滋賀県']], ['熊野川', ['奈良県','三重県','和歌山県']],
-  ['吉野川', ['徳島県','高知県','愛媛県']], ['四万十川', ['高知県']], ['仁淀川', ['高知県','愛媛県']],
+  ['吉野川', ['徳島県','高知県','愛媛県','奈良県']], ['四万十川', ['高知県']], ['仁淀川', ['高知県','愛媛県']],
   ['筑後川', ['福岡県','佐賀県','大分県','熊本県']], ['球磨川', ['熊本県']],
   ['太田川', ['広島県']], ['江の川', ['広島県','島根県']], ['斐伊川', ['島根県']],
-  ['渡良瀬川', ['群馬県','栃木県','茨城県','埼玉県']], ['那珂川', ['栃木県','茨城県']],
+  ['渡良瀬川', ['群馬県','栃木県','茨城県','埼玉県']], ['那珂川', ['栃木県','茨城県','福岡県']],
   ['琵琶湖', ['滋賀県']], ['霞ヶ浦', ['茨城県']], ['猪苗代湖', ['福島県']], ['十和田湖', ['青森県','秋田県']],
   ['大村湾', ['長崎県']], ['有明海', ['福岡県','佐賀県','長崎県','熊本県']], ['瀬戸内海', ['兵庫県','岡山県','広島県','山口県','香川県','愛媛県','徳島県','大阪府']],
 ];
 
 // 都道府県の完全名で照合する（「..県」だと神奈川県→奈川県のように誤検出する）
 const PREF_RE = new RegExp('(' + PREFS.map(([, k]) => k).join('|') + ')');
+
+/** 宿の検索地域を隣県の宿場にしているのが設計どおりのもの（五箇山は宿が少なく、高山・白川郷の宿を案内する） */
+const INTENDED_A = new Set(['gokayama']);
+/** 登録されていない同名の別地（北海道の川湯温泉＝弟子屈）を、登録済みの遠方の同名地（和歌山の川湯温泉）と取り違えているもの。id → 語 */
+const INTENDED_G = new Map([['mashu-ko', '川湯温泉']]);
 
 const hits = new Map();
 const flag = (d, cat, detail) => {
@@ -86,10 +98,11 @@ for (const d of D) {
   /* A. hotelArea */
   if (d.hotelArea && d.prefecture && !REGION_AREA.has(d.hotelArea)) {
     const p = AREA2PREF.get(String(d.hotelArea).toLowerCase()) || AREA2PREF.get(String(d.hotelArea));
-    if (p && p !== d.prefecture) flag(d, 'A:hotelArea', `hotelArea=${d.hotelArea}（${p}）だが prefecture=${d.prefecture}`);
+    const declared = d.prefecture.split(/[・、,]/).map((x) => x.trim());
+    if (p && !declared.includes(p) && !INTENDED_A.has(d.id)) flag(d, 'A:hotelArea', `hotelArea=${d.hotelArea}（${p}）だが prefecture=${d.prefecture}`);
   }
-  /* B. railProvider */
-  if (d.railProvider && d.prefecture) {
+  /* B. railProvider — 2026-10-13 に対象外（未使用の項目。検出ルールも粗く、100件がすべてノイズだった） */
+  if (false && d.railProvider && d.prefecture) {
     const p = d.prefecture, rp = d.railProvider;
     const bad = (rp === 'jrkyushu' && !JR_KYUSHU.has(p))
       || (rp === 'ekinet' && (JR_WEST.has(p) || JR_KYUSHU.has(p)))
@@ -98,7 +111,7 @@ for (const d of D) {
   }
   /* C. 駅名が別県の遠方destinationと同名 */
   if (typeof d.lat === 'number') {
-    for (const [f, raw] of [['railGateway', d.railGateway], ['accessStation', d.accessStation], ['hubStation', d.hubStation]]) {
+    for (const [f, raw] of [['railGateway', d.railGateway], ['accessStation', d.accessStation]]) {   // hubStation は出発駅の表記なので対象外（2026-10-13）
       if (!raw) continue;
       const base = String(raw).replace(/駅$/, '');
       if (nameCount[base] !== 1) continue;
@@ -137,6 +150,7 @@ for (const d of D) {
       for (const o of D) {
         if (o.name === d.name || o.name.length < 3 || nameCount[o.name] !== 1 || typeof o.lat !== 'number') continue;
         if (!t.includes(o.name) || okNames(d).has(o.name)) continue;
+        if (mentions(d, o.name) || INTENDED_G.get(d.id) === o.name) continue;   // 自分の本文・スポットにも出る名前は、同名の別地ではない（2026-10-13）
         if (o.prefecture !== d.prefecture && km(d, o) > 80)
           flag(d, 'G:テキスト', `${f} に「${o.name}」（${o.prefecture}・${Math.round(km(d, o))}km）`);
       }
@@ -145,7 +159,10 @@ for (const d of D) {
   /* H. 河川・湖沼の地理的矛盾 */
   const prose = [d.description, d.catch, d.stayDescription, (d.tags || []).join(' ')].filter(Boolean).join(' ');
   for (const [feat, prefs] of GEO_FEATURES) {
-    if (prose.includes(feat) && d.prefecture && !prefs.includes(d.prefecture))
+    const declaredH = (d.prefecture || '').split(/[・、,]/).map((x) => x.trim());
+    // 語の境界: 直前が漢字・カタカナなら別の語の一部（仁淀川・大淀川の「淀川」）。2026-10-13
+    const hasFeat = new RegExp('(?<![一-龥ァ-ヶ])' + feat).test(prose);
+    if (hasFeat && d.prefecture && !declaredH.some((x) => prefs.includes(x)))
       flag(d, 'H:地理矛盾', `本文に「${feat}」（${prefs.join('/')}）だが prefecture=${d.prefecture}`);
   }
 }

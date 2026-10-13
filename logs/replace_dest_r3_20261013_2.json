@@ -1,0 +1,617 @@
+{
+ "adopted": [
+  {
+   "id": "nabari",
+   "name": "名張",
+   "file": "File:Akame 48 Waterfalls, Nunobiki Falls.jpg",
+   "credit": {
+    "author": "Saigen Jiro",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Akame_48_Waterfalls,_Nunobiki_Falls.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "赤目四十八滝の代表的な滝の景観。緑に囲まれた渓谷と白い滝、清流が見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.8,
+   "replaced": "File:Akame 48 Waterfalls-Otometaki.jpg"
+  },
+  {
+   "id": "otaru",
+   "name": "小樽",
+   "file": "File:220720 Wing Bay Otaru Otaru Hokkaido Japan01s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:220720_Wing_Bay_Otaru_Otaru_Hokkaido_Japan01s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "小樽運河沿いの建築群が明るく写っており、運河の風景として見映えよい。小樽の象徴的な景観。"
+    }
+   },
+   "pixelDiffAfter": 1.2,
+   "replaced": "File:小樽運河 - panoramio (7).jpg"
+  },
+  {
+   "id": "niche_宮崎_7",
+   "name": "湯の元温泉",
+   "file": "File:王子神社の鳥居 都城市山之口町花木.jpg",
+   "credit": {
+    "author": "あじさか",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E5%AD%90%E7%A5%9E%E7%A4%BE%E3%81%AE%E9%B3%A5%E5%B1%85_%E9%83%BD%E5%9F%8E%E5%B8%82%E5%B1%B1%E4%B9%8B%E5%8F%A3%E7%94%BA%E8%8A%B1%E6%9C%A8.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "湯の元温泉の象徴的な赤い鳥居と階段。温泉地の入口として特徴的で識別可能。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "replaced": "File:Kumano Kodo pilgrimage route Yunomine Onsen World heritage 熊野古道 湯の峰温泉56.JPG"
+  },
+  {
+   "id": "gen_北海_滝の湯温泉",
+   "name": "滝の湯温泉",
+   "file": "File:140828 Kamuiwakka Falls and Mount Io Shiretoko Hokkaido Japan02sbs13.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140828_Kamuiwakka_Falls_and_Mount_Io_Shiretoko_Hokkaido_Japan02sbs13.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "北海道の山岳・渓谷風景として見映えよく、明るく撮影されている。ただし滝の湯温泉を特定する手がかりは写っていない。"
+    },
+    "sonnet": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "海岸崖から落ちる滝と緑の山並みが明るく写り、滝の湯温泉周辺の景観として適切"
+    }
+   },
+   "pixelDiffAfter": 1.4,
+   "replaced": null
+  },
+  {
+   "id": "gen_北海_支笏湖いとう温泉",
+   "name": "支笏湖温泉",
+   "file": "File:Lake Shikotsu, Hokkaido, Japan by Planet Labs.jpg",
+   "credit": {
+    "author": "Planet Labs, Inc.",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu,_Hokkaido,_Japan_by_Planet_Labs.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "支笏湖の独特な形状と周囲の山々が明確に映る空撮。湖の美しさが引き立つ見映えよい構図。"
+    }
+   },
+   "pixelDiffAfter": 0.5,
+   "replaced": null
+  },
+  {
+   "id": "saga",
+   "name": "佐賀",
+   "file": "File:Gozanoma and Kan'nindokoro of Saga Castle outside.jpg",
+   "credit": {
+    "author": "Pekachu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gozanoma_and_Kan%27nindokoro_of_Saga_Castle_outside.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "佐賀城本丸歴史館の復元建築が明るく見映えよく撮影されている。江戸時代の建築様式が特徴的。"
+    }
+   },
+   "pixelDiffAfter": 1.6,
+   "replaced": null
+  },
+  {
+   "id": "tajimi",
+   "name": "多治見",
+   "file": "File:Mosaic tile works ac (5).jpg",
+   "credit": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mosaic_tile_works_ac_(5).jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "本町オリベストリートの特徴的な陶板アート。多治見の焼き物文化を象徴する蝶のモチーフ装飾が明るく写っている。"
+    }
+   },
+   "pixelDiffAfter": 3.6,
+   "replaced": null
+  },
+  {
+   "id": "niche_福井_2",
+   "name": "白山平泉寺門前町",
+   "file": "File:Heisenji, Hakusan - 05 - 2016-04-26.jpg",
+   "credit": {
+    "author": "MathieuMD",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Heisenji,_Hakusan_-_05_-_2016-04-26.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "白山平泉寺の参道入口の風景。石段、鳥居、古木が特徴的で、歴史的な寺院門前町の雰囲気が明るく美しく表現されている。"
+    }
+   },
+   "pixelDiffAfter": 1.3,
+   "replaced": null
+  },
+  {
+   "id": "niche_島根_6",
+   "name": "黒淵の滝",
+   "file": "File:140426 Yuushien Matsue Shimane pref Japan02s3.jpg",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:140426_Yuushien_Matsue_Shimane_pref_Japan02s3.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "名所",
+     "reason": "黒淵の滝の特徴的な段状の滝が明るく美しく写っており、渓谷の豊かな緑とともに見映えよく撮影されている。ヒーロー画像として適切。"
+    }
+   },
+   "pixelDiffAfter": 1.9,
+   "replaced": null
+  },
+  {
+   "id": "niche_高知_6",
+   "name": "日高村",
+   "file": "File:仁淀川の柳瀬橋の空撮写真.jpg",
+   "credit": {
+    "author": "谷本 一郎",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%BB%81%E6%B7%80%E5%B7%9D%E3%81%AE%E6%9F%B3%E7%80%AC%E6%A9%8B%E3%81%AE%E7%A9%BA%E6%92%AE%E5%86%99%E7%9C%9F.jpg",
+    "attributionRequired": true
+   },
+   "place": "ok",
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "日高村の山間部を流れる河川と橋、緑豊かな山々が映る自然風景。村の地理的特徴が明確で、紹介画像に適切。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "replaced": null
+  }
+ ],
+ "unresolved": [
+  {
+   "id": "gen_群馬_川中温泉",
+   "name": "川中温泉",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Agatsuma Gorge Aerial photograph.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "航空写真で地形は見えるが、川中温泉の特定の名所や建築が写っておらず、一般的な山間地域の航空写真に過ぎない。温泉地の紹介には不適切。"
+    }
+   ]
+  },
+  {
+   "id": "gen_青森_秋元温泉",
+   "name": "秋元温泉",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "ainan",
+   "name": "愛南",
+   "current": null,
+   "candidates": 17,
+   "tried": [
+    {
+     "title": "File:SZ 深圳 Shenzhen 龍崗 Longgang 寶龍 BaoLong 植物園路 ZiWuYuan Road 南約 Nanyue 碧新路 BiXin Road June 2024 R12S 13.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "看板",
+     "reason": "道路標識と交差点の風景で、愛南の見どころを示す要素がない。一本松温泉との関連性が不明。"
+    },
+    {
+     "title": "File:愛南ゴールド 贈答用 10kg ￥4500 (44179470852).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "屋内の販売展示品（柑橘類の袋詰め）が写っており、旅先の風景や名所ではない。"
+    },
+    {
+     "title": "File:JA Ehime-minami Iekushi branch office.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "駐車場と施設の外観が主体で、風景性に欠ける。ヒーロー画像には不向き。"
+    },
+    {
+     "title": "File:愛買板橋南雅店的6F露天停車場 20240917.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "都市部の駐車場と思われ、愛南町の風景ではない。指定の見どころとも無関係。"
+    },
+    {
+     "title": "File:Charaki Feraclos Castle Rhodes Greece.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "愛南町の景観ではなく、別地域の城跡と思われます。指定された見どころと無関係。"
+    },
+    {
+     "title": "File:Graffiti on train in Nafplio (2).jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "グラフィティで覆われた放置車両。愛南町や一本松温泉あけぼの荘の紹介画像として不適切です。"
+    },
+    {
+     "title": "File:Erechtheum Acropolis Athens.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "愛南の見どころと無関係。古代ギリシャ遺跡（アテネのエレクテイオン）で、愛媛県とは別の場所。"
+    },
+    {
+     "title": "File:Venetian Fortress of Koules in Heraklion, Crete 003.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "港",
+     "reason": "愛南町ではなく、別地域の港湾風景と思われます。指定の温泉施設の紹介画像として不適切です。"
+    },
+    {
+     "title": "File:View of Rethymno in Crete 001.jpg",
+     "place": "weak",
+     "stage": "sonnet",
+     "haiku": {
+      "verdict": "ok",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "愛南町の海岸沿いの町並みと瀬戸内海の風景が明るく映えており、ヒーロー画像として適切です。ただし具体的な建造物での特定は困難。"
+     },
+     "sonnet": {
+      "verdict": "ng",
+      "identifiable": false,
+      "subject": "風景",
+      "reason": "地中海沿岸風の街並みで愛南町・あけぼの荘とは無関係の別の場所"
+     }
+    },
+    {
+     "title": "File:愛買南雅店.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "屋内の商業施設（スーパー）の写真。愛南の見どころ「一本松温泉あけぼの荘」とは無関係。"
+    },
+    {
+     "title": "File:Building at the crater rim near Athinios port - Santorini - Greece.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "白い建物は写っているが、一本松温泉あけぼの荘と確認できる手がかけ（看板・サイン・建物名）がなく、別施設の可能性がある。"
+    },
+    {
+     "title": "File:愛買板橋南雅店.jpg",
+     "place": "weak",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "商業施設の外観と看板が主体。温泉旅館の雰囲気や風景要素が不足。ヒーロー画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "yamaguchi-city",
+   "name": "山口市",
+   "current": null,
+   "candidates": 34,
+   "tried": [
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan13s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "瑠璃光寺五重塔が写っていない。苔むした石が散在する庭園風景だが、山口市の特定の場所と判定できる手がかりがない。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan12s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "瑠璃光寺五重塔が見えません。寺院の建物と庭園のみで、山口市を特定する手がかりがありません。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan04s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "瑠璃光寺五重塔が写っていません。庭園の風景ですが、主な見どころが確認できません。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan08s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "瑠璃光寺五重塔が写っていない。森の風景のみで、山口市を特定できる手がかりがない。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan06s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "瑠璃光寺五重塔が見当たらない。庭園の池と樹木のみで、山口市の主要見どころを示す特定の手がかりが不足"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan17s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "森と水辺の風景ですが、瑠璃光寺五重塔が小さく遠すぎて判別困難。山口市特定の手がかりなし。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan09s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "屋内",
+     "reason": "瑠璃光寺五重塔が写っていません。寺院の庭園・池のみで、主な見どころが見当たりません。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan10s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "瑠璃光寺五重塔が写っていません。庭園の一部と思われますが、指定見どころの特定ができず、山口市の紹介画像として不適切です。"
+    },
+    {
+     "title": "File:140720 Jouei-ji Yamaguchi Yamaguchi pref Japan05s3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "建築",
+     "reason": "瑠璃光寺五重塔が見当たらない。庭園の建物のみで、山口市の主要な見どころを表現していない。"
+    },
+    {
+     "title": "File:The cityscape of Yamaguchi 20130821.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "山口市の街並み全体の写真で、瑠璃光寺五重塔が写っていない。紹介画像には見どころが明確に映る必要がある。"
+    },
+    {
+     "title": "File:Panoramic view of central Yamaguchi in the evening light.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "山口市の夜景ですが、瑠璃光寺五重塔が見えず、主な見どころが特定できません。"
+    },
+    {
+     "title": "File:Manhole cover of Yamaguchi, Yamaguchi 3.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "マンホール蓋の撮影。山口市の風景・名所ではなく、舗装面のクローズアップ。ヒーロー画像に不適切。"
+    }
+   ]
+  },
+  {
+   "id": "niche_山形_1",
+   "name": "白鷹町べにばな温泉郷",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:湯野浜温泉 亀や 鶴岡市 Aug 7, 2020 (1).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "施設の外観は写っているが、看板が主役で、建築が正面で映えておらず紹介画像として不適切。"
+    },
+    {
+     "title": "File:湯野浜温泉 亀や 鶴岡市 Aug 7, 2020 (2).jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "建物の銘板・看板が主体。温泉地の風景や景観が写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_群馬_1",
+   "name": "佐野の門前町",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_新潟_2",
+   "name": "寺泊アメの横丁",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_山梨_5",
+   "name": "猿が城跡",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_愛知_7",
+   "name": "吉良町漁村",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_京都_3",
+   "name": "青谷地区",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:Aotani district Joyo Kyotopref back graund.JPG",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "青谷地区や茶工場の特定手がかりがなく、一般的な田舎風景。主要な見どころが写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_兵庫_2",
+   "name": "湯村温泉・荒湯地獄",
+   "current": null,
+   "candidates": 0,
+   "tried": []
+  },
+  {
+   "id": "niche_和歌山_6",
+   "name": "高野龍神スカイライン",
+   "current": null,
+   "candidates": 2,
+   "tried": [
+    {
+     "title": "File:高野龍神スカイライン入口(中の橋交差点) Koyaryujin Skyline (Nakanohashi) - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "道路標識と施設が主体で、スカイラインの風景・景観が見えていません。紹介画像に不適切です。"
+    },
+    {
+     "title": "File:オートバイ高野龍神スカイラインPA060761.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "その他",
+     "reason": "人物（バイク乗車者）が主役となっており、旅先の風景・景観が主体ではない。スカイラインの特徴を示す要素が不足。"
+    }
+   ]
+  },
+  {
+   "id": "niche_大分_1",
+   "name": "佐賀関漁港と三浦海岸",
+   "current": null,
+   "candidates": 1,
+   "tried": [
+    {
+     "title": "File:神崎漁港から佐賀関大煙突を臨む - panoramio.jpg",
+     "place": "ok",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "海の風景ですが、漁港の特徴的な施設（船舶・漁具・岸壁）が見えず、どの漁港か特定できない一般的な海の景色のみ。"
+    }
+   ]
+  }
+ ]
+}

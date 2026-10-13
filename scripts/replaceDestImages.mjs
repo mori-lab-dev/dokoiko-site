@@ -44,12 +44,22 @@ const OUT = arg('--out', 'logs/replace_dest_images.json');
 const [SHARD_I, SHARD_N] = (arg('--shard', '0/1')).split('/').map(Number);
 const LIMIT = Number(arg('--limit', Infinity));
 const MAX_CAND = Number(arg('--max-cand', 9));
+const MIN_W = Number(arg('--min-w', 1200));   // ヒーローは object-fit:cover で出すので 1000px 台でも使える（既定は 1200）
 // --extra <json>: id → { queries:[…], pages:[Wikipedia記事名…], words:[所在地の手がかり…], ctx:'Visionへの補足' }
 // 英語表記・旧地名・近隣ランドマーク・記事本文中の画像など、既定の検索で当たらない旅先のための追加材料（2026-10-13）
 const EXTRA = arg('--extra') ? JSON.parse(fs.readFileSync(arg('--extra'), 'utf8')) : {};
 
 const dests = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8'));
 const byId = new Map(dests.map((d) => [d.id, d]));
+// 他の destination が既に出典にしているファイルは使わない（同じ写真の共有を作らない・解消した共有を作り直さない。2026-10-13）
+const titleOfUrl = (u) => (u ? decodeURIComponent((u.split('/wiki/')[1] || '').replace(/_/g, ' ')) : null);
+const USED = new Set();
+// 厳しい再検査（verifyReplacedStrict）で別の場所と判定されたファイルは、二度と採用しない（2026-10-13）
+try { for (const k of Object.keys(JSON.parse(fs.readFileSync('logs/image_rejected_titles.json', 'utf8')))) USED.add(k); } catch { /* 無ければ空 */ }
+for (const d of dests) {
+  const m = titleOfUrl(d.imageCredit?.url); if (m) USED.add(m);
+  for (const s of d.spots || []) { const k = titleOfUrl(s?.imageCredit?.url); if (k) USED.add(k); }
+}
 const wanted = JSON.parse(fs.readFileSync(IDS_FILE, 'utf8')).map((x) => (typeof x === 'string' ? x : x.id));
 const targets = wanted.filter((id, i) => i % SHARD_N === SHARD_I && byId.has(id)).slice(0, LIMIT);
 const report = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { adopted: [], unresolved: [] };
@@ -103,7 +113,7 @@ async function search(q) {
 }
 
 function acceptable(c, d, current) {
-  if (!c.w || c.w < 1200 || c.w <= c.h) return false;
+  if (!c.w || c.w < MIN_W || c.w <= c.h) return false;
   if (!/jpe?g|png/.test(c.mime || '')) return false;
   const lic = c.em.LicenseShortName?.value || '';
   if (!OK_LICENSE.test(lic) || BAD_LICENSE.test(lic)) return false;
@@ -112,6 +122,7 @@ function acceptable(c, d, current) {
   const bad = c.title.match(BAD_TITLE);
   if (bad && !name.toLowerCase().includes(bad[1].toLowerCase())) return false;
   if (current && c.title === current) return false;
+  if (USED.has(c.title)) return false;
   // 撮影地点（Commons の GeoData 座標）が旅先から離れすぎているものは別の場所（2026-10-13）。
   // 県名の一致だけでは同じ県の別の場所を通してしまうため、座標のあるファイルは距離で落とす。島・山の遠景があるので閾値は広め
   if (c.geo && d.lat != null && geoKm(c.geo, d) > GEO_MAX_KM) return false;
