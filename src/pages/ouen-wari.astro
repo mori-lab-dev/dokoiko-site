@@ -11,7 +11,7 @@ const countByPref = (pref: string) =>
 const ORDER = { open: 0, soon: 1, ended: 2 } as const;
 const active = SCHEMES.filter((s) => s.status !== 'ended').sort((a, b) => ORDER[a.status] - ORDER[b.status]);
 const endedSchemes = SCHEMES.filter((s) => s.status === 'ended');
-const CHECKED = '2026年10月13日';
+const CHECKED = '2026年10月14日';
 
 const title = '今使える旅行支援・応援割まとめ｜どこ行こ？';
 const description =
