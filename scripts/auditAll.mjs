@@ -8,6 +8,7 @@
  *   npm run audit:all -- --only qa,desc,indexability     指定した監査だけ
  *   npm run audit:all -- --update-baseline               今回の指標をベースラインとして固定する（改善を確定させるとき）
  *   npm run audit:all -- --list                          監査の一覧
+ *   npm run audit:all -- --today 2026-11-01              日付で状態が変わる監査（応援割の確認日の古さ）の基準日を指定する（過去の再現用・baseline.mjs が使う）
  *
  * 判定のしかた（指標ごと）
  *   zero    … 0 でなければ失敗（noindex・アフィリID欠落・クレジット不一致など、1件でもあってはならないもの）
@@ -68,7 +69,7 @@ const AUDITS = [
       '画像出典の共有(F)': R(num(/F:credit共有=(\d+)/, o, 0)), '地理矛盾(H)': R(num(/H:地理矛盾=(\d+)/, o, 0)) }) },
 
   { id: 'ouen-wari', tier: 'static', title: '応援割の表示が日付に対して古くなっていないか（終了日・開始日・確認日・公式リンク）',
-    cmd: ['node', 'scripts/auditOuenWari.mjs'], exitMeansFail: true,
+    cmd: ['node', 'scripts/auditOuenWari.mjs', ...(val('--today') ? ['--today', val('--today')] : [])], exitMeansFail: true,
     parse: (o) => ({ '終了日を過ぎても受付中のまま': Z(num(/終了日を過ぎているのに受付中・開始前のまま:\s*(\d+)件/, o)),
       '開始日を過ぎても「まもなく」のまま': Z(num(/開始日を過ぎているのに「まもなく」のまま:\s*(\d+)件/, o)),
       '確認日が古い': Z(num(/確認日が\d+日より古い:\s*(\d+)件/, o)),

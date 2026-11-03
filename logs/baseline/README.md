@@ -1,0 +1,31 @@
+# logs/baseline — サイトの状態記録
+
+同じ物差しで、日付ごとのサイトの状態を残す。毎週1回回して前回と比べる。
+
+## 毎週の運用
+
+```sh
+npm run baseline:full     # 速い検査 ＋ 別枠（外部へ実取得。30分前後）。平日の日中以外に、nice で
+npm run baseline          # 速い検査だけ（約20秒）。ビルド済みの dist を見る
+```
+
+- 出力: `<日付>.md`（読む用）・`<日付>.json`（比べる用）・`diff_<前回>_vs_<今回>.md`（自動）・`raw/`（生の監査レポート）
+- dist が src より古いときは記録の冒頭に ⚠ が出る → `npm run baseline -- --build`（ビルドするだけで、デプロイはしない）
+- 2日分を並べ直すとき: `npm run baseline -- --diff 2026-11-01 2026-11-04`
+- main 画像の照合（Commons）は毎回60件ずつ巡回する抜き取り。週ごとに見る目的地が違うので、その2指標の増減は目的地の入れ替わりを含む。
+- 「取得不可」＝その時点を再現できない（外部への実取得が要る）。「未実行」＝今回 `--live` を付けていないだけ。
+
+## 過去の時点を作り直す手順（2026-11-01 を作った方法）
+
+```sh
+git worktree add --detach <別ディレクトリ> $(git log --before='2026-11-02T00:00:00+09:00' -1 --format=%h)
+cp -Rc node_modules <別ディレクトリ>/node_modules
+npm --prefix <別ディレクトリ> run build
+node scripts/baseline.mjs --root <別ディレクトリ> --sync-scripts --date 2026-11-01 --out logs/baseline --label '再現'
+git worktree remove --force <別ディレクトリ> ; rm <別ディレクトリの隣>/dokoiko   # 隣に作られる ../dokoiko への道
+```
+
+- `--sync-scripts` で「今の検査スクリプト」を古いツリーに上書きコピーする（当時無かった検査も当てられる）。
+- noindex・スタブ・sitemap・canonical の検査は、ツリーの dist ではなく**配信リポジトリ `../dokoiko`** を読む。
+  別ツリーのときは隣に `../dokoiko` への道を作って読む。つまり、この検査は「配信リポジトリが今その状態か」であって、
+  過去の配信リポジトリを取り出してはいない（11/1 は最後のコミットが 10/14 のままなので同じ）。

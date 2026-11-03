@@ -1,0 +1,562 @@
+{
+ "date": "2026-11-04",
+ "asof": "2026-11-04",
+ "label": "",
+ "root": ".",
+ "live": true,
+ "metrics": {
+  "dest_count": {
+   "label": "目的地の件数",
+   "group": "size",
+   "better": "none",
+   "unit": "",
+   "value": 1307,
+   "status": "ok"
+  },
+  "featured_stay_count": {
+   "label": "featured_stay のある目的地",
+   "group": "size",
+   "better": "none",
+   "unit": "",
+   "value": 554,
+   "status": "ok"
+  },
+  "qa_fail": {
+   "label": "データ整合 qa の FAIL",
+   "group": "data",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "aff_id_bad": {
+   "label": "アフィリID不正・欠落（パターン数）",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "aff_generic_rakuten": {
+   "label": "汎用トップ相当の楽天リンク（パターン数）",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "aff_no_rakuten": {
+   "label": "楽天リンクが無いページ",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 1,
+   "status": "ok"
+  },
+  "aff_no_jalan": {
+   "label": "じゃらんリンクが無いページ",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 1,
+   "status": "ok"
+  },
+  "stay_wrapper_bad": {
+   "label": "宿リンク: ラッパー不備・素リンク",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "stay_app_launch": {
+   "label": "宿リンク: アプリ起動の恐れ",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "stay_featured_no_search": {
+   "label": "注目の宿の宿名検索が無い",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "stay_rentacar_bad": {
+   "label": "レンタカーリンクの不備",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "stay_charset_bad": {
+   "label": "検索語の文字コード不備（静的: Shift_JIS）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "stay_unique_links": {
+   "label": "一意な宿の検索リンク",
+   "group": "affiliate",
+   "better": "none",
+   "unit": "",
+   "value": 3010,
+   "status": "ok"
+  },
+  "jalan_not_allowed": {
+   "label": "じゃらんリンク: 許可リスト外のURL（アプリ起動の防止）",
+   "group": "affiliate",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "img_hero_missing": {
+   "label": "ヒーロー画像が出ないページ",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 92,
+   "status": "ok"
+  },
+  "img_spot_missing": {
+   "label": "spot 画像だけ欠けているページ",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 63,
+   "status": "ok"
+  },
+  "img_credit_mismatch": {
+   "label": "spot 画像: クレジットのリンク先が実ファイルと不一致",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "img_credit_shared": {
+   "label": "同じ写真（出典）を複数の目的地で共有（contamination F）",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "img_geo_conflict": {
+   "label": "地理矛盾（contamination H）",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "contam_new": {
+   "label": "他の目的地のデータ混入・新規検出",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "desc_total": {
+   "label": "description の全件数",
+   "group": "desc",
+   "better": "none",
+   "unit": "",
+   "value": 1307,
+   "status": "ok"
+  },
+  "desc_fail": {
+   "label": "新基準に落ちる件数",
+   "group": "desc",
+   "better": "lower",
+   "unit": "",
+   "value": 4,
+   "status": "ok"
+  },
+  "desc_pass_rate": {
+   "label": "新基準の通過率",
+   "group": "desc",
+   "better": "higher",
+   "unit": "%",
+   "value": 99.7,
+   "status": "ok"
+  },
+  "links_avg": {
+   "label": "他の旅先へのリンク平均（本）",
+   "group": "links",
+   "better": "higher",
+   "unit": "",
+   "value": 42.6,
+   "status": "ok"
+  },
+  "links_lt10": {
+   "label": "リンクが10本未満のページ",
+   "group": "links",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "links_orphan": {
+   "label": "どこからもリンクされない孤立ページ",
+   "group": "links",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "sd_bad": {
+   "label": "構造化データの不備（合計）",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "sd_lodging": {
+   "label": "LodgingBusiness のあるページ",
+   "group": "seo",
+   "better": "none",
+   "unit": "",
+   "value": 554,
+   "status": "ok"
+  },
+  "idx_noindex": {
+   "label": "noindex のページ",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "idx_stub": {
+   "label": "正規ページを隠す {id}.html スタブ",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "idx_sitemap_missing": {
+   "label": "sitemap に無い destination",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "idx_sitemap_ghost": {
+   "label": "sitemap にあるが実体が無い",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "idx_sitemap_noindex": {
+   "label": "sitemap に載るのに noindex",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "idx_no_canonical": {
+   "label": "canonical が無い",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "seo_meta_bad": {
+   "label": "メタ description・タグ・ヒーロー alt の欠落と重複（合計）",
+   "group": "seo",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "ouen_expired_open": {
+   "label": "終了日を過ぎても受付中・開始前のまま",
+   "group": "ouen",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "ouen_started_soon": {
+   "label": "開始日を過ぎても「まもなく」のまま",
+   "group": "ouen",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "ouen_stale_check": {
+   "label": "確認日が古い制度（14日より前）",
+   "group": "ouen",
+   "better": "lower",
+   "unit": "",
+   "value": 8,
+   "status": "ok"
+  },
+  "ouen_official_bad": {
+   "label": "公式リンクの不備",
+   "group": "ouen",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "desc_ng_phrase": {
+   "label": "禁止句が残っている件数",
+   "group": "desc",
+   "better": "lower",
+   "unit": "",
+   "value": 4,
+   "status": "ok"
+  },
+  "desc_hedge": {
+   "label": "推測表現が残っている件数",
+   "group": "desc",
+   "better": "lower",
+   "unit": "",
+   "value": 2,
+   "status": "ok"
+  },
+  "links_min": {
+   "label": "他の旅先へのリンク最少（本）",
+   "group": "links",
+   "better": "higher",
+   "unit": "",
+   "value": 22,
+   "status": "ok"
+  },
+  "ouen_schemes": {
+   "label": "応援割の制度数",
+   "group": "size",
+   "better": "none",
+   "unit": "",
+   "value": 8,
+   "status": "ok"
+  },
+  "ouen_pages": {
+   "label": "応援割ページの数（制度ページ＋まとめ・九州ふっこう・鹿児島のエリア）",
+   "group": "size",
+   "better": "none",
+   "unit": "",
+   "value": 16,
+   "status": "ok"
+  },
+  "ouen_max_age": {
+   "label": "確認日からの最大経過日数",
+   "group": "ouen",
+   "better": "lower",
+   "unit": "日",
+   "value": 21,
+   "status": "ok"
+  },
+  "rakuten_app_launch": {
+   "label": "楽天リンクがアプリを起動する形（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "live_rakuten_garbled": {
+   "label": "楽天: 検索語の文字化け（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "live_jalan_garbled": {
+   "label": "じゃらん: 検索語の文字化け（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "live_rakuten_zero": {
+   "label": "楽天: 0件になるリンク（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 1,
+   "status": "ok"
+  },
+  "live_jalan_zero": {
+   "label": "じゃらん: 0件になるリンク（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 7,
+   "status": "ok"
+  },
+  "live_rakuten_http": {
+   "label": "楽天: HTTP異常・輪・アプリ起動（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "live_jalan_http": {
+   "label": "じゃらん: HTTP異常・輪・アプリ起動（実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "live_unreadable": {
+   "label": "検索語が読めない（楽天＋じゃらん・実取得）",
+   "group": "charset",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "live_undecidable": {
+   "label": "判定不可（実取得で結論が出なかった数）",
+   "group": "charset",
+   "better": "none",
+   "unit": "",
+   "value": 73,
+   "status": "ok"
+  },
+  "img_main_credit_ng": {
+   "label": "main 画像: 出典と画素が一致しない（実取得・毎回60件の抜き取り）",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  },
+  "img_main_place_ng": {
+   "label": "main 画像: 所在地が別（Commons・毎回60件の抜き取り）",
+   "group": "image",
+   "better": "lower",
+   "unit": "",
+   "value": 0,
+   "status": "ok"
+  }
+ },
+ "lanes": {
+  "fast_total": 5.174,
+  "qa": 0.1,
+  "desc": 0.1,
+  "seo": 0.1,
+  "missing-images": 0.1,
+  "same-name-stay": 0.1,
+  "duplicates": 0.2,
+  "contamination": 0.3,
+  "ouen-wari": 0.1,
+  "structured-data": 1.1,
+  "internal-links": 0.5,
+  "indexability": 0.5,
+  "jalan-app-links": 0.6,
+  "affiliate": 0.4,
+  "stay-links": 0.6,
+  "spot-credits": 0.4,
+  "desc(禁止句)": 0.091,
+  "live_total": 3578.516,
+  "rakuten-app-links": 2.6,
+  "stay-links-live": 2593.5,
+  "pref-box": 847.5,
+  "main-images": 134.7
+ },
+ "notes": [],
+ "commit": "be0cdb31",
+ "commitDate": "2026-10-14 21:48:28 +0900",
+ "dirtySourceFiles": 0,
+ "deployCommit": "773aa76588 2026-10-14 21:49:02 +0900",
+ "deployDirty": 0,
+ "distBuiltAt": "2026-10-14T12:46:58.889Z",
+ "distStale": false,
+ "auditStatus": {
+  "qa": true,
+  "desc": true,
+  "seo": true,
+  "missing-images": true,
+  "same-name-stay": true,
+  "duplicates": true,
+  "contamination": true,
+  "ouen-wari": false,
+  "structured-data": true,
+  "internal-links": true,
+  "indexability": true,
+  "jalan-app-links": true,
+  "affiliate": true,
+  "stay-links": true,
+  "spot-credits": true
+ },
+ "ouenSchemes": [
+  {
+   "slug": "kagoshima-oen",
+   "status": "ended",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "kagoshima-fukko",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "fukuoka-oen",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "miyazaki-oen",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "kumamoto-oen",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "saga-oen",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "nagasaki-oen",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  },
+  {
+   "slug": "oita-oen",
+   "status": "open",
+   "checked": "2026年10月14日",
+   "ageDays": 21
+  }
+ ],
+ "liveStatus": {
+  "rakuten-app-links": true,
+  "stay-links-live": true,
+  "pref-box": true,
+  "main-images": true
+ }
+}

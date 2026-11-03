@@ -14,7 +14,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "audit:all": "node scripts/auditAll.mjs",
-    "audit:live": "node scripts/auditAll.mjs --live"
+    "audit:live": "node scripts/auditAll.mjs --live",
+    "baseline": "node scripts/baseline.mjs",
+    "baseline:full": "node scripts/baseline.mjs --live"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.92.0",
