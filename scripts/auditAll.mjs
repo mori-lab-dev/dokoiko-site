@@ -73,7 +73,8 @@ const AUDITS = [
     parse: (o) => ({ '終了日を過ぎても受付中のまま': Z(num(/終了日を過ぎているのに受付中・開始前のまま:\s*(\d+)件/, o)),
       '開始日を過ぎても「まもなく」のまま': Z(num(/開始日を過ぎているのに「まもなく」のまま:\s*(\d+)件/, o)),
       '確認日が古い': Z(num(/確認日が\d+日より古い:\s*(\d+)件/, o)),
-      '公式リンクの不備': Z(num(/公式リンクが無い・https でない:\s*(\d+)件/, o)) }) },
+      '公式リンクの不備': Z(num(/公式リンクが無い・https でない:\s*(\d+)件/, o)),
+      '出典なしの割引率・上限額': Z(num(/枠の外にある割引率・上限額:\s*(\d+)件/, o)) }) },
 
   { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',
     cmd: ['node', 'scripts/auditStructuredData.mjs'], exitMeansFail: true,

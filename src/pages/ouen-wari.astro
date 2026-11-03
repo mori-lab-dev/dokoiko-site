@@ -1,7 +1,7 @@
 ---
 import DestinationLayout from '../layouts/DestinationLayout.astro';
 import destinations from '../data/destinations.json';
-import { SCHEMES, NOT_LISTED, PARENT, STATUS_LABEL } from '../data/ouenWari';
+import { SCHEMES, NOT_LISTED, PARENT, PARENT_FACTS, STATUS_LABEL } from '../data/ouenWari';
 
 // 県ごとに、その県の旅先が何か所あるかを添える
 const countByPref = (pref: string) =>
@@ -11,7 +11,8 @@ const countByPref = (pref: string) =>
 const ORDER = { open: 0, soon: 1, ended: 2 } as const;
 const active = SCHEMES.filter((s) => s.status !== 'ended').sort((a, b) => ORDER[a.status] - ORDER[b.status]);
 const endedSchemes = SCHEMES.filter((s) => s.status === 'ended');
-const CHECKED = '2026年10月14日';
+const CHECKED = '2026年11月4日';
+const isoDate = (ja: string) => { const m = String(ja).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/); return m ? `${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}` : ''; };
 
 const title = '今使える旅行支援・応援割まとめ｜どこ行こ？';
 const description =
@@ -55,6 +56,15 @@ const jsonLd = JSON.stringify({
     }
     .ow-notice-links { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
     .ow-notice-links a { color: #2A6049; text-decoration: underline; font-size: 12px; }
+
+    .ow-facts { list-style: none; margin: 0 0 6px; padding: 0; }
+    .ow-fact { border-bottom: 1px solid #ece7dc; padding: 12px 2px; font-size: 12.5px; line-height: 1.95; color: #444; }
+    .ow-fact:last-child { border-bottom: 0; }
+    .ow-fact-label { display: block; font-weight: 600; color: #2A6049; font-size: 12px; letter-spacing: 0.04em; }
+    .ow-fact-body { display: block; }
+    .ow-fact-src { display: block; font-size: 11.5px; color: #8a8a8a; margin-top: 2px; }
+    .ow-fact-src a { color: #2A6049; text-decoration: underline; }
+    .ow-card-checked { font-size: 11px; color: #8a8a8a; margin: 6px 0 0; }
 
     .ow-section { margin-bottom: 44px; }
     .ow-eyebrow {
@@ -139,6 +149,21 @@ const jsonLd = JSON.stringify({
     </div>
 
     <section class="ow-section">
+      <span class="ow-eyebrow">Common rules</span>
+      <h2 class="ow-title">九州ふっこう応援割の共通事項</h2>
+      <p class="ow-sub">国（観光庁）と九州観光機構の公式ページに明記されているものだけです。県ごとの条件は、各県のページに出典つきで載せています。</p>
+      <ul class="ow-facts">
+        {PARENT_FACTS.map((f) => (
+          <li class="ow-fact" data-fact data-source={f.source.url} data-checked={isoDate(f.checked)}>
+            <span class="ow-fact-label">{f.label}</span>
+            <span class="ow-fact-body">{f.body}</span>
+            <span class="ow-fact-src">出典: <a href={f.source.url} target="_blank" rel="noopener">{f.source.label}</a>（{f.checked}確認）</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="ow-section">
       <span class="ow-eyebrow">Now available</span>
       <h2 class="ow-title">実施が決まっている制度</h2>
       <p class="ow-sub">
@@ -165,6 +190,7 @@ const jsonLd = JSON.stringify({
               <div><dt>予約開始</dt><dd>{s.booking}</dd></div>
               {s.state && <div><dt>受付状況</dt><dd>{s.state}</dd></div>}
             </dl>
+            <p class="ow-card-checked">{s.checked}に公式サイトで確認</p>
             <span class="ow-card-go">{s.prefShort}の旅先と宿を見る →</span>
           </a>
         ))}

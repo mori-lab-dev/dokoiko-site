@@ -35,6 +35,11 @@ const others = SCHEMES.filter((x) => x.slug !== s.slug);
 const areas = s.slug === 'kagoshima-oen' ? (kagoshimaAreas as any[]) : [];
 
 const ended = s.status === 'ended';
+// 'YYYY年M月D日' → 'YYYY-MM-DD'（機械が読む確認日。QA が出典つきの枠かを見分けるのに使う）
+const isoDate = (ja: string) => { const m = String(ja).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/); return m ? `${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}` : ''; };
+const channels = s.channels ?? [];
+const facts = s.facts ?? [];
+const news = s.news ?? [];
 // 終了した制度のページも残す（検索や共有で来た人が混乱しないよう、終了を見出しと説明に明記する）
 const title = `${s.prefShort}の応援割で行く旅先と宿${ended ? '（受付終了）' : ''}｜どこ行こ？`;
 const description = ended
@@ -106,6 +111,21 @@ const jsonLd = JSON.stringify({
     .kf-status-checked { font-size: 11.5px; color: #8a8a8a; }
     .kf-status-text { margin: 6px 0 0; }
     .kf-status-text a { color: #2A6049; text-decoration: underline; }
+
+    .kf-facts { list-style: none; margin: 0 0 6px; padding: 0; }
+    .kf-fact {
+      border-bottom: 1px solid #ece7dc; padding: 12px 2px; font-size: 12.5px; line-height: 1.95; color: #444;
+    }
+    .kf-fact:last-child { border-bottom: 0; }
+    .kf-fact-label { display: block; font-weight: 600; color: #2A6049; font-size: 12px; letter-spacing: 0.04em; }
+    .kf-fact-body { display: block; }
+    .kf-fact-src { display: block; font-size: 11.5px; color: #8a8a8a; margin-top: 2px; }
+    .kf-fact-src a { color: #2A6049; text-decoration: underline; }
+    .kf-news { border: 1px dashed #cfc7b6; border-radius: 6px; padding: 12px 16px; margin-top: 14px; background: #fbfaf7; }
+    .kf-news-tag { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 3px; background: #8b8578; color: #fff; margin-right: 8px; }
+    .kf-news p { margin: 6px 0 0; font-size: 12.5px; line-height: 1.95; color: #555; }
+    .kf-news .kf-news-src { font-size: 11.5px; color: #8a8a8a; }
+    .kf-news .kf-news-src a { color: #2A6049; text-decoration: underline; }
 
     .kf-caution {
       border: 1px solid #e8ddd0; border-radius: 6px; padding: 14px 16px;
@@ -239,6 +259,54 @@ const jsonLd = JSON.stringify({
       このページでは営業を確認できた旅先を掲載していますが、状況は日々変わります。
       出発前に各施設・自治体の最新情報をご確認ください。
     </div>
+
+    {channels.length > 0 && (
+      <section class="kf-section" id="channels">
+        <span class="kf-eyebrow">Sales status</span>
+        <h2 class="kf-title">販売先ごとの状況<span class="kf-pref-count">公式の案内</span></h2>
+        <p class="kf-sub">公式サイトに書いてあることだけを載せています。各項目に出典と確認日を添えました。</p>
+        <ul class="kf-facts">
+          {channels.map((c) => (
+            <li class="kf-fact" data-fact data-source={c.source.url} data-checked={isoDate(c.checked)}>
+              <span class="kf-fact-label">{c.name}</span>
+              <span class="kf-fact-body">{c.body}</span>
+              <span class="kf-fact-src">出典: <a href={c.source.url} target="_blank" rel="noopener">{c.source.label}</a>（{c.checked}確認）</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {facts.length > 0 && (
+      <section class="kf-section" id="conditions">
+        <span class="kf-eyebrow">Conditions</span>
+        <h2 class="kf-title">公式に明記されている条件<span class="kf-pref-count">出典つき</span></h2>
+        <p class="kf-sub">割引率・上限額・申し込み方法などのうち、公式に明記されているものだけです。変更されることがあるので、申し込む前に出典の公式ページで最新の内容をご確認ください。</p>
+        <ul class="kf-facts">
+          {facts.map((f) => (
+            <li class="kf-fact" data-fact data-source={f.source.url} data-checked={isoDate(f.checked)}>
+              <span class="kf-fact-label">{f.label}</span>
+              <span class="kf-fact-body">{f.body}</span>
+              <span class="kf-fact-src">出典: <a href={f.source.url} target="_blank" rel="noopener">{f.source.label}</a>（{f.checked}確認）</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {news.length > 0 && (
+      <section class="kf-section" id="news">
+        <span class="kf-eyebrow">News</span>
+        <h2 class="kf-title">報道<span class="kf-pref-count">公式の案内ではありません</span></h2>
+        {news.map((n) => (
+          <div class="kf-news">
+            <span class="kf-news-tag">報道</span><span class="kf-news-src">{n.outlet}（{n.date}）</span>
+            <p>{n.text}</p>
+            <p class="kf-news-src"><a href={n.url} target="_blank" rel="noopener">報道の元記事 →</a>　県や特設サイトの公式の案内とは別です。</p>
+          </div>
+        ))}
+      </section>
+    )}
 
     {areas.length > 0 && (
       <section class="kf-section">

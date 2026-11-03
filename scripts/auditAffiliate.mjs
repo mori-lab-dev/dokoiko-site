@@ -26,8 +26,10 @@ const stat = {
 for (const id of dirs) {
   const f = path.join(DIST, id, 'index.html');
   if (!fs.existsSync(f)) continue;
-  stat.pages++;
   const html = fs.readFileSync(f, 'utf8');
+  // 統合済みの旧URL（meta refresh だけのスタブ。例: kumano → nachikatsuura）は宿のリンクを持たない設計なので数えない
+  if (/<meta http-equiv="refresh"/i.test(html)) { (stat.stubs ||= []).push(id); continue; }
+  stat.pages++;
   const hrefs = [...html.matchAll(/href="([^"]+)"/g)].map(m => m[1].replace(/&amp;/g, '&'));
 
   let hasRakuten = false, hasJalan = false;

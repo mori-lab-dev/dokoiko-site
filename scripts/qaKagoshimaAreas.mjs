@@ -9,6 +9,7 @@
  */
 import fs from 'fs';
 import path from 'path';
+import { unsourcedNumbers } from './factRules.mjs';
 
 const areas = JSON.parse(fs.readFileSync('src/data/kagoshimaAreas.json', 'utf8'));
 const dests = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8'));
@@ -60,10 +61,9 @@ for (const a of areas) {
   }
   if (!html.includes('shukuhakuwari.pref.kagoshima.jp')) fail(`${a.slug}: 公式サイトへの導線が無い`);
   if (!html.includes('href="/kagoshima-oen/"')) fail(`${a.slug}: 親ページへ戻る導線が無い`);
-  // 数字は公式で確認してもらう方針なので、割引率や上限額を書いていないこと
-  if (/\d+\s*%\s*(OFF|オフ|割引)/.test(html) || /上限\s*[\d,]+\s*円/.test(html)) {
-    fail(`${a.slug}: 割引率か上限額が書かれている（公式へ誘導する方針に反する）`);
-  }
+  // 割引率・上限額は、出典URLと確認日が併記された枠（data-fact）の中にしか書かない（scripts/factRules.mjs）。
+  // このエリアページは枠を持たないので、書かれていたら出典なしの数字として落とす
+  for (const m of unsourcedNumbers(html)) fail(`${a.slug}: ${m}（公式へ誘導する方針に反する。数字は出典と確認日つきの枠にだけ）`);
 
   const stays = a.destIds.filter((id) => byId.get(id)?.featured_stay?.name);
   const shown = [...html.matchAll(/class="ka-stay-name"[^>]*>([^<]+)</g)].map((m) => m[1]);
