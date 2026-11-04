@@ -4,6 +4,8 @@
  * 方針: 数字は変わりやすいので地の文には書かない。書いてよいのは、公式に明記されていて、
  *       出典URLと確認日が併記された枠（<li data-fact data-source="https://…" data-checked="YYYY-MM-DD">）の中だけ。
  * unsourcedNumbers(html) は、その枠の外にある割引率・上限額らしい記述を返す（空なら合格）。
+
+ * （リンクにできない出典は data-source の代わりに data-source-text を持つ。）
  * 枠の中でも、data-source が https でない／data-checked が日付でないものは「出典なし」として返す。
  */
 const FACT_BLOCK = /<(li|div|p)\b[^>]*\bdata-fact\b[^>]*>[\s\S]*?<\/\1>/g;
@@ -19,8 +21,11 @@ export function unsourcedNumbers(html) {
   const rest = body.replace(FACT_BLOCK, (blk) => {
     const open = blk.match(/^<[^>]+>/)[0];
     const src = open.match(/data-source="([^"]*)"/)?.[1] ?? '';
+    const srcText = open.match(/data-source-text="([^"]*)"/)?.[1] ?? '';
     const chk = open.match(/data-checked="([^"]*)"/)?.[1] ?? '';
-    if (!/^https:\/\//.test(src) || !/^\d{4}-\d{2}-\d{2}$/.test(chk)) bad.push(`出典URLか確認日が無い枠: ${blk.replace(/<[^>]+>/g, '').slice(0, 40)}`);
+    // 出典がリンクにできない場合（じゃらんの許可リスト外URL）は、URLの代わりに出典名の文字（data-source-text）を持つ
+    const srcOk = /^https:\/\//.test(src) || (!src && srcText.length >= 6);
+    if (!srcOk || !/^\d{4}-\d{2}-\d{2}$/.test(chk)) bad.push(`出典URLか確認日が無い枠: ${blk.replace(/<[^>]+>/g, '').slice(0, 40)}`);
     return ' ';
   });
   const text = rest.replace(/<[^>]+>/g, ' ');

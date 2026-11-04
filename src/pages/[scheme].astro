@@ -267,10 +267,10 @@ const jsonLd = JSON.stringify({
         <p class="kf-sub">公式サイトに書いてあることだけを載せています。各項目に出典と確認日を添えました。</p>
         <ul class="kf-facts">
           {channels.map((c) => (
-            <li class="kf-fact" data-fact data-source={c.source.url} data-checked={isoDate(c.checked)}>
+            <li class="kf-fact" data-fact data-source={c.source.link === false ? undefined : c.source.url} data-source-text={c.source.link === false ? c.source.label : undefined} data-checked={isoDate(c.checked)}>
               <span class="kf-fact-label">{c.name}</span>
               <span class="kf-fact-body">{c.body}</span>
-              <span class="kf-fact-src">出典: <a href={c.source.url} target="_blank" rel="noopener">{c.source.label}</a>（{c.checked}確認）</span>
+              <span class="kf-fact-src">出典: {c.source.link === false ? c.source.label : <a href={c.source.url} target="_blank" rel="noopener">{c.source.label}</a>}（{c.checked}確認）</span>
             </li>
           ))}
         </ul>
@@ -284,10 +284,10 @@ const jsonLd = JSON.stringify({
         <p class="kf-sub">割引率・上限額・申し込み方法などのうち、公式に明記されているものだけです。変更されることがあるので、申し込む前に出典の公式ページで最新の内容をご確認ください。</p>
         <ul class="kf-facts">
           {facts.map((f) => (
-            <li class="kf-fact" data-fact data-source={f.source.url} data-checked={isoDate(f.checked)}>
+            <li class="kf-fact" data-fact data-source={f.source.link === false ? undefined : f.source.url} data-source-text={f.source.link === false ? f.source.label : undefined} data-checked={isoDate(f.checked)}>
               <span class="kf-fact-label">{f.label}</span>
               <span class="kf-fact-body">{f.body}</span>
-              <span class="kf-fact-src">出典: <a href={f.source.url} target="_blank" rel="noopener">{f.source.label}</a>（{f.checked}確認）</span>
+              <span class="kf-fact-src">出典: {f.source.link === false ? f.source.label : <a href={f.source.url} target="_blank" rel="noopener">{f.source.label}</a>}（{f.checked}確認）</span>
             </li>
           ))}
         </ul>
