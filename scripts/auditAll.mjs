@@ -85,6 +85,19 @@ const AUDITS = [
       'バスの時刻・便数の記述': Z(num(/バスの時刻・便数の記述:\s*(\d+)件/, o)),
       '画面との不一致': Z(num(/画面（dist）との不一致:\s*(\d+)件/, o)) }) },
 
+  { id: 'seo-tech', tier: 'dist', title: 'SEO技術面（sitemap の lastmod・画像の width/height と lazy・LCP画像の優先指定・フォントの読み込み）',
+    cmd: ['node', 'scripts/auditSeoTech.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '旅先ページで lastmod が無い': Z(num(/旅先ページで lastmod が無い:\s*(\d+)件/, o)),
+      'lastmod の形式不正': Z(num(/lastmod の形式が不正[^:]*:\s*(\d+)件/, o)),
+      'lastmod が未来の日付': Z(num(/lastmod が未来の日付:\s*(\d+)件/, o)),
+      '画像の縦横表のずれ': Z(num(/画像の縦横表が実物とずれている[^:]*:\s*(\d+)件/, o)),
+      '画像に width/height が無い': Z(num(/width\/height が無い（旅先・ハブ・特設）:\s*(\d+)件/, o)),
+      'ヒーロー画像に fetchpriority が無い': Z(num(/fetchpriority="high" が無い:\s*(\d+)件/, o)),
+      'ヒーロー画像が lazy': Z(num(/ヒーロー画像が lazy になっている:\s*(\d+)件/, o)),
+      'ヒーロー以外に lazy が無い': Z(num(/ヒーロー以外の画像に loading="lazy" が無い:\s*(\d+)件/, o)),
+      'フォントを @import で読んでいる': Z(num(/フォントを @import で読んでいる:\s*(\d+)件/, o)),
+      'フォントの link が無い': Z(num(/フォントの <link> が無い:\s*(\d+)件/, o)) }) },
+
   { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',
     cmd: ['node', 'scripts/auditStructuredData.mjs'], exitMeansFail: true,
     parse: (o) => { const ns = [...o.matchAll(/^[^\n:]+:\s*(\d+)件/gm)].map((m) => Number(m[1]));

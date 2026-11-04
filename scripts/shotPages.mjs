@@ -1,28 +1,24 @@
-// dist を静的サーバで配り、指定ページのスクリーンショットを撮る（目視確認用）。
-// usage: node scripts/shotPages.mjs outdir path1 path2 ...   例: node scripts/shotPages.mjs /tmp/shots /ouen-wari/ /kagoshima-oen/
+// 見た目の前後比較用: スマホ幅(390px)で複数ページの全画面スクリーンショットを撮る（2026-11-04）。
+// 使い方: node scripts/shotPages.mjs <出力フォルダ> [ベースURL=http://127.0.0.1:4311]
+import fs from 'fs';
+import path from 'path';
 import { chromium } from 'playwright';
-import http from 'node:http';
-import fs from 'node:fs';
-import path from 'node:path';
-const [outDir, ...pages] = process.argv.slice(2);
-const ROOT = path.join(process.cwd(), 'dist');
-const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.json': 'application/json' };
-const srv = http.createServer((req, res) => {
-  let p = decodeURIComponent(req.url.split('?')[0]); if (p.endsWith('/')) p += 'index.html';
-  const f = path.join(ROOT, p);
-  if (!f.startsWith(ROOT) || !fs.existsSync(f)) { res.writeHead(404); res.end(); return; }
-  res.writeHead(200, { 'content-type': MIME[path.extname(f)] || 'application/octet-stream' }); fs.createReadStream(f).pipe(res);
-}).listen(4455);
-fs.mkdirSync(outDir, { recursive: true });
-const b = await chromium.launch();
-const ctx = await b.newContext({ viewport: { width: 390, height: 900 }, deviceScaleFactor: 1 });
-for (const pg of pages) {
-  const p = await ctx.newPage();
-  await p.goto(`http://127.0.0.1:4455${pg}`, { waitUntil: 'load' });
-  await p.waitForTimeout(600);
-  const name = pg.replace(/\//g, '_').replace(/^_|_$/g, '') || 'index';
-  await p.screenshot({ path: path.join(outDir, `${name}.png`), fullPage: false });
-  console.log(`${pg} → ${name}.png  badge: ${await p.$$eval('[data-status-badge], .ow-card-badge', (els) => els.map((e) => e.textContent.trim()).slice(0, 4).join(' / '))}`);
-  await p.close();
+
+const out = process.argv[2]; const base = process.argv[3] || 'http://127.0.0.1:4311';
+fs.mkdirSync(out, { recursive: true });
+const pages = ['/', '/destinations/niche_大分_3/', '/destinations/kurokawa-k/', '/destinations/kamakura/', '/ouen-wari/', '/miyazaki-oen/', '/hub/sapporo/', '/kyushu-fukko/'];
+const b = await chromium.launch({ channel: 'chrome' });
+const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, reducedMotion: 'reduce' });
+for (const p of pages) {
+  const pg = await ctx.newPage();
+  await pg.goto(base + encodeURI(p), { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
+  await pg.addStyleTag({ content: '*{animation:none!important;transition:none!important}' });
+  const h = await pg.evaluate(() => document.documentElement.scrollHeight);
+  for (let y = 0; y < h; y += 600) { await pg.evaluate((v) => window.scrollTo(0, v), y); await pg.waitForTimeout(120); }
+  await pg.evaluate(() => window.scrollTo(0, 0)); await pg.waitForTimeout(800);
+  const name = (p === '/' ? 'home' : p.replace(/\//g, '_')) + '.png';
+  await pg.screenshot({ path: path.join(out, name), fullPage: true });
+  console.log(name, await pg.evaluate(() => document.documentElement.scrollHeight));
+  await pg.close();
 }
-await b.close(); srv.close();
+await b.close();

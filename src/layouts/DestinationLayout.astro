@@ -78,9 +78,11 @@ const ogH = size?.h ?? 675;
     gtag('js', new Date());
     gtag('config', 'G-WCJKVC2DXY');
   </script>
+  <!-- フォントは <style> の @import ではなく <link> で読む（@import だと CSS を読み終えてから次の取得が始まり、描画が遅れる）。見た目は同じ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap');
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {

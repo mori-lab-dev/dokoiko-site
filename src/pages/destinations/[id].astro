@@ -1,5 +1,6 @@
 ---
 import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../../data/imgAttrs';
 import destinations from '../../data/destinations.json';
 import hubCities from '../../data/hubCities.json';
 import { pickJRService, jrServiceUrl, jrServiceLabel } from '../../../scripts/jrServiceMap.js';
@@ -1567,7 +1568,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   <!-- Hero: 画像あり / なし で分岐 -->
   {imageUrl ? (
     <div class="dest-hero">
-      <img class="dest-hero-img" src={imageUrl} alt={dest.mainSpot ? `${dest.name}の${dest.mainSpot}` : `${dest.name}の風景`} />
+      <img fetchpriority="high" class="dest-hero-img" src={imageUrl} {...dimAttrs(imageUrl)} alt={dest.mainSpot ? `${dest.name}の${dest.mainSpot}` : `${dest.name}の風景`} />
       <div class="dest-hero-gradient"></div>
       <div class="dest-hero-content">
         <span class="dest-hero-pref">{dest.prefecture}</span>
@@ -1706,7 +1707,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               <div class={spotImg ? 'spot-with-img' : ''}>
                 {spotImg && (
                   <figure class="spot-figure">
-                    <img class="spot-thumb" src={spotImg} alt={`${dest.name}の${sectionTitle}`} loading="lazy" onerror="this.style.display='none'" />
+                    <img class="spot-thumb" src={spotImg} {...dimAttrs(spotImg)} alt={`${dest.name}の${sectionTitle}`} loading="lazy" onerror="this.style.display='none'" />
                     {spotImgCredit && (
                       <figcaption class="spot-credit">
                         {spotImgCredit.url
@@ -1752,7 +1753,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               <div class={imageUrl ? 'spot-with-img' : ''}>
                 {imageUrl && (
                   <figure class="spot-figure">
-                    <img class="spot-thumb" src={imageUrl} alt={`${dest.name}の${name}`} loading="lazy" onerror="this.style.display='none'" />
+                    <img class="spot-thumb" src={imageUrl} {...dimAttrs(imageUrl)} alt={`${dest.name}の${name}`} loading="lazy" onerror="this.style.display='none'" />
                     {spotCredit && (
                       <figcaption class="spot-credit">
                         {spotCredit.url
@@ -2251,13 +2252,13 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img
                   class="nearby-card-img"
-                  src={`/images/${d.id}/main.jpg`}
+                  src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)}
                   alt={`${d.name}の風景`}
                   loading="lazy"
                   onerror="this.style.display='none'"
-                />
+                />)}
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
@@ -2286,7 +2287,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />)}
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
@@ -2315,7 +2316,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />)}
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>

@@ -1,5 +1,6 @@
 ---
 import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../../data/imgAttrs';
 import destinations from '../../data/destinations.json';
 import hubCities from '../../data/hubCities.json';
 import { jalanKeywordSearchTarget } from '../../../scripts/jalanUrl.js';
@@ -314,7 +315,7 @@ const jsonLd = JSON.stringify({
   <!-- Hero -->
   <div class="hub-hero">
     {hubImage
-      ? <img class="hub-hero-img" src={hubImage} alt={hub.name} />
+      ? <img fetchpriority="high" class="hub-hero-img" src={hubImage} {...dimAttrs(hubImage)} alt={hub.name} />
       : <div style="width:100%;height:100%;background:linear-gradient(160deg,#1a2e20,#2A6049);" />
     }
     <div class="hub-hero-overlay" />
@@ -357,7 +358,7 @@ const jsonLd = JSON.stringify({
             return (
               <a href={`/destinations/${d.id}/`} class="h-card">
                 <div class="h-card-img-wrap">
-                  {img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
+                  {img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
                 </div>
                 <div class="h-card-body">
                   <div class="h-card-name">{d.name}</div>
@@ -380,7 +381,7 @@ const jsonLd = JSON.stringify({
           return (
             <a href={`/destinations/${d.id}/`} class="h-card">
               <div class="h-card-img-wrap">
-                {img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
+                {img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
               </div>
               <div class="h-card-body">
                 <div class="h-card-name">{d.name}</div>
@@ -402,7 +403,7 @@ const jsonLd = JSON.stringify({
           return (
             <a href={`/destinations/${d.id}/`} class="h-card">
               <div class="h-card-img-wrap">
-                {img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
+                {img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
               </div>
               <div class="h-card-body">
                 <div class="h-card-name">{d.name}</div>
@@ -428,7 +429,7 @@ const jsonLd = JSON.stringify({
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
                     <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
                   </a>
                 );
@@ -444,7 +445,7 @@ const jsonLd = JSON.stringify({
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
                     <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
                   </a>
                 );
@@ -460,7 +461,7 @@ const jsonLd = JSON.stringify({
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
                     <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
                   </a>
                 );
@@ -484,7 +485,7 @@ const jsonLd = JSON.stringify({
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
                     <div class="h-card-body"><div class="h-card-name">{d.name}</div><div class="h-card-meta">{d.prefecture}</div></div>
                   </a>
                 );
@@ -510,7 +511,7 @@ const jsonLd = JSON.stringify({
                     const img = destImageUrl(d);
                     return (
                       <a href={`/destinations/${d.id}/`} class="season-item">
-                        {img && <img src={img} alt={d.name} loading="lazy" />}
+                        {img && <img src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}
                         <span>{d.name}</span>
                       </a>
                     );
