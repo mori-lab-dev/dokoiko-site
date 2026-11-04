@@ -104,8 +104,19 @@ const hubImage = fs.existsSync(path.join(imgDir, `${hub.id}.jpg`))
   ? `https://tabidokoiko.com/images/${hub.id}.jpg`
   : null;
 
-const title = `${hub.name}を拠点に旅する｜${hub.prefecture}から行けるおすすめ旅先${hubDests.length}選`;
-const description = `${hub.desc.slice(0, 100)} ${hub.name}を起点に日帰り・宿泊で行けるおすすめ旅先${hubDests.length}か所を紹介。`;
+const title = hub.id === 'tokyo'
+  ? `東京から行ける旅先${hubDests.length}か所｜日帰り・宿泊で探す`
+  : `${hub.name}を拠点に旅する｜${hub.prefecture}から行けるおすすめ旅先${hubDests.length}選`;
+// 説明文は100字で機械的に切らず、句点（。）の切れ目で切る（途中で切れて「…マン 宮古島を起点に」とつながるのを防ぐ）
+const hubLead = (() => {
+  const sents = (hub.desc as string).split(/(?<=。)/).map((x: string) => x.trim()).filter(Boolean);
+  let out = '';
+  for (const x of sents) { if ((out + x).length > 100) break; out += x; }
+  return out || sents[0] || '';
+})();
+const description = hub.id === 'tokyo'
+  ? `羽田・成田の2空港と新幹線4路線が集まる東京を起点に、日帰り・宿泊で行ける旅先${hubDests.length}か所を紹介。近郊の鎌倉・箱根・日光・富士山などの日帰り先も載せています。`
+  : `${hubLead} ${hub.name}を起点に日帰り・宿泊で行けるおすすめ旅先${hubDests.length}か所を紹介。`;
 
 const jsonLd = JSON.stringify({
   "@context": "https://schema.org",

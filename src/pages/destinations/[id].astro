@@ -44,7 +44,9 @@ const unsplashCredit    = unsplashUrl ? ((dest as any).unsplashCredit ?? null) :
 const unsplashCreditUrl = unsplashUrl ? ((dest as any).unsplashCreditUrl ?? null) : null;
 const unsplashPhotoUrl  = unsplashUrl ? ((dest as any).unsplashPhotoUrl ?? null) : null;
 
-const seoTitle = `【${dest.name}】おすすめ観光スポット${dest.spots?.length || 3}選｜${dest.prefecture}の旅`;
+// 個別に書いた title / description（dest.seo、または車なしガイド carFree.seo）があるページはそれを使う（scripts/auditSeoCopy.mjs が本文と照合する）
+const carFreeSeo = ((dest as any).seo ?? (dest as any).carFree?.seo) as { title: string; description: string } | undefined;
+const seoTitle = carFreeSeo?.title ?? `【${dest.name}】おすすめ観光スポット${dest.spots?.length || 3}選｜${dest.prefecture}の旅`;
 // meta description は 120字前後に整形する。dest.description（200〜300字）を
 // そのまま使うと検索結果で途中切りされるため、文境界（。）で 120字以内へ丸める。
 function toMetaDescription(text: string): string {
@@ -55,7 +57,8 @@ function toMetaDescription(text: string): string {
   return cut >= 60 ? head.slice(0, cut + 1) : head.slice(0, 118) + '…';
 }
 const description =
-  article?.lead?.slice(0, 120)
+  carFreeSeo?.description
+  || article?.lead?.slice(0, 120)
   || toMetaDescription(dest.description)
   || `${dest.name}（${dest.prefecture}）への行き方・宿・観光スポット情報。`;
 

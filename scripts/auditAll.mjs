@@ -98,6 +98,14 @@ const AUDITS = [
       'フォントを @import で読んでいる': Z(num(/フォントを @import で読んでいる:\s*(\d+)件/, o)),
       'フォントの link が無い': Z(num(/フォントの <link> が無い:\s*(\d+)件/, o)) }) },
 
+  { id: 'seo-copy', tier: 'dist', title: '個別に書いた title/description が本文の事実と合っているか（数字・禁止句・推測表現・長さ・データとの一致）',
+    cmd: ['node', 'scripts/auditSeoCopy.mjs'], exitMeansFail: true,
+    parse: (o) => ({ 'データと dist の不一致': Z(num(/データと dist の不一致:\s*(\d+)件/, o)),
+      '本文にない数字': Z(num(/本文にない数字:\s*(\d+)件/, o)),
+      '禁止句・推測表現': Z(num(/禁止句・推測表現:\s*(\d+)件/, o)),
+      '長さ超過': Z(num(/長さ超過[^:]*:\s*(\d+)件/, o)),
+      'description に改行': Z(num(/description に改行:\s*(\d+)件/, o)) }) },
+
   { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',
     cmd: ['node', 'scripts/auditStructuredData.mjs'], exitMeansFail: true,
     parse: (o) => { const ns = [...o.matchAll(/^[^\n:]+:\s*(\d+)件/gm)].map((m) => Number(m[1]));

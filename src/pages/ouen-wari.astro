@@ -14,10 +14,10 @@ const endedSchemes = SCHEMES.filter((s) => s.status === 'ended');
 const CHECKED = '2026年11月4日';
 const isoDate = (ja: string) => { const m = String(ja).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/); return m ? `${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}` : ''; };
 
-const title = '今使える旅行支援・応援割まとめ｜どこ行こ？';
+const title = '今使える旅行支援・応援割まとめ｜県別・確認日つき';
 const description =
-  `実施が決まっている旅行支援・応援割を県ごとにまとめました。受付中・開始前の${active.length}件と、終了した${endedSchemes.length}件を掲載しています（${CHECKED}に各公式サイトで確認）。`
-  + '割引率や上限額は変わることがあるため、条件は各公式サイトでご確認ください。新しい制度は随時追加します。';
+  `実施が決まっている旅行支援・応援割を県ごとに掲載。受付中・開始前は${active.length}件、終了は${endedSchemes.length}件（${CHECKED}に各公式サイトで確認）。`
+  + '条件は各公式サイトでご確認ください。';
 
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
