@@ -212,6 +212,12 @@ function safeJalanUrl(rawUrl: string | null | undefined, keyword: string): strin
 // 注目の宿（featured_stay）: 実在・送迎情報をWeb確認済みのキュレーション枠。
 // rakutenUrl/jalanUrl 省略時は宿名での検索リンクにフォールバック（404リスク回避）。
 const featuredStay = (dest as any).featured_stay || null;
+// 車なしで行く（試作・長湯／原鶴／黒川）。確認日 '2026年11月4日' を ISO にして枠へ持たせる
+const carFree = (dest as any).carFree || null;
+const carFreeIso = (j: string) => {
+  const m = String(j).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : '';
+};
 const fsRakutenUrl = featuredStay
   ? safeRakutenUrl(featuredStay.rakutenUrl, featuredStay.name)
   : '';
@@ -1288,6 +1294,19 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   /* 楽天・じゃらんに掲載の無い宿の公式サイトボタン（サイトの基調色に合わせる） */
   .fs-link-official { background: #2A6049; color: #fff; }
   .fs-link:hover { opacity: 0.88; }
+  /* 車なしで行く（試作） */
+  .carfree-section { margin: 28px 0 8px; }
+  .carfree-lead { font-size: 13px; color: #555; line-height: 1.8; margin: -10px 0 14px; }
+  .carfree-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .carfree-item { background: #fff; border: 1px solid #e3ebe5; border-radius: 12px; padding: 12px 14px; display: grid; gap: 4px; }
+  .carfree-label { font-size: 12px; font-weight: 700; color: #2A6049; letter-spacing: 0.04em; }
+  .carfree-body { font-size: 14px; color: #222; line-height: 1.8; }
+  .carfree-src { font-size: 11px; color: #777; line-height: 1.6; }
+  .carfree-src a, .carfree-times a { color: #2A6049; }
+  .carfree-times, .carfree-unconfirmed { margin-top: 14px; font-size: 13px; line-height: 1.8; }
+  .carfree-times-title { font-size: 12px; font-weight: 700; color: #444; margin: 0 0 4px; }
+  .carfree-times ul, .carfree-unconfirmed ul { margin: 0; padding-left: 1.2em; }
+  .carfree-unconfirmed { color: #555; }
   .fs-booking-note {
     font-size: 12px;
     color: #666;
@@ -1982,6 +2001,41 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
 
     <hr class="section-divider" id="hotel" />
 
+
+    <!-- 車なしで行く（試作）: carFree があるページだけ。公式で確認できた事実だけを、出典と確認日つきで出す。時刻・便数は書かず、公式ページへのリンクに任せる -->
+    {carFree && (
+      <div class="carfree-section" id="carfree">
+        <h2 class="section-title">{dest.name}へ車なしで行く</h2>
+        <p class="carfree-lead">公式サイトで確認できたことだけを載せています。バスの時刻・便数は変わるので、下の公式ページで確認してください。</p>
+        <ul class="carfree-list">
+          {carFree.items.map((it: any) => (
+            <li class="carfree-item" data-carfree-item data-source={it.source.url} data-checked={carFreeIso(it.checked)}>
+              <span class="carfree-label">{it.label}</span>
+              <span class="carfree-body">{it.body}</span>
+              <span class="carfree-src">出典: <a href={it.source.url} target="_blank" rel="noopener">{it.source.label}</a>（{it.checked}確認）</span>
+            </li>
+          ))}
+        </ul>
+        {carFree.timetable?.length > 0 && (
+          <div class="carfree-times">
+            <p class="carfree-times-title">時刻・運賃は公式ページで（{carFree.checked}確認）</p>
+            <ul>
+              {carFree.timetable.map((t: any) => (
+                <li><a href={t.url} target="_blank" rel="noopener">{t.label} →</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {carFree.unconfirmed?.length > 0 && (
+          <div class="carfree-unconfirmed">
+            <p class="carfree-times-title">公式で確認できなかったこと</p>
+            <ul>
+              {carFree.unconfirmed.map((u: string) => (<li>{u}</li>))}
+            </ul>
+          </div>
+        )}
+      </div>
+    )}
 
     <!-- 宿泊: 現地泊 / hub泊 / 県庁所在地fallback。離島系 (showDualHotel) はタブ表示 -->
     {showDualHotel ? (

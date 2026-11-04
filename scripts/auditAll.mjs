@@ -76,6 +76,15 @@ const AUDITS = [
       '公式リンクの不備': Z(num(/公式リンクが無い・https でない:\s*(\d+)件/, o)),
       '出典なしの割引率・上限額': Z(num(/枠の外にある割引率・上限額:\s*(\d+)件/, o)) }) },
 
+  { id: 'car-free', tier: 'dist', title: '「車なしで行く」ガイドが出典・確認日つきで、応援割の数字・バスの時刻を含まないか',
+    cmd: ['node', 'scripts/auditCarFree.mjs', ...(val('--today') ? ['--today', val('--today')] : [])], exitMeansFail: true,
+    parse: (o) => ({ '出典URLなし': Z(num(/出典URL（https）が無い:\s*(\d+)件/, o)),
+      '確認日なし': Z(num(/確認日が無い・日付形式でない:\s*(\d+)件/, o)),
+      '確認日が古い': Z(num(/確認日が\d+日より古い:\s*(\d+)件/, o)),
+      '応援割・割引率の記述': Z(num(/応援割・割引率の記述:\s*(\d+)件/, o)),
+      'バスの時刻・便数の記述': Z(num(/バスの時刻・便数の記述:\s*(\d+)件/, o)),
+      '画面との不一致': Z(num(/画面（dist）との不一致:\s*(\d+)件/, o)) }) },
+
   { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',
     cmd: ['node', 'scripts/auditStructuredData.mjs'], exitMeansFail: true,
     parse: (o) => { const ns = [...o.matchAll(/^[^\n:]+:\s*(\d+)件/gm)].map((m) => Number(m[1]));
