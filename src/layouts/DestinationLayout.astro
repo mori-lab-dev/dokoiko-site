@@ -1,9 +1,10 @@
 ---
+import AffiliateNotice from '../components/AffiliateNotice.astro';
 // フッターのリンクについて:
 // 以前は /pages/about.html /pages/privacy.html /pages/disclaimer.html を指していたが、
 // 実体が無く3本とも404だった（全ページ共通のフッターなので全ページから死んだリンクが出ていた）。
 // 実在する /about/ /contact/ /privacy/ /terms/ に差し替えている。
-const { title, description, image } = Astro.props;
+const { title, description, image, affiliateNotice = false, pageType = '', pageId = '' } = Astro.props;
 
 // ── OGP画像 ────────────────────────────────────────────────
 // これまでの問題:
@@ -155,9 +156,16 @@ const ogH = size?.h ?? 675;
       color: #aaa;
       margin: 0 10px;
     }
+
+    /* ページ冒頭（ヘッダー直下）の PR 表記の置き場。文字の大きさ・色は AffiliateNotice 側（通常サイズ・通常色） */
+    .affiliate-pr-top {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 24px 0;
+    }
   </style>
 </head>
-<body>
+<body data-page-type={pageType} data-page-id={pageId}>
   <header class="site-header">
     <a href="/" class="site-logo">
       <span class="site-logo-ja">どこ行こ？</span>
@@ -168,6 +176,11 @@ const ogH = size?.h ?? 675;
       <a href="/list/">全国一覧</a>
     </nav>
   </header>
+  {affiliateNotice && (
+    <div class="affiliate-pr-top">
+      <AffiliateNotice />
+    </div>
+  )}
   <main>
     <slot />
   </main>
@@ -181,5 +194,37 @@ const ogH = size?.h ?? 675;
     </p>
     <p style="margin-top: 12px;">© 2026 どこ行こ？</p>
   </footer>
+  {affiliateNotice && (
+    <script is:inline>
+      /* アフィリエイト（rel に sponsored を含むリンク）のクリックを GA4 に送る。2026-11-04。
+         既存の GA4 の設定（上の config）には触れず、dataLayer へ event だけを足す。
+         送る値: 提携先・ページ種別・旅先ID・リンクの種類。URL・個人データは送らない。 */
+      (function () {
+        window.dataLayer = window.dataLayer || [];
+        function g() { window.dataLayer.push(arguments); }
+        function send(e) {
+          var t = e.target;
+          var a = t && t.closest ? t.closest('a[rel~="sponsored"]') : null;
+          if (!a) return;
+          var h = a.getAttribute('href') || '';
+          var partner = h.indexOf('valuecommerce.com') > -1 ? 'valuecommerce'
+                      : h.indexOf('hb.afl.rakuten.co.jp') > -1 ? 'rakuten' : 'other';
+          var kind = a.closest('.rentacar-section, .car-rentacar') ? 'rentacar'
+                   : a.closest('.activity-section') ? 'activity'
+                   : a.closest('.fs-links') ? 'featured_stay' : 'hotel';
+          var b = document.body.dataset;
+          g('event', 'affiliate_click', {
+            partner: partner,
+            page_type: b.pageType || '',
+            destination_id: b.pageId || '',
+            link_kind: kind,
+            transport_type: 'beacon'
+          });
+        }
+        document.addEventListener('click', send, true);
+        document.addEventListener('auxclick', send, true);
+      })();
+    </script>
+  )}
 </body>
 </html>

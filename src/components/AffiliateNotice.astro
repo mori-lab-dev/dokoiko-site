@@ -1,0 +1,19 @@
+---
+// アフィリエイト広告の表示（PR 表記）。2026-11-04。
+// 景品表示法の告示（ステマ規制）の運用基準と、バリューコマースの規約（広告表記は「該当する広告を閲覧するまでに
+// 認識できる位置に」）に合わせ、通常サイズ・通常の文字色で置く。薄い色・小さい文字・隅への配置はしない
+// （運用基準 第3 1(2) のオ・カ・キに当たるため）。フッターの記載は別にそのまま残す。
+// 文言は固定。変えるときは docs の確認（アフィリエイト点検）と、tests/ の期待文字列を合わせて直す。
+const { class: extra = '' } = Astro.props;
+---
+<p class={`affiliate-pr ${extra}`.trim()} role="note"><strong class="affiliate-pr-tag">PR</strong>　このページの宿・レンタカーなどのリンクは広告（アフィリエイト）を含みます</p>
+
+<style>
+  .affiliate-pr {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #2d2d2d;
+    margin: 0 0 12px;
+  }
+  .affiliate-pr-tag { font-weight: 700; }
+</style>

@@ -1,4 +1,5 @@
 ---
+import AffiliateNotice from '../../components/AffiliateNotice.astro';
 import DestinationLayout from '../../layouts/DestinationLayout.astro';
 import destinations from '../../data/destinations.json';
 import hubCities from '../../data/hubCities.json';
@@ -119,7 +120,7 @@ const jsonLd = JSON.stringify({
 });
 ---
 
-<DestinationLayout title={title} description={description} image={hubImage}>
+<DestinationLayout title={title} description={description} image={hubImage} affiliateNotice={true} pageType="hub" pageId={hub.id}>
   <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
 
   <style>
@@ -524,18 +525,19 @@ const jsonLd = JSON.stringify({
     )}
 
     <!-- 宿リンク -->
+    <AffiliateNotice />
     <section class="hotel-section">
       <p class="section-eyebrow">Stay</p>
       <h2 class="section-title">{hub.name}の宿を探す</h2>
       <div class="hotel-cards">
-        <a href={rakutenUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
+        <a href={rakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
           <div>
             <p class="hotel-card-name">楽天トラベル</p>
             <p class="hotel-card-desc">ポイントが貯まる・使える</p>
           </div>
           <span class="hotel-card-arrow">→</span>
         </a>
-        <a href={jalanUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+        <a href={jalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
           <div>
             <p class="hotel-card-name">じゃらん</p>
             <p class="hotel-card-desc">国内旅行・宿泊予約</p>
