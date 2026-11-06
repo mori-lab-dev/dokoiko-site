@@ -5,6 +5,7 @@
  * そもそもデータに入れていないので、ページも生まれない。
  */
 import DestinationLayout from '../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../data/imgAttrs';
 import destinations from '../data/destinations.json';
 import { SCHEMES, PARENT, STAY_OFFICIAL, STATUS_LABEL } from '../data/ouenWari';
 import kagoshimaAreas from '../data/kagoshimaAreas.json';
@@ -41,11 +42,11 @@ const channels = s.channels ?? [];
 const facts = s.facts ?? [];
 const news = s.news ?? [];
 // 終了した制度のページも残す（検索や共有で来た人が混乱しないよう、終了を見出しと説明に明記する）
-const title = `${s.prefShort}の応援割で行く旅先と宿${ended ? '（受付終了）' : ''}｜どこ行こ？`;
-const description = ended
+const title = s.seo?.title ?? `${s.prefShort}の応援割で行く旅先と宿${ended ? '（受付終了）' : ''}｜どこ行こ？`;
+const description = s.seo?.description ?? (ended
   ? `${s.name}は終了しました（${s.period}）。${s.prefShort}の旅先${inPref.length}か所と、泊まりたい宿${stays.length}軒は、次の応援割にも使えるようまとめて残しています。`
   : `${s.name}の対象期間は${s.period}。${s.prefShort}の旅先${inPref.length}か所と、`
-    + `泊まりたい宿${stays.length}軒をまとめました。割引の条件は公式サイトでご確認ください。`;
+    + `泊まりたい宿${stays.length}軒をまとめました。割引の条件は公式サイトでご確認ください。`);
 // 終了した鹿児島のかごしま観光応援割から、同じ県で続く制度（鹿児島ふっこう応援割）へ案内する
 const successor = ended ? SCHEMES.find((x) => x.pref === s.pref && x.slug !== s.slug && x.status !== 'ended') : null;
 
@@ -156,7 +157,7 @@ const jsonLd = JSON.stringify({
       overflow: hidden; background: #fff;
     }
     .kf-stay-img, .kf-stay-ph {
-      width: 108px; min-height: 108px; object-fit: cover; flex-shrink: 0; background: #f0f0f0;
+      width: 108px; height: auto; min-height: 108px; object-fit: cover; flex-shrink: 0; background: #f0f0f0;
     }
     .kf-stay-body { padding: 13px 14px 13px 0; flex: 1; }
     .kf-stay-name {
@@ -340,7 +341,7 @@ const jsonLd = JSON.stringify({
           return (
             <div class="kf-stay">
               {img
-                ? <img class="kf-stay-img" src={img} alt={`${d.name}の風景`} loading="lazy" />
+                ? <img class="kf-stay-img" src={img} {...dimAttrs(img)} alt={`${d.name}の風景`} loading="lazy" />
                 : <span class="kf-stay-ph" />}
               <div class="kf-stay-body">
                 <span class="kf-stay-name">{d.featured_stay.name}</span>

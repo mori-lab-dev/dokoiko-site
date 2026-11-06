@@ -17,7 +17,9 @@
     "audit:live": "node scripts/auditAll.mjs --live",
     "baseline": "node scripts/baseline.mjs",
     "baseline:full": "node scripts/baseline.mjs --live",
-    "audit:affiliate": "node scripts/auditAffiliateNotice.mjs"
+    "audit:affiliate": "node scripts/auditAffiliateNotice.mjs",
+    "gsc": "node scripts/gsc.mjs",
+    "secrets:check": "node scripts/checkSecrets.mjs --staged"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.92.0",

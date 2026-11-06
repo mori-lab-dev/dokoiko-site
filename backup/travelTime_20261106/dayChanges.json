@@ -1,0 +1,33 @@
+{
+  "dests": [],
+  "hubTabs": [
+    {
+      "id": "onna",
+      "name": "恩納村",
+      "o": "fukuoka",
+      "from": 115,
+      "to": 155
+    },
+    {
+      "id": "fukuoka",
+      "name": "福岡",
+      "o": "naha",
+      "from": 110,
+      "to": 155
+    },
+    {
+      "id": "niche_愛知_4",
+      "name": "内子町の三間町並み",
+      "o": "nagoya",
+      "from": 50,
+      "to": 125
+    },
+    {
+      "id": "niche_愛知_4",
+      "name": "内子町の三間町並み",
+      "o": "gifu",
+      "from": 80,
+      "to": 125
+    }
+  ]
+}

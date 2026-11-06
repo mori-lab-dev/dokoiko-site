@@ -1,5 +1,6 @@
 ---
 import DestinationLayout from '../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../data/imgAttrs';
 import destinations from '../data/destinations.json';
 import fs from 'fs';
 import path from 'path';
@@ -32,8 +33,8 @@ const stays = kyushu.filter(d => d.featured_stay?.name)
   .sort((a, b) => (NEW_IDS.includes(b.id) ? 1 : 0) - (NEW_IDS.includes(a.id) ? 1 : 0));
 
 const total = kyushu.length;
-const title = '九州ふっこう割で行く旅先まとめ｜どこ行こ？';
-const description = `九州7県の旅先${total}か所を県別に一覧。観光庁の「九州ふっこう応援割」は2026年10月1日の宿泊分から始まっています（鹿児島県分は10月14日から）。一軒宿の秘湯から定番の温泉地まで、泊まる場所から旅を決められるようにまとめました。`;
+const title = `九州ふっこう応援割の対象旅先${total}か所｜県別一覧`;
+const description = `九州7県の旅先${total}か所を県別に一覧。「九州ふっこう応援割」は2026年10月1日の宿泊分から（鹿児島県分は10月14日から）。一軒宿の秘湯から定番の温泉地まで掲載しています。`;
 
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
@@ -197,7 +198,7 @@ const jsonLd = JSON.stringify({
             <a class="kf-feature" href={`/destinations/${d.id}/`}>
               {img && (
                 <div class="kf-feature-img-wrap">
-                  <img class="kf-feature-img" src={img} alt={`${d.name}の${d.mainSpot ?? '風景'}`} loading="lazy" />
+                  <img class="kf-feature-img" src={img} {...dimAttrs(img)} alt={`${d.name}の${d.mainSpot ?? '風景'}`} loading="lazy" />
                   <span class="kf-feature-badge">注目</span>
                 </div>
               )}
@@ -243,7 +244,7 @@ const jsonLd = JSON.stringify({
           const img = destImageUrl(d);
           return (
             <a class="kf-stay" href={`/destinations/${d.id}/`}>
-              {img ? <img src={img} alt={`${d.name}の風景`} loading="lazy" /> : <span class="kf-stay-ph" />}
+              {img ? <img src={img} {...dimAttrs(img)} alt={`${d.name}の風景`} loading="lazy" /> : <span class="kf-stay-ph" />}
               <span class="kf-stay-body">
                 <span class="kf-stay-name">{d.featured_stay.name}</span>
                 <span class="kf-stay-where">{d.prefecture}・{d.name}</span>

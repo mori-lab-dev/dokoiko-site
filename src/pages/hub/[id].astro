@@ -1,6 +1,7 @@
 ---
 import AffiliateNotice from '../../components/AffiliateNotice.astro';
 import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../../data/imgAttrs';
 import destinations from '../../data/destinations.json';
 import hubCities from '../../data/hubCities.json';
 import { jalanKeywordSearchTarget } from '../../../scripts/jalanUrl.js';
@@ -42,6 +43,7 @@ const hubDests = (destinations as any[])
     return {
       ...d,
       _tt: tt,
+      _est: !!((d.travelTimeEstimated || {})[ttKey]),   // 見積もりの値（式で作った出発地・最短値に補正した組）。画面では「目安」を付ける
       _isHub: isExplicitHub,
     };
   })
@@ -83,6 +85,8 @@ const themeSections = THEMES.map(t => ({
 const zone1 = hubDests.filter((d: any) => d._tt > 0 && d._tt <= 60);
 const zone2 = hubDests.filter((d: any) => d._tt > 60 && d._tt <= 120);
 const zone3 = hubDests.filter((d: any) => d._tt > 120 && d._tt <= 180);
+const zoneEst = (z: any[]) => z.some((d: any) => d._est);
+const anyZoneEst = zoneEst(zone1) || zoneEst(zone2) || zoneEst(zone3);
 
 // === 5. 季節おすすめ ===
 const SEASON_TAGS: Record<string, string[]> = {
@@ -104,8 +108,19 @@ const hubImage = fs.existsSync(path.join(imgDir, `${hub.id}.jpg`))
   ? `https://tabidokoiko.com/images/${hub.id}.jpg`
   : null;
 
-const title = `${hub.name}を拠点に旅する｜${hub.prefecture}から行けるおすすめ旅先${hubDests.length}選`;
-const description = `${hub.desc.slice(0, 100)} ${hub.name}を起点に日帰り・宿泊で行けるおすすめ旅先${hubDests.length}か所を紹介。`;
+const title = hub.id === 'tokyo'
+  ? `東京から行ける旅先${hubDests.length}か所｜日帰り・宿泊で探す`
+  : `${hub.name}を拠点に旅する｜${hub.prefecture}から行けるおすすめ旅先${hubDests.length}選`;
+// 説明文は100字で機械的に切らず、句点（。）の切れ目で切る（途中で切れて「…マン 宮古島を起点に」とつながるのを防ぐ）
+const hubLead = (() => {
+  const sents = (hub.desc as string).split(/(?<=。)/).map((x: string) => x.trim()).filter(Boolean);
+  let out = '';
+  for (const x of sents) { if ((out + x).length > 100) break; out += x; }
+  return out || sents[0] || '';
+})();
+const description = hub.id === 'tokyo'
+  ? `羽田・成田の2空港と新幹線4路線が集まる東京を起点に、日帰り・宿泊で行ける旅先${hubDests.length}か所を紹介。近郊の鎌倉・箱根・日光・富士山などの日帰り先も載せています。`
+  : `${hubLead} ${hub.name}を起点に日帰り・宿泊で行けるおすすめ旅先${hubDests.length}か所を紹介。`;
 
 const jsonLd = JSON.stringify({
   "@context": "https://schema.org",
@@ -241,6 +256,8 @@ const jsonLd = JSON.stringify({
     .h-card-img-wrap { position: relative; height: 100px; background: #f0f0f0; }
     .h-card-img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .h-card-body { padding: 10px 12px 14px; }
+    .h-est-note { font-size: 12px; color: #6b6b6b; margin: -4px 0 16px; }
+    .h-card-est { margin-left: 6px; font-size: 10px; font-weight: 400; color: #7a6a3a; background: #f3ecd6; border-radius: 3px; padding: 1px 5px; vertical-align: 1px; }
     .h-card-name { font-size: 13px; font-weight: 500; color: #1a1a1a; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .h-card-meta { font-size: 10px; color: #999; letter-spacing: 0.04em; }
     .h-card-time { color: #C9A84C; font-size: 10px; margin-top: 4px; }
@@ -289,7 +306,8 @@ const jsonLd = JSON.stringify({
     .hotel-card-rakuten { border-left: 4px solid #BF0000; }
     .hotel-card-jalan   { border-left: 4px solid #FF6B00; }
     .hotel-card-name { font-size: 14px; color: #1a1a1a; }
-    .hotel-card-desc { font-size: 11px; color: #aaa; }
+    .hotel-price-note { font-size: 13px; line-height: 1.6; color: inherit; margin: 8px 0 0; }
+  .hotel-card-desc { font-size: 11px; color: #aaa; }
     .hotel-card-arrow { color: #ccc; }
 
     /* CTA */
@@ -315,7 +333,7 @@ const jsonLd = JSON.stringify({
   <!-- Hero -->
   <div class="hub-hero">
     {hubImage
-      ? <img class="hub-hero-img" src={hubImage} alt={hub.name} />
+      ? <img fetchpriority="high" class="hub-hero-img" src={hubImage} {...dimAttrs(hubImage)} alt={hub.name} />
       : <div style="width:100%;height:100%;background:linear-gradient(160deg,#1a2e20,#2A6049);" />
     }
     <div class="hub-hero-overlay" />
@@ -358,7 +376,7 @@ const jsonLd = JSON.stringify({
             return (
               <a href={`/destinations/${d.id}/`} class="h-card">
                 <div class="h-card-img-wrap">
-                  {img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
+                  {img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
                 </div>
                 <div class="h-card-body">
                   <div class="h-card-name">{d.name}</div>
@@ -381,7 +399,7 @@ const jsonLd = JSON.stringify({
           return (
             <a href={`/destinations/${d.id}/`} class="h-card">
               <div class="h-card-img-wrap">
-                {img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
+                {img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
               </div>
               <div class="h-card-body">
                 <div class="h-card-name">{d.name}</div>
@@ -403,7 +421,7 @@ const jsonLd = JSON.stringify({
           return (
             <a href={`/destinations/${d.id}/`} class="h-card">
               <div class="h-card-img-wrap">
-                {img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
+                {img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" onerror="this.style.display='none'" />}
               </div>
               <div class="h-card-body">
                 <div class="h-card-name">{d.name}</div>
@@ -420,17 +438,18 @@ const jsonLd = JSON.stringify({
       <section class="section" style="margin-top:48px;">
         <p class="section-eyebrow">By Distance</p>
         <h2 class="section-title">所要時間で選ぶ</h2>
+        {anyZoneEst && <p class="h-est-note">「目安」の付いた旅先は、所要時間を見積もった値です。実際の所要時間は経路検索でご確認ください。</p>}
 
         {zone1.length > 0 && (
           <div style="margin-bottom:24px;">
-            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">〜60分</h3>
+            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">〜60分{zoneEst(zone1) && '（目安）'}</h3>
             <div class="h-scroll">
               {zone1.slice(0, 8).map((d: any) => {
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
-                    <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-body"><div class="h-card-name">{d.name}{d._est && <span class="h-card-est">目安</span>}</div></div>
                   </a>
                 );
               })}
@@ -439,14 +458,14 @@ const jsonLd = JSON.stringify({
         )}
         {zone2.length > 0 && (
           <div style="margin-bottom:24px;">
-            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">1〜2時間</h3>
+            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">1〜2時間{zoneEst(zone2) && '（目安）'}</h3>
             <div class="h-scroll">
               {zone2.slice(0, 8).map((d: any) => {
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
-                    <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-body"><div class="h-card-name">{d.name}{d._est && <span class="h-card-est">目安</span>}</div></div>
                   </a>
                 );
               })}
@@ -455,14 +474,14 @@ const jsonLd = JSON.stringify({
         )}
         {zone3.length > 0 && (
           <div>
-            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">2〜3時間</h3>
+            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">2〜3時間{zoneEst(zone3) && '（目安）'}</h3>
             <div class="h-scroll">
               {zone3.slice(0, 8).map((d: any) => {
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
-                    <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-body"><div class="h-card-name">{d.name}{d._est && <span class="h-card-est">目安</span>}</div></div>
                   </a>
                 );
               })}
@@ -485,7 +504,7 @@ const jsonLd = JSON.stringify({
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
-                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} alt={d.name} loading="lazy" />}</div>
+                    <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
                     <div class="h-card-body"><div class="h-card-name">{d.name}</div><div class="h-card-meta">{d.prefecture}</div></div>
                   </a>
                 );
@@ -511,7 +530,7 @@ const jsonLd = JSON.stringify({
                     const img = destImageUrl(d);
                     return (
                       <a href={`/destinations/${d.id}/`} class="season-item">
-                        {img && <img src={img} alt={d.name} loading="lazy" />}
+                        {img && <img src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}
                         <span>{d.name}</span>
                       </a>
                     );
@@ -533,7 +552,7 @@ const jsonLd = JSON.stringify({
         <a href={rakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
           <div>
             <p class="hotel-card-name">楽天トラベル</p>
-            <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+            <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
           </div>
           <span class="hotel-card-arrow">→</span>
         </a>
@@ -544,6 +563,7 @@ const jsonLd = JSON.stringify({
           </div>
           <span class="hotel-card-arrow">→</span>
         </a>
+        <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
       </div>
     </section>
 

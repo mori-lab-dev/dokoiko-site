@@ -13,6 +13,14 @@
  *   node scripts/descStyleCheck.mjs --file a.json   {id: description} を検査
  */
 import fs from 'fs';
+import { originTimePattern, splitSentences as splitTimeSentences } from './travelTimeBound.mjs';
+
+/** 所要時間の文（「{出発地}から約N分」）を除いた文。数値の条件は、この文の数字を数えない（所要時間は travelTime 由来で、書き手が足す数字ではない） */
+export function withoutTravelTimeSentences(t) {
+  return splitTimeSentences(t).filter((s) => !originTimePattern().test(s)).join('');
+}
+/** 所要時間の文を削除した description の一覧（fixTravelTime.mjs が書く）。数値・字数・短文の条件はここには適用しない */
+const TRIMMED = new Set((() => { try { return JSON.parse(fs.readFileSync(new URL('./data/descTimeTrimmed.json', import.meta.url), 'utf8')).ids; } catch { return []; } })());
 
 /** 固定化した言い回し。1つでも入っていたら不合格 */
 export const NG_PHRASES = [
@@ -39,14 +47,15 @@ export const SENSE = [
 const sentences = (t) => t.split(/(?<=。)/).map((s) => s.trim()).filter(Boolean);
 
 /** 数値の数。距離・所要時間・年・温度・本数。漢数字の表記ゆれも拾う */
-function countNumbers(t) {
+export function countNumbers(t) {
   const arabic = t.match(/[0-9０-９]+/g) || [];
   const kanji = t.match(/[一二三四五六七八九十百千万]+(?=年|分|時間|度|人|軒|種|本|号|世紀|km|メートル|キロ)/g) || [];
   return arabic.length + kanji.length;
 }
 
-export function checkDesc(text) {
+export function checkDesc(text, id) {
   const t = String(text || '');
+  const trimmed = id !== undefined && TRIMMED.has(id);
   const ss = sentences(t);
   const lens = ss.map((s) => s.length);
   const senseHits = SENSE.filter(([, re]) => re.test(t)).map(([label]) => label);
@@ -60,11 +69,12 @@ export function checkDesc(text) {
   if (hedge.length) issues.push(`推測表現 ${hedge.join('/')}`);
   if (senseHits.length > 2) issues.push(`五感${senseHits.length}箇所（上限2）${senseHits.join('/')}`);
   const nums = countNumbers(t);
-  if (nums < 2) issues.push(`数値${nums}個（2つ以上）`);
-  if (!lens.some((l) => l <= 15)) issues.push('15字以下の短文が無い');
+  const numsExTime = countNumbers(withoutTravelTimeSentences(t));   // 参考: 所要時間の文を除いた数値の数（合否には使わない。auditAll の参考指標）
+  if (!trimmed && nums < 2) issues.push(`数値${nums}個（2つ以上）`);
+  if (!trimmed && !lens.some((l) => l <= 15)) issues.push('15字以下の短文が無い');
   if (!lens.some((l) => l >= 35)) issues.push('40字前後の長めの文が無い');
   if (proper.size < 5) issues.push(`固有名詞まわりの漢字語 ${proper.size}種（5種以上）`);
-  if (t.length < 200 || t.length > 300) issues.push(`${t.length}字（200〜300字）`);
+  if (t.length > 300 || (!trimmed && t.length < 200)) issues.push(`${t.length}字（200〜300字）`);
   if (polite > 3) issues.push(`です・ます ${polite}回（3回以下）`);
 
   return {
@@ -72,7 +82,7 @@ export function checkDesc(text) {
     len: t.length, n: ss.length,
     min: lens.length ? Math.min(...lens) : 0,
     max: lens.length ? Math.max(...lens) : 0,
-    nums, sense: senseHits.length, polite,
+    nums, numsExTime, trimmed, sense: senseHits.length, polite,
   };
 }
 
@@ -94,7 +104,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   let ok = 0;
   const detail = args.length > 0;
   for (const e of entries) {
-    const r = checkDesc(e.description);
+    const r = checkDesc(e.description, e.id);
     if (r.ok) ok++;
     if (detail || !r.ok) {
       const head = `${r.ok ? '✅' : '❌'} ${String(e.id).padEnd(22)} ${String(e.name).slice(0, 12).padEnd(14)}`;
@@ -102,6 +112,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       console.log(`${head} ${body}${r.ok ? '' : '\n      ' + r.issues.join(' / ')}`);
     }
   }
+  const exTime = entries.filter((e) => !checkDesc(e.description, e.id).trimmed && checkDesc(e.description, e.id).numsExTime < 2).length;
+  console.log(`\n所要時間の文を除くと数値が2つ未満（参考・合否に使わない）: ${exTime}件 / 所要時間の文を削除済みで数値・字数・短文の条件を適用しない: ${entries.filter((e) => checkDesc(e.description, e.id).trimmed).length}件`);
   console.log(`\n通過 ${ok} / ${entries.length}（${(ok / entries.length * 100).toFixed(1)}%）`);
   if (detail) process.exit(ok === entries.length ? 0 : 1);
 }

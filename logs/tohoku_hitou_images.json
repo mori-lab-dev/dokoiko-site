@@ -1,0 +1,100 @@
+{
+ "adopted": [],
+ "rejected": [
+  {
+   "id": "hinoemata-onsen",
+   "name": "檜枝岐温泉",
+   "tried": [
+    {
+     "title": "File:Michinoeki Ozehinoemata (Alza Ozenosato).jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Michinoeki_Ozehinoemata_(Alza_Ozenosato).jpg"
+    },
+    {
+     "title": "File:Hinoemata-Vill-Office.JPG",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Hinoemata-Vill-Office.JPG"
+    },
+    {
+     "title": "File:Hinoemata in Fukushima Prefecture.png",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Hinoemata_in_Fukushima_Prefecture.png"
+    },
+    {
+     "title": "File:Farm village Kabuki stage Hinoemata-no Butai.JPG",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG"
+    },
+    {
+     "title": "File:Tinted autumnal leaves 紅葉.jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Tinted_autumnal_leaves_%E7%B4%85%E8%91%89.jpg"
+    },
+    {
+     "title": "File:Hiuchigatake, Hinoemata, Minamiaizu District, Fukushima Prefecture 967-0531, Japan - panoramio (2).jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Hiuchigatake,_Hinoemata,_Minamiaizu_District,_Fukushima_Prefecture_967-0531,_Japan_-_panoramio_(2).jpg"
+    },
+    {
+     "title": "File:Hiuchigatake, Hinoemata, Minamiaizu District, Fukushima Prefecture 967-0531, Japan - panoramio (1).jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Hiuchigatake,_Hinoemata,_Minamiaizu_District,_Fukushima_Prefecture_967-0531,_Japan_-_panoramio_(1).jpg"
+    },
+    {
+     "title": "File:Hinoemata Kabuki 20250906 Wide View.jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Hinoemata_Kabuki_20250906_Wide_View.jpg"
+    },
+    {
+     "title": "File:Hinoemata Kabuki Stage 01.jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:Hinoemata_Kabuki_Stage_01.jpg"
+    }
+   ],
+   "note": "Vision(Haiku/Sonnet)を使えないため採用せず、画像なしで掲載"
+  },
+  {
+   "id": "nakanosawa-onsen",
+   "name": "中ノ沢温泉",
+   "tried": [
+    {
+     "title": "File:中ノ沢温泉郷 - panoramio.jpg",
+     "stage": "place-only",
+     "place": "ok",
+     "hitsLocal": true,
+     "hitsSelf": true,
+     "url": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E3%83%8E%E6%B2%A2%E6%B8%A9%E6%B3%89%E9%83%B7_-_panoramio.jpg"
+    }
+   ],
+   "note": "Vision(Haiku/Sonnet)を使えないため採用せず、画像なしで掲載"
+  }
+ ],
+ "visionUnavailable": false
+}

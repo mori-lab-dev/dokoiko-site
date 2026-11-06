@@ -3,11 +3,13 @@ import destinations from '../data/destinations.json';
 import hubCities from '../data/hubCities.json';
 import { SCHEMES } from '../data/ouenWari';
 import kagoshimaAreas from '../data/kagoshimaAreas.json';
+// lastmod は git の履歴から出した実際の更新日だけ（scripts/buildLastmod.mjs）。日付が出せないページには付けない
+import lastmod from '../data/lastmod.json';
 
 export const GET: APIRoute = () => {
   const BASE = 'https://tabidokoiko.com';
 
-  const urls: { loc: string; changefreq: string; priority: string }[] = [
+  const urls: { loc: string; changefreq: string; priority: string; lastmod?: string }[] = [
     { loc: `${BASE}/`,              changefreq: 'weekly',  priority: '1.0' },
     { loc: `${BASE}/destinations/`, changefreq: 'weekly',  priority: '0.9' },
     { loc: `${BASE}/kyushu-fukko/`, changefreq: 'weekly',  priority: '0.9' },
@@ -40,11 +42,23 @@ export const GET: APIRoute = () => {
     })),
   ];
 
+  // 固定・特設ページは URL で、旅先ページは id で日付を引く
+  const pageDates = (lastmod as any).pages as Record<string, string>;
+  const destDates = (lastmod as any).destinations as Record<string, string>;
+  for (const u of urls) {
+    const p = u.loc.slice(BASE.length);
+    const m = p.match(/^\/destinations\/([^/]+)\/$/);
+    const d = m ? destDates[decodeURIComponent(m[1])] : pageDates[p];
+    if (d) u.lastmod = d;
+  }
+
+  // loc は canonical タグ（Astro.url.href）と同じ%エンコード（RFC 3986・大文字16進）で書く。日本語のまま書かない
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
-    <loc>${u.loc}</loc>
-    <changefreq>${u.changefreq}</changefreq>
+    <loc>${new URL(u.loc).href}</loc>
+${u.lastmod ? `    <lastmod>${u.lastmod}</lastmod>
+` : ''}    <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
   </url>`).join('\n')}
 </urlset>`;

@@ -1,5 +1,6 @@
 ---
 import DestinationLayout from '../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../data/imgAttrs';
 import destinations from '../data/destinations.json';
 import hubCities from '../data/hubCities.json';
 import { SCHEMES } from '../data/ouenWari';
@@ -928,10 +929,11 @@ try {
     {heroImages.length > 0 ? (
       heroImages.map((src, i) => (
         <img
-          src={src}
+          src={src} {...dimAttrs(src)}
           alt="旅の風景"
           class:list={['hero-slide', { 'is-active': i === 0 }]}
           loading={i === 0 ? 'eager' : 'lazy'}
+          fetchpriority={i === 0 ? 'high' : undefined}
         />
       ))
     ) : (

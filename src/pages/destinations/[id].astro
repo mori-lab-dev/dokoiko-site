@@ -1,6 +1,7 @@
 ---
 import AffiliateNotice from '../../components/AffiliateNotice.astro';
 import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../../data/imgAttrs';
 import destinations from '../../data/destinations.json';
 import hubCities from '../../data/hubCities.json';
 import { pickJRService, jrServiceUrl, jrServiceLabel } from '../../../scripts/jrServiceMap.js';
@@ -44,7 +45,9 @@ const unsplashCredit    = unsplashUrl ? ((dest as any).unsplashCredit ?? null) :
 const unsplashCreditUrl = unsplashUrl ? ((dest as any).unsplashCreditUrl ?? null) : null;
 const unsplashPhotoUrl  = unsplashUrl ? ((dest as any).unsplashPhotoUrl ?? null) : null;
 
-const seoTitle = `【${dest.name}】おすすめ観光スポット${dest.spots?.length || 3}選｜${dest.prefecture}の旅`;
+// 個別に書いた title / description（dest.seo、または車なしガイド carFree.seo）があるページはそれを使う（scripts/auditSeoCopy.mjs が本文と照合する）
+const carFreeSeo = ((dest as any).seo ?? (dest as any).carFree?.seo) as { title: string; description: string } | undefined;
+const seoTitle = carFreeSeo?.title ?? `【${dest.name}】おすすめ観光スポット${dest.spots?.length || 3}選｜${dest.prefecture}の旅`;
 // meta description は 120字前後に整形する。dest.description（200〜300字）を
 // そのまま使うと検索結果で途中切りされるため、文境界（。）で 120字以内へ丸める。
 function toMetaDescription(text: string): string {
@@ -55,7 +58,8 @@ function toMetaDescription(text: string): string {
   return cut >= 60 ? head.slice(0, cut + 1) : head.slice(0, 118) + '…';
 }
 const description =
-  article?.lead?.slice(0, 120)
+  carFreeSeo?.description
+  || article?.lead?.slice(0, 120)
   || toMetaDescription(dest.description)
   || `${dest.name}（${dest.prefecture}）への行き方・宿・観光スポット情報。`;
 
@@ -1378,6 +1382,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     letter-spacing: 0.04em;
     margin-bottom: 2px;
   }
+  .hotel-price-note { font-size: 13px; line-height: 1.6; color: inherit; margin: 8px 0 0; }
   .hotel-card-desc { font-size: 12px; color: rgba(255,255,255,0.85); }
   .hotel-card-arrow { font-size: 18px; color: #fff; font-weight: 500; }
 
@@ -1568,7 +1573,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   <!-- Hero: 画像あり / なし で分岐 -->
   {imageUrl ? (
     <div class="dest-hero">
-      <img class="dest-hero-img" src={imageUrl} alt={dest.mainSpot ? `${dest.name}の${dest.mainSpot}` : `${dest.name}の風景`} />
+      <img fetchpriority="high" class="dest-hero-img" src={imageUrl} {...dimAttrs(imageUrl)} alt={dest.mainSpot ? `${dest.name}の${dest.mainSpot}` : `${dest.name}の風景`} />
       <div class="dest-hero-gradient"></div>
       <div class="dest-hero-content">
         <span class="dest-hero-pref">{dest.prefecture}</span>
@@ -1707,7 +1712,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               <div class={spotImg ? 'spot-with-img' : ''}>
                 {spotImg && (
                   <figure class="spot-figure">
-                    <img class="spot-thumb" src={spotImg} alt={`${dest.name}の${sectionTitle}`} loading="lazy" onerror="this.style.display='none'" />
+                    <img class="spot-thumb" src={spotImg} {...dimAttrs(spotImg)} alt={`${dest.name}の${sectionTitle}`} loading="lazy" onerror="this.style.display='none'" />
                     {spotImgCredit && (
                       <figcaption class="spot-credit">
                         {spotImgCredit.url
@@ -1753,7 +1758,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               <div class={imageUrl ? 'spot-with-img' : ''}>
                 {imageUrl && (
                   <figure class="spot-figure">
-                    <img class="spot-thumb" src={imageUrl} alt={`${dest.name}の${name}`} loading="lazy" onerror="this.style.display='none'" />
+                    <img class="spot-thumb" src={imageUrl} {...dimAttrs(imageUrl)} alt={`${dest.name}の${name}`} loading="lazy" onerror="this.style.display='none'" />
                     {spotCredit && (
                       <figcaption class="spot-credit">
                         {spotCredit.url
@@ -2055,7 +2060,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={rakutenHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
               <div>
                 <p class="hotel-card-name">楽天トラベルで探す</p>
-                <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
@@ -2066,6 +2071,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
+            <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
           </div>
         </div>
         <div class="hotel-tab-content hotel-tab-content-hub">
@@ -2074,7 +2080,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={hubRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
               <div>
                 <p class="hotel-card-name">楽天トラベルで探す</p>
-                <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
@@ -2085,6 +2091,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
+            <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
           </div>
         </div>
       </div>
@@ -2099,7 +2106,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               <a href={rakutenHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
                 <div>
                   <p class="hotel-card-name">楽天トラベルで探す</p>
-                  <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                  <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
@@ -2110,6 +2117,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
+              <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
             </div>
           </div>
         )}
@@ -2122,7 +2130,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               <a href={hubRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
                 <div>
                   <p class="hotel-card-name">楽天トラベルで探す</p>
-                  <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                  <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
@@ -2133,6 +2141,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
+              <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
             </div>
           </div>
         )}
@@ -2146,7 +2155,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
           <a href={prefRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
             <div>
               <p class="hotel-card-name">楽天トラベルで探す</p>
-              <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+              <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
             </div>
             <span class="hotel-card-arrow">→</span>
           </a>
@@ -2157,6 +2166,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             </div>
             <span class="hotel-card-arrow">→</span>
           </a>
+          <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
         </div>
       </div>
     )}
@@ -2258,13 +2268,13 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img
                   class="nearby-card-img"
-                  src={`/images/${d.id}/main.jpg`}
+                  src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)}
                   alt={`${d.name}の風景`}
                   loading="lazy"
                   onerror="this.style.display='none'"
-                />
+                />)}
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
@@ -2293,7 +2303,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />)}
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>
@@ -2322,7 +2332,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
             <a href={`/destinations/${d.id}/`} class="nearby-card">
               <div class="nearby-card-img-wrap">
                 <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
-                <img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />)}
               </div>
               <div class="nearby-card-body">
                 <div class="nearby-card-name">{d.name}</div>

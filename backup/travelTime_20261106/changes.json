@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "o": "naha",
+    "from": 90,
+    "to": 125,
+    "dist": 410,
+    "lb": 121,
+    "why": "rule"
+  },
+  {
+    "id": "otaru",
+    "name": "小樽",
+    "o": "obihiro",
+    "from": 100,
+    "to": 180,
+    "dist": 182,
+    "lb": 104,
+    "why": "official"
+  },
+  {
+    "id": "tokashiki-jima",
+    "name": "渡嘉敷島",
+    "o": "ishigaki",
+    "from": 90,
+    "to": 120,
+    "dist": 382,
+    "lb": 119,
+    "why": "rule"
+  },
+  {
+    "id": "tokashiki-jima",
+    "name": "渡嘉敷島",
+    "o": "miyako",
+    "from": 80,
+    "to": 110,
+    "dist": 260,
+    "lb": 109,
+    "why": "rule"
+  },
+  {
+    "id": "kumejima",
+    "name": "久米島",
+    "o": "ishigaki",
+    "from": 90,
+    "to": 120,
+    "dist": 346,
+    "lb": 116,
+    "why": "rule"
+  },
+  {
+    "id": "kumejima",
+    "name": "久米島",
+    "o": "miyako",
+    "from": 80,
+    "to": 110,
+    "dist": 230,
+    "lb": 106,
+    "why": "rule"
+  },
+  {
+    "id": "miyakojima",
+    "name": "宮古島",
+    "o": "naha",
+    "from": 80,
+    "to": 115,
+    "dist": 287,
+    "lb": 112,
+    "why": "rule"
+  },
+  {
+    "id": "kouzushima",
+    "name": "神津島",
+    "o": "mito",
+    "from": 65,
+    "to": 115,
+    "dist": 270,
+    "lb": 110,
+    "why": "rule"
+  },
+  {
+    "id": "kouzushima",
+    "name": "神津島",
+    "o": "maebashi",
+    "from": 80,
+    "to": 110,
+    "dist": 242,
+    "lb": 108,
+    "why": "rule"
+  },
+  {
+    "id": "kouzushima",
+    "name": "神津島",
+    "o": "takasaki",
+    "from": 80,
+    "to": 110,
+    "dist": 235,
+    "lb": 108,
+    "why": "rule"
+  },
+  {
+    "id": "izu-oshima",
+    "name": "伊豆大島",
+    "o": "mito",
+    "from": 65,
+    "to": 100,
+    "dist": 208,
+    "lb": 96,
+    "why": "rule"
+  },
+  {
+    "id": "izu-oshima",
+    "name": "伊豆大島",
+    "o": "maebashi",
+    "from": 80,
+    "to": 105,
+    "dist": 187,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "izu-oshima",
+    "name": "伊豆大島",
+    "o": "takasaki",
+    "from": 80,
+    "to": 105,
+    "dist": 181,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "shimonoseki",
+    "name": "下関",
+    "o": "hiroshima",
+    "from": 45,
+    "to": 100,
+    "dist": 149,
+    "lb": 100,
+    "why": "rule"
+  },
+  {
+    "id": "amami",
+    "name": "奄美大島",
+    "o": "fukuoka",
+    "from": 90,
+    "to": 135,
+    "dist": 586,
+    "lb": 134,
+    "why": "rule"
+  },
+  {
+    "id": "goto",
+    "name": "五島列島",
+    "o": "shimonoseki",
+    "from": 50,
+    "to": 110,
+    "dist": 239,
+    "lb": 108,
+    "why": "rule"
+  },
+  {
+    "id": "goto",
+    "name": "五島列島",
+    "o": "saga",
+    "from": 50,
+    "to": 105,
+    "dist": 151,
+    "lb": 100,
+    "why": "rule"
+  },
+  {
+    "id": "goto",
+    "name": "五島列島",
+    "o": "oita",
+    "from": 80,
+    "to": 110,
+    "dist": 265,
+    "lb": 110,
+    "why": "rule"
+  },
+  {
+    "id": "hita",
+    "name": "日田",
+    "o": "tokyo",
+    "from": 160,
+    "to": 185,
+    "dist": 850,
+    "lb": 154,
+    "why": "official"
+  },
+  {
+    "id": "tsushima",
+    "name": "対馬",
+    "o": "fukuoka",
+    "from": 50,
+    "to": 85,
+    "dist": 125,
+    "lb": 83,
+    "why": "rule"
+  },
+  {
+    "id": "tsushima",
+    "name": "対馬",
+    "o": "shimonoseki",
+    "from": 50,
+    "to": 105,
+    "dist": 153,
+    "lb": 101,
+    "why": "rule"
+  },
+  {
+    "id": "tsushima",
+    "name": "対馬",
+    "o": "saga",
+    "from": 50,
+    "to": 95,
+    "dist": 140,
+    "lb": 93,
+    "why": "rule"
+  },
+  {
+    "id": "tsushima",
+    "name": "対馬",
+    "o": "oita",
+    "from": 80,
+    "to": 110,
+    "dist": 240,
+    "lb": 108,
+    "why": "rule"
+  },
+  {
+    "id": "iki-island",
+    "name": "壱岐",
+    "o": "shimonoseki",
+    "from": 50,
+    "to": 80,
+    "dist": 116,
+    "lb": 77,
+    "why": "rule"
+  },
+  {
+    "id": "iki-island",
+    "name": "壱岐",
+    "o": "oita",
+    "from": 80,
+    "to": 105,
+    "dist": 186,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "tanegashima",
+    "name": "種子島",
+    "o": "fukuoka",
+    "from": 90,
+    "to": 115,
+    "dist": 321,
+    "lb": 114,
+    "why": "rule"
+  },
+  {
+    "id": "yonaguni-island",
+    "name": "与那国島",
+    "o": "ishigaki",
+    "from": 60,
+    "to": 80,
+    "dist": 119,
+    "lb": 79,
+    "why": "rule"
+  },
+  {
+    "id": "ie-island",
+    "name": "伊江島",
+    "o": "ishigaki",
+    "from": 90,
+    "to": 125,
+    "dist": 450,
+    "lb": 124,
+    "why": "rule"
+  },
+  {
+    "id": "ie-island",
+    "name": "伊江島",
+    "o": "miyako",
+    "from": 80,
+    "to": 115,
+    "dist": 330,
+    "lb": 115,
+    "why": "rule"
+  },
+  {
+    "id": "kohama-island",
+    "name": "小浜島",
+    "o": "tokyo",
+    "from": 160,
+    "to": 240,
+    "dist": 1964,
+    "lb": 237,
+    "why": "rule"
+  },
+  {
+    "id": "kohama-island",
+    "name": "小浜島",
+    "o": "osaka",
+    "from": 160,
+    "to": 210,
+    "dist": 1595,
+    "lb": 210,
+    "why": "rule"
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "o": "tokyo",
+    "from": 105,
+    "to": 155,
+    "dist": 857,
+    "lb": 154,
+    "why": "rule"
+  },
+  {
+    "id": "ogaki",
+    "name": "大垣",
+    "o": "hamamatsu",
+    "from": 60,
+    "to": 85,
+    "dist": 125,
+    "lb": 83,
+    "why": "rule"
+  },
+  {
+    "id": "sakaiminato",
+    "name": "境港",
+    "o": "tottori",
+    "from": 45,
+    "to": 65,
+    "dist": 90,
+    "lb": 60,
+    "why": "rule"
+  },
+  {
+    "id": "kirishima",
+    "name": "霧島",
+    "o": "tokyo",
+    "from": 120,
+    "to": 160,
+    "dist": 924,
+    "lb": 159,
+    "why": "rule"
+  },
+  {
+    "id": "kirishima",
+    "name": "霧島",
+    "o": "osaka",
+    "from": 100,
+    "to": 130,
+    "dist": 532,
+    "lb": 130,
+    "why": "rule"
+  },
+  {
+    "id": "onna",
+    "name": "恩納村",
+    "o": "fukuoka",
+    "from": 115,
+    "to": 155,
+    "dist": 828,
+    "lb": 152,
+    "why": "rule"
+  },
+  {
+    "id": "nago",
+    "name": "名護",
+    "o": "fukuoka",
+    "from": 115,
+    "to": 155,
+    "dist": 813,
+    "lb": 151,
+    "why": "rule"
+  },
+  {
+    "id": "yomitanson",
+    "name": "読谷村",
+    "o": "fukuoka",
+    "from": 115,
+    "to": 155,
+    "dist": 840,
+    "lb": 153,
+    "why": "rule"
+  },
+  {
+    "id": "yomitanson",
+    "name": "読谷村",
+    "o": "ishigaki",
+    "from": 90,
+    "to": 125,
+    "dist": 426,
+    "lb": 122,
+    "why": "rule"
+  },
+  {
+    "id": "yomitanson",
+    "name": "読谷村",
+    "o": "miyako",
+    "from": 80,
+    "to": 115,
+    "dist": 304,
+    "lb": 113,
+    "why": "rule"
+  },
+  {
+    "id": "koriyama",
+    "name": "郡山",
+    "o": "tokyo",
+    "from": 80,
+    "to": 105,
+    "dist": 199,
+    "lb": 105,
+    "why": "rule"
+  },
+  {
+    "id": "mishima",
+    "name": "三島",
+    "o": "nagoya",
+    "from": 80,
+    "to": 105,
+    "dist": 185,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "kakegawa",
+    "name": "掛川",
+    "o": "nagoya",
+    "from": 60,
+    "to": 80,
+    "dist": 113,
+    "lb": 75,
+    "why": "rule"
+  },
+  {
+    "id": "fukuyama",
+    "name": "福山",
+    "o": "hiroshima",
+    "from": 30,
+    "to": 55,
+    "dist": 82,
+    "lb": 55,
+    "why": "rule"
+  },
+  {
+    "id": "kitakyushu",
+    "name": "北九州",
+    "o": "fukuoka",
+    "from": 20,
+    "to": 40,
+    "dist": 53,
+    "lb": 35,
+    "why": "rule"
+  },
+  {
+    "id": "chatan",
+    "name": "北谷",
+    "o": "ishigaki",
+    "from": 80,
+    "to": 125,
+    "dist": 423,
+    "lb": 122,
+    "why": "rule"
+  },
+  {
+    "id": "chatan",
+    "name": "北谷",
+    "o": "miyako",
+    "from": 70,
+    "to": 115,
+    "dist": 300,
+    "lb": 112,
+    "why": "rule"
+  },
+  {
+    "id": "uruma",
+    "name": "うるま",
+    "o": "ishigaki",
+    "from": 90,
+    "to": 125,
+    "dist": 435,
+    "lb": 123,
+    "why": "rule"
+  },
+  {
+    "id": "uruma",
+    "name": "うるま",
+    "o": "miyako",
+    "from": 80,
+    "to": 115,
+    "dist": 313,
+    "lb": 113,
+    "why": "rule"
+  },
+  {
+    "id": "utsunomiya",
+    "name": "宇都宮",
+    "o": "sendai",
+    "from": 40,
+    "to": 75,
+    "dist": 208,
+    "lb": 73,
+    "why": "rule"
+  },
+  {
+    "id": "yaizu",
+    "name": "焼津",
+    "o": "tokyo",
+    "from": 80,
+    "to": 105,
+    "dist": 159,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "yaizu",
+    "name": "焼津",
+    "o": "nagoya",
+    "from": 60,
+    "to": 95,
+    "dist": 136,
+    "lb": 90,
+    "why": "rule"
+  },
+  {
+    "id": "yaizu",
+    "name": "焼津",
+    "o": "gifu",
+    "from": 80,
+    "to": 105,
+    "dist": 155,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "hamanako",
+    "name": "浜名湖",
+    "o": "nagoya",
+    "from": 40,
+    "to": 55,
+    "dist": 82,
+    "lb": 55,
+    "why": "rule"
+  },
+  {
+    "id": "otsu-shiga",
+    "name": "大津",
+    "o": "osaka",
+    "from": 20,
+    "to": 35,
+    "dist": 48,
+    "lb": 32,
+    "why": "rule"
+  },
+  {
+    "id": "kusatsu-shiga",
+    "name": "草津",
+    "o": "osaka",
+    "from": 25,
+    "to": 40,
+    "dist": 55,
+    "lb": 36,
+    "why": "rule"
+  },
+  {
+    "id": "kusatsu-shiga",
+    "name": "草津",
+    "o": "hamamatsu",
+    "from": 80,
+    "to": 105,
+    "dist": 166,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "nanjo-okinawa",
+    "name": "南城",
+    "o": "ishigaki",
+    "from": 90,
+    "to": 125,
+    "dist": 415,
+    "lb": 121,
+    "why": "rule"
+  },
+  {
+    "id": "nanjo-okinawa",
+    "name": "南城",
+    "o": "miyako",
+    "from": 80,
+    "to": 115,
+    "dist": 292,
+    "lb": 112,
+    "why": "rule"
+  },
+  {
+    "id": "zaou-onsen",
+    "name": "蔵王温泉",
+    "o": "tokyo",
+    "from": 130,
+    "to": 146,
+    "dist": 304,
+    "lb": 113,
+    "why": "official"
+  },
+  {
+    "id": "kakeroma-island",
+    "name": "加計呂麻島",
+    "o": "fukuoka",
+    "from": 100,
+    "to": 140,
+    "dist": 619,
+    "lb": 136,
+    "why": "rule"
+  },
+  {
+    "id": "toyama-city",
+    "name": "富山",
+    "o": "kanazawa",
+    "from": 25,
+    "to": 35,
+    "dist": 52,
+    "lb": 35,
+    "why": "rule"
+  },
+  {
+    "id": "nozawa-onsen-niigata",
+    "name": "湯沢・苗場",
+    "o": "tokyo",
+    "from": 75,
+    "to": 105,
+    "dist": 163,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "morioka",
+    "name": "盛岡",
+    "o": "sendai",
+    "from": 40,
+    "to": 105,
+    "dist": 162,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "morioka",
+    "name": "盛岡",
+    "o": "aomori",
+    "from": 45,
+    "to": 90,
+    "dist": 130,
+    "lb": 87,
+    "why": "rule"
+  },
+  {
+    "id": "morioka",
+    "name": "盛岡",
+    "o": "fukushima",
+    "from": 65,
+    "to": 105,
+    "dist": 225,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "okayama-city",
+    "name": "岡山",
+    "o": "osaka",
+    "from": 50,
+    "to": 100,
+    "dist": 143,
+    "lb": 95,
+    "why": "rule"
+  },
+  {
+    "id": "kagoshima-city",
+    "name": "鹿児島",
+    "o": "fukuoka",
+    "from": 75,
+    "to": 105,
+    "dist": 222,
+    "lb": 103,
+    "why": "rule"
+  },
+  {
+    "id": "himeji-castle-2",
+    "name": "姫路城",
+    "o": "osaka",
+    "from": 35,
+    "to": 50,
+    "dist": 75,
+    "lb": 50,
+    "why": "rule"
+  },
+  {
+    "id": "niigata-uono",
+    "name": "湯沢高原",
+    "o": "tokyo",
+    "from": 75,
+    "to": 105,
+    "dist": 163,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "iso",
+    "name": "仙巌園",
+    "o": "fukuoka",
+    "from": 75,
+    "to": 105,
+    "dist": 219,
+    "lb": 101,
+    "why": "rule"
+  },
+  {
+    "id": "kyoto",
+    "name": "京都",
+    "o": "osaka",
+    "from": 15,
+    "to": 30,
+    "dist": 42,
+    "lb": 28,
+    "why": "rule"
+  },
+  {
+    "id": "kyoto",
+    "name": "京都",
+    "o": "nagoya",
+    "from": 35,
+    "to": 50,
+    "dist": 103,
+    "lb": 47,
+    "why": "rule"
+  },
+  {
+    "id": "kyoto",
+    "name": "京都",
+    "o": "gifu",
+    "from": 30,
+    "to": 50,
+    "dist": 100,
+    "lb": 46,
+    "why": "rule+official"
+  },
+  {
+    "id": "kyoto",
+    "name": "京都",
+    "o": "okayama",
+    "from": 60,
+    "to": 80,
+    "dist": 173,
+    "lb": 80,
+    "why": "rule"
+  },
+  {
+    "id": "osaka",
+    "name": "大阪",
+    "o": "nagoya",
+    "from": 50,
+    "to": 65,
+    "dist": 136,
+    "lb": 63,
+    "why": "rule"
+  },
+  {
+    "id": "osaka",
+    "name": "大阪",
+    "o": "gifu",
+    "from": 35,
+    "to": 65,
+    "dist": 139,
+    "lb": 64,
+    "why": "rule"
+  },
+  {
+    "id": "osaka",
+    "name": "大阪",
+    "o": "kyoto",
+    "from": 15,
+    "to": 30,
+    "dist": 40,
+    "lb": 27,
+    "why": "rule"
+  },
+  {
+    "id": "osaka",
+    "name": "大阪",
+    "o": "okayama",
+    "from": 45,
+    "to": 70,
+    "dist": 145,
+    "lb": 67,
+    "why": "rule"
+  },
+  {
+    "id": "kobe",
+    "name": "神戸",
+    "o": "gifu",
+    "from": 50,
+    "to": 80,
+    "dist": 164,
+    "lb": 76,
+    "why": "rule"
+  },
+  {
+    "id": "kobe",
+    "name": "神戸",
+    "o": "okayama",
+    "from": 35,
+    "to": 55,
+    "dist": 116,
+    "lb": 53,
+    "why": "rule"
+  },
+  {
+    "id": "fukuoka",
+    "name": "福岡",
+    "o": "naha",
+    "from": 110,
+    "to": 155,
+    "dist": 861,
+    "lb": 155,
+    "why": "rule"
+  },
+  {
+    "id": "kanazawa",
+    "name": "金沢",
+    "o": "toyama",
+    "from": 25,
+    "to": 40,
+    "dist": 54,
+    "lb": 36,
+    "why": "rule"
+  },
+  {
+    "id": "niche_岩手_1",
+    "name": "北山崎",
+    "o": "sendai",
+    "from": 45,
+    "to": 75,
+    "dist": 205,
+    "lb": 72,
+    "why": "rule"
+  },
+  {
+    "id": "niche_静岡_3",
+    "name": "石部棚田",
+    "o": "tokyo",
+    "from": 60,
+    "to": 95,
+    "dist": 140,
+    "lb": 94,
+    "why": "rule"
+  },
+  {
+    "id": "niche_静岡_4",
+    "name": "ヒリゾ浜",
+    "o": "tokyo",
+    "from": 60,
+    "to": 100,
+    "dist": 147,
+    "lb": 98,
+    "why": "rule"
+  },
+  {
+    "id": "niche_静岡_6",
+    "name": "奥大井湖上駅",
+    "o": "tokyo",
+    "from": 60,
+    "to": 105,
+    "dist": 155,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "niche_愛知_4",
+    "name": "内子町の三間町並み",
+    "o": "nagoya",
+    "from": 50,
+    "to": 125,
+    "dist": 428,
+    "lb": 122,
+    "why": "rule"
+  },
+  {
+    "id": "niche_愛知_4",
+    "name": "内子町の三間町並み",
+    "o": "hamamatsu",
+    "from": 90,
+    "to": 130,
+    "dist": 485,
+    "lb": 126,
+    "why": "rule"
+  },
+  {
+    "id": "niche_愛知_4",
+    "name": "内子町の三間町並み",
+    "o": "gifu",
+    "from": 80,
+    "to": 125,
+    "dist": 429,
+    "lb": 122,
+    "why": "rule"
+  },
+  {
+    "id": "niche_広島_6",
+    "name": "世羅ラベンダー畑",
+    "o": "hiroshima",
+    "from": 30,
+    "to": 40,
+    "dist": 57,
+    "lb": 38,
+    "why": "rule"
+  },
+  {
+    "id": "niche_熊本_1",
+    "name": "五木村の清流と棚田",
+    "o": "fukuoka",
+    "from": 30,
+    "to": 65,
+    "dist": 136,
+    "lb": 63,
+    "why": "rule"
+  },
+  {
+    "id": "niche_熊本_1",
+    "name": "五木村の清流と棚田",
+    "o": "shimonoseki",
+    "from": 60,
+    "to": 80,
+    "dist": 170,
+    "lb": 79,
+    "why": "rule"
+  },
+  {
+    "id": "niche_熊本_2",
+    "name": "産山村の星の宮古墳",
+    "o": "fukuoka",
+    "from": 30,
+    "to": 45,
+    "dist": 97,
+    "lb": 45,
+    "why": "rule"
+  },
+  {
+    "id": "niche_熊本_6",
+    "name": "白糸台地の棚田",
+    "o": "fukuoka",
+    "from": 30,
+    "to": 70,
+    "dist": 149,
+    "lb": 69,
+    "why": "rule"
+  },
+  {
+    "id": "niche_熊本_6",
+    "name": "白糸台地の棚田",
+    "o": "shimonoseki",
+    "from": 60,
+    "to": 90,
+    "dist": 185,
+    "lb": 85,
+    "why": "rule"
+  },
+  {
+    "id": "niche_熊本_8",
+    "name": "三角町の漁師町",
+    "o": "fukuoka",
+    "from": 30,
+    "to": 50,
+    "dist": 108,
+    "lb": 50,
+    "why": "rule"
+  },
+  {
+    "id": "niche_宮崎_2",
+    "name": "西米良村 仙人の湯",
+    "o": "fukuoka",
+    "from": 70,
+    "to": 105,
+    "dist": 166,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "niche_宮崎_3",
+    "name": "みやざき地鶏の里",
+    "o": "fukuoka",
+    "from": 70,
+    "to": 100,
+    "dist": 147,
+    "lb": 98,
+    "why": "rule"
+  },
+  {
+    "id": "niche_宮崎_4",
+    "name": "渡川温泉",
+    "o": "fukuoka",
+    "from": 70,
+    "to": 105,
+    "dist": 185,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "niche_宮崎_6",
+    "name": "観音池公園",
+    "o": "fukuoka",
+    "from": 70,
+    "to": 100,
+    "dist": 207,
+    "lb": 96,
+    "why": "rule"
+  },
+  {
+    "id": "niche_宮崎_7",
+    "name": "湯の元温泉",
+    "o": "fukuoka",
+    "from": 70,
+    "to": 100,
+    "dist": 213,
+    "lb": 98,
+    "why": "rule"
+  },
+  {
+    "id": "aomori",
+    "name": "青森",
+    "o": "morioka",
+    "from": 45,
+    "to": 60,
+    "dist": 129,
+    "lb": 60,
+    "why": "rule"
+  },
+  {
+    "id": "maebashi",
+    "name": "前橋",
+    "o": "tokyo",
+    "from": 50,
+    "to": 70,
+    "dist": 101,
+    "lb": 67,
+    "why": "rule"
+  },
+  {
+    "id": "yamaguchi",
+    "name": "山口",
+    "o": "hiroshima",
+    "from": 25,
+    "to": 45,
+    "dist": 95,
+    "lb": 44,
+    "why": "rule"
+  },
+  {
+    "id": "saga",
+    "name": "佐賀",
+    "o": "yamaguchi",
+    "from": 75,
+    "to": 100,
+    "dist": 149,
+    "lb": 99,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "osaka",
+    "from": 75,
+    "to": 120,
+    "dist": 384,
+    "lb": 119,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "nagoya",
+    "from": 20,
+    "to": 110,
+    "dist": 248,
+    "lb": 109,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "mito",
+    "from": 20,
+    "to": 80,
+    "dist": 114,
+    "lb": 76,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "maebashi",
+    "from": 20,
+    "to": 65,
+    "dist": 90,
+    "lb": 60,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "takasaki",
+    "from": 20,
+    "to": 60,
+    "dist": 87,
+    "lb": 58,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "hamamatsu",
+    "from": 50,
+    "to": 105,
+    "dist": 197,
+    "lb": 105,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "gifu",
+    "from": 40,
+    "to": 110,
+    "dist": 254,
+    "lb": 109,
+    "why": "rule"
+  },
+  {
+    "id": "jindaiji",
+    "name": "深大寺",
+    "o": "kofu",
+    "from": 25,
+    "to": 60,
+    "dist": 89,
+    "lb": 59,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "osaka",
+    "from": 70,
+    "to": 120,
+    "dist": 375,
+    "lb": 118,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "nagoya",
+    "from": 20,
+    "to": 110,
+    "dist": 239,
+    "lb": 108,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "mito",
+    "from": 20,
+    "to": 80,
+    "dist": 120,
+    "lb": 80,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "maebashi",
+    "from": 20,
+    "to": 60,
+    "dist": 84,
+    "lb": 56,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "takasaki",
+    "from": 20,
+    "to": 55,
+    "dist": 80,
+    "lb": 53,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "hamamatsu",
+    "from": 45,
+    "to": 105,
+    "dist": 190,
+    "lb": 104,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "gifu",
+    "from": 35,
+    "to": 110,
+    "dist": 245,
+    "lb": 108,
+    "why": "rule"
+  },
+  {
+    "id": "kunitachi",
+    "name": "国立",
+    "o": "kofu",
+    "from": 20,
+    "to": 55,
+    "dist": 79,
+    "lb": 53,
+    "why": "rule"
+  },
+  {
+    "id": "kumanokawa-onsen",
+    "name": "熊の川温泉",
+    "o": "yamaguchi",
+    "from": 75,
+    "to": 100,
+    "dist": 145,
+    "lb": 96,
+    "why": "rule"
+  },
+  {
+    "id": "furuyu-onsen",
+    "name": "古湯温泉",
+    "o": "yamaguchi",
+    "from": 75,
+    "to": 100,
+    "dist": 147,
+    "lb": 98,
+    "why": "rule"
+  },
+  {
+    "id": "hinokage-onsen",
+    "name": "日之影温泉",
+    "o": "fukuoka",
+    "from": 70,
+    "to": 95,
+    "dist": 137,
+    "lb": 92,
+    "why": "rule"
+  },
+  {
+    "id": "namari-onsen",
+    "name": "鉛温泉",
+    "o": "sendai",
+    "from": 50,
+    "to": 90,
+    "dist": 134,
+    "lb": 90,
+    "why": "rule"
+  },
+  {
+    "id": "kaikake",
+    "name": "貝掛温泉",
+    "o": "tokyo",
+    "from": 80,
+    "to": 105,
+    "dist": 160,
+    "lb": 102,
+    "why": "rule"
+  },
+  {
+    "id": "osawa-onsen",
+    "name": "大沢温泉",
+    "o": "sendai",
+    "from": 50,
+    "to": 90,
+    "dist": 131,
+    "lb": 88,
+    "why": "rule"
+  },
+  {
+    "id": "hoshida",
+    "name": "ほしだ園地",
+    "o": "nagoya",
+    "from": 50,
+    "to": 80,
+    "dist": 119,
+    "lb": 79,
+    "why": "rule"
+  },
+  {
+    "id": "hoshida",
+    "name": "ほしだ園地",
+    "o": "gifu",
+    "from": 35,
+    "to": 85,
+    "dist": 122,
+    "lb": 81,
+    "why": "rule"
+  },
+  {
+    "id": "hoshida",
+    "name": "ほしだ園地",
+    "o": "hiroshima",
+    "from": 85,
+    "to": 115,
+    "dist": 297,
+    "lb": 112,
+    "why": "rule"
+  },
+  {
+    "id": "hoshida",
+    "name": "ほしだ園地",
+    "o": "okayama",
+    "from": 45,
+    "to": 105,
+    "dist": 162,
+    "lb": 102,
+    "why": "rule"
+  }
+]

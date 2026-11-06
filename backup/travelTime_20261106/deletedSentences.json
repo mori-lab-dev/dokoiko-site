@@ -1,0 +1,1707 @@
+[
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "field": "description",
+    "sentence": "那覇から約1時間30分のフライトで結ばれ、島内を広く回るにはレンタカーが現実的だ。",
+    "reasons": [
+      "那覇:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "field": "description",
+    "sentence": "石垣港からフェリーに乗り約15分で着く竹富島では、車がほとんど走らない路地を水牛車でゆっくりと巡れる。",
+    "reasons": [
+      "石垣:travelTime(120分)と一致しない"
+    ]
+  },
+  {
+    "id": "mihonoseki",
+    "name": "美保関",
+    "field": "description",
+    "sentence": "東京からは約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "kumejima",
+    "name": "久米島",
+    "field": "description",
+    "sentence": "沖縄の離島・久米島の玄関口は久米島空港で、那覇から飛行機で約35分。",
+    "reasons": [
+      "那覇:travelTime(70分)と一致しない"
+    ]
+  },
+  {
+    "id": "miyakojima",
+    "name": "宮古島",
+    "field": "description",
+    "sentence": "玄関口の宮古空港へは那覇から約1時間20分、東京からは約3時間55分のフライトで着く。",
+    "reasons": [
+      "那覇:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "arima-onsen",
+    "name": "有馬温泉",
+    "field": "description",
+    "sentence": "神戸から電車30分で日本三名泉の湯の街に潜り込めるのは、ここだけの贅沢だ。",
+    "reasons": [
+      "神戸:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kurashiki-o",
+    "name": "倉敷",
+    "field": "description",
+    "sentence": "大阪から約1時間30分でアクセスできる。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "shirahama-o",
+    "name": "白浜",
+    "field": "description",
+    "sentence": "宿「浜千鳥の湯 海舟」はJR白浜駅から車約15分、太平洋に面した岬に立つ湯宿。",
+    "reasons": [
+      "白浜:式由来の出発地"
+    ]
+  },
+  {
+    "id": "yakushima",
+    "name": "屋久島",
+    "field": "description",
+    "sentence": "福岡から約2時間30分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "amakusa",
+    "name": "天草",
+    "field": "description",
+    "sentence": "熊本駅が起点で、福岡からは約1時間10分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "hiraizumi",
+    "name": "平泉",
+    "field": "description",
+    "sentence": "東京からは新幹線と在来線を乗り継いで約2時間40分、仙台からは約45分だ。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）",
+      "仙台:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "zaosan",
+    "name": "蔵王",
+    "field": "description",
+    "sentence": "深山荘高見屋は享保元年創業の老舗で、山形駅からバス約40分。",
+    "reasons": [
+      "山形:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "shimonoseki",
+    "name": "下関",
+    "field": "description",
+    "sentence": "下関駅を起点に、広島からは約45分でアクセスできる。",
+    "reasons": [
+      "広島:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "shiretoko",
+    "name": "知床",
+    "field": "description",
+    "sentence": "東京から約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "gokayama",
+    "name": "五箇山",
+    "field": "description",
+    "sentence": "金沢から約2時間40分で東京や大阪とも結ばれている。",
+    "reasons": [
+      "金沢:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "jozankei",
+    "name": "定山渓",
+    "field": "description",
+    "sentence": "札幌駅からバスで約80分。",
+    "reasons": [
+      "札幌:travelTime(60分)と一致しない"
+    ]
+  },
+  {
+    "id": "amami",
+    "name": "奄美大島",
+    "field": "description",
+    "sentence": "福岡からは約1時間30分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "goto",
+    "name": "五島列島",
+    "field": "description",
+    "sentence": "長崎港からフェリーで約3時間、ジェットフォイルなら約1時間25分で福江港に着く。",
+    "reasons": [
+      "長崎:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "yuda-onsen",
+    "name": "湯田温泉",
+    "field": "description",
+    "sentence": "大阪から約2時間50分、福岡からは約2時間40分でアクセスできる。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "obuse",
+    "name": "小布施",
+    "field": "description",
+    "sentence": "長野駅から電車で約20分、小布施駅が最寄りだ。",
+    "reasons": [
+      "長野:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "naruko-onsen",
+    "name": "鳴子温泉",
+    "field": "description",
+    "sentence": "仙台から約1時間20分で着く。",
+    "reasons": [
+      "仙台:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "hirosaki",
+    "name": "弘前",
+    "field": "description",
+    "sentence": "東京から約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "oirase",
+    "name": "奥入瀬",
+    "field": "description",
+    "sentence": "八戸駅からバスで約90分。",
+    "reasons": [
+      "八戸:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "hitoyoshi",
+    "name": "人吉",
+    "field": "description",
+    "sentence": "肥薩線は一部が運休中で、熊本駅からは高速バスで約2時間。",
+    "reasons": [
+      "熊本:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kamikochi",
+    "name": "上高地",
+    "field": "description",
+    "sentence": "松本駅からバスで約1時間。",
+    "reasons": [
+      "松本:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "ozu",
+    "name": "大洲",
+    "field": "description",
+    "sentence": "松山から特急で約30分。",
+    "reasons": [
+      "松山:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "izumo",
+    "name": "出雲",
+    "field": "description",
+    "sentence": "出雲市駅が玄関口で、東京からは約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "izu-kogen",
+    "name": "伊豆高原",
+    "field": "description",
+    "sentence": "玄関口は伊豆高原駅で、東京からは新幹線と在来線で約2時間。",
+    "reasons": [
+      "東京:travelTime(130分)と一致しない"
+    ]
+  },
+  {
+    "id": "akan",
+    "name": "阿寒湖",
+    "field": "description",
+    "sentence": "湖畔に温泉街が形成された自然リゾートで、JR釧路駅からバスに乗ると約2時間で到着する。",
+    "reasons": [
+      "釧路:travelTime(330分)と一致しない"
+    ]
+  },
+  {
+    "id": "abashiri",
+    "name": "網走",
+    "field": "description",
+    "sentence": "女満別空港が玄関口で、東京から約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "sakunami-onsen",
+    "name": "秋保温泉",
+    "field": "description",
+    "sentence": "仙台駅からバスで約40分、宮城県の山あいに湧く秋保温泉。",
+    "reasons": [
+      "仙台:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "sakunami-onsen",
+    "name": "秋保温泉",
+    "field": "description",
+    "sentence": "東京からは新幹線を使って約2時間で仙台に着く。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "sado-island",
+    "name": "佐渡島",
+    "field": "description",
+    "sentence": "玄関口は両津港で、新潟港からジェットフォイルで67分。",
+    "reasons": [
+      "新潟:travelTime(120分)と一致しない"
+    ]
+  },
+  {
+    "id": "eiheiji",
+    "name": "永平寺",
+    "field": "description",
+    "sentence": "福井駅から永平寺ライナーで約30分。",
+    "reasons": [
+      "福井:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kurayoshi",
+    "name": "倉吉",
+    "field": "description",
+    "sentence": "最寄りは倉吉駅で、東京からは約2時間40分、大阪からは約3時間50分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "shimanto",
+    "name": "四万十",
+    "field": "description",
+    "sentence": "高知空港から車でアクセスし、東京からは飛行機で約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "kashiwajima",
+    "name": "柏島",
+    "field": "description",
+    "sentence": "東京から高知空港経由で約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "saijo",
+    "name": "西条",
+    "field": "description",
+    "sentence": "高松から約1時間でアクセスできる。",
+    "reasons": [
+      "高松:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "ainan",
+    "name": "愛南",
+    "field": "description",
+    "sentence": "東京からは約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "usuki",
+    "name": "臼杵",
+    "field": "description",
+    "sentence": "大分空港から車で約1時間、拠点は臼杵駅。",
+    "reasons": [
+      "大分:式由来の出発地"
+    ]
+  },
+  {
+    "id": "kitsuki",
+    "name": "杵築",
+    "field": "description",
+    "sentence": "杵築駅が最寄り、大分空港からのアクセスも便利で、大分市内からは約50分で着く。",
+    "reasons": [
+      "大分:式由来の出発地"
+    ]
+  },
+  {
+    "id": "tsushima",
+    "name": "対馬",
+    "field": "description",
+    "sentence": "対馬空港へは福岡から約50分、博多港からフェリーでも渡れる。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "taketomi-island",
+    "name": "竹富島",
+    "field": "description",
+    "sentence": "石垣空港には那覇から約2時間でアクセスできる。",
+    "reasons": [
+      "那覇:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "yonaguni-island",
+    "name": "与那国島",
+    "field": "description",
+    "sentence": "那覇から飛行機で約1時間、台湾まで111kmの距離に位置する日本最西端の島だ。",
+    "reasons": [
+      "那覇:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "matsushiro",
+    "name": "松代",
+    "field": "description",
+    "sentence": "長野市街から車で20分なのに観光地化されすぎない静けさがあり、自分のペースで歴史と向き合えるのが松代だ。",
+    "reasons": [
+      "長野:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "tsuyama",
+    "name": "津山",
+    "field": "description",
+    "sentence": "津山駅が拠点で、岡山から特急を使えば約40分。",
+    "reasons": [
+      "岡山:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "nobeoka",
+    "name": "延岡",
+    "field": "description",
+    "sentence": "東京から約2時間40分でアクセスできる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "description",
+    "sentence": "帯広空港へは東京から約1時間45分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "description",
+    "sentence": "宿は創業125年余の北海道遺産、モール温泉で知られる森のスパリゾート 北海道ホテルがJR帯広駅から車約5分に立つ。",
+    "reasons": [
+      "帯広:travelTime(240分)と一致しない"
+    ]
+  },
+  {
+    "id": "hanamaki",
+    "name": "花巻",
+    "field": "description",
+    "sentence": "新花巻駅が起点で、東京から約2時間20分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "sano",
+    "name": "佐野",
+    "field": "description",
+    "sentence": "渋滞が苦手なら電車とシャトルバスの組み合わせがおすすめで、東京から1時間ちょっとの近さも魅力だ。",
+    "reasons": [
+      "東京:travelTime(80分)と一致しない"
+    ]
+  },
+  {
+    "id": "narai-juku",
+    "name": "奈良井宿",
+    "field": "description",
+    "sentence": "松本から普通列車で約40分。",
+    "reasons": [
+      "松本:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "ogaki",
+    "name": "大垣",
+    "field": "description",
+    "sentence": "名古屋から約30分、大阪から約1時間15分でアクセスできる。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "kumano-hongu",
+    "name": "熊野本宮",
+    "field": "description",
+    "sentence": "新宮駅からバスで約1時間半、本宮大社前バス停が最寄りで、周辺の移動には車が必要だ。",
+    "reasons": [
+      "新宮:式由来の出発地"
+    ]
+  },
+  {
+    "id": "fushimi",
+    "name": "伏見",
+    "field": "description",
+    "sentence": "拠点は伏見稲荷駅で、京都駅から電車でわずか10分。",
+    "reasons": [
+      "京都:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "marugame",
+    "name": "丸亀",
+    "field": "description",
+    "sentence": "大阪から約1時間25分の距離で、城・美術館・港の三か所が徒歩圏に収まるため、日帰りでも十分に巡れる。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "hyuga",
+    "name": "日向",
+    "field": "description",
+    "sentence": "玄関口は宮崎空港で、東京からは約2時間10分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "echigo-yuzawa",
+    "name": "越後湯沢",
+    "field": "description",
+    "sentence": "東京から新幹線で77分。",
+    "reasons": [
+      "東京:travelTime(80分)と一致しない"
+    ]
+  },
+  {
+    "id": "niyodogawa",
+    "name": "仁淀川",
+    "field": "description",
+    "sentence": "高知駅を起点に車で向かうのが基本で、高知市内から1〜2時間ほど。",
+    "reasons": [
+      "高知:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "yamaga",
+    "name": "山鹿",
+    "field": "description",
+    "sentence": "熊本駅からバスで約1時間20分、運賃は1,050円。",
+    "reasons": [
+      "熊本:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "itoman",
+    "name": "糸満",
+    "field": "description",
+    "sentence": "那覇から車で30分、リゾートの華やかさが消えて静けさだけが残る。",
+    "reasons": [
+      "那覇:travelTime(40分)と一致しない"
+    ]
+  },
+  {
+    "id": "kijoka",
+    "name": "喜如嘉",
+    "field": "description",
+    "sentence": "那覇から車で約2時間、移動には車が必須となる。",
+    "reasons": [
+      "那覇:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "shirakawa",
+    "name": "白河",
+    "field": "description",
+    "sentence": "東北新幹線で東京から約1時間30分、白河駅が起点になる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "koriyama",
+    "name": "郡山",
+    "field": "description",
+    "sentence": "東京から新幹線で約1時間20分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "ichinoseki",
+    "name": "一関",
+    "field": "description",
+    "sentence": "東京から約2時間10分で一ノ関駅に着く。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "hamamatsu",
+    "name": "浜松",
+    "field": "description",
+    "sentence": "東京から約1時間30分、名古屋からは約50分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）",
+      "名古屋:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "kakegawa",
+    "name": "掛川",
+    "field": "description",
+    "sentence": "東京から約1時間40分、名古屋からは約1時間だ。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）",
+      "名古屋:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "toyohashi",
+    "name": "豊橋",
+    "field": "description",
+    "sentence": "名古屋から約40分、東京から約2時間20分でアクセスできる。",
+    "reasons": [
+      "名古屋:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "dazaifu",
+    "name": "太宰府",
+    "field": "description",
+    "sentence": "下関や佐賀からも約1時間で着く。",
+    "reasons": [
+      "佐賀:式由来の出発地"
+    ]
+  },
+  {
+    "id": "shiraoishi",
+    "name": "白石",
+    "field": "description",
+    "sentence": "東京からは約1時間50分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "yuwaku-onsen",
+    "name": "湯涌温泉",
+    "field": "description",
+    "sentence": "金沢市街から約30分、山あいにたたずむ静かな温泉街だ。",
+    "reasons": [
+      "金沢:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "ibaraki-mito",
+    "name": "水戸",
+    "field": "description",
+    "sentence": "水戸駅からバスで15分ほどの距離だ。",
+    "reasons": [
+      "水戸:式由来の出発地"
+    ]
+  },
+  {
+    "id": "utsunomiya",
+    "name": "宇都宮",
+    "field": "description",
+    "sentence": "東京から約50分、仙台から約40分とアクセスしやすい。",
+    "reasons": [
+      "仙台:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "yaizu",
+    "name": "焼津",
+    "field": "description",
+    "sentence": "焼津駅から東京まで新幹線で約1時間20分、名古屋からは約1時間と、日帰りの行程に収まりやすい。",
+    "reasons": [
+      "名古屋:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "hamanako",
+    "name": "浜名湖",
+    "field": "description",
+    "sentence": "最寄りのJR弁天島駅から歩いてアクセスでき、名古屋からは約40分、東京からは約1時間50分で着く。",
+    "reasons": [
+      "名古屋:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "otsu-shiga",
+    "name": "大津",
+    "field": "description",
+    "sentence": "大阪から鉄道で約20分、大津駅が起点となる。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "otsu-shiga",
+    "name": "大津",
+    "field": "description",
+    "sentence": "京都から電車で10分ほどの距離ながら、人が少なく歴史の密度は高い。",
+    "reasons": [
+      "京都:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kusatsu-shiga",
+    "name": "草津",
+    "field": "description",
+    "sentence": "大阪から約25分。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "miyoshi-hiroshima",
+    "name": "三次",
+    "field": "description",
+    "sentence": "広島からは約1時間30分。",
+    "reasons": [
+      "広島:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "yatsushiro",
+    "name": "八代",
+    "field": "description",
+    "sentence": "福岡からは鉄道で約1時間10分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "mimasaka",
+    "name": "美作",
+    "field": "description",
+    "sentence": "最寄りは林野駅で、岡山から約1時間25分。",
+    "reasons": [
+      "岡山:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "hioki",
+    "name": "日置",
+    "field": "description",
+    "sentence": "鹿児島市内から車で約30分。",
+    "reasons": [
+      "鹿児島:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kurikoma",
+    "name": "栗駒",
+    "field": "description",
+    "sentence": "東京から新幹線で約2時間40分でアクセスできる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "towada-lake",
+    "name": "十和田湖",
+    "field": "description",
+    "sentence": "八戸駅からは車で向かうのが現実的で、東京からの所要時間は約3時間20分だ。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "kamishihoro",
+    "name": "上士幌",
+    "field": "description",
+    "sentence": "帯広駅から車で約1時間。",
+    "reasons": [
+      "帯広:travelTime(260分)と一致しない"
+    ]
+  },
+  {
+    "id": "unzen2",
+    "name": "雲仙温泉",
+    "field": "description",
+    "sentence": "昭和10年築の国登録有形文化財である雲仙観光ホテルは、諫早駅と長崎空港から無料シャトル（約1時間）が出ており、クラシックな造りの館内で温泉を楽しめます。",
+    "reasons": [
+      "長崎:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_旭岳温泉",
+    "name": "旭岳温泉",
+    "field": "description",
+    "sentence": "大雪山国立公園の内側に位置し、旭川駅からバスで約90分でアクセスできる。",
+    "reasons": [
+      "旭川:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_然別湖畔温泉",
+    "name": "然別湖畔温泉",
+    "field": "description",
+    "sentence": "帯広駅からバスで約1時間20分、然別湖の岸辺に然別湖畔温泉ホテル風水が建つ。",
+    "reasons": [
+      "帯広:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_奥尻島",
+    "name": "奥尻島",
+    "field": "description",
+    "sentence": "奥尻港へは江差港からフェリーで約2時間10分、函館空港からは空路で約30分でアクセスできる。",
+    "reasons": [
+      "函館:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_白老温泉",
+    "name": "白老温泉",
+    "field": "description",
+    "sentence": "北海道・白老は、札幌から特急で約1時間の小さな温泉町だ。",
+    "reasons": [
+      "札幌:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_丸瀬布森林公園いこいの森",
+    "name": "丸瀬布森林公園いこいの森",
+    "field": "description",
+    "sentence": "拠点となる札幌駅からは東京より約10時間40分かかる遠方だが、バスのほかレンタカーでのアクセスも選択肢に入る。",
+    "reasons": [
+      "札幌:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_余市蒸溜所",
+    "name": "余市蒸溜所",
+    "field": "description",
+    "sentence": "札幌駅からJRで約1時間。",
+    "reasons": [
+      "札幌:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_沙流川温泉",
+    "name": "沙流川温泉",
+    "field": "description",
+    "sentence": "札幌駅から車で約2時間。",
+    "reasons": [
+      "札幌:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_支笏湖いとう温泉",
+    "name": "支笏湖温泉",
+    "field": "description",
+    "sentence": "札幌駅から車で約1時間、バスも通じるがスタッドレス装着のレンタカーが冬は頼りになる。",
+    "reasons": [
+      "札幌:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_北海_初山別温泉",
+    "name": "初山別温泉",
+    "field": "description",
+    "sentence": "東京からは約11時間。",
+    "reasons": [
+      "東京:travelTime(661分)と一致しない"
+    ]
+  },
+  {
+    "id": "gen_茨城_大洗磯前神社",
+    "name": "大洗磯前神社",
+    "field": "description",
+    "sentence": "水戸駅からバスで約30分、鹿島臨海鉄道の大洗駅も最寄りだ。",
+    "reasons": [
+      "水戸:式由来の出発地"
+    ]
+  },
+  {
+    "id": "gen_茨城_大洗磯前神社",
+    "name": "大洗磯前神社",
+    "field": "description",
+    "sentence": "東京からは約2時間。",
+    "reasons": [
+      "東京:travelTime(121分)と一致しない"
+    ]
+  },
+  {
+    "id": "gen_茨城_水戸東照宮",
+    "name": "水戸東照宮",
+    "field": "description",
+    "sentence": "水戸駅から徒歩約10分。",
+    "reasons": [
+      "水戸:式由来の出発地"
+    ]
+  },
+  {
+    "id": "gen_栃木_宇都宮城",
+    "name": "宇都宮城",
+    "field": "description",
+    "sentence": "城址公園へは東武宇都宮駅から徒歩約5分、JR宇都宮駅からは15分ほど。",
+    "reasons": [
+      "宇都宮:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "gen_栃木_宇都宮二荒山神社",
+    "name": "宇都宮二荒山神社",
+    "field": "description",
+    "sentence": "JR宇都宮駅から徒歩約15分。",
+    "reasons": [
+      "宇都宮:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "zaou-onsen",
+    "name": "蔵王温泉",
+    "field": "description",
+    "sentence": "山形駅から蔵王温泉バスターミナル行きのバスに乗り、東京からは約2時間10分で山形駅に着く。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "uji",
+    "name": "宇治",
+    "field": "description",
+    "sentence": "JR宇治駅・宇治駅（京阪）が最寄りで、京都駅から電車で約20分。",
+    "reasons": [
+      "京都:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "takayu-onsen",
+    "name": "高湯温泉",
+    "field": "description",
+    "sentence": "福島駅から高湯温泉行きのバスが出ており、東京からは新幹線利用で約1時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "hateruma-island",
+    "name": "波照間島",
+    "field": "description",
+    "sentence": "石垣港から高速船で約1時間、便は1日2〜3便で、波が高い日は欠航する。",
+    "reasons": [
+      "石垣:travelTime(80分)と一致しない"
+    ]
+  },
+  {
+    "id": "yoron-island",
+    "name": "与論島",
+    "field": "description",
+    "sentence": "玄関口は与論空港で、福岡から約2時間、鹿児島港からフェリーも出ている。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "ushibuka",
+    "name": "牛深",
+    "field": "description",
+    "sentence": "熊本市内から車で約2時間30分かかり、バスは本数が極端に少ない。",
+    "reasons": [
+      "熊本:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "isawa-onsen",
+    "name": "石和温泉",
+    "field": "description",
+    "sentence": "東京からは特急で約90分と近く、冬の平日は湯船がほぼ貸し切りになることもある。",
+    "reasons": [
+      "東京:travelTime(100分)と一致しない"
+    ]
+  },
+  {
+    "id": "minobu",
+    "name": "身延",
+    "field": "description",
+    "sentence": "甲府からは約55分。",
+    "reasons": [
+      "甲府:式由来の出発地"
+    ]
+  },
+  {
+    "id": "hakuto",
+    "name": "白兎海岸",
+    "field": "description",
+    "sentence": "最寄りは白兎駅で、鳥取からは約25分でアクセスできる。",
+    "reasons": [
+      "鳥取:式由来の出発地"
+    ]
+  },
+  {
+    "id": "megijima",
+    "name": "女木島",
+    "field": "description",
+    "sentence": "高松港からフェリーで約20分。",
+    "reasons": [
+      "高松:travelTime(30分)と一致しない"
+    ]
+  },
+  {
+    "id": "katsunuma",
+    "name": "勝沼",
+    "field": "description",
+    "sentence": "勝沼ぶどう郷駅が最寄りで、東京から特急を使えば約90分で到着する。",
+    "reasons": [
+      "東京:travelTime(100分)と一致しない"
+    ]
+  },
+  {
+    "id": "yamatokoriyama",
+    "name": "大和郡山",
+    "field": "description",
+    "sentence": "奈良市内から電車で約10分と近く、日帰りで回れる。",
+    "reasons": [
+      "奈良:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "tobe",
+    "name": "砥部",
+    "field": "description",
+    "sentence": "松山駅からバスで約30分ほどで着き、日帰りで窯元巡りと絵付け体験を楽しめる。",
+    "reasons": [
+      "松山:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "shimonada",
+    "name": "下灘",
+    "field": "description",
+    "sentence": "松山駅から予讃線で約1時間。",
+    "reasons": [
+      "松山:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "misaki-kochi",
+    "name": "三崎",
+    "field": "description",
+    "sentence": "最寄りは土佐清水駅で、高知駅からは車で約2時間30分。",
+    "reasons": [
+      "高知:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "tsumari",
+    "name": "妻有",
+    "field": "description",
+    "sentence": "東京から約2時間、大阪からは約4時間20分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "notsuke-hanto",
+    "name": "野付半島",
+    "field": "description",
+    "sentence": "釧路空港からレンタカーで約2時間、鉄道なら釧路駅が拠点だ。",
+    "reasons": [
+      "釧路:travelTime(370分)と一致しない"
+    ]
+  },
+  {
+    "id": "uryunuma",
+    "name": "雨竜沼湿原",
+    "field": "description",
+    "sentence": "アクセスは旭川空港からレンタカーで約60分、JR深川駅からも車が必須となる。",
+    "reasons": [
+      "旭川:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "mitsuke-jima",
+    "name": "見附島",
+    "field": "description",
+    "sentence": "金沢からはバスかレンタカーで約2時間かかる。",
+    "reasons": [
+      "金沢:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "bise",
+    "name": "備瀬のフクギ並木",
+    "field": "description",
+    "sentence": "那覇空港から車で約2時間。",
+    "reasons": [
+      "那覇:travelTime(90分)と一致しない"
+    ]
+  },
+  {
+    "id": "hakkoda",
+    "name": "八甲田山",
+    "field": "description",
+    "sentence": "新青森駅からバスや車でアクセスでき、車なら青森市内から約40分。",
+    "reasons": [
+      "青森:travelTime(50分)と一致しない"
+    ]
+  },
+  {
+    "id": "kuchinoerabu",
+    "name": "口永良部島",
+    "field": "description",
+    "sentence": "枕崎港からフェリーで渡り、鹿児島を拠点にすれば東京からは飛行機と船を乗り継いで約3時間で着く。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "nishinoshima",
+    "name": "西ノ島",
+    "field": "description",
+    "sentence": "宿の国賀荘は浦郷にある家族経営の小宿で、別府港から車で約10分。",
+    "reasons": [
+      "別府:式由来の出発地"
+    ]
+  },
+  {
+    "id": "minamidaitojima",
+    "name": "南大東島",
+    "field": "description",
+    "sentence": "那覇から飛行機で約55分、便数が少ない隆起珊瑚礁の孤島。",
+    "reasons": [
+      "那覇:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kii-oshima",
+    "name": "紀伊大島",
+    "field": "description",
+    "sentence": "串本から約30分でアクセスできる。",
+    "reasons": [
+      "串本:式由来の出発地"
+    ]
+  },
+  {
+    "id": "omijima",
+    "name": "青海島",
+    "field": "description",
+    "sentence": "下関から約1時間40分で渡ることができます。",
+    "reasons": [
+      "下関:式由来の出発地"
+    ]
+  },
+  {
+    "id": "kurima-island",
+    "name": "来間島",
+    "field": "description",
+    "sentence": "169邸のヴィラ形式で、宮古空港から車で約15分だ。",
+    "reasons": [
+      "宮古:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "kouri-island",
+    "name": "古宇利島",
+    "field": "description",
+    "sentence": "那覇空港から車で約1時間40分。",
+    "reasons": [
+      "那覇:travelTime(105分)と一致しない"
+    ]
+  },
+  {
+    "id": "yamanakako",
+    "name": "山中湖",
+    "field": "description",
+    "sentence": "甲府から約1時間、東京からは約2時間10分で着く。",
+    "reasons": [
+      "甲府:式由来の出発地"
+    ]
+  },
+  {
+    "id": "motosuko",
+    "name": "本栖湖",
+    "field": "description",
+    "sentence": "甲府から約1時間10分。",
+    "reasons": [
+      "甲府:式由来の出発地"
+    ]
+  },
+  {
+    "id": "yatsugatake",
+    "name": "八ヶ岳",
+    "field": "description",
+    "sentence": "甲府から約1時間、東京からは約2時間45分でアクセスできる。",
+    "reasons": [
+      "甲府:式由来の出発地"
+    ]
+  },
+  {
+    "id": "toyama-city",
+    "name": "富山",
+    "field": "description",
+    "sentence": "北陸新幹線で金沢から約25分、東京からも約2時間10分で着く。",
+    "reasons": [
+      "金沢:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "tottori-sakyu",
+    "name": "鳥取砂丘",
+    "field": "description",
+    "sentence": "鳥取駅からバスで約25分。",
+    "reasons": [
+      "鳥取:式由来の出発地"
+    ]
+  },
+  {
+    "id": "soja-okayama",
+    "name": "総社",
+    "field": "description",
+    "sentence": "大阪からは約1時間30分。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "toyama-glass",
+    "name": "富山市ガラス美術館",
+    "field": "description",
+    "sentence": "金沢から約30分、大阪からは約3時間15分。",
+    "reasons": [
+      "金沢:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "zuiryuji",
+    "name": "高岡",
+    "field": "description",
+    "sentence": "金沢から約25分で高岡駅に着く。",
+    "reasons": [
+      "金沢:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "nozawa-onsen-niigata",
+    "name": "湯沢・苗場",
+    "field": "description",
+    "sentence": "東京から約1時間15分でアクセスできる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "higashi-chaya",
+    "name": "ひがし茶屋街",
+    "field": "description",
+    "sentence": "金沢駅からバスで約10分。",
+    "reasons": [
+      "金沢:travelTime(15分)と一致しない"
+    ]
+  },
+  {
+    "id": "morioka",
+    "name": "盛岡",
+    "field": "description",
+    "sentence": "仙台から約40分、東京からは約2時間10分で着く。",
+    "reasons": [
+      "仙台:疑わしい組（最短値を下回る・補正した）",
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "okayama-city",
+    "name": "岡山",
+    "field": "description",
+    "sentence": "岡山県の県庁所在地で、新幹線を使えば大阪から約50分でアクセスできる城下町だ。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "kagoshima-city",
+    "name": "鹿児島",
+    "field": "description",
+    "sentence": "福岡から約1時間15分でアクセスできる。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "nakasu",
+    "name": "中洲屋台",
+    "field": "description",
+    "sentence": "東京からは約5時間25分、大阪からは約3時間5分でアクセスできる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "sendai-2",
+    "name": "仙台城",
+    "field": "description",
+    "sentence": "東京から新幹線で約1時間55分という近さも、日帰りを後押しする。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "zuiganji",
+    "name": "瑞巌寺",
+    "field": "description",
+    "sentence": "仙台からJR松島海岸駅まで約40分、東京からは新幹線利用で約2時間15分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "nagano-zenkoji",
+    "name": "善光寺",
+    "field": "description",
+    "sentence": "東京から新幹線で約1時間40分、長野電鉄・善光寺下駅から徒歩圏内にある。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niigata-uono",
+    "name": "湯沢高原",
+    "field": "description",
+    "sentence": "東京から約1時間15分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "aomori-aomori-2",
+    "name": "青森ねぶた祭",
+    "field": "description",
+    "sentence": "青森ねぶた祭は毎年夏に青森市で開催される大型祭りで、仙台からは新幹線で約2時間10分で青森駅に着く。",
+    "reasons": [
+      "仙台:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "iso",
+    "name": "仙巌園",
+    "field": "description",
+    "sentence": "福岡から約1時間15分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "shizu-shimizu",
+    "name": "清水",
+    "field": "description",
+    "sentence": "東京から約1時間25分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "miyagi-matsushima-2",
+    "name": "塩釜",
+    "field": "description",
+    "sentence": "東京からは新幹線利用で約2時間10分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_岩手_1",
+    "name": "北山崎",
+    "field": "description",
+    "sentence": "東京からは新幹線で約2時間40分でアクセスできる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_福島_1",
+    "name": "只見町ブナ林と清流",
+    "field": "description",
+    "sentence": "福島駅から車で約1時間、現地でも車が必要になる。",
+    "reasons": [
+      "福島:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_茨城_2",
+    "name": "磯原漁港",
+    "field": "description",
+    "sentence": "東京から約1時間35分、日帰りで回れる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_神奈川_4",
+    "name": "大磯照ヶ崎海岸",
+    "field": "description",
+    "sentence": "横浜駅から約1時間20分。",
+    "reasons": [
+      "横浜:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "niche_静岡_3",
+    "name": "石部棚田",
+    "field": "description",
+    "sentence": "東京から新幹線で約1時間、静岡駅を起点に伊豆方面へ向かう。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_静岡_3",
+    "name": "石部棚田",
+    "field": "description",
+    "sentence": "大阪からは約2時間10分。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_静岡_4",
+    "name": "ヒリゾ浜",
+    "field": "description",
+    "sentence": "最寄りは静岡駅で、東京からは約1時間。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_兵庫_2",
+    "name": "湯村温泉・荒湯地獄",
+    "field": "description",
+    "sentence": "大阪から約55分でアクセスでき、最寄りの新神戸駅から但馬方面へ向かう。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_島根_1",
+    "name": "斐伊川荒島地区",
+    "field": "description",
+    "sentence": "現地には車が必要で、東京からは飛行機と車を組み合わせると約2時間40分で到着できる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_島根_4",
+    "name": "掛合町の鐘乳洞群",
+    "field": "description",
+    "sentence": "東京からは約2時間40分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_島根_6",
+    "name": "黒淵の滝",
+    "field": "description",
+    "sentence": "東京からは約2時間40分で拠点の松江に着く。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_広島_6",
+    "name": "世羅ラベンダー畑",
+    "field": "description",
+    "sentence": "広島駅から車で約30分。",
+    "reasons": [
+      "広島:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_長崎_7",
+    "name": "高島炭鉱遺跡",
+    "field": "description",
+    "sentence": "長崎港から渡船で約30分、長崎県の離島・高島にある近代産業遺産の地。",
+    "reasons": [
+      "長崎:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "niche_熊本_1",
+    "name": "五木村の清流と棚田",
+    "field": "description",
+    "sentence": "熊本駅を起点に向かうが、福岡からのアクセスは約30分と近い。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_熊本_2",
+    "name": "産山村の星の宮古墳",
+    "field": "description",
+    "sentence": "熊本駅を起点に産山村へアクセスでき、福岡からは約30分で熊本駅に着く。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_熊本_5",
+    "name": "菊池渓谷の滝群",
+    "field": "description",
+    "sentence": "福岡からは約30分、大阪からは約3時間でアクセスできる。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_熊本_6",
+    "name": "白糸台地の棚田",
+    "field": "description",
+    "sentence": "福岡からは約30分、大阪からは約3時間でアクセスできる。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_熊本_8",
+    "name": "三角町の漁師町",
+    "field": "description",
+    "sentence": "熊本駅から鉄道でアクセスでき、福岡からは約30分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_宮崎_2",
+    "name": "西米良村 仙人の湯",
+    "field": "description",
+    "sentence": "福岡からは約1時間10分でアクセスできる。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_宮崎_3",
+    "name": "みやざき地鶏の里",
+    "field": "description",
+    "sentence": "宮崎駅を起点にアクセスでき、福岡からは約1時間10分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_宮崎_4",
+    "name": "渡川温泉",
+    "field": "description",
+    "sentence": "福岡からは約1時間10分とアクセスしやすく、日帰り滞在にも向く。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_宮崎_6",
+    "name": "観音池公園",
+    "field": "description",
+    "sentence": "福岡からは約1時間10分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_宮崎_7",
+    "name": "湯の元温泉",
+    "field": "description",
+    "sentence": "宮崎駅からアクセスでき、福岡からは約1時間10分。",
+    "reasons": [
+      "福岡:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_鹿児島_1",
+    "name": "串木野港周辺の漁師町",
+    "field": "description",
+    "sentence": "鹿児島中央駅からは電車でアクセスでき、大阪からは約2時間45分、福岡からは約2時間30分で到達できます。",
+    "reasons": [
+      "大阪:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "niche_鹿児島_2",
+    "name": "関之尾滝",
+    "field": "description",
+    "sentence": "最寄りは都城駅で、大分からは車で約2時間20分。",
+    "reasons": [
+      "大分:式由来の出発地"
+    ]
+  },
+  {
+    "id": "niche_鹿児島_3",
+    "name": "白糸の滝",
+    "field": "description",
+    "sentence": "大分からは約2時間20分でアクセスできる。",
+    "reasons": [
+      "大分:式由来の出発地"
+    ]
+  },
+  {
+    "id": "kofu",
+    "name": "甲府",
+    "field": "description",
+    "sentence": "甲府駅からバスで約15分、無料の送迎もある。",
+    "reasons": [
+      "甲府:式由来の出発地"
+    ]
+  },
+  {
+    "id": "matsue",
+    "name": "松江",
+    "field": "description",
+    "sentence": "松江駅からバスで約18分。",
+    "reasons": [
+      "松江:travelTime(0分)と一致しない"
+    ]
+  },
+  {
+    "id": "saga",
+    "name": "佐賀",
+    "field": "description",
+    "sentence": "旅館あけぼのは明治22年の創業で、佐賀駅から車で5分。",
+    "reasons": [
+      "佐賀:式由来の出発地"
+    ]
+  },
+  {
+    "id": "miyazaki",
+    "name": "宮崎",
+    "field": "description",
+    "sentence": "宮崎観光ホテルは1954年の創業、大淀川のほとりに立ち、宮崎駅から車で5分。",
+    "reasons": [
+      "宮崎:travelTime(0分)と一致しない"
+    ]
+  },
+  {
+    "id": "arimatsu",
+    "name": "有松",
+    "field": "description",
+    "sentence": "名古屋から名鉄で約25分。",
+    "reasons": [
+      "名古屋:travelTime(50分)と一致しない"
+    ]
+  },
+  {
+    "id": "hiketa",
+    "name": "引田",
+    "field": "description",
+    "sentence": "玄関口は引田駅で、高松から高徳線で約1時間。",
+    "reasons": [
+      "高松:travelTime(65分)と一致しない"
+    ]
+  },
+  {
+    "id": "doroyu",
+    "name": "泥湯温泉",
+    "field": "description",
+    "sentence": "東京からは約2時間40分でアクセスできる。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "shioda",
+    "name": "塩田温泉",
+    "field": "description",
+    "sentence": "姫路市街からバスで30分ほど、夢前川沿いの里山に宿が2軒だけ立つ温泉地。",
+    "reasons": [
+      "姫路:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "murata-miyagi",
+    "name": "村田の蔵の町",
+    "field": "description",
+    "sentence": "最寄りは白石蔵王駅で、東京から約2時間10分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "inariyama",
+    "name": "稲荷山宿",
+    "field": "description",
+    "sentence": "東京からは約1時間50分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  },
+  {
+    "id": "ojika",
+    "name": "小鹿渓",
+    "field": "description",
+    "sentence": "鳥取駅からは約25分で倉吉方面へ出られる。",
+    "reasons": [
+      "鳥取:式由来の出発地"
+    ]
+  },
+  {
+    "id": "omogokei",
+    "name": "面河渓",
+    "field": "description",
+    "sentence": "松山駅から車で約1時間半。",
+    "reasons": [
+      "松山:その出発地の値がない"
+    ]
+  },
+  {
+    "id": "toriike",
+    "name": "通り池",
+    "field": "description",
+    "sentence": "宮古空港からは車での移動が基本で、那覇から宮古空港まで約1時間50分、東京からは約3時間30分。",
+    "reasons": [
+      "東京:疑わしい組（最短値を下回る・補正した）"
+    ]
+  }
+]
