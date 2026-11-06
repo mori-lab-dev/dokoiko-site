@@ -5,11 +5,11 @@
   },
   "seo": {},
   "missing-images": {
-    "ヒーロー画像が出ないページ": 92,
+    "ヒーロー画像が出ないページ": 94,
     "spot画像だけ欠けているページ": 63
   },
   "same-name-stay": {
-    "確度high": 21,
+    "確度high": 19,
     "確度mid": 127
   },
   "duplicates": {
@@ -24,8 +24,8 @@
   "indexability": {},
   "jalan-app-links": {},
   "affiliate": {
-    "楽天リンクが無いページ": 1,
-    "じゃらんリンクが無いページ": 1
+    "楽天リンクが無いページ": 0,
+    "じゃらんリンクが無いページ": 0
   },
   "spot-credits": {},
   "pref-box": {
@@ -35,5 +35,14 @@
     "出典と画素が一致しない": 0,
     "所在地が別": 0
   },
-  "rakuten-app-links": {}
+  "rakuten-app-links": {},
+  "ouen-wari": {},
+  "car-free": {},
+  "seo-tech": {},
+  "seo-copy": {},
+  "travel-time": {},
+  "structured-data": {},
+  "internal-links": {},
+  "stay-shuttle": {},
+  "stay-links": {}
 }
