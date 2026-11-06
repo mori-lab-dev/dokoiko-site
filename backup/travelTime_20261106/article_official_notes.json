@@ -12,8 +12,9 @@
     "source_name": "JRグループ共同サイト 北陸新幹線「はくたか」の停車駅と所要時間",
     "source_url": "https://jr-group.jp/hakutaka-stop/",
     "checked": "2026-11-06",
-    "note": "東京→軽井沢 1時間04分(目安)。軽井沢に停まるはくたか基準。あさま個別の公式時刻は開けず(JR時刻表URLは404)。64分は文の約60分から+4分で範囲内",
-    "decision_reason": null
+    "note": "東京→軽井沢 1時間04分(目安)。軽井沢に停まるはくたか基準。あさま個別の時刻は開けず(JR時刻表URLは404)。64分は文の約60分から+4分で範囲内",
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 2,
@@ -45,7 +46,8 @@
     "source_url": "https://jr-group.jp/odoriko-stop/",
     "checked": "2026-11-06",
     "note": "東京→伊豆急下田 2時間36分(目安、全列車停車)。『2時間ちょっと』の上限135分を超える。列車別の時刻は開けず",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 4,
@@ -60,8 +62,9 @@
     "source_name": "JRグループ共同サイト 特急「あずさ」「かいじ」の停車駅と所要時間",
     "source_url": "https://jr-group.jp/azusa-stop/",
     "checked": "2026-11-06",
-    "note": "新宿→白馬 3時間40分(あずさ。松本〜白馬は一部列車のみ直通)。東京駅からではなく新宿起点の公式値。東京駅発の北陸新幹線+バス経路は別(白馬村は約2時間30分と案内との検索結果あるが未開封)",
-    "decision_reason": "公式の数字は新宿起点・一部直通の列車で、東京からの通し時間として直せない"
+    "note": "新宿→白馬 3時間40分(あずさ。松本〜白馬は一部列車のみ直通)。東京駅からではなく新宿起点の値。東京駅発の北陸新幹線+バス経路は別(白馬村は約2時間30分と案内との検索結果あるが未開封)",
+    "decision_reason": "出典の数字は新宿起点・一部直通の列車で、東京からの通し時間として直せない",
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 5,
@@ -253,7 +256,8 @@
     "source_url": "https://www.seiburailway.jp/railways/chichibucm/",
     "checked": "2026-11-06",
     "note": "特急ラビュー 池袋→西武秩父 最短77分(土休日ダイヤの例は83分)。出発は池袋駅で『西武線で約80分』と±5分以内。東京駅から西武線に乗る場合は乗換が別途要る。",
-    "decision_reason": null
+    "decision_reason": null,
+    "origin_station_note": "起点は池袋駅（特急ラビュー 池袋→西武秩父）。東京駅からではない"
   },
   {
     "idx": 17,
@@ -397,7 +401,8 @@
     "source_url": "https://jr-group.jp/yamabiko-stop/",
     "checked": "2026-11-06",
     "note": "東京→新白河 東北新幹線 目安1時間18分(一部のやまびこ、なすの停車)。文は『白河』への約1時間。白河駅はさらに在来線乗換",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 26,
@@ -413,7 +418,8 @@
     "source_url": "https://jr-group.jp/hikari-stop/",
     "checked": "2026-11-06",
     "note": "東京→三島 ひかり 目安42分(一部のひかりが停車)。文の45分は±5分内。こだまは約1時間",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 27,
@@ -445,7 +451,8 @@
     "source_url": "https://jr-group.jp/komachi-stop/",
     "checked": "2026-11-06",
     "note": "東京→角館 こまち 目安2時間59分",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 29,
@@ -461,7 +468,8 @@
     "source_url": "https://jr-group.jp/hakutaka-stop/",
     "checked": "2026-11-06",
     "note": "東京→上越妙高 北陸新幹線はくたか 目安1時間49分。最寄り関山駅へはえちごトキめき鉄道に乗換が別途必要(新幹線区間のみで比較)",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 30,
@@ -477,7 +485,8 @@
     "source_url": "https://jr-group.jp/hitachi-stop/",
     "checked": "2026-11-06",
     "note": "東京→水戸 特急 目安1時間12分。『ちょっと』は+15分内",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 31,
@@ -493,7 +502,9 @@
     "source_url": "https://jr-group.jp/特急「あずさ」「かいじ」の停車駅と所要時間/",
     "checked": "2026-11-06",
     "note": "新宿→穂高 あずさ 目安2時間59分(新宿→松本は2時間37分)。東京駅からは中央線乗換で更に必要",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）",
+    "origin_station_note": "起点は新宿駅（新宿→穂高 あずさ）。東京駅からではない"
   },
   {
     "idx": 32,
@@ -553,11 +564,12 @@
     "agent_verdict": "corrected",
     "official_minutes": 45,
     "corrected_text": "約45分",
-    "source_name": "JRグループ 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
+    "source_name": "JRグループ共同サイト 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
     "source_url": "https://jr-group.jp/hitachi-stop/",
     "checked": "2026-11-06",
     "note": "東京→牛久 45分（ときわの一部停車）。列車例の時刻はページに無し。牛久駅を最寄りとした。",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 36,
@@ -569,11 +581,12 @@
     "agent_verdict": "confirmed",
     "official_minutes": 73,
     "corrected_text": null,
-    "source_name": "JRグループ 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
+    "source_name": "JRグループ共同サイト 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
     "source_url": "https://jr-group.jp/hitachi-stop/",
     "checked": "2026-11-06",
-    "note": "東京→友部 1時間13分（特急ときわ）。『特急で』の区間は友部まで。友部→笠間稲荷（水戸線）の公式時間は未確認。",
-    "decision_reason": "公式で確認できたのは友部まで（友部→笠間稲荷は未確認）"
+    "note": "東京→友部 1時間13分（特急ときわ）。『特急で』の区間は友部まで。友部→笠間稲荷（水戸線）の時間は未確認。",
+    "decision_reason": "出典で確認できたのは友部まで（友部→笠間稲荷は未確認）",
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 37,
@@ -601,11 +614,12 @@
     "agent_verdict": "confirmed",
     "official_minutes": 72,
     "corrected_text": null,
-    "source_name": "JRグループ 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
+    "source_name": "JRグループ共同サイト 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
     "source_url": "https://jr-group.jp/hitachi-stop/",
     "checked": "2026-11-06",
     "note": "東京→水戸 1時間12分（ひたち）。水戸駅を最寄りとした。『ちょっと』は+15分以内。",
-    "decision_reason": null
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 39,
@@ -653,7 +667,8 @@
     "source_url": "https://www.nikko-kankou.org/courses/92",
     "checked": "2026-11-06",
     "note": "浅草→湯西川温泉駅 約3時間。駅から温泉へバス約15〜25分は別。列車の時刻例は無し。",
-    "decision_reason": null
+    "decision_reason": null,
+    "origin_station_note": "起点は浅草駅（浅草→湯西川温泉駅 約3時間）。東京駅からではない"
   },
   {
     "idx": 42,
@@ -669,7 +684,8 @@
     "source_url": "https://www.city.sano.lg.jp/ijuteiju/machiwoshiru/949.html",
     "checked": "2026-11-06",
     "note": "市は高速バス90分（東京・新宿）を案内。鉄道は東京→佐野駅 最速約80分（https://www.city.sano.lg.jp/ijuteiju/machiwoshiru/950.html）。手段が文に無いため代表としてバスで判定。",
-    "decision_reason": null
+    "decision_reason": null,
+    "origin_station_note": "起点は東京・新宿（高速バス）。東京駅からではない。鉄道は東京→佐野 最速約80分"
   },
   {
     "idx": 43,
@@ -685,7 +701,8 @@
     "source_url": "https://www.city.nikko.lg.jp/soshiki/7/1032/4/tetsudou/10693.html",
     "checked": "2026-11-06",
     "note": "浅草→東武日光 特急約2時間。起点は浅草。列車例の時刻は取得せず。",
-    "decision_reason": null
+    "decision_reason": null,
+    "origin_station_note": "起点は浅草駅（浅草→東武日光 特急約2時間）。東京駅からではない"
   },
   {
     "idx": 44,
@@ -748,8 +765,9 @@
     "source_name": "JRグループ共同サイト 特急ふじかわ時刻表(静岡-甲府)",
     "source_url": "https://jr-group.jp/fujikawa-timetable/",
     "checked": "2026-11-06",
-    "note": "東京から身延への直通特急は無く、公式の東京→身延通し時間は確認できず。参考: ふじかわ4号 甲府08:45発→身延09:39着(54分)、1号 静岡08:17発→身延09:39着。東京-静岡/甲府の公式時間・接続は未確認。",
-    "decision_reason": null
+    "note": "東京から身延への直通特急は無く、東京→身延の通し時間は確認できず。参考: ふじかわ4号 甲府08:45発→身延09:39着(54分)、1号 静岡08:17発→身延09:39着。東京-静岡/甲府の時間・接続は未確認。",
+    "decision_reason": null,
+    "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
   },
   {
     "idx": 48,
@@ -765,7 +783,8 @@
     "source_url": "https://www.nagatoro.gr.jp/accessmap/",
     "checked": "2026-11-06",
     "note": "池袋→西武秩父(特急)約80分+秩父鉄道(御花畑)→長瀞約20分=約100分(乗換・徒歩別)。池袋→寄居約80分+寄居→長瀞約20分、上野→熊谷約60分+熊谷→長瀞約50分(=約110分)。東京駅発ならさらに長い。文の約90分は公式より短い。出発地は池袋/上野基準。",
-    "decision_reason": null
+    "decision_reason": null,
+    "origin_station_note": "起点は池袋駅・上野駅（池袋→西武秩父→長瀞、上野→熊谷→長瀞）。東京駅からではない"
   },
   {
     "idx": 49,
@@ -830,5 +849,357 @@
     "checked": "2026-11-06",
     "note": "東京→米沢は山形新幹線つばさで乗換なし約2時間10分(見出しは約2時間)。『2時間ちょっと』(+15分まで)の範囲内。列車の発着例はJR東日本時刻表を開けず未確認。",
     "decision_reason": null
+  },
+  {
+    "idx": 53,
+    "id": "uchiko",
+    "dest": "内子",
+    "origin": "松山",
+    "sentence": "松山から車で40分。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 54,
+    "id": "ozu",
+    "dest": "大洲",
+    "origin": "松山",
+    "sentence": "松山から特急で30分。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 55,
+    "id": "wakasa-obama",
+    "dest": "若狭小浜",
+    "origin": "京都",
+    "sentence": "京都から特急で2時間かからない。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 56,
+    "id": "otsu-shiga",
+    "dest": "大津",
+    "origin": "京都",
+    "sentence": "京都から電車で10分。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 57,
+    "id": "kusatsu-shiga",
+    "dest": "草津",
+    "origin": "新幹線で京都",
+    "sentence": "新幹線で京都から30分もかからないのに、",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 58,
+    "id": "gen_北海_層雲峡温泉",
+    "dest": "層雲峡温泉",
+    "origin": "旭川",
+    "sentence": "旭川から車で約1時間半。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 59,
+    "id": "gen_北海_天人峡温泉",
+    "dest": "天人峡温泉",
+    "origin": "旭川",
+    "sentence": "旭川から車で1時間半。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 60,
+    "id": "gen_北海_水無海浜温泉",
+    "dest": "水無海浜温泉",
+    "origin": "函館",
+    "sentence": "函館から車で約2時間、南茅部の海岸線を走ると、",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 61,
+    "id": "gen_北海_就実の丘",
+    "dest": "就実の丘",
+    "origin": "旭川",
+    "sentence": "旭川から車で30分ほど走ると、",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 62,
+    "id": "gen_北海_トラピスト修道院",
+    "dest": "トラピスト修道院",
+    "origin": "函館",
+    "sentence": "函館から車で40分。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 63,
+    "id": "gen_北海_戸切地陣屋",
+    "dest": "戸切地陣屋",
+    "origin": "函館",
+    "sentence": "函館からは車で30分もかからない。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 64,
+    "id": "gen_北海_太田山神社",
+    "dest": "太田山神社",
+    "origin": "函館",
+    "sentence": "アクセス：函館から車で約2時間30分",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 65,
+    "id": "gen_北海_長万部温泉",
+    "dest": "長万部温泉",
+    "origin": "函館",
+    "sentence": "函館から特急で1時間ちょっと。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 66,
+    "id": "gen_北海_びふか温泉",
+    "dest": "びふか温泉",
+    "origin": "旭川",
+    "sentence": "旭川から車で約1時間半。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 67,
+    "id": "gen_北海_中札内美術村",
+    "dest": "中札内美術村",
+    "origin": "帯広",
+    "sentence": "帯広から車で30分。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 68,
+    "id": "gen_北海_六花の森",
+    "dest": "六花の森",
+    "origin": "帯広",
+    "sentence": "帯広から車で40分ほど走ると、突然視界が開ける。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 69,
+    "id": "gen_北海_見市温泉",
+    "dest": "見市温泉",
+    "origin": "函館",
+    "sentence": "函館から車で2時間。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 70,
+    "id": "gen_北海_オーロラ温泉",
+    "dest": "オーロラ温泉",
+    "origin": "帯広",
+    "sentence": "帯広から車で約2時間。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 71,
+    "id": "gen_北海_鹿部温泉",
+    "dest": "鹿部温泉",
+    "origin": "函館",
+    "sentence": "函館から車で1時間ちょっと。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 72,
+    "id": "tonaki",
+    "dest": "渡名喜島",
+    "origin": "那覇",
+    "sentence": "那覇から船で2時間半。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 73,
+    "id": "minamidaitojima",
+    "dest": "南大東島",
+    "origin": "那覇",
+    "sentence": "那覇から飛行機で約1時間。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
+  },
+  {
+    "idx": 74,
+    "id": "kitadaitojima",
+    "dest": "北大東島",
+    "origin": "那覇",
+    "sentence": "那覇から飛行機で約1時間。",
+    "decision": "delete",
+    "agent_verdict": null,
+    "official_minutes": null,
+    "corrected_text": null,
+    "source_name": null,
+    "source_url": null,
+    "checked": "2026-11-06",
+    "note": "出発地の travelTime に値がなく、本文の数字を確かめる基準がない",
+    "decision_reason": "travelTime に値がない出発地の文。確認できないため削除（新しい数字・固有名詞は足していない）"
   }
 ]

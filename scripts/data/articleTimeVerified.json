@@ -1,13 +1,14 @@
 {
   "date": "2026-11-06",
-  "note": "公式で確認できた記事側の所要時間の文。auditTravelTime は、この一覧の文を travelTime との食い違いから除く",
+  "note": "出典で確認できた記事側の所要時間の文。auditTravelTime は、この一覧の文を travelTime との食い違いから除く。JRグループ共同サイトを出典にしたものは「公式」とは書かず、source_kind に区別を書く（キー名 official_minutes は出典の値の意味）。起点が東京駅でないものは origin_station_note に書く",
   "items": [
     {
       "id": "karuizawa",
       "line": "東京から新幹線で約1時間。",
       "source_name": "JRグループ共同サイト 北陸新幹線「はくたか」の停車駅と所要時間",
       "source_url": "https://jr-group.jp/hakutaka-stop/",
-      "official_minutes": 64
+      "official_minutes": 64,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "hakone",
@@ -42,7 +43,8 @@
       "line": "東京から西武線で約80分。",
       "source_name": "西武鉄道 ラビューで秩父っ飛び!",
       "source_url": "https://www.seiburailway.jp/railways/chichibucm/",
-      "official_minutes": 77
+      "official_minutes": 77,
+      "origin_station_note": "起点は池袋駅（特急ラビュー 池袋→西武秩父）。東京駅からではない"
     },
     {
       "id": "shiraoi",
@@ -63,21 +65,24 @@
       "line": "新幹線で東京から45分。",
       "source_name": "JRグループ共同サイト ひかり停車駅",
       "source_url": "https://jr-group.jp/hikari-stop/",
-      "official_minutes": 42
+      "official_minutes": 42,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "ibaraki-mito",
       "line": "東京から特急で1時間ちょっと。",
       "source_name": "JRグループ共同サイト ひたち・ときわ停車駅",
       "source_url": "https://jr-group.jp/hitachi-stop/",
-      "official_minutes": 72
+      "official_minutes": 72,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "gen_茨城_常磐神社",
       "line": "東京から特急で1時間ちょっと。",
-      "source_name": "JRグループ 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
+      "source_name": "JRグループ共同サイト 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
       "source_url": "https://jr-group.jp/hitachi-stop/",
-      "official_minutes": 72
+      "official_minutes": 72,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "gen_栃木_那須温泉郷",
@@ -91,21 +96,24 @@
       "line": "東京から約3時間。",
       "source_name": "日光市観光協会 モデルコース（野岩鉄道で浅草から約3時間）",
       "source_url": "https://www.nikko-kankou.org/courses/92",
-      "official_minutes": 180
+      "official_minutes": 180,
+      "origin_station_note": "起点は浅草駅（浅草→湯西川温泉駅 約3時間）。東京駅からではない"
     },
     {
       "id": "gen_栃木_佐野プレミアム・アウトレット",
       "line": "佐野プレミアム・アウトレットは、東京から約1時間半。",
       "source_name": "佐野市 高速バスで東京・新宿まで90分",
       "source_url": "https://www.city.sano.lg.jp/ijuteiju/machiwoshiru/949.html",
-      "official_minutes": 90
+      "official_minutes": 90,
+      "origin_station_note": "起点は東京・新宿（高速バス）。東京駅からではない。鉄道は東京→佐野 最速約80分"
     },
     {
       "id": "gen_栃木_日光東照宮",
       "line": "東京から約2時間。",
       "source_name": "日光市公式 東武鉄道（東武日光線・東武鬼怒川線）",
       "source_url": "https://www.city.nikko.lg.jp/soshiki/7/1032/4/tetsudou/10693.html",
-      "official_minutes": 120
+      "official_minutes": 120,
+      "origin_station_note": "起点は浅草駅（浅草→東武日光 特急約2時間）。東京駅からではない"
     },
     {
       "id": "okitama",
@@ -120,7 +128,8 @@
       "source_name": "JRグループ共同サイト 特急「踊り子」の停車駅と所要時間",
       "source_url": "https://jr-group.jp/odoriko-stop/",
       "official_minutes": 156,
-      "corrected": true
+      "corrected": true,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "choshi",
@@ -136,7 +145,8 @@
       "source_name": "JRグループ共同サイト やまびこ停車駅",
       "source_url": "https://jr-group.jp/yamabiko-stop/",
       "official_minutes": 78,
-      "corrected": true
+      "corrected": true,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "akita-semboku",
@@ -144,7 +154,8 @@
       "source_name": "JRグループ共同サイト こまち停車駅",
       "source_url": "https://jr-group.jp/komachi-stop/",
       "official_minutes": 179,
-      "corrected": true
+      "corrected": true,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "myoko",
@@ -152,7 +163,8 @@
       "source_name": "JRグループ共同サイト はくたか停車駅",
       "source_url": "https://jr-group.jp/hakutaka-stop/",
       "official_minutes": 109,
-      "corrected": true
+      "corrected": true,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "azumino",
@@ -160,15 +172,18 @@
       "source_name": "JRグループ共同サイト あずさ・かいじ停車駅",
       "source_url": "https://jr-group.jp/特急「あずさ」「かいじ」の停車駅と所要時間/",
       "official_minutes": 179,
-      "corrected": true
+      "corrected": true,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）",
+      "origin_station_note": "起点は新宿駅（新宿→穂高 あずさ）。東京駅からではない"
     },
     {
       "id": "gen_茨城_牛久シャトー",
       "line": "東京から特急で約45分。",
-      "source_name": "JRグループ 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
+      "source_name": "JRグループ共同サイト 特急ひたち・ときわ停車駅ページ（東京駅からの所要時間の目安）",
       "source_url": "https://jr-group.jp/hitachi-stop/",
       "official_minutes": 45,
-      "corrected": true
+      "corrected": true,
+      "source_kind": "JRグループ共同サイト（JR各社の共同サイト。各社の個別の公式時刻表ではない）"
     },
     {
       "id": "nagatoro",
@@ -176,7 +191,8 @@
       "source_name": "長瀞町観光協会「アクセス」",
       "source_url": "https://www.nagatoro.gr.jp/accessmap/",
       "official_minutes": 100,
-      "corrected": true
+      "corrected": true,
+      "origin_station_note": "起点は池袋駅・上野駅（池袋→西武秩父→長瀞、上野→熊谷→長瀞）。東京駅からではない"
     },
     {
       "id": "mikurajima",
