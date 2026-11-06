@@ -4,3 +4,8 @@ logs/shots-transport/
 logs/shots/
 .env
 .DS_Store
+
+# Search Console のサービスアカウントのキー（リポジトリに入れない。scripts/checkSecrets.mjs が混入を検査）
+gsc-key*.json
+*-key.json
+.config/
