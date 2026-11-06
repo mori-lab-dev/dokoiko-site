@@ -52,10 +52,11 @@ export const GET: APIRoute = () => {
     if (d) u.lastmod = d;
   }
 
+  // loc は canonical タグ（Astro.url.href）と同じ%エンコード（RFC 3986・大文字16進）で書く。日本語のまま書かない
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
-    <loc>${u.loc}</loc>
+    <loc>${new URL(u.loc).href}</loc>
 ${u.lastmod ? `    <lastmod>${u.lastmod}</lastmod>
 ` : ''}    <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>

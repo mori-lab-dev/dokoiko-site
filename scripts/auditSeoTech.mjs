@@ -23,6 +23,26 @@ const destUrls = urls.filter((u) => /\/destinations\/[^/]+\/$/.test(u.loc));
 res['旅先ページで lastmod が無い'] = destUrls.filter((u) => !u.lm).length;
 res['lastmod の形式が不正（YYYY-MM-DD でない）'] = urls.filter((u) => u.lm && !/^\d{4}-\d{2}-\d{2}$/.test(u.lm)).length;
 res['lastmod が未来の日付'] = urls.filter((u) => u.lm && u.lm > today).length;
+// sitemap の loc と、そのページの dist の canonical タグが、1文字も違わず一致しているか（2026-11-06）
+{
+  let noFile = 0, noCanon = 0, differ = 0, rawNonAscii = 0, lowerHex = 0; const ex = [];
+  for (const u of urls) {
+    if (/[^\x00-\x7f]/.test(u.loc)) rawNonAscii++;
+    if (/%[0-9a-f]{2}/.test(u.loc.replace(/%[0-9A-F]{2}/g, ''))) lowerHex++;
+    const p = u.loc.replace(/^https:\/\/tabidokoiko\.com/, '');
+    const f = path.join(dist, p === '/' ? 'index.html' : path.join(decodeURIComponent(p), 'index.html'));
+    if (!fs.existsSync(f)) { noFile++; continue; }
+    const m = fs.readFileSync(f, 'utf8').match(/<link[^>]*rel="canonical"[^>]*href="([^"]+)"/);
+    if (!m) { noCanon++; continue; }
+    if (m[1] !== u.loc) { differ++; if (ex.length < 3) ex.push([u.loc, m[1]]); }
+  }
+  res['sitemap の loc が日本語のまま（%エンコードでない）'] = rawNonAscii;
+  res['sitemap の loc の16進が小文字'] = lowerHex;
+  res['sitemap の loc に対応する dist のページが無い'] = noFile;
+  res['sitemap のページに canonical タグが無い'] = noCanon;
+  res['sitemap の loc と canonical が完全一致しない'] = differ;
+  globalThis.__smCanon = { total: urls.length, ex };
+}
 const lmCount = urls.filter((u) => u.lm).length;
 
 // 画像の縦横表
@@ -70,6 +90,8 @@ res['フォントを @import で読んでいる'] = /@import\s+url\([^)]*fonts\.
 res['フォントの <link> が無い'] = /<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com/.test(layout) ? 0 : 1;
 
 console.log(`sitemap ${urls.length} URL（lastmod あり ${lmCount}）・画像の縦横表 ${keys.length} 枚・検査したページ ${pagesChecked}`);
+console.log(`sitemap と canonical の照合: ${urls.length}件`);
+for (const [a, b] of globalThis.__smCanon.ex) console.log(`  不一致の例: ${a} ≠ ${b}`);
 console.log(`参考: 実在しない画像を指す <img>（404になる）: ${missingFile}件`);
 console.log(`参考: トップページの自サイト画像で width/height が無い: ${noDimHome}件`);
 for (const [k, v] of Object.entries(res)) console.log(`${k}: ${v}件`);

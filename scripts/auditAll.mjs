@@ -87,7 +87,7 @@ const AUDITS = [
       'バスの時刻・便数の記述': Z(num(/バスの時刻・便数の記述:\s*(\d+)件/, o)),
       '画面との不一致': Z(num(/画面（dist）との不一致:\s*(\d+)件/, o)) }) },
 
-  { id: 'seo-tech', tier: 'dist', title: 'SEO技術面（sitemap の lastmod・画像の width/height と lazy・LCP画像の優先指定・フォントの読み込み）',
+  { id: 'seo-tech', tier: 'dist', title: 'SEO技術面（sitemap の lastmod と canonical との完全一致・画像の width/height と lazy・LCP画像の優先指定・フォントの読み込み）',
     cmd: ['node', 'scripts/auditSeoTech.mjs'], exitMeansFail: true,
     parse: (o) => ({ '旅先ページで lastmod が無い': Z(num(/旅先ページで lastmod が無い:\s*(\d+)件/, o)),
       'lastmod の形式不正': Z(num(/lastmod の形式が不正[^:]*:\s*(\d+)件/, o)),
@@ -98,7 +98,12 @@ const AUDITS = [
       'ヒーロー画像が lazy': Z(num(/ヒーロー画像が lazy になっている:\s*(\d+)件/, o)),
       'ヒーロー以外に lazy が無い': Z(num(/ヒーロー以外の画像に loading="lazy" が無い:\s*(\d+)件/, o)),
       'フォントを @import で読んでいる': Z(num(/フォントを @import で読んでいる:\s*(\d+)件/, o)),
-      'フォントの link が無い': Z(num(/フォントの <link> が無い:\s*(\d+)件/, o)) }) },
+      'フォントの link が無い': Z(num(/フォントの <link> が無い:\s*(\d+)件/, o)),
+      'sitemap の loc が日本語のまま': Z(num(/sitemap の loc が日本語のまま[^:]*:\s*(\d+)件/, o)),
+      'sitemap の loc の16進が小文字': Z(num(/sitemap の loc の16進が小文字:\s*(\d+)件/, o)),
+      'sitemap の loc のページが dist に無い': Z(num(/sitemap の loc に対応する dist のページが無い:\s*(\d+)件/, o)),
+      'sitemap のページに canonical が無い': Z(num(/sitemap のページに canonical タグが無い:\s*(\d+)件/, o)),
+      'sitemap と canonical が不一致': Z(num(/sitemap の loc と canonical が完全一致しない:\s*(\d+)件/, o)) }) },
 
   { id: 'seo-copy', tier: 'dist', title: '個別に書いた title/description が本文の事実と合っているか（数字・禁止句・推測表現・長さ・データとの一致）',
     cmd: ['node', 'scripts/auditSeoCopy.mjs'], exitMeansFail: true,
