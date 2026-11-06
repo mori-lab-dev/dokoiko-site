@@ -1,0 +1,1002 @@
+{
+  "atami": {
+    "name": "熱海 大観荘",
+    "shuttleInfo": "熱海駅から定時送迎あり（予約不要・13:45〜16:45）",
+    "hasShuttle": true
+  },
+  "nikko": {
+    "name": "日光金谷ホテル",
+    "shuttleInfo": "東武日光駅から無料シャトルあり（定時運行）",
+    "hasShuttle": true
+  },
+  "karuizawa": {
+    "name": "万平ホテル",
+    "shuttleInfo": "軽井沢駅から宿泊者送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "fujikawaguchiko": {
+    "name": "湖山亭うぶや",
+    "shuttleInfo": "河口湖駅から無料送迎バスあり",
+    "hasShuttle": true
+  },
+  "nara": {
+    "name": "奈良ホテル",
+    "shuttleInfo": "近鉄奈良駅への送迎バスあり",
+    "hasShuttle": true
+  },
+  "otaru": {
+    "name": "料亭湯宿 銀鱗荘",
+    "shuttleInfo": "小樽築港駅から無料送迎あり（15〜18時）",
+    "hasShuttle": true
+  },
+  "matsushima": {
+    "name": "小松館 好風亭",
+    "shuttleInfo": "松島海岸駅・松島駅から送迎あり（到着時に連絡）",
+    "hasShuttle": true
+  },
+  "miyajima": {
+    "name": "みやじまの宿 岩惣",
+    "shuttleInfo": "宮島桟橋から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "shodoshima": {
+    "name": "島宿真里",
+    "shuttleInfo": "池田港から送迎あり",
+    "hasShuttle": true
+  },
+  "mihonoseki": {
+    "name": "国文化財の宿 美保館",
+    "shuttleInfo": "境港まで送迎あり（1組1,000円・要予約）",
+    "hasShuttle": true
+  },
+  "tokashiki-jima": {
+    "name": "ケラマテラス",
+    "shuttleInfo": "渡嘉敷港から宿の送迎車あり（港から車で約15分）",
+    "hasShuttle": true
+  },
+  "kusatsu-onsen": {
+    "name": "奈良屋",
+    "shuttleInfo": "草津温泉バスターミナルから送迎あり（到着後連絡）",
+    "hasShuttle": true
+  },
+  "shimoda": {
+    "name": "清流荘",
+    "shuttleInfo": "蓮台寺駅・伊豆急下田駅から無料送迎あり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "izu-oshima": {
+    "name": "大島温泉ホテル",
+    "shuttleInfo": "元町港・岡田港から無料送迎バス約20分（要予約）",
+    "hasShuttle": true
+  },
+  "shirakawago-t": {
+    "name": "御宿 結の庄",
+    "shuttleInfo": "白川郷バスターミナルから無料シャトルバスあり（定時運行）",
+    "hasShuttle": true
+  },
+  "kinosaki-onsen": {
+    "name": "西村屋本館",
+    "shuttleInfo": "城崎温泉駅から送迎あり（特急到着時間帯・要連絡）",
+    "hasShuttle": true
+  },
+  "takayama-o": {
+    "name": "本陣平野屋 花兆庵",
+    "shuttleInfo": "高山駅から送迎あり（到着時間に合わせて迎え）",
+    "hasShuttle": true
+  },
+  "toba": {
+    "name": "戸田家",
+    "shuttleInfo": "鳥羽駅から送迎あり（到着時に連絡・オンデマンド運行）",
+    "hasShuttle": true
+  },
+  "kurokawa-k": {
+    "name": "山の宿 新明館",
+    "shuttleInfo": "黒川温泉バス停へはお迎えあり（予約時に到着時間を連絡）",
+    "hasShuttle": true
+  },
+  "yakushima": {
+    "name": "sankara hotel&spa 屋久島",
+    "shuttleInfo": "屋久島空港から送迎あり",
+    "hasShuttle": true
+  },
+  "amakusa": {
+    "name": "石山離宮 五足のくつ",
+    "shuttleInfo": "本渡バスセンター・天草空港から無料送迎あり（予約制）",
+    "hasShuttle": true
+  },
+  "kakunodate": {
+    "name": "角館山荘 侘桜",
+    "shuttleInfo": "角館駅から送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "zaosan": {
+    "name": "深山荘 高見屋",
+    "shuttleInfo": "蔵王温泉バスターミナルから無料送迎あり（到着後に連絡）",
+    "hasShuttle": true
+  },
+  "naoshima": {
+    "name": "ベネッセハウス",
+    "shuttleInfo": "宮浦港から宿泊者専用送迎バスあり",
+    "hasShuttle": true
+  },
+  "kotohira": {
+    "name": "琴平花壇",
+    "shuttleInfo": "琴平駅から無料送迎バスあり（当日連絡可）",
+    "hasShuttle": true
+  },
+  "kaga-onsen": {
+    "name": "白鷺湯たわらや",
+    "shuttleInfo": "加賀温泉駅から無料送迎バスあり（約20分・事前予約）",
+    "hasShuttle": true
+  },
+  "hakuba": {
+    "name": "白馬八方温泉 しろうま荘",
+    "shuttleInfo": "白馬駅・八方バスターミナルから無料送迎あり（要連絡）",
+    "hasShuttle": true
+  },
+  "ine": {
+    "name": "奥伊根温泉 油屋別館 和亭",
+    "shuttleInfo": "天橋立駅から送迎あり（1日1便）",
+    "hasShuttle": true
+  },
+  "hirado": {
+    "name": "国際観光ホテル旗松亭",
+    "shuttleInfo": "平戸桟橋から無料送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "awaji": {
+    "name": "ホテルニューアワジ",
+    "shuttleInfo": "洲本高速バスセンターから送迎バスあり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "jozankei": {
+    "name": "定山渓温泉 ぬくもりの宿ふる川",
+    "shuttleInfo": "札幌市内（大通西1丁目NHK前）より無料送迎バスあり（要予約・14時発）",
+    "hasShuttle": true
+  },
+  "takachiho": {
+    "name": "旅館 神仙",
+    "shuttleInfo": "高千穂バスセンターから送迎あり（要連絡）",
+    "hasShuttle": true
+  },
+  "ashizuri": {
+    "name": "TheMana Village",
+    "shuttleInfo": "足摺岬エリアのバス停から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "oboke": {
+    "name": "和の宿 ホテル祖谷温泉",
+    "shuttleInfo": "JR大歩危駅から無料送迎あり（1日1便・前日までに要予約）",
+    "hasShuttle": true
+  },
+  "inuyama": {
+    "name": "灯屋 迎帆楼",
+    "shuttleInfo": "名鉄犬山駅から送迎あり（要連絡）",
+    "hasShuttle": true
+  },
+  "himi": {
+    "name": "氷見温泉郷 くつろぎの宿 うみあかり",
+    "shuttleInfo": "JR氷見駅から無料送迎あり（要連絡・2名以上）",
+    "hasShuttle": true
+  },
+  "nyuto-onsen": {
+    "name": "鶴の湯温泉",
+    "shuttleInfo": "アルパこまくさバス停から送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "ureshino-onsen": {
+    "name": "大正屋",
+    "shuttleInfo": "嬉野温泉駅・嬉野バスセンターから送迎あり（2名以上）",
+    "hasShuttle": true
+  },
+  "oku-izumo": {
+    "name": "亀嵩温泉 玉峰山荘",
+    "shuttleInfo": "JR亀嵩駅から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "ginzan-onsen": {
+    "name": "能登屋旅館",
+    "shuttleInfo": "大石田駅から送迎あり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "nagahama": {
+    "name": "グランドメルキュール琵琶湖リゾート＆スパ",
+    "shuttleInfo": "JR長浜駅西口（びわこ口）から無料送迎バスあり（予約不要）",
+    "hasShuttle": true
+  },
+  "gero-onsen": {
+    "name": "湯之島館",
+    "shuttleInfo": "下呂駅から無料送迎あり（13:35〜17:25）",
+    "hasShuttle": true
+  },
+  "misasa-onsen": {
+    "name": "旅館大橋",
+    "shuttleInfo": "倉吉駅から送迎あり（マイクロバス）",
+    "hasShuttle": true
+  },
+  "ozu": {
+    "name": "NIPPONIA HOTEL 大洲 城下町",
+    "shuttleInfo": "伊予大洲駅から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "tosa-shimizu": {
+    "name": "足摺国際ホテル",
+    "shuttleInfo": "足摺岬バス停・金剛福寺から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "sounkyo": {
+    "name": "層雲峡 朝陽亭",
+    "shuttleInfo": "札幌・旭川より有料送迎バスあり（要予約・期間運行）",
+    "hasShuttle": true
+  },
+  "rebun-island": {
+    "name": "礼文温泉 花れぶん",
+    "shuttleInfo": "香深港フェリーターミナルより無料送迎あり（要事前予約）",
+    "hasShuttle": true
+  },
+  "rishiri-island": {
+    "name": "ホテル利尻",
+    "shuttleInfo": "鴛泊港・沓形港・利尻空港より無料送迎あり（前日までの予約制）",
+    "hasShuttle": true
+  },
+  "akan": {
+    "name": "あかん遊久の里 鶴雅",
+    "shuttleInfo": "札幌・千歳方面などから有料送迎バスあり（週3往復・5日前までの完全予約制）",
+    "hasShuttle": true
+  },
+  "abashiri": {
+    "name": "北天の丘 あばしり湖鶴雅リゾート",
+    "shuttleInfo": "JR網走駅より無料送迎あり（前日20時までの予約制・約15分）",
+    "hasShuttle": true
+  },
+  "shikotsu": {
+    "name": "丸駒温泉旅館",
+    "shuttleInfo": "支笏湖畔バスターミナルより無料送迎バスあり（約15分）",
+    "hasShuttle": true
+  },
+  "oga": {
+    "name": "男鹿温泉 元湯雄山閣",
+    "shuttleInfo": "JR男鹿駅から無料送迎あり（2日前までに要予約）",
+    "hasShuttle": true
+  },
+  "yonezawa": {
+    "name": "白布温泉 湯滝の宿 西屋",
+    "shuttleInfo": "米沢駅から送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "sakunami-onsen": {
+    "name": "伝承千年の宿 佐勘",
+    "shuttleInfo": "仙台駅東口から無料送迎バスあり（予約定員制）",
+    "hasShuttle": true
+  },
+  "nasu": {
+    "name": "那須温泉 山楽",
+    "shuttleInfo": "JR那須塩原駅から送迎バス約30分（要予約）",
+    "hasShuttle": true
+  },
+  "shiobara-onsen": {
+    "name": "明賀屋本館",
+    "shuttleInfo": "塩釜バス停から無料送迎あり",
+    "hasShuttle": true
+  },
+  "kiyosato": {
+    "name": "清泉寮",
+    "shuttleInfo": "JR清里駅から無料送迎バスあり（宿泊者専用・要予約）",
+    "hasShuttle": true
+  },
+  "suwa": {
+    "name": "寛ぎの諏訪の湯宿 萃sui-諏訪湖",
+    "shuttleInfo": "JR上諏訪駅西口から無料送迎あり（予約不要・14:30〜17:00）",
+    "hasShuttle": true
+  },
+  "minami-izu": {
+    "name": "南伊豆弓ヶ浜温泉 季一遊",
+    "shuttleInfo": "伊豆急下田駅から無料送迎バスあり（約20分）",
+    "hasShuttle": true
+  },
+  "ito": {
+    "name": "伊東温泉 陽気館",
+    "shuttleInfo": "伊東駅から送迎あり（宿泊者対象）",
+    "hasShuttle": true
+  },
+  "totsukawa": {
+    "name": "十津川温泉 ホテル昴",
+    "shuttleInfo": "十津川温泉バス停から送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "yunotsu-onsen": {
+    "name": "寛ぎの宿 輝雲荘",
+    "shuttleInfo": "温泉津駅から無料送迎あり（事前連絡）",
+    "hasShuttle": true
+  },
+  "iwakuni": {
+    "name": "錦帯橋温泉 岩国国際観光ホテル",
+    "shuttleInfo": "無料送迎あり（前日15時までに要予約）",
+    "hasShuttle": true
+  },
+  "shimanto": {
+    "name": "四万十の宿",
+    "shuttleInfo": "土佐くろしお鉄道中村駅から送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "hita": {
+    "name": "日田温泉 亀山亭ホテル",
+    "shuttleInfo": "JR日田駅から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "takeo-onsen": {
+    "name": "大正浪漫の宿 京都屋",
+    "shuttleInfo": "武雄温泉駅から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "tanegashima": {
+    "name": "種子島あらきホテル",
+    "shuttleInfo": "西之表港から無料送迎あり（事前予約必須・空港との送迎は行っていない）",
+    "hasShuttle": true
+  },
+  "yonaguni-island": {
+    "name": "アイランドホテル与那国",
+    "shuttleInfo": "与那国空港から無料送迎あり（前日15時までに要予約）",
+    "hasShuttle": true
+  },
+  "kohama-island": {
+    "name": "はいむるぶし",
+    "shuttleInfo": "小浜港から全定期便に合わせ専用送迎バス運行（予約不要）",
+    "hasShuttle": true
+  },
+  "kamaishi": {
+    "name": "浜べの料理宿 宝来館",
+    "shuttleInfo": "釜石駅・鵜住居駅から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "hanamaki": {
+    "name": "大沢温泉 湯治屋",
+    "shuttleInfo": "新花巻駅・花巻駅から無料送迎バスあり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "kesennuma": {
+    "name": "気仙沼プラザホテル",
+    "shuttleInfo": "送迎あり（2名以上・事前予約制）",
+    "hasShuttle": true
+  },
+  "chichibu": {
+    "name": "和銅鉱泉 ゆの宿 和どう",
+    "shuttleInfo": "秩父鉄道 和銅黒谷駅から無料送迎あり",
+    "hasShuttle": true
+  },
+  "murakami": {
+    "name": "大観荘せなみの湯",
+    "shuttleInfo": "JR村上駅から無料送迎あり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "shima": {
+    "name": "汀渚 ばさら邸",
+    "shuttleInfo": "賢島駅から無料送迎あり（到着後電話・約5分）",
+    "hasShuttle": true
+  },
+  "myoko-kogen": {
+    "name": "赤倉観光ホテル",
+    "shuttleInfo": "妙高高原駅から予約制の無料送迎シャトルあり",
+    "hasShuttle": true
+  },
+  "tanba-sasayama": {
+    "name": "篠山城下町ホテルNIPPONIA",
+    "shuttleInfo": "JR篠山口駅から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "nachikatsuura": {
+    "name": "碧き島の宿 熊野別邸 中の島",
+    "shuttleInfo": "勝浦港の桟橋から無料の専用送迎船で約5分",
+    "hasShuttle": true
+  },
+  "ako": {
+    "name": "赤穂温泉 絶景露天風呂の宿 銀波荘",
+    "shuttleInfo": "JR播州赤穂駅から無料送迎バスで約15分（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "tomonoura": {
+    "name": "汀邸 遠音近音",
+    "shuttleInfo": "JR福山駅から無料送迎あり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "ushimado": {
+    "name": "ホテルリマーニ",
+    "shuttleInfo": "JR邑久駅から無料送迎あり（1日2便・3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "tsunoshima": {
+    "name": "ホテル西長門リゾート",
+    "shuttleInfo": "JR新下関駅から無料送迎バスあり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "niseko": {
+    "name": "坐忘林",
+    "shuttleInfo": "JR倶知安駅より無料送迎あり（約15分）",
+    "hasShuttle": true
+  },
+  "tomamu": {
+    "name": "星野リゾート リゾナーレトマム",
+    "shuttleInfo": "JRトマム駅より無料送迎バスあり（列車到着に合わせ運行・約10分）",
+    "hasShuttle": true
+  },
+  "urabandai": {
+    "name": "裏磐梯高原ホテル",
+    "shuttleInfo": "猪苗代駅から無料送迎バスあり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "minami-sanriku": {
+    "name": "南三陸ホテル観洋",
+    "shuttleInfo": "仙台駅東口から宿泊者専用無料送迎バスあり（前日15時までに要予約）",
+    "hasShuttle": true
+  },
+  "kinugawa-onsen": {
+    "name": "あさやホテル",
+    "shuttleInfo": "宇都宮駅から送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "tateshina": {
+    "name": "蓼科親湯温泉",
+    "shuttleInfo": "JR茅野駅東口から無料定期送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "echigo-yuzawa": {
+    "name": "雪国の宿 高半",
+    "shuttleInfo": "JR越後湯沢駅から送迎あり（要連絡・8時〜18時）",
+    "hasShuttle": true
+  },
+  "arashiyama": {
+    "name": "星のや京都",
+    "shuttleInfo": "渡月橋南詰の舟待合から専用舟で送迎（事前予約制）",
+    "hasShuttle": true
+  },
+  "hachijojima": {
+    "name": "リードパークリゾート八丈島",
+    "shuttleInfo": "八丈島空港・港から送迎あり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "akita-oga": {
+    "name": "元湯 雄山閣",
+    "shuttleInfo": "男鹿駅から無料送迎バスあり（1日各1便・要予約）",
+    "hasShuttle": true
+  },
+  "omihachiman": {
+    "name": "休暇村近江八幡",
+    "shuttleInfo": "JR近江八幡駅から送迎バス1日3便（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "shiraoishi": {
+    "name": "鎌先温泉 時音の宿 湯主一條",
+    "shuttleInfo": "白石蔵王駅・白石駅から無料送迎あり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "shonai": {
+    "name": "湯田川温泉 九兵衛旅館",
+    "shuttleInfo": "鶴岡駅から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "sanriku-miyako": {
+    "name": "浄土ヶ浜パークホテル",
+    "shuttleInfo": "宮古駅から無料送迎バスあり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "hokkaido-hakodate": {
+    "name": "望楼NOGUCHI函館",
+    "shuttleInfo": "JR札幌駅より予約制送迎バスあり（有料・週3便運行）",
+    "hasShuttle": true
+  },
+  "nokogiriyama": {
+    "name": "さざね",
+    "shuttleInfo": "安房勝山駅から14:30以降に送迎可（要事前予約）",
+    "hasShuttle": true
+  },
+  "otsu-shiga": {
+    "name": "おごと温泉 湯元舘",
+    "shuttleInfo": "JRおごと温泉駅から送迎バスで約5分（要連絡）",
+    "hasShuttle": true
+  },
+  "tango-kyoto": {
+    "name": "間人温泉 炭平",
+    "shuttleInfo": "京都丹後鉄道網野駅から無料送迎約20分（要予約）",
+    "hasShuttle": true
+  },
+  "nagato-yamaguchi": {
+    "name": "大谷山荘",
+    "shuttleInfo": "JR長門湯本駅から無料送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "shibu-onsen": {
+    "name": "歴史の宿 金具屋",
+    "shuttleInfo": "湯田中駅から送迎あり（15時以降・要予約）",
+    "hasShuttle": true
+  },
+  "hachimantai-onsen": {
+    "name": "後生掛温泉",
+    "shuttleInfo": "アスピーテライン入口バス停から送迎あり（完全予約制）",
+    "hasShuttle": true
+  },
+  "towada-lake": {
+    "name": "十和田ホテル",
+    "shuttleInfo": "十和田湖（休屋）バス停から送迎あり",
+    "hasShuttle": true
+  },
+  "fukaura": {
+    "name": "黄金崎不老ふ死温泉",
+    "shuttleInfo": "ウェスパ椿山駅から送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "unzen2": {
+    "name": "雲仙観光ホテル",
+    "shuttleInfo": "諫早駅・長崎空港から無料シャトルあり（約1時間）",
+    "hasShuttle": true
+  },
+  "kurobe": {
+    "name": "黒部峡谷 宇奈月温泉 延楽",
+    "shuttleInfo": "宇奈月温泉駅から送迎あり（当日連絡可）。JR黒部宇奈月温泉駅は要予約",
+    "hasShuttle": true
+  },
+  "tomari-okinawa": {
+    "name": "ホテルにしえ",
+    "shuttleInfo": "フェリー発着時のみ送迎あり（要電話予約・港から車で約3分）",
+    "hasShuttle": true
+  },
+  "gen_北海_北湯沢温泉": {
+    "name": "緑の風リゾート きたゆざわ",
+    "shuttleInfo": "札幌駅（宿泊予約者は無料）・新千歳空港（宿泊予約者1,000円）から送迎バスあり。満席になり次第受付終了のため要予約",
+    "hasShuttle": true
+  },
+  "gen_北海_支笏湖温泉": {
+    "name": "しこつ湖 鶴雅リゾートスパ 水の謌",
+    "shuttleInfo": "新千歳空港・JR千歳駅から無料送迎バスあり（3日前の19時までに要予約）",
+    "hasShuttle": true
+  },
+  "gen_北海_定山渓温泉": {
+    "name": "定山渓鶴雅リゾートスパ 森の謌",
+    "shuttleInfo": "地下鉄南北線・真駒内駅から無料送迎バスあり（前日17時までに電話で要予約）",
+    "hasShuttle": true
+  },
+  "gen_北海_層雲峡温泉": {
+    "name": "層雲閣 MOUNTAIN RESORT 1923",
+    "shuttleInfo": "公式サイトに送迎バスの案内あり（詳細は公式サイトで確認）",
+    "hasShuttle": true
+  },
+  "gen_北海_天人峡温泉": {
+    "name": "天人峡温泉 御やど しきしま荘",
+    "shuttleInfo": "バス利用時のみ送迎あり（要予約）。旭川駅前から「いで湯号」で約90分、「旭岳源水公園前」下車後",
+    "hasShuttle": true
+  },
+  "gen_北海_洞爺湖温泉": {
+    "name": "ザ レイクビュー TOYA 乃の風リゾート",
+    "shuttleInfo": "JR札幌駅北口・新千歳空港から送迎バスあり（有料。予約者は割引、札幌駅発は予約者無料。3日前までネット予約可）",
+    "hasShuttle": true
+  },
+  "gen_北海_豊富温泉": {
+    "name": "豊富温泉 川島旅館",
+    "shuttleInfo": "豊富駅から列車の到着・出発に合わせて送迎あり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "gen_北海_ぬかびら温泉": {
+    "name": "糠平温泉 中村屋",
+    "shuttleInfo": "送迎なし",
+    "hasShuttle": false
+  },
+  "gen_北海_長万部温泉": {
+    "name": "長万部温泉ホテル",
+    "shuttleInfo": "連絡すれば送迎サービスあり（要相談）",
+    "hasShuttle": true
+  },
+  "gen_北海_十勝川温泉": {
+    "name": "十勝川温泉第一ホテル",
+    "shuttleInfo": "帯広駅から無料送迎シャトルあり（前日17時までに要予約）",
+    "hasShuttle": true
+  },
+  "gen_北海_トムラウシ温泉": {
+    "name": "東大雪荘",
+    "shuttleInfo": "新得駅から無料送迎あり（要予約・前日当日不可）",
+    "hasShuttle": true
+  },
+  "gen_栃木_中禅寺温泉": {
+    "name": "中禅寺金谷ホテル",
+    "shuttleInfo": "東武日光駅から無料シャトルバスあり（要予約）",
+    "hasShuttle": true
+  },
+  "gen_栃木_那須温泉郷": {
+    "name": "那須温泉 山楽",
+    "shuttleInfo": "那須塩原駅西口から無料送迎あり（完全予約制・14:40発）",
+    "hasShuttle": true
+  },
+  "gen_群馬_川原湯温泉": {
+    "name": "川原湯温泉 山木館",
+    "shuttleInfo": "川原湯温泉駅から無料送迎あり（予約時の備考欄で要連絡。到着15〜18時頃・出発10時頃）",
+    "hasShuttle": true
+  },
+  "gen_群馬_万座温泉": {
+    "name": "万座温泉 日進舘",
+    "shuttleInfo": "万座バスターミナルから送迎あり（約5分）",
+    "hasShuttle": true
+  },
+  "gen_青森_黄金崎不老不死温泉": {
+    "name": "不老ふ死温泉",
+    "shuttleInfo": "ウェスパ椿山駅から送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "gen_青森_城ヶ倉温泉": {
+    "name": "八甲田城ヶ倉温泉 ホテル城ヶ倉",
+    "shuttleInfo": "青森駅から無料送迎あり",
+    "hasShuttle": true
+  },
+  "gen_青森_蔦温泉": {
+    "name": "蔦温泉旅館",
+    "shuttleInfo": "七戸十和田駅から無料送迎あり（15時発・3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "gen_青森_谷地温泉": {
+    "name": "谷地温泉",
+    "shuttleInfo": "無料送迎あり（7日前までに電話で要予約）。4/1〜11/18は青森駅・新青森駅、11/19〜3/31は八戸駅から",
+    "hasShuttle": true
+  },
+  "utsukushigahara": {
+    "name": "王ヶ頭ホテル",
+    "shuttleInfo": "山本小屋など指定駐車場から送迎バスあり（冬期は山辺ワイナリー発着）",
+    "hasShuttle": true
+  },
+  "matsunoyama-onsen": {
+    "name": "凌雲閣",
+    "shuttleInfo": "まつだい駅から送迎あり（15:21発の1便・要予約）",
+    "hasShuttle": true
+  },
+  "hijori-onsen": {
+    "name": "湯宿 元河原湯",
+    "shuttleInfo": "新庄駅から送迎あり（2名以上・14時発・要予約）",
+    "hasShuttle": true
+  },
+  "takayu-onsen": {
+    "name": "旅館玉子湯",
+    "shuttleInfo": "福島駅西口から送迎あり（2日前までに要予約）",
+    "hasShuttle": true
+  },
+  "oyu-onsen-akita": {
+    "name": "龍門亭 千葉旅館",
+    "shuttleInfo": "最寄駅・バス停から無料送迎あり（2名以上）",
+    "hasShuttle": true
+  },
+  "takarakawa-onsen": {
+    "name": "宝川温泉 汪泉閣",
+    "shuttleInfo": "水上駅から送迎バスあり（約35分）",
+    "hasShuttle": true
+  },
+  "yoron-island": {
+    "name": "プリシアリゾートヨロン",
+    "shuttleInfo": "与論空港・港から無料送迎あり（要事前予約）",
+    "hasShuttle": true
+  },
+  "futamata-onsen": {
+    "name": "大丸あすなろ荘",
+    "shuttleInfo": "新白河駅東口から「湯ったりヤーコン号」で送迎（1日1便・要予約）",
+    "hasShuttle": true
+  },
+  "yunokami-onsen": {
+    "name": "藤龍館",
+    "shuttleInfo": "新白河駅から無料送迎バスあり（1日1本・約1時間）",
+    "hasShuttle": true
+  },
+  "isawa-onsen": {
+    "name": "銘石の宿 かげつ",
+    "shuttleInfo": "石和温泉駅北口から無料送迎あり（14〜18時・要連絡）",
+    "hasShuttle": true
+  },
+  "hanno": {
+    "name": "名栗温泉 大松閣",
+    "shuttleInfo": "飯能駅南口から無料送迎バス約30分（1日4便・要予約）",
+    "hasShuttle": true
+  },
+  "onuma": {
+    "name": "函館大沼プリンスホテル",
+    "shuttleInfo": "JR大沼公園駅・JR函館駅・函館空港より無料シャトルバスあり（事前予約制）",
+    "hasShuttle": true
+  },
+  "unazuki-onsen": {
+    "name": "延対寺荘",
+    "shuttleInfo": "新幹線駅から送迎あり（前日までの予約制）",
+    "hasShuttle": true
+  },
+  "okunoshima": {
+    "name": "休暇村大久野島",
+    "shuttleInfo": "大久野島桟橋から本館まで無料送迎バスあり（予約不要）",
+    "hasShuttle": true
+  },
+  "ikeda-osaka": {
+    "name": "伏尾温泉 不死王閣",
+    "shuttleInfo": "阪急池田駅から無料送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "kamogawa": {
+    "name": "鴨川館",
+    "shuttleInfo": "JR安房鴨川駅から送迎バス約7分（要予約）",
+    "hasShuttle": true
+  },
+  "tsumari": {
+    "name": "松之山温泉 ひなの宿ちとせ",
+    "shuttleInfo": "ほくほく線まつだい駅から定時送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "saroma-ko": {
+    "name": "サロマ湖鶴雅リゾート",
+    "shuttleInfo": "北見市内・女満別空港より無料送迎バスあり（3日前までの予約制）",
+    "hasShuttle": true
+  },
+  "kussharo-ko": {
+    "name": "屈斜路プリンスホテル",
+    "shuttleInfo": "JR摩周駅より無料送迎バスあり（要予約）",
+    "hasShuttle": true
+  },
+  "chikubushima": {
+    "name": "旅館 紅鮎",
+    "shuttleInfo": "北陸本線・高月駅西口から無料送迎バスあり（要予約・約10分）",
+    "hasShuttle": true
+  },
+  "kuju-kogen": {
+    "name": "レゾネイトクラブくじゅう",
+    "shuttleInfo": "JR由布院駅より無料送迎バスあり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "chinen-misaki": {
+    "name": "百名伽藍",
+    "shuttleInfo": "有料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "hakkoda": {
+    "name": "酸ヶ湯温泉旅館",
+    "shuttleInfo": "新青森駅から宿泊者専用無料送迎バスあり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "nishinoshima": {
+    "name": "国賀荘",
+    "shuttleInfo": "浦郷港・別府港との間で送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "minamidaitojima": {
+    "name": "ホテルよしざと",
+    "shuttleInfo": "港から無料送迎あり（公式記載・所要約8分）",
+    "hasShuttle": true
+  },
+  "shinojima": {
+    "name": "篠島 香翠荘",
+    "shuttleInfo": "篠島港から宿まで送迎あり（師崎港・河和港・伊良湖港での乗船時に連絡）",
+    "hasShuttle": true
+  },
+  "himakajima": {
+    "name": "ホテル 日間賀荘",
+    "shuttleInfo": "日間賀島西港から送迎可（東港からは徒歩5分）",
+    "hasShuttle": true
+  },
+  "etajima": {
+    "name": "えたじま温泉 江田島荘",
+    "shuttleInfo": "中町港から無料送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "fukue-island": {
+    "name": "五島リトリート ray by 温故知新",
+    "shuttleInfo": "五島つばき空港・福江港から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "yamanakako": {
+    "name": "ホテルマウント富士",
+    "shuttleInfo": "山中湖畔「ホテルマウント富士入口」バス停から無料送迎あり",
+    "hasShuttle": true
+  },
+  "yatsugatake": {
+    "name": "星野リゾート リゾナーレ八ヶ岳",
+    "shuttleInfo": "JR小淵沢駅から無料シャトルバスで約5分",
+    "hasShuttle": true
+  },
+  "ohara": {
+    "name": "大原温泉湯元 お宿 芹生",
+    "shuttleInfo": "大原バスターミナルから送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "kifune": {
+    "name": "京都貴船 料理旅館ひろ文",
+    "shuttleInfo": "叡山電鉄貴船口駅から送迎あり（2名以上・要予約）",
+    "hasShuttle": true
+  },
+  "ashinoko": {
+    "name": "小田急 山のホテル",
+    "shuttleInfo": "元箱根港から無料送迎バス約5分（毎時10・30・50分発）",
+    "hasShuttle": true
+  },
+  "kawaji-onsen": {
+    "name": "湯けむりの里 柏屋",
+    "shuttleInfo": "川治湯元駅から無料送迎あり（要連絡）",
+    "hasShuttle": true
+  },
+  "tamatsukuri-onsen": {
+    "name": "湯之助の宿 長楽園",
+    "shuttleInfo": "玉造温泉駅からシャトルバスあり",
+    "hasShuttle": true
+  },
+  "yubara-onsen": {
+    "name": "元禄旅籠 油屋",
+    "shuttleInfo": "湯原温泉バス停から送迎あり",
+    "hasShuttle": true
+  },
+  "boso-hills": {
+    "name": "養老温泉 秘湯の宿 滝見苑",
+    "shuttleInfo": "養老渓谷駅方面から無料送迎あり（要予約）",
+    "hasShuttle": true
+  },
+  "hayakawa": {
+    "name": "西山温泉 慶雲館",
+    "shuttleInfo": "JR身延線・身延駅から送迎バス1日1便（要事前予約）",
+    "hasShuttle": true
+  },
+  "ohara-2": {
+    "name": "大原温泉湯元 お宿 芹生",
+    "shuttleInfo": "大原バスターミナルから送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "takayama-2": {
+    "name": "本陣平野屋 花兆庵",
+    "shuttleInfo": "高山駅から無料送迎あり（随時・要連絡）",
+    "hasShuttle": true
+  },
+  "nozawa-onsen-niigata": {
+    "name": "雪国の宿 高半",
+    "shuttleInfo": "越後湯沢駅から迎えあり（到着後に連絡）",
+    "hasShuttle": true
+  },
+  "hanamaki-onsen": {
+    "name": "鉛温泉 藤三旅館",
+    "shuttleInfo": "花巻駅・新花巻駅から無料シャトルあり（要予約）",
+    "hasShuttle": true
+  },
+  "matsumoto-castle-2": {
+    "name": "松本ホテル花月",
+    "shuttleInfo": "JR松本駅から定時送迎あり（要事前予約）",
+    "hasShuttle": true
+  },
+  "kibune-kurama": {
+    "name": "京都貴船 料理旅館ひろ文",
+    "shuttleInfo": "叡山電鉄貴船口駅から送迎あり（2名以上・要予約）",
+    "hasShuttle": true
+  },
+  "kumano-kodo": {
+    "name": "霧の郷たかはら",
+    "shuttleInfo": "栗栖川・滝尻バス停まで送迎あり（要事前申込）",
+    "hasShuttle": true
+  },
+  "yufuin-2": {
+    "name": "亀の井別荘",
+    "shuttleInfo": "由布院駅から無料送迎あり（10〜16時・要予約）",
+    "hasShuttle": true
+  },
+  "kagoshima-city": {
+    "name": "城山ホテル鹿児島",
+    "shuttleInfo": "鹿児島中央駅・天文館経由の無料シャトルバスを約30分毎に運行",
+    "hasShuttle": true
+  },
+  "ibusuki-onsen": {
+    "name": "指宿白水館",
+    "shuttleInfo": "指宿駅から無料送迎あり（定時運行・予約不要）",
+    "hasShuttle": true
+  },
+  "tenkawa": {
+    "name": "宿 花屋徳兵衛",
+    "shuttleInfo": "洞川温泉バス停から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "mihama-fukui": {
+    "name": "虹岳島温泉 虹岳島荘",
+    "shuttleInfo": "JR小浜線・気山駅から送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "saiko-kawaguchi": {
+    "name": "湖山亭うぶや",
+    "shuttleInfo": "富士急行線・河口湖駅から送迎あり（駅到着時に要連絡）",
+    "hasShuttle": true
+  },
+  "naruto-uzu": {
+    "name": "アオアヲ ナルト リゾート",
+    "shuttleInfo": "JR鳴門駅・高速鳴門から無料送迎あり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "kurobe-gorge": {
+    "name": "黒部峡谷 宇奈月温泉 延楽",
+    "shuttleInfo": "宇奈月温泉駅・黒部宇奈月温泉駅から送迎あり（要連絡）",
+    "hasShuttle": true
+  },
+  "amaharashi": {
+    "name": "雨晴温泉 磯はなび",
+    "shuttleInfo": "JR氷見線・雨晴駅から無料送迎あり（要連絡）",
+    "hasShuttle": true
+  },
+  "shirahama": {
+    "name": "紀州・白浜温泉 むさし",
+    "shuttleInfo": "白浜駅から旅館組合の無料シャトルあり（迎えは予約不要）",
+    "hasShuttle": true
+  },
+  "kawayu": {
+    "name": "冨士屋",
+    "shuttleInfo": "熊野古道への無料送迎あり",
+    "hasShuttle": true
+  },
+  "itsukushima": {
+    "name": "みやじまの宿 岩惣",
+    "shuttleInfo": "宮島桟橋から送迎バスあり（当日予約）",
+    "hasShuttle": true
+  },
+  "motonosumi": {
+    "name": "大谷山荘",
+    "shuttleInfo": "JR長門湯本駅から無料送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "mt-yatsugatake": {
+    "name": "創業大正十五年 蓼科親湯温泉",
+    "shuttleInfo": "JR茅野駅東口から無料送迎バスあり（要事前予約）",
+    "hasShuttle": true
+  },
+  "iso": {
+    "name": "城山ホテル鹿児島",
+    "shuttleInfo": "鹿児島中央駅・天文館経由の無料シャトルバスを約30分毎に運行",
+    "hasShuttle": true
+  },
+  "akita-nyuto": {
+    "name": "乳頭温泉郷 鶴の湯温泉",
+    "shuttleInfo": "路線バス終点「アルパこまくさ」バス停まで送迎あり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "niigata-bandai": {
+    "name": "岩室温泉 高志の宿 高島屋",
+    "shuttleInfo": "JR岩室駅・弥彦駅から無料送迎あり（3日前までに要予約）",
+    "hasShuttle": true
+  },
+  "toyama-himi-2": {
+    "name": "延楽",
+    "shuttleInfo": "黒部宇奈月温泉駅から送迎あり（前日20時までに要予約）",
+    "hasShuttle": true
+  },
+  "niche_長野_1": {
+    "name": "湯元ホテル阿智川",
+    "shuttleInfo": "無料送迎あり（予約制）。飯田駅などから運行。時刻は公式サイトのPDFで案内",
+    "hasShuttle": true
+  },
+  "niche_奈良_2": {
+    "name": "ホテルのせ川",
+    "shuttleInfo": "南海高野線・高野山駅から宿泊者向けの送迎車あり（要予約）",
+    "hasShuttle": true
+  },
+  "fukushima": {
+    "name": "高湯温泉 旅館玉子湯",
+    "shuttleInfo": "福島駅西口から送迎バスあり（前日までに要予約）",
+    "hasShuttle": true
+  },
+  "kofu": {
+    "name": "信玄の湯 湯村温泉 常磐ホテル",
+    "shuttleInfo": "無料送迎バスあり（要事前連絡）",
+    "hasShuttle": true
+  },
+  "ubayu-onsen": {
+    "name": "桝形屋",
+    "shuttleInfo": "峠駅から送迎車あり（宿泊者のみ・要予約・約30分）",
+    "hasShuttle": true
+  },
+  "gaga-onsen": {
+    "name": "峩々温泉",
+    "shuttleInfo": null,
+    "hasShuttle": true
+  },
+  "nishiyama-yama": {
+    "name": "西山温泉 慶雲館",
+    "shuttleInfo": null,
+    "hasShuttle": true
+  },
+  "utto": {
+    "name": "打当温泉 マタギの湯",
+    "shuttleInfo": null,
+    "hasShuttle": true
+  },
+  "iojima-nagasaki": {
+    "name": "i+Land nagasaki",
+    "shuttleInfo": "長崎駅発の無料送迎バスあり（予約制）",
+    "hasShuttle": true
+  }
+}

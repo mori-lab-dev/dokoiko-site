@@ -150,6 +150,13 @@ const AUDITS = [
       '汎用トップ相当の楽天リンク': Z(count(/^\s*[1-9]\d*\s*件\s+⚠️ 汎用トップ相当/gm, o)),
       '楽天リンクが無いページ': R(num(/楽天リンクが無いページ:\s*(\d+)/, o, 0)),
       'じゃらんリンクが無いページ': R(num(/じゃらんリンクが無いページ:\s*(\d+)/, o, 0)) }) },
+  { id: 'stay-shuttle', tier: 'static', title: 'featured_stay の送迎: 「無料」が宿の公式サイトの記載と合っているか（公式で確認できていない宿の数も記録）',
+    cmd: ['node', 'scripts/auditStayShuttle.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '公式に「無料」の記載がないのに「無料」': Z(num(/公式に「無料」の記載がないのに「無料」と書いている[^:]*:\s*(\d+)件/, o)),
+      '確認の記録が無い宿の送迎の文': Z(num(/確認の記録が無い宿の送迎の文:\s*(\d+)件/, o)),
+      '公式で確認できず触っていない（旅先単位）': I(num(/公式で確認できず（触っていない）(\d+)/, o)),
+      'うち「無料」を含む': I(num(/うち「無料」を含む (\d+)/, o)) }) },
+
   { id: 'stay-links', tier: 'dist', title: '宿の検索リンク全件: ラッパー・アプリ起動・検索語の文字コード（Shift_JIS）・注目の宿・レンタカー',
     cmd: ['node', 'scripts/auditStayLinksFull.mjs', '--out', 'logs/stay_links_static.json'], exitMeansFail: true,
     parse: (o) => ({ 'ラッパー不備・素リンク': Z(num(/S1 ラッパー不備・素リンク:\s*(\d+)/, o)), 'アプリ起動の恐れ': Z(num(/S2 アプリ起動の恐れ:\s*(\d+)/, o)),

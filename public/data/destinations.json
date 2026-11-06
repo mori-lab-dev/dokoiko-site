@@ -431,7 +431,7 @@
       "catchcopy": "横山大観ゆかりの数寄屋の名宿。相模灘を望む高台に立つ",
       "jalanUrl": "https://www.jalan.net/yad326876/",
       "hasShuttle": true,
-      "shuttleInfo": "熱海駅から定時送迎あり（予約不要・13:45〜16:45）",
+      "shuttleInfo": "熱海駅から無料送迎バスあり（13:45〜16:45・30分ごと）",
       "accessStation": "熱海駅"
     },
     "travelTimeEstimated": {
@@ -952,7 +952,7 @@
       "name": "万平ホテル",
       "catchcopy": "1894年創業。ジョン・レノンも愛した軽井沢クラシックの象徴",
       "hasShuttle": true,
-      "shuttleInfo": "軽井沢駅から宿泊者送迎バスあり（要予約）",
+      "shuttleInfo": "軽井沢駅南口から無料送迎バスあり（予約制）",
       "accessStation": "軽井沢駅"
     },
     "travelTimeEstimated": {
@@ -1196,7 +1196,7 @@
       "name": "湖山亭うぶや",
       "catchcopy": "全室から富士山と河口湖。「富士見の宿」の代名詞",
       "hasShuttle": true,
-      "shuttleInfo": "河口湖駅から無料送迎バスあり",
+      "shuttleInfo": "河口湖駅から送迎あり（到着後に電話連絡）",
       "accessStation": "河口湖駅"
     },
     "travelTimeEstimated": {
@@ -1462,7 +1462,7 @@
       "name": "奈良ホテル",
       "catchcopy": "1909年創業「関西の迎賓館」。辰野金吾設計の桃山御殿風建築",
       "hasShuttle": true,
-      "shuttleInfo": "近鉄奈良駅への送迎バスあり",
+      "shuttleInfo": "JR奈良駅・近鉄奈良駅から無料シャトルバスあり",
       "accessStation": "近鉄奈良駅からタクシー約5分"
     },
     "travelTimeEstimated": {
@@ -3260,7 +3260,7 @@
       "name": "みやじまの宿 岩惣",
       "catchcopy": "安政元年創業。もみじ谷に佇むG7晩餐会場にもなった名旅館",
       "hasShuttle": true,
-      "shuttleInfo": "宮島桟橋から送迎あり（要事前連絡）",
+      "shuttleInfo": "宮島桟橋から送迎あり（当日、乗船時刻が決まったら電話）",
       "accessStation": "宮島桟橋から徒歩約15分"
     },
     "travelTimeEstimated": {
@@ -5954,8 +5954,7 @@
       "catchcopy": "明治10年創業。湯畑まで徒歩1分、白旗源泉の湯守の宿",
       "rakutenUrl": "https://travel.rakuten.co.jp/HOTEL/70807/70807.html",
       "jalanUrl": "https://www.jalan.net/yad362465/",
-      "hasShuttle": true,
-      "shuttleInfo": "草津温泉バスターミナルから送迎あり（到着後連絡）",
+      "hasShuttle": false,
       "accessStation": "長野原草津口駅からバス約25分"
     },
     "travelTimeEstimated": {
@@ -6194,7 +6193,7 @@
       "catchcopy": "蓮台寺の杜に立つ名旅館。温泉プールとテルマリウムを備える",
       "jalanUrl": "https://www.jalan.net/yad376375/",
       "hasShuttle": true,
-      "shuttleInfo": "蓮台寺駅・伊豆急下田駅から無料送迎あり（前日までに要予約）",
+      "shuttleInfo": "蓮台寺駅・伊豆急下田駅から無料送迎あり（予約時に申込）",
       "accessStation": "蓮台寺駅から徒歩約5分"
     },
     "travelTimeEstimated": {
@@ -7197,7 +7196,7 @@
       "name": "西村屋本館",
       "catchcopy": "江戸安政創業。城崎を代表する数寄屋造りの老舗",
       "hasShuttle": true,
-      "shuttleInfo": "城崎温泉駅から送迎あり（特急到着時間帯・要連絡）",
+      "shuttleInfo": "城崎温泉駅から無料送迎バスあり（要予約）",
       "accessStation": "城崎温泉駅",
       "rakutenUrl": "https://travel.rakuten.co.jp/HOTEL/75399/75399.html"
     },
@@ -9288,7 +9287,7 @@
       "catchcopy": "世界遺産の森を望むオーベルジュ型リゾートの最高峰",
       "jalanUrl": "https://www.jalan.net/yad386188/",
       "hasShuttle": true,
-      "shuttleInfo": "屋久島空港から送迎あり",
+      "shuttleInfo": "屋久島空港・安房港から無料送迎あり（要予約）",
       "accessStation": "屋久島空港"
     },
     "travelTimeEstimated": {
@@ -9981,8 +9980,7 @@
     "featured_stay": {
       "name": "角館山荘 侘桜",
       "catchcopy": "築200年の茅葺古民家を移築。全室かけ流し・野﨑洋光監修の食",
-      "hasShuttle": true,
-      "shuttleInfo": "角館駅から送迎あり（要予約）",
+      "hasShuttle": false,
       "accessStation": "角館駅から車約15分"
     },
     "imageCredit": {
@@ -14867,7 +14865,7 @@
       "hasShuttle": true,
       "accessStation": "洲本高速バスセンター",
       "jalanUrl": "https://www.jalan.net/yad322711/",
-      "shuttleInfo": "洲本高速バスセンターから送迎バスあり（要事前連絡）"
+      "shuttleInfo": "洲本高速バスセンターから送迎バスあり"
     },
     "travelTimeEstimated": {
       "wakayama": true,
@@ -18004,7 +18002,7 @@
       "hasShuttle": true,
       "accessStation": "JR大歩危駅",
       "jalanUrl": "https://www.jalan.net/yad336010/",
-      "shuttleInfo": "JR大歩危駅から無料送迎あり（1日1便・前日までに要予約）"
+      "shuttleInfo": "JR大歩危駅から送迎あり（1日1便・要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -19627,7 +19625,7 @@
       "name": "鶴の湯温泉",
       "catchcopy": "乳白色の湯と茅葺の本陣。秘湯を代表する山の一軒宿",
       "hasShuttle": true,
-      "shuttleInfo": "アルパこまくさバス停から送迎あり（要予約）",
+      "shuttleInfo": "アルパこまくさバス停から送迎あり（田沢湖駅から要電話）",
       "accessStation": "田沢湖駅から路線バス「アルパこまくさ」下車"
     },
     "travelTimeEstimated": {
@@ -20054,7 +20052,7 @@
       "catchcopy": "大正14年創業。「日本三大美肌の湯」嬉野を代表する老舗",
       "jalanUrl": "https://www.jalan.net/yad321819/",
       "hasShuttle": true,
-      "shuttleInfo": "嬉野温泉駅・嬉野バスセンターから送迎あり（2名以上）",
+      "shuttleInfo": "嬉野温泉駅から無料送迎あり（要事前予約）",
       "accessStation": "嬉野温泉駅"
     },
     "travelTimeEstimated": {
@@ -23521,7 +23519,7 @@
       "name": "湯之島館",
       "catchcopy": "昭和6年築・国登録有形文化財。5万坪の山中に佇む木造三階の名宿",
       "hasShuttle": true,
-      "shuttleInfo": "下呂駅から無料送迎あり（13:35〜17:25）",
+      "shuttleInfo": "下呂駅からシャトルバスあり（迎え13:35〜17:25）",
       "accessStation": "下呂駅"
     },
     "travelTimeEstimated": {
@@ -32043,7 +32041,7 @@
       "hasShuttle": true,
       "accessStation": "鴛泊港フェリーターミナル（車約20分）",
       "jalanUrl": "https://www.jalan.net/yad366032/",
-      "shuttleInfo": "鴛泊港・沓形港・利尻空港より無料送迎あり（前日までの予約制）"
+      "shuttleInfo": "利尻空港・鴛泊フェリーターミナルから無料送迎あり（要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -32294,7 +32292,7 @@
       "catchcopy": "阿寒湖畔を代表する鶴雅グループ本店。庭園露天と湖を望む屋上大浴場が名物。",
       "hasShuttle": true,
       "accessStation": "JR釧路駅（バス約2時間）",
-      "shuttleInfo": "札幌・千歳方面などから有料送迎バスあり（週3往復・5日前までの完全予約制）"
+      "shuttleInfo": "札幌・千歳方面から有料送迎バスあり（5日前までの完全予約制）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -32770,7 +32768,7 @@
       "hasShuttle": true,
       "accessStation": "JR千歳駅（バスで支笏湖畔へ約45分）",
       "jalanUrl": "https://www.jalan.net/yad341087/",
-      "shuttleInfo": "支笏湖畔バスターミナルより無料送迎バスあり（約15分）"
+      "shuttleInfo": "支笏湖バスターミナルから宿泊者専用の送迎バスあり（予約制）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -34602,7 +34600,7 @@
       "hasShuttle": true,
       "accessStation": "JR那須塩原駅",
       "jalanUrl": "https://www.jalan.net/yad306188/",
-      "shuttleInfo": "JR那須塩原駅から送迎バス約30分（要予約）"
+      "shuttleInfo": "那須塩原駅西口から送迎バスあり（完全予約制・14:40発）"
     },
     "imageCredit": {
       "author": "Σ64",
@@ -39210,7 +39208,7 @@
       "catchcopy": "世界遺産・温泉津の湯町に立つ、温泉津唯一の露天を持つ宿",
       "jalanUrl": "https://www.jalan.net/yad301992/",
       "hasShuttle": true,
-      "shuttleInfo": "温泉津駅から無料送迎あり（事前連絡）",
+      "shuttleInfo": "JR温泉津駅から無料送迎あり",
       "accessStation": "温泉津駅"
     },
     "travelTimeEstimated": {
@@ -53307,7 +53305,7 @@
       "hasShuttle": true,
       "accessStation": "JR播州赤穂駅",
       "jalanUrl": "https://www.jalan.net/yad313364/",
-      "shuttleInfo": "JR播州赤穂駅から無料送迎バスで約15分（前日までに要予約）"
+      "shuttleInfo": "JR播州赤穂駅南口から無料送迎バスあり（前日までに要連絡）"
     },
     "travelTimeEstimated": {
       "wakayama": true,
@@ -58948,7 +58946,7 @@
       "catchcopy": "志津川湾を望む絶景露天と鮑・蛸の海鮮会席。南三陸を代表する大型温泉宿",
       "hasShuttle": true,
       "accessStation": "BRT志津川駅",
-      "shuttleInfo": "仙台駅東口から宿泊者専用無料送迎バスあり（前日15時までに要予約）"
+      "shuttleInfo": "仙台駅から宿泊者向けの無料シャトルバスあり"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -73829,7 +73827,7 @@
       "hasShuttle": true,
       "accessStation": "JR近江八幡駅",
       "jalanUrl": "https://www.jalan.net/yad346560/",
-      "shuttleInfo": "JR近江八幡駅から送迎バス1日3便（前日までに要予約）"
+      "shuttleInfo": "JR近江八幡駅北口から無料送迎バスあり（予約制）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -84994,7 +84992,7 @@
       "catchcopy": "湯の川温泉の最高所から函館の夜景と海を望む、大人のための和風スイート宿。",
       "hasShuttle": true,
       "accessStation": "市電 湯の川温泉停留場（徒歩約3分）",
-      "shuttleInfo": "JR札幌駅より予約制送迎バスあり（有料・週3便運行）"
+      "shuttleInfo": "JR函館駅・函館空港から無料送迎あり（スイート限定・3日前まで要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -89692,7 +89690,7 @@
       "hasShuttle": true,
       "accessStation": "JR湖西線 おごと温泉駅",
       "jalanUrl": "https://www.jalan.net/yad342458/",
-      "shuttleInfo": "JRおごと温泉駅から送迎バスで約5分（要連絡）"
+      "shuttleInfo": "JRおごと温泉駅から送迎あり（到着後に電話連絡）"
     },
     "travelTimeOriginal": {
       "osaka": 20
@@ -93678,9 +93676,10 @@
     "featured_stay": {
       "name": "百名伽藍",
       "catchcopy": "神の島・久高島を望む海辺に立つ琉球様式の隠れ家リゾート",
-      "hasShuttle": false,
+      "hasShuttle": true,
       "accessStation": "那覇空港（車で約35分）",
-      "jalanUrl": "https://www.jalan.net/yad385690/"
+      "jalanUrl": "https://www.jalan.net/yad385690/",
+      "shuttleInfo": "那覇空港発のハイヤーの手配あり（有料・前日19時までに要予約）"
     },
     "imageCredit": {
       "author": "Shig ISO",
@@ -100396,7 +100395,7 @@
       "hasShuttle": true,
       "accessStation": "JRウェスパ椿山駅",
       "jalanUrl": "https://www.jalan.net/yad323694/",
-      "shuttleInfo": "ウェスパ椿山駅から送迎バスあり（要予約）"
+      "shuttleInfo": "ウェスパ椿山駅から列車に合わせて送迎バスあり（普通列車は要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -125230,7 +125229,7 @@
       "catchcopy": "中禅寺湖畔の森に建つ、金谷ホテルのリゾートホテル",
       "jalanUrl": "https://www.jalan.net/yad320110/",
       "hasShuttle": true,
-      "shuttleInfo": "東武日光駅から無料シャトルバスあり（要予約）",
+      "shuttleInfo": "東武日光駅から無料シャトルバスあり（予約不要）",
       "accessStation": "日光駅から湯元温泉行きバス約1時間、中禅寺金谷ホテル前下車"
     },
     "travelTimeEstimated": {
@@ -125450,7 +125449,7 @@
       "catchcopy": "大正12年創業。昭和天皇も訪れた御用邸と同じ湯の名宿",
       "jalanUrl": "https://www.jalan.net/yad306188/",
       "hasShuttle": true,
-      "shuttleInfo": "那須塩原駅西口から無料送迎あり（完全予約制・14:40発）",
+      "shuttleInfo": "那須塩原駅西口から送迎バスあり（完全予約制・14:40発）",
       "accessStation": "那須塩原駅"
     },
     "travelTimeEstimated": {
@@ -130697,7 +130696,7 @@
       "catchcopy": "標高1800m・日本有数の濃硫黄泉。乳白色の湯の老舗",
       "jalanUrl": "https://www.jalan.net/yad331317/",
       "hasShuttle": true,
-      "shuttleInfo": "万座バスターミナルから送迎あり（約5分）",
+      "shuttleInfo": "万座バスターミナルから到着に合わせて送迎バスあり",
       "accessStation": "万座鹿沢口駅からバス約40分"
     },
     "travelTimeEstimated": {
@@ -135923,7 +135922,7 @@
       "catchcopy": "波打ち際の黄金色露天で日本海の夕陽に浸る一軒宿",
       "jalanUrl": "https://www.jalan.net/yad323694/",
       "hasShuttle": true,
-      "shuttleInfo": "ウェスパ椿山駅から送迎あり（要予約）",
+      "shuttleInfo": "ウェスパ椿山駅から列車に合わせた送迎バスあり（約5分）",
       "accessStation": "ウェスパ椿山駅"
     },
     "travelTimeEstimated": {
@@ -137080,7 +137079,7 @@
       "catchcopy": "久安3年（1147）記録の湯治場。ブナの森に立つ一軒宿",
       "jalanUrl": "https://www.jalan.net/yad337770/",
       "hasShuttle": true,
-      "shuttleInfo": "七戸十和田駅から無料送迎あり（15時発・3日前までに要予約）",
+      "shuttleInfo": "七戸十和田駅から無料送迎あり（15・16時発・3日前までに要予約）",
       "accessStation": "七戸十和田駅"
     },
     "travelTimeEstimated": {
@@ -138213,7 +138212,7 @@
       "hasShuttle": true,
       "accessStation": "JR松本駅（タクシー・送迎バス乗継）",
       "jalanUrl": "https://www.jalan.net/yad362685/",
-      "shuttleInfo": "山本小屋など指定駐車場から送迎バスあり（冬期は山辺ワイナリー発着）"
+      "shuttleInfo": "松本駅・各駐車場から無料送迎バスあり（駅発・冬期は要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -138929,7 +138928,7 @@
       "catchcopy": "昭和13年築・木造三階の国登録有形文化財。日本三大薬湯の宿",
       "jalanUrl": "https://www.jalan.net/yad323058/",
       "hasShuttle": true,
-      "shuttleInfo": "まつだい駅から送迎あり（15:21発の1便・要予約）",
+      "shuttleInfo": "まつだい駅から送迎あり（15:21着の電車に合わせた1便・要事前相談）",
       "accessStation": "まつだい駅"
     },
     "travelTimeEstimated": {
@@ -139661,7 +139660,7 @@
       "catchcopy": "明治2年創業。四季の庭園と源泉かけ流しの老舗",
       "jalanUrl": "https://www.jalan.net/yad300539/",
       "hasShuttle": true,
-      "shuttleInfo": "最寄駅・バス停から無料送迎あり（2名以上）",
+      "shuttleInfo": "十和田南駅・高速けまないバス停から無料送迎あり（予約制・原則2名以上）",
       "accessStation": "鹿角花輪駅からバス"
     },
     "travelTimeEstimated": {
@@ -139900,7 +139899,7 @@
       "catchcopy": "延べ470畳の大露天風呂。渓流沿いの秘湯一軒宿",
       "jalanUrl": "https://www.jalan.net/yad312746/",
       "hasShuttle": true,
-      "shuttleInfo": "水上駅から送迎バスあり（約35分）",
+      "shuttleInfo": "上毛高原駅・水上駅から無料送迎あり（要予約）",
       "accessStation": "水上駅"
     },
     "travelTimeEstimated": {
@@ -142705,7 +142704,7 @@
       "catchcopy": "大川渓谷沿い全12室。全室に源泉かけ流しの湯を備える隠れ宿",
       "jalanUrl": "https://www.jalan.net/yad318536/",
       "hasShuttle": true,
-      "shuttleInfo": "新白河駅から無料送迎バスあり（1日1本・約1時間）",
+      "shuttleInfo": "新白河駅から無料送迎バスあり（前日までに要予約）",
       "accessStation": "湯野上温泉駅から徒歩約7分"
     },
     "travelTimeEstimated": {
@@ -145547,7 +145546,7 @@
       "hasShuttle": true,
       "accessStation": "JR大沼公園駅（送迎バス約10分）",
       "jalanUrl": "https://www.jalan.net/yad309788/",
-      "shuttleInfo": "JR大沼公園駅・JR函館駅・函館空港より無料シャトルバスあり（事前予約制）"
+      "shuttleInfo": "函館駅・函館空港から無料シャトルバスあり（宿泊者限定）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -146824,7 +146823,7 @@
       "catchcopy": "与謝野晶子や川端康成が愛した黒部峡谷を望む老舗",
       "jalanUrl": "https://www.jalan.net/yad355206/",
       "hasShuttle": true,
-      "shuttleInfo": "新幹線駅から送迎あり（前日までの予約制）",
+      "shuttleInfo": "宇奈月温泉駅・宇奈月駅・黒部宇奈月温泉駅から無料送迎あり（要予約）",
       "accessStation": "宇奈月温泉駅から徒歩約5分"
     },
     "travelTimeEstimated": {
@@ -163865,7 +163864,7 @@
       "hasShuttle": true,
       "accessStation": "那覇空港（車約35分）",
       "jalanUrl": "https://www.jalan.net/yad385690/",
-      "shuttleInfo": "有料送迎あり（要予約）"
+      "shuttleInfo": "那覇空港発のハイヤーの手配あり（有料・前日19時までに要予約）"
     },
     "travelTimeEstimated": {
       "wakayama": true,
@@ -164767,7 +164766,7 @@
       "catchcopy": "総ヒバ造り千人風呂で名高い、三百年余の歴史を刻む八甲田山中の一軒宿",
       "hasShuttle": true,
       "accessStation": "JR新青森駅",
-      "shuttleInfo": "新青森駅から宿泊者専用無料送迎バスあり（前日までに要予約）"
+      "shuttleInfo": "新青森駅から宿泊者専用の無料送迎バスあり（要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -165830,7 +165829,7 @@
       "officialUrl": "https://www.hotelyoshizato.com/",
       "bookingNote": "予約は電話のみ（0980-22-2511・8:00〜20:00）",
       "hasShuttle": true,
-      "shuttleInfo": "港から無料送迎あり（公式記載・所要約8分）",
+      "shuttleInfo": "南大東島に着いたら無料の送迎車あり（約8分）",
       "accessStation": "南大東空港から車で約10分"
     },
     "seo": {
@@ -170325,10 +170324,9 @@
     "featured_stay": {
       "name": "五島リトリート ray by 温故知新",
       "catchcopy": "全26室露天付きオーシャンフロント。ミシュランキーの島リトリート",
-      "hasShuttle": true,
+      "hasShuttle": false,
       "accessStation": "福江港",
-      "jalanUrl": "https://www.jalan.net/yad303895/",
-      "shuttleInfo": "五島つばき空港・福江港から無料送迎あり（要予約）"
+      "jalanUrl": "https://www.jalan.net/yad303895/"
     }
   },
   {
@@ -176847,7 +176845,7 @@
       "hasShuttle": true,
       "accessStation": "JR身延線・身延駅",
       "jalanUrl": "https://www.jalan.net/yad321825/",
-      "shuttleInfo": "JR身延線・身延駅から送迎バス1日1便（要事前予約）"
+      "shuttleInfo": "身延駅前から送迎バスあり（13:40頃発・要予約）"
     },
     "imageCredit": {
       "author": "Triglav",
@@ -182423,7 +182421,7 @@
       "catchcopy": "約1000坪の「元禄風呂」と砂むし温泉。薩摩の迎賓の宿",
       "jalanUrl": "https://www.jalan.net/yad357348/",
       "hasShuttle": true,
-      "shuttleInfo": "指宿駅から無料送迎あり（定時運行・予約不要）",
+      "shuttleInfo": "指宿駅から無料送迎バスあり（指宿駅発15:15・白水館発9:00/10:10）",
       "accessStation": "指宿駅"
     },
     "seo": {
@@ -184128,7 +184126,7 @@
       "hasShuttle": true,
       "accessStation": "近鉄下市口駅からバス「洞川温泉」バス停",
       "jalanUrl": "https://www.jalan.net/yad343142/",
-      "shuttleInfo": "洞川温泉バス停から送迎あり（要事前連絡）"
+      "shuttleInfo": "洞川温泉バス停へ連絡すると迎えに来てくれる"
     },
     "imageCredit": {
       "author": "Tamago Moffle",
@@ -186208,7 +186206,7 @@
       "hasShuttle": true,
       "accessStation": "富士急行線・河口湖駅",
       "jalanUrl": "https://www.jalan.net/yad310215/",
-      "shuttleInfo": "富士急行線・河口湖駅から送迎あり（駅到着時に要連絡）"
+      "shuttleInfo": "河口湖駅から送迎あり（到着後に電話連絡）"
     },
     "imageCredit": {
       "author": "Alpsdake",
@@ -192060,7 +192058,7 @@
       "hasShuttle": true,
       "accessStation": "宮島桟橋",
       "jalanUrl": "https://www.jalan.net/yad360646/",
-      "shuttleInfo": "宮島桟橋から送迎バスあり（当日予約）"
+      "shuttleInfo": "宮島桟橋から送迎あり（当日、乗船時刻が決まったら電話）"
     },
     "seo": {
       "description": "広島県廿日市市の宮島に鎮座する、世界遺産の海上社殿だ。潮の満ち引きで表情が変わるのが最大の特徴で、干潮時には大鳥居の根元まで歩いて近づき、400年以上の風雨を受けた木肌を間近に確認できる。",
@@ -226784,7 +226782,7 @@
       "catchcopy": "明治元年創業、茅葺の湯小屋に乳白色の硫黄泉が湧く高湯温泉の老舗湯宿",
       "hasShuttle": true,
       "accessStation": "JR福島駅",
-      "shuttleInfo": "福島駅西口から送迎バスあり（前日までに要予約）"
+      "shuttleInfo": "福島駅西口から送迎バスあり（要予約・14:30発）"
     },
     "travelTimeEstimated": {
       "wakayama": true,
@@ -234515,7 +234513,8 @@
       "name": "峩々温泉",
       "catchcopy": "蔵王の山中に一軒だけ。浸かる・かける・飲むの三拍子で知られる胃腸の名湯",
       "hasShuttle": true,
-      "accessStation": "JR白石蔵王駅"
+      "accessStation": "JR白石蔵王駅",
+      "shuttleInfo": "メルキュール宮城蔵王から送迎あり（1日1往復・完全予約制）"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -235730,7 +235729,8 @@
       "name": "西山温泉 慶雲館",
       "catchcopy": "西暦七〇五年創業、ギネス認定の世界最古の宿。全館が源泉かけ流し",
       "hasShuttle": true,
-      "accessStation": "JR身延駅"
+      "accessStation": "JR身延駅",
+      "shuttleInfo": "身延駅前から送迎バスあり（13:40頃発・要予約）"
     },
     "travelTimeEstimated": {
       "mito": true,
