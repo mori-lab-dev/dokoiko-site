@@ -42,10 +42,12 @@ for (const v of ver.filter((x) => x.corrected)) {
 }
 console.log(`直した文が出ている: ${fixed}/${fixedN}`);
 let metaOk = 0;
+// 期待値は、その後の修正（宿の送迎の文の点検など）を含む現在のデータ。作り直した時点の値(now)と違えば現在のデータを正とする
+const curSeo = new Map(JSON.parse(fs.readFileSync(path.join(root, 'src/data/destinations.json'), 'utf8')).map((x) => [x.id, x.seo?.description]));
 for (const m of metas) {
   const p = await page(m.id);
   const d = dec(p.text.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '').trim();
-  if (d === m.now) metaOk++; else bad.push(`${m.id}: meta が違う`);
+  if (d === (curSeo.get(m.id) ?? m.now)) metaOk++; else bad.push(`${m.id}: meta が違う`);
 }
 console.log(`メタ description が本番に反映: ${metaOk}/${metas.length}`);
 console.log(bad.length ? `❌ ${bad.length}件\n` + bad.slice(0, 20).join('\n') : '✅ 本番で実測OK');

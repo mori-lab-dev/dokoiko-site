@@ -1,4 +1,4 @@
-// 東北の秘湯 2件の本番実測（2026-11-06）: ページが200、title・meta description・canonical・車なしの項目数・sitemap掲載・ハブへの掲載。
+// 東北の秘湯 2件の本番実測（2026-11-06）: ページが200、title・meta description・canonical・車なしの項目数・sitemap掲載。
 //   node scripts/verifyTohokuHitouLive.mjs [--wait]
 import fs from 'fs';
 import path from 'path';
@@ -24,7 +24,7 @@ async function run() {
     if (!sm.includes(`<loc>${url}</loc>`)) ng.push('sitemapに無い');
     res.push([id, ng]);
   }
-  const hub = await get('https://tabidokoiko.com/hub/sendai/'); if (!hub.text.includes('中ノ沢温泉')) res.push(['hub/sendai', ['ハブに載っていない']]);
+  // ハブの時間帯別の一覧は各8件までの表示なので、ハブに載るかは実測の対象にしない
   return res;
 }
 let res;

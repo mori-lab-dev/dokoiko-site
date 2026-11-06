@@ -28,4 +28,9 @@ for (let i = 0; i < (wait ? 20 : 1); i++) { r = await run(); if (!r.ngNew.length
 console.log(`変更 ${r.n}件: 新しい文が出ている ${r.okNew}/${ch.filter((c) => c.to).length} / 古い文が消えている ${r.okOld}/${ch.filter((c) => c.from && c.from !== c.to).length}`);
 if (r.ngNew.length) console.log('新しい文が出ない: ' + r.ngNew.join(', '));
 if (r.ngOld.length) console.log('古い文が残る: ' + r.ngOld.join(', '));
-process.exit(r.ngNew.length || r.ngOld.length ? 1 : 0);
+// 本文(description)の送迎の文の修正
+const de = JSON.parse(fs.readFileSync(path.join(root, 'backup/stay_shuttle_20261106/description_edits.json'), 'utf8'));
+let dOk = 0; const dNg = [];
+for (const e of de) { const h = await get(e.id); if (h.includes(esc(e.to)) && !h.includes(esc(e.from))) dOk++; else dNg.push(e.id); }
+console.log(`本文の送迎の文 ${de.length}件: 新しい文が出て古い文が消えている ${dOk}/${de.length}${dNg.length ? ' NG: ' + dNg.join(', ') : ''}`);
+process.exit(r.ngNew.length || r.ngOld.length || dNg.length ? 1 : 0);
