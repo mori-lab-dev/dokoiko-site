@@ -46,7 +46,9 @@ const AUDITS = [
   { id: 'desc', tier: 'static', title: 'description が新基準（禁止句・五感・数値・文長・字数）を満たすか',
     cmd: ['node', 'scripts/descStyleCheck.mjs'],
     parse: (o) => { const p = num(/通過\s*(\d+)\s*\/\s*\d+/, o), t = num(/通過\s*\d+\s*\/\s*(\d+)/, o);
-      return { '基準に落ちる件数': R(p == null ? null : t - p), '全件数': I(t) }; } },
+      return { '基準に落ちる件数': R(p == null ? null : t - p), '全件数': I(t),
+        '所要時間の文を除くと数値2つ未満（参考）': I(num(/除くと数値が2つ未満（参考・合否に使わない）:\s*(\d+)/, o)),
+        '所要時間の文を削除済み（条件を外した件数）': I(num(/条件を適用しない:\s*(\d+)/, o)) }; } },
   { id: 'seo', tier: 'static', title: 'メタ description・タグ・ヒーロー alt の欠落と重複',
     cmd: ['node', 'scripts/auditSeoLinks.mjs'],
     parse: (o) => { let j; try { j = JSON.parse(o.slice(o.indexOf('{'), o.lastIndexOf('}') + 1)); } catch { return {}; }
@@ -105,6 +107,14 @@ const AUDITS = [
       '禁止句・推測表現': Z(num(/禁止句・推測表現:\s*(\d+)件/, o)),
       '長さ超過': Z(num(/長さ超過[^:]*:\s*(\d+)件/, o)),
       'description に改行': Z(num(/description に改行:\s*(\d+)件/, o)) }) },
+
+  { id: 'travel-time', tier: 'dist', title: 'travelTime が最短値を下回らないか・見積もりの値に「目安」が付いているか・疑わしい所要時間の文が残っていないか',
+    cmd: ['node', 'scripts/auditTravelTime.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '最短値を1.25倍以上下回る組': Z(num(/下回る組:\s*(\d+)件/, o)),
+      'travelTimeEstimated の付け忘れ': Z(num(/付け忘れ:\s*(\d+)件/, o)),
+      'ハブページの「目安」の欠け': Z(num(/「目安」の欠け:\s*(\d+)件/, o)),
+      'description に残る疑わしい所要時間の文': Z(num(/残る疑わしい所要時間の文:\s*(\d+)件/, o)),
+      '最短値をわずかに下回る組（参考）': I(num(/（1\.0〜1\.25倍・触っていない）:\s*(\d+)件/, o)) }) },
 
   { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',
     cmd: ['node', 'scripts/auditStructuredData.mjs'], exitMeansFail: true,

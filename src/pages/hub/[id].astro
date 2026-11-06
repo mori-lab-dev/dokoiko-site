@@ -42,6 +42,7 @@ const hubDests = (destinations as any[])
     return {
       ...d,
       _tt: tt,
+      _est: !!((d.travelTimeEstimated || {})[ttKey]),   // 見積もりの値（式で作った出発地・最短値に補正した組）。画面では「目安」を付ける
       _isHub: isExplicitHub,
     };
   })
@@ -83,6 +84,8 @@ const themeSections = THEMES.map(t => ({
 const zone1 = hubDests.filter((d: any) => d._tt > 0 && d._tt <= 60);
 const zone2 = hubDests.filter((d: any) => d._tt > 60 && d._tt <= 120);
 const zone3 = hubDests.filter((d: any) => d._tt > 120 && d._tt <= 180);
+const zoneEst = (z: any[]) => z.some((d: any) => d._est);
+const anyZoneEst = zoneEst(zone1) || zoneEst(zone2) || zoneEst(zone3);
 
 // === 5. 季節おすすめ ===
 const SEASON_TAGS: Record<string, string[]> = {
@@ -252,6 +255,8 @@ const jsonLd = JSON.stringify({
     .h-card-img-wrap { position: relative; height: 100px; background: #f0f0f0; }
     .h-card-img { width: 100%; height: 100%; object-fit: cover; display: block; }
     .h-card-body { padding: 10px 12px 14px; }
+    .h-est-note { font-size: 12px; color: #6b6b6b; margin: -4px 0 16px; }
+    .h-card-est { margin-left: 6px; font-size: 10px; font-weight: 400; color: #7a6a3a; background: #f3ecd6; border-radius: 3px; padding: 1px 5px; vertical-align: 1px; }
     .h-card-name { font-size: 13px; font-weight: 500; color: #1a1a1a; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .h-card-meta { font-size: 10px; color: #999; letter-spacing: 0.04em; }
     .h-card-time { color: #C9A84C; font-size: 10px; margin-top: 4px; }
@@ -431,17 +436,18 @@ const jsonLd = JSON.stringify({
       <section class="section" style="margin-top:48px;">
         <p class="section-eyebrow">By Distance</p>
         <h2 class="section-title">所要時間で選ぶ</h2>
+        {anyZoneEst && <p class="h-est-note">「目安」の付いた旅先は、所要時間を見積もった値です。実際の所要時間は経路検索でご確認ください。</p>}
 
         {zone1.length > 0 && (
           <div style="margin-bottom:24px;">
-            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">〜60分</h3>
+            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">〜60分{zoneEst(zone1) && '（目安）'}</h3>
             <div class="h-scroll">
               {zone1.slice(0, 8).map((d: any) => {
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
                     <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
-                    <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
+                    <div class="h-card-body"><div class="h-card-name">{d.name}{d._est && <span class="h-card-est">目安</span>}</div></div>
                   </a>
                 );
               })}
@@ -450,14 +456,14 @@ const jsonLd = JSON.stringify({
         )}
         {zone2.length > 0 && (
           <div style="margin-bottom:24px;">
-            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">1〜2時間</h3>
+            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">1〜2時間{zoneEst(zone2) && '（目安）'}</h3>
             <div class="h-scroll">
               {zone2.slice(0, 8).map((d: any) => {
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
                     <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
-                    <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
+                    <div class="h-card-body"><div class="h-card-name">{d.name}{d._est && <span class="h-card-est">目安</span>}</div></div>
                   </a>
                 );
               })}
@@ -466,14 +472,14 @@ const jsonLd = JSON.stringify({
         )}
         {zone3.length > 0 && (
           <div>
-            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">2〜3時間</h3>
+            <h3 style="font-size:14px;color:#2A6049;margin-bottom:10px;">2〜3時間{zoneEst(zone3) && '（目安）'}</h3>
             <div class="h-scroll">
               {zone3.slice(0, 8).map((d: any) => {
                 const img = destImageUrl(d);
                 return (
                   <a href={`/destinations/${d.id}/`} class="h-card">
                     <div class="h-card-img-wrap">{img && <img class="h-card-img" src={img} {...dimAttrs(img)} alt={d.name} loading="lazy" />}</div>
-                    <div class="h-card-body"><div class="h-card-name">{d.name}</div></div>
+                    <div class="h-card-body"><div class="h-card-name">{d.name}{d._est && <span class="h-card-est">目安</span>}</div></div>
                   </a>
                 );
               })}

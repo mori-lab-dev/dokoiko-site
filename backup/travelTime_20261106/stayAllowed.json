@@ -1,0 +1,4530 @@
+{
+  "kamakura": [
+    "daytrip",
+    "1night"
+  ],
+  "atami": [
+    "daytrip",
+    "1night"
+  ],
+  "nikko": [
+    "daytrip",
+    "1night"
+  ],
+  "karuizawa": [
+    "1night"
+  ],
+  "fujikawaguchiko": [
+    "1night"
+  ],
+  "nara": [
+    "daytrip",
+    "1night"
+  ],
+  "ishigaki": [
+    "1night"
+  ],
+  "ise": [
+    "daytrip",
+    "1night"
+  ],
+  "beppu": [
+    "1night"
+  ],
+  "otaru": [
+    "daytrip",
+    "1night"
+  ],
+  "furano": [
+    "1night"
+  ],
+  "matsushima": [
+    "daytrip",
+    "1night"
+  ],
+  "miyajima": [
+    "daytrip",
+    "1night"
+  ],
+  "onomichi": [
+    "daytrip",
+    "1night"
+  ],
+  "shodoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "mihonoseki": [
+    "2night"
+  ],
+  "ryujin-onsen": [
+    "1night"
+  ],
+  "tokashiki-jima": [
+    "daytrip",
+    "1night"
+  ],
+  "kumejima": [
+    "daytrip",
+    "1night"
+  ],
+  "miyakojima": [
+    "1night"
+  ],
+  "kouzushima": [
+    "1night"
+  ],
+  "hakone": [
+    "daytrip",
+    "1night"
+  ],
+  "shuzenji": [
+    "1night"
+  ],
+  "kusatsu-onsen": [
+    "1night"
+  ],
+  "shimoda": [
+    "2night"
+  ],
+  "izu-oshima": [
+    "daytrip",
+    "1night"
+  ],
+  "shirakawago-t": [
+    "1night"
+  ],
+  "arima-onsen": [
+    "1night"
+  ],
+  "kinosaki-onsen": [
+    "1night"
+  ],
+  "kurashiki-o": [
+    "daytrip",
+    "1night"
+  ],
+  "shirahama-o": [
+    "1night"
+  ],
+  "takayama-o": [
+    "2night"
+  ],
+  "toba": [
+    "1night"
+  ],
+  "yufuin": [
+    "1night"
+  ],
+  "kurokawa-k": [
+    "1night"
+  ],
+  "aso": [
+    "daytrip",
+    "1night"
+  ],
+  "yakushima": [
+    "1night"
+  ],
+  "amakusa": [
+    "1night"
+  ],
+  "hiraizumi": [
+    "daytrip",
+    "1night"
+  ],
+  "kakunodate": [
+    "2night"
+  ],
+  "aizu": [
+    "1night"
+  ],
+  "zaosan": [
+    "1night"
+  ],
+  "hagi": [
+    "1night"
+  ],
+  "shimonoseki": [
+    "daytrip",
+    "2night"
+  ],
+  "naoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "kotohira": [
+    "daytrip",
+    "1night"
+  ],
+  "uwajima": [
+    "2night"
+  ],
+  "toyako": [
+    "1night"
+  ],
+  "noboribetsu": [
+    "daytrip",
+    "1night"
+  ],
+  "shiretoko": [
+    "2night"
+  ],
+  "wajima": [
+    "1night"
+  ],
+  "kaga-onsen": [
+    "1night"
+  ],
+  "hakuba": [
+    "1night"
+  ],
+  "amanohashidate": [
+    "daytrip",
+    "1night"
+  ],
+  "ine": [
+    "1night"
+  ],
+  "ibusuki": [
+    "1night"
+  ],
+  "sasebo": [
+    "daytrip",
+    "1night"
+  ],
+  "hirado": [
+    "1night"
+  ],
+  "tottori": [
+    "2night"
+  ],
+  "akita": [
+    "daytrip",
+    "1night"
+  ],
+  "awaji": [
+    "daytrip",
+    "1night"
+  ],
+  "takao": [
+    "daytrip"
+  ],
+  "tateyama-chiba": [
+    "daytrip",
+    "1night"
+  ],
+  "gokayama": [
+    "1night"
+  ],
+  "jozankei": [
+    "1night"
+  ],
+  "biei": [
+    "daytrip",
+    "1night"
+  ],
+  "miyako-iwate": [
+    "1night"
+  ],
+  "sakata": [
+    "1night"
+  ],
+  "takachiho": [
+    "1night"
+  ],
+  "amami": [
+    "1night"
+  ],
+  "goto": [
+    "1night"
+  ],
+  "unzen": [
+    "1night"
+  ],
+  "ashizuri": [
+    "1night"
+  ],
+  "oboke": [
+    "2night"
+  ],
+  "tsuwano": [
+    "daytrip",
+    "1night"
+  ],
+  "inuyama": [
+    "daytrip",
+    "1night"
+  ],
+  "kiso": [
+    "daytrip",
+    "1night"
+  ],
+  "miyama": [
+    "daytrip",
+    "1night"
+  ],
+  "tateyama-kurobe": [
+    "1night"
+  ],
+  "himi": [
+    "1night"
+  ],
+  "nyuto-onsen": [
+    "1night"
+  ],
+  "yuda-onsen": [
+    "1night"
+  ],
+  "ureshino-onsen": [
+    "1night"
+  ],
+  "obuse": [
+    "daytrip",
+    "1night"
+  ],
+  "uchiko": [
+    "2night"
+  ],
+  "muroto": [
+    "1night"
+  ],
+  "iya": [
+    "1night"
+  ],
+  "oku-izumo": [
+    "daytrip",
+    "1night"
+  ],
+  "ginzan-onsen": [
+    "2night"
+  ],
+  "ouchi-juku": [
+    "2night"
+  ],
+  "nozawa-onsen": [
+    "1night"
+  ],
+  "takehara": [
+    "daytrip",
+    "1night"
+  ],
+  "tsumago": [
+    "2night"
+  ],
+  "magome": [
+    "daytrip",
+    "1night"
+  ],
+  "nagahama": [
+    "daytrip",
+    "1night"
+  ],
+  "hikone": [
+    "daytrip",
+    "1night"
+  ],
+  "koyasan": [
+    "1night"
+  ],
+  "gero-onsen": [
+    "2night"
+  ],
+  "naruko-onsen": [
+    "2night"
+  ],
+  "shima-onsen": [
+    "1night"
+  ],
+  "hirosaki": [
+    "daytrip",
+    "1night"
+  ],
+  "oirase": [
+    "daytrip",
+    "1night"
+  ],
+  "mashiko": [
+    "daytrip",
+    "1night"
+  ],
+  "bessho-onsen": [
+    "daytrip",
+    "1night"
+  ],
+  "izushi": [
+    "2night"
+  ],
+  "wakura-onsen": [
+    "1night"
+  ],
+  "misasa-onsen": [
+    "2night"
+  ],
+  "obi": [
+    "1night"
+  ],
+  "hitoyoshi": [
+    "daytrip",
+    "1night"
+  ],
+  "kamikochi": [
+    "1night"
+  ],
+  "minakami-onsen": [
+    "1night"
+  ],
+  "minami-aso": [
+    "daytrip",
+    "1night"
+  ],
+  "imabari": [
+    "daytrip",
+    "2night"
+  ],
+  "ozu": [
+    "2night"
+  ],
+  "shakotan": [
+    "1night"
+  ],
+  "izumo": [
+    "daytrip",
+    "1night"
+  ],
+  "suzu": [
+    "1night",
+    "2night"
+  ],
+  "yoshino": [
+    "2night"
+  ],
+  "iriomote": [
+    "1night"
+  ],
+  "takahashi": [
+    "1night"
+  ],
+  "hida-furukawa": [
+    "2night"
+  ],
+  "bungo-takada": [
+    "2night"
+  ],
+  "izu-kogen": [
+    "2night"
+  ],
+  "tanabe": [
+    "2night"
+  ],
+  "tosa-shimizu": [
+    "1night"
+  ],
+  "nichinan": [
+    "2night"
+  ],
+  "mojiko": [
+    "daytrip",
+    "1night"
+  ],
+  "itoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "shimabara": [
+    "1night"
+  ],
+  "tsuruga": [
+    "daytrip",
+    "1night"
+  ],
+  "sounkyo": [
+    "1night",
+    "2night"
+  ],
+  "rebun-island": [
+    "2night",
+    "3night+"
+  ],
+  "rishiri-island": [
+    "1night",
+    "2night"
+  ],
+  "akan": [
+    "1night",
+    "2night"
+  ],
+  "abashiri": [
+    "1night",
+    "2night"
+  ],
+  "shikotsu": [
+    "daytrip",
+    "1night"
+  ],
+  "tono": [
+    "1night"
+  ],
+  "oga": [
+    "1night"
+  ],
+  "yonezawa": [
+    "1night"
+  ],
+  "dewa-sanzan": [
+    "1night",
+    "2night"
+  ],
+  "sakunami-onsen": [
+    "1night"
+  ],
+  "goshogawara": [
+    "1night"
+  ],
+  "kawagoe": [
+    "daytrip",
+    "1night"
+  ],
+  "nasu": [
+    "1night",
+    "2night"
+  ],
+  "choshi": [
+    "1night"
+  ],
+  "ashikaga": [
+    "daytrip",
+    "1night"
+  ],
+  "shiobara-onsen": [
+    "1night"
+  ],
+  "sado-island": [
+    "1night",
+    "2night"
+  ],
+  "kiyosato": [
+    "1night",
+    "2night"
+  ],
+  "tenryu-gorge": [
+    "1night"
+  ],
+  "suwa": [
+    "1night"
+  ],
+  "eiheiji": [
+    "1night"
+  ],
+  "wakasa-obama": [
+    "1night"
+  ],
+  "okuhida-onsen": [
+    "1night",
+    "2night"
+  ],
+  "minami-izu": [
+    "1night",
+    "2night"
+  ],
+  "echizen": [
+    "1night"
+  ],
+  "ito": [
+    "daytrip",
+    "1night"
+  ],
+  "iga": [
+    "daytrip",
+    "1night"
+  ],
+  "kashihara": [
+    "daytrip",
+    "1night"
+  ],
+  "totsukawa": [
+    "1night",
+    "2night"
+  ],
+  "maizuru": [
+    "1night"
+  ],
+  "asuka": [
+    "2night"
+  ],
+  "daisen": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "yunotsu-onsen": [
+    "1night"
+  ],
+  "iwami-ginzan": [
+    "1night"
+  ],
+  "iwakuni": [
+    "daytrip",
+    "1night"
+  ],
+  "kurayoshi": [
+    "daytrip",
+    "1night"
+  ],
+  "suo-oshima": [
+    "1night",
+    "2night"
+  ],
+  "shimanto": [
+    "1night",
+    "2night"
+  ],
+  "kashiwajima": [
+    "1night",
+    "2night"
+  ],
+  "saijo": [
+    "daytrip",
+    "1night"
+  ],
+  "ainan": [
+    "1night",
+    "2night"
+  ],
+  "taketa": [
+    "1night"
+  ],
+  "usuki": [
+    "daytrip",
+    "1night"
+  ],
+  "hita": [
+    "1night"
+  ],
+  "hasami": [
+    "daytrip",
+    "1night"
+  ],
+  "takeo-onsen": [
+    "1night"
+  ],
+  "kitsuki": [
+    "daytrip",
+    "1night"
+  ],
+  "tsushima": [
+    "1night",
+    "2night"
+  ],
+  "iki-island": [
+    "1night",
+    "2night"
+  ],
+  "tanegashima": [
+    "1night",
+    "2night"
+  ],
+  "kikuchi": [
+    "1night"
+  ],
+  "taketomi-island": [
+    "1night",
+    "2night"
+  ],
+  "yonaguni-island": [
+    "2night"
+  ],
+  "nakijin": [
+    "daytrip",
+    "1night"
+  ],
+  "motobu": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "zamami-island": [
+    "1night",
+    "2night"
+  ],
+  "ie-island": [
+    "1night"
+  ],
+  "kohama-island": [
+    "1night",
+    "2night"
+  ],
+  "matsushiro": [
+    "daytrip",
+    "1night"
+  ],
+  "iiyama": [
+    "1night"
+  ],
+  "yakake": [
+    "daytrip",
+    "1night"
+  ],
+  "tsuyama": [
+    "daytrip",
+    "1night"
+  ],
+  "tsurugi-san": [
+    "1night",
+    "2night"
+  ],
+  "nobeoka": [
+    "1night"
+  ],
+  "kamaishi": [
+    "1night"
+  ],
+  "ofunato": [
+    "1night"
+  ],
+  "kuji": [
+    "1night"
+  ],
+  "wakkanai": [
+    "1night",
+    "2night"
+  ],
+  "obihiro": [
+    "1night",
+    "2night"
+  ],
+  "rausu": [
+    "1night",
+    "2night"
+  ],
+  "esashi-hokkaido": [
+    "daytrip",
+    "1night"
+  ],
+  "hanamaki": [
+    "daytrip",
+    "1night"
+  ],
+  "hachimantai": [
+    "1night",
+    "2night"
+  ],
+  "tazawako": [
+    "1night"
+  ],
+  "yamadera": [
+    "daytrip",
+    "1night"
+  ],
+  "kesennuma": [
+    "1night"
+  ],
+  "ikaho": [
+    "1night"
+  ],
+  "enoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "chichibu": [
+    "daytrip",
+    "1night"
+  ],
+  "oarai": [
+    "daytrip",
+    "1night"
+  ],
+  "sano": [
+    "daytrip"
+  ],
+  "gujo-hachiman": [
+    "daytrip",
+    "1night"
+  ],
+  "narai-juku": [
+    "daytrip",
+    "1night"
+  ],
+  "itoigawa": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "murakami": [
+    "daytrip",
+    "1night"
+  ],
+  "shima": [
+    "1night",
+    "2night"
+  ],
+  "ogaki": [
+    "daytrip",
+    "1night"
+  ],
+  "echizen-kaigan": [
+    "1night"
+  ],
+  "myoko-kogen": [
+    "1night",
+    "2night"
+  ],
+  "nagaoka": [
+    "daytrip",
+    "1night"
+  ],
+  "tanba-sasayama": [
+    "daytrip",
+    "1night"
+  ],
+  "nachikatsuura": [
+    "2night"
+  ],
+  "kumano-hongu": [
+    "2night"
+  ],
+  "ako": [
+    "daytrip",
+    "1night"
+  ],
+  "fushimi": [
+    "daytrip",
+    "1night"
+  ],
+  "tomonoura": [
+    "daytrip",
+    "1night"
+  ],
+  "sakaiminato": [
+    "daytrip",
+    "1night"
+  ],
+  "ushimado": [
+    "2night"
+  ],
+  "kasaoka": [
+    "daytrip",
+    "1night"
+  ],
+  "tsunoshima": [
+    "1night"
+  ],
+  "marugame": [
+    "daytrip",
+    "1night"
+  ],
+  "misaki-sadamisaki": [
+    "1night"
+  ],
+  "yanagawa": [
+    "daytrip",
+    "1night"
+  ],
+  "hyuga": [
+    "daytrip",
+    "1night"
+  ],
+  "koshikijima": [
+    "1night",
+    "2night"
+  ],
+  "kirishima": [
+    "1night",
+    "2night"
+  ],
+  "ebino-kogen": [
+    "1night"
+  ],
+  "onna": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "nago": [
+    "1night",
+    "2night"
+  ],
+  "yomitanson": [
+    "1night",
+    "2night"
+  ],
+  "niseko": [
+    "2night"
+  ],
+  "daisetsuzan": [
+    "1night",
+    "2night"
+  ],
+  "shiraoi": [
+    "daytrip",
+    "1night"
+  ],
+  "tomamu": [
+    "1night",
+    "2night"
+  ],
+  "towada": [
+    "daytrip",
+    "1night"
+  ],
+  "osorezan": [
+    "daytrip",
+    "1night"
+  ],
+  "urabandai": [
+    "1night",
+    "2night"
+  ],
+  "minami-sanriku": [
+    "1night"
+  ],
+  "kitakami": [
+    "daytrip",
+    "1night"
+  ],
+  "kinugawa-onsen": [
+    "1night",
+    "2night"
+  ],
+  "oze": [
+    "1night",
+    "2night"
+  ],
+  "tsukuba": [
+    "daytrip",
+    "1night"
+  ],
+  "kasama": [
+    "daytrip",
+    "1night"
+  ],
+  "naritasan": [
+    "daytrip",
+    "1night"
+  ],
+  "kujukuri": [
+    "daytrip",
+    "1night"
+  ],
+  "miura": [
+    "daytrip",
+    "1night"
+  ],
+  "oku-tama": [
+    "daytrip",
+    "1night"
+  ],
+  "jigokudani": [
+    "1night"
+  ],
+  "tateshina": [
+    "1night",
+    "2night"
+  ],
+  "echigo-yuzawa": [
+    "1night",
+    "2night"
+  ],
+  "fujinomiya": [
+    "daytrip",
+    "1night"
+  ],
+  "norikura": [
+    "2night"
+  ],
+  "tokoname": [
+    "daytrip",
+    "1night"
+  ],
+  "korankei": [
+    "daytrip",
+    "1night"
+  ],
+  "minamichita": [
+    "daytrip",
+    "1night"
+  ],
+  "arashiyama": [
+    "daytrip",
+    "1night"
+  ],
+  "shigaraki": [
+    "daytrip",
+    "1night"
+  ],
+  "dorogawa-onsen": [
+    "1night"
+  ],
+  "matsusaka": [
+    "daytrip",
+    "1night"
+  ],
+  "sakai": [
+    "daytrip",
+    "1night"
+  ],
+  "ama-island": [
+    "2night"
+  ],
+  "akiyoshidai": [
+    "daytrip",
+    "1night"
+  ],
+  "yanai": [
+    "daytrip",
+    "1night"
+  ],
+  "oki-island": [
+    "2night"
+  ],
+  "inujima": [
+    "daytrip",
+    "1night"
+  ],
+  "teshima": [
+    "daytrip",
+    "1night"
+  ],
+  "niyodogawa": [
+    "2night"
+  ],
+  "yusuhara": [
+    "2night"
+  ],
+  "anan": [
+    "2night"
+  ],
+  "shikoku-karst": [
+    "2night"
+  ],
+  "aoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "yamaga": [
+    "1night"
+  ],
+  "yoshinogari": [
+    "daytrip",
+    "1night"
+  ],
+  "kunisaki": [
+    "1night",
+    "2night"
+  ],
+  "chiran": [
+    "1night"
+  ],
+  "ojika-island": [
+    "1night",
+    "2night"
+  ],
+  "irabu-island": [
+    "2night"
+  ],
+  "aguni-island": [
+    "2night"
+  ],
+  "itoman": [
+    "daytrip",
+    "2night"
+  ],
+  "kijoka": [
+    "2night"
+  ],
+  "miyakejima": [
+    "2night"
+  ],
+  "hachijojima": [
+    "1night",
+    "2night"
+  ],
+  "niijima": [
+    "2night"
+  ],
+  "shikinejima": [
+    "2night"
+  ],
+  "shirakawa": [
+    "daytrip",
+    "1night"
+  ],
+  "kitakata": [
+    "1night"
+  ],
+  "koriyama": [
+    "daytrip",
+    "1night"
+  ],
+  "ryusendo": [
+    "1night",
+    "2night"
+  ],
+  "ichinoseki": [
+    "1night"
+  ],
+  "akita-oga": [
+    "1night",
+    "2night"
+  ],
+  "kisakata": [
+    "1night",
+    "2night"
+  ],
+  "gassan": [
+    "1night",
+    "2night"
+  ],
+  "higashine": [
+    "1night"
+  ],
+  "akakura-onsen": [
+    "1night"
+  ],
+  "yugawara-onsen": [
+    "daytrip",
+    "1night"
+  ],
+  "yokosuka": [
+    "daytrip",
+    "1night"
+  ],
+  "mishima": [
+    "daytrip",
+    "1night"
+  ],
+  "numazu": [
+    "daytrip",
+    "1night"
+  ],
+  "hamamatsu": [
+    "daytrip",
+    "1night"
+  ],
+  "kakegawa": [
+    "daytrip",
+    "1night"
+  ],
+  "okazaki": [
+    "daytrip",
+    "1night"
+  ],
+  "toyohashi": [
+    "daytrip",
+    "1night"
+  ],
+  "tajimi": [
+    "daytrip",
+    "1night"
+  ],
+  "togakushi": [
+    "1night"
+  ],
+  "omihachiman": [
+    "daytrip",
+    "1night"
+  ],
+  "takarazuka": [
+    "daytrip",
+    "1night"
+  ],
+  "akashi": [
+    "daytrip",
+    "1night"
+  ],
+  "naruto": [
+    "daytrip",
+    "1night"
+  ],
+  "innoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "mihara": [
+    "daytrip",
+    "1night"
+  ],
+  "hofu": [
+    "daytrip",
+    "1night"
+  ],
+  "karatsu": [
+    "daytrip",
+    "1night"
+  ],
+  "dazaifu": [
+    "daytrip",
+    "1night"
+  ],
+  "nakatsu": [
+    "daytrip",
+    "1night"
+  ],
+  "nemuro": [
+    "2night"
+  ],
+  "muroran": [
+    "1night",
+    "2night"
+  ],
+  "tomakomai": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "ishinomaki": [
+    "1night"
+  ],
+  "hitachi": [
+    "1night"
+  ],
+  "kashima": [
+    "1night"
+  ],
+  "shiraoishi": [
+    "daytrip",
+    "1night"
+  ],
+  "tendou": [
+    "1night"
+  ],
+  "shonai": [
+    "1night",
+    "2night"
+  ],
+  "rikuzentakata": [
+    "1night",
+    "2night"
+  ],
+  "sanriku-miyako": [
+    "1night",
+    "2night"
+  ],
+  "mizusawa": [
+    "1night"
+  ],
+  "ichinoseki-geibikei": [
+    "1night"
+  ],
+  "akita-semboku": [
+    "1night"
+  ],
+  "sagae": [
+    "1night"
+  ],
+  "nanao": [
+    "1night"
+  ],
+  "fukuchiyama": [
+    "daytrip",
+    "1night"
+  ],
+  "koka": [
+    "daytrip",
+    "1night"
+  ],
+  "tondabayashi": [
+    "daytrip",
+    "1night"
+  ],
+  "kishiwada": [
+    "daytrip",
+    "1night"
+  ],
+  "nagi": [
+    "1night"
+  ],
+  "higashihiroshima": [
+    "1night"
+  ],
+  "fukuyama": [
+    "daytrip",
+    "1night"
+  ],
+  "otoyo": [
+    "1night"
+  ],
+  "sukumo": [
+    "1night"
+  ],
+  "miyoshi-tokushima": [
+    "daytrip",
+    "1night"
+  ],
+  "yuwaku-onsen": [
+    "1night"
+  ],
+  "yura-wakayama": [
+    "1night"
+  ],
+  "kitakyushu": [
+    "daytrip",
+    "1night"
+  ],
+  "asakura": [
+    "daytrip",
+    "1night"
+  ],
+  "ebino": [
+    "1night"
+  ],
+  "hitoyoshi-city": [
+    "1night"
+  ],
+  "minamikyushu": [
+    "1night"
+  ],
+  "minamiosumi": [
+    "1night"
+  ],
+  "chatan": [
+    "1night",
+    "2night"
+  ],
+  "uruma": [
+    "1night",
+    "2night"
+  ],
+  "nanto": [
+    "1night"
+  ],
+  "hakusan": [
+    "1night"
+  ],
+  "shingu-wakayama": [
+    "1night"
+  ],
+  "himeshima": [
+    "1night"
+  ],
+  "toshima": [
+    "1night"
+  ],
+  "joetsu": [
+    "1night"
+  ],
+  "myoko": [
+    "daytrip",
+    "1night"
+  ],
+  "hokkaido-hakodate": [
+    "1night",
+    "2night"
+  ],
+  "hokkaido-asahikawa": [
+    "1night"
+  ],
+  "hokkaido-kushiro": [
+    "1night"
+  ],
+  "yoichi": [
+    "daytrip",
+    "1night"
+  ],
+  "akkeshi": [
+    "1night",
+    "2night"
+  ],
+  "kitami": [
+    "1night"
+  ],
+  "monbetsu": [
+    "1night"
+  ],
+  "omagari": [
+    "1night"
+  ],
+  "shinjou": [
+    "1night"
+  ],
+  "ibaraki-mito": [
+    "daytrip",
+    "1night"
+  ],
+  "utsunomiya": [
+    "daytrip",
+    "1night"
+  ],
+  "takasaki": [
+    "daytrip",
+    "1night"
+  ],
+  "odawara": [
+    "daytrip",
+    "1night"
+  ],
+  "sawara": [
+    "daytrip",
+    "1night"
+  ],
+  "nokogiriyama": [
+    "daytrip",
+    "1night"
+  ],
+  "katsuura-chiba": [
+    "daytrip",
+    "1night"
+  ],
+  "azumino": [
+    "1night"
+  ],
+  "nakatsugawa": [
+    "daytrip",
+    "1night"
+  ],
+  "yaizu": [
+    "daytrip",
+    "1night"
+  ],
+  "hamanako": [
+    "daytrip",
+    "1night"
+  ],
+  "gamagori": [
+    "daytrip",
+    "1night"
+  ],
+  "toyota-city": [
+    "daytrip",
+    "1night"
+  ],
+  "otsu-shiga": [
+    "daytrip",
+    "1night"
+  ],
+  "kusatsu-shiga": [
+    "daytrip",
+    "1night"
+  ],
+  "takashima-shiga": [
+    "daytrip",
+    "1night"
+  ],
+  "tango-kyoto": [
+    "1night"
+  ],
+  "owase": [
+    "1night"
+  ],
+  "kushimoto": [
+    "1night"
+  ],
+  "hamada-shimane": [
+    "1night"
+  ],
+  "kure": [
+    "daytrip",
+    "1night"
+  ],
+  "miyoshi-hiroshima": [
+    "1night"
+  ],
+  "nagato-yamaguchi": [
+    "1night"
+  ],
+  "mine-yamaguchi": [
+    "1night"
+  ],
+  "kagawa-takamatsu": [
+    "daytrip",
+    "1night"
+  ],
+  "kanonji": [
+    "daytrip",
+    "1night"
+  ],
+  "kurume": [
+    "daytrip",
+    "1night"
+  ],
+  "yatsushiro": [
+    "daytrip",
+    "1night"
+  ],
+  "oguni-kumamoto": [
+    "1night"
+  ],
+  "izumi-kagoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "makurazaki": [
+    "1night"
+  ],
+  "miyakonojo": [
+    "1night"
+  ],
+  "nanjo-okinawa": [
+    "1night"
+  ],
+  "aogashima": [
+    "1night",
+    "2night"
+  ],
+  "kugashima": [
+    "1night"
+  ],
+  "nakatosa": [
+    "1night"
+  ],
+  "ikata": [
+    "1night"
+  ],
+  "muroto-cape": [
+    "1night"
+  ],
+  "niimi": [
+    "1night"
+  ],
+  "uda-nara": [
+    "daytrip",
+    "1night"
+  ],
+  "mimasaka": [
+    "1night"
+  ],
+  "kochi-shimanto": [
+    "1night"
+  ],
+  "yonago": [
+    "1night"
+  ],
+  "kaga-onsen2": [
+    "1night"
+  ],
+  "iga-ueno": [
+    "daytrip",
+    "1night"
+  ],
+  "miyanoshita": [
+    "daytrip",
+    "1night"
+  ],
+  "shibu-onsen": [
+    "1night"
+  ],
+  "togatta-onsen": [
+    "1night"
+  ],
+  "hachimantai-onsen": [
+    "1night",
+    "2night"
+  ],
+  "ono-fukui": [
+    "1night"
+  ],
+  "katsuyama": [
+    "1night"
+  ],
+  "hioki": [
+    "1night"
+  ],
+  "shimokitazawa-nyuto": [
+    "1night"
+  ],
+  "hirakawa": [
+    "1night"
+  ],
+  "kurikoma": [
+    "1night"
+  ],
+  "shimokita": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "towada-lake": [
+    "daytrip",
+    "1night"
+  ],
+  "rikuchu-coast": [
+    "1night",
+    "2night"
+  ],
+  "ichinoseki-hiraizumi2": [
+    "1night"
+  ],
+  "numata": [
+    "daytrip",
+    "1night"
+  ],
+  "tsuchiura": [
+    "daytrip",
+    "1night"
+  ],
+  "kujukuri-icho": [
+    "daytrip",
+    "1night"
+  ],
+  "miyota": [
+    "daytrip",
+    "1night"
+  ],
+  "saijo-hiroshima": [
+    "1night"
+  ],
+  "fukaura": [
+    "1night",
+    "2night"
+  ],
+  "isesaki": [
+    "daytrip",
+    "1night"
+  ],
+  "matsumoto-kaido": [
+    "1night"
+  ],
+  "tateyama-toyama": [
+    "1night"
+  ],
+  "suo-sanbe": [
+    "1night"
+  ],
+  "takachihogo-shishiku": [
+    "1night"
+  ],
+  "kamishihoro": [
+    "1night"
+  ],
+  "susaki": [
+    "1night"
+  ],
+  "ube": [
+    "daytrip",
+    "1night"
+  ],
+  "agematsu": [
+    "daytrip",
+    "1night"
+  ],
+  "unzen2": [
+    "1night"
+  ],
+  "kochi-ino": [
+    "daytrip",
+    "1night"
+  ],
+  "hiji": [
+    "daytrip",
+    "1night"
+  ],
+  "tsunan": [
+    "1night"
+  ],
+  "kurobe": [
+    "1night"
+  ],
+  "tsuruoka-kinzan": [
+    "1night",
+    "2night"
+  ],
+  "tomari-okinawa": [
+    "1night"
+  ],
+  "gen_北海_愛山渓温泉": [
+    "2night"
+  ],
+  "gen_北海_旭岳温泉": [
+    "2night"
+  ],
+  "gen_北海_朝里川温泉": [
+    "2night"
+  ],
+  "gen_北海_網走湖畔温泉": [
+    "2night"
+  ],
+  "gen_北海_岩尾別温泉": [
+    "2night"
+  ],
+  "gen_北海_ウトロ温泉": [
+    "2night"
+  ],
+  "gen_北海_北湯沢温泉": [
+    "2night"
+  ],
+  "gen_北海_然別湖畔温泉": [
+    "2night"
+  ],
+  "gen_北海_支笏湖温泉": [
+    "2night"
+  ],
+  "gen_北海_定山渓温泉": [
+    "2night"
+  ],
+  "gen_北海_層雲峡温泉": [
+    "2night"
+  ],
+  "gen_北海_天人峡温泉": [
+    "2night"
+  ],
+  "gen_北海_洞爺湖温泉": [
+    "2night"
+  ],
+  "gen_北海_十勝岳温泉": [
+    "2night"
+  ],
+  "gen_北海_豊富温泉": [
+    "2night"
+  ],
+  "gen_北海_濁川温泉": [
+    "2night"
+  ],
+  "gen_北海_ぬかびら温泉": [
+    "2night"
+  ],
+  "gen_北海_登別温泉": [
+    "2night"
+  ],
+  "gen_北海_水無海浜温泉": [
+    "2night"
+  ],
+  "gen_北海_雌阿寒温泉": [
+    "2night"
+  ],
+  "gen_北海_谷地頭温泉": [
+    "2night"
+  ],
+  "gen_北海_羅臼温泉": [
+    "2night"
+  ],
+  "gen_北海_奥尻島": [
+    "2night"
+  ],
+  "gen_北海_北海道": [
+    "2night"
+  ],
+  "gen_北海_焼尻島": [
+    "2night"
+  ],
+  "gen_北海_襟裳岬": [
+    "2night"
+  ],
+  "gen_北海_小樽運河": [
+    "2night"
+  ],
+  "gen_北海_就実の丘": [
+    "2night"
+  ],
+  "gen_北海_知床国立公園": [
+    "2night"
+  ],
+  "gen_北海_チキウ岬": [
+    "2night"
+  ],
+  "gen_北海_トラピスト修道院": [
+    "2night"
+  ],
+  "gen_北海_納沙布岬": [
+    "2night"
+  ],
+  "gen_北海_東川町": [
+    "2night"
+  ],
+  "gen_北海_麓郷の森": [
+    "2night"
+  ],
+  "gen_北海_五稜郭": [
+    "2night"
+  ],
+  "gen_北海_戸切地陣屋": [
+    "2night"
+  ],
+  "gen_北海_弁天台場": [
+    "2night"
+  ],
+  "gen_北海_松前城": [
+    "2night"
+  ],
+  "gen_北海_北海道神宮": [
+    "2night"
+  ],
+  "gen_北海_太田山神社": [
+    "2night"
+  ],
+  "gen_北海_大雪展望台": [
+    "2night"
+  ],
+  "gen_北海_多和平": [
+    "2night"
+  ],
+  "gen_北海_天に続く道": [
+    "2night"
+  ],
+  "gen_北海_十勝千年の森": [
+    "2night"
+  ],
+  "gen_北海_相泊温泉": [
+    "2night"
+  ],
+  "gen_北海_枝幸温泉": [
+    "2night"
+  ],
+  "gen_北海_長万部温泉": [
+    "2night"
+  ],
+  "gen_北海_菅野温泉": [
+    "2night"
+  ],
+  "gen_北海_北見温泉": [
+    "2night"
+  ],
+  "gen_北海_白老温泉": [
+    "2night"
+  ],
+  "gen_北海_瀬石温泉": [
+    "2night"
+  ],
+  "gen_北海_大雪高原温泉": [
+    "2night"
+  ],
+  "gen_北海_滝の湯温泉": [
+    "2night"
+  ],
+  "gen_北海_天塩温泉": [
+    "2night"
+  ],
+  "gen_北海_天塩川温泉": [
+    "2night"
+  ],
+  "gen_北海_十勝川温泉": [
+    "2night"
+  ],
+  "gen_北海_浜頓別温泉": [
+    "2night"
+  ],
+  "gen_北海_びふか温泉": [
+    "2night"
+  ],
+  "gen_北海_ピンネシリ温泉": [
+    "2night"
+  ],
+  "gen_北海_稚内温泉": [
+    "2night"
+  ],
+  "gen_北海_さるふつ温泉": [
+    "2night"
+  ],
+  "gen_北海_雷電温泉": [
+    "2night"
+  ],
+  "gen_北海_十勝岳望岳台": [
+    "2night"
+  ],
+  "gen_北海_十勝ヒルズ": [
+    "2night"
+  ],
+  "gen_北海_中札内美術村": [
+    "2night"
+  ],
+  "gen_北海_花の拠点「はなふる」": [
+    "2night"
+  ],
+  "gen_北海_丸瀬布森林公園いこいの森": [
+    "2night"
+  ],
+  "gen_北海_余市蒸溜所": [
+    "2night"
+  ],
+  "gen_北海_六花の森": [
+    "2night"
+  ],
+  "gen_北海_白ひげの滝": [
+    "2night"
+  ],
+  "gen_北海_フレペの滝": [
+    "2night"
+  ],
+  "gen_北海_上の湯温泉": [
+    "2night"
+  ],
+  "gen_北海_かみゆうべつ温泉": [
+    "2night"
+  ],
+  "gen_北海_神居岩温泉": [
+    "2night"
+  ],
+  "gen_北海_黒松内温泉": [
+    "2night"
+  ],
+  "gen_北海_見市温泉": [
+    "2night"
+  ],
+  "gen_北海_沙流川温泉": [
+    "2night"
+  ],
+  "gen_北海_鹿の湯": [
+    "2night"
+  ],
+  "gen_北海_支笏湖いとう温泉": [
+    "2night"
+  ],
+  "gen_北海_樹海温泉": [
+    "2night"
+  ],
+  "gen_北海_初山別温泉": [
+    "2night"
+  ],
+  "gen_北海_伊達温泉": [
+    "2night"
+  ],
+  "gen_北海_トムラウシ温泉": [
+    "2night"
+  ],
+  "gen_北海_養老牛温泉": [
+    "2night"
+  ],
+  "gen_茨城_牛久シャトー": [
+    "2night"
+  ],
+  "gen_茨城_偕楽園": [
+    "2night"
+  ],
+  "gen_茨城_国営ひたち海浜公園": [
+    "2night"
+  ],
+  "gen_茨城_水郷筑波国定公園": [
+    "2night"
+  ],
+  "gen_茨城_西山荘": [
+    "2night"
+  ],
+  "gen_茨城_袋田の滝": [
+    "2night"
+  ],
+  "gen_茨城_大洗磯前神社": [
+    "2night"
+  ],
+  "gen_茨城_大杉神社": [
+    "2night"
+  ],
+  "gen_茨城_笠間稲荷神社": [
+    "2night"
+  ],
+  "gen_茨城_鹿島神宮": [
+    "2night"
+  ],
+  "gen_茨城_酒列磯前神社": [
+    "2night"
+  ],
+  "gen_茨城_常磐神社": [
+    "2night"
+  ],
+  "gen_茨城_水戸東照宮": [
+    "2night"
+  ],
+  "gen_茨城_水戸八幡宮": [
+    "2night"
+  ],
+  "gen_栃木_川俣温泉": [
+    "2night"
+  ],
+  "gen_栃木_三斗小屋温泉": [
+    "2night"
+  ],
+  "gen_栃木_中禅寺温泉": [
+    "2night"
+  ],
+  "gen_栃木_那須温泉郷": [
+    "2night"
+  ],
+  "gen_栃木_日光湯元温泉": [
+    "2night"
+  ],
+  "gen_栃木_湯西川温泉": [
+    "2night"
+  ],
+  "gen_栃木_佐野プレミアム・アウトレット": [
+    "2night"
+  ],
+  "gen_栃木_殺生石": [
+    "2night"
+  ],
+  "gen_栃木_那須高原": [
+    "2night"
+  ],
+  "gen_栃木_日光杉並木": [
+    "2night"
+  ],
+  "gen_栃木_宇都宮城": [
+    "2night"
+  ],
+  "gen_栃木_宇都宮二荒山神社": [
+    "2night"
+  ],
+  "gen_栃木_太平山神社": [
+    "2night"
+  ],
+  "gen_栃木_唐沢山神社": [
+    "2night"
+  ],
+  "gen_栃木_日光東照宮": [
+    "2night"
+  ],
+  "gen_群馬_老神温泉": [
+    "2night"
+  ],
+  "gen_群馬_奥嬬恋温泉": [
+    "2night"
+  ],
+  "gen_群馬_鹿沢温泉": [
+    "2night"
+  ],
+  "gen_群馬_片品温泉": [
+    "2night"
+  ],
+  "gen_群馬_上牧温泉": [
+    "2night"
+  ],
+  "gen_群馬_川中温泉": [
+    "2night"
+  ],
+  "gen_群馬_川原湯温泉": [
+    "2night"
+  ],
+  "gen_群馬_猿ヶ京温泉": [
+    "2night"
+  ],
+  "gen_群馬_敷島温泉": [
+    "2night"
+  ],
+  "gen_群馬_尻焼温泉": [
+    "2night"
+  ],
+  "gen_群馬_花敷温泉": [
+    "2night"
+  ],
+  "gen_群馬_法師温泉": [
+    "2night"
+  ],
+  "gen_群馬_万座温泉": [
+    "2night"
+  ],
+  "gen_北海_臼別温泉": [
+    "2night"
+  ],
+  "gen_北海_オーロラ温泉": [
+    "2night"
+  ],
+  "gen_北海_奥美利河温泉": [
+    "2night"
+  ],
+  "gen_北海_オソウシ温泉": [
+    "2night"
+  ],
+  "gen_北海_オホーツクオムイ温泉": [
+    "2night"
+  ],
+  "gen_北海_神威脇温泉": [
+    "2night"
+  ],
+  "gen_北海_金花湯": [
+    "2night"
+  ],
+  "gen_北海_塩別温泉": [
+    "2night"
+  ],
+  "gen_北海_鹿部温泉": [
+    "2night"
+  ],
+  "gen_北海_瀬戸瀬温泉": [
+    "2night"
+  ],
+  "gen_北海_平田内温泉": [
+    "2night"
+  ],
+  "gen_北海_美利河温泉": [
+    "2night"
+  ],
+  "gen_北海_真鍋庭園": [
+    "2night"
+  ],
+  "gen_北海_山彦の滝": [
+    "2night"
+  ],
+  "gen_北海_石狩弁天社": [
+    "2night"
+  ],
+  "gen_北海_浦臼神社": [
+    "2night"
+  ],
+  "gen_北海_札幌八幡宮": [
+    "2night"
+  ],
+  "gen_青森_相乗温泉": [
+    "2night"
+  ],
+  "gen_青森_青荷温泉": [
+    "2night"
+  ],
+  "gen_青森_秋元温泉": [
+    "2night"
+  ],
+  "gen_青森_板留温泉": [
+    "2night"
+  ],
+  "gen_青森_稲垣温泉": [
+    "2night"
+  ],
+  "gen_青森_奥入瀬渓流温泉": [
+    "2night"
+  ],
+  "gen_青森_落合温泉": [
+    "2night"
+  ],
+  "gen_青森_黄金崎不老不死温泉": [
+    "2night"
+  ],
+  "gen_青森_下風呂温泉": [
+    "2night"
+  ],
+  "gen_青森_城ヶ倉温泉": [
+    "2night"
+  ],
+  "gen_青森_酸ヶ湯": [
+    "2night"
+  ],
+  "gen_青森_嶽温泉": [
+    "2night"
+  ],
+  "gen_青森_蔦温泉": [
+    "2night"
+  ],
+  "gen_青森_十和田湖畔温泉": [
+    "2night"
+  ],
+  "gen_青森_馬門温泉": [
+    "2night"
+  ],
+  "gen_青森_谷地温泉": [
+    "2night"
+  ],
+  "zaou-onsen": [
+    "1night"
+  ],
+  "utsukushigahara": [
+    "1night"
+  ],
+  "uji": [
+    "daytrip",
+    "1night"
+  ],
+  "shirahone-onsen": [
+    "1night"
+  ],
+  "matsunoyama-onsen": [
+    "1night"
+  ],
+  "hijori-onsen": [
+    "2night"
+  ],
+  "takayu-onsen": [
+    "1night"
+  ],
+  "oyu-onsen-akita": [
+    "2night"
+  ],
+  "takarakawa-onsen": [
+    "1night"
+  ],
+  "hateruma-island": [
+    "1night"
+  ],
+  "yoron-island": [
+    "1night"
+  ],
+  "kakeroma-island": [
+    "1night"
+  ],
+  "tobishima-island": [
+    "2night"
+  ],
+  "awashima-island": [
+    "1night"
+  ],
+  "tarama-island": [
+    "2night"
+  ],
+  "mishima-yamaguchi": [
+    "1night"
+  ],
+  "teuri-island": [
+    "2night"
+  ],
+  "omishima-island": [
+    "daytrip",
+    "1night"
+  ],
+  "futamata-onsen": [
+    "1night"
+  ],
+  "otari-onsen": [
+    "1night"
+  ],
+  "yunokami-onsen": [
+    "1night"
+  ],
+  "saiki": [
+    "1night"
+  ],
+  "omaezaki": [
+    "1night"
+  ],
+  "yawatahama": [
+    "1night"
+  ],
+  "ushibuka": [
+    "1night"
+  ],
+  "minami-aizu": [
+    "1night"
+  ],
+  "shosenkyo": [
+    "daytrip",
+    "1night"
+  ],
+  "isawa-onsen": [
+    "1night"
+  ],
+  "minobu": [
+    "daytrip",
+    "1night"
+  ],
+  "nagatoro": [
+    "1night"
+  ],
+  "hanno": [
+    "daytrip"
+  ],
+  "yobuko": [
+    "daytrip",
+    "1night"
+  ],
+  "arita": [
+    "daytrip",
+    "1night"
+  ],
+  "onuma": [
+    "2night"
+  ],
+  "uradome": [
+    "2night"
+  ],
+  "chizu": [
+    "2night"
+  ],
+  "minami-tokushima": [
+    "2night"
+  ],
+  "muroo": [
+    "daytrip",
+    "1night"
+  ],
+  "tonami": [
+    "1night"
+  ],
+  "unazuki-onsen": [
+    "2night"
+  ],
+  "mikatagoko": [
+    "daytrip",
+    "1night"
+  ],
+  "hakuto": [
+    "daytrip"
+  ],
+  "ibukijima": [
+    "daytrip"
+  ],
+  "ogijima": [
+    "daytrip"
+  ],
+  "megijima": [
+    "daytrip"
+  ],
+  "honjima": [
+    "daytrip"
+  ],
+  "sanagijima": [
+    "daytrip"
+  ],
+  "okunoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "ikuchijima": [
+    "daytrip",
+    "1night"
+  ],
+  "sensui-jima": [
+    "daytrip"
+  ],
+  "shiraishijima": [
+    "daytrip",
+    "1night"
+  ],
+  "manabeshima": [
+    "daytrip"
+  ],
+  "katsunuma": [
+    "daytrip",
+    "1night"
+  ],
+  "mitsuminejinja": [
+    "daytrip",
+    "1night"
+  ],
+  "kashima-saga": [
+    "daytrip",
+    "1night"
+  ],
+  "ikeda-osaka": [
+    "daytrip"
+  ],
+  "gojo-nara": [
+    "daytrip",
+    "1night"
+  ],
+  "yamatokoriyama": [
+    "daytrip"
+  ],
+  "kashiwara-wine": [
+    "daytrip"
+  ],
+  "tsubamesanjo": [
+    "daytrip",
+    "1night"
+  ],
+  "kashiwazaki": [
+    "daytrip",
+    "1night"
+  ],
+  "yobetsu": [
+    "1night"
+  ],
+  "taro": [
+    "1night"
+  ],
+  "manazuru": [
+    "daytrip",
+    "1night"
+  ],
+  "yugawara": [
+    "daytrip",
+    "1night"
+  ],
+  "ikuno": [
+    "daytrip",
+    "1night"
+  ],
+  "tobe": [
+    "daytrip"
+  ],
+  "sakurajima": [
+    "daytrip",
+    "1night"
+  ],
+  "shimekappu": [
+    "1night"
+  ],
+  "otaki": [
+    "daytrip",
+    "1night"
+  ],
+  "kamogawa": [
+    "1night"
+  ],
+  "tatsuno": [
+    "daytrip"
+  ],
+  "fuchu-hiroshima": [
+    "daytrip",
+    "1night"
+  ],
+  "niihama": [
+    "daytrip",
+    "1night"
+  ],
+  "aji-peninsula": [
+    "daytrip",
+    "1night"
+  ],
+  "mitoyo": [
+    "daytrip",
+    "1night"
+  ],
+  "shionoe": [
+    "daytrip",
+    "1night"
+  ],
+  "shishikui": [
+    "1night"
+  ],
+  "shimonada": [
+    "1night"
+  ],
+  "misaki-kochi": [
+    "1night"
+  ],
+  "gonosen": [
+    "2night"
+  ],
+  "tanesashi": [
+    "2night"
+  ],
+  "tsumagoi": [
+    "1night"
+  ],
+  "tsumari": [
+    "1night"
+  ],
+  "yogo": [
+    "daytrip"
+  ],
+  "nima": [
+    "1night"
+  ],
+  "hiraodai": [
+    "daytrip"
+  ],
+  "bihoro-pass": [
+    "1night"
+  ],
+  "kamui-misaki": [
+    "daytrip",
+    "1night"
+  ],
+  "saroma-ko": [
+    "1night"
+  ],
+  "notsuke-hanto": [
+    "1night"
+  ],
+  "mashu-ko": [
+    "1night"
+  ],
+  "kussharo-ko": [
+    "1night"
+  ],
+  "uryunuma": [
+    "daytrip",
+    "1night"
+  ],
+  "chokai-san": [
+    "2night"
+  ],
+  "eshima-miyagi": [
+    "daytrip",
+    "1night"
+  ],
+  "kirigamine": [
+    "daytrip",
+    "1night"
+  ],
+  "nyukasa": [
+    "daytrip",
+    "1night"
+  ],
+  "ontake": [
+    "daytrip",
+    "1night"
+  ],
+  "mitsuke-jima": [
+    "2night"
+  ],
+  "rokkozaki": [
+    "2night"
+  ],
+  "sozogi": [
+    "2night"
+  ],
+  "shiroyone-senmaida": [
+    "2night"
+  ],
+  "tojinbo": [
+    "2night"
+  ],
+  "shimanami-kaido": [
+    "2night"
+  ],
+  "keta-taisha": [
+    "2night"
+  ],
+  "kaizu-osaki": [
+    "2night"
+  ],
+  "chikubushima": [
+    "daytrip"
+  ],
+  "metasequoia": [
+    "2night"
+  ],
+  "tango-matsushima": [
+    "2night"
+  ],
+  "kuju-kogen": [
+    "2night"
+  ],
+  "gokase": [
+    "1night"
+  ],
+  "ikoma-kogen": [
+    "1night"
+  ],
+  "chinen-misaki": [
+    "daytrip",
+    "1night"
+  ],
+  "bise": [
+    "daytrip",
+    "1night"
+  ],
+  "kudakajima": [
+    "daytrip",
+    "1night"
+  ],
+  "sefa-utaki": [
+    "daytrip",
+    "1night"
+  ],
+  "hakkoda": [
+    "daytrip",
+    "1night"
+  ],
+  "sannai-maruyama": [
+    "daytrip"
+  ],
+  "mikurajima": [
+    "1night",
+    "2night"
+  ],
+  "hiburi": [
+    "1night",
+    "2night"
+  ],
+  "tonaki": [
+    "1night",
+    "2night"
+  ],
+  "yorojima": [
+    "1night",
+    "2night"
+  ],
+  "kuchinoerabu": [
+    "1night",
+    "2night"
+  ],
+  "nishinoshima": [
+    "1night",
+    "2night"
+  ],
+  "minamidaitojima": [
+    "1night",
+    "2night"
+  ],
+  "kitadaitojima": [
+    "1night",
+    "2night"
+  ],
+  "sakushima": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "shinojima": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "himakajima": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "ukujima": [
+    "1night",
+    "2night"
+  ],
+  "hotokegaura": [
+    "1night",
+    "2night"
+  ],
+  "shiibamura": [
+    "1night",
+    "2night"
+  ],
+  "tateyamasaki": [
+    "1night",
+    "2night"
+  ],
+  "okinoshima-kochi": [
+    "1night",
+    "2night"
+  ],
+  "nushima": [
+    "1night",
+    "2night"
+  ],
+  "kasadojima": [
+    "1night",
+    "2night"
+  ],
+  "noko-island": [
+    "1night",
+    "2night"
+  ],
+  "akiyamago": [
+    "1night",
+    "2night"
+  ],
+  "okitama": [
+    "1night",
+    "2night"
+  ],
+  "osorezan-area": [
+    "1night",
+    "2night"
+  ],
+  "tashirojima": [
+    "daytrip",
+    "1night"
+  ],
+  "kinkasan": [
+    "1night"
+  ],
+  "chichijima": [
+    "3night+"
+  ],
+  "hahajima": [
+    "3night+"
+  ],
+  "jogashima": [
+    "daytrip",
+    "1night"
+  ],
+  "toushijima": [
+    "1night",
+    "2night"
+  ],
+  "kamishima": [
+    "1night"
+  ],
+  "okishima": [
+    "daytrip"
+  ],
+  "notojima": [
+    "daytrip",
+    "1night"
+  ],
+  "kii-oshima": [
+    "daytrip",
+    "1night"
+  ],
+  "daikonshima": [
+    "daytrip",
+    "1night"
+  ],
+  "nakanoshima-oki": [
+    "1night",
+    "2night"
+  ],
+  "etajima": [
+    "daytrip",
+    "1night"
+  ],
+  "omijima": [
+    "daytrip",
+    "1night"
+  ],
+  "iwaishima": [
+    "1night"
+  ],
+  "hakatajima": [
+    "daytrip",
+    "1night"
+  ],
+  "shikanoshima": [
+    "daytrip",
+    "1night"
+  ],
+  "hirado-island": [
+    "1night"
+  ],
+  "ikitsukijima": [
+    "1night"
+  ],
+  "fukue-island": [
+    "1night",
+    "2night"
+  ],
+  "ikeshima": [
+    "1night"
+  ],
+  "kikai-island": [
+    "1night",
+    "2night"
+  ],
+  "tokunoshima": [
+    "1night",
+    "2night"
+  ],
+  "okinoerabu": [
+    "1night",
+    "2night"
+  ],
+  "aka-island": [
+    "1night",
+    "2night"
+  ],
+  "hatoma-island": [
+    "1night"
+  ],
+  "yubu-island": [
+    "daytrip",
+    "1night"
+  ],
+  "kuroshima-yaeyama": [
+    "daytrip",
+    "1night"
+  ],
+  "kurima-island": [
+    "daytrip",
+    "1night"
+  ],
+  "ikema-island": [
+    "daytrip",
+    "1night"
+  ],
+  "kouri-island": [
+    "daytrip",
+    "1night"
+  ],
+  "izena-island": [
+    "1night",
+    "2night"
+  ],
+  "shirakami-sanchi": [
+    "1night",
+    "2night"
+  ],
+  "mihonomatsubara": [
+    "daytrip",
+    "1night"
+  ],
+  "yamanakako": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "motosuko": [
+    "daytrip",
+    "1night"
+  ],
+  "yatsugatake": [
+    "1night",
+    "2night"
+  ],
+  "ohara": [
+    "daytrip",
+    "1night"
+  ],
+  "kifune": [
+    "daytrip",
+    "1night"
+  ],
+  "sumatakyo": [
+    "1night"
+  ],
+  "nishi-izu": [
+    "1night",
+    "2night"
+  ],
+  "toyama-city": [
+    "daytrip",
+    "1night"
+  ],
+  "ashinoko": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "minatomirai": [
+    "daytrip",
+    "1night"
+  ],
+  "kawaji-onsen": [
+    "1night",
+    "2night"
+  ],
+  "izumo-taisha": [
+    "1night",
+    "2night"
+  ],
+  "adachi-museum": [
+    "daytrip",
+    "1night"
+  ],
+  "tottori-sakyu": [
+    "daytrip",
+    "1night"
+  ],
+  "tamatsukuri-onsen": [
+    "1night",
+    "2night"
+  ],
+  "iya-vine-bridge": [
+    "daytrip",
+    "1night"
+  ],
+  "soja-okayama": [
+    "daytrip",
+    "1night"
+  ],
+  "hiruzen": [
+    "1night",
+    "2night"
+  ],
+  "yubara-onsen": [
+    "1night",
+    "2night"
+  ],
+  "yunogo": [
+    "1night"
+  ],
+  "okutsu": [
+    "1night"
+  ],
+  "hinase": [
+    "daytrip",
+    "1night"
+  ],
+  "fukiya": [
+    "1night"
+  ],
+  "nagi-okayama": [
+    "1night"
+  ],
+  "kasaoka-islands": [
+    "1night"
+  ],
+  "ogose": [
+    "daytrip"
+  ],
+  "ogawa-saitama": [
+    "daytrip",
+    "1night"
+  ],
+  "osaka-bay": [
+    "daytrip",
+    "1night"
+  ],
+  "katsuoji": [
+    "daytrip"
+  ],
+  "sennan": [
+    "daytrip",
+    "1night"
+  ],
+  "takatsuki": [
+    "daytrip",
+    "1night"
+  ],
+  "izumiotsu": [
+    "daytrip",
+    "1night"
+  ],
+  "imari": [
+    "daytrip",
+    "1night"
+  ],
+  "obama-fukui": [
+    "1night"
+  ],
+  "echizen-pottery": [
+    "daytrip"
+  ],
+  "boso-hills": [
+    "1night"
+  ],
+  "isumi": [
+    "daytrip",
+    "1night"
+  ],
+  "sakura-city": [
+    "daytrip",
+    "1night"
+  ],
+  "toyama-glass": [
+    "daytrip",
+    "1night"
+  ],
+  "zuiryuji": [
+    "daytrip",
+    "1night"
+  ],
+  "hakushu": [
+    "1night"
+  ],
+  "hayakawa": [
+    "1night"
+  ],
+  "inawashiro": [
+    "1night"
+  ],
+  "iwaki-spa": [
+    "1night"
+  ],
+  "miyama-kayabuki": [
+    "1night"
+  ],
+  "arashiyama-2": [
+    "daytrip",
+    "1night"
+  ],
+  "ohara-2": [
+    "daytrip",
+    "1night"
+  ],
+  "keihoku": [
+    "1night"
+  ],
+  "takeda-castle": [
+    "1night"
+  ],
+  "takamatsu-ritsurin": [
+    "daytrip"
+  ],
+  "zentsuji": [
+    "daytrip",
+    "1night"
+  ],
+  "katsurahama": [
+    "1night"
+  ],
+  "takayama-2": [
+    "1night",
+    "2night"
+  ],
+  "kumamoto-castle": [
+    "daytrip",
+    "1night"
+  ],
+  "hitoyoshi-onsen": [
+    "1night"
+  ],
+  "nichinan-coast": [
+    "1night"
+  ],
+  "niigata-city": [
+    "1night"
+  ],
+  "echigo-tsumari": [
+    "1night",
+    "2night"
+  ],
+  "nozawa-onsen-niigata": [
+    "1night",
+    "2night"
+  ],
+  "kanazawa-castle": [
+    "daytrip"
+  ],
+  "higashi-chaya": [
+    "daytrip"
+  ],
+  "soya-misaki": [
+    "1night",
+    "2night"
+  ],
+  "rebun-no-tour": [
+    "1night",
+    "2night"
+  ],
+  "senjojiki-aomori": [
+    "1night"
+  ],
+  "morioka": [
+    "daytrip",
+    "1night"
+  ],
+  "hanamaki-onsen": [
+    "1night",
+    "2night"
+  ],
+  "zao-snow-monsters": [
+    "1night",
+    "2night"
+  ],
+  "mogami-funakudari": [
+    "1night"
+  ],
+  "aizu-bandaisan": [
+    "1night"
+  ],
+  "miharu-takizakura": [
+    "daytrip",
+    "1night"
+  ],
+  "soma-noma": [
+    "daytrip",
+    "1night"
+  ],
+  "hitachi-seaside": [
+    "daytrip",
+    "1night"
+  ],
+  "tomioka-silk": [
+    "1night"
+  ],
+  "matsumoto-castle-2": [
+    "1night"
+  ],
+  "nakasendo-tsumago": [
+    "1night"
+  ],
+  "wajima-asaichi": [
+    "1night"
+  ],
+  "noto-kiriko": [
+    "1night",
+    "2night"
+  ],
+  "iseshima": [
+    "1night"
+  ],
+  "miho-museum": [
+    "daytrip"
+  ],
+  "kibune-kurama": [
+    "daytrip",
+    "1night"
+  ],
+  "koshien": [
+    "daytrip"
+  ],
+  "kobe-port": [
+    "daytrip",
+    "1night"
+  ],
+  "horyuji": [
+    "daytrip",
+    "1night"
+  ],
+  "kumano-kodo": [
+    "1night",
+    "2night"
+  ],
+  "nachi-falls": [
+    "1night"
+  ],
+  "okayama-city": [
+    "daytrip",
+    "1night"
+  ],
+  "akiyoshido": [
+    "1night"
+  ],
+  "dazaifu-2": [
+    "daytrip",
+    "1night"
+  ],
+  "saga-castle": [
+    "daytrip"
+  ],
+  "nagasaki-city": [
+    "1night"
+  ],
+  "yufuin-2": [
+    "1night",
+    "2night"
+  ],
+  "kagoshima-city": [
+    "daytrip",
+    "1night"
+  ],
+  "ibusuki-onsen": [
+    "1night",
+    "2night"
+  ],
+  "okinawa-naha": [
+    "1night",
+    "2night"
+  ],
+  "narita": [
+    "daytrip",
+    "1night"
+  ],
+  "sankeien": [
+    "daytrip"
+  ],
+  "tokushima-city": [
+    "daytrip",
+    "1night"
+  ],
+  "aharen": [
+    "1night"
+  ],
+  "omiya-bonsai": [
+    "daytrip"
+  ],
+  "hitsujiyama": [
+    "daytrip"
+  ],
+  "mihashira": [
+    "daytrip"
+  ],
+  "moroyama-saito": [
+    "daytrip"
+  ],
+  "saga-balloon": [
+    "daytrip",
+    "1night"
+  ],
+  "mifuneyama": [
+    "daytrip",
+    "1night"
+  ],
+  "yutoku-inari": [
+    "daytrip"
+  ],
+  "saga-arima": [
+    "daytrip"
+  ],
+  "niji-no-matsubara": [
+    "daytrip",
+    "1night"
+  ],
+  "nara-park": [
+    "daytrip"
+  ],
+  "tenkawa": [
+    "1night"
+  ],
+  "soni-kogen": [
+    "1night"
+  ],
+  "mt-yamato": [
+    "daytrip"
+  ],
+  "tottori-castle": [
+    "1night"
+  ],
+  "tottori-sakyu-2": [
+    "1night"
+  ],
+  "mizuki-shigeru-road": [
+    "1night"
+  ],
+  "shoji-ueshima": [
+    "1night"
+  ],
+  "matsuba-gani": [
+    "1night"
+  ],
+  "echizen-cape": [
+    "daytrip",
+    "1night"
+  ],
+  "mikuni-minato": [
+    "daytrip",
+    "1night"
+  ],
+  "hyo-sho": [
+    "daytrip",
+    "1night"
+  ],
+  "mihama-fukui": [
+    "daytrip",
+    "1night"
+  ],
+  "echizen-cliff": [
+    "daytrip"
+  ],
+  "nagoya-castle": [
+    "daytrip"
+  ],
+  "atsuta": [
+    "daytrip"
+  ],
+  "shitara": [
+    "1night"
+  ],
+  "shinshiro-nagasinotown": [
+    "daytrip"
+  ],
+  "mt-fuji-fifth": [
+    "1night"
+  ],
+  "saiko": [
+    "1night"
+  ],
+  "shoji-lake": [
+    "1night"
+  ],
+  "saiko-kawaguchi": [
+    "1night",
+    "2night"
+  ],
+  "ryujin-suspension": [
+    "1night"
+  ],
+  "seki": [
+    "daytrip",
+    "1night"
+  ],
+  "shirotori": [
+    "1night"
+  ],
+  "mino-washi": [
+    "daytrip",
+    "1night"
+  ],
+  "yoro-falls": [
+    "daytrip"
+  ],
+  "kasuga-gifu": [
+    "1night"
+  ],
+  "naruto-uzu": [
+    "daytrip",
+    "1night"
+  ],
+  "iya-vine-2": [
+    "1night"
+  ],
+  "mt-bizan": [
+    "daytrip"
+  ],
+  "hiwasa": [
+    "1night"
+  ],
+  "nakasu": [
+    "1night"
+  ],
+  "umi-jigoku": [
+    "daytrip"
+  ],
+  "chikugogawa": [
+    "1night"
+  ],
+  "asakuradan": [
+    "daytrip",
+    "1night"
+  ],
+  "shin-sekai": [
+    "daytrip"
+  ],
+  "senri": [
+    "daytrip",
+    "1night"
+  ],
+  "izumi": [
+    "daytrip"
+  ],
+  "senri-bamboo": [
+    "daytrip"
+  ],
+  "shibuya": [
+    "daytrip",
+    "1night"
+  ],
+  "shinjuku": [
+    "daytrip",
+    "1night"
+  ],
+  "ueno": [
+    "daytrip"
+  ],
+  "asakusa": [
+    "daytrip",
+    "1night"
+  ],
+  "akiba": [
+    "daytrip"
+  ],
+  "kurobe-gorge": [
+    "1night"
+  ],
+  "amaharashi": [
+    "daytrip",
+    "1night"
+  ],
+  "gokayama-2": [
+    "1night"
+  ],
+  "uozu": [
+    "daytrip",
+    "1night"
+  ],
+  "wakayama-castle": [
+    "daytrip",
+    "1night"
+  ],
+  "shirahama": [
+    "1night",
+    "2night"
+  ],
+  "totsukawa-2": [
+    "1night"
+  ],
+  "kawayu": [
+    "1night"
+  ],
+  "yamadera-2": [
+    "daytrip"
+  ],
+  "sendai-2": [
+    "daytrip"
+  ],
+  "zuiganji": [
+    "daytrip"
+  ],
+  "hakone-2": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "owakudani": [
+    "daytrip"
+  ],
+  "shichirigahama": [
+    "daytrip",
+    "1night"
+  ],
+  "zushi": [
+    "daytrip",
+    "1night"
+  ],
+  "biwako": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "hikone-2": [
+    "daytrip",
+    "1night"
+  ],
+  "shigaraki-2-pottery": [
+    "daytrip",
+    "1night"
+  ],
+  "hira": [
+    "daytrip",
+    "1night"
+  ],
+  "ise-okage": [
+    "daytrip",
+    "1night"
+  ],
+  "meoto-iwa": [
+    "1night"
+  ],
+  "toba-pearl": [
+    "daytrip",
+    "1night"
+  ],
+  "akame-falls": [
+    "daytrip",
+    "1night"
+  ],
+  "nabari": [
+    "daytrip",
+    "1night"
+  ],
+  "saitobaru": [
+    "1night"
+  ],
+  "nichinan-onsen": [
+    "1night"
+  ],
+  "chiba-zoo": [
+    "daytrip"
+  ],
+  "himeji-castle-2": [
+    "daytrip",
+    "1night"
+  ],
+  "izu-jogasaki": [
+    "1night"
+  ],
+  "hiroshima-2": [
+    "daytrip",
+    "1night"
+  ],
+  "itsukushima": [
+    "daytrip",
+    "1night"
+  ],
+  "shobara-2": [
+    "1night"
+  ],
+  "iwakuni-castle": [
+    "daytrip",
+    "1night"
+  ],
+  "yamaguchi-city": [
+    "daytrip",
+    "1night"
+  ],
+  "motonosumi": [
+    "1night"
+  ],
+  "nagano-zenkoji": [
+    "daytrip",
+    "1night"
+  ],
+  "mt-yatsugatake": [
+    "1night",
+    "2night"
+  ],
+  "niigata-spa": [
+    "1night",
+    "2night"
+  ],
+  "niigata-uono": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "takada-jo": [
+    "1night"
+  ],
+  "hokkaido-furano-2": [
+    "1night",
+    "2night"
+  ],
+  "aizu-2": [
+    "1night"
+  ],
+  "fukushima-iwaki": [
+    "1night"
+  ],
+  "iwate-chuson": [
+    "daytrip",
+    "1night"
+  ],
+  "aomori-hirosaki-2": [
+    "1night"
+  ],
+  "aomori-aomori-2": [
+    "1night"
+  ],
+  "akita-yokote": [
+    "1night"
+  ],
+  "akita-oga-peninsula": [
+    "1night"
+  ],
+  "shodoshima-canyon": [
+    "daytrip",
+    "1night"
+  ],
+  "kochi-castle": [
+    "1night"
+  ],
+  "kumamoto-suizenji": [
+    "daytrip"
+  ],
+  "iso": [
+    "daytrip",
+    "1night"
+  ],
+  "sakurajima-onsen": [
+    "1night"
+  ],
+  "shuri-castle": [
+    "daytrip"
+  ],
+  "okinawa-chinen": [
+    "daytrip"
+  ],
+  "kanazawa-21st": [
+    "daytrip"
+  ],
+  "chinatown": [
+    "daytrip",
+    "1night"
+  ],
+  "oze-2": [
+    "1night"
+  ],
+  "cape-zampa": [
+    "daytrip",
+    "1night"
+  ],
+  "okinawa-cape-hedo": [
+    "1night"
+  ],
+  "hakuto-tottori": [
+    "1night"
+  ],
+  "fukui-castle": [
+    "daytrip",
+    "1night"
+  ],
+  "nara-park-2": [
+    "daytrip"
+  ],
+  "shiga-otsu": [
+    "daytrip",
+    "1night"
+  ],
+  "biwako-valley": [
+    "daytrip"
+  ],
+  "shizu-shimizu": [
+    "daytrip",
+    "1night"
+  ],
+  "chiba-ko": [
+    "daytrip"
+  ],
+  "akita-nyuto": [
+    "1night"
+  ],
+  "fukushima-aizu-2": [
+    "1night"
+  ],
+  "niigata-bandai": [
+    "1night"
+  ],
+  "saga-yoshino": [
+    "daytrip",
+    "1night"
+  ],
+  "tottori-mt-mitoku": [
+    "1night"
+  ],
+  "miyagi-matsushima-2": [
+    "daytrip",
+    "1night"
+  ],
+  "toyama-himi-2": [
+    "1night"
+  ],
+  "niigata-sado-3": [
+    "1night"
+  ],
+  "iwami-kagura": [
+    "1night"
+  ],
+  "matsuyama": [
+    "1night",
+    "2night"
+  ],
+  "ryugado": [
+    "daytrip",
+    "1night"
+  ],
+  "kyoto": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "osaka": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "tokyo": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "kobe": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "yokohama": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "fukuoka": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "kanazawa": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "niche_青森_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_岩手_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮城_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮城_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮城_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_秋田_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_秋田_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_秋田_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_山形_1": [
+    "1night"
+  ],
+  "niche_山形_2": [
+    "1night"
+  ],
+  "niche_福島_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福島_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福島_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福島_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福島_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_茨城_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_茨城_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_栃木_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_栃木_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_群馬_1": [
+    "1night"
+  ],
+  "niche_群馬_4": [
+    "1night"
+  ],
+  "niche_埼玉_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_千葉_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_千葉_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_千葉_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_千葉_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_東京_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_東京_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_東京_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_東京_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_東京_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_神奈川_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_神奈川_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_新潟_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_新潟_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_新潟_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_新潟_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_富山_1": [
+    "1night"
+  ],
+  "niche_富山_2": [
+    "1night"
+  ],
+  "niche_富山_3": [
+    "1night"
+  ],
+  "niche_富山_4": [
+    "1night"
+  ],
+  "niche_富山_6": [
+    "1night"
+  ],
+  "niche_石川_1": [
+    "1night"
+  ],
+  "niche_石川_3": [
+    "1night"
+  ],
+  "niche_石川_4": [
+    "1night"
+  ],
+  "niche_石川_6": [
+    "1night"
+  ],
+  "niche_福井_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福井_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福井_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福井_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_山梨_1": [
+    "1night"
+  ],
+  "niche_山梨_2": [
+    "1night"
+  ],
+  "niche_山梨_3": [
+    "1night"
+  ],
+  "niche_山梨_4": [
+    "1night"
+  ],
+  "niche_山梨_5": [
+    "1night"
+  ],
+  "niche_山梨_7": [
+    "1night"
+  ],
+  "niche_長野_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_長野_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_長野_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_岐阜_1": [
+    "1night"
+  ],
+  "niche_岐阜_4": [
+    "1night"
+  ],
+  "niche_岐阜_5": [
+    "1night"
+  ],
+  "niche_岐阜_6": [
+    "1night"
+  ],
+  "niche_岐阜_7": [
+    "1night"
+  ],
+  "niche_岐阜_8": [
+    "1night"
+  ],
+  "niche_静岡_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_静岡_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_静岡_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_静岡_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_愛知_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_愛知_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_愛知_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_愛知_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_愛知_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_愛知_7": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_三重_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_三重_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_滋賀_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_滋賀_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_滋賀_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_滋賀_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_京都_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_京都_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_京都_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_京都_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_大阪_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_大阪_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_大阪_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_兵庫_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_兵庫_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_兵庫_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_奈良_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_奈良_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_奈良_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_奈良_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_奈良_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_奈良_8": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_和歌山_1": [
+    "1night"
+  ],
+  "niche_和歌山_2": [
+    "1night"
+  ],
+  "niche_和歌山_3": [
+    "1night"
+  ],
+  "niche_和歌山_6": [
+    "1night"
+  ],
+  "niche_和歌山_8": [
+    "1night"
+  ],
+  "niche_鳥取_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_鳥取_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_鳥取_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_鳥取_8": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_島根_1": [
+    "1night"
+  ],
+  "niche_島根_4": [
+    "1night"
+  ],
+  "niche_島根_6": [
+    "1night"
+  ],
+  "niche_岡山_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_広島_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_山口_2": [
+    "1night"
+  ],
+  "niche_山口_4": [
+    "1night"
+  ],
+  "niche_山口_6": [
+    "1night"
+  ],
+  "niche_徳島_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_徳島_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_徳島_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_香川_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_香川_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_香川_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_高知_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_高知_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_高知_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福岡_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福岡_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福岡_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福岡_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_福岡_7": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_佐賀_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_佐賀_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_佐賀_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_長崎_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_長崎_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_長崎_7": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_熊本_1": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_熊本_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_熊本_5": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_熊本_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_熊本_8": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_大分_1": [
+    "1night"
+  ],
+  "niche_大分_2": [
+    "1night"
+  ],
+  "niche_大分_3": [
+    "1night"
+  ],
+  "niche_大分_4": [
+    "1night"
+  ],
+  "niche_宮崎_2": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮崎_3": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮崎_4": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮崎_6": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_宮崎_7": [
+    "daytrip",
+    "1night"
+  ],
+  "niche_鹿児島_1": [
+    "1night"
+  ],
+  "niche_鹿児島_2": [
+    "1night"
+  ],
+  "niche_鹿児島_3": [
+    "1night"
+  ],
+  "niche_鹿児島_5": [
+    "1night"
+  ],
+  "niche_沖縄_1": [
+    "daytrip",
+    "1night"
+  ],
+  "sapporo": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "aomori": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "maebashi": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "yamagata": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "fukushima": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "kofu": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "matsue": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "yamaguchi": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "kochi": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "saga": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "oita": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "miyazaki": [
+    "daytrip",
+    "1night",
+    "2night"
+  ],
+  "wakimachi": [
+    "daytrip",
+    "1night"
+  ],
+  "arimatsu": [
+    "daytrip",
+    "1night"
+  ],
+  "asuke": [
+    "daytrip",
+    "1night"
+  ],
+  "unno-juku": [
+    "daytrip",
+    "1night"
+  ],
+  "yame": [
+    "daytrip",
+    "1night"
+  ],
+  "takatori": [
+    "daytrip",
+    "1night"
+  ],
+  "seki-juku": [
+    "daytrip",
+    "1night"
+  ],
+  "hiketa": [
+    "daytrip",
+    "1night"
+  ],
+  "ubayu-onsen": [
+    "1night"
+  ],
+  "jindaiji": [
+    "daytrip"
+  ],
+  "kunitachi": [
+    "daytrip"
+  ],
+  "todoroki-keikoku": [
+    "daytrip"
+  ],
+  "gyoda": [
+    "daytrip",
+    "1night"
+  ],
+  "kinchakuda": [
+    "daytrip"
+  ],
+  "soka-matsubara": [
+    "daytrip"
+  ],
+  "fukaya": [
+    "daytrip"
+  ],
+  "higashichichibu": [
+    "daytrip"
+  ],
+  "kisarazu": [
+    "daytrip",
+    "1night"
+  ],
+  "futtsu-misaki": [
+    "daytrip"
+  ],
+  "kasamori-kannon": [
+    "daytrip"
+  ],
+  "shirahama-boso": [
+    "1night"
+  ],
+  "kawasaki-daishi": [
+    "daytrip"
+  ],
+  "miyagase": [
+    "daytrip"
+  ],
+  "oyama-afuri": [
+    "daytrip"
+  ],
+  "shomyoji": [
+    "daytrip"
+  ],
+  "kannojigoku": [
+    "1night"
+  ],
+  "yunohira-onsen": [
+    "1night"
+  ],
+  "hagenoyu-onsen": [
+    "1night"
+  ],
+  "yunotsuru-onsen": [
+    "1night"
+  ],
+  "tsuetate-onsen": [
+    "1night"
+  ],
+  "funagoya-onsen": [
+    "1night"
+  ],
+  "kumanokawa-onsen": [
+    "1night"
+  ],
+  "furuyu-onsen": [
+    "1night"
+  ],
+  "hinokage-onsen": [
+    "1night"
+  ],
+  "namari-onsen": [
+    "1night"
+  ],
+  "geto-onsen": [
+    "1night"
+  ],
+  "matsukawa-iwate": [
+    "1night"
+  ],
+  "gaga-onsen": [
+    "1night"
+  ],
+  "kuroyu": [
+    "1night"
+  ],
+  "doroyu": [
+    "1night"
+  ],
+  "tokusa": [
+    "1night"
+  ],
+  "kaikake": [
+    "1night"
+  ],
+  "nakabusa": [
+    "1night"
+  ],
+  "kuronagi": [
+    "1night"
+  ],
+  "nigorigo": [
+    "1night"
+  ],
+  "nishiyama-yama": [
+    "1night"
+  ],
+  "umegashima": [
+    "1night"
+  ],
+  "horoka": [
+    "1night"
+  ],
+  "osawa-onsen": [
+    "1night"
+  ],
+  "yubama": [
+    "1night"
+  ],
+  "kanigasaki": [
+    "1night"
+  ],
+  "utto": [
+    "1night"
+  ],
+  "seorasou": [
+    "1night"
+  ],
+  "yunohana-fk": [
+    "1night"
+  ],
+  "tsubame-onsen": [
+    "1night"
+  ],
+  "yumata": [
+    "1night"
+  ],
+  "kamikitayama": [
+    "1night"
+  ],
+  "iwai-tottori": [
+    "1night"
+  ],
+  "misasa2": [
+    "1night"
+  ],
+  "yuki-hiroshima": [
+    "1night"
+  ],
+  "yunoyama": [
+    "1night"
+  ],
+  "yumura-hyogo": [
+    "1night"
+  ],
+  "shioda": [
+    "1night"
+  ],
+  "sumoto-onsen": [
+    "1night"
+  ],
+  "arifuku": [
+    "1night"
+  ],
+  "izumoyumura": [
+    "1night"
+  ],
+  "shikano": [
+    "1night"
+  ],
+  "togo": [
+    "1night"
+  ],
+  "yoshioka": [
+    "1night"
+  ],
+  "miyahama": [
+    "1night"
+  ],
+  "nagatoyumoto": [
+    "1night"
+  ],
+  "tawarayama": [
+    "1night"
+  ],
+  "yuno-yamaguchi": [
+    "1night"
+  ],
+  "nibukawa": [
+    "1night"
+  ],
+  "yunoura": [
+    "1night"
+  ],
+  "chugu": [
+    "1night"
+  ],
+  "yunomine": [
+    "1night"
+  ],
+  "iizaka": [
+    "1night"
+  ],
+  "higashiyama-aizu": [
+    "1night"
+  ],
+  "yamanaka-onsen": [
+    "1night"
+  ],
+  "hirayu": [
+    "1night"
+  ],
+  "shinhotaka": [
+    "1night"
+  ],
+  "kaike": [
+    "1night"
+  ],
+  "imajo": [
+    "1night"
+  ],
+  "mitarai": [
+    "1night"
+  ],
+  "unomachi": [
+    "1night"
+  ],
+  "murata-miyagi": [
+    "1night"
+  ],
+  "akaiwa-gunma": [
+    "1night"
+  ],
+  "inariyama": [
+    "1night"
+  ],
+  "fukiware": [
+    "1night"
+  ],
+  "myogisan": [
+    "1night"
+  ],
+  "sasagawa": [
+    "1night"
+  ],
+  "shomyodaki": [
+    "1night"
+  ],
+  "sotomo": [
+    "1night"
+  ],
+  "rurikei": [
+    "1night"
+  ],
+  "kasumi-kaigan": [
+    "1night"
+  ],
+  "ojika": [
+    "1night"
+  ],
+  "kuniga": [
+    "1night"
+  ],
+  "dangyokei": [
+    "1night"
+  ],
+  "sandankyo": [
+    "1night"
+  ],
+  "chomonkyo": [
+    "1night"
+  ],
+  "omogokei": [
+    "1night"
+  ],
+  "toriike": [
+    "1night"
+  ],
+  "nasonoshirataki": [
+    "1night"
+  ],
+  "sekichukei": [
+    "1night"
+  ],
+  "inunakiyama": [
+    "1night"
+  ],
+  "naguri": [
+    "1night"
+  ],
+  "ryokami": [
+    "1night"
+  ],
+  "takagoya": [
+    "1night"
+  ],
+  "naruko-kyo": [
+    "1night"
+  ],
+  "hoshida": [
+    "1night"
+  ],
+  "iojima-nagasaki": [
+    "1night"
+  ],
+  "kirifuri": [
+    "1night"
+  ]
+}
