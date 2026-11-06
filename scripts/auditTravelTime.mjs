@@ -4,12 +4,16 @@
 //  3. ハブページ（dist）の時間帯に、見積もりの旅先へ「目安」が付いている（カードと見出し）
 //  4. description に、疑わしい・式由来・travelTime と一致しない・値のない所要時間の文が残っていない
 //  5. 変更前の travelTime のバックアップがある
+//  6. 記事側（lead・本文・featured_stay・spots）に、疑わしい組の文・travelTime と食い違う文が残っていない（公式で確認した文は scripts/data/articleTimeVerified.json）
+//  7. 旅先ページのメタ description に所要時間の文が無い
 // 使い方: node scripts/auditTravelTime.mjs（3 は dist が要る。無ければ飛ばして「dist なし」と出す）
 import fs from 'fs';
 import path from 'path';
 import {
   root, ORIGINS, NAME_TO_KEY, FORMULA_ORIGINS, lowerBound, RATIO, originTimePattern, minutesOf, splitSentences, isAllowedText,
 } from './travelTimeBound.mjs';
+import { classifyArticleTime } from './classifyArticleTime.mjs';
+import { metaNow, isTravelTimeSentence } from './buildMetaDescriptions.mjs';
 
 const dests = JSON.parse(fs.readFileSync(path.join(root, 'src/data/destinations.json'), 'utf8'));
 const hubs = JSON.parse(fs.readFileSync(path.join(root, 'src/data/hubCities.json'), 'utf8'));
@@ -34,6 +38,13 @@ for (const d of dests) {
     }
   }
 }
+
+// 記事側の所要時間の文
+const verified = new Set(JSON.parse(fs.readFileSync(path.join(root, 'scripts/data/articleTimeVerified.json'), 'utf8')).items.map((x) => `${x.id}\t${x.line}`));
+const artBad = classifyArticleTime(dests).filter((x) => x.cat !== 'C' && !verified.has(`${x.id}\t${x.line}`)).map((x) => `${x.id}「${x.line.slice(0, 24)}」`);
+// メタ description の所要時間の文
+// 手書きの seo（鎌倉・車なしガイドなど。公式で確認した数字）は対象外。自動で作った seo（auto: true）と、記事・説明文から作られるものを見る
+const metaBad = dests.filter((d) => { const m = metaNow(d); if (m.src === 'seo' && !d.seo?.auto) return false; return m.text.split(/(?<=。)/).some((s) => isTravelTimeSentence(s)); }).map((d) => d.id);
 
 // ハブページの「目安」
 const distHub = path.join(root, 'dist/hub');
@@ -67,6 +78,8 @@ console.log(`最短値を1.25倍以上下回る組: ${under.length}件${fmt(unde
 console.log(`travelTimeEstimated の付け忘れ: ${noEst.length}件${fmt(noEst)}`);
 console.log(`ハブページの「目安」の欠け: ${noMark.length}件${fmt(noMark)}（確認したハブ ${hubChecked}${hubChecked ? '' : '・dist なし'}）`);
 console.log(`description に残る疑わしい所要時間の文: ${text.length}件${fmt(text)}`);
+console.log(`記事側に残る疑わしい所要時間の文: ${artBad.length}件${fmt(artBad)}`);
+console.log(`メタ description に残る所要時間の文: ${metaBad.length}件${fmt(metaBad)}`);
 console.log(`変更前の travelTime のバックアップ: ${backupOk ? 'あり' : 'なし'}`);
 console.log(`参考: 最短値をわずかに下回る組（1.0〜1.25倍・触っていない）: ${band}件 / 目安の付いた組: ${estPairs}件`);
-process.exit(under.length + noEst.length + noMark.length + text.length + (backupOk ? 0 : 1) ? 1 : 0);
+process.exit(under.length + noEst.length + noMark.length + text.length + artBad.length + metaBad.length + (backupOk ? 0 : 1) ? 1 : 0);

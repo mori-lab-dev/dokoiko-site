@@ -114,6 +114,8 @@ const AUDITS = [
       'travelTimeEstimated の付け忘れ': Z(num(/付け忘れ:\s*(\d+)件/, o)),
       'ハブページの「目安」の欠け': Z(num(/「目安」の欠け:\s*(\d+)件/, o)),
       'description に残る疑わしい所要時間の文': Z(num(/残る疑わしい所要時間の文:\s*(\d+)件/, o)),
+      '記事側に残る疑わしい所要時間の文': Z(num(/記事側に残る疑わしい所要時間の文:\s*(\d+)件/, o)),
+      'メタ description に残る所要時間の文': Z(num(/メタ description に残る所要時間の文:\s*(\d+)件/, o)),
       '最短値をわずかに下回る組（参考）': I(num(/（1\.0〜1\.25倍・触っていない）:\s*(\d+)件/, o)) }) },
 
   { id: 'structured-data', tier: 'dist', title: '構造化データ（TouristAttraction・LodgingBusiness・BreadcrumbList）が画面の内容と合っているか',

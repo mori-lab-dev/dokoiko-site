@@ -1,0 +1,6724 @@
+[
+  {
+    "id": "nikko",
+    "name": "日光",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から2時間もかからないのに、別の時代に迷い込んだような感覚になる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 115,
+        "cat": "C",
+        "why": "一致（文120分・値115分）"
+      }
+    ]
+  },
+  {
+    "id": "karuizawa",
+    "name": "軽井沢",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で約1時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 105,
+        "cat": "B",
+        "why": "文60分・travelTime 105分"
+      }
+    ]
+  },
+  {
+    "id": "nara",
+    "name": "奈良",
+    "field": "記事本文",
+    "loc": "sections.3.info",
+    "line": "※奈良市内からは車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "奈良",
+        "key": "nara",
+        "text": 60,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（奈良市内）"
+      }
+    ]
+  },
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "石垣港から車で約30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "石垣",
+        "key": "ishigaki",
+        "text": 30,
+        "tt": 120,
+        "cat": "C",
+        "why": "施設・域内（石垣港か）"
+      }
+    ]
+  },
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "石垣港からフェリーで15分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "石垣",
+        "key": "ishigaki",
+        "text": 15,
+        "tt": 120,
+        "cat": "C",
+        "why": "施設・域内（石垣港か）"
+      }
+    ]
+  },
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "石垣空港から車で約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "石垣",
+        "key": "ishigaki",
+        "text": 10,
+        "tt": 120,
+        "cat": "C",
+        "why": "施設・域内（石垣空港）"
+      }
+    ]
+  },
+  {
+    "id": "ishigaki",
+    "name": "石垣島",
+    "field": "spots",
+    "loc": "spots.1.description",
+    "line": "石垣港からフェリー15分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "石垣",
+        "key": "ishigaki",
+        "text": 15,
+        "tt": 120,
+        "cat": "C",
+        "why": "施設・域内（石垣港か）"
+      }
+    ]
+  },
+  {
+    "id": "beppu",
+    "name": "別府",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR別府駅から亀の井バスで約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 20,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（別府駅か）"
+      }
+    ]
+  },
+  {
+    "id": "beppu",
+    "name": "別府",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "別府から車で30分ほど山を上がると、湯布院に出る。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 30,
+        "tt": 0,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "beppu",
+    "name": "別府",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "別府駅からJR久大本線で約35分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 35,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（別府駅か）"
+      }
+    ]
+  },
+  {
+    "id": "otaru",
+    "name": "小樽",
+    "field": "spots",
+    "loc": "spots.5.description",
+    "line": "札幌から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": 50,
+        "cat": "C",
+        "why": "一致（文60分・値50分）"
+      }
+    ]
+  },
+  {
+    "id": "matsushima",
+    "name": "松島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "仙台から電車で40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "仙台",
+        "key": "sendai",
+        "text": 40,
+        "tt": 40,
+        "cat": "C",
+        "why": "一致（文40分・値40分）"
+      }
+    ]
+  },
+  {
+    "id": "shodoshima",
+    "name": "小豆島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高松港から約60分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 60,
+        "tt": 65,
+        "cat": "C",
+        "why": "施設・域内（高松港か）"
+      }
+    ]
+  },
+  {
+    "id": "mihonoseki",
+    "name": "美保関",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松江から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松江",
+        "key": "matsue",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "mihonoseki",
+    "name": "美保関",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：松江駅からバス約50分「美保関」下車、徒歩5分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松江",
+        "key": "matsue",
+        "text": 50,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（松江駅か）"
+      }
+    ]
+  },
+  {
+    "id": "tokashiki-jima",
+    "name": "渡嘉敷島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から高速船で約35分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 35,
+        "tt": 65,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "kumejima",
+    "name": "久米島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から飛行機で約35分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 35,
+        "tt": 70,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "miyakojima",
+    "name": "宮古島",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：宮古空港から車で約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 20,
+        "tt": 110,
+        "cat": "C",
+        "why": "施設・域内（宮古空港）"
+      }
+    ]
+  },
+  {
+    "id": "miyakojima",
+    "name": "宮古島",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：宮古空港から車で約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 15,
+        "tt": 110,
+        "cat": "C",
+        "why": "施設・域内（宮古空港）"
+      }
+    ]
+  },
+  {
+    "id": "miyakojima",
+    "name": "宮古島",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：宮古空港から車で約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 10,
+        "tt": 110,
+        "cat": "C",
+        "why": "施設・域内（宮古空港）"
+      }
+    ]
+  },
+  {
+    "id": "miyakojima",
+    "name": "宮古島",
+    "field": "記事本文",
+    "loc": "sections.3.info",
+    "line": "アクセス：宮古空港から車で約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 20,
+        "tt": 110,
+        "cat": "C",
+        "why": "施設・域内（宮古空港）"
+      }
+    ]
+  },
+  {
+    "id": "hakone",
+    "name": "箱根",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で約40分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 40,
+        "tt": 120,
+        "cat": "B",
+        "why": "文40分・travelTime 120分"
+      }
+    ]
+  },
+  {
+    "id": "shimoda",
+    "name": "下田",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から2時間ちょっとで、こんなに遠い場所に来られる。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 180,
+        "cat": "B",
+        "why": "文120分(約)・travelTime 180分"
+      }
+    ]
+  },
+  {
+    "id": "izu-oshima",
+    "name": "伊豆大島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から船で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 115,
+        "cat": "C",
+        "why": "一致（文120分・値115分）"
+      }
+    ]
+  },
+  {
+    "id": "arima-onsen",
+    "name": "有馬温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "神戸から電車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "神戸",
+        "key": "kobe",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "kurashiki-o",
+    "name": "倉敷",
+    "field": "記事本文",
+    "loc": "sections.3.info",
+    "line": "アクセス：JR倉敷駅から徒歩約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "倉敷",
+        "key": "kurashiki",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（倉敷駅か）"
+      }
+    ]
+  },
+  {
+    "id": "kurashiki-o",
+    "name": "倉敷",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "倉敷駅から徒歩約15分（美観地区内）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "倉敷",
+        "key": "kurashiki",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（倉敷駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shirahama-o",
+    "name": "白浜",
+    "field": "記事本文",
+    "loc": "sections.3.body",
+    "line": "白浜から那智へは車で約1時間15分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "白浜",
+        "key": "shirahama",
+        "text": 75,
+        "tt": 245,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "shirahama-o",
+    "name": "白浜",
+    "field": "記事本文",
+    "loc": "sections.3.info",
+    "line": "白浜からの所要時間：車で約75分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "白浜",
+        "key": "shirahama",
+        "text": 75,
+        "tt": 245,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "shirahama-o",
+    "name": "白浜",
+    "field": "記事本文",
+    "loc": "sections.4.info",
+    "line": "白浜からの所要時間：車で約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "白浜",
+        "key": "shirahama",
+        "text": 50,
+        "tt": 245,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "shirahama-o",
+    "name": "白浜",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "JR白浜駅から車約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "白浜",
+        "key": "shirahama",
+        "text": 15,
+        "tt": 245,
+        "cat": "C",
+        "why": "施設・域内（白浜駅か）"
+      }
+    ]
+  },
+  {
+    "id": "amakusa",
+    "name": "天草",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "熊本市内から車で2時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "熊本",
+        "key": "kumamoto",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（熊本市内）"
+      }
+    ]
+  },
+  {
+    "id": "zaosan",
+    "name": "蔵王",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：山形駅からバスで約40分（蔵王温泉バスターミナル下車）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "山形",
+        "key": "yamagata",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（山形駅か）"
+      }
+    ]
+  },
+  {
+    "id": "zaosan",
+    "name": "蔵王",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "山形駅からバス約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "山形",
+        "key": "yamagata",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（山形駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shimonoseki",
+    "name": "下関",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "下関駅からバス・タクシー約10分（赤間神宮前）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "下関",
+        "key": "shimonoseki",
+        "text": 10,
+        "tt": 230,
+        "cat": "C",
+        "why": "施設・域内（下関駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hakuba",
+    "name": "白馬",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 260,
+        "cat": "B",
+        "why": "文150分・travelTime 260分"
+      }
+    ]
+  },
+  {
+    "id": "tottori",
+    "name": "鳥取",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：鳥取駅からバスで約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鳥取",
+        "key": "tottori",
+        "text": 20,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（鳥取駅か）"
+      }
+    ]
+  },
+  {
+    "id": "akita",
+    "name": "秋田",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "JR秋田駅から歩いて10分かからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "秋田",
+        "key": "akita",
+        "text": 10,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（秋田駅か）"
+      }
+    ]
+  },
+  {
+    "id": "akita",
+    "name": "秋田",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR秋田駅から徒歩約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "秋田",
+        "key": "akita",
+        "text": 10,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（秋田駅か）"
+      }
+    ]
+  },
+  {
+    "id": "akita",
+    "name": "秋田",
+    "field": "spots",
+    "loc": "spots.1.description",
+    "line": "秋田駅から徒歩10分足らずの久保田城跡。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "秋田",
+        "key": "akita",
+        "text": 10,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（秋田駅か）"
+      }
+    ]
+  },
+  {
+    "id": "takao",
+    "name": "高尾山",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 80,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "tateyama-chiba",
+    "name": "館山",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で2時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 110,
+        "cat": "C",
+        "why": "一致（文120分・値110分）"
+      }
+    ]
+  },
+  {
+    "id": "gokayama",
+    "name": "五箇山",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "富山市内から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "富山",
+        "key": "toyama",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（富山市内）"
+      }
+    ]
+  },
+  {
+    "id": "jozankei",
+    "name": "定山渓",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌市内から車で40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 40,
+        "tt": 60,
+        "cat": "C",
+        "why": "施設・域内（札幌市内）"
+      }
+    ]
+  },
+  {
+    "id": "jozankei",
+    "name": "定山渓",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "札幌から40分とは思えないくらい、静かだ。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 40,
+        "tt": 60,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "jozankei",
+    "name": "定山渓",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "札幌市内から車約40分、バス（じょうてつバス）で約70分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 40,
+        "tt": 60,
+        "cat": "C",
+        "why": "施設・域内（札幌市内）"
+      }
+    ]
+  },
+  {
+    "id": "biei",
+    "name": "美瑛",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "北海道の内陸、旭川から車で30分ほど走ると、急に景色が変わる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "biei",
+    "name": "美瑛",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：旭川空港から車で約35分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 35,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川空港）"
+      }
+    ]
+  },
+  {
+    "id": "miyako-iwate",
+    "name": "宮古",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で2時間半、そこからさらに在来線に乗り換えて。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 240,
+        "cat": "B",
+        "why": "文150分・travelTime 240分"
+      }
+    ]
+  },
+  {
+    "id": "miyako-iwate",
+    "name": "宮古",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：宮古駅から路線バスで約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮古駅か）"
+      }
+    ]
+  },
+  {
+    "id": "miyako-iwate",
+    "name": "宮古",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "宮古市街から車で約40分かかる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮古市街）"
+      }
+    ]
+  },
+  {
+    "id": "miyako-iwate",
+    "name": "宮古",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：宮古市街から車で約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮古市街）"
+      }
+    ]
+  },
+  {
+    "id": "miyako-iwate",
+    "name": "宮古",
+    "field": "記事本文",
+    "loc": "sections.3.body",
+    "line": "宮古から車で1時間弱、山の中に入っていく。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "miyako-iwate",
+    "name": "宮古",
+    "field": "記事本文",
+    "loc": "sections.3.info",
+    "line": "アクセス：宮古市街から車で約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 50,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮古市街）"
+      }
+    ]
+  },
+  {
+    "id": "amami",
+    "name": "奄美大島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島からわずか1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "unzen",
+    "name": "雲仙",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "長崎市内から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "長崎",
+        "key": "nagasaki",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（長崎市内）"
+      }
+    ]
+  },
+  {
+    "id": "ashizuri",
+    "name": "足摺岬",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高知市内から車で約2時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知市内）"
+      }
+    ]
+  },
+  {
+    "id": "inuyama",
+    "name": "犬山",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "名古屋から電車で30分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "名古屋",
+        "key": "nagoya",
+        "text": 30,
+        "tt": 50,
+        "cat": "B",
+        "why": "文30分・travelTime 50分"
+      }
+    ]
+  },
+  {
+    "id": "miyama",
+    "name": "美山",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "京都市内から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "京都",
+        "key": "kyoto",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（京都市内）"
+      }
+    ]
+  },
+  {
+    "id": "yuda-onsen",
+    "name": "湯田温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR山口駅からバス約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "山口",
+        "key": "yamaguchi",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（山口駅か）"
+      }
+    ]
+  },
+  {
+    "id": "uchiko",
+    "name": "内子",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松山から車で40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "shima-onsen",
+    "name": "四万温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 175,
+        "cat": "B",
+        "why": "文150分・travelTime 175分"
+      }
+    ]
+  },
+  {
+    "id": "oirase",
+    "name": "奥入瀬",
+    "field": "記事本文",
+    "loc": "sections.3.info",
+    "line": "アクセス：JR青森駅からバスで約2時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 150,
+        "tt": 90,
+        "cat": "C",
+        "why": "施設・域内（青森駅か）"
+      }
+    ]
+  },
+  {
+    "id": "oirase",
+    "name": "奥入瀬",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "八戸駅からバス約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "八戸",
+        "key": "hachinohe",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（八戸駅か）"
+      }
+    ]
+  },
+  {
+    "id": "mashiko",
+    "name": "益子",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で2時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 110,
+        "cat": "C",
+        "why": "一致（文120分・値110分）"
+      }
+    ]
+  },
+  {
+    "id": "hitoyoshi",
+    "name": "人吉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "熊本市内から特急で約1時間20分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "熊本",
+        "key": "kumamoto",
+        "text": 80,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（熊本市内）"
+      }
+    ]
+  },
+  {
+    "id": "minakami-onsen",
+    "name": "水上温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で約70分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 70,
+        "tt": 150,
+        "cat": "B",
+        "why": "文70分・travelTime 150分"
+      }
+    ]
+  },
+  {
+    "id": "ozu",
+    "name": "大洲",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松山から特急で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "suzu",
+    "name": "珠洲",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "金沢から車で3時間近くかかる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "金沢",
+        "key": "kanazawa",
+        "text": 180,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "izu-kogen",
+    "name": "伊豆高原",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線と在来線で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 130,
+        "cat": "C",
+        "why": "一致（文120分・値130分）"
+      }
+    ]
+  },
+  {
+    "id": "tanabe",
+    "name": "田辺",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "田辺駅から歩いて10分もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "田辺",
+        "key": "tanabe",
+        "text": 10,
+        "tt": 250,
+        "cat": "C",
+        "why": "施設・域内（田辺駅か）"
+      }
+    ]
+  },
+  {
+    "id": "tanabe",
+    "name": "田辺",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "田辺から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "田辺",
+        "key": "tanabe",
+        "text": 30,
+        "tt": 250,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "tanabe",
+    "name": "田辺",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR白浜駅から明光バス約10分「崎の湯前」下車すぐ",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "白浜",
+        "key": "shirahama",
+        "text": 10,
+        "tt": 260,
+        "cat": "C",
+        "why": "施設・域内（白浜駅か）"
+      }
+    ]
+  },
+  {
+    "id": "tanabe",
+    "name": "田辺",
+    "field": "spots",
+    "loc": "spots.2.description",
+    "line": "田辺から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "田辺",
+        "key": "tanabe",
+        "text": 30,
+        "tt": 250,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "itoshima",
+    "name": "糸島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "福岡市内から車で40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福岡",
+        "key": "fukuoka",
+        "text": 40,
+        "tt": 60,
+        "cat": "C",
+        "why": "施設・域内（福岡市内）"
+      }
+    ]
+  },
+  {
+    "id": "akan",
+    "name": "阿寒湖",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "釧路空港から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "釧路",
+        "key": "kushiro",
+        "text": 60,
+        "tt": 330,
+        "cat": "C",
+        "why": "施設・域内（釧路空港）"
+      }
+    ]
+  },
+  {
+    "id": "shikotsu",
+    "name": "支笏湖",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": 60,
+        "cat": "C",
+        "why": "一致（文60分・値60分）"
+      }
+    ]
+  },
+  {
+    "id": "shikotsu",
+    "name": "支笏湖",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：札幌駅から車で約60分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": 60,
+        "cat": "C",
+        "why": "施設・域内（札幌駅か）"
+      }
+    ]
+  },
+  {
+    "id": "sakunami-onsen",
+    "name": "秋保温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "仙台市内から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "仙台",
+        "key": "sendai",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（仙台市内）"
+      }
+    ]
+  },
+  {
+    "id": "kawagoe",
+    "name": "川越",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から30分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 30,
+        "tt": 60,
+        "cat": "B",
+        "why": "文30分・travelTime 60分"
+      }
+    ]
+  },
+  {
+    "id": "nasu",
+    "name": "那須",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 95,
+        "cat": "C",
+        "why": "一致（文90分・値95分）"
+      }
+    ]
+  },
+  {
+    "id": "choshi",
+    "name": "銚子",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "銚子は、東京から特急で約1時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 150,
+        "cat": "B",
+        "why": "文90分・travelTime 150分"
+      }
+    ]
+  },
+  {
+    "id": "ashikaga",
+    "name": "足利",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 100,
+        "cat": "C",
+        "why": "一致（文90分・値100分）"
+      }
+    ]
+  },
+  {
+    "id": "shiobara-onsen",
+    "name": "塩原温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 95,
+        "cat": "B",
+        "why": "文150分・travelTime 95分"
+      }
+    ]
+  },
+  {
+    "id": "sado-island",
+    "name": "佐渡島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "新潟港からジェットフォイルで67分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "新潟",
+        "key": "niigata",
+        "text": 67,
+        "tt": 120,
+        "cat": "C",
+        "why": "施設・域内（新潟港か）"
+      }
+    ]
+  },
+  {
+    "id": "kiyosato",
+    "name": "清里",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で2時間もかからないのに、",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 210,
+        "cat": "B",
+        "why": "文120分(上限)・travelTime 210分"
+      }
+    ]
+  },
+  {
+    "id": "wakasa-obama",
+    "name": "若狭小浜",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "京都から特急で2時間かからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "京都",
+        "key": "kyoto",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "shimanto",
+    "name": "四万十",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高知市内から車で2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知市内）"
+      }
+    ]
+  },
+  {
+    "id": "usuki",
+    "name": "臼杵",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "大分空港から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大分",
+        "key": "oita",
+        "text": 60,
+        "tt": 45,
+        "cat": "C",
+        "why": "施設・域内（大分空港）"
+      }
+    ]
+  },
+  {
+    "id": "tsushima",
+    "name": "対馬",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "福岡から高速船で70分。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "福岡",
+        "key": "fukuoka",
+        "text": 70,
+        "tt": 50,
+        "cat": "A",
+        "why": "最短値を下回る・補正した組"
+      }
+    ]
+  },
+  {
+    "id": "kikuchi",
+    "name": "菊池",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "熊本市内から車で1時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "熊本",
+        "key": "kumamoto",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（熊本市内）"
+      }
+    ]
+  },
+  {
+    "id": "yonaguni-island",
+    "name": "与那国島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から飛行機で約1時間。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": 150,
+        "cat": "A",
+        "why": "最短値を下回る・補正した組"
+      }
+    ]
+  },
+  {
+    "id": "nakijin",
+    "name": "今帰仁",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 120,
+        "tt": 100,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "motobu",
+    "name": "本部",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から高速を使って約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 120,
+        "tt": 90,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "motobu",
+    "name": "本部",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：那覇空港から車で約2時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 120,
+        "tt": 90,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "zamami-island",
+    "name": "座間味島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から高速船で約50分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 50,
+        "tt": 80,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "ie-island",
+    "name": "伊江島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から高速船で約50分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 50,
+        "tt": 100,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "matsushiro",
+    "name": "松代",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "長野市街から車で20分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "長野",
+        "key": "nagano",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（長野市街）"
+      }
+    ]
+  },
+  {
+    "id": "kuji",
+    "name": "久慈",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：八戸駅からJR八戸線で約1時間40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "八戸",
+        "key": "hachinohe",
+        "text": 100,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（八戸駅か）"
+      }
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から飛行機で1時間半。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 105,
+        "cat": "A",
+        "why": "最短値を下回る・補正した組"
+      }
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "帯広市街から車で20分ほど。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 20,
+        "tt": 240,
+        "cat": "C",
+        "why": "施設・域内（帯広市街）"
+      }
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：帯広駅から車で約25分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 25,
+        "tt": 240,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：帯広駅から車で約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 15,
+        "tt": 240,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：帯広駅から徒歩約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 15,
+        "tt": 240,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "obihiro",
+    "name": "帯広",
+    "field": "spots",
+    "loc": "spots.0.description",
+    "line": "帯広市街から車で20分、音更町にある農林水産省直轄の国営牧場。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 20,
+        "tt": 240,
+        "cat": "C",
+        "why": "施設・域内（帯広市街）"
+      }
+    ]
+  },
+  {
+    "id": "esashi-hokkaido",
+    "name": "江差",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から車で2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 120,
+        "tt": 90,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "chichibu",
+    "name": "秩父",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から西武線で約80分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 80,
+        "tt": 120,
+        "cat": "B",
+        "why": "文80分・travelTime 120分"
+      }
+    ]
+  },
+  {
+    "id": "oarai",
+    "name": "大洗",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で2時間かからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 95,
+        "cat": "C",
+        "why": "一致（文120分・値95分）"
+      }
+    ]
+  },
+  {
+    "id": "sano",
+    "name": "佐野",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から1時間ちょっとなのに、なぜかもう旅の匂いがする。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 80,
+        "cat": "B",
+        "why": "文60分(約)・travelTime 80分"
+      }
+    ]
+  },
+  {
+    "id": "narai-juku",
+    "name": "奈良井宿",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 185,
+        "cat": "B",
+        "why": "文150分・travelTime 185分"
+      }
+    ]
+  },
+  {
+    "id": "myoko-kogen",
+    "name": "妙高高原",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から約2時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 145,
+        "cat": "B",
+        "why": "文120分・travelTime 145分"
+      }
+    ]
+  },
+  {
+    "id": "fushimi",
+    "name": "伏見",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "京都駅から電車で10分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "京都",
+        "key": "kyoto",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（京都駅か）"
+      }
+    ]
+  },
+  {
+    "id": "tomonoura",
+    "name": "鞆の浦",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：福山駅からトモテツバス約40分「鞆の浦」下車すぐ",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福山",
+        "key": "fukuyama",
+        "text": 40,
+        "tt": 20,
+        "cat": "C",
+        "why": "施設・域内（福山駅か）"
+      }
+    ]
+  },
+  {
+    "id": "misaki-sadamisaki",
+    "name": "佐田岬",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松山から車で2時間以上。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "hyuga",
+    "name": "日向",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "宮崎空港から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮崎",
+        "key": "miyazaki",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮崎空港）"
+      }
+    ]
+  },
+  {
+    "id": "koshikijima",
+    "name": "甑島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島港からフェリーで約3時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 180,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島港か）"
+      }
+    ]
+  },
+  {
+    "id": "onna",
+    "name": "恩納村",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で1時間も走れば、もう別の世界だ。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": 75,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "nago",
+    "name": "名護",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇からバスで2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "yomitanson",
+    "name": "読谷村",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で約40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 40,
+        "tt": 30,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "shiraoi",
+    "name": "白老",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から特急で約1時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": 80,
+        "cat": "B",
+        "why": "文60分・travelTime 80分"
+      }
+    ]
+  },
+  {
+    "id": "tomamu",
+    "name": "トマム",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約2時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 120,
+        "tt": 150,
+        "cat": "B",
+        "why": "文120分・travelTime 150分"
+      }
+    ]
+  },
+  {
+    "id": "towada",
+    "name": "十和田",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR八戸駅からバスで約2時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "八戸",
+        "key": "hachinohe",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（八戸駅か）"
+      }
+    ]
+  },
+  {
+    "id": "kinugawa-onsen",
+    "name": "鬼怒川温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 120,
+        "cat": "C",
+        "why": "一致（文120分・値120分）"
+      }
+    ]
+  },
+  {
+    "id": "tsukuba",
+    "name": "つくば",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から1時間ちょっとで、こんなに空気が変わるのか。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 60,
+        "cat": "C",
+        "why": "一致（文60分・値60分）"
+      }
+    ]
+  },
+  {
+    "id": "kasama",
+    "name": "笠間",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で2時間かからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 90,
+        "cat": "C",
+        "why": "一致（文120分・値90分）"
+      }
+    ]
+  },
+  {
+    "id": "kujukuri",
+    "name": "九十九里",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から高速で2時間弱。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 100,
+        "cat": "C",
+        "why": "一致（文120分・値100分）"
+      }
+    ]
+  },
+  {
+    "id": "miura",
+    "name": "三浦",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から90分もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 100,
+        "cat": "C",
+        "why": "一致（文90分・値100分）"
+      }
+    ]
+  },
+  {
+    "id": "echigo-yuzawa",
+    "name": "越後湯沢",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から77分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 77,
+        "tt": 80,
+        "cat": "C",
+        "why": "一致（文77分・値80分）"
+      }
+    ]
+  },
+  {
+    "id": "tokoname",
+    "name": "常滑",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "名古屋から電車で30分ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "名古屋",
+        "key": "nagoya",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "一致（文30分・値40分）"
+      }
+    ]
+  },
+  {
+    "id": "minamichita",
+    "name": "南知多",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "名古屋から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "名古屋",
+        "key": "nagoya",
+        "text": 60,
+        "tt": 65,
+        "cat": "C",
+        "why": "一致（文60分・値65分）"
+      }
+    ]
+  },
+  {
+    "id": "sakai",
+    "name": "堺",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "大阪から電車で20分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大阪",
+        "key": "osaka",
+        "text": 20,
+        "tt": 25,
+        "cat": "C",
+        "why": "一致（文20分・値25分）"
+      }
+    ]
+  },
+  {
+    "id": "oki-island",
+    "name": "隠岐の島",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "登山口へのアクセス：別府港より車で約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 20,
+        "tt": 375,
+        "cat": "C",
+        "why": "施設・域内（別府港よ）"
+      }
+    ]
+  },
+  {
+    "id": "teshima",
+    "name": "豊島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高松港から高速船で約35分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 35,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（高松港か）"
+      }
+    ]
+  },
+  {
+    "id": "niyodogawa",
+    "name": "仁淀川",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高知市内から車で1〜2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知市内）"
+      }
+    ]
+  },
+  {
+    "id": "yusuhara",
+    "name": "梼原",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：高知市内から車で約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知市内）"
+      }
+    ]
+  },
+  {
+    "id": "yusuhara",
+    "name": "梼原",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：高知市内から車で約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知市内）"
+      }
+    ]
+  },
+  {
+    "id": "shikoku-karst",
+    "name": "四国カルスト",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：松山市内から車で約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（松山市内）"
+      }
+    ]
+  },
+  {
+    "id": "aoshima",
+    "name": "青島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "宮崎市街から車で20分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮崎",
+        "key": "miyazaki",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮崎市街）"
+      }
+    ]
+  },
+  {
+    "id": "chiran",
+    "name": "知覧",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島市内から車で40分ほど南へ走ると、空気が変わる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "aguni-island",
+    "name": "粟国島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から船で2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 150,
+        "tt": 130,
+        "cat": "B",
+        "why": "文150分・travelTime 130分"
+      }
+    ]
+  },
+  {
+    "id": "itoman",
+    "name": "糸満",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で30分も走れば、景色が変わる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "itoman",
+    "name": "糸満",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：那覇市内から車で約30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（那覇市内）"
+      }
+    ]
+  },
+  {
+    "id": "kijoka",
+    "name": "喜如嘉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "miyakejima",
+    "name": "三宅島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から船で約6時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 390,
+        "tt": 360,
+        "cat": "B",
+        "why": "文390分・travelTime 360分"
+      }
+    ]
+  },
+  {
+    "id": "shikinejima",
+    "name": "式根島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から船で3時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 180,
+        "tt": 270,
+        "cat": "B",
+        "why": "文180分・travelTime 270分"
+      }
+    ]
+  },
+  {
+    "id": "shirakawa",
+    "name": "白河",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東北新幹線で東京から約1時間。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 90,
+        "cat": "A",
+        "why": "最短値を下回る・補正した組"
+      }
+    ]
+  },
+  {
+    "id": "ryusendo",
+    "name": "龍泉洞",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR岩泉線は廃線のため、盛岡駅からバスまたは車で約2時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "盛岡",
+        "key": "morioka",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（盛岡駅か）"
+      }
+    ]
+  },
+  {
+    "id": "ryusendo",
+    "name": "龍泉洞",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "龍泉洞前バス停から徒歩約1分（盛岡駅からJRバス約131分）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "盛岡",
+        "key": "morioka",
+        "text": 131,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（盛岡駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gassan",
+    "name": "月山",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR山形駅からバスで約90分（志津バス停下車）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "山形",
+        "key": "yamagata",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（山形駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gassan",
+    "name": "月山",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR山形駅から車で約60分／バスで約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "山形",
+        "key": "yamagata",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（山形駅か）"
+      }
+    ]
+  },
+  {
+    "id": "yugawara-onsen",
+    "name": "湯河原温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で90分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 90,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "yokosuka",
+    "name": "横須賀",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 60,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "mishima",
+    "name": "三島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "新幹線で東京から45分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 45,
+        "tt": 100,
+        "cat": "B",
+        "why": "文45分・travelTime 100分"
+      }
+    ]
+  },
+  {
+    "id": "tajimi",
+    "name": "多治見",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "名古屋から電車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "名古屋",
+        "key": "nagoya",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "一致（文30分・値40分）"
+      }
+    ]
+  },
+  {
+    "id": "togakushi",
+    "name": "戸隠",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "戸隠は、長野市内から車で40分ほどの山の中にある。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "長野",
+        "key": "nagano",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（長野市内）"
+      }
+    ]
+  },
+  {
+    "id": "togakushi",
+    "name": "戸隠",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：長野駅からバスで約70分「戸隠奥社入口」下車",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "長野",
+        "key": "nagano",
+        "text": 70,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（長野駅か）"
+      }
+    ]
+  },
+  {
+    "id": "takarazuka",
+    "name": "宝塚",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "阪急電車で大阪から30分足らずで着く場所とは思えない密度がある。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大阪",
+        "key": "osaka",
+        "text": 30,
+        "tt": 30,
+        "cat": "C",
+        "why": "一致（文30分・値30分）"
+      }
+    ]
+  },
+  {
+    "id": "kashima",
+    "name": "鹿嶋",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で1時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 130,
+        "cat": "B",
+        "why": "文60分(約)・travelTime 130分"
+      }
+    ]
+  },
+  {
+    "id": "shiraoishi",
+    "name": "白石",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "仙台から20分なのに、ここは静かだ。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "仙台",
+        "key": "sendai",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "sanriku-miyako",
+    "name": "浄土ヶ浜",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：宮古駅から徒歩約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宮古",
+        "key": "miyako",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宮古駅か）"
+      }
+    ]
+  },
+  {
+    "id": "akita-semboku",
+    "name": "仙北",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 220,
+        "cat": "B",
+        "why": "文150分・travelTime 220分"
+      }
+    ]
+  },
+  {
+    "id": "tondabayashi",
+    "name": "富田林",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "大阪市内から電車で約40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大阪",
+        "key": "osaka",
+        "text": 40,
+        "tt": 30,
+        "cat": "C",
+        "why": "施設・域内（大阪市内）"
+      }
+    ]
+  },
+  {
+    "id": "nagi",
+    "name": "奈義",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "岡山市内から車で1時間ちょっと北へ走ると、",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "岡山",
+        "key": "okayama",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（岡山市内）"
+      }
+    ]
+  },
+  {
+    "id": "fukuyama",
+    "name": "福山",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "福山駅からバスで約30分、370円。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福山",
+        "key": "fukuyama",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（福山駅か）"
+      }
+    ]
+  },
+  {
+    "id": "fukuyama",
+    "name": "福山",
+    "field": "spots",
+    "loc": "spots.2.description",
+    "line": "福山駅からバス約30分・370円。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福山",
+        "key": "fukuyama",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（福山駅か）"
+      }
+    ]
+  },
+  {
+    "id": "yuwaku-onsen",
+    "name": "湯涌温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "金沢市内から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "金沢",
+        "key": "kanazawa",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（金沢市内）"
+      }
+    ]
+  },
+  {
+    "id": "yuwaku-onsen",
+    "name": "湯涌温泉",
+    "field": "spots",
+    "loc": "spots.0.description",
+    "line": "金沢市街から30分の山あいの温泉街。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "金沢",
+        "key": "kanazawa",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（金沢市街）"
+      }
+    ]
+  },
+  {
+    "id": "yura-wakayama",
+    "name": "由良",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "大阪から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大阪",
+        "key": "osaka",
+        "text": 90,
+        "tt": 140,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "asakura",
+    "name": "朝倉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "福岡市内から車で1時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福岡",
+        "key": "fukuoka",
+        "text": 60,
+        "tt": 70,
+        "cat": "C",
+        "why": "施設・域内（福岡市内）"
+      }
+    ]
+  },
+  {
+    "id": "minamiosumi",
+    "name": "南大隅",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島市内から車で2時間以上。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "chatan",
+    "name": "北谷",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 30,
+        "tt": 20,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "chatan",
+    "name": "北谷",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "那覇空港から車で約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 40,
+        "tt": 20,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "uruma",
+    "name": "うるま",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で1時間も走らないのに、",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": 30,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "hakusan",
+    "name": "白山",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：金沢駅から車で約1時間10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "金沢",
+        "key": "kanazawa",
+        "text": 70,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（金沢駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shingu-wakayama",
+    "name": "新宮",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR新宮駅から徒歩約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "新宮",
+        "key": "shingu",
+        "text": 15,
+        "tt": 310,
+        "cat": "C",
+        "why": "施設・域内（新宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shingu-wakayama",
+    "name": "新宮",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR新宮駅から徒歩約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "新宮",
+        "key": "shingu",
+        "text": 20,
+        "tt": 310,
+        "cat": "C",
+        "why": "施設・域内（新宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shingu-wakayama",
+    "name": "新宮",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR新宮駅から徒歩約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "新宮",
+        "key": "shingu",
+        "text": 10,
+        "tt": 310,
+        "cat": "C",
+        "why": "施設・域内（新宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "myoko",
+    "name": "妙高",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で約2時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 170,
+        "cat": "B",
+        "why": "文120分・travelTime 170分"
+      }
+    ]
+  },
+  {
+    "id": "hokkaido-hakodate",
+    "name": "函館",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "函館駅から徒歩5分、朝市はもう動いている。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 5,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hokkaido-hakodate",
+    "name": "函館",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR函館駅から徒歩約3分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 3,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hokkaido-hakodate",
+    "name": "函館",
+    "field": "spots",
+    "loc": "spots.1.description",
+    "line": "函館駅から徒歩5分、朝6時には動き出す市場。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 5,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hokkaido-kushiro",
+    "name": "釧路",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR釧路駅から徒歩15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "釧路",
+        "key": "kushiro",
+        "text": 15,
+        "tt": 310,
+        "cat": "C",
+        "why": "施設・域内（釧路駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hokkaido-kushiro",
+    "name": "釧路",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR釧路駅から徒歩15分、幣舞橋から徒歩3分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "釧路",
+        "key": "kushiro",
+        "text": 15,
+        "tt": 310,
+        "cat": "C",
+        "why": "施設・域内（釧路駅か）"
+      }
+    ]
+  },
+  {
+    "id": "kitami",
+    "name": "北見",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "北見市街からクルマで1時間弱。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "北見",
+        "key": "kitami",
+        "text": 60,
+        "tt": 360,
+        "cat": "C",
+        "why": "施設・域内（北見市街）"
+      }
+    ]
+  },
+  {
+    "id": "kitami",
+    "name": "北見",
+    "field": "spots",
+    "loc": "spots.2.description",
+    "line": "北見市街から車で1時間弱、目の前に広がる水面の大きさに思わず声が出る。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "北見",
+        "key": "kitami",
+        "text": 60,
+        "tt": 360,
+        "cat": "C",
+        "why": "施設・域内（北見市街）"
+      }
+    ]
+  },
+  {
+    "id": "monbetsu",
+    "name": "紋別",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌からバスで約5時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 300,
+        "tt": 280,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "ibaraki-mito",
+    "name": "水戸",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で1時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 75,
+        "cat": "B",
+        "why": "文60分(約)・travelTime 75分"
+      }
+    ]
+  },
+  {
+    "id": "takasaki",
+    "name": "高崎",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：高崎駅から上信電鉄「願成寺駅」下車徒歩15分、または車で約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高崎",
+        "key": "takasaki",
+        "text": 15,
+        "tt": 115,
+        "cat": "C",
+        "why": "施設・域内（高崎駅か）"
+      }
+    ]
+  },
+  {
+    "id": "odawara",
+    "name": "小田原",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線でわずか35分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 35,
+        "tt": 35,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "sawara",
+    "name": "佐原",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 90,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "katsuura-chiba",
+    "name": "勝浦",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で2時間もかからない場所に、こんなに海が本物の町があった。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 110,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "azumino",
+    "name": "安曇野",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 135,
+        "cat": "B",
+        "why": "文150分・travelTime 135分"
+      }
+    ]
+  },
+  {
+    "id": "yaizu",
+    "name": "焼津",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "静岡駅からJRで20分ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "静岡",
+        "key": "shizuoka",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（静岡駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hamanako",
+    "name": "浜名湖",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR浜松駅よりバスで約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "浜松",
+        "key": "hamamatsu",
+        "text": 40,
+        "tt": 70,
+        "cat": "C",
+        "why": "施設・域内（浜松駅よ）"
+      }
+    ]
+  },
+  {
+    "id": "gamagori",
+    "name": "蒲郡",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "名古屋から電車で1時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "名古屋",
+        "key": "nagoya",
+        "text": 60,
+        "tt": 40,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "otsu-shiga",
+    "name": "大津",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "京都から電車で10分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "京都",
+        "key": "kyoto",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "kusatsu-shiga",
+    "name": "草津",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "新幹線で京都から30分もかからないのに、",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "京都",
+        "key": "kyoto",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "kushimoto",
+    "name": "串本",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR串本駅からバス約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "串本",
+        "key": "kushimoto",
+        "text": 10,
+        "tt": 300,
+        "cat": "C",
+        "why": "施設・域内（串本駅か）"
+      }
+    ]
+  },
+  {
+    "id": "kure",
+    "name": "呉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "広島から電車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "広島",
+        "key": "hiroshima",
+        "text": 30,
+        "tt": 35,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "kagawa-takamatsu",
+    "name": "高松",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR高松駅から徒歩5分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 5,
+        "tt": 10,
+        "cat": "C",
+        "why": "施設・域内（高松駅か）"
+      }
+    ]
+  },
+  {
+    "id": "oguni-kumamoto",
+    "name": "小国",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "熊本市内から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "熊本",
+        "key": "kumamoto",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（熊本市内）"
+      }
+    ]
+  },
+  {
+    "id": "makurazaki",
+    "name": "枕崎",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島市内から車で1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "nanjo-okinawa",
+    "name": "南城",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で約40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 40,
+        "tt": 30,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "ikata",
+    "name": "伊方",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松山から車で2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "uda-nara",
+    "name": "宇陀",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "奈良市内から車で1時間ほど。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "奈良",
+        "key": "nara",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（奈良市内）"
+      }
+    ]
+  },
+  {
+    "id": "hachimantai-onsen",
+    "name": "後生掛温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：盛岡駅から車で約60分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "盛岡",
+        "key": "morioka",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（盛岡駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hioki",
+    "name": "日置",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島市内から車で30分ほど西へ走ると、",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "hioki",
+    "name": "日置",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：鹿児島市内から車で約30分、JR東市来駅から徒歩約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "hioki",
+    "name": "日置",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：鹿児島市内から車で約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 50,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "hioki",
+    "name": "日置",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR伊集院駅から車で約5分、鹿児島市内から車で約25分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 25,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島市内）"
+      }
+    ]
+  },
+  {
+    "id": "towada-lake",
+    "name": "十和田湖",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR青森駅からバスで約2時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 150,
+        "tt": 120,
+        "cat": "C",
+        "why": "施設・域内（青森駅か）"
+      }
+    ]
+  },
+  {
+    "id": "numata",
+    "name": "沼田",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "新幹線を使えば東京から2時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 100,
+        "cat": "C",
+        "why": "一致（文120分・値100分）"
+      }
+    ]
+  },
+  {
+    "id": "kujukuri-icho",
+    "name": "東浪見",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 80,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "kamishihoro",
+    "name": "上士幌",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "帯広から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 60,
+        "tt": 260,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "unzen2",
+    "name": "雲仙温泉",
+    "field": "featured_stay",
+    "loc": "featured_stay.shuttleInfo",
+    "line": "諫早駅・長崎空港から無料シャトルあり（約1時間）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "長崎",
+        "key": "nagasaki",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（長崎空港）"
+      }
+    ]
+  },
+  {
+    "id": "kochi-ino",
+    "name": "いの",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高知市内から車で30分も走れば、急に景色が変わる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知市内）"
+      }
+    ]
+  },
+  {
+    "id": "hiji",
+    "name": "日出",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "別府から車で20分。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 20,
+        "tt": 160,
+        "cat": "A",
+        "why": "式由来の出発地"
+      }
+    ]
+  },
+  {
+    "id": "hiji",
+    "name": "日出",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "日出温泉は、別府から20分の距離にあるのに、",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 20,
+        "tt": 160,
+        "cat": "A",
+        "why": "式由来の出発地"
+      }
+    ]
+  },
+  {
+    "id": "hiji",
+    "name": "日出",
+    "field": "spots",
+    "loc": "spots.2.description",
+    "line": "別府から20分の距離にありながら人が少なく静かな温泉。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 20,
+        "tt": 160,
+        "cat": "A",
+        "why": "式由来の出発地"
+      }
+    ]
+  },
+  {
+    "id": "tomari-okinawa",
+    "name": "伊平屋島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から船で約3時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 180,
+        "tt": 120,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_愛山渓温泉",
+    "name": "愛山渓温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_旭岳温泉",
+    "name": "旭岳温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "旭川市街から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川市街）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_旭岳温泉",
+    "name": "旭岳温泉",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "旭川駅から車：約1時間 / 旭川空港から約45分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川駅か）"
+      },
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 45,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川空港）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_旭岳温泉",
+    "name": "旭岳温泉",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "旭川駅からバス約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_北湯沢温泉",
+    "name": "北湯沢温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約90分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_北湯沢温泉",
+    "name": "北湯沢温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：札幌から車で約90分、道央自動車道・大滝ICより約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_然別湖畔温泉",
+    "name": "然別湖畔温泉",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：帯広駅から車で約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 50,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_然別湖畔温泉",
+    "name": "然別湖畔温泉",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "帯広駅からバス約1時間20分（新得駅からは約1時間）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 80,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_支笏湖温泉",
+    "name": "支笏湖温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_支笏湖温泉",
+    "name": "支笏湖温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：札幌駅から車で約60分、またはバスで約90分（北海道中央バス・支笏湖行き）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（札幌駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_定山渓温泉",
+    "name": "定山渓温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_定山渓温泉",
+    "name": "定山渓温泉",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "札幌駅から予約制バス「かっぱライナー」約60分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（札幌駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_層雲峡温泉",
+    "name": "層雲峡温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "旭川から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_天人峡温泉",
+    "name": "天人峡温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "旭川から車で1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_天人峡温泉",
+    "name": "天人峡温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "旭川空港から車で約70分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 70,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川空港）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_十勝岳温泉",
+    "name": "十勝岳温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約2時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_水無海浜温泉",
+    "name": "水無海浜温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から車で約2時間、南茅部の海岸線を走ると、",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_谷地頭温泉",
+    "name": "谷地頭温泉",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR函館駅から徒歩3分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 3,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_北海道",
+    "name": "北海道",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "札幌から電車で30分ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_就実の丘",
+    "name": "就実の丘",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "旭川から車で30分ほど走ると、",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_就実の丘",
+    "name": "就実の丘",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "旭川市内から車で30〜40分あれば着く。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_就実の丘",
+    "name": "就実の丘",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "JR旭川駅から車で約30〜40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_トラピスト修道院",
+    "name": "トラピスト修道院",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から車で40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_トラピスト修道院",
+    "name": "トラピスト修道院",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：函館駅から車約40分、またはJR渡島当別駅から徒歩約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_東川町",
+    "name": "東川町",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：旭川空港から車で約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川空港）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_東川町",
+    "name": "東川町",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：旭川空港から車で約12分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 12,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川空港）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_戸切地陣屋",
+    "name": "戸切地陣屋",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "函館からは車で30分もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_戸切地陣屋",
+    "name": "戸切地陣屋",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "最寄り：函館市内から車で約30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_松前城",
+    "name": "松前城",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：函館駅からバスで約2時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（函館駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_太田山神社",
+    "name": "太田山神社",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：函館から車で約2時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_太田山神社",
+    "name": "太田山神社",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "札幌から車で約3時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 210,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_大雪展望台",
+    "name": "大雪展望台",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：旭川駅からバスで約2時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_多和平",
+    "name": "多和平",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：釧路駅から車で約1時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "釧路",
+        "key": "kushiro",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（釧路駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_多和平",
+    "name": "多和平",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "釧路駅からの距離：車で約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "釧路",
+        "key": "kushiro",
+        "text": 50,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（釧路駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_長万部温泉",
+    "name": "長万部温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から特急で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_北見温泉",
+    "name": "北見温泉",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：JR北見駅から徒歩約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "北見",
+        "key": "kitami",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（北見駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_北見温泉",
+    "name": "北見温泉",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：JR北見駅から徒歩5〜10分圏内",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "北見",
+        "key": "kitami",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（北見駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_白老温泉",
+    "name": "白老温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から特急で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_びふか温泉",
+    "name": "びふか温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "旭川から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_十勝ヒルズ",
+    "name": "十勝ヒルズ",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "十勝ヒルズは、帯広市街から車で20分ほどの場所にある。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（帯広市街）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_十勝ヒルズ",
+    "name": "十勝ヒルズ",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：帯広駅から車で約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_中札内美術村",
+    "name": "中札内美術村",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "帯広から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_花の拠点「はなふる」",
+    "name": "花の拠点 はなふる",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_花の拠点「はなふる」",
+    "name": "花の拠点 はなふる",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：札幌駅から車で約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（札幌駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_余市蒸溜所",
+    "name": "余市蒸溜所",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から電車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_余市蒸溜所",
+    "name": "余市蒸溜所",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "札幌から約1時間・1,070円",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_六花の森",
+    "name": "六花の森",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "帯広から車で40分ほど走ると、突然視界が開ける。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_白ひげの滝",
+    "name": "白ひげの滝",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "旭川市内から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_白ひげの滝",
+    "name": "白ひげの滝",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：旭川市内から車で約60分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_黒松内温泉",
+    "name": "黒松内温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で2時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_見市温泉",
+    "name": "見市温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から車で2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_沙流川温泉",
+    "name": "沙流川温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_支笏湖いとう温泉",
+    "name": "支笏湖温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_支笏湖いとう温泉",
+    "name": "支笏湖温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：新千歳空港から車で約40分、札幌から約1時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_牛久シャトー",
+    "name": "牛久シャトー",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約1時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 89,
+        "cat": "B",
+        "why": "文60分・travelTime 89分"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_偕楽園",
+    "name": "偕楽園",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "東京から高速で2時間ちょっとの場所とは思えない、静けさがあった。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 119,
+        "cat": "C",
+        "why": "一致（文120分・値119分）"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_偕楽園",
+    "name": "偕楽園",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR水戸駅よりバス約15分、または徒歩約25分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "水戸",
+        "key": "mito",
+        "text": 15,
+        "tt": 164,
+        "cat": "C",
+        "why": "施設・域内（水戸駅よ）"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_水郷筑波国定公園",
+    "name": "水郷筑波国定公園",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から2時間かからない場所に、こんな場所が残っていたのかと、正直驚いた。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 104,
+        "cat": "C",
+        "why": "一致（文120分・値104分）"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_西山荘",
+    "name": "西山荘",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "水戸から車で30分ほど走ると、急に空気が変わる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "水戸",
+        "key": "mito",
+        "text": 30,
+        "tt": 175,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_笠間稲荷神社",
+    "name": "笠間稲荷神社",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で1時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 114,
+        "cat": "B",
+        "why": "文60分(約)・travelTime 114分"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_鹿島神宮",
+    "name": "鹿島神宮",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約80分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 80,
+        "tt": 110,
+        "cat": "B",
+        "why": "文80分・travelTime 110分"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_常磐神社",
+    "name": "常磐神社",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR水戸駅からバス約15分「偕楽園」下車、徒歩5分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "水戸",
+        "key": "mito",
+        "text": 15,
+        "tt": 164,
+        "cat": "C",
+        "why": "施設・域内（水戸駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_常磐神社",
+    "name": "常磐神社",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "東京から特急で1時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 119,
+        "cat": "B",
+        "why": "文60分(約)・travelTime 119分"
+      }
+    ]
+  },
+  {
+    "id": "gen_茨城_水戸東照宮",
+    "name": "水戸東照宮",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "JR水戸駅から歩いて約10分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "水戸",
+        "key": "mito",
+        "text": 10,
+        "tt": 165,
+        "cat": "C",
+        "why": "施設・域内（水戸駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_中禅寺温泉",
+    "name": "中禅寺温泉",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "東京から約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 132,
+        "cat": "B",
+        "why": "文150分・travelTime 132分"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_那須温泉郷",
+    "name": "那須温泉郷",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で約70分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 70,
+        "tt": 157,
+        "cat": "B",
+        "why": "文70分・travelTime 157分"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_湯西川温泉",
+    "name": "湯西川温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から約3時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 180,
+        "tt": 146,
+        "cat": "B",
+        "why": "文180分・travelTime 146分"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_佐野プレミアム・アウトレット",
+    "name": "佐野アウトレット",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "佐野プレミアム・アウトレットは、東京から約1時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 102,
+        "cat": "B",
+        "why": "文90分・travelTime 102分"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_宇都宮城",
+    "name": "宇都宮城",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "JR宇都宮駅から歩いて約15分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宇都宮",
+        "key": "utsunomiya",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宇都宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_宇都宮城",
+    "name": "宇都宮城",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR宇都宮駅から徒歩約15分、または東武宇都宮駅から徒歩約5分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宇都宮",
+        "key": "utsunomiya",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宇都宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_宇都宮二荒山神社",
+    "name": "宇都宮二荒山神社",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "JR宇都宮駅から歩いて約15分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宇都宮",
+        "key": "utsunomiya",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宇都宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_宇都宮二荒山神社",
+    "name": "宇都宮二荒山神社",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：JR宇都宮駅から徒歩約15分、東武宇都宮駅から徒歩約5分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "宇都宮",
+        "key": "utsunomiya",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（宇都宮駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_栃木_日光東照宮",
+    "name": "日光東照宮",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から約2時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 133,
+        "cat": "B",
+        "why": "文120分・travelTime 133分"
+      }
+    ]
+  },
+  {
+    "id": "gen_群馬_鹿沢温泉",
+    "name": "鹿沢温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で2時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 149,
+        "cat": "C",
+        "why": "一致（文150分・値149分）"
+      }
+    ]
+  },
+  {
+    "id": "gen_群馬_猿ヶ京温泉",
+    "name": "猿ヶ京温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で2時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 145,
+        "cat": "B",
+        "why": "文120分(約)・travelTime 145分"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_オーロラ温泉",
+    "name": "オーロラ温泉",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "帯広から車で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_オホーツクオムイ温泉",
+    "name": "オホーツクオムイ温泉",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "旭川空港から車で約2時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "旭川",
+        "key": "asahikawa",
+        "text": 120,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（旭川空港）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_鹿部温泉",
+    "name": "鹿部温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_真鍋庭園",
+    "name": "真鍋庭園",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：帯広駅から車で約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "帯広",
+        "key": "obihiro",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（帯広駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_浦臼神社",
+    "name": "浦臼神社",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_浦臼神社",
+    "name": "浦臼神社",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "札幌から車で約90分（道央自動車道・砂川IC経由）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "gen_北海_札幌八幡宮",
+    "name": "札幌八幡宮",
+    "field": "記事本文",
+    "loc": "sections.2.body",
+    "line": "札幌駅から地下鉄で約15分、バスに乗り換えて10分ほど。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 15,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（札幌駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_青荷温泉",
+    "name": "青荷温泉",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "青森市内から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_秋元温泉",
+    "name": "秋元温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "青森市内から車で1時間ほど。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_秋元温泉",
+    "name": "秋元温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：青森市内から車で約60分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_黄金崎不老不死温泉",
+    "name": "黄金崎不老不死温泉",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "青森駅から車で約2時間30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_城ヶ倉温泉",
+    "name": "城ヶ倉温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：青森市街から車で約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市街）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_嶽温泉",
+    "name": "嶽温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "嶽温泉は、青森市内から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_十和田湖畔温泉",
+    "name": "十和田湖畔温泉",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "※JR青森駅からバスで約2時間30分（JRバス東北「みずうみ号」）",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森駅か）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_谷地温泉",
+    "name": "谷地温泉",
+    "field": "記事本文",
+    "loc": "sections.1.body",
+    "line": "青森市内から車で約1時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "gen_青森_谷地温泉",
+    "name": "谷地温泉",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "青森市内から車で約90分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 90,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "uji",
+    "name": "宇治",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "京都市内から電車で20分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "京都",
+        "key": "kyoto",
+        "text": 20,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（京都市内）"
+      }
+    ]
+  },
+  {
+    "id": "shirahone-onsen",
+    "name": "白骨温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松本から車で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松本",
+        "key": "matsumoto",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "takayu-onsen",
+    "name": "高湯温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "福島市街から車で30分も走れば、別の時間が流れている。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福島",
+        "key": "fukushima",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（福島市街）"
+      }
+    ]
+  },
+  {
+    "id": "tarama-island",
+    "name": "多良間島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から飛行機で約1時間。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": 135,
+        "cat": "A",
+        "why": "最短値を下回る・補正した組"
+      }
+    ]
+  },
+  {
+    "id": "omaezaki",
+    "name": "御前崎",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "浜松からでも車で1時間ちょっと。",
+    "cat": "A",
+    "hits": [
+      {
+        "origin": "浜松",
+        "key": "hamamatsu",
+        "text": 60,
+        "tt": 150,
+        "cat": "A",
+        "why": "式由来の出発地"
+      }
+    ]
+  },
+  {
+    "id": "isawa-onsen",
+    "name": "石和温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で90分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 100,
+        "cat": "C",
+        "why": "一致（文90分・値100分）"
+      }
+    ]
+  },
+  {
+    "id": "minobu",
+    "name": "身延",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で2時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 150,
+        "cat": "B",
+        "why": "文120分(約)・travelTime 150分"
+      }
+    ]
+  },
+  {
+    "id": "nagatoro",
+    "name": "長瀞",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で約90分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 130,
+        "cat": "B",
+        "why": "文90分・travelTime 130分"
+      }
+    ]
+  },
+  {
+    "id": "hanno",
+    "name": "飯能",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で1時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 60,
+        "cat": "C",
+        "why": "一致（文60分・値60分）"
+      }
+    ]
+  },
+  {
+    "id": "onuma",
+    "name": "大沼公園",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "函館から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "函館",
+        "key": "hakodate",
+        "text": 30,
+        "tt": 30,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "muroo",
+    "name": "室生",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "奈良市内から車で1時間ほど。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "奈良",
+        "key": "nara",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（奈良市内）"
+      }
+    ]
+  },
+  {
+    "id": "unazuki-onsen",
+    "name": "宇奈月温泉",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "富山駅から電車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "富山",
+        "key": "toyama",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（富山駅か）"
+      }
+    ]
+  },
+  {
+    "id": "ogijima",
+    "name": "男木島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高松港からフェリーで約40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 40,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（高松港か）"
+      }
+    ]
+  },
+  {
+    "id": "megijima",
+    "name": "女木島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高松港からフェリーで20分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 20,
+        "tt": 30,
+        "cat": "C",
+        "why": "施設・域内（高松港か）"
+      }
+    ]
+  },
+  {
+    "id": "katsunuma",
+    "name": "勝沼",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で90分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 100,
+        "cat": "C",
+        "why": "一致（文90分・値100分）"
+      }
+    ]
+  },
+  {
+    "id": "kashiwara-wine",
+    "name": "柏原",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "そんな街が、大阪市内から電車で30分もかからない場所にある。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大阪",
+        "key": "osaka",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（大阪市内）"
+      }
+    ]
+  },
+  {
+    "id": "yobetsu",
+    "name": "余別",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 120,
+        "tt": 150,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "manazuru",
+    "name": "真鶴",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で90分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 90,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "yugawara",
+    "name": "湯河原",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から電車で90分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 90,
+        "tt": 90,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "tobe",
+    "name": "砥部",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松山から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 30,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "shimekappu",
+    "name": "占冠",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "札幌から車で2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "札幌",
+        "key": "sapporo",
+        "text": 120,
+        "tt": 120,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "otaki",
+    "name": "大多喜",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で1時間ちょっと。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 60,
+        "tt": 100,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "kamogawa",
+    "name": "鴨川",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から特急で約2時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 130,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "fuchu-hiroshima",
+    "name": "府中",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "新幹線の止まる福山から在来線で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福山",
+        "key": "fukuyama",
+        "text": 30,
+        "tt": 30,
+        "cat": "C",
+        "why": "一致（文30分・値30分）"
+      }
+    ]
+  },
+  {
+    "id": "aji-peninsula",
+    "name": "庵治半島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高松から車で30分も走ると、急に空気が変わる。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "aji-peninsula",
+    "name": "庵治半島",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：高松市街から車で約30分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 30,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（高松市街）"
+      }
+    ]
+  },
+  {
+    "id": "aji-peninsula",
+    "name": "庵治半島",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：高松市街から車で約25分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 25,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（高松市街）"
+      }
+    ]
+  },
+  {
+    "id": "aji-peninsula",
+    "name": "庵治半島",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：高松市街から車で約20分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 20,
+        "tt": 40,
+        "cat": "C",
+        "why": "施設・域内（高松市街）"
+      }
+    ]
+  },
+  {
+    "id": "shionoe",
+    "name": "塩江",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "高松市街から車で30分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 30,
+        "tt": 45,
+        "cat": "C",
+        "why": "施設・域内（高松市街）"
+      }
+    ]
+  },
+  {
+    "id": "shionoe",
+    "name": "塩江",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：高松駅から車で約35分／ことでんバス「塩江」バス停下車",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 35,
+        "tt": 45,
+        "cat": "C",
+        "why": "施設・域内（高松駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shionoe",
+    "name": "塩江",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "高松駅からバス約1時間、塩江バス停から徒歩約5分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高松",
+        "key": "takamatsu",
+        "text": 60,
+        "tt": 45,
+        "cat": "C",
+        "why": "施設・域内（高松駅か）"
+      }
+    ]
+  },
+  {
+    "id": "shimonada",
+    "name": "下灘",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "松山から電車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "shimonada",
+    "name": "下灘",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "※松山駅から普通列車で約55分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松山",
+        "key": "matsuyama",
+        "text": 55,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（松山駅か）"
+      }
+    ]
+  },
+  {
+    "id": "tsumagoi",
+    "name": "嬬恋",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から車で約2時間半。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 150,
+        "tt": 135,
+        "cat": "B",
+        "why": "文150分・travelTime 135分"
+      }
+    ]
+  },
+  {
+    "id": "yogo",
+    "name": "余呉湖",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "大阪駅からの目安：約1時間45分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "大阪",
+        "key": "osaka",
+        "text": 105,
+        "tt": 80,
+        "cat": "C",
+        "why": "施設・域内（大阪駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hiraodai",
+    "name": "平尾台",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "福岡市内から車で1時間もかからない。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福岡",
+        "key": "fukuoka",
+        "text": 60,
+        "tt": 55,
+        "cat": "C",
+        "why": "施設・域内（福岡市内）"
+      }
+    ]
+  },
+  {
+    "id": "tojinbo",
+    "name": "東尋坊",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "福井市内から車で40分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "福井",
+        "key": "fukui",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（福井市内）"
+      }
+    ]
+  },
+  {
+    "id": "chinen-misaki",
+    "name": "知念岬",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": 50,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "bise",
+    "name": "備瀬のフクギ並木",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：那覇空港から車で約80分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 80,
+        "tt": 90,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "bise",
+    "name": "備瀬のフクギ並木",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：那覇空港から車で約2時間、備瀬から車で約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 120,
+        "tt": 90,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "kudakajima",
+    "name": "久高島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から車で1時間、安座真港からフェリーで25分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": 80,
+        "cat": "C",
+        "why": "起点が旅先自身"
+      }
+    ]
+  },
+  {
+    "id": "hakkoda",
+    "name": "八甲田山",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "八甲田山は、青森市内から車で40分ほどの場所にある。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 40,
+        "tt": 50,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "hakkoda",
+    "name": "八甲田山",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "アクセス：青森駅からバスで約1時間",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 60,
+        "tt": 50,
+        "cat": "C",
+        "why": "施設・域内（青森駅か）"
+      }
+    ]
+  },
+  {
+    "id": "hakkoda",
+    "name": "八甲田山",
+    "field": "記事本文",
+    "loc": "sections.1.info",
+    "line": "アクセス：青森市内から車で約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 50,
+        "tt": 50,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "hakkoda",
+    "name": "八甲田山",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：青森市内から車で約55分・十和田湖から約50分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 55,
+        "tt": 50,
+        "cat": "C",
+        "why": "施設・域内（青森市内）"
+      }
+    ]
+  },
+  {
+    "id": "sannai-maruyama",
+    "name": "三内丸山遺跡",
+    "field": "記事本文",
+    "loc": "sections.2.info",
+    "line": "アクセス：青森駅からバス約40分「三内丸山遺跡前」下車すぐ",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "青森",
+        "key": "aomori",
+        "text": 40,
+        "tt": 20,
+        "cat": "C",
+        "why": "施設・域内（青森駅か）"
+      }
+    ]
+  },
+  {
+    "id": "mikurajima",
+    "name": "御蔵島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から船で8時間。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 480,
+        "tt": 300,
+        "cat": "B",
+        "why": "文480分・travelTime 300分"
+      }
+    ]
+  },
+  {
+    "id": "tonaki",
+    "name": "渡名喜島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から船で2時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 150,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "kuchinoerabu",
+    "name": "口永良部島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "鹿児島港からフェリーで約3時間半。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鹿児島",
+        "key": "kagoshima",
+        "text": 210,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（鹿児島港か）"
+      }
+    ]
+  },
+  {
+    "id": "nishinoshima",
+    "name": "西ノ島",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "別府港から車で約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "別府",
+        "key": "beppu",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（別府港か）"
+      }
+    ]
+  },
+  {
+    "id": "minamidaitojima",
+    "name": "南大東島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から飛行機で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "minamidaitojima",
+    "name": "南大東島",
+    "field": "記事本文",
+    "loc": "sections.0.info",
+    "line": "那覇空港からRAC便で約55分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 55,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "kitadaitojima",
+    "name": "北大東島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "那覇から飛行機で約1時間。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 60,
+        "tt": null,
+        "cat": "C",
+        "why": "travelTime に値がない出発地"
+      }
+    ]
+  },
+  {
+    "id": "kitadaitojima",
+    "name": "北大東島",
+    "field": "記事本文",
+    "loc": "sections.0.body",
+    "line": "那覇空港から約55分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 55,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "sakushima",
+    "name": "佐久島",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "名古屋から船で約30分。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "名古屋",
+        "key": "nagoya",
+        "text": 30,
+        "tt": 110,
+        "cat": "B",
+        "why": "文30分・travelTime 110分"
+      }
+    ]
+  },
+  {
+    "id": "okitama",
+    "name": "置賜",
+    "field": "記事lead",
+    "loc": "lead",
+    "line": "東京から新幹線で2時間ちょっと。",
+    "cat": "B",
+    "hits": [
+      {
+        "origin": "東京",
+        "key": "tokyo",
+        "text": 120,
+        "tt": 195,
+        "cat": "B",
+        "why": "文120分(約)・travelTime 195分"
+      }
+    ]
+  },
+  {
+    "id": "toyama-city",
+    "name": "富山",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "JR富山駅から車約40分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "富山",
+        "key": "toyama",
+        "text": 40,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（富山駅か）"
+      }
+    ]
+  },
+  {
+    "id": "tottori-sakyu",
+    "name": "鳥取砂丘",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "JR鳥取駅から徒歩10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "鳥取",
+        "key": "tottori",
+        "text": 10,
+        "tt": 25,
+        "cat": "C",
+        "why": "施設・域内（鳥取駅か）"
+      }
+    ]
+  },
+  {
+    "id": "katsurahama",
+    "name": "桂浜",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "JR高知駅からタクシー約10分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "高知",
+        "key": "kochi",
+        "text": 10,
+        "tt": null,
+        "cat": "C",
+        "why": "施設・域内（高知駅か）"
+      }
+    ]
+  },
+  {
+    "id": "niche_沖縄_1",
+    "name": "瀬長島",
+    "field": "featured_stay",
+    "loc": "featured_stay.catchcopy",
+    "line": "那覇空港から車で約15分。",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "那覇",
+        "key": "naha",
+        "text": 15,
+        "tt": 90,
+        "cat": "C",
+        "why": "施設・域内（那覇空港）"
+      }
+    ]
+  },
+  {
+    "id": "kofu",
+    "name": "甲府",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "JR甲府駅からバス約15分",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "甲府",
+        "key": "kofu",
+        "text": 15,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（甲府駅か）"
+      }
+    ]
+  },
+  {
+    "id": "matsue",
+    "name": "松江",
+    "field": "featured_stay",
+    "loc": "featured_stay.accessStation",
+    "line": "松江駅からバス約18分「松江大橋北詰」下車",
+    "cat": "C",
+    "hits": [
+      {
+        "origin": "松江",
+        "key": "matsue",
+        "text": 18,
+        "tt": 0,
+        "cat": "C",
+        "why": "施設・域内（松江駅か）"
+      }
+    ]
+  }
+]
