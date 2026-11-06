@@ -1,0 +1,1016 @@
+[
+  {
+    "destId": "hanamaki",
+    "dest": "花巻",
+    "weight": 1.8,
+    "stay": "大沢温泉 湯治屋",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "新花巻駅・花巻駅から無料送迎バスあり（前日までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "新花巻駅・花巻駅からの無料送迎バスがあり、前日までの予約が必要だ。"
+      },
+      {
+        "field": "article.sections.1.info",
+        "sentence": "アクセス：JR花巻駅から車で約20分、または無料送迎バスあり（要確認）"
+      }
+    ]
+  },
+  {
+    "destId": "himi",
+    "dest": "氷見",
+    "weight": 1.8,
+    "stay": "氷見温泉郷 くつろぎの宿 うみあかり",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR氷見駅から無料送迎あり（要連絡・2名以上）"
+      },
+      {
+        "field": "description",
+        "sentence": "氷見温泉郷 くつろぎの宿 うみあかりではJR氷見駅から無料送迎があり（要連絡・2名以上）、湯に入りながら同じ眺めを楽しめる。"
+      }
+    ]
+  },
+  {
+    "destId": "otaru",
+    "dest": "小樽",
+    "weight": 1.67,
+    "stay": "料亭湯宿 銀鱗荘",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "小樽築港駅から無料送迎あり（15〜18時）"
+      },
+      {
+        "field": "description",
+        "sentence": "小樽築港駅から無料送迎あり（15〜18時）。"
+      }
+    ]
+  },
+  {
+    "destId": "sakunami-onsen",
+    "dest": "秋保温泉",
+    "weight": 1.65,
+    "stay": "伝承千年の宿 佐勘",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "仙台駅東口から無料送迎バスあり（予約定員制）"
+      },
+      {
+        "field": "description",
+        "sentence": "名宿「伝承千年の宿 佐勘」は伊達政宗公の湯浴み御殿として代々湯守を務めた名門で、仙台駅東口から無料送迎バスが出ている（予約定員制）。"
+      },
+      {
+        "field": "article.sections.0.info",
+        "sentence": "駐車場：無料・大型バス可"
+      }
+    ]
+  },
+  {
+    "destId": "myoko-kogen",
+    "dest": "妙高高原",
+    "weight": 1.65,
+    "stay": "赤倉観光ホテル",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "妙高高原駅から予約制の無料送迎シャトルあり"
+      },
+      {
+        "field": "description",
+        "sentence": "燕温泉はバス道路の終点に旅館が数軒並び、無料の野天風呂が約2か所。"
+      },
+      {
+        "field": "spots.2",
+        "sentence": "バス道路の終点に旅館が数軒と無料の野天風呂が2か所。"
+      }
+    ]
+  },
+  {
+    "destId": "kaga-onsen",
+    "dest": "加賀温泉郷",
+    "weight": 1.65,
+    "stay": "白鷺湯たわらや",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "加賀温泉駅から無料送迎バスあり（約20分・事前予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿の白鷺湯たわらやは創業800年の老舗で、加賀温泉駅から無料送迎バスで約20分。"
+      }
+    ]
+  },
+  {
+    "destId": "zaosan",
+    "dest": "蔵王",
+    "weight": 1.65,
+    "stay": "深山荘 高見屋",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "蔵王温泉バスターミナルから無料送迎あり（到着後に連絡）"
+      }
+    ]
+  },
+  {
+    "destId": "shiobara-onsen",
+    "dest": "塩原温泉",
+    "weight": 1.65,
+    "stay": "明賀屋本館",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "塩釜バス停から無料送迎あり"
+      }
+    ]
+  },
+  {
+    "destId": "unzen2",
+    "dest": "雲仙温泉",
+    "weight": 1.65,
+    "stay": "雲仙観光ホテル",
+    "status": "official_unreachable",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "諫早駅・長崎空港から無料シャトルあり（約1時間）"
+      }
+    ]
+  },
+  {
+    "destId": "yonaguni-island",
+    "dest": "与那国島",
+    "weight": 1.64,
+    "stay": "アイランドホテル与那国",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "与那国空港から無料送迎あり（前日15時までに要予約）"
+      }
+    ]
+  },
+  {
+    "destId": "tanegashima",
+    "dest": "種子島",
+    "weight": 1.56,
+    "stay": "種子島あらきホテル",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "西之表港から無料送迎あり（事前予約必須・空港との送迎は行っていない）"
+      }
+    ]
+  },
+  {
+    "destId": "gen_北海_定山渓温泉",
+    "dest": "定山渓温泉",
+    "weight": 1.55,
+    "stay": "定山渓鶴雅リゾートスパ 森の謌",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "地下鉄南北線・真駒内駅から無料送迎バスあり（前日17時までに電話で要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "定山渓鶴雅リゾートスパ 森の謌を目指すなら、地下鉄南北線・真駒内駅からの無料送迎バスが便利で、前日17時までに電話予約が必要だ。"
+      },
+      {
+        "field": "seo.description",
+        "sentence": "定山渓鶴雅リゾートスパ 森の謌を目指すなら、地下鉄南北線・真駒内駅からの無料送迎バスが便利で、前日17時までに電話予約が必要だ。"
+      }
+    ]
+  },
+  {
+    "destId": "gen_北海_北湯沢温泉",
+    "dest": "北湯沢温泉",
+    "weight": 1.55,
+    "stay": "緑の風リゾート きたゆざわ",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "札幌駅（宿泊予約者は無料）・新千歳空港（宿泊予約者1,000円）から送迎バスあり。"
+      },
+      {
+        "field": "description",
+        "sentence": "札幌駅からは宿泊予約者向けの無料送迎バスもあり、新千歳空港からも送迎が出ている。"
+      }
+    ]
+  },
+  {
+    "destId": "gen_北海_十勝川温泉",
+    "dest": "十勝川温泉",
+    "weight": 1.55,
+    "stay": "十勝川温泉第一ホテル",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "帯広駅から無料送迎シャトルあり（前日17時までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "帯広駅からは十勝川温泉第一ホテルの無料送迎シャトルを利用でき、前日17時までの予約が必要だ。"
+      }
+    ]
+  },
+  {
+    "destId": "gen_北海_トムラウシ温泉",
+    "dest": "トムラウシ温泉",
+    "weight": 1.55,
+    "stay": "東大雪荘",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "新得駅から無料送迎あり（要予約・前日当日不可）"
+      },
+      {
+        "field": "description",
+        "sentence": "新得駅から無料送迎があり（要予約・前日当日不可）、車でも約60分で着く。"
+      }
+    ]
+  },
+  {
+    "destId": "gen_青森_城ヶ倉温泉",
+    "dest": "城ヶ倉温泉",
+    "weight": 1.55,
+    "stay": "八甲田城ヶ倉温泉 ホテル城ヶ倉",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "青森駅から無料送迎あり"
+      },
+      {
+        "field": "description",
+        "sentence": "新青森駅から車で約50分、青森駅からは無料送迎もある。"
+      }
+    ]
+  },
+  {
+    "destId": "gen_青森_谷地温泉",
+    "dest": "谷地温泉",
+    "weight": 1.55,
+    "stay": "谷地温泉",
+    "status": "verified",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "無料送迎あり（7日前までに電話で要予約）。"
+      },
+      {
+        "field": "description",
+        "sentence": "新青森駅から無料送迎があり（7日前までに要予約）、冬期は八戸駅発となる。"
+      }
+    ]
+  },
+  {
+    "destId": "yoron-island",
+    "dest": "与論島",
+    "weight": 1.55,
+    "stay": "プリシアリゾートヨロン",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "与論空港・港から無料送迎あり（要事前予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "プリシアリゾートヨロンは与論空港から車で3分、空港・港からの無料送迎もある（要事前予約）。"
+      }
+    ]
+  },
+  {
+    "destId": "gen_北海_洞爺湖温泉",
+    "dest": "洞爺湖温泉",
+    "weight": 1.55,
+    "stay": "ザ レイクビュー TOYA 乃の風リゾート",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "description",
+        "sentence": "札幌駅から送迎バスが出ており、宿泊予約者は無料で利用できる。"
+      }
+    ]
+  },
+  {
+    "destId": "kofu",
+    "dest": "甲府",
+    "weight": 1.5,
+    "stay": "信玄の湯 湯村温泉 常磐ホテル",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "無料送迎バスあり（要事前連絡）"
+      }
+    ]
+  },
+  {
+    "destId": "izu-oshima",
+    "dest": "伊豆大島",
+    "weight": 1.36,
+    "stay": "大島温泉ホテル",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "元町港・岡田港から無料送迎バス約20分（要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "大島温泉ホテルは標高500mに立ち、元町港から無料送迎バスで約20分。"
+      }
+    ]
+  },
+  {
+    "destId": "rebun-island",
+    "dest": "礼文島",
+    "weight": 1.36,
+    "stay": "礼文温泉 花れぶん",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "香深港フェリーターミナルより無料送迎あり（要事前予約）"
+      }
+    ]
+  },
+  {
+    "destId": "jozankei",
+    "dest": "定山渓",
+    "weight": 1.32,
+    "stay": "定山渓温泉 ぬくもりの宿ふる川",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "札幌市内（大通西1丁目NHK前）より無料送迎バスあり（要予約・14時発）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿「定山渓温泉 ぬくもりの宿ふる川」は札幌市内から無料送迎バスもあります（要予約）。"
+      }
+    ]
+  },
+  {
+    "destId": "chichibu",
+    "dest": "秩父",
+    "weight": 1.26,
+    "stay": "和銅鉱泉 ゆの宿 和どう",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "秩父鉄道 和銅黒谷駅から無料送迎あり"
+      },
+      {
+        "field": "description",
+        "sentence": "秩父鉄道・和銅黒谷駅から無料送迎がある湯宿「和どう」は、秩父七湯最古の和銅鉱泉を引く。"
+      }
+    ]
+  },
+  {
+    "destId": "tango-kyoto",
+    "dest": "丹後",
+    "weight": 1.26,
+    "stay": "間人温泉 炭平",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "京都丹後鉄道網野駅から無料送迎約20分（要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "京都丹後鉄道網野駅から無料送迎で約20分、全室から海を望む。"
+      }
+    ]
+  },
+  {
+    "destId": "amakusa",
+    "dest": "天草",
+    "weight": 1.26,
+    "stay": "石山離宮 五足のくつ",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "本渡バスセンター・天草空港から無料送迎あり（予約制）"
+      }
+    ]
+  },
+  {
+    "destId": "chikubushima",
+    "dest": "竹生島",
+    "weight": 1.2,
+    "stay": "旅館 紅鮎",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "北陸本線・高月駅西口から無料送迎バスあり（要予約・約10分）"
+      }
+    ]
+  },
+  {
+    "destId": "nachikatsuura",
+    "dest": "那智勝浦",
+    "weight": 1.19,
+    "stay": "碧き島の宿 熊野別邸 中の島",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "勝浦港の桟橋から無料の専用送迎船で約5分"
+      },
+      {
+        "field": "description",
+        "sentence": "熊野別邸 中の島は船でしか行けない宿で、勝浦港の桟橋から無料の送迎船が約5分。"
+      }
+    ]
+  },
+  {
+    "destId": "shonai",
+    "dest": "鶴岡",
+    "weight": 1.11,
+    "stay": "湯田川温泉 九兵衛旅館",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "鶴岡駅から無料送迎あり（要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "鶴岡公園は鶴ヶ岡城跡に整備された無料の公園で、春には桜が見頃を迎える。"
+      },
+      {
+        "field": "description",
+        "sentence": "宿の選択肢に迷うなら、鶴岡駅から無料送迎のある湯田川温泉 九兵衛旅館が便利だ。"
+      }
+    ]
+  },
+  {
+    "destId": "hirado",
+    "dest": "平戸",
+    "weight": 1.11,
+    "stay": "国際観光ホテル旗松亭",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "平戸桟橋から無料送迎あり（要事前連絡）"
+      },
+      {
+        "field": "description",
+        "sentence": "国際観光ホテル旗松亭はたびら平戸口駅から車で約13分、平戸桟橋からの無料送迎もある。"
+      }
+    ]
+  },
+  {
+    "destId": "abashiri",
+    "dest": "網走",
+    "weight": 1.11,
+    "stay": "北天の丘 あばしり湖鶴雅リゾート",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR網走駅より無料送迎あり（前日20時までの予約制・約15分）"
+      },
+      {
+        "field": "description",
+        "sentence": "北天の丘あばしり湖鶴雅リゾートはJR網走駅から車約15分、無料送迎もある。"
+      }
+    ]
+  },
+  {
+    "destId": "iwakuni",
+    "dest": "岩国",
+    "weight": 1.11,
+    "stay": "錦帯橋温泉 岩国国際観光ホテル",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "無料送迎あり（前日15時までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "JR岩国駅からの無料送迎もある（前日15時までに要予約）。"
+      }
+    ]
+  },
+  {
+    "destId": "murakami",
+    "dest": "村上",
+    "weight": 1.11,
+    "stay": "大観荘せなみの湯",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR村上駅から無料送迎あり（前日までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿泊するなら瀬波温泉にある大観荘せなみの湯が選択肢で、JR村上駅から無料送迎もある。"
+      }
+    ]
+  },
+  {
+    "destId": "shiraoishi",
+    "dest": "白石",
+    "weight": 1.11,
+    "stay": "鎌先温泉 時音の宿 湯主一條",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "白石蔵王駅・白石駅から無料送迎あり（3日前までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿の鎌先温泉 時音の宿 湯主一條は創業六百年、白石蔵王駅から無料送迎がある。"
+      }
+    ]
+  },
+  {
+    "destId": "nagahama",
+    "dest": "長浜",
+    "weight": 1.11,
+    "stay": "グランドメルキュール琵琶湖リゾート＆スパ",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR長浜駅西口（びわこ口）から無料送迎バスあり（予約不要）"
+      }
+    ]
+  },
+  {
+    "destId": "hakuba",
+    "dest": "白馬",
+    "weight": 1.1,
+    "stay": "白馬八方温泉 しろうま荘",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "白馬駅・八方バスターミナルから無料送迎あり（要連絡）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿の白馬八方温泉しろうま荘は八方尾根の麓に立ち、白馬駅・八方バスターミナルから無料送迎（要連絡）がある。"
+      },
+      {
+        "field": "article.sections.0.info",
+        "sentence": "アクセス：JR白馬駅から徒歩15分、または無料シャトルバスあり"
+      },
+      {
+        "field": "article.sections.2.info",
+        "sentence": "アクセス：JR白馬駅から無料シャトルバスあり（約10分）"
+      }
+    ]
+  },
+  {
+    "destId": "saroma-ko",
+    "dest": "サロマ湖",
+    "weight": 1.1,
+    "stay": "サロマ湖鶴雅リゾート",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "北見市内・女満別空港より無料送迎バスあり（3日前までの予約制）"
+      },
+      {
+        "field": "description",
+        "sentence": "鶴雅リゾートには北見市内と女満別空港から無料の送迎バスが出る。"
+      },
+      {
+        "field": "article.sections.1.info",
+        "sentence": "駐車場：無料（普通車・バス対応）"
+      }
+    ]
+  },
+  {
+    "destId": "sanriku-miyako",
+    "dest": "浄土ヶ浜",
+    "weight": 1.1,
+    "stay": "浄土ヶ浜パークホテル",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "宮古駅から無料送迎バスあり（要事前連絡）"
+      },
+      {
+        "field": "description",
+        "sentence": "浄土ヶ浜パークホテルは浜を見下ろす高台にあり、宮古駅から無料の送迎バスが出る。"
+      }
+    ]
+  },
+  {
+    "destId": "tomamu",
+    "dest": "トマム",
+    "weight": 1.1,
+    "stay": "星野リゾート リゾナーレトマム",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JRトマム駅より無料送迎バスあり（列車到着に合わせ運行・約10分）"
+      }
+    ]
+  },
+  {
+    "destId": "kuju-kogen",
+    "dest": "久住高原",
+    "weight": 1.1,
+    "stay": "レゾネイトクラブくじゅう",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR由布院駅より無料送迎バスあり（3日前までに要予約）"
+      }
+    ]
+  },
+  {
+    "destId": "ozu",
+    "dest": "大洲",
+    "weight": 1,
+    "stay": "NIPPONIA HOTEL 大洲 城下町",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "伊予大洲駅から無料送迎あり（要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "城下町全体を客室とする分散型ホテルで、伊予大洲駅からの無料送迎がある（要予約）。"
+      }
+    ]
+  },
+  {
+    "destId": "isawa-onsen",
+    "dest": "石和温泉",
+    "weight": 1,
+    "stay": "銘石の宿 かげつ",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "石和温泉駅北口から無料送迎あり（14〜18時・要連絡）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿「銘石の宿 かげつ」は5000坪の庭園に銘石と20の滝を配した名宿で、石和温泉駅北口から無料送迎がある。"
+      }
+    ]
+  },
+  {
+    "destId": "etajima",
+    "dest": "江田島",
+    "weight": 1,
+    "stay": "えたじま温泉 江田島荘",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "中町港から無料送迎あり（要事前連絡）"
+      },
+      {
+        "field": "description",
+        "sentence": "えたじま温泉 江田島荘は源泉かけ流しの湯を持つ宿で、中町港から無料の送迎が出る。"
+      }
+    ]
+  },
+  {
+    "destId": "yamanakako",
+    "dest": "山中湖",
+    "weight": 1,
+    "stay": "ホテルマウント富士",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "山中湖畔「ホテルマウント富士入口」バス停から無料送迎あり"
+      },
+      {
+        "field": "description",
+        "sentence": "ホテルマウント富士へは富士急行線・富士山駅からバスを利用し、湖畔バス停から無料送迎がある。"
+      }
+    ]
+  },
+  {
+    "destId": "ashinoko",
+    "dest": "芦ノ湖",
+    "weight": 1,
+    "stay": "小田急 山のホテル",
+    "status": "official_unreachable",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "元箱根港から無料送迎バス約5分（毎時10・30・50分発）"
+      },
+      {
+        "field": "description",
+        "sentence": "元箱根港から無料の送迎バスが約5分で走る。"
+      }
+    ]
+  },
+  {
+    "destId": "boso-hills",
+    "dest": "養老渓谷",
+    "weight": 1,
+    "stay": "養老温泉 秘湯の宿 滝見苑",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "養老渓谷駅方面から無料送迎あり（要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "小湊鉄道の養老渓谷駅が最寄りで、宿の滝見苑へは駅からバス約20分、要予約で無料送迎も使えます。"
+      }
+    ]
+  },
+  {
+    "destId": "takayama-2",
+    "dest": "高山",
+    "weight": 1,
+    "stay": "本陣平野屋 花兆庵",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "高山駅から無料送迎あり（随時・要連絡）"
+      },
+      {
+        "field": "description",
+        "sentence": "本陣平野屋 花兆庵は古い町並みまで徒歩1分に立ち、高山駅から無料送迎がある。"
+      }
+    ]
+  },
+  {
+    "destId": "yufuin-2",
+    "dest": "由布院温泉",
+    "weight": 1,
+    "stay": "亀の井別荘",
+    "status": "no_shuttle_info_on_official",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "由布院駅から無料送迎あり（10〜16時・要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "亀の井別荘は大正10年創業、金鱗湖畔一万坪の敷地に立つ宿で、由布院駅から無料送迎あり（10〜16時・要予約）。"
+      }
+    ]
+  },
+  {
+    "destId": "kagoshima-city",
+    "dest": "鹿児島",
+    "weight": 1,
+    "stay": "城山ホテル鹿児島",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "鹿児島中央駅・天文館経由の無料シャトルバスを約30分毎に運行"
+      },
+      {
+        "field": "description",
+        "sentence": "桜島を正面に望む城山ホテル鹿児島は城山の丘に位置し、JR鹿児島中央駅から無料シャトルバスが約30分毎に出ている。"
+      }
+    ]
+  },
+  {
+    "destId": "naruto-uzu",
+    "dest": "鳴門の渦潮",
+    "weight": 1,
+    "stay": "アオアヲ ナルト リゾート",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR鳴門駅・高速鳴門から無料送迎あり（3日前までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "アオアヲ ナルト リゾートはJR鳴門駅と高速鳴門から無料送迎があり（3日前までに要予約）、渦潮観光の宿泊拠点として使いやすい。"
+      }
+    ]
+  },
+  {
+    "destId": "shirahama",
+    "dest": "白浜温泉",
+    "weight": 1,
+    "stay": "紀州・白浜温泉 むさし",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "白浜駅から旅館組合の無料シャトルあり（迎えは予約不要）"
+      },
+      {
+        "field": "description",
+        "sentence": "宿の一例として、白良浜まで徒歩1分に立つ紀州・白浜温泉 むさしは自家源泉をふたつ持ち、白浜駅からは旅館組合の無料シャトルで向かえる。"
+      }
+    ]
+  },
+  {
+    "destId": "kawayu",
+    "dest": "川湯温泉",
+    "weight": 1,
+    "stay": "冨士屋",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "熊野古道への無料送迎あり"
+      },
+      {
+        "field": "description",
+        "sentence": "宿の冨士屋は川湯温泉最古の宿で、熊野古道への無料送迎が付く。"
+      }
+    ]
+  },
+  {
+    "destId": "niigata-bandai",
+    "dest": "弥彦神社",
+    "weight": 1,
+    "stay": "岩室温泉 高志の宿 高島屋",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR岩室駅・弥彦駅から無料送迎あり（3日前までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "JR弥彦駅からの無料送迎があり、3日前までの予約が必要だ。"
+      }
+    ]
+  },
+  {
+    "destId": "tanba-sasayama",
+    "dest": "丹波篠山",
+    "weight": 1,
+    "stay": "篠山城下町ホテルNIPPONIA",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR篠山口駅から無料送迎あり（要予約）"
+      }
+    ]
+  },
+  {
+    "destId": "hanno",
+    "dest": "飯能",
+    "weight": 1,
+    "stay": "名栗温泉 大松閣",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "飯能駅南口から無料送迎バス約30分（1日4便・要予約）"
+      }
+    ]
+  },
+  {
+    "destId": "okunoshima",
+    "dest": "大久野島",
+    "weight": 1,
+    "stay": "休暇村大久野島",
+    "status": "official_unreachable",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "大久野島桟橋から本館まで無料送迎バスあり（予約不要）"
+      }
+    ]
+  },
+  {
+    "destId": "hanamaki-onsen",
+    "dest": "花巻温泉郷",
+    "weight": 1,
+    "stay": "鉛温泉 藤三旅館",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "花巻駅・新花巻駅から無料シャトルあり（要予約）"
+      }
+    ]
+  },
+  {
+    "destId": "iso",
+    "dest": "仙巌園",
+    "weight": 1,
+    "stay": "城山ホテル鹿児島",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "鹿児島中央駅・天文館経由の無料シャトルバスを約30分毎に運行"
+      }
+    ]
+  },
+  {
+    "destId": "minami-izu",
+    "dest": "南伊豆",
+    "weight": 0.99,
+    "stay": "南伊豆弓ヶ浜温泉 季一遊",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "伊豆急下田駅から無料送迎バスあり（約20分）"
+      },
+      {
+        "field": "description",
+        "sentence": "湯宿「南伊豆弓ヶ浜温泉 季一遊」は弓ヶ浜を望む立地で、伊豆急下田駅から無料送迎バスで約20分。"
+      }
+    ]
+  },
+  {
+    "destId": "tomonoura",
+    "dest": "鞆の浦",
+    "weight": 0.86,
+    "stay": "汀邸 遠音近音",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "JR福山駅から無料送迎あり（前日までに要予約）"
+      }
+    ]
+  },
+  {
+    "destId": "urabandai",
+    "dest": "裏磐梯",
+    "weight": 0.85,
+    "stay": "裏磐梯高原ホテル",
+    "status": "official_unreachable",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "猪苗代駅から無料送迎バスあり（前日までに要予約）"
+      },
+      {
+        "field": "description",
+        "sentence": "猪苗代駅からバスで五色沼入口へアクセスでき、裏磐梯高原ホテルは猪苗代駅から無料送迎バスも運行している（前日までに要予約）。"
+      },
+      {
+        "field": "seo.description",
+        "sentence": "猪苗代駅からバスで五色沼入口へアクセスでき、裏磐梯高原ホテルは猪苗代駅から無料送迎バスも運行している（前日までに要予約）。"
+      }
+    ]
+  },
+  {
+    "destId": "niche_長野_1",
+    "dest": "昼神温泉",
+    "weight": 0.8,
+    "stay": "湯元ホテル阿智川",
+    "status": "official_not_found",
+    "hits": [
+      {
+        "field": "featured_stay.shuttleInfo",
+        "sentence": "無料送迎あり（予約制）。"
+      },
+      {
+        "field": "description",
+        "sentence": "宿「湯元ホテル阿智川」はpH9.73の源泉を引く洞窟風呂や露天風呂を備え、飯田駅から無料送迎バスを運行している。"
+      }
+    ]
+  }
+]

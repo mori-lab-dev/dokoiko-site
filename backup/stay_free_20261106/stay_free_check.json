@@ -1,0 +1,1023 @@
+[
+ {
+  "name": "大沢温泉 湯治屋",
+  "dest_ids": [
+   "hanamaki"
+  ],
+  "status": "verified",
+  "official_url": "https://www.oosawaonsen.com/",
+  "access_page_url": "https://www.oosawaonsen.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": "2026年9月1日より花巻駅・新花巻駅の送迎に送迎協力金お一人様片道100円（3歳以上、チェックアウト時精算）",
+  "reservation_official": "送り：完全予約制・前日20:00まで／迎え：予約制・ご利用日の4日前までに連絡",
+  "pickup_points_official": "新花巻駅（西口バスロータリー2番乗り場）・花巻駅（東口出てすぐ左の送迎バス乗り場）",
+  "quote": "2026年9月1日より花巻駅及び新花巻駅の送迎に「送迎協力金」をお一人様片道100円",
+  "proposed_shuttleInfo": "新花巻駅・花巻駅から送迎バスあり（片道100円の協力金・要予約、迎えは4日前まで）",
+  "notes": "公式アクセスに「無料」の明記なし。現掲載の「無料・前日まで」は現状と不一致（協力金100円・迎え4日前）。要修正。"
+ },
+ {
+  "name": "深山荘 高見屋",
+  "dest_ids": [
+   "zaosan"
+  ],
+  "status": "official_unreachable",
+  "official_url": "https://www.zao.co.jp/takamiya/",
+  "access_page_url": null,
+  "shuttle": null,
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "公式 zao.co.jp/takamiya/ とaccessページは WebFetch・curl とも HTTP 403。検索結果の要約に蔵王温泉バスターミナルから無料送迎の記載とあるが本文は未読のため判定せず。"
+ },
+ {
+  "name": "緑の風リゾート きたゆざわ",
+  "dest_ids": [
+   "gen_北海_北湯沢温泉"
+  ],
+  "status": "verified",
+  "official_url": "https://midorinokaze-resort.com/",
+  "access_page_url": "https://midorinokaze-resort.com/access",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "JR札幌駅発着：片道1人1,000円（ホテルへの電話または公式HPから宿泊予約の客は無料）／新千歳空港発着：片道1,500円（同条件で1,000円）",
+  "reservation_official": "完全予約制。満席次第終了。宿泊キャンセルでバス予約も自動キャンセル。電話0570-026574（10〜17時）",
+  "pickup_points_official": "JR札幌駅北口団体バス乗り場（出発15分前より受付）・新千歳空港1階到着ロビー国内線ツアーデスク",
+  "quote": "（ホテルへの電話または公式ホームページからご宿泊予約のお客様は、無料となります。）",
+  "proposed_shuttleInfo": "札幌駅発着は電話・公式HP予約なら無料、空港発着は片道1,000円。完全予約制",
+  "notes": "札幌駅のみ条件付き無料。現掲載の「宿泊予約者は無料」は不正確（電話/公式HP経由のみ）。空港1,000円は公式と一致。公式文面内の料金は新旧が混在するためホテルに要確認。"
+ },
+ {
+  "name": "信玄の湯 湯村温泉 常磐ホテル",
+  "dest_ids": [
+   "kofu"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://tokiwa-hotel.co.jp/",
+  "access_page_url": "https://tokiwa-hotel.co.jp/access.html",
+  "shuttle": null,
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "トップとアクセスページに送迎の記載なし（EV充電の案内のみ）。無料送迎は公式で確認できず。"
+ },
+ {
+  "name": "石山離宮 五足のくつ",
+  "dest_ids": [
+   "amakusa"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://rikyu5.jp/",
+  "access_page_url": "https://rikyu5.jp/acsess.html",
+  "shuttle": null,
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "アクセスページに宿の送迎の記載なし（タクシーは本渡バスセンター・天草空港待機、レンタカー受渡の記載のみ）。無料送迎は公式で確認できず。"
+ },
+ {
+  "name": "錦帯橋温泉 岩国国際観光ホテル",
+  "dest_ids": [
+   "iwakuni"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://www.iwakunikankohotel.co.jp/",
+  "access_page_url": "https://www.iwakunikankohotel.co.jp/access/",
+  "shuttle": null,
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "トップとアクセスページに送迎の記載なし（無料駐車場の記載のみ）。無料送迎は公式で確認できず。"
+ },
+ {
+  "name": "浄土ヶ浜パークホテル",
+  "dest_ids": [
+   "sanriku-miyako"
+  ],
+  "status": "verified",
+  "official_url": "https://www.jodo-ph.jp/",
+  "access_page_url": "https://www.jodo-ph.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "要予約。ご宿泊の2日前までに電話で予約",
+  "pickup_points_official": "宮古駅前～ホテル（約15分）",
+  "quote": "宮古駅からはホテルの無料送迎バスをご利用頂けます。",
+  "proposed_shuttleInfo": "宮古駅から無料送迎バス（宿泊2日前までに電話予約）",
+  "notes": "現掲載の「要事前連絡」より具体的に更新可。時刻表は2024/12/1改定の記載。"
+ },
+ {
+  "name": "ホテルマウント富士",
+  "dest_ids": [
+   "yamanakako"
+  ],
+  "status": "verified",
+  "official_url": "https://www.mtfuji-hotel.com/",
+  "access_page_url": "https://www.mtfuji-hotel.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "バス停からの迎え：事前予約の記載なし、到着時に連絡、最終20時／ホテル発シャトルは予約制（期限記載なし）",
+  "pickup_points_official": "ホテルマウント富士入口バス停↔ホテル（約10分）。ホテル発は同バス停、9:45便のみ富士山駅・ハイランドリゾートホテル＆スパも可",
+  "quote": "ホテルマウント富士入口バス停より送迎バスがございます。",
+  "proposed_shuttleInfo": "ホテルマウント富士入口バス停から送迎バスあり（到着時に連絡）",
+  "notes": "公式に「無料」の文言は無い。現掲載の「無料」は公式で未確認。"
+ },
+ {
+  "name": "アオアヲ ナルト リゾート",
+  "dest_ids": [
+   "naruto-uzu"
+  ],
+  "status": "verified",
+  "official_url": "https://www.aoawo-naruto.com/",
+  "access_page_url": "https://www.aoawo-naruto.com/pages/123/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "高速鳴門～ホテルは無料。空港・JR鳴門駅発着の送迎バスは2026/7/19で終了（料金記載なし）",
+  "reservation_official": "高速鳴門便：3日前までに要予約、予約がなければ運行しない",
+  "pickup_points_official": "高速鳴門バス停↔ホテル（1日6便ずつ）",
+  "quote": "高速鳴門～ホテル間の無料送迎バスは、これまで通り変わらず運行いたします。",
+  "proposed_shuttleInfo": "高速鳴門バス停から無料送迎バスあり（3日前までに要予約）",
+  "notes": "JR鳴門駅発着は2026/7/19で終了（7/20以降はUZSバス案内）。現掲載の「JR鳴門駅から無料送迎」は現状と不一致。"
+ },
+ {
+  "name": "休暇村大久野島",
+  "dest_ids": [
+   "okunoshima"
+  ],
+  "status": "verified",
+  "official_url": "https://www.qkamura.or.jp/ohkuno/",
+  "access_page_url": "https://www.qkamura.or.jp/ohkuno/access/index.asp",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "予約不要",
+  "pickup_points_official": "大久野島桟橋から休暇村本館まで",
+  "quote": "島内では、無料送迎バスを運行いたしております。(予約不要)",
+  "proposed_shuttleInfo": "大久野島桟橋から本館まで無料送迎バス（予約不要）",
+  "notes": "現掲載と一致。"
+ },
+ {
+  "name": "氷見温泉郷 くつろぎの宿 うみあかり",
+  "dest_ids": [
+   "himi"
+  ],
+  "status": "verified",
+  "official_url": "https://www.umiakari.jp/",
+  "access_page_url": "https://www.umiakari.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "要予約（必ずご予約ください）。電話0766-74-2211。期限の記載なし",
+  "pickup_points_official": "JR氷見駅→うみあかり",
+  "quote": "JR氷見駅より専用バスにて無料送迎いたします。",
+  "proposed_shuttleInfo": "JR氷見駅から無料送迎バスあり（要予約）",
+  "notes": "現掲載の「2名以上」は公式ページで確認できず。予約期限の記載もなし"
+ },
+ {
+  "name": "明賀屋本館",
+  "dest_ids": [
+   "shiobara-onsen"
+  ],
+  "status": "verified",
+  "official_url": "http://www.myogaya.com/",
+  "access_page_url": "http://www.myogaya.com/access.stm",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "バス停に着いたら宿へ電話連絡（TEL 0287-32-2831）",
+  "pickup_points_official": "塩釜バス停（14:00〜19:00）",
+  "quote": "14：00から19：00の間、塩釜バス停までお迎えにあがります。",
+  "proposed_shuttleInfo": "塩釜バス停へ14〜19時にお迎え（到着後に宿へ連絡）",
+  "notes": "公式アクセスに「無料」の語なし（料金記載もなし）。現掲載の「無料」は公式で未確認。HTTPS証明書不一致のためhttp/curlで読んだ"
+ },
+ {
+  "name": "十勝川温泉第一ホテル",
+  "dest_ids": [
+   "gen_北海_十勝川温泉"
+  ],
+  "status": "verified",
+  "official_url": "https://www.daiichihotel.com/",
+  "access_page_url": "https://www.daiichihotel.com/access/",
+  "shuttle": "no",
+  "free_word_on_official": false,
+  "price_text_official": "宿泊客限定で帯広駅〜十勝川温泉の往復路線バス料金1,000円が無料になるキャンペーン（2025/4/1〜2026/3/31）",
+  "reservation_official": "帯広駅発の路線バスは予約記載なし（バスターミナル窓口で宿泊の旨を伝える）。新千歳空港発のとかちミルキーライナーは往復予約必要",
+  "pickup_points_official": "帯広駅バスターミナル6番のりば→「第一ホテル」停留所",
+  "quote": "帯広駅から当館までは路線バスを利用してお越しいただけます。",
+  "proposed_shuttleInfo": "帯広駅から路線バス利用（宿専用の無料送迎シャトルは公式に記載なし）",
+  "notes": "ホテル独自の送迎シャトルは記載なし。現掲載の無料シャトル・前日17時予約は公式で確認できず。無料キャンペーンは期間終了済み（2026/3/31）"
+ },
+ {
+  "name": "大島温泉ホテル",
+  "dest_ids": [
+   "izu-oshima"
+  ],
+  "status": "verified",
+  "official_url": "https://www.oshima-onsen.co.jp/",
+  "access_page_url": "https://www.oshima-onsen.co.jp/access.html",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "事前予約制（事前に予約を）",
+  "pickup_points_official": "入港地→ホテル（入港地発は午後の定期便到着時のみ）／ホテル発9:00・10:00に入港地へ",
+  "quote": "入港地～ホテルまでの無料送迎バスを運行いたします。",
+  "proposed_shuttleInfo": "入港地からの無料送迎バスあり（午後の定期便着のみ・事前予約）",
+  "notes": "午前便・航空便・大型客船早朝着の出迎えなし。港名（元箱根でなく元町港/岡田港）の明記は読めず入港地とのみ記載。約20分の記載は確認できず"
+ },
+ {
+  "name": "旅館 紅鮎",
+  "dest_ids": [
+   "chikubushima"
+  ],
+  "status": "verified",
+  "official_url": "https://www.beniayu.com/",
+  "access_page_url": "https://www.beniayu.com/access.html",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "要予約。列車の到着時間を事前に連絡（到着後の連絡でも可だが10〜15分待つ）",
+  "pickup_points_official": "北陸本線「高月駅」西口（送迎バス約10分）",
+  "quote": "無料送迎バスのご案内 / 要予約",
+  "proposed_shuttleInfo": "高月駅西口から無料送迎バス約10分（要予約）",
+  "notes": "「無料送迎バスのご案内/要予約」見出し。期限の記載なし"
+ },
+ {
+  "name": "大観荘せなみの湯",
+  "dest_ids": [
+   "murakami"
+  ],
+  "status": "verified",
+  "official_url": "https://www.taikanso.senaminoyu.co.jp/",
+  "access_page_url": "https://www.taikanso.senaminoyu.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "前日までの予約が必要（電話0254-53-2131、9〜19時）。ただし注記は送迎専用と明記されていない",
+  "pickup_points_official": "JR村上駅→宿（約10分）",
+  "quote": "無料の送迎バスが、村上駅よりご利用いただけます。",
+  "proposed_shuttleInfo": "JR村上駅から無料送迎バス約10分（前日までに要予約）",
+  "notes": "前日予約の注記が送迎専用かは公式上あいまい"
+ },
+ {
+  "name": "星野リゾート リゾナーレトマム",
+  "dest_ids": [
+   "tomamu"
+  ],
+  "status": "verified",
+  "official_url": "https://hoshinoresorts.com/en/hotels/risonaretomamu/",
+  "access_page_url": "https://www.snowtomamu.jp/summer/faq/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "駅→リゾートは予約記載なし（列車到着に合わせ運行）。リゾート→駅は予約制",
+  "pickup_points_official": "JRトマム駅⇔リゾート各施設。リゾナーレまで約10分",
+  "quote": "列車の到着時間にあわせてバスがお迎えにあがります。",
+  "proposed_shuttleInfo": "JRトマム駅から送迎バスあり（列車着に合わせ運行・約10分）",
+  "notes": "FAQに「無料」の語は読めず（検索要約では無料とあったが原文で未確認）。読んだのはグリーンシーズン用FAQでリゾナーレ宿泊用の宿固有ページではない"
+ },
+ {
+  "name": "小田急 山のホテル",
+  "dest_ids": [
+   "ashinoko"
+  ],
+  "status": "verified",
+  "official_url": "https://www.hakone-hoteldeyama.jp/",
+  "access_page_url": "https://www.hakone-hoteldeyama.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "ホテル利用者 無料",
+  "reservation_official": "予約の記載なし。冬季は変更の場合あり、問い合わせを",
+  "pickup_points_official": "元箱根港海賊船乗り場 6番バス停→ホテル",
+  "quote": "ホテル利用者 無料（9時10分より毎時10・30・50分発、最終17時10分）",
+  "proposed_shuttleInfo": "元箱根港から無料送迎バス約5分（毎時10・30・50分発）",
+  "notes": "「約5分」は検索要約の記載で、アクセスページ原文では未確認。時刻は9:10〜最終17:10"
+ },
+ {
+  "name": "紀州・白浜温泉 むさし",
+  "dest_ids": [
+   "shirahama"
+  ],
+  "status": "verified",
+  "official_url": "https://www.yado-musashi.co.jp/",
+  "access_page_url": "https://www.yado-musashi.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "公式の送迎記載内に予約要否の記載は読めず（車の駐車は予約不要）",
+  "pickup_points_official": "発着地の詳細は読めず",
+  "quote": "むさしにお泊りのお客様は白浜温泉旅館協同組合が運行する無料シャトルバスをご利用頂けます。",
+  "proposed_shuttleInfo": "白浜温泉旅館協同組合の無料シャトルバスを利用可",
+  "notes": "白浜駅からという記載・「迎えは予約不要」は公式で確認できず。「予約不要」は駐車場の記載のみ"
+ },
+ {
+  "name": "鉛温泉 藤三旅館",
+  "dest_ids": [
+   "hanamaki-onsen"
+  ],
+  "status": "verified",
+  "official_url": "https://namari-onsen-ryokan.com/",
+  "access_page_url": "https://namari-onsen-ryokan.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": "9/1～協力金として片道100円",
+  "reservation_official": "予約制。電話または予約時の備考欄。期限の記載なし",
+  "pickup_points_official": "新花巻駅・花巻駅⇔藤三旅館（迎え1日3便・送り1日1便）",
+  "quote": "9/1～ 協力金として片道100円お支払いいただきます。",
+  "proposed_shuttleInfo": "新花巻駅・花巻駅から予約制シャトル（片道100円）",
+  "notes": "公式は無料と書かず協力金100円。現掲載の「無料」は不可。「9/1～」の年は不明"
+ },
+ {
+  "name": "料亭湯宿 銀鱗荘",
+  "dest_ids": [
+   "otaru"
+  ],
+  "status": "verified",
+  "official_url": "https://www.ginrinsou.com/",
+  "access_page_url": "https://www.ginrinsou.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎",
+  "reservation_official": "事前予約が必要(期限の記載なし)",
+  "pickup_points_official": "JR小樽築港駅から当館",
+  "quote": "事前のご予約でJR小樽築港駅から当館まで無料送迎を行っております",
+  "proposed_shuttleInfo": "小樽築港駅から無料送迎あり（宿泊者・要事前予約）",
+  "notes": "現掲載の「15〜18時」は公式ページで確認できず。片道(駅→宿)の案内のみ。"
+ },
+ {
+  "name": "雲仙観光ホテル",
+  "dest_ids": [
+   "unzen2"
+  ],
+  "status": "official_unreachable",
+  "official_url": "https://www.unzenkankohotel.com/",
+  "access_page_url": null,
+  "shuttle": null,
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "公式トップはシステムメンテナンス中(2026/10/22〜未定)で内容を読めず。電話0957-73-3263。"
+ },
+ {
+  "name": "東大雪荘",
+  "dest_ids": [
+   "gen_北海_トムラウシ温泉"
+  ],
+  "status": "verified",
+  "official_url": "http://www.tomuraushionsen.com/",
+  "access_page_url": "https://www.tomuraushionsen.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎(新得駅)",
+  "reservation_official": "宿の送迎の予約要否は記載なし。夏季の拓殖バスは利用1か月前から予約受付",
+  "pickup_points_official": "新得駅とトムラウシ温泉の間",
+  "quote": "無料送迎を行っている新得駅へお越しください。",
+  "proposed_shuttleInfo": "新得駅から無料送迎あり（7月中旬〜8月中旬は拓殖バス・要予約）",
+  "notes": "現掲載の「要予約・前日当日不可」は公式ページで確認できず。夏季は無料送迎バス運休で拓殖バス(料金記載なし)。"
+ },
+ {
+  "name": "礼文温泉 花れぶん",
+  "dest_ids": [
+   "rebun-island"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://www.hanarebun.com/",
+  "access_page_url": "https://www.hanarebun.com/",
+  "shuttle": "yes",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": "フェリー到着時間を予めお知らせください(予約期限の記載なし)",
+  "pickup_points_official": "発着地の明記なし(香深港から徒歩約8分の記載)",
+  "quote": "送迎バスをご利用のお客様は、予めフェリーの到着時間をお知らせください。",
+  "proposed_shuttleInfo": null,
+  "notes": "送迎バスの存在のみ。無料の記載・発着地は読めず。「無料」は公式で確認できない。"
+ },
+ {
+  "name": "碧き島の宿 熊野別邸 中の島",
+  "dest_ids": [
+   "nachikatsuura"
+  ],
+  "status": "verified",
+  "official_url": "https://kb-nakanoshima.jp/",
+  "access_page_url": "https://kb-nakanoshima.jp/ship/",
+  "shuttle": "yes",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": "記載なし",
+  "pickup_points_official": "勝浦港観光桟橋手前の客船待合処から中の島へ(約5分)。停車地は紀伊勝浦駅・客船待合処・中の島",
+  "quote": "勝浦観光桟橋の手前に送迎船乗り場「客船待合処」がございます。",
+  "proposed_shuttleInfo": "勝浦港の客船待合処から専用送迎船で約5分",
+  "notes": "船の「無料」の記載は読めず(無料は船着き場駐車場のみ)。送迎船の無料は未確認。トップ・ship・accessの3ページで確認。"
+ },
+ {
+  "name": "鎌先温泉 時音の宿 湯主一條",
+  "dest_ids": [
+   "shiraoishi"
+  ],
+  "status": "verified",
+  "official_url": "https://www.ichijoh.co.jp/",
+  "access_page_url": "https://www.ichijoh.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎車を毎日運行",
+  "reservation_official": "ご宿泊の前日までのご予約が必要です",
+  "pickup_points_official": "白石蔵王駅14:15発・白石駅14:30発→宿14:50着。帰りは宿9:50または10:50発",
+  "quote": "無料送迎車を毎日運行しております",
+  "proposed_shuttleInfo": "白石蔵王駅・白石駅から無料送迎あり（前日までに要予約）",
+  "notes": "現掲載の「3日前まで」は公式では「前日まで」。要修正。"
+ },
+ {
+  "name": "レゾネイトクラブくじゅう",
+  "dest_ids": [
+   "kuju-kogen"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://www.resonate.co.jp/",
+  "access_page_url": "https://www.resonate.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": "JR由布院駅",
+  "quote": "JR由布院駅より送迎バスをご用意しております。",
+  "proposed_shuttleInfo": null,
+  "notes": "アクセスページに無料・予約の記載なし。詳細は「由布院送迎バス」ページ(未読)。無料は未確認。"
+ },
+ {
+  "name": "養老温泉 秘湯の宿 滝見苑",
+  "dest_ids": [
+   "boso-hills"
+  ],
+  "status": "verified",
+  "official_url": "https://www.takimi.co.jp/",
+  "access_page_url": "https://www.takimi.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎",
+  "reservation_official": "アクセスページに送迎の予約要否の記載なし(検索結果の要約では事前連絡要。ページ未確認)",
+  "pickup_points_official": "養老渓谷駅・上総中野駅から宿。両駅10:00発予定",
+  "quote": "養老渓谷駅もしくは上総中野駅から宿まで無料送迎をいたします。",
+  "proposed_shuttleInfo": "養老渓谷駅・上総中野駅から宿泊者は無料送迎あり",
+  "notes": "両駅10時発(列車により変動)。"
+ },
+ {
+  "name": "冨士屋",
+  "dest_ids": [
+   "kawayu"
+  ],
+  "status": "verified",
+  "official_url": "https://www.fuziya.co.jp/",
+  "access_page_url": "https://fuziya.co.jp/about/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "熊野古道へ無料",
+  "reservation_official": "予約制。チェックイン時にご予約ください",
+  "pickup_points_official": "毎朝9時発。発心門王子・伏拝王子へバス送迎(熊野本宮大社経由)",
+  "quote": "予約制で毎朝午前9時に熊野古道へ無料でお送りしております。",
+  "proposed_shuttleInfo": "毎朝9時に熊野古道（発心門王子等）へ無料送迎（要予約）",
+  "notes": "川湯温泉冨士屋(田辺市本宮町)と確認。駅送迎ではなく熊野古道への送迎。"
+ },
+ {
+  "name": "南伊豆弓ヶ浜温泉 季一遊",
+  "dest_ids": [
+   "minami-izu"
+  ],
+  "status": "verified",
+  "official_url": "https://tokiichiyu.com/",
+  "access_page_url": "https://tokiichiyu.com/p-1140/",
+  "shuttle": "yes",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": "行きは事前予約制。宿泊日の前日までに電話(0558-62-5151)",
+  "pickup_points_official": "伊豆急下田駅と季一遊の間(約20分)。下田駅発14:00/15:00/16:00/17:00(夏期は14:00/15:30/17:00)、季一遊発9:00/10:05/11:10",
+  "quote": "行きのシャトルバスは事前予約制でございます",
+  "proposed_shuttleInfo": "伊豆急下田駅からシャトルバス約20分（前日までに要予約）",
+  "notes": "シャトルバスの無料の記載は読めず。「無料」は公式で未確認。"
+ },
+ {
+  "name": "伝承千年の宿 佐勘",
+  "dest_ids": [
+   "sakunami-onsen"
+  ],
+  "status": "verified",
+  "official_url": "https://www.hotel-sakan.com/",
+  "access_page_url": "https://www.hotel-sakan.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎バス",
+  "reservation_official": "オンライン予約フォーム必須（電話不可）・定員あり。期限の記載なし",
+  "pickup_points_official": "仙台駅東口乗降場 ⇔ 佐勘",
+  "quote": "無料送迎バス（仙台駅東口乗降場）",
+  "proposed_shuttleInfo": "仙台駅東口から無料送迎バスあり（要予約・オンライン受付）",
+  "notes": "現掲載の『予約定員制』は公式と整合。期限記載なし。10名超の団体は別途有料バス。"
+ },
+ {
+  "name": "アイランドホテル与那国",
+  "dest_ids": [
+   "yonaguni-island"
+  ],
+  "status": "verified",
+  "official_url": "https://ailandhotel-yonaguni.com/",
+  "access_page_url": "https://ailandhotel-yonaguni.com/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎",
+  "reservation_official": "宿泊日前日15:00までに問い合わせページから予約",
+  "pickup_points_official": "与那国空港からホテル（約5分）。対応9:00〜19:00。ホテル→空港の記載なし",
+  "quote": "無料送迎希望の方は、宿泊日前日の15:00までにお問い合わせページよりご予約ください。",
+  "proposed_shuttleInfo": "与那国空港から無料送迎あり（前日15時までに要予約・9〜19時）",
+  "notes": "現掲載と一致。リニューアル後の営業状況は公式で要確認。"
+ },
+ {
+  "name": "八甲田城ヶ倉温泉 ホテル城ヶ倉",
+  "dest_ids": [
+   "gen_青森_城ヶ倉温泉"
+  ],
+  "status": "verified",
+  "official_url": "https://www.jogakura.com/",
+  "access_page_url": "https://www.jogakura.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎サービス",
+  "reservation_official": "要予約。宿泊日の3日前までにホテルへ直接連絡。定員あり",
+  "pickup_points_official": "迎え:JR青森駅前（駅前交番付近）15:30発（ねぶた期間14:30）／送り:ホテル発9:00（送り先記載なし）",
+  "quote": "青森駅前からの無料送迎がございます",
+  "proposed_shuttleInfo": "青森駅前から無料送迎あり（3日前までに要予約・15:30発）",
+  "notes": "現掲載に予約期限と時刻を追記可能。"
+ },
+ {
+  "name": "定山渓温泉 ぬくもりの宿ふる川",
+  "dest_ids": [
+   "jozankei"
+  ],
+  "status": "verified",
+  "official_url": "https://www.yado-furu.com/",
+  "access_page_url": "https://www.yado-furu.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎バス",
+  "reservation_official": "完全予約制。座席限りあり、期限の記載なし",
+  "pickup_points_official": "往路:札幌市中央区大通西1丁目（テレビ塔北向かい）14:30発／復路:ふる川10:00発、下車は大通4丁目付近（札幌駅南口）",
+  "quote": "完全予約制無料送迎バス 定山渓温泉 温もりの宿 ふる川号",
+  "proposed_shuttleInfo": "札幌・大通西1丁目から無料送迎バスあり（完全予約制・14:30発）",
+  "notes": "現掲載の『14時発』は公式では14:30発。要修正。"
+ },
+ {
+  "name": "湯田川温泉 九兵衛旅館",
+  "dest_ids": [
+   "shonai"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://www.kuheryokan.com/",
+  "access_page_url": "https://www.kuheryokan.com/access/",
+  "shuttle": "unclear",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "アクセスページは公共交通（バス510円・タクシー約3000円）のみで送迎の記載なし。トップにも記載なし。現掲載の無料送迎は公式で確認できず。"
+ },
+ {
+  "name": "グランドメルキュール琵琶湖リゾート＆スパ",
+  "dest_ids": [
+   "nagahama"
+  ],
+  "status": "verified",
+  "official_url": "https://grand-mercure-lakebiwa-resortandspa.jp/",
+  "access_page_url": "https://grand-mercure-lakebiwa-resortandspa.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎バス",
+  "reservation_official": "予約の要否・期限の記載なし",
+  "pickup_points_official": "JR長浜駅西口（びわ湖口）⇔ホテル。駅発15:20〜17:20台、ホテル発9:10〜11:10台・15:00〜17:00（表が崩れて読取、時刻は要確認）",
+  "quote": "『無料送迎バス』の見出し（宿泊者・日帰り客対象）",
+  "proposed_shuttleInfo": "JR長浜駅西口から無料送迎バスあり（時刻表あり）",
+  "notes": "現掲載『予約不要』は公式で明記を確認できず（記載なし）。時刻は読取不確実。"
+ },
+ {
+  "name": "NIPPONIA HOTEL 大洲 城下町",
+  "dest_ids": [
+   "ozu"
+  ],
+  "status": "verified",
+  "official_url": "https://www.ozucastle.com/",
+  "access_page_url": "https://www.ozucastle.com/access",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "要予約。前日までにVMG総合窓口(0120-210-289)へ連絡",
+  "pickup_points_official": "伊予大洲駅→フロント『OKI』（車約5分）。15:10/16:10/17:10の3便。帰りの記載なし",
+  "quote": "ご利用希望の際はVMG総合窓口(0120-210-289)まで前日までにご連絡くださいませ。",
+  "proposed_shuttleInfo": "伊予大洲駅から送迎あり（前日までに要連絡・15〜17時台3便）",
+  "notes": "公式に送迎の『無料』表記なし（無料は駐車場のみ）。現掲載の『無料』は未確認。"
+ },
+ {
+  "name": "本陣平野屋 花兆庵",
+  "dest_ids": [
+   "takayama-2"
+  ],
+  "status": "verified",
+  "official_url": "https://ssl.honjinhiranoya.com/",
+  "access_page_url": "https://ssl.honjinhiranoya.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "期限の記載なし。『お気軽にお申し付けください』",
+  "pickup_points_official": "JR高山駅（高山濃飛バスセンター）へ到着時間に合わせてお迎え",
+  "quote": "ご到着時間に合わせて、JR高山駅（高山濃飛バスセンター）までお迎えに参ります",
+  "proposed_shuttleInfo": "高山駅へ到着時間に合わせてお迎えあり（要申し出）",
+  "notes": "公式に送迎の『無料』表記なし（無料は駐車場のみ）。現掲載の『無料』は未確認。"
+ },
+ {
+  "name": "岩室温泉 高志の宿 高島屋",
+  "dest_ids": [
+   "niigata-bandai"
+  ],
+  "status": "verified",
+  "official_url": "https://takasimaya.co.jp/",
+  "access_page_url": "https://takasimaya.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "岩室駅・弥彦駅は無料送迎いたします。",
+  "reservation_official": "3日前までの予約制",
+  "pickup_points_official": "岩室駅・弥彦駅⇔高島屋（車約10分）。時刻の記載なし",
+  "quote": "岩室駅・弥彦駅は無料送迎いたします。",
+  "proposed_shuttleInfo": "岩室駅・弥彦駅から無料送迎あり（3日前までに要予約）",
+  "notes": "別ページ(/note/access/)に『11月・正月三が日は弥彦への送迎不可』『無料送迎は2名様から』（燕三条駅の注記かは不明）の記載あり。現在11月なので弥彦駅発着は注意。"
+ },
+ {
+  "name": "汀邸 遠音近音",
+  "dest_ids": [
+   "tomonoura"
+  ],
+  "status": "verified",
+  "official_url": "https://www.ochikochi.co.jp/",
+  "access_page_url": "https://www.ochikochi.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "事前予約制。電話0570-025-577(9:00-18:00)。期限の記載なし",
+  "pickup_points_official": "JR福山駅からシャトルバス。乗場・時刻は別PDF（未読）",
+  "quote": "JR福山駅よりシャトルバスを運行しています／シャトルバスのご利用は事前予約制",
+  "proposed_shuttleInfo": "JR福山駅からシャトルバスあり（事前予約制）",
+  "notes": "アクセスページ本文に『無料』なし。検索要約には『無料送迎バス（予約制）』とあったが出所ページは未確認のためfalse扱い。時刻PDF未読。"
+ },
+ {
+  "name": "赤倉観光ホテル",
+  "dest_ids": [
+   "myoko-kogen"
+  ],
+  "status": "verified",
+  "official_url": "https://www.akr-hotel.com/",
+  "access_page_url": "https://www.akr-hotel.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "予約制(予約のない便は運行しない)。期限の記載なし",
+  "pickup_points_official": "妙高高原駅⇔ホテル(約10分)",
+  "quote": "妙高高原駅からホテルまではご予約制の無料送迎シャトルバスを運行しております。",
+  "proposed_shuttleInfo": "妙高高原駅から予約制の無料送迎シャトルあり",
+  "notes": "期限は公式に記載なし(外部情報の30分前は未確認扱い)"
+ },
+ {
+  "name": "種子島あらきホテル",
+  "dest_ids": [
+   "tanegashima"
+  ],
+  "status": "verified",
+  "official_url": "http://araki-hotel.co.jp/",
+  "access_page_url": "https://araki-hotel.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "事前予約必須(到着便名と時刻を連絡)",
+  "pickup_points_official": "西之表港⇔ホテル。空港との送迎なし",
+  "quote": "西之表港から無料送迎のご案内※事前予約必須",
+  "proposed_shuttleInfo": "西之表港から無料送迎あり(事前予約必須・空港送迎なし)",
+  "notes": "現行掲載と一致"
+ },
+ {
+  "name": "プリシアリゾートヨロン",
+  "dest_ids": [
+   "yoron-island"
+  ],
+  "status": "verified",
+  "official_url": "https://www.pricia.co.jp/",
+  "access_page_url": "https://www.pricia.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "予約フォームより事前連絡(期限記載なし)",
+  "pickup_points_official": "飛行機・フェリーの到着時刻に合わせる。具体的乗降場所の記載なし",
+  "quote": "飛行機、フェリーともに到着時刻に合わせて無料送迎バスをご用意しております。",
+  "proposed_shuttleInfo": "飛行機・フェリー到着に合わせ無料送迎バスあり(要事前連絡)",
+  "notes": "'空港・港'は公式では飛行機・フェリー到着と表記"
+ },
+ {
+  "name": "和銅鉱泉 ゆの宿 和どう",
+  "dest_ids": [
+   "chichibu"
+  ],
+  "status": "verified",
+  "official_url": "https://www.wadoh.co.jp/",
+  "access_page_url": "https://www.wadoh.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料(見出し「無料送迎車のご案内」)",
+  "reservation_official": "駅到着後に宿へ電話連絡。事前予約の必要性は明記なし",
+  "pickup_points_official": "和銅黒谷駅(1名から可)",
+  "quote": "無料送迎車のご案内 / 駅到着後、当館までご連絡ください。",
+  "proposed_shuttleInfo": "和銅黒谷駅から無料送迎あり(駅到着後に要連絡)",
+  "notes": "WebFetch要約からの引用のため文言は要約経由"
+ },
+ {
+  "name": "国際観光ホテル旗松亭",
+  "dest_ids": [
+   "hirado"
+  ],
+  "status": "verified",
+  "official_url": "https://www.kishotei.com/",
+  "access_page_url": "https://www.kishotei.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料",
+  "reservation_official": "平戸桟橋到着後に電話連絡(0950-22-3191)",
+  "pickup_points_official": "平戸桟橋→ホテル",
+  "quote": "ご利用の際は、平戸桟橋ご到着後、下記番号までご連絡ください。",
+  "proposed_shuttleInfo": "平戸桟橋から無料送迎あり(到着後に要連絡)",
+  "notes": "'無料送迎バス'の記載は要約経由。連絡は到着後"
+ },
+ {
+  "name": "白馬八方温泉 しろうま荘",
+  "dest_ids": [
+   "hakuba"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://shiroumaso.com/",
+  "access_page_url": "https://shiroumaso.com/access/",
+  "shuttle": "unclear",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "公式トップ・アクセスに送迎の記載なし(バスターミナル徒歩2分のみ)。現行の無料送迎は公式で確認できず"
+ },
+ {
+  "name": "銘石の宿 かげつ",
+  "dest_ids": [
+   "isawa-onsen"
+  ],
+  "status": "verified",
+  "official_url": "https://www.isawa-kagetsu.com/",
+  "access_page_url": "https://www.isawa-kagetsu.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "お申し付けください(期限・時間の記載なし)",
+  "pickup_points_official": "電車利用の場合に宿から車でお迎え(場所の明記なし)",
+  "quote": "電車をご利用の場合は、かげつよりお車にてお迎えにあがります。",
+  "proposed_shuttleInfo": "電車利用の場合は宿の車でお迎え(要申し出)",
+  "notes": "アクセスページに『無料』の語は確認できず(検索要約には無料送迎の記述あり、公式本文は未確認)。14〜18時の記載も未確認"
+ },
+ {
+  "name": "亀の井別荘",
+  "dest_ids": [
+   "yufuin-2"
+  ],
+  "status": "no_shuttle_info_on_official",
+  "official_url": "https://www.kamenoi-bessou.jp/",
+  "access_page_url": "https://www.kamenoi-bessou.jp/access/",
+  "shuttle": "unclear",
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "アクセスはタクシー約5分・徒歩約25分のみ。送迎の記載なし。他ページ(宿泊案内等)は未確認"
+ },
+ {
+  "name": "篠山城下町ホテルNIPPONIA",
+  "dest_ids": [
+   "tanba-sasayama"
+  ],
+  "status": "verified",
+  "official_url": "https://www.kazenoheritage.jp/hotels/sasayama/",
+  "access_page_url": "https://www.kazenoheritage.jp/hotels/sasayama/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": null,
+  "reservation_official": "前日までにVMG総合窓口(0120-210-289 11:00-20:00)へ連絡。状況により不可の場合あり",
+  "pickup_points_official": "JR篠山口駅⇔ホテル。お迎え14:30/16:30、お送り10:15/14:00",
+  "quote": "ご利用希望の際はVMG総合窓口まで前日までにご連絡くださいませ。",
+  "proposed_shuttleInfo": "JR篠山口駅から送迎あり(前日までに要連絡・1日2便)",
+  "notes": "公式本文に『無料』の語は確認できず(検索要約のみ)。sasayamastay.jpは301で当URLへ"
+ },
+ {
+  "name": "裏磐梯高原ホテル",
+  "dest_ids": [
+   "urabandai"
+  ],
+  "status": "official_unreachable",
+  "official_url": "https://urabandai-kougen.com/",
+  "access_page_url": null,
+  "shuttle": null,
+  "free_word_on_official": null,
+  "price_text_official": null,
+  "reservation_official": null,
+  "pickup_points_official": null,
+  "quote": null,
+  "proposed_shuttleInfo": null,
+  "notes": "公式 urabandai-kougen.com はWebFetch・curlとも403またはほぼ空応答で読めず"
+ },
+ {
+  "name": "白鷺湯たわらや",
+  "dest_ids": [
+   "kaga-onsen"
+  ],
+  "status": "verified",
+  "official_url": "https://www.tawaraya.co.jp/",
+  "access_page_url": "https://www.tawaraya.co.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎バス（JR加賀温泉駅）",
+  "reservation_official": "事前予約必須（宿泊予約時か電話）。予約がない時は運行なし。帰りは20時までにフロントへ連絡",
+  "pickup_points_official": "行き:JR加賀温泉駅発(14〜18時の毎時) 約20分／帰り:たわらや発(8:30,9:45,10:45)",
+  "quote": "無料送迎バス（JR加賀温泉駅）／事前予約必須",
+  "proposed_shuttleInfo": "JR加賀温泉駅から無料送迎バス約20分（事前予約必須）",
+  "notes": "帰りの行き先駅は明記なし"
+ },
+ {
+  "name": "定山渓鶴雅リゾートスパ 森の謌",
+  "dest_ids": [
+   "gen_北海_定山渓温泉"
+  ],
+  "status": "verified",
+  "official_url": "https://www.morino-uta.com/",
+  "access_page_url": "https://www.morino-uta.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎シャトルバス",
+  "reservation_official": "完全予約・定員制。前日17:00までに電話で予約",
+  "pickup_points_official": "地下鉄南北線 真駒内駅前バス停 約30分、1日3往復",
+  "quote": "真駒内駅の間に、無料送迎シャトルバスを運行しております。",
+  "proposed_shuttleInfo": "地下鉄真駒内駅から無料送迎バス約30分（前日17時までに電話予約）",
+  "notes": "現行掲載と一致"
+ },
+ {
+  "name": "ザ レイクビュー TOYA 乃の風リゾート",
+  "dest_ids": [
+   "gen_北海_洞爺湖温泉"
+  ],
+  "status": "verified",
+  "official_url": "https://nonokaze-resort.com/",
+  "access_page_url": "https://nonokaze-resort.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": false,
+  "price_text_official": "JR札幌駅発着 片道1,000円（ホテル電話/公式HP予約者は無料）／新千歳空港発着 片道1,500円（同予約者は1,000円）",
+  "reservation_official": "予約制。ネット申込は3日前まで。往復とも事前予約、予約なしの日は運休",
+  "pickup_points_official": "JR札幌駅北口団体バス乗り場／新千歳空港1階到着ロビー北海道ツアーデスク",
+  "quote": "ホテルへの電話または公式HPから宿泊予約の客は、無料",
+  "proposed_shuttleInfo": "札幌駅北口・新千歳空港から送迎バス（有料。札幌駅発着は公式予約者無料・3日前まで予約）",
+  "notes": "原則有料。無料は札幌駅発着で電話/公式HP予約者のみ。現行掲載はほぼ一致だが「予約者」を公式予約者と限定すべき"
+ },
+ {
+  "name": "間人温泉 炭平",
+  "dest_ids": [
+   "tango-kyoto"
+  ],
+  "status": "verified",
+  "official_url": "https://www.sumihei.com/",
+  "access_page_url": "https://www.sumihei.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎有（要予約）",
+  "reservation_official": "要予約。予約期限の記載なし。予約がない場合は運行されない",
+  "pickup_points_official": "京都丹後鉄道 網野駅 約20分。網野駅発14:10/15:10/18:10、炭平発8:50/10:40/12:00",
+  "quote": "無料送迎有（要予約）",
+  "proposed_shuttleInfo": "京都丹後鉄道網野駅から無料送迎約20分（要予約）",
+  "notes": "現行掲載と一致"
+ },
+ {
+  "name": "北天の丘 あばしり湖鶴雅リゾート",
+  "dest_ids": [
+   "abashiri"
+  ],
+  "status": "verified",
+  "official_url": "https://www.hokutennooka.com/",
+  "access_page_url": "https://www.hokutennooka.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料送迎バス",
+  "reservation_official": "前日20時までに電話(0152-48-3211)で申込",
+  "pickup_points_official": "女満別空港(2026/4/1〜12/31チェックアウト分、セブン-イレブン女満別空港店前)／JR呼人駅前バス停(通年)。網走駅・オーロラターミナル発の冬季北天ライナーは今季終了",
+  "quote": "FREE SHUTTLE BUS｜要予約｜無料送迎バスをご利用の方",
+  "proposed_shuttleInfo": "女満別空港・JR呼人駅から無料送迎バス（前日20時までに電話予約）",
+  "notes": "現行掲載のJR網走駅発は公式で確認できず(網走駅便は冬季の北天ライナーで今季終了)。発着地を差し替え要"
+ },
+ {
+  "name": "サロマ湖鶴雅リゾート",
+  "dest_ids": [
+   "saroma-ko"
+  ],
+  "status": "verified",
+  "official_url": "https://www.s-tsuruga.com/",
+  "access_page_url": "https://www.s-tsuruga.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "完全予約制無料送迎バス毎日運行",
+  "reservation_official": "完全予約制。3日前までに予約。予約がない場合は運行なし",
+  "pickup_points_official": "女満別空港(14:50発)→網走駅前(15:20頃)→宿16:10着／復路 宿10:00発→網走駅10:50頃→空港11:20着",
+  "quote": "完全予約制無料送迎バス毎日運行",
+  "proposed_shuttleInfo": "女満別空港・網走駅から無料送迎バス毎日運行（3日前までの予約制）",
+  "notes": "現行掲載の北見市内発は公式で確認できず、網走駅が正しい"
+ },
+ {
+  "name": "えたじま温泉 江田島荘",
+  "dest_ids": [
+   "etajima"
+  ],
+  "status": "verified",
+  "official_url": "https://etajimasou.jp/",
+  "access_page_url": "https://etajimasou.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "送迎車を無料でご用意",
+  "reservation_official": "事前に電話(0823-27-7755)で到着時刻を連絡。対応時間5:00〜23:00（要事前予約）。期限の記載なし",
+  "pickup_points_official": "最寄りの港（中町港）と江田島荘の間",
+  "quote": "最寄りの港（中町港）から江田島荘まで送迎車を無料でご用意",
+  "proposed_shuttleInfo": "中町港から無料送迎あり（事前に電話連絡・5〜23時対応）",
+  "notes": "現行掲載と一致"
+ },
+ {
+  "name": "城山ホテル鹿児島",
+  "dest_ids": [
+   "kagoshima-city",
+   "iso"
+  ],
+  "status": "verified",
+  "official_url": "https://www.shiroyama-g.co.jp/",
+  "access_page_url": "https://www.shiroyama-g.co.jp/access/index.html",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "シャトルバスを無料で運行",
+  "reservation_official": "予約の記載なし（満員で乗れない場合あり）",
+  "pickup_points_official": "鹿児島中央ターミナルビル1階3番乗り場、天文館周辺を巡回",
+  "quote": "シャトルバスを無料で運行しております。",
+  "proposed_shuttleInfo": "鹿児島中央駅・天文館周辺を巡回する無料シャトルバス運行",
+  "notes": "運行間隔(約30分毎)は本文に記載なし。時刻表は別ページ(未読)なので掲載文から削除推奨"
+ },
+ {
+  "name": "名栗温泉 大松閣",
+  "dest_ids": [
+   "hanno"
+  ],
+  "status": "verified",
+  "official_url": "https://www.taishoukaku.com/",
+  "access_page_url": "https://www.taishoukaku.com/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "無料の送迎バス",
+  "reservation_official": "要予約（予約フォームか電話042-979-0505）。期限の記載なし",
+  "pickup_points_official": "飯能駅南口発→大松閣（約30分）。行き10:30,11:45,15:00,16:30／帰り10:00,11:15,14:30,16:00,20:30",
+  "quote": "飯能駅～大松閣間は無料の送迎バスがございます。",
+  "proposed_shuttleInfo": "飯能駅南口から無料送迎バス約30分（1日4便・要予約）",
+  "notes": "現行掲載と一致（行き4便）"
+ },
+ {
+  "name": "湯元ホテル阿智川",
+  "dest_ids": [
+   "niche_長野_1"
+  ],
+  "status": "verified",
+  "official_url": "https://www.hotel-achigawa.jp/",
+  "access_page_url": "https://www.hotel-achigawa.jp/access/",
+  "shuttle": "yes",
+  "free_word_on_official": true,
+  "price_text_official": "路線バス・無料送迎のご案内",
+  "reservation_official": "無料送迎についてはご予約制。要連絡(0265-43-2800)。期限の記載なし",
+  "pickup_points_official": "飯田駅〜昼神温泉郷(阿智の里ひるがみ前)、飯田駅〜曽山入口、中央道昼神温泉/駒場バス停(要望時)、松本便は完全予約制",
+  "quote": "無料送迎についてはご予約制となります。",
+  "proposed_shuttleInfo": "飯田駅などから無料送迎あり（予約制。時刻は公式PDF参照）",
+  "notes": "時刻表PDF(2024版)は未読。上諏訪便廃止・松本便開始(2025/7告知)あり"
+ }
+]

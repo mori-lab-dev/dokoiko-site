@@ -1,0 +1,254 @@
+[
+  {
+    "destId": "himi",
+    "stay": "氷見温泉郷 くつろぎの宿 うみあかり",
+    "official_url": "https://www.umiakari.jp/",
+    "access_page_url": "https://www.umiakari.jp/access/",
+    "quote": "JR氷見駅より専用バスにて無料送迎いたします。"
+  },
+  {
+    "destId": "otaru",
+    "stay": "料亭湯宿 銀鱗荘",
+    "official_url": "https://www.ginrinsou.com/",
+    "access_page_url": "https://www.ginrinsou.com/access/",
+    "quote": "事前のご予約でJR小樽築港駅から当館まで無料送迎を行っております"
+  },
+  {
+    "destId": "sakunami-onsen",
+    "stay": "伝承千年の宿 佐勘",
+    "official_url": "https://www.hotel-sakan.com/",
+    "access_page_url": "https://www.hotel-sakan.com/access/",
+    "quote": "無料送迎バス（仙台駅東口乗降場）"
+  },
+  {
+    "destId": "myoko-kogen",
+    "stay": "赤倉観光ホテル",
+    "official_url": "https://www.akr-hotel.com/",
+    "access_page_url": "https://www.akr-hotel.com/access/",
+    "quote": "妙高高原駅からホテルまではご予約制の無料送迎シャトルバスを運行しております。"
+  },
+  {
+    "destId": "kaga-onsen",
+    "stay": "白鷺湯たわらや",
+    "official_url": "https://www.tawaraya.co.jp/",
+    "access_page_url": "https://www.tawaraya.co.jp/access/",
+    "quote": "無料送迎バス（JR加賀温泉駅）／事前予約必須"
+  },
+  {
+    "destId": "yonaguni-island",
+    "stay": "アイランドホテル与那国",
+    "official_url": "https://ailandhotel-yonaguni.com/",
+    "access_page_url": "https://ailandhotel-yonaguni.com/",
+    "quote": "無料送迎希望の方は、宿泊日前日の15:00までにお問い合わせページよりご予約ください。"
+  },
+  {
+    "destId": "tanegashima",
+    "stay": "種子島あらきホテル",
+    "official_url": "http://araki-hotel.co.jp/",
+    "access_page_url": "https://araki-hotel.co.jp/access/",
+    "quote": "西之表港から無料送迎のご案内※事前予約必須"
+  },
+  {
+    "destId": "gen_北海_定山渓温泉",
+    "stay": "定山渓鶴雅リゾートスパ 森の謌",
+    "official_url": "https://www.morino-uta.com/",
+    "access_page_url": "https://www.morino-uta.com/access/",
+    "quote": "真駒内駅の間に、無料送迎シャトルバスを運行しております。"
+  },
+  {
+    "destId": "gen_北海_北湯沢温泉",
+    "stay": "緑の風リゾート きたゆざわ",
+    "official_url": "https://midorinokaze-resort.com/",
+    "access_page_url": "https://midorinokaze-resort.com/access",
+    "quote": "（ホテルへの電話または公式ホームページからご宿泊予約のお客様は、無料となります。）"
+  },
+  {
+    "destId": "gen_北海_トムラウシ温泉",
+    "stay": "東大雪荘",
+    "official_url": "http://www.tomuraushionsen.com/",
+    "access_page_url": "https://www.tomuraushionsen.com/access/",
+    "quote": "無料送迎を行っている新得駅へお越しください。"
+  },
+  {
+    "destId": "gen_青森_城ヶ倉温泉",
+    "stay": "八甲田城ヶ倉温泉 ホテル城ヶ倉",
+    "official_url": "https://www.jogakura.com/",
+    "access_page_url": "https://www.jogakura.com/access/",
+    "quote": "青森駅前からの無料送迎がございます"
+  },
+  {
+    "destId": "yoron-island",
+    "stay": "プリシアリゾートヨロン",
+    "official_url": "https://www.pricia.co.jp/",
+    "access_page_url": "https://www.pricia.co.jp/access/",
+    "quote": "飛行機、フェリーともに到着時刻に合わせて無料送迎バスをご用意しております。"
+  },
+  {
+    "destId": "izu-oshima",
+    "stay": "大島温泉ホテル",
+    "official_url": "https://www.oshima-onsen.co.jp/",
+    "access_page_url": "https://www.oshima-onsen.co.jp/access.html",
+    "quote": "入港地～ホテルまでの無料送迎バスを運行いたします。"
+  },
+  {
+    "destId": "jozankei",
+    "stay": "定山渓温泉 ぬくもりの宿ふる川",
+    "official_url": "https://www.yado-furu.com/",
+    "access_page_url": "https://www.yado-furu.com/access/",
+    "quote": "完全予約制無料送迎バス 定山渓温泉 温もりの宿 ふる川号"
+  },
+  {
+    "destId": "chichibu",
+    "stay": "和銅鉱泉 ゆの宿 和どう",
+    "official_url": "https://www.wadoh.co.jp/",
+    "access_page_url": "https://www.wadoh.co.jp/access/",
+    "quote": "無料送迎車のご案内 / 駅到着後、当館までご連絡ください。"
+  },
+  {
+    "destId": "tango-kyoto",
+    "stay": "間人温泉 炭平",
+    "official_url": "https://www.sumihei.com/",
+    "access_page_url": "https://www.sumihei.com/access/",
+    "quote": "無料送迎有（要予約）"
+  },
+  {
+    "destId": "chikubushima",
+    "stay": "旅館 紅鮎",
+    "official_url": "https://www.beniayu.com/",
+    "access_page_url": "https://www.beniayu.com/access.html",
+    "quote": "無料送迎バスのご案内 / 要予約"
+  },
+  {
+    "destId": "hirado",
+    "stay": "国際観光ホテル旗松亭",
+    "official_url": "https://www.kishotei.com/",
+    "access_page_url": "https://www.kishotei.com/access/",
+    "quote": "ご利用の際は、平戸桟橋ご到着後、下記番号までご連絡ください。"
+  },
+  {
+    "destId": "abashiri",
+    "stay": "北天の丘 あばしり湖鶴雅リゾート",
+    "official_url": "https://www.hokutennooka.com/",
+    "access_page_url": "https://www.hokutennooka.com/access/",
+    "quote": "FREE SHUTTLE BUS｜要予約｜無料送迎バスをご利用の方"
+  },
+  {
+    "destId": "murakami",
+    "stay": "大観荘せなみの湯",
+    "official_url": "https://www.taikanso.senaminoyu.co.jp/",
+    "access_page_url": "https://www.taikanso.senaminoyu.co.jp/access/",
+    "quote": "無料の送迎バスが、村上駅よりご利用いただけます。"
+  },
+  {
+    "destId": "shiraoishi",
+    "stay": "鎌先温泉 時音の宿 湯主一條",
+    "official_url": "https://www.ichijoh.co.jp/",
+    "access_page_url": "https://www.ichijoh.co.jp/access/",
+    "quote": "無料送迎車を毎日運行しております"
+  },
+  {
+    "destId": "nagahama",
+    "stay": "グランドメルキュール琵琶湖リゾート＆スパ",
+    "official_url": "https://grand-mercure-lakebiwa-resortandspa.jp/",
+    "access_page_url": "https://grand-mercure-lakebiwa-resortandspa.jp/access/",
+    "quote": "『無料送迎バス』の見出し（宿泊者・日帰り客対象）"
+  },
+  {
+    "destId": "saroma-ko",
+    "stay": "サロマ湖鶴雅リゾート",
+    "official_url": "https://www.s-tsuruga.com/",
+    "access_page_url": "https://www.s-tsuruga.com/access/",
+    "quote": "完全予約制無料送迎バス毎日運行"
+  },
+  {
+    "destId": "sanriku-miyako",
+    "stay": "浄土ヶ浜パークホテル",
+    "official_url": "https://www.jodo-ph.jp/",
+    "access_page_url": "https://www.jodo-ph.jp/access/",
+    "quote": "宮古駅からはホテルの無料送迎バスをご利用頂けます。"
+  },
+  {
+    "destId": "etajima",
+    "stay": "えたじま温泉 江田島荘",
+    "official_url": "https://etajimasou.jp/",
+    "access_page_url": "https://etajimasou.jp/access/",
+    "quote": "最寄りの港（中町港）から江田島荘まで送迎車を無料でご用意"
+  },
+  {
+    "destId": "ashinoko",
+    "stay": "小田急 山のホテル",
+    "official_url": "https://www.hakone-hoteldeyama.jp/",
+    "access_page_url": "https://www.hakone-hoteldeyama.jp/access/",
+    "quote": "ホテル利用者 無料（9時10分より毎時10・30・50分発、最終17時10分）"
+  },
+  {
+    "destId": "boso-hills",
+    "stay": "養老温泉 秘湯の宿 滝見苑",
+    "official_url": "https://www.takimi.co.jp/",
+    "access_page_url": "https://www.takimi.co.jp/access/",
+    "quote": "養老渓谷駅もしくは上総中野駅から宿まで無料送迎をいたします。"
+  },
+  {
+    "destId": "kagoshima-city",
+    "stay": "城山ホテル鹿児島",
+    "official_url": "https://www.shiroyama-g.co.jp/",
+    "access_page_url": "https://www.shiroyama-g.co.jp/access/index.html",
+    "quote": "シャトルバスを無料で運行しております。"
+  },
+  {
+    "destId": "naruto-uzu",
+    "stay": "アオアヲ ナルト リゾート",
+    "official_url": "https://www.aoawo-naruto.com/",
+    "access_page_url": "https://www.aoawo-naruto.com/pages/123/",
+    "quote": "高速鳴門～ホテル間の無料送迎バスは、これまで通り変わらず運行いたします。"
+  },
+  {
+    "destId": "shirahama",
+    "stay": "紀州・白浜温泉 むさし",
+    "official_url": "https://www.yado-musashi.co.jp/",
+    "access_page_url": "https://www.yado-musashi.co.jp/access/",
+    "quote": "むさしにお泊りのお客様は白浜温泉旅館協同組合が運行する無料シャトルバスをご利用頂けます。"
+  },
+  {
+    "destId": "kawayu",
+    "stay": "冨士屋",
+    "official_url": "https://www.fuziya.co.jp/",
+    "access_page_url": "https://fuziya.co.jp/about/",
+    "quote": "予約制で毎朝午前9時に熊野古道へ無料でお送りしております。"
+  },
+  {
+    "destId": "niigata-bandai",
+    "stay": "岩室温泉 高志の宿 高島屋",
+    "official_url": "https://takasimaya.co.jp/",
+    "access_page_url": "https://takasimaya.co.jp/access/",
+    "quote": "岩室駅・弥彦駅は無料送迎いたします。"
+  },
+  {
+    "destId": "hanno",
+    "stay": "名栗温泉 大松閣",
+    "official_url": "https://www.taishoukaku.com/",
+    "access_page_url": "https://www.taishoukaku.com/access/",
+    "quote": "飯能駅～大松閣間は無料の送迎バスがございます。"
+  },
+  {
+    "destId": "okunoshima",
+    "stay": "休暇村大久野島",
+    "official_url": "https://www.qkamura.or.jp/ohkuno/",
+    "access_page_url": "https://www.qkamura.or.jp/ohkuno/access/index.asp",
+    "quote": "島内では、無料送迎バスを運行いたしております。(予約不要)"
+  },
+  {
+    "destId": "iso",
+    "stay": "城山ホテル鹿児島",
+    "official_url": "https://www.shiroyama-g.co.jp/",
+    "access_page_url": "https://www.shiroyama-g.co.jp/access/index.html",
+    "quote": "シャトルバスを無料で運行しております。"
+  },
+  {
+    "destId": "niche_長野_1",
+    "stay": "湯元ホテル阿智川",
+    "official_url": "https://www.hotel-achigawa.jp/",
+    "access_page_url": "https://www.hotel-achigawa.jp/access/",
+    "quote": "無料送迎についてはご予約制となります。"
+  }
+]

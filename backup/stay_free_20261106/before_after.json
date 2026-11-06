@@ -1,0 +1,412 @@
+[
+  {
+    "destId": "hanamaki",
+    "dest": "花巻",
+    "stay": "大沢温泉 湯治屋",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "新花巻駅・花巻駅から無料送迎バスあり（前日までに要予約）",
+    "after": "新花巻駅・花巻駅から送迎バスあり（片道100円の協力金・要予約、迎えは4日前まで）",
+    "reason": "公式の送迎の記載に「無料」の語がない（2026年9月1日より花巻駅・新花巻駅の送迎に送迎協力金お一人様片道100円（3歳以上、チェックアウト時精算））"
+  },
+  {
+    "destId": "zaosan",
+    "dest": "蔵王",
+    "stay": "深山荘 高見屋",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "蔵王温泉バスターミナルから無料送迎あり（到着後に連絡）",
+    "after": null,
+    "reason": "公式サイトが開けず（403・メンテナンス中など）確認できない"
+  },
+  {
+    "destId": "shiobara-onsen",
+    "dest": "塩原温泉",
+    "stay": "明賀屋本館",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "塩釜バス停から無料送迎あり",
+    "after": "塩釜バス停へ14〜19時にお迎え（到着後に宿へ連絡）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "unzen2",
+    "dest": "雲仙温泉",
+    "stay": "雲仙観光ホテル",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "諫早駅・長崎空港から無料シャトルあり（約1時間）",
+    "after": null,
+    "reason": "公式サイトが開けず（403・メンテナンス中など）確認できない"
+  },
+  {
+    "destId": "gen_北海_十勝川温泉",
+    "dest": "十勝川温泉",
+    "stay": "十勝川温泉第一ホテル",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "帯広駅から無料送迎シャトルあり（前日17時までに要予約）",
+    "after": null,
+    "reason": "公式に宿専用の送迎の記載なし（帯広駅からは路線バス）"
+  },
+  {
+    "destId": "gen_北海_洞爺湖温泉",
+    "dest": "洞爺湖温泉",
+    "stay": "ザ レイクビュー TOYA 乃の風リゾート",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "JR札幌駅北口・新千歳空港から送迎バスあり（有料。予約者は割引、札幌駅発は予約者無料。3日前までネット予約可）",
+    "after": "札幌駅北口・新千歳空港から送迎バスあり（3日前までに要予約・料金は公式サイトで確認）",
+    "reason": "公式の送迎の記載に「無料」の語がない（JR札幌駅発着 片道1,000円（ホテル電話/公式HP予約者は無料）／新千歳空港発着 片道1,500円（同予約者は1,000円））"
+  },
+  {
+    "destId": "kofu",
+    "dest": "甲府",
+    "stay": "信玄の湯 湯村温泉 常磐ホテル",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "無料送迎バスあり（要事前連絡）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "rebun-island",
+    "dest": "礼文島",
+    "stay": "礼文温泉 花れぶん",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "香深港フェリーターミナルより無料送迎あり（要事前予約）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "amakusa",
+    "dest": "天草",
+    "stay": "石山離宮 五足のくつ",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "本渡バスセンター・天草空港から無料送迎あり（予約制）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "nachikatsuura",
+    "dest": "那智勝浦",
+    "stay": "碧き島の宿 熊野別邸 中の島",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "勝浦港の桟橋から無料の専用送迎船で約5分",
+    "after": "勝浦港の客船待合処から専用送迎船で約5分",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "shonai",
+    "dest": "鶴岡",
+    "stay": "湯田川温泉 九兵衛旅館",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "鶴岡駅から無料送迎あり（要予約）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "iwakuni",
+    "dest": "岩国",
+    "stay": "錦帯橋温泉 岩国国際観光ホテル",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "無料送迎あり（前日15時までに要予約）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "hakuba",
+    "dest": "白馬",
+    "stay": "白馬八方温泉 しろうま荘",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "白馬駅・八方バスターミナルから無料送迎あり（要連絡）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "tomamu",
+    "dest": "トマム",
+    "stay": "星野リゾート リゾナーレトマム",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "JRトマム駅より無料送迎バスあり（列車到着に合わせ運行・約10分）",
+    "after": "JRトマム駅から送迎バスあり（列車着に合わせ運行・約10分）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "kuju-kogen",
+    "dest": "久住高原",
+    "stay": "レゾネイトクラブくじゅう",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "JR由布院駅より無料送迎バスあり（3日前までに要予約）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "ozu",
+    "dest": "大洲",
+    "stay": "NIPPONIA HOTEL 大洲 城下町",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "伊予大洲駅から無料送迎あり（要予約）",
+    "after": "伊予大洲駅から送迎あり（前日までに要連絡・15〜17時台3便）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "isawa-onsen",
+    "dest": "石和温泉",
+    "stay": "銘石の宿 かげつ",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "石和温泉駅北口から無料送迎あり（14〜18時・要連絡）",
+    "after": "電車利用の場合は宿の車でお迎え（要申し出）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "yamanakako",
+    "dest": "山中湖",
+    "stay": "ホテルマウント富士",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "山中湖畔「ホテルマウント富士入口」バス停から無料送迎あり",
+    "after": "ホテルマウント富士入口バス停から送迎バスあり（到着時に連絡）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "takayama-2",
+    "dest": "高山",
+    "stay": "本陣平野屋 花兆庵",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "高山駅から無料送迎あり（随時・要連絡）",
+    "after": "高山駅へ到着時間に合わせてお迎えあり（要申し出）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "yufuin-2",
+    "dest": "由布院温泉",
+    "stay": "亀の井別荘",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "由布院駅から無料送迎あり（10〜16時・要予約）",
+    "after": null,
+    "reason": "公式サイトを読めたが、送迎の記載を読めなかった"
+  },
+  {
+    "destId": "tanba-sasayama",
+    "dest": "丹波篠山",
+    "stay": "篠山城下町ホテルNIPPONIA",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "JR篠山口駅から無料送迎あり（要予約）",
+    "after": "JR篠山口駅から送迎あり（前日までに要連絡・1日2便）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "hanamaki-onsen",
+    "dest": "花巻温泉郷",
+    "stay": "鉛温泉 藤三旅館",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "花巻駅・新花巻駅から無料シャトルあり（要予約）",
+    "after": "新花巻駅・花巻駅から予約制シャトル（片道100円）",
+    "reason": "公式の送迎の記載に「無料」の語がない（9/1～協力金として片道100円）"
+  },
+  {
+    "destId": "minami-izu",
+    "dest": "南伊豆",
+    "stay": "南伊豆弓ヶ浜温泉 季一遊",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "伊豆急下田駅から無料送迎バスあり（約20分）",
+    "after": "伊豆急下田駅からシャトルバス約20分（前日までに要予約）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "tomonoura",
+    "dest": "鞆の浦",
+    "stay": "汀邸 遠音近音",
+    "field": "featured_stay.shuttleInfo",
+    "category": "B",
+    "before": "JR福山駅から無料送迎あり（前日までに要予約）",
+    "after": "JR福山駅からシャトルバスあり（事前予約制）",
+    "reason": "公式の送迎の記載に「無料」の語がない（料金の記載なし）"
+  },
+  {
+    "destId": "urabandai",
+    "dest": "裏磐梯",
+    "stay": "裏磐梯高原ホテル",
+    "field": "featured_stay.shuttleInfo",
+    "category": "C",
+    "before": "猪苗代駅から無料送迎バスあり（前日までに要予約）",
+    "after": null,
+    "reason": "公式サイトが開けず（403・メンテナンス中など）確認できない"
+  },
+  {
+    "destId": "hanamaki",
+    "dest": "花巻",
+    "stay": "大沢温泉 湯治屋",
+    "field": "description",
+    "category": "B",
+    "before": "新花巻駅・花巻駅からの無料送迎バスがあり、前日までの予約が必要だ。",
+    "after": "新花巻駅・花巻駅からの送迎バスがあり、予約が必要だ。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "hanamaki",
+    "dest": "花巻",
+    "stay": "大沢温泉 湯治屋",
+    "field": "article.sections.1.info",
+    "category": "B",
+    "before": "または無料送迎バスあり（要確認）",
+    "after": "または送迎バスあり（要確認）",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "gen_北海_十勝川温泉",
+    "dest": "十勝川温泉",
+    "stay": "十勝川温泉第一ホテル",
+    "field": "description",
+    "category": "B",
+    "before": "帯広駅からは十勝川温泉第一ホテルの無料送迎シャトルを利用でき、前日17時までの予約が必要だ。",
+    "after": "(文ごと削除)",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "gen_北海_洞爺湖温泉",
+    "dest": "洞爺湖温泉",
+    "stay": "ザ レイクビュー TOYA 乃の風リゾート",
+    "field": "description",
+    "category": "B",
+    "before": "札幌駅から送迎バスが出ており、宿泊予約者は無料で利用できる。",
+    "after": "札幌駅から送迎バスが出ている。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "nachikatsuura",
+    "dest": "那智勝浦",
+    "stay": "碧き島の宿 熊野別邸 中の島",
+    "field": "description",
+    "category": "B",
+    "before": "勝浦港の桟橋から無料の送迎船が約5分。",
+    "after": "勝浦港の桟橋から送迎船が約5分。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "shonai",
+    "dest": "鶴岡",
+    "stay": "湯田川温泉 九兵衛旅館",
+    "field": "description",
+    "category": "C",
+    "before": "宿の選択肢に迷うなら、鶴岡駅から無料送迎のある湯田川温泉 九兵衛旅館が便利だ。",
+    "after": "宿の選択肢に迷うなら、湯田川温泉 九兵衛旅館が便利だ。",
+    "reason": "公式で送迎を確認できない"
+  },
+  {
+    "destId": "iwakuni",
+    "dest": "岩国",
+    "stay": "錦帯橋温泉 岩国国際観光ホテル",
+    "field": "description",
+    "category": "C",
+    "before": "JR岩国駅からの無料送迎もある（前日15時までに要予約）。",
+    "after": "(文ごと削除)",
+    "reason": "公式で送迎を確認できない"
+  },
+  {
+    "destId": "hakuba",
+    "dest": "白馬",
+    "stay": "白馬八方温泉 しろうま荘",
+    "field": "description",
+    "category": "C",
+    "before": "八方尾根の麓に立ち、白馬駅・八方バスターミナルから無料送迎（要連絡）がある。",
+    "after": "八方尾根の麓に立つ。",
+    "reason": "公式で送迎を確認できない"
+  },
+  {
+    "destId": "ozu",
+    "dest": "大洲",
+    "stay": "NIPPONIA HOTEL 大洲 城下町",
+    "field": "description",
+    "category": "B",
+    "before": "伊予大洲駅からの無料送迎がある（要予約）。",
+    "after": "伊予大洲駅からの送迎がある（前日までに要連絡）。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "isawa-onsen",
+    "dest": "石和温泉",
+    "stay": "銘石の宿 かげつ",
+    "field": "description",
+    "category": "B",
+    "before": "石和温泉駅北口から無料送迎がある。",
+    "after": "電車で来る場合は宿の車で迎えてもらえる（要申し出）。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "yamanakako",
+    "dest": "山中湖",
+    "stay": "ホテルマウント富士",
+    "field": "description",
+    "category": "B",
+    "before": "湖畔バス停から無料送迎がある。",
+    "after": "湖畔バス停から送迎がある。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "takayama-2",
+    "dest": "高山",
+    "stay": "本陣平野屋 花兆庵",
+    "field": "description",
+    "category": "B",
+    "before": "高山駅から無料送迎がある。",
+    "after": "高山駅から送迎がある。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "yufuin-2",
+    "dest": "由布院温泉",
+    "stay": "亀の井別荘",
+    "field": "description",
+    "category": "C",
+    "before": "金鱗湖畔一万坪の敷地に立つ宿で、由布院駅から無料送迎あり（10〜16時・要予約）。",
+    "after": "金鱗湖畔一万坪の敷地に立つ宿である。",
+    "reason": "公式で送迎を確認できない"
+  },
+  {
+    "destId": "minami-izu",
+    "dest": "南伊豆",
+    "stay": "南伊豆弓ヶ浜温泉 季一遊",
+    "field": "description",
+    "category": "B",
+    "before": "伊豆急下田駅から無料送迎バスで約20分。",
+    "after": "伊豆急下田駅からシャトルバスで約20分。",
+    "reason": "公式の送迎の記載に「無料」の語がない"
+  },
+  {
+    "destId": "urabandai",
+    "dest": "裏磐梯",
+    "stay": "裏磐梯高原ホテル",
+    "field": "description",
+    "category": "C",
+    "before": "猪苗代駅からバスで五色沼入口へアクセスでき、裏磐梯高原ホテルは猪苗代駅から無料送迎バスも運行している（前日までに要予約）。",
+    "after": "猪苗代駅からバスで五色沼入口へアクセスできる。",
+    "reason": "公式で送迎を確認できない"
+  },
+  {
+    "destId": "urabandai",
+    "dest": "裏磐梯",
+    "stay": "裏磐梯高原ホテル",
+    "field": "seo.description",
+    "category": "C",
+    "before": "猪苗代駅からバスで五色沼入口へアクセスでき、裏磐梯高原ホテルは猪苗代駅から無料送迎バスも運行している（前日までに要予約）。",
+    "after": "猪苗代駅からバスで五色沼入口へアクセスできる。",
+    "reason": "公式で送迎を確認できない"
+  }
+]
