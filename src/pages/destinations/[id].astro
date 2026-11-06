@@ -1,4 +1,5 @@
 ---
+import AffiliateNotice from '../../components/AffiliateNotice.astro';
 import DestinationLayout from '../../layouts/DestinationLayout.astro';
 import { dimAttrs } from '../../data/imgAttrs';
 import destinations from '../../data/destinations.json';
@@ -504,7 +505,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   : null;
 ---
 
-<DestinationLayout title={seoTitle} description={description} image={imageUrl}>
+<DestinationLayout title={seoTitle} description={description} image={imageUrl} affiliateNotice={true} pageType="destination" pageId={dest.id}>
   <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
 <style>
   /* ═══════════════════════════════════════
@@ -1381,6 +1382,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     letter-spacing: 0.04em;
     margin-bottom: 2px;
   }
+  .hotel-price-note { font-size: 13px; line-height: 1.6; color: inherit; margin: 8px 0 0; }
   .hotel-card-desc { font-size: 12px; color: rgba(255,255,255,0.85); }
   .hotel-card-arrow { font-size: 18px; color: #fff; font-weight: 500; }
 
@@ -1901,6 +1903,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
       </div>
       {showTransportTabs && (
         <div class="car-pane">
+<AffiliateNotice />
           <div class="car-rentacar">
             <p class="car-rentacar-title">🚗 レンタカーを予約する</p>
             <p class="car-rentacar-desc">{dest.name}を車でまわるなら、出発地・現地どちらでも借りられます</p>
@@ -2043,6 +2046,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
 
     <!-- 宿泊: 現地泊 / hub泊 / 県庁所在地fallback。離島系 (showDualHotel) はタブ表示 -->
     {showDualHotel ? (
+<AffiliateNotice />
       <div class="hotel-section hotel-tabs">
         <input type="radio" id={`${dest.id}-tab-local`} name={`${dest.id}-hotel-tab`} class="hotel-tab-radio hotel-tab-radio-local" checked />
         <input type="radio" id={`${dest.id}-tab-hub`} name={`${dest.id}-hotel-tab`} class="hotel-tab-radio hotel-tab-radio-hub" />
@@ -2053,85 +2057,91 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
         <div class="hotel-tab-content hotel-tab-content-local">
           {stayNote && <p class="hotel-description">{stayNote}</p>}
           <div class="hotel-cards">
-            <a href={rakutenHotelUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
+            <a href={rakutenHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
               <div>
                 <p class="hotel-card-name">楽天トラベルで探す</p>
-                <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
-            <a href={jalanHotelUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+            <a href={jalanHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
               <div>
                 <p class="hotel-card-name">じゃらんで探す</p>
                 <p class="hotel-card-desc">国内旅行・宿泊予約</p>
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
+            <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
           </div>
         </div>
         <div class="hotel-tab-content hotel-tab-content-hub">
           <p class="hotel-description" style="font-size:13px;color:#888;">{hubCityName}を拠点に{dest.name}へ日帰り・宿泊の旅も便利です</p>
           <div class="hotel-cards">
-            <a href={hubRakutenUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
+            <a href={hubRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
               <div>
                 <p class="hotel-card-name">楽天トラベルで探す</p>
-                <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
-            <a href={hubJalanUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+            <a href={hubJalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
               <div>
                 <p class="hotel-card-name">じゃらんで探す</p>
                 <p class="hotel-card-desc">国内旅行・宿泊予約</p>
               </div>
               <span class="hotel-card-arrow">→</span>
             </a>
+            <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
           </div>
         </div>
       </div>
     ) : (
       <>
         {showLocalHotel && (
+<AffiliateNotice />
           <div class="hotel-section">
             <h2 class="section-title">{dest.name}の宿を探す</h2>
             {stayNote && <p class="hotel-description">{stayNote}</p>}
             <div class="hotel-cards">
-              <a href={rakutenHotelUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
+              <a href={rakutenHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
                 <div>
                   <p class="hotel-card-name">楽天トラベルで探す</p>
-                  <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                  <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
-              <a href={jalanHotelUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+              <a href={jalanHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
                 <div>
                   <p class="hotel-card-name">じゃらんで探す</p>
                   <p class="hotel-card-desc">国内旅行・宿泊予約</p>
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
+              <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
             </div>
           </div>
         )}
         {showHubHotel && (
+<AffiliateNotice />
           <div class="hotel-section" style={showLocalHotel ? 'margin-top:24px;' : ''}>
             <h2 class="section-title">{hubCityName}で宿を探す（{dest.name}の拠点）</h2>
             <p class="hotel-description" style="font-size:13px;color:#888;">{hubCityName}を拠点に{dest.name}へ日帰り・宿泊の旅も便利です</p>
             <div class="hotel-cards">
-              <a href={hubRakutenUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
+              <a href={hubRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
                 <div>
                   <p class="hotel-card-name">楽天トラベルで探す</p>
-                  <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+                  <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
-              <a href={hubJalanUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+              <a href={hubJalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
                 <div>
                   <p class="hotel-card-name">じゃらんで探す</p>
                   <p class="hotel-card-desc">国内旅行・宿泊予約</p>
                 </div>
                 <span class="hotel-card-arrow">→</span>
               </a>
+              <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
             </div>
           </div>
         )}
@@ -2142,20 +2152,21 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
         <h2 class="section-title">{prefCapital}で宿を探す（{dest.name}の拠点）</h2>
         <p class="hotel-description" style="font-size:13px;color:#888;">{prefCapital}を拠点に{dest.name}へ日帰り・宿泊の旅も便利です</p>
         <div class="hotel-cards">
-          <a href={prefRakutenUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-rakuten">
+          <a href={prefRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
             <div>
               <p class="hotel-card-name">楽天トラベルで探す</p>
-              <p class="hotel-card-desc">ポイントが貯まる・使える</p>
+              <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
             </div>
             <span class="hotel-card-arrow">→</span>
           </a>
-          <a href={prefJalanUrl} target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+          <a href={prefJalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
             <div>
               <p class="hotel-card-name">じゃらんで探す</p>
               <p class="hotel-card-desc">国内旅行・宿泊予約</p>
             </div>
             <span class="hotel-card-arrow">→</span>
           </a>
+          <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
         </div>
       </div>
     )}
@@ -2181,9 +2192,10 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
               </div>
             </>
           ) : (
+            <AffiliateNotice />
             <div class="fs-links">
-              <a href={fsRakutenUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-rakuten">楽天トラベルで見る</a>
-              <a href={fsJalanUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-jalan">じゃらんで見る</a>
+              <a href={fsRakutenUrl} target="_blank" rel="sponsored noopener" class="fs-link fs-link-rakuten">楽天トラベルで見る</a>
+              <a href={fsJalanUrl} target="_blank" rel="sponsored noopener" class="fs-link fs-link-jalan">じゃらんで見る</a>
             </div>
           )}
         </div>
@@ -2196,7 +2208,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
         <h2 class="section-title">{dest.name}はレンタカーがおすすめ</h2>
         <p class="hotel-description" style="font-size:13px;color:#888;">現地で自由に動きたいならレンタカーが便利です</p>
         <div class="hotel-cards">
-          <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=https%3A%2F%2Fwww.jalan.net%2Frentacar%2F" target="_blank" rel="noopener noreferrer" class="hotel-card hotel-card-jalan">
+          <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=https%3A%2F%2Fwww.jalan.net%2Frentacar%2F" target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
             <div>
               <p class="hotel-card-name">じゃらんレンタカー</p>
               <p class="hotel-card-desc">国内旅行・レンタカー予約</p>
@@ -2210,6 +2222,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     <!-- じゃらんレンタカー & じゃらん体験 -->
     {(showLocalHotel || showHubHotel || showPrefHotel) && (
       <>
+        <AffiliateNotice />
         {/* 上の「レンタカーがおすすめ」を出した旅先では、同じじゃらんレンタカーが続くので出さない */}
         {!(dest as any).rentalCarRecommended && (
         <div class="rentacar-section">
