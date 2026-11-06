@@ -1,0 +1,68 @@
+[
+  {
+    "id": "hinoemata-onsen",
+    "name": "檜枝岐温泉",
+    "prefecture": "福島県",
+    "city": "檜枝岐村",
+    "checks": {
+      "prefCity": "一致",
+      "nearby": "なし"
+    },
+    "sources": [
+      {
+        "src": "wikipedia",
+        "lat": 37.01722,
+        "lng": 139.38408,
+        "note": "檜枝岐温泉"
+      },
+      {
+        "src": "wikidata",
+        "lat": 37.017222222222,
+        "lng": 139.38408333333,
+        "note": "Q11544630"
+      }
+    ],
+    "verifiedBy": [
+      "wikipedia",
+      "wikidata"
+    ],
+    "distanceKm": 0,
+    "lat": 37.01722,
+    "lng": 139.38408,
+    "reverse": "福島県檜枝岐村",
+    "pass": true
+  },
+  {
+    "id": "nakanosawa-onsen",
+    "name": "中ノ沢温泉",
+    "prefecture": "福島県",
+    "city": "猪苗代町",
+    "checks": {
+      "prefCity": "一致",
+      "nearby": "なし"
+    },
+    "sources": [
+      {
+        "src": "wikipedia",
+        "lat": 37.614611,
+        "lng": 140.211611,
+        "note": "中ノ沢温泉"
+      },
+      {
+        "src": "wikidata",
+        "lat": 37.614611,
+        "lng": 140.211611,
+        "note": "Q11362803"
+      }
+    ],
+    "verifiedBy": [
+      "wikipedia",
+      "wikidata"
+    ],
+    "distanceKm": 0,
+    "lat": 37.61461,
+    "lng": 140.21161,
+    "reverse": "福島県猪苗代町",
+    "pass": true
+  }
+]
