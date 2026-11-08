@@ -264,6 +264,25 @@ function stepSummary(prop) {
     }
   }
 
+  // title・description を変えたページの効果（logs/seo_changes_<日付>.json。変更日の前後で同じ日数を、同じ元データ perf_<日付>.csv から比べる）
+  for (const cf of fs.readdirSync(path.join(root, 'logs')).filter((f) => /^seo_changes_\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort()) {
+    const ch = JSON.parse(fs.readFileSync(path.join(root, 'logs', cf), 'utf8'));
+    const three = readCsv(path.join(OUT, `perf_${TODAY}.csv`));
+    if (!three.length) continue;
+    const lastDate = three.reduce((m, r) => (r.date > m ? r.date : m), '');
+    const dayMs = 86400000, t = (d) => Date.parse(d + 'T00:00:00Z'), ds = (ms) => new Date(ms).toISOString().slice(0, 10);
+    const afterFrom = ds(t(ch.date) + dayMs); // 変更日の翌日から
+    const n = Math.round((t(lastDate) - t(afterFrom)) / dayMs) + 1;
+    L.push(`## title・description を変えたページの前後比較（${cf}・変更日 ${ch.date}）`, '');
+    if (n < 14) { L.push(`変更の翌日から最新データ（${lastDate}）まで ${Math.max(n, 0)}日。14日に満たないので、まだ比べない（2週間後に再実行）。`, ''); continue; }
+    const beforeFrom = ds(t(afterFrom) - n * dayMs), beforeTo = ds(t(afterFrom) - dayMs);
+    const agg = (id, a, b) => { let i = 0, c = 0, pw = 0; for (const r of three) { if (decodeURIComponent(r.page).split('/destinations/')[1]?.replace(/\/$/, '') !== id || r.date < a || r.date > b) continue; const im = Number(r.impressions); i += im; c += Number(r.clicks); pw += Number(r.position) * im; } return { i, c, pos: i ? pw / i : null }; };
+    L.push(`前: ${beforeFrom}〜${beforeTo} / 後: ${afterFrom}〜${lastDate}（各${n}日）。検索語つきの行だけの集計（匿名化された検索語は含まない）。`, '', '| ページ | 表示 前→後 | クリック 前→後 | 平均順位 前→後 |', '|---|---|---|---|');
+    let tb = [0, 0], ta = [0, 0];
+    for (const it of ch.items) { const b = agg(it.id, beforeFrom, beforeTo), a = agg(it.id, afterFrom, lastDate); tb[0] += b.i; tb[1] += b.c; ta[0] += a.i; ta[1] += a.c; L.push(`| ${it.name} | ${b.i}→${a.i} | ${b.c}→${a.c} | ${b.pos?.toFixed(1) ?? '—'}→${a.pos?.toFixed(1) ?? '—'} |`); }
+    L.push(`| 合計 | ${tb[0]}→${ta[0]} | ${tb[1]}→${ta[1]} | |`, '', `クリック率 前 ${tb[0] ? (tb[1] / tb[0] * 100).toFixed(2) : '—'}% → 後 ${ta[0] ? (ta[1] / ta[0] * 100).toFixed(2) : '—'}%。件数が少ないので、関連を示すだけで原因は決めない。`, '');
+  }
+
   // 検索パフォーマンス
   const pages = readCsv(path.join(OUT, `perf_pages_${TODAY}.csv`)), qs = readCsv(path.join(OUT, `perf_queries_${TODAY}.csv`)), daily = readCsv(path.join(OUT, `perf_daily_${TODAY}.csv`));
   L.push(`## 検索パフォーマンス（${PERF_START}〜${TODAY}）`, '');
