@@ -43,7 +43,8 @@ for (const d of data) {
   // 9. spots
   addCheck(d, 'has_spots', Array.isArray(d.spots) && d.spots.length >= 1, `spots不足(${d.spots?.length || 0}件)`);
   // 10. travelTime
-  addCheck(d, 'has_travelTime', d.travelTime && Object.keys(d.travelTime).length >= 1, 'travelTime空');
+  // travelTimeRemoved: 公式で確認できない出発地の値をすべて消したページ（2026-11-09 嵐山）。空を許す
+  addCheck(d, 'has_travelTime', d.travelTimeRemoved === true || (d.travelTime && Object.keys(d.travelTime).length >= 1), 'travelTime空');
   // 11. stayAllowed
   addCheck(d, 'has_stayAllowed', Array.isArray(d.stayAllowed) && d.stayAllowed.length >= 1, 'stayAllowed空');
   // 12. hotelLinks

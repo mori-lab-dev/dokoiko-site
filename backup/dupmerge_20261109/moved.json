@@ -1,0 +1,149 @@
+[
+ {
+  "kind": "moved",
+  "to": "osorezan",
+  "what": "入山料は大人900円／境内の温泉（薬師の湯・冷えの湯・古滝の湯）",
+  "source": "https://reijyo-osorezan.jp/sanpai/",
+  "why": null
+ },
+ {
+  "kind": "not_moved",
+  "to": "osorezan",
+  "what": "入山料500円",
+  "source": null,
+  "why": "公式は大人900円。500円は書かない（旧ページの値は誤り）"
+ },
+ {
+  "kind": "not_moved",
+  "to": "osorezan",
+  "what": "入山料だけで温泉に入れる／追加料金なし",
+  "source": null,
+  "why": "公式の参拝のご案内に「入山料だけで入浴できる」の記載がない"
+ },
+ {
+  "kind": "not_moved",
+  "to": "osorezan",
+  "what": "日本三大霊場のひとつ",
+  "source": null,
+  "why": "公式サイトの4ページに記載なし"
+ },
+ {
+  "kind": "not_moved",
+  "to": "osorezan",
+  "what": "下北駅からのバスは1日3〜4本",
+  "source": null,
+  "why": "公式のアクセスに本数の記載なし（公式は下北駅からバスで約45分、とのみ）"
+ },
+ {
+  "kind": "not_moved",
+  "to": "osorezan",
+  "what": "旧ページの所要時間（東京から225分など）",
+  "source": null,
+  "why": "公式で確認できないため"
+ },
+ {
+  "kind": "moved",
+  "to": "furano",
+  "what": "ニングルテラス（見どころ）。森の中に15棟のログハウス・クラフト作品",
+  "source": "https://www.princehotels.co.jp/shinfurano/facility/ningle_terrace/",
+  "why": null
+ },
+ {
+  "kind": "not_moved",
+  "to": "furano",
+  "what": "ファーム富田「15ヘクタールの丘陵」",
+  "source": null,
+  "why": "公式に園全体の面積の記載なし（歴史ページの 1.2ha はラベンダー畑の拡大の記録で別の数字）"
+ },
+ {
+  "kind": "not_moved",
+  "to": "furano",
+  "what": "「北の国から」の見どころ",
+  "source": null,
+  "why": "公式で確認できない。旧ページの文はファーム富田の説明の重複"
+ },
+ {
+  "kind": "not_moved",
+  "to": "furano",
+  "what": "大雪山系に囲まれた盆地／札幌から約2時間25分／東京から約4時間50分",
+  "source": null,
+  "why": "公式で確認できない（所要時間は消した）"
+ },
+ {
+  "kind": "not_moved",
+  "to": "furano",
+  "what": "ニングルテラス旧文の「白樺林」「クラフト作家のアトリエ」",
+  "source": null,
+  "why": "公式の表現は「15棟のログハウス」「クラフト作品」。公式にある語だけで書き直した"
+ },
+ {
+  "kind": "moved",
+  "to": "dazaifu",
+  "what": "境内の大樟は樹齢1,500年を越え、国指定天然記念物（旧ページの「樹齢千年超の御神木が本殿前」は公式の値に直した）",
+  "source": "https://www.dazaifutenmangu.or.jp/sozoroaruki/nature",
+  "why": null
+ },
+ {
+  "kind": "not_moved",
+  "to": "dazaifu",
+  "what": "二日市温泉 大丸別荘（featured_stay）",
+  "source": null,
+  "why": "住所は筑紫野市。二日市温泉のページが無いため移さず、featured_stay から外した（残す側に自前の宿 HOTEL CULTIA 太宰府がある）"
+ },
+ {
+  "kind": "not_moved",
+  "to": "dazaifu",
+  "what": "「樹齢千年超の御神木が本殿前に立つ」「福岡を拠点に電車で約50分」「JR二日市駅からタクシー5分」",
+  "source": null,
+  "why": "公式で確認できない（公式の御神木は飛梅。樹齢の記載は大樟の1,500年）"
+ },
+ {
+  "kind": "not_moved",
+  "to": "dazaifu",
+  "what": "九州国立博物館・光明禅寺の旧ページ側の説明",
+  "source": null,
+  "why": "公式サイトを取得できず（九州国立博物館は接続拒否、光明禅寺は公式を特定できず）。残す側に既にある説明のまま"
+ },
+ {
+  "kind": "not_moved",
+  "to": "ohara",
+  "what": "宝泉院「樹齢700年の五葉松が客間の借景」",
+  "source": null,
+  "why": "宝泉院の公式サイトを取得できず（TLS エラー）。確認できないため移さない"
+ },
+ {
+  "kind": "not_moved",
+  "to": "ohara",
+  "what": "寂光院「平清盛の娘が晩年を過ごした」「額縁庭園越しに紅葉（三千院）」",
+  "source": null,
+  "why": "寂光院の公式は「建礼門院が入寺した」までで「晩年を過ごした」の記載なし。額縁庭園は宝泉院の庭で、三千院の公式庭園名は聚碧園・有清園。旧文は取り違えがある"
+ },
+ {
+  "kind": "not_moved",
+  "to": "ohara",
+  "what": "大阪から約1時間35分・東京から260分ほか旧ページの所要時間",
+  "source": null,
+  "why": "公式で確認できない"
+ },
+ {
+  "kind": "arashiyama",
+  "to": "arashiyama",
+  "what": "説明・見どころ・title を「嵐山駅周辺」に書き分け。「室町時代につくられた」を公式の「約700年前に夢窓国師が作庭」に直した。時間の文（東京から約2時間15分・京都駅から約11分）と travelTime を削除",
+  "source": "https://www.tenryuji.com/precincts/",
+  "why": "東海道新幹線・嵯峨野線の所要時間は公式（JR東海は証明書エラー、JR西日本は記載なし）で確認できなかった"
+ },
+ {
+  "kind": "arashiyama",
+  "to": "arashiyama-2",
+  "what": "説明・見どころ・title を「嵯峨・保津川側」に書き分け。竹林の道の見どころは駅周辺側へ。トロッコは公式の「片道約7km・およそ25分」「窓ガラスのないオープン車両リッチ号」「JR山陰線の複線化で使われなくなった線路」に合わせた。大阪から約1時間10分・徒歩約6分・travelTime を削除",
+  "source": "https://www.sagano-kanko.co.jp/about",
+  "why": "保津川下り（403）・翠嵐（証明書エラー）の公式は取得できなかった。保津川下りの説明は旧ページのまま（確認できていない）"
+ },
+ {
+  "kind": "shikotsu",
+  "to": "gen_北海_支笏湖いとう温泉",
+  "what": "宿の営業を示す記述（露天風呂・日帰り入浴・営業時間・一軒宿・チェックイン等）と宿の見どころ・OTA検索語を外し、「宿の営業状況は公式で確認できません」と書いた。移動用ページにはしていない",
+  "source": null,
+  "why": "公式サイトを確認できず（第三者サイトのみ。閉館は確認できていない）"
+ }
+]

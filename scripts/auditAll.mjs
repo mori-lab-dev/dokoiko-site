@@ -113,6 +113,13 @@ const AUDITS = [
       '長さ超過': Z(num(/長さ超過[^:]*:\s*(\d+)件/, o)),
       'description に改行': Z(num(/description に改行:\s*(\d+)件/, o)) }) },
 
+  { id: 'merged-pages', tier: 'dist', title: '統合した旧ページが転送ページになっているか（canonical が残す側・sitemap に載らない・内部リンクに残らない）',
+    cmd: ['node', 'scripts/auditMergedPages.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '転送ページの形が不正': Z(num(/転送ページの形が不正[^:]*:\s*(\d+)件/, o)),
+      'sitemap の不整合': Z(num(/sitemap の不整合[^:]*:\s*(\d+)件/, o)),
+      'データの不整合': Z(num(/データの不整合[^:]*:\s*(\d+)件/, o)),
+      '内部リンクに旧URLが残るページ': Z(num(/内部リンクに旧URLが残るページ:\s*(\d+)件/, o)) }) },
+
   { id: 'travel-time', tier: 'dist', title: 'travelTime が最短値を下回らないか・見積もりの値に「目安」が付いているか・疑わしい所要時間の文が残っていないか',
     cmd: ['node', 'scripts/auditTravelTime.mjs'], exitMeansFail: true,
     parse: (o) => ({ '最短値を1.25倍以上下回る組': Z(num(/下回る組:\s*(\d+)件/, o)),

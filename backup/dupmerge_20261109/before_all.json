@@ -1,0 +1,1844 @@
+{
+  "dazaifu": {
+    "id": "dazaifu",
+    "name": "太宰府",
+    "type": "destination",
+    "region": "九州",
+    "hub": "福岡",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "departures": [
+      "下関",
+      "佐賀"
+    ],
+    "weight": 0.86,
+    "description": "福岡県にある太宰府は、菅原道真を祀る天満宮を中心に歴史遺産が集まる街だ。玄関口は西鉄太宰府駅で、福岡市内から約50分。太宰府天満宮では石橋を渡り砂利を踏みしめて本殿へ向かう参道が続き、沿道では梅ヶ枝餅を売る店が軒を連ねる。天満宮の裏手から動く歩道を進むと、青いガラス屋根の九州国立博物館が現れ、アジアとの交流史を軸にした遺物が並ぶ。天満宮脇の小さな門をくぐれば、室町時代創建の光明禅寺の石庭が待つ。HOTEL CULTIA 太宰府は門前町の歴史的邸宅を改修した宿で、西鉄太宰府駅から徒歩圏に立つ。朝の参道、人のまばらな石畳。",
+    "tags": [
+      "歴史",
+      "街歩き"
+    ],
+    "spots": [
+      {
+        "name": "太宰府天満宮",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20100719_Dazaifu_Tenmangu_Shrine_3328.jpg/500px-20100719_Dazaifu_Tenmangu_Shrine_3328.jpg",
+        "description": "菅原道真を祀る天満宮。梅の香る参道から石橋を渡り、砂利を踏みしめて本殿へ向かう朝が心地よい。",
+        "imageCredit": {
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:20100719_Dazaifu_Tenmangu_Shrine_3328.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "九州国立博物館",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kyuhaku-approach_1.jpg/500px-Kyuhaku-approach_1.jpg",
+        "description": "天満宮の裏手、動く歩道の先に現れる青いガラス屋根の博物館。アジアとの交流史を軸に遺物が並ぶ。",
+        "imageCredit": {
+          "author": "MK Products",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Kyuhaku-approach_1.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "光明禅寺",
+        "description": "天満宮のすぐ脇、見逃しそうな小さな門の先にある室町時代創建の禅寺。目当ては静かな石庭だ。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jingoreiganzan_K%C5%8Dmy%C5%8D-ji_Temple_20230225_03.jpg/1280px-Jingoreiganzan_K%C5%8Dmy%C5%8D-ji_Temple_20230225_03.jpg",
+        "imageCredit": {
+          "author": "先従隗始",
+          "license": "CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jingoreiganzan_K%C5%8Dmy%C5%8D-ji_Temple_20230225_03.jpg",
+          "attributionRequired": false
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "hotelSearch": "大宰府",
+    "gateways": {
+      "rail": [
+        "太宰府駅"
+      ],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "accessHub": null,
+    "railNote": null,
+    "secondaryTransport": null,
+    "destType": "city",
+    "railGateway": "太宰府駅",
+    "busGateway": null,
+    "ferryGateway": null,
+    "airportGateway": null,
+    "prefecture": "福岡県",
+    "lat": 33.5137,
+    "lng": 130.5334,
+    "stayBias": 1,
+    "airportHub": null,
+    "railProvider": "jrkyushu",
+    "travelTime": {
+      "tokyo": 380,
+      "osaka": 280,
+      "nagoya": 350,
+      "fukuoka": 50,
+      "takamatsu": 310,
+      "mito": 425,
+      "maebashi": 440,
+      "takasaki": 440,
+      "hamamatsu": 380,
+      "gifu": 370,
+      "kofu": 470,
+      "shingu": 400,
+      "tanabe": 370,
+      "shirahama": 380,
+      "kushimoto": 400,
+      "tottori": 400,
+      "shimonoseki": 60,
+      "saga": 60,
+      "oita": 90,
+      "beppu": 100
+    },
+    "stayRecommendation": "daytrip",
+    "city": "太宰府市",
+    "hubStation": "太宰府駅",
+    "accessStation": "太宰府駅",
+    "hotelArea": "fukuoka",
+    "hotelKeyword": "大宰府",
+    "access": {
+      "steps": [
+        {
+          "type": "rail",
+          "to": "太宰府駅",
+          "provider": "JR九州ネット予約"
+        }
+      ]
+    },
+    "fallbackCity": "博多",
+    "gateway": null,
+    "situations": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "catch": "梅ヶ枝餅を食べながら参道を歩くと、太宰府の風が来た。",
+    "primary": [
+      "歴史"
+    ],
+    "secondary": [
+      "春"
+    ],
+    "onsenLevel": 0,
+    "hasDirectFlight": false,
+    "mapPoint": "太宰府天満宮",
+    "subType": "urban",
+    "stayDescription": "太宰府天満宮を歩いて、夜は古い街の宿にこもる。歴史が体に入ってくる旅。",
+    "hubCity": "福岡",
+    "stayPriority": "medium",
+    "representativeStation": "太宰府駅",
+    "finalAccess": {
+      "type": "walk"
+    },
+    "accessPoint": {
+      "type": "station",
+      "name": "太宰府"
+    },
+    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%A4%A7%E5%AE%B0%E5%BA%9C&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%A4%A7%E5%AE%B0%E5%BA%9C",
+    "bookingStation": {
+      "name": "太宰府駅",
+      "company": "西鉄"
+    },
+    "mainSpot": "太宰府天満宮",
+    "stayArea": {
+      "rakuten": "大宰府",
+      "jalan": "大宰府"
+    },
+    "hotelLinks": {
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Ffukuoka%2F",
+      "jalan": "https://www.jalan.net/400000/"
+    },
+    "tier": "area",
+    "icCard": "nimoca",
+    "tier2": "area",
+    "hubName": "福岡",
+    "unsplashUrl": "https://images.unsplash.com/photo-1695556150253-5121b2824f3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQTQlQTclRTUlQUUlQjAlRTUlQkElOUMlMjAlRTclQTYlOEYlRTUlQjIlQTElRTclOUMlOEMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM3Njk0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1695556150253-5121b2824f3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQTQlQTclRTUlQUUlQjAlRTUlQkElOUMlMjAlRTclQTYlOEYlRTUlQjIlQTElRTclOUMlOEMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM3Njk0NXww&ixlib=rb-4.1.0&q=80&w=400",
+    "unsplashCredit": "Kanae Kanesaki",
+    "unsplashCreditUrl": "https://unsplash.com/@ziro1005?utm_source=dokoiko&utm_medium=referral",
+    "unsplashPhotoUrl": "https://unsplash.com/photos/a-large-bridge-spanning-over-a-city-street-nIX7ZeqOnY4?utm_source=dokoiko&utm_medium=referral",
+    "rentalCarRecommended": false,
+    "images": [
+      "/images/dazaifu/main.jpg",
+      "/images/dazaifu/spot-1.jpg",
+      "/images/dazaifu/spot-2.jpg"
+    ],
+    "reasonChips": [
+      "歴史を辿る",
+      "寺社めぐり",
+      "街歩き",
+      "日帰り最適",
+      "1泊がおすすめ",
+      "ひとり旅向け",
+      "カップル向け",
+      "友達と"
+    ],
+    "bestSeason": "通年",
+    "imageCredit": {
+      "author": "先従隗始",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dazaifu_Tenman-g%C5%AB_20230225_15.jpg",
+      "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "HOTEL CULTIA 太宰府",
+      "catchcopy": "天満宮門前町の歴史的邸宅を改修した分散型スモールラグジュアリー",
+      "hasShuttle": false,
+      "accessStation": "西鉄太宰府駅",
+      "jalanUrl": "https://www.jalan.net/yad332596/"
+    },
+    "travelTimeEstimated": {
+      "mito": true,
+      "maebashi": true,
+      "takasaki": true,
+      "hamamatsu": true,
+      "gifu": true,
+      "kofu": true,
+      "shingu": true,
+      "tanabe": true,
+      "shirahama": true,
+      "kushimoto": true,
+      "tottori": true,
+      "shimonoseki": true,
+      "saga": true,
+      "oita": true,
+      "beppu": true
+    }
+  },
+  "furano": {
+    "id": "furano",
+    "name": "富良野",
+    "type": "destination",
+    "region": "北海道",
+    "hub": "旭川",
+    "stayAllowed": [
+      "1night"
+    ],
+    "departures": [
+      "札幌",
+      "釧路",
+      "帯広",
+      "北見"
+    ],
+    "weight": 1.34,
+    "description": "富良野は北海道のほぼ中央に位置する自然豊かな街で、夏の花畑と冬のスキーリゾートの両方を持つ。富良野駅が玄関口となるが、移動には車が必要で、旭川でレンタカーを借りてから向かうと動きやすい。札幌からは約2時間10分。夏の代表格がファーム富田で、ラベンダーの紫に青・白・黄が重なる花畑が広がり、開園直後の朝9時が香りのピークだ。冬は富良野スキー場へ。標高1,000m超の内陸に降る軽い雪が評判で、夏とはまるで異なる景色の中を滑れる。新富良野プリンスホテルはJR富良野駅からバスで約20分、ニングルテラスと風のガーデンを併設する森のリゾートだ。季節ごとに色を替える丘。",
+    "tags": [
+      "街歩き",
+      "自然",
+      "山",
+      "海",
+      "冬",
+      "観光"
+    ],
+    "spots": [
+      {
+        "name": "ファーム富田",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Sign_of_Farm_Tomita.jpg/500px-Sign_of_Farm_Tomita.jpg",
+        "description": "ラベンダーの紫に青・白・黄が重なる花畑。7月の開園直後、香りが空気に残る朝9時が一番いい。",
+        "imageCredit": {
+          "author": "unknown",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sign_of_Farm_Tomita.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "美瑛の丘",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/%E5%9B%9B%E5%AD%A3%E5%BD%A9%E3%81%AE%E4%B8%98-01.JPG/500px-%E5%9B%9B%E5%AD%A3%E5%BD%A9%E3%81%AE%E4%B8%98-01.JPG",
+        "description": "青と黄のパッチワークが地平線まで続く丘。麦の穂を渡る風と移ろう光に、北海道の広さを体感できる。",
+        "imageCredit": {
+          "author": "Captain76",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E5%AD%A3%E5%BD%A9%E3%81%AE%E4%B8%98-01.JPG",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "富良野スキー場",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Furano_Snow_Resort_view2.JPG/1280px-Furano_Snow_Resort_view2.JPG",
+        "description": "標高1000m超、内陸ならではの軽い雪が魅力のスキー場。冬は夏とは別の星のような景色を滑れる。",
+        "imageCredit": {
+          "author": "wakimasa",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Furano_Snow_Resort_view2.JPG",
+          "attributionRequired": false
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": true,
+    "hotelSearch": "富良野",
+    "gateways": {
+      "rail": [
+        "富良野駅"
+      ],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "accessHub": null,
+    "railNote": null,
+    "destType": "city",
+    "railGateway": "富良野駅",
+    "busGateway": null,
+    "ferryGateway": null,
+    "airportGateway": null,
+    "prefecture": "北海道",
+    "lat": 43.342,
+    "lng": 142.3834,
+    "stayBias": 1,
+    "airportHub": null,
+    "railProvider": "ekinet",
+    "travelTime": {
+      "tokyo": 555,
+      "osaka": 695,
+      "nagoya": 640,
+      "fukuoka": 845,
+      "takamatsu": 795,
+      "sapporo": 130,
+      "kushiro": 210,
+      "obihiro": 180,
+      "kitami": 210,
+      "mito": 600,
+      "maebashi": 615,
+      "takasaki": 615,
+      "hamamatsu": 670,
+      "gifu": 660,
+      "kofu": 645,
+      "shingu": 815,
+      "tanabe": 785,
+      "shirahama": 795,
+      "kushimoto": 815,
+      "tottori": 815,
+      "shimonoseki": 875,
+      "saga": 875,
+      "oita": 905,
+      "beppu": 915
+    },
+    "stayRecommendation": "3night+",
+    "secondaryTransport": null,
+    "city": "富良野市",
+    "hubStation": "旭川駅",
+    "accessStation": "富良野駅",
+    "hotelArea": "hokkaido",
+    "jalanPath": "/01/LRG_010170/",
+    "hotelKeyword": "富良野",
+    "access": {
+      "steps": [
+        {
+          "type": "rail",
+          "to": "富良野駅",
+          "provider": "えきねっと"
+        },
+        {
+          "type": "local",
+          "from": "富良野駅",
+          "to": "富良野",
+          "method": "レンタカー"
+        }
+      ]
+    },
+    "fallbackCity": "札幌",
+    "finalPoint": "ファーム富田",
+    "gateway": "旭川駅",
+    "gatewayStations": [
+      {
+        "name": "旭川駅",
+        "type": "major",
+        "priority": 1
+      }
+    ],
+    "localAccess": {
+      "type": "rental",
+      "description": "旭川から富良野駅へ",
+      "to": "富良野駅"
+    },
+    "situations": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "catch": "ラベンダーの丘に立つと、なぜか泣きそうになった。",
+    "primary": [
+      "街歩き",
+      "自然",
+      "山"
+    ],
+    "secondary": [
+      "海",
+      "冬",
+      "夏"
+    ],
+    "onsenLevel": 0,
+    "hasDirectFlight": false,
+    "mapPoint": "ファーム富田",
+    "subType": "sea",
+    "stayDescription": "昼間は海岸を歩いて、夜は港町の食堂で地元の魚を食べる。",
+    "hubCity": "富良野",
+    "stayPriority": "medium",
+    "representativeStation": "富良野駅",
+    "finalAccess": {
+      "type": "walk"
+    },
+    "accessPoint": {
+      "type": "station",
+      "name": "富良野"
+    },
+    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%AF%8C%E8%89%AF%E9%87%8E&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%AF%8C%E8%89%AF%E9%87%8E",
+    "bookingStation": {
+      "name": "富良野駅",
+      "company": "JR"
+    },
+    "mainSpot": "ファーム富田",
+    "stayArea": {
+      "rakuten": "富良野",
+      "jalan": "富良野"
+    },
+    "hotelLinks": {
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2Ffurano.html",
+      "jalan": "https://www.jalan.net/010000/"
+    },
+    "accessType": "car",
+    "tier": "area",
+    "icCard": "suica",
+    "tier2": "area",
+    "hubName": "旭川",
+    "rentalCarRecommended": true,
+    "images": [
+      "/images/furano/main.jpg",
+      "/images/furano/spot-1.jpg",
+      "/images/furano/spot-2.jpg",
+      "/images/furano/spot-3.jpg"
+    ],
+    "reasonChips": [
+      "絶景",
+      "雪景色",
+      "自然と過ごす",
+      "街歩き",
+      "1泊がおすすめ",
+      "ひとり旅向け",
+      "カップル向け",
+      "友達と"
+    ],
+    "bestSeason": "冬",
+    "imageCredit": {
+      "author": "Adam Jones from Kelowna, BC, Canada",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:View_over_Furano_with_Mountain_Backdrop_-_Furano_-_Hokkaido_-_Japan_(48012227543).jpg",
+      "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "新富良野プリンスホテル",
+      "catchcopy": "富良野岳の麓、ニングルテラスと風のガーデンを併設する森のリゾートホテル。",
+      "hasShuttle": false,
+      "accessStation": "JR富良野駅（バス約20分）"
+    },
+    "travelTimeEstimated": {
+      "mito": true,
+      "maebashi": true,
+      "takasaki": true,
+      "hamamatsu": true,
+      "gifu": true,
+      "kofu": true,
+      "shingu": true,
+      "tanabe": true,
+      "shirahama": true,
+      "kushimoto": true,
+      "tottori": true,
+      "shimonoseki": true,
+      "saga": true,
+      "oita": true,
+      "beppu": true
+    }
+  },
+  "ohara": {
+    "id": "ohara",
+    "name": "大原",
+    "type": "destination",
+    "region": "近畿",
+    "prefecture": "京都府",
+    "hub": "大阪",
+    "hubName": "大阪",
+    "hubCity": "大阪",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "departures": [
+      "大阪"
+    ],
+    "weight": 1,
+    "description": "京都市街の北東、山に抱かれた里だ。古刹が点在する。大阪からは約1時間30分、京都バス「大原」バス停が玄関口となり、宿の芹生はバスターミナルから送迎もある。三千院は苔むした庭園が一面の緑に覆われ、水音と鳥声だけが響く古刹で、ベストシーズンの秋には庭全体が深みを増す。寂光院は建礼門院ゆかりの地で、境内の歴史の重みは独特だ。宝泉院では障子を額縁に見立てた庭園が知られ、床に座して四季の景色をゆっくり眺められる。3つの寺を歩いてめぐれる距離に並ぶのも大原の魅力。苔の緑と楓の赤が重なる谷の午後。",
+    "tags": [
+      "寺社",
+      "自然",
+      "歴史"
+    ],
+    "spots": [
+      {
+        "name": "三千院",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_%28KYOTO-JAPAN%29_%284950791861%29.jpg/1280px-Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_%28KYOTO-JAPAN%29_%284950791861%29.jpg",
+        "description": "苔むした庭園が柔らかな緑に覆われる、1200年の歴史を持つ古刹。水音と鳥声だけが響く庭を歩くと、時間の流れが緩やかになる。",
+        "imageCredit": {
+          "author": "Chi King",
+          "license": "CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_(KYOTO-JAPAN)_(4950791861).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "寂光院",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/%E5%AF%82%E5%85%89%E9%99%A2_-_panoramio_%282%29.jpg/1280px-%E5%AF%82%E5%85%89%E9%99%A2_-_panoramio_%282%29.jpg",
+        "description": "建礼門院の遺徳が静かに佇む本堂前。苔の上を流れ落ちる清水の音が歴史の言葉のように聞こえ、秋の楓が映る池の表面が千年の想いを映す鏡となる。",
+        "imageCredit": {
+          "author": "くろふね",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%AF%82%E5%85%89%E9%99%A2_-_panoramio_(2).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "宝泉院",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/%E5%AE%9D%E6%B3%89%E9%99%A2_01.JPG/500px-%E5%AE%9D%E6%B3%89%E9%99%A2_01.JPG",
+        "description": "額縁庭園から大原の四季を眺める寺。障子越しに緑が映り込み季節ごとに色が移ろう。床に座せば清流音と鳥声が届き、江戸時代から変わらぬ額の内で時が止まる。",
+        "imageCredit": {
+          "author": "Maechan0360",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%AE%9D%E6%B3%89%E9%99%A2_01.JPG",
+          "attributionRequired": true
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "isIsland": false,
+    "destType": "sight",
+    "hotelSearch": "京都",
+    "lat": 35.117,
+    "lng": 135.836,
+    "travelTime": {
+      "osaka": 90,
+      "tokyo": 195,
+      "nagoya": 100,
+      "fukuoka": 255,
+      "hiroshima": 180
+    },
+    "stayRecommendation": "daytrip",
+    "gateways": {
+      "rail": [],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "hotelLinks": {
+      "rakuten": "https://travel.rakuten.co.jp/yado/kyoto/",
+      "jalan": "https://www.jalan.net/260000/"
+    },
+    "rentalCarRecommended": true,
+    "unsplashUrl": "https://images.unsplash.com/photo-1682842590416-4a942adf9cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTQlQjglODklRTUlOEQlODMlRTklOTklQTIlMjAlRTUlQTQlQTclRTUlOEUlOUZ8ZW58MHwwfHx8MTc3ODU1MTk1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1682842590416-4a942adf9cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTQlQjglODklRTUlOEQlODMlRTklOTklQTIlMjAlRTUlQTQlQTclRTUlOEUlOUZ8ZW58MHwwfHx8MTc3ODU1MTk1OXww&ixlib=rb-4.1.0&q=80&w=400",
+    "unsplashCredit": "Akiyo Ikeda",
+    "unsplashCreditUrl": "https://unsplash.com/@akiyo_ikeda?utm_source=dokoiko&utm_medium=referral",
+    "unsplashPhotoUrl": "https://unsplash.com/photos/a-statue-in-the-middle-of-a-garden-6uRWzE0b4gU?utm_source=dokoiko&utm_medium=referral",
+    "images": [
+      "/images/ohara/main.jpg",
+      "/images/ohara/spot-1.jpg",
+      "/images/ohara/spot-2.jpg",
+      "/images/ohara/spot-3.jpg"
+    ],
+    "reasonChips": [
+      "歴史を辿る",
+      "寺社めぐり",
+      "自然と過ごす",
+      "日帰り最適",
+      "1泊がおすすめ"
+    ],
+    "bestSeason": "秋",
+    "imageCredit": {
+      "author": "Chi King",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_(KYOTO-JAPAN)_(4950794717).jpg",
+      "attributionRequired": true
+    },
+    "mainSpot": "三千院",
+    "featured_stay": {
+      "name": "大原温泉湯元 お宿 芹生",
+      "catchcopy": "三千院門前に佇む湯元の宿。京野菜と山里の旬味、大原温泉に癒される里の休日",
+      "hasShuttle": true,
+      "accessStation": "京都バス「大原」バス停から徒歩約10分",
+      "jalanUrl": "https://www.jalan.net/yad334930/",
+      "shuttleInfo": "大原バスターミナルから送迎あり（要事前連絡）"
+    },
+    "seo": {
+      "description": "京都市街の北東、山に抱かれた里だ。古刹が点在する。三千院は苔むした庭園が一面の緑に覆われ、水音と鳥声だけが響く古刹で、ベストシーズンの秋には庭全体が深みを増す。",
+      "auto": true
+    }
+  },
+  "osorezan": {
+    "id": "osorezan",
+    "name": "恐山",
+    "type": "destination",
+    "region": "東北",
+    "hub": "盛岡",
+    "hotelSearch": "恐山",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "stayBias": 1,
+    "weight": 0.77,
+    "departures": [
+      "盛岡",
+      "仙台",
+      "青森",
+      "秋田",
+      "山形",
+      "福島",
+      "八戸"
+    ],
+    "description": "青森県下北半島に位置する、千年以上の歴史を持つ霊場だ。恐山菩提寺の境内には色とりどりの風車が並び、奥へ進むと強酸性のカルデラ湖である宇曽利湖が突如として姿を現す。湖面はエメラルドブルーで、赤褐色の鉱物が露出する荒涼とした湖畔との対比が鮮烈。開山期間は5月から10月に限られる。JR下北駅から恐山へはバスでアクセスできるが、本数が少ないためレンタカーが現実的な選択肢となります。青森市内から約2時間。境内に泊まれる宿坊・吉祥閣では精進料理と硫黄泉が待ち、霊場の夜を静かに過ごせます。風車の回る境内、その先に広がる異界の青。",
+    "tags": [
+      "霊場",
+      "自然",
+      "精神"
+    ],
+    "spots": [
+      {
+        "name": "恐山菩提寺",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bodai-ji_grave_ac_%283%29.jpg/1280px-Bodai-ji_grave_ac_%283%29.jpg",
+        "description": "総門をくぐると空気が変わり、色とりどりの風車が境内のあちこちで回る。千年以上続く霊場の中心で静かに手を合わせたい。",
+        "imageCredit": {
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bodai-ji_grave_ac_(3).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "宇曽利湖",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/08-8-22_Lake_Usori.JPG/500px-08-8-22_Lake_Usori.JPG",
+        "description": "菩提寺の奥で突然視界が開け、エメラルドブルーの湖が現れる。強酸性のカルデラ湖がつくる、この世離れした青。",
+        "imageCredit": {
+          "author": "XT at ja.wikipedia",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:08-8-22_Lake_Usori.JPG",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "カルデラ湖",
+        "description": "硫黄臭が立ち込め、赤褐色の鉱物が露出する湖畔。荒涼とした山肌が冷たい湖面に映る、異界の入り口とされた地。",
+        "imageUrl": "/images/spots/osorezan/2.jpg",
+        "imageCredit": {
+          "author": "machu.",
+          "license": "CC BY 2.0",
+          "url": "https://www.flickr.com/photos/19594487@N00/49009934",
+          "attributionRequired": true
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "gateways": {
+      "rail": [
+        "下北駅"
+      ],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "destType": "sight",
+    "railGateway": "下北駅",
+    "busGateway": null,
+    "ferryGateway": null,
+    "airportGateway": null,
+    "prefecture": "青森県",
+    "city": "むつ市",
+    "lat": 41.3167,
+    "lng": 141.0767,
+    "stayRecommendation": "1night",
+    "secondaryTransport": "bus",
+    "airportHub": null,
+    "railProvider": "ekinet",
+    "hubStation": "下北駅",
+    "accessStation": "恐山",
+    "accessHub": "下北",
+    "railNote": "バス",
+    "travelTime": {
+      "tokyo": 270,
+      "osaka": 410,
+      "nagoya": 355,
+      "fukuoka": 560,
+      "takamatsu": 510,
+      "hakodate": 150,
+      "aomori": 120,
+      "mito": 315,
+      "maebashi": 330,
+      "takasaki": 330,
+      "hamamatsu": 385,
+      "gifu": 375,
+      "kofu": 360,
+      "shingu": 530,
+      "tanabe": 500,
+      "shirahama": 510,
+      "kushimoto": 530,
+      "tottori": 530,
+      "shimonoseki": 590,
+      "saga": 590,
+      "oita": 620,
+      "beppu": 630
+    },
+    "hotelArea": "aomori",
+    "hotelKeyword": "むつ",
+    "access": {
+      "steps": [
+        {
+          "type": "rail",
+          "to": "下北駅",
+          "provider": "えきねっと"
+        },
+        {
+          "type": "local",
+          "from": "下北駅",
+          "to": "恐山",
+          "method": "バス"
+        }
+      ]
+    },
+    "fallbackCity": "弘前",
+    "gateway": "下北駅",
+    "gatewayStations": [
+      {
+        "name": "下北駅",
+        "type": "major",
+        "priority": 1
+      }
+    ],
+    "localAccess": {
+      "type": "bus",
+      "description": "下北から恐山へ",
+      "to": "恐山"
+    },
+    "situations": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "catch": "この世の果てで、誰かを思い出す場所。",
+    "primary": [
+      "霊場",
+      "自然",
+      "精神"
+    ],
+    "secondary": [],
+    "onsenLevel": 0,
+    "hasDirectFlight": false,
+    "mapPoint": "恐山菩提寺",
+    "subType": "mountain",
+    "stayDescription": "朝靄の中を歩いて、昼に絶景を踏んで、夜は宿でぐっすり眠る。",
+    "hubCity": "下北",
+    "stayPriority": "medium",
+    "representativeStation": "下北駅",
+    "finalAccess": {
+      "type": "bus",
+      "from": "下北駅"
+    },
+    "accessPoint": {
+      "type": "bus",
+      "name": "恐山"
+    },
+    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%81%90%E5%B1%B1&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%81%90%E5%B1%B1",
+    "bookingStation": {
+      "name": "下北駅",
+      "company": "JR"
+    },
+    "mainSpot": "恐山菩提寺",
+    "stayArea": {
+      "rakuten": "恐山",
+      "jalan": "恐山"
+    },
+    "hotelLinks": {
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Faomori%2F",
+      "jalan": "https://www.jalan.net/020000/"
+    },
+    "tier": "spot",
+    "icCard": "suica",
+    "tier2": "spot",
+    "hubName": "盛岡",
+    "rentalCarRecommended": true,
+    "images": [
+      "/images/osorezan/main.jpg",
+      "/images/osorezan/spot-1.jpg",
+      "/images/osorezan/spot-2.jpg"
+    ],
+    "reasonChips": [
+      "寺社めぐり",
+      "自然と過ごす",
+      "日帰り最適",
+      "1泊がおすすめ",
+      "ひとり旅向け",
+      "カップル向け",
+      "友達と"
+    ],
+    "bestSeason": "冬",
+    "imageCredit": {
+      "author": "Daderot",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fumerole_-_Mount_Osore_-_Mutsu,_Aomori_-_DSC00452.jpg",
+      "attributionRequired": false
+    },
+    "featured_stay": {
+      "name": "恐山 宿坊 吉祥閣",
+      "catchcopy": "霊場恐山の境内に泊まる宿坊。精進料理と境内の硫黄泉で心身を清める一夜",
+      "hasShuttle": false,
+      "accessStation": "JR下北駅"
+    },
+    "travelTimeEstimated": {
+      "mito": true,
+      "maebashi": true,
+      "takasaki": true,
+      "hamamatsu": true,
+      "gifu": true,
+      "kofu": true,
+      "shingu": true,
+      "tanabe": true,
+      "shirahama": true,
+      "kushimoto": true,
+      "tottori": true,
+      "shimonoseki": true,
+      "saga": true,
+      "oita": true,
+      "beppu": true
+    }
+  },
+  "arashiyama": {
+    "id": "arashiyama",
+    "name": "嵐山",
+    "type": "destination",
+    "region": "近畿",
+    "hub": "京都",
+    "hotelSearch": "嵐山",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "stayBias": 0,
+    "weight": 0.77,
+    "departures": [
+      "大阪",
+      "名古屋",
+      "東京",
+      "和歌山"
+    ],
+    "description": "京都市西部に位置する嵐山は、竹林・寺社・川沿いの景観が一帯に集まる観光地だ。東京からは新幹線のぞみで京都まで約2時間15分、京都駅からJR嵯峨野線の快速で約11分で嵯峨嵐山駅に着く。見どころの中心は竹林の道で、高く連なる竹の隙間を朝の光が走り抜ける。開門直後に訪れたい天龍寺では、室町時代につくられた曹源池庭園が主役。池に面した縁側に腰を下ろすと、正面に嵐山の稜線を望める。渡月橋は渡るより、欄干に立ち止まって大堰川の水面と山の重なりを眺めたい。秋の紅葉期は人出が増えるため、電車でのアクセスが現実的だ。渡月橋の上、川面に映る秋の山。",
+    "tags": [
+      "竹林",
+      "寺社",
+      "自然",
+      "街歩き",
+      "秋"
+    ],
+    "spots": [
+      {
+        "name": "竹林の道",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg/1280px-Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg",
+        "description": "夜明け直後なら青竹の風切り音だけが響く。高く連なる竹の隙間から朝の光が走り抜ける、緑の筒の中を歩ける。",
+        "imageCredit": {
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bamboo_Grove,_Arashiyama,_Kyoto,_Japan.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "渡月橋",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/%E5%B5%90%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%EF%BC%A0%E6%B8%A1%E6%9C%88%E6%A9%8B_%282096117765%29.jpg/1280px-%E5%B5%90%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%EF%BC%A0%E6%B8%A1%E6%9C%88%E6%A9%8B_%282096117765%29.jpg",
+        "description": "渡るのではなく、橋の上に立ち止まりたい。嵐山の稜線と大堰川の水面が、桜と紅葉で全く別の色に塗り替わる。",
+        "imageCredit": {
+          "author": "ketou-daisuki from Kyoto, japansko",
+          "license": "CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%B5%90%E5%B1%B1%E8%8A%B1%E7%81%AF%E8%B7%AF%EF%BC%A0%E6%B8%A1%E6%9C%88%E6%A9%8B_(2096117765).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "天龍寺",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tenryuji_Kyoto.jpg/500px-Tenryuji_Kyoto.jpg",
+        "description": "室町時代につくられた曹源池庭園を持つ寺で、池の前の縁側に腰を下ろすと正面に嵐山を望む景色を楽しめる。",
+        "imageCredit": {
+          "author": "osakaosaka",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Tenryuji_Kyoto.jpg",
+          "attributionRequired": true
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "gateways": {
+      "rail": [
+        "嵐山駅"
+      ],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "destType": "city",
+    "railGateway": "嵐山駅",
+    "busGateway": null,
+    "ferryGateway": null,
+    "airportGateway": null,
+    "prefecture": "京都府",
+    "city": "京都市",
+    "lat": 35.0095,
+    "lng": 135.6719,
+    "stayRecommendation": "daytrip",
+    "secondaryTransport": null,
+    "airportHub": null,
+    "railProvider": null,
+    "hubStation": "嵐山駅",
+    "accessStation": "嵐山駅",
+    "accessHub": null,
+    "railNote": null,
+    "travelTime": {
+      "tokyo": 165,
+      "osaka": 30,
+      "nagoya": 80,
+      "fukuoka": 190,
+      "takamatsu": 140,
+      "himeji": 120,
+      "wakayama": 60,
+      "mito": 210,
+      "maebashi": 225,
+      "takasaki": 225,
+      "hamamatsu": 110,
+      "gifu": 100,
+      "kofu": 255,
+      "shingu": 150,
+      "tanabe": 120,
+      "shirahama": 130,
+      "kushimoto": 150,
+      "tottori": 150,
+      "shimonoseki": 220,
+      "saga": 220,
+      "oita": 250,
+      "beppu": 260
+    },
+    "hotelArea": "kyoto",
+    "hotelKeyword": "嵐山",
+    "access": {
+      "steps": [
+        {
+          "type": "rail",
+          "to": "嵐山駅",
+          "provider": "e5489"
+        }
+      ]
+    },
+    "fallbackCity": "京都",
+    "gateway": null,
+    "situations": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "catch": "風が竹を揺らす音を、しばらく忘れられなかった。",
+    "primary": [
+      "竹林",
+      "寺社",
+      "自然"
+    ],
+    "secondary": [
+      "街歩き",
+      "秋"
+    ],
+    "onsenLevel": 0,
+    "hasDirectFlight": false,
+    "mapPoint": "竹林の道",
+    "subType": "mountain",
+    "stayDescription": "朝靄の中を歩いて、昼に絶景を踏んで、夜は宿でぐっすり眠る。",
+    "hubCity": "嵐山",
+    "stayPriority": "medium",
+    "representativeStation": "嵐山駅",
+    "finalAccess": {
+      "type": "walk"
+    },
+    "accessPoint": {
+      "type": "station",
+      "name": "嵐山"
+    },
+    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%B5%90%E5%B1%B1&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%B5%90%E5%B1%B1",
+    "bookingStation": {
+      "name": "嵐山駅",
+      "company": "阪急"
+    },
+    "mainSpot": "竹林の道",
+    "stayArea": {
+      "rakuten": "嵐山",
+      "jalan": "嵐山"
+    },
+    "hotelLinks": {
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fkyoto%2F",
+      "jalan": "https://www.jalan.net/260000/"
+    },
+    "tier": "area",
+    "icCard": "icoca",
+    "tier2": "area",
+    "hubName": "京都",
+    "rentalCarRecommended": true,
+    "images": [
+      "/images/arashiyama/main.jpg"
+    ],
+    "reasonChips": [
+      "歴史を辿る",
+      "寺社めぐり",
+      "自然と過ごす",
+      "街歩き",
+      "車なしOK",
+      "日帰り最適",
+      "1泊がおすすめ",
+      "ひとり旅向け"
+    ],
+    "bestSeason": "秋",
+    "imageCredit": {
+      "author": "Hyppolyte de Saint-Rambert",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Kyoto_Sagano_Arashiyama_hdsr_S5_6.jpg",
+      "attributionRequired": true
+    },
+    "featured_stay": {
+      "name": "星のや京都",
+      "catchcopy": "渡月橋から専用の舟で川を遡り辿り着く、全室リバービューの水辺の隠れ家リゾート",
+      "hasShuttle": true,
+      "accessStation": "嵐電嵐山駅（渡月橋南詰の舟待合へ）",
+      "shuttleInfo": "渡月橋南詰の舟待合から専用舟で送迎（事前予約制）"
+    },
+    "seo": {
+      "title": "【嵐山】竹林の道・天龍寺・渡月橋｜京都市",
+      "description": "京都市西部の嵐山は、竹林・寺社・川沿いの景観が集まる観光地。竹林の道、天龍寺の曹源池庭園、渡月橋を紹介します。"
+    },
+    "travelTimeEstimated": {
+      "wakayama": true,
+      "mito": true,
+      "maebashi": true,
+      "takasaki": true,
+      "hamamatsu": true,
+      "gifu": true,
+      "kofu": true,
+      "shingu": true,
+      "tanabe": true,
+      "shirahama": true,
+      "kushimoto": true,
+      "tottori": true,
+      "shimonoseki": true,
+      "saga": true,
+      "oita": true,
+      "beppu": true
+    }
+  },
+  "arashiyama-2": {
+    "id": "arashiyama-2",
+    "name": "嵐山",
+    "type": "destination",
+    "region": "近畿",
+    "prefecture": "京都府",
+    "hub": "大阪",
+    "hubName": "大阪",
+    "hubCity": "大阪",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "departures": [
+      "大阪"
+    ],
+    "weight": 1,
+    "description": "京都西部の嵐山。竹林・川・山が一体となった観光地で、大阪から約1時間10分で着く。竹林の道は青竹が頭上を覆い、朝は斜光が差し込んで表情が変わる。嵯峨野トロッコ列車は廃線を復活させた経緯を持ち、窓のない開放車から保津峡の景色が次々と移り変わる。保津川下りは船頭が操る舟で峡谷を下るもので、紅葉の季節は川面に映る色が渓谷美を二重に見せる。翠嵐ラグジュアリーコレクションホテル京都は保津川のほとりに立ち、旧邸宅の面影を残すホテルで、嵐電嵐山駅から徒歩約6分。夏と秋がベストシーズンだ。竹が揺れる、その一瞬。",
+    "tags": [
+      "街歩き",
+      "寺社",
+      "自然"
+    ],
+    "spots": [
+      {
+        "name": "竹林の道",
+        "description": "竹の根が地面を編み、落ち葉を踏む触感が心地よい。青竹の香りと斜めに差す朝日が別世界へ誘い、雨後は地面が深緑に染まる。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg/1280px-Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg",
+        "imageCredit": {
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bamboo_Forest,_Arashiyama,_Kyoto,_Japan.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "保津川下り",
+        "description": "船頭の掛け声が響く峡谷を舟で下り、紅葉期は川面に映る色彩が渓谷の景観を重層的に彩る。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%E4%BF%9D%E6%B4%A5%E5%B3%BD_2018-08-01.jpg/1280px-%E4%BF%9D%E6%B4%A5%E5%B3%BD_2018-08-01.jpg",
+        "imageCredit": {
+          "author": "SH6188",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E4%BF%9D%E6%B4%A5%E5%B3%BD_2018-08-01.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "嵯峨野トロッコ列車",
+        "description": "レールの軋みと車輪の響きが山奥に轟く。窓なし開放車から保津峡の景色が次々移り、廃線復活の歴史ロマンを体感できる。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Hozukyo_Station_seen_from_Sagano_Scenic_Railway_train_2016-08-26.jpg/1280px-Hozukyo_Station_seen_from_Sagano_Scenic_Railway_train_2016-08-26.jpg",
+        "imageCredit": {
+          "author": "pang yu liu from Taoyuan, TW",
+          "license": "CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Hozukyo_Station_seen_from_Sagano_Scenic_Railway_train_2016-08-26.jpg",
+          "attributionRequired": true
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "isIsland": false,
+    "destType": "sight",
+    "hotelSearch": "嵐山",
+    "lat": 35.018,
+    "lng": 135.677,
+    "travelTime": {
+      "osaka": 70,
+      "tokyo": 235,
+      "nagoya": 130,
+      "fukuoka": 235,
+      "hiroshima": 160,
+      "takamatsu": 175,
+      "sendai": 245
+    },
+    "stayRecommendation": "daytrip",
+    "gateways": {
+      "rail": [],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "hotelLinks": {
+      "rakuten": "https://travel.rakuten.co.jp/yado/kyoto/",
+      "jalan": "https://www.jalan.net/260000/"
+    },
+    "rentalCarRecommended": true,
+    "unsplashUrl": "https://images.unsplash.com/photo-1746619672903-4327d0ad0cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTclQUIlQjklRTYlOUUlOTclRTMlODElQUUlRTklODElOTMlMjAlRTUlQjUlOTAlRTUlQjElQjElRTUlQTUlQTUlRTUlOUMlQjB8ZW58MHwwfHx8MTc3ODU1NTY2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1746619672903-4327d0ad0cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTclQUIlQjklRTYlOUUlOTclRTMlODElQUUlRTklODElOTMlMjAlRTUlQjUlOTAlRTUlQjElQjElRTUlQTUlQTUlRTUlOUMlQjB8ZW58MHwwfHx8MTc3ODU1NTY2MHww&ixlib=rb-4.1.0&q=80&w=400",
+    "unsplashCredit": "Balooon69",
+    "unsplashCreditUrl": "https://unsplash.com/@balooon69?utm_source=dokoiko&utm_medium=referral",
+    "unsplashPhotoUrl": "https://unsplash.com/photos/sunlight-peeks-through-a-bamboo-forest-and-trees-o0MqWQwS6ww?utm_source=dokoiko&utm_medium=referral",
+    "images": [
+      "/images/arashiyama-2/main.jpg"
+    ],
+    "reasonChips": [
+      "紅葉",
+      "歴史を辿る",
+      "寺社めぐり",
+      "自然と過ごす",
+      "街歩き",
+      "日帰り最適",
+      "1泊がおすすめ",
+      "街歩き向け"
+    ],
+    "bestSeason": "夏・秋",
+    "mainSpot": "竹林の道",
+    "featured_stay": {
+      "name": "翠嵐ラグジュアリーコレクションホテル京都",
+      "catchcopy": "保津川のほとり、旧邸宅の面影を残すラグジュアリーホテルで味わう雅な嵐山時間",
+      "hasShuttle": false,
+      "accessStation": "嵐電嵐山駅から徒歩約6分"
+    },
+    "seo": {
+      "title": "【嵐山】竹林の道・嵯峨野トロッコ列車・保津川下り｜京都府",
+      "description": "京都西部の嵐山は、竹林・川・山が一体となった観光地。竹林の道、廃線を復活させた嵯峨野トロッコ列車、保津川下りを紹介します。"
+    }
+  },
+  "gen_北海_支笏湖いとう温泉": {
+    "id": "gen_北海_支笏湖いとう温泉",
+    "name": "支笏湖温泉",
+    "displayName": "支笏湖いとう温泉",
+    "prefecture": "北海道",
+    "region": "北海道",
+    "lat": 42.78225,
+    "lng": 141.31286111,
+    "destType": "onsen",
+    "hubCity": "札幌",
+    "fallbackCity": "札幌",
+    "isStayable": true,
+    "_generated": true,
+    "_source": "wikipedia",
+    "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
+    "tags": [
+      "温泉",
+      "自然",
+      "街歩き",
+      "冬"
+    ],
+    "primary": [
+      "温泉"
+    ],
+    "secondary": [
+      "自然",
+      "街歩き",
+      "冬"
+    ],
+    "weight": 1.55,
+    "stayPriority": "high",
+    "onsenLevel": 3,
+    "accessStation": "札幌駅",
+    "representativeStation": "札幌駅",
+    "railProvider": "ekinet",
+    "jrArea": "east",
+    "finalAccess": {
+      "type": "train",
+      "line": "在来線",
+      "to": "支笏湖いとう温泉"
+    },
+    "transportHubs": {
+      "rail": "札幌駅",
+      "city": "札幌"
+    },
+    "gateway": null,
+    "departures": [
+      "札幌",
+      "仙台",
+      "東京",
+      "名古屋",
+      "大阪",
+      "広島",
+      "福岡",
+      "和歌山",
+      "釧路",
+      "帯広",
+      "北見"
+    ],
+    "isIsland": false,
+    "hub": "札幌",
+    "stayAllowed": [
+      "2night"
+    ],
+    "spots": [
+      {
+        "name": "支笏湖いとう温泉",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Roten600x450.jpg/500px-Roten600x450.jpg",
+        "description": "湖畔に建ち、露天風呂から支笏湖を一望できる宿。41度ほどの湯に浸かりながら、湖と向き合う眺めを楽しめる。",
+        "imageCredit": {
+          "author": "spamaster",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Roten600x450.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "支笏湖",
+        "description": "日本有数の透明度を誇る湖。冬は凍った湖面に穴釣りの風景が広がり、夜は星空との共演で深藍色に輝く姿を望める。",
+        "googleMapsQuery": "支笏湖 千歳市",
+        "imageUrl": "/images/spots/gen_北海_支笏湖いとう温泉/1.jpg",
+        "imageCredit": {
+          "author": "onigiri-kun",
+          "license": "CC BY-ND 2.0",
+          "url": "https://www.flickr.com/photos/44037581@N02/7300963358",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "モラップキャンプ場展望台",
+        "description": "湖全体を眼下に望む展望台。樹齢300年超のトドマツ林に囲まれ、冬の朝靄に浮かぶ湖面のコントラストが幻想的。",
+        "googleMapsQuery": "モラップキャンプ場展望台 千歳市",
+        "imageUrl": "/images/spots/gen_北海_支笏湖いとう温泉/2.jpg",
+        "imageCredit": {
+          "author": "Z3RAJIRAIYA",
+          "license": "Pixabay Content License",
+          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "恵庭岳",
+        "description": "支笏湖の南にそびえる標高1319メートルの活火山。整備された登山道を登れば、頂上から支笏湖と樽前山を望める。",
+        "googleMapsQuery": "恵庭岳登山道 千歳市",
+        "imageUrl": "/images/spots/gen_北海_支笏湖いとう温泉/3.jpg"
+      }
+    ],
+    "description": "支笏湖温泉は、北海道千歳市にある湖畔の温泉地だ。日本有数の透明度を誇る支笏湖のほとりに立ち、冬がベストシーズン。支笏湖いとう温泉は露天風呂の正面に湖面を望む一軒宿で、41度ほどの湯に浸かったまま湖との一体感を得られる。冬には湖上に穴釣りの風景が現れ、モラップキャンプ場展望台では樹齢300年超のトドマツ林に囲まれた湖全体を眼下に収められる。南にそびえる恵庭岳は標高1319メートルの活火山で、整備された登山道から支笏湖と樽前山を見渡せる。青と白だけが残る冬の湖岸。",
+    "catch": "支笏湖いとう温泉で温泉に2回入って、部屋でゆっくりして寝る",
+    "requiresCar": false,
+    "type": "destination",
+    "subType": "onsen",
+    "city": "札幌",
+    "hubStation": "札幌駅",
+    "hotelArea": "北海道",
+    "hotelSearch": "支笏湖いとう温泉",
+    "hotelKeyword": "支笏湖いとう温泉",
+    "travelTime": {
+      "tokyo": 540,
+      "nagoya": 617,
+      "osaka": 678,
+      "takamatsu": 738,
+      "fukuoka": 897,
+      "wakayama": 708,
+      "mito": 585,
+      "maebashi": 600,
+      "takasaki": 600,
+      "hamamatsu": 647,
+      "gifu": 637,
+      "kofu": 630,
+      "shingu": 798,
+      "tanabe": 768,
+      "shirahama": 778,
+      "kushimoto": 798,
+      "tottori": 798,
+      "shimonoseki": 927,
+      "saga": 927,
+      "oita": 957,
+      "beppu": 967
+    },
+    "stayRecommendation": "1night",
+    "secondaryTransport": "bus",
+    "stayBias": "destination",
+    "airportHub": null,
+    "situations": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "mapPoint": "支笏湖いとう温泉",
+    "railGateway": "札幌駅",
+    "railNote": "バス",
+    "hasDirectFlight": false,
+    "airportGateway": null,
+    "busGateway": null,
+    "ferryGateway": null,
+    "gateways": [],
+    "access": {
+      "steps": []
+    },
+    "localAccess": null,
+    "_enriched": true,
+    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%94%AF%E7%AC%8F%E6%B9%96%E3%81%84%E3%81%A8%E3%81%86%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%94%AF%E7%AC%8F%E6%B9%96%E3%81%84%E3%81%A8%E3%81%86%E6%B8%A9%E6%B3%89",
+    "bookingStation": null,
+    "mainSpot": "支笏湖いとう温泉",
+    "stayArea": {
+      "rakuten": "支笏湖いとう温泉",
+      "jalan": "札幌"
+    },
+    "hotelLinks": {
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+      "jalan": "https://www.jalan.net/010000/"
+    },
+    "tier": "area",
+    "icCard": "suica",
+    "tier2": "area",
+    "hubName": "札幌",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1696947347316-e4d91e64c6bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTYlOTQlQUYlRTclQUMlOEYlRTYlQjklOTYlRTMlODElODQlRTMlODElQTglRTMlODElODYlRTYlQjglQTklRTYlQjMlODklMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5OTQyOXww&ixlib=rb-4.1.0&q=80&w=400",
+    "rentalCarRecommended": true,
+    "images": [],
+    "reasonChips": [
+      "温泉",
+      "自然と過ごす",
+      "街歩き",
+      "ひとり旅向け",
+      "カップル向け",
+      "友達と",
+      "温泉がおすすめ",
+      "街歩き向け"
+    ],
+    "bestSeason": "冬",
+    "travelTimeEstimated": {
+      "wakayama": true,
+      "mito": true,
+      "maebashi": true,
+      "takasaki": true,
+      "hamamatsu": true,
+      "gifu": true,
+      "kofu": true,
+      "shingu": true,
+      "tanabe": true,
+      "shirahama": true,
+      "kushimoto": true,
+      "tottori": true,
+      "shimonoseki": true,
+      "saga": true,
+      "oita": true,
+      "beppu": true
+    },
+    "seo": {
+      "description": "支笏湖温泉は、北海道千歳市にある湖畔の温泉地だ。日本有数の透明度を誇る支笏湖のほとりに立ち、冬がベストシーズン。支笏湖いとう温泉は露天風呂の正面に湖面を望む一軒宿で、41度ほどの湯に浸かったまま湖との一体感を得られる。",
+      "auto": true
+    }
+  },
+  "dazaifu-2": {
+    "id": "dazaifu-2",
+    "name": "太宰府",
+    "type": "destination",
+    "region": "九州",
+    "prefecture": "福岡県",
+    "hub": "福岡",
+    "hubName": "福岡",
+    "hubCity": "福岡",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "departures": [
+      "福岡"
+    ],
+    "weight": 1,
+    "description": "福岡を拠点に電車で約50分、九州を代表する歴史の街だ。太宰府天満宮は学問の神・菅原道真を祀り、樹齢千年超の御神木が本殿前に立つ。朱色の鳥居をくぐる参道には梅の木が並び、多くの参拝者が訪れる。天満宮に隣接する九州国立博物館は丘陵に建つ大型施設で、古代アジアの陶磁器や経典など多彩な収蔵品を展示する。光明禅寺は苔と白砂で構成された枯山水の庭で、鶴亀を表す二つの池が静謐な空間をつくる。宿を求めるなら、慶応元年創業の二日市温泉 大丸別荘がある。JR二日市駅からタクシー5分。朱と苔と石、三つの色が重なる街。",
+    "tags": [
+      "寺社",
+      "歴史",
+      "街歩き"
+    ],
+    "spots": [
+      {
+        "name": "太宰府天満宮",
+        "description": "梅の香る朱色の鳥居をくぐると学問の神・菅原道真を祀る空間へ。樹齢千年超の御神木に願いが集う。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20100719_Dazaifu_Tenmangu_Shrine_3328.jpg/1280px-20100719_Dazaifu_Tenmangu_Shrine_3328.jpg",
+        "imageCredit": {
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:20100719_Dazaifu_Tenmangu_Shrine_3328.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "九州国立博物館",
+        "description": "丘陵に建ち、光が階段状に降り注ぐ建築。古代アジアの陶磁器や経典を眺め、回廊から九州の山々を望む。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kyushu_National_Museum_20230224_11.jpg/1280px-Kyushu_National_Museum_20230224_11.jpg",
+        "imageCredit": {
+          "author": "先従隗始",
+          "license": "CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Kyushu_National_Museum_20230224_11.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "光明禅寺",
+        "description": "苔むす参道の先に鶴亀を表す二つの池が静謐を保つ。苔の青と砂紋の白が禅の世界観を足の裏に伝える。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jingoreiganzan_K%C5%8Dmy%C5%8D-ji_Temple_20230225_03.jpg/1280px-Jingoreiganzan_K%C5%8Dmy%C5%8D-ji_Temple_20230225_03.jpg",
+        "imageCredit": {
+          "author": "先従隗始",
+          "license": "CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jingoreiganzan_K%C5%8Dmy%C5%8D-ji_Temple_20230225_03.jpg",
+          "attributionRequired": false
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "isIsland": false,
+    "destType": "sight",
+    "hotelSearch": "太宰府",
+    "lat": 33.521,
+    "lng": 130.534,
+    "travelTime": {
+      "fukuoka": 50,
+      "tokyo": 355,
+      "osaka": 215,
+      "nagoya": 265,
+      "hiroshima": 125
+    },
+    "stayRecommendation": "daytrip",
+    "gateways": {
+      "rail": [],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "hotelLinks": {
+      "rakuten": "https://travel.rakuten.co.jp/yado/fukuoka/",
+      "jalan": "https://www.jalan.net/400000/"
+    },
+    "rentalCarRecommended": false,
+    "unsplashUrl": "https://images.unsplash.com/photo-1649517433500-b2ad956308ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQTQlQUElRTUlQUUlQjAlRTUlQkElOUMlRTUlQTQlQTklRTYlQkElODAlRTUlQUUlQUUlMjAlRTUlQTQlQUElRTUlQUUlQjAlRTUlQkElOUN8ZW58MHwwfHx8MTc3ODU1OTAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1649517433500-b2ad956308ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQTQlQUElRTUlQUUlQjAlRTUlQkElOUMlRTUlQTQlQTklRTYlQkElODAlRTUlQUUlQUUlMjAlRTUlQTQlQUElRTUlQUUlQjAlRTUlQkElOUN8ZW58MHwwfHx8MTc3ODU1OTAwNXww&ixlib=rb-4.1.0&q=80&w=400",
+    "unsplashCredit": "Cedric Wong",
+    "unsplashCreditUrl": "https://unsplash.com/@cedricw?utm_source=dokoiko&utm_medium=referral",
+    "unsplashPhotoUrl": "https://unsplash.com/photos/people-are-standing-on-a-red-bridge-over-a-river-kCGNpZlBPZ4?utm_source=dokoiko&utm_medium=referral",
+    "images": [
+      "/images/dazaifu-2/main.jpg"
+    ],
+    "reasonChips": [
+      "歴史を辿る",
+      "寺社めぐり",
+      "街歩き",
+      "1泊がおすすめ",
+      "街歩き向け"
+    ],
+    "bestSeason": "通年",
+    "imageCredit": {
+      "author": "z tanuki",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dazaifu_tenmangu_shrine_,_%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BA%80%E5%AE%AE_-_panoramio_(5).jpg",
+      "attributionRequired": true
+    },
+    "mainSpot": "太宰府天満宮",
+    "featured_stay": {
+      "name": "二日市温泉 大丸別荘",
+      "catchcopy": "創業慶応元年、昭和天皇も逗留した3500坪の庭園を有する老舗湯宿",
+      "hasShuttle": false,
+      "accessStation": "JR二日市駅（タクシー5分）",
+      "jalanUrl": "https://www.jalan.net/yad313868/"
+    },
+    "seo": {
+      "description": "太宰府天満宮は学問の神・菅原道真を祀り、樹齢千年超の御神木が本殿前に立つ。朱色の鳥居をくぐる参道には梅の木が並び、多くの参拝者が訪れる。",
+      "auto": true
+    }
+  },
+  "hokkaido-furano-2": {
+    "id": "hokkaido-furano-2",
+    "name": "富良野",
+    "type": "destination",
+    "region": "北海道",
+    "prefecture": "北海道",
+    "hub": "札幌",
+    "hubName": "札幌",
+    "hubCity": "札幌",
+    "stayAllowed": [
+      "1night",
+      "2night"
+    ],
+    "departures": [
+      "札幌"
+    ],
+    "weight": 1,
+    "description": "北海道のほぼ中央に位置する富良野は、大雪山系に囲まれた盆地の町だ。夏が主役のシーズンで、なかでもファーム富田は必ず名が挙がる観光地。15ヘクタールの丘陵一面にラベンダーが広がり、夏至前後に紫の色彩が最高潮を迎える。風が吹くと花穂が一斉にたなびく。ニングルテラスは森の中に木製の小屋が点在するエリアで、クラフト作家のアトリエを巡ることができます。札幌からは約2時間25分。東京からは約4時間50分で着きます。1泊して朝の丘陵を見ておきたい。青空の下、紫と緑が交互に続く斜面。",
+    "tags": [
+      "花",
+      "自然",
+      "絶景"
+    ],
+    "spots": [
+      {
+        "name": "ファーム富田",
+        "description": "夏至前後、15ヘクタールの丘陵が紫一色に染まる。ラベンダーの甘く清涼な香りが一帯を包み、そよ風に花穂が揺れる。盆地の雄大さと繊細な色彩の対比が忘れられない。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sinapis_alba_of_Farm_Tomita_02.jpg/1280px-Sinapis_alba_of_Farm_Tomita_02.jpg",
+        "imageCredit": {
+          "author": "LR0725",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sinapis_alba_of_Farm_Tomita_02.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "北の国から",
+        "description": "ラベンダーが一面に咲く丘陵地帯で、夏至前後には甘い香りが風に乗る。ドラマのロケ地としても知られ、眼下に十勝平野を望む富良野を代表する景観地。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Goro%27s_Stone-House.JPG/1280px-Goro%27s_Stone-House.JPG",
+        "imageCredit": {
+          "author": "DrTerraKhan",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Goro%27s_Stone-House.JPG",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "ニングルテラス",
+        "description": "富良野の森に点在する木製の小屋群で、クラフト作家のアトリエが集まる。白樺林を散策しながら、作家の手仕事による一品を手に入れられる。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/130503_Ningle_Terrace_Furano_Hokkaido_Japan07s10.jpg/1280px-130503_Ningle_Terrace_Furano_Hokkaido_Japan07s10.jpg",
+        "imageCredit": {
+          "author": "663highland",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:130503_Ningle_Terrace_Furano_Hokkaido_Japan07s10.jpg",
+          "attributionRequired": true
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "isIsland": false,
+    "destType": "sight",
+    "hotelSearch": "富良野",
+    "lat": 43.354,
+    "lng": 142.379,
+    "travelTime": {
+      "sapporo": 145,
+      "tokyo": 290,
+      "osaka": 310,
+      "nagoya": 310,
+      "fukuoka": 320
+    },
+    "stayRecommendation": "1night",
+    "gateways": {
+      "rail": [],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "hotelLinks": {
+      "rakuten": "https://travel.rakuten.co.jp/yado/hokkaido/",
+      "jalan": "https://www.jalan.net/010000/"
+    },
+    "rentalCarRecommended": true,
+    "unsplashUrl": "https://images.unsplash.com/photo-1690688687022-cb8e55363168?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODMlOTUlRTMlODIlQTElRTMlODMlQkMlRTMlODMlQTAlRTUlQUYlOEMlRTclOTQlQjAlMjAlRTUlQUYlOEMlRTglODklQUYlRTklODclOEUlRTMlODMlQTklRTMlODMlOTklRTMlODMlQjMlRTMlODMlODAlRTMlODMlQkN8ZW58MHwwfHx8MTc3ODU2OTgyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1690688687022-cb8e55363168?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODMlOTUlRTMlODIlQTElRTMlODMlQkMlRTMlODMlQTAlRTUlQUYlOEMlRTclOTQlQjAlMjAlRTUlQUYlOEMlRTglODklQUYlRTklODclOEUlRTMlODMlQTklRTMlODMlOTklRTMlODMlQjMlRTMlODMlODAlRTMlODMlQkN8ZW58MHwwfHx8MTc3ODU2OTgyMXww&ixlib=rb-4.1.0&q=80&w=400",
+    "unsplashCredit": "Jon Geng",
+    "unsplashCreditUrl": "https://unsplash.com/@jongeng?utm_source=dokoiko&utm_medium=referral",
+    "unsplashPhotoUrl": "https://unsplash.com/photos/a-field-of-purple-flowers-with-mountains-in-the-background-VWinxISJLjU?utm_source=dokoiko&utm_medium=referral",
+    "images": [
+      "/images/hokkaido-furano-2/main.jpg"
+    ],
+    "reasonChips": [
+      "絶景",
+      "自然と過ごす",
+      "1泊がおすすめ",
+      "花の名所",
+      "絶景スポット"
+    ],
+    "bestSeason": "夏",
+    "mainSpot": "ファーム富田",
+    "imageCredit": {
+      "author": "雷太",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sightseeing_spot_in_Furano,_Hokkaido_Prefecture;_July_2017_(04).jpg",
+      "attributionRequired": true
+    }
+  },
+  "ohara-2": {
+    "id": "ohara-2",
+    "name": "大原",
+    "type": "destination",
+    "region": "近畿",
+    "prefecture": "京都府",
+    "hub": "大阪",
+    "hubName": "大阪",
+    "hubCity": "大阪",
+    "stayAllowed": [
+      "daytrip",
+      "1night"
+    ],
+    "departures": [
+      "大阪"
+    ],
+    "weight": 1,
+    "description": "京都市街の北東、山に囲まれた里に三千院・宝泉院・寂光院の古刹が集まる。大阪から約1時間35分。京都バス「大原」バス停を降りれば、各寺院へは徒歩で回れる。三千院の苔庭は秋の雨後に翡翠色の深みを増し、額縁庭園越しに紅葉が色づく。宝泉院では樹齢700年の五葉松が客間の借景となり、襖を開けるたびに季節ごとの景色が現れる。寂光院は平清盛の娘が晩年を過ごした古刹で、池に映る本堂と秋の朱色が重なる。宿は大原温泉湯元お宿芹生で、三千院まで徒歩すぐ。大原バスターミナルから送迎もある（要事前連絡）。谷間に色づく、山里の秋。",
+    "tags": [
+      "寺社",
+      "秘境",
+      "紅葉"
+    ],
+    "spots": [
+      {
+        "name": "寂光院",
+        "description": "平清盛の娘が晩年を過ごした古刹で、本堂が池に浮かぶような風情をもつ。秋には紅葉が池を朱に染める。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%E5%AF%82%E5%85%89%E9%99%A2_-_panoramio.jpg/1280px-%E5%AF%82%E5%85%89%E9%99%A2_-_panoramio.jpg",
+        "imageCredit": {
+          "author": "くろふね",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%AF%82%E5%85%89%E9%99%A2_-_panoramio.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "三千院",
+        "description": "苔庭の緑が濃く、秋の雨後は一面翡翠色に変わる。額縁庭園から眺める紅葉は京都随一で、木造建築から漏れる光が庭を照らす。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_%28KYOTO-JAPAN%29_%284950791861%29.jpg/1280px-Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_%28KYOTO-JAPAN%29_%284950791861%29.jpg",
+        "imageCredit": {
+          "author": "Chi King",
+          "license": "CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sanzen-in_%E4%B8%89%E5%8D%83%E9%99%A2_(KYOTO-JAPAN)_(4950791861).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "宝泉院",
+        "description": "樹齢700年の五葉松が客間の借景となり四季で表情を変える。襖越しの庭は秋に錦色、冬に雪化粧と、開けるたび絵が変わる美学。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hosenin_%28Kyoto%29_ac_%283%29.jpg/1280px-Hosenin_%28Kyoto%29_ac_%283%29.jpg",
+        "imageCredit": {
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Hosenin_(Kyoto)_ac_(3).jpg",
+          "attributionRequired": true
+        }
+      }
+    ],
+    "shinkansenAccess": false,
+    "requiresCar": false,
+    "isIsland": false,
+    "destType": "sight",
+    "hotelSearch": "大原 京都",
+    "lat": 35.118,
+    "lng": 135.836,
+    "travelTime": {
+      "osaka": 95,
+      "tokyo": 260,
+      "nagoya": 155,
+      "fukuoka": 260,
+      "hiroshima": 185,
+      "takamatsu": 200,
+      "sendai": 270
+    },
+    "stayRecommendation": "daytrip",
+    "gateways": {
+      "rail": [],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "hotelLinks": {
+      "rakuten": "https://travel.rakuten.co.jp/yado/kyoto/",
+      "jalan": "https://www.jalan.net/260000/"
+    },
+    "rentalCarRecommended": true,
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1728633835386-4c154522b77b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQUYlODIlRTUlODUlODklRTklOTklQTIlMjAlRTUlQTQlQTclRTUlOEUlOUYlRTMlODElQUUlRTklODclOEN8ZW58MHwwfHx8MTc3ODU1NTczMnww&ixlib=rb-4.1.0&q=80&w=400",
+    "images": [
+      "/images/ohara-2/main.jpg"
+    ],
+    "reasonChips": [
+      "紅葉",
+      "歴史を辿る",
+      "寺社めぐり",
+      "1泊がおすすめ",
+      "秘境感あり",
+      "秋の紅葉名所"
+    ],
+    "bestSeason": "秋",
+    "imageCredit": {
+      "author": "C2revenge",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E5%80%89%E5%A4%A9%E7%9A%87%E7%9A%87%E5%90%8E%E5%BE%B3%E5%AD%90%E5%A4%A7%E5%8E%9F%E8%A5%BF%E9%99%B5%EF%BC%88%E5%AF%82%E5%85%89%E9%99%A2%EF%BC%89.jpg",
+      "attributionRequired": true
+    },
+    "mainSpot": "寂光院",
+    "featured_stay": {
+      "name": "大原温泉湯元 お宿 芹生",
+      "catchcopy": "紅葉の大原で味わう静寂。三千院まで徒歩すぐ、料理自慢の温泉宿で山里ステイ",
+      "hasShuttle": true,
+      "accessStation": "京都バス「大原」バス停から徒歩約10分",
+      "jalanUrl": "https://www.jalan.net/yad334930/",
+      "shuttleInfo": "大原バスターミナルから送迎あり（要事前連絡）"
+    },
+    "seo": {
+      "description": "京都市街の北東、山に囲まれた里に三千院・宝泉院・寂光院の古刹が集まる。京都バス「大原」バス停を降りれば、各寺院へは徒歩で回れる。三千院の苔庭は秋の雨後に翡翠色の深みを増し、額縁庭園越しに紅葉が色づく。",
+      "auto": true
+    }
+  },
+  "osorezan-area": {
+    "id": "osorezan-area",
+    "name": "恐山",
+    "type": "destination",
+    "region": "東北",
+    "prefecture": "青森県",
+    "departures": [
+      "青森",
+      "八戸"
+    ],
+    "isIsland": false,
+    "hub": "仙台",
+    "stayAllowed": [
+      "1night",
+      "2night"
+    ],
+    "lat": 41.3833,
+    "lng": 141.0583,
+    "tags": [
+      "秘境",
+      "霊場",
+      "温泉",
+      "自然"
+    ],
+    "weight": 1.5,
+    "description": "開山は5月から10月まで。冬は閉山するので、その間は山門から先には入れない。入山料は500円で、門をくぐると参道の両側に風車が並び、その先は積み石がどこまでも続く。奥へ進むと宇曽利湖が開ける。強酸性の湖で、水はエメラルドグリーンに見える。境内には恐山温泉があり、追加の料金なしに入山料だけで浸かれる。日本三大霊場のひとつに数えられる。拠点は下北駅で、バスは1日3〜4本しかない。時刻表を先に見ておきたい。",
+    "catch": "賽の河原に立つと、生と死の境界が消えた。",
+    "requiresCar": false,
+    "hotelLinks": {
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Faomori%2F",
+      "jalan": "https://www.jalan.net/020000/"
+    },
+    "gateways": {
+      "rail": [
+        "下北駅"
+      ],
+      "airport": [],
+      "bus": [],
+      "ferry": []
+    },
+    "accessStation": "下北駅",
+    "hubCity": "恐山エリア",
+    "travelTime": {
+      "tokyo": 225,
+      "osaka": 365,
+      "nagoya": 310,
+      "fukuoka": 515,
+      "takamatsu": 465
+    },
+    "stayRecommendation": "1night",
+    "onsenLevel": 2,
+    "spots": [
+      {
+        "name": "恐山大師堂",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Iyadanizi01.jpg/500px-Iyadanizi01.jpg",
+        "description": "入山料500円で門をくぐると、砂利を踏み進む参道の左右に風車がずらりと並ぶ。霊場の雰囲気が漂う参道を歩き、大師堂へと至る。",
+        "imageCredit": {
+          "author": "Dokudami",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Iyadanizi01.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "宇曽利湖",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/08-8-22_Lake_Usori.JPG/500px-08-8-22_Lake_Usori.JPG",
+        "description": "境内の奥で突然視界が開ける強酸性の湖。嘘のようなエメラルドグリーンの水面が広がり、荒涼とした霊場に鮮烈な色を添える。",
+        "imageCredit": {
+          "author": "XT at ja.wikipedia",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:08-8-22_Lake_Usori.JPG",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "恐山温泉",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Osorezan_spa_Furutaki_no_Yu.JPG/500px-Osorezan_spa_Furutaki_no_Yu.JPG",
+        "description": "境内の中にあり、入山料だけで入れる温泉。簡素な脱衣所の先に、霊場に湧く湯が待つ。追加料金なしで浸かれる貴重な一湯。",
+        "imageCredit": {
+          "author": "Soica2001 (talk)",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Osorezan_spa_Furutaki_no_Yu.JPG",
+          "attributionRequired": false
+        }
+      }
+    ],
+    "destType": "sight",
+    "mapPoint": "恐山大師堂",
+    "stayDescription": "恐山内の宿坊に宿泊可。冬季（11〜4月）閉山。",
+    "tier": "spot",
+    "icCard": null,
+    "tier2": "spot",
+    "hubName": "仙台",
+    "unsplashThumbUrl": "https://images.unsplash.com/photo-1640911411357-f53335fd2b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTYlODElOTAlRTUlQjElQjElRTMlODIlQTglRTMlODMlQUElRTMlODIlQTIlMjAlRTklOUQlOTIlRTYlQTMlQUUlRTclOUMlOEMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODQxNzk0M3ww&ixlib=rb-4.1.0&q=80&w=400",
+    "rentalCarRecommended": true,
+    "images": [
+      "/images/osorezan-area/main.jpg",
+      "/images/osorezan-area/spot-1.jpg",
+      "/images/osorezan-area/spot-2.jpg",
+      "/images/osorezan-area/spot-3.jpg"
+    ],
+    "reasonChips": [
+      "温泉",
+      "自然と過ごす",
+      "1泊がおすすめ",
+      "秘境感あり",
+      "温泉がおすすめ"
+    ],
+    "bestSeason": "夏・秋",
+    "imageCredit": {
+      "author": "日本語版ウィキペディアのItoshin87さん",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Osorezan_Aomori.JPG",
+      "attributionRequired": false
+    },
+    "mainSpot": "恐山大師堂"
+  }
+}

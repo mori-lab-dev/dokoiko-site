@@ -2246,6 +2246,13 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
 
     <hr class="section-divider" />
 
+    <!-- 同名の別ページ（統合せず書き分けたもの。dest.sibling = { id, label }）への相互リンク -->
+    {(dest as any).sibling && (
+      <p class="sibling-link" style="margin: 0 0 24px; padding: 14px 16px; background: #f3f6f4; border-radius: 10px; font-size: 14px; line-height: 1.8;">
+        同じ「{dest.name}」の別エリア：<a href={`/destinations/${(dest as any).sibling.id}/`} style="color: #2A6049;">{(dest as any).sibling.label}</a>
+      </p>
+    )}
+
     <!-- 近くの旅先（座標が近い順。県をまたぐ近隣も含む） -->
     {nearbyDests.length > 0 && (
       <div class="nearby-section">
