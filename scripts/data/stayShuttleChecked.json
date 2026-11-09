@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "note": "featured_stay の送迎を宿の公式サイトで確認した記録。status=verified だけが「公式で確認」。free_on_official が true の宿だけ「無料」と書いてよい",
   "stays": {
     "熱海 大観荘": {
@@ -125,8 +125,7 @@
       "free_on_official": true,
       "official_url": "https://takasimaya.co.jp/",
       "access_page_url": "https://takasimaya.co.jp/access/",
-      "shuttle": "yes",
-      "checked": "2026-11-06"
+      "note": "「11月は弥彦への送迎不可」の注記は公式のアクセス・お知らせ(note)に見つからず"
     },
     "燕温泉 樺太館": {
       "status": "official_not_found",
@@ -163,8 +162,7 @@
       "free_on_official": true,
       "official_url": "https://www.hokutennooka.com/",
       "access_page_url": "https://www.hokutennooka.com/access/",
-      "shuttle": "yes",
-      "checked": "2026-11-06"
+      "note": "公式に「女満別空港・JR呼人駅・JR網走駅からの送迎」。所要時間（約15分）の記載はなく消した"
     },
     "伊東温泉 陽気館": {
       "status": "official_not_found",
@@ -609,8 +607,7 @@
       "free_on_official": true,
       "official_url": "https://www.s-tsuruga.com/",
       "access_page_url": "https://www.s-tsuruga.com/access/",
-      "shuttle": "yes",
-      "checked": "2026-11-06"
+      "note": "発着地は女満別空港と網走駅。北見市内の記載なし"
     },
     "えたじま温泉 江田島荘": {
       "status": "verified",
@@ -633,8 +630,7 @@
       "free_on_official": true,
       "official_url": "https://www.aoawo-naruto.com/",
       "access_page_url": "https://www.aoawo-naruto.com/pages/123/",
-      "shuttle": "yes",
-      "checked": "2026-11-06"
+      "note": "JR鳴門駅・徳島阿波おどり空港発着の送迎バスは2026年7月19日まで。以降の無料送迎は高速鳴門バス停のみ"
     },
     "ホテルのせ川": {
       "status": "official_not_found",
@@ -889,8 +885,7 @@
       "free_on_official": true,
       "official_url": "https://www.yado-musashi.co.jp/",
       "access_page_url": "https://www.yado-musashi.co.jp/access/",
-      "shuttle": "yes",
-      "checked": "2026-11-06"
+      "note": "公式は「白浜温泉旅館協同組合が運行する無料シャトルバス」。白浜駅発・予約不要の記載なし（予約不要は駐車場の項）"
     },
     "信玄の湯 湯村温泉 常磐ホテル": {
       "status": "no_shuttle_info_on_official",
@@ -1025,10 +1020,11 @@
       "checked": "2026-11-06"
     },
     "桝形屋": {
-      "status": "official_unreachable",
-      "free_on_official": null,
-      "official_url": null,
-      "access_page_url": null
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.ubayuonsen.com/",
+      "access_page_url": "https://www.ubayuonsen.com/access/access.html",
+      "note": "公式「峠駅より約25分で駐車場まで到着・そこから約200m徒歩」「送迎は宿泊者のみ(要予約)、電車利用者のみ」。無料か有料かの記載なし"
     },
     "みやじまの宿 岩惣": {
       "status": "verified",
@@ -1219,8 +1215,7 @@
       "free_on_official": true,
       "official_url": "https://midorinokaze-resort.com/",
       "access_page_url": "https://midorinokaze-resort.com/access",
-      "shuttle": "yes",
-      "checked": "2026-11-06"
+      "note": "無料になるのは電話・公式サイトで宿泊予約した人。新千歳空港は同じ予約で片道1,000円"
     },
     "東大雪荘": {
       "status": "verified",
@@ -1275,32 +1270,32 @@
       "access_page_url": null
     },
     "富士屋ホテル": {
-      "status": "not_checked",
-      "free_on_official": null,
-      "official_url": null,
-      "access_page_url": null,
-      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://www.fujiyahotel.jp/",
+      "access_page_url": "https://www.fujiyahotel.jp/access/",
+      "note": "公式のアクセス・おすすめページに宮ノ下駅の迎えの記載なし（撮影ツアー用の送迎のみ）"
     },
     "花屋徳兵衛": {
-      "status": "not_checked",
-      "free_on_official": null,
-      "official_url": null,
-      "access_page_url": null,
-      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.tokubei.jp/",
+      "access_page_url": "https://www.tokubei.jp/access.html",
+      "note": "公式「洞川温泉バス停から徒歩約8分（連絡を頂ければ迎えにまいります）」。無料か有料かの記載なし"
     },
     "KIKI知床 ナチュラルリゾート": {
-      "status": "not_checked",
-      "free_on_official": null,
-      "official_url": null,
-      "access_page_url": null,
-      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.kikishiretoko.co.jp/",
+      "access_page_url": "https://www.kikishiretoko.co.jp/faq/",
+      "note": "公式「バスターミナルご到着後お電話をいただければお迎えに参ります」。斜里駅からの送迎は通常なし。無料か有料かの記載なし"
     },
     "ランプの宿 青荷温泉": {
-      "status": "not_checked",
-      "free_on_official": null,
-      "official_url": null,
-      "access_page_url": null,
-      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://aoninet.com/",
+      "access_page_url": "https://aoninet.com/access/",
+      "note": "夏期(4/1〜11/30)は道の駅虹の湖⇔青荷温泉、冬期(12/1〜3/31)は黒石駅⇔虹の湖⇔青荷温泉。事前予約が必要。無料か有料かの記載なし"
     }
   }
 }

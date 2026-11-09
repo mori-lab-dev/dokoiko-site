@@ -1,0 +1,2797 @@
+[
+ {
+  "id": "kamakura",
+  "stay": "かいひん荘鎌倉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ishigaki",
+  "stay": "ANAインターコンチネンタル石垣リゾート",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ise",
+  "stay": "麻吉旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "beppu",
+  "stay": "AMANE RESORT SEIKAI（潮騒の宿 晴海）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "furano",
+  "stay": "新富良野プリンスホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "matsushima",
+  "stay": "小松館 好風亭",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=松島海岸駅・松島駅から送迎あり（到着時に連絡）"
+   },
+   {
+    "where": "description",
+    "text": "小松館 好風亭は露天から島々が見える宿で、松島海岸駅から送迎が出る。"
+   }
+  ]
+ },
+ {
+  "id": "onomichi",
+  "stay": "Ryokan 尾道西山（西山別館）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shodoshima",
+  "stay": "島宿真里",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=池田港から送迎あり"
+   },
+   {
+    "where": "description",
+    "text": "宿「島宿真里」は池田港から送迎があり、醤油会席で島の発酵文化を伝える7室の宿だ。"
+   }
+  ]
+ },
+ {
+  "id": "mihonoseki",
+  "stay": "国文化財の宿 美保館",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=境港まで送迎あり（1組1,000円・要予約）"
+   },
+   {
+    "where": "description",
+    "text": "国登録有形文化財の本館を持つ美保館は明治創業の割烹旅館で、青石畳通りに面して建ち、境港まで送迎もある（1組1,000円・要予約）。"
+   }
+  ]
+ },
+ {
+  "id": "ryujin-onsen",
+  "stay": "上御殿",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kumejima",
+  "stay": "久米島イーフビーチホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "miyakojima",
+  "stay": "宮古島東急ホテル&リゾーツ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hakone",
+  "stay": "富士屋ホテル",
+  "status": "not_checked",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=宮ノ下駅から迎えあり（到着後に連絡）"
+   },
+   {
+    "where": "description",
+    "text": "到着後に連絡すれば駅まで迎えにきてもらえる。"
+   }
+  ]
+ },
+ {
+  "id": "shuzenji",
+  "stay": "新井旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "arima-onsen",
+  "stay": "陶泉 御所坊",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kurashiki-o",
+  "stay": "旅館くらしき",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shirahama-o",
+  "stay": "浜千鳥の湯 海舟",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yufuin",
+  "stay": "由布院 玉の湯",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "aso",
+  "stay": "阿蘇内牧温泉 蘇山郷",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "amakusa",
+  "stay": "石山離宮 五足のくつ",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "hiraizumi",
+  "stay": "平泉ホテル武蔵坊",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "aizu",
+  "stay": "向瀧",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "zaosan",
+  "stay": "深山荘 高見屋",
+  "status": "official_unreachable",
+  "hits": []
+ },
+ {
+  "id": "hagi",
+  "stay": "萩城三の丸 北門屋敷",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shimonoseki",
+  "stay": "春帆楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "uwajima",
+  "stay": "木屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "toyako",
+  "stay": "ザ・ウィンザーホテル洞爺",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "noboribetsu",
+  "stay": "第一滝本館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shiretoko",
+  "stay": "北こぶし知床 HOTEL&RESORT",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.section1.info",
+    "text": "アクセス：7〜9月はシャトルバス運行あり（知床自然センター発）※マイカー規制期間あり"
+   }
+  ]
+ },
+ {
+  "id": "hakuba",
+  "stay": "白馬八方温泉 しろうま荘",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "article.section0.info",
+    "text": "アクセス：JR白馬駅から徒歩15分、または無料シャトルバスあり"
+   },
+   {
+    "where": "article.section2.info",
+    "text": "アクセス：JR白馬駅から無料シャトルバスあり（約10分）"
+   },
+   {
+    "where": "article.tips",
+    "text": "白馬は無料シャトルバス「白馬エリアシャトル」が充実している。"
+   }
+  ]
+ },
+ {
+  "id": "amanohashidate",
+  "stay": "玄妙庵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sasebo",
+  "stay": "ホテルヨーロッパ（ハウステンボス）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "takao",
+  "stay": "タカオネ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tateyama-chiba",
+  "stay": "南房総館山温泉 お宿やまもと",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gokayama",
+  "stay": "五箇山の民宿 勇助",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sakata",
+  "stay": "時を奏でる宿 若葉旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "takachiho",
+  "stay": "旅館 神仙",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=高千穂バスセンターから送迎あり（要連絡）"
+   },
+   {
+    "where": "description",
+    "text": "旅館 神仙は高千穂バスセンターから送迎があり、事前の連絡が必要だ。"
+   }
+  ]
+ },
+ {
+  "id": "amami",
+  "stay": "THE SCENE amami spa & resort",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "unzen",
+  "stay": "Mt.Resort 雲仙九州ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ashizuri",
+  "stay": "TheMana Village",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=足摺岬エリアのバス停から送迎あり（要事前連絡）"
+   }
+  ]
+ },
+ {
+  "id": "tsuwano",
+  "stay": "のれん宿 明月",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "inuyama",
+  "stay": "灯屋 迎帆楼",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=名鉄犬山駅から送迎あり（要連絡）"
+   },
+   {
+    "where": "description",
+    "text": "大正八年創業の灯屋 迎帆楼は木曽川畔に立つ全10室の宿で、名鉄犬山駅から送迎あり。"
+   }
+  ]
+ },
+ {
+  "id": "miyama",
+  "stay": "かやぶきのお宿 またべ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tateyama-kurobe",
+  "stay": "ホテル立山",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yuda-onsen",
+  "stay": "松田屋ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "obuse",
+  "stay": "桝一客殿",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "uchiko",
+  "stay": "内子の宿 織",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "oku-izumo",
+  "stay": "亀嵩温泉 玉峰山荘",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=JR亀嵩駅から送迎あり（要事前連絡）"
+   }
+  ]
+ },
+ {
+  "id": "ginzan-onsen",
+  "stay": "能登屋旅館",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=大石田駅から送迎あり（3日前までに要予約）"
+   },
+   {
+    "where": "description",
+    "text": "大石田駅からは送迎もある（3日前までに要予約）。"
+   }
+  ]
+ },
+ {
+  "id": "ouchi-juku",
+  "stay": "蔵の民宿 本家扇屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nozawa-onsen",
+  "stay": "村のホテル 住吉屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "takehara",
+  "stay": "NIPPONIA HOTEL 竹原 製塩町",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsumago",
+  "stay": "旅籠 松代屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "magome",
+  "stay": "旅人御宿 但馬屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hikone",
+  "stay": "彦根キャッスル リゾート＆スパ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "koyasan",
+  "stay": "高野山 宿坊 恵光院",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "naruko-onsen",
+  "stay": "ゆさや旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shima-onsen",
+  "stay": "積善館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hirosaki",
+  "stay": "石場旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "oirase",
+  "stay": "奥入瀬渓流ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "mashiko",
+  "stay": "益子舘 里山リゾートホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "bessho-onsen",
+  "stay": "旅館花屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "wakura-onsen",
+  "stay": "和倉温泉 白鷺の湯 能登 海舟",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "misasa-onsen",
+  "stay": "旅館大橋",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=倉吉駅から送迎あり（マイクロバス）"
+   },
+   {
+    "where": "description",
+    "text": "天然岩風呂があり、倉吉駅から送迎のマイクロバスが出る。"
+   }
+  ]
+ },
+ {
+  "id": "obi",
+  "stay": "季楽 飫肥",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hitoyoshi",
+  "stay": "人吉旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kamikochi",
+  "stay": "上高地帝国ホテル",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.tips",
+    "text": "沢渡（さわんど）駐車場からシャトルバスに乗り換えが一般的。"
+   }
+  ]
+ },
+ {
+  "id": "minakami-onsen",
+  "stay": "谷川温泉 別邸 仙寿庵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "minami-aso",
+  "stay": "地獄温泉 青風荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "izumo",
+  "stay": "竹野屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yoshino",
+  "stay": "竹林院群芳園",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iriomote",
+  "stay": "星野リゾート 西表島ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hida-furukawa",
+  "stay": "料亭旅館 八ツ三館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "izu-kogen",
+  "stay": "八幡野温泉郷 杜の湯 きらの里",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.section2.info",
+    "text": "アクセス：伊豆急シャボテン公園駅から無料シャトルバスあり"
+   },
+   {
+    "where": "article.tips",
+    "text": "レンタカーがあると動きやすいが、シャトルバスも使える。"
+   }
+  ]
+ },
+ {
+  "id": "tanabe",
+  "stay": "龍神温泉 上御殿",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tosa-shimizu",
+  "stay": "足摺国際ホテル",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=足摺岬バス停・金剛福寺から送迎あり（要事前連絡）"
+   }
+  ]
+ },
+ {
+  "id": "nichinan",
+  "stay": "北郷 音色香の季 合歓のはな",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "mojiko",
+  "stay": "プレミアホテル門司港",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "itoshima",
+  "stay": "グローカルホテル糸島",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shimabara",
+  "stay": "ホテル南風楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "rebun-island",
+  "stay": "礼文温泉 花れぶん",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "yonezawa",
+  "stay": "白布温泉 湯滝の宿 西屋",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=米沢駅から送迎バスあり（要予約）"
+   },
+   {
+    "where": "description",
+    "text": "茅葺の建物と湯滝風呂が迎え、米沢駅から送迎バスもある（要予約）。"
+   }
+  ]
+ },
+ {
+  "id": "dewa-sanzan",
+  "stay": "羽黒山参籠所 斎館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kawagoe",
+  "stay": "松村屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "choshi",
+  "stay": "絶景の宿 犬吠埼ホテル ぎょうけい館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sado-island",
+  "stay": "佐渡加茂湖温泉 湖畔の宿 吉田家",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "eiheiji",
+  "stay": "永平寺 親禅の宿 柏樹関",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "okuhida-onsen",
+  "stay": "槍見の湯 槍見舘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ito",
+  "stay": "伊東温泉 陽気館",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=伊東駅から送迎あり（宿泊者対象）"
+   },
+   {
+    "where": "description",
+    "text": "明治43年創業の老舗で源泉かけ流しの湯を持ち、伊東駅から宿泊者向けの送迎もある。"
+   }
+  ]
+ },
+ {
+  "id": "totsukawa",
+  "stay": "十津川温泉 ホテル昴",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=十津川温泉バス停から送迎あり（要予約）"
+   }
+  ]
+ },
+ {
+  "id": "daisen",
+  "stay": "ホテル大山 しろがね",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iwami-ginzan",
+  "stay": "暮らす宿 他郷阿部家",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iwakuni",
+  "stay": "錦帯橋温泉 岩国国際観光ホテル",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "shimanto",
+  "stay": "四万十の宿",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=土佐くろしお鉄道中村駅から送迎あり（要予約）"
+   }
+  ]
+ },
+ {
+  "id": "taketa",
+  "stay": "長湯温泉 大丸旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "usuki",
+  "stay": "石仏旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "takeo-onsen",
+  "stay": "大正浪漫の宿 京都屋",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=武雄温泉駅から送迎あり（要事前連絡）"
+   },
+   {
+    "where": "description",
+    "text": "明治43年創業の大正浪漫の宿 京都屋は駅から徒歩約8分、送迎にも対応している。"
+   }
+  ]
+ },
+ {
+  "id": "kitsuki",
+  "stay": "杵築百年旅館 日向屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsushima",
+  "stay": "対馬グランドホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iki-island",
+  "stay": "奥壱岐の千年湯 平山旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "taketomi-island",
+  "stay": "星のや竹富島",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "motobu",
+  "stay": "ホテル オリオン モトブ リゾート＆スパ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "zamami-island",
+  "stay": "サンメール座間味",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ie-island",
+  "stay": "ホテルYYY CLUB iE RESORT",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "matsushiro",
+  "stay": "黄金の湯 松代荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yakake",
+  "stay": "矢掛屋 INN&SUITES",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsuyama",
+  "stay": "津山城東むかし町 城下小宿 糀や",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsurugi-san",
+  "stay": "剣山頂上ヒュッテ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "obihiro",
+  "stay": "森のスパリゾート 北海道ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "rausu",
+  "stay": "陶灯りの宿 らうす第一ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hachimantai",
+  "stay": "藤七温泉 彩雲荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tazawako",
+  "stay": "乳頭温泉郷 妙乃湯",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.section2.info",
+    "text": "アクセス：JR田沢湖駅からバスで約50分「アルパこまくさ」下車、送迎バスあり（要予約）"
+   }
+  ]
+ },
+ {
+  "id": "ikaho",
+  "stay": "伊香保温泉 千明仁泉亭",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "enoshima",
+  "stay": "岩本楼本館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "oarai",
+  "stay": "里海邸 -金波楼本邸-",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gujo-hachiman",
+  "stay": "料理旅館 備前屋",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.lead",
+    "text": "水の音が、まず迎えてくれた。"
+   }
+  ]
+ },
+ {
+  "id": "narai-juku",
+  "stay": "BYAKU Narai",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kumano-hongu",
+  "stay": "旅館あづまや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sakaiminato",
+  "stay": "天然温泉 境港 夕凪の湯 御宿 野乃",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yanagawa",
+  "stay": "柳川藩主立花邸 御花",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "koshikijima",
+  "stay": "FUJIYA HOSTEL",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kirishima",
+  "stay": "霧島ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ebino-kogen",
+  "stay": "えびの高原ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "onna",
+  "stay": "ハレクラニ沖縄",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nago",
+  "stay": "ザ・ブセナテラス",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yomitanson",
+  "stay": "星のや沖縄",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "daisetsuzan",
+  "stay": "旭岳温泉 湯元 湧駒荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shiraoi",
+  "stay": "星野リゾート 界 ポロト",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "towada",
+  "stay": "星野リゾート 奥入瀬渓流ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "osorezan",
+  "stay": "恐山 宿坊 吉祥閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "urabandai",
+  "stay": "裏磐梯高原ホテル",
+  "status": "official_unreachable",
+  "hits": []
+ },
+ {
+  "id": "kinugawa-onsen",
+  "stay": "あさやホテル",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=宇都宮駅から送迎バスあり（要予約）"
+   },
+   {
+    "where": "description",
+    "text": "あさやホテルは明治21年創業の老舗大型温泉ホテルで、鬼怒川温泉駅からダイヤルバス約8分、宇都宮駅からは送迎バスも出ている。"
+   }
+  ]
+ },
+ {
+  "id": "oze",
+  "stay": "長蔵小屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsukuba",
+  "stay": "筑波山江戸屋",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.section2.body",
+    "text": "「筑波山シャトルバス」が便利で、"
+   },
+   {
+    "where": "article.section2.info",
+    "text": "■ 筑波山シャトルバス（関東鉄道）"
+   }
+  ]
+ },
+ {
+  "id": "naritasan",
+  "stay": "成田山門前 旅館 若松本店",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "spot:成田山新勝寺",
+    "text": "創建940年、1000年以上同じ場所で人々を迎えてきた古刹。"
+   },
+   {
+    "where": "article.section0.body",
+    "text": "1000年以上、同じ場所で人を迎えてきた場所だと、足が自然と止まる。"
+   }
+  ]
+ },
+ {
+  "id": "oku-tama",
+  "stay": "三河屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "jigokudani",
+  "stay": "地獄谷温泉 後楽館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "norikura",
+  "stay": "乗鞍高原温泉 旅館 仙山乗鞍",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "description",
+    "text": "乗鞍スカイラインは、平湯温泉側からのシャトルバスでも上がれる山岳ルート。"
+   },
+   {
+    "where": "spot:乗鞍スカイライン",
+    "text": "平湯温泉からのシャトルバスで、静かな雲上の道を上がる。"
+   },
+   {
+    "where": "article.section1.body",
+    "text": "岐阜側・平湯温泉からシャトルバスに乗った。"
+   },
+   {
+    "where": "article.section1.info",
+    "text": "アクセス：平湯温泉バスターミナルから乗鞍岳行きシャトルバス乗車"
+   }
+  ]
+ },
+ {
+  "id": "dorogawa-onsen",
+  "stay": "花屋徳兵衛",
+  "status": "not_checked",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=洞川温泉バス停から迎えあり（要連絡）"
+   }
+  ]
+ },
+ {
+  "id": "matsusaka",
+  "stay": "鯛屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ama-island",
+  "stay": "Entô（エントウ）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "teshima",
+  "stay": "ウミトタ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yusuhara",
+  "stay": "雲の上のホテル別館 マルシェ・ユスハラ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shikoku-karst",
+  "stay": "星ふるヴィレッジTENGU",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yamaga",
+  "stay": "平山温泉 お宿 湯の蔵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ojika-island",
+  "stay": "五島列島おぢか島 古民家ステイ",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.section0.body",
+    "text": "実際に着いてみると、黒光りした梁と土間が出迎えてくれた。"
+   }
+  ]
+ },
+ {
+  "id": "irabu-island",
+  "stay": "イラフ SUI ラグジュアリーコレクションホテル 沖縄宮古",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hachijojima",
+  "stay": "リードパークリゾート八丈島",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=八丈島空港・港から送迎あり（前日までに要予約）"
+   }
+  ]
+ },
+ {
+  "id": "koriyama",
+  "stay": "磐梯熱海温泉 四季彩一力",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ryusendo",
+  "stay": "岩泉龍泉洞ホテル 龍のすみか",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gassan",
+  "stay": "月山志津温泉 旅館仙台屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "akakura-onsen",
+  "stay": "香嶽楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yugawara-onsen",
+  "stay": "伊藤屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "togakushi",
+  "stay": "宿坊 極意",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "karatsu",
+  "stay": "洋々閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "dazaifu",
+  "stay": "HOTEL CULTIA 太宰府",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tendou",
+  "stay": "天童温泉 ほほえみの宿 滝の湯",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shonai",
+  "stay": "湯田川温泉 九兵衛旅館",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "yuwaku-onsen",
+  "stay": "あたらしや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "asakura",
+  "stay": "原鶴温泉 泰泉閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hitoyoshi-city",
+  "stay": "清流山水花 あゆの里",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "chatan",
+  "stay": "ヒルトン沖縄北谷リゾート",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hokkaido-asahikawa",
+  "stay": "OMO7旭川 by 星野リゾート",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hokkaido-kushiro",
+  "stay": "天然温泉 幣舞の湯 ドーミーインPREMIUM釧路",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sawara",
+  "stay": "佐原商家町ホテル NIPPONIA",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hamanako",
+  "stay": "山水館欣龍",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gamagori",
+  "stay": "蒲郡クラシックホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kushimoto",
+  "stay": "メルキュール和歌山串本リゾート＆スパ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "oguni-kumamoto",
+  "stay": "湯宿 小国のオーベルジュ わいた館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "izumi-kagoshima",
+  "stay": "RITA 出水麓",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nakatosa",
+  "stay": "鰹乃國の湯宿 黒潮本陣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yonago",
+  "stay": "皆生温泉 東光園",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kaga-onsen2",
+  "stay": "あらや滔々庵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "miyanoshita",
+  "stay": "富士屋ホテル",
+  "status": "not_checked",
+  "hits": [
+   {
+    "where": "featured_stay.catchcopy",
+    "text": "明治11年創業、国内外の賓客を迎えてきた登録有形文化財のクラシックホテル"
+   },
+   {
+    "where": "description",
+    "text": "宮ノ下の中心に立つ富士屋ホテルは1878年創業の登録有形文化財で、国内外の賓客を迎えてきた歴史を持ち、宮ノ下駅から徒歩約7分でアクセスできる。"
+   }
+  ]
+ },
+ {
+  "id": "togatta-onsen",
+  "stay": "旬菜湯宿 大忠",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hachimantai-onsen",
+  "stay": "後生掛温泉",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=アスピーテライン入口バス停から送迎あり（完全予約制）"
+   },
+   {
+    "where": "description",
+    "text": "アスピーテライン入口バス停からは完全予約制の送迎もある。"
+   }
+  ]
+ },
+ {
+  "id": "hioki",
+  "stay": "吹上温泉 湖畔の宿 みどり荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shimokitazawa-nyuto",
+  "stay": "妙乃湯",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "article.tips",
+    "text": "宿の送迎バス（要予約）を使うのが一番確実だ。"
+   }
+  ]
+ },
+ {
+  "id": "hirakawa",
+  "stay": "南田温泉 ホテルアップルランド",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shimokita",
+  "stay": "下風呂温泉 まるほん旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "towada-lake",
+  "stay": "十和田ホテル",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=十和田湖（休屋）バス停から送迎あり"
+   },
+   {
+    "where": "description",
+    "text": "十和田ホテルは昭和14年築の秋田杉の本館が国登録有形文化財で、十和田湖（休屋）バス停から送迎がある。"
+   }
+  ]
+ },
+ {
+  "id": "suo-sanbe",
+  "stay": "三瓶温泉 国民宿舎さんべ荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "takachihogo-shishiku",
+  "stay": "旅館 鶴富屋敷",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "unzen2",
+  "stay": "雲仙観光ホテル",
+  "status": "official_unreachable",
+  "hits": []
+ },
+ {
+  "id": "kurobe",
+  "stay": "黒部峡谷 宇奈月温泉 延楽",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=宇奈月温泉駅から送迎あり（当日連絡可）。JR黒部宇奈月温泉駅は要予約"
+   },
+   {
+    "where": "description",
+    "text": "宇奈月温泉駅から送迎もある。"
+   }
+  ]
+ },
+ {
+  "id": "gen_北海_旭岳温泉",
+  "stay": "湯元 湧駒荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_朝里川温泉",
+  "stay": "小樽朝里クラッセホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_網走湖畔温泉",
+  "stay": "ホテル網走湖荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_ウトロ温泉",
+  "stay": "KIKI知床 ナチュラルリゾート",
+  "status": "not_checked",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=ウトロ温泉バスターミナルに着いてから連絡すると迎えに来てもらえる"
+   },
+   {
+    "where": "description",
+    "text": "知床斜里駅からバスでウトロ温泉バスターミナルまでアクセスし、KIKI知床 ナチュラルリゾートはターミナルから送迎がある。"
+   }
+  ]
+ },
+ {
+  "id": "gen_北海_然別湖畔温泉",
+  "stay": "然別湖畔温泉ホテル風水",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_十勝岳温泉",
+  "stay": "十勝岳温泉 湯元 凌雲閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_ぬかびら温泉",
+  "stay": "糠平温泉 中村屋",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=false shuttleInfo=送迎なし"
+   }
+  ]
+ },
+ {
+  "id": "gen_北海_登別温泉",
+  "stay": "第一滝本館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_長万部温泉",
+  "stay": "長万部温泉ホテル",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=連絡すれば送迎サービスあり（要相談）"
+   }
+  ]
+ },
+ {
+  "id": "gen_北海_養老牛温泉",
+  "stay": "湯宿だいいち",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_栃木_三斗小屋温泉",
+  "stay": "三斗小屋温泉 大黒屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_栃木_日光湯元温泉",
+  "stay": "湯元板屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_栃木_湯西川温泉",
+  "stay": "本家伴久",
+  "status": "記録なし",
+  "hits": [
+   {
+    "where": "description",
+    "text": "東京から約2時間26分でアクセスでき、野岩鉄道の湯西川温泉駅から宿の送迎バスを利用する宿が多い。"
+   },
+   {
+    "where": "article.tips",
+    "text": "野岩鉄道「湯西川温泉駅」から宿の送迎バスを使う宿が多い。"
+   }
+  ]
+ },
+ {
+  "id": "gen_群馬_老神温泉",
+  "stay": "吟松亭あわしま",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_群馬_鹿沢温泉",
+  "stay": "鹿沢温泉 紅葉館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_群馬_片品温泉",
+  "stay": "旅館つちいで",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_群馬_猿ヶ京温泉",
+  "stay": "旅籠屋丸一 時を結ぶ 和美心の宿",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_群馬_法師温泉",
+  "stay": "法師温泉 長寿館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_北海_鹿部温泉",
+  "stay": "温泉旅館 鹿の湯",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "gen_青森_青荷温泉",
+  "stay": "ランプの宿 青荷温泉",
+  "status": "not_checked",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=要予約。4〜11月は道の駅虹の湖から、12〜3月は黒石駅・道の駅虹の湖から（冬季は一般車の乗り入れ不可）"
+   },
+   {
+    "where": "description",
+    "text": "アクセスは黒石駅が最寄りで、冬季は一般車の乗り入れが不可となるため、黒石駅または道の駅虹の湖からの宿の送迎（要予約）を利用する。"
+   }
+  ]
+ },
+ {
+  "id": "gen_青森_嶽温泉",
+  "stay": "嶽温泉 小島旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "zaou-onsen",
+  "stay": "深山荘 高見屋",
+  "status": "official_unreachable",
+  "hits": []
+ },
+ {
+  "id": "uji",
+  "stay": "花やしき浮舟園",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shirahone-onsen",
+  "stay": "泡の湯",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hijori-onsen",
+  "stay": "湯宿 元河原湯",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=新庄駅から送迎あり（2名以上・14時発・要予約）"
+   },
+   {
+    "where": "description",
+    "text": "湯宿 元河原湯は新庄駅からの送迎もある（2名以上・要予約）。"
+   }
+  ]
+ },
+ {
+  "id": "takayu-onsen",
+  "stay": "旅館玉子湯",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=福島駅西口から送迎あり（2日前までに要予約）"
+   },
+   {
+    "where": "description",
+    "text": "送迎は福島駅西口から利用でき、2日前までの予約が必要。"
+   }
+  ]
+ },
+ {
+  "id": "tobishima-island",
+  "stay": "沢口旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "omishima-island",
+  "stay": "WAKKA",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "futamata-onsen",
+  "stay": "大丸あすなろ荘",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=新白河駅東口から「湯ったりヤーコン号」で送迎（1日1便・要予約）"
+   },
+   {
+    "where": "description",
+    "text": "新白河駅東口から送迎の「湯ったりヤーコン号」が1日1便出る。"
+   }
+  ]
+ },
+ {
+  "id": "otari-onsen",
+  "stay": "大湯元 山田旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "minobu",
+  "stay": "行学院 覚林坊",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nagatoro",
+  "stay": "長瀞温泉 花のおもてなし 長生館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yobuko",
+  "stay": "尾ノ上Ryokan",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "arita",
+  "stay": "arita huis（アリタハウス）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "uradome",
+  "stay": "岩井温泉 岩井屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ikuchijima",
+  "stay": "Azumi Setoda",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "manabeshima",
+  "stay": "島宿 三虎",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "mitsuminejinja",
+  "stay": "三峯神社 興雲閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "manazuru",
+  "stay": "グルメと天然温泉の宿 ペンションSHIOSAI",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yugawara",
+  "stay": "湯河原温泉 源泉 上野屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sakurajima",
+  "stay": "桜島マグマ温泉 国民宿舎 レインボー桜島",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "otaki",
+  "stay": "大屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "mitoyo",
+  "stay": "URASHIMA VILLAGE",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shionoe",
+  "stay": "いろりの宿 魚虎",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsumari",
+  "stay": "松之山温泉 ひなの宿ちとせ",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=ほくほく線まつだい駅から定時送迎あり（要予約）"
+   }
+  ]
+ },
+ {
+  "id": "chokai-san",
+  "stay": "湯の台温泉 鳥海山荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tojinbo",
+  "stay": "三国温泉 料理旅館 望洋楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shimanami-kaido",
+  "stay": "HOTEL CYCLE（ONOMICHI U2）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kuju-kogen",
+  "stay": "レゾネイトクラブくじゅう",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "bise",
+  "stay": "オリオンホテル モトブ リゾート&スパ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nishinoshima",
+  "stay": "国賀荘",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=浦郷港・別府港との間で送迎あり（要予約）"
+   },
+   {
+    "where": "description",
+    "text": "送迎は要予約。"
+   }
+  ]
+ },
+ {
+  "id": "himakajima",
+  "stay": "ホテル 日間賀荘",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=日間賀島西港から送迎可（東港からは徒歩5分）"
+   },
+   {
+    "where": "description",
+    "text": "宿泊もでき、ホテル日間賀荘は東港から徒歩5分、西港からは送迎にも対応する。"
+   }
+  ]
+ },
+ {
+  "id": "shiibamura",
+  "stay": "旅館 鶴富屋敷",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kasadojima",
+  "stay": "国民宿舎 大城",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "akiyamago",
+  "stay": "秋山郷結東温泉 かたくりの宿",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "okitama",
+  "stay": "赤湯温泉 山形座 瀧波",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "chichijima",
+  "stay": "ホテルホライズン",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nakanoshima-oki",
+  "stay": "Entô（エントウ）",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shikanoshima",
+  "stay": "休暇村志賀島",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kurima-island",
+  "stay": "宮古島来間リゾート シーウッドホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kouri-island",
+  "stay": "One Suite THE GRAND",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ohara",
+  "stay": "大原温泉湯元 お宿 芹生",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=大原バスターミナルから送迎あり（要事前連絡）"
+   },
+   {
+    "where": "description",
+    "text": "大阪からは約1時間30分、京都バス「大原」バス停が玄関口となり、宿の芹生はバスターミナルから送迎もある。"
+   }
+  ]
+ },
+ {
+  "id": "sumatakyo",
+  "stay": "寸又峡温泉 翠紅苑",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nishi-izu",
+  "stay": "堂ヶ島温泉 堂ヶ島ニュー銀水",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "toyama-city",
+  "stay": "リバーリトリート雅樂倶",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "izumo-taisha",
+  "stay": "竹野屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "adachi-museum",
+  "stay": "さぎの湯荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tottori-sakyu",
+  "stay": "鳥取温泉 観水庭こぜにや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hiruzen",
+  "stay": "休暇村 蒜山高原",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yubara-onsen",
+  "stay": "元禄旅籠 油屋",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=湯原温泉バス停から送迎あり"
+   },
+   {
+    "where": "description",
+    "text": "宿の「元禄旅籠 油屋」は1688年創業の旅籠建築で、中国勝山駅からバスで約49分、バス停から送迎もある。"
+   }
+  ]
+ },
+ {
+  "id": "yunogo",
+  "stay": "季譜の里",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "okutsu",
+  "stay": "名泉鍵湯 奥津荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "fukiya",
+  "stay": "和味の宿 ラ・フォーレ吹屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kasaoka-islands",
+  "stay": "島宿 三虎",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ogawa-saitama",
+  "stay": "割烹旅館 二葉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "izumiotsu",
+  "stay": "犬鳴山温泉 不動口館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iwaki-spa",
+  "stay": "古滝屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "miyama-kayabuki",
+  "stay": "かやぶきのお宿 またべ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "arashiyama-2",
+  "stay": "翠嵐ラグジュアリーコレクションホテル京都",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "takeda-castle",
+  "stay": "竹田城 城下町ホテルEN",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "katsurahama",
+  "stay": "高知城下の天然温泉 三翠園",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kumamoto-castle",
+  "stay": "熊本ホテルキャッスル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hitoyoshi-onsen",
+  "stay": "人吉旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niigata-city",
+  "stay": "ホテルイタリア軒",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "echigo-tsumari",
+  "stay": "光の館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "morioka",
+  "stay": "つなぎ温泉 ホテル紫苑",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "zao-snow-monsters",
+  "stay": "蔵王国際ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "aizu-bandaisan",
+  "stay": "猪苗代 磐梯山麓温泉 静楓亭",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "matsumoto-castle-2",
+  "stay": "松本ホテル花月",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=JR松本駅から定時送迎あり（要事前予約）"
+   },
+   {
+    "where": "description",
+    "text": "松本ホテル花月は明治20年創業の老舗で、松本城まで徒歩5分、JR松本駅からの定時送迎もある。"
+   }
+  ]
+ },
+ {
+  "id": "nakasendo-tsumago",
+  "stay": "旅籠 松代屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iseshima",
+  "stay": "麻吉旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "horyuji",
+  "stay": "門前宿 和空法隆寺",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kumano-kodo",
+  "stay": "霧の郷たかはら",
+  "status": "no_shuttle_info_on_official",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=栗栖川・滝尻バス停まで送迎あり（要事前申込）"
+   },
+   {
+    "where": "description",
+    "text": "栗栖川・滝尻バス停までの送迎も事前申込で利用できる。"
+   },
+   {
+    "where": "seo.description",
+    "text": "栗栖川・滝尻バス停までの送迎も事前申込で利用できる。"
+   }
+  ]
+ },
+ {
+  "id": "nagasaki-city",
+  "stay": "ガーデンテラス長崎 ホテル&リゾート",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yufuin-2",
+  "stay": "亀の井別荘",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "mifuneyama",
+  "stay": "御船山楽園ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "saga-arima",
+  "stay": "洋々閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "mt-yamato",
+  "stay": "料理旅館 大正楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "matsuba-gani",
+  "stay": "岩井温泉 岩井屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "mihama-fukui",
+  "stay": "虹岳島温泉 虹岳島荘",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=JR小浜線・気山駅から送迎あり（要事前連絡）"
+   },
+   {
+    "where": "description",
+    "text": "宿の虹岳島荘は三方五湖畔に建つ茅葺の一軒宿で、気山駅から送迎あり。"
+   }
+  ]
+ },
+ {
+  "id": "shoji-lake",
+  "stay": "精進レークホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iya-vine-2",
+  "stay": "新祖谷温泉 ホテルかずら橋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "chikugogawa",
+  "stay": "泰泉閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "asakuradan",
+  "stay": "秋月温泉 料亭旅館 清流庵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kurobe-gorge",
+  "stay": "黒部峡谷 宇奈月温泉 延楽",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=宇奈月温泉駅・黒部宇奈月温泉駅から送迎あり（要連絡）"
+   },
+   {
+    "where": "description",
+    "text": "宿は全室から渓谷を望む老舗旅館・延楽があり、宇奈月温泉駅から送迎も利用できます。"
+   }
+  ]
+ },
+ {
+  "id": "gokayama-2",
+  "stay": "五箇山 民宿勇助",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "uozu",
+  "stay": "金太郎温泉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "totsukawa-2",
+  "stay": "湖泉閣 吉乃屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sendai-2",
+  "stay": "秋保温泉 伝承千年の宿 佐勘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "zuiganji",
+  "stay": "松島温泉 松島一の坊",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hakone-2",
+  "stay": "萬翠楼福住",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hikone-2",
+  "stay": "彦根キャッスル リゾート＆スパ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nichinan-onsen",
+  "stay": "べっぴんの湯の宿 丸新荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iwakuni-castle",
+  "stay": "錦帯橋温泉 岩国国際観光ホテル",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "yamaguchi-city",
+  "stay": "湯田温泉 松田屋ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nagano-zenkoji",
+  "stay": "善光寺宿坊 兄部坊",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niigata-spa",
+  "stay": "白玉の湯 泉慶",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay.accessStation",
+    "text": "豊栄駅から車約20分（有料シャトルあり）"
+   },
+   {
+    "where": "description",
+    "text": "豊栄駅から車で約20分、白玉の湯 泉慶など主要旅館へは有料シャトルも出ている。"
+   }
+  ]
+ },
+ {
+  "id": "aizu-2",
+  "stay": "会津東山温泉 向瀧",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "fukushima-iwaki",
+  "stay": "スパリゾートハワイアンズ モノリスタワー",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shodoshima-canyon",
+  "stay": "島宿 真里",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kochi-castle",
+  "stay": "城西館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sakurajima-onsen",
+  "stay": "桜島シーサイドホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "cape-zampa",
+  "stay": "星のや沖縄",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shiga-otsu",
+  "stay": "延暦寺会館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tottori-mt-mitoku",
+  "stay": "有形文化財の湯宿 旅館大橋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "matsuyama",
+  "stay": "道後温泉 ふなや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kyoto",
+  "stay": "俵屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kobe",
+  "stay": "神戸北野ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kanazawa",
+  "stay": "料亭旅館 金城樓",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niche_秋田_1",
+  "stay": "湯瀬ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niche_新潟_1",
+  "stay": "椿の宿 吉田や",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niche_富山_2",
+  "stay": "大牧温泉観光旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niche_福井_3",
+  "stay": "あわら温泉 光風湯圃 べにや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niche_奈良_2",
+  "stay": "ホテルのせ川",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=南海高野線・高野山駅から宿泊者向けの送迎車あり（要予約）"
+   },
+   {
+    "where": "featured_stay.accessStation",
+    "text": "高野山駅から送迎車で約60分"
+   },
+   {
+    "where": "description",
+    "text": "宿泊の場合、南海高野線・高野山駅から宿泊者向けの送迎車が出ている（要予約）。"
+   },
+   {
+    "where": "seo.description",
+    "text": "宿泊の場合、南海高野線・高野山駅から宿泊者向けの送迎車が出ている（要予約）。"
+   }
+  ]
+ },
+ {
+  "id": "niche_和歌山_1",
+  "stay": "古民家・町屋の宿 千山庵 SenzanAn",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "niche_沖縄_1",
+  "stay": "琉球温泉 瀬長島ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "sapporo",
+  "stay": "ONSEN RYOKAN 由縁 札幌",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "aomori",
+  "stay": "浅虫温泉 南部屋・海扇閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kofu",
+  "stay": "信玄の湯 湯村温泉 常磐ホテル",
+  "status": "no_shuttle_info_on_official",
+  "hits": []
+ },
+ {
+  "id": "matsue",
+  "stay": "皆美館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yamaguchi",
+  "stay": "やまぐち・湯田温泉 古稀庵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kochi",
+  "stay": "城西館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "saga",
+  "stay": "旅館あけぼの",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "miyazaki",
+  "stay": "天然温泉たまゆらの湯 宮崎観光ホテル",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "asuke",
+  "stay": "ホテル百年草",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yame",
+  "stay": "NIPPONIA HOTEL 八女福島 商家町",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "seki-juku",
+  "stay": "旅人宿 石垣屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ubayu-onsen",
+  "stay": "桝形屋",
+  "status": "official_unreachable",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo=峠駅から送迎車あり（宿泊者のみ・要予約・約30分）"
+   },
+   {
+    "where": "description",
+    "text": "峠駅から宿泊者向け送迎車で約30分。"
+   }
+  ]
+ },
+ {
+  "id": "kannojigoku",
+  "stay": "寒の地獄温泉 山の宿 寒の地獄旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yunohira-onsen",
+  "stay": "湯平温泉 山城屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hagenoyu-onsen",
+  "stay": "和楽の宿 たけの蔵",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yunotsuru-onsen",
+  "stay": "湯宿 鶴水荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tsuetate-onsen",
+  "stay": "つえたて温泉 ひぜんや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "funagoya-onsen",
+  "stay": "船小屋温泉 ホテル樋口軒",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kumanokawa-onsen",
+  "stay": "お宿 夢千鳥",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "furuyu-onsen",
+  "stay": "鶴の恩返し よみがえりの宿 鶴霊泉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hinokage-onsen",
+  "stay": "日之影温泉駅 TR列車の宿",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "geto-onsen",
+  "stay": "元湯夏油",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "matsukawa-iwate",
+  "stay": "松川温泉 峡雲荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kuroyu",
+  "stay": "乳頭温泉郷 黒湯温泉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "doroyu",
+  "stay": "泥湯温泉 奥山旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kaikake",
+  "stay": "奥湯沢 貝掛温泉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nakabusa",
+  "stay": "中房温泉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kuronagi",
+  "stay": "黒薙温泉旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nigorigo",
+  "stay": "濁河温泉 朝日荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "umegashima",
+  "stay": "梅ヶ島温泉 ホテル梅薫楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "horoka",
+  "stay": "幌加温泉湯元 鹿の谷",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "osawa-onsen",
+  "stay": "大沢温泉 山水閣",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yubama",
+  "stay": "ぶな林のランプの宿 湯浜温泉 三浦旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kanigasaki",
+  "stay": "乳頭温泉郷 蟹場温泉",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "utto",
+  "stay": "打当温泉 マタギの湯",
+  "status": "official_not_found",
+  "hits": [
+   {
+    "where": "featured_stay",
+    "text": "hasShuttle=true shuttleInfo="
+   },
+   {
+    "where": "description",
+    "text": "秋田内陸線の阿仁マタギ駅から送迎で3分。"
+   }
+  ]
+ },
+ {
+  "id": "seorasou",
+  "stay": "湯元 喜至楼",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yunohana-fk",
+  "stay": "民宿 山楽",
+  "status": "official_not_found",
+  "hits": []
+ },
+ {
+  "id": "tsubame-onsen",
+  "stay": "燕温泉 樺太館",
+  "status": "official_not_found",
+  "hits": []
+ },
+ {
+  "id": "yumata",
+  "stay": "湯俣温泉 晴嵐荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kamikitayama",
+  "stay": "入之波温泉 山鳩湯",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iwai-tottori",
+  "stay": "岩井温泉 岩井屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "misasa2",
+  "stay": "HOTEL星取テラスせきがね",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yuki-hiroshima",
+  "stay": "広島市国民宿舎 湯来ロッジ",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yunoyama",
+  "stay": "湯の山温泉 寿亭",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yumura-hyogo",
+  "stay": "湯村温泉 佳泉郷 井づつや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shioda",
+  "stay": "塩田温泉 湯元上山旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "arifuku",
+  "stay": "有福温泉 旅館ぬしや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "izumoyumura",
+  "stay": "出雲湯村温泉 国民宿舎 清嵐荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shikano",
+  "stay": "国民宿舎 山紫苑",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "togo",
+  "stay": "国民宿舎 水明荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yoshioka",
+  "stay": "湯守の宿 田中屋",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "miyahama",
+  "stay": "庭園の宿 石亭",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nagatoyumoto",
+  "stay": "長門湯本温泉 大谷山荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "tawarayama",
+  "stay": "俵山温泉 松屋旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yuno-yamaguchi",
+  "stay": "湯野温泉 紫水園",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nibukawa",
+  "stay": "鈍川温泉 美賀登",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yunoura",
+  "stay": "ホテルアジュール汐の丸",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "chugu",
+  "stay": "中宮温泉 にしやま旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yunomine",
+  "stay": "湯の峰温泉 旅館あづまや",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "iizaka",
+  "stay": "飯坂温泉 摺上亭 大鳥",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "higashiyama-aizu",
+  "stay": "会津東山温泉 向瀧",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "yamanaka-onsen",
+  "stay": "山中温泉 かよう亭",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hirayu",
+  "stay": "平湯温泉 ひらゆの森",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "shinhotaka",
+  "stay": "新穂高温泉 槍見舘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "kaike",
+  "stay": "皆生温泉 華水亭",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "inunakiyama",
+  "stay": "犬鳴山温泉 不動口館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "ryokami",
+  "stay": "両神温泉国民宿舎 両神荘",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "hinoemata-onsen",
+  "stay": "かぎや旅館",
+  "status": "記録なし",
+  "hits": []
+ },
+ {
+  "id": "nakanosawa-onsen",
+  "stay": "御宿 万葉亭",
+  "status": "記録なし",
+  "hits": []
+ }
+]

@@ -1,0 +1,1306 @@
+{
+  "date": "2026-11-06",
+  "note": "featured_stay の送迎を宿の公式サイトで確認した記録。status=verified だけが「公式で確認」。free_on_official が true の宿だけ「無料」と書いてよい",
+  "stays": {
+    "熱海 大観荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.atami-taikanso.com/",
+      "access_page_url": "https://www.atami-taikanso.com/access/"
+    },
+    "ケラマテラス": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://keramaterrace.jp/",
+      "access_page_url": "https://keramaterrace.jp/"
+    },
+    "石山離宮 五足のくつ": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://rikyu5.jp/",
+      "access_page_url": "https://rikyu5.jp/acsess.html",
+      "shuttle": null,
+      "checked": "2026-11-06"
+    },
+    "定山渓温泉 ぬくもりの宿ふる川": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.yado-furu.com/",
+      "access_page_url": "https://www.yado-furu.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "グランドメルキュール琵琶湖リゾート＆スパ": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://grand-mercure-lakebiwa-resortandspa.jp/",
+      "access_page_url": "https://grand-mercure-lakebiwa-resortandspa.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "丸駒温泉旅館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.marukoma.co.jp/",
+      "access_page_url": "https://www.marukoma.co.jp/access/"
+    },
+    "十津川温泉 ホテル昴": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://www.hotel-subaru.jp/",
+      "access_page_url": "https://www.hotel-subaru.jp/access/"
+    },
+    "大沢温泉 湯治屋": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.oosawaonsen.com/",
+      "access_page_url": "https://www.oosawaonsen.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "ホテルリマーニ": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.limani.jp/",
+      "access_page_url": "https://www.limani.jp/others/access/"
+    },
+    "リードパークリゾート八丈島": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "大谷山荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://otanisanso.co.jp/",
+      "access_page_url": "https://otanisanso.co.jp/access/"
+    },
+    "定山渓鶴雅リゾートスパ 森の謌": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.morino-uta.com/",
+      "access_page_url": "https://www.morino-uta.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "川原湯温泉 山木館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://yamakikan.jp/",
+      "access_page_url": "https://yamakikan.jp/access/"
+    },
+    "龍門亭 千葉旅館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://ryumontei.jp/",
+      "access_page_url": "https://ryumontei.jp/about"
+    },
+    "伏尾温泉 不死王閣": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.fushioukaku.co.jp/",
+      "access_page_url": "https://www.fushioukaku.co.jp/access/"
+    },
+    "ホテルよしざと": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hotelyoshizato.com/",
+      "access_page_url": "https://www.hotelyoshizato.com/access"
+    },
+    "湯けむりの里 柏屋": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kashiwaya-kawaji.jp/",
+      "access_page_url": "https://www.kashiwaya-kawaji.jp/access/"
+    },
+    "指宿白水館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hakusuikan.co.jp/",
+      "access_page_url": "https://www.hakusuikan.co.jp/access/"
+    },
+    "岩室温泉 高志の宿 高島屋": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://takasimaya.co.jp/",
+      "access_page_url": "https://takasimaya.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "燕温泉 樺太館": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "国文化財の宿 美保館": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "sankara hotel&spa 屋久島": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.sankarahotel-spa.com/",
+      "access_page_url": "https://www.sankarahotel-spa.com/access/"
+    },
+    "ホテルニューアワジ": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.newawaji.com/",
+      "access_page_url": "https://www.newawaji.com/access/"
+    },
+    "能登屋旅館": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "北天の丘 あばしり湖鶴雅リゾート": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hokutennooka.com/",
+      "access_page_url": "https://www.hokutennooka.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "伊東温泉 陽気館": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "浜べの料理宿 宝来館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://houraikan.jp/",
+      "access_page_url": "https://houraikan.jp/access/"
+    },
+    "汀邸 遠音近音": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.ochikochi.co.jp/",
+      "access_page_url": "https://www.ochikochi.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "星のや京都": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://hoshinoresorts.com/ja/brands/hoshinoya/",
+      "access_page_url": "https://hoshinoresorts.com/ja/hotels/hoshinoyakyoto/access/"
+    },
+    "間人温泉 炭平": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.sumihei.com/",
+      "access_page_url": "https://www.sumihei.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "しこつ湖 鶴雅リゾートスパ 水の謌": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.mizunouta.com/",
+      "access_page_url": "https://www.mizunouta.com/access/"
+    },
+    "中禅寺金谷ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kanayahotel.co.jp/ckh/",
+      "access_page_url": "https://www.kanayahotel.co.jp/ckh/access/"
+    },
+    "旅館玉子湯": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "休暇村大久野島": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.qkamura.or.jp/ohkuno/",
+      "access_page_url": "https://www.qkamura.or.jp/ohkuno/access/index.asp",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "国賀荘": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "小田急 山のホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hakone-hoteldeyama.jp/",
+      "access_page_url": "https://www.hakone-hoteldeyama.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "城山ホテル鹿児島": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.shiroyama-g.co.jp/",
+      "access_page_url": "https://www.shiroyama-g.co.jp/access/index.html",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "乳頭温泉郷 鶴の湯温泉": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "http://www.tsurunoyu.com/",
+      "access_page_url": "http://www.tsurunoyu.com/FONDMENT/t-ko-tu.html"
+    },
+    "民宿 山楽": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "日光金谷ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kanayahotel.co.jp/",
+      "access_page_url": "https://www.kanayahotel.co.jp/nkh/access/"
+    },
+    "奈良屋": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://kusatsu-naraya.co.jp/",
+      "access_page_url": "https://kusatsu-naraya.co.jp/access/index.html"
+    },
+    "角館山荘 侘桜": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "http://wabizakura.com/",
+      "access_page_url": "http://wabizakura.com/about/"
+    },
+    "旅館 神仙": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://www.takachiho-shinsen.co.jp/",
+      "access_page_url": "https://www.takachiho-shinsen.co.jp/access/"
+    },
+    "湯之島館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.yunoshimakan.co.jp/",
+      "access_page_url": "https://www.yunoshimakan.co.jp/access"
+    },
+    "男鹿温泉 元湯雄山閣": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://yuuzankaku.co.jp/",
+      "access_page_url": "https://yuuzankaku.co.jp/access/"
+    },
+    "寛ぎの宿 輝雲荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://kiunsoh-yunotsu.com/",
+      "access_page_url": "https://kiunsoh-yunotsu.com/#access"
+    },
+    "気仙沼プラザホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.pkanyo.jp/",
+      "access_page_url": "https://www.pkanyo.jp/access/"
+    },
+    "ホテル西長門リゾート": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kgh.ne.jp/10/",
+      "access_page_url": "https://www.kgh.ne.jp/10/access/"
+    },
+    "元湯 雄山閣": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://yuuzankaku.co.jp/",
+      "access_page_url": "https://yuuzankaku.co.jp/access/"
+    },
+    "歴史の宿 金具屋": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://kanaguya.com/",
+      "access_page_url": "https://kanaguya.com/access/cartrain"
+    },
+    "層雲閣 MOUNTAIN RESORT 1923": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://sounkaku.co.jp/",
+      "access_page_url": "https://sounkaku.co.jp/access/"
+    },
+    "万座温泉 日進舘": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.manza.co.jp/",
+      "access_page_url": "https://www.manza.co.jp/access"
+    },
+    "宝川温泉 汪泉閣": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.takaragawa.com/",
+      "access_page_url": "https://www.takaragawa.com/kotu.html"
+    },
+    "鴨川館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.kamogawakan.co.jp/",
+      "access_page_url": "https://www.kamogawakan.co.jp/access/"
+    },
+    "篠島 香翠荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kasuiso.com/",
+      "access_page_url": "https://www.kasuiso.com/access.php"
+    },
+    "湯之助の宿 長楽園": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.choraku.co.jp/",
+      "access_page_url": "https://www.choraku.co.jp/access/"
+    },
+    "宿 花屋徳兵衛": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.tokubei.jp/",
+      "access_page_url": "https://www.tokubei.jp/access.html"
+    },
+    "延楽": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.enraku.com/",
+      "access_page_url": "https://www.enraku.com/access/"
+    },
+    "i+Land nagasaki": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.islandnagasaki.jp/",
+      "access_page_url": "https://www.islandnagasaki.jp/access/"
+    },
+    "万平ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.mampei.co.jp/",
+      "access_page_url": "https://www.mampei.co.jp/access/"
+    },
+    "清流荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.seiryuso.jp/",
+      "access_page_url": "https://www.seiryuso.jp/index.html"
+    },
+    "深山荘 高見屋": {
+      "status": "official_unreachable",
+      "free_on_official": null,
+      "official_url": "https://www.zao.co.jp/takamiya/",
+      "access_page_url": null,
+      "shuttle": null,
+      "checked": "2026-11-06"
+    },
+    "TheMana Village": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://themanavillage.com/",
+      "access_page_url": "https://themanavillage.com/access/"
+    },
+    "旅館大橋": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "白布温泉 湯滝の宿 西屋": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "錦帯橋温泉 岩国国際観光ホテル": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://www.iwakunikankohotel.co.jp/",
+      "access_page_url": "https://www.iwakunikankohotel.co.jp/access/",
+      "shuttle": null,
+      "checked": "2026-11-06"
+    },
+    "和銅鉱泉 ゆの宿 和どう": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.wadoh.co.jp/",
+      "access_page_url": "https://www.wadoh.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "坐忘林": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://zaborin.com/",
+      "access_page_url": "https://zaborin.com/contact/"
+    },
+    "休暇村近江八幡": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.qkamura.or.jp/",
+      "access_page_url": "https://www.qkamura.or.jp/ohmi/access/"
+    },
+    "後生掛温泉": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "天人峡温泉 御やど しきしま荘": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.sikisimasou.jp/",
+      "access_page_url": "https://www.sikisimasou.jp/#access"
+    },
+    "不老ふ死温泉": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.furofushi.com/",
+      "access_page_url": "https://www.furofushi.com/access"
+    },
+    "プリシアリゾートヨロン": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.pricia.co.jp/",
+      "access_page_url": "https://www.pricia.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "松之山温泉 ひなの宿ちとせ": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "ホテル 日間賀荘": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "元禄旅籠 油屋": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "虹岳島温泉 虹岳島荘": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "湯元ホテル阿智川": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hotel-achigawa.jp/",
+      "access_page_url": "https://www.hotel-achigawa.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "湖山亭うぶや": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.ubuya.co.jp/",
+      "access_page_url": "https://www.ubuya.co.jp/access/"
+    },
+    "大島温泉ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.oshima-onsen.co.jp/",
+      "access_page_url": "https://www.oshima-onsen.co.jp/access.html",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "ベネッセハウス": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://benesse-artsite.jp/",
+      "access_page_url": "https://benesse-artsite.jp/access/naoshima/"
+    },
+    "和の宿 ホテル祖谷温泉": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.iyaonsen.co.jp/",
+      "access_page_url": "https://www.iyaonsen.co.jp/access/"
+    },
+    "NIPPONIA HOTEL 大洲 城下町": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.ozucastle.com/",
+      "access_page_url": "https://www.ozucastle.com/access",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "伝承千年の宿 佐勘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hotel-sakan.com/",
+      "access_page_url": "https://www.hotel-sakan.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "四万十の宿": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "大観荘せなみの湯": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.taikanso.senaminoyu.co.jp/",
+      "access_page_url": "https://www.taikanso.senaminoyu.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "星野リゾート リゾナーレトマム": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://hoshinoresorts.com/en/hotels/risonaretomamu/",
+      "access_page_url": "https://www.snowtomamu.jp/summer/faq/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "鎌先温泉 時音の宿 湯主一條": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.ichijoh.co.jp/",
+      "access_page_url": "https://www.ichijoh.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "十和田ホテル": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "ザ レイクビュー TOYA 乃の風リゾート": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://nonokaze-resort.com/",
+      "access_page_url": "https://nonokaze-resort.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "八甲田城ヶ倉温泉 ホテル城ヶ倉": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.jogakura.com/",
+      "access_page_url": "https://www.jogakura.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "大丸あすなろ荘": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "サロマ湖鶴雅リゾート": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.s-tsuruga.com/",
+      "access_page_url": "https://www.s-tsuruga.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "えたじま温泉 江田島荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://etajimasou.jp/",
+      "access_page_url": "https://etajimasou.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "養老温泉 秘湯の宿 滝見苑": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.takimi.co.jp/",
+      "access_page_url": "https://www.takimi.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "アオアヲ ナルト リゾート": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.aoawo-naruto.com/",
+      "access_page_url": "https://www.aoawo-naruto.com/pages/123/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "ホテルのせ川": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "奈良ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://jrwest-hotels.jp/narahotel/",
+      "access_page_url": "https://jrwest-hotels.jp/narahotel/access/"
+    },
+    "御宿 結の庄": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://dormy-hotels.com/resort/hotels/shirakawago/",
+      "access_page_url": "https://dormy-hotels.com/resort/hotels/shirakawago/access/"
+    },
+    "琴平花壇": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kotohira-kadan.jp/",
+      "access_page_url": "https://www.kotohira-kadan.jp/access/"
+    },
+    "灯屋 迎帆楼": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://www.geihanro.co.jp/",
+      "access_page_url": "https://www.geihanro.co.jp/access/"
+    },
+    "足摺国際ホテル": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://www.ashizuri.co.jp/",
+      "access_page_url": "https://www.ashizuri.co.jp/access/"
+    },
+    "那須温泉 山楽": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://sanraku.kenhotels.com/nasu/home.html",
+      "access_page_url": "https://sanraku.kenhotels.com/nasu/access/"
+    },
+    "日田温泉 亀山亭ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://kizantei.com/",
+      "access_page_url": "https://kizantei.com/faq.html"
+    },
+    "汀渚 ばさら邸": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.basaratei.com/",
+      "access_page_url": "https://www.basaratei.com/access/"
+    },
+    "裏磐梯高原ホテル": {
+      "status": "official_unreachable",
+      "free_on_official": null,
+      "official_url": "https://urabandai-kougen.com/",
+      "access_page_url": null,
+      "shuttle": null,
+      "checked": "2026-11-06"
+    },
+    "湯田川温泉 九兵衛旅館": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://www.kuheryokan.com/",
+      "access_page_url": "https://www.kuheryokan.com/access/",
+      "shuttle": "unclear",
+      "checked": "2026-11-06"
+    },
+    "黄金崎不老ふ死温泉": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.furofushi.com/",
+      "access_page_url": "https://www.furofushi.com/access/"
+    },
+    "豊富温泉 川島旅館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://kawashimaryokan.co.jp/",
+      "access_page_url": "https://kawashimaryokan.co.jp/access"
+    },
+    "蔦温泉旅館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://tsutaonsen.com/",
+      "access_page_url": "https://tsutaonsen.com/access/"
+    },
+    "藤龍館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.touryukan.com/",
+      "access_page_url": "https://www.touryukan.com/access/"
+    },
+    "屈斜路プリンスホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.princehotels.co.jp/kussharo/",
+      "access_page_url": "https://www.princehotels.co.jp/kussharo/informations/mashu_station_shuttle_bus2026/"
+    },
+    "五島リトリート ray by 温故知新": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://goto.by-onko-chishin.com/",
+      "access_page_url": "https://goto.by-onko-chishin.com/faq/"
+    },
+    "西山温泉 慶雲館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.keiunkan.co.jp/",
+      "access_page_url": "https://www.keiunkan.co.jp/access/"
+    },
+    "雨晴温泉 磯はなび": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.isohanabi.jp/",
+      "access_page_url": "https://www.isohanabi.jp/access/"
+    },
+    "高湯温泉 旅館玉子湯": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://tamagoyu.jp/",
+      "access_page_url": "https://tamagoyu.jp/access/"
+    },
+    "料亭湯宿 銀鱗荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.ginrinsou.com/",
+      "access_page_url": "https://www.ginrinsou.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "西村屋本館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.nishimuraya.ne.jp/honkan/",
+      "access_page_url": "https://www.nishimuraya.ne.jp/honkan/access/"
+    },
+    "白鷺湯たわらや": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.tawaraya.co.jp/",
+      "access_page_url": "https://www.tawaraya.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "氷見温泉郷 くつろぎの宿 うみあかり": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.umiakari.jp/",
+      "access_page_url": "https://www.umiakari.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "層雲峡 朝陽亭": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.choyotei.com/",
+      "access_page_url": "https://www.choyotei.com/access/"
+    },
+    "明賀屋本館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "http://www.myogaya.com/",
+      "access_page_url": "http://www.myogaya.com/access.stm",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "大正浪漫の宿 京都屋": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "赤倉観光ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.akr-hotel.com/",
+      "access_page_url": "https://www.akr-hotel.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "南三陸ホテル観洋": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.mkanyo.jp/",
+      "access_page_url": "https://www.mkanyo.jp/access/"
+    },
+    "浄土ヶ浜パークホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.jodo-ph.jp/",
+      "access_page_url": "https://www.jodo-ph.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "雲仙観光ホテル": {
+      "status": "official_unreachable",
+      "free_on_official": null,
+      "official_url": "https://www.unzenkankohotel.com/",
+      "access_page_url": null,
+      "shuttle": null,
+      "checked": "2026-11-06"
+    },
+    "糠平温泉 中村屋": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://nukabira-nakamuraya.com/",
+      "access_page_url": "https://nukabira-nakamuraya.com/koutsuu-shuuhenn.html"
+    },
+    "谷地温泉": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.yachionsen.com/",
+      "access_page_url": "https://www.yachionsen.com/access/"
+    },
+    "銘石の宿 かげつ": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.isawa-kagetsu.com/",
+      "access_page_url": "https://www.isawa-kagetsu.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "旅館 紅鮎": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.beniayu.com/",
+      "access_page_url": "https://www.beniayu.com/access.html",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "ホテルマウント富士": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.mtfuji-hotel.com/",
+      "access_page_url": "https://www.mtfuji-hotel.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "鉛温泉 藤三旅館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://namari-onsen-ryokan.com/",
+      "access_page_url": "https://namari-onsen-ryokan.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "紀州・白浜温泉 むさし": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.yado-musashi.co.jp/",
+      "access_page_url": "https://www.yado-musashi.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "信玄の湯 湯村温泉 常磐ホテル": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://tokiwa-hotel.co.jp/",
+      "access_page_url": "https://tokiwa-hotel.co.jp/access.html",
+      "shuttle": null,
+      "checked": "2026-11-06"
+    },
+    "小松館 好風亭": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "本陣平野屋 花兆庵": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://ssl.honjinhiranoya.com/",
+      "access_page_url": "https://ssl.honjinhiranoya.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "白馬八方温泉 しろうま荘": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://shiroumaso.com/",
+      "access_page_url": "https://shiroumaso.com/access/",
+      "shuttle": "unclear",
+      "checked": "2026-11-06"
+    },
+    "鶴の湯温泉": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "http://www.tsurunoyu.com/",
+      "access_page_url": "http://www.tsurunoyu.com/FONDMENT/t-ko-tu.html"
+    },
+    "礼文温泉 花れぶん": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://www.hanarebun.com/",
+      "access_page_url": "https://www.hanarebun.com/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "清泉寮": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://seisenryo.jp/",
+      "access_page_url": "https://seisenryo.jp/access/"
+    },
+    "種子島あらきホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "http://araki-hotel.co.jp/",
+      "access_page_url": "https://araki-hotel.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "篠山城下町ホテルNIPPONIA": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.kazenoheritage.jp/hotels/sasayama/",
+      "access_page_url": "https://www.kazenoheritage.jp/hotels/sasayama/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "あさやホテル": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "望楼NOGUCHI函館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://bourou-hakodate.com/",
+      "access_page_url": "https://bourou-hakodate.com/privilege/"
+    },
+    "黒部峡谷 宇奈月温泉 延楽": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "長万部温泉ホテル": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "王ヶ頭ホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.ougatou.jp/",
+      "access_page_url": "https://www.ougatou.jp/access/"
+    },
+    "名栗温泉 大松閣": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.taishoukaku.com/",
+      "access_page_url": "https://www.taishoukaku.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "レゾネイトクラブくじゅう": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://www.resonate.co.jp/",
+      "access_page_url": "https://www.resonate.co.jp/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "星野リゾート リゾナーレ八ヶ岳": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://hoshinoresorts.com/ja/hotels/risonareyatsugatake/",
+      "access_page_url": "https://hoshinoresorts.com/ja/hotels/risonareyatsugatake/access/"
+    },
+    "松本ホテル花月": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "冨士屋": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.fuziya.co.jp/",
+      "access_page_url": "https://fuziya.co.jp/about/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "桝形屋": {
+      "status": "official_unreachable",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "みやじまの宿 岩惣": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.iwaso.com/",
+      "access_page_url": "https://www.iwaso.com/access/"
+    },
+    "戸田家": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.todaya.co.jp/",
+      "access_page_url": "https://www.todaya.co.jp/access/"
+    },
+    "奥伊根温泉 油屋別館 和亭": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.nagomitei.com/",
+      "access_page_url": "https://www.nagomitei.com/access/"
+    },
+    "大正屋": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.taishoya.com/",
+      "access_page_url": "https://www.taishoya.com/taishoya/access/"
+    },
+    "ホテル利尻": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.hotel-rishiri.jp/",
+      "access_page_url": "https://www.hotel-rishiri.jp/access"
+    },
+    "寛ぎの諏訪の湯宿 萃sui-諏訪湖": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.sui-suwako.jp/",
+      "access_page_url": "https://www.sui-suwako.jp/access"
+    },
+    "アイランドホテル与那国": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://ailandhotel-yonaguni.com/",
+      "access_page_url": "https://ailandhotel-yonaguni.com/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "碧き島の宿 熊野別邸 中の島": {
+      "status": "verified",
+      "free_on_official": null,
+      "official_url": "https://kb-nakanoshima.jp/",
+      "access_page_url": "https://kb-nakanoshima.jp/ship/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "蓼科親湯温泉": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.tateshina-shinyu.com/",
+      "access_page_url": "https://www.tateshina-shinyu.com/access/"
+    },
+    "さざね": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://sazane.jp/",
+      "access_page_url": "https://sazane.jp/access/"
+    },
+    "ホテルにしえ": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.hotel-nishie.com/",
+      "access_page_url": "https://www.hotel-nishie.com/"
+    },
+    "十勝川温泉第一ホテル": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.daiichihotel.com/",
+      "access_page_url": "https://www.daiichihotel.com/access/",
+      "shuttle": "no",
+      "checked": "2026-11-06"
+    },
+    "凌雲閣": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://ryounkaku.net/",
+      "access_page_url": "https://ryounkaku.net/access/access.html"
+    },
+    "函館大沼プリンスホテル": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.princehotels.co.jp/hakodate/",
+      "access_page_url": "https://www.princehotels.co.jp/hakodate/informations/acces_sbus_airport/"
+    },
+    "百名伽藍": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.hyakunagaran.com/",
+      "access_page_url": "https://www.hyakunagaran.com/%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/"
+    },
+    "大原温泉湯元 お宿 芹生": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "霧の郷たかはら": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://kirinosato-takahara.com/",
+      "access_page_url": "https://kirinosato-takahara.com/"
+    },
+    "創業大正十五年 蓼科親湯温泉": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.tateshina-shinyu.com/",
+      "access_page_url": "https://www.tateshina-shinyu.com/access/"
+    },
+    "峩々温泉": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://gagaonsen.com/",
+      "access_page_url": "https://gagaonsen.com/access/"
+    },
+    "島宿真里": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "山の宿 新明館": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://shinmeikan.jp/",
+      "access_page_url": "https://shinmeikan.jp/access/"
+    },
+    "国際観光ホテル旗松亭": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.kishotei.com/",
+      "access_page_url": "https://www.kishotei.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "亀嵩温泉 玉峰山荘": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": false,
+      "official_url": "https://tamamine.jp/",
+      "access_page_url": "https://tamamine.jp/"
+    },
+    "あかん遊久の里 鶴雅": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.tsuruga.com/",
+      "access_page_url": "https://www.tsuruga.com/access/"
+    },
+    "南伊豆弓ヶ浜温泉 季一遊": {
+      "status": "verified",
+      "free_on_official": null,
+      "official_url": "https://tokiichiyu.com/",
+      "access_page_url": "https://tokiichiyu.com/p-1140/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "はいむるぶし": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.haimurubushi.co.jp/",
+      "access_page_url": "https://www.haimurubushi.co.jp/faq/"
+    },
+    "赤穂温泉 絶景露天風呂の宿 銀波荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.ginpaso.co.jp/",
+      "access_page_url": "https://www.ginpaso.co.jp/access"
+    },
+    "雪国の宿 高半": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.takahan.co.jp/",
+      "access_page_url": "https://www.takahan.co.jp/access/"
+    },
+    "おごと温泉 湯元舘": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://www.yumotokan.co.jp/",
+      "access_page_url": "https://www.yumotokan.co.jp/access/"
+    },
+    "緑の風リゾート きたゆざわ": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://midorinokaze-resort.com/",
+      "access_page_url": "https://midorinokaze-resort.com/access",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "東大雪荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "http://www.tomuraushionsen.com/",
+      "access_page_url": "https://www.tomuraushionsen.com/access/",
+      "shuttle": "yes",
+      "checked": "2026-11-06"
+    },
+    "湯宿 元河原湯": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "延対寺荘": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.entaiji.com/",
+      "access_page_url": "https://www.entaiji.com/access/"
+    },
+    "酸ヶ湯温泉旅館": {
+      "status": "verified",
+      "free_on_official": true,
+      "official_url": "https://www.sukayu.jp/",
+      "access_page_url": "https://www.sukayu.jp/access/"
+    },
+    "京都貴船 料理旅館ひろ文": {
+      "status": "verified",
+      "free_on_official": false,
+      "official_url": "https://hirobun.co.jp/",
+      "access_page_url": "https://hirobun.co.jp/access/"
+    },
+    "亀の井別荘": {
+      "status": "no_shuttle_info_on_official",
+      "free_on_official": null,
+      "official_url": "https://www.kamenoi-bessou.jp/",
+      "access_page_url": "https://www.kamenoi-bessou.jp/access/",
+      "shuttle": "unclear",
+      "checked": "2026-11-06"
+    },
+    "白玉の湯 泉慶": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "打当温泉 マタギの湯": {
+      "status": "official_not_found",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null
+    },
+    "富士屋ホテル": {
+      "status": "not_checked",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null,
+      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+    },
+    "花屋徳兵衛": {
+      "status": "not_checked",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null,
+      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+    },
+    "KIKI知床 ナチュラルリゾート": {
+      "status": "not_checked",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null,
+      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+    },
+    "ランプの宿 青荷温泉": {
+      "status": "not_checked",
+      "free_on_official": null,
+      "official_url": null,
+      "access_page_url": null,
+      "note": "「送迎」の語を含まない文（「迎えあり」等）のため最初の洗い出しから漏れた。公式の確認は未実施（無料の語は含まない）"
+    }
+  }
+}
