@@ -1,12 +1,15 @@
 ---
 import StaticPageLayout from '../layouts/StaticPageLayout.astro';
-// 宛先はHTMLに平文で出さない（ボットによる収集の対策）。ビルド時に「逆順→base64」へ変え、
-// クリック時にブラウザ側で戻す。2つに割って別々の属性に置く（片方だけでは宛先にならない）。
+// 宛先は直接の mailto リンクで出す（難読化・JS 組み立ては使わない）。
 const MAIL = 'morilab.support@gmail.com';
-const enc = (t: string) => Buffer.from([...t].reverse().join('')).toString('base64');
-const at = MAIL.indexOf('@');
-const encUser = enc(MAIL.slice(0, at));
-const encHost = enc(MAIL.slice(at + 1));
+const TYPES = [
+  { key: 'error', label: '誤りの指摘', subject: '【どこ行こ？】誤りの指摘' },
+  { key: 'opinion', label: 'ご意見', subject: '【どこ行こ？】ご意見' },
+  { key: 'removal', label: '掲載の削除依頼', subject: '【どこ行こ？】掲載の削除依頼' },
+].map((t) => ({
+  ...t,
+  href: `mailto:${MAIL}?subject=${encodeURIComponent(t.subject)}&body=${encodeURIComponent(`対象ページ: （分かればURLをお書きください）\n種別: ${t.label}\n\n（ここに内容をお書きください）\n`)}`,
+}));
 ---
 
 <StaticPageLayout
@@ -21,64 +24,33 @@ const encHost = enc(MAIL.slice(at + 1));
   </p>
 
   <h2>メールで知らせる</h2>
-  <p>種類を選んで下のボタンを押すと、メールアプリが開きます。件名と本文の書き出しは自動で入るので、内容を書き足して送ってください。</p>
-
-  <form id="contact-form" class="ct-form" data-u={encUser} data-h={encHost} hidden>
-    <fieldset class="ct-types">
-      <legend>ご用件</legend>
-      <label><input type="radio" name="type" value="error" checked> 誤りの指摘</label>
-      <label><input type="radio" name="type" value="opinion"> ご意見</label>
-      <label><input type="radio" name="type" value="removal"> 掲載の削除依頼</label>
-    </fieldset>
-    <p class="ct-page" id="ct-page" hidden>対象ページ: <span id="ct-page-url"></span></p>
-    <button type="submit" class="sp-mail ct-btn">メールで知らせる</button>
-    <p class="ct-hint">メールアプリが開かないときは、お使いの端末でメールアプリの設定をご確認ください。</p>
-  </form>
-  <p class="sp-note" id="ct-nojs">
-    この機能にはJavaScriptが必要です。JavaScriptを有効にするか、<a href="/about/">運営者情報</a>ページに記載の連絡先へご連絡ください。
-    ご連絡の際は、該当ページのURLをお書き添えください。
-  </p>
-  <noscript><style>#ct-nojs{display:block !important}</style></noscript>
+  <p>宛先は <a href={`mailto:${MAIL}`}>{MAIL}</a> です。種類のリンクを押すと、メールアプリが開きます。件名と本文の書き出しは自動で入るので、内容を書き足して送ってください。該当ページのURLもお書き添えください。</p>
+  <ul class="ct-types">
+    {TYPES.map((t) => (
+      <li><a class="ct-mail" data-type={t.key} href={t.href}>{t.label}</a></li>
+    ))}
+  </ul>
+  <p class="ct-page" id="ct-page" hidden>対象ページ: <span id="ct-page-url"></span></p>
   <style>
-    .ct-form[hidden] { display: none; }
-    .ct-types { border: 1px solid #e8e8e8; border-radius: 8px; padding: 10px 16px 6px; margin: 0 0 14px; }
-    .ct-types legend { font-size: 12px; color: #9a7c36; padding: 0 6px; letter-spacing: 0.08em; }
-    .ct-types label { display: block; font-size: 14px; line-height: 2.2; color: #333; }
+    .ct-types { padding-left: 1.2em; }
+    .ct-types li { line-height: 2.2; font-size: 14px; }
     .ct-page { font-size: 12px !important; color: #666 !important; word-break: break-all; line-height: 1.7 !important; }
-    .ct-btn { border: 0; cursor: pointer; font-family: inherit; }
-    .ct-hint { font-size: 12px !important; color: #888 !important; margin-top: 8px; }
   </style>
   <script is:inline>
     (function () {
-      var f = document.getElementById('contact-form');
-      if (!f) return;
-      var SUBJ = { error: '【どこ行こ？】誤りの指摘', opinion: '【どこ行こ？】ご意見', removal: '【どこ行こ？】掲載の削除依頼' };
-      var LABEL = { error: '誤りの指摘', opinion: 'ご意見', removal: '掲載の削除依頼' };
+      // 「この情報の誤りを知らせる」から来たとき、対象ページを本文に入れる（当サイトのURLだけ）
       var q = new URLSearchParams(location.search);
-      var type = q.get('type');
-      if (!SUBJ[type]) type = 'error';
-      var r = f.querySelector('input[value="' + type + '"]');
-      if (r) r.checked = true;
-      // 対象ページ: 当サイトのURLだけ受け付ける（任意の文字列をメール本文に入れない）
       var page = q.get('page') || '';
-      if (!/^https:\/\/tabidokoiko\.com\/[A-Za-z0-9\-._~%\/]*$/.test(page) || page.length > 300) page = '';
-      if (page) {
-        document.getElementById('ct-page-url').textContent = page;
-        document.getElementById('ct-page').hidden = false;
+      if (!/^https:\/\/tabidokoiko\.com\/[A-Za-z0-9\-._~%\/]*$/.test(page) || page.length > 300) return;
+      document.getElementById('ct-page-url').textContent = page;
+      document.getElementById('ct-page').hidden = false;
+      var links = document.querySelectorAll('a.ct-mail');
+      for (var i = 0; i < links.length; i++) {
+        links[i].href = links[i].href.replace(encodeURIComponent('対象ページ: （分かればURLをお書きください）'), encodeURIComponent('対象ページ: ' + page));
       }
-      function dec(t) { return atob(t).split('').reverse().join(''); }
-      f.addEventListener('submit', function (e) {
-        e.preventDefault();
-        var t = f.querySelector('input[name="type"]:checked').value;
-        var to = dec(f.getAttribute('data-u')) + '@' + dec(f.getAttribute('data-h'));
-        var body = (page ? '対象ページ: ' + page + '\n' : '対象ページ: （分かればURLをお書きください）\n')
-          + '種別: ' + LABEL[t] + '\n\n'
-          + '（ここに内容をお書きください）\n';
-        location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(SUBJ[t]) + '&body=' + encodeURIComponent(body);
-      });
-      f.hidden = false;
-      var nj = document.getElementById('ct-nojs');
-      if (nj) nj.style.display = 'none';
+      var t = q.get('type');
+      var hit = t && document.querySelector('a.ct-mail[data-type="' + t + '"]');
+      if (hit) hit.style.fontWeight = 'bold';
     })();
   </script>
 
