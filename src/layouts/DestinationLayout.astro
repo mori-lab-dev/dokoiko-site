@@ -4,7 +4,9 @@ import AffiliateNotice from '../components/AffiliateNotice.astro';
 // 以前は /pages/about.html /pages/privacy.html /pages/disclaimer.html を指していたが、
 // 実体が無く3本とも404だった（全ページ共通のフッターなので全ページから死んだリンクが出ていた）。
 // 実在する /about/ /contact/ /privacy/ /terms/ に差し替えている。
-const { title, description, image, affiliateNotice = false, pageType = '', pageId = '' } = Astro.props;
+const { title, description, image, affiliateNotice = false, pageType = '', pageId = '', reportError = false } = Astro.props;
+// 「この情報の誤りを知らせる」リンク（reportError=true のページだけ）。/contact/ へ type=error と、このページのURL（エンコード済み）を渡す
+const reportHref = '/contact/?type=error&page=' + encodeURIComponent(Astro.url.origin + Astro.url.pathname);
 
 // ── OGP画像 ────────────────────────────────────────────────
 // これまでの問題:
@@ -160,6 +162,14 @@ const ogH = size?.h ?? 675;
     }
 
     /* ページ冒頭（ヘッダー直下）の PR 表記の置き場。文字の大きさ・色は AffiliateNotice 側（通常サイズ・通常色） */
+    .report-error {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 8px 24px 28px;
+      font-size: 12px;
+      text-align: right;
+    }
+    .report-error a { color: #777; text-decoration: underline; text-underline-offset: 3px; }
     .affiliate-pr-top {
       max-width: 1100px;
       margin: 0 auto;
@@ -186,6 +196,9 @@ const ogH = size?.h ?? 675;
   <main>
     <slot />
   </main>
+  {reportError && (
+    <p class="report-error"><a href={reportHref} rel="nofollow">この情報の誤りを知らせる</a></p>
+  )}
   <footer class="site-footer">
     <p>交通・宿泊情報は各社公式サイトでご確認ください。本サービスはアフィリエイト広告（楽天トラベル・じゃらん）を含みます。</p>
     <p style="margin-top: 12px;">

@@ -135,7 +135,7 @@ const jsonLd = JSON.stringify({
 });
 ---
 
-<DestinationLayout title={title} description={description} image={hubImage} affiliateNotice={true} pageType="hub" pageId={hub.id}>
+<DestinationLayout title={title} description={description} image={hubImage} reportError={true} affiliateNotice={true} pageType="hub" pageId={hub.id}>
   <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
 
   <style>

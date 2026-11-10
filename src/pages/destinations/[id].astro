@@ -505,7 +505,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   : null;
 ---
 
-<DestinationLayout title={seoTitle} description={description} image={imageUrl} affiliateNotice={true} pageType="destination" pageId={dest.id}>
+<DestinationLayout title={seoTitle} description={description} image={imageUrl} reportError={true} affiliateNotice={true} pageType="destination" pageId={dest.id}>
   <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
 <style>
   /* ═══════════════════════════════════════
