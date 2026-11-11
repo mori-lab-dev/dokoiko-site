@@ -124,7 +124,7 @@ export const PARENT_FACTS: Fact[] = [
   },
 ];
 
-export const STATUS_LABEL: Record<Scheme['status'], string> = { open: '予約受付中', soon: 'まもなく予約開始', ended: '受付終了' };
+export const STATUS_LABEL: Record<Scheme['status'], string> = { open: '実施中（受付状況は販売先ごとに違います）', soon: 'まもなく開始', ended: '終了' };
 
 export const SCHEMES: Scheme[] = [
   {

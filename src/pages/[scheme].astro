@@ -415,7 +415,7 @@ const jsonLd = JSON.stringify({
     // 予約開始日・終了日を過ぎたら、ビルドし直さなくてもバッジを進める（まもなく→受付中→終了）。終了は受付中に戻さない。
     (function () {
       var order = { soon: 0, open: 1, ended: 2 };
-      var label = { soon: 'まもなく予約開始', open: '予約受付中', ended: '受付終了' };
+      var label = { soon: 'まもなく開始', open: '実施中（受付状況は販売先ごとに違います）', ended: '終了' };
       var today = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
       document.querySelectorAll('[data-scheme-status]').forEach(function (el) {
         var cur = el.getAttribute('data-scheme-status');
