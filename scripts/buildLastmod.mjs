@@ -46,11 +46,22 @@ for (const [url, rel] of Object.entries({ '/about/': 'src/pages/about.astro', '/
   const d = lastCommit(rel); if (d) out.pages[url] = d;
 }
 // 4) 応援割: 制度ごとの最新の確認日
+//    2026-11-17 修正: 以前は ouenWari.ts 全体の最大の確認日（単引用符のものだけ）を全9ページに付けていたため、共通事項（PARENT_FACTS）の確認日を
+//    更新しただけで、内容を取り直していない県ページにも同じ日が付いた。二重引用符の日付（11/10 の更新）も数えられていなかった。
+//    今は、各制度のブロック（slug の行から次の slug の行まで）の中の確認日（単引用符・二重引用符を問わない）の最大を、その制度のページに付ける。
+//    /ouen-wari/（一覧）は、共通事項と全制度の確認日の最大。変更前の版: logs/ouen_cleanup_20261117/buildLastmod.mjs.before
 const src = fs.readFileSync(path.join(root, 'src/data/ouenWari.ts'), 'utf8');
 const toIso = (s) => { const m = s.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
-const maxChecked = [...src.matchAll(/checked:\s*'([^']+)'/g)].map((m) => toIso(m[1])).filter(Boolean).sort().at(-1);
-const slugs = [...src.matchAll(/slug:\s*'([^']+)'/g)].map((m) => m[1]);
-if (maxChecked) { out.pages['/ouen-wari/'] = maxChecked; for (const s of new Set(slugs)) out.pages[`/${s}/`] = maxChecked; }
+const maxChecked = (text) => [...text.matchAll(/checked:\s*(['"])([^'"]+)\1/g)].map((m) => toIso(m[2])).filter(Boolean).sort().at(-1);
+const schemesAt = src.indexOf('export const SCHEMES');
+const parentAt = src.indexOf('export const PARENT_FACTS');
+const marks = [...src.matchAll(/^ {4}slug:\s*'([^']+)'/gm)].filter((m) => m.index > schemesAt).map((m) => ({ slug: m[1], at: m.index }));
+const perScheme = {};
+marks.forEach((mk, i) => { perScheme[mk.slug] = maxChecked(src.slice(mk.at, i + 1 < marks.length ? marks[i + 1].at : src.length)); });
+const parentMax = maxChecked(src.slice(parentAt, schemesAt));
+const hubMax = [parentMax, ...Object.values(perScheme)].filter(Boolean).sort().at(-1);
+if (hubMax) out.pages['/ouen-wari/'] = hubMax;
+for (const [slug, d] of Object.entries(perScheme)) if (d) out.pages[`/${slug}/`] = d;
 // 5) 一覧ページ: 旅先の最新更新日
 const latest = Object.values(out.destinations).sort().at(-1);
 if (latest) out.pages['/destinations/'] = latest;

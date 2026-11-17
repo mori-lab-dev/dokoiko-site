@@ -1314,12 +1314,12 @@
   "/ouen-wari/": "2026-11-17",
   "/kagoshima-oen/": "2026-11-10",
   "/kagoshima-fukko/": "2026-11-10",
-  "/fukuoka-oen/": "2026-11-10",
+  "/fukuoka-oen/": "2026-11-17",
   "/miyazaki-oen/": "2026-11-17",
   "/kumamoto-oen/": "2026-11-10",
-  "/saga-oen/": "2026-11-10",
-  "/nagasaki-oen/": "2026-11-10",
-  "/oita-oen/": "2026-11-10",
+  "/saga-oen/": "2026-11-17",
+  "/nagasaki-oen/": "2026-11-17",
+  "/oita-oen/": "2026-11-17",
   "/destinations/": "2026-11-17"
  },
  "generatedFrom": "git log (JST). destinations=項目のハッシュ変化日と画像の最終コミット日の新しい方 / pages=ファイルの最終コミット日・制度の最新確認日"

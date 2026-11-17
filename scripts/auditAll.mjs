@@ -78,6 +78,11 @@ const AUDITS = [
       '公式リンクの不備': Z(num(/公式リンクが無い・https でない:\s*(\d+)件/, o)),
       '出典なしの割引率・上限額': Z(num(/枠の外にある割引率・上限額:\s*(\d+)件/, o)) }) },
 
+  { id: 'ouen-bodies', tier: 'static', title: '応援割の更新で、更新対象でない項目の本文が前後で変わっていないか（本文の取り違え・コピーの検出）',
+    cmd: ['node', 'scripts/auditOuenBodies.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '更新対象でない項目の本文が変わっている': Z(num(/更新対象でない項目の本文が変わっている:\s*(\d+)件/, o)),
+      '同じ制度の中で本文が同じ別の項目': Z(num(/同じ制度の中で本文が同じ別の項目:\s*(\d+)件/, o)) }) },
+
   { id: 'car-free', tier: 'dist', title: '「車なしで行く」ガイドが出典・確認日つきで、応援割の数字・バスの時刻を含まないか',
     cmd: ['node', 'scripts/auditCarFree.mjs', ...(val('--today') ? ['--today', val('--today')] : [])], exitMeansFail: true,
     parse: (o) => ({ '出典URLなし': Z(num(/出典URL（https）が無い:\s*(\d+)件/, o)),

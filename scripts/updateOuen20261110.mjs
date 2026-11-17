@@ -18,7 +18,11 @@ const setChecked = (slug) => setField(slug, 'checked', D);
 const patchItem = (slug, key, val, { body, checked, source }) => {
   const [s, e] = block(slug); const i = L.findIndex((x, k) => k >= s && k < e && x.trim().startsWith(`${key}: '${val}'`)); if (i < 0) throw new Error(`項目なし ${slug} ${key}=${val}`);
   const ind = L[i].match(/^\s*/)[0]; let n = 0;
-  for (let k = i; k < i + 9; k++) {
+  // 2026-11-17 修正: 以前は「name の行から9行先まで」を一律に走査していたため、項目が短い（4〜5行）と、後ろの項目の body・source まで
+  // 同じ文で上書きしていた（11/10 の更新で5県の7項目が壊れた）。項目の終わり（閉じの "}," ＝ name の行より浅い字下げ）で必ず止める。
+  // 変更前の版: logs/ouen_cleanup_20261117/updateOuen20261110.mjs.before
+  let end = i + 1; while (end < L.length && !(/^\s*\},?\s*$/.test(L[end]) && L[end].match(/^\s*/)[0].length < ind.length)) end++;
+  for (let k = i; k < end; k++) {
     if (body !== undefined && L[k].startsWith(`${ind}body: `)) { L[k] = `${ind}body: ${q(body)},`; n++; }
     if (checked && L[k].startsWith(`${ind}checked: `)) { L[k] = `${ind}checked: ${q(checked)},`; n++; }
     if (source && L[k].startsWith(`${ind}source: `)) { L[k] = `${ind}source: ${source},`; n++; }
