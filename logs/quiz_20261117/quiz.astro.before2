@@ -1,0 +1,191 @@
+---
+// 診断「あなたに似合う旅先は？」（2026-11-17）。静的な1ページ。回答はブラウザの中だけで計算し、送信も保存もしない。
+// 旅先データは src/data/quizDestinations.json（scripts/buildQuizData.mjs。audit:all を通ったページだけ・項目は id/name/prefecture/tags/weight/stayAllowed/url だけ）。
+// 計算は src/lib/quizEngine.js（分布検査 scripts/quizDistribution.mjs も同じ関数）。アフィリエイトは載せない。
+import DestinationLayout from '../layouts/DestinationLayout.astro';
+import data from '../data/quizDestinations.json';
+const title = '旅先診断｜あなたに似合う旅先は？｜どこ行こ？';
+const description = '12の質問に答えると、回答の傾向から旅先を1つ選びます（次点も3つ）。回答はこの端末の中だけで計算し、送信も保存もしません。';
+---
+
+<DestinationLayout title={title} description={description} image="/images/quiz_og.png" pageType="quiz" pageId="quiz">
+  <style is:global>
+    .qz-hero { background: linear-gradient(135deg, #1e4d38 0%, #2A6049 100%); padding: 40px 24px 34px; color: #fff; }
+    .qz-hero-inner { max-width: 640px; margin: 0 auto; }
+    .qz-eyebrow { display: block; font-size: 10px; letter-spacing: 0.22em; color: #C9A84C; text-transform: uppercase; margin-bottom: 10px; }
+    .qz-title { font-family: 'Noto Serif JP', serif; font-size: 24px; font-weight: 300; letter-spacing: 0.06em; line-height: 1.5; }
+    .qz-wrap, .qz-wrap * { box-sizing: border-box; }
+    .qz-wrap { max-width: 640px; margin: 0 auto; padding: 26px 20px 64px; }
+    .qz-lead { font-size: 14px; line-height: 2; color: #444; margin-bottom: 14px; }
+    .qz-note { padding: 14px 16px; background: #f8fdf9; border-left: 3px solid #2A6049; border-radius: 0 6px 6px 0; font-size: 13px; line-height: 1.9; color: #444; margin: 16px 0 22px; }
+    .qz-btn { display: block; width: 100%; min-height: 52px; padding: 12px 18px; background: #2A6049; color: #fff; border: 0; border-radius: 10px; font: inherit; font-size: 15px; letter-spacing: 0.04em; text-align: center; cursor: pointer; text-decoration: none; }
+    .qz-btn:hover, .qz-btn:focus-visible { background: #1e4d38; }
+    .qz-btn-ghost { background: #fff; color: #2A6049; border: 1px solid #2A6049; }
+    .qz-btn-ghost:hover, .qz-btn-ghost:focus-visible { background: #f1f8f4; }
+    .qz-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 8px; font-size: 13px; color: #666; }
+    .qz-left { font-size: 13px; color: #666; }
+    .qz-left b { font-family: 'Noto Serif JP', serif; font-size: 30px; font-weight: 400; color: #2A6049; letter-spacing: 0.02em; margin: 0 2px; font-variant-numeric: tabular-nums; }
+    .qz-bar { height: 4px; background: #e8e8e8; border-radius: 2px; margin: 6px 0 22px; overflow: hidden; }
+    .qz-bar > i { display: block; height: 100%; width: 0; background: #C9A84C; transition: width .25s; }
+    .qz-q { font-family: 'Noto Serif JP', serif; font-size: 19px; font-weight: 400; line-height: 1.7; color: #1a1a1a; margin-bottom: 18px; }
+    .qz-opts { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+    .qz-opt { min-height: 52px; padding: 12px 16px; background: #fff; border: 1px solid #cfd8d2; border-radius: 10px; font: inherit; font-size: 15px; color: #2d2d2d; text-align: left; cursor: pointer; }
+    .qz-opt:hover, .qz-opt:focus-visible { border-color: #2A6049; background: #f1f8f4; }
+    .qz-back { margin-top: 18px; background: none; border: 0; font: inherit; font-size: 13px; color: #666; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; padding: 8px 0; }
+    .qz-back[hidden] { display: none; }
+    .qz-result-label { font-size: 12px; letter-spacing: 0.12em; color: #9a7c36; margin-bottom: 6px; }
+    .qz-result-name { font-family: 'Noto Serif JP', serif; font-size: 30px; font-weight: 400; line-height: 1.4; color: #1a1a1a; }
+    .qz-result-pref { font-size: 14px; color: #666; margin: 2px 0 12px; }
+    .qz-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; padding: 0; list-style: none; }
+    .qz-tags li { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #eef5f0; color: #2A6049; margin: 0; line-height: 1.7; }
+    .qz-actions { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; margin: 18px 0 8px; }
+    .qz-trend { font-size: 13px; color: #555; line-height: 1.9; margin: 10px 0 24px; }
+    .qz-next-h { font-family: 'Noto Serif JP', serif; font-size: 15px; font-weight: 400; margin: 26px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #e8e8e8; }
+    .qz-next { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; margin: 0; padding: 0; list-style: none; }
+    .qz-next a { display: block; padding: 12px 14px; border: 1px solid #e0e6e2; border-radius: 10px; color: #2d2d2d; text-decoration: none; }
+    .qz-next a:hover, .qz-next a:focus-visible { border-color: #2A6049; background: #f8fdf9; }
+    .qz-next b { display: block; font-weight: 500; font-size: 15px; }
+    .qz-next span { font-size: 12px; color: #777; }
+    .qz-again { margin-top: 28px; }
+    .qz-noscript { padding: 16px; border: 1px solid #e0c97a; background: #fffaf0; border-radius: 8px; font-size: 14px; }
+    @media (max-width: 420px) { .qz-result-name { font-size: 26px; } .qz-title { font-size: 22px; } }
+  </style>
+
+  <section class="qz-hero">
+    <div class="qz-hero-inner">
+      <span class="qz-eyebrow">TRAVEL MATCH</span>
+      <h1 class="qz-title">あなたに似合う旅先は？</h1>
+    </div>
+  </section>
+
+  <div class="qz-wrap">
+    <noscript><p class="qz-noscript">この診断はブラウザの JavaScript で動きます。有効にしてからもう一度開いてください。</p></noscript>
+
+    <section id="qz-intro">
+      <p class="qz-lead">12の質問に答えると、回答の傾向から旅先を1つ選びます。次点の候補も3つ出します。2分ほどで終わります。</p>
+      <p class="qz-lead">答えるたびに、候補が何か所のこっているかが減っていきます。</p>
+      <p class="qz-note">回答はこの端末のブラウザの中だけで計算します。回答の内容は送信も保存もしません。利用状況の集計には、結果に出た旅先の名前（ID）だけを使います。</p>
+      <button type="button" class="qz-btn" id="qz-start">診断をはじめる</button>
+    </section>
+
+    <section id="qz-question" hidden>
+      <div class="qz-meta">
+        <span id="qz-step">質問 1 / 12</span>
+        <span class="qz-left">のこり<b id="qz-left">0</b>か所</span>
+      </div>
+      <div class="qz-bar" aria-hidden="true"><i id="qz-bar"></i></div>
+      <h2 class="qz-q" id="qz-q"></h2>
+      <div class="qz-opts" id="qz-opts"></div>
+      <button type="button" class="qz-back" id="qz-back" hidden>ひとつ前の質問にもどる</button>
+    </section>
+
+    <section id="qz-result" hidden>
+      <p class="qz-result-label">あなたに似合う旅先は</p>
+      <h2 class="qz-result-name" id="qz-r-name"></h2>
+      <p class="qz-result-pref" id="qz-r-pref"></p>
+      <ul class="qz-tags" id="qz-r-tags"></ul>
+      <div class="qz-actions">
+        <a class="qz-btn" id="qz-r-link" href="/">この旅先のページを見る</a>
+        <a class="qz-btn qz-btn-ghost" id="qz-share" href="https://x.com/intent/post" target="_blank" rel="noopener">Xで結果を投稿する</a>
+      </div>
+      <p class="qz-trend">回答の傾向から選んだ1つ。ほかの候補もどうぞ。</p>
+      <h3 class="qz-next-h">次点の候補</h3>
+      <ul class="qz-next" id="qz-r-next"></ul>
+      <button type="button" class="qz-btn qz-btn-ghost qz-again" id="qz-again">もう一度やってみる</button>
+    </section>
+
+    <script id="quiz-data" type="application/json" is:inline set:html={JSON.stringify(data)} />
+  </div>
+
+  <script>
+    import { prepare, filterPool, remainingCount, result, QUESTIONS, SCORE_QUESTIONS } from '../lib/quizEngine.js';
+
+    const $ = (id) => document.getElementById(id);
+    const P = prepare(JSON.parse($('quiz-data').textContent));
+    const BASE = 'https://tabidokoiko.com/quiz/';
+    const UTM = 'utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611';
+    const fmt = (n) => n.toLocaleString('ja-JP');
+
+    // GA4（既存のタグ）へ。送るのは旅先IDだけ。回答の内容は送らない
+    window.dataLayer = window.dataLayer || [];
+    function g() { window.dataLayer.push(arguments); }
+    const track = (name, destId) => { try { g('event', name, destId ? { destination_id: destId } : {}); } catch (e) { /* 計測は結果に影響させない */ } };
+
+    let answers = {};   // key → 選んだ選択肢の文言（この変数だけ。保存しない）
+    let step = 0;
+    let started = false;
+
+    const show = (id) => { for (const s of ['qz-intro', 'qz-question', 'qz-result']) $(s).hidden = s !== id; };
+
+    function candidates() {
+      return filterPool(P, answers.stay ?? '', answers.area ?? 'どこでもよい');
+    }
+    function leftNow() {
+      if (answers.stay == null) return P.length;
+      if (answers.area == null) return P.filter((d) => filterPool([d], answers.stay, 'どこでもよい').length).length;
+      const scored = {}; for (const q of SCORE_QUESTIONS) if (answers[q.key] != null) scored[q.key] = answers[q.key];
+      return remainingCount(candidates(), scored);
+    }
+    function renderQuestion() {
+      const q = QUESTIONS[step];
+      $('qz-step').textContent = `質問 ${step + 1} / ${QUESTIONS.length}`;
+      $('qz-bar').style.width = `${(step / QUESTIONS.length) * 100}%`;
+      $('qz-left').textContent = fmt(leftNow());
+      $('qz-q').textContent = q.text;
+      const box = $('qz-opts'); box.textContent = '';
+      for (const o of q.options) {
+        const b = document.createElement('button'); b.type = 'button'; b.className = 'qz-opt'; b.textContent = o;
+        b.addEventListener('click', () => answer(q.key, o));
+        box.appendChild(b);
+      }
+      $('qz-back').hidden = step === 0;
+      show('qz-question');
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+    function answer(key, opt) {
+      answers[key] = opt;
+      step++;
+      if (step >= QUESTIONS.length) return finish();
+      renderQuestion();
+    }
+    function destLink(a, d, evt) {
+      a.href = d.url;                                   // 診断ページ内の遷移には utm を付けない
+      a.addEventListener('click', () => track(evt, d.id));
+    }
+    function finish() {
+      const r = result(P, answers);
+      if (!r) { step = 0; answers = {}; show('qz-intro'); return; }
+      const t = r.top;
+      $('qz-r-name').textContent = t.name;
+      $('qz-r-pref').textContent = t.prefecture;
+      const tags = $('qz-r-tags'); tags.textContent = '';
+      for (const x of t.tags.slice(0, 5)) { const li = document.createElement('li'); li.textContent = x; tags.appendChild(li); }
+      destLink($('qz-r-link'), t, 'result_to_destination');
+      // 共有: 結果は URL に入れず、投稿の本文だけに入れる。入口URLは常に /quiz/ ＋ utm（utm_content = 旅先ID）
+      const text = `私に似合う旅先は【${t.name}(${t.prefecture})】でした。あなたは？`;
+      const entry = `${BASE}?${UTM}&utm_content=${encodeURIComponent(t.id)}`;
+      $('qz-share').href = `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(entry)}&hashtags=${encodeURIComponent('似合う旅先')},${encodeURIComponent('どこ行こ')}`;
+      $('qz-share').onclick = () => track('share_click', t.id);
+      const ul = $('qz-r-next'); ul.textContent = '';
+      for (const d of r.next) {
+        const li = document.createElement('li'); const a = document.createElement('a');
+        const b = document.createElement('b'); b.textContent = d.name; const s = document.createElement('span'); s.textContent = d.prefecture;
+        a.append(b, s); destLink(a, d, 'result_to_destination'); li.appendChild(a); ul.appendChild(li);
+      }
+      $('qz-bar').style.width = '100%';
+      track('quiz_complete', t.id);
+      show('qz-result');
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+
+    $('qz-start').addEventListener('click', () => {
+      if (!started) { started = true; track('quiz_start'); }
+      answers = {}; step = 0; renderQuestion();
+    });
+    $('qz-back').addEventListener('click', () => {
+      if (step === 0) return;
+      step--; delete answers[QUESTIONS[step].key]; renderQuestion();
+    });
+    $('qz-again').addEventListener('click', () => { answers = {}; step = 0; show('qz-intro'); window.scrollTo({ top: 0, behavior: 'auto' }); });
+  </script>
+</DestinationLayout>
