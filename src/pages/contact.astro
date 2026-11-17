@@ -1,6 +1,15 @@
 ---
 import StaticPageLayout from '../layouts/StaticPageLayout.astro';
+// 宛先は直接の mailto リンクで出す（難読化・JS 組み立ては使わない）。
 const MAIL = 'morilab.support@gmail.com';
+const TYPES = [
+  { key: 'error', label: '誤りの指摘', subject: '【どこ行こ？】誤りの指摘' },
+  { key: 'opinion', label: 'ご意見', subject: '【どこ行こ？】ご意見' },
+  { key: 'removal', label: '掲載の削除依頼', subject: '【どこ行こ？】掲載の削除依頼' },
+].map((t) => ({
+  ...t,
+  href: `mailto:${MAIL}?subject=${encodeURIComponent(t.subject)}&body=${encodeURIComponent(`対象ページ: （分かればURLをお書きください）\n種別: ${t.label}\n\n（ここに内容をお書きください）\n`)}`,
+}));
 ---
 
 <StaticPageLayout
@@ -10,16 +19,40 @@ const MAIL = 'morilab.support@gmail.com';
   heading="お問い合わせ"
 >
   <p class="sp-note">
-    個人で運営しているサイトのため、電話窓口はありません。<br>
-    お返事までに数日いただくことがあります。あらかじめご了承ください。
+    個人運営のため、返信に数日かかる場合があります。<br>
+    受け付けているのは、<strong>誤りの指摘</strong>・<strong>ご意見</strong>・<strong>掲載の削除依頼</strong>です。
   </p>
 
-  <h2>メールでのお問い合わせ</h2>
-  <p>下のボタンからメールソフトが開きます。うまく開かない場合は、アドレスをコピーしてお使いください。</p>
-  <p>
-    <a class="sp-mail" href={`mailto:${MAIL}?subject=${encodeURIComponent('【どこ行こ？】お問い合わせ')}`}>{MAIL} にメールする</a>
-  </p>
-  <p style="font-size:13px;color:#888;">アドレス: {MAIL}</p>
+  <h2>メールで知らせる</h2>
+  <p>宛先は <a href={`mailto:${MAIL}`}>{MAIL}</a> です。種類のリンクを押すと、メールアプリが開きます。件名と本文の書き出しは自動で入るので、内容を書き足して送ってください。該当ページのURLもお書き添えください。</p>
+  <ul class="ct-types">
+    {TYPES.map((t) => (
+      <li><a class="ct-mail" data-type={t.key} href={t.href}>{t.label}</a></li>
+    ))}
+  </ul>
+  <p class="ct-page" id="ct-page" hidden>対象ページ: <span id="ct-page-url"></span></p>
+  <style>
+    .ct-types { padding-left: 1.2em; }
+    .ct-types li { line-height: 2.2; font-size: 14px; }
+    .ct-page { font-size: 12px !important; color: #666 !important; word-break: break-all; line-height: 1.7 !important; }
+  </style>
+  <script is:inline>
+    (function () {
+      // 「この情報の誤りを知らせる」から来たとき、対象ページを本文に入れる（当サイトのURLだけ）
+      var q = new URLSearchParams(location.search);
+      var page = q.get('page') || '';
+      if (!/^https:\/\/tabidokoiko\.com\/[A-Za-z0-9\-._~%\/]*$/.test(page) || page.length > 300) return;
+      document.getElementById('ct-page-url').textContent = page;
+      document.getElementById('ct-page').hidden = false;
+      var links = document.querySelectorAll('a.ct-mail');
+      for (var i = 0; i < links.length; i++) {
+        links[i].href = links[i].href.replace(encodeURIComponent('対象ページ: （分かればURLをお書きください）'), encodeURIComponent('対象ページ: ' + page));
+      }
+      var t = q.get('type');
+      var hit = t && document.querySelector('a.ct-mail[data-type="' + t + '"]');
+      if (hit) hit.style.fontWeight = 'bold';
+    })();
+  </script>
 
   <h2>X（旧Twitter）</h2>
   <p>

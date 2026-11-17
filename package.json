@@ -9,7 +9,8 @@
     "qa": "node scripts/qa.js",
     "predev": "node scripts/copyData.js",
     "dev": "astro dev",
-    "prebuild": "node scripts/copyData.js",
+    "prebuild": "node scripts/copyData.js && (node scripts/genJalanWatch.mjs || echo '（jalanWatch.json は前のまま。ページが取得時刻で古さを判定する）')",
+    "jalan:watch": "node scripts/genJalanWatch.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -17,6 +18,7 @@
     "audit:live": "node scripts/auditAll.mjs --live",
     "baseline": "node scripts/baseline.mjs",
     "baseline:full": "node scripts/baseline.mjs --live",
+    "audit:affiliate": "node scripts/auditAffiliateNotice.mjs",
     "gsc": "node scripts/gsc.mjs",
     "secrets:check": "node scripts/checkSecrets.mjs --staged"
   },

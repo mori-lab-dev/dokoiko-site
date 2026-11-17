@@ -46,7 +46,7 @@ const jsonLd = JSON.stringify({
 });
 ---
 
-<DestinationLayout title={title} description={description} image={null}>
+<DestinationLayout title={title} description={description} image={null} reportError={true}>
   <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
 
   <style>

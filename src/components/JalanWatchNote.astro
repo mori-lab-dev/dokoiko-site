@@ -1,0 +1,47 @@
+---
+/**
+ * じゃらん公式の宮崎県欄の「受付停止の表示」を、取得時刻つきで出す（2026-11-09）。
+ * 元データ: src/data/jalanWatch.json（scripts/genJalanWatch.mjs が見張りの保存データから作る。ページの文章は写さない）。
+ *
+ * 古さの扱い（STALE_HOURS = 24）:
+ *  - ビルドの時点で取得から 24 時間を超えていたら、「確認できません」の文を出す
+ *  - 公開したあとに 24 時間を超えたら、ブラウザが同じ文に置き換える（ビルドし直さなくても古い状態を言い続けないように）
+ * どの文にも「割引が使えるかは、予約画面でご確認ください」を付ける。
+ */
+import watch from '../data/jalanWatch.json';
+
+const STALE_HOURS = 24;
+const fetched = new Date(watch.fetchedAt);
+const jst = new Date(fetched.getTime() + 9 * 3600 * 1000);
+const when = `${jst.getUTCMonth() + 1}月${jst.getUTCDate()}日${jst.getUTCHours()}時`;
+const m = watch.miyazaki;
+const tail = '割引が使えるかは、予約画面でご確認ください。';
+
+const stopped = [m.stay, m.pack].filter((p) => p.found && p.stopShown).map((p) => p.label);
+const open = [m.stay, m.pack].filter((p) => p.found && !p.stopShown).map((p) => p.label);
+const upd = m.stay.updated || m.pack.updated;
+let fresh = `じゃらん公式では、${when}の取得の時点で、`;
+if (stopped.length) {
+  fresh += `${stopped.join('と')}の宮崎県欄に受付停止の表示がありました${upd ? `（${upd}更新の旨）` : ''}。`;
+  if (open.length) fresh += `${open.join('と')}の宮崎県欄には、停止の表示はありませんでした。`;
+} else if (open.length) {
+  fresh += `${open.join('と')}の宮崎県欄に、停止の表示はありませんでした。`;
+} else {
+  fresh = `じゃらん公式の宮崎県欄の表示を、${when}の取得では読み取れませんでした。`;
+}
+fresh += `再開や最新の状態は、じゃらん公式の案内でご確認ください。${tail}`;
+const stale = `じゃらん公式の受付状況は、いま確認できません（最後の取得は${when}）。じゃらん公式の案内でご確認ください。${tail}`;
+const isStale = Date.now() - fetched.getTime() > STALE_HOURS * 3600 * 1000;
+---
+<p class="jw-note" data-jalan-watch data-fetched={watch.fetchedAt} data-stale-hours={STALE_HOURS} data-stale-text={stale}>
+  {isStale ? stale : fresh}
+</p>
+<script is:inline>
+  (function () {
+    document.querySelectorAll('[data-jalan-watch]').forEach(function (el) {
+      var t = Date.parse(el.getAttribute('data-fetched'));
+      var h = Number(el.getAttribute('data-stale-hours')) || 24;
+      if (!isNaN(t) && Date.now() - t > h * 3600 * 1000) el.textContent = el.getAttribute('data-stale-text');
+    });
+  })();
+</script>
