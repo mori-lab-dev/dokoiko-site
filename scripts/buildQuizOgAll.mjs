@@ -26,39 +26,47 @@ const mainFrame = map.frames.find((f) => f.key === 'main');
 
 const contentHash = (d) => hash(d, map);
 
-const MAPW = 560, S = MAPW / map.width, MAPH = Math.round(map.height * S);
+// 丸い枠（スタンプ）に入れる地図。選ばれた旅先の周りへ寄せて、どこなのかが分かる大きさにする。点は朱色。発光・ぼかしは使わない
+const STAMP = 300, ZOOM = 2.6;
 const frameSvg = map.frames.map((f) => {
   const [x0, y0, x1, y1] = f.box;
-  const frame = f.key === 'main' ? '' : `<rect x="${x0 - 6}" y="${y0 - 6}" width="${x1 - x0 + 12}" height="${y1 - y0 + 12}" rx="6" fill="none" stroke="#b9ad92" stroke-width="2.4" stroke-dasharray="7 6"/>`;
-  return `${frame}<path d="${f.path}" fill="#e4d9bf" stroke="#9a8d72" stroke-width="1.6" stroke-linejoin="round"/>`;
+  const frame = f.key === 'main' ? '' : `<rect x="${x0 - 6}" y="${y0 - 6}" width="${x1 - x0 + 12}" height="${y1 - y0 + 12}" rx="6" fill="none" stroke="#c9bd9f" stroke-width="2.4" stroke-dasharray="7 6"/>`;
+  return `${frame}<path d="${f.path}" fill="#dccfae" stroke="#7d7155" stroke-width="1.8" stroke-linejoin="round"/>`;
 }).join('');
-const page = (d) => `<!doctype html><html lang="ja"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+const page = (d) => {
+  const k = ZOOM, vw = STAMP / (STAMP / map.width) ; // 論理座標での円の幅 = map.width / k
+  const half = map.width / k / 2;                     // 円の半径（論理座標）
+  const vb = `${(d.x - half).toFixed(1)} ${(d.y - half).toFixed(1)} ${(half * 2).toFixed(1)} ${(half * 2).toFixed(1)}`;
+  return `<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { width:1200px; height:675px; overflow:hidden; background:#f6f1e4; position:relative; }
-  .label { position:absolute; left:64px; top:70px; font:500 27px 'Noto Sans JP',sans-serif; letter-spacing:.12em; color:#8a6a2c; }
-  .name { position:absolute; left:64px; top:118px; width:548px; height:292px; display:flex; align-items:flex-end; }
-  .name span { display:block; font:700 112px/1.12 'Noto Serif JP',serif; color:#25231f; letter-spacing:.02em; word-break:break-all; }
-  .pref { position:absolute; left:68px; top:424px; font:500 36px 'Noto Sans JP',sans-serif; letter-spacing:.1em; color:#4a463d; }
-  .win { position:absolute; left:68px; top:488px; width:540px; font:400 24px/1.6 'Noto Sans JP',sans-serif; color:#6b6252; }
-  .win b { font-weight:500; color:#c4452d; font-size:30px; }
-  .brand { position:absolute; left:68px; bottom:40px; font:500 26px 'Noto Serif JP',serif; letter-spacing:.08em; color:#25231f; }
-  .brand span { font:400 20px 'Noto Sans JP',sans-serif; letter-spacing:.12em; color:#7d745f; margin-left:14px; }
-  .acct { position:absolute; right:30px; bottom:22px; font:400 17px 'Noto Sans JP',sans-serif; letter-spacing:.06em; color:#9b927c; }
-  svg { position:absolute; left:${1200 - MAPW - 24}px; top:${Math.round((675 - MAPH) / 2) - 6}px; }
+  body { width:1200px; height:675px; overflow:hidden; background:#f2eadb; position:relative; }
+  .label { position:absolute; left:64px; top:60px; font:500 22px/1.7 'Noto Sans JP',sans-serif; letter-spacing:.08em; color:#8b6b2f; width:260px; }
+  .stage { position:absolute; left:340px; top:56px; width:460px; height:520px; display:flex; justify-content:center; align-items:flex-start; gap:30px; }
+  .pref { writing-mode:vertical-rl; font:500 30px/1.3 'Noto Sans JP',sans-serif; letter-spacing:.3em; color:#5a5446; padding-top:6px; }
+  .name { writing-mode:vertical-rl; font:700 96px/1.15 'Noto Serif JP',serif; color:#1f1d1a; letter-spacing:.04em; max-height:520px; }
+  .stamp { position:absolute; left:850px; top:56px; width:${STAMP}px; height:${STAMP}px; border-radius:50%; border:3px solid #1f1d1a; background:#f7f1e3; overflow:hidden; }
+  .stamp svg { position:absolute; left:0; top:0; display:block; }
+  .stamp::after { content:''; position:absolute; inset:8px; border-radius:50%; border:1px solid #1f1d1a; }
+  .badge { position:absolute; left:850px; top:392px; width:${STAMP}px; text-align:center; padding:9px 0 10px; border:1.8px solid #1f1d1a; border-radius:999px; font:500 24px 'Noto Sans JP',sans-serif; letter-spacing:.05em; color:#1f1d1a; background:#f7f1e3; }
+  .badge b { font:700 32px 'Noto Sans JP',sans-serif; color:#c8321f; margin:0 3px; }
+  .brand { position:absolute; left:64px; bottom:34px; font:400 17px 'Noto Sans JP',sans-serif; letter-spacing:.14em; color:#7d7461; }
+  .brand b { font:500 19px 'Noto Serif JP',serif; letter-spacing:.1em; color:#3b372f; margin-right:10px; }
+  .rule { position:absolute; left:64px; right:64px; top:604px; height:1px; background:#cdbfa0; }
+  .seal { position:absolute; right:66px; bottom:30px; width:62px; height:62px; background:#c8321f; border-radius:7px; transform:rotate(-4deg); color:#f6efe0; display:flex; align-items:center; justify-content:center; text-align:center; font:700 14px/1.25 'Noto Sans JP',sans-serif; letter-spacing:.04em; }
+  .seal::before { content:''; position:absolute; inset:4px; border:1.5px solid #f6efe0; border-radius:4px; opacity:.85; }
 </style></head><body>
-  <div class="label">あなたに似合う旅先は</div>
-  <div class="name"><span id="nm">${d.name}</span></div>
-  <div class="pref">${d.prefecture}</div>
-  ${d.win > 0 ? `<div class="win">この診断の1万通りの回答のうち、<br><b>${d.win.toLocaleString('ja-JP')}</b>通りで1位になる旅先</div>` : ''}
-  <svg width="${MAPW}" height="${MAPH}" viewBox="0 0 ${map.width} ${map.height}">${frameSvg}
-    <circle cx="${d.x}" cy="${d.y}" r="62" fill="#c4452d" fill-opacity=".14"/><circle cx="${d.x}" cy="${d.y}" r="40" fill="#c4452d" fill-opacity=".26"/>
-    <circle cx="${d.x}" cy="${d.y}" r="22" fill="#c4452d" fill-opacity=".55"/><circle cx="${d.x}" cy="${d.y}" r="12" fill="#c4452d" stroke="#f6f1e4" stroke-width="4"/>
-  </svg>
-  <div class="brand">どこ行こ？<span>tabidokoiko.com</span></div>
-  <div class="acct">${ACCOUNT}</div>
+  <div class="label">あなたに似合う<br>旅先は</div>
+  <div class="stage"><div class="pref">${d.prefecture}</div><div class="name" id="nm">${d.name}</div></div>
+  <div class="stamp"><svg width="${STAMP}" height="${STAMP}" viewBox="${vb}">${frameSvg}
+    <circle cx="${d.x}" cy="${d.y}" r="30" fill="none" stroke="#c8321f" stroke-width="5"/><circle cx="${d.x}" cy="${d.y}" r="13" fill="#c8321f" stroke="#f7f1e3" stroke-width="4"/></svg></div>
+  ${d.win > 0 ? `<div class="badge">1万通り中 <b>${d.win.toLocaleString('ja-JP')}</b>通りで1位</div>` : ''}
+  <div class="rule"></div>
+  <div class="brand"><b>どこ行こ？</b>tabidokoiko.com</div>
+  <div class="seal"><span>${ACCOUNT.replace('@mori', '@mori<br>')}</span></div>
 </body></html>`;
+};
 
 const todo = data.filter((d) => !ONLY || ONLY.has(d.code)).slice(0, LIMIT);
 fs.mkdirSync(OUT, { recursive: true });
@@ -70,7 +78,7 @@ for (const d of todo) {
   await pg.setContent(page(d), { waitUntil: 'networkidle' });
   await pg.evaluate(() => document.fonts.ready);
   // 旅先名: 枠に収まる最大の大きさにする（長い名前は小さく）
-  await pg.evaluate(() => { const e = document.getElementById('nm'); let fs = 120; e.style.fontSize = fs + 'px'; while (e.offsetHeight > 292 && fs > 40) { fs -= 4; e.style.fontSize = fs + 'px'; } });
+  await pg.evaluate(() => { const e = document.getElementById('nm'); let L = [...e.textContent].length; let fs = L <= 3 ? 112 : L <= 5 ? 92 : L <= 8 ? 76 : 64; e.style.fontSize = fs + 'px'; while ((e.offsetWidth > 270 || e.offsetHeight > 520) && fs > 36) { fs -= 4; e.style.fontSize = fs + 'px'; } });
   const shot = await pg.screenshot({ type: 'png' });
   const png = await sharp(shot).png({ palette: true, colours: 24, dither: 0, compressionLevel: 9, effort: 10 }).toBuffer();
   fs.writeFileSync(path.join(OUT, `${d.code}.png`), png);
