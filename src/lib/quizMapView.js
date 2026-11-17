@@ -48,17 +48,16 @@ export function createMapView(canvas, map, dots) {
       ctx.beginPath(); ctx.arc(dots[i].x, dots[i].y, r, 0, 6.2832); ctx.fill();
     }
     if (result) {
+      // 結果: 全部の点は墨のまま。選ばれた1点だけ朱色の点を細い朱の輪で囲む（共有画像と同じ見た目）。次点は墨の細い輪と番号
       result.next.forEach((i, j) => {
-        const d = dots[i]; ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 3.1, 0, 6.2832); ctx.fillStyle = 'rgba(196,69,45,.16)'; ctx.fill();
-        ctx.lineWidth = 1.6 / cssScale; ctx.strokeStyle = 'rgba(196,69,45,.9)'; ctx.stroke();
-        ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 1.5, 0, 6.2832); ctx.fillStyle = '#c4452d'; ctx.fill();
-        ctx.font = `700 ${12 / cssScale}px 'Noto Sans JP', sans-serif`; ctx.fillStyle = '#7a2a1b'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+        const d = dots[i]; ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 3.1, 0, 6.2832); ctx.lineWidth = 1.3 / cssScale; ctx.strokeStyle = 'rgba(47,44,40,.85)'; ctx.stroke();
+        ctx.font = `700 ${12 / cssScale}px 'Noto Sans JP', sans-serif`; ctx.fillStyle = '#2f2c28'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(String(j + 2), d.x + r0 * 3.8, d.y - r0 * 2.4);
       });
-      const d = dots[result.top]; const t = reduced() ? 0.5 : ((now % 1600) / 1600);
-      for (let q = 0; q < 2; q++) { const tt = (t + q * 0.5) % 1; ctx.beginPath(); ctx.arc(d.x, d.y, r0 * (2.4 + 8 * tt), 0, 6.2832); ctx.strokeStyle = `rgba(196,69,45,${(0.55 * (1 - tt)).toFixed(3)})`; ctx.lineWidth = 2 / cssScale; ctx.stroke(); }
-      ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 3.6, 0, 6.2832); ctx.fillStyle = 'rgba(196,69,45,.28)'; ctx.fill();
-      ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 2.1, 0, 6.2832); ctx.fillStyle = '#c4452d'; ctx.fill(); ctx.lineWidth = 1.8 / cssScale; ctx.strokeStyle = '#fbf7ec'; ctx.stroke();
+      const d = dots[result.top]; const t = reduced() ? 0.5 : ((now % 1800) / 1800);
+      const tt = t; ctx.beginPath(); ctx.arc(d.x, d.y, r0 * (5.2 + 5 * tt), 0, 6.2832); ctx.strokeStyle = `rgba(200,50,31,${(0.45 * (1 - tt)).toFixed(3)})`; ctx.lineWidth = 1.2 / cssScale; ctx.stroke();   // 脈打つ（細い輪）
+      ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 5.2, 0, 6.2832); ctx.strokeStyle = '#c8321f'; ctx.lineWidth = 1.5 / cssScale; ctx.stroke();
+      ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 2.1, 0, 6.2832); ctx.fillStyle = '#c8321f'; ctx.fill();
     }
   }
   function frameLoop(now) {
@@ -96,8 +95,8 @@ export function createMapView(canvas, map, dots) {
   }
   function showResult(top, next) {
     result = { top, next };
-    tgt.fill(0); tgt[top] = 1; next.forEach((i) => { tgt[i] = 1; });
-    narTgt = 1; if (reduced()) { for (let i = 0; i < n; i++) v[i] = tgt[i]; nar = 1; }
+    tgt.fill(1);                                                    // 結果では全部の点を墨に戻す（共有画像と同じ見た目）
+    narTgt = 0; if (reduced()) { for (let i = 0; i < n; i++) v[i] = 1; nar = 0; }
     const pts = [dots[top], ...next.map((i) => dots[i])];
     // 次点が近ければ一緒に収める。遠ければ結果の周りだけに寄る
     const near = pts.filter((p, j) => j === 0 || Math.hypot(p.x - dots[top].x, p.y - dots[top].y) < 230);
