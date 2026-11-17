@@ -1,0 +1,211 @@
+[
+ {
+  "commit": "831b14dd",
+  "日時": "2026-11-06 14:21",
+  "件名": "fix: travelTimeの下限補正・目安表示・怪しい所要時間の文を削除",
+  "本番に出る変更のファイル数": 3,
+  "確認URL": "/destinations/ishigaki/ /destinations/mihonoseki/ /destinations/kumejima/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "bb30d753",
+  "日時": "2026-11-06 14:26",
+  "件名": "feat: travelTime補正の本番実測スクリプトを追加",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ },
+ {
+  "commit": "a8794ac5",
+  "日時": "2026-11-06 15:14",
+  "件名": "fix: 記事側の所要時間の文を点検、疑わしいものを削除・修正",
+  "本番に出る変更のファイル数": 31,
+  "確認URL": "/destinations/nikko/ /destinations/karuizawa/ /destinations/matsushima/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "db0a3230",
+  "日時": "2026-11-06 15:25",
+  "件名": "feat: Search Console取得スクリプトと秘密情報の検査を追加、記事側の本番実測スクリプトを追加",
+  "本番に出る変更のファイル数": 1,
+  "確認URL": "",
+  "確認したページ数": 0,
+  "結果": "確認できる変更が見つからない（画面に出ない変更）"
+ },
+ {
+  "commit": "3f5a9e9f",
+  "日時": "2026-11-06 16:43",
+  "件名": "docs: Search Console の取得結果 2026-11-06（URL検査1,378件・検索パフォーマンス・",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ },
+ {
+  "commit": "106d6ada",
+  "日時": "2026-11-06 20:03",
+  "件名": "fix: sitemap.xml の日本語URLを%エンコードに揃える",
+  "本番に出る変更のファイル数": 1,
+  "確認URL": "/sitemap.xml",
+  "確認したページ数": 1,
+  "結果": "OK / sitemap の loc に日本語のままのものは0件"
+ },
+ {
+  "commit": "312f832c",
+  "日時": "2026-11-06 20:09",
+  "件名": "docs: Search Console の掘り下げ（sitemap欄・登録済みの共通点・2026-09の66件）と本番",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ },
+ {
+  "commit": "28006ad3",
+  "日時": "2026-11-06 21:12",
+  "件名": "fix: 記事側の所要時間の文の仕上げ（値のない出発地・見積もりの組）",
+  "本番に出る変更のファイル数": 8,
+  "確認URL": "/destinations/kitadaitojima/ /destinations/kusatsu-shiga/ /destinations/minamidaitojima/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "2c080cb7",
+  "日時": "2026-11-06 21:32",
+  "件名": "fix: featured_stay の送迎情報を公式の記載に合わせて点検・修正",
+  "本番に出る変更のファイル数": 2,
+  "確認URL": "/destinations/atami/ /destinations/karuizawa/ /destinations/fujikawaguchiko/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "58850762",
+  "日時": "2026-11-06 21:39",
+  "件名": "feat: 東北の秘湯を追加（車なしで行けるもの）檜枝岐温泉・中ノ沢温泉",
+  "本番に出る変更のファイル数": 1,
+  "確認URL": "/destinations/hinoemata-onsen/ /destinations/nakanosawa-onsen/ /destinations/hinoemata-onsen/ ほか1件",
+  "確認したページ数": 4,
+  "結果": "OK"
+ },
+ {
+  "commit": "804e9fc0",
+  "日時": "2026-11-06 21:41",
+  "件名": "feat: 東北の秘湯を追加（lastmod・配信JSON・監査の基準値）",
+  "本番に出る変更のファイル数": 2,
+  "確認URL": "/destinations/kamakura/ /destinations/atami/ /destinations/nikko/ ほか3件",
+  "確認したページ数": 6,
+  "結果": "OK"
+ },
+ {
+  "commit": "12d421d0",
+  "日時": "2026-11-06 21:46",
+  "件名": "fix: 旅先本文の宿の送迎の文を公式で確認した内容に合わせる（22件）",
+  "本番に出る変更のファイル数": 2,
+  "確認URL": "/destinations/fujikawaguchiko/ /destinations/kakunodate/ /destinations/oboke/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "6b356c5c",
+  "日時": "2026-11-06 22:20",
+  "件名": "fix: 本番実測スクリプトの期待値を現在のデータに合わせる",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ },
+ {
+  "commit": "0ccb2c41",
+  "日時": "2026-11-06 23:00",
+  "件名": "fix: 公式で確認できない送迎の「無料」を外す",
+  "本番に出る変更のファイル数": 3,
+  "確認URL": "/destinations/amakusa/ /destinations/zaosan/ /destinations/hakuba/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "99d3f2bd",
+  "日時": "2026-11-09 01:46",
+  "件名": "feat: 表示のあるページ20件の title・description を検索語に合わせて改善",
+  "本番に出る変更のファイル数": 2,
+  "確認URL": "/destinations/suo-oshima/ /destinations/himeshima/ /destinations/gen_北海_網走湖畔温泉/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "ae3200a1",
+  "日時": "2026-11-09 01:47",
+  "件名": "chore: lastmod を更新（title・description 改善の20ページ）",
+  "本番に出る変更のファイル数": 1,
+  "確認URL": "/destinations/suo-oshima/ /destinations/himeshima/ /destinations/gen_北海_網走湖畔温泉/ ほか1件",
+  "確認したページ数": 4,
+  "結果": "OK"
+ },
+ {
+  "commit": "107ee3e4",
+  "日時": "2026-11-09 13:05",
+  "件名": "fix: 同名ページの統合・嵐山の書き分け・支笏湖いとう温泉の営業表示を修正",
+  "本番に出る変更のファイル数": 10,
+  "確認URL": "/destinations/furano/ /destinations/osorezan/ /destinations/arashiyama/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "bf64f18d",
+  "日時": "2026-11-09 13:05",
+  "件名": "chore: lastmod を更新（同名ページの統合）",
+  "本番に出る変更のファイル数": 1,
+  "確認URL": "/destinations/furano/ /destinations/osorezan/ /destinations/arashiyama/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "c70eee6e",
+  "日時": "2026-11-09 14:16",
+  "件名": "feat: 週1の自動点検（launchd・読み取りのみ）",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ },
+ {
+  "commit": "801b0dbb",
+  "日時": "2026-11-09 14:16",
+  "件名": "fix: 送迎の発着地・条件を公式に合わせ、公式で確認できない「送迎あり」を外す",
+  "本番に出る変更のファイル数": 4,
+  "確認URL": "/destinations/matsushima/ /destinations/shodoshima/ /destinations/mihonoseki/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "ba4164c4",
+  "日時": "2026-11-09 14:17",
+  "件名": "chore: lastmod を更新（送迎の修正）",
+  "本番に出る変更のファイル数": 1,
+  "確認URL": "/destinations/matsushima/ /destinations/shodoshima/ /destinations/mihonoseki/",
+  "確認したページ数": 3,
+  "結果": "OK"
+ },
+ {
+  "commit": "ff000d2d",
+  "日時": "2026-11-09 17:31",
+  "件名": "docs: Search Console の取得（11/9）と 11/6 との差分スクリプト",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ },
+ {
+  "commit": "022ee0ca",
+  "日時": "2026-11-10 12:00",
+  "件名": "fix: 応援割ページを11/10時点に更新",
+  "本番に出る変更のファイル数": 2,
+  "確認URL": "/kagoshima-oen/ /kagoshima-fukko/ /fukuoka-oen/ ほか5件",
+  "確認したページ数": 8,
+  "結果": "OK"
+ },
+ {
+  "commit": "0d098ccd",
+  "日時": "2026-11-10 12:01",
+  "件名": "fix: verifyOuenLive.mjs を元の版に戻す（誤って上書きしたため）",
+  "本番に出る変更のファイル数": 0,
+  "結果": "本番に出ない変更（scripts・docs・logs・backup だけ）",
+  "確認URL": "-"
+ }
+]
