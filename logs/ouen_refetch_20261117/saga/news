@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お知らせ｜九州ふっこう応援割さがキャンペーン</title>
+<meta name="description" content="「九州ふっこう応援割さがキャンペーン」に関するお知らせの一覧です。">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://saga-ouen.jp/news/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://saga-ouen.jp/news/">
+<meta property="og:site_name" content="九州ふっこう応援割さがキャンペーン">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="お知らせ｜九州ふっこう応援割さがキャンペーン">
+<meta property="og:description" content="「九州ふっこう応援割さがキャンペーン」に関するお知らせの一覧です。">
+<meta property="og:image" content="https://saga-ouen.jp/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.ico">
+
+<link rel="stylesheet" href="/assets/css/style.css?2610011940">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FDRVQSCN9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FDRVQSCN9');
+</script>
+
+</head>
+<body>
+
+<a class="c-skiplink" href="#main">本文へスキップ</a>
+
+<span id="top" class="u-anchor"></span>
+<header class="l-header">
+  <div class="l-header__inner">
+    <p class="l-header__logo">
+      <a class="l-header__logo-link" href="/">
+        <span class="l-header__logo-main">九州ふっこう応援割<br>さがキャンペーン</span>
+        <img class="l-header__logo-pref" src="/assets/img/logo-saga-white.webp" width="82" height="19" alt="佐賀県">
+      </a>
+    </p>
+
+    <button class="l-header__toggle js-nav-toggle" type="button" aria-controls="global-nav" aria-expanded="false">
+      <span class="l-header__toggle-bars" aria-hidden="true"></span>
+      <span class="l-header__toggle-text">メニュー</span>
+    </button>
+
+    <nav class="l-nav" id="global-nav" aria-label="メインメニュー">
+      <ul class="l-nav__list">
+        <li class="l-nav__item"><a class="l-nav__link" href="/#news">お知らせ</a></li>
+        <li class="l-nav__item"><a class="l-nav__link" href="/#about">キャンペーンとは</a></li>
+        <li class="l-nav__item"><a class="l-nav__link" href="/#faq">よくある質問</a></li>
+        <li class="l-nav__item"><a class="l-nav__link" href="/#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="l-main" id="main">
+
+
+
+  <nav class="c-breadcrumb" aria-label="現在位置">
+    <div class="l-container">
+      <ol class="c-breadcrumb__list">
+        <li><a href="/">ホーム</a></li>
+        <li aria-current="page">お知らせ</li>
+      </ol>
+    </div>
+  </nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://saga-ouen.jp/" },    { "@type": "ListItem", "position": 2, "name": "お知らせ", "item": "https://saga-ouen.jp/news/" }  ]
+}
+</script>
+
+
+  <section class="p-newslist" aria-labelledby="newslist-title">
+    <div class="l-container">
+      <div class="c-heading">
+        <span class="c-heading__bar" aria-hidden="true"></span>
+        <h1 class="c-heading__title" id="newslist-title">お知らせ</h1>
+      </div>
+
+      <ol class="p-newslist__list">
+        <li class="p-newslist__item">
+          <a class="p-newslist__link" href="https://saga-ouen.jp/news/3374902.html">
+            <time class="p-newslist__date" datetime="2026-10-22">2026.10.22</time>
+            <span class="p-newslist__text">PHPプログラムにおけるお知らせ</span>
+          </a>
+        </li>
+        <li class="p-newslist__item">
+          <a class="p-newslist__link" href="https://saga-ouen.jp/news/3356451.html">
+            <time class="p-newslist__date" datetime="2026-10-13">2026.10.13</time>
+            <span class="p-newslist__text">直接予約可能な宿泊施設一覧を掲載いたしました</span>
+          </a>
+        </li>
+        <li class="p-newslist__item">
+          <a class="p-newslist__link" href="https://saga-ouen.jp/news/3348248.html">
+            <time class="p-newslist__date" datetime="2026-10-01">2026.10.01</time>
+            <span class="p-newslist__text">対象旅行会社を掲載いたしました</span>
+          </a>
+        </li>
+        <li class="p-newslist__item">
+          <a class="p-newslist__link" href="https://saga-ouen.jp/news/3342346.html">
+            <time class="p-newslist__date" datetime="2026-09-24">2026.09.24</time>
+            <span class="p-newslist__text">対象旅行会社の募集を終了しました</span>
+          </a>
+        </li>
+        <li class="p-newslist__item">
+          <a class="p-newslist__link" href="https://saga-ouen.jp/news/3338598.html">
+            <time class="p-newslist__date" datetime="2026-09-18">2026.09.18</time>
+            <span class="p-newslist__text">旅行事業者、宿泊事業者の方はこちらをご確認ください</span>
+          </a>
+        </li>
+        <li class="p-newslist__item">
+          <a class="p-newslist__link" href="https://saga-ouen.jp/news/3334366.html">
+            <time class="p-newslist__date" datetime="2026-09-18">2026.09.18</time>
+            <span class="p-newslist__text">「九州ふっこう応援割さがキャンペーン」特設サイトを公開しました</span>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer class="l-footer">
+  <div class="l-container">
+    <p class="l-footer__copyright"><small>&copy; Saga Prefecture. All Rights Reserved.</small></p>
+  </div>
+</footer>
+
+<a class="c-pagetop js-pagetop" href="#top">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <path d="M6 14l6-6 6 6"></path>
+  </svg>
+  <span class="u-sr-only">ページの先頭へ戻る</span>
+</a>
+
+<script src="/assets/js/main.js" defer></script>
+
+</body>
+</html>

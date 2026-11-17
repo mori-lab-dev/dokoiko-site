@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>九州ふっこう応援割さがキャンペーン｜佐賀を旅して、九州を元気に。</title>
+<meta name="description" content="「九州ふっこう応援割さがキャンペーン」の割引対象期間・対象者・割引率・予約方法などをご案内する佐賀県の特設サイトです。">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://saga-ouen.jp/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://saga-ouen.jp/">
+<meta property="og:site_name" content="九州ふっこう応援割さがキャンペーン">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="九州ふっこう応援割さがキャンペーン｜佐賀を旅して、九州を元気に。">
+<meta property="og:description" content="「九州ふっこう応援割さがキャンペーン」の割引対象期間・対象者・割引率・予約方法などをご案内する佐賀県の特設サイトです。">
+<meta property="og:image" content="https://saga-ouen.jp/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.ico">
+
+<link rel="stylesheet" href="/assets/css/style.css?2610011940">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FDRVQSCN9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1FDRVQSCN9');
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://saga-ouen.jp/#website",
+      "url": "https://saga-ouen.jp/",
+      "name": "九州ふっこう応援割さがキャンペーン",
+      "description": "「九州ふっこう応援割さがキャンペーン」の割引対象期間・対象者・割引率・予約方法などをご案内する佐賀県の特設サイトです。",
+      "inLanguage": "ja",
+      "publisher": { "@id": "https://saga-ouen.jp/#organization" }
+    },
+    {
+      "@type": "GovernmentOrganization",
+      "@id": "https://saga-ouen.jp/#organization",
+      "name": "佐賀県",
+      "url": "https://saga-ouen.jp/",
+      "logo": "https://saga-ouen.jp/assets/img/logo-campaign.webp",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "name": "九州ふっこう応援割さがキャンペーン事務局",
+        "telephone": "+81-50-1732-4649",
+        "contactType": "customer support",
+        "availableLanguage": "Japanese"
+      }
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+
+<a class="c-skiplink" href="#main">本文へスキップ</a>
+
+<!-- header -->
+<span id="top" class="u-anchor"></span>
+<header class="l-header">
+  <div class="l-header__inner">
+    <p class="l-header__logo">
+      <a class="l-header__logo-link" href="/">
+        <span class="l-header__logo-main">九州ふっこう応援割<br>さがキャンペーン</span>
+        <img class="l-header__logo-pref" src="/assets/img/logo-saga-white.webp" width="82" height="19" alt="佐賀県">
+      </a>
+    </p>
+
+    <button class="l-header__toggle js-nav-toggle" type="button" aria-controls="global-nav" aria-expanded="false">
+      <span class="l-header__toggle-bars" aria-hidden="true"></span>
+      <span class="l-header__toggle-text">メニュー</span>
+    </button>
+
+    <nav class="l-nav" id="global-nav" aria-label="メインメニュー">
+      <ul class="l-nav__list">
+        <li class="l-nav__item"><a class="l-nav__link" href="#news">お知らせ</a></li>
+        <li class="l-nav__item"><a class="l-nav__link" href="#about">キャンペーンとは</a></li>
+        <li class="l-nav__item"><a class="l-nav__link" href="#faq">よくある質問</a></li>
+        <li class="l-nav__item"><a class="l-nav__link" href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="l-main" id="main">
+
+  <!-- hero -->
+  <section class="p-hero" aria-labelledby="hero-title">
+
+    <div class="p-hero__slides js-hero-slider" aria-hidden="true">
+      <div class="p-hero__slide">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-01-kunenan-1440.webp"
+             data-srcset="/assets/img/hero-01-kunenan-960.webp 960w,
+                     /assets/img/hero-01-kunenan-1200.webp 1200w,
+                     /assets/img/hero-01-kunenan-1440.webp 1440w,
+                     /assets/img/hero-01-kunenan-1920.webp 1920w,
+                     /assets/img/hero-01-kunenan-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="1081" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-02-okawachi-1440.webp"
+             data-srcset="/assets/img/hero-02-okawachi-960.webp 960w,
+                     /assets/img/hero-02-okawachi-1200.webp 1200w,
+                     /assets/img/hero-02-okawachi-1440.webp 1440w,
+                     /assets/img/hero-02-okawachi-1920.webp 1920w,
+                     /assets/img/hero-02-okawachi-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="1081" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-03-kankyo-1440.webp"
+             data-srcset="/assets/img/hero-03-kankyo-960.webp 960w,
+                     /assets/img/hero-03-kankyo-1200.webp 1200w,
+                     /assets/img/hero-03-kankyo-1440.webp 1440w,
+                     /assets/img/hero-03-kankyo-1920.webp 1920w,
+                     /assets/img/hero-03-kankyo-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="908" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide" data-sp-skip="1">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-04-ougahama-1440.webp"
+             data-srcset="/assets/img/hero-04-ougahama-960.webp 960w,
+                     /assets/img/hero-04-ougahama-1200.webp 1200w,
+                     /assets/img/hero-04-ougahama-1440.webp 1440w,
+                     /assets/img/hero-04-ougahama-1920.webp 1920w,
+                     /assets/img/hero-04-ougahama-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="1080" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide" data-sp-skip="1">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-05-yutoku-1440.webp"
+             data-srcset="/assets/img/hero-05-yutoku-960.webp 960w,
+                     /assets/img/hero-05-yutoku-1200.webp 1200w,
+                     /assets/img/hero-05-yutoku-1440.webp 1440w,
+                     /assets/img/hero-05-yutoku-1920.webp 1920w,
+                     /assets/img/hero-05-yutoku-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="1474" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-06-ocean-1440.webp"
+             data-srcset="/assets/img/hero-06-ocean-960.webp 960w,
+                     /assets/img/hero-06-ocean-1200.webp 1200w,
+                     /assets/img/hero-06-ocean-1440.webp 1440w,
+                     /assets/img/hero-06-ocean-1920.webp 1920w,
+                     /assets/img/hero-06-ocean-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="1080" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-07-balloon-1440.webp"
+             data-srcset="/assets/img/hero-07-balloon-960.webp 960w,
+                     /assets/img/hero-07-balloon-1200.webp 1200w,
+                     /assets/img/hero-07-balloon-1440.webp 1440w,
+                     /assets/img/hero-07-balloon-1920.webp 1920w,
+                     /assets/img/hero-07-balloon-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="1080" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+      <div class="p-hero__slide">
+        <img class="p-hero__image"
+             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+             data-src="/assets/img/hero-08-karatsu-1440.webp"
+             data-srcset="/assets/img/hero-08-karatsu-960.webp 960w,
+                     /assets/img/hero-08-karatsu-1200.webp 1200w,
+                     /assets/img/hero-08-karatsu-1440.webp 1440w,
+                     /assets/img/hero-08-karatsu-1920.webp 1920w,
+                     /assets/img/hero-08-karatsu-2560.webp 2560w"
+             sizes="(max-width: 767px) 80vw, 100vw" width="1440" height="960" alt=""
+             fetchpriority="low" loading="lazy" decoding="async">
+      </div>
+    </div>
+
+    <div class="p-hero__inner l-container">
+      <div class="p-hero__copy">
+        <div class="p-hero__copy-main">
+
+          <div class="p-hero__headline">
+            <h1 class="p-hero__mark" id="hero-title">
+              <img src="/assets/img/logo-campaign.webp"
+             srcset="/assets/img/logo-campaign-320.webp 320w,
+                     /assets/img/logo-campaign.webp 420w"
+             sizes="(max-width: 767px) 105px, 248px"
+             width="420" height="420"
+                   alt="九州ふっこう応援割さがキャンペーン">
+            </h1>
+            <div class="p-hero__headline-body">
+              <p class="c-badge">令和8年10月1日 宿泊分からスタート</p>
+              <p class="p-hero__title">佐賀を旅して、<br>九州を元気に。</p>
+            </div>
+          </div>
+
+          <p class="p-hero__lead">九州ふっこう応援割さがキャンペーンについて、対象期間や利用方法をご案内</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="c-slidectl js-slidectl" type="button" data-state="playing">
+      <svg class="c-slidectl__icon c-slidectl__icon--pause" viewBox="0 0 24 24" width="20" height="20"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true" focusable="false"><path d="M10 4v16"></path><path d="M14 4v16"></path></svg>
+      <svg class="c-slidectl__icon c-slidectl__icon--play" viewBox="0 0 24 24" width="20" height="20"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           aria-hidden="true" focusable="false"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg>
+      <span class="c-slidectl__label u-sr-only">スライドの自動切り替えを一時停止</span>
+    </button>
+  </section>
+
+  <!-- news -->
+  <section class="p-news" id="news" aria-labelledby="news-title">
+    <div class="l-container">
+      <div class="p-news__box">
+        <div class="p-news__head">
+          <h2 class="p-news__title" id="news-title">お知らせ</h2>
+          <p class="p-news__more">
+            <a class="c-btn c-btn--yellow" href="/news/">すべて見る<svg class="c-btn__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><path d="m10 8 4 4-4 4"></path></svg></a>
+          </p>
+        </div>
+
+        <div class="p-news__body">
+          <dl class="p-news__list">
+            <div class="p-news__row">
+              <dt class="p-news__date"><time datetime="2026-10-22">2026.10.22</time></dt>
+              <dd class="p-news__text"><a href="https://saga-ouen.jp/news/3374902.html">PHPプログラムにおけるお知らせ</a></dd>
+            </div>
+            <div class="p-news__row">
+              <dt class="p-news__date"><time datetime="2026-10-13">2026.10.13</time></dt>
+              <dd class="p-news__text"><a href="https://saga-ouen.jp/news/3356451.html">直接予約可能な宿泊施設一覧を掲載いたしました</a></dd>
+            </div>
+            <div class="p-news__row">
+              <dt class="p-news__date"><time datetime="2026-10-01">2026.10.01</time></dt>
+              <dd class="p-news__text"><a href="https://saga-ouen.jp/news/3348248.html">対象旅行会社を掲載いたしました</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- inquiry -->
+  <section class="p-inquiry" id="contact-top" aria-labelledby="inquiry-title">
+    <div class="l-container">
+      <div class="c-inquiry">
+        <p class="c-inquiry__label" id="inquiry-title">お問い合わせ先</p>
+        <div class="c-inquiry__body">
+          <p class="c-inquiry__name">九州ふっこう応援割さがキャンペーン事務局</p>
+          <p class="c-inquiry__tel"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg><a href="tel:05017324649">050&#8209;1732&#8209;4649</a></p>
+          <p class="c-inquiry__note"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg><span>受付時間：<span class="u-nowrap">平日9時30分～17時30分</span>　<span class="u-nowrap">※土日祝は除く</span></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- notice -->
+  <section class="p-notice" id="notice" aria-labelledby="notice-title">
+    <div class="l-container">
+      <div class="c-notice">
+        <div class="c-notice__head">
+          <svg class="c-notice__icon" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+          <h2 class="c-notice__title" id="notice-title">ご利用にあたっての注意事項</h2>
+        </div>
+        <ul class="c-notice__list">
+          <li>予算上限に達した場合は、キャンペーン期間中であっても終了する場合があります。</li>
+          <li>ビジネス出張その他業務、ライセンス取得等を目的とした宿泊および日帰り旅行は対象外です。</li>
+          <li>予約開始日以前の予約分は、割引対象期間中の宿泊であっても対象外です。</li>
+          <li>予約後のキャンセル・変更の取り扱いは、ご予約された旅行会社、オンライン予約サイトへ直接お問い合わせください。</li>
+          <li>ご旅行前に、キャンペーン割引での予約申込が完了しているか、ご自身でご確認ください。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- about / outline / operators / terms -->
+  <div class="l-section l-section--gray">
+
+    <section class="p-about" id="about" aria-labelledby="about-title">
+      <div class="l-container">
+        <div class="c-heading">
+          <span class="c-heading__bar" aria-hidden="true"></span>
+          <h2 class="c-heading__title" id="about-title">「九州ふっこう応援割さがキャンペーン」とは</h2>
+        </div>
+
+        <div class="p-about__body">
+          <div class="p-about__text">
+            <p>本キャンペーンは、旅行を通じて九州の観光を応援する宿泊割引キャンペーンです。お得に旅行を楽しみながら、佐賀県の自然やグルメ、歴史・文化に触れてみませんか。</p>
+          </div>
+
+          <ul class="p-about__gallery">
+            <li class="p-about__gallery-item">
+              <img class="p-about__gallery-image"
+                   src="/assets/img/about-thumb-01-480.webp"
+                   srcset="/assets/img/about-thumb-01-480.webp 480w,
+                           /assets/img/about-thumb-01-960.webp 960w"
+                   sizes="(min-width: 901px) 206px, calc((100vw - 64px) / 3)"
+                   width="480" height="360" alt="嬉野温泉の湯どうふ"
+                   loading="lazy" decoding="async">
+            </li>
+            <li class="p-about__gallery-item">
+              <img class="p-about__gallery-image"
+                   src="/assets/img/about-thumb-02-480.webp"
+                   srcset="/assets/img/about-thumb-02-480.webp 480w,
+                           /assets/img/about-thumb-02-960.webp 960w"
+                   sizes="(min-width: 901px) 206px, calc((100vw - 64px) / 3)"
+                   width="480" height="360" alt="竹崎かに"
+                   loading="lazy" decoding="async">
+            </li>
+            <li class="p-about__gallery-item">
+              <img class="p-about__gallery-image"
+                   src="/assets/img/about-thumb-03-480.webp"
+                   srcset="/assets/img/about-thumb-03-480.webp 480w,
+                           /assets/img/about-thumb-03-960.webp 960w"
+                   sizes="(min-width: 901px) 206px, calc((100vw - 64px) / 3)"
+                   width="480" height="360" alt="有田焼の小皿"
+                   loading="lazy" decoding="async">
+            </li>
+          </ul>
+          <figure class="p-about__figure">
+            <img class="p-about__image"
+                 src="/assets/img/about-yobuko-880.webp"
+                 srcset="/assets/img/about-yobuko-880.webp 880w,
+                         /assets/img/about-yobuko-1200.webp 1200w,
+                         /assets/img/about-yobuko-1760.webp 1760w"
+                 sizes="(min-width: 901px) 430px, calc(100vw - 40px)"
+                 width="880" height="587" alt="呼子のイカの活造り" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-outline" id="outline" aria-labelledby="outline-title">
+      <div class="l-container">
+        <h3 class="c-heading-sub" id="outline-title">キャンペーン概要</h3>
+
+        <dl class="c-deflist">
+          <dt class="c-deflist__label">割引対象期間</dt>
+          <dd class="c-deflist__data">令和8年10月1日（木曜日）チェックインから<br>令和8年12月26日（土曜日）チェックアウト分まで
+            <span class="c-deflist__note">ただし、キャンペーン開始以前の予約は、割引対象期間中の宿泊であっても対象外</span>
+          </dd>
+
+          <dt class="c-deflist__label">対象者</dt>
+          <dd class="c-deflist__data">国内にお住まいの旅行者及び訪日旅行者</dd>
+
+          <dt class="c-deflist__label">割引率</dt>
+          <dd class="c-deflist__data">旅行・宿泊料金の50%（1予約1名あたり）</dd>
+
+          <dt class="c-deflist__label">上限額</dt>
+          <dd class="c-deflist__data">
+            <ul class="c-deflist__list">
+              <li>宿泊単体商品・交通付宿泊旅行商品 <span class="u-nowrap">1泊</span><b class="c-deflist__amount">2万円</b></li>
+              <li>交通付宿泊旅行商品（2泊以上）<b class="c-deflist__amount">3万円</b></li>
+              <li>周遊型旅行商品（宿泊地が九州2県以上の旅行商品）<b class="c-deflist__amount">3.5万円</b></li>
+            </ul>
+          </dd>
+
+          <dt class="c-deflist__label">予約開始日</dt>
+          <dd class="c-deflist__data">
+            <ul class="c-deflist__list">
+              <li>オンライン予約サイト：9月24日（木曜日）正午（12時）から</li>
+              <li>旅行会社：10月2日（金曜日）から</li>
+              <li>宿泊施設直接予約：10月13日（火曜日）13時から（予定）</li>
+            </ul>
+            <span class="c-deflist__note">※上記日程以降、各オンライン予約サイト、旅行会社及び宿泊施設の準備が整い次第、予約受付を開始します。</span>
+          </dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="p-booking" id="booking" aria-labelledby="booking-title">
+      <div class="l-container">
+        <h3 class="c-heading-sub" id="booking-title">予約方法</h3>
+        <div class="p-terms__box">
+          <p>予約方法は、対象の旅行会社やオンライン予約サイトごとに異なります。ご予約の際は、割引が適用されていることを必ずご確認ください。詳しくは各社のホームページ等をご確認ください。</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="p-operators" id="operators" aria-labelledby="operators-title">
+      <div class="l-container">
+        <h3 class="c-heading-sub" id="operators-title">対象オンライン予約サイト</h3>
+
+        <ul class="p-operators__list">
+          <li class="c-card">
+            <h4 class="c-card__title">楽天トラベル<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://travel.rakuten.co.jp/special/kyushuouen/saga/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">楽天トラベル </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">じゃらんnet<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.jalan.net/kyushu-shien/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">じゃらんnet </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">一休.com<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.ikyu.com/special/01/kyushuouen/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">一休.com </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">Yahoo!トラベル<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://travel.yahoo.co.jp/feature/kyushuouen/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">Yahoo!トラベル </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">ANA X 株式会社<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.ana.co.jp/ja/jp/domestic/theme/kyushu-ouen/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">ANA X 株式会社 </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">るるぶトラベル<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.rurubu.travel/theme/kyushu_fukkou_campaign/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">るるぶトラベル </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">JTB公式サイト<span class="c-card__soldout">※完売しました</span></h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.jtb.co.jp/kokunai/kyushu-ouen/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">JTB公式サイト </span>公式サイトへ<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+
+        </ul>
+
+        <h3 class="c-heading-sub">対象旅行会社<span class="c-heading-sub__note">（予約開始日：10月2日（金曜日）から）</span></h3>
+        <ul class="p-operators__list">
+          <li class="c-card c-card--full">
+            <h4 class="c-card__title">対象の旅行会社一覧</h4>
+            <p class="c-card__action c-card__action--lead"><a class="c-card__link c-card__link--large" href="/assets/pdf/travel-agencies.pdf?2610191906" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4"></path><path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6"></path><path d="M17 18h2"></path><path d="M20 15h-3v6"></path><path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1"></path></svg><span>対象旅行会社一覧<span class="u-nowrap">（PDF：94KB）</span></span><span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+            <div class="c-card__body">
+              <ul class="c-list">
+                <li>準備が整った会社から順次販売していきます。</li>
+                <li>販売に関しては各旅行会社におたずねください。</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <h3 class="c-heading-sub">直接予約可能な宿泊施設<span class="c-heading-sub__note">（予約開始日：10月13日（火曜日）13時から）</span></h3>
+        <ul class="p-operators__list">
+          <li class="c-card c-card--full">
+            <h4 class="c-card__title">対象の宿泊施設一覧</h4>
+            <p class="c-card__action c-card__action--lead"><a class="c-card__link c-card__link--large" href="/assets/pdf/hotels.pdf?2611171949" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4"></path><path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6"></path><path d="M17 18h2"></path><path d="M20 15h-3v6"></path><path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1"></path></svg><span>対象宿泊施設一覧<span class="u-nowrap">（PDF：214KB）</span></span><span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+            <div class="c-card__body">
+              <ul class="c-list">
+                <li>予約受付は、準備が整った宿泊施設から順次開始します。</li>
+                <li>円滑な運営のため、受付開始前の宿泊施設への問い合わせはお控えください。</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="p-terms" id="terms" aria-labelledby="terms-title">
+      <div class="l-container">
+        <h3 class="c-heading-sub" id="terms-title">利用条件</h3>
+        <div class="p-terms__box">
+          <ul class="c-list">
+            <li>佐賀県内の宿泊施設に1泊以上宿泊する旅行であること。</li>
+            <li>対象期間内の宿泊であること。</li>
+            <li>予約開始日以降に予約した宿泊であること。</li>
+            <li>佐賀県内の対象宿泊施設または対象旅行商品を利用すること。</li>
+            <li>宿泊施設において「利用証明書」に署名すること。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- forms -->
+<!--     <section class="p-forms" id="forms" aria-labelledby="forms-title">
+      <div class="l-container">
+        <h3 class="c-heading-sub" id="forms-title">様式ダウンロード</h3>
+        <div class="p-terms__box">
+          <p>ビジネス目的の旅行ではないこと等を確認するため、宿泊施設チェックイン時に利用証明書への署名をお願いすることになります。様式は以下からダウンロードできます。</p>
+
+          <ul class="p-forms__list">
+            <li class="p-forms__item"><span class="c-card__link">※ 現在、準備中です。</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+ -->
+
+    <!-- programs -->
+    <section class="p-programs" id="programs" aria-labelledby="programs-title">
+      <div class="l-container">
+        <h3 class="c-heading-sub" id="programs-title">佐賀のおでかけ情報</h3>
+
+        <ul class="p-programs__list">
+          <li class="c-card">
+            <h4 class="c-card__title">県内周遊<br>バスツアー</h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.asobo-saga.jp/bustours/" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">県内周遊バスツアー </span>詳細はこちら<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">tabiwaチケット<br>九州3県めぐり旅キャンペーン</h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.nta.co.jp/jrodekakenet/plan/n/202608kyushu3kencptk.htm" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">tabiwaチケット九州3県めぐり旅キャンペーン </span>詳細はこちら<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+          <li class="c-card">
+            <h4 class="c-card__title">九州佐賀国際空港1000円<br>レンタカーキャンペーン（佐賀県）</h4>
+            <p class="c-card__action"><a class="c-card__link" href="https://www.pref.saga.lg.jp/airport/kiji00312799/index.html" target="_blank" rel="noopener"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg><span class="u-sr-only">九州佐賀国際空港1000円レンタカーキャンペーン（佐賀県） </span>詳細はこちら<span class="u-sr-only">（新しいタブで開きます）</span></a></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div><!-- /.l-section--gray -->
+
+  <!-- faq -->
+  <section class="p-faq" id="faq" aria-labelledby="faq-title">
+    <div class="l-container">
+      <div class="c-heading">
+        <span class="c-heading__bar" aria-hidden="true"></span>
+        <h2 class="c-heading__title" id="faq-title">よくある質問</h2>
+      </div>
+
+      <div class="c-faq">
+        <details class="c-faq__item" open>
+          <summary class="c-faq__question">いつから利用できますか？</summary>
+          <div class="c-faq__answer"><p>令和8年10月1日（木曜日）宿泊分からご利用いただけます。対象期間は令和8年10月1日（木曜日）チェックインから令和8年12月26日（土曜日）チェックアウト分までです。</p></div>
+        </details>
+
+        <details class="c-faq__item">
+          <summary class="c-faq__question">予約方法を教えてください。</summary>
+          <div class="c-faq__answer"><p>対象の旅行会社、オンライン予約サイト及び宿泊施設からお申込みください。</p></div>
+        </details>
+
+        <details class="c-faq__item">
+          <summary class="c-faq__question">キャンペーン開始前に予約した宿泊も対象となりますか？</summary>
+          <div class="c-faq__answer"><p>いいえ。予約開始日以前の予約は、対象期間中の宿泊であっても対象外です。</p></div>
+        </details>
+
+        <details class="c-faq__item">
+          <summary class="c-faq__question">割引額に上限はありますか？</summary>
+          <div class="c-faq__answer"><p>あります。上限額は以下のとおりです。</p>
+<ul class="c-list">
+<li>宿泊単体商品・交通付宿泊旅行商品 1泊　2万円</li>
+<li>交通付宿泊旅行商品（2泊以上）　3万円</li>
+<li>周遊型旅行商品（宿泊地が九州2県以上の旅行商品）　3.5万円</li>
+</ul></div>
+        </details>
+
+        <details class="c-faq__item">
+          <summary class="c-faq__question">ビジネスやライセンス取得による利用、日帰り旅行は対象になりますか？</summary>
+          <div class="c-faq__answer"><p>いいえ。いずれも対象外です。</p></div>
+        </details>
+
+      </div>
+
+
+      <p class="p-faq__more">
+        <a class="c-btn c-btn--yellow" href="/faq/">よくある質問をすべて見る<svg class="c-btn__icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><path d="m10 8 4 4-4 4"></path></svg></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="p-contact" id="contact" aria-labelledby="contact-title">
+    <div class="l-container">
+      <div class="c-heading">
+        <span class="c-heading__bar" aria-hidden="true"></span>
+        <h2 class="c-heading__title" id="contact-title">お問い合わせ</h2>
+      </div>
+
+      <div class="p-contact__box">
+        <p class="p-contact__name">九州ふっこう応援割<br class="u-br-pc">さがキャンペーン事務局</p>
+        <div class="p-contact__detail">
+          <p class="p-contact__label"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>電話番号</p>
+          <p class="p-contact__tel"><a href="tel:05017324649">050&#8209;1732&#8209;4649</a></p>
+          <p class="p-contact__note"><svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg><span>受付時間：<span class="u-nowrap">平日9時30分～17時30分</span>　<span class="u-nowrap">※土日祝は除く</span></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tourism -->
+  <section class="p-tourism" id="tourism" aria-labelledby="tourism-title">
+    <div class="l-container">
+      <div class="c-heading">
+        <span class="c-heading__bar" aria-hidden="true"></span>
+        <h2 class="c-heading__title" id="tourism-title">県内の観光情報</h2>
+      </div>
+      <p class="p-tourism__lead">佐賀県内の観光情報をご紹介します。</p>
+
+      <ul class="c-banner">
+        <li class="c-banner__item">
+          <a class="c-banner__link" href="https://www.asobo-saga.jp/" target="_blank" rel="noopener">
+            <img class="c-banner__image" src="/assets/img/banner-asobo-saga.webp"
+                 width="640" height="180" alt="佐賀県公式観光サイト あそぼーさが"
+                 loading="lazy" decoding="async">
+            <span class="u-sr-only">（新しいタブで開きます）</span>
+          </a>
+        </li>
+        <li class="c-banner__item">
+
+          <a class="c-banner__link c-banner__link--text" href="https://www.instagram.com/saga_asobo/" target="_blank" rel="noopener">
+            <img class="c-banner__mark" src="/assets/img/banner-asobo-instagram.webp"
+                 width="300" height="300" alt="" loading="lazy" decoding="async">
+            <span class="c-banner__text">あそぼーさが 公式<br>Instagram</span><span class="u-sr-only">（新しいタブで開きます）</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- footer -->
+<footer class="l-footer">
+  <div class="l-container">
+    <p class="l-footer__copyright"><small>&copy; Saga Prefecture. All Rights Reserved.</small></p>
+  </div>
+</footer>
+
+<a class="c-pagetop js-pagetop" href="#top">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <path d="M6 14l6-6 6 6"></path>
+  </svg>
+  <span class="u-sr-only">ページの先頭へ戻る</span>
+</a>
+
+<script src="/assets/js/main.js" defer></script>
+
+</body>
+</html>

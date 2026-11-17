@@ -1,0 +1,15 @@
+HTTP/2 200 
+date: Tue, 17 Nov 2026 12:03:17 GMT
+content-type: application/pdf
+content-length: 218681
+last-modified: Tue, 17 Nov 2026 10:49:44 GMT
+etag: "6a15094971f4e00fb72eb7bc9f56ead5"
+x-amz-version-id: 4FGk8tRUePr.UWlPlJ3lqt3dRwF_iREV
+x-amz-server-side-encryption: AES256
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-runtime: 0.043394
+age: 4392
+accept-ranges: bytes
+strict-transport-security: max-age=3600
+

@@ -1,0 +1,12 @@
+HTTP/2 200 
+date: Tue, 17 Nov 2026 12:03:16 GMT
+content-type: text/html; charset=utf-8
+content-length: 41994
+x-runtime: 0.116360
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: Accept-Encoding
+age: 4266
+accept-ranges: bytes
+strict-transport-security: max-age=3600
+

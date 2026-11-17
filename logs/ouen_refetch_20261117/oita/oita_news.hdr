@@ -1,0 +1,19 @@
+HTTP/2 200 
+content-type: text/csv
+content-length: 1658
+accept-ranges: bytes
+date: Tue, 17 Nov 2026 12:04:09 GMT
+server: AmazonS3
+last-modified: Wed, 04 Nov 2026 00:22:52 GMT
+etag: "ff50c409f3d92da0e24627c7f2d178c4"
+x-amz-version-id: D5EEu1vbXGFWdP3JX3RWe6K8THyDuRTx
+x-amz-server-side-encryption: AES256
+x-cache: Miss from cloudfront
+via: 1.1 32f7ad01a78b18d294b5d56fdb706dca.cloudfront.net (CloudFront)
+x-amz-cf-pop: KIX56-P3
+x-amz-cf-id: qihUGInqyj5Kdu0J1g89FVS0jyPJLoQY_4vbDonwBxFVYcqdaYDdHQ==
+x-frame-options: DENY
+content-security-policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://s.yimg.jp https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://www.google.co.jp https://www.google-analytics.com https://www.googletagmanager.com https://*.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://b92.yahoo.co.jp https://y.yahoo.co.jp https://www.facebook.com; connect-src 'self' https://www.google.co.jp https://analytics.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net https://b92.yahoo.co.jp https://www.facebook.com; frame-src 'self' https://www.googletagmanager.com https://bid.g.doubleclick.net https://www.facebook.com; upgrade-insecure-requests
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains
+

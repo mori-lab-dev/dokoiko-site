@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>九州ふっこう応援割 ふくおかキャンペーン</title>
+<meta name="description" content="九州ふっこう応援割は、令和8年熊本地震の影響を受けた九州地方の観光需要を喚起するため、九州地方への旅行・宿泊料金を支援する制度です。">
+
+<!-- Favicon（ロゴから生成した仮素材・背景透過。正式なアイコンが来たら差し替える。差し替えたら ?v= の数字を上げる） -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="canonical" href="https://fukuoka-fukkou-wari.jp/">
+
+<!-- ============================================================
+     OGP / Twitter Card
+     ※ og:image はヒーロー写真＋ロゴで作った仮素材（assets/img/common/ogp-image.jpg / 1200×630）。
+       正式なシェア画像が来たら差し替える
+     ============================================================ -->
+<meta property="og:title" content="九州ふっこう応援割 ふくおかキャンペーン">
+<meta property="og:description" content="福岡県の九州ふっこう応援割キャンペーン。お得な宿泊プランやクーポン情報をご紹介します。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fukuoka-fukkou-wari.jp/">
+<meta property="og:image" content="https://fukuoka-fukkou-wari.jp/assets/img/common/ogp-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="九州ふっこう応援割 ふくおかキャンペーン">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="九州ふっこう応援割 ふくおかキャンペーン">
+<meta name="twitter:description" content="福岡県の九州ふっこう応援割キャンペーン。お得な宿泊プランやクーポン情報をご紹介します。">
+<meta name="twitter:image" content="https://fukuoka-fukkou-wari.jp/assets/img/common/ogp-image.jpg">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WRKNPQC3');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Noto Sans JP（デザイン準拠のフォント） -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- style.css は @layer app で囲っているため、レイヤー外の add.css が常に最優先で適用される -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/add.css">
+</head>
+<body class="page-index">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRKNPQC3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ============================================================
+     ヘッダー（グラデーションバー）
+     ============================================================ -->
+<header class="l-header">
+  <div class="l-header__inner">
+    <!-- 左端のロゴ（常時表示。768〜899px だけはナビと重なるので CSS で非表示にしている） -->
+    <a class="l-header__logo" href="/">
+      <img src="assets/img/common/logo.png" width="75" height="73" alt="九州ふっこう応援割 福岡県">
+    </a>
+
+    <!-- SP ではこのまとまりが右からのドロワーになる -->
+    <div class="l-header__menu" id="global-nav">
+      <nav class="l-header__nav" aria-label="グローバルナビゲーション">
+        <ul class="l-header__list">
+          <li><a href="#about">九州ふっこう応援割とは</a></li>
+          <li><a href="#discount">割引内容</a></li>
+          <li><a href="#apply">お申込み方法で選ぶ</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <a class="c-btn-header" href="business/">事業者の方はこちら</a>
+    </div>
+
+    <!-- ハンバーガーボタン（SP のみ表示） -->
+    <button class="c-hamburger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
+      <span class="c-hamburger__line"></span>
+      <span class="c-hamburger__line"></span>
+      <span class="c-hamburger__line"></span>
+    </button>
+  </div>
+  <!-- ドロワーを開いたときの暗幕（SP のみ） -->
+  <div class="l-header__overlay"></div>
+</header>
+<!-- ヘッダーが position: fixed になったぶんの高さを埋める（追従開始時に本文が跳ねないように） -->
+<div class="l-header__spacer" aria-hidden="true"></div>
+
+<main>
+
+  <!-- ============================================================
+       ヒーロー（波形シェイプ＋ロゴ）
+       ============================================================ -->
+  <div class="p-hero">
+    <!-- ============================================================
+         背景写真（クロスフェードのスライド）
+         ・2枚目以降を足すときは、同じ <img class="p-hero__photo"> をこの中に並べるだけ。
+           先頭の1枚には is-current を付けておく（JS が動かない環境でも写真が出るように）
+           WebP を使うときは <picture> の中に <source type="image/webp"> と <img class="p-hero__photo"> を入れる
+           （img 直置きと picture 囲みは混ぜてよい。寄る／引くは .p-hero__photos 直下の順番で交互になる）
+         ・切り替えの速さと表示時間は assets/js/main.js の initHeroSlider() の引数で変える
+         ・1枚だけのときは切り替えない
+         ============================================================ -->
+    <div class="p-hero__photos">
+      <picture>
+        <source srcset="assets/img/index/hero-photo.webp" type="image/webp">
+        <!-- キャプションは data-caption に入れる（空にすると .p-hero__caption が :empty で消える） -->
+        <img class="p-hero__photo is-current" src="assets/img/index/hero-photo.jpg" width="2000" height="1164" alt="" aria-hidden="true" data-caption="「雷山千如寺 大悲王院」写真提供：福岡県観光連盟">
+      </picture>
+      <!-- 2枚目以降のサンプル（コメントを外すとクロスフェードのスライドになる）
+           ・写真ごとのキャプションは data-caption に入れる
+      <img class="p-hero__photo" src="assets/img/index/hero-photo_dummy01.jpg" width="2000" height="1164" alt="" aria-hidden="true" data-caption="写真協力：▲▲▲▲">
+      <img class="p-hero__photo" src="assets/img/index/hero-photo_dummy02.jpg" width="2000" height="1164" alt="" aria-hidden="true" data-caption="写真協力：■■■■">
+      -->
+    </div>
+
+    <!-- 写真のキャプション(右下)。写真ごとの文言は各 .p-hero__photo の data-caption に入れておくと、
+         クロスフェードに合わせて JS(initHeroSlider)が差し替える。data-caption が無い写真では非表示になる -->
+    <p class="p-hero__caption" aria-hidden="true"></p>
+    <!-- 装飾の波形。右上・左下でファイルを分け、それぞれの角に固定している
+         （1枚にまとめると幅を変えたときに片方が画面外へ切れてしまうため） -->
+    <!-- 右上の波形シェイプは現在使っていない。あとで使う可能性があるので削除せずにコメントアウトしている
+         （CSS の .p-hero__shape--top と SVG ファイルはそのまま残してある）
+    <img class="p-hero__shape p-hero__shape--top" src="assets/img/index/hero-shape-top.svg" alt="" aria-hidden="true">
+    -->
+    <img class="p-hero__shape p-hero__shape--bottom" src="assets/img/index/hero-shape-bottom.svg" alt="" aria-hidden="true">
+    <!-- 左側に散らす食べ物などの写真（1枚の透過 PNG にまとまっている） -->
+    <picture>
+      <source srcset="assets/img/index/hero-thumbnail.webp" type="image/webp">
+      <img class="p-hero__thumbs" src="assets/img/index/hero-thumbnail.png" width="1426" height="1127" alt="" aria-hidden="true">
+    </picture>
+    <h1 class="p-hero__logo">
+      <img src="assets/img/common/logo.png" width="300" height="293" alt="九州ふっこう応援割 福岡県">
+    </h1>
+  </div>
+
+  <!-- ============================================================
+       お知らせ（実測：news.png / コンテンツ幅 922px）
+       ============================================================ -->
+  <!-- バナーを出さない場合は class に p-news--no-banner を足す
+       （バナーエリアが消えて、お知らせが横幅いっぱいになる） -->
+  <!-- バナーの素材が入るまで、右のバナー欄は p-news--no-banner で非表示にしている（2026-09-16）。
+       出すときはこのクラスを外す -->
+  <section class="p-news p-news--no-banner" id="news">
+    <div class="l-container">
+      <div class="p-news__inner">
+
+        <!-- 左：お知らせ一覧 -->
+        <div class="p-news__main">
+          <h2 class="p-news__title">お知らせ</h2>
+          <!-- お知らせは CSV（/csv/fukuoka_news.csv）から assets/js/news.js が差し込む（2026-10-14 に直書きから移行）。
+               トップは日付＋タイトルを全件表示（欄の高さは CSS 側でスクロールさせている）。
+               件数を絞るときは data-news-limit="3" のように指定する。
+               data-news-link … 本文があるお知らせのタイトルを、お知らせ一覧のアンカーへのリンクにする -->
+          <dl class="p-news__list" data-news-csv="/csv/fukuoka_news.csv" data-news-link="/news/"></dl>
+          <p class="p-news__more"><a href="/news/">お知らせ一覧 ＞</a></p>
+        </div>
+
+        <!-- 右：バナー（自動フェード切り替え。素材が入るまではプレースホルダー）
+             自動切り替えの ON/OFF は assets/js/main.js の initNewsBanner() の引数で変更する -->
+        <div class="p-news__banner">
+          <ul class="p-news__slides">
+            <li class="p-news__slide is-current"><a href="#">バナーエリア</a></li>
+            <li class="p-news__slide"><a href="#">バナーエリア</a></li>
+            <li class="p-news__slide"><a href="#">バナーエリア</a></li>
+          </ul>
+          <ul class="p-news__dots">
+            <li><button class="p-news__dot is-current" type="button" aria-label="バナー1枚目を表示"></button></li>
+            <li><button class="p-news__dot" type="button" aria-label="バナー2枚目を表示"></button></li>
+            <li><button class="p-news__dot" type="button" aria-label="バナー3枚目を表示"></button></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       お迎えバンド
+       ============================================================ -->
+  <!-- カンプに無いため非表示（2026-09-14 指示。削除せずコメントアウト。戻すときはこのコメントを外す）
+  <section class="p-welcome">
+    <div class="l-container">
+      <h2 class="p-welcome__title">福岡県は、いつもどおり<br class="u-br-sp">皆さまをお迎えしています。</h2>
+      <div class="p-welcome__body">
+        <p class="p-welcome__text">
+          福岡県内の宿泊施設・観光施設等は平常どおり営業しています。<br>
+          温泉、食、自然、そして福岡ならではのおもてなしを楽しみに、ぜひお越しください。
+        </p>
+        <img loading="lazy" class="p-welcome__illust" src="assets/img/index/illust-family.png" width="205" height="153" alt="">
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- ============================================================
+       九州ふっこう応援割とは ＋ 割引内容
+       ============================================================ -->
+  <section class="p-about" id="about">
+    <div class="l-container">
+      <h2 class="c-heading c-heading--tub">九州ふっこう応援割とは</h2>
+      <p class="p-about__lead">九州ふっこう応援割は、<br>令和8年熊本地震の影響を受けた九州地方の観光需要を喚起するため、<br>九州地方への旅行・宿泊料金を支援する制度です。<br>旅して楽しむことが、九州の応援につながります。</p>
+      <!-- 対象外の注意書き（2026-10-19 追加）。指定は add.css の .p-about__note -->
+      <p class="p-about__note">※九州(福岡県・佐賀県・長崎県・熊本県・大分県・宮崎県・鹿児島県)以外の宿泊地を含む旅行商品については対象外</p>
+
+      <!-- 3ステップ -->
+      <ol class="p-steps">
+        <li class="p-steps__item">
+          <p class="p-steps__label">
+            <span class="p-steps__mark">
+              <span class="p-steps__lead-word">まずは</span>
+              <img loading="lazy" class="p-steps__heart" src="assets/img/index/icon-heart.png" width="34" height="30" alt="">
+            </span>
+            <span class="p-steps__title">50%OFFで<br>旅行を予約</span>
+          </p>
+          <img loading="lazy" class="p-steps__icon" src="assets/img/index/step-icon-01.png" width="128" height="128" alt="">
+          <p class="p-steps__text">対象の宿泊施設や<br>旅行商品を予約</p>
+        </li>
+        <li class="p-steps__arrow" aria-hidden="true"><img loading="lazy" src="assets/img/index/icon-arrow.png" width="35" height="32" alt=""></li>
+        <li class="p-steps__item">
+          <p class="p-steps__label">
+            <span class="p-steps__mark">
+              <span class="p-steps__lead-word">そして</span>
+              <img loading="lazy" class="p-steps__heart" src="assets/img/index/icon-heart.png" width="34" height="30" alt="">
+            </span>
+            <span class="p-steps__title">福岡へ旅行</span>
+          </p>
+          <img loading="lazy" class="p-steps__icon" src="assets/img/index/step-icon-02.png" width="128" height="128" alt="">
+          <p class="p-steps__text">福岡県で旅を満喫！</p>
+        </li>
+        <li class="p-steps__arrow" aria-hidden="true"><img loading="lazy" src="assets/img/index/icon-arrow.png" width="35" height="32" alt=""></li>
+        <li class="p-steps__item">
+          <p class="p-steps__label">
+            <img loading="lazy" class="p-steps__heart" src="assets/img/index/icon-heart.png" width="34" height="30" alt="">
+            <span class="p-steps__title">福岡を<br>旅して応援！</span>
+          </p>
+          <img loading="lazy" class="p-steps__icon" src="assets/img/index/step-icon-03.png" width="128" height="128" alt="">
+          <p class="p-steps__text">旅することが<br>福岡の力になる！</p>
+        </li>
+      </ol>
+
+      <!-- 割引内容ボックス -->
+      <div class="p-discount" id="discount">
+        <h3 class="p-discount__title"><span>割引内容</span> どれくらいお得？</h3>
+        <div class="p-discount__grid">
+
+          <!-- CASE1：宿泊単体 -->
+          <div class="c-case">
+            <p class="c-case__tag">CASE</p>
+            <!-- 商品名（.c-case__title-main）の下に条件（.c-case__title-sub）を小さく置く -->
+            <p class="c-case__title"><span class="c-case__title-main">宿泊単体商品</span></p>
+            <div class="c-case__visual">
+              <span class="c-case__illust">
+                <img loading="lazy" src="assets/img/index/illust-bed.png" width="70" height="45" alt="">
+              </span>
+              <span class="c-case__off"><span class="c-case__off-num">50</span><span class="c-case__off-unit">%OFF</span></span>
+            </div>
+            <p class="c-case__per">1旅行1名につき</p>
+            <p class="c-case__price"><span class="c-case__price-label">最大</span><span class="c-case__price-num">20,000</span><span class="c-case__price-unit">円</span></p>
+          </div>
+
+          <!-- CASE2：交通付（1泊） -->
+          <div class="c-case">
+            <p class="c-case__tag">CASE</p>
+            <p class="c-case__title"><span class="c-case__title-main">交通付宿泊旅行商品</span><span class="c-case__title-sub">(1泊)</span></p>
+            <div class="c-case__visual">
+              <span class="c-case__illust">
+                <img loading="lazy" src="assets/img/index/illust-bed.png" width="70" height="45" alt="">
+                <span class="c-case__plus" aria-hidden="true">＋</span>
+                <img loading="lazy" src="assets/img/index/illust-train.png" width="80" height="42" alt="">
+              </span>
+              <span class="c-case__off"><span class="c-case__off-num">50</span><span class="c-case__off-unit">%OFF</span></span>
+            </div>
+            <p class="c-case__per">1旅行1名につき</p>
+            <p class="c-case__price"><span class="c-case__price-label">最大</span><span class="c-case__price-num">20,000</span><span class="c-case__price-unit">円</span></p>
+          </div>
+
+          <!-- CASE3：交通付（2泊以上） -->
+          <div class="c-case">
+            <p class="c-case__tag">CASE</p>
+            <p class="c-case__title"><span class="c-case__title-main">交通付宿泊旅行商品</span><span class="c-case__title-sub">(2泊以上)</span></p>
+            <div class="c-case__visual">
+              <span class="c-case__illust">
+                <img loading="lazy" src="assets/img/index/illust-bed.png" width="70" height="45" alt="">
+                <span class="c-case__plus" aria-hidden="true">＋</span>
+                <img loading="lazy" src="assets/img/index/illust-train.png" width="80" height="42" alt="">
+              </span>
+              <span class="c-case__off"><span class="c-case__off-num">50</span><span class="c-case__off-unit">%OFF</span></span>
+            </div>
+            <p class="c-case__per">1旅行1名につき</p>
+            <p class="c-case__price"><span class="c-case__price-label">最大</span><span class="c-case__price-num">30,000</span><span class="c-case__price-unit">円</span></p>
+          </div>
+
+          <!-- CASE4：周遊型 -->
+          <div class="c-case">
+            <p class="c-case__tag">CASE</p>
+            <p class="c-case__title"><span class="c-case__title-main">周遊型旅行商品</span><span class="c-case__title-sub">(宿泊地が2県以上)</span></p>
+            <div class="c-case__visual">
+              <span class="c-case__illust">
+                <img loading="lazy" src="assets/img/index/illust-map.png" width="102" height="71" alt="">
+              </span>
+              <span class="c-case__off"><span class="c-case__off-num">50</span><span class="c-case__off-unit">%OFF</span></span>
+              <!-- 下の注記（※1）への目印 -->
+              <span class="c-case__off-note">※1</span>
+            </div>
+            <p class="c-case__per">1旅行1名につき</p>
+            <p class="c-case__price"><span class="c-case__price-label">最大</span><span class="c-case__price-num">35,000</span><span class="c-case__price-unit">円</span></p>
+          </div>
+
+          <div class="c-example">
+            <p class="c-example__head">例えば、<br>1泊交通付の場合</p>
+            <div class="c-example__body">
+              <p class="c-example__row"><span class="c-example__key">通常料金</span><b>40,000</b><span class="c-example__unit">円</span></p>
+              <p class="c-example__arrow" aria-hidden="true">↓</p>
+              <p class="c-example__row"><span class="c-example__key">応援割</span><b>−20,000</b><span class="c-example__unit">円</span></p>
+              <p class="c-example__arrow" aria-hidden="true">↓</p>
+              <!-- 横並びにしたとき、マーカーと金額が別々の行に分かれないようまとめている -->
+              <div class="c-example__result">
+                <p class="c-example__marker">適用後お支払い金額</p>
+                <p class="c-example__total"><b>20,000</b><span class="c-example__unit">円</span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- 「周遊型旅行商品」の ※1 の注記 -->
+        <p class="p-discount__note"><span class="p-discount__note-mark">※1</span>熊本県または鹿児島県の宿泊を含む周遊型旅行商品(宿泊地が2県以上の旅行商品)にあたっては、旅行代金の最大60%OFF。</p>
+
+        <!-- ============================================================
+             「1旅行」の説明（2026-10-19 追加。鹿児島の .p-caution と同じ作り）
+             ・文言は鹿児島と同じ。例の「鹿児島県内」だけ「福岡県内」にした
+             ・CSS は add.css の「1旅行の説明」の節
+             ============================================================ -->
+        <div class="p-caution">
+
+          <div class="p-caution__block">
+            <h4 class="p-caution__title">「1旅行」とは？</h4>
+            <div class="p-caution__card">
+            <!-- 「・・・」の頭をそろえるため、商品名・「・・・」・本文を span で分けている
+                 （.is-case が flex。767px 以下は flex を解除して普通の1文に戻る） -->
+            <ul class="p-caution__list">
+              <li class="is-case"><span class="p-caution__case">宿泊単体商品の場合</span><span class="p-caution__dots">・・・</span><span>宿泊施設に最初の宿泊のチェックインからチェックアウトまでを「1旅行」といいます</span></li>
+              <li class="is-case"><span class="p-caution__case">交通付・周遊型旅行の場合</span><span class="p-caution__dots">・・・</span><span>集合(駅・空港など)場所から解散(駅・空港など)場所までを「1旅行」といいます</span></li>
+            </ul>
+            </div>
+          </div>
+
+          <div class="p-caution__block">
+            <h4 class="p-caution__title">割引対象は「1旅行1名あたり」</h4>
+            <div class="p-caution__card">
+            <ul class="p-caution__list">
+              <li>連泊制限は設けない一方で、<strong>割引対象は1泊1名あたりではなく、「1旅行1名あたり」</strong>とするため、泊数に関わらず割引限度額(20,000円)は変わりません。<br>
+              連泊にもかかわらずチェックイン、チェックアウトが繰り返された予約は後日審査の対象とさせていただき、内容の如何によっては返還請求することがございます。</li>
+            </ul>
+            <div class="p-caution__example">
+              <p class="p-caution__ex-lead">例)福岡県内の1泊40,000円の宿泊施設におひとり様で2連泊する場合</p>
+              <div class="c-alert c-alert--ok">
+                <p class="c-alert__body">1旅行(1泊40,000円×2泊)に対して、割引額は20,000円</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ご利用期間 ＋ お申込み方法
+       ============================================================ -->
+  <section class="p-pale">
+
+    <!-- ご利用期間 -->
+    <!-- ============================================================
+         【キャンペーン終了時の表示について】
+
+         下の <div class="p-period"> のクラスに is-ended を足すだけで、
+         ご利用期間のテーブルと注釈の上にグレーの膜がかかり、
+         中央に「キャンペーンは終了しました」が表示される。
+
+           終了させる … <div class="p-period is-ended">
+           元に戻す   … <div class="p-period">
+
+         ・文言を変える場合は、下のほうにある .p-period__end-text の中身を書き換える
+         ・膜の濃さ（現在 rgba(0,0,0,.8)）や赤帯の色・文字サイズを変えたい場合は
+           css/add.css にコメントで調整例を置いてある
+         ============================================================ -->
+    <div class="p-period">
+      <div class="l-container">
+        <h2 class="c-heading c-heading--tub">ご利用期間</h2>
+        <!-- テーブル＋注釈。キャンペーン終了時は、この中にグレーの膜と告知を重ねる -->
+        <div class="p-period__body">
+          <dl class="p-period__table">
+            <div class="p-period__row">
+              <dt class="p-period__key">割引対象期間</dt>
+              <dd class="p-period__val"><span class="p-period__date"><span class="p-period__year">2026年</span>10月1日<span class="p-period__dow">(木)</span></span>〜<span class="p-period__date"><span class="p-period__year">2026年</span>12月15日<span class="p-period__dow">(火)</span></span><span class="p-period__note">※12/16チェックアウト迄</span></dd>
+            </div>
+            <div class="p-period__row">
+              <dt class="p-period__key">予約・販売期間</dt>
+              <dd class="p-period__val"><span class="p-period__date"><span class="p-period__year">2026年</span>9月24日<span class="p-period__dow">(木)</span></span>〜<span class="p-period__date"><span class="p-period__year">2026年</span>12月15日<span class="p-period__dow">(火)</span></span></dd>
+            </div>
+          </dl>
+          <ul class="p-period__notes">
+            <li><span class="p-period__mark">※1</span>予約・販売開始日より前にお申込みいただいた分は、キャンペーン対象外となります。</li>
+            <li><span class="p-period__mark">※2</span>予算の上限に達し次第、キャンペーンは終了いたします。あらかじめご了承ください。</li>
+            <li><span class="p-period__mark">※3</span>予約・販売期間や割引対象期間は、宿泊施設・旅行会社・OTAによって異なる場合がございますので、ご注意ください。</li>
+
+          </ul>
+          <!-- キャンペーン終了時の表示。
+               通常は CSS で display: none。上の .p-period に is-ended を付けると表示される。
+               文言を変えるときはこの <p> の中身を書き換える -->
+          <div class="p-period__end">
+            <p class="p-period__end-text">キャンペーンは終了しました</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="c-divider">
+
+    <!-- お申込み方法で選ぶ -->
+    <div class="p-apply" id="apply">
+      <div class="l-container">
+        <h2 class="c-heading c-heading--tub">お申込み方法で選ぶ</h2>
+
+        <!-- 選択カード -->
+        <ul class="p-apply__cards">
+          <li class="c-choice">
+            <a class="c-choice__link" href="#apply01">
+              <span class="c-choice__num">01</span>
+              <span class="c-choice__title">県内宿泊施設で<br>申込む</span>
+              <img loading="lazy" class="c-choice__icon" src="assets/img/index/illust-hotel.png" width="78" height="83" alt="">
+              <span class="c-choice__chevron" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li class="c-choice">
+            <a class="c-choice__link" href="#apply02">
+              <span class="c-choice__num">02</span>
+              <span class="c-choice__title">OTA(宿泊予約サイト)で<br>申込む</span>
+              <img loading="lazy" class="c-choice__icon" src="assets/img/index/illust-phone.png" width="53" height="95" alt="">
+              <span class="c-choice__chevron" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li class="c-choice">
+            <a class="c-choice__link" href="#apply03">
+              <span class="c-choice__num">03</span>
+              <span class="c-choice__title">旅行会社で<br>申込む</span>
+              <img loading="lazy" class="c-choice__icon" src="assets/img/index/illust-agency.png" width="76" height="91" alt="">
+              <span class="c-choice__chevron" aria-hidden="true"></span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- ============================================================
+             【申込みボタンを非アクティブ（グレー）にする方法】
+             各パネル下の <p class="c-panel__action"> の中の <a class="c-btn"> を
+             下のように書き換えるだけ。CSS を触る必要はない。
+
+               有効（ピンク・クリックできる）
+                 <a class="c-btn" href="#">宿泊施設を探す</a>
+
+               非アクティブ（グレー・クリックできない）
+                 <a class="c-btn is-disabled" href="#" aria-disabled="true" tabindex="-1">宿泊施設を探す</a>
+
+             ・is-disabled … 背景がグレーになり、クリックとホバーが効かなくなる（文字は白のまま）
+             ・aria-disabled="true" … 読み上げソフトに「無効なリンク」と伝える
+             ・tabindex="-1" … Tab キーでフォーカスが当たらないようにする
+             ・href="#" は残したままでよい（CSS の pointer-events で無効化しているため）
+
+             有効に戻すときは、is-disabled / aria-disabled / tabindex の3つを消す。
+
+             ※ 2026-09-14 に 03（旅行会社を探す）を有効に戻したので、現在グレーのボタンは無い
+             ※ グレーの色を変えたい場合は assets/css/style.css の :root にある c-gray-btn 変数（現在 #B5B5B5）、
+               または assets/css/add.css で .c-btn.is-disabled の background を上書きする
+             ============================================================ -->
+
+        <!-- 01 県内宿泊施設 -->
+        <div class="c-panel" id="apply01">
+          <p class="c-panel__tag">01</p>
+          <h3 class="c-panel__title">県内宿泊施設で申込む</h3>
+          <div class="c-panel__body">
+            <div class="c-panel__text">
+              <p>本ホームページに掲載している宿泊施設のうち、直接予約が可能な施設については、公式ホームページまたはお電話でお申込みください。お申込みの際は、「九州ふっこう応援割」を利用希望である旨をお伝えください。宿泊施設にて、代表者の本人確認と補助金申請書へのご記入をお願いいたします。</p>
+              <p style="color:var(--c-red); background-color:var(--c-pink-pale); padding:10px; margin-top: 15px; border-radius: 10px;">※施設によっては、直接予約を受け付けていない場合がございます。その場合は、OTA(宿泊予約サイト)または旅行会社経由でのお申込みをご検討ください。</p>
+            </div>
+            <img loading="lazy" class="c-panel__illust" src="assets/img/index/illust-hotel.png" width="177" height="188" alt="">
+          </div>
+          <p class="c-panel__action"><a class="c-btn" href="stay/">宿泊施設を探す</a></p>
+        </div>
+
+        <!-- 02 OTA -->
+        <div class="c-panel c-panel--ota" id="apply02">
+          <p class="c-panel__tag">02</p>
+          <h3 class="c-panel__title">OTA(宿泊予約サイト)で申込む</h3>
+          <div class="c-panel__body">
+            <div class="c-panel__text">
+              <p>以下のバナーリンクから、ご希望の宿泊予約サイトへアクセスし、ご自身でお申込みください。</p>
+              <!-- バナーの注意事項は一旦非表示（2026-09-29）。出すときはこのコメントを外す
+              <p style="color:var(--c-red); background-color:var(--c-pink-pale); padding:10px; margin-top: 15px; border-radius: 10px;">※バナーリンクの公開は、準備が整った宿泊予約サイトから順次開始いたします。各サイトでの商品販売開始時刻は異なりますので、詳細は公開後に各サイトにてご確認ください。</p>
+              -->
+            </div>
+            <img loading="lazy" class="c-panel__illust" src="assets/img/index/illust-phone.png" width="113" height="201" alt="">
+          </div>
+          <!-- リンク先が決まったら href="#" を差し替える -->
+          <!-- 掲載中のバナー（2026-09-29） -->
+          <ul class="p-ota">
+            <li><a href="https://travel.rakuten.co.jp/special/kyushuouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_rakuten.png" width="520" height="200" alt="楽天トラベル"></a><span class="p-ota__date">10/1(木)10:00発売</span></li>
+            <li><a href="https://www.ikyu.com/special/01/kyushuouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_ikyu.png" width="520" height="200" alt="一休.com"></a><span class="p-ota__date">10/1(木)12:00発売</span></li>
+            <li><a href="https://travel.yahoo.co.jp/feature/kyushuouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_travel_yahoo.png" width="520" height="200" alt="Yahoo!トラベル"></a><span class="p-ota__date">10/1(木)12:00発売</span></li>
+            <!-- 2026-10-01 追加（JALPAK・ANA X） -->
+            <li><a href="https://www.jal.co.jp/jp/ja/domtour/kyu/kyusyu-fukko-ouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_jal.png" width="520" height="200" alt="JALPAK"></a><span class="p-ota__date">10/1(木)14:00発売</span></li>
+            <li><a href="https://www.ana.co.jp/ja/jp/domestic/theme/kyushu-ouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_anax.png" width="520" height="200" alt="ANA X"></a><span class="p-ota__date">10/1(木)14:00発売</span></li>
+            <!-- 2026-10-02 追加（Jtrip・じゃらん） -->
+            <li><a href="https://www.jalan.net/kyushu-shien/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_jalan.png" width="520" height="200" alt="じゃらん"></a><span class="p-ota__date">10/8(木)10:00発売</span></li>
+            <!-- 2026-10-05 追加（ニーズツアー・Jcation・名鉄観光） -->
+            <li><a href="https://www.needstour.com/kyushu/fukko-oenwari/?media=KOF&utm_source=fukuoka_shukuhakuwari&utm_medium=referral&utm_campaign=fukuoka_shukuhakuwari_pagelink&utm_content=kyushu_fukko-oenwari/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_needstour.png" width="520" height="200" alt="NEEDS TOUR"></a><span class="p-ota__date">10/8(木)10:00発売</span></li>
+            <li><a href="https://jcation.com/blog/kyushuouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_jcation.png" width="520" height="200" alt="Jcation"></a><span class="p-ota__date">10/7(水)15:00発売</span></li>
+            <li><a href="https://www.mwt.co.jp/kokunai/kyushu/special/fightkyushu/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_mwt.png" width="520" height="200" alt="名鉄観光"></a><span class="p-ota__date">10/6(火)12:00発売</span></li>
+            <!-- 2026-10-09 追加（エアトリ） -->
+            <li><a href="https://japantour.airtrip.jp/special/kyushu/fukko-oenwari/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_airtrip.png" width="520" height="200" alt="エアトリ"></a><span class="p-ota__date">10/13(火)12:00発売</span></li>
+            <!-- 2026-10-13 掲載開始（近畿日本ツーリスト）。発売日は 10/7 → 10/14 に変更 -->
+            <li><a href="https://www.knt.co.jp/kyushu-ouenwari/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_knt.png" width="520" height="200" alt="近畿日本ツーリスト"></a><span class="p-ota__date">10/14(水)14:00発売</span></li>
+            <!-- 2026-10-19 追加（イオンコンパストラベルモール） -->
+            <li><a href="https://www.aeoncompass.com/campaign/26kyusyufukkou/?utm_source=fukuokafukkouwari&amp;utm_medium=lp&amp;utm_campaign=26kyusyufukkou" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_aeon.png" width="520" height="200" alt="イオンコンパストラベルモール"></a><span class="p-ota__date">10/20(火)11:00発売</span></li>
+            <!-- 2026-10-20 追加（東武トップツアーズ） -->
+            <li><a href="https://tobutoptours.jp/dom/kyushu_ouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_ttt.png" width="520" height="200" alt="東武トップツアーズ"></a><span class="p-ota__date">10/21(水)14:00発売</span></li>
+            <!-- 2026-10-26 再表示（Jtrip）。10/2 に追加後コメントアウトしていたものを、発売日を変えて一番最後に表示 -->
+            <li><a href="https://www.jtrip.co.jp/j-kyushu/sp/fukko-ouenwari/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_jtrip.png" width="520" height="200" alt="Jtrip"></a><span class="p-ota__date">10/26(月)12:00発売</span></li>
+            <!-- 2026-10-29 追加（株式会社アドベンチャー／skyticket） -->
+            <li><a href="https://skyticket.jp/hot/campaign/2026/kyushu-fukko/index.html" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_skyticket.png" width="520" height="200" alt="skyticket"></a><span class="p-ota__date">10/29(木)11:00発売</span></li>
+            <!-- クラブツーリズムは引き続き非表示（出すときはこの囲みを外す）
+            <li><a href="https://www.club-t.com/sp/special/japan/kyusyu-ouen/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_club-t.png" width="520" height="200" alt="クラブツーリズム"></a><span class="p-ota__date">10/7(水)10:00発売</span></li>
+            -->
+
+<!-- 未掲載のバナー（リンク先が決まったら上の <ul> の中へ移す）
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_ikyu.png" width="520" height="200" alt="一休.com"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_travel_yahoo.png" width="520" height="200" alt="Yahoo!トラベル"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_rurubu.png" width="520" height="200" alt="るるぶトラベル"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_rakuten.jpg" width="520" height="200" alt="楽天トラベル"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_wbf.jpg" width="520" height="200" alt="peach / White-Bear Family"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_knt.png" width="520" height="200" alt="近畿日本ツーリスト"></a></li>
+-->
+            <!-- 一旦非表示のバナー（2026-09-14 の指示。出すときは <ul> の中へ戻す）
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_jtb.png" width="520" height="200" alt="JTB"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_club-t.jpg" width="520" height="200" alt="クラブツーリズム"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_yuko.png" width="520" height="200" alt="ゆこゆこ"></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/img/index/banner_ota/ota_furunavi.png" width="520" height="200" alt="ふるなびトラベル予約"></a></li>
+            -->
+          </ul>
+
+        </div>
+
+        <!-- 03 旅行会社 -->
+        <div class="c-panel" id="apply03">
+          <p class="c-panel__tag">03</p>
+          <h3 class="c-panel__title">旅行会社で申込む</h3>
+          <div class="c-panel__body">
+            <div class="c-panel__text">
+              <p>本ホームページに掲載している旅行会社へ直接お申込みください。 お申込み方法は旅行会社によって異なりますので、ご自身でご確認ください。 お申込みの際は、「九州ふっこう応援割」を利用希望である旨をお伝えください。 旅行会社にて、代表者の本人確認と補助金申請書へのご記入をお願いいたします。</p>
+            </div>
+            <img loading="lazy" class="c-panel__illust" src="assets/img/index/illust-agency.png" width="173" height="207" alt="">
+          </div>
+          <!-- 2026-09-29：agt/ の準備ができたので有効化（is-disabled と「(準備中)」を外した） -->
+          <p class="c-panel__action"><a class="c-btn" href="agt/">旅行会社を探す</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       福岡県を旅しよう ＋ FAQ
+       ============================================================ -->
+  <section class="p-white">
+
+    <!-- 関連サイトバナー
+         画像は assets/img/index/banner_external/ に置く（表示 410 × 160 / 素材は倍寸の 820 × 320）
+         2枚目・3枚目は仮の external_sample.png。正式素材とリンク先が決まったら差し替える
+         使わない場合は、この <div class="p-banner"> 〜 </div> をコメントで囲む -->
+    <div class="p-banner">
+      <div class="l-container">
+        <h2 class="c-heading c-heading--tub">関連サイトバナー</h2>
+        <ul class="p-banner__list">
+          <li class="p-banner__item">
+            <a href="https://www.crossroadfukuoka.jp/feature/fukuoka-fukkou-wari" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" src="assets/img/index/banner_external/external_crossroadfukuoka.png" width="820" height="320" alt="福岡県観光WEB クロスロードふくおか">
+            </a>
+          </li>
+          <!-- 2枚目以降はダミーなので一旦非表示（2026-09-16）。素材が来たらこのコメントを外して差し替える
+               ※ 1枚だけのときは中央、2枚のときは左右に1枚ずつ、3枚以上は左寄せになる（CSS 側で自動）
+          <li class="p-banner__item">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" src="assets/img/index/banner_external/external_sample.png" width="820" height="320" alt="">
+            </a>
+          </li>
+          <li class="p-banner__item">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" src="assets/img/index/banner_external/external_sample.png" width="820" height="320" alt="">
+            </a>
+          </li>
+          -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         福岡県を旅しよう（後で使うため一旦コメントアウト）
+         戻すときは下のコメントを外すだけ。CSS（.p-travel / .c-spot）は
+         style.css に残してある
+         ※ コメントは入れ子にできないので、この中にコメント記号を書かないこと
+         ============================================================ -->
+    <!--
+    <div class="p-travel">
+      <div class="l-container">
+        <h2 class="c-heading">福岡県を旅しよう</h2>
+        <ul class="p-travel__list">
+          <li class="c-spot">
+            <a class="c-spot__link" href="#">
+              <span class="c-spot__thumb">
+                <span class="c-spot__badge">温泉</span>
+              </span>
+              <span class="c-spot__text">ダミーテキストここにテキストが入ります。</span>
+            </a>
+          </li>
+          <li class="c-spot">
+            <a class="c-spot__link" href="#">
+              <span class="c-spot__thumb">
+                <span class="c-spot__badge">自然</span>
+              </span>
+              <span class="c-spot__text">ダミーテキストここにテキストが入ります。</span>
+            </a>
+          </li>
+          <li class="c-spot">
+            <a class="c-spot__link" href="#">
+              <span class="c-spot__thumb">
+                <span class="c-spot__badge">食</span>
+              </span>
+              <span class="c-spot__text">ダミーテキストここにテキストが入ります。</span>
+            </a>
+          </li>
+          <li class="c-spot">
+            <a class="c-spot__link" href="#">
+              <span class="c-spot__thumb">
+                <span class="c-spot__badge">まち歩き</span>
+              </span>
+              <span class="c-spot__text">ダミーテキストここにテキストが入ります。</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    -->
+
+    <div class="p-faq" id="faq">
+      <div class="l-container">
+        <h2 class="p-faq__title c-heading--tub">FAQ<br><span class="c-heading__sub">(一般の利用者向け)</span></h2>
+        <p class="p-faq__action">
+          <a class="c-btn c-btn--faq" href="/data/fukuoka_faq.pdf" target="_blank" rel="noopener noreferrer">
+            <svg class="c-btn__icon" width="20" height="22" viewBox="0 0 20 22" fill="none" aria-hidden="true">
+              <path d="M2 1.5h10L18 7v13.5H2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="M12 1.5V7h6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="M6 11h8M6 15h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            よくあるお問い合わせはこちら &gt;
+          </a>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+       お問い合わせ
+       ============================================================ -->
+  <section class="p-contact" id="contact">
+    <div class="l-container">
+      <h2 class="c-heading">利用者用コールセンター<br><span class="c-heading__sub">(一般の利用者向け)</span></h2>
+      <div class="p-contact__body">
+        <p class="p-contact__logo">
+          <img loading="lazy" src="assets/img/common/logo.png" width="245" height="239" alt="九州ふっこう応援割 福岡県">
+        </p>
+        <dl class="p-contact__list">
+          <div class="p-contact__row">
+            <dt>お問い合わせ先</dt>
+            <dd><span class="p-contact__brand">九州ふっこう応援割</span>ふくおかキャンペーン事務局</dd>
+          </div>
+          <div class="p-contact__row">
+            <dt>電話番号</dt>
+            <dd><a class="p-contact__tel" href="tel:05017324650">050-1732-4650</a></dd>
+          </div>
+          <div class="p-contact__row">
+            <dt>メール</dt>
+            <dd><span class="p-contact__mail">fukuoka-fukkou-cpn@jbx.jtb.jp</span></dd>
+          </div>
+          <div class="p-contact__row">
+            <dt>受付時間</dt>
+            <dd>10:00〜17:00<span class="p-contact__sub">（土日祝は除く ※9/18～9/30までは土日祝も営業）</span></dd>
+          </div>
+        </dl>
+      </div>
+      <p class="p-contact__env"><a href="/accessibility/">推奨環境について</a></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     フッター
+     ============================================================ -->
+<footer class="l-footer">
+  <p class="l-footer__copy">Copyright © 2026 Fukuoka Prefecture All Rights Reserved.</p>
+</footer>
+
+<!-- ページトップへ戻る -->
+<button class="c-pagetop" type="button" aria-label="ページの先頭へ戻る">
+  <svg class="c-pagetop__arrow" width="22" height="13" viewBox="0 0 22 13" fill="none" aria-hidden="true">
+    <path d="M2 11L11 2l9 9" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <span class="c-pagetop__text">ページTOP</span>
+</button>
+
+<script src="assets/js/main.js"></script>
+<!-- お知らせを CSV から表示する -->
+<script src="assets/js/news.js"></script>
+</body>
+</html>
