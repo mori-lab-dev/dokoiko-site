@@ -120483,7 +120483,9 @@
     "hubName": "札幌",
     "unsplashThumbUrl": "https://images.unsplash.com/photo-1696947347316-e4d91e64c6bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTYlOTQlQUYlRTclQUMlOEYlRTYlQjklOTYlRTMlODElODQlRTMlODElQTglRTMlODElODYlRTYlQjglQTklRTYlQjMlODklMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5OTQyOXww&ixlib=rb-4.1.0&q=80&w=400",
     "rentalCarRecommended": true,
-    "images": [],
+    "images": [
+      "/images/gen_北海_支笏湖いとう温泉/main.jpg"
+    ],
     "reasonChips": [
       "温泉",
       "自然と過ごす",
@@ -120515,6 +120517,12 @@
     },
     "seo": {
       "description": "支笏湖温泉は、北海道千歳市にある湖畔の温泉地。日本有数の透明度を誇る支笏湖のほとりに立ち、冬がベストシーズン。宿の営業状況は公式で確認できません。"
+    },
+    "imageCredit": {
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Fuppushi01bs4272.jpg",
+      "attributionRequired": true
     }
   },
   {
@@ -245446,7 +245454,9 @@
       "秘境感あり"
     ],
     "bestSeason": "秋",
-    "images": [],
+    "images": [
+      "/images/hinoemata-onsen/main.jpg"
+    ],
     "featured_stay": {
       "name": "かぎや旅館",
       "catchcopy": "旧沼田街道沿いの宿。屋号は関所の鍵を扱った家に由来すると伝わる",
@@ -245526,6 +245536,12 @@
         "title": "【檜枝岐温泉】車なしの行き方・山人料理・歌舞伎｜福島県",
         "description": "尾瀬の福島側の入口、檜枝岐温泉へ車なしで。会津田島駅から会津バスで1時間40分、冬は運行本数が少なくなる。山人料理と約270年続く檜枝岐歌舞伎も紹介。"
       }
+    },
+    "imageCredit": {
+      "author": "Qwert1234",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG",
+      "attributionRequired": true
     }
   },
   {

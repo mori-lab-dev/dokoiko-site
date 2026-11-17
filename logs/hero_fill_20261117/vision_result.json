@@ -1,0 +1,847 @@
+{
+ "staged": [
+  {
+   "id": "gen_北海_支笏湖いとう温泉",
+   "name": "支笏湖温泉",
+   "pref": "北海道",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "file": "File:Lake Shikotsu Mt Fuppushi01bs4272.jpg",
+   "km": 7.2,
+   "nameHit": true,
+   "cats": [],
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Fuppushi01bs4272.jpg",
+    "attributionRequired": true
+   },
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "支笏湖と恵庭岳の特徴的な構図。湖の風景が明るく見映えよく撮影されている。"
+    }
+   },
+   "pixelDiffAfter": 1.5,
+   "bytes": 352284,
+   "tried": [
+    {
+     "title": "File:Lake Shikotsu Mt Fuppushi01bs4272.jpg",
+     "stage": "haiku",
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "風景",
+     "reason": "支笏湖と恵庭岳の特徴的な構図。湖の風景が明るく見映えよく撮影されている。"
+    }
+   ]
+  },
+  {
+   "id": "hinoemata-onsen",
+   "name": "檜枝岐温泉",
+   "pref": "福島県",
+   "tags": [
+    "温泉",
+    "秘湯",
+    "自然",
+    "湯治"
+   ],
+   "file": "File:Farm village Kabuki stage Hinoemata-no Butai.JPG",
+   "km": 0.5,
+   "nameHit": false,
+   "cats": [
+    "Files with coordinates missing SDC location of creation",
+    "Hinoemata, Fukushima",
+    "PD-self",
+    "Self-published work",
+    "Taken with Canon PowerShot G9"
+   ],
+   "credit": {
+    "author": "Qwert1234",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG",
+    "attributionRequired": true
+   },
+   "verdict": {
+    "haiku": {
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "檜枝岐の舞台の特徴的な茅葺き屋根と木造建築が明るく写っており、見映えよい。周囲の緑も相まって旅先の紹介に適切。"
+    }
+   },
+   "pixelDiffAfter": 1,
+   "bytes": 411062,
+   "tried": [
+    {
+     "title": "File:Farm village Kabuki stage Hinoemata-no Butai.JPG",
+     "stage": "haiku",
+     "verdict": "ok",
+     "identifiable": true,
+     "subject": "建築",
+     "reason": "檜枝岐の舞台の特徴的な茅葺き屋根と木造建築が明るく写っており、見映えよい。周囲の緑も相まって旅先の紹介に適切。"
+    }
+   ]
+  }
+ ],
+ "hold": [
+  {
+   "id": "gen_北海_かみゆうべつ温泉",
+   "name": "かみゆうべつ温泉",
+   "pref": "北海道",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "reason": "Vision で合格なし",
+   "tried": [
+    {
+     "title": "File:Kitami bus Nakayūbetsu01.JPG",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "施設",
+     "reason": "温泉施設の建物外観ですが、駅舎のような建造物で、温泉地の風景・景観を表現していません。紹介画像には不適切です。"
+    }
+   ]
+  },
+  {
+   "id": "ainan",
+   "name": "愛南",
+   "pref": "愛媛県",
+   "tags": [
+    "海",
+    "自然",
+    "温泉"
+   ],
+   "reason": "Vision で合格なし",
+   "tried": [
+    {
+     "title": "File:愛南ゴールド 贈答用 10kg ￥4500 (44179470852).jpg",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "施設",
+     "reason": "屋内の販売品展示。温泉施設の風景や外観、見どころが写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "shishikui",
+   "name": "宍喰",
+   "pref": "徳島県",
+   "tags": [
+    "海",
+    "自然",
+    "港町"
+   ],
+   "reason": "Vision で合格なし",
+   "tried": [
+    {
+     "title": "File:Tokushima Prefectural Road No309 250622.jpg",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "道路と看板が主役で、風景写真として見映えに欠ける。漁港らしさが伝わらない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_大阪_1",
+   "name": "能勢白滝",
+   "pref": "大阪府",
+   "tags": [
+    "渓谷",
+    "滝",
+    "山里",
+    "蕎麦"
+   ],
+   "reason": "Vision で合格なし",
+   "tried": [
+    {
+     "title": "File:尾道市 白滝山山頂.jpg",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "寺院",
+     "reason": "能勢白滝ではなく、別の寺院（おそらく島の寺院）の景観。滝が写っていない。"
+    }
+   ]
+  },
+  {
+   "id": "niche_和歌山_6",
+   "name": "高野龍神スカイライン",
+   "pref": "和歌山県",
+   "tags": [
+    "ドライブ",
+    "展望",
+    "自然"
+   ],
+   "reason": "Vision で合格なし",
+   "tried": [
+    {
+     "title": "File:高野龍神スカイライン入口(中の橋交差点) Koyaryujin Skyline (Nakanohashi) - panoramio.jpg",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": true,
+     "subject": "看板",
+     "reason": "道路標識と施設が主役。スカイラインの風景景観が写っていない。"
+    },
+    {
+     "title": "File:オートバイ高野龍神スカイラインPA060761.jpg",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "人物",
+     "reason": "バイク乗車者が主役。スカイラインの風景・景観が主体でなく、使用不可。"
+    }
+   ]
+  },
+  {
+   "id": "niche_大分_1",
+   "name": "佐賀関漁港と三浦海岸",
+   "pref": "大分県",
+   "tags": [
+    "漁村",
+    "海鮮",
+    "朝焼け"
+   ],
+   "reason": "Vision で合格なし",
+   "tried": [
+    {
+     "title": "File:神崎漁港から佐賀関大煙突を臨む - panoramio.jpg",
+     "stage": "haiku",
+     "verdict": "ng",
+     "identifiable": false,
+     "subject": "風景",
+     "reason": "漁港の港湾設備や特徴的な建造物が不足。遠景の風景のみで佐賀関漁港と特定困難。"
+    }
+   ]
+  }
+ ],
+ "noCandidate": [
+  {
+   "id": "gen_北海_白老温泉",
+   "name": "白老温泉",
+   "pref": "北海道",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_滝の湯温泉",
+   "name": "滝の湯温泉",
+   "pref": "北海道",
+   "pool": 39,
+   "checked": 8
+  },
+  {
+   "id": "gen_北海_天塩温泉",
+   "name": "天塩温泉",
+   "pref": "北海道",
+   "pool": 18,
+   "checked": 5
+  },
+  {
+   "id": "gen_北海_神居岩温泉",
+   "name": "神居岩温泉",
+   "pref": "北海道",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_黒松内温泉",
+   "name": "黒松内温泉",
+   "pref": "北海道",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_見市温泉",
+   "name": "見市温泉",
+   "pref": "北海道",
+   "pool": 26,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_樹海温泉",
+   "name": "樹海温泉",
+   "pref": "北海道",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_伊達温泉",
+   "name": "伊達温泉",
+   "pref": "北海道",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_群馬_川中温泉",
+   "name": "川中温泉",
+   "pref": "群馬県",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "gen_群馬_花敷温泉",
+   "name": "花敷温泉",
+   "pref": "群馬県",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_臼別温泉",
+   "name": "臼別温泉",
+   "pref": "北海道",
+   "pool": 1,
+   "checked": 1
+  },
+  {
+   "id": "gen_北海_オーロラ温泉",
+   "name": "オーロラ温泉",
+   "pref": "北海道",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_鹿部温泉",
+   "name": "鹿部温泉",
+   "pref": "北海道",
+   "pool": 17,
+   "checked": 5
+  },
+  {
+   "id": "gen_青森_相乗温泉",
+   "name": "相乗温泉",
+   "pref": "青森県",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_青森_秋元温泉",
+   "name": "秋元温泉",
+   "pref": "青森県",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_青森_板留温泉",
+   "name": "板留温泉",
+   "pref": "青森県",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_青森_落合温泉",
+   "name": "落合温泉",
+   "pref": "青森県",
+   "pool": 3,
+   "checked": 0
+  },
+  {
+   "id": "gen_青森_嶽温泉",
+   "name": "嶽温泉",
+   "pref": "青森県",
+   "pool": 3,
+   "checked": 0
+  },
+  {
+   "id": "gen_青森_馬門温泉",
+   "name": "馬門温泉",
+   "pref": "青森県",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "futamata-onsen",
+   "name": "二岐温泉",
+   "pref": "福島県",
+   "pool": 5,
+   "checked": 0
+  },
+  {
+   "id": "nakanosawa-onsen",
+   "name": "中ノ沢温泉",
+   "pref": "福島県",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_花の拠点「はなふる」",
+   "name": "花の拠点 はなふる",
+   "pref": "北海道",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_石狩弁天社",
+   "name": "石狩弁天社",
+   "pref": "北海道",
+   "pool": 3,
+   "checked": 0
+  },
+  {
+   "id": "gen_北海_札幌八幡宮",
+   "name": "札幌八幡宮",
+   "pref": "北海道",
+   "pool": 9,
+   "checked": 1
+  },
+  {
+   "id": "niche_宮城_5",
+   "name": "登米の蔵の町並み",
+   "pref": "宮城県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_秋田_5",
+   "name": "太平湖と奥ノ松渓谷",
+   "pref": "秋田県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_山形_1",
+   "name": "白鷹町べにばな温泉郷",
+   "pref": "山形県",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "niche_山形_2",
+   "name": "庄内町庭月観音温泉",
+   "pref": "山形県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_福島_1",
+   "name": "只見町ブナ林と清流",
+   "pref": "福島県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_福島_4",
+   "name": "小高区歴史的町並み",
+   "pref": "福島県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_栃木_4",
+   "name": "馬頭温泉郷",
+   "pref": "栃木県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_群馬_1",
+   "name": "佐野の門前町",
+   "pref": "栃木県",
+   "pool": 5,
+   "checked": 0
+  },
+  {
+   "id": "niche_群馬_4",
+   "name": "桐生の工場跡と町並み",
+   "pref": "群馬県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_埼玉_1",
+   "name": "寄居町の荒川渓谷",
+   "pref": "埼玉県",
+   "pool": 4,
+   "checked": 0
+  },
+  {
+   "id": "niche_神奈川_5",
+   "name": "開成町水田",
+   "pref": "神奈川県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_新潟_2",
+   "name": "寺泊アメの横丁",
+   "pref": "新潟県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_新潟_3",
+   "name": "越後松代の棚田と旧街道",
+   "pref": "新潟県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_新潟_6",
+   "name": "加茂の古い酒蔵群と職人街",
+   "pref": "新潟県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_富山_3",
+   "name": "福光地区",
+   "pref": "富山県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_石川_6",
+   "name": "九谷陶芸村",
+   "pref": "石川県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_福井_1",
+   "name": "河野海岸の三角波紋",
+   "pref": "福井県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_福井_4",
+   "name": "九頭竜湖・西野ダム展望台",
+   "pref": "福井県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_山梨_1",
+   "name": "道志村渓谷",
+   "pref": "山梨県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_山梨_2",
+   "name": "南部町・湯船温泉",
+   "pref": "山梨県",
+   "pool": 8,
+   "checked": 0
+  },
+  {
+   "id": "niche_山梨_3",
+   "name": "丹波山温泉・多摩川源流",
+   "pref": "山梨県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_山梨_5",
+   "name": "猿が城跡",
+   "pref": "山梨県",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "niche_山梨_7",
+   "name": "塩山梅林",
+   "pref": "山梨県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_長野_4",
+   "name": "結東温泉",
+   "pref": "長野県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_静岡_3",
+   "name": "石部棚田",
+   "pref": "静岡県",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "niche_愛知_4",
+   "name": "内子町の三間町並み",
+   "pref": "愛媛県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_愛知_7",
+   "name": "吉良町漁村",
+   "pref": "愛知県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_三重_2",
+   "name": "宮川渓谷",
+   "pref": "三重県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_滋賀_1",
+   "name": "日野商人の町並み",
+   "pref": "滋賀県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_滋賀_3",
+   "name": "永源寺門前と愛知川",
+   "pref": "滋賀県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_滋賀_4",
+   "name": "五個荘近江商人の館",
+   "pref": "滋賀県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_滋賀_6",
+   "name": "賤ヶ岳と湖北山里",
+   "pref": "滋賀県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_京都_3",
+   "name": "青谷地区",
+   "pref": "京都府",
+   "pool": 1,
+   "checked": 0
+  },
+  {
+   "id": "niche_京都_5",
+   "name": "由良川渓谷",
+   "pref": "京都府",
+   "pool": 7,
+   "checked": 0
+  },
+  {
+   "id": "niche_京都_6",
+   "name": "北の宿温泉",
+   "pref": "京都府",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_大阪_3",
+   "name": "山崎の古い町並み",
+   "pref": "京都府",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_兵庫_2",
+   "name": "湯村温泉・荒湯地獄",
+   "pref": "兵庫県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_兵庫_4",
+   "name": "鳥飼漁港と丸島番所跡",
+   "pref": "兵庫県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_奈良_2",
+   "name": "野迫川村の深山と秘湯群",
+   "pref": "奈良県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_和歌山_3",
+   "name": "北山村いかだ下り",
+   "pref": "和歌山県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_和歌山_8",
+   "name": "印南くじらの浜",
+   "pref": "和歌山県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_鳥取_2",
+   "name": "若桜町商店街",
+   "pref": "鳥取県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_鳥取_8",
+   "name": "琴浦町の漁村風景",
+   "pref": "鳥取県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_島根_1",
+   "name": "斐伊川荒島地区",
+   "pref": "島根県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_島根_4",
+   "name": "掛合町の鐘乳洞群",
+   "pref": "島根県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_島根_6",
+   "name": "黒淵の滝",
+   "pref": "島根県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_山口_2",
+   "name": "錦川峡谷",
+   "pref": "山口県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_徳島_2",
+   "name": "勝浦川峡谷",
+   "pref": "徳島県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_香川_2",
+   "name": "仁尾の町並みと造り酒屋",
+   "pref": "香川県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_高知_1",
+   "name": "佐川町の酒蔵と古い町並み",
+   "pref": "高知県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_高知_6",
+   "name": "日高村",
+   "pref": "高知県",
+   "pool": 44,
+   "checked": 7
+  },
+  {
+   "id": "niche_佐賀_1",
+   "name": "白石温泉",
+   "pref": "佐賀県",
+   "pool": 4,
+   "checked": 0
+  },
+  {
+   "id": "niche_熊本_1",
+   "name": "五木村の清流と棚田",
+   "pref": "熊本県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_熊本_2",
+   "name": "産山村の星の宮古墳",
+   "pref": "熊本県",
+   "pool": 6,
+   "checked": 6
+  },
+  {
+   "id": "niche_熊本_6",
+   "name": "白糸台地の棚田",
+   "pref": "熊本県",
+   "pool": 4,
+   "checked": 0
+  },
+  {
+   "id": "niche_熊本_8",
+   "name": "三角町の漁師町",
+   "pref": "熊本県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_宮崎_2",
+   "name": "西米良村 仙人の湯",
+   "pref": "宮崎県",
+   "pool": 8,
+   "checked": 0
+  },
+  {
+   "id": "niche_宮崎_3",
+   "name": "みやざき地鶏の里",
+   "pref": "宮崎県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_宮崎_4",
+   "name": "渡川温泉",
+   "pref": "宮崎県",
+   "pool": 0,
+   "checked": 0
+  },
+  {
+   "id": "niche_宮崎_7",
+   "name": "湯の元温泉",
+   "pref": "宮崎県",
+   "pool": 25,
+   "checked": 1
+  },
+  {
+   "id": "niche_鹿児島_1",
+   "name": "串木野港周辺の漁師町",
+   "pref": "鹿児島県",
+   "pool": 2,
+   "checked": 0
+  },
+  {
+   "id": "niche_鹿児島_5",
+   "name": "栗野岳温泉郷",
+   "pref": "鹿児島県",
+   "pool": 0,
+   "checked": 0
+  }
+ ],
+ "failed": [],
+ "usageRuns": [
+  {
+   "at": "2026-11-17T10:15:41.106Z",
+   "calls": 9,
+   "haiku": 9,
+   "sonnet": 0,
+   "inTok": 6996,
+   "outTok": 758,
+   "usd": 0.0108,
+   "stop": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "adopted": [
+  {
+   "id": "gen_北海_支笏湖いとう温泉",
+   "credit": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Fuppushi01bs4272.jpg",
+    "attributionRequired": true
+   },
+   "pixelDiffAfter": 1.5
+  },
+  {
+   "id": "hinoemata-onsen",
+   "credit": {
+    "author": "Qwert1234",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG",
+    "attributionRequired": true
+   },
+   "pixelDiffAfter": 1
+  }
+ ]
+}

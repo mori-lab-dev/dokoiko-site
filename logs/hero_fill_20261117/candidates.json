@@ -1,0 +1,2950 @@
+{
+ "gen_北海_白老温泉": {
+  "name": "白老温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "gen_北海_滝の湯温泉": {
+  "name": "滝の湯温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 39,
+  "filtered": {
+   "used": 3,
+   "size": 15,
+   "license": 12,
+   "geo": 1
+  },
+  "checked": [
+   {
+    "title": "File:Kamuiwakka Falls01s3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Kamuiwakka_Falls01s3.jpg/1920px-Kamuiwakka_Falls01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Kamuiwakka_Falls01s3.jpg",
+    "w": 4912,
+    "h": 3264,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 5,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Kamuiwakka Falls06n.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Kamuiwakka_Falls06n.jpg/1920px-Kamuiwakka_Falls06n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Kamuiwakka_Falls06n.jpg",
+    "w": 4800,
+    "h": 3200,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 6,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Tsurumien Park Oita, Japan pamphlet probably 1930s back.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Tsurumien_Park_Oita%2C_Japan_pamphlet_probably_1930s_back.jpg/1920px-Tsurumien_Park_Oita%2C_Japan_pamphlet_probably_1930s_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Tsurumien_Park_Oita,_Japan_pamphlet_probably_1930s_back.jpg",
+    "w": 4463,
+    "h": 3348,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "鶴見園　Tsurumien Park",
+    "cats": [
+     "Blue letter signs in Japan",
+     "Documents of Japan",
+     "History of Oita prefecture",
+     "Japanese vertical writing",
+     "Oita prefecture in the 1930s",
+     "PD-1996",
+     "PD-Japan-organization",
+     "PD-US missing SDC copyright status"
+    ],
+    "order": 16,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Yudanaka Onsen Taki no Yu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Yudanaka_Onsen_Taki_no_Yu.jpg/1920px-Yudanaka_Onsen_Taki_no_Yu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Yudanaka_Onsen_Taki_no_Yu.jpg",
+    "w": 3183,
+    "h": 2390,
+    "mime": "image/jpeg",
+    "license": "CC BY 4.0",
+    "artist": "Suikotei",
+    "cats": [],
+    "order": 6,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:神明滝の湯 渋温泉 Oct 15, 2007.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/%E7%A5%9E%E6%98%8E%E6%BB%9D%E3%81%AE%E6%B9%AF_%E6%B8%8B%E6%B8%A9%E6%B3%89_Oct_15%2C_2007.jpg/1920px-%E7%A5%9E%E6%98%8E%E6%BB%9D%E3%81%AE%E6%B9%AF_%E6%B8%8B%E6%B8%A9%E6%B3%89_Oct_15%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E6%98%8E%E6%BB%9D%E3%81%AE%E6%B9%AF_%E6%B8%8B%E6%B8%A9%E6%B3%89_Oct_15,_2007.jpg",
+    "w": 2048,
+    "h": 1365,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "Toshi Kawabata",
+    "cats": [],
+    "order": 1,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": true,
+    "strong": false
+   },
+   {
+    "title": "File:YunoTaki2004-12.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/YunoTaki2004-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:YunoTaki2004-12.jpg",
+    "w": 1600,
+    "h": 1200,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "",
+    "cats": [
+     "Files with no machine-readable author",
+     "Files with no machine-readable source",
+     "Hot waterfalls",
+     "Jozankei Onsen",
+     "Media missing infobox template",
+     "PD-user",
+     "Taken with Ricoh Caplio R1",
+     "Waterfalls in Hokkaido"
+    ],
+    "order": 19,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Spa Waterfall \"Kamuiwakka\" at Seaside／ カムイワッカ湯の滝と海 - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Spa_Waterfall_%22Kamuiwakka%22_at_Seaside%EF%BC%8F_%E3%82%AB%E3%83%A0%E3%82%A4%E3%83%AF%E3%83%83%E3%82%AB%E6%B9%AF%E3%81%AE%E6%BB%9D%E3%81%A8%E6%B5%B7_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Spa_Waterfall_%22Kamuiwakka%22_at_Seaside%EF%BC%8F_%E3%82%AB%E3%83%A0%E3%82%A4%E3%83%AF%E3%83%83%E3%82%AB%E6%B9%AF%E3%81%AE%E6%BB%9D%E3%81%A8%E6%B5%B7_-_panoramio.jpg",
+    "w": 1600,
+    "h": 1200,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "T DMY",
+    "cats": [],
+    "order": 12,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:カムイワッカの滝 - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%E3%82%AB%E3%83%A0%E3%82%A4%E3%83%AF%E3%83%83%E3%82%AB%E3%81%AE%E6%BB%9D_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E3%82%AB%E3%83%A0%E3%82%A4%E3%83%AF%E3%83%83%E3%82%AB%E3%81%AE%E6%BB%9D_-_panoramio.jpg",
+    "w": 1600,
+    "h": 1200,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "alonfloc",
+    "cats": [],
+    "order": 18,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "gen_北海_天塩温泉": {
+  "name": "天塩温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 18,
+  "filtered": {
+   "mime": 1,
+   "size": 5,
+   "used": 1,
+   "license": 5,
+   "geo": 1
+  },
+  "checked": [
+   {
+    "title": "File:Asahi spa gaikan 2011.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Asahi_spa_gaikan_2011.JPG/1920px-Asahi_spa_gaikan_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Asahi_spa_gaikan_2011.JPG",
+    "w": 3968,
+    "h": 2976,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Soica2001 (talk)",
+    "cats": [
+     "Asahi Onsen (Enbetsu)",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 1,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Enbetu Asahi spa uchiyu.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Enbetu_Asahi_spa_uchiyu.JPG/1920px-Enbetu_Asahi_spa_uchiyu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Enbetu_Asahi_spa_uchiyu.JPG",
+    "w": 3968,
+    "h": 2976,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Soica2001 (talk)",
+    "cats": [
+     "Asahi Onsen (Enbetsu)",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 2,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Enbetu Asahi spa hokou.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Enbetu_Asahi_spa_hokou.JPG/1920px-Enbetu_Asahi_spa_hokou.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Enbetu_Asahi_spa_hokou.JPG",
+    "w": 3968,
+    "h": 2976,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Soica2001 (talk)",
+    "cats": [
+     "Asahi Onsen (Enbetsu)",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 3,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:朝日温泉露天風呂（A natural hot spring） - panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E6%9C%9D%E6%97%A5%E6%B8%A9%E6%B3%89%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%EF%BC%88A_natural_hot_spring%EF%BC%89_-_panoramio.jpg/1920px-%E6%9C%9D%E6%97%A5%E6%B8%A9%E6%B3%89%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%EF%BC%88A_natural_hot_spring%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E6%9C%9D%E6%97%A5%E6%B8%A9%E6%B3%89%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82%EF%BC%88A_natural_hot_spring%EF%BC%89_-_panoramio.jpg",
+    "w": 2048,
+    "h": 1536,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "pakku",
+    "cats": [],
+    "order": 14,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Asahi spa roten up2007.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Asahi_spa_roten_up2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Asahi_spa_roten_up2007.jpg",
+    "w": 1229,
+    "h": 922,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Soica2001 (talk)",
+    "cats": [
+     "Asahi Onsen (Iwanai)",
+     "PD-self",
+     "Self-published work",
+     "Taken with Olympus u780 / S-780"
+    ],
+    "order": 7,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "gen_北海_かみゆうべつ温泉": {
+  "name": "かみゆうべつ温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 6,
+  "filtered": {
+   "license": 2,
+   "size": 1,
+   "title": 2
+  },
+  "checked": [
+   {
+    "title": "File:Kitami bus Nakayūbetsu01.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Kitami_bus_Nakay%C5%ABbetsu01.JPG/1920px-Kitami_bus_Nakay%C5%ABbetsu01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Kitami_bus_Nakay%C5%ABbetsu01.JPG",
+    "w": 2048,
+    "h": 1536,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "221.20 (talk)",
+    "cats": [
+     "Bus depots in Hokkaido",
+     "Files by User:221.20/Sony DSC-W300",
+     "Files with coordinates missing SDC location of creation",
+     "Hokkaido Kitami Bus",
+     "Michinoeki Kamiyubetsu Onsen Tulip no Yu",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 4,
+    "geo": {
+     "lat": 44.18597,
+     "lng": 143.596475
+    },
+    "place": "ok",
+    "km": 0.2,
+    "nameHit": false,
+    "strong": true
+   }
+  ]
+ },
+ "gen_北海_神居岩温泉": {
+  "name": "神居岩温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "mime": 1
+  },
+  "checked": []
+ },
+ "gen_北海_黒松内温泉": {
+  "name": "黒松内温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "gen_北海_見市温泉": {
+  "name": "見市温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 26,
+  "filtered": {
+   "used": 2,
+   "geo": 1,
+   "size": 2,
+   "license": 1,
+   "title": 20
+  },
+  "checked": []
+ },
+ "gen_北海_支笏湖いとう温泉": {
+  "name": "支笏湖温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 81,
+  "filtered": {
+   "size": 6,
+   "license": 43,
+   "used": 3
+  },
+  "checked": [
+   {
+    "title": "File:Lake Shikotsu Mt Fuppushi01bs4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Lake_Shikotsu_Mt_Fuppushi01bs4272.jpg/1920px-Lake_Shikotsu_Mt_Fuppushi01bs4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Fuppushi01bs4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 1,
+    "geo": {
+     "lat": 42.77444444,
+     "lng": 141.4
+    },
+    "place": "ok",
+    "km": 7.2,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu, Hokkaido; August 2021 (04).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lake_Shikotsu%2C_Hokkaido%3B_August_2021_%2804%29.jpg/1920px-Lake_Shikotsu%2C_Hokkaido%3B_August_2021_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu,_Hokkaido;_August_2021_(04).jpg",
+    "w": 6720,
+    "h": 3779,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "MIKI Yoshihito. (#mikiyoshihito)",
+    "cats": [],
+    "order": 9,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu, Hokkaido; August 2021 (05).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Lake_Shikotsu%2C_Hokkaido%3B_August_2021_%2805%29.jpg/1920px-Lake_Shikotsu%2C_Hokkaido%3B_August_2021_%2805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu,_Hokkaido;_August_2021_(05).jpg",
+    "w": 6718,
+    "h": 3777,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "MIKI Yoshihito. (#mikiyoshihito)",
+    "cats": [],
+    "order": 8,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu, Hokkaido; August 2021 (09).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Lake_Shikotsu%2C_Hokkaido%3B_August_2021_%2809%29.jpg/1920px-Lake_Shikotsu%2C_Hokkaido%3B_August_2021_%2809%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu,_Hokkaido;_August_2021_(09).jpg",
+    "w": 6718,
+    "h": 3777,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "MIKI Yoshihito. (#mikiyoshihito)",
+    "cats": [],
+    "order": 24,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Eniwa-dake03n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Lake_Shikotsu_Mt_Eniwa-dake03n4272.jpg/1920px-Lake_Shikotsu_Mt_Eniwa-dake03n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Eniwa-dake03n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [
+     "CC-BY-2.5",
+     "CC-BY-SA-3.0-migrated",
+     "GFDL",
+     "Lake Shikotsu",
+     "License migration redundant",
+     "Mount Eniwa",
+     "Mount Izari",
+     "Mount Ninaru",
+     "Self-published work",
+     "Taken with Sony DSLR-A700"
+    ],
+    "order": 99,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Monbetsu01n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Lake_Shikotsu_Mt_Monbetsu01n4272.jpg/1920px-Lake_Shikotsu_Mt_Monbetsu01n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Monbetsu01n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 2,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Monbetsu04n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Lake_Shikotsu_Mt_Monbetsu04n4272.jpg/1920px-Lake_Shikotsu_Mt_Monbetsu04n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Monbetsu04n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 12,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Morappu01s4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Lake_Shikotsu_Mt_Morappu01s4272.jpg/1920px-Lake_Shikotsu_Mt_Morappu01s4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Morappu01s4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 19,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu, Chitose, Hokkaido prefecture, Japan.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Lake_Shikotsu%2C_Chitose%2C_Hokkaido_prefecture%2C_Japan.jpg/1920px-Lake_Shikotsu%2C_Chitose%2C_Hokkaido_prefecture%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu,_Chitose,_Hokkaido_prefecture,_Japan.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [
+     "CC-BY-2.5",
+     "CC-BY-SA-3.0-migrated",
+     "GFDL",
+     "Lake Shikotsu",
+     "License migration redundant",
+     "Self-published work",
+     "Taken with Sony DSLR-A700"
+    ],
+    "order": 20,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Morappu02s4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Lake_Shikotsu_Mt_Morappu02s4272.jpg/1920px-Lake_Shikotsu_Mt_Morappu02s4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Morappu02s4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 23,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu40n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Lake_Shikotsu40n4272.jpg/1920px-Lake_Shikotsu40n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu40n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [
+     "CC-BY-2.5",
+     "CC-BY-SA-3.0-migrated"
+    ],
+    "order": 2,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu52bs4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Lake_Shikotsu52bs4272.jpg/1920px-Lake_Shikotsu52bs4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu52bs4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 3,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu30n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lake_Shikotsu30n4272.jpg/1920px-Lake_Shikotsu30n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu30n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [
+     "CC-BY-2.5",
+     "CC-BY-SA-3.0-migrated",
+     "GFDL",
+     "License migration redundant",
+     "Self-published work",
+     "Shikotsuko Onsen",
+     "Taken with Sony DSLR-A700"
+    ],
+    "order": 4,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu50s4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Lake_Shikotsu50s4272.jpg/1920px-Lake_Shikotsu50s4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu50s4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 5,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu26n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Lake_Shikotsu26n4272.jpg/1920px-Lake_Shikotsu26n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu26n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [
+     "CC-BY-2.5",
+     "CC-BY-SA-3.0-migrated",
+     "GFDL",
+     "License migration redundant",
+     "Self-published work",
+     "Shikotsuko Onsen",
+     "Taken with Sony DSLR-A700"
+    ],
+    "order": 6,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu48bs4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lake_Shikotsu48bs4272.jpg/1920px-Lake_Shikotsu48bs4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu48bs4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 9,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu41n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lake_Shikotsu41n4272.jpg/1920px-Lake_Shikotsu41n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu41n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 11,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu45n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Lake_Shikotsu45n4272.jpg/1920px-Lake_Shikotsu45n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu45n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 12,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu49n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Lake_Shikotsu49n4272.jpg/1920px-Lake_Shikotsu49n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu49n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 13,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu29n4272.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Lake_Shikotsu29n4272.jpg/1920px-Lake_Shikotsu29n4272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu29n4272.jpg",
+    "w": 4272,
+    "h": 2848,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [
+     "CC-BY-2.5",
+     "CC-BY-SA-3.0-migrated",
+     "GFDL",
+     "License migration redundant",
+     "Self-published work",
+     "Shikotsuko Onsen",
+     "Taken with Sony DSLR-A700"
+    ],
+    "order": 14,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu - Panorama 2 - 2016 8 14.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lake_Shikotsu_-_Panorama_2_-_2016_8_14.jpg/1920px-Lake_Shikotsu_-_Panorama_2_-_2016_8_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_-_Panorama_2_-_2016_8_14.jpg",
+    "w": 4112,
+    "h": 864,
+    "mime": "image/jpeg",
+    "license": "CC BY 4.0",
+    "artist": "Nesnad",
+    "cats": [],
+    "order": 24,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Monbetsu02n3200.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Lake_Shikotsu_Mt_Monbetsu02n3200.jpg/1920px-Lake_Shikotsu_Mt_Monbetsu02n3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Monbetsu02n3200.jpg",
+    "w": 3200,
+    "h": 2133,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 11,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Fuppushi06n3200.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lake_Shikotsu_Mt_Fuppushi06n3200.jpg/1920px-Lake_Shikotsu_Mt_Fuppushi06n3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Fuppushi06n3200.jpg",
+    "w": 3200,
+    "h": 2133,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 14,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Tarumae01n3200.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Lake_Shikotsu_Mt_Tarumae01n3200.jpg/1920px-Lake_Shikotsu_Mt_Tarumae01n3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Tarumae01n3200.jpg",
+    "w": 3200,
+    "h": 2133,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 15,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Fuppushi04bs3200.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Lake_Shikotsu_Mt_Fuppushi04bs3200.jpg/1920px-Lake_Shikotsu_Mt_Fuppushi04bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Fuppushi04bs3200.jpg",
+    "w": 3200,
+    "h": 2133,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 18,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu Mt Izari-dake01bs3200.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Lake_Shikotsu_Mt_Izari-dake01bs3200.jpg/1920px-Lake_Shikotsu_Mt_Izari-dake01bs3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu_Mt_Izari-dake01bs3200.jpg",
+    "w": 3200,
+    "h": 2133,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 21,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Lake Shikotsu47n3200.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Lake_Shikotsu47n3200.jpg/1920px-Lake_Shikotsu47n3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Lake_Shikotsu47n3200.jpg",
+    "w": 3200,
+    "h": 2133,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "663highland",
+    "cats": [],
+    "order": 8,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:支笏湖（The alien of Lake Shikotsu-ko） - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/%E6%94%AF%E7%AC%8F%E6%B9%96%EF%BC%88The_alien_of_Lake_Shikotsu-ko%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E6%94%AF%E7%AC%8F%E6%B9%96%EF%BC%88The_alien_of_Lake_Shikotsu-ko%EF%BC%89_-_panoramio.jpg",
+    "w": 1600,
+    "h": 1200,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "pakku",
+    "cats": [],
+    "order": 3,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Shikotsuko1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Shikotsuko1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Shikotsuko1.jpg",
+    "w": 1780,
+    "h": 1098,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "",
+    "cats": [
+     "Files with no machine-readable author",
+     "Files with no machine-readable source",
+     "Lake Shikotsu",
+     "Media missing infobox template",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 5,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": true,
+    "strong": false
+   }
+  ]
+ },
+ "gen_北海_樹海温泉": {
+  "name": "樹海温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 2,
+  "filtered": {
+   "size": 1,
+   "license": 1
+  },
+  "checked": []
+ },
+ "gen_北海_伊達温泉": {
+  "name": "伊達温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "used": 1
+  },
+  "checked": []
+ },
+ "gen_群馬_川中温泉": {
+  "name": "川中温泉",
+  "pref": "群馬県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 2,
+  "filtered": {
+   "size": 1,
+   "license": 1
+  },
+  "checked": []
+ },
+ "gen_群馬_花敷温泉": {
+  "name": "花敷温泉",
+  "pref": "群馬県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 2,
+  "filtered": {
+   "size": 2
+  },
+  "checked": []
+ },
+ "gen_北海_臼別温泉": {
+  "name": "臼別温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {},
+  "checked": [
+   {
+    "title": "File:Yu-topia usubetu.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Yu-topia_usubetu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Yu-topia_usubetu.jpg",
+    "w": 1229,
+    "h": 922,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Soica2001 (talk)",
+    "cats": [
+     "PD-self",
+     "Self-published work",
+     "Taken with Olympus u780 / S-780",
+     "Usubetsu Onsen"
+    ],
+    "order": 99,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "gen_北海_オーロラ温泉": {
+  "name": "オーロラ温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 2,
+  "filtered": {
+   "size": 2
+  },
+  "checked": []
+ },
+ "gen_北海_鹿部温泉": {
+  "name": "鹿部温泉",
+  "pref": "北海道",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 17,
+  "filtered": {
+   "size": 3,
+   "license": 6,
+   "title": 3
+  },
+  "checked": [
+   {
+    "title": "File:Shikabe Onsen, Yoshinoyu 01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Shikabe_Onsen%2C_Yoshinoyu_01.jpg/1920px-Shikabe_Onsen%2C_Yoshinoyu_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Shikabe_Onsen,_Yoshinoyu_01.jpg",
+    "w": 2592,
+    "h": 1944,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "fredkatvox",
+    "cats": [
+     "CC-BY-2.0",
+     "Flickr images reviewed by FlickreviewR",
+     "Shikabe Onsen",
+     "Taken with Nokia N82"
+    ],
+    "order": 1,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Shikabe Onsen, Yoshinoyu 03.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Shikabe_Onsen%2C_Yoshinoyu_03.jpg/1920px-Shikabe_Onsen%2C_Yoshinoyu_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Shikabe_Onsen,_Yoshinoyu_03.jpg",
+    "w": 2592,
+    "h": 1944,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "fredkatvox",
+    "cats": [
+     "CC-BY-2.0",
+     "Flickr images reviewed by FlickreviewR",
+     "Hotel breakfast in Japan (rice)",
+     "Japan photographs taken on 2008-10-31",
+     "Morning in Hokkaido"
+    ],
+    "order": 2,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Shikabe Onsen, Yoshinoyu 02.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Shikabe_Onsen%2C_Yoshinoyu_02.jpg/1920px-Shikabe_Onsen%2C_Yoshinoyu_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Shikabe_Onsen,_Yoshinoyu_02.jpg",
+    "w": 2592,
+    "h": 1944,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "fredkatvox",
+    "cats": [
+     "CC-BY-2.0",
+     "Files with coordinates missing SDC location of creation",
+     "Flickr images reviewed by FlickreviewR",
+     "Shikabe Onsen",
+     "Taken with Nokia N82"
+    ],
+    "order": 3,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hakodate bus H022F 0421.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hakodate_bus_H022F_0421.JPG/1920px-Hakodate_bus_H022F_0421.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hakodate_bus_H022F_0421.JPG",
+    "w": 2592,
+    "h": 1728,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "221.20 (talk)",
+    "cats": [
+     "Buses in Japan built in 1993",
+     "Buses in Japan photographed in 2010",
+     "Buses of Hakodate Bus",
+     "Buses transferred by other operator in Japan",
+     "Files by User:221.20/Sony DSC-W300",
+     "Hino Blue Ribbon",
+     "Number 233 on buses",
+     "Number 421 on buses",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 12,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hakodate bus H200F 0126rear.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Hakodate_bus_H200F_0126rear.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hakodate_bus_H200F_0126rear.JPG",
+    "w": 1640,
+    "h": 1230,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "221.20 (talk)",
+    "cats": [
+     "Buses in Japan built in 2002",
+     "Buses in Japan photographed in 2010",
+     "Buses of Hakodate Bus",
+     "Files by User:221.20/Sony DSC-W300",
+     "Isuzu Erga Mio (1st generation)",
+     "Number 1008 on vehicles",
+     "Number 126 on buses",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 11,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "gen_青森_相乗温泉": {
+  "name": "相乗温泉",
+  "pref": "青森県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "gen_青森_秋元温泉": {
+  "name": "秋元温泉",
+  "pref": "青森県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "gen_青森_板留温泉": {
+  "name": "板留温泉",
+  "pref": "青森県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "gen_青森_落合温泉": {
+  "name": "落合温泉",
+  "pref": "青森県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 3,
+  "filtered": {
+   "size": 2,
+   "license": 1
+  },
+  "checked": []
+ },
+ "gen_青森_嶽温泉": {
+  "name": "嶽温泉",
+  "pref": "青森県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 3,
+  "filtered": {
+   "size": 2,
+   "license": 1
+  },
+  "checked": []
+ },
+ "gen_青森_馬門温泉": {
+  "name": "馬門温泉",
+  "pref": "青森県",
+  "tags": [
+   "温泉",
+   "自然",
+   "街歩き",
+   "冬"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "futamata-onsen": {
+  "name": "二岐温泉",
+  "pref": "福島県",
+  "tags": [
+   "温泉",
+   "秘境",
+   "自然",
+   "湯治",
+   "冬"
+  ],
+  "pool": 5,
+  "filtered": {
+   "license": 5
+  },
+  "checked": []
+ },
+ "ainan": {
+  "name": "愛南",
+  "pref": "愛媛県",
+  "tags": [
+   "海",
+   "自然",
+   "温泉"
+  ],
+  "pool": 26,
+  "filtered": {
+   "license": 15,
+   "size": 6,
+   "geo": 1
+  },
+  "checked": [
+   {
+    "title": "File:愛南ゴールド 贈答用 10kg ￥4500 (44179470852).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%E6%84%9B%E5%8D%97%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89_%E8%B4%88%E7%AD%94%E7%94%A8_10kg_%EF%BF%A54500_%2844179470852%29.jpg/1920px-%E6%84%9B%E5%8D%97%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89_%E8%B4%88%E7%AD%94%E7%94%A8_10kg_%EF%BF%A54500_%2844179470852%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E6%84%9B%E5%8D%97%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89_%E8%B4%88%E7%AD%94%E7%94%A8_10kg_%EF%BF%A54500_(44179470852).jpg",
+    "w": 3600,
+    "h": 2700,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "Hajime NAKANO from Tokyo, Japan",
+    "cats": [],
+    "order": 3,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Erechtheum Acropolis Athens.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Erechtheum_Acropolis_Athens.jpg/1920px-Erechtheum_Acropolis_Athens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Erechtheum_Acropolis_Athens.jpg",
+    "w": 4592,
+    "h": 3056,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "cats": [],
+    "order": 8,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:SZ 深圳 Shenzhen 龍崗 Longgang 寶龍 BaoLong 植物園路 ZiWuYuan Road 南約 Nanyue 碧新路 BiXin Road June 2024 R12S 13.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E5%B4%97_Longgang_%E5%AF%B6%E9%BE%8D_BaoLong_%E6%A4%8D%E7%89%A9%E5%9C%92%E8%B7%AF_ZiWuYuan_Road_%E5%8D%97%E7%B4%84_Nanyue_%E7%A2%A7%E6%96%B0%E8%B7%AF_BiXin_Road_June_2024_R12S_13.jpg/1920px-SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E5%B4%97_Longgang_%E5%AF%B6%E9%BE%8D_BaoLong_%E6%A4%8D%E7%89%A9%E5%9C%92%E8%B7%AF_ZiWuYuan_Road_%E5%8D%97%E7%B4%84_Nanyue_%E7%A2%A7%E6%96%B0%E8%B7%AF_BiXin_Road_June_2024_R12S_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E9%BE%8D%E5%B4%97_Longgang_%E5%AF%B6%E9%BE%8D_BaoLong_%E6%A4%8D%E7%89%A9%E5%9C%92%E8%B7%AF_ZiWuYuan_Road_%E5%8D%97%E7%B4%84_Nanyue_%E7%A2%A7%E6%96%B0%E8%B7%AF_BiXin_Road_June_2024_R12S_13.jpg",
+    "w": 4000,
+    "h": 3000,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "FuoNiua Chinggez",
+    "cats": [],
+    "order": 6,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:亜細亜大観 06 056 \"愛身崖 （泰山）\".jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_06_056_%22%E6%84%9B%E8%BA%AB%E5%B4%96_%EF%BC%88%E6%B3%B0%E5%B1%B1%EF%BC%89%22.jpg/1920px-%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_06_056_%22%E6%84%9B%E8%BA%AB%E5%B4%96_%EF%BC%88%E6%B3%B0%E5%B1%B1%EF%BC%89%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_06_056_%22%E6%84%9B%E8%BA%AB%E5%B4%96_%EF%BC%88%E6%B3%B0%E5%B1%B1%EF%BC%89%22.jpg",
+    "w": 2208,
+    "h": 1589,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Black Dragon Society",
+    "cats": [],
+    "order": 10,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "shishikui": {
+  "name": "宍喰",
+  "pref": "徳島県",
+  "tags": [
+   "海",
+   "自然",
+   "港町"
+  ],
+  "pool": 24,
+  "filtered": {
+   "size": 11,
+   "license": 11
+  },
+  "checked": [
+   {
+    "title": "File:Tokushima Prefectural Road No309 250622.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Tokushima_Prefectural_Road_No309_250622.jpg/1920px-Tokushima_Prefectural_Road_No309_250622.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Tokushima_Prefectural_Road_No309_250622.jpg",
+    "w": 4000,
+    "h": 3000,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Yauchi",
+    "cats": [],
+    "order": 4,
+    "geo": {
+     "lat": 33.569792,
+     "lng": 134.308194
+    },
+    "place": "ok",
+    "km": 0.5,
+    "nameHit": false,
+    "strong": true
+   },
+   {
+    "title": "File:Sisikui ootekaigan 20240402 1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Sisikui_ootekaigan_20240402_1.jpg/1920px-Sisikui_ootekaigan_20240402_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Sisikui_ootekaigan_20240402_1.jpg",
+    "w": 2400,
+    "h": 1682,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Araiyasushige",
+    "cats": [],
+    "order": 4,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "hinoemata-onsen": {
+  "name": "檜枝岐温泉",
+  "pref": "福島県",
+  "tags": [
+   "温泉",
+   "秘湯",
+   "自然",
+   "湯治"
+  ],
+  "pool": 9,
+  "filtered": {
+   "size": 1,
+   "license": 7
+  },
+  "checked": [
+   {
+    "title": "File:Farm village Kabuki stage Hinoemata-no Butai.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG/1920px-Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Farm_village_Kabuki_stage_Hinoemata-no_Butai.JPG",
+    "w": 3264,
+    "h": 2448,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Qwert1234",
+    "cats": [
+     "Files with coordinates missing SDC location of creation",
+     "Hinoemata, Fukushima",
+     "PD-self",
+     "Self-published work",
+     "Taken with Canon PowerShot G9"
+    ],
+    "order": 7,
+    "geo": {
+     "lat": 37.021933,
+     "lng": 139.385639
+    },
+    "place": "ok",
+    "km": 0.5,
+    "nameHit": false,
+    "strong": true
+   }
+  ]
+ },
+ "nakanosawa-onsen": {
+  "name": "中ノ沢温泉",
+  "pref": "福島県",
+  "tags": [
+   "温泉",
+   "秘湯",
+   "自然",
+   "湯治"
+  ],
+  "pool": 2,
+  "filtered": {
+   "license": 1,
+   "mime": 1
+  },
+  "checked": []
+ },
+ "gen_北海_花の拠点「はなふる」": {
+  "name": "花の拠点 はなふる",
+  "pref": "北海道",
+  "tags": [
+   "観光",
+   "自然"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "gen_北海_石狩弁天社": {
+  "name": "石狩弁天社",
+  "pref": "北海道",
+  "tags": [
+   "観光",
+   "自然"
+  ],
+  "pool": 3,
+  "filtered": {
+   "license": 3
+  },
+  "checked": []
+ },
+ "gen_北海_札幌八幡宮": {
+  "name": "札幌八幡宮",
+  "pref": "北海道",
+  "tags": [
+   "観光",
+   "自然"
+  ],
+  "pool": 9,
+  "filtered": {
+   "license": 8
+  },
+  "checked": [
+   {
+    "title": "File:Nishioka Hachimangu Shrine.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Nishioka_Hachimangu_Shrine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Nishioka_Hachimangu_Shrine.jpg",
+    "w": 1824,
+    "h": 1368,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "Ozizo",
+    "cats": [
+     "Nishioka Hachiman-gū",
+     "PD-self",
+     "Self-published work",
+     "Snow in Sapporo",
+     "Taken with Nikon Coolpix P5000"
+    ],
+    "order": 3,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "niche_宮城_5": {
+  "name": "登米の蔵の町並み",
+  "pref": "宮城県",
+  "tags": [
+   "川湊",
+   "土蔵",
+   "醤油"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_秋田_5": {
+  "name": "太平湖と奥ノ松渓谷",
+  "pref": "秋田県",
+  "tags": [
+   "ダム湖",
+   "渓谷",
+   "温泉",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_山形_1": {
+  "name": "白鷹町べにばな温泉郷",
+  "pref": "山形県",
+  "tags": [
+   "温泉",
+   "最上川沿い",
+   "紅花",
+   "秘湯"
+  ],
+  "pool": 2,
+  "filtered": {
+   "size": 2
+  },
+  "checked": []
+ },
+ "niche_山形_2": {
+  "name": "庄内町庭月観音温泉",
+  "pref": "山形県",
+  "tags": [
+   "温泉",
+   "朝日連峰",
+   "渓流",
+   "湯治"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_福島_1": {
+  "name": "只見町ブナ林と清流",
+  "pref": "福島県",
+  "tags": [
+   "渓谷",
+   "ブナ林",
+   "清流",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_福島_4": {
+  "name": "小高区歴史的町並み",
+  "pref": "福島県",
+  "tags": [
+   "城下町",
+   "産業遺産",
+   "復興",
+   "工芸"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_栃木_4": {
+  "name": "馬頭温泉郷",
+  "pref": "栃木県",
+  "tags": [
+   "城下町",
+   "工芸",
+   "古民家",
+   "手工業",
+   "歴史"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_群馬_1": {
+  "name": "佐野の門前町",
+  "pref": "栃木県",
+  "tags": [
+   "古い町並み",
+   "神社参道",
+   "蕎麦"
+  ],
+  "pool": 5,
+  "filtered": {
+   "used": 1,
+   "size": 2,
+   "license": 2
+  },
+  "checked": []
+ },
+ "niche_群馬_4": {
+  "name": "桐生の工場跡と町並み",
+  "pref": "群馬県",
+  "tags": [
+   "織物の町",
+   "工場跡",
+   "レトロ建築",
+   "ものづくり体験"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_埼玉_1": {
+  "name": "寄居町の荒川渓谷",
+  "pref": "埼玉県",
+  "tags": [
+   "渓谷",
+   "秘境",
+   "清流",
+   "廃墟"
+  ],
+  "pool": 4,
+  "filtered": {
+   "license": 4
+  },
+  "checked": []
+ },
+ "niche_神奈川_5": {
+  "name": "開成町水田",
+  "pref": "神奈川県",
+  "tags": [
+   "菜の花",
+   "つつじ",
+   "農村",
+   "直売所",
+   "蕎麦"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_新潟_2": {
+  "name": "寺泊アメの横丁",
+  "pref": "新潟県",
+  "tags": [
+   "漁村",
+   "市場",
+   "海鮮",
+   "昭和レトロ"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_新潟_3": {
+  "name": "越後松代の棚田と旧街道",
+  "pref": "新潟県",
+  "tags": [
+   "棚田",
+   "旧街道",
+   "農村風景",
+   "静寂"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_新潟_6": {
+  "name": "加茂の古い酒蔵群と職人街",
+  "pref": "新潟県",
+  "tags": [
+   "酒蔵",
+   "職人文化",
+   "地場産業",
+   "試飲"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_富山_3": {
+  "name": "福光地区",
+  "pref": "富山県",
+  "tags": [
+   "和ろうそく",
+   "古い町並み",
+   "工芸",
+   "祭"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_石川_6": {
+  "name": "九谷陶芸村",
+  "pref": "石川県",
+  "tags": [
+   "工芸",
+   "九谷焼",
+   "職人町",
+   "工房",
+   "陶芸体験"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_福井_1": {
+  "name": "河野海岸の三角波紋",
+  "pref": "福井県",
+  "tags": [
+   "海岸",
+   "地質",
+   "秘境",
+   "フォトジェニック"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_福井_4": {
+  "name": "九頭竜湖・西野ダム展望台",
+  "pref": "福井県",
+  "tags": [
+   "ダム",
+   "展望台",
+   "山岳景観",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_山梨_1": {
+  "name": "道志村渓谷",
+  "pref": "山梨県",
+  "tags": [
+   "渓谷",
+   "キャンプ",
+   "温泉",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_山梨_2": {
+  "name": "南部町・湯船温泉",
+  "pref": "山梨県",
+  "tags": [
+   "温泉",
+   "山里",
+   "栗",
+   "穴場"
+  ],
+  "pool": 8,
+  "filtered": {
+   "license": 5,
+   "size": 3
+  },
+  "checked": []
+ },
+ "niche_山梨_3": {
+  "name": "丹波山温泉・多摩川源流",
+  "pref": "山梨県",
+  "tags": [
+   "秘湯",
+   "多摩川",
+   "登山",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_山梨_5": {
+  "name": "猿が城跡",
+  "pref": "山梨県",
+  "tags": [
+   "登山",
+   "展望台",
+   "富士山眺望",
+   "秘境"
+  ],
+  "pool": 2,
+  "filtered": {
+   "license": 1,
+   "size": 1
+  },
+  "checked": []
+ },
+ "niche_山梨_7": {
+  "name": "塩山梅林",
+  "pref": "山梨県",
+  "tags": [
+   "梅の里",
+   "農村",
+   "古民家",
+   "特産品"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_長野_4": {
+  "name": "結東温泉",
+  "pref": "長野県",
+  "tags": [
+   "秘湯",
+   "豪雪地帯",
+   "源泉かけ流し",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_静岡_3": {
+  "name": "石部棚田",
+  "pref": "静岡県",
+  "tags": [
+   "棚田",
+   "漁村",
+   "夕日",
+   "塩"
+  ],
+  "pool": 1,
+  "filtered": {
+   "size": 1
+  },
+  "checked": []
+ },
+ "niche_愛知_4": {
+  "name": "内子町の三間町並み",
+  "pref": "愛媛県",
+  "tags": [
+   "古い町並み",
+   "古民家",
+   "商家町",
+   "歴史"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_愛知_7": {
+  "name": "吉良町漁村",
+  "pref": "愛知県",
+  "tags": [
+   "漁村",
+   "養殖",
+   "海鮮",
+   "筏"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_三重_2": {
+  "name": "宮川渓谷",
+  "pref": "三重県",
+  "tags": [
+   "渓谷",
+   "林業",
+   "森林浴",
+   "秘境"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_滋賀_1": {
+  "name": "日野商人の町並み",
+  "pref": "滋賀県",
+  "tags": [
+   "商人文化",
+   "古い町並み",
+   "歴史",
+   "散策"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_滋賀_3": {
+  "name": "永源寺門前と愛知川",
+  "pref": "滋賀県",
+  "tags": [
+   "古刹",
+   "製紙文化",
+   "渓谷",
+   "紅葉"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_滋賀_4": {
+  "name": "五個荘近江商人の館",
+  "pref": "滋賀県",
+  "tags": [
+   "近江商人",
+   "古い町並み",
+   "工芸",
+   "藍染"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_滋賀_6": {
+  "name": "賤ヶ岳と湖北山里",
+  "pref": "滋賀県",
+  "tags": [
+   "戦国史跡",
+   "城",
+   "琵琶湖展望",
+   "古戦場"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_京都_3": {
+  "name": "青谷地区",
+  "pref": "京都府",
+  "tags": [
+   "茶文化",
+   "農村風景",
+   "香り"
+  ],
+  "pool": 1,
+  "filtered": {
+   "license": 1
+  },
+  "checked": []
+ },
+ "niche_京都_5": {
+  "name": "由良川渓谷",
+  "pref": "京都府",
+  "tags": [
+   "渓谷美",
+   "清流",
+   "秘境"
+  ],
+  "pool": 7,
+  "filtered": {
+   "size": 7
+  },
+  "checked": []
+ },
+ "niche_京都_6": {
+  "name": "北の宿温泉",
+  "pref": "京都府",
+  "tags": [
+   "温泉",
+   "秘湯",
+   "村営施設"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_大阪_1": {
+  "name": "能勢白滝",
+  "pref": "大阪府",
+  "tags": [
+   "渓谷",
+   "滝",
+   "山里",
+   "蕎麦"
+  ],
+  "pool": 24,
+  "filtered": {
+   "license": 10,
+   "size": 7
+  },
+  "checked": [
+   {
+    "title": "File:尾道市 白滝山山頂.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/%E5%B0%BE%E9%81%93%E5%B8%82_%E7%99%BD%E6%BB%9D%E5%B1%B1%E5%B1%B1%E9%A0%82.jpg/1920px-%E5%B0%BE%E9%81%93%E5%B8%82_%E7%99%BD%E6%BB%9D%E5%B1%B1%E5%B1%B1%E9%A0%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E5%B0%BE%E9%81%93%E5%B8%82_%E7%99%BD%E6%BB%9D%E5%B1%B1%E5%B1%B1%E9%A0%82.jpg",
+    "w": 3648,
+    "h": 2420,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "Yoshio Kohara",
+    "cats": [],
+    "order": 10,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:Tom yam noodles - Bangkok - 2017-08-07.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Tom_yam_noodles_-_Bangkok_-_2017-08-07.jpg/1920px-Tom_yam_noodles_-_Bangkok_-_2017-08-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Tom_yam_noodles_-_Bangkok_-_2017-08-07.jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Iudexvivorum",
+    "cats": [],
+    "order": 14,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (001).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Tom_yam_noodles_-_Bangkok_-_2017-07-20_%28001%29.jpg/1920px-Tom_yam_noodles_-_Bangkok_-_2017-07-20_%28001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Tom_yam_noodles_-_Bangkok_-_2017-07-20_(001).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Iudexvivorum",
+    "cats": [],
+    "order": 15,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (003).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Tom_yam_noodles_-_Bangkok_-_2017-07-20_%28003%29.jpg/1920px-Tom_yam_noodles_-_Bangkok_-_2017-07-20_%28003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Tom_yam_noodles_-_Bangkok_-_2017-07-20_(003).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Iudexvivorum",
+    "cats": [],
+    "order": 17,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Tom yam noodles - Bangkok - 2017-07-20 (002).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Tom_yam_noodles_-_Bangkok_-_2017-07-20_%28002%29.jpg/1920px-Tom_yam_noodles_-_Bangkok_-_2017-07-20_%28002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Tom_yam_noodles_-_Bangkok_-_2017-07-20_(002).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Iudexvivorum",
+    "cats": [],
+    "order": 18,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:091025中野白滝（秋） - panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/091025%E4%B8%AD%E9%87%8E%E7%99%BD%E6%BB%9D%EF%BC%88%E7%A7%8B%EF%BC%89_-_panoramio.jpg/1920px-091025%E4%B8%AD%E9%87%8E%E7%99%BD%E6%BB%9D%EF%BC%88%E7%A7%8B%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:091025%E4%B8%AD%E9%87%8E%E7%99%BD%E6%BB%9D%EF%BC%88%E7%A7%8B%EF%BC%89_-_panoramio.jpg",
+    "w": 3430,
+    "h": 2278,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "re-kuma",
+    "cats": [],
+    "order": 21,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": true,
+    "strong": false
+   },
+   {
+    "title": "File:090329中野白滝（晩冬） - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/090329%E4%B8%AD%E9%87%8E%E7%99%BD%E6%BB%9D%EF%BC%88%E6%99%A9%E5%86%AC%EF%BC%89_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:090329%E4%B8%AD%E9%87%8E%E7%99%BD%E6%BB%9D%EF%BC%88%E6%99%A9%E5%86%AC%EF%BC%89_-_panoramio.jpg",
+    "w": 1600,
+    "h": 1063,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "re-kuma",
+    "cats": [],
+    "order": 20,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": true,
+    "strong": false
+   }
+  ]
+ },
+ "niche_大阪_3": {
+  "name": "山崎の古い町並み",
+  "pref": "京都府",
+  "tags": [
+   "古い町並み",
+   "造り酒屋",
+   "淀川",
+   "江戸"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_兵庫_2": {
+  "name": "湯村温泉・荒湯地獄",
+  "pref": "兵庫県",
+  "tags": [
+   "温泉",
+   "地獄谷",
+   "野湯",
+   "秘湯"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_兵庫_4": {
+  "name": "鳥飼漁港と丸島番所跡",
+  "pref": "兵庫県",
+  "tags": [
+   "漁港",
+   "鳴門潮流",
+   "海鮮",
+   "番所跡"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_奈良_2": {
+  "name": "野迫川村の深山と秘湯群",
+  "pref": "奈良県",
+  "tags": [
+   "秘湯",
+   "深山",
+   "郷土料理",
+   "紅葉",
+   "静寂"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_和歌山_3": {
+  "name": "北山村いかだ下り",
+  "pref": "和歌山県",
+  "tags": [
+   "いかだ下り",
+   "秘境",
+   "自然体験"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_和歌山_6": {
+  "name": "高野龍神スカイライン",
+  "pref": "和歌山県",
+  "tags": [
+   "ドライブ",
+   "展望",
+   "自然"
+  ],
+  "pool": 4,
+  "filtered": {
+   "size": 2
+  },
+  "checked": [
+   {
+    "title": "File:高野龍神スカイライン入口(中の橋交差点) Koyaryujin Skyline (Nakanohashi) - panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%E9%AB%98%E9%87%8E%E9%BE%8D%E7%A5%9E%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3%E5%85%A5%E5%8F%A3%28%E4%B8%AD%E3%81%AE%E6%A9%8B%E4%BA%A4%E5%B7%AE%E7%82%B9%29_Koyaryujin_Skyline_%28Nakanohashi%29_-_panoramio.jpg/1920px-%E9%AB%98%E9%87%8E%E9%BE%8D%E7%A5%9E%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3%E5%85%A5%E5%8F%A3%28%E4%B8%AD%E3%81%AE%E6%A9%8B%E4%BA%A4%E5%B7%AE%E7%82%B9%29_Koyaryujin_Skyline_%28Nakanohashi%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E9%87%8E%E9%BE%8D%E7%A5%9E%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3%E5%85%A5%E5%8F%A3(%E4%B8%AD%E3%81%AE%E6%A9%8B%E4%BA%A4%E5%B7%AE%E7%82%B9)_Koyaryujin_Skyline_(Nakanohashi)_-_panoramio.jpg",
+    "w": 3264,
+    "h": 2448,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "iloverjoa",
+    "cats": [
+     "CC-BY-3.0",
+     "Files with coordinates missing SDC location of creation",
+     "Japan photographs taken on 2013-07-27",
+     "Panoramio files uploaded by Panoramio upload bot",
+     "Panoramio images reviewed by trusted users",
+     "Photos from Panoramio",
+     "Streets in Mount Kōya"
+    ],
+    "order": 2,
+    "geo": {
+     "lat": 34.216176,
+     "lng": 135.60494
+    },
+    "place": "ok",
+    "km": 17.6,
+    "nameHit": true,
+    "strong": true
+   },
+   {
+    "title": "File:オートバイ高野龍神スカイラインPA060761.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4%E9%AB%98%E9%87%8E%E9%BE%8D%E7%A5%9E%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3PA060761.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%83%BC%E3%83%88%E3%83%90%E3%82%A4%E9%AB%98%E9%87%8E%E9%BE%8D%E7%A5%9E%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3PA060761.jpg",
+    "w": 1280,
+    "h": 960,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "秋空から蛇が降ってきた",
+    "cats": [
+     "Kawasaki Zephyr",
+     "PD-self",
+     "Self-published work"
+    ],
+    "order": 1,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": true,
+    "strong": true
+   }
+  ]
+ },
+ "niche_和歌山_8": {
+  "name": "印南くじらの浜",
+  "pref": "和歌山県",
+  "tags": [
+   "漁港",
+   "ウミガメ",
+   "郷土料理"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_鳥取_2": {
+  "name": "若桜町商店街",
+  "pref": "鳥取県",
+  "tags": [
+   "廃線跡",
+   "昭和レトロ",
+   "蒸気機関車"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_鳥取_8": {
+  "name": "琴浦町の漁村風景",
+  "pref": "鳥取県",
+  "tags": [
+   "漁村",
+   "古民家",
+   "日本海景"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_島根_1": {
+  "name": "斐伊川荒島地区",
+  "pref": "島根県",
+  "tags": [
+   "渓谷",
+   "紅葉",
+   "蕎麦",
+   "漁村文化"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_島根_4": {
+  "name": "掛合町の鐘乳洞群",
+  "pref": "島根県",
+  "tags": [
+   "鍾乳洞",
+   "渓谷",
+   "清流",
+   "探検"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_島根_6": {
+  "name": "黒淵の滝",
+  "pref": "島根県",
+  "tags": [
+   "秘境",
+   "滝",
+   "渓谷",
+   "花崗岩"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_山口_2": {
+  "name": "錦川峡谷",
+  "pref": "山口県",
+  "tags": [
+   "渓谷",
+   "ローカル線",
+   "紅葉",
+   "山里"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_徳島_2": {
+  "name": "勝浦川峡谷",
+  "pref": "徳島県",
+  "tags": [
+   "峡谷",
+   "清流",
+   "温泉",
+   "秘境",
+   "海産物"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_香川_2": {
+  "name": "仁尾の町並みと造り酒屋",
+  "pref": "香川県",
+  "tags": [
+   "古い町並み",
+   "酒蔵",
+   "漁村",
+   "塩田遺産"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_高知_1": {
+  "name": "佐川町の酒蔵と古い町並み",
+  "pref": "高知県",
+  "tags": [
+   "酒蔵",
+   "古い町並み",
+   "日本酒"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_高知_6": {
+  "name": "日高村",
+  "pref": "高知県",
+  "tags": [
+   "ユズ",
+   "温泉",
+   "里山"
+  ],
+  "pool": 44,
+  "filtered": {
+   "license": 18,
+   "size": 18,
+   "used": 1
+  },
+  "checked": [
+   {
+    "title": "File:Hidaka 20201005094600 (50839562758).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hidaka_20201005094600_%2850839562758%29.jpg/1920px-Hidaka_20201005094600_%2850839562758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_20201005094600_(50839562758).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "inunami",
+    "cats": [],
+    "order": 11,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hidaka 20201005095254 (50840285866).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Hidaka_20201005095254_%2850840285866%29.jpg/1920px-Hidaka_20201005095254_%2850840285866%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_20201005095254_(50840285866).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "inunami",
+    "cats": [],
+    "order": 20,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hidaka 20201005095220 (50839562243).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Hidaka_20201005095220_%2850839562243%29.jpg/1920px-Hidaka_20201005095220_%2850839562243%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_20201005095220_(50839562243).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "inunami",
+    "cats": [],
+    "order": 21,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hidaka 20201005095524 (50840399876).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Hidaka_20201005095524_%2850840399876%29.jpg/1920px-Hidaka_20201005095524_%2850840399876%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_20201005095524_(50840399876).jpg",
+    "w": 4032,
+    "h": 3024,
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "inunami",
+    "cats": [],
+    "order": 23,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hidaka Village Office Kōchi Prefecture 202408041545.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Hidaka_Village_Office_K%C5%8Dchi_Prefecture_202408041545.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_Village_Office_K%C5%8Dchi_Prefecture_202408041545.jpg",
+    "w": 1920,
+    "h": 1080,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "0211 SKDGAKUCHO",
+    "cats": [],
+    "order": 2,
+    "geo": null,
+    "place": "ok",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hidaka mountains.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Hidaka_mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_mountains.jpg",
+    "w": 1600,
+    "h": 1200,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "As6022014",
+    "cats": [
+     "Hidaka Mountains",
+     "PD-self",
+     "Self-published work",
+     "Taken with Fujifilm FinePix Z2"
+    ],
+    "order": 18,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hidaka International ski aria.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hidaka_International_ski_aria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hidaka_International_ski_aria.jpg",
+    "w": 1600,
+    "h": 1200,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "wakimasa",
+    "cats": [
+     "Hidaka, Hokkaido",
+     "PD-self",
+     "Self-published work",
+     "Ski resorts in Hokkaido"
+    ],
+    "order": 12,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "niche_佐賀_1": {
+  "name": "白石温泉",
+  "pref": "佐賀県",
+  "tags": [
+   "農業体験",
+   "温泉",
+   "郷土料理",
+   "季節限定"
+  ],
+  "pool": 4,
+  "filtered": {
+   "license": 1,
+   "size": 3
+  },
+  "checked": []
+ },
+ "niche_熊本_1": {
+  "name": "五木村の清流と棚田",
+  "pref": "熊本県",
+  "tags": [
+   "秘境",
+   "棚田",
+   "渓谷",
+   "山村"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_熊本_2": {
+  "name": "産山村の星の宮古墳",
+  "pref": "熊本県",
+  "tags": [
+   "古墳",
+   "高原の花",
+   "温泉",
+   "雲海"
+  ],
+  "pool": 6,
+  "filtered": {},
+  "checked": [
+   {
+    "title": "File:Hoshinomiya Sengenzuka Kofun, funkyu-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Hoshinomiya_Sengenzuka_Kofun%2C_funkyu-2.jpg/1920px-Hoshinomiya_Sengenzuka_Kofun%2C_funkyu-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hoshinomiya_Sengenzuka_Kofun,_funkyu-2.jpg",
+    "w": 5568,
+    "h": 3712,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Saigen Jiro",
+    "cats": [
+     "CC-Zero",
+     "Hoshinomiya Sengenzuka Kofun",
+     "Self-published work"
+    ],
+    "order": 1,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hoshinomiya Sengenzuka Kofun, funkyu-1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Hoshinomiya_Sengenzuka_Kofun%2C_funkyu-1.jpg/1920px-Hoshinomiya_Sengenzuka_Kofun%2C_funkyu-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hoshinomiya_Sengenzuka_Kofun,_funkyu-1.jpg",
+    "w": 5568,
+    "h": 3712,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Saigen Jiro",
+    "cats": [
+     "CC-Zero",
+     "Hoshinomiya Sengenzuka Kofun",
+     "Self-published work"
+    ],
+    "order": 2,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hoshinomiya Sengenzuka Kofun, enkei.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Hoshinomiya_Sengenzuka_Kofun%2C_enkei.jpg/1920px-Hoshinomiya_Sengenzuka_Kofun%2C_enkei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hoshinomiya_Sengenzuka_Kofun,_enkei.jpg",
+    "w": 5568,
+    "h": 3712,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Saigen Jiro",
+    "cats": [
+     "CC-Zero",
+     "Hoshinomiya Sengenzuka Kofun",
+     "Self-published work"
+    ],
+    "order": 3,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hoshinomiya Sengenzuka Kofun, funcho.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hoshinomiya_Sengenzuka_Kofun%2C_funcho.jpg/1920px-Hoshinomiya_Sengenzuka_Kofun%2C_funcho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hoshinomiya_Sengenzuka_Kofun,_funcho.jpg",
+    "w": 5568,
+    "h": 3712,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Saigen Jiro",
+    "cats": [
+     "CC-Zero",
+     "Hoshinomiya Sengenzuka Kofun",
+     "Self-published work"
+    ],
+    "order": 4,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hoshinomiya Sengenzuka Kofun, kouhoubu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Hoshinomiya_Sengenzuka_Kofun%2C_kouhoubu.jpg/1920px-Hoshinomiya_Sengenzuka_Kofun%2C_kouhoubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hoshinomiya_Sengenzuka_Kofun,_kouhoubu.jpg",
+    "w": 5568,
+    "h": 3712,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Saigen Jiro",
+    "cats": [
+     "CC-Zero",
+     "Hoshinomiya Sengenzuka Kofun",
+     "Self-published work"
+    ],
+    "order": 5,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   },
+   {
+    "title": "File:Hoshinomiya Sengenzuka Kofun, zenpoubu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Hoshinomiya_Sengenzuka_Kofun%2C_zenpoubu.jpg/1920px-Hoshinomiya_Sengenzuka_Kofun%2C_zenpoubu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Hoshinomiya_Sengenzuka_Kofun,_zenpoubu.jpg",
+    "w": 5568,
+    "h": 3712,
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Saigen Jiro",
+    "cats": [
+     "CC-Zero",
+     "Hoshinomiya Sengenzuka Kofun",
+     "Self-published work"
+    ],
+    "order": 6,
+    "geo": null,
+    "place": "weak",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "niche_熊本_6": {
+  "name": "白糸台地の棚田",
+  "pref": "熊本県",
+  "tags": [
+   "棚田",
+   "山村",
+   "渓谷沿い",
+   "農村風景"
+  ],
+  "pool": 4,
+  "filtered": {
+   "size": 1,
+   "license": 3
+  },
+  "checked": []
+ },
+ "niche_熊本_8": {
+  "name": "三角町の漁師町",
+  "pref": "熊本県",
+  "tags": [
+   "港町",
+   "江戸期",
+   "異国情緒",
+   "漁村"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_大分_1": {
+  "name": "佐賀関漁港と三浦海岸",
+  "pref": "大分県",
+  "tags": [
+   "漁村",
+   "海鮮",
+   "朝焼け"
+  ],
+  "pool": 1,
+  "filtered": {},
+  "checked": [
+   {
+    "title": "File:神崎漁港から佐賀関大煙突を臨む - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E7%A5%9E%E5%B4%8E%E6%BC%81%E6%B8%AF%E3%81%8B%E3%82%89%E4%BD%90%E8%B3%80%E9%96%A2%E5%A4%A7%E7%85%99%E7%AA%81%E3%82%92%E8%87%A8%E3%82%80_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "descurl": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E5%B4%8E%E6%BC%81%E6%B8%AF%E3%81%8B%E3%82%89%E4%BD%90%E8%B3%80%E9%96%A2%E5%A4%A7%E7%85%99%E7%AA%81%E3%82%92%E8%87%A8%E3%82%80_-_panoramio.jpg",
+    "w": 1600,
+    "h": 1071,
+    "mime": "image/jpeg",
+    "license": "CC BY 3.0",
+    "artist": "流木",
+    "cats": [
+     "CC-BY-3.0",
+     "Files with coordinates missing SDC location of creation",
+     "Geography of Oita, Oita",
+     "Japan photographs taken on 2010-11-02",
+     "Panoramio files uploaded by Panoramio upload bot",
+     "Panoramio images reviewed by trusted users",
+     "Photos from Panoramio"
+    ],
+    "order": 1,
+    "geo": {
+     "lat": 33.244919,
+     "lng": 131.787931
+    },
+    "place": "ok",
+    "km": 8.7,
+    "nameHit": false,
+    "strong": true
+   }
+  ]
+ },
+ "niche_宮崎_2": {
+  "name": "西米良村 仙人の湯",
+  "pref": "宮崎県",
+  "tags": [
+   "秘湯",
+   "山村",
+   "露天風呂",
+   "秘境"
+  ],
+  "pool": 8,
+  "filtered": {
+   "license": 8
+  },
+  "checked": []
+ },
+ "niche_宮崎_3": {
+  "name": "みやざき地鶏の里",
+  "pref": "宮崎県",
+  "tags": [
+   "地鶏",
+   "炭火焼き",
+   "山村",
+   "グルメ"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_宮崎_4": {
+  "name": "渡川温泉",
+  "pref": "宮崎県",
+  "tags": [
+   "秘湯",
+   "白濁湯",
+   "山間",
+   "湯治"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ },
+ "niche_宮崎_7": {
+  "name": "湯の元温泉",
+  "pref": "宮崎県",
+  "tags": [
+   "秘湯",
+   "一軒宿",
+   "星空",
+   "秘境"
+  ],
+  "pool": 25,
+  "filtered": {
+   "license": 24
+  },
+  "checked": [
+   {
+    "title": "File:294-南満洲湯崗子温泉元池ノ魚釣.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/294-%E5%8D%97%E6%BA%80%E6%B4%B2%E6%B9%AF%E5%B4%97%E5%AD%90%E6%B8%A9%E6%B3%89%E5%85%83%E6%B1%A0%E3%83%8E%E9%AD%9A%E9%87%A3.jpg/1920px-294-%E5%8D%97%E6%BA%80%E6%B4%B2%E6%B9%AF%E5%B4%97%E5%AD%90%E6%B8%A9%E6%B3%89%E5%85%83%E6%B1%A0%E3%83%8E%E9%AD%9A%E9%87%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "descurl": "https://commons.wikimedia.org/wiki/File:294-%E5%8D%97%E6%BA%80%E6%B4%B2%E6%B9%AF%E5%B4%97%E5%AD%90%E6%B8%A9%E6%B3%89%E5%85%83%E6%B1%A0%E3%83%8E%E9%AD%9A%E9%87%A3.jpg",
+    "w": 3968,
+    "h": 2562,
+    "mime": "image/jpeg",
+    "license": "Public domain",
+    "artist": "京都帝国大学",
+    "cats": [],
+    "order": 2,
+    "geo": null,
+    "place": "ng",
+    "km": null,
+    "nameHit": false,
+    "strong": false
+   }
+  ]
+ },
+ "niche_鹿児島_1": {
+  "name": "串木野港周辺の漁師町",
+  "pref": "鹿児島県",
+  "tags": [
+   "漁港",
+   "朝市",
+   "グルメ",
+   "工芸",
+   "薩摩焼"
+  ],
+  "pool": 2,
+  "filtered": {
+   "license": 2
+  },
+  "checked": []
+ },
+ "niche_鹿児島_5": {
+  "name": "栗野岳温泉郷",
+  "pref": "鹿児島県",
+  "tags": [
+   "登山",
+   "温泉",
+   "山野草",
+   "絶景",
+   "湯治"
+  ],
+  "pool": 0,
+  "filtered": {},
+  "checked": []
+ }
+}
