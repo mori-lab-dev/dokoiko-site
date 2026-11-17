@@ -23,7 +23,18 @@ if (!fs.existsSync(path.join(target, '.git'))) {
   process.exit(1);
 }
 
+// main 以外のブランチからの反映は止める（2026-11-17。本番が fix/status-badge-label から作られていた件の再発防止）。
+// 反映するのは、main をチェックアウトして、その main でビルドした dist だけ（dist/build-info.json の branch も main であること）。
+// 変更前の版: logs/prevent_20261117/deployToPages.mjs.before
+const gitOut = (...a) => execFileSync('git', a, { cwd: path.join(__dirname, '..'), encoding: 'utf8' }).trim();
 const dry = process.argv.includes('--dry');
+if (!dry) {
+  const cur = gitOut('rev-parse', '--abbrev-ref', 'HEAD');
+  if (cur !== 'main') { console.error(`反映を止めた: いまのブランチは ${cur}（main 以外から本番へは反映しない）。main に切り替えてビルドし直す。`); process.exit(1); }
+  let bi = null; try { bi = JSON.parse(fs.readFileSync(path.join(dist, 'build-info.json'), 'utf8')); } catch { /* 無い */ }
+  if (!bi) { console.error('反映を止めた: dist/build-info.json が無い。main で npm run build をやり直す（postbuild が書く）。'); process.exit(1); }
+  if (bi.branch !== 'main') { console.error(`反映を止めた: dist は ${bi.branch} でビルドされている。main でビルドし直す。`); process.exit(1); }
+}
 const args = ['-a', '--delete', ...(dry ? ['-n', '-i'] : []),
   ...KEEP.flatMap(k => ['--exclude', `/${k}`]),
   `${dist}/`, `${target}/`];

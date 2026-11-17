@@ -3,6 +3,7 @@
 //   次のときだけ macOS の通知を出す:
 //     1. audit:all が失敗  2. 応援割の確認日が14日を超えた  3. npm run gsc がエラー（403 など）で止まった
 //     4. gsc の差分で、登録済み（URL検査 verdict=PASS）の件数が前回より減った
+//     5. 本番の /build-info.json の SHA が main の先頭と合っていない（checkProdSha.mjs）
 // 起動: launchd（~/Library/LaunchAgents/com.morilab.dokoiko-weekly.plist・毎週火曜 21:00）。手動: node scripts/weeklyCheck.mjs
 // 使い方: node scripts/weeklyCheck.mjs [--notify-test]   通知が出ることだけ確かめる
 // GSC のキーは環境変数 GSC_KEY_FILE のパスだけを使う。キーの中身・client_email はここでは読まない・出さない。
@@ -48,6 +49,9 @@ const om = ouen.buf.match(/確認日が(\d+)日より古い:\s*(\d+)件/);
 if (!om) alerts.push('応援割の確認日の検査が読めなかった');
 else if (Number(om[2]) > 0) alerts.push(`応援割の確認日が${om[1]}日を超えた（${om[2]}件）`);
 await run('baseline', npm, ['run', 'baseline']);
+// 本番が main の先頭から作られているか（2026-11-17。本番が main 以外のブランチから作られていた件の再発防止）
+const prodSha = await run('本番のSHA', '/opt/homebrew/bin/node', ['scripts/checkProdSha.mjs']);
+if (prodSha.code !== 0) alerts.push(`本番が main の先頭と合っていない（${(prodSha.buf.match(/❌[^\n]*/) ?? [''])[0].slice(0, 90)}）`);
 
 // gsc の前に、前回の登録済み件数を控える（今回の記録ファイルより前の最新）
 const gscDir = path.join(root, 'logs/gsc');

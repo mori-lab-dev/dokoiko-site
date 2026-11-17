@@ -12,6 +12,7 @@
     "prebuild": "node scripts/copyData.js && (node scripts/genJalanWatch.mjs || echo '（jalanWatch.json は前のまま。ページが取得時刻で古さを判定する）')",
     "jalan:watch": "node scripts/genJalanWatch.mjs",
     "build": "astro build",
+    "postbuild": "node scripts/writeBuildInfo.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "audit:all": "node scripts/auditAll.mjs",
