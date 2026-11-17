@@ -10,6 +10,7 @@
  *   6. 全旅先に結果ページがある。noindex,follow・canonical=/quiz/・og:image（結果ごと）・twitter:card・sitemap に入っていない・utm なし・作った人のXのリンクあり
  *   7. 共有画像 /quiz/og/<code>.png: 全旅先ぶんあり・1200×675・サイズが上限内・パレット・メタデータなし・中身のハッシュが今のデータと一致（古い画像を見つける）
  *   8. utm は共有の URL（結果ページ）だけ。サイト内リンクにない。/quiz/ の canonical・og:url が自己参照
+ *   8b. 説明（/quiz/desc.json）: 全文が採用の条件を満たし、既存の旅先ページの description の先頭1〜2文、または県名と tags の1文と一致する（新しい文が混ざらない）。結果ページの og:description と一致
  *   9. 分布検査（scripts/quizDistribution.mjs を小さい回数で）
  * usage: node scripts/auditQuiz.mjs [--n 1500]
  */
@@ -19,6 +20,7 @@ import os from 'os';
 import crypto from 'crypto';
 import { execFileSync } from 'child_process';
 import { contentHash, ACCOUNT } from './lib/quizOg.mjs';
+import { checkText, splitSentences, tagsSentence } from './lib/quizDescRules.mjs';
 
 const args = process.argv.slice(2);
 const N = Number(args.includes('--n') ? args[args.indexOf('--n') + 1] : 1500);
@@ -148,7 +150,7 @@ for (const d of data) {
   if (!/author_x_click/.test(t)) add('結果ページの不備', `${d.code}（author_x_click の計測なし）`);
   if (!t.includes(`href="${d.url}"`) || !t.includes('href="/quiz/"')) add('結果ページの不備', `${d.code}（旅先ページ・/quiz/ へのリンク）`);
   const text = ALLOW(t.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, ' '));
-  if (banRe.test(text) || /travelTime|料金|送迎|無料|所要|円/.test(text)) add('結果ページの文言の不備', `${d.code}（禁止語・料金・送迎・無料）`);
+  if (banRe.test(text) || /travelTime|料金|送迎|無料|所要|[0-9０-９][,，0-9０-９]*\s*円/.test(text)) add('結果ページの文言の不備', `${d.code}（禁止語・料金・送迎・無料）`);
   for (const w of terms) if (text.includes(w) || ALLOW(t).includes(w)) add('実名・メール・勤務先名の混入', `結果ページ ${d.code}`);
   if (/\d{2,3}\.\d{5,}/.test(t)) add('位置の混入', `結果ページ ${d.code}`);
 }
@@ -184,6 +186,37 @@ init('OGP画像の不備');
   if (ch.some((c) => ['eXIf', 'tEXt', 'zTXt', 'iTXt'].includes(c))) add('EXIF・メタデータ（共有画像）', '/quiz/ の画像'); }
 if (!read('dist/index.html').includes('href="/quiz/"')) add('導線・sitemap', 'トップのナビ・フッターに /quiz/ へのリンクが無い');
 if (!read('dist/about/index.html').includes('href="/quiz/"')) add('導線・sitemap', '固定ページのナビ・フッターに /quiz/ へのリンクが無い');
+
+// ---- 8b. 説明
+init('説明（desc.json）の不備');
+{
+  const unesc = (t) => t.replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  let desc = null;
+  try { desc = JSON.parse(read('dist/quiz/desc.json')); } catch { add('説明（desc.json）の不備', 'dist/quiz/desc.json が読めない'); }
+  if (desc) {
+    if (JSON.stringify(desc) + '\n' !== read('src/data/quizDesc.json')) add('説明（desc.json）の不備', '配信されている desc.json と src/data/quizDesc.json が違う');
+    let fresh2 = ''; try { fresh2 = execFileSync('node', ['scripts/buildQuizDesc.mjs', '--check'], { encoding: 'utf8' }).trim(); } catch { fresh2 = 'エラー'; }
+    if (fresh2 !== '最新') add('説明（desc.json）の不備', fresh2);
+    for (const d of data) {
+      const t = desc[d.id];
+      if (typeof t !== 'string' || !t) { add('説明（desc.json）の不備', `${d.id}（説明なし）`); continue; }
+      const bad = checkText(t); if (bad) add('説明（desc.json）の不備', `${d.id}（条件: ${bad}）`);
+      for (const w of BAN) if (t.includes(w)) add('説明（desc.json）の不備', `${d.id}（禁止語 ${w}）`);
+      const orig = byId.get(d.id).description || '';
+      const fromDesc = orig.startsWith(t) && splitSentences(t).length >= 1 && splitSentences(orig).slice(0, splitSentences(t).length).join('') === t;
+      if (!fromDesc && t !== tagsSentence(d.prefecture, d.tags)) add('説明（desc.json）の不備', `${d.id}（既存の description の先頭の文でも tags の1文でもない＝新しい文）`);
+      const f = `dist/quiz/r/${d.code}/index.html`;
+      if (fs.existsSync(f)) {
+        const h = read(f); const og = (h.match(/<meta property="og:description" content="([^"]*)"/) || [])[1]; const md = (h.match(/<meta name="description" content="([^"]*)"/) || [])[1];
+        if (og === undefined || unesc(og) !== t || md === undefined || unesc(md) !== t) add('説明（desc.json）の不備', `${d.code}（結果ページの og:description・meta description が desc.json と違う）`);
+        if (!/<p class="desc"[^>]*>/.test(h) || !unesc(h).includes(`>${t}</p>`)) add('説明（desc.json）の不備', `${d.code}（結果ページの本文に説明が無い）`);
+      }
+    }
+    if (Object.keys(desc).length !== data.length) add('説明（desc.json）の不備', `件数 ${Object.keys(desc).length} ≠ 旅先 ${data.length}`);
+  }
+  if (!js.includes('/quiz/desc.json')) add('説明（desc.json）の不備', '結果で desc.json を読み込むコードが無い');
+  if (/"description"/.test(jsonText)) add('説明（desc.json）の不備', '診断の最初のJSON（quiz-data）に description が入っている');
+}
 
 // ---- 「のこり」の厳密性（小さい回数）: 数がエンジンと一致し、外れと数えた旅先が1位にならない（scripts/testQuizAlive.mjs）
 init('のこりの厳密性の不備');

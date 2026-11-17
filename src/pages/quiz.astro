@@ -70,6 +70,11 @@ const description = '12の質問に答えると、日本地図の上で候補が
     .qz-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; padding: 0; list-style: none; }
     .qz-tags li { font-size: 12px; padding: 2px 10px; border-radius: 999px; background: #ece3cb; color: #5b4f33; margin: 0; line-height: 1.7; }
     .qz-win { margin: 0 0 8px; }
+    .qz-desc { font-size: 14px; line-height: 1.9; color: #3d3a33; margin: 0 0 14px; overflow-wrap: anywhere; }
+    .qz-desc:empty { display: none; }
+    .qz-next-desc { display: block; flex-basis: 100%; font-size: 12px; line-height: 1.7; color: #5f5a4d; font-weight: 400; margin-top: 4px; overflow-wrap: anywhere; }
+    .qz-next a { flex-wrap: wrap; }
+    .qz-next a b + span { margin-left: auto; }
     .qz-actions { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; margin: 16px 0 8px; }
     .qz-trend { font-size: 13px; color: #555; line-height: 1.9; margin: 10px 0 22px; }
     .qz-next-h { font-family: 'Noto Serif JP', serif; font-size: 15px; font-weight: 500; margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #e8e0c8; }
@@ -131,6 +136,7 @@ const description = '12の質問に答えると、日本地図の上で候補が
         <h2 class="qz-result-name" id="qz-r-name"></h2>
       </div>
       <ul class="qz-tags" id="qz-r-tags"></ul>
+      <p class="qz-desc" id="qz-r-desc"></p>
       <p class="qz-win" id="qz-r-win" hidden></p>
       <div class="qz-actions">
         <a class="qz-btn" id="qz-r-link" href="/">この旅先のページを見る</a>
@@ -165,6 +171,10 @@ const description = '12の質問に答えると、日本地図の上で候補が
     window.dataLayer = window.dataLayer || [];
     function g() { window.dataLayer.push(arguments); }
     const track = (name, params) => { try { g('event', name, params || {}); } catch (e) { /* 計測は結果に影響させない */ } };
+
+    // 結果に出す説明（旅先ID → 1〜2文）。結果が出るときに1回だけ読み込む。診断の最初の読み込み（quizDestinations.json）には入れない
+    let descP = null;
+    const loadDesc = () => (descP = descP || fetch('/quiz/desc.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
 
     const canvas = $('qz-map');
     const view = createMapView(canvas, quizMap, P.map((d) => ({ x: d.x, y: d.y })));
@@ -279,8 +289,11 @@ const description = '12の質問に答えると、日本地図の上で候補が
         const li = document.createElement('li'); li.style.animationDelay = `${(reduced() ? 0 : 0.9 + j * 0.16).toFixed(2)}s`;
         const a = document.createElement('a'); const n = document.createElement('i'); n.textContent = String(j + 2);
         const b = document.createElement('b'); b.textContent = d.name; const s = document.createElement('span'); s.textContent = d.prefecture;
-        a.append(n, b, s); destLink(a, d); li.appendChild(a); ul.appendChild(li);
+        const ds = document.createElement('small'); ds.className = 'qz-next-desc';
+        a.append(n, b, s, ds); destLink(a, d); li.appendChild(a); ul.appendChild(li);
       });
+      $('qz-r-desc').textContent = ''; r.next.forEach((d, j) => { const e = ul.children[j] && ul.children[j].querySelector('.qz-next-desc'); if (e) e.textContent = ''; });
+      loadDesc().then((m) => { if (answers.stay == null || !m) return; $('qz-r-desc').textContent = m[t.id] || ''; r.next.forEach((d, j) => { const e = ul.children[j] && ul.children[j].querySelector('.qz-next-desc'); if (e) e.textContent = m[d.id] || ''; }); });
       moveTrain(QUESTIONS.length); $('qz-step').textContent = '診断おわり';
       view.showResult(idx(t), r.next.map(idx));
       $('qz-live').textContent = `結果は ${t.name}（${t.prefecture}）です`;

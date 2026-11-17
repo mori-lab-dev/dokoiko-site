@@ -76,6 +76,28 @@ case('結果ページに禁止語「必ず」', [RP], txt(lambda t: t.replace('�
 case('結果ページの作った人のXのリンクを消す', [RP], txt(lambda t: t.replace('href="https://x.com/mori__lab"', 'href="https://x.com/"')))
 case('結果ページに位置（緯度経度）', [RP], txt(lambda t: t.replace('<h1', '<!-- 35.123456,139.123456 --><h1', 1)))
 case('sitemap に結果ページが入る', ['dist/sitemap.xml'], txt(lambda t: t.replace('</urlset>', f'<url><loc>https://tabidokoiko.com/quiz/r/{c0}/</loc></url></urlset>')))
+# ---- 説明（desc.json）
+DJ = 'dist/quiz/desc.json'
+d0 = json.load(open(DJ, encoding='utf8'))
+def dmut(fn):
+    def m(f, b):
+        d = json.loads(b.decode('utf8')); fn(d); return json.dumps(d, ensure_ascii=False).encode('utf8')
+    return m
+id0 = D0[0]['id']; id1 = D0[1]['id']
+case('説明に「無料送迎」', [DJ], dmut(lambda d: d.update({id0: '無料送迎があります。'})))
+case('説明に料金（円）', [DJ], dmut(lambda d: d.update({id0: d[id0].rstrip('。') + '。入場は500円です。'})))
+case('説明に所要時間（分）', [DJ], dmut(lambda d: d.update({id0: '駅から約15分の町です。'})))
+case('説明に「車なし」', [DJ], dmut(lambda d: d.update({id0: '車なしで行けます。'})))
+case('説明に禁止語「運命の町」', [DJ], dmut(lambda d: d.update({id0: '運命の町です。'})))
+case('説明に「当てます」', [DJ], dmut(lambda d: d.update({id0: '旅先を当てます。'})))
+case('説明に断定・最上級「日本一」', [DJ], dmut(lambda d: d.update({id0: '日本一の景色です。'})))
+case('説明に推測の語「かもしれない」', [DJ], dmut(lambda d: d.update({id0: '行きたくなるかもしれない。'})))
+case('説明が文の途中で切れている', [DJ], dmut(lambda d: d.update({id0: d[id0].rstrip('。')[:-1]})))
+case('説明が長すぎる', [DJ], dmut(lambda d: d.update({id0: '山と海に囲まれた静かな土地で、' * 8 + '旅先です。'})))
+case('説明に新しい文が混ざる（既存の description にも tags の形にも無い）', [DJ], dmut(lambda d: d.update({id1: '空気がおいしい旅先です。'})))
+case('結果ページの og:description が desc.json と違う', [RP], txt(lambda t: t.replace('<meta property="og:description" content="', '<meta property="og:description" content="違う説明', 1)))
+case('結果ページの本文に説明が無い', [RP], txt(lambda t: re.sub(r'<p class="desc"[^>]*>.*?</p>', '', t, count=1)))
+case('診断の最初のJSONに description が入る', [F], withdata(lambda d: d[0].update({'description': 'x'})))
 # ---- 共有画像
 case('共有画像にメタデータ（tEXt）', [OG], add_chunk(b'tEXt', b'Author\x00someone'))
 case('共有画像にEXIF（eXIf）', [OG], add_chunk(b'eXIf', b'MM\x00*\x00\x00\x00\x08\x00\x00'))

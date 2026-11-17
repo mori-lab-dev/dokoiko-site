@@ -10,6 +10,7 @@ const BASE = process.argv[2] || 'http://127.0.0.1:4399';
 const OUT = 'logs/quiz_20261118';
 const DATA = JSON.parse(fs.readFileSync('src/data/quizDestinations.json', 'utf8'));
 const P = prepare(DATA);
+const DESC = JSON.parse(fs.readFileSync('src/data/quizDesc.json', 'utf8'));
 const res = [];
 const ok = (name, cond, extra = '') => { res.push({ name, ok: !!cond, extra: String(extra).slice(0, 300) }); console.log((cond ? 'OK  ' : 'NG  ') + name + ' ' + String(extra).slice(0, 200)); };
 const fmt = (n) => n.toLocaleString('ja-JP');
@@ -95,6 +96,9 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   ok(`${vp.n} 結果の旅先がエンジンの結果と同じ`, name === expA.top.name && pref === expA.top.prefecture, `${name}(${pref})`);
   const nexts = await page.$$eval('#qz-r-next a', (as) => as.map((a) => ({ h: a.getAttribute('href'), t: a.textContent })));
   ok(`${vp.n} 次点が3つ（エンジンと同じ順）`, nexts.length === 3 && nexts.every((n, i) => n.t.includes(expA.next[i].name)), nexts.map((n) => n.t).join(' / '));
+  const descTop = await page.textContent('#qz-r-desc'); const descNext = await page.$$eval('#qz-r-next .qz-next-desc', (es) => es.map((e) => e.textContent));
+  ok(`${vp.n} 結果に説明が出る（選ばれた旅先と次点3つ。desc.json の文）`, descTop === DESC[expA.top.id] && descNext.length === 3 && descNext.every((t, i) => t === DESC[expA.next[i].id] && t.length > 0), `${descTop} / ${descNext.map((t) => t.slice(0, 12)).join(' | ')}`);
+  ok(`${vp.n} 説明が長くても崩れない（90字・区切りなしの文を入れて、横にはみ出さない）`, await page.evaluate(() => { const e = document.getElementById('qz-r-desc'); const keep = e.textContent; e.textContent = 'あ'.repeat(45) + 'い'.repeat(45); const nx = [...document.querySelectorAll('#qz-r-next .qz-next-desc')]; const keepN = nx.map((x) => x.textContent); nx.forEach((x) => { x.textContent = 'う'.repeat(90); }); const ov = document.documentElement.scrollWidth - document.documentElement.clientWidth; e.textContent = keep; nx.forEach((x, i) => { x.textContent = keepN[i]; }); return ov <= 0; }));
   ok(`${vp.n} 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」`, (await page.textContent('#qz-result')).includes('回答の傾向から選んだ1つ。ほかの候補もどうぞ'));
   const winText = await page.textContent('#qz-r-win'); const winShown = await page.$eval('#qz-r-win', (e) => !e.hidden);
   ok(`${vp.n} バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）`, expA.top.win > 0 ? winShown && winText.includes(`1万通り中 ${fmt(expA.top.win)}通りで1位`) : !winShown, winText);
@@ -168,6 +172,7 @@ const rctx = await browser.newContext({ viewport: { width: 390, height: 844 } })
 const rp = await rctx.newPage();
 const pickCodes = ['kamakura', 'miyakojima', 'chichijima', 'sapporo', 'beppu'].map((id) => DATA.find((d) => d.id === id)).filter(Boolean);
 pickCodes.push(...DATA.filter((x) => x.name.startsWith('丸瀬布')));
+pickCodes.push(DATA.reduce((a, b) => (DESC[b.id].length > DESC[a.id].length ? b : a)));   // 説明がいちばん長い旅先
 for (const d of pickCodes) {
   const r = await rp.goto(`${BASE}/quiz/r/${d.code}/`, { waitUntil: 'networkidle' });
   const html = await rp.content();
@@ -177,6 +182,8 @@ for (const d of pickCodes) {
   ok(`結果ページ ${d.name}: og:image が結果ごと・画像が存在`, ogi === `https://tabidokoiko.com/quiz/og/${d.code}.png` && og.status() === 200 && (await og.body()).length > 3000 && (await og.body()).length < 60000, `${ogi} ${og.status()} ${(await og.body()).length}バイト`);
   ok(`結果ページ ${d.name}: twitter:card・og:title`, (await meta('meta[name="twitter:card"]', 'content')) === 'summary_large_image' && (await meta('meta[property="og:title"]', 'content')).includes(d.name));
   ok(`結果ページ ${d.name}: 旅先ページ・/quiz/・作った人のX`, (await meta('a.go', 'href')) === d.url && (await meta('a.quiz', 'href')) === '/quiz/' && (await meta('#author', 'href')) === 'https://x.com/mori__lab' && (await meta('#author', 'rel')) === 'noopener');
+  const odesc = await meta('meta[property="og:description"]', 'content'); const mdesc = await meta('meta[name=description]', 'content');
+  ok(`結果ページ ${d.name}: og:description・meta description が desc.json と同じ・本文にも出る`, odesc === DESC[d.id] && mdesc === DESC[d.id] && (await rp.textContent('.desc')) === DESC[d.id], `${odesc}`);
   ok(`結果ページ ${d.name}: 縦書きの名前・バッジ・落款`, (await rp.$eval('h1', (e) => getComputedStyle(e).writingMode)) === 'vertical-rl' && (d.win > 0) === ((await rp.$('.badge')) !== null) && (await rp.$('.seal')) !== null);
   ok(`結果ページ ${d.name}: 横スクロールなし`, (await rp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)) <= 0);
   ok(`結果ページ ${d.name}: 所要時間・料金・送迎・無料が無い`, !/所要|料金|送迎|無料|円/.test(await rp.innerText('body')));

@@ -9,7 +9,7 @@
     "qa": "node scripts/qa.js",
     "predev": "node scripts/copyData.js",
     "dev": "astro dev",
-    "prebuild": "node scripts/copyData.js && node scripts/buildQuizData.mjs && (node scripts/genJalanWatch.mjs || echo '（jalanWatch.json は前のまま。ページが取得時刻で古さを判定する）')",
+    "prebuild": "node scripts/copyData.js && node scripts/buildQuizData.mjs && node scripts/buildQuizDesc.mjs && (node scripts/genJalanWatch.mjs || echo '（jalanWatch.json は前のまま。ページが取得時刻で古さを判定する）')",
     "jalan:watch": "node scripts/genJalanWatch.mjs",
     "build": "astro build",
     "postbuild": "node scripts/writeBuildInfo.mjs",
