@@ -42,7 +42,7 @@ for (const d of dests) {
 }
 // 3) 固定ページ
 const lastCommit = (rel) => git(['log', '-1', '--format=%ad', FMT, '--', rel]).trim();
-for (const [url, rel] of Object.entries({ '/about/': 'src/pages/about.astro', '/contact/': 'src/pages/contact.astro', '/privacy/': 'src/pages/privacy.astro', '/terms/': 'src/pages/terms.astro' })) {
+for (const [url, rel] of Object.entries({ '/about/': 'src/pages/about.astro', '/contact/': 'src/pages/contact.astro', '/privacy/': 'src/pages/privacy.astro', '/terms/': 'src/pages/terms.astro', '/quiz/': 'src/pages/quiz.astro' })) {
   const d = lastCommit(rel); if (d) out.pages[url] = d;
 }
 // 4) 応援割: 制度ごとの最新の確認日

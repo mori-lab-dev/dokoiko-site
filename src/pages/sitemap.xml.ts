@@ -14,6 +14,7 @@ export const GET: APIRoute = () => {
     { loc: `${BASE}/destinations/`, changefreq: 'weekly',  priority: '0.9' },
     { loc: `${BASE}/kyushu-fukko/`, changefreq: 'weekly',  priority: '0.9' },
     { loc: `${BASE}/ouen-wari/`,    changefreq: 'weekly',  priority: '0.9' },
+    { loc: `${BASE}/quiz/`,         changefreq: 'monthly', priority: '0.7' },
     // 応援割の県別特設ページ。制度が増えれば SCHEMES に足すだけで載る
     ...SCHEMES.map(s => ({
       loc: `${BASE}/${s.slug}/`,

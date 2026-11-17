@@ -19,7 +19,9 @@ let known = true; try { git('cat-file', '-e', `${prod.sha}^{commit}`); } catch {
 if (!known) { console.log('❌ 本番の SHA がこのリポジトリに無い'); process.exit(1); }
 let ancestor = true; try { git('merge-base', '--is-ancestor', prod.sha, 'main'); } catch { ancestor = false; }
 if (!ancestor) { console.log('❌ 本番の SHA が main の履歴に含まれていない（別の系統から作られている）'); process.exit(1); }
-const diff = git('diff', '--name-only', prod.sha, 'main', '--', 'src', 'public', 'package.json', 'package-lock.json', 'astro.config.mjs', 'scripts/copyData.js').split('\n').filter(Boolean);
+// src/data/jalanWatch.json は見張りが書き換えるデータ（2026-11-17 に対象から外した。ページ側が取得時刻で古さを判定し、24時間を超えると「確認できません」と出す）。
+// 変更前の版: logs/quiz_20261117/checkProdSha.mjs.before
+const diff = git('diff', '--name-only', prod.sha, 'main', '--', 'src', 'public', 'package.json', 'package-lock.json', 'astro.config.mjs', 'scripts/copyData.js', ':(exclude)src/data/jalanWatch.json').split('\n').filter(Boolean);
 if (diff.length) { console.log(`❌ 本番は main より古い（ビルドに関わるファイルの差分 ${diff.length}件。例: ${diff.slice(0, 3).join(', ')}）`); process.exit(1); }
 console.log('✅ 本番の SHA は main の先頭と違うが、ビルドに関わるファイルの差分は無い');
 process.exit(0);

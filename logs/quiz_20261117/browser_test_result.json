@@ -1,0 +1,317 @@
+[
+ {
+  "name": "phone390 開始画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone390 質問1の見出し・ステップ",
+  "ok": true,
+  "extra": "今回の旅の長さは？ / 質問 1 / 12"
+ },
+ {
+  "name": "phone390 質問画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone390 最後まで答えると結果が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 のこりが減る",
+  "ok": true,
+  "extra": "1191→914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "phone390 結果: 旅先1つ＋次点3つ",
+  "ok": true,
+  "extra": "田沢湖(秋田県) / 次点3"
+ },
+ {
+  "name": "phone390 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 旅先ページへのリンク（utm なし）",
+  "ok": true,
+  "extra": "/destinations/tazawako/"
+ },
+ {
+  "name": "phone390 共有: x.com/intent/post",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 共有: 本文",
+  "ok": true,
+  "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
+ },
+ {
+  "name": "phone390 共有: url は /quiz/ ＋ utm 4つ",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=tazawako"
+ },
+ {
+  "name": "phone390 共有: hashtags",
+  "ok": true,
+  "extra": "似合う旅先,どこ行こ / 生のURL: hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+ },
+ {
+  "name": "phone390 共有: 結果は url のパス・クエリに入っていない（旅先IDは utm_content だけ）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 結果画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone390 GA4: quiz_start・quiz_complete",
+  "ok": true,
+  "extra": "quiz_start,quiz_complete"
+ },
+ {
+  "name": "phone390 GA4: share_click・result_to_destination は旅先IDだけ",
+  "ok": true,
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"destination_id\":\"tazawako\"}]"
+ },
+ {
+  "name": "phone390 GA4: 回答の文言を送っていない",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 保存なし（localStorage・sessionStorage）",
+  "ok": true,
+  "extra": "{\"ls\":0,\"ss\":0}"
+ },
+ {
+  "name": "phone390 診断のための送信（POST）なし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 ブラウザのエラーなし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 「ひとつ前の質問にもどる」",
+  "ok": true,
+  "extra": "質問 3 / 12→質問 2 / 12"
+ },
+ {
+  "name": "phone360 開始画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone360 質問1の見出し・ステップ",
+  "ok": true,
+  "extra": "今回の旅の長さは？ / 質問 1 / 12"
+ },
+ {
+  "name": "phone360 質問画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone360 最後まで答えると結果が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 のこりが減る",
+  "ok": true,
+  "extra": "1191→914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "phone360 結果: 旅先1つ＋次点3つ",
+  "ok": true,
+  "extra": "田沢湖(秋田県) / 次点3"
+ },
+ {
+  "name": "phone360 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 旅先ページへのリンク（utm なし）",
+  "ok": true,
+  "extra": "/destinations/tazawako/"
+ },
+ {
+  "name": "phone360 共有: x.com/intent/post",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 共有: 本文",
+  "ok": true,
+  "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
+ },
+ {
+  "name": "phone360 共有: url は /quiz/ ＋ utm 4つ",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=tazawako"
+ },
+ {
+  "name": "phone360 共有: hashtags",
+  "ok": true,
+  "extra": "似合う旅先,どこ行こ / 生のURL: hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+ },
+ {
+  "name": "phone360 共有: 結果は url のパス・クエリに入っていない（旅先IDは utm_content だけ）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 結果画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone360 GA4: quiz_start・quiz_complete",
+  "ok": true,
+  "extra": "quiz_start,quiz_complete"
+ },
+ {
+  "name": "phone360 GA4: share_click・result_to_destination は旅先IDだけ",
+  "ok": true,
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"destination_id\":\"tazawako\"}]"
+ },
+ {
+  "name": "phone360 GA4: 回答の文言を送っていない",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 保存なし（localStorage・sessionStorage）",
+  "ok": true,
+  "extra": "{\"ls\":0,\"ss\":0}"
+ },
+ {
+  "name": "phone360 診断のための送信（POST）なし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 ブラウザのエラーなし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone360 「ひとつ前の質問にもどる」",
+  "ok": true,
+  "extra": "質問 3 / 12→質問 2 / 12"
+ },
+ {
+  "name": "pc1280 開始画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "pc1280 質問1の見出し・ステップ",
+  "ok": true,
+  "extra": "今回の旅の長さは？ / 質問 1 / 12"
+ },
+ {
+  "name": "pc1280 質問画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "pc1280 最後まで答えると結果が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 のこりが減る",
+  "ok": true,
+  "extra": "1191→914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "pc1280 結果: 旅先1つ＋次点3つ",
+  "ok": true,
+  "extra": "田沢湖(秋田県) / 次点3"
+ },
+ {
+  "name": "pc1280 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 旅先ページへのリンク（utm なし）",
+  "ok": true,
+  "extra": "/destinations/tazawako/"
+ },
+ {
+  "name": "pc1280 共有: x.com/intent/post",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 共有: 本文",
+  "ok": true,
+  "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
+ },
+ {
+  "name": "pc1280 共有: url は /quiz/ ＋ utm 4つ",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=tazawako"
+ },
+ {
+  "name": "pc1280 共有: hashtags",
+  "ok": true,
+  "extra": "似合う旅先,どこ行こ / 生のURL: hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+ },
+ {
+  "name": "pc1280 共有: 結果は url のパス・クエリに入っていない（旅先IDは utm_content だけ）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 結果画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "pc1280 GA4: quiz_start・quiz_complete",
+  "ok": true,
+  "extra": "quiz_start,quiz_complete"
+ },
+ {
+  "name": "pc1280 GA4: share_click・result_to_destination は旅先IDだけ",
+  "ok": true,
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"destination_id\":\"tazawako\"}]"
+ },
+ {
+  "name": "pc1280 GA4: 回答の文言を送っていない",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 保存なし（localStorage・sessionStorage）",
+  "ok": true,
+  "extra": "{\"ls\":0,\"ss\":0}"
+ },
+ {
+  "name": "pc1280 診断のための送信（POST）なし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 ブラウザのエラーなし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 「ひとつ前の質問にもどる」",
+  "ok": true,
+  "extra": "質問 3 / 12→質問 2 / 12"
+ }
+]

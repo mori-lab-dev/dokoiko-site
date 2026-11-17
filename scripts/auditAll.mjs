@@ -83,6 +83,10 @@ const AUDITS = [
     parse: (o) => ({ '更新対象でない項目の本文が変わっている': Z(num(/更新対象でない項目の本文が変わっている:\s*(\d+)件/, o)),
       '同じ制度の中で本文が同じ別の項目': Z(num(/同じ制度の中で本文が同じ別の項目:\s*(\d+)件/, o)) }) },
 
+  { id: 'quiz', tier: 'dist', title: '診断（/quiz/）: 禁止語・個人情報・EXIF・結果のJSON（audit を通ったページだけ・項目・禁止の値）・utm・canonical・OGP・分布検査',
+    cmd: ['node', 'scripts/auditQuiz.mjs'], exitMeansFail: true,
+    parse: (o) => Object.fromEntries([...o.matchAll(/^(.+?):\s*(\d+)件/gm)].map((m) => [m[1], Z(Number(m[2]))])) },
+
   { id: 'car-free', tier: 'dist', title: '「車なしで行く」ガイドが出典・確認日つきで、応援割の数字・バスの時刻を含まないか',
     cmd: ['node', 'scripts/auditCarFree.mjs', ...(val('--today') ? ['--today', val('--today')] : [])], exitMeansFail: true,
     parse: (o) => ({ '出典URLなし': Z(num(/出典URL（https）が無い:\s*(\d+)件/, o)),

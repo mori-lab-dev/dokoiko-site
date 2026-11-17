@@ -1,0 +1,245 @@
+---
+import AffiliateNotice from '../components/AffiliateNotice.astro';
+// フッターのリンクについて:
+// 以前は /pages/about.html /pages/privacy.html /pages/disclaimer.html を指していたが、
+// 実体が無く3本とも404だった（全ページ共通のフッターなので全ページから死んだリンクが出ていた）。
+// 実在する /about/ /contact/ /privacy/ /terms/ に差し替えている。
+const { title, description, image, affiliateNotice = false, pageType = '', pageId = '', reportError = false } = Astro.props;
+// 「この情報の誤りを知らせる」リンク（reportError=true のページだけ）。/contact/ へ type=error と、このページのURL（エンコード済み）を渡す
+const reportHref = '/contact/?type=error&page=' + encodeURIComponent(Astro.url.origin + Astro.url.pathname);
+
+// ── OGP画像 ────────────────────────────────────────────────
+// これまでの問題:
+//   ・トップと /list/ が /images/naoshima.jpg を指していたが実体が無く404だった
+//     （画像をIDごとのフォルダに整理したときにパスがずれたまま残っていた）
+//   ・destinationは /images/<id>/main.jpg という相対URLで、OGPは絶対URLが前提
+//   ・特設ページ・hub・固定ページは image 未指定でog:image自体が無かった
+//   ・width/heightが実寸に関係なく1200x630固定だった
+// ここで「絶対URL化」「未指定ならブランド画像」「実寸の出力」をまとめて面倒を見る。
+import fs from 'node:fs';
+import path from 'node:path';
+
+const SITE = 'https://tabidokoiko.com';
+// ブランド画像はJPEGを正とする。写真ベースなのにPNGだと837KBあり、
+// Xのクローラが取りに行くには重い（JPEGなら77KBで見た目は変わらない）。
+// 既定のシェア画像。写真を主役にした share_default.jpg が正（旧 brand_share.jpg は
+// 緑を opacity 0.72 でかぶせていて写真がほとんど見えなかった）。
+// ファイル名を変えることで、Xが持っている古いカードのキャッシュも避けられる。
+const BRAND = '/images/share_default.jpg';
+
+const toAbs = (u: string): string => (/^https?:\/\//.test(u) ? u : SITE + (u.startsWith('/') ? u : '/' + u));
+const ogImage: string = toAbs(typeof image === 'string' && image ? image : BRAND);
+
+// JPEG/PNGのヘッダから実寸を読む。外部URL(Unsplash等)は読めないので既定値のままにする。
+function readSize(absUrl: string): { w: number; h: number } | null {
+  if (!absUrl.startsWith(SITE)) return null;
+  const file = path.join(process.cwd(), 'public', decodeURIComponent(absUrl.slice(SITE.length)));
+  if (!fs.existsSync(file)) return null;
+  const b = fs.readFileSync(file);
+  if (b.length > 24 && b.readUInt32BE(0) === 0x89504e47) return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+  if (b[0] === 0xff && b[1] === 0xd8) {                       // JPEG: SOFマーカを探す
+    let i = 2;
+    while (i < b.length - 9) {
+      if (b[i] !== 0xff) { i++; continue; }
+      const m = b[i + 1];
+      if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) {
+        return { h: b.readUInt16BE(i + 5), w: b.readUInt16BE(i + 7) };
+      }
+      i += 2 + b.readUInt16BE(i + 2);
+    }
+  }
+  return null;
+}
+const size = readSize(ogImage);
+const ogW = size?.w ?? 1200;
+const ogH = size?.h ?? 675;
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content={Astro.url.href}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content={ogImage}>
+  <meta property="og:image:width" content={String(ogW)}>
+  <meta property="og:image:height" content={String(ogH)}>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={ogImage}>
+  <link rel="canonical" href={Astro.url.href}>
+  <slot name="head-extra" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCJKVC2DXY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WCJKVC2DXY');
+  </script>
+  <!-- フォントは <style> の @import ではなく <link> で読む（@import だと CSS を読み終えてから次の取得が始まり、描画が遅れる）。見た目は同じ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+      color: #2d2d2d;
+      background: #fff;
+      font-size: 16px;
+      line-height: 1.9;
+      letter-spacing: 0.02em;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; height: auto; display: block; }
+
+    .site-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid #e8e8e8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+    }
+
+    .site-logo {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      text-decoration: none;
+    }
+    .site-logo-ja {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      color: #1a1a1a;
+      line-height: 1;
+    }
+    .site-logo-en {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 9px;
+      font-weight: 300;
+      letter-spacing: 0.38em;
+      color: #aaa;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .site-nav {
+      font-size: 12px;
+      color: #888;
+      letter-spacing: 0.05em;
+    }
+
+    .site-nav a {
+      color: #888;
+      margin-left: 16px;
+    }
+
+    .site-footer {
+      padding: 48px 24px;
+      border-top: 1px solid #e8e8e8;
+      text-align: center;
+      font-size: 11px;
+      color: #aaa;
+      letter-spacing: 0.05em;
+      line-height: 2;
+    }
+
+    .site-footer a {
+      color: #aaa;
+      margin: 0 10px;
+    }
+
+    /* ページ冒頭（ヘッダー直下）の PR 表記の置き場。文字の大きさ・色は AffiliateNotice 側（通常サイズ・通常色） */
+    .report-error {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 8px 24px 28px;
+      font-size: 12px;
+      text-align: right;
+    }
+    .report-error a { color: #777; text-decoration: underline; text-underline-offset: 3px; }
+    .affiliate-pr-top {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 24px 0;
+    }
+  </style>
+</head>
+<body data-page-type={pageType} data-page-id={pageId}>
+  <header class="site-header">
+    <a href="/" class="site-logo">
+      <span class="site-logo-ja">どこ行こ？</span>
+      <span class="site-logo-en">DOKOIKO</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/destinations/">目的地一覧</a>
+      <a href="/list/">全国一覧</a>
+    </nav>
+  </header>
+  {affiliateNotice && (
+    <div class="affiliate-pr-top">
+      <AffiliateNotice />
+    </div>
+  )}
+  <main>
+    <slot />
+  </main>
+  {reportError && (
+    <p class="report-error"><a href={reportHref} rel="nofollow">この情報の誤りを知らせる</a></p>
+  )}
+  <footer class="site-footer">
+    <p>交通・宿泊情報は各社公式サイトでご確認ください。本サービスはアフィリエイト広告（楽天トラベル・じゃらん）を含みます。</p>
+    <p style="margin-top: 12px;">
+      <a href="/about/">運営者情報</a>
+      <a href="/contact/">お問い合わせ</a>
+      <a href="/privacy/">プライバシーポリシー</a>
+      <a href="/terms/">利用規約</a>
+    </p>
+    <p style="margin-top: 12px;">© 2026 どこ行こ？</p>
+  </footer>
+  {affiliateNotice && (
+    <script is:inline>
+      /* アフィリエイト（rel に sponsored を含むリンク）のクリックを GA4 に送る。2026-11-04。
+         既存の GA4 の設定（上の config）には触れず、dataLayer へ event だけを足す。
+         送る値: 提携先・ページ種別・旅先ID・リンクの種類。URL・個人データは送らない。 */
+      (function () {
+        window.dataLayer = window.dataLayer || [];
+        function g() { window.dataLayer.push(arguments); }
+        function send(e) {
+          var t = e.target;
+          var a = t && t.closest ? t.closest('a[rel~="sponsored"]') : null;
+          if (!a) return;
+          var h = a.getAttribute('href') || '';
+          var partner = h.indexOf('valuecommerce.com') > -1 ? 'valuecommerce'
+                      : h.indexOf('hb.afl.rakuten.co.jp') > -1 ? 'rakuten' : 'other';
+          var kind = a.closest('.rentacar-section, .car-rentacar') ? 'rentacar'
+                   : a.closest('.activity-section') ? 'activity'
+                   : a.closest('.fs-links') ? 'featured_stay' : 'hotel';
+          var b = document.body.dataset;
+          g('event', 'affiliate_click', {
+            partner: partner,
+            page_type: b.pageType || '',
+            destination_id: b.pageId || '',
+            link_kind: kind,
+            transport_type: 'beacon'
+          });
+        }
+        document.addEventListener('click', send, true);
+        document.addEventListener('auxclick', send, true);
+      })();
+    </script>
+  )}
+</body>
+</html>
