@@ -5,14 +5,24 @@
   "extra": "差=0"
  },
  {
+  "name": "phone390 地図に輪郭と墨色の点が描かれている",
+  "ok": true,
+  "extra": "{\"ink\":20414,\"land\":15839,\"w\":704,\"h\":662}"
+ },
+ {
+  "name": "phone390 開始画面の「のこり」= 旅先の数",
+  "ok": true,
+  "extra": "1,191"
+ },
+ {
   "name": "phone390 質問1の見出し・ステップ",
   "ok": true,
   "extra": "今回の旅の長さは？ / 質問 1 / 12"
  },
  {
-  "name": "phone390 質問画面 横スクロールなし",
+  "name": "phone390 選択肢が大きなカード（アイコンつき・高さ44px以上）",
   "ok": true,
-  "extra": "差=0"
+  "extra": ""
  },
  {
   "name": "phone390 最後まで答えると結果が出る",
@@ -20,19 +30,49 @@
   "extra": ""
  },
  {
-  "name": "phone390 のこりが減る",
+  "name": "phone390 「のこり」の数が、各質問のあとエンジンの値と一致",
   "ok": true,
-  "extra": "1191→914→914→670→495→259→228→159→131→54→50→2"
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
  },
  {
-  "name": "phone390 結果: 旅先1つ＋次点3つ",
+  "name": "phone390 地図の残りの点が、エンジンの残りの旅先と一致（薄くなった点は外れた旅先）",
   "ok": true,
-  "extra": "田沢湖(秋田県) / 次点3"
+  "extra": ""
+ },
+ {
+  "name": "phone390 「のこり」が減っていく",
+  "ok": true,
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "phone390 結果の旅先がエンジンの結果と同じ",
+  "ok": true,
+  "extra": "田沢湖(秋田県)"
+ },
+ {
+  "name": "phone390 次点が3つ（エンジンと同じ順）",
+  "ok": true,
+  "extra": "2黒川温泉熊本県 / 3秋山郷長野県 / 4湯野上温泉福島県"
  },
  {
   "name": "phone390 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
   "ok": true,
   "extra": ""
+ },
+ {
+  "name": "phone390 「この診断の1万通りの回答のうち、◯通りで1位になる旅先」（実測のwin。0なら出さない）",
+  "ok": true,
+  "extra": "この診断の1万通りの回答のうち、29通りで1位になる旅先"
+ },
+ {
+  "name": "phone390 地図の焦点が選ばれた旅先の位置（x,y）",
+  "ok": true,
+  "extra": "770,394 / 期待 770,394"
+ },
+ {
+  "name": "phone390 結果の点が、その旅先の位置に描かれている（朱色の画素）",
+  "ok": true,
+  "extra": "{\"px\":456,\"py\":160,\"red\":81,\"w\":704,\"h\":662}"
  },
  {
   "name": "phone390 旅先ページへのリンク（utm なし）",
@@ -50,17 +90,17 @@
   "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
  },
  {
-  "name": "phone390 共有: url は /quiz/ ＋ utm 4つ",
+  "name": "phone390 共有: url は結果ページ /quiz/r/<code>/ ＋ utm 4つ（utm_content=code）",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=tazawako"
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
   "name": "phone390 共有: hashtags",
   "ok": true,
-  "extra": "似合う旅先,どこ行こ / 生のURL: hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+  "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
  },
  {
-  "name": "phone390 共有: 結果は url のパス・クエリに入っていない（旅先IDは utm_content だけ）",
+  "name": "phone390 作った人のXのリンク（結果の画面）",
   "ok": true,
   "extra": ""
  },
@@ -70,17 +110,17 @@
   "extra": "差=0"
  },
  {
-  "name": "phone390 GA4: quiz_start・quiz_complete",
+  "name": "phone390 GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete"
+  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
  },
  {
-  "name": "phone390 GA4: share_click・result_to_destination は旅先IDだけ",
+  "name": "phone390 GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"destination_id\":\"tazawako\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
  },
  {
-  "name": "phone390 GA4: 回答の文言を送っていない",
+  "name": "phone390 GA4: 回答の文言・位置を送っていない",
   "ok": true,
   "extra": ""
  },
@@ -90,7 +130,7 @@
   "extra": "{\"ls\":0,\"ss\":0}"
  },
  {
-  "name": "phone390 診断のための送信（POST）なし",
+  "name": "phone390 診断のための送信（POST）・位置情報の要求なし",
   "ok": true,
   "extra": ""
  },
@@ -105,9 +145,29 @@
   "extra": "質問 3 / 12→質問 2 / 12"
  },
  {
+  "name": "phone390 連打・押した直後の「もどる」をしても、結果が変わらない",
+  "ok": true,
+  "extra": "上北山村 / 期待 上北山村 / 戻る中の状態 true"
+ },
+ {
+  "name": "phone390 連打のあとも質問は12で終わる（結果が1回だけ出る）",
+  "ok": true,
+  "extra": ""
+ },
+ {
   "name": "phone360 開始画面 横スクロールなし",
   "ok": true,
   "extra": "差=0"
+ },
+ {
+  "name": "phone360 地図に輪郭と墨色の点が描かれている",
+  "ok": true,
+  "extra": "{\"ink\":20133,\"land\":11487,\"w\":644,\"h\":605}"
+ },
+ {
+  "name": "phone360 開始画面の「のこり」= 旅先の数",
+  "ok": true,
+  "extra": "1,191"
  },
  {
   "name": "phone360 質問1の見出し・ステップ",
@@ -115,9 +175,9 @@
   "extra": "今回の旅の長さは？ / 質問 1 / 12"
  },
  {
-  "name": "phone360 質問画面 横スクロールなし",
+  "name": "phone360 選択肢が大きなカード（アイコンつき・高さ44px以上）",
   "ok": true,
-  "extra": "差=0"
+  "extra": ""
  },
  {
   "name": "phone360 最後まで答えると結果が出る",
@@ -125,19 +185,49 @@
   "extra": ""
  },
  {
-  "name": "phone360 のこりが減る",
+  "name": "phone360 「のこり」の数が、各質問のあとエンジンの値と一致",
   "ok": true,
-  "extra": "1191→914→914→670→495→259→228→159→131→54→50→2"
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
  },
  {
-  "name": "phone360 結果: 旅先1つ＋次点3つ",
+  "name": "phone360 地図の残りの点が、エンジンの残りの旅先と一致（薄くなった点は外れた旅先）",
   "ok": true,
-  "extra": "田沢湖(秋田県) / 次点3"
+  "extra": ""
+ },
+ {
+  "name": "phone360 「のこり」が減っていく",
+  "ok": true,
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "phone360 結果の旅先がエンジンの結果と同じ",
+  "ok": true,
+  "extra": "田沢湖(秋田県)"
+ },
+ {
+  "name": "phone360 次点が3つ（エンジンと同じ順）",
+  "ok": true,
+  "extra": "2黒川温泉熊本県 / 3秋山郷長野県 / 4湯野上温泉福島県"
  },
  {
   "name": "phone360 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
   "ok": true,
   "extra": ""
+ },
+ {
+  "name": "phone360 「この診断の1万通りの回答のうち、◯通りで1位になる旅先」（実測のwin。0なら出さない）",
+  "ok": true,
+  "extra": "この診断の1万通りの回答のうち、29通りで1位になる旅先"
+ },
+ {
+  "name": "phone360 地図の焦点が選ばれた旅先の位置（x,y）",
+  "ok": true,
+  "extra": "770,394 / 期待 770,394"
+ },
+ {
+  "name": "phone360 結果の点が、その旅先の位置に描かれている（朱色の画素）",
+  "ok": true,
+  "extra": "{\"px\":417,\"py\":147,\"red\":81,\"w\":644,\"h\":605}"
  },
  {
   "name": "phone360 旅先ページへのリンク（utm なし）",
@@ -155,17 +245,17 @@
   "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
  },
  {
-  "name": "phone360 共有: url は /quiz/ ＋ utm 4つ",
+  "name": "phone360 共有: url は結果ページ /quiz/r/<code>/ ＋ utm 4つ（utm_content=code）",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=tazawako"
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
   "name": "phone360 共有: hashtags",
   "ok": true,
-  "extra": "似合う旅先,どこ行こ / 生のURL: hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+  "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
  },
  {
-  "name": "phone360 共有: 結果は url のパス・クエリに入っていない（旅先IDは utm_content だけ）",
+  "name": "phone360 作った人のXのリンク（結果の画面）",
   "ok": true,
   "extra": ""
  },
@@ -175,17 +265,17 @@
   "extra": "差=0"
  },
  {
-  "name": "phone360 GA4: quiz_start・quiz_complete",
+  "name": "phone360 GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete"
+  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
  },
  {
-  "name": "phone360 GA4: share_click・result_to_destination は旅先IDだけ",
+  "name": "phone360 GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"destination_id\":\"tazawako\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
  },
  {
-  "name": "phone360 GA4: 回答の文言を送っていない",
+  "name": "phone360 GA4: 回答の文言・位置を送っていない",
   "ok": true,
   "extra": ""
  },
@@ -195,7 +285,7 @@
   "extra": "{\"ls\":0,\"ss\":0}"
  },
  {
-  "name": "phone360 診断のための送信（POST）なし",
+  "name": "phone360 診断のための送信（POST）・位置情報の要求なし",
   "ok": true,
   "extra": ""
  },
@@ -210,9 +300,29 @@
   "extra": "質問 3 / 12→質問 2 / 12"
  },
  {
+  "name": "phone360 連打・押した直後の「もどる」をしても、結果が変わらない",
+  "ok": true,
+  "extra": "上北山村 / 期待 上北山村 / 戻る中の状態 true"
+ },
+ {
+  "name": "phone360 連打のあとも質問は12で終わる（結果が1回だけ出る）",
+  "ok": true,
+  "extra": ""
+ },
+ {
   "name": "pc1280 開始画面 横スクロールなし",
   "ok": true,
   "extra": "差=0"
+ },
+ {
+  "name": "pc1280 地図に輪郭と墨色の点が描かれている",
+  "ok": true,
+  "extra": "{\"ink\":18857,\"land\":82303,\"w\":1204,\"h\":1132}"
+ },
+ {
+  "name": "pc1280 開始画面の「のこり」= 旅先の数",
+  "ok": true,
+  "extra": "1,191"
  },
  {
   "name": "pc1280 質問1の見出し・ステップ",
@@ -220,9 +330,9 @@
   "extra": "今回の旅の長さは？ / 質問 1 / 12"
  },
  {
-  "name": "pc1280 質問画面 横スクロールなし",
+  "name": "pc1280 選択肢が大きなカード（アイコンつき・高さ44px以上）",
   "ok": true,
-  "extra": "差=0"
+  "extra": ""
  },
  {
   "name": "pc1280 最後まで答えると結果が出る",
@@ -230,19 +340,49 @@
   "extra": ""
  },
  {
-  "name": "pc1280 のこりが減る",
+  "name": "pc1280 「のこり」の数が、各質問のあとエンジンの値と一致",
   "ok": true,
-  "extra": "1191→914→914→670→495→259→228→159→131→54→50→2"
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
  },
  {
-  "name": "pc1280 結果: 旅先1つ＋次点3つ",
+  "name": "pc1280 地図の残りの点が、エンジンの残りの旅先と一致（薄くなった点は外れた旅先）",
   "ok": true,
-  "extra": "田沢湖(秋田県) / 次点3"
+  "extra": ""
+ },
+ {
+  "name": "pc1280 「のこり」が減っていく",
+  "ok": true,
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "pc1280 結果の旅先がエンジンの結果と同じ",
+  "ok": true,
+  "extra": "田沢湖(秋田県)"
+ },
+ {
+  "name": "pc1280 次点が3つ（エンジンと同じ順）",
+  "ok": true,
+  "extra": "2黒川温泉熊本県 / 3秋山郷長野県 / 4湯野上温泉福島県"
  },
  {
   "name": "pc1280 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
   "ok": true,
   "extra": ""
+ },
+ {
+  "name": "pc1280 「この診断の1万通りの回答のうち、◯通りで1位になる旅先」（実測のwin。0なら出さない）",
+  "ok": true,
+  "extra": "この診断の1万通りの回答のうち、29通りで1位になる旅先"
+ },
+ {
+  "name": "pc1280 地図の焦点が選ばれた旅先の位置（x,y）",
+  "ok": true,
+  "extra": "770,394 / 期待 770,394"
+ },
+ {
+  "name": "pc1280 結果の点が、その旅先の位置に描かれている（朱色の画素）",
+  "ok": true,
+  "extra": "{\"px\":780,\"py\":274,\"red\":81,\"w\":1204,\"h\":1132}"
  },
  {
   "name": "pc1280 旅先ページへのリンク（utm なし）",
@@ -260,17 +400,17 @@
   "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
  },
  {
-  "name": "pc1280 共有: url は /quiz/ ＋ utm 4つ",
+  "name": "pc1280 共有: url は結果ページ /quiz/r/<code>/ ＋ utm 4つ（utm_content=code）",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=tazawako"
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
   "name": "pc1280 共有: hashtags",
   "ok": true,
-  "extra": "似合う旅先,どこ行こ / 生のURL: hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+  "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
  },
  {
-  "name": "pc1280 共有: 結果は url のパス・クエリに入っていない（旅先IDは utm_content だけ）",
+  "name": "pc1280 作った人のXのリンク（結果の画面）",
   "ok": true,
   "extra": ""
  },
@@ -280,17 +420,17 @@
   "extra": "差=0"
  },
  {
-  "name": "pc1280 GA4: quiz_start・quiz_complete",
+  "name": "pc1280 GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete"
+  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
  },
  {
-  "name": "pc1280 GA4: share_click・result_to_destination は旅先IDだけ",
+  "name": "pc1280 GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"destination_id\":\"tazawako\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
  },
  {
-  "name": "pc1280 GA4: 回答の文言を送っていない",
+  "name": "pc1280 GA4: 回答の文言・位置を送っていない",
   "ok": true,
   "extra": ""
  },
@@ -300,7 +440,7 @@
   "extra": "{\"ls\":0,\"ss\":0}"
  },
  {
-  "name": "pc1280 診断のための送信（POST）なし",
+  "name": "pc1280 診断のための送信（POST）・位置情報の要求なし",
   "ok": true,
   "extra": ""
  },
@@ -313,5 +453,295 @@
   "name": "pc1280 「ひとつ前の質問にもどる」",
   "ok": true,
   "extra": "質問 3 / 12→質問 2 / 12"
+ },
+ {
+  "name": "pc1280 連打・押した直後の「もどる」をしても、結果が変わらない",
+  "ok": true,
+  "extra": "上北山村 / 期待 上北山村 / 戻る中の状態 true"
+ },
+ {
+  "name": "pc1280 連打のあとも質問は12で終わる（結果が1回だけ出る）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 開始画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone390-reduced 地図に輪郭と墨色の点が描かれている",
+  "ok": true,
+  "extra": "{\"ink\":20414,\"land\":15839,\"w\":704,\"h\":662}"
+ },
+ {
+  "name": "phone390-reduced 開始画面の「のこり」= 旅先の数",
+  "ok": true,
+  "extra": "1,191"
+ },
+ {
+  "name": "phone390-reduced 質問1の見出し・ステップ",
+  "ok": true,
+  "extra": "今回の旅の長さは？ / 質問 1 / 12"
+ },
+ {
+  "name": "phone390-reduced 選択肢が大きなカード（アイコンつき・高さ44px以上）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 最後まで答えると結果が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 「のこり」の数が、各質問のあとエンジンの値と一致",
+  "ok": true,
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "phone390-reduced 地図の残りの点が、エンジンの残りの旅先と一致（薄くなった点は外れた旅先）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 「のこり」が減っていく",
+  "ok": true,
+  "extra": "914→914→670→495→259→228→159→131→54→50→2"
+ },
+ {
+  "name": "phone390-reduced 結果の旅先がエンジンの結果と同じ",
+  "ok": true,
+  "extra": "田沢湖(秋田県)"
+ },
+ {
+  "name": "phone390-reduced 次点が3つ（エンジンと同じ順）",
+  "ok": true,
+  "extra": "2黒川温泉熊本県 / 3秋山郷長野県 / 4湯野上温泉福島県"
+ },
+ {
+  "name": "phone390-reduced 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 「この診断の1万通りの回答のうち、◯通りで1位になる旅先」（実測のwin。0なら出さない）",
+  "ok": true,
+  "extra": "この診断の1万通りの回答のうち、29通りで1位になる旅先"
+ },
+ {
+  "name": "phone390-reduced 地図の焦点が選ばれた旅先の位置（x,y）",
+  "ok": true,
+  "extra": "770,394 / 期待 770,394"
+ },
+ {
+  "name": "phone390-reduced 結果の点が、その旅先の位置に描かれている（朱色の画素）",
+  "ok": true,
+  "extra": "{\"px\":456,\"py\":160,\"red\":81,\"w\":704,\"h\":662}"
+ },
+ {
+  "name": "phone390-reduced 旅先ページへのリンク（utm なし）",
+  "ok": true,
+  "extra": "/destinations/tazawako/"
+ },
+ {
+  "name": "phone390-reduced 共有: x.com/intent/post",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 共有: 本文",
+  "ok": true,
+  "extra": "私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？"
+ },
+ {
+  "name": "phone390-reduced 共有: url は結果ページ /quiz/r/<code>/ ＋ utm 4つ（utm_content=code）",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
+ },
+ {
+  "name": "phone390-reduced 共有: hashtags",
+  "ok": true,
+  "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
+ },
+ {
+  "name": "phone390-reduced 作った人のXのリンク（結果の画面）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 結果画面 横スクロールなし",
+  "ok": true,
+  "extra": "差=0"
+ },
+ {
+  "name": "phone390-reduced GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
+  "ok": true,
+  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
+ },
+ {
+  "name": "phone390-reduced GA4: 送るのは旅先ID・押した場所だけ",
+  "ok": true,
+  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
+ },
+ {
+  "name": "phone390-reduced GA4: 回答の文言・位置を送っていない",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 保存なし（localStorage・sessionStorage）",
+  "ok": true,
+  "extra": "{\"ls\":0,\"ss\":0}"
+ },
+ {
+  "name": "phone390-reduced 診断のための送信（POST）・位置情報の要求なし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced ブラウザのエラーなし",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 「ひとつ前の質問にもどる」",
+  "ok": true,
+  "extra": "質問 3 / 12→質問 2 / 12"
+ },
+ {
+  "name": "phone390-reduced 連打・押した直後の「もどる」をしても、結果が変わらない",
+  "ok": true,
+  "extra": "上北山村 / 期待 上北山村 / 戻る中の状態 true"
+ },
+ {
+  "name": "phone390-reduced 連打のあとも質問は12で終わる（結果が1回だけ出る）",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 鎌倉: HTTP 200・noindex,follow・canonical=/quiz/",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 鎌倉: og:image が結果ごと・画像が存在",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/og/e2069b2f.png 200 18231バイト"
+ },
+ {
+  "name": "結果ページ 鎌倉: twitter:card・og:title",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 鎌倉: 旅先ページ・/quiz/・作った人のX",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 鎌倉: 所要時間・料金・送迎・無料が無い",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 宮古島: HTTP 200・noindex,follow・canonical=/quiz/",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 宮古島: og:image が結果ごと・画像が存在",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/og/ca39d0eb.png 200 14587バイト"
+ },
+ {
+  "name": "結果ページ 宮古島: twitter:card・og:title",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 宮古島: 旅先ページ・/quiz/・作った人のX",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 宮古島: 所要時間・料金・送迎・無料が無い",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 父島: HTTP 200・noindex,follow・canonical=/quiz/",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 父島: og:image が結果ごと・画像が存在",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/og/a83fdb9e.png 200 14461バイト"
+ },
+ {
+  "name": "結果ページ 父島: twitter:card・og:title",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 父島: 旅先ページ・/quiz/・作った人のX",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 父島: 所要時間・料金・送迎・無料が無い",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 札幌: HTTP 200・noindex,follow・canonical=/quiz/",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 札幌: og:image が結果ごと・画像が存在",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/og/5476f082.png 200 14629バイト"
+ },
+ {
+  "name": "結果ページ 札幌: twitter:card・og:title",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 札幌: 旅先ページ・/quiz/・作った人のX",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 札幌: 所要時間・料金・送迎・無料が無い",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 別府: HTTP 200・noindex,follow・canonical=/quiz/",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 別府: og:image が結果ごと・画像が存在",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/og/11f07e9b.png 200 17539バイト"
+ },
+ {
+  "name": "結果ページ 別府: twitter:card・og:title",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 別府: 旅先ページ・/quiz/・作った人のX",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 別府: 所要時間・料金・送迎・無料が無い",
+  "ok": true,
+  "extra": ""
  }
 ]
