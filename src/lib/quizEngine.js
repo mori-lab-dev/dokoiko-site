@@ -105,13 +105,21 @@ export function rank(cands, answers, tie = 'theme') {
   return scored;
 }
 
-/** 「のこり◯か所」: 残りの質問でどう答えても1位に届かない旅先を除いた数。answers は答えた重みづけ質問だけ入っている */
+/** 「のこり◯か所」: 残りの質問でどう答えても1位に届かない旅先を除いた数。answers は答えた重みづけ質問だけ入っている。
+ *  厳密な下限（2026-11-18）: 旅先 d は、ほかのどれかの旅先 e が「残りをどう答えても d の最高点より高い」（e の最低点 > d の最高点）ときだけ外す。
+ *  以前は「いまの最高点」を基準にしていたため、残りの質問で最高点の旅先の点が下がる場合（負の点のある質問）を見ず、外れと数えた旅先がまれに1位になった。
+ *  同点は同点の決め方（主テーマ→weight→id）で決まるので、最低点 == 最高点 のときは外さない。 */
 export function remainingCount(cands, answers) {
   const open = SCORE_QUESTIONS.filter((q) => answers[q.key] == null);
-  let best = -Infinity; const cur = [];
-  for (const d of cands) { let sc = 0; for (const q of SCORE_QUESTIONS) if (answers[q.key] != null) sc += pointsFor(d, q.key, answers[q.key]); cur.push(sc); if (sc > best) best = sc; }
+  const lo = [], hi = []; let bestLow = -Infinity;
+  for (const d of cands) {
+    let sc = 0; for (const q of SCORE_QUESTIONS) if (answers[q.key] != null) sc += pointsFor(d, q.key, answers[q.key]);
+    let l = sc, h = sc;
+    for (const q of open) { const pts = q.options.map((o) => pointsFor(d, q.key, o)); l += Math.min(...pts); h += Math.max(...pts); }
+    lo.push(l); hi.push(h); if (l > bestLow) bestLow = l;
+  }
   let n = 0;
-  cands.forEach((d, i) => { let up = cur[i]; for (const q of open) up += maxPts(d, q); if (up >= best) n++; });
+  for (let i = 0; i < cands.length; i++) if (hi[i] >= bestLow) n++;
   return n;
 }
 

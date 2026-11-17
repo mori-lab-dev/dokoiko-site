@@ -2,9 +2,8 @@
 /**
  * testQuizAlive.mjs — 地図の「残りの点」が、エンジンの「のこり」と同じ数で、外れた点が本当に1位に届かないことの試験（2026-11-18）。
  *   1. ランダムな回答の途中経過（1〜12問目まで）で、aliveFlags の合計 == quizEngine.remainingCount（絞り込み前後も含む）
- *   2. 【参考・合否に使わない】外れた旅先（flag=0）が、残りの質問のランダムな埋め方で1位になった割合。
- *      エンジンの remainingCount は「いまの最高点」を基準にするため、残りの質問で最高点の旅先の点が下がる場合（負の点がある質問）を見ない。
- *      そのため、外れと数えた旅先が、まれに1位になる（2026-11-18 の実測は下の出力）。エンジンは変えない約束なので、数も点もエンジンのまま出す。
+ *   2. 外れた旅先（flag=0）は、残りの質問をどう埋めても1位にならない（ランダムに埋めて、1位が残った旅先の中にあるか。外れと数えた旅先が1位になった割合は 0% でなければ失敗）
+ *      （2026-11-18 に remainingCount を厳密な下限にした。それまでは 2.21% で外れと数えた旅先が1位になっていた）
  * usage: node scripts/testQuizAlive.mjs [--paths 3000] [--fills 12]
  */
 import fs from 'fs';
@@ -38,5 +37,5 @@ for (let i = 0; i < PATHS; i++) {
   }
 }
 console.log(`途中経過 ${checked}通り（答えた数 ${Math.min(...depthSeen)}〜${Math.max(...depthSeen)}）: のこりの数がエンジンと違う ${mismatch}件`);
-console.log(`（参考）埋めた結果 ${fills}通り: 外れと数えた旅先が1位になった ${escaped}件（${(escaped / fills * 100).toFixed(2)}%）`);
-process.exit(mismatch ? 1 : 0);
+console.log(`埋めた結果 ${fills}通り: 外れと数えた旅先が1位になった ${escaped}件（${(escaped / fills * 100).toFixed(2)}%）`);
+process.exit(mismatch || escaped ? 1 : 0);

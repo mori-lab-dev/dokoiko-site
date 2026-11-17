@@ -3,8 +3,6 @@
 // 外れた旅先は、残りの質問でどう答えても1位にならない（同じく testQuizAlive.mjs が、残りの回答をランダムに埋めて確かめる）。
 import { filterPool, pointsFor, SCORE_QUESTIONS, QUESTIONS } from './quizEngine.js';
 
-const maxPts = (d, q) => Math.max(...q.options.map((o) => pointsFor(d, q.key, o)));
-
 /** prepped: prepare() の結果。answers: これまでの答え（stay・area・重みづけの質問）。戻り値: prepped と同じ並びの Uint8Array（1=まだ届く） */
 export function aliveFlags(prepped, answers) {
   const flags = new Uint8Array(prepped.length);
@@ -12,17 +10,14 @@ export function aliveFlags(prepped, answers) {
   const inPool = new Set((answers.area == null ? filterPool(prepped, answers.stay, 'どこでもよい') : filterPool(prepped, answers.stay, answers.area)).map((d) => d.id));
   if (answers.area == null) { prepped.forEach((d, i) => { if (inPool.has(d.id)) flags[i] = 1; }); return flags; }
   const open = SCORE_QUESTIONS.filter((q) => answers[q.key] == null);
-  const cur = new Map(); let best = -Infinity;
+  const hi = new Map(); let bestLow = -Infinity;           // 厳密な下限: ほかの旅先の最低点が、この旅先の最高点より高ければ外れ（quizEngine.js の remainingCount と同じ）
   for (const d of prepped) {
     if (!inPool.has(d.id)) continue;
     let sc = 0; for (const q of SCORE_QUESTIONS) if (answers[q.key] != null) sc += pointsFor(d, q.key, answers[q.key]);
-    cur.set(d.id, sc); if (sc > best) best = sc;
+    let l = sc, h = sc; for (const q of open) { const pts = q.options.map((o) => pointsFor(d, q.key, o)); l += Math.min(...pts); h += Math.max(...pts); }
+    hi.set(d.id, h); if (l > bestLow) bestLow = l;
   }
-  prepped.forEach((d, i) => {
-    if (!inPool.has(d.id)) return;
-    let up = cur.get(d.id); for (const q of open) up += maxPts(d, q);
-    if (up >= best) flags[i] = 1;
-  });
+  prepped.forEach((d, i) => { if (inPool.has(d.id) && hi.get(d.id) >= bestLow) flags[i] = 1; });
   return flags;
 }
 export { QUESTIONS };
