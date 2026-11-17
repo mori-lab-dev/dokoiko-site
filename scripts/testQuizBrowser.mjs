@@ -7,7 +7,7 @@ import { prepare, filterPool, remainingCount, result, QUESTIONS, SCORE_QUESTIONS
 import { aliveFlags } from '../src/lib/quizAlive.js';
 
 const BASE = process.argv[2] || 'http://127.0.0.1:4399';
-const OUT = 'logs/quiz_20261117';
+const OUT = 'logs/quiz_20261118';
 const DATA = JSON.parse(fs.readFileSync('src/data/quizDestinations.json', 'utf8'));
 const P = prepare(DATA);
 const res = [];
@@ -97,7 +97,11 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   ok(`${vp.n} 次点が3つ（エンジンと同じ順）`, nexts.length === 3 && nexts.every((n, i) => n.t.includes(expA.next[i].name)), nexts.map((n) => n.t).join(' / '));
   ok(`${vp.n} 結果の文言「回答の傾向から選んだ1つ。ほかの候補もどうぞ」`, (await page.textContent('#qz-result')).includes('回答の傾向から選んだ1つ。ほかの候補もどうぞ'));
   const winText = await page.textContent('#qz-r-win'); const winShown = await page.$eval('#qz-r-win', (e) => !e.hidden);
-  ok(`${vp.n} 「この診断の1万通りの回答のうち、◯通りで1位になる旅先」（実測のwin。0なら出さない）`, expA.top.win > 0 ? winShown && winText.includes(`${fmt(expA.top.win)}通り`) : !winShown, winText);
+  ok(`${vp.n} バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）`, expA.top.win > 0 ? winShown && winText.includes(`1万通り中 ${fmt(expA.top.win)}通りで1位`) : !winShown, winText);
+  const wm = await page.$eval('#qz-r-name', (e) => getComputedStyle(e).writingMode); const seal = await page.$eval('#qz-author', (e) => !!e.querySelector('.qz-seal'));
+  ok(`${vp.n} 結果の名前が縦書き・落款つきの作った人のXリンク`, wm === 'vertical-rl' && seal, `${wm} 落款=${seal}`);
+  const vbox = await page.$eval('.qz-vrow', (e) => { const r = e.getBoundingClientRect(); return [Math.round(r.left), Math.round(r.right), document.documentElement.clientWidth]; });
+  ok(`${vp.n} 縦書きの名前が画面の幅に収まる`, vbox[0] >= 0 && vbox[1] <= vbox[2], vbox.join(','));
   // 結果の点が選ばれた旅先の位置と合っている: 地図の焦点 = x,y ／ 画面上の位置に朱色の点がある
   const focus = await page.getAttribute('#qz-map', 'data-focus'); const vw = JSON.parse(await page.getAttribute('#qz-map', 'data-view'));
   ok(`${vp.n} 地図の焦点が選ばれた旅先の位置（x,y）`, focus === `${expA.top.x},${expA.top.y}`, `${focus} / 期待 ${expA.top.x},${expA.top.y}`);
@@ -163,6 +167,7 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
 const rctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
 const rp = await rctx.newPage();
 const pickCodes = ['kamakura', 'miyakojima', 'chichijima', 'sapporo', 'beppu'].map((id) => DATA.find((d) => d.id === id)).filter(Boolean);
+pickCodes.push(...DATA.filter((x) => x.name.startsWith('丸瀬布')));
 for (const d of pickCodes) {
   const r = await rp.goto(`${BASE}/quiz/r/${d.code}/`, { waitUntil: 'networkidle' });
   const html = await rp.content();
@@ -172,8 +177,10 @@ for (const d of pickCodes) {
   ok(`結果ページ ${d.name}: og:image が結果ごと・画像が存在`, ogi === `https://tabidokoiko.com/quiz/og/${d.code}.png` && og.status() === 200 && (await og.body()).length > 3000 && (await og.body()).length < 60000, `${ogi} ${og.status()} ${(await og.body()).length}バイト`);
   ok(`結果ページ ${d.name}: twitter:card・og:title`, (await meta('meta[name="twitter:card"]', 'content')) === 'summary_large_image' && (await meta('meta[property="og:title"]', 'content')).includes(d.name));
   ok(`結果ページ ${d.name}: 旅先ページ・/quiz/・作った人のX`, (await meta('a.go', 'href')) === d.url && (await meta('a.quiz', 'href')) === '/quiz/' && (await meta('#author', 'href')) === 'https://x.com/mori__lab' && (await meta('#author', 'rel')) === 'noopener');
+  ok(`結果ページ ${d.name}: 縦書きの名前・バッジ・落款`, (await rp.$eval('h1', (e) => getComputedStyle(e).writingMode)) === 'vertical-rl' && (d.win > 0) === ((await rp.$('.badge')) !== null) && (await rp.$('.seal')) !== null);
+  ok(`結果ページ ${d.name}: 横スクロールなし`, (await rp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)) <= 0);
   ok(`結果ページ ${d.name}: 所要時間・料金・送迎・無料が無い`, !/所要|料金|送迎|無料|円/.test(await rp.innerText('body')));
-  if (d.id === 'kamakura' || d.id === 'miyakojima') await rp.screenshot({ path: `${OUT}/shot_resultpage_${d.id}.png`, fullPage: true });
+  await rp.screenshot({ path: `${OUT}/shot_resultpage_${d.id}.png`, fullPage: true });
 }
 await rctx.close();
 await browser.close();

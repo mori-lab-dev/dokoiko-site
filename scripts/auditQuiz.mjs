@@ -42,9 +42,14 @@ const uiText = htmlNoData.replace(/<style[\s\S]*?<\/style>/g, '').replace(/<[^>]
 const ALLOW = (t) => t.replaceAll('@mori__lab', '').replaceAll('x.com/mori__lab', '');   // 作った人のXは許可
 
 // ---- 1. 禁止語（画面の文言・スクリプト）
-const BAN = ['運命', '絶対', '必ず', '住むべき', '間違いなく', '確実', '最高', '最強', '日本一', '世界一', '完璧', '断言', '必見', '誰でも', '100％', '100パーセント'];   // 半角の 100% は CSS（width: 100%）にも出るので数えない
+const BAN = ['運命', '絶対', '必ず', '住むべき', '間違いなく', '確実', '最高', '最強', '日本一', '世界一', '完璧', '断言', '必見', '誰でも', '100％', '100パーセント', '当てます', '運命の町', '20の質問', '4万人'];   // 後ろの4語は 2026-11-18 に追加（参考にしたサイトの言い回しに寄せない）   // 半角の 100% は CSS（width: 100%）にも出るので数えない
 init('禁止語');
 for (const w of BAN) if (uiText.includes(w)) add('禁止語', w);
+
+// 共有画像の元データ: 画像を作るスクリプトの文言（コメントを除く）にも禁止語が無い。旅先名・県名は結果のJSON（下で検査）から来る
+init('共有画像の元データに禁止語');
+{ const src = (f) => read(f).replace(/\/\*[\s\S]*?\*\//g, '').replace(/^\s*\/\/.*$/gm, '');
+  for (const f of ['scripts/buildQuizOgAll.mjs', 'scripts/lib/quizOg.mjs']) for (const w of BAN) if (src(f).includes(w)) add('共有画像の元データに禁止語', `${f}: ${w}`); }
 
 // ---- 2. 実名・メール・勤務先名・位置・EXIF
 const terms = new Set();
@@ -179,6 +184,11 @@ init('OGP画像の不備');
   if (ch.some((c) => ['eXIf', 'tEXt', 'zTXt', 'iTXt'].includes(c))) add('EXIF・メタデータ（共有画像）', '/quiz/ の画像'); }
 if (!read('dist/index.html').includes('href="/quiz/"')) add('導線・sitemap', 'トップのナビ・フッターに /quiz/ へのリンクが無い');
 if (!read('dist/about/index.html').includes('href="/quiz/"')) add('導線・sitemap', '固定ページのナビ・フッターに /quiz/ へのリンクが無い');
+
+// ---- 「のこり」の厳密性（小さい回数）: 数がエンジンと一致し、外れと数えた旅先が1位にならない（scripts/testQuizAlive.mjs）
+init('のこりの厳密性の不備');
+try { execFileSync('node', ['scripts/testQuizAlive.mjs', '--paths', '400', '--fills', '10'], { encoding: 'utf8' }); }
+catch (e) { add('のこりの厳密性の不備', String(e.stdout || e.message).split('\n').filter(Boolean).slice(0, 2).join(' / ').slice(0, 160)); }
 
 // ---- 9. 分布検査
 let dist = null;

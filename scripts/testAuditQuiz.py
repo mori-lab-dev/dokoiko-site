@@ -41,6 +41,14 @@ def add_chunk(typ, payload):
     return m
 print('基準（壊さない）:', run()[0] == 0 and '合格' or '不合格')
 # ---- /quiz/ のページ・JSON
+case('禁止語「当てます」を画面に足す', [F], txt(lambda t: t.replace('診断をはじめる', '旅先を当てます')))
+case('禁止語「運命の町」を画面に足す', [F], txt(lambda t: t.replace('診断をはじめる', '運命の町')))
+case('禁止語「20の質問」を画面に足す', [F], txt(lambda t: t.replace('診断をはじめる', '20の質問')))
+case('禁止語「4万人」を画面に足す', [F], txt(lambda t: t.replace('診断をはじめる', '4万人が診断')))
+case('結果ページに禁止語「当てます」', [RP], txt(lambda t: t.replace('あなたも診断する', '当てますあなたも診断する')))
+case('共有画像の元データ（生成スクリプト）に禁止語「運命の町」', ['scripts/buildQuizOgAll.mjs'], txt(lambda t: t.replace('<b>どこ行こ？</b>', '<b>運命の町</b>', 1)))
+case('結果のJSONの旅先名に禁止語「4万人」', [F], withdata(lambda d: d[0].update({'name': '4万人の町'})))
+case('「のこり」の厳密性が崩れる（旧エンジンに戻す）', ['src/lib/quizEngine.js'], lambda f, b: open('logs/quiz_20261118/quizEngine.js.before', 'rb').read())
 case('禁止語「運命」を画面に足す', [F], txt(lambda t: t.replace('診断をはじめる', '運命の診断をはじめる')))
 case('JSONに travelTime を足す', [F], withdata(lambda d: d[0].update({'travelTime': {'大阪': 60}})))
 case('JSONの tags に「無料送迎」', [F], withdata(lambda d: d[1]['tags'].append('無料送迎')))
