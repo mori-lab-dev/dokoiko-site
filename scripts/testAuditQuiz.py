@@ -76,6 +76,17 @@ case('結果ページに禁止語「必ず」', [RP], txt(lambda t: t.replace('�
 case('結果ページの作った人のXのリンクを消す', [RP], txt(lambda t: t.replace('href="https://x.com/mori__lab"', 'href="https://x.com/"')))
 case('結果ページに位置（緯度経度）', [RP], txt(lambda t: t.replace('<h1', '<!-- 35.123456,139.123456 --><h1', 1)))
 case('sitemap に結果ページが入る', ['dist/sitemap.xml'], txt(lambda t: t.replace('</urlset>', f'<url><loc>https://tabidokoiko.com/quiz/r/{c0}/</loc></url></urlset>')))
+# ---- 地図の出典・落款
+AB = 'dist/about/index.html'
+case('about から地図の出典（Natural Earth）が消える', [AB], txt(lambda t: t.replace('Natural Earth', 'ある地図データ')))
+case('about から都道府県の境のデータ名が消える', [AB], txt(lambda t: t.replace('ne_10m_admin_1_states_provinces', '')))
+case('about からライセンス（パブリックドメイン）が消える', [AB], txt(lambda t: t.replace('パブリックドメイン', '')))
+case('about から加工内容（間引き）が消える', [AB], txt(lambda t: t.replace('間引き', '')))
+case('quizMap.json から都道府県の境が消える', ['src/data/quizMap.json'], lambda f, b: json.dumps({**json.loads(b), 'frames': [{**fr, 'pref': ''} for fr in json.loads(b)['frames']]}, ensure_ascii=False).encode('utf8'))
+case('結果ページの落款が別のアカウント名', [RP], txt(lambda t: t.replace('>@mori__lab</span>', '>@someone_else</span>', 1)))
+case('共有画像の元データの落款が別のアカウント名', ['scripts/buildQuizOgAll.mjs'], txt(lambda t: t.replace('<div class="seal">${ACCOUNT}</div>', '<div class="seal">@mori_lab</div>', 1)))
+case('結果画面の落款が別のアカウント名', ['src/pages/quiz.astro'], txt(lambda t: t.replace('aria-hidden="true">@mori__lab</span>', 'aria-hidden="true">@mori__lab2</span>', 1)))
+case('診断ページのXのリンク先が別のアカウント', [F], txt(lambda t: t.replace('https://x.com/mori__lab', 'https://x.com/other', 1)))
 # ---- 説明（desc.json）
 DJ = 'dist/quiz/desc.json'
 d0 = json.load(open(DJ, encoding='utf8'))

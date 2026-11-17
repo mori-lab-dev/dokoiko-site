@@ -80,7 +80,7 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   const overflow = () => page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   ok(`${vp.n} 開始画面 横スクロールなし`, (await overflow()) <= 0, '差=' + (await overflow()));
   // 地図: canvas に点が描かれている（墨色の点が多数）
-  const px = await page.evaluate(() => { const c = document.getElementById('qz-map'); const x = c.getContext('2d').getImageData(0, 0, c.width, c.height).data; let ink = 0, land = 0; for (let i = 0; i < x.length; i += 4) { if (x[i] < 80 && x[i + 1] < 80 && x[i + 2] < 80 && x[i + 3] > 100) ink++; if (Math.abs(x[i] - 233) < 6 && Math.abs(x[i + 1] - 223) < 6 && x[i + 3] > 200) land++; } return { ink, land, w: c.width, h: c.height }; });
+  const px = await page.evaluate(() => { const c = document.getElementById('qz-map'); const x = c.getContext('2d').getImageData(0, 0, c.width, c.height).data; let ink = 0, land = 0; for (let i = 0; i < x.length; i += 4) { if (x[i] < 80 && x[i + 1] < 80 && x[i + 2] < 80 && x[i + 3] > 100) ink++; if (Math.abs(x[i] - 221) < 6 && Math.abs(x[i + 1] - 208) < 6 && x[i + 3] > 200) land++; } return { ink, land, w: c.width, h: c.height }; });
   ok(`${vp.n} 地図に輪郭と墨色の点が描かれている`, px.ink > 500 && px.land > 5000, JSON.stringify(px));
   ok(`${vp.n} 開始画面の「のこり」= 旅先の数`, Number((await page.textContent('#qz-left')).replace(/,/g, '')) === P.length, await page.textContent('#qz-left'));
   await page.screenshot({ path: `${OUT}/shot_${vp.n}_1_intro.png` });
@@ -103,6 +103,8 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   const winText = await page.textContent('#qz-r-win'); const winShown = await page.$eval('#qz-r-win', (e) => !e.hidden);
   ok(`${vp.n} バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）`, expA.top.win > 0 ? winShown && winText.includes(`1万通り中 ${fmt(expA.top.win)}通りで1位`) : !winShown, winText);
   const wm = await page.$eval('#qz-r-name', (e) => getComputedStyle(e).writingMode); const seal = await page.$eval('#qz-author', (e) => !!e.querySelector('.qz-seal'));
+  const sb = await page.$eval('.qz-seal', (e) => { const r = e.getBoundingClientRect(); return { w: e.offsetWidth, h: e.offsetHeight, t: e.textContent }; });
+  ok(`${vp.n} 落款が横長（約3:1〜4:1）・@mori__lab の1行`, sb.w / sb.h >= 2.8 && sb.w / sb.h <= 4.2 && sb.t === '@mori__lab', `${sb.w}x${sb.h} ${sb.t}`);
   ok(`${vp.n} 結果の名前が縦書き・落款つきの作った人のXリンク`, wm === 'vertical-rl' && seal, `${wm} 落款=${seal}`);
   const vbox = await page.$eval('.qz-vrow', (e) => { const r = e.getBoundingClientRect(); return [Math.round(r.left), Math.round(r.right), document.documentElement.clientWidth]; });
   ok(`${vp.n} 縦書きの名前が画面の幅に収まる`, vbox[0] >= 0 && vbox[1] <= vbox[2], vbox.join(','));
@@ -184,6 +186,8 @@ for (const d of pickCodes) {
   ok(`結果ページ ${d.name}: 旅先ページ・/quiz/・作った人のX`, (await meta('a.go', 'href')) === d.url && (await meta('a.quiz', 'href')) === '/quiz/' && (await meta('#author', 'href')) === 'https://x.com/mori__lab' && (await meta('#author', 'rel')) === 'noopener');
   const odesc = await meta('meta[property="og:description"]', 'content'); const mdesc = await meta('meta[name=description]', 'content');
   ok(`結果ページ ${d.name}: og:description・meta description が desc.json と同じ・本文にも出る`, odesc === DESC[d.id] && mdesc === DESC[d.id] && (await rp.textContent('.desc')) === DESC[d.id], `${odesc}`);
+  const sb2 = await rp.$eval('.seal', (e) => ({ w: e.offsetWidth, h: e.offsetHeight, t: e.textContent }));
+  ok(`結果ページ ${d.name}: 落款が横長・@mori__lab`, sb2.w / sb2.h >= 2.8 && sb2.w / sb2.h <= 4.2 && sb2.t === '@mori__lab', `${sb2.w}x${sb2.h}`);
   ok(`結果ページ ${d.name}: 縦書きの名前・バッジ・落款`, (await rp.$eval('h1', (e) => getComputedStyle(e).writingMode)) === 'vertical-rl' && (d.win > 0) === ((await rp.$('.badge')) !== null) && (await rp.$('.seal')) !== null);
   ok(`結果ページ ${d.name}: 横スクロールなし`, (await rp.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)) <= 0);
   ok(`結果ページ ${d.name}: 所要時間・料金・送迎・無料が無い`, !/所要|料金|送迎|無料|円/.test(await rp.innerText('body')));

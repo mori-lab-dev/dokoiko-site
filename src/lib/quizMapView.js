@@ -4,14 +4,14 @@
 // ・showResult: 結果の旅先の点が脈打ち、地図がその周りへ寄る。次点は印を付ける。
 // ・prefers-reduced-motion: 動きを止める（色・数・表示は同じ）。音・振動は付けない。地図は aria-hidden（数字と結果はテキストでも出す）。
 const INK = [47, 44, 40], ALIVE = [196, 69, 45], DEAD = [168, 157, 132];
-const LAND = '#e9dfc6', COAST = '#a39679', FRAME = '#bfb298';
+const LAND = '#ddd0b0', COAST = 'rgba(47,44,40,.62)', PREF = 'rgba(47,44,40,.16)', FRAME = '#bfb298';   // 地は紙色・陸は少し濃く・海岸線は細い墨線・県境はごく薄い墨線
 const mix = (a, b, t) => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
 const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
 export function createMapView(canvas, map, dots) {
   const ctx = canvas.getContext('2d');
   const W = map.width, H = map.height, n = dots.length;
-  const frames = map.frames.map((f) => ({ key: f.key, box: f.box, p: new Path2D(f.path) }));
+  const frames = map.frames.map((f) => ({ key: f.key, box: f.box, p: new Path2D(f.path), pf: new Path2D(f.pref || '') }));
   const v = new Float32Array(n).fill(1);         // 見た目の「残り」度合い（0=外れ 1=残り）
   const tgt = new Uint8Array(n).fill(1);
   let nar = 0, narTgt = 0;                       // 「絞り込みが始まったか」（0=全部が墨色 → 1=残り/外れで色分け）
@@ -35,7 +35,7 @@ export function createMapView(canvas, map, dots) {
     // 輪郭
     for (const f of frames) {
       if (f.key !== 'main') { const [x0, y0, x1, y1] = f.box; ctx.save(); ctx.setLineDash([7 / cssScale, 6 / cssScale]); ctx.strokeStyle = FRAME; ctx.lineWidth = 1.4 / cssScale; ctx.strokeRect(x0 - 6, y0 - 6, x1 - x0 + 12, y1 - y0 + 12); ctx.restore(); }
-      ctx.fillStyle = LAND; ctx.fill(f.p); ctx.strokeStyle = COAST; ctx.lineWidth = 1.1 / cssScale; ctx.lineJoin = 'round'; ctx.stroke(f.p);
+      ctx.fillStyle = LAND; ctx.fill(f.p); ctx.lineJoin = 'round'; ctx.strokeStyle = PREF; ctx.lineWidth = 0.9 / cssScale; ctx.stroke(f.pf); ctx.strokeStyle = COAST; ctx.lineWidth = 1.1 / cssScale; ctx.stroke(f.p);
     }
     // 点（css px で一定の大きさ。寄ると少し大きくなる）
     const r0 = (1.55 + 0.35 * Math.min(k, 3)) / cssScale;

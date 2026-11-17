@@ -29,12 +29,13 @@ const contentHash = (d) => hash(d, map);
 // 日本全体の点の地図（2026-11-18 v4）。旅先1,191件を小さな墨色の点で打ち、選ばれた旅先だけ朱色の点を細い朱色の輪で囲む。
 // 輪郭は塗りつぶさず、ごく薄い線だけ。沖縄・小笠原は今の別枠（quizMap.json の3枠）のまま。発光・ぼかし・暗い紺地は使わない
 const MAPW = 560, SC = MAPW / map.width, MAPH = Math.round(map.height * SC);
+const LAND = '#ddd0b0', INKLINE = '#4a463d';   // 陸は紙色より少し濃く・海岸線は細い墨線・県境はごく薄い墨線
 const outlineSvg = map.frames.map((f) => {
   const [x0, y0, x1, y1] = f.box;
-  const frame = f.key === 'main' ? '' : `<rect x="${x0 - 6}" y="${y0 - 6}" width="${x1 - x0 + 12}" height="${y1 - y0 + 12}" rx="6" fill="none" stroke="#d9cfb7" stroke-width="1.6" stroke-dasharray="6 6"/>`;
-  return `${frame}<path d="${f.path}" fill="none" stroke="#d3c8ae" stroke-width="1.5" stroke-linejoin="round"/>`;
+  const frame = f.key === 'main' ? '' : `<rect x="${x0 - 6}" y="${y0 - 6}" width="${x1 - x0 + 12}" height="${y1 - y0 + 12}" rx="6" fill="#f2eadb" stroke="#bfb298" stroke-width="1.8" stroke-dasharray="6 6"/>`;
+  return `${frame}<path d="${f.path}" fill="${LAND}" stroke="none"/><path d="${f.pref}" fill="none" stroke="${INKLINE}" stroke-opacity=".18" stroke-width="1.1" stroke-linejoin="round"/><path d="${f.path}" fill="none" stroke="${INKLINE}" stroke-opacity=".75" stroke-width="1.3" stroke-linejoin="round"/>`;
 }).join('');
-const dotsSvg = data.map((q) => `<circle cx="${q.x}" cy="${q.y}" r="3.1"/>`).join('');
+const dotsSvg = data.map((q) => `<circle cx="${q.x}" cy="${q.y}" r="2.8"/>`).join('');
 const page = (d) => `<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -50,18 +51,17 @@ const page = (d) => `<!doctype html><html lang="ja"><head><meta charset="utf-8">
   .brand { position:absolute; left:64px; bottom:34px; font:400 17px 'Noto Sans JP',sans-serif; letter-spacing:.14em; color:#7d7461; }
   .brand b { font:500 19px 'Noto Serif JP',serif; letter-spacing:.1em; color:#3b372f; margin-right:10px; }
   .rule { position:absolute; left:64px; right:64px; top:604px; height:1px; background:#cdbfa0; }
-  .seal { position:absolute; right:66px; bottom:30px; width:62px; height:62px; background:#c8321f; border-radius:7px; transform:rotate(-4deg); color:#f6efe0; display:flex; align-items:center; justify-content:center; text-align:center; font:700 14px/1.25 'Noto Sans JP',sans-serif; letter-spacing:.04em; }
-  .seal::before { content:''; position:absolute; inset:4px; border:1.5px solid #f6efe0; border-radius:4px; opacity:.85; }
+  .seal { position:absolute; right:64px; bottom:36px; width:120px; height:34px; background:#c8321f; border-radius:4px; transform:rotate(-2deg); color:#fbf5e8; display:flex; align-items:center; justify-content:center; font:700 17px/1 'Noto Sans JP',sans-serif; letter-spacing:.05em; white-space:nowrap; }
 </style></head><body>
   <div class="label">あなたに似合う<br>旅先は</div>
   <div class="stage"><div class="pref">${d.prefecture}</div><div class="name" id="nm">${d.name}</div></div>
   <svg class="map" width="${MAPW}" height="${MAPH}" viewBox="0 0 ${map.width} ${map.height}">${outlineSvg}
     <g fill="#46423b" shape-rendering="crispEdges">${dotsSvg}</g>
-    <circle cx="${d.x}" cy="${d.y}" r="30" fill="none" stroke="#c8321f" stroke-width="3"/><circle cx="${d.x}" cy="${d.y}" r="11" fill="#c8321f"/></svg>
+    <circle cx="${d.x}" cy="${d.y}" r="42" fill="none" stroke="#f6f0e2" stroke-width="10"/><circle cx="${d.x}" cy="${d.y}" r="42" fill="none" stroke="#c8321f" stroke-width="4.5"/><circle cx="${d.x}" cy="${d.y}" r="13" fill="#c8321f"/></svg>
   ${d.win > 0 ? `<div class="badge">1万通り中 <b>${d.win.toLocaleString('ja-JP')}</b>通りで1位</div>` : ''}
   <div class="rule"></div>
   <div class="brand"><b>どこ行こ？</b>tabidokoiko.com</div>
-  <div class="seal"><span>${ACCOUNT.replace('@mori', '@mori<br>')}</span></div>
+  <div class="seal">${ACCOUNT}</div>
 </body></html>`;
 
 const todo = data.filter((d) => !ONLY || ONLY.has(d.code)).slice(0, LIMIT);

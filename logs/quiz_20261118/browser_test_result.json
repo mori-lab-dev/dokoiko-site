@@ -7,7 +7,7 @@
  {
   "name": "phone390 地図に輪郭と墨色の点が描かれている",
   "ok": true,
-  "extra": "{\"ink\":20411,\"land\":15830,\"w\":704,\"h\":662}"
+  "extra": "{\"ink\":23552,\"land\":14199,\"w\":704,\"h\":662}"
  },
  {
   "name": "phone390 開始画面の「のこり」= 旅先の数",
@@ -73,6 +73,11 @@
   "name": "phone390 バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）",
   "ok": true,
   "extra": "1万通り中 29通りで1位"
+ },
+ {
+  "name": "phone390 落款が横長（約3:1〜4:1）・@mori__lab の1行",
+  "ok": true,
+  "extra": "88x26 @mori__lab"
  },
  {
   "name": "phone390 結果の名前が縦書き・落款つきの作った人のXリンク",
@@ -182,7 +187,7 @@
  {
   "name": "phone360 地図に輪郭と墨色の点が描かれている",
   "ok": true,
-  "extra": "{\"ink\":20123,\"land\":11481,\"w\":644,\"h\":605}"
+  "extra": "{\"ink\":22785,\"land\":10284,\"w\":644,\"h\":605}"
  },
  {
   "name": "phone360 開始画面の「のこり」= 旅先の数",
@@ -248,6 +253,11 @@
   "name": "phone360 バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）",
   "ok": true,
   "extra": "1万通り中 29通りで1位"
+ },
+ {
+  "name": "phone360 落款が横長（約3:1〜4:1）・@mori__lab の1行",
+  "ok": true,
+  "extra": "88x26 @mori__lab"
  },
  {
   "name": "phone360 結果の名前が縦書き・落款つきの作った人のXリンク",
@@ -357,7 +367,7 @@
  {
   "name": "pc1280 地図に輪郭と墨色の点が描かれている",
   "ok": true,
-  "extra": "{\"ink\":18844,\"land\":82276,\"w\":1204,\"h\":1132}"
+  "extra": "{\"ink\":25947,\"land\":76001,\"w\":1204,\"h\":1132}"
  },
  {
   "name": "pc1280 開始画面の「のこり」= 旅先の数",
@@ -423,6 +433,11 @@
   "name": "pc1280 バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）",
   "ok": true,
   "extra": "1万通り中 29通りで1位"
+ },
+ {
+  "name": "pc1280 落款が横長（約3:1〜4:1）・@mori__lab の1行",
+  "ok": true,
+  "extra": "88x26 @mori__lab"
  },
  {
   "name": "pc1280 結果の名前が縦書き・落款つきの作った人のXリンク",
@@ -532,7 +547,7 @@
  {
   "name": "phone390-reduced 地図に輪郭と墨色の点が描かれている",
   "ok": true,
-  "extra": "{\"ink\":20411,\"land\":15830,\"w\":704,\"h\":662}"
+  "extra": "{\"ink\":23552,\"land\":14199,\"w\":704,\"h\":662}"
  },
  {
   "name": "phone390-reduced 開始画面の「のこり」= 旅先の数",
@@ -598,6 +613,11 @@
   "name": "phone390-reduced バッジ「1万通り中 ◯通りで1位」（実測のwin。0なら出さない）",
   "ok": true,
   "extra": "1万通り中 29通りで1位"
+ },
+ {
+  "name": "phone390-reduced 落款が横長（約3:1〜4:1）・@mori__lab の1行",
+  "ok": true,
+  "extra": "88x26 @mori__lab"
  },
  {
   "name": "phone390-reduced 結果の名前が縦書き・落款つきの作った人のXリンク",
@@ -707,7 +727,7 @@
  {
   "name": "結果ページ 鎌倉: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/e2069b2f.png 200 16943バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/e2069b2f.png 200 19388バイト"
  },
  {
   "name": "結果ページ 鎌倉: twitter:card・og:title",
@@ -723,6 +743,11 @@
   "name": "結果ページ 鎌倉: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "神奈川県の、寺社・海・歴史の旅先です。"
+ },
+ {
+  "name": "結果ページ 鎌倉: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 鎌倉: 縦書きの名前・バッジ・落款",
@@ -747,7 +772,7 @@
  {
   "name": "結果ページ 宮古島: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/ca39d0eb.png 200 14991バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/ca39d0eb.png 200 16927バイト"
  },
  {
   "name": "結果ページ 宮古島: twitter:card・og:title",
@@ -763,6 +788,11 @@
   "name": "結果ページ 宮古島: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "沖縄本島の南西に浮かぶ離島、宮古島。島内は車で回るのが現実的だ。"
+ },
+ {
+  "name": "結果ページ 宮古島: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 宮古島: 縦書きの名前・バッジ・落款",
@@ -787,7 +817,7 @@
  {
   "name": "結果ページ 父島: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/a83fdb9e.png 200 14938バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/a83fdb9e.png 200 16750バイト"
  },
  {
   "name": "結果ページ 父島: twitter:card・og:title",
@@ -803,6 +833,11 @@
   "name": "結果ページ 父島: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "東京都の、離島・海・自然の旅先です。"
+ },
+ {
+  "name": "結果ページ 父島: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 父島: 縦書きの名前・バッジ・落款",
@@ -827,7 +862,7 @@
  {
   "name": "結果ページ 札幌: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/5476f082.png 200 14951バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/5476f082.png 200 16907バイト"
  },
  {
   "name": "結果ページ 札幌: twitter:card・og:title",
@@ -843,6 +878,11 @@
   "name": "結果ページ 札幌: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "北海道の、街歩き・グルメ・歴史の旅先です。"
+ },
+ {
+  "name": "結果ページ 札幌: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 札幌: 縦書きの名前・バッジ・落款",
@@ -867,7 +907,7 @@
  {
   "name": "結果ページ 別府: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/11f07e9b.png 200 16386バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/11f07e9b.png 200 18671バイト"
  },
  {
   "name": "結果ページ 別府: twitter:card・og:title",
@@ -883,6 +923,11 @@
   "name": "結果ページ 別府: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "大分県別府市は、源泉数・湧出量ともに国内有数の温泉地だ。別府駅を起点に市内を歩ける。"
+ },
+ {
+  "name": "結果ページ 別府: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 別府: 縦書きの名前・バッジ・落款",
@@ -907,7 +952,7 @@
  {
   "name": "結果ページ 丸瀬布森林公園いこいの森: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/c3e27723.png 200 18786バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/c3e27723.png 200 21556バイト"
  },
  {
   "name": "結果ページ 丸瀬布森林公園いこいの森: twitter:card・og:title",
@@ -923,6 +968,11 @@
   "name": "結果ページ 丸瀬布森林公園いこいの森: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "北海道の森の中を現役のSLが走る公園だ。丸瀬布森林公園いこいの森は、湿地の木道を歩きながら汽笛を間近に聞ける場所で、初夏には湿地に花々が咲く。"
+ },
+ {
+  "name": "結果ページ 丸瀬布森林公園いこいの森: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 丸瀬布森林公園いこいの森: 縦書きの名前・バッジ・落款",
@@ -947,7 +997,7 @@
  {
   "name": "結果ページ 飯坂温泉: og:image が結果ごと・画像が存在",
   "ok": true,
-  "extra": "https://tabidokoiko.com/quiz/og/95ad65be.png 200 18086バイト"
+  "extra": "https://tabidokoiko.com/quiz/og/95ad65be.png 200 20441バイト"
  },
  {
   "name": "結果ページ 飯坂温泉: twitter:card・og:title",
@@ -963,6 +1013,11 @@
   "name": "結果ページ 飯坂温泉: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "摺上川の谷に宿が三十軒あまり並び、そのあいだに共同浴場が点在する。中でも鯖湖湯は日本でも古い木造の共同浴場を復元したもので、大きな一枚屋根と黒光りする板壁が通りの目印になっている。"
+ },
+ {
+  "name": "結果ページ 飯坂温泉: 落款が横長・@mori__lab",
+  "ok": true,
+  "extra": "88x26"
  },
  {
   "name": "結果ページ 飯坂温泉: 縦書きの名前・バッジ・落款",

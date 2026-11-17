@@ -53,7 +53,7 @@ li{font-size:12px;padding:2px 10px;border-radius:999px;background:#ece3cb;color:
 .badge{display:inline-block;margin:0 0 16px;padding:3px 14px 4px;border:1.5px solid #1f1d1a;border-radius:999px;font-size:13px;background:#f7f1e3}.badge b{font-size:17px;color:#c8321f;margin:0 1px}
 .btn{display:block;box-sizing:border-box;width:100%;min-height:52px;padding:13px 16px;margin:0 0 10px;border-radius:10px;text-align:center;text-decoration:none;font-size:15px}
 .go{background:#2A6049;color:#fff}.quiz{background:#fff;color:#2A6049;border:1px solid #2A6049}
-.author{margin:26px 0 0;text-align:center;font-size:11px}.author a{display:inline-flex;align-items:center;gap:10px;color:#8b8268;text-decoration:none}.cap{text-decoration:underline;text-underline-offset:3px}.seal{display:inline-flex;align-items:center;justify-content:center;position:relative;width:46px;height:46px;background:#c8321f;border-radius:5px;transform:rotate(-4deg);color:#f6efe0;font:700 10px/1.25 sans-serif;text-align:center}.seal::before{content:'';position:absolute;inset:3px;border:1px solid #f6efe0;border-radius:3px;opacity:.85}
+.author{margin:26px 0 0;text-align:center;font-size:11px}.author a{display:inline-flex;align-items:center;gap:10px;color:#8b8268;text-decoration:none}.cap{text-decoration:underline;text-underline-offset:3px}.seal{display:inline-flex;align-items:center;justify-content:center;flex:none;width:88px;height:26px;background:#c8321f;border-radius:3px;transform:rotate(-2deg);color:#fbf5e8;font:700 12px/1 'Noto Sans JP',sans-serif;letter-spacing:.04em;white-space:nowrap}
 </style>
 </head>
 <body data-page-type="quiz-result" data-page-id={d.code}>
@@ -65,7 +65,7 @@ li{font-size:12px;padding:2px 10px;border-radius:999px;background:#ece3cb;color:
 {d.win > 0 && <p class="badge">1万通り中 <b>{d.win.toLocaleString('ja-JP')}</b>通りで1位</p>}
 <a class="btn go" href={d.url}>この旅先のページを見る</a>
 <a class="btn quiz" href="/quiz/">あなたも診断する</a>
-<p class="author"><a href="https://x.com/mori__lab" rel="noopener" target="_blank" id="author" aria-label="作った人のX（@mori__lab）"><span class="seal" aria-hidden="true"><span>@mori<br>__lab</span></span><span class="cap">作った人のX</span></a></p>
+<p class="author"><a href="https://x.com/mori__lab" rel="noopener" target="_blank" id="author" aria-label="作った人のX（@mori__lab）"><span class="seal" aria-hidden="true">@mori__lab</span><span class="cap">作った人のX</span></a></p>
 </main>
 <script is:inline>document.getElementById('author').addEventListener('click',function(){try{gtag('event','author_x_click',{place:'result_page'})}catch(e){}});</script>
 </body>

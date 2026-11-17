@@ -187,6 +187,27 @@ init('OGP画像の不備');
 if (!read('dist/index.html').includes('href="/quiz/"')) add('導線・sitemap', 'トップのナビ・フッターに /quiz/ へのリンクが無い');
 if (!read('dist/about/index.html').includes('href="/quiz/"')) add('導線・sitemap', '固定ページのナビ・フッターに /quiz/ へのリンクが無い');
 
+// ---- 地図の出典・落款
+init('地図の出典・落款の不備');
+{
+  const about = read('dist/about/index.html');
+  for (const w of ['Natural Earth', 'ne_10m_admin_0_countries', 'ne_10m_admin_1_states_provinces', 'パブリックドメイン', 'naturalearthdata.com/about/terms-of-use', '間引き', 'メルカトル', '旅先診断の地図について']) if (!about.includes(w)) add('地図の出典・落款の不備', `about に「${w}」が無い（出典・ライセンス・加工内容）`);
+  const m = JSON.parse(read('src/data/quizMap.json'));
+  if (!m.frames.every((f) => typeof f.pref === 'string') || !m.frames[0].pref.length) add('地図の出典・落款の不備', 'quizMap.json に都道府県の境（frames[].pref）が無い');
+  if (!/admin_1_states_provinces/.test(m.source?.dataset || '') || m.source?.license !== 'パブリックドメイン') add('地図の出典・落款の不備', 'quizMap.json の出典・ライセンスの記載が無い');
+  // 落款は、結果画面・結果ページ・共有画像の元データのどれも @mori__lab だけを指す（ほかの @名前・ほかのリンク先が無い）
+  const seals = [];
+  const hit = (name, text, re) => { for (const mm of text.matchAll(re)) seals.push([name, mm[1].trim()]); };
+  hit('結果画面', read('src/pages/quiz.astro'), /class="qz-seal"[^>]*>([^<]*)</g);
+  hit('共有画像', read('scripts/buildQuizOgAll.mjs'), /<div class="seal">([^<]*)</g);
+  for (const d of data.slice(0, 40)) { const f = `dist/quiz/r/${d.code}/index.html`; if (fs.existsSync(f)) hit('結果ページ', read(f), /class="seal"[^>]*>([^<]*)</g); }
+  if (!seals.some((x) => x[0] === '結果画面') || !seals.some((x) => x[0] === '共有画像') || !seals.some((x) => x[0] === '結果ページ')) add('地図の出典・落款の不備', '落款が結果画面・結果ページ・共有画像のどれかに無い');
+  for (const [n, t] of seals) if (t !== '@mori__lab' && t !== '${ACCOUNT}') add('地図の出典・落款の不備', `${n}の落款が @mori__lab でない（${t}）`);
+  if (ACCOUNT !== '@mori__lab') add('地図の出典・落款の不備', `ACCOUNT が @mori__lab でない（${ACCOUNT}）`);
+  for (const f of ['src/pages/quiz.astro', 'src/pages/quiz/r/[code].astro', 'scripts/buildQuizOgAll.mjs']) for (const mm of read(f).matchAll(/@mori[A-Za-z0-9_]*/g)) if (mm[0] !== '@mori__lab') add('地図の出典・落款の不備', `${f} に別のアカウント名（${mm[0]}）`);
+  for (const mm of read('dist/quiz/index.html').matchAll(/href="(https:\/\/x\.com\/[^"]*)"/g)) if (mm[1] !== 'https://x.com/mori__lab' && !mm[1].startsWith('https://x.com/intent/post')) add('地図の出典・落款の不備', `診断ページに別のXのリンク（${mm[1]}）`);
+}
+
 // ---- 8b. 説明
 init('説明（desc.json）の不備');
 {
