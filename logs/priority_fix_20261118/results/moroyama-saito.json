@@ -1,0 +1,24 @@
+{
+ "id": "moroyama-saito",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "高麗神社",
+   "出典URL": [
+    "https://komajinja.or.jp/guidance"
+   ],
+   "snapshot": "snapshots/moroyama-saito__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -807,6 +807,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
   /* ═══════════════════════════════════════
      SPOTS
   ═══════════════════════════════════════ */
+  .fact-notice { font-size: 13px; line-height: 1.6; color: #666; margin: -6px 0 18px; }
   .spots-heading {
     font-family: 'Noto Serif JP', serif;
     font-size: 20px;
@@ -1702,6 +1703,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     {groups && (
       <div>
         <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
+        <p class="fact-notice" data-fact-notice>料金・営業時間・休館日などは変わることがあります。お出かけ前に、各施設の公式サイトでご確認ください。</p>
         {(() => { let n = 0; return groups.map((g: any) => (
           <section class="merged-group" id={g.id}>
             <h2 class="merged-group-title">{g.title}</h2>
@@ -1772,6 +1774,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     {!groups && article?.sections && article.sections.length > 0 ? (
       <div>
         <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
+        <p class="fact-notice" data-fact-notice>料金・営業時間・休館日などは変わることがあります。お出かけ前に、各施設の公式サイトでご確認ください。</p>
         {article.sections.map((section: any, i: number) => {
           const sectionTitle = section.title || section.heading || '';
           // dest.spots から同名スポットの imageUrl を探す
@@ -1818,6 +1821,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     ) : (!groups && ((dest as any).spots && (dest as any).spots.length > 0) && (
       <div>
         <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
+        <p class="fact-notice" data-fact-notice>料金・営業時間・休館日などは変わることがあります。お出かけ前に、各施設の公式サイトでご確認ください。</p>
         {((dest as any).spots).map((spot: any, i: number) => {
           const name = typeof spot === 'string' ? spot : spot.name;
           const imageUrl = typeof spot === 'object' ? spot.imageUrl : null;

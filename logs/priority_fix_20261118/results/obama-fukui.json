@@ -1,0 +1,14 @@
+{
+ "id": "obama-fukui",
+ "グループ": [
+  {"g":1,"施設・場所":"若狭おばま食文化館","出典URL":["https://wakasa-obama.jp/spot/miketukuni-syokubunkakan"],"snapshot":"snapshots/obama-fukui__g1.txt","取得":"取得なし(検索の抜粋)"},
+  {"g":2,"施設・場所":"蘇洞門","出典URL":["https://www1.city.obama.fukui.jp/kanko-bunka/kanko/meshoto/88.html","https://wakasa-obama.jp/special/sotomo-enjoy"],"snapshot":"snapshots/obama-fukui__g2.txt","取得":"取得なし(検索の抜粋)"},
+  {"g":3,"施設・場所":"八百比丘尼伝説","出典URL":["https://wakasa-obama.jp/obamanavi/obama-mermaid-trip"],"snapshot":"snapshots/obama-fukui__g3.txt","取得":"取得なし(検索の抜粋)"}
+ ],
+ "判定": [
+  {"n":1,"g":1,"判定":"確認できず","理由":"記載なし"},
+  {"n":2,"g":2,"判定":"食い違い","公式の値":"約6km","修正":{"種類":"置換","old":"約2キロ","new":"約6km","値":["約6km"]}},
+  {"n":3,"g":3,"判定":"一致"}
+ ],
+ "取得回数":0,"検索回数":1
+}

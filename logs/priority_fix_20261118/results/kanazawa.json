@@ -1,0 +1,47 @@
+{
+ "id": "kanazawa",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "兼六園",
+   "出典URL": [
+    "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/1/1/siteibunkazai/5/5819.html"
+   ],
+   "snapshot": "snapshots/kanazawa__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 2,
+   "施設・場所": "金沢21世紀美術館",
+   "出典URL": [
+    "https://www.kanazawa21.jp/data_list.php?d=1&g=36",
+    "https://www.kanazawa21.jp/data_list.php?d=7&g=30"
+   ],
+   "snapshot": "snapshots/kanazawa__g2.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "延宝4年（1676年）に造られた蓮池庭が兼六園の始まり",
+   "修正": {
+    "種類": "置換",
+    "old": "400年の",
+    "new": "延宝4年（1676年）から続く",
+    "値": [
+     "延宝4年（1676年）"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

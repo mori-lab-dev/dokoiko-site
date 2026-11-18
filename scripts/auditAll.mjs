@@ -129,6 +129,10 @@ const AUDITS = [
       'データの不整合': Z(num(/データの不整合[^:]*:\s*(\d+)件/, o)),
       '内部リンクに旧URLが残るページ': Z(num(/内部リンクに旧URLが残るページ:\s*(\d+)件/, o)) }) },
 
+  { id: 'fact-notice', tier: 'dist', title: '旅先ページ全部に共通の注意書き（料金・営業時間・休館日は変わることがある）が1つだけあるか（転送・診断・応援割には無い）',
+    cmd: ['node', 'scripts/auditFactNotice20261118.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '注意書きの違反': Z(num(/注意書きの違反:\s*(\d+)/, o)) }) },
+
   { id: 'travel-time', tier: 'dist', title: 'travelTime が最短値を下回らないか・見積もりの値に「目安」が付いているか・疑わしい所要時間の文が残っていないか',
     cmd: ['node', 'scripts/auditTravelTime.mjs'], exitMeansFail: true,
     parse: (o) => ({ '最短値を1.25倍以上下回る組': Z(num(/下回る組:\s*(\d+)件/, o)),

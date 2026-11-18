@@ -1,0 +1,25 @@
+{
+ "id": "niche_福島_4",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "相馬焼（大堀相馬焼・相馬駒焼）",
+   "出典URL": [
+    "https://www.town.namie.fukushima.jp/site/understand-namie/314.html",
+    "https://www.city.soma.fukushima.jp/shinososhiki/shokokankoka/kanko/1/1378.html"
+   ],
+   "snapshot": "snapshots/niche_福島_4__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "対象を特定できない"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

@@ -1,0 +1,54 @@
+{
+ "id": "shoji-ueshima",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "雨滝",
+   "出典URL": [
+    "https://www.torican.jp/spot/detail_1015.html",
+    "https://www.pref.tottori.lg.jp/93957.htm"
+   ],
+   "snapshot": "snapshots/shoji-ueshima__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 2,
+   "施設・場所": "扇ノ山",
+   "出典URL": [
+    "https://www.pref.tottori.lg.jp/93958.htm",
+    "https://www.city.tottori.lg.jp/page/6716.html"
+   ],
+   "snapshot": "snapshots/shoji-ueshima__g2.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致"
+  },
+  {
+   "n": 2,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 3,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "標高1，310m（鳥取県）／高さ1,309.9メートル（鳥取市）",
+   "修正": {
+    "種類": "置換",
+    "old": "千三百メートル",
+    "new": "千三百十メートル",
+    "値": [
+     "1，310m"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,25 @@
+{
+ "id": "niche_岐阜_7",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "春日（揖斐川町）",
+   "出典URL": [
+    "https://www.town.ibigawa.lg.jp/site/kankou/2420.html",
+    "https://www.kankou-gifu.jp/article/detail_14.html"
+   ],
+   "snapshot": "snapshots/niche_岐阜_7__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

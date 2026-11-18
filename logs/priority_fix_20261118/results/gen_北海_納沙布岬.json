@@ -1,0 +1,187 @@
+{
+ "id": "gen_北海_納沙布岬",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "納沙布岬灯台",
+   "出典URL": [
+    "https://www.kaiho.mlit.go.jp/01kanku/nemuro/sentei_toudai/nemuro_lh/html/5_%E7%B4%8D%E6%B2%99%E5%B8%83%E5%B2%AC%E7%81%AF%E5%8F%B0/nosappu.htm",
+    "https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/kyoikuiinkai/kyoikushiryokan/siryoukann/shisekihyochu/6719.html"
+   ],
+   "snapshot": "snapshots/gen_北海_納沙布岬__g1.txt",
+   "取得": "取得1回"
+  },
+  {
+   "g": 2,
+   "施設・場所": "望郷の岬公園・四島のかけ橋・オーロラタワー・納沙布岬の距離",
+   "出典URL": [
+    "https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/hoppouryoudotaisakubu/hoppouryoudotaisakuka/2/8382.html",
+    "https://www.cas.go.jp/jp/ryodo/tenjikan/region.html",
+    "https://www.hoppou.go.jp/assets/docs/downloads/pamphlet/04_hoppoukan-pamphlet.pdf"
+   ],
+   "snapshot": "snapshots/gen_北海_納沙布岬__g2.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 3,
+   "施設・場所": "北方館・望郷の家",
+   "出典URL": [
+    "https://www.cas.go.jp/jp/ryodo/tenjikan/region.html",
+    "https://www.hoppou.go.jp/assets/docs/downloads/pamphlet/04_hoppoukan-pamphlet.pdf"
+   ],
+   "snapshot": "snapshots/gen_北海_納沙布岬__g3.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 4,
+   "施設・場所": "根室交通 納沙布線",
+   "出典URL": [
+    "https://www.nemurokotsu.com/manage/wp-content/uploads/2025/03/b89fa631ac14e1911f3a83e1ad37b057.pdf",
+    "https://www.city.nemuro.hokkaido.jp/material/files/group/2/02_genkyouseiri.pdf"
+   ],
+   "snapshot": "snapshots/gen_北海_納沙布岬__g4.txt",
+   "取得": "取得1回"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "対象を特定できない"
+  },
+  {
+   "n": 2,
+   "g": 1,
+   "判定": "一致"
+  },
+  {
+   "n": 3,
+   "g": 1,
+   "判定": "一致"
+  },
+  {
+   "n": 4,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 5,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 6,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 7,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 8,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 9,
+   "g": 2,
+   "判定": "一致"
+  },
+  {
+   "n": 10,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "高さ13メートル（根室市）／高さ12.62m（北方領土問題対策協会）",
+   "修正": {
+    "種類": "置換",
+    "old": "約17メートル",
+    "new": "約13メートル",
+    "値": [
+     "高さ13メートル"
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "g": 2,
+   "判定": "一致"
+  },
+  {
+   "n": 12,
+   "g": 2,
+   "判定": "確認できず",
+   "理由": "対象を特定できない"
+  },
+  {
+   "n": 13,
+   "g": 3,
+   "判定": "一致"
+  },
+  {
+   "n": 14,
+   "g": 3,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 15,
+   "g": 3,
+   "判定": "一致"
+  },
+  {
+   "n": 16,
+   "g": 3,
+   "判定": "食い違い",
+   "公式の値": "休館日 毎週月曜日（５月１日～10月31日まで無休）",
+   "修正": {
+    "種類": "置換",
+    "old": "不定休（要確認）",
+    "new": "毎週月曜日（５月１日～10月31日まで無休）",
+    "値": [
+     "毎週月曜日",
+     "５月１日～10月31日まで無休"
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "g": 4,
+   "判定": "確認できず",
+   "理由": "体験談・行程案",
+   "モデルコースの時刻": {
+    "行程": "根室駅9:00発バス→納沙布岬着10:00",
+    "矛盾": "駅前ターミナル発の納沙布岬行きは 6:40・8:20・11:05・13:35・16:10 で、9:00発の便は無い",
+    "値": [
+     "8:20",
+     "11:05"
+    ]
+   }
+  },
+  {
+   "n": 18,
+   "g": 4,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 19,
+   "g": 4,
+   "判定": "一致"
+  },
+  {
+   "n": 20,
+   "g": 1,
+   "判定": "一致"
+  }
+ ],
+ "取得回数": 2,
+ "検索回数": 4
+}

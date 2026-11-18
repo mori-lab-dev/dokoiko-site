@@ -1,0 +1,23 @@
+{
+ "id": "takagoya",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "高越山",
+   "出典URL": [
+    "https://www.east-tokushima.jp/trail/mtkotsu.php"
+   ],
+   "snapshot": "snapshots/takagoya__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

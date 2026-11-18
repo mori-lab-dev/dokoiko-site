@@ -18,7 +18,7 @@ const artBefore = (id) => { const f = `${B}/articles/${id}.json`; return fs.exis
 const dec = (s) => s.replace(/&#38;|&amp;/g, '&').replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n));
 const nz = (s) => dec(String(s)).replace(/\s+/g, '');
 // 数字の食い違いの修正（scripts/data/mergeConflictFixes20261118.json）: 元の文に、承認済みの修正（公式の値への置換・確認できない数字の削除）を当てた文を「期待する文」にする
-const FIX = fs.readdirSync('scripts/data').filter((f) => /^merge(Conflict|Fact)Fixes.*\.json$/.test(f)).sort().flatMap((f) => JSON.parse(fs.readFileSync(`scripts/data/${f}`, 'utf8')).fixes.flatMap((x) => x.edits));
+const FIX = fs.readdirSync('scripts/data').filter((f) => /^merge(Conflict|Fact)Fixes.*\.json$/.test(f)).sort().flatMap((f) => JSON.parse(fs.readFileSync(`scripts/data/${f}`, 'utf8')).fixes.flatMap((x) => x.edits)).filter((e) => !e.rule);   // 優先ページの修正（rule 付き・mergeFactFixes20261118d）は、統合ページの欄には当てない（old が短い文字列で、無関係な文にも当たるため）
 const fixed = (t) => { let x = String(t ?? ''); for (const e of FIX) if (x.includes(e.old)) x = x.split(e.old).join(e.new); return x; };
 const rows = []; let missing = 0, extra = 0;
 const strs = (o, out = []) => { if (typeof o === 'string') out.push(o); else if (Array.isArray(o)) o.forEach((x) => strs(x, out)); else if (o && typeof o === 'object') Object.values(o).forEach((x) => strs(x, out)); return out; };

@@ -1,0 +1,219 @@
+{
+ "id": "tateyama-kurobe",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "雪の大谷",
+   "出典URL": [
+    "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html",
+    "https://www.kurobe-dam.com/kankou/alpine_vehicle.html"
+   ],
+   "snapshot": "snapshots/tateyama-kurobe__g1.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 2,
+   "施設・場所": "室堂",
+   "出典URL": [
+    "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html"
+   ],
+   "snapshot": "snapshots/tateyama-kurobe__g2.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 3,
+   "施設・場所": "黒部ダム",
+   "出典URL": [
+    "https://www.alpen-route.com/about?sa=X",
+    "https://www.kurobe-dam.com/kankou/mirutanoshimu10.html",
+    "https://www.kurobe-dam.com/kankou/mirutanoshimu11.html"
+   ],
+   "snapshot": "snapshots/tateyama-kurobe__g3.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 4,
+   "施設・場所": "立山ロープウェイ",
+   "出典URL": [
+    "https://www.kurobe-dam.com/kankou/alpine_vehicle.html",
+    "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html"
+   ],
+   "snapshot": "snapshots/tateyama-kurobe__g4.txt",
+   "取得": "取得なし(検索の抜粋)"
+  },
+  {
+   "g": 5,
+   "施設・場所": "アルペンルート全体(運賃・所要時間・モデルコース)",
+   "出典URL": [
+    "https://www.alpen-route.com/access_new/fare/person/index.php",
+    "https://www.kurobe-dam.com/kankou/alpine_vehicle.html"
+   ],
+   "snapshot": "snapshots/tateyama-kurobe__g5.txt",
+   "取得": "取得なし(検索の抜粋)"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "高さ20メートルにも迫る巨大な雪の壁（積雪の深さが20mを超えることはあるが、雪の壁の高さは20mに迫る）",
+   "修正": {
+    "種類": "置換",
+    "old": "20mを超える",
+    "new": "20mにも迫る",
+    "値": [
+     "20メートルにも迫る"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 3,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 4,
+   "g": 5,
+   "判定": "確認できず",
+   "理由": "対象を特定できない"
+  },
+  {
+   "n": 5,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 6,
+   "g": 2,
+   "判定": "一致"
+  },
+  {
+   "n": 7,
+   "g": 2,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 8,
+   "g": 2,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 9,
+   "g": 2,
+   "判定": "一致"
+  },
+  {
+   "n": 10,
+   "g": 2,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 11,
+   "g": 3,
+   "判定": "一致"
+  },
+  {
+   "n": 12,
+   "g": 3,
+   "判定": "一致"
+  },
+  {
+   "n": 13,
+   "g": 3,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 14,
+   "g": 3,
+   "判定": "一致"
+  },
+  {
+   "n": 15,
+   "g": 3,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 16,
+   "g": 4,
+   "判定": "食い違い",
+   "公式の値": "大観峰と黒部平を7分で結ぶ（全長1,710メートル、標高差500メートル）",
+   "修正": {
+    "種類": "置換",
+    "old": "8分",
+    "new": "7分",
+    "値": [
+     "7分"
+    ]
+   }
+  },
+  {
+   "n": 17,
+   "g": 4,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 18,
+   "g": 4,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  },
+  {
+   "n": 19,
+   "g": 4,
+   "判定": "食い違い",
+   "公式の値": "定員 80名",
+   "修正": {
+    "種類": "置換",
+    "old": "61名",
+    "new": "80名",
+    "値": [
+     "80名"
+    ]
+   }
+  },
+  {
+   "n": 20,
+   "g": 5,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 21,
+   "g": 5,
+   "判定": "確認できず",
+   "理由": "体験談・行程案"
+  },
+  {
+   "n": 22,
+   "g": 2,
+   "判定": "一致"
+  },
+  {
+   "n": 23,
+   "g": 1,
+   "判定": "一致"
+  },
+  {
+   "n": 24,
+   "g": 3,
+   "判定": "一致"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}
