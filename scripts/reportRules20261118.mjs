@@ -1,0 +1,10 @@
+// R1・R2・R3 を適用した結果の、ページごとの本文字数の変化の集計（backup/rules_20261118f の変更前と、今のデータを比べる）（2026-11-18）
+import fs from 'fs';
+const B = 'backup/rules_20261118f'; const J = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
+const dB = J(`${B}/src__data__destinations.json`), dA = J('src/data/destinations.json'); const nameOf = new Map(dA.map((d) => [d.id, d.name]));
+const len = (d, a) => { let n = String(d.description || '').length; if (a) { const sc = (h) => (h.sections || []).reduce((t, s) => t + String(s.body || '').length + String(s.info || '').length, 0) + String(h.lead || '').length + String(typeof h.tips === 'string' ? h.tips : '').length + String(h.bestSeason || '').length + (h.modelCourse ? Object.values(h.modelCourse).join('').length : 0); n += a.groups ? a.groups.reduce((t, g) => t + sc(g), 0) : sc(a); } else n += (d.spots || []).reduce((t, s) => t + String(s.description || '').length, 0); return n; };
+const rows = []; const beforeMap = new Map(dB.map((d) => [d.id, d]));
+for (const d of dA) { const fb = `${B}/src__data__articles__${d.id}.json`; const fa = `src/data/articles/${d.id}.json`; const aB = fs.existsSync(fb) ? J(fb) : (fs.existsSync(fa) ? J(fa) : null); const aA = fs.existsSync(fa) ? J(fa) : null; const b = len(beforeMap.get(d.id), aB), a = len(d, aA); if (b !== a) rows.push({ id: d.id, 名前: d.name, 前: b, 後: a, 減: b - a, 率: +((b - a) / b * 100).toFixed(1) }); }
+rows.sort((x, y) => y.減 - x.減); const s = rows.map((r) => r.減).sort((x, y) => x - y); const q = (p) => s[Math.min(s.length - 1, Math.floor(s.length * p))];
+const out = { 変化のあるページ: rows.length, 減る字数: { 最小: s[0], p25: q(0.25), 中央値: q(0.5), p75: q(0.75), p90: q(0.9), p99: q(0.99), 最大: s[s.length - 1] }, 減る割合の最大: Math.max(...rows.map((r) => r.率)), 後が600字未満: rows.filter((r) => r.後 < 600).length, '前が600字以上で後が600字未満': rows.filter((r) => r.前 >= 600 && r.後 < 600).map((r) => r.id), '前が1000字以上で後が1000字未満': rows.filter((r) => r.前 >= 1000 && r.後 < 1000).map((r) => r.id), ページごと: rows };
+fs.writeFileSync('logs/rules_20261118/length_report.json', JSON.stringify(out, null, 1)); console.log(JSON.stringify({ ...out, ページごと: undefined }, null, 1));

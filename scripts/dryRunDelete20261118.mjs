@@ -11,11 +11,11 @@
  */
 import fs from 'fs';
 import { kindOf } from './lib/factRules20261118.mjs';
-const OUT = 'logs/dryrun_20261118'; fs.mkdirSync(OUT, { recursive: true });
+const argOut = process.argv.indexOf('--out'); const OUT = argOut > 0 ? process.argv[argOut + 1] : 'logs/dryrun_20261118'; fs.mkdirSync(OUT, { recursive: true });   // 本番の実行は --out logs/rules_20261118（ドライランの成果物を上書きしない）
 const J = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const dests = J('src/data/destinations.json'); const byId = new Map(dests.map((d) => [d.id, d]));
 const PRIORITY = new Set(J('logs/merge_20261118/pages.json').filter((p) => p.表示_累計 >= 3).map((p) => p.id));
-const KEEP = fs.existsSync(`${OUT}/verified_keep.json`) ? J(`${OUT}/verified_keep.json`) : [];
+const KEEP = fs.existsSync('logs/dryrun_20261118/verified_keep.json') ? J('logs/dryrun_20261118/verified_keep.json') : [];
 const keepSet = new Set(KEEP.map((k) => `${k.page}|${k.文}`));
 
 import { isExperience } from './lib/factRules20261118.mjs';
@@ -46,7 +46,7 @@ const splitField = (text, type) => {
   });
 };
 const SENT_FINAL = /[。！？!?）)」』]$/;
-const CONNECT = /^(ただし|また|なお|そのため|さらに|でも|しかし|ただ|それに|ちなみに|そして|それで|ほかに|他に|その分|それでも|だから)/;
+const CONNECT = /^(ただし|ただ|また|なお|そのため|さらに|でも|しかし|それでも|それで|それに|ちなみに|そして|ほかに|他に|その分|だから)/;
 const metrics = { 規則: { R1: {}, R2: {} } };
 const edits = []; let editsSkipped = 0; const changedLabels = [];
 const afterField = new Map(); // key -> {before, after}
@@ -65,7 +65,7 @@ function processR1(page, fobj) {
     const keepS = []; for (const s of sents) {
       const k = kindOf(s.trim()); totalUnits.all++;
       const where = { type: fobj.type };
-      const target = k && ['料金', '休館日', '営業時間'].includes(k) && !PRIORITY.has(page) && !isExperience(s.trim(), where) && !keepSet.has(`${page}|${s.trim()}`);
+      const target = k && ['料金', '休館日', '営業時間'].includes(k) && !PRIORITY.has(page) && !(fobj.group && PRIORITY.has(fobj.group)) && !isExperience(s.trim(), where) && !keepSet.has(`${page}|${s.trim()}`);
       if (target) { delItems.push({ s, k }); changed = true; } else keepS.push(s);
     }
     return { line, keep: keepS, all: sents };
@@ -90,6 +90,10 @@ function processR1(page, fobj) {
       for (const s of items) { const idx = cur.indexOf(s); if (idx < 0 || cur.indexOf(s, idx + 1) >= 0) { editsSkipped++; continue; } const k = kindOf(s.trim()); edits.push({ page, rule: 'R1', 種類: k, reason: `優先ページ以外の${k}の文を削除（確認済みのリストに無い・体験談/行程案でない）`, file: fobj.file, group: fobj.group, field: fobj.field, spot: fobj.spot, old: s, new: '', 削除した文: s.trim() }); cur = cur.replace(s, ''); }
     }
   }
+  // R3: 削除の結果、節の本文の先頭が接続語になったとき、先頭の接続語だけを削る（削除のみ）
+  if (fobj.type === 'body') { const t0 = cur.replace(/^\s+/, ''); const m = t0.match(/^(ただし|ただ|また|なお|そのため|さらに|でも|しかし|それでも|それで|それに|ちなみに|そして|ほかに|他に|その分|だから)[、，,]?/); if (m && !CONNECT.test(before.replace(/^\s+/, ''))) {
+    const lead = cur.length - t0.length; const old = cur.slice(0, lead + m[0].length + 8); const nw = cur.slice(0, lead) + cur.slice(lead + m[0].length, lead + m[0].length + 8);
+    if (cur.split(old).length - 1 === 1) { edits.push({ page, rule: 'R3', 種類: '接続語', reason: `削除の結果、節の本文の先頭が接続語「${m[0]}」になったので、先頭の接続語だけを削る`, file: fobj.file, group: fobj.group, field: fobj.field, old, new: nw, 削除した文: m[0] }); cur = cur.replace(old, nw); (pageSetByKind['R3|接続語'] ||= new Set()).add(page); } else editsSkipped++; } }
   fobj.set(cur);
   for (const d of delItems) addKind(page, d.k, 'R1');
   afterField.set(`${fobj.file}|${fobj.group || ''}|${fobj.field || fobj.spot}`, { page, label: fobj.label, before, after: cur, rule: 'R1', type: fobj.type });
@@ -99,8 +103,13 @@ function processR1(page, fobj) {
 const TIME_LEAD = /(^|→\s*|[：:】]\s*|\n\s*)((?:[0-9０-９]{1,2}:[0-9０-９]{2})|(?:[0-9０-９]{1,2}時(?:[0-9０-９]{1,2}分)?))(?:頃|ごろ)?\s*/g;
 function processR2(page, fobj) {
   const before = fobj.get(); if (typeof before !== 'string' || !before || fobj.type !== 'modelCourse') return;
-  const after = before.replace(TIME_LEAD, '$1'); if (after === before) return;
-  const n = (before.match(TIME_LEAD) || []).length;
+  if (PRIORITY.has(page) || (fobj.group && PRIORITY.has(fobj.group))) return;   // 優先ページ・優先ページの見出しは対象外（P3 で扱った）
+  // 外すと不自然になる時刻（時刻だけの行程・「発」「着」「台」などが先頭に残る行程）は、時刻を残す
+  const ODD_REST = /^(発|着|台|頃|ごろ|から|まで|の|に|を|で|は|が|と|も)/; let keptTimes = 0;
+  const after = before.replace(TIME_LEAD, (m, pre, tok, ...r) => { const off = r[r.length - 2]; const tail = before.slice(off + m.length); const nxt = tail.split(/→|\n/)[0].trim(); if (nxt === '' || ODD_REST.test(nxt)) { keptTimes++; return m; } return pre; });
+  metrics.R2時刻を残した = (metrics.R2時刻を残した || 0) + keptTimes;
+  if (after === before) return;
+  const n = (before.match(TIME_LEAD) || []).length - keptTimes;
   edits.push({ page, rule: 'R2', 種類: '時刻', reason: `モデルコースの行程の先頭の時刻を外す（${n}か所）。行程の順番とほかの文字は残す`, file: fobj.file, group: fobj.group, field: fobj.field, old: before, new: after, 削除した文: (before.match(TIME_LEAD) || []).map((x) => x.replace(/^(→|[：:】]|\n)\s*/, '').trim()).join(' / ') });
   (pageSetByKind['R2|時刻'] ||= new Set()).add(page); kindCount.削除文['R2|外した時刻の数'] = (kindCount.削除文['R2|外した時刻の数'] || 0) + n; kindCount.削除文['R2|時刻を外したモデルコース欄'] = (kindCount.削除文['R2|時刻を外したモデルコース欄'] || 0) + 1;
   fobj.set(after); afterField.set(`${fobj.file}|${fobj.group || ''}|${fobj.field}`, { page, label: fobj.label, before, after, rule: 'R2', type: 'modelCourse' });
@@ -162,7 +171,7 @@ const md = ['# 変更前後の並べた一覧（無作為30件・乱数 seed 202
 sample30.forEach((x, i) => { md.push(`## ${i + 1}. ${byId.get(x.page).name}（/destinations/${x.page}/）・${x.label}・規則 ${x.rule}`, '', '変更前:', '```', x.before, '```', '変更後:', '```', x.after === '' ? '（空）' : x.after, '```', ''); });
 fs.writeFileSync(`${OUT}/before_after_30.md`, md.join('\n'));
 // ---- 出力
-const wrapper = { note: 'ドライランの編集（mergeConflictFixes と同じ形式。適用はしない）', date: '2026-11-18', fixes: ['R1', 'R2'].map((r) => ({ id: r, topic: r === 'R1' ? '優先ページ以外の料金・休館日・営業時間の文の削除' : 'モデルコースの先頭の時刻を外す', result: 'ドライラン', sources: [], edits: edits.filter((e) => e.rule === r) })) };
+const wrapper = { note: process.argv.includes('--out') ? 'R1・R2・R3 の編集（mergeConflictFixes と同じ形式）' : 'ドライランの編集（mergeConflictFixes と同じ形式。適用はしない）', date: '2026-11-18', fixes: ['R1', 'R2', 'R3'].map((r) => ({ id: r, topic: r === 'R1' ? '優先ページ以外の料金・休館日・営業時間の文の削除' : r === 'R2' ? 'モデルコースの先頭の時刻を外す' : '削除の結果、先頭になった接続語を削る', result: process.argv.includes('--out') ? '実行' : 'ドライラン', sources: [], edits: edits.filter((e) => e.rule === r) })) };
 fs.writeFileSync(`${OUT}/edits.json`, JSON.stringify(wrapper));
 fs.writeFileSync(`${OUT}/metrics.json`, JSON.stringify(metrics, null, 1));
 console.log(JSON.stringify(metrics, null, 1));

@@ -18,8 +18,8 @@ const artBefore = (id) => { const f = `${B}/articles/${id}.json`; return fs.exis
 const dec = (s) => s.replace(/&#38;|&amp;/g, '&').replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n));
 const nz = (s) => dec(String(s)).replace(/\s+/g, '');
 // 数字の食い違いの修正（scripts/data/mergeConflictFixes20261118.json）: 元の文に、承認済みの修正（公式の値への置換・確認できない数字の削除）を当てた文を「期待する文」にする
-const FIX = fs.readdirSync('scripts/data').filter((f) => /^merge(Conflict|Fact)Fixes.*\.json$/.test(f)).sort().flatMap((f) => JSON.parse(fs.readFileSync(`scripts/data/${f}`, 'utf8')).fixes.flatMap((x) => x.edits)).filter((e) => !e.rule);   // 優先ページの修正（rule 付き・mergeFactFixes20261118d）は、統合ページの欄には当てない（old が短い文字列で、無関係な文にも当たるため）
-const fixed = (t) => { let x = String(t ?? ''); for (const e of FIX) if (x.includes(e.old)) x = x.split(e.old).join(e.new); return x; };
+const FIX = fs.readdirSync('scripts/data').filter((f) => /^merge(Conflict|Fact)Fixes.*\.json$/.test(f)).sort().flatMap((f) => JSON.parse(fs.readFileSync(`scripts/data/${f}`, 'utf8')).fixes.flatMap((x) => x.edits))   // rule 付きの編集（優先ページ・R1/R2/R3）: 統合ページの見出しの欄（group）は、その見出しの元のページの文にだけ当てる。見どころの説明（spot）は文の単位なので、そのまま当てる。group も spot も無い編集（優先ページの記事の欄）は当てない（old が短く、無関係な文にも当たるため）
+const fixed = (t, id) => { let x = String(t ?? ''); for (const e of FIX) { if (e.rule && !(e.group ? e.group === id : !!e.spot)) continue; if (x.includes(e.old)) x = x.split(e.old).join(e.new); } return x; };
 const rows = []; let missing = 0, extra = 0;
 const strs = (o, out = []) => { if (typeof o === 'string') out.push(o); else if (Array.isArray(o)) o.forEach((x) => strs(x, out)); else if (o && typeof o === 'object') Object.values(o).forEach((x) => strs(x, out)); return out; };
 
@@ -33,7 +33,7 @@ for (const rep of reps) {
   const rd = after.get(rep);
   const spotTexts = (rd.spots || []).map((s) => nz(s.description || ''));
   const check = (src, kind, text0, opts = {}) => {
-    if (!text0) return; const text = fixed(text0);
+    if (!text0) return; const text = fixed(text0, src);
     let where = find(text);
     if (!where && opts.spot) {   // 同じ場所を1つにまとめた spot: 文ごとに、統合後の spot の説明に含まれるか
       const ss = String(text).match(/[^。]+。?/g) || [text];
@@ -57,7 +57,7 @@ for (const rep of reps) {
   }
   // 増えていない: groups の文が元の文と一致するか
   const art = J(`src/data/articles/${rep}.json`);
-  const srcAll = all.flatMap((id) => { const d = before.get(id), a = artBefore(id); return [d.description, a?.lead, ...(a?.sections || []).flatMap((s) => [s.title, s.body, s.info, s.imageAlt]), ...(d.spots || []).flatMap((s) => [s.name, s.description]), a?.tips, a?.bestSeason, ...(a?.modelCourse ? Object.values(a.modelCourse) : [])].filter(Boolean).map((x) => nz(fixed(x))); });
+  const srcAll = all.flatMap((id) => { const d = before.get(id), a = artBefore(id); return [d.description, a?.lead, ...(a?.sections || []).flatMap((s) => [s.title, s.body, s.info, s.imageAlt]), ...(d.spots || []).flatMap((s) => [s.name, s.description]), a?.tips, a?.bestSeason, ...(a?.modelCourse ? Object.values(a.modelCourse) : [])].filter(Boolean).map((x) => nz(fixed(x, id))); });
   const srcSet = new Set(srcAll);
   const titles = new Set(Object.values(Object.fromEntries(art.groups.map((g) => [g.id, g.title]))));
   for (const g of art.groups) {

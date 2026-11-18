@@ -18,6 +18,10 @@ const bag = (t, re) => { const m = new Map(); const x0 = re === NOUN ? String(t)
 const subset = (a, b) => { for (const [k, n] of a) if ((b.get(k) || 0) < n) return k; return null; };
 const TIME_LEAD = /(^|→\s*|[：:】]\s*|\n\s*)((?:[0-9０-９]{1,2}:[0-9０-９]{2})|(?:[0-9０-９]{1,2}時(?:[0-9０-９]{1,2}分)?))(?:頃|ごろ)?\s*/g;
 const isSubseq = (small, big) => { let i = 0; for (const c of big) if (i < small.length && c === small[i]) i++; return i === small.length; };
+// 時刻外し（R2）の検査: new は、old の先頭の時刻（TIME_LEAD の時刻の部分）のいくつかを外しただけの文字列であること（外さず残した時刻があってよい）
+const TL = new RegExp(TIME_LEAD.source, 'g');
+function onlyTimesRemoved(old, nw) { let i = 0, j = 0; for (const m of old.matchAll(TL)) { const a = m.index + m[1].length, b = m.index + m[0].length; const seg = old.slice(i, a); if (nw.slice(j, j + seg.length) !== seg) return false; j += seg.length; i = a; const tok = old.slice(a, b); if (nw.startsWith(tok, j) && !(nw.slice(j + tok.length) === old.slice(b))) { /* 残した */ } if (nw.startsWith(tok, j)) { j += tok.length; } i = b; }
+  return nw.slice(j) === old.slice(i); }
 const fails = { '①数字': [], '②文': [], '③固有名詞': [], '④記録': [], '④old': [] }; let totalRemoved = 0, n = 0;
 const holderOf = (e) => { const data = load(e.file); if (e.spot) { const sp = data.find((x) => x.id === e.spot[0]).spots.find((s) => s.name === e.spot[1]); return [sp, 'description']; } const g = e.group ? data.groups.find((x) => x.id === e.group) : data; const ks = e.field.split('.'); const key = ks.pop(); return [ks.length ? ks.reduce((a, k) => a[k], g) : g, key]; };
 for (const e of edits) {
@@ -27,7 +31,8 @@ for (const e of edits) {
   const cnt = typeof cur === 'string' ? cur.split(e.old).length - 1 : 0; if (cnt !== 1) { fails['④old'].push(`${tag}（${cnt}回）`); continue; }
   const bad = subset(bag(e.new, NUM), bag(e.old, NUM)); if (bad) fails['①数字'].push(`${tag}（増えた: ${bad}）`);
   if (e.new === '') { const i = cur.indexOf(e.old); const before = i === 0 ? '' : cur[i - 1]; const after = cur[i + e.old.length]; const okStart = i === 0 || before === '\n' || before === '。' || e.old.startsWith('\n'); const okEnd = e.old.endsWith('。') || e.old.endsWith('\n') || i + e.old.length === cur.length || after === '\n'; if (!(okStart && okEnd)) fails['②文'].push(`${tag}（文・行の丸ごとでない）`); }
-  else { const exp = e.old.replace(TIME_LEAD, '$1'); if (e.rule !== 'R2' || exp !== e.new || !isSubseq(e.new, e.old)) fails['②文'].push(`${tag}（時刻外し以外の変更）`); }
+  else if (e.rule === 'R3') { const exp = e.old.replace(/^(\s*)(ただし|ただ|また|なお|そのため|さらに|でも|しかし|それでも|それで|それに|ちなみに|そして|ほかに|他に|その分|だから)[、，,]?/, '$1'); if (exp !== e.new || e.new === e.old) fails['②文'].push(`${tag}（先頭の接続語を削る以外の変更）`); }
+  else { if (e.rule !== 'R2' || !isSubseq(e.new, e.old) || !onlyTimesRemoved(e.old, e.new)) fails['②文'].push(`${tag}（時刻外し以外の変更）`); }
   const nb = subset(bag(e.new, NOUN), bag(e.old, NOUN)); if (nb) fails['③固有名詞'].push(`${tag}（増えた: ${nb}）`);
   h[key] = cur.replace(e.old, e.new); totalRemoved += e.old.length - e.new.length;
 }

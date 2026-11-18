@@ -1,0 +1,6229 @@
+{
+ "確認日": "2026-11-18",
+ "修正": [
+  {
+   "id": "P",
+   "題": "優先ページの事実の確認（2026-11-18）",
+   "結果": "公式で確認",
+   "出典": []
+  }
+ ],
+ "変更の前後": [
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.0.body",
+   "前": "直径約1.5km。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.0.body",
+   "前": "島の外周はわずか9km。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.0.info",
+   "前": "入山料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.1.body",
+   "前": "200円",
+   "後": "大人300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.1.body",
+   "前": "80〜90℃前後",
+   "後": "約60度",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.1.info",
+   "前": "200円",
+   "後": "大人300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.1.info",
+   "前": "10:00〜21:00頃（要確認）",
+   "後": "平日16時〜20時、土・日・祝日14時〜20時（入館は19時まで）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.1.info",
+   "前": "不定休",
+   "後": "毎週水曜日",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.2.body",
+   "前": "アルコール度数は25〜40度前後のものまで様々。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.2.body",
+   "前": "飲み比べは1セット1,000〜1,500円程度。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined sections.2.info",
+   "前": "価格：720ml 2,000〜3,500円程度（銘柄によって異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined tips",
+   "前": "ヘリは1日1便・9席。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/aogashima.json",
+   "対象": "undefined tips",
+   "前": "レンタカーは1台のみ（要予約）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot asuke/香嵐渓",
+   "前": "4000本以上",
+   "後": "約3,000本",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/awashima-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "1,980円",
+   "後": "2,840円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot awashima-island/粟島浦港",
+   "前": "1,980円",
+   "後": "2,840円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/awashima-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "\n1パック500円くらいだ。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/awashima-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "1,980円",
+   "後": "2,840円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/awashima-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/awashima-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "\nシャワー・更衣室あり（有料・200円程度）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/awashima-island.json",
+   "対象": "undefined sections.2.info",
+   "前": "レンタサイクル：島内数か所で貸出あり（1日1,000円前後）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.0.body",
+   "前": "「祈りの石段」と呼ばれる165段。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.0.body",
+   "前": "600円",
+   "後": "大人300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.0.info",
+   "前": "拝観料：600円（本堂・唐門・宝物館セット）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.0.info",
+   "前": "9:30〜16:00",
+   "後": "9:30〜16:30",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.1.info",
+   "前": "参拝料：宝厳寺との共通券に含む\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n営業時間：9:30〜16:00",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.2.body",
+   "前": "かわら投げ用の素焼きの皿が2枚で200円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.2.body",
+   "前": "鳥居は湖の上に建っていて、距離は10メートルくらい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chikubushima.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：2枚200円（境内の販売所で購入）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot chikubushima/かわら投げ",
+   "前": "素焼きの皿2枚200円に願いを書き、鳥居へ投げる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.0.body",
+   "前": "夏でも山頂付近は10℃を下回ることがある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.0.info",
+   "前": "登山口：鉾立登山口（標高1,150m）から往復約8〜9時間\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.0.info",
+   "前": "開山期間：7月上旬〜9月下旬ごろ（積雪状況による）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.1.info",
+   "前": "駐車場：あり（無料、10台程度）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.2.body",
+   "前": "日本海に沈む夕日を、標高1,150mから見る体験は、ここにしかない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.2.body",
+   "前": "ただし駐車場は17時ごろには閉まり始めるので注意が必要だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/chokai-san.json",
+   "対象": "undefined sections.2.info",
+   "前": "ビジターセンター開館：8:30〜17:00（夏季）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/eshima-miyagi.json",
+   "対象": "undefined sections.0.body",
+   "前": "9時台・12時台・15時台が目安になる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/eshima-miyagi.json",
+   "対象": "undefined sections.0.body",
+   "前": "料金は往復1,000円ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/eshima-miyagi.json",
+   "対象": "undefined sections.0.info",
+   "前": "運賃：往復約1,000円（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/eshima-miyagi.json",
+   "対象": "undefined sections.1.body",
+   "前": "11月〜3月が食べごろで、1盛り600円前後で買えた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/eshima-miyagi.json",
+   "対象": "undefined sections.1.info",
+   "前": "価格目安：1盛り600円前後（変動あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/eshima-miyagi.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "川沿いに点在する離れが12棟。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "全部で定員50名前後という、こぢんまりとした宿。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "25,000円前後",
+   "後": "15,550円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "25,000円〜",
+   "後": "15,550円〜",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "15:00 / チェックアウト：10:00",
+   "後": "13:00 / チェックアウト：11:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料（宿泊者は長靴・スノーシュー貸出あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "ひとつ350円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "300円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "海鮮丼1,500円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "9:00〜18:00",
+   "後": "9:00〜17:30（3月21日〜10月20日）／9:00〜17:00（10月21日〜3月20日）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "不定休",
+   "後": "年末年始（12月30日午後～1月3日）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "300円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "9:00〜17:00（冬期短縮あり）",
+   "後": "9:00～16:30",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "月曜・祝日翌日",
+   "後": "毎週月曜日、祝祭日、12月29日～1月5日",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_上の湯温泉.json",
+   "対象": "undefined tips",
+   "前": "マイナス10度を下回る日もある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "600円",
+   "後": "500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "朝10時から営業しているので、チェックアウト後にも立ち寄れる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "タオルのレンタルは200円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "600円／子ども300円",
+   "後": "500円／小学生150円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：10:00〜21:00（最終受付20:30）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n定休日：第2・第4火曜日",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "入場無料、駐車場も無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "駐車場：あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_伊達温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "\n駐車場：市営駐車場あり（一部無料）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_伊達温泉/噴火湾パノラマパーク",
+   "前": "標高150mの丘に広がる公園。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "泉質は硫黄泉と炭酸水素塩泉が混在していて、源泉温度は60度前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "料金は施設によって異なるが、500〜800円が目安。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "日帰り入浴：500〜800円（施設による）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：施設によって異なる（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "案内してくれるガイドツアーがあるらしく、1人5000円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "スノーシューガイドツアー：約5,000円〜（要事前予約）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "そこで売っている「きのこ汁」（300円）が地味においしかった。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：9:00〜17:00（季節により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "きのこ汁：300円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_北湯沢温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "\n定休日：不定休（冬期は要確認）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.0.body",
+   "前": "18.6km",
+   "後": "約28.1km",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.0.body",
+   "前": "階段を20段ほど上ると、視界が一気に開ける。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.1.body",
+   "前": "価格は1,800円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.1.info",
+   "前": "9:00〜18:00",
+   "後": "9:00〜17:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.1.info",
+   "前": "定休日：なし（冬期は短縮営業）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.2.body",
+   "前": "夏は20時近くまで明るい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.2.body",
+   "前": "秋分を過ぎると、17時台にはもう沈む。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天に続く道.json",
+   "対象": "undefined sections.2.info",
+   "前": "駐車場：あり（無料・10台程度）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_天に続く道/天に続く道",
+   "前": "18.6km",
+   "後": "約28.1km",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "大人600円",
+   "後": "大人500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "大人600円、子ども300円",
+   "後": "大人500円、子ども（小学生）250円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "11:00",
+   "後": "10:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "月曜日（祝日の場合は翌日）",
+   "後": "年中無休",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "約1,600人",
+   "後": "1,225人",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "日替わり定食が750円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "ここで発掘された魚竜の化石が展示されていて、入館料は無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：9:00〜17:00\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_天塩川温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：月曜日・年末年始\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "大人800円、10時〜22時営業。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：10:00〜22:00（最終受付21:30）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "不定休（要確認）",
+   "後": "無休（施設メンテナンスのため休館日あり）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "高さ数メートルの氷柱が、青や紫の光に照らされている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "それが10基以上、並んでいる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "入場料は無料",
+   "後": "協力金は中学生以上1,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "アイスバーもあって、グラス1杯500円前後で飲める。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料",
+   "後": "協力金：中学生以上1,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "ライトアップ時間：18:00〜21:00（期間中毎日）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "高さ100mを超える柱状節理の断崖。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "見学時間：自由（冬期は路面状況に注意）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_層雲峡温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "駐車場：あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_層雲峡温泉/層雲峡温泉スキー場",
+   "前": "黒岳の標高1984mまで滑走できる規模の大きなスキー場。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.0.info",
+   "前": "22時頃",
+   "後": "21:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.1.body",
+   "前": "日帰り入浴ができる施設もあって、料金は700円前後が多かった。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.1.info",
+   "前": "日帰り入浴：700円前後（施設により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.2.body",
+   "前": "入場料は大人200円（2023年から有料化）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：大人200円、中学生以下無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：8:00〜18:00（季節により変動、冬季ライトアップあり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_白ひげの滝.json",
+   "対象": "undefined sections.2.info",
+   "前": "500円",
+   "後": "1,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "夏でも気温は20℃を下回る日がある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料・自由散策\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "5,000人ほど",
+   "後": "4,068人",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "2,200円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "8:00〜17:00（季節により変動）",
+   "後": "9:00～17:00（4月～10月）、10:00～16:00（11月～3月）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：冬期は休業あり\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_相泊温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "ウニ丼：約2,200円〜（時価・夏季限定）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_相泊温泉/稚内公園アルコ24",
+   "前": "回転展望台から日本海と宗谷岬の雄大な景観を360度観賞できる丘陵公園。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.0.body",
+   "前": "入口で料金を払う。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.0.body",
+   "前": "700円",
+   "後": "1,200円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.0.body",
+   "前": "7万㎡",
+   "後": "約83,000㎡",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.0.info",
+   "前": "大人700円、小・中学生350円",
+   "後": "大人1,200円、小・中学生200円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：8:00〜18:00（4〜10月）、9:00〜16:00（11〜3月）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.1.body",
+   "前": "1958年",
+   "後": "昭和6年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.2.body",
+   "前": "マルセイバターサンドを1個から買える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.2.body",
+   "前": "120円ほどだ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_真鍋庭園.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：マルセイバターサンド 1個 約130円〜\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_真鍋庭園/真鍋庭園",
+   "前": "7万平方メートル",
+   "後": "約83,000平方メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n駐車場：あり（無料・数台分）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n駐車場：あり（無料）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.2.body",
+   "前": "700円",
+   "後": "900円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.2.body",
+   "前": "タオルは別売りで200円だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.2.body",
+   "前": "食堂も併設していて、石狩鍋定食が1,200円で食べられる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：大人700円、子ども350円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.2.info",
+   "前": "10:00〜22:00（最終受付21:30）",
+   "後": "10:00～24:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_石狩弁天社.json",
+   "対象": "undefined sections.2.info",
+   "前": "第2・第4火曜日",
+   "後": "無し",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.0.body",
+   "前": "灯台の高さは約13メートル。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.0.body",
+   "前": "周囲には民家も建物もほとんどない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.0.body",
+   "前": "早朝4時台に日の出を迎えるシーズンもある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：外観見学無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：見学自由\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.1.info",
+   "前": "営業時間：見学自由\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.1.body",
+   "前": "約17メートル",
+   "後": "約13メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n備考：四島のかけ橋・オーロラタワー（有料）も隣接",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.2.body",
+   "前": "双眼鏡は無料で使える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_納沙布岬.json",
+   "対象": "undefined sections.2.info",
+   "前": "不定休（要確認）",
+   "後": "毎週月曜日（５月１日～10月31日まで無休）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "日帰り入浴：施設により異なる（500〜800円程度）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n営業時間：施設により異なる",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "1,100円",
+   "後": "1,500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "700円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "1,100円",
+   "後": "1,500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "マイナス18度",
+   "後": "マイナス15度",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "770円",
+   "後": "990円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_網走湖畔温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "770円",
+   "後": "990円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_網走湖畔温泉/網走湖",
+   "前": "周囲約30kmの淡水湖。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "源泉は43〜44℃くらい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "日帰り入浴は600円〜800円（宿によって異なる）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "日帰り入浴：600〜800円（施設による）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：10:00〜21:00（施設による）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "600円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "\n200gで500円くらいだ。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：9:00〜17:00頃（冬季短縮あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：不定休（冬季は要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_雷電温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "\n料金：タコから揚げ600円〜",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "タオルは200円で買える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "10:00〜21:00",
+   "後": "11:00〜21:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "定休日：毎週火曜日\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "\nタオル：200円（販売）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "街の中心部は、コンビニが1軒とスーパーが1軒。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "1個350円のカマンベールを買って、車の中で食べた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "営業時間：9:00〜18:00（冬季短縮あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "定休日：年末年始\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "\nブナ林遊歩道：無料・冬季は装備が必要",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "1泊2食付き：約8,000円〜\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "チェックイン：15:00 / チェックアウト：10:00\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_北海_黒松内温泉.json",
+   "対象": "undefined tips",
+   "前": "温泉は火曜定休なので要注意。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_北海_黒松内温泉/ブナ林遊歩道",
+   "前": "国内有数のブナ天然林を巡る約2キロのコース。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "高さは最大で約1.5メートル。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "見学時間：随時（夜間は足元注意）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "駐車場：湖畔に数台分あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "1泊2食付きで約15,000円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "川沿いに作られた露天は、男女別が夜9時に入れ替わる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：1泊2食 約15,000円〜（時期により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "日帰り入浴：1,000円前後（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_栃木_川俣温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：日帰りは10:00〜15:00ごろ（施設により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_栃木_川俣温泉/川俣大滝",
+   "前": "川俣川最大の落差を誇る滝。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "料金は施設によって異なるが、\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "800〜1,500円",
+   "後": "700〜2,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "800〜1,500円",
+   "後": "700〜2,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "10:00〜15:00",
+   "後": "11:00~16:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "万座温泉スキー場は標高2000メートル超。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "1月の最低気温はマイナス15度を下回る日も珍しくない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "約5,500円",
+   "後": "6,300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "720円",
+   "後": "1,070円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_万座温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "720円",
+   "後": "1,070円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_群馬_万座温泉/万座ハイウェイオアシス",
+   "前": "標高1300mの高所施設。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_群馬_万座温泉/万座温泉スキー場",
+   "前": "標高1800m付近を滑る広大なゲレンデ。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "築100年以上というのも、見た瞬間にわかる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "温度は約38度。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "日帰り入浴は午前10時から午後3時まで。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "料金は700円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "日帰り入浴：700円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：10:00〜15:00（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "ざる蕎麦、850円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "席は10席ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "ランチは午前11時半から始まり、蕎麦がなくなったら終わり。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "午後1時には売り切れている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "価格目安：800〜1,000円前後\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：11:30〜売り切れ次第終了（店舗により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川中温泉.json",
+   "対象": "undefined tips",
+   "前": "宿泊は1軒か2軒しかないため、繁忙期は数ヶ月前から予約を。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_群馬_川中温泉/川中温泉 熊野皮膚科医クリニック跡",
+   "前": "白壁と黒い桁の和洋混交の建築を眺め、木製建具越しに林を望む湯浴みができる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "4〜5人入ればいっぱいになるような浴槽。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "お湯はやや白濁した硫黄泉で、少しぬるめの42度前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "8:00〜20:00",
+   "後": "10:00～18:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.0.body",
+   "前": "火曜",
+   "後": "毎月第3木曜日",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "8:00〜20:00",
+   "後": "10:00～18:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.0.info",
+   "前": "火曜日",
+   "後": "毎月第3木曜日",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.1.body",
+   "前": "移転から10年。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n駐車場：駅前に無料駐車場あり",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "2019年",
+   "後": "2020年3月",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.2.body",
+   "前": "駐車場も無料で10台ほど止められる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：見学自由\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined tips",
+   "前": "電車の場合、1〜2時間に1本しかない時間帯もある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_群馬_川原湯温泉.json",
+   "対象": "undefined tips",
+   "前": "火曜",
+   "後": "毎月第3木曜日",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_群馬_川原湯温泉/八ッ場ダム",
+   "前": "2019年",
+   "後": "2020年3月",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_群馬_川原湯温泉/八ッ場ダム",
+   "前": "放流口の水音を聞き、ダム湖と旧集落跡の標高差が生む眺望を楽しめる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.0.body",
+   "前": "1300年以上、この地に立ち続けてきた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.0.body",
+   "前": "境内に入ると、まず目を引くのが樹齢600年を超えるご神木の杉。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.0.info",
+   "前": "参拝時間：境内自由（社務所は9:00〜17:00頃）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：参拝無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n駐車場：あり（無料・大型バス対応可）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.1.body",
+   "前": "樹齢600年以上とされるご神木だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.1.info",
+   "前": "樹齢：600年以上と伝わる\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.2.body",
+   "前": "1本150円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.2.info",
+   "前": "18:00",
+   "後": "19:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined sections.2.info",
+   "前": "・門前売店：夢むすびだんご150円〜（営業日・時間は要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_大杉神社.json",
+   "対象": "undefined tips",
+   "前": "佐原駅か潮来駅からタクシーが現実的（片道2000〜2500円ほど）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.0.info",
+   "前": "拝観料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.0.info",
+   "前": "参拝時間：自由（社務所は9:00〜17:00）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.1.body",
+   "前": "それを完成させたのは、光圀が亡くなってから200年以上後の話だという。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.1.info",
+   "前": "小中学生150円",
+   "後": "小中学生100円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.1.info",
+   "前": "開館時間：9:00〜16:30（最終入館16:00）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.1.info",
+   "前": "月曜（祝日の場合は翌日）",
+   "後": "閑散期木曜日休館あり",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.2.body",
+   "前": "偕楽園の入園料は300円（梅まつり期間中は有料）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_常磐神社.json",
+   "対象": "undefined sections.2.info",
+   "前": "大人300円",
+   "後": "大人500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸八幡宮.json",
+   "対象": "undefined sections.0.info",
+   "前": "参拝時間：自由（社務所は9:00〜17:00ごろ）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸八幡宮.json",
+   "対象": "undefined sections.1.body",
+   "前": "樹齢数百年の木が、手つかずのまま残っている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸八幡宮.json",
+   "対象": "undefined sections.2.body",
+   "前": "距離にして約180m。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸八幡宮.json",
+   "対象": "undefined sections.2.body",
+   "前": "観覧は無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸八幡宮.json",
+   "対象": "undefined sections.2.info",
+   "前": "観覧料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸八幡宮.json",
+   "対象": "undefined tips",
+   "前": "駐車場は境内そばに無料で数台分ある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_茨城_水戸八幡宮/泉町薬師堂",
+   "前": "江戸時代に建立された薬師堂で、木製の仏像が安置されている。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_茨城_水戸八幡宮/弘道館",
+   "前": "嘉永2年開設の水戸藩の藩校。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.0.body",
+   "前": "段数は28段。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.0.body",
+   "前": "1878年",
+   "後": "1962年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.0.info",
+   "前": "自由（社務所は9:00〜16:00頃）",
+   "後": "6:00〜17:00（受付は8:30〜17:00）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.1.body",
+   "前": "樹齢400年以上とされる御神木だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.1.info",
+   "前": "樹齢：推定400年以上\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.1.info",
+   "前": "見学：無料・自由\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.2.body",
+   "前": "距離にして約1.2km、15〜20分ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.2.body",
+   "前": "300円",
+   "後": "320円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/gen_茨城_水戸東照宮.json",
+   "対象": "undefined sections.2.info",
+   "前": "大人300円",
+   "後": "大人320円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot gen_茨城_水戸東照宮/水戸東照宮",
+   "前": "28段の石段の先に佇む、徳川家康を祀る社。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ginzan-onsen.json",
+   "対象": "undefined sections.0.body",
+   "前": "15時",
+   "後": "14:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ginzan-onsen.json",
+   "対象": "undefined sections.0.body",
+   "前": "貸し切り風呂が3つあって、空いていれば無料で使える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ginzan-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：1泊2食付き 約25,000円〜（時期により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ginzan-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "15:00　チェックアウト：10:00",
+   "後": "14:00　チェックアウト：10:30",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ginzan-onsen.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ginzan-onsen.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hijori-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "約1,000円",
+   "後": "600円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hijori-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "300〜500円程度",
+   "後": "300〜600円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hijori-onsen.json",
+   "対象": "undefined sections.1.body",
+   "前": "朝市は毎朝6時〜7時半ごろ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hijori-onsen.json",
+   "対象": "undefined sections.1.info",
+   "前": "開催時間：6:00〜7:30頃（目安）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hijori-onsen.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料（商品購入は各自）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hijori-onsen.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.0.body",
+   "前": "料金は1日500円が相場。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.0.info",
+   "前": "アクセス：姫島港からレンタサイクル（1日500円〜）で巡回\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.1.body",
+   "前": "680円",
+   "後": "580円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.1.info",
+   "前": "680円（片道）／往復1,360円",
+   "後": "580円（片道）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.2.info",
+   "前": "入浴料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/himeshima.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：干潮時のみ入浴可（潮位表要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot himeshima/姫島港",
+   "前": "680円",
+   "後": "580円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.1.body",
+   "前": "明治4年まで実際に使われていた建物が、今も残っている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.1.info",
+   "前": "16:30",
+   "後": "16:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.2.body",
+   "前": "料金は1日500円だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.2.body",
+   "前": "17:55",
+   "後": "17:50",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined sections.2.info",
+   "前": "\nレンタサイクル：港近くで1日500円〜",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/honjima.json",
+   "対象": "undefined modelCourse.daytrip",
+   "前": "丸亀港8:30発フェリー→本島港着→レンタサイクル→笠島集落散策→塩飽勤番所→泊海水浴場→17:55発フェリーで帰路",
+   "後": "丸亀港8:30発フェリー→本島港着→レンタサイクル→笠島集落散策→塩飽勤番所→泊海水浴場→発フェリーで帰路",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hyuga.json",
+   "対象": "undefined sections.0.body",
+   "前": "高さ70メートルの柱状節理の断崖。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hyuga.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hyuga.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/hyuga.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot hyuga/馬ヶ背",
+   "前": "木々を抜けると急に視界が開け、高さ70mの柱状節理の断崖が眼前に迫る。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.0.body",
+   "前": "100gあたり400円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：見学無料（購入は別途）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.1.info",
+   "前": "営業時間：見学自由\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "石段は全部で50段ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "樹齢は数百年と言われているらしい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ibukijima.json",
+   "対象": "undefined modelCourse.daytrip",
+   "前": "8:30観音寺港発→9:00伊吹島着→いりこ工場見学→昼食（島内食堂）→伊吹八幡神社→灯台→15:30発のフェリーで帰港",
+   "後": "観音寺港発→9:00伊吹島着→いりこ工場見学→昼食（島内食堂）→伊吹八幡神社→灯台→15:30発のフェリーで帰港",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot ikeshima/炭鉱跡",
+   "前": "コンクリート坑口から漂う湿った鉱物の匂いが、1989年閉鎖まで島の生命線だった採掘の激しさを語る。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot ikitsukijima/塩俵の断崖",
+   "前": "180メートル",
+   "後": "約20メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikoma-kogen.json",
+   "対象": "undefined sections.0.body",
+   "前": "大人500円",
+   "後": "中学生以上700円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikoma-kogen.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：大人500円、子ども200円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikoma-kogen.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：大人500円、子ども200円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikoma-kogen.json",
+   "対象": "undefined sections.0.info",
+   "前": "8:30",
+   "後": "9:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikoma-kogen.json",
+   "対象": "undefined sections.1.info",
+   "前": "8:30",
+   "後": "9:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikoma-kogen.json",
+   "対象": "undefined tips",
+   "前": "標高700m",
+   "後": "標高540m",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.0.body",
+   "前": "1,400円",
+   "後": "1,800円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.0.body",
+   "前": "京都・奈良・日光の建築を\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.0.info",
+   "前": "大人1,400円",
+   "後": "大人1,800円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.1.info",
+   "前": "大人1,400円",
+   "後": "大人1,800円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "料金は1日2,000円。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "袋入りのレモンが200円だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "約25km",
+   "後": "約23㎞",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：Eバイク1日2,000円前後（店舗により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ikuchijima.json",
+   "対象": "undefined sections.2.info",
+   "前": "推奨コース：瀬戸田港→島一周→耕三寺（約25km）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot ikuchijima/耕三寺",
+   "前": "1,400円",
+   "後": "1,800円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "ビーチの幅は約600m。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "パラソルのレンタルは1本500円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料（パラソルレンタル500円〜）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "駐車場：あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.1.body",
+   "前": "ダイビングのポイントとしても人気で、近くのショップでは1ダイブ8,000円〜というプランがあった。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.2.body",
+   "前": "73m",
+   "後": "89m",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.2.body",
+   "前": "そこに広がるのは、360度の海だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/irabu-island.json",
+   "対象": "undefined sections.2.body",
+   "前": "入場料もなければ、売店もない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot irabu-island/佐和田の浜",
+   "前": "1741年",
+   "後": "1771年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot irabu-island/三角点",
+   "前": "宮古ブルーの海が360度広がり、晴れれば宮古島や池間島の輪郭まで見渡せる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/isawa-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：常時開放（深夜は街灯のみ）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/isawa-onsen.json",
+   "対象": "undefined sections.2.info",
+   "前": "試飲料金：500円〜1500円程度\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/isawa-onsen.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：10:00〜17:00（施設により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/isawa-onsen.json",
+   "対象": "undefined tips",
+   "前": "1日500円ほど",
+   "後": "無料（保証金1,000円は返却時に返金）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot iwami-kagura/益田",
+   "前": "石見に息づく360年の伝統。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.0.body",
+   "前": "20円",
+   "後": "50円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.0.info",
+   "前": "別途20円",
+   "後": "別途50円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.0.info",
+   "前": "定休日：なし\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.1.info",
+   "前": "定休日：なし\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：なし\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.1.info",
+   "前": "拝観時間：8:00〜17:00（10〜2月は16:30まで）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.2.body",
+   "前": "本宮まで続く石段は61段。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kamakura.json",
+   "対象": "undefined sections.2.info",
+   "前": "拝観料：無料（一部施設有料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot kanazawa/兼六園",
+   "前": "400年の",
+   "後": "延宝4年（1676年）から続く",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.0.body",
+   "前": "水深3〜4メートルの海底が、くっきりと見える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.0.body",
+   "前": "透明度は常時20〜30メートル以上。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.0.body",
+   "前": "条件がいい日は40メートルを超えるという。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.0.body",
+   "前": "海水の色は、深さによって変わる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n※シュノーケル・マスクのレンタルは島内ショップで可（1,000〜1,500円）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.body",
+   "前": "柏島のダイビングスポットは、島の周囲に10か所以上ある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.body",
+   "前": "生息確認種は1000種以上とされている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.body",
+   "前": "体験ダイビングは1ダイブ約8,000〜12,000円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.body",
+   "前": "Cカード取得者なら、1日2ダイブで1万5千円前後のショップが多い。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.info",
+   "前": "体験ダイビング：8,000〜12,000円（1ダイブ）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.info",
+   "前": "ファンダイブ：15,000円前後（2ダイブ）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.1.info",
+   "前": "営業：各ダイビングショップにより異なる（要予約）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.2.body",
+   "前": "日没は19時ごろ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.2.body",
+   "前": "島の人口は約400人。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.2.body",
+   "前": "コンビニは1軒もない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.2.info",
+   "前": "素泊まり民宿：4,000〜6,000円/泊（目安）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/kashiwajima.json",
+   "対象": "undefined sections.2.info",
+   "前": "食事付き宿泊：7,000〜10,000円前後\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot kashiwajima/柏島海岸",
+   "前": "桟橋から覗くと水深3〜4メートルの海底がくっきり。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot kashiwajima/ダイビングスポット群",
+   "前": "島を囲む10か所以上のポイント。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.0.body",
+   "前": "テイスティングは有料で、1杯400円前後から。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.0.body",
+   "前": "入場は無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.0.info",
+   "前": "テイスティング：400円〜\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.1.body",
+   "前": "食べ放題のプランで40〜60分、1,500円前後が相場だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.1.body",
+   "前": "種類によって料金が変わる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：1,200円〜2,500円程度（食べ放題・農園により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined sections.2.info",
+   "前": "駐車場：あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/katsunuma.json",
+   "対象": "undefined tips",
+   "前": "レンタサイクルが駅前にあり、1日1,500円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.0.body",
+   "前": "1,200円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.0.info",
+   "前": "水揚げ見学：早朝5時〜6時頃（時期により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n食堂営業：11時〜14時頃（店舗による）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n営業時間：特になし（日の出〜日没が安全）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.2.body",
+   "前": "1910年創業、明治時代の蔵がそのまま残っている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.2.body",
+   "前": "工場でしか買えない原酒が1杯200円で出てくる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/makurazaki.json",
+   "対象": "undefined sections.2.info",
+   "前": "17:00",
+   "後": "16:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.0.body",
+   "前": "700円",
+   "後": "600円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.0.body",
+   "前": "洞窟の全長は400メートルほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.0.body",
+   "前": "夏でも15度前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.0.info",
+   "前": "大人700円・小人350円",
+   "後": "大人600円・小人300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.0.info",
+   "前": "8:30〜17:00（最終入場16:30）",
+   "後": "8:35〜16:55（最終入場16:40）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.0.info",
+   "前": "休業：荒天時\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.1.body",
+   "前": "1996年のNHK大河ドラマのロケ地として建てられたものが残っている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.1.body",
+   "前": "像の高さは約2メートル。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.1.body",
+   "前": "数は7体。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.1.info",
+   "前": "見学時間：自由\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "シャワーもある（有料・200円程度）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.2.body",
+   "前": "水温は夏場で28度前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/megijima.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：入場無料（シャワー有料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot megijima/鬼ヶ島大洞窟",
+   "前": "700円",
+   "後": "600円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.0.body",
+   "前": "高さは20mを超えるものもある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.1.body",
+   "前": "標高は約500m。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.1.body",
+   "前": "700円",
+   "後": "850円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.1.info",
+   "前": "大人700円、子ども350円",
+   "後": "大人850円、子ども450円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.1.info",
+   "前": "定休日：火曜日（祝日の場合は翌日）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n駐車場：無料（約400台）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined sections.2.info",
+   "前": "無料（数台分）",
+   "後": "専用駐車場はございません",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/metasequoia.json",
+   "対象": "undefined tips",
+   "前": "駐車場は無料だが台数が少ない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot metasequoia/メタセコイア並木",
+   "前": "国道303号",
+   "後": "県道小荒路牧野沢線",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot metasequoia/メタセコイア並木",
+   "前": "高さ20mを超える巨木の回廊を歩ける。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot metasequoia/マキノ高原",
+   "前": "並木の先に広がる標高約500mの高原。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mihara.json",
+   "対象": "undefined sections.1.body",
+   "前": "標高900メートルの山の上に、聖湖はある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mihara.json",
+   "対象": "undefined sections.1.body",
+   "前": "一周約6キロのハイキングコースがある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mihara.json",
+   "対象": "undefined sections.2.body",
+   "前": "料金は時期と品種によって変わるが、おとな1人1,500円前後が目安。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mihara.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：1,500円前後（時期・品種により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mihara.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：不定休\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.0.body",
+   "前": "竹芝桟橋を夜11時に出て、朝7時過ぎに着く。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.0.body",
+   "前": "欠航率は伊豆諸島でも屈指の高さで、30〜40%という年もある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.0.info",
+   "前": "運賃：2等寝台 約6,000円〜\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.1.body",
+   "前": "ツアーは朝7時スタート。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.1.body",
+   "前": "料金は1人8,000〜10,000円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：8,000〜10,000円程度（ツアー会社による）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.2.body",
+   "前": "4,000〜6,000円",
+   "後": "5,000円〜",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.2.body",
+   "前": "標高は最高点で851m。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mikurajima.json",
+   "対象": "undefined sections.2.info",
+   "前": "半日 4,000〜6,000円",
+   "後": "半日 5,000円〜",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.0.body",
+   "前": "夕方16時以降は駐車場が閉まる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.0.body",
+   "前": "入場料は無料になったが、駐車場代300円がかかる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.0.info",
+   "前": "300円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.0.info",
+   "前": "8:00〜16:00（駐車場閉門時間）",
+   "後": "午前8時～日没",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.1.body",
+   "前": "湯温は42度くらい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.1.body",
+   "前": "200円",
+   "後": "330円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.1.info",
+   "前": "200円",
+   "後": "330円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.1.info",
+   "前": "7:00〜21:00",
+   "後": "7:00～22:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.1.info",
+   "前": "不定休（要確認）",
+   "後": "毎月第2月曜日（月曜日が祝祭日の場合は翌日）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.2.body",
+   "前": "錦江湾を挟んで、距離にして約30キロ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.2.info",
+   "前": "駐車場：海岸沿いに数カ所あり（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined sections.2.info",
+   "前": "\nベストタイム：夕方16〜17時ごろ",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/minamiosumi.json",
+   "対象": "undefined tips",
+   "前": "ガソリンスタンドは根占に1軒。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.0.body",
+   "前": "島唯一のレンタサイクルは1日800円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料（見学自由）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.0.info",
+   "前": "※レンタサイクル：本村港近くで貸し出し、1日800円程度\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.1.body",
+   "前": "7時台",
+   "後": "9：10",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.1.info",
+   "前": "2,420円程度",
+   "後": "1,970円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.2.body",
+   "前": "高さ1〜2メートルほどの石積みが丸く連なっている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mishima-yamaguchi.json",
+   "対象": "undefined sections.2.info",
+   "前": "見学時間：自由（日中推奨）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.0.body",
+   "前": "797年",
+   "後": "802年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.0.body",
+   "前": "1200年前、ここに兵士たちがいた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.0.body",
+   "前": "南門は高さ約10メートル。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.0.body",
+   "前": "駐車場は無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.1.body",
+   "前": "大人200円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.1.info",
+   "前": "大人200円、小中学生50円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.1.info",
+   "前": "12月〜3月は冬季休館あり",
+   "後": "年末年始（12/29～1/3）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.2.body",
+   "前": "値段は約7,000円だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：11:00〜14:00（L.O.13:30）、17:00〜21:00（L.O.20:00）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：火曜日\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/mizusawa.json",
+   "対象": "undefined sections.2.info",
+   "前": "サーロインステーキ：6,500円〜（200g）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot mizusawa/胆沢城跡",
+   "前": "797年",
+   "後": "802年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot moroyama-saito/高麗神社",
+   "前": "樹齢800年超の楠の光が参道を照らし、春は桜が社殿を淡紅に包む。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.0.body",
+   "前": "高さ約20メートルで内部も見学できる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.0.body",
+   "前": "たった200円で、この眺めが買える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.0.info",
+   "前": "200円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.0.info",
+   "前": "9:00〜16:00（要確認）",
+   "後": "見学自由（外観のみ）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.1.body",
+   "前": "駐車スペースは3台ほど。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.1.info",
+   "前": "見学時間：自由（日中推奨）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.2.body",
+   "前": "標高約150メートル。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.2.body",
+   "前": "300円",
+   "後": "500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.2.info",
+   "前": "拝観料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.2.info",
+   "前": "300円",
+   "後": "500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined sections.2.info",
+   "前": "開門時間：7:00〜17:00\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/muroto-cape.json",
+   "対象": "undefined tips",
+   "前": "灯台見学は16時終了なので時間に注意。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot naguri/名栗湖",
+   "前": "周囲を歩く道が整い、湖面に山が映る夕暮れの眺めがいい場所。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot nakasendo-tsumago/妻籠宿本陣",
+   "前": "太い梁の天井から土間の匂いまで、当時の等級制度がそのまま建築に刻まれ、階級で分けられた空間の重さが伝わる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot nakasendo-tsumago/和智埜神社",
+   "前": "妻籠宿の奥に位置する古社で、樹齢数百年の杉に囲まれた参道の石段が続く。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.0.body",
+   "前": "約91度",
+   "後": "約80度",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.0.body",
+   "前": "1泊2万円台から、5万円を超える高級旅館まで。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.0.info",
+   "前": "24時間開放",
+   "後": "午前7時～午後7時",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n宿泊料金目安：1泊1名 15,000円〜（食事別）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.1.body",
+   "前": "ブリの切り身が1切れ200円台。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.1.body",
+   "前": "アジの干物が1枚150円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.1.body",
+   "前": "海鮮丼が1,500円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.1.body",
+   "前": "値段は500円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.1.info",
+   "前": "9:00〜18:00",
+   "後": "9:00〜17:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined sections.1.info",
+   "前": "第2・第4水曜日（祝日除く）",
+   "後": "毎週火曜日(祝日の場合は営業)",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nanao.json",
+   "対象": "undefined tips",
+   "前": "1時間に1本程度と思っておくべきだ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_和歌山_1/湯浅醤油資料館",
+   "前": "400年の歴史を学べ、試食コーナーも充実している。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_大阪_1/白滝",
+   "前": "落差15mの滝で、苔むした岩場と清流が景観を形成する。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_奈良_1/黒滝",
+   "前": "吉野川支流にかかる高さ40mの滝。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_岐阜_7/春日集落の茅葺き民家群",
+   "前": "江戸時代から続く茅葺き建築が数棟現存。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_神奈川_4/大磯松並木通り",
+   "前": "江戸期から連なる約1.5kmの松並木。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_福島_1/只見川渓谷遊歩道",
+   "前": "只見川沿い1.5kmの遊歩道で、透明度の高い清流と急峻な岸壁の対比を四季を通じて楽しめる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_福島_4/相馬焼工房",
+   "前": "相馬焼は400年の伝統工芸。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot niche_鹿児島_2/関之尾滝",
+   "前": "高さ40メートル",
+   "後": "落差18メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.0.body",
+   "前": "約1.5km",
+   "後": "約1.4km",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.0.body",
+   "前": "駐車場は無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.1.body",
+   "前": "全長約1m",
+   "後": "全長5.2ｍ",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.1.body",
+   "前": "660円",
+   "後": "800円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.1.info",
+   "前": "660円、小・中学生330円",
+   "後": "800円、小・中学生400円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined sections.1.info",
+   "前": "火曜日",
+   "後": "水曜日",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/nima.json",
+   "対象": "undefined tips",
+   "前": "火曜",
+   "後": "水曜",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined sections.0.body",
+   "前": "午前10時〜11時ごろ",
+   "後": "正午前後",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined sections.0.body",
+   "前": "深さは場所によって2〜3メートルほどあるが、澄みすぎていて浅く見える。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：あり（無料・10台程度）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined sections.2.body",
+   "前": "片道約1.5キロ",
+   "後": "約1.3キロ",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined sections.2.body",
+   "前": "700円",
+   "後": "850円〜950円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined sections.2.info",
+   "前": "700円",
+   "後": "850円〜950円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined tips",
+   "前": "午前10〜11時",
+   "後": "正午前後",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/niyodogawa.json",
+   "対象": "undefined tips",
+   "前": "駐車場は10台程度で、週末は満車になる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/notsuke-hanto.json",
+   "対象": "undefined sections.0.info",
+   "前": "500円",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/notsuke-hanto.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：通年訪問可（冬季は道路閉鎖の場合あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/notsuke-hanto.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/notsuke-hanto.json",
+   "対象": "undefined sections.1.info",
+   "前": "営業時間：通年（冬季は道路閉鎖の場合あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/notsuke-hanto.json",
+   "対象": "undefined sections.2.body",
+   "前": "料金は大人5,500円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/notsuke-hanto.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：見学無料 / 氷平線ウォーク：大人5,500円〜（冬季限定・要予約）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot obama-fukui/若狭おばま食文化館",
+   "前": "港町の食文化を現代建築で表現した館。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot obama-fukui/蘇洞門",
+   "前": "約2キロ",
+   "後": "約6km",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "築100年超の古民家をそのまま宿にしている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "1泊2食付きで15,000円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "宿泊者は多くて3組まで。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：1泊2食付き 15,000円〜（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.1.body",
+   "前": "水温は8月で28度前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.2.body",
+   "前": "1回3,000円前後が目安で、港で漁師さんに声をかけると相談に乗ってもらえた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined sections.2.info",
+   "前": "渡船料金：3,000円前後（目安／要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ojika-island.json",
+   "対象": "undefined tips",
+   "前": "500〜800円",
+   "後": "1,500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot okinoerabu/昇竜洞",
+   "前": "気温15度前後に保たれた地下洞窟で、白亜色に輝く鍾乳石と滴水音を体感できる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/osorezan.json",
+   "対象": "undefined sections.0.body",
+   "前": "500円",
+   "後": "900円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/osorezan.json",
+   "対象": "undefined sections.0.info",
+   "前": "500円",
+   "後": "900円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/osorezan.json",
+   "対象": "undefined sections.1.info",
+   "前": "湖の周囲：約10km\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/osorezan.json",
+   "対象": "undefined sections.2.body",
+   "前": "直径約20kmの火山性盆地の中に、すべてがある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/osorezan.json",
+   "対象": "undefined sections.2.info",
+   "前": "500円",
+   "後": "900円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.0.body",
+   "前": "マグロの漬け丼が850円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.0.info",
+   "前": "魚市場食堂の営業：6:30〜14:00ごろ（不定休）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n駐車場：港周辺に無料あり",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.1.body",
+   "前": "樹齢100年を超えるものも多い。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.1.info",
+   "前": "入山料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.2.body",
+   "前": "200人を切っている",
+   "後": "333人",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/owase.json",
+   "対象": "undefined sections.2.body",
+   "前": "1本500円だ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot ryujin-suspension/竜神大吊橋",
+   "前": "375メートル",
+   "後": "100メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot ryujin-suspension/袋田の滝",
+   "前": "幅120メートル",
+   "後": "幅73メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.0.body",
+   "前": "580円",
+   "後": "1,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.0.body",
+   "前": "800円",
+   "後": "1,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.0.info",
+   "前": "1,160円",
+   "後": "2,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.0.info",
+   "前": "800円〜",
+   "後": "1,000円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.1.body",
+   "前": "無料でまわれるものがほとんど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料（一部施設を除く）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.2.body",
+   "前": "数えたら、たぶん50段くらい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sakushima.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.0.body",
+   "前": "対岸まで約20km。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：湖畔各所に無料駐車場あり\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.1.body",
+   "前": "約3ヘクタール",
+   "後": "約4ヘクタール",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.1.info",
+   "前": "駐車場：無料（普通車・バス対応）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.2.body",
+   "前": "1時間500円",
+   "後": "中学生以上 940円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.2.body",
+   "前": "ここからワッカの水まで往復約18km。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.2.body",
+   "前": "幅が狭いところは50mもない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.2.info",
+   "前": "1時間500円〜",
+   "後": "中学生以上 940円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/saroma-ko.json",
+   "対象": "undefined sections.2.info",
+   "前": "9:00〜17:00（時期により変動）",
+   "後": "8時から17時まで（6月～8月は18時まで）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot saroma-ko/サロマ湖",
+   "前": "対岸まで約20キロ、海にしか見えない日本最大級の汽水湖。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sefa-utaki.json",
+   "対象": "undefined sections.0.body",
+   "前": "700年以上前から変わっていない景色がある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sefa-utaki.json",
+   "対象": "undefined sections.0.info",
+   "前": "大人300円、小中学生150円",
+   "後": "大人600円、小中学生300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sefa-utaki.json",
+   "対象": "undefined sections.1.info",
+   "前": "大人300円、小中学生150円",
+   "後": "大人600円、小中学生300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sefa-utaki.json",
+   "対象": "undefined sections.2.info",
+   "前": "大人300円、小中学生150円",
+   "後": "大人600円、小中学生300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sefa-utaki.json",
+   "対象": "undefined sections.1.body",
+   "前": "距離にして約5キロ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.0.body",
+   "前": "約1km",
+   "後": "約770m",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.0.body",
+   "前": "高さ約41m。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.0.info",
+   "前": "遊歩道開放時間：8:00〜17:00（季節により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.1.info",
+   "前": "普通車約30台",
+   "後": "80台",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shakotan.json",
+   "対象": "undefined sections.2.body",
+   "前": "ウニ丼1杯3,000〜5,000円が相場。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot shakotan/神威岬",
+   "前": "約1kmの遊歩道「チャレンカの道」",
+   "後": "約770mの遊歩道「チャレンカの小道」",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.0.body",
+   "前": "夜になると、外気はマイナス15度を下回る日もある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.0.body",
+   "前": "ガイド付きで1人4,000円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.0.body",
+   "前": "1室あたり2名利用で、冬シーズンは1泊3万円台〜。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.0.info",
+   "前": "12:00",
+   "後": "11:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：1泊1室 30,000円〜（時期により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.0.info",
+   "前": "\nアクセス：JRトマム駅から無料シャトルバスあり（約5分）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：宿泊者は無料（スタッフが案内する夜間ウォーク参加推奨）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.2.body",
+   "前": "早朝5時〜8時の間がゴールデンタイム。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.2.body",
+   "前": "9時を過ぎると雲が消え始めることが多い。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.2.body",
+   "前": "1,900円（2024年実績）",
+   "後": "2,500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.2.body",
+   "前": "\n雲の上で飲む温かいコーヒーは、1杯600円でも高くない。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimekappu.json",
+   "対象": "undefined sections.2.info",
+   "前": "1,900円、子供950円",
+   "後": "2,500円、子供1,600円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.0.body",
+   "前": "足元から10メートルも離れていないところに、伊予灘が広がっている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.0.body",
+   "前": "10本ほど",
+   "後": "18本",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.1.body",
+   "前": "夏場は19時前後、冬は17時台に日が沈む。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.1.info",
+   "前": "観賞料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.1.info",
+   "前": "日没時刻の目安：夏期18:30〜19:00頃、冬期17:00〜17:30頃\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.2.body",
+   "前": "駅は「海と同じ高さ」。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.2.body",
+   "前": "駐車スペースは2〜3台分しかない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shimonada.json",
+   "対象": "undefined sections.2.info",
+   "前": "駐車場：2〜3台（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot shimonada/伊予灘の夕日",
+   "前": "夏は19時前後、冬は17時台に日が沈む。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.0.body",
+   "前": "創建は神話時代にまでさかのぼるという。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.0.body",
+   "前": "朝8時には開いているので、朝一番に来るのが断然いい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.0.info",
+   "前": "開門時間：8:00〜17:00（授与所）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.1.info",
+   "前": "参拝時間：終日（暗い時間帯は危険なため日中推奨）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.2.body",
+   "前": "はるか中国から船でここまで来た人間の話が、2200年以上たった今も語り継がれている。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.2.body",
+   "前": "入場無料、所要時間は15〜20分ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shingu-wakayama.json",
+   "対象": "undefined sections.2.info",
+   "前": "常時開放",
+   "後": "8:30〜17:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot shingu-wakayama/熊野速玉大社",
+   "前": "樹齢千年を超える",
+   "後": "樹齢千年の",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.0.body",
+   "前": "お湯は42度前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.0.body",
+   "前": "午前10時",
+   "後": "10:30",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "10:00",
+   "後": "10:30",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.0.info",
+   "前": "定休日：不定休（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.1.body",
+   "前": "300円",
+   "後": "700円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.1.info",
+   "前": "大人300円、子ども150円",
+   "後": "大人700円、小学生以下400円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined sections.1.info",
+   "前": "8:00〜17:00",
+   "後": "平日10:00～16:00、土日祝日9:00~17:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/shirahone-onsen.json",
+   "対象": "undefined modelCourse.daytrip",
+   "前": "10:00 泡の湯（日帰り入浴）",
+   "後": "泡の湯（日帰り入浴）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot shoji-ueshima/雨滝",
+   "前": "ひんやりとした水しぶきを浴びながら苔むした階段を下れば、水と時間が刻んだ渓谷の深さに息をのむ。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.1.body",
+   "前": "距離にして400メートルぐらい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.2.body",
+   "前": "2,800円",
+   "後": "3,900円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.2.body",
+   "前": "2月の気温は、山頂付近でマイナス20度を下回る日もある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.2.info",
+   "前": "2,200円／リフト往復 大人600円",
+   "後": "3,000円／リフト往復 大人1,200円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sounkyo.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：不定休（悪天候時運休あり）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot sounkyo/銀河の滝",
+   "前": "400メートルほど離れたふたつの滝を、「双瀑台」から並べて眺められる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n駐車場：道沿いに数台（無料）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.1.body",
+   "前": "高さ5〜6メートルの波が断崖に叩きつける。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.1.info",
+   "前": "遊歩道：約1.5km、30〜40分\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n駐車場：曽々木公園駐車場（無料）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.2.body",
+   "前": "正確には約3,000平方メートルほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.2.info",
+   "前": "見学時間：随時（干潮時がおすすめ）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/sozogi.json",
+   "対象": "undefined sections.2.info",
+   "前": "駐車場：近隣に無料駐車場あり\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/suo-oshima.json",
+   "対象": "undefined sections.1.info",
+   "前": "橋詰付近に数台分あり",
+   "後": "町営駐車場あり（40台）",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/suo-oshima.json",
+   "対象": "undefined sections.2.info",
+   "前": "食べ放題30分",
+   "後": "食べ放題1時間",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takachihogo-shishiku.json",
+   "対象": "undefined sections.0.info",
+   "前": "入館料：大人200円・小中学生100円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takachihogo-shishiku.json",
+   "対象": "undefined sections.1.info",
+   "前": "高校生150円・中学生以下無料",
+   "後": "高校生200円・小中生150円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.0.body",
+   "前": "コーヒー1杯400円の古民家カフェがあった。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料（施設により異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.0.info",
+   "前": "1回200円程度",
+   "後": "1時間100円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.1.body",
+   "前": "1758年建立。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.1.body",
+   "前": "\n無料で、この景色が見られる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.2.info",
+   "前": "9:00〜17:00頃",
+   "後": "8:00～12:00、13:30～17:00",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined sections.2.info",
+   "前": "不定休",
+   "後": "土日祝日定休",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/takehara.json",
+   "対象": "undefined tips",
+   "前": "レンタサイクルが駅前にあって、1日500円ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.0.body",
+   "前": "夜8時ごろから始まって、気づけば深夜を過ぎている",
+   "後": "午前10時頃から始まって、午後８時半前後まで続く",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "※2024年は9月中旬ごろ開催\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.1.body",
+   "前": "1日800円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "入村料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "レンタサイクル：集落内の民宿や商店で貸し出しあり（800〜1,000円／日）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.2.body",
+   "前": "2,130円",
+   "後": "2,510円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined sections.2.info",
+   "前": "2,130円",
+   "後": "2,510円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tarama-island.json",
+   "対象": "undefined tips",
+   "前": "スーパーは1軒、営業時間は短め。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot tarama-island/八月踊り",
+   "前": "夜8時ごろから始まる",
+   "後": "午前10時頃から始まる",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot tarama-island/仲筋集落",
+   "前": "1日800円のレンタサイクルでゆっくり巡るのが心地いい。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.0.body",
+   "前": "20mを超える",
+   "後": "20mにも迫る",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.0.body",
+   "前": "歩行者専用区間は約500m。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：立山黒部アルペンルートのチケットに含まれる（室堂まで片道約4,310円〜）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n歩行者開放時間：8:00〜17:00（時期により変動）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.1.body",
+   "前": "真冬の気温は−15℃を下回る日もある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n宿泊：みくりが池温泉（1泊2食付き 約14,000円〜）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.2.body",
+   "前": "ダム建設の歴史を伝える「黒部ダム資料室」が無料で見られる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料（アルペンルートのチケットは別途必要）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.3.body",
+   "前": "8分",
+   "後": "7分",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.3.info",
+   "前": "料金：アルペンルートの通し券に含まれる\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/tateyama-kurobe.json",
+   "対象": "undefined sections.3.info",
+   "前": "61名",
+   "後": "80名",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/teuri-island.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/teuri-island.json",
+   "対象": "undefined sections.1.body",
+   "前": "100万羽が繁殖するといわれる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/teuri-island.json",
+   "対象": "undefined sections.1.body",
+   "前": "羽幌沿海フェリー主催で、1人2,000円前後。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/teuri-island.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：2,000円前後（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/teuri-island.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料（ガイドツアー推奨）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/teuri-island.json",
+   "対象": "undefined tips",
+   "前": "1日500円程度。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/uryunuma.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：無料（約60台）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.0.body",
+   "前": "港近くの食堂は7時から開く。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.0.body",
+   "前": "定食が700円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.0.info",
+   "前": "見学：自由（早朝5時〜が狙い目）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.0.info",
+   "前": "\n近くの食堂：7時〜営業、定食700円〜",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.1.body",
+   "前": "駐車場は5台分くらい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.1.info",
+   "前": "通行：24時間（無料）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n展望スペース：橋手前・高台側ともに無料駐車あり",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.2.body",
+   "前": "1万人以上が参加すると聞いた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.2.body",
+   "前": "イカの一夜干し、300円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.2.body",
+   "前": "冷えたビール、500円。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/ushibuka.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.0.body",
+   "前": "高さは3メートルを超えるものもある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.0.info",
+   "前": "中高生270円、小学生110円",
+   "後": "小中学生270円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.1.body",
+   "前": "道の幅は2〜3メートルほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.1.body",
+   "前": "途中に寺が7軒ある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料（散策自由）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.1.info",
+   "前": "見学時間：いつでも可（周辺施設は9:00〜17:00が目安）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.1.info",
+   "前": "\n駐車場：臼杵城跡駐車場が最寄り（無料）",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.2.body",
+   "前": "ランチは1,500円〜2,500円くらいが相場。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.2.body",
+   "前": "営業は11:30〜14:00（ランチのみの日もある）。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：ランチ1,500円〜（要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：11:30〜14:00（夜は要予約・要確認）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined sections.2.info",
+   "前": "定休日：不定休（事前に電話確認を推奨）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/usuki.json",
+   "対象": "undefined tips",
+   "前": "レンタサイクルは駅前で借りられて1日500円ほど。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot usuki/臼杵石仏（国宝）",
+   "前": "入場料550円、ゲートから坂道を5分歩いた先に待つ国宝の石仏。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.0.body",
+   "前": "霧が出ると、10m先が見えなくなる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.0.body",
+   "前": "昭和30年代",
+   "後": "昭和29年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.0.body",
+   "前": "3.6m",
+   "後": "6ｍ",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.0.body",
+   "前": "美しの塔は特に入場料もなく、柵もない。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.0.info",
+   "前": "料金：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：見学自由（冬季は積雪・凍結注意）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.1.info",
+   "前": "料金：無料（山頂へのアクセスは自由）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.1.info",
+   "前": "王ヶ頭ホテル宿泊：1泊2食付き 約2万円〜（時期により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.2.body",
+   "前": "駐車料金は無料だけど、ビーナスライン経由でのアクセスになるので、\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：無料（牧場内の散策自由）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/utsukushigahara.json",
+   "対象": "undefined sections.2.info",
+   "前": "520円（夏季）",
+   "後": "無料",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot utsukushigahara/美しの塔",
+   "前": "昭和30年代",
+   "後": "昭和29年",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot utsukushigahara/美しの塔",
+   "前": "霧が出ると10m先も見えない高原のシンボルを間近に眺められる。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.0.body",
+   "前": "築300年以上。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.0.body",
+   "前": "200円",
+   "後": "500円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.0.info",
+   "前": "大人200円、小中学生100円",
+   "後": "大人500円、小中学生300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.1.info",
+   "前": "大人200円、小中学生100円",
+   "後": "大人500円、小中学生300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.0.info",
+   "前": "営業時間：9:00〜17:00（入館は16:30まで）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.1.info",
+   "前": "営業時間：9:00〜17:00（入館は16:30まで）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.2.info",
+   "前": "料金：散策無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yakake.json",
+   "対象": "undefined sections.2.info",
+   "前": "\n駐車場：矢掛本陣周辺に無料駐車場あり",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot yakake/矢掛本陣（国指定史跡）",
+   "前": "築300年以上の建物で、参勤交代の際に西国大名が宿泊した本陣。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.0.body",
+   "前": "入場無料。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.0.body",
+   "前": "約180本",
+   "後": "約600本",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.0.info",
+   "前": "350円",
+   "後": "300円",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.0.info",
+   "前": "開園時間：常時開放（柳沢文庫は9:00〜17:00、月曜休）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.1.body",
+   "前": "「金魚と鯉の博物館」は入場無料で入れる。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.1.info",
+   "前": "金魚と鯉の博物館：入場無料、10:00〜18:00（火曜休）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined sections.2.info",
+   "前": "営業時間：店舗により異なる（日曜定休の店が多い）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined tips",
+   "前": "日曜は商店街の休業店が多い。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yamatokoriyama.json",
+   "対象": "undefined tips",
+   "前": "金魚ストリートは駅から徒歩5分以内なので、荷物はコインロッカー（近鉄郡山駅内、300円）に預けて身軽に歩くのがいい。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot yamatokoriyama/郡山城跡",
+   "前": "入場無料の城跡。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.0.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.1.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.2.info",
+   "前": "入場料：無料\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.0.info",
+   "前": "駐車場：無料（普通車約50台）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.0.info",
+   "前": "見学時間：終日（冬期は積雪注意）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.1.body",
+   "前": "高さ50メートル以上はある。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.1.body",
+   "前": "高さ約40メートルの岩が、海からそのまま突き出している。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.1.body",
+   "前": "売店でホタテの串焼き（600円）を食べた。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.1.info",
+   "前": "開門時間：8:00〜17:00（季節により変動）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.2.body",
+   "前": "100メートルほど",
+   "後": "約30メートル",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined sections.2.info",
+   "前": "見学時間：終日（冬期は積雪・凍結注意）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "P",
+   "ファイル": "src/data/articles/yobetsu.json",
+   "対象": "undefined tips",
+   "前": "\nウニ丼は1,500円〜3,000円台まで幅がある。",
+   "後": "",
+   "備考": ""
+  }
+ ]
+}

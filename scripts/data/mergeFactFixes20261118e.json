@@ -1,0 +1,60 @@
+{
+ "note": "多良間島の八月踊りの時刻を公式で確認し直した（2026-11-18）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "T",
+   "topic": "八月踊りの時刻",
+   "result": "公式で確認（開始は午前10〜11時ごろ・終了は午後七時過ぎ。全国町村会の寄稿の値と食い違い）",
+   "sources": [
+    "https://www.vill.tarama.okinawa.jp/about/rekishi_bunka/hachigatsuodori_02"
+   ],
+   "edits": [
+    {
+     "page": "tarama-island",
+     "rule": "P1",
+     "種類": "時刻",
+     "確認日": "2026-11-18",
+     "出典URL": [
+      "https://www.vill.tarama.okinawa.jp/about/rekishi_bunka/hachigatsuodori_02"
+     ],
+     "snapshot": "snapshots/tarama-hachigatsu__g1.txt",
+     "公式の値": "午前10時から11時ごろ開始し、午後七時過ぎに終わっている（多良間村公式「2.踊りの内容と種類」）",
+     "reason": "八月踊りの時刻が全国町村会の寄稿（公式でない）を根拠にしていたため、多良間村の公式の記載に直す",
+     "file": "src/data/articles/tarama-island.json",
+     "field": "sections.0.body",
+     "old": "午前10時頃から始まって、午後８時半前後まで続く",
+     "new": "午前10時から11時ごろに始まって、午後七時過ぎまで続く",
+     "値": [
+      "午前10時から11時ごろ",
+      "午後七時過ぎ"
+     ],
+     "旧文": "午前10時頃から始まって、午後８時半前後まで続く。"
+    },
+    {
+     "page": "tarama-island",
+     "rule": "P1",
+     "種類": "時刻",
+     "確認日": "2026-11-18",
+     "出典URL": [
+      "https://www.vill.tarama.okinawa.jp/about/rekishi_bunka/hachigatsuodori_02"
+     ],
+     "snapshot": "snapshots/tarama-hachigatsu__g1.txt",
+     "公式の値": "午前10時から11時ごろ開始し、午後七時過ぎに終わっている（多良間村公式「2.踊りの内容と種類」）",
+     "reason": "八月踊りの時刻が全国町村会の寄稿（公式でない）を根拠にしていたため、多良間村の公式の記載に直す",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "tarama-island",
+      "八月踊り"
+     ],
+     "old": "午前10時頃から始まる",
+     "new": "午前10時から11時ごろに始まる",
+     "値": [
+      "午前10時から11時ごろ"
+     ],
+     "旧文": "旧暦8月8日から3日間、午前10時頃から始まる伝統の踊りに島全体が沸き立つ。"
+    }
+   ]
+  }
+ ]
+}
