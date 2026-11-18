@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** buildImageFixes20261120.mjs — 画像の取り違え5ページ（7枚）の画像を外す編集（2026-11-20）。画像を実際に開いて、見どころと合わないことを確認したものだけ。差し替えは探さない。 */
+/** buildImageFixes20261120.mjs — 画像の取り違え5ページ（7枚）の画像を外す編集（2026-11-19）。画像を実際に開いて、見どころと合わないことを確認したものだけ。差し替えは探さない。 */
 import fs from 'fs';
 const dests = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8')); const byId = new Map(dests.map((d) => [d.id, d]));
 const why = {
@@ -13,6 +13,6 @@ const why = {
 const src = { tsumago: ['https://tsumago.jp/view/wakihonjin', 'https://nagiso.jp/topics/okuya/'], yakake: ['http://ohara-kanko.com/tourism/waki-honjin', 'http://www.town.yakage.okayama.jp/machi/shisetsu/wakihonjin.html'], yamadera: ['https://www.visityamagata.jp/spot-yamagata-yamadera_godaido'], 'hachimantai-onsen': ['https://www.city.semboku.akita.jp/sightseeing/spot/01_t-onsen.html', 'https://www.tamagawa-onsen.jp/'], 'ono-fukui': [] };
 const edits = [];
 for (const [k, reason] of Object.entries(why)) { const [id, name] = k.split('|'); const sp = byId.get(id).spots.find((s) => s.name === name); if (!sp?.imageUrl) throw new Error('画像なし ' + k);
-  edits.push({ page: id, rule: 'IMG', 種類: '画像', op: 'removeSpotImage', file: 'src/data/destinations.json', dest: id, name, old: sp.imageUrl, 旧クレジット: sp.imageCredit || null, reason, 確認日: '2026-11-20', 値: [], 出典URL: src[id] || [], 備考: '画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い' }); }
-fs.writeFileSync('scripts/data/mergeFactFixes20261120a.json', JSON.stringify({ note: '画像の取り違え（画像を外す）', date: '2026-11-20', fixes: [{ id: 'IMG', topic: '画像の取り違え5ページ7枚', result: '画像を開いて確認', sources: [], edits }] }, null, 1));
+  edits.push({ page: id, rule: 'IMG', 種類: '画像', op: 'removeSpotImage', file: 'src/data/destinations.json', dest: id, name, old: sp.imageUrl, 旧クレジット: sp.imageCredit || null, reason, 確認日: '2026-11-19', 値: [], 出典URL: src[id] || [], 備考: '画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い' }); }
+fs.writeFileSync('scripts/data/mergeFactFixes20261120a.json', JSON.stringify({ note: '画像の取り違え（画像を外す）', date: '2026-11-19', fixes: [{ id: 'IMG', topic: '画像の取り違え5ページ7枚', result: '画像を開いて確認', sources: [], edits }] }, null, 1));
 console.log(edits.length);

@@ -1,6 +1,6 @@
 {
  "note": "画像の取り違え（画像を外す）",
- "date": "2026-11-20",
+ "date": "2026-11-19",
  "fixes": [
   {
    "id": "IMG",
@@ -24,7 +24,7 @@
       "attributionRequired": true
      },
      "reason": "画像（Wikimedia の Ohara-juku10s3200.jpg）を開いて確認: 大原宿の土塀の建物の写真で、脇本陣奥谷（妻籠）ではない",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [
       "https://tsumago.jp/view/wakihonjin",
@@ -48,7 +48,7 @@
       "attributionRequired": true
      },
      "reason": "画像（Osaka_Castle_02bs3200.jpg）を開いて確認: 大阪城と高層ビルの写真で、妻籠城跡ではない",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [
       "https://tsumago.jp/view/wakihonjin",
@@ -72,7 +72,7 @@
       "attributionRequired": true
      },
      "reason": "画像（170216_Chionin_Kyoto_Japan01.JPG）を開いて確認: 京都・知恩院の大きな三門の写真で、山寺（立石寺）の山門ではない",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [
       "https://www.visityamagata.jp/spot-yamagata-yamadera_godaido"
@@ -95,7 +95,7 @@
       "attributionRequired": true
      },
      "reason": "画像（Matsushima_miyagi_z.JPG）を開いて確認: 松島の島々と船の海の写真で、山寺の五大堂展望台ではない",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [
       "https://www.visityamagata.jp/spot-yamagata-yamadera_godaido"
@@ -118,7 +118,7 @@
       "attributionRequired": true
      },
      "reason": "画像（Ohara-juku10s3200.jpg）を開いて確認: 大原宿の脇本陣の写真（大原観光協会の公式が大原宿の脇本陣として載せる建物）で、矢掛脇本陣ではない",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [
       "http://ohara-kanko.com/tourism/waki-honjin",
@@ -142,7 +142,7 @@
       "attributionRequired": true
      },
      "reason": "画像（Japan_Tojinbo02n4592.jpg）を開いて確認: 東尋坊の柱状節理の断崖の写真で、勝山恐竜博物館ではない",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [],
      "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
@@ -163,7 +163,7 @@
       "attributionRequired": true
      },
      "reason": "画像（Yufuin_Onsen_Rotenburo.JPG）を開いて確認: ファイル名が湯布院温泉の露天風呂の写真。秋田の玉川温泉ではない（スキャン確認で、玉川温泉の公式と比べて別の場所と判定）",
-     "確認日": "2026-11-20",
+     "確認日": "2026-11-19",
      "値": [],
      "出典URL": [
       "https://www.city.semboku.akita.jp/sightseeing/spot/01_t-onsen.html",
