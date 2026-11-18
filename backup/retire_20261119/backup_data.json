@@ -1,0 +1,1391 @@
+{
+ "destinations": [
+  {
+   "id": "gen_北海_金花湯",
+   "name": "金花湯",
+   "displayName": "金花湯",
+   "prefecture": "北海道",
+   "region": "北海道",
+   "lat": 42.59138889,
+   "lng": 140.1375,
+   "destType": "onsen",
+   "hubCity": "札幌",
+   "fallbackCity": "札幌",
+   "isStayable": true,
+   "_generated": true,
+   "_source": "wikipedia",
+   "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "primary": [
+    "温泉"
+   ],
+   "secondary": [
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "weight": 1.55,
+   "stayPriority": "high",
+   "onsenLevel": 3,
+   "accessStation": "札幌駅",
+   "representativeStation": "札幌駅",
+   "railProvider": "ekinet",
+   "jrArea": "east",
+   "finalAccess": {
+    "type": "train",
+    "line": "在来線",
+    "to": "金花湯"
+   },
+   "transportHubs": {
+    "rail": "札幌駅",
+    "city": "札幌"
+   },
+   "gateway": null,
+   "departures": [
+    "札幌",
+    "仙台",
+    "東京",
+    "名古屋",
+    "大阪",
+    "広島",
+    "福岡",
+    "和歌山",
+    "釧路",
+    "帯広",
+    "北見"
+   ],
+   "isIsland": false,
+   "hub": "札幌",
+   "stayAllowed": [
+    "2night"
+   ],
+   "spots": [
+    {
+     "name": "金花湯",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Simamaki_kinkatou_before.jpg/500px-Simamaki_kinkatou_before.jpg",
+     "description": "源泉約52度、加水してちょうどよくなる薄い緑がかった湯。砂利道の先にたどり着く達成感ごと味わう秘湯体験ができる。",
+     "imageCredit": {
+      "author": "Soica2001 (talk)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Simamaki_kinkatou_before.jpg",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "赤倉温泉街の足湯",
+     "description": "温泉街にある公共の足湯施設で、硫黄の香りを感じながら林の緑を眺めて足の疲れをほぐせる。",
+     "googleMapsQuery": "赤倉温泉足湯 北海道赤倉町",
+     "imageUrl": "/images/spots/gen_北海_金花湯/1.jpg"
+    },
+    {
+     "name": "赤倉峠展望台",
+     "description": "町境に位置する展望地。四季折々の景観が広がり、冬は雪景色と遠く日本海を望む眺めを楽しめる。",
+     "googleMapsQuery": "赤倉峠展望台 北海道上ノ国町",
+     "imageUrl": "/images/spots/gen_北海_金花湯/2.jpg",
+     "imageCredit": {
+      "author": "Z3RAJIRAIYA",
+      "license": "Pixabay Content License",
+      "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+      "attributionRequired": false
+     }
+    }
+   ],
+   "description": "北海道にある秘湯で、源泉温度は約52度。加水してちょうどよい湯加減になる、薄い緑がかった色の湯が特徴だ。看板もほとんどなく、砂利道を進んだ先にようやくたどり着く。道中の不安ごと、到着の手ごたえになる。拠点は札幌駅で、アクセスにはレンタカーの利用が向いている。東京からは約8時間41分。見どころは金花湯の湯船そのものだが、周辺には温泉街の公共足湯もあり、林を眺めながら足を休められる。冬には峠の展望台から雪景色と日本海を一望できる。滞在は1泊が目安。砂利を踏む音の先に待つ、本物の湯。",
+   "catch": "金花湯で温泉に2回入って、部屋でゆっくりして寝る",
+   "requiresCar": false,
+   "type": "destination",
+   "subType": "onsen",
+   "city": "札幌",
+   "hubStation": "札幌駅",
+   "hotelArea": "北海道",
+   "hotelSearch": "金花湯",
+   "hotelKeyword": "金花湯",
+   "travelTime": {
+    "tokyo": 521,
+    "nagoya": 583,
+    "osaka": 640,
+    "takamatsu": 695,
+    "fukuoka": 848,
+    "wakayama": 670,
+    "mito": 566,
+    "maebashi": 581,
+    "takasaki": 581,
+    "hamamatsu": 613,
+    "gifu": 603,
+    "kofu": 611,
+    "shingu": 760,
+    "tanabe": 730,
+    "shirahama": 740,
+    "kushimoto": 760,
+    "tottori": 760,
+    "shimonoseki": 878,
+    "saga": 878,
+    "oita": 908,
+    "beppu": 918
+   },
+   "stayRecommendation": "1night",
+   "secondaryTransport": "bus",
+   "stayBias": "destination",
+   "airportHub": null,
+   "situations": [
+    "solo",
+    "couple",
+    "friends"
+   ],
+   "mapPoint": "金花湯",
+   "railGateway": "札幌駅",
+   "railNote": "バス",
+   "hasDirectFlight": false,
+   "airportGateway": null,
+   "busGateway": null,
+   "ferryGateway": null,
+   "gateways": [],
+   "access": {
+    "steps": []
+   },
+   "localAccess": null,
+   "_enriched": true,
+   "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%87%91%E8%8A%B1%E6%B9%AF&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%87%91%E8%8A%B1%E6%B9%AF",
+   "bookingStation": null,
+   "mainSpot": "金花湯",
+   "stayArea": {
+    "rakuten": "金花湯",
+    "jalan": "札幌"
+   },
+   "hotelLinks": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+    "jalan": "https://www.jalan.net/010000/"
+   },
+   "tier": "area",
+   "icCard": "suica",
+   "tier2": "area",
+   "hubName": "札幌",
+   "unsplashUrl": "https://images.unsplash.com/photo-1726537625746-4ab5285c60f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklODclOTElRTglOEElQjElRTYlQjklQUYlMjAlRTklODclOTElRTglOEElQjElRTYlQjklQUZ8ZW58MHwwfHx8MTc3ODQ2MTk5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+   "unsplashThumbUrl": "https://images.unsplash.com/photo-1726537625746-4ab5285c60f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklODclOTElRTglOEElQjElRTYlQjklQUYlMjAlRTklODclOTElRTglOEElQjElRTYlQjklQUZ8ZW58MHwwfHx8MTc3ODQ2MTk5Nnww&ixlib=rb-4.1.0&q=80&w=400",
+   "unsplashCredit": "Wren Chai",
+   "unsplashCreditUrl": "https://unsplash.com/@weichaist?utm_source=dokoiko&utm_medium=referral",
+   "unsplashPhotoUrl": "https://unsplash.com/photos/a-room-with-a-sink-and-a-toilet-in-it-_j54YXzW1_c?utm_source=dokoiko&utm_medium=referral",
+   "rentalCarRecommended": true,
+   "images": [
+    "/images/gen_北海_金花湯/main.jpg",
+    "/images/gen_北海_金花湯/spot-1.jpg"
+   ],
+   "reasonChips": [
+    "温泉",
+    "自然と過ごす",
+    "街歩き",
+    "ひとり旅向け",
+    "カップル向け",
+    "友達と",
+    "温泉がおすすめ",
+    "街歩き向け"
+   ],
+   "bestSeason": "冬",
+   "travelTimeEstimated": {
+    "wakayama": true,
+    "mito": true,
+    "maebashi": true,
+    "takasaki": true,
+    "hamamatsu": true,
+    "gifu": true,
+    "kofu": true,
+    "shingu": true,
+    "tanabe": true,
+    "shirahama": true,
+    "kushimoto": true,
+    "tottori": true,
+    "shimonoseki": true,
+    "saga": true,
+    "oita": true,
+    "beppu": true
+   }
+  },
+  {
+   "id": "gen_北海_弁天台場",
+   "name": "弁天台場",
+   "displayName": "弁天台場",
+   "prefecture": "北海道",
+   "region": "北海道",
+   "lat": 41.77422222,
+   "lng": 140.70408333,
+   "destType": "sight",
+   "hubCity": "札幌",
+   "fallbackCity": "札幌",
+   "isStayable": true,
+   "_generated": true,
+   "_source": "wikipedia",
+   "stayDescription": "見どころが多く、1泊してゆっくり巡る",
+   "tags": [
+    "観光",
+    "自然"
+   ],
+   "primary": [
+    "観光"
+   ],
+   "secondary": [
+    "自然"
+   ],
+   "weight": 0.9,
+   "stayPriority": "medium",
+   "onsenLevel": 0,
+   "accessStation": "札幌駅",
+   "representativeStation": "札幌駅",
+   "railProvider": "ekinet",
+   "jrArea": "east",
+   "finalAccess": {
+    "type": "bus",
+    "line": null,
+    "to": "弁天台場"
+   },
+   "transportHubs": {
+    "rail": "札幌駅",
+    "city": "札幌"
+   },
+   "gateway": null,
+   "departures": [
+    "札幌",
+    "仙台",
+    "東京",
+    "名古屋",
+    "大阪",
+    "広島",
+    "福岡",
+    "和歌山",
+    "釧路",
+    "帯広",
+    "北見"
+   ],
+   "isIsland": false,
+   "hub": "札幌",
+   "stayAllowed": [
+    "2night"
+   ],
+   "spots": [
+    {
+     "name": "弁天台場",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hokkaid%C5%8D_g%C3%A9olocalisation.svg/500px-Hokkaid%C5%8D_g%C3%A9olocalisation.svg.png",
+     "description": "潮風と石垣、誰もいない静けさの中で幕末の時間に浸れる。",
+     "imageCredit": {
+      "author": "© Bourrichon (talk) - fr:Bourrichon",
+      "license": "CC BY-SA 2.0 fr",
+      "url": "https://commons.wikimedia.org/wiki/File:Hokkaid%C5%8D_g%C3%A9olocalisation.svg",
+      "attributionRequired": true
+     }
+    },
+    {
+     "name": "函館市北方歴史資料館",
+     "description": "弁天台場を含む道南の開拓と防衛の歴史を展示。ロシア南下に備えて築かれた砲台の構造と時代背景を詳しく学べる。",
+     "googleMapsQuery": "函館市北方歴史資料館",
+     "imageUrl": "/images/spots/gen_北海_弁天台場/1.jpg",
+     "imageCredit": {
+      "author": "McDrok_the_RhythmDoc",
+      "license": "Pixabay Content License",
+      "url": "https://pixabay.com/ja/photos/%E5%87%BD%E9%A4%A8%E5%A5%89%E8%A1%8C%E6%89%80-%E6%97%A5%E6%9C%AC-%E5%87%BD%E9%A4%A8-4752605/",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "五稜郭公園",
+     "description": "星形の稜線が特徴的な西洋式要塞公園。弁天台場と同じ幕末期の防衛施設で、四季の植栽とともに近代化の遺跡を巡れる。",
+     "googleMapsQuery": "五稜郭公園 函館",
+     "imageUrl": "/images/spots/gen_北海_弁天台場/2.jpg",
+     "imageCredit": {
+      "author": "bryan...",
+      "license": "CC BY-SA 2.0",
+      "url": "https://www.flickr.com/photos/91049143@N00/16534601378",
+      "attributionRequired": true
+     }
+    }
+   ],
+   "description": "函館港沖に浮かぶ小さな人工島が、弁天台場だ。幕末期に築かれた砲台跡で、石垣が当時のまま残る。本数が少ないため、乗船前に時刻を確認しておきたい。島内に売店はなく、夏は水と帽子を持参すること。函館市北方歴史資料館では、ロシア南下への備えとして築かれた砲台の構造や時代背景を展示で学べる。同じ幕末期の防衛施設である五稜郭公園とあわせて回ると、道南の近代史がひとつにつながる。拠点となる札幌駅からは列車と移動を組み合わせてアクセスする。石垣の上、函館港を見渡す風景。",
+   "catch": "弁天台場で見どころが多く、1泊してゆっくり巡る",
+   "requiresCar": false,
+   "type": "destination",
+   "subType": "sight",
+   "city": "札幌",
+   "hubStation": "札幌駅",
+   "hotelArea": "北海道",
+   "hotelSearch": "弁天台場",
+   "hotelKeyword": "弁天台場",
+   "travelTime": {
+    "tokyo": 469,
+    "nagoya": 543,
+    "osaka": 605,
+    "takamatsu": 666,
+    "fukuoka": 830,
+    "wakayama": 635,
+    "mito": 514,
+    "maebashi": 529,
+    "takasaki": 529,
+    "hamamatsu": 573,
+    "gifu": 563,
+    "kofu": 559,
+    "shingu": 725,
+    "tanabe": 695,
+    "shirahama": 705,
+    "kushimoto": 725,
+    "tottori": 725,
+    "shimonoseki": 860,
+    "saga": 860,
+    "oita": 890,
+    "beppu": 900
+   },
+   "stayRecommendation": "1night",
+   "secondaryTransport": "bus",
+   "stayBias": "hub",
+   "airportHub": null,
+   "situations": [
+    "solo",
+    "couple",
+    "friends"
+   ],
+   "mapPoint": "弁天台場",
+   "railGateway": "札幌駅",
+   "railNote": "バス",
+   "hasDirectFlight": false,
+   "airportGateway": null,
+   "busGateway": null,
+   "ferryGateway": null,
+   "gateways": [],
+   "access": {
+    "steps": []
+   },
+   "localAccess": null,
+   "_enriched": true,
+   "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%9C%AD%E5%B9%8C&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%9C%AD%E5%B9%8C",
+   "bookingStation": null,
+   "mainSpot": "弁天台場",
+   "stayArea": {
+    "rakuten": "弁天台場",
+    "jalan": "弁天台場"
+   },
+   "hotelLinks": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+    "jalan": "https://www.jalan.net/010000/"
+   },
+   "tier": "spot",
+   "icCard": "suica",
+   "tier2": "spot",
+   "hubName": "札幌",
+   "unsplashUrl": "https://images.unsplash.com/photo-1629356309084-95ba7edb7055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQkMlODElRTUlQTQlQTklRTUlOEYlQjAlRTUlQTAlQjQlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5MTA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+   "unsplashThumbUrl": "https://images.unsplash.com/photo-1629356309084-95ba7edb7055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQkMlODElRTUlQTQlQTklRTUlOEYlQjAlRTUlQTAlQjQlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5MTA4NXww&ixlib=rb-4.1.0&q=80&w=400",
+   "unsplashCredit": "Ozgu Ozden",
+   "unsplashCreditUrl": "https://unsplash.com/@ozgut?utm_source=dokoiko&utm_medium=referral",
+   "unsplashPhotoUrl": "https://unsplash.com/photos/green-grass-field-near-green-trees-and-mountain-under-white-clouds-and-blue-sky-during-daytime-Gp754197b6Y?utm_source=dokoiko&utm_medium=referral",
+   "rentalCarRecommended": true,
+   "images": [
+    "/images/gen_北海_弁天台場/main.jpg",
+    "/images/gen_北海_弁天台場/spot-1.jpg"
+   ],
+   "reasonChips": [
+    "歴史を辿る",
+    "自然と過ごす",
+    "ひとり旅向け",
+    "カップル向け",
+    "友達と",
+    "ゆっくり滞在"
+   ],
+   "bestSeason": "夏",
+   "imageCredit": {
+    "author": "Shioyama",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%BC%81%E5%A4%A9%E5%8F%B0%E5%A0%B4%E8%B7%A1%E3%81%A8%E5%87%BD%E9%A4%A8%E3%81%A9%E3%81%A4%E3%81%8F%E3%83%AC%E3%83%B3%E3%82%AC%E5%80%89%E5%BA%AB.jpg",
+    "attributionRequired": false
+   },
+   "travelTimeEstimated": {
+    "wakayama": true,
+    "mito": true,
+    "maebashi": true,
+    "takasaki": true,
+    "hamamatsu": true,
+    "gifu": true,
+    "kofu": true,
+    "shingu": true,
+    "tanabe": true,
+    "shirahama": true,
+    "kushimoto": true,
+    "tottori": true,
+    "shimonoseki": true,
+    "saga": true,
+    "oita": true,
+    "beppu": true
+   },
+   "seo": {
+    "description": "函館港沖に浮かぶ小さな人工島が、弁天台場だ。幕末期に築かれた砲台跡で、石垣が当時のまま残る。本数が少ないため、乗船前に時刻を確認しておきたい。",
+    "auto": true
+   }
+  },
+  {
+   "id": "gen_北海_オソウシ温泉",
+   "name": "オソウシ温泉",
+   "displayName": "オソウシ温泉",
+   "prefecture": "北海道",
+   "region": "北海道",
+   "lat": 43.23227778,
+   "lng": 142.96077778,
+   "destType": "onsen",
+   "hubCity": "札幌",
+   "fallbackCity": "札幌",
+   "isStayable": true,
+   "_generated": true,
+   "_source": "wikipedia",
+   "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "primary": [
+    "温泉"
+   ],
+   "secondary": [
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "weight": 1.55,
+   "stayPriority": "high",
+   "onsenLevel": 3,
+   "accessStation": "札幌駅",
+   "representativeStation": "札幌駅",
+   "railProvider": "ekinet",
+   "jrArea": "east",
+   "finalAccess": {
+    "type": "train",
+    "line": "在来線",
+    "to": "オソウシ温泉"
+   },
+   "transportHubs": {
+    "rail": "札幌駅",
+    "city": "札幌"
+   },
+   "gateway": null,
+   "departures": [
+    "札幌",
+    "仙台",
+    "東京",
+    "名古屋",
+    "大阪",
+    "広島",
+    "福岡",
+    "和歌山",
+    "釧路",
+    "帯広",
+    "北見"
+   ],
+   "isIsland": false,
+   "hub": "札幌",
+   "stayAllowed": [
+    "2night"
+   ],
+   "spots": [
+    {
+     "name": "オソウシ温泉",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Osoushi_spa_2011.JPG/500px-Osoushi_spa_2011.JPG",
+     "description": "飾り気のない建物に湧く源泉かけ流しの湯。約43度のほどよい湯加減で、ほのかな硫黄の香りとともに長湯を楽しめる。",
+     "imageCredit": {
+      "author": "Soica2001 (talk)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Osoushi_spa_2011.JPG",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "屈足湖",
+     "description": "屈足ダムによって形成された湖で、新得町の山あいに位置し、湖畔にはキャンプ場が設けられている。"
+    },
+    {
+     "name": "狩勝峠",
+     "description": "新得町と南富良野町の境に位置する峠で、展望台から十勝平野を見下ろすことができる。",
+     "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/KarikachiPassView.JPG/500px-KarikachiPassView.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "imageCredit": {
+      "author": "Ippukucho",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:KarikachiPassView.JPG",
+      "attributionRequired": true
+     }
+    }
+   ],
+   "description": "新得町の山あいに湧く源泉かけ流しの一軒宿。湯温は約43度。飾り気のない浴場にほのかな硫黄の香りが漂い、長湯に向く湯質が旅人を引き止める。冬の雪山に囲まれた中で湯に繰り返し浸かるのが、この宿の正しい滞在の形だ。札幌駅から列車で新得駅へ向かい、そこから宿へアクセスする。周辺には屈足ダムによって形成された屈足湖があり、山あいの湖畔を歩いて回れる。新得町と南富良野町の境に立つ狩勝峠には展望台が設けられ、十勝平野を見下ろす眺めが待つ。雪に覆われた峠と湯上がりの静けさ。",
+   "catch": "オソウシ温泉で温泉に2回入って、部屋でゆっくりして寝る",
+   "requiresCar": false,
+   "type": "destination",
+   "subType": "onsen",
+   "city": "札幌",
+   "hubStation": "札幌駅",
+   "hotelArea": "北海道",
+   "hotelSearch": "オソウシ温泉",
+   "hotelKeyword": "オソウシ温泉",
+   "travelTime": {
+    "tokyo": 590,
+    "nagoya": 682,
+    "osaka": 748,
+    "takamatsu": 812,
+    "fukuoka": 977,
+    "wakayama": 778,
+    "mito": 635,
+    "maebashi": 650,
+    "takasaki": 650,
+    "hamamatsu": 712,
+    "gifu": 702,
+    "kofu": 680,
+    "shingu": 868,
+    "tanabe": 838,
+    "shirahama": 848,
+    "kushimoto": 868,
+    "tottori": 868,
+    "shimonoseki": 1007,
+    "saga": 1007,
+    "oita": 1037,
+    "beppu": 1047
+   },
+   "stayRecommendation": "1night",
+   "secondaryTransport": "bus",
+   "stayBias": "destination",
+   "airportHub": null,
+   "situations": [
+    "solo",
+    "couple",
+    "friends"
+   ],
+   "mapPoint": "オソウシ温泉",
+   "railGateway": "札幌駅",
+   "railNote": "バス",
+   "hasDirectFlight": false,
+   "airportGateway": null,
+   "busGateway": null,
+   "ferryGateway": null,
+   "gateways": [],
+   "access": {
+    "steps": []
+   },
+   "localAccess": null,
+   "_enriched": true,
+   "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89",
+   "bookingStation": null,
+   "mainSpot": "オソウシ温泉",
+   "stayArea": {
+    "rakuten": "オソウシ温泉",
+    "jalan": "オソウシ温泉"
+   },
+   "hotelLinks": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+    "jalan": "https://www.jalan.net/010000/"
+   },
+   "tier": "area",
+   "icCard": "suica",
+   "tier2": "area",
+   "hubName": "札幌",
+   "rentalCarRecommended": true,
+   "unsplashUrl": "https://images.unsplash.com/photo-1748208595013-6bf2472bd0ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODklMjAlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MTc3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+   "unsplashThumbUrl": "https://images.unsplash.com/photo-1748208595013-6bf2472bd0ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODklMjAlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MTc3N3ww&ixlib=rb-4.1.0&q=80&w=400",
+   "unsplashCredit": "Arthur Tseng",
+   "unsplashCreditUrl": "https://unsplash.com/@arthur3607?utm_source=dokoiko&utm_medium=referral",
+   "unsplashPhotoUrl": "https://unsplash.com/photos/a-steamy-calm-pool-beneath-wooden-pillars-NIBr1QZbuwU?utm_source=dokoiko&utm_medium=referral",
+   "images": [
+    "/images/gen_北海_オソウシ温泉/main.jpg",
+    "/images/gen_北海_オソウシ温泉/spot-1.jpg"
+   ],
+   "reasonChips": [
+    "温泉",
+    "自然と過ごす",
+    "街歩き",
+    "ひとり旅向け",
+    "カップル向け",
+    "友達と",
+    "温泉がおすすめ",
+    "街歩き向け"
+   ],
+   "bestSeason": "冬",
+   "imageCredit": {
+    "author": "pakku",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89%EF%BC%88Open-air_bath%EF%BC%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "travelTimeEstimated": {
+    "wakayama": true,
+    "mito": true,
+    "maebashi": true,
+    "takasaki": true,
+    "hamamatsu": true,
+    "gifu": true,
+    "kofu": true,
+    "shingu": true,
+    "tanabe": true,
+    "shirahama": true,
+    "kushimoto": true,
+    "tottori": true,
+    "shimonoseki": true,
+    "saga": true,
+    "oita": true,
+    "beppu": true
+   }
+  },
+  {
+   "id": "gen_北海_平田内温泉",
+   "name": "平田内温泉",
+   "displayName": "平田内温泉",
+   "prefecture": "北海道",
+   "region": "北海道",
+   "lat": 42.13444444,
+   "lng": 140.00555556,
+   "destType": "onsen",
+   "hubCity": "札幌",
+   "fallbackCity": "札幌",
+   "isStayable": true,
+   "_generated": true,
+   "_source": "wikipedia",
+   "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "primary": [
+    "温泉"
+   ],
+   "secondary": [
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "weight": 1.55,
+   "stayPriority": "high",
+   "onsenLevel": 3,
+   "accessStation": "札幌駅",
+   "representativeStation": "札幌駅",
+   "railProvider": "ekinet",
+   "jrArea": "east",
+   "finalAccess": {
+    "type": "train",
+    "line": "在来線",
+    "to": "平田内温泉"
+   },
+   "transportHubs": {
+    "rail": "札幌駅",
+    "city": "札幌"
+   },
+   "gateway": null,
+   "departures": [
+    "札幌",
+    "仙台",
+    "東京",
+    "名古屋",
+    "大阪",
+    "広島",
+    "福岡",
+    "和歌山",
+    "釧路",
+    "帯広",
+    "北見"
+   ],
+   "isIsland": false,
+   "hub": "札幌",
+   "stayAllowed": [
+    "2night"
+   ],
+   "spots": [
+    {
+     "name": "平田内温泉",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hiratanai_spa_kumanoyu.jpg/500px-Hiratanai_spa_kumanoyu.jpg",
+     "description": "林道を約20分走った先に開ける、緑がかった湯色の露天風呂。川のすぐそばで野趣あふれる湯浴みを楽しめる。",
+     "imageCredit": {
+      "author": "Soica2001 (talk)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Hiratanai_spa_kumanoyu.jpg",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "平田内湖",
+     "description": "温泉の北に位置するダム湖で、湖面に山影が映り、オオワシやオジロワシの観察や冬の結氷した湖面を楽しめる。",
+     "googleMapsQuery": "平田内湖 北海道",
+     "imageUrl": "/images/spots/gen_北海_平田内温泉/1.jpg",
+     "imageCredit": {
+      "author": "DarlaEbbets",
+      "license": "Pixabay Content License",
+      "url": "https://pixabay.com/ja/photos/%E3%83%92%E3%83%A9%E3%82%BF%E3%82%B1-%E3%82%AA%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E8%8F%8C-%E3%81%B2%E3%82%89%E3%81%9F%E3%81%91-205854/",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "晩生内の滝",
+     "description": "温泉から北東へ車で15分の幅広い滝。冬は氷結して青白く輝き、しぶきの冷感と氷の結晶音が非日常を演出する。",
+     "googleMapsQuery": "晩生内の滝 北海道",
+     "imageUrl": "/images/spots/gen_北海_平田内温泉/2.jpg"
+    }
+   ],
+   "description": "北海道・熊石地区の山中、林道を約20分走った先に現れる秘湯。緑がかった湯色の露天風呂が、川のすぐそばに設けられている。マイナス20度を下回ることもある冬でも湯は力強く湧き、野趣あふれる湯浴みを提供する。湯は男女別で、川の音を聞きながら浸かれる。温泉の北に位置する平田内湖はダム湖で、湖面に山影が映り、オオワシやオジロワシの観察ができる。最寄りは札幌駅で、東京からは約8時間11分。レンタカーを使うと動きやすい。冬の静けさが際立つ北の秘湯。",
+   "catch": "平田内温泉で温泉に2回入って、部屋でゆっくりして寝る",
+   "requiresCar": false,
+   "type": "destination",
+   "subType": "onsen",
+   "city": "札幌",
+   "hubStation": "札幌駅",
+   "hotelArea": "北海道",
+   "hotelSearch": "平田内温泉",
+   "hotelKeyword": "平田内温泉",
+   "travelTime": {
+    "tokyo": 491,
+    "nagoya": 552,
+    "osaka": 609,
+    "takamatsu": 666,
+    "fukuoka": 821,
+    "wakayama": 639,
+    "mito": 536,
+    "maebashi": 551,
+    "takasaki": 551,
+    "hamamatsu": 582,
+    "gifu": 572,
+    "kofu": 581,
+    "shingu": 729,
+    "tanabe": 699,
+    "shirahama": 709,
+    "kushimoto": 729,
+    "tottori": 729,
+    "shimonoseki": 851,
+    "saga": 851,
+    "oita": 881,
+    "beppu": 891
+   },
+   "stayRecommendation": "1night",
+   "secondaryTransport": "bus",
+   "stayBias": "destination",
+   "airportHub": null,
+   "situations": [
+    "solo",
+    "couple",
+    "friends"
+   ],
+   "mapPoint": "平田内温泉",
+   "railGateway": "札幌駅",
+   "railNote": "バス",
+   "hasDirectFlight": false,
+   "airportGateway": null,
+   "busGateway": null,
+   "ferryGateway": null,
+   "gateways": [],
+   "access": {
+    "steps": []
+   },
+   "localAccess": null,
+   "_enriched": true,
+   "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%B9%B3%E7%94%B0%E5%86%85%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%B9%B3%E7%94%B0%E5%86%85%E6%B8%A9%E6%B3%89",
+   "bookingStation": null,
+   "mainSpot": "平田内温泉",
+   "stayArea": {
+    "rakuten": "平田内温泉",
+    "jalan": "札幌"
+   },
+   "hotelLinks": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+    "jalan": "https://www.jalan.net/010000/"
+   },
+   "tier": "area",
+   "icCard": "suica",
+   "tier2": "area",
+   "hubName": "札幌",
+   "unsplashUrl": "https://images.unsplash.com/photo-1777499701221-abf9b5c8072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODklMjAlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MjI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+   "unsplashThumbUrl": "https://images.unsplash.com/photo-1777499701221-abf9b5c8072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODklMjAlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MjI4Nnww&ixlib=rb-4.1.0&q=80&w=400",
+   "unsplashCredit": "Trac Vu",
+   "unsplashCreditUrl": "https://unsplash.com/@tracminhvu?utm_source=dokoiko&utm_medium=referral",
+   "unsplashPhotoUrl": "https://unsplash.com/photos/a-multi-story-building-beside-a-rocky-river-with-a-bridge-CBiaz2qB6uY?utm_source=dokoiko&utm_medium=referral",
+   "rentalCarRecommended": true,
+   "images": [
+    "/images/gen_北海_平田内温泉/main.jpg",
+    "/images/gen_北海_平田内温泉/spot-1.jpg"
+   ],
+   "reasonChips": [
+    "温泉",
+    "自然と過ごす",
+    "街歩き",
+    "グルメ",
+    "ひとり旅向け",
+    "カップル向け",
+    "友達と",
+    "温泉がおすすめ"
+   ],
+   "bestSeason": "冬",
+   "travelTimeEstimated": {
+    "wakayama": true,
+    "mito": true,
+    "maebashi": true,
+    "takasaki": true,
+    "hamamatsu": true,
+    "gifu": true,
+    "kofu": true,
+    "shingu": true,
+    "tanabe": true,
+    "shirahama": true,
+    "kushimoto": true,
+    "tottori": true,
+    "shimonoseki": true,
+    "saga": true,
+    "oita": true,
+    "beppu": true
+   }
+  },
+  {
+   "id": "gen_北海_樹海温泉",
+   "name": "樹海温泉",
+   "displayName": "樹海温泉",
+   "prefecture": "北海道",
+   "region": "北海道",
+   "lat": 42.86755556,
+   "lng": 142.15788889,
+   "destType": "onsen",
+   "hubCity": "札幌",
+   "fallbackCity": "札幌",
+   "isStayable": true,
+   "_generated": true,
+   "_source": "wikipedia",
+   "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "primary": [
+    "温泉"
+   ],
+   "secondary": [
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "weight": 1.55,
+   "stayPriority": "high",
+   "onsenLevel": 3,
+   "accessStation": "札幌駅",
+   "representativeStation": "札幌駅",
+   "railProvider": "ekinet",
+   "jrArea": "east",
+   "finalAccess": {
+    "type": "train",
+    "line": "在来線",
+    "to": "樹海温泉"
+   },
+   "transportHubs": {
+    "rail": "札幌駅",
+    "city": "札幌"
+   },
+   "gateway": null,
+   "departures": [
+    "札幌",
+    "仙台",
+    "東京",
+    "名古屋",
+    "大阪",
+    "広島",
+    "福岡",
+    "和歌山",
+    "釧路",
+    "帯広",
+    "北見"
+   ],
+   "isIsland": false,
+   "hub": "札幌",
+   "stayAllowed": [
+    "2night"
+   ],
+   "spots": [
+    {
+     "name": "樹海温泉",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
+     "description": "凍てつく冬の外気と湯気立つ浴場の温度差が大きく、扉を開けた瞬間から硫黄の濃い香りが漂う秘湯だ。",
+     "imageCredit": {
+      "author": "unknown",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "樹海公園",
+     "description": "北海道最大級のトドマツ林を持つ公園で、落ち葉の香る林床を歩きながら野生動物の足跡を探せる。",
+     "googleMapsQuery": "樹海公園 苫小牧市",
+     "imageUrl": "/images/spots/gen_北海_樹海温泉/1.jpg"
+    },
+    {
+     "name": "苫小牧樹海温泉キャンプ場周辺自然観察路",
+     "description": "樹齢150年超のトドマツが林立する散策路。野鳥の声を聞きながら、春のツツジや秋の苔むした倒木の緑を観察できる。",
+     "googleMapsQuery": "樹海温泉 苫小牧市 散策路",
+     "imageUrl": "/images/spots/gen_北海_樹海温泉/2.jpg",
+     "imageCredit": {
+      "author": "ignartonosbg",
+      "license": "Pixabay Content License",
+      "url": "https://pixabay.com/ja/photos/%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97-8260968/",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "ウトナイ湖野生動物保護区",
+     "description": "渡り鳥の中継地として知られる湖。春秋は数千羽のカモやガン類が群れ、双眼鏡で繊細な羽の色彩を観察できる。",
+     "googleMapsQuery": "ウトナイ湖野生動物保護区 苫小牧市",
+     "imageUrl": "/images/spots/gen_北海_樹海温泉/3.jpg",
+     "imageCredit": {
+      "author": "iTopLoveliness",
+      "license": "Pixabay Content License",
+      "url": "https://pixabay.com/ja/photos/%E3%82%A8%E3%83%AB%E3%82%AF-%E9%B9%BF-%E5%86%AC-%E9%9B%AA-%E8%87%AA%E7%84%B6-6835147/",
+      "attributionRequired": false
+     }
+    }
+   ],
+   "description": "北海道の森に潜む秘湯だ。最寄りは札幌駅で、バスでのアクセスも可能。冬がベストシーズンで、氷点下の外気と浴場の落差が体験の核心となる。樹海温泉の浴場は硫黄の香りが強く、観光地化されていない湯として知られる。周辺の樹海公園には北海道最大級のトドマツ林が広がり、樹齢150年超の木々が林立する自然観察路も整備されている。ウトナイ湖野生動物保護区では春秋に数千羽のカモやガン類が群れる光景を観察できます。東京からは約9時間15分。冬の防寒は本気で備えること。白い湯気と、トドマツの森。",
+   "catch": "樹海温泉で温泉に2回入って、部屋でゆっくりして寝る",
+   "requiresCar": false,
+   "type": "destination",
+   "subType": "onsen",
+   "city": "札幌",
+   "hubStation": "札幌駅",
+   "hotelArea": "北海道",
+   "hotelSearch": "樹海温泉",
+   "hotelKeyword": "樹海温泉",
+   "travelTime": {
+    "tokyo": 555,
+    "nagoya": 641,
+    "osaka": 706,
+    "takamatsu": 768,
+    "fukuoka": 932,
+    "wakayama": 736,
+    "mito": 600,
+    "maebashi": 615,
+    "takasaki": 615,
+    "hamamatsu": 671,
+    "gifu": 661,
+    "kofu": 645,
+    "shingu": 826,
+    "tanabe": 796,
+    "shirahama": 806,
+    "kushimoto": 826,
+    "tottori": 826,
+    "shimonoseki": 962,
+    "saga": 962,
+    "oita": 992,
+    "beppu": 1002
+   },
+   "stayRecommendation": "1night",
+   "secondaryTransport": "bus",
+   "stayBias": "destination",
+   "airportHub": null,
+   "situations": [
+    "solo",
+    "couple",
+    "friends"
+   ],
+   "mapPoint": "樹海温泉",
+   "railGateway": "札幌駅",
+   "railNote": "バス",
+   "hasDirectFlight": false,
+   "airportGateway": null,
+   "busGateway": null,
+   "ferryGateway": null,
+   "gateways": [],
+   "access": {
+    "steps": []
+   },
+   "localAccess": null,
+   "_enriched": true,
+   "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%A8%B9%E6%B5%B7%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%A8%B9%E6%B5%B7%E6%B8%A9%E6%B3%89",
+   "bookingStation": null,
+   "mainSpot": "樹海温泉",
+   "stayArea": {
+    "rakuten": "樹海温泉",
+    "jalan": "樹海温泉"
+   },
+   "hotelLinks": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+    "jalan": "https://www.jalan.net/010000/"
+   },
+   "tier": "area",
+   "icCard": "suica",
+   "tier2": "area",
+   "hubName": "札幌",
+   "rentalCarRecommended": true,
+   "images": [
+    "/images/gen_北海_樹海温泉/main.jpg",
+    "/images/gen_北海_樹海温泉/spot-1.jpg"
+   ],
+   "reasonChips": [
+    "温泉",
+    "自然と過ごす",
+    "街歩き",
+    "ひとり旅向け",
+    "カップル向け",
+    "友達と",
+    "温泉がおすすめ",
+    "街歩き向け"
+   ],
+   "bestSeason": "冬",
+   "travelTimeEstimated": {
+    "wakayama": true,
+    "mito": true,
+    "maebashi": true,
+    "takasaki": true,
+    "hamamatsu": true,
+    "gifu": true,
+    "kofu": true,
+    "shingu": true,
+    "tanabe": true,
+    "shirahama": true,
+    "kushimoto": true,
+    "tottori": true,
+    "shimonoseki": true,
+    "saga": true,
+    "oita": true,
+    "beppu": true
+   }
+  },
+  {
+   "id": "gen_北海_鹿の湯",
+   "name": "鹿の湯",
+   "displayName": "鹿の湯",
+   "prefecture": "北海道",
+   "region": "北海道",
+   "lat": 43.32861111,
+   "lng": 143.04444444,
+   "destType": "onsen",
+   "hubCity": "札幌",
+   "fallbackCity": "札幌",
+   "isStayable": true,
+   "_generated": true,
+   "_source": "wikipedia",
+   "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
+   "tags": [
+    "温泉",
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "primary": [
+    "温泉"
+   ],
+   "secondary": [
+    "自然",
+    "街歩き",
+    "冬"
+   ],
+   "weight": 1.55,
+   "stayPriority": "high",
+   "onsenLevel": 3,
+   "accessStation": "札幌駅",
+   "representativeStation": "札幌駅",
+   "railProvider": "ekinet",
+   "jrArea": "east",
+   "finalAccess": {
+    "type": "train",
+    "line": "在来線",
+    "to": "鹿の湯"
+   },
+   "transportHubs": {
+    "rail": "札幌駅",
+    "city": "札幌"
+   },
+   "gateway": null,
+   "departures": [
+    "札幌",
+    "仙台",
+    "東京",
+    "名古屋",
+    "大阪",
+    "広島",
+    "福岡",
+    "和歌山",
+    "釧路",
+    "帯広",
+    "北見"
+   ],
+   "isIsland": false,
+   "hub": "札幌",
+   "stayAllowed": [
+    "2night"
+   ],
+   "spots": [
+    {
+     "name": "鹿の湯",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hotel_Shika-no-Yu.JPG/1280px-Hotel_Shika-no-Yu.JPG",
+     "description": "源泉約50度、シャワーも石けんもない素朴な湯処で、温泉本来の熱さと野趣を全身で体感できる。",
+     "imageCredit": {
+      "author": "禁樹なずな",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Shika-no-Yu.JPG",
+      "attributionRequired": true
+     }
+    },
+    {
+     "name": "層雲峡温泉街",
+     "description": "黒岳ロープウェイ麓の温泉街。渓谷美と宿が共存し、秋は深紅に染まる岸壁、冬は神秘的な霧氷の渓谷を楽しめる。",
+     "googleMapsQuery": "層雲峡温泉街 北海道上川町",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sounkyo_Promenade.JPG/1280px-Sounkyo_Promenade.JPG",
+     "imageCredit": {
+      "author": "Soica2001 (talk)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sounkyo_Promenade.JPG",
+      "attributionRequired": false
+     }
+    },
+    {
+     "name": "大雪山旭岳ロープウェイ",
+     "description": "北海道最高峰・旭岳へ向かうロープウェイ。高低差1300メートルの景観変化と、晴天時の360度の山岳眺望が圧巻。",
+     "googleMapsQuery": "大雪山旭岳ロープウェイ 上川町",
+     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/140724_Asahidake_Ropeway_Hokkaido_Japan02s5.jpg/1280px-140724_Asahidake_Ropeway_Hokkaido_Japan02s5.jpg",
+     "imageCredit": {
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:140724_Asahidake_Ropeway_Hokkaido_Japan02s5.jpg",
+      "attributionRequired": true
+     }
+    },
+    {
+     "name": "銀河・銀泉の滝",
+     "description": "落差120メートル超の2本の滝が並び立つ層雲峡の双瀑。冬は氷結した青白い氷の造形や滝つぼ付近の樹氷を観賞できる。",
+     "googleMapsQuery": "銀河銀泉の滝 層雲峡",
+     "imageUrl": "/images/spots/gen_北海_鹿の湯/3.jpg"
+    }
+   ],
+   "description": "登別温泉にある鹿の湯は、源泉約50度・シャワーなし・石けん禁止の素朴な湯処だ。地獄谷を越えた先に湧く熱い源泉で、温泉の原点を全身で受ける。体は宿で洗ってから向かうのが正解。最寄りは登別駅だが、バスは本数が少ない。レンタカーが実用的だ。東京からは約9時間57分かかる。冬がベストシーズンで、湯気の白さと雪のコントラストが鮮烈。層雲峡温泉街まで足を延ばせば、落差120メートル超の銀河・銀泉の滝が冬に氷結した青白い造形を見せ、渓谷の霧氷と合わせて見応えがある。扉を開けた瞬間、湯気が顔にぶつかってくる。",
+   "catch": "鹿の湯で温泉に2回入って、部屋でゆっくりして寝る",
+   "requiresCar": false,
+   "type": "destination",
+   "subType": "onsen",
+   "city": "札幌",
+   "hubStation": "札幌駅",
+   "hotelArea": "北海道",
+   "hotelSearch": "鹿の湯",
+   "hotelKeyword": "鹿の湯",
+   "travelTime": {
+    "tokyo": 597,
+    "nagoya": 689,
+    "osaka": 756,
+    "takamatsu": 819,
+    "fukuoka": 985,
+    "wakayama": 786,
+    "mito": 642,
+    "maebashi": 657,
+    "takasaki": 657,
+    "hamamatsu": 719,
+    "gifu": 709,
+    "kofu": 687,
+    "shingu": 876,
+    "tanabe": 846,
+    "shirahama": 856,
+    "kushimoto": 876,
+    "tottori": 876,
+    "shimonoseki": 1015,
+    "saga": 1015,
+    "oita": 1045,
+    "beppu": 1055
+   },
+   "stayRecommendation": "1night",
+   "secondaryTransport": "bus",
+   "stayBias": "destination",
+   "airportHub": null,
+   "situations": [
+    "solo",
+    "couple",
+    "friends"
+   ],
+   "mapPoint": "鹿の湯",
+   "railGateway": "札幌駅",
+   "railNote": "バス",
+   "hasDirectFlight": false,
+   "airportGateway": null,
+   "busGateway": null,
+   "ferryGateway": null,
+   "gateways": [],
+   "access": {
+    "steps": []
+   },
+   "localAccess": null,
+   "_enriched": true,
+   "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%B9%BF%E3%81%AE%E6%B9%AF&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%B9%BF%E3%81%AE%E6%B9%AF",
+   "bookingStation": null,
+   "mainSpot": "鹿の湯",
+   "stayArea": {
+    "rakuten": "鹿の湯",
+    "jalan": "鹿の湯"
+   },
+   "hotelLinks": {
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
+    "jalan": "https://www.jalan.net/010000/"
+   },
+   "tier": "area",
+   "icCard": "suica",
+   "tier2": "area",
+   "hubName": "札幌",
+   "unsplashUrl": "https://images.unsplash.com/photo-1576823346260-2c77ee097aad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklQjklQkYlRTMlODElQUUlRTYlQjklQUYlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5OTM1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+   "unsplashThumbUrl": "https://images.unsplash.com/photo-1576823346260-2c77ee097aad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklQjklQkYlRTMlODElQUUlRTYlQjklQUYlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5OTM1Nnww&ixlib=rb-4.1.0&q=80&w=400",
+   "unsplashCredit": "Marek Okon",
+   "unsplashCreditUrl": "https://unsplash.com/@marekokon?utm_source=dokoiko&utm_medium=referral",
+   "unsplashPhotoUrl": "https://unsplash.com/photos/bare-trees-near-mountain-during-daytime-dyohdH2_RP0?utm_source=dokoiko&utm_medium=referral",
+   "rentalCarRecommended": true,
+   "images": [
+    "/images/gen_北海_鹿の湯/main.jpg",
+    "/images/gen_北海_鹿の湯/spot-1.jpg"
+   ],
+   "reasonChips": [
+    "絶景",
+    "温泉",
+    "紅葉",
+    "雪景色",
+    "自然と過ごす",
+    "街歩き",
+    "車なしOK",
+    "ひとり旅向け"
+   ],
+   "bestSeason": "冬",
+   "imageCredit": {
+    "author": "Snake Head 1995",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E3%81%AE%E6%B9%AF%EF%BC%88%E3%81%97%E3%81%8B%E3%81%AE%E3%82%86%EF%BC%89%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82P6270550.jpg",
+    "attributionRequired": true
+   },
+   "travelTimeEstimated": {
+    "wakayama": true,
+    "mito": true,
+    "maebashi": true,
+    "takasaki": true,
+    "hamamatsu": true,
+    "gifu": true,
+    "kofu": true,
+    "shingu": true,
+    "tanabe": true,
+    "shirahama": true,
+    "kushimoto": true,
+    "tottori": true,
+    "shimonoseki": true,
+    "saga": true,
+    "oita": true,
+    "beppu": true
+   }
+  }
+ ],
+ "lastmod": {
+  "gen_北海_金花湯": "2026-11-06",
+  "gen_北海_弁天台場": "2026-11-06",
+  "gen_北海_オソウシ温泉": "2026-11-06",
+  "gen_北海_平田内温泉": "2026-11-06",
+  "gen_北海_樹海温泉": "2026-11-06",
+  "gen_北海_鹿の湯": "2026-11-06"
+ },
+ "imageDims": {
+  "/images/gen_北海_金花湯/main.jpg": [
+   1600,
+   1200
+  ],
+  "/images/gen_北海_金花湯/spot-1.jpg": [
+   1229,
+   922
+  ],
+  "/images/spots/gen_北海_金花湯/1.jpg": [
+   1280,
+   852
+  ],
+  "/images/spots/gen_北海_金花湯/2.jpg": [
+   1280,
+   850
+  ],
+  "/images/gen_北海_弁天台場/main.jpg": [
+   1600,
+   2844
+  ],
+  "/images/gen_北海_弁天台場/spot-1.jpg": [
+   1600,
+   2844
+  ],
+  "/images/spots/gen_北海_弁天台場/1.jpg": [
+   1210,
+   1280
+  ],
+  "/images/spots/gen_北海_弁天台場/2.jpg": [
+   1024,
+   768
+  ],
+  "/images/gen_北海_オソウシ温泉/main.jpg": [
+   1600,
+   1198
+  ],
+  "/images/gen_北海_オソウシ温泉/spot-1.jpg": [
+   1600,
+   1200
+  ],
+  "/images/spots/gen_北海_オソウシ温泉/1.jpg": [
+   960,
+   1280
+  ],
+  "/images/spots/gen_北海_オソウシ温泉/2.jpg": [
+   1280,
+   615
+  ],
+  "/images/gen_北海_平田内温泉/main.jpg": [
+   1190,
+   893
+  ],
+  "/images/gen_北海_平田内温泉/spot-1.jpg": [
+   1190,
+   893
+  ],
+  "/images/spots/gen_北海_平田内温泉/1.jpg": [
+   1280,
+   991
+  ],
+  "/images/spots/gen_北海_平田内温泉/2.jpg": [
+   1280,
+   960
+  ],
+  "/images/gen_北海_樹海温泉/spot-1.jpg": [
+   1600,
+   986
+  ],
+  "/images/spots/gen_北海_樹海温泉/1.jpg": [
+   1280,
+   888
+  ],
+  "/images/spots/gen_北海_樹海温泉/2.jpg": [
+   1280,
+   853
+  ],
+  "/images/spots/gen_北海_樹海温泉/3.jpg": [
+   1280,
+   853
+  ],
+  "/images/gen_北海_鹿の湯/main.jpg": [
+   1280,
+   960
+  ],
+  "/images/gen_北海_鹿の湯/spot-1.jpg": [
+   1280,
+   960
+  ],
+  "/images/gen_北海_鹿の湯/spot-2.jpg": [
+   1600,
+   1118
+  ],
+  "/images/gen_北海_鹿の湯/spot-3.jpg": [
+   1280,
+   853
+  ],
+  "/images/spots/gen_北海_鹿の湯/1.jpg": [
+   1280,
+   720
+  ],
+  "/images/spots/gen_北海_鹿の湯/2.jpg": [
+   1280,
+   960
+  ],
+  "/images/spots/gen_北海_鹿の湯/3.jpg": [
+   1280,
+   853
+  ]
+ },
+ "quiz": {}
+}

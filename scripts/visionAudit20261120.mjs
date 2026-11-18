@@ -37,6 +37,7 @@ if (mode === 'count') {
   for (const i of items) { c[i.種類]++; if (i.local) c.ローカル++; else c.外部URL++; }
   console.log(JSON.stringify({ 合計: items.length, ...c })); process.exit(0);
 }
+const UA2 = 'tabidokoiko.com image-audit/1.0 (site maintenance; contact: https://tabidokoiko.com/contact/)';
 const UA = 'Mozilla/5.0 (compatible; dokoiko-image-audit/1.0; site maintenance)';
 const shrink = async (buf) => (await sharp(buf).rotate().resize({ width: 512, height: 512, fit: 'inside' }).jpeg({ quality: 70 }).toBuffer()).toString('base64');
 const CACHE = '/private/tmp/claude-501/scr/wm'; fs.mkdirSync(CACHE, { recursive: true });
@@ -76,14 +77,14 @@ if (mode === 'fetch') {   // Wikimedia は 429（Retry-After 120秒）を返す�
   let n = 0; const seen = new Set();
   for (const it of order) {
     if (Date.now() - t0 > limitMs) break; if (seen.has(it.url) || fs.existsSync(cpath(it.url))) continue; seen.add(it.url); let got = false;
-    for (let t = 0; t < 4 && !got && Date.now() - t0 < limitMs; t++) {
-      const r = await fetch(it.url, { headers: { 'user-agent': 'dokoiko-audit/1.0 (site maintenance)' } });
+    for (let t = 0; t < 12 && !got && Date.now() - t0 < limitMs; t++) {
+      const r = await fetch(it.url, { headers: { 'user-agent': UA2 } });
       if (r.status === 429) { await new Promise((s) => setTimeout(s, (+r.headers.get('retry-after') || 120) * 1000 + 1000)); continue; }
       if (!r.ok) break;
       fs.writeFileSync(cpath(it.url), Buffer.from(await r.arrayBuffer())); got = true; n++;
     }
     if (n % 20 === 0 && n) console.log(`取得 ${n}（${Math.round((Date.now() - t0) / 60000)}分）`);
-    await new Promise((s) => setTimeout(s, 3000));
+    await new Promise((s) => setTimeout(s, 1200));
   }
   console.log(`取得終了 ${n} 枚（${Math.round((Date.now() - t0) / 60000)}分）。キャッシュ合計 ${fs.readdirSync(CACHE).length}`); process.exit(0);
 }

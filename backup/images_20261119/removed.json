@@ -1,0 +1,1620 @@
+{
+ "外した": [
+  {
+   "key": "ainan|spot|正木海岸",
+   "種類": "見どころ",
+   "旅先": "愛南",
+   "見どころ": "正木海岸",
+   "外した画像": "/images/spots/ainan/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "古攝古香",
+    "license": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/120532743@N04/33092619108",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "taketa|spot|岡城跡",
+   "種類": "見どころ",
+   "旅先": "竹田",
+   "見どころ": "岡城跡",
+   "外した画像": "/images/spots/taketa/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "yakake|spot|街並み散策",
+   "種類": "見どころ",
+   "旅先": "矢掛",
+   "見どころ": "街並み散策",
+   "外した画像": "/images/spots/yakake/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "nago|spot|名護城跡",
+   "種類": "見どころ",
+   "旅先": "名護",
+   "見どころ": "名護城跡",
+   "外した画像": "/images/spots/nago/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "tsuruoka-kinzan|spot|金山杉森",
+   "種類": "見どころ",
+   "旅先": "金山町",
+   "見どころ": "金山杉森",
+   "外した画像": "/images/spots/tsuruoka-kinzan/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "ibigview",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E9%9B%AA%E5%B1%B1-%E3%83%9E%E3%82%A4%E3%83%AA%E9%9B%AA%E5%B1%B1-%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1-2085027/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_納沙布岬|spot|根室市歴史と民俗の館",
+   "種類": "見どころ",
+   "旅先": "納沙布岬",
+   "見どころ": "根室市歴史と民俗の館",
+   "外した画像": "/images/spots/gen_北海_納沙布岬/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Walkerssk",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%A8%E3%83%83%E3%83%95%E3%82%A7%E3%83%AB%E5%A1%94-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-1784212/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_太田山神社|spot|寺下遺跡公園",
+   "種類": "見どころ",
+   "旅先": "太田山神社",
+   "見どころ": "寺下遺跡公園",
+   "外した画像": "/images/spots/gen_北海_太田山神社/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_茨城_偕楽園|spot|水戸城跡本丸跡広場",
+   "種類": "見どころ",
+   "旅先": "偕楽園",
+   "見どころ": "水戸城跡本丸跡広場",
+   "外した画像": "/images/spots/gen_茨城_偕楽園/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "WagnerAnne",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%99%E3%83%AB%E3%83%AA%E3%83%B3-%E4%B8%96%E7%95%8C%E6%99%82%E8%A8%88-5289802/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_茨城_笠間稲荷神社|spot|笠間城跡",
+   "種類": "見どころ",
+   "旅先": "笠間稲荷神社",
+   "見どころ": "笠間城跡",
+   "外した画像": "/images/spots/gen_茨城_笠間稲荷神社/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Istvan_Karoly_Bocs",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%9F%8E-%E5%9F%8E%E8%B7%A1-%E8%A8%98%E5%BF%B5%E7%A2%91-%E4%B8%AD%E9%96%93%E5%B9%B4%E9%BD%A2-6579254/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_川俣温泉|spot|中禅寺湖の西岸遊歩道",
+   "種類": "見どころ",
+   "旅先": "川俣温泉",
+   "見どころ": "中禅寺湖の西岸遊歩道",
+   "外した画像": "/images/spots/gen_栃木_川俣温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Sara32_jabar",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_湯西川温泉|spot|上滝沢不動滝",
+   "種類": "見どころ",
+   "旅先": "湯西川温泉",
+   "見どころ": "上滝沢不動滝",
+   "外した画像": "/images/spots/gen_栃木_湯西川温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "17144709",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E7%A0%A6-%E4%B8%8A-7837959/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_佐野プレミアム・アウトレット|spot|佐野厳島神社",
+   "種類": "見どころ",
+   "旅先": "佐野アウトレット",
+   "見どころ": "佐野厳島神社",
+   "外した画像": "/images/spots/gen_栃木_佐野プレミアム・アウトレット/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "AlexanderWeichsel",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E9%B3%A5%E5%B1%85-%E5%AF%BA-%E5%8E%B3%E5%B3%B6-%E6%B0%B4-9074037/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_群馬_川中温泉|spot|川中温泉 熊野皮膚科医クリニック跡",
+   "種類": "見どころ",
+   "旅先": "川中温泉",
+   "見どころ": "川中温泉 熊野皮膚科医クリニック跡",
+   "外した画像": "/images/spots/gen_群馬_川中温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "pen_ash",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%82%B4%E3%83%80-%E6%BB%9D-%E4%B8%89%E9%87%8D%E3%81%AE%E5%A1%94-%E7%86%8A%E9%87%8E%E5%8F%A4%E9%81%93-7868621/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_群馬_上牧温泉|spot|沼田城跡 公園",
+   "種類": "見どころ",
+   "旅先": "上牧温泉",
+   "見どころ": "沼田城跡 公園",
+   "外した画像": "/images/spots/gen_群馬_上牧温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Schwoaze",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%85%AC%E5%9C%92-%E6%9C%A8-%E3%83%81%E3%83%A3%E3%83%9A%E3%83%AB-%E5%9F%8E%E8%B7%A1-%E5%A4%8F-3588094/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_奥入瀬渓流温泉|spot|焼山の眺望台",
+   "種類": "見どころ",
+   "旅先": "奥入瀬渓流温泉",
+   "見どころ": "焼山の眺望台",
+   "外した画像": "/images/spots/gen_青森_奥入瀬渓流温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Ben_Kerckx",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B7%9D-%E6%97%A5%E6%B2%A1-%E4%B9%99%E5%A5%B3%E3%81%AE%E5%A1%94%E7%9C%BA%E6%9C%9B-4873198/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_蔦温泉|spot|蔦七沼遊歩道",
+   "種類": "見どころ",
+   "旅先": "蔦温泉",
+   "見どころ": "蔦七沼遊歩道",
+   "外した画像": "/images/spots/gen_青森_蔦温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Sara32_jabar",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "umi-jigoku|spot|子安の木",
+   "種類": "見どころ",
+   "旅先": "宇美八幡宮",
+   "見どころ": "子安の木",
+   "外した画像": "/images/spots/umi-jigoku/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Katsujiro Maekawa",
+    "license": "CC0 1.0",
+    "url": "https://www.flickr.com/photos/140296773@N07/51652243274",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gokayama-2|spot|こきりこ祭",
+   "種類": "見どころ",
+   "旅先": "五箇山・相倉合掌集落",
+   "見どころ": "こきりこ祭",
+   "外した画像": "/images/spots/gokayama-2/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "HIRAOKA,Yasunobu",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/29499350@N06/5261652579",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "shiga-otsu|spot|西塔",
+   "種類": "見どころ",
+   "旅先": "比叡山延暦寺",
+   "見どころ": "西塔",
+   "外した画像": "/images/spots/shiga-otsu/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "bryan...",
+    "license": "CC BY-SA 2.0",
+    "url": "https://www.flickr.com/photos/91049143@N00/13769276553",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "niche_福島_5|spot|八槻都々古別神社",
+   "種類": "見どころ",
+   "旅先": "棚倉城跡",
+   "見どころ": "八槻都々古別神社",
+   "外した画像": "/images/spots/niche_福島_5/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_鳥取_5|spot|三徳川沿いの渓谷散策路",
+   "種類": "見どころ",
+   "旅先": "小松温泉",
+   "見どころ": "三徳川沿いの渓谷散策路",
+   "外した画像": "/images/spots/niche_鳥取_5/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "beppu|spot|血の池地獄",
+   "種類": "見どころ",
+   "旅先": "別府",
+   "見どころ": "血の池地獄",
+   "外した画像": "/images/spots/beppu/4.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "jdblack",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E5%B2%A9-%E5%B1%B1-%E8%8D%89-%E3%83%88%E3%83%AC%E3%82%B9-8265937/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "takehara|spot|町並み保存地区",
+   "種類": "見どころ",
+   "旅先": "竹原",
+   "見どころ": "町並み保存地区",
+   "外した画像": "/images/spots/takehara/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "tsuruoka-kinzan|spot|金山の景観（重文化財）",
+   "種類": "見どころ",
+   "旅先": "金山町",
+   "見どころ": "金山の景観（重文化財）",
+   "外した画像": "/images/spots/tsuruoka-kinzan/0.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Chris_KIM",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%98%E3%83%9F%E3%82%A6%E3%83%97%E6%80%A7-%E7%A7%8B-%E9%9F%93%E5%B1%8B-%E6%96%87%E5%8C%96%E8%B2%A1-953103/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "tsuruoka-kinzan|spot|金山温泉",
+   "種類": "見どころ",
+   "旅先": "金山町",
+   "見どころ": "金山温泉",
+   "外した画像": "/images/spots/tsuruoka-kinzan/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_愛山渓温泉|spot|旭正園",
+   "種類": "見どころ",
+   "旅先": "愛山渓温泉",
+   "見どころ": "旭正園",
+   "外した画像": "/images/spots/gen_北海_愛山渓温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "IdaT",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%96%E3%83%89%E3%82%A6%E5%9C%92-%E8%BE%B2%E6%A5%AD-%E8%BE%B2%E5%A0%B4-%E7%A7%8B-8345243/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_愛山渓温泉|spot|愛山渓渓谷",
+   "種類": "見どころ",
+   "旅先": "愛山渓温泉",
+   "見どころ": "愛山渓渓谷",
+   "外した画像": "/images/spots/gen_北海_愛山渓温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "iankelsall1",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E6%B8%93-%E8%87%AA%E7%84%B6%E3%81%AE%E6%B8%93%E8%B0%B7-%E5%B3%A1%E8%B0%B7-3032431/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_然別湖畔温泉|spot|ナチュラリスト村",
+   "種類": "見どころ",
+   "旅先": "然別湖畔温泉",
+   "見どころ": "ナチュラリスト村",
+   "外した画像": "/images/spots/gen_北海_然別湖畔温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_天人峡温泉|spot|鮎の滝展望台",
+   "種類": "見どころ",
+   "旅先": "天人峡温泉",
+   "見どころ": "鮎の滝展望台",
+   "外した画像": "/images/spots/gen_北海_天人峡温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Z3RAJIRAIYA",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_濁川温泉|spot|朝日山荘跡と山頂展望台",
+   "種類": "見どころ",
+   "旅先": "濁川温泉",
+   "見どころ": "朝日山荘跡と山頂展望台",
+   "外した画像": "/images/spots/gen_北海_濁川温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Z3RAJIRAIYA",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_水無海浜温泉|spot|水無海岸",
+   "種類": "見どころ",
+   "旅先": "水無海浜温泉",
+   "見どころ": "水無海岸",
+   "外した画像": "/images/spots/gen_北海_水無海浜温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_谷地頭温泉|spot|函館山ロープウェイ麓駅周辺の古町商店街",
+   "種類": "見どころ",
+   "旅先": "谷地頭温泉",
+   "見どころ": "函館山ロープウェイ麓駅周辺の古町商店街",
+   "外した画像": "/images/spots/gen_北海_谷地頭温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "wal_172619",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_北海道|spot|層雲峡温泉",
+   "種類": "見どころ",
+   "旅先": "北海道",
+   "見どころ": "層雲峡温泉",
+   "外した画像": "/images/spots/gen_北海_北海道/3.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_知床国立公園|spot|五湖めぐりコース",
+   "種類": "見どころ",
+   "旅先": "知床国立公園",
+   "見どころ": "五湖めぐりコース",
+   "外した画像": "/images/spots/gen_北海_知床国立公園/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "IlonaBurschl",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E7%94%B0%E8%88%8E-%E8%87%AA%E7%84%B6-%E3%83%A9%E3%82%A4%E3%83%88-%E9%9B%B2-7901065/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_納沙布岬|spot|北太平洋シーサイドライン",
+   "種類": "見どころ",
+   "旅先": "納沙布岬",
+   "見どころ": "北太平洋シーサイドライン",
+   "外した画像": "/images/spots/gen_北海_納沙布岬/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "WolfBlur",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E7%81%AF%E5%8F%B0-%E3%83%B4%E3%82%A7%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%98%E3%83%BC%E3%83%90%E3%83%BC-%E6%B5%B7%E5%B2%B8-1392124/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_東川町|spot|東川町立文化ギャラリー",
+   "種類": "見どころ",
+   "旅先": "東川町",
+   "見どころ": "東川町立文化ギャラリー",
+   "外した画像": "/images/spots/gen_北海_東川町/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "nonmisvegliate",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%A4%A7%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC-%E8%A8%98%E5%BF%B5%E7%A2%91-4293985/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_白老温泉|spot|白老町立図書館＆郷土資料室",
+   "種類": "見どころ",
+   "旅先": "白老温泉",
+   "見どころ": "白老町立図書館＆郷土資料室",
+   "外した画像": "/images/spots/gen_北海_白老温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "TuendeBede",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%9B%B3%E6%9B%B8%E9%A4%A8-%E6%9C%AC-%E3%83%80%E3%83%96%E3%83%AA%E3%83%B3-2507902/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_天塩温泉|spot|天塩海岸の夕日ビーチ",
+   "種類": "見どころ",
+   "旅先": "天塩温泉",
+   "見どころ": "天塩海岸の夕日ビーチ",
+   "外した画像": "/images/spots/gen_北海_天塩温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_十勝川温泉|spot|豊頃町郷土資料館",
+   "種類": "見どころ",
+   "旅先": "十勝川温泉",
+   "見どころ": "豊頃町郷土資料館",
+   "外した画像": "/images/spots/gen_北海_十勝川温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_雷電温泉|spot|地獄谷展望台",
+   "種類": "見どころ",
+   "旅先": "雷電温泉",
+   "見どころ": "地獄谷展望台",
+   "外した画像": "/images/spots/gen_北海_雷電温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Z3RAJIRAIYA",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_花の拠点「はなふる」|spot|中山峠スカイライン",
+   "種類": "見どころ",
+   "旅先": "花の拠点 はなふる",
+   "見どころ": "中山峠スカイライン",
+   "外した画像": "/images/spots/gen_北海_花の拠点「はなふる」/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "MemoryCatcher",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B8%82-%E6%B5%B7%E5%B2%B8-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3-4742329/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_沙流川温泉|spot|沙流川渓谷",
+   "種類": "見どころ",
+   "旅先": "沙流川温泉",
+   "見どころ": "沙流川渓谷",
+   "外した画像": "/images/spots/gen_北海_沙流川温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_初山別温泉|spot|初山別灯台",
+   "種類": "見どころ",
+   "旅先": "初山別温泉",
+   "見どころ": "初山別灯台",
+   "外した画像": "/images/spots/gen_北海_初山別温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_初山別温泉|spot|初山別村民浜海水浴場",
+   "種類": "見どころ",
+   "旅先": "初山別温泉",
+   "見どころ": "初山別村民浜海水浴場",
+   "外した画像": "/images/spots/gen_北海_初山別温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "amicud",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E6%B5%B7-%E3%83%93%E3%83%BC%E3%83%81-%E5%A4%8F-%E6%9B%B2-%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4-2267020/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_初山別温泉|spot|初山別村暑寒別岳",
+   "種類": "見どころ",
+   "旅先": "初山別温泉",
+   "見どころ": "初山別村暑寒別岳",
+   "外した画像": "/images/spots/gen_北海_初山別温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_茨城_西山荘|spot|大子町歴史民俗資料館",
+   "種類": "見どころ",
+   "旅先": "西山荘",
+   "見どころ": "大子町歴史民俗資料館",
+   "外した画像": "/images/spots/gen_茨城_西山荘/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "gavinseim",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B8%82-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E5%A4%9C-%E6%95%99%E4%BC%9A-3116989/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_茨城_鹿島神宮|spot|鹿島神宮の参道商店街",
+   "種類": "見どころ",
+   "旅先": "鹿島神宮",
+   "見どころ": "鹿島神宮の参道商店街",
+   "外した画像": "/images/spots/gen_茨城_鹿島神宮/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "wal_172619",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_川俣温泉|spot|川俣大滝",
+   "種類": "見どころ",
+   "旅先": "川俣温泉",
+   "見どころ": "川俣大滝",
+   "外した画像": "/images/spots/gen_栃木_川俣温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "jiaxf111",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%8A%E3%82%A4%E3%82%A2%E3%82%AC%E3%83%A9%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%82%BA-%E5%A4%A7%E6%BB%9D-3515261/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_日光湯元温泉|spot|日光山輪王寺 大猷院廟",
+   "種類": "見どころ",
+   "旅先": "日光湯元温泉",
+   "見どころ": "日光山輪王寺 大猷院廟",
+   "外した画像": "/images/spots/gen_栃木_日光湯元温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "mripa",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%A0-%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%BC%E3%83%89-%E5%A4%A7-2374096/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_湯西川温泉|spot|落合橋（竜王の滝展望台）",
+   "種類": "見どころ",
+   "旅先": "湯西川温泉",
+   "見どころ": "落合橋（竜王の滝展望台）",
+   "外した画像": "/images/spots/gen_栃木_湯西川温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Z3RAJIRAIYA",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_殺生石|spot|八幡温泉 玉の湯",
+   "種類": "見どころ",
+   "旅先": "殺生石",
+   "見どころ": "八幡温泉 玉の湯",
+   "外した画像": "/images/spots/gen_栃木_殺生石/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "LoggaWiggler",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_宇都宮城|spot|大谷観音",
+   "種類": "見どころ",
+   "旅先": "宇都宮城",
+   "見どころ": "大谷観音",
+   "外した画像": "/images/spots/gen_栃木_宇都宮城/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "t-miki",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/8305862@N07/32738857675",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_栃木_宇都宮二荒山神社|spot|大谷石採石場地下坑道ツアー",
+   "種類": "見どころ",
+   "旅先": "宇都宮二荒山神社",
+   "見どころ": "大谷石採石場地下坑道ツアー",
+   "外した画像": "/images/spots/gen_栃木_宇都宮二荒山神社/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "dexmac",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%88%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%8A-%E6%8E%A1%E7%9F%B3%E5%A0%B4-%E5%A4%A7%E7%90%86%E7%9F%B3-4240688/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_太平山神社|spot|太平山栃木縣護国神社",
+   "種類": "見どころ",
+   "旅先": "太平山神社",
+   "見どころ": "太平山栃木縣護国神社",
+   "外した画像": "/images/spots/gen_栃木_太平山神社/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_群馬_川中温泉|spot|利根川渓谷遊歩道（川中～後閑区間）",
+   "種類": "見どころ",
+   "旅先": "川中温泉",
+   "見どころ": "利根川渓谷遊歩道（川中～後閑区間）",
+   "外した画像": "/images/spots/gen_群馬_川中温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Sara32_jabar",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_群馬_敷島温泉|spot|敷島峡",
+   "種類": "見どころ",
+   "旅先": "敷島温泉",
+   "見どころ": "敷島峡",
+   "外した画像": "/images/spots/gen_群馬_敷島温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_群馬_花敷温泉|spot|中ノ条温泉街 六合地区",
+   "種類": "見どころ",
+   "旅先": "花敷温泉",
+   "見どころ": "中ノ条温泉街 六合地区",
+   "外した画像": "/images/spots/gen_群馬_花敷温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Doquocminhttxvn",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%86%E3%83%A9%E3%82%B9-%E9%BB%84%E9%87%91%E8%89%B2%E3%81%AE%E7%94%B0%E3%82%93%E3%81%BC-8148062/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_群馬_万座温泉|spot|万座ハイウェイオアシス",
+   "種類": "見どころ",
+   "旅先": "万座温泉",
+   "見どころ": "万座ハイウェイオアシス",
+   "外した画像": "/images/spots/gen_群馬_万座温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Tubbn",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%96%E3%83%BC%E3%82%B6%E3%83%BC%E3%83%91%E3%82%B9-%E3%83%90%E3%83%96%E3%82%B5%E3%83%BC%E3%83%88%E3%83%83%E3%83%97-1663543/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_群馬_万座温泉|spot|志賀高原との境界展望地",
+   "種類": "見どころ",
+   "旅先": "万座温泉",
+   "見どころ": "志賀高原との境界展望地",
+   "外した画像": "/images/spots/gen_群馬_万座温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Z3RAJIRAIYA",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_オーロラ温泉|spot|天塩川流域の秘境谷",
+   "種類": "見どころ",
+   "旅先": "オーロラ温泉",
+   "見どころ": "天塩川流域の秘境谷",
+   "外した画像": "/images/spots/gen_北海_オーロラ温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_奥美利河温泉|spot|奥美利河温泉駅",
+   "種類": "見どころ",
+   "旅先": "奥美利河温泉",
+   "見どころ": "奥美利河温泉駅",
+   "外した画像": "/images/spots/gen_北海_奥美利河温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_瀬戸瀬温泉|spot|瀬戸瀬川渓谷",
+   "種類": "見どころ",
+   "旅先": "瀬戸瀬温泉",
+   "見どころ": "瀬戸瀬川渓谷",
+   "外した画像": "/images/spots/gen_北海_瀬戸瀬温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_石狩弁天社|spot|厚田村望郷の丘",
+   "種類": "見どころ",
+   "旅先": "石狩弁天社",
+   "見どころ": "厚田村望郷の丘",
+   "外した画像": "/images/spots/gen_北海_石狩弁天社/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "analogicus",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3-%E6%9D%91-%E3%82%AB%E3%83%AB%E3%83%91%E3%83%88%E3%82%B9-%E4%B8%98-3384386/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_札幌八幡宮|spot|円山公園",
+   "種類": "見どころ",
+   "旅先": "札幌八幡宮",
+   "見どころ": "円山公園",
+   "外した画像": "/images/spots/gen_北海_札幌八幡宮/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_青森_青荷温泉|spot|国道103号線沿い 滝の湯",
+   "種類": "見どころ",
+   "旅先": "青荷温泉",
+   "見どころ": "国道103号線沿い 滝の湯",
+   "外した画像": "/images/spots/gen_青森_青荷温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Joe66",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%9B%BD%E9%81%9366%E5%8F%B7%E7%B7%9A-%E9%81%93%E8%B7%AF%E6%A8%99%E8%AD%98-%E7%B1%B3%E5%9B%BD-1889663/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_青荷温泉|spot|七滝沢渓谷",
+   "種類": "見どころ",
+   "旅先": "青荷温泉",
+   "見どころ": "七滝沢渓谷",
+   "外した画像": "/images/spots/gen_青森_青荷温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_青森_稲垣温泉|spot|つがる市稲垣地域の歴史民俗資料館",
+   "種類": "見どころ",
+   "旅先": "稲垣温泉",
+   "見どころ": "つがる市稲垣地域の歴史民俗資料館",
+   "外した画像": "/images/spots/gen_青森_稲垣温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "deranho",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E5%B8%82-%E5%A4%9C-%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88-7458934/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_落合温泉|spot|落合温泉近傍の渓谷探勝路",
+   "種類": "見どころ",
+   "旅先": "落合温泉",
+   "見どころ": "落合温泉近傍の渓谷探勝路",
+   "外した画像": "/images/spots/gen_青森_落合温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "LoggaWiggler",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_落合温泉|spot|落合温泉周辺の北股川の滝",
+   "種類": "見どころ",
+   "旅先": "落合温泉",
+   "見どころ": "落合温泉周辺の北股川の滝",
+   "外した画像": "/images/spots/gen_青森_落合温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "LoggaWiggler",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_黄金崎不老不死温泉|spot|権現崎灯台",
+   "種類": "見どころ",
+   "旅先": "黄金崎不老不死温泉",
+   "見どころ": "権現崎灯台",
+   "外した画像": "/images/spots/gen_青森_黄金崎不老不死温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_青森_谷地温泉|spot|谷地温泉周辺の白糠火山群",
+   "種類": "見どころ",
+   "旅先": "谷地温泉",
+   "見どころ": "谷地温泉周辺の白糠火山群",
+   "外した画像": "/images/spots/gen_青森_谷地温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Hans",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E9%96%93%E6%AC%A0%E6%B3%89-%E3%83%90%E3%83%8D-%E3%82%B9%E3%83%88%E3%83%AD%E3%83%83%E3%82%AF%E3%83%AB%E9%96%93%E6%AC%A0%E6%B3%89-3242008/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_谷地温泉|spot|谷地温泉駅と周辺の廃線跡",
+   "種類": "見どころ",
+   "旅先": "谷地温泉",
+   "見どころ": "谷地温泉駅と周辺の廃線跡",
+   "外した画像": "/images/spots/gen_青森_谷地温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "강춘성",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E9%83%BD%E5%B8%82-%E6%B5%B7-%E7%A9%BA-%E9%9B%B2-%E5%BB%83%E7%B7%9A-7492749/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "onuma|spot|大島",
+   "種類": "見どころ",
+   "旅先": "大沼公園",
+   "見どころ": "大島",
+   "外した画像": "/images/spots/onuma/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "The original uploader was Tomohito at Japanese Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/w/index.php?curid=3956994",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "uradome|spot|網代港",
+   "種類": "見どころ",
+   "旅先": "浦富海岸",
+   "見どころ": "網代港",
+   "外した画像": "/images/spots/uradome/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "kawaji-onsen|spot|黄金橋",
+   "種類": "見どころ",
+   "旅先": "川治温泉",
+   "見どころ": "黄金橋",
+   "外した画像": "/images/spots/kawaji-onsen/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "ogose|spot|五大尊",
+   "種類": "見どころ",
+   "旅先": "越生",
+   "見どころ": "五大尊",
+   "外した画像": "/images/spots/ogose/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "miharu-takizakura|spot|三春町歴史民俗資料館",
+   "種類": "見どころ",
+   "旅先": "三春滝桜",
+   "見どころ": "三春町歴史民俗資料館",
+   "外した画像": "/images/spots/miharu-takizakura/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "ibusuki-onsen|spot|砂むし温泉",
+   "種類": "見どころ",
+   "旅先": "指宿温泉",
+   "見どころ": "砂むし温泉",
+   "外した画像": "/images/spots/ibusuki-onsen/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "hitsujiyama|spot|見晴らしの丘",
+   "種類": "見どころ",
+   "旅先": "羊山公園の芝桜",
+   "見どころ": "見晴らしの丘",
+   "外した画像": "/images/spots/hitsujiyama/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "zuiganji|spot|五大堂",
+   "種類": "見どころ",
+   "旅先": "瑞巌寺",
+   "見どころ": "五大堂",
+   "外した画像": "/images/spots/zuiganji/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "ise-okage|spot|宇治橋通り",
+   "種類": "見どころ",
+   "旅先": "おかげ横丁",
+   "見どころ": "宇治橋通り",
+   "外した画像": "/images/spots/ise-okage/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "hakuto-tottori|spot|道の駅白兎",
+   "種類": "見どころ",
+   "旅先": "白兎神社",
+   "見どころ": "道の駅白兎",
+   "外した画像": "/images/spots/hakuto-tottori/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "fukui-castle|spot|一筆啓上",
+   "種類": "見どころ",
+   "旅先": "丸岡城",
+   "見どころ": "一筆啓上",
+   "外した画像": "/images/spots/fukui-castle/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_秋田_1|spot|阿仁川渓谷",
+   "種類": "見どころ",
+   "旅先": "湯瀬温泉",
+   "見どころ": "阿仁川渓谷",
+   "外した画像": "/images/spots/niche_秋田_1/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_山形_1|spot|べにばな温泉センター",
+   "種類": "見どころ",
+   "旅先": "白鷹町べにばな温泉郷",
+   "見どころ": "べにばな温泉センター",
+   "外した画像": "/images/spots/niche_山形_1/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_栃木_4|spot|那珂川河岸段丘からの眺望",
+   "種類": "見どころ",
+   "旅先": "馬頭温泉郷",
+   "見どころ": "那珂川河岸段丘からの眺望",
+   "外した画像": "/images/spots/niche_栃木_4/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_東京_6|spot|園内・大正時代洋館カフェ",
+   "種類": "見どころ",
+   "旅先": "江戸東京たてもの園",
+   "見どころ": "園内・大正時代洋館カフェ",
+   "外した画像": "/images/spots/niche_東京_6/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_長野_2|spot|芭蕉記念館・坂本家",
+   "種類": "見どころ",
+   "旅先": "馬籠宿",
+   "見どころ": "芭蕉記念館・坂本家",
+   "外した画像": "/images/spots/niche_長野_2/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_岐阜_7|spot|集落周辺の里山トレッキング",
+   "種類": "見どころ",
+   "旅先": "春日集落",
+   "見どころ": "集落周辺の里山トレッキング",
+   "外した画像": "/images/spots/niche_岐阜_7/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_静岡_2|spot|須走温泉",
+   "種類": "見どころ",
+   "旅先": "須走温泉",
+   "見どころ": "須走温泉",
+   "外した画像": "/images/spots/niche_静岡_2/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_奈良_4|spot|白川ダム周辺遊歩道",
+   "種類": "見どころ",
+   "旅先": "上北山村",
+   "見どころ": "白川ダム周辺遊歩道",
+   "外した画像": "/images/spots/niche_奈良_4/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_和歌山_1|spot|醤油蔵の町並み",
+   "種類": "見どころ",
+   "旅先": "湯浅醤油蔵と古い町並み",
+   "見どころ": "醤油蔵の町並み",
+   "外した画像": "/images/spots/niche_和歌山_1/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_和歌山_3|spot|北山温泉",
+   "種類": "見どころ",
+   "旅先": "北山村いかだ下り",
+   "見どころ": "北山温泉",
+   "外した画像": "/images/spots/niche_和歌山_3/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "INABA Tomoaki",
+    "license": "CC BY-SA 2.0",
+    "url": "https://www.flickr.com/photos/30896016@N04/15294296411",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "niche_鳥取_1|spot|東郷湖畔の露天風呂",
+   "種類": "見どころ",
+   "旅先": "東郷湖",
+   "見どころ": "東郷湖畔の露天風呂",
+   "外した画像": "/images/spots/niche_鳥取_1/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "fukushima|spot|飯坂温泉",
+   "種類": "見どころ",
+   "旅先": "福島",
+   "見どころ": "飯坂温泉",
+   "外した画像": "/images/spots/fukushima/3.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "beppu|spot|明礬温泉",
+   "種類": "見どころ",
+   "旅先": "別府",
+   "見どころ": "明礬温泉",
+   "外した画像": "/images/spots/beppu/5.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "tathanhtuan",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "biei|spot|北の国から",
+   "種類": "見どころ",
+   "旅先": "美瑛",
+   "見どころ": "北の国から",
+   "外した画像": "/images/spots/biei/4.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "anan|spot|薬王寺",
+   "種類": "見どころ",
+   "旅先": "阿南",
+   "見どころ": "薬王寺",
+   "外した画像": "/images/spots/anan/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_豊富温泉|spot|豊富温泉郷 兜沼",
+   "種類": "見どころ",
+   "旅先": "豊富温泉",
+   "見どころ": "豊富温泉郷 兜沼",
+   "外した画像": "/images/spots/gen_北海_豊富温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "congerdesign",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%83%97%E3%83%AA%E3%82%AB-%E9%87%8E%E8%8F%9C-%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E9%87%8E%E8%8F%9C-639393/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_奥尻島|spot|青苑の館",
+   "種類": "見どころ",
+   "旅先": "奥尻島",
+   "見どころ": "青苑の館",
+   "外した画像": "/images/spots/gen_北海_奥尻島/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "suju-foto",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%82%A6%E3%83%A0-%E9%9D%92%E3%81%A8%E9%BB%84%E8%89%B2%E3%81%AE%E3%82%B3%E3%83%B3%E3%82%B4%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B3-3695678/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_焼尻島|spot|焼尻島郷土資料館",
+   "種類": "見どころ",
+   "旅先": "焼尻島",
+   "見どころ": "焼尻島郷土資料館",
+   "外した画像": "/images/spots/gen_北海_焼尻島/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_十勝千年の森|spot|生活工芸館",
+   "種類": "見どころ",
+   "旅先": "十勝千年の森",
+   "見どころ": "生活工芸館",
+   "外した画像": "/images/spots/gen_北海_十勝千年の森/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_北見温泉|spot|北見総合振興局舎周辺散策路",
+   "種類": "見どころ",
+   "旅先": "北見温泉",
+   "見どころ": "北見総合振興局舎周辺散策路",
+   "外した画像": "/images/spots/gen_北海_北見温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "GoldBJJ",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/bjj-%E6%9F%94%E8%A1%93-%E7%B7%8F%E5%90%88%E6%A0%BC%E9%97%98%E6%8A%80-8111390/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_北見温泉|spot|北見市立美術館",
+   "種類": "見どころ",
+   "旅先": "北見温泉",
+   "見どころ": "北見市立美術館",
+   "外した画像": "/images/spots/gen_北海_北見温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "白菜 / Grace",
+    "license": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/52107254@N05/51748316871",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_北海_天塩川温泉|spot|天塩川源流部の渓谷歩道",
+   "種類": "見どころ",
+   "旅先": "天塩川温泉",
+   "見どころ": "天塩川源流部の渓谷歩道",
+   "外した画像": "/images/spots/gen_北海_天塩川温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "chris_muschard",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E6%AD%A9%E8%A1%8C%E8%80%85-%E6%AD%A9%E3%81%8F-%E6%AD%A9%E9%81%93-%E8%88%97%E8%A3%85-%E5%B8%82-7359030/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_びふか温泉|spot|美深町農業遺産体験施設",
+   "種類": "見どころ",
+   "旅先": "びふか温泉",
+   "見どころ": "美深町農業遺産体験施設",
+   "外した画像": "/images/spots/gen_北海_びふか温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_さるふつ温泉|spot|猿浦漁港",
+   "種類": "見どころ",
+   "旅先": "さるふつ温泉",
+   "見どころ": "猿浦漁港",
+   "外した画像": "/images/spots/gen_北海_さるふつ温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_雷電温泉|spot|雷電火山群",
+   "種類": "見どころ",
+   "旅先": "雷電温泉",
+   "見どころ": "雷電火山群",
+   "外した画像": "/images/spots/gen_北海_雷電温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "聲色藝#1唱做唸打翻超棒楚岫雲戲迷團",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/23588061@N06/8144583598",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_北海_十勝岳望岳台|spot|赤岳展望駐車公園",
+   "種類": "見どころ",
+   "旅先": "十勝岳望岳台",
+   "見どころ": "赤岳展望駐車公園",
+   "外した画像": "/images/spots/gen_北海_十勝岳望岳台/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "wal_172619",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%82%A4%E3%82%AF-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E9%A7%90%E8%BB%8A%E3%83%90%E3%82%A4%E3%82%AF-%E8%B5%A4-7859039/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_栃木_殺生石|spot|那須湯本温泉街",
+   "種類": "見どころ",
+   "旅先": "殺生石",
+   "見どころ": "那須湯本温泉街",
+   "外した画像": "/images/spots/gen_栃木_殺生石/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "tathanhtuan",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_群馬_川中温泉|spot|黒岩の不動滝",
+   "種類": "見どころ",
+   "旅先": "川中温泉",
+   "見どころ": "黒岩の不動滝",
+   "外した画像": "/images/spots/gen_群馬_川中温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "JillWellington",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E8%8A%B1-%E8%87%AA%E7%84%B6-%E3%83%95%E3%83%AD%E3%83%BC%E3%83%A9-%E8%8A%B1%E5%BC%81-%E5%A4%8F-3140492/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_臼別温泉|spot|臼別温泉周辺の山林景観",
+   "種類": "見どころ",
+   "旅先": "臼別温泉",
+   "見どころ": "臼別温泉周辺の山林景観",
+   "外した画像": "/images/spots/gen_北海_臼別温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_塩別温泉|spot|塩別川",
+   "種類": "見どころ",
+   "旅先": "塩別温泉",
+   "見どころ": "塩別川",
+   "外した画像": "/images/spots/gen_北海_塩別温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "monicore",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%83%92%E3%83%9E%E3%83%A9%E3%83%A4%E5%A1%A9-%E3%83%94%E3%83%B3%E3%82%AF%E3%81%AE%E5%A1%A9-%E8%AA%BF%E5%91%B3%E6%96%99-4316903/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_北海_瀬戸瀬温泉|spot|響山園地",
+   "種類": "見どころ",
+   "旅先": "瀬戸瀬温泉",
+   "見どころ": "響山園地",
+   "外した画像": "/images/spots/gen_北海_瀬戸瀬温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "gen_北海_浦臼神社|spot|月山湖",
+   "種類": "見どころ",
+   "旅先": "浦臼神社",
+   "見どころ": "月山湖",
+   "外した画像": "/images/spots/gen_北海_浦臼神社/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "聲色藝#1唱做唸打翻超棒楚岫雲戲迷團",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/23588061@N06/48038495621",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_青森_下風呂温泉|spot|風呂のくらや",
+   "種類": "見どころ",
+   "旅先": "下風呂温泉",
+   "見どころ": "風呂のくらや",
+   "外した画像": "/images/spots/gen_青森_下風呂温泉/1.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "Takashi(aes256)",
+    "license": "CC BY-SA 2.0",
+    "url": "https://www.flickr.com/photos/46151146@N04/9754149356",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_青森_城ヶ倉温泉|spot|猿倉温泉",
+   "種類": "見どころ",
+   "旅先": "城ヶ倉温泉",
+   "見どころ": "猿倉温泉",
+   "外した画像": "/images/spots/gen_青森_城ヶ倉温泉/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "tathanhtuan",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "gen_青森_馬門温泉|spot|南部煎餅の製造体験施設",
+   "種類": "見どころ",
+   "旅先": "馬門温泉",
+   "見どころ": "南部煎餅の製造体験施設",
+   "外した画像": "/images/spots/gen_青森_馬門温泉/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "marcinjozwiak",
+    "license": "Pixabay Content License",
+    "url": "https://pixabay.com/ja/photos/%E8%A3%BD%E9%80%A0-%E6%96%BD%E8%A8%AD-%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-4408573/",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "tobishima-island|spot|飛島灯台",
+   "種類": "見どころ",
+   "旅先": "飛島",
+   "見どころ": "飛島灯台",
+   "外した画像": "/images/spots/tobishima-island/0.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "maijou2501",
+    "license": "CC BY-SA 2.0",
+    "url": "https://www.flickr.com/photos/134416355@N07/51515530124",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "katsuoji|spot|勝尾寺本堂",
+   "種類": "見どころ",
+   "旅先": "勝尾寺",
+   "見どころ": "勝尾寺本堂",
+   "外した画像": "/images/spots/katsuoji/0.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "楚岫雲超卓圓台功~蹺功靠把~水袖唱唸",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/14800353@N07/8517718229",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "akiyoshido|spot|秋芳洞",
+   "種類": "見どころ",
+   "旅先": "秋芳洞",
+   "見どころ": "秋芳洞",
+   "外した画像": "/images/spots/akiyoshido/0.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "楚岫雲超卓圓台功~蹺功靠把~水袖唱唸",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/14800353@N07/8517700861",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "akiyoshido|spot|大正洞",
+   "種類": "見どころ",
+   "旅先": "秋芳洞",
+   "見どころ": "大正洞",
+   "外した画像": "/images/spots/akiyoshido/2.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "楚岫雲超卓圓台功~蹺功靠把~水袖唱唸",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/14800353@N07/8517700861",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tokushima-city|spot|瑞巌寺",
+   "種類": "見どころ",
+   "旅先": "徳島",
+   "見どころ": "瑞巌寺",
+   "外した画像": "/images/spots/tokushima-city/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "iwate-chuson|spot|金色堂",
+   "種類": "見どころ",
+   "旅先": "中尊寺",
+   "見どころ": "金色堂",
+   "外した画像": "/images/spots/iwate-chuson/0.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "白菜 / Grace",
+    "license": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/52107254@N05/51748316871",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "niche_秋田_4|spot|小坂鉱山資料館",
+   "種類": "見どころ",
+   "旅先": "小坂鉄道遺産と銀山跡",
+   "見どころ": "小坂鉱山資料館",
+   "外した画像": "/images/spots/niche_秋田_4/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_茨城_2|spot|岬の湯",
+   "種類": "見どころ",
+   "旅先": "磯原漁港",
+   "見どころ": "岬の湯",
+   "外した画像": "/images/spots/niche_茨城_2/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_新潟_6|spot|加茂の酒蔵群",
+   "種類": "見どころ",
+   "旅先": "加茂の古い酒蔵群と職人街",
+   "見どころ": "加茂の酒蔵群",
+   "外した画像": "/images/spots/niche_新潟_6/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_福井_2|spot|白山平泉寺",
+   "種類": "見どころ",
+   "旅先": "白山平泉寺門前町",
+   "見どころ": "白山平泉寺",
+   "外した画像": "/images/spots/niche_福井_2/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_滋賀_4|spot|外村宇兵衛邸・石馬寺周辺",
+   "種類": "見どころ",
+   "旅先": "五個荘近江商人の館",
+   "見どころ": "外村宇兵衛邸・石馬寺周辺",
+   "外した画像": "/images/spots/niche_滋賀_4/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_高知_1|spot|佐川町立青山文庫",
+   "種類": "見どころ",
+   "旅先": "佐川町の酒蔵と古い町並み",
+   "見どころ": "佐川町立青山文庫",
+   "外した画像": "/images/spots/niche_高知_1/1.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "niche_熊本_1|spot|川辺川沿いドライブコース",
+   "種類": "見どころ",
+   "旅先": "五木村の清流と棚田",
+   "見どころ": "川辺川沿いドライブコース",
+   "外した画像": "/images/spots/niche_熊本_1/0.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "aomori|spot|八甲田",
+   "種類": "見どころ",
+   "旅先": "青森",
+   "見どころ": "八甲田",
+   "外した画像": "/images/spots/aomori/3.jpg",
+   "ローカル": true,
+   "旧クレジット": {
+    "author": "prelude2000",
+    "license": "CC BY-ND 2.0",
+    "url": "https://www.flickr.com/photos/91794579@N05/12029608503",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "oita|spot|うみたまご",
+   "種類": "見どころ",
+   "旅先": "大分",
+   "見どころ": "うみたまご",
+   "外した画像": "/images/spots/oita/3.jpg",
+   "ローカル": true,
+   "旧クレジット": null
+  },
+  {
+   "key": "seki|hero",
+   "種類": "ヒーロー",
+   "旅先": "関",
+   "外したファイル": "/images/seki/main.jpg",
+   "旧クレジット": {
+    "author": "gundam2345",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E3%81%82%E3%82%93%E3%81%A9%E3%82%93%E3%81%BF%E3%81%93%E3%81%97%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%BC%E3%83%AB_(%E5%B2%90%E9%98%9C%E7%9C%8C%E9%96%A2%E5%B8%82).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "magome|spot|馬籠宿本陣跡",
+   "種類": "見どころ",
+   "旅先": "馬籠",
+   "見どころ": "馬籠宿本陣跡",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ohara-juku10s3200.jpg/500px-Ohara-juku10s3200.jpg",
+   "ローカル": false,
+   "旧クレジット": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Ohara-juku10s3200.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "eiheiji|spot|山門",
+   "種類": "見どころ",
+   "旅先": "永平寺",
+   "見どころ": "山門",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/170216_Chionin_Kyoto_Japan01.JPG/500px-170216_Chionin_Kyoto_Japan01.JPG",
+   "ローカル": false,
+   "旧クレジット": {
+    "author": "663highland",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:170216_Chionin_Kyoto_Japan01.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "unzen2|spot|小浜温泉（近隣）",
+   "種類": "見どころ",
+   "旅先": "雲仙温泉",
+   "見どころ": "小浜温泉（近隣）",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Japan_Tojinbo02n4592.jpg/500px-Japan_Tojinbo02n4592.jpg",
+   "ローカル": false,
+   "旧クレジット": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Tojinbo02n4592.jpg",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "見送り": [
+  {
+   "key": "gen_北海_金花湯|spot|赤倉温泉街の足湯",
+   "理由": "旅先データから外れたページ（転送ページ）"
+  },
+  {
+   "key": "gen_北海_平田内温泉|spot|晩生内の滝",
+   "理由": "旅先データから外れたページ（転送ページ）"
+  }
+ ]
+}

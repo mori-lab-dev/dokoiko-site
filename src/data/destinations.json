@@ -2036,25 +2036,11 @@
       },
       {
         "name": "血の池地獄",
-        "description": "酸化鉄で赤褐色に染まる湯面はまるで異世界。硫黄の香りとともに、別府ならではの地獄体験ができる。",
-        "imageUrl": "/images/spots/beppu/4.jpg",
-        "imageCredit": {
-          "author": "jdblack",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E8%87%AA%E7%84%B6-%E5%B2%A9-%E5%B1%B1-%E8%8D%89-%E3%83%88%E3%83%AC%E3%82%B9-8265937/",
-          "attributionRequired": false
-        }
+        "description": "酸化鉄で赤褐色に染まる湯面はまるで異世界。硫黄の香りとともに、別府ならではの地獄体験ができる。"
       },
       {
         "name": "明礬温泉",
-        "description": "石造りの家々から湯けむりが立つ、昭和の面影残る温泉地。小さな湯小屋で素朴な温泉文化に触れられる。",
-        "imageUrl": "/images/spots/beppu/5.jpg",
-        "imageCredit": {
-          "author": "tathanhtuan",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
-          "attributionRequired": false
-        }
+        "description": "石造りの家々から湯けむりが立つ、昭和の面影残る温泉地。小さな湯小屋で素朴な温泉文化に触れられる。"
       },
       {
         "name": "ハーモニーランド",
@@ -15935,8 +15921,7 @@
       },
       {
         "name": "北の国から",
-        "description": "ドラマの撮影地として知られる丘。雑木林と畑が綾なす地形が季節ごとに表情を変え、車窓から懐かしい風景を楽しめる。",
-        "imageUrl": "/images/spots/biei/4.jpg"
+        "description": "ドラマの撮影地として知られる丘。雑木林と畑が綾なす地形が季節ごとに表情を変え、車窓から懐かしい風景を楽しめる。"
       },
       {
         "name": "ラベンダー",
@@ -21938,8 +21923,7 @@
     "spots": [
       {
         "name": "町並み保存地区",
-        "description": "江戸後期の塩田で栄えた商家が軒を連ねる一画。格子窓越しの光と石畳に響く足音を感じながら、幕末前後の面影が残る小路を歩ける。",
-        "imageUrl": "/images/spots/takehara/0.jpg"
+        "description": "江戸後期の塩田で栄えた商家が軒を連ねる一画。格子窓越しの光と石畳に響く足音を感じながら、幕末前後の面影が残る小路を歩ける。"
       },
       {
         "name": "普明閣",
@@ -22394,14 +22378,7 @@
       },
       {
         "name": "馬籠宿本陣跡",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ohara-juku10s3200.jpg/500px-Ohara-juku10s3200.jpg",
-        "description": "火事で建物は焼失し、石畳の広場が残る本陣跡。何もないからこそ、往時の宿場の姿を想像しながら立ち止まれる。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:Ohara-juku10s3200.jpg",
-          "attributionRequired": true
-        }
+        "description": "火事で建物は焼失し、石畳の広場が残る本陣跡。何もないからこそ、往時の宿場の姿を想像しながら立ち止まれる。"
       },
       {
         "name": "清水屋資料館",
@@ -36293,14 +36270,7 @@
       },
       {
         "name": "山門",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/170216_Chionin_Kyoto_Japan01.JPG/500px-170216_Chionin_Kyoto_Japan01.JPG",
-        "description": "寛政年間に建立された高さ約13メートルの木造三門で、禅寺の玄関として参拝者を迎える。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:170216_Chionin_Kyoto_Japan01.JPG",
-          "attributionRequired": true
-        }
+        "description": "寛政年間に建立された高さ約13メートルの木造三門で、禅寺の玄関として参拝者を迎える。"
       }
     ],
     "shinkansenAccess": false,
@@ -40839,14 +40809,7 @@
       },
       {
         "name": "正木海岸",
-        "description": "木々を抜けると視界が開き、白い砂浜とエメラルドグリーンの海が現れる。人の少ない静かな浜を歩くことができる。",
-        "imageUrl": "/images/spots/ainan/1.jpg",
-        "imageCredit": {
-          "author": "古攝古香",
-          "license": "CC BY 2.0",
-          "url": "https://www.flickr.com/photos/120532743@N04/33092619108",
-          "attributionRequired": true
-        }
+        "description": "木々を抜けると視界が開き、白い砂浜とエメラルドグリーンの海が現れる。人の少ない静かな浜を歩くことができる。"
       },
       {
         "name": "内海",
@@ -41036,8 +40999,7 @@
     "spots": [
       {
         "name": "岡城跡",
-        "description": "標高325メートルに石垣が残る1185年築城の城跡。",
-        "imageUrl": "/images/spots/taketa/0.jpg"
+        "description": "標高325メートルに石垣が残る1185年築城の城跡。"
       },
       {
         "name": "竹田温泉",
@@ -45300,8 +45262,7 @@
       },
       {
         "name": "街並み散策",
-        "description": "旧山陽道沿いに格子窓、なまこ壁、白漆喰の古い町家が連なる。ぶらぶら歩くだけで宿場の面影に浸れる。",
-        "imageUrl": "/images/spots/yakake/2.jpg"
+        "description": "旧山陽道沿いに格子窓、なまこ壁、白漆喰の古い町家が連なる。ぶらぶら歩くだけで宿場の面影に浸れる。"
       }
     ],
     "shinkansenAccess": false,
@@ -56322,8 +56283,7 @@
     "spots": [
       {
         "name": "名護城跡",
-        "description": "石畳の坂を約20分登る城跡。地元の人の朝のウォーキングコースにもなっていて、観光地化されていない素の名護に触れられる。",
-        "imageUrl": "/images/spots/nago/0.jpg"
+        "description": "石畳の坂を約20分登る城跡。地元の人の朝のウォーキングコースにもなっていて、観光地化されていない素の名護に触れられる。"
       },
       {
         "name": "オリオンハッピーパーク",
@@ -64961,8 +64921,7 @@
       },
       {
         "name": "薬王寺",
-        "description": "四国八十八ヶ所第23番札所、厄除けの寺。石段に厄年の数だけ硬貨を置きながら登る参拝ができる。",
-        "imageUrl": "/images/spots/anan/2.jpg"
+        "description": "四国八十八ヶ所第23番札所、厄除けの寺。石段に厄年の数だけ硬貨を置きながら登る参拝ができる。"
       }
     ],
     "shinkansenAccess": false,
@@ -101238,14 +101197,7 @@
       },
       {
         "name": "小浜温泉（近隣）",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Japan_Tojinbo02n4592.jpg/500px-Japan_Tojinbo02n4592.jpg",
-        "description": "雲仙から車で約20分の海沿いの温泉地。全長105メートルの日本一長い足湯で、海を眺めながら湯に浸かれる。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Tojinbo02n4592.jpg",
-          "attributionRequired": true
-        }
+        "description": "雲仙から車で約20分の海沿いの温泉地。全長105メートルの日本一長い足湯で、海を眺めながら湯に浸かれる。"
       },
       {
         "name": "仁田峠",
@@ -102245,30 +102197,15 @@
     "spots": [
       {
         "name": "金山の景観（重文化財）",
-        "description": "雪の中、古い家並みが深い陰影を作る町並み。朝日が黒い土壁に当たる冬こそ、江戸から続く佇まいが際立つ。",
-        "imageUrl": "/images/spots/tsuruoka-kinzan/0.jpg",
-        "imageCredit": {
-          "author": "Chris_KIM",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%98%E3%83%9F%E3%82%A6%E3%83%97%E6%80%A7-%E7%A7%8B-%E9%9F%93%E5%B1%8B-%E6%96%87%E5%8C%96%E8%B2%A1-953103/",
-          "attributionRequired": false
-        }
+        "description": "雪の中、古い家並みが深い陰影を作る町並み。朝日が黒い土壁に当たる冬こそ、江戸から続く佇まいが際立つ。"
       },
       {
         "name": "金山杉森",
-        "description": "樹齢500年を超す杉が林立する森で、雪に沈む足元と樹皮のざらりとした触感を確かめながら冬の散策ができる。",
-        "imageUrl": "/images/spots/tsuruoka-kinzan/1.jpg",
-        "imageCredit": {
-          "author": "ibigview",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E9%9B%AA%E5%B1%B1-%E3%83%9E%E3%82%A4%E3%83%AA%E9%9B%AA%E5%B1%B1-%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1-2085027/",
-          "attributionRequired": false
-        }
+        "description": "樹齢500年を超す杉が林立する森で、雪に沈む足元と樹皮のざらりとした触感を確かめながら冬の散策ができる。"
       },
       {
         "name": "金山温泉",
-        "description": "金山町の山あいに湧く温泉で、やわらかな湯がゆっくりと体の強張りをほどいてくれる。",
-        "imageUrl": "/images/spots/tsuruoka-kinzan/2.jpg"
+        "description": "金山町の山あいに湧く温泉で、やわらかな湯がゆっくりと体の強張りをほどいてくれる。"
       }
     ],
     "shinkansenAccess": false,
@@ -102713,26 +102650,12 @@
       {
         "name": "愛山渓渓谷",
         "description": "石狩川支流が刻むV字谷。遊歩道から迫力ある地層と水音を間近に感じられ、秋は紅葉、冬は氷瀑が楽しめる。",
-        "googleMapsQuery": "愛山渓渓谷 北海道東川町",
-        "imageUrl": "/images/spots/gen_北海_愛山渓温泉/1.jpg",
-        "imageCredit": {
-          "author": "iankelsall1",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E6%B8%93-%E8%87%AA%E7%84%B6%E3%81%AE%E6%B8%93%E8%B0%B7-%E5%B3%A1%E8%B0%B7-3032431/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "愛山渓渓谷 北海道東川町"
       },
       {
         "name": "旭正園",
         "description": "温泉街の北側にある野生植物園。ダケカンバやミズナラの自然群落に四季の野草が咲き、野鳥の声を聞きながら歩ける。",
-        "googleMapsQuery": "旭正園 愛山渓 東川町",
-        "imageUrl": "/images/spots/gen_北海_愛山渓温泉/2.jpg",
-        "imageCredit": {
-          "author": "IdaT",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%96%E3%83%89%E3%82%A6%E5%9C%92-%E8%BE%B2%E6%A5%AD-%E8%BE%B2%E5%A0%B4-%E7%A7%8B-8345243/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "旭正園 愛山渓 東川町"
       }
     ],
     "description": "北海道の山中に一軒だけ立つ秘湯だ。看板もほとんどない山道の先、深い森を抜けた場所に愛山渓温泉がある。東京から約10時間19分。拠点は札幌駅で、冬季は道路の凍結・閉鎖があるため出発前に宿へ状況を確認しておきたい。石狩川支流が刻む愛山渓渓谷では、遊歩道から迫力ある地層を間近に見られ、冬は氷瀑が岩肌を覆う。旭正園はダケカンバやミズナラの自然群落で、野草と野鳥が四季ごとに姿を変える。おすすめ滞在は1泊。翌朝、雪に覆われた宿の周囲を歩くだけで旅は完結する。宿の明かりだけが山中に浮かぶ夜。",
@@ -104270,8 +104193,7 @@
       {
         "name": "ナチュラリスト村",
         "description": "然別湖畔のオートキャンプ場。澄んだ湖面と十勝山脈の稜線を一望でき、焚き火の煙とともに自由な野営を楽しめる。",
-        "googleMapsQuery": "ナチュラリスト村 然別湖",
-        "imageUrl": "/images/spots/gen_北海_然別湖畔温泉/1.jpg"
+        "googleMapsQuery": "ナチュラリスト村 然別湖"
       },
       {
         "name": "然別湖アイスロッジ（冬季）",
@@ -105183,14 +105105,7 @@
       {
         "name": "鮎の滝展望台",
         "description": "忠別川渓谷を高台から俯瞰できる展望地。対岸に点在する小さな滝と、季節ごとに色を変える谷を一望できる。",
-        "googleMapsQuery": "鮎の滝展望台 天人峡",
-        "imageUrl": "/images/spots/gen_北海_天人峡温泉/3.jpg",
-        "imageCredit": {
-          "author": "Z3RAJIRAIYA",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "鮎の滝展望台 天人峡"
       }
     ],
     "description": "大雪山国立公園内の峡谷に湧く秘湯だ。忠別川が刻んだ断崖に、明治から続く無色透明の湯が流れる。宿「天人峡温泉 御やど しきしま荘」は全18室。旭川駅前からバス「いで湯号」に乗り約90分、バス利用時は送迎も受けられる（要予約）。露天風呂からは高さ100m近い柱状節理の断崖を見上げられ、温泉に浸かりながらその岩壁と向き合う時間が旅の中心になる。落差約90mの天ノ沢滝はしぶきが届く近さまで迫れ、忠別川沿いの散策路では研ぎ澄まされた岩肌を間近に観察できる。鮎の滝展望台からは渓谷全体を俯瞰できる。冬、雪と岩と湯が重なる。",
@@ -105846,14 +105761,7 @@
       {
         "name": "豊富温泉郷 兜沼",
         "description": "温泉街から車で10分の湿地の沼。初夏はアサザやミツガシワが咲き、秋は紅葉が湖面に映る。野鳥観察にも好適だ。",
-        "googleMapsQuery": "兜沼 豊富 北海道",
-        "imageUrl": "/images/spots/gen_北海_豊富温泉/2.jpg",
-        "imageCredit": {
-          "author": "congerdesign",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%83%97%E3%83%AA%E3%82%AB-%E9%87%8E%E8%8F%9C-%E3%82%B9%E3%83%8A%E3%83%83%E3%82%AF%E9%87%8E%E8%8F%9C-639393/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "兜沼 豊富 北海道"
       }
     ],
     "description": "北海道北部に位置する温泉地。油分を含む希少な泉質で知られ、湯は麦茶より濃い茶色をしている。皮膚疾患への効果を求めて全国から長期滞在者が集まり、観光地らしい賑わいとは無縁の湯の街だ。車で10分の兜沼は湿地の沼で、初夏にアサザやミツガシワが咲き、野鳥観察にも適している。宿の川島旅館は豊富駅からバスで約10分。列車の到着・出発に合わせた送迎も、3日前までの予約で利用できます。冬の訪問ならスタッドレスの準備を。石油の成分は服につくため、温泉専用の服を分けておきたい。茶色い湯がゆっくりと絡む、静かな湯宿。",
@@ -106053,14 +105961,7 @@
       {
         "name": "朝日山荘跡と山頂展望台",
         "description": "かつての山小屋跡地に設けられた展望台から、天気の良い日には日本海や暑寒別岳を360度にわたって一望できる。",
-        "googleMapsQuery": "朝日山 北海道雨竜町",
-        "imageUrl": "/images/spots/gen_北海_濁川温泉/2.jpg",
-        "imageCredit": {
-          "author": "Z3RAJIRAIYA",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "朝日山 北海道雨竜町"
       }
     ],
     "description": "北海道・森町の山あいに湧く温泉地。地元の人が日常的に使う湯で、観光施設とは異なる素朴な時間が流れる。最寄りは札幌駅で、東京からは約8時間11分かけてアクセスする。スポットは共同浴場が中心だ。浴槽の縁には長年の湯が積もり、いかにも使い込まれた風情がある。宿泊は1泊で十分に満喫でき、温泉に2回ゆっくり入るのが定番の過ごし方。現金は少し多めに用意しておきたい。白い湯けむり、静かな山の夜。",
@@ -106721,8 +106622,7 @@
       {
         "name": "水無海岸",
         "description": "黒い火山性の砂が敷き詰められた海岸で、砂浜を歩きながら冬には荒波が打ち寄せる光景を眺められる。",
-        "googleMapsQuery": "水無海岸 北海道湧別町",
-        "imageUrl": "/images/spots/gen_北海_水無海浜温泉/1.jpg"
+        "googleMapsQuery": "水無海岸 北海道湧別町"
       },
       {
         "name": "恵山",
@@ -107142,14 +107042,7 @@
       {
         "name": "函館山ロープウェイ麓駅周辺の古町商店街",
         "description": "温泉から徒歩で降りた港町の街並み。昭和期の木造家屋と石造りの蔵が残る、歴史的な景観の中を散策できる。",
-        "googleMapsQuery": "函館 古町商店街",
-        "imageUrl": "/images/spots/gen_北海_谷地頭温泉/1.jpg",
-        "imageCredit": {
-          "author": "wal_172619",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "函館 古町商店街"
       },
       {
         "name": "函館山展望台",
@@ -107564,14 +107457,7 @@
       {
         "name": "青苑の館",
         "description": "1993年の地震の記憶を伝える施設。津波被害の映像や町民の復興の軌跡の展示から、災害と向き合う島民の強さを学べる。",
-        "googleMapsQuery": "青苑の館 奥尻島",
-        "imageUrl": "/images/spots/gen_北海_奥尻島/1.jpg",
-        "imageCredit": {
-          "author": "suju-foto",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%AA%E3%82%A6%E3%83%A0-%E9%9D%92%E3%81%A8%E9%BB%84%E8%89%B2%E3%81%AE%E3%82%B3%E3%83%B3%E3%82%B4%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B3-3695678/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "青苑の館 奥尻島"
       },
       {
         "name": "稲穂埼灯台",
@@ -107834,8 +107720,7 @@
       {
         "name": "層雲峡温泉",
         "description": "大雪山系の渓谷に湧く温泉郷。柱状節理の断崖を見上げながら湯に浸かれ、秋は峡谷全体が赤く染まる紅葉も見事。",
-        "googleMapsQuery": "層雲峡温泉",
-        "imageUrl": "/images/spots/gen_北海_北海道/3.jpg"
+        "googleMapsQuery": "層雲峡温泉"
       }
     ],
     "description": "日本最北の島、北海道は四季ごとに全く異なる顔を持つ。夏は向日葵と麦畑が黄金色に染まり、冬は流氷が海岸線を白く塗り替える。阿寒湖は特別天然記念物マリモの生息地で、湖畔にはアイヌコタンが立ち、硫黄の温泉街を歩ける。層雲峡温泉では柱状節理の断崖を見上げながら湯に浸かれる。標高525mの美幌峠からは屈斜路カルデラを一望でき、農地と湖面、山並みが重なる大パノラマを眺められる。拠点は札幌駅で、現地の移動はバスが中心。広い大地を巡るならレンタカーも選択肢に入る。東京からは約9時間19分。見どころが多く、1泊してゆっくり巡りたい。",
@@ -108025,8 +107910,7 @@
       {
         "name": "焼尻島郷土資料館",
         "description": "北前船交易で栄えた島の歴史を伝える木造の資料館で、ニシン漁具や生活道具を展示している。",
-        "googleMapsQuery": "焼尻島郷土資料館 北海道",
-        "imageUrl": "/images/spots/gen_北海_焼尻島/1.jpg"
+        "googleMapsQuery": "焼尻島郷土資料館 北海道"
       },
       {
         "name": "焼尻島のトドマツ林道",
@@ -108886,14 +108770,7 @@
       {
         "name": "五湖めぐりコース",
         "description": "知床半島の5つの湖沼を巡るハイキングコース。水面に映る原始林や火山の斜面を眺め、野生動物との遭遇も期待できる。",
-        "googleMapsQuery": "知床五湖 北海道斜里町",
-        "imageUrl": "/images/spots/gen_北海_知床国立公園/1.jpg",
-        "imageCredit": {
-          "author": "IlonaBurschl",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E9%A2%A8%E6%99%AF-%E7%94%B0%E8%88%8E-%E8%87%AA%E7%84%B6-%E3%83%A9%E3%82%A4%E3%83%88-%E9%9B%B2-7901065/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "知床五湖 北海道斜里町"
       },
       {
         "name": "オシンコシンの滝",
@@ -109476,14 +109353,7 @@
       {
         "name": "北太平洋シーサイドライン",
         "description": "納沙布岬から続く海岸線。打ち寄せる波音と磯の香りの中、荒涼とした岩礁越しに北方領土を望む道行きを楽しめる。",
-        "googleMapsQuery": "北太平洋シーサイドライン 根室",
-        "imageUrl": "/images/spots/gen_北海_納沙布岬/1.jpg",
-        "imageCredit": {
-          "author": "WolfBlur",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E7%81%AF%E5%8F%B0-%E3%83%B4%E3%82%A7%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%98%E3%83%BC%E3%83%90%E3%83%BC-%E6%B5%B7%E5%B2%B8-1392124/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "北太平洋シーサイドライン 根室"
       },
       {
         "name": "落石岬",
@@ -109499,14 +109369,7 @@
       {
         "name": "根室市歴史と民俗の館",
         "description": "アイヌ文化と和人の共生の歴史、江戸期の交易の痕跡を展示。古い漁具や民俗品から厳しい環境を生きた知恵を学べる。",
-        "googleMapsQuery": "根室市歴史と民俗の館",
-        "imageUrl": "/images/spots/gen_北海_納沙布岬/3.jpg",
-        "imageCredit": {
-          "author": "Walkerssk",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%A8%E3%83%83%E3%83%95%E3%82%A7%E3%83%AB%E5%A1%94-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-1784212/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "根室市歴史と民俗の館"
       }
     ],
     "description": "北海道東端に位置し、日本で最も早く夜明けを迎える岬だ。1872年初点灯の日本最東端の灯台が立ち、対岸にはロシア領土を肉眼で確認できる。ベストシーズンは冬で、東京からは約11時間かかる。現地の移動はバスが中心。納沙布岬から続く北太平洋シーサイドラインは、荒涼とした岩礁越しに北方領土を望みながら海岸線をたどるルートで、走破する価値がある。根室市歴史と民俗の館では、アイヌ文化と和人の共生の歴史や江戸期の交易の痕跡を展示しており、古い漁具や民俗品から厳しい環境を生きた知恵を学べます。落石岬は北海道三大秘岬のひとつ。木道を歩いて先端まで進みたい。波音だけが響く、世界の縁。",
@@ -109714,14 +109577,7 @@
       {
         "name": "東川町立文化ギャラリー",
         "description": "写真の町の芸術文化を発信する施設。季節ごとに入れ替わる地元写真家の作品を、光と影の表現とともに鑑賞できる。",
-        "googleMapsQuery": "東川町立文化ギャラリー",
-        "imageUrl": "/images/spots/gen_北海_東川町/2.jpg",
-        "imageCredit": {
-          "author": "nonmisvegliate",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%A4%A7%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC-%E8%A8%98%E5%BF%B5%E7%A2%91-4293985/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "東川町立文化ギャラリー"
       },
       {
         "name": "忠別川上流渓谷",
@@ -110463,221 +110319,6 @@
     }
   },
   {
-    "id": "gen_北海_弁天台場",
-    "name": "弁天台場",
-    "displayName": "弁天台場",
-    "prefecture": "北海道",
-    "region": "北海道",
-    "lat": 41.77422222,
-    "lng": 140.70408333,
-    "destType": "sight",
-    "hubCity": "札幌",
-    "fallbackCity": "札幌",
-    "isStayable": true,
-    "_generated": true,
-    "_source": "wikipedia",
-    "stayDescription": "見どころが多く、1泊してゆっくり巡る",
-    "tags": [
-      "観光",
-      "自然"
-    ],
-    "primary": [
-      "観光"
-    ],
-    "secondary": [
-      "自然"
-    ],
-    "weight": 0.9,
-    "stayPriority": "medium",
-    "onsenLevel": 0,
-    "accessStation": "札幌駅",
-    "representativeStation": "札幌駅",
-    "railProvider": "ekinet",
-    "jrArea": "east",
-    "finalAccess": {
-      "type": "bus",
-      "line": null,
-      "to": "弁天台場"
-    },
-    "transportHubs": {
-      "rail": "札幌駅",
-      "city": "札幌"
-    },
-    "gateway": null,
-    "departures": [
-      "札幌",
-      "仙台",
-      "東京",
-      "名古屋",
-      "大阪",
-      "広島",
-      "福岡",
-      "和歌山",
-      "釧路",
-      "帯広",
-      "北見"
-    ],
-    "isIsland": false,
-    "hub": "札幌",
-    "stayAllowed": [
-      "2night"
-    ],
-    "spots": [
-      {
-        "name": "弁天台場",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hokkaid%C5%8D_g%C3%A9olocalisation.svg/500px-Hokkaid%C5%8D_g%C3%A9olocalisation.svg.png",
-        "description": "潮風と石垣、誰もいない静けさの中で幕末の時間に浸れる。",
-        "imageCredit": {
-          "author": "© Bourrichon (talk) - fr:Bourrichon",
-          "license": "CC BY-SA 2.0 fr",
-          "url": "https://commons.wikimedia.org/wiki/File:Hokkaid%C5%8D_g%C3%A9olocalisation.svg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "函館市北方歴史資料館",
-        "description": "弁天台場を含む道南の開拓と防衛の歴史を展示。ロシア南下に備えて築かれた砲台の構造と時代背景を詳しく学べる。",
-        "googleMapsQuery": "函館市北方歴史資料館",
-        "imageUrl": "/images/spots/gen_北海_弁天台場/1.jpg",
-        "imageCredit": {
-          "author": "McDrok_the_RhythmDoc",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%87%BD%E9%A4%A8%E5%A5%89%E8%A1%8C%E6%89%80-%E6%97%A5%E6%9C%AC-%E5%87%BD%E9%A4%A8-4752605/",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "五稜郭公園",
-        "description": "星形の稜線が特徴的な西洋式要塞公園。弁天台場と同じ幕末期の防衛施設で、四季の植栽とともに近代化の遺跡を巡れる。",
-        "googleMapsQuery": "五稜郭公園 函館",
-        "imageUrl": "/images/spots/gen_北海_弁天台場/2.jpg",
-        "imageCredit": {
-          "author": "bryan...",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/91049143@N00/16534601378",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "description": "函館港沖に浮かぶ小さな人工島が、弁天台場だ。幕末期に築かれた砲台跡で、石垣が当時のまま残る。本数が少ないため、乗船前に時刻を確認しておきたい。島内に売店はなく、夏は水と帽子を持参すること。函館市北方歴史資料館では、ロシア南下への備えとして築かれた砲台の構造や時代背景を展示で学べる。同じ幕末期の防衛施設である五稜郭公園とあわせて回ると、道南の近代史がひとつにつながる。拠点となる札幌駅からは列車と移動を組み合わせてアクセスする。石垣の上、函館港を見渡す風景。",
-    "catch": "弁天台場で見どころが多く、1泊してゆっくり巡る",
-    "requiresCar": false,
-    "type": "destination",
-    "subType": "sight",
-    "city": "札幌",
-    "hubStation": "札幌駅",
-    "hotelArea": "北海道",
-    "hotelSearch": "弁天台場",
-    "hotelKeyword": "弁天台場",
-    "travelTime": {
-      "tokyo": 469,
-      "nagoya": 543,
-      "osaka": 605,
-      "takamatsu": 666,
-      "fukuoka": 830,
-      "wakayama": 635,
-      "mito": 514,
-      "maebashi": 529,
-      "takasaki": 529,
-      "hamamatsu": 573,
-      "gifu": 563,
-      "kofu": 559,
-      "shingu": 725,
-      "tanabe": 695,
-      "shirahama": 705,
-      "kushimoto": 725,
-      "tottori": 725,
-      "shimonoseki": 860,
-      "saga": 860,
-      "oita": 890,
-      "beppu": 900
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": "bus",
-    "stayBias": "hub",
-    "airportHub": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "mapPoint": "弁天台場",
-    "railGateway": "札幌駅",
-    "railNote": "バス",
-    "hasDirectFlight": false,
-    "airportGateway": null,
-    "busGateway": null,
-    "ferryGateway": null,
-    "gateways": [],
-    "access": {
-      "steps": []
-    },
-    "localAccess": null,
-    "_enriched": true,
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%9C%AD%E5%B9%8C&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%9C%AD%E5%B9%8C",
-    "bookingStation": null,
-    "mainSpot": "弁天台場",
-    "stayArea": {
-      "rakuten": "弁天台場",
-      "jalan": "弁天台場"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
-      "jalan": "https://www.jalan.net/010000/"
-    },
-    "tier": "spot",
-    "icCard": "suica",
-    "tier2": "spot",
-    "hubName": "札幌",
-    "unsplashUrl": "https://images.unsplash.com/photo-1629356309084-95ba7edb7055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQkMlODElRTUlQTQlQTklRTUlOEYlQjAlRTUlQTAlQjQlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5MTA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1629356309084-95ba7edb7055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQkMlODElRTUlQTQlQTklRTUlOEYlQjAlRTUlQTAlQjQlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5MTA4NXww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Ozgu Ozden",
-    "unsplashCreditUrl": "https://unsplash.com/@ozgut?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/green-grass-field-near-green-trees-and-mountain-under-white-clouds-and-blue-sky-during-daytime-Gp754197b6Y?utm_source=dokoiko&utm_medium=referral",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/gen_北海_弁天台場/main.jpg",
-      "/images/gen_北海_弁天台場/spot-1.jpg"
-    ],
-    "reasonChips": [
-      "歴史を辿る",
-      "自然と過ごす",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "ゆっくり滞在"
-    ],
-    "bestSeason": "夏",
-    "imageCredit": {
-      "author": "Shioyama",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:%E5%BC%81%E5%A4%A9%E5%8F%B0%E5%A0%B4%E8%B7%A1%E3%81%A8%E5%87%BD%E9%A4%A8%E3%81%A9%E3%81%A4%E3%81%8F%E3%83%AC%E3%83%B3%E3%82%AC%E5%80%89%E5%BA%AB.jpg",
-      "attributionRequired": false
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "函館港沖に浮かぶ小さな人工島が、弁天台場だ。幕末期に築かれた砲台跡で、石垣が当時のまま残る。本数が少ないため、乗船前に時刻を確認しておきたい。",
-      "auto": true
-    }
-  },
-  {
     "id": "gen_北海_松前城",
     "name": "松前城",
     "displayName": "松前城",
@@ -111158,8 +110799,7 @@
       {
         "name": "寺下遺跡公園",
         "description": "縄文時代の集落跡を整備した公園。復元展示棟で土器片や石器の出土品を観賞し、太古の営みに静かに触れられる。",
-        "googleMapsQuery": "寺下遺跡公園 苫小牧",
-        "imageUrl": "/images/spots/gen_北海_太田山神社/1.jpg"
+        "googleMapsQuery": "寺下遺跡公園 苫小牧"
       },
       {
         "name": "三本杉岩",
@@ -111985,8 +111625,7 @@
       {
         "name": "生活工芸館",
         "description": "敷地内の手作り工芸の展示販売施設。地元職人の木工品や陶芸作品が並び、制作現場を見学しながら選んで購入できる。",
-        "googleMapsQuery": "生活工芸館 大樹町",
-        "imageUrl": "/images/spots/gen_北海_十勝千年の森/2.jpg"
+        "googleMapsQuery": "生活工芸館 大樹町"
       },
       {
         "name": "美蔓パノラマパーク",
@@ -113038,26 +112677,12 @@
       {
         "name": "北見市立美術館",
         "description": "北海道の現代美術作品を常設展示する文化施設。温泉帰りに立ち寄り、館内の温もりの中で芸術鑑賞を楽しめる。",
-        "googleMapsQuery": "北見市立美術館",
-        "imageUrl": "/images/spots/gen_北海_北見温泉/1.jpg",
-        "imageCredit": {
-          "author": "白菜 / Grace",
-          "license": "CC BY 2.0",
-          "url": "https://www.flickr.com/photos/52107254@N05/51748316871",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "北見市立美術館"
       },
       {
         "name": "北見総合振興局舎周辺散策路",
         "description": "歴史的建物と近代建築が混在する官庁街。冬は白く化粧した街路樹が静謐な都市空間をつくり、撮影スポットになる。",
-        "googleMapsQuery": "北見市街中心部散策",
-        "imageUrl": "/images/spots/gen_北海_北見温泉/2.jpg",
-        "imageCredit": {
-          "author": "GoldBJJ",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/bjj-%E6%9F%94%E8%A1%93-%E7%B7%8F%E5%90%88%E6%A0%BC%E9%97%98%E6%8A%80-8111390/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "北見市街中心部散策"
       },
       {
         "name": "北見市農業試験場跡地公園",
@@ -113265,14 +112890,7 @@
       {
         "name": "白老町立図書館＆郷土資料室",
         "description": "白老の歴史文献が充実。漁業開拓からアイヌ文化保存活動までの変遷を資料で追える、温泉後の静かな学びの場。",
-        "googleMapsQuery": "白老町立図書館",
-        "imageUrl": "/images/spots/gen_北海_白老温泉/2.jpg",
-        "imageCredit": {
-          "author": "TuendeBede",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%9B%B3%E6%9B%B8%E9%A4%A8-%E6%9C%AC-%E3%83%80%E3%83%96%E3%83%AA%E3%83%B3-2507902/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "白老町立図書館"
       },
       {
         "name": "虎杖浜海岸",
@@ -114106,8 +113724,7 @@
       {
         "name": "天塩海岸の夕日ビーチ",
         "description": "日本海に沈む夕陽が広大な砂浜を茜色に染める。潮風を浴びながら、冬は白波が激しくぶつかる荒々しい海景も眺められる。",
-        "googleMapsQuery": "天塩海岸 北海道",
-        "imageUrl": "/images/spots/gen_北海_天塩温泉/2.jpg"
+        "googleMapsQuery": "天塩海岸 北海道"
       }
     ],
     "description": "北海道北部、天塩川沿いに湧く温泉地。冬に訪れる旅行者が多く、川霧の朝に共同湯で地元の人と肩を並べて湯につかるのが定番の過ごし方だ。札幌駅から長距離バスで向かい、東京からは約11時間22分かかる。天塩川歴史資料館は木造建物に川運時代の船具や生活道具を収め、アイヌ民族と和人が交易の要として天塩川を活用してきた歴史を伝える。天塩海岸の夕日ビーチでは日本海に沈む夕陽が砂浜を茜色に染め、冬は白波が激しく打ちつける。路面凍結が激しいため、移動前にスタッドレスタイヤの装着を確認したい。川霧のなか、湯気だけが立つ朝。",
@@ -114304,14 +113921,7 @@
       {
         "name": "天塩川源流部の渓谷歩道",
         "description": "カラマツ林と清流が彩る上流への散策路。秋の色彩や白銀の冬景色の中、野生動物の足跡を観察しながら歩ける。",
-        "googleMapsQuery": "天塩川温泉 渓谷 散策路",
-        "imageUrl": "/images/spots/gen_北海_天塩川温泉/2.jpg",
-        "imageCredit": {
-          "author": "chris_muschard",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E6%AD%A9%E8%A1%8C%E8%80%85-%E6%AD%A9%E3%81%8F-%E6%AD%A9%E9%81%93-%E8%88%97%E8%A3%85-%E5%B8%82-7359030/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "天塩川温泉 渓谷 散策路"
       }
     ],
     "description": "北海道北部を流れる天塩川の河畔に立つ温泉地で、1泊してゆっくり湯に向き合う滞在が基本スタイルだ。札幌駅からバスに乗り、天塩川沿いの湯宿へ向かう。天塩川温泉は柔らかな泉質が特徴で、川の瀬音が窓越しに届く環境の中、1日2回の入浴でじっくり体をほぐせる。天塩川歴史資料館では、流域の漁業や炭鉱産業の歩みをたどりながら、アイヌ文化の考古資料や往時の生活道具を見学できます。天塩川源流部の渓谷歩道はカラマツ林と清流が続く散策路で、冬は白銀の景色の中、野生動物の足跡を追いながら歩けます。車がなくても各スポットをまとめて回れる立地だ。雪原に滲む湯宿の灯り。",
@@ -114525,8 +114135,7 @@
       {
         "name": "豊頃町郷土資料館",
         "description": "町の開拓史と農業の発展を伝える資料館。泥炭地開発の歩みや往時の農機具から、地域と温泉の関わりを学べる。",
-        "googleMapsQuery": "豊頃町郷土資料館 十勝川温泉",
-        "imageUrl": "/images/spots/gen_北海_十勝川温泉/3.jpg"
+        "googleMapsQuery": "豊頃町郷土資料館 十勝川温泉"
       }
     ],
     "description": "十勝川温泉は北海道帯広市近郊に位置する温泉地で、植物性のモール泉が湧く。太古の植物が溶け込んだ黒い湯は珍しい泉質で、肌への刺激が少ない。見どころは3つある。温泉街に隣接する河畔の湿地帯では、冬になるとハクチョウが飛来し野鳥観察ができる。道内唯一の油田地帯の遺構を保存する白糠油田跡地公園では、ポンプやパイプラインが残る産業景観を見られる。豊頃町郷土資料館は開拓史と泥炭地開発の歩みを伝え、地域と温泉の関わりを知る場になっている。冬の湯あがり、窓の外に広がる雪原。",
@@ -114940,8 +114549,7 @@
       {
         "name": "美深町農業遺産体験施設",
         "description": "開拓期から続く農業の営みを伝える体験施設。農機具や農村生活の展示から、泥炭地農業という特殊な産業を学べる。",
-        "googleMapsQuery": "美深町農業遺産 びふか温泉",
-        "imageUrl": "/images/spots/gen_北海_びふか温泉/1.jpg"
+        "googleMapsQuery": "美深町農業遺産 びふか温泉"
       },
       {
         "name": "音威子府村の黒い潮吹き井戸",
@@ -115583,8 +115191,7 @@
       {
         "name": "猿浦漁港",
         "description": "宗谷岬を望む最北の漁港で、冬になると流氷が押し寄せ、漁船と並ぶ光景を見ることができる。",
-        "googleMapsQuery": "猿浦漁港 北海道",
-        "imageUrl": "/images/spots/gen_北海_さるふつ温泉/1.jpg"
+        "googleMapsQuery": "猿浦漁港 北海道"
       },
       {
         "name": "さるふつ公園",
@@ -115793,26 +115400,12 @@
       {
         "name": "雷電火山群",
         "description": "硫黄ガスが立ち昇り、黒い火山岩が連なる活火山帯で、地表の火山活動を間近に観察できる。",
-        "googleMapsQuery": "昭和新山 室蘭",
-        "imageUrl": "/images/spots/gen_北海_雷電温泉/1.jpg",
-        "imageCredit": {
-          "author": "聲色藝#1唱做唸打翻超棒楚岫雲戲迷團",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/23588061@N06/8144583598",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "昭和新山 室蘭"
       },
       {
         "name": "地獄谷展望台",
         "description": "火山性ガスが噴き出す峡谷に設けられた展望台で、硫黄の香りと白い湯気が立ちのぼる。冬は氷柱と湯気が交錯する光景を見ることができる。",
-        "googleMapsQuery": "地獄谷 室蘭 展望台",
-        "imageUrl": "/images/spots/gen_北海_雷電温泉/2.jpg",
-        "imageCredit": {
-          "author": "Z3RAJIRAIYA",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "地獄谷 室蘭 展望台"
       }
     ],
     "description": "日本海の断崖に数軒の宿が並ぶ小さな温泉地。札幌駅を起点に、バスまたはレンタカーで向かうことができる。冬はスタッドレスタイヤが必須で、宿は早めに予約を押さえておきたい。東京からは約9時間4分の道のりだ。岩に砕ける波と雪に覆われた崖を正面に見ながら湯に浸かる体験が、この地ならではの魅力。近くには硫黄ガスが噴き出す火山地帯があり、黒い岩盤が剥き出しになった地表を間近で観察できる。冬季は湯気と氷柱が交錯する地獄谷展望台も迫力がある。おすすめは1泊して朝晩2回の湯浴みを楽しむ過ごし方だ。波音だけが響く、断崖の夜。",
@@ -116029,14 +115622,7 @@
       {
         "name": "赤岳展望駐車公園",
         "description": "十勝岳南麓の展望地。パッチワーク状の農地と火山列を一望でき、富士山型の十勝岳のシルエット撮影も狙える。",
-        "googleMapsQuery": "赤岳展望駐車公園 北海道",
-        "imageUrl": "/images/spots/gen_北海_十勝岳望岳台/3.jpg",
-        "imageCredit": {
-          "author": "wal_172619",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%82%A4%E3%82%AF-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E9%A7%90%E8%BB%8A%E3%83%90%E3%82%A4%E3%82%AF-%E8%B5%A4-7859039/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "赤岳展望駐車公園 北海道"
       }
     ],
     "description": "標高930メートルの展望地。十勝岳の噴煙を間近に仰ぐ登山口で、剥き出しの火山の岩肌と荒野が眼前に迫る。夏がベストシーズンだが、天気が変わりやすく、気温も低い。吹き抜ける風は草木の気配でなく、地球の内側から来る風だ。望岳台から足を延ばすと、青い川に温泉流が注ぎ込む白ひげの滝があり、びえい白金温泉では乳白色の濁り湯に入ることもできます。ウィンドブレーカーと飲み水は持参を。バスも通じているが、複数のスポットを回るならレンタカーが効率的です。起点は札幌駅で、1泊してゆっくり巡りたい。煙を上げる山と、青と白の対比。",
@@ -116647,14 +116233,7 @@
       {
         "name": "中山峠スカイライン",
         "description": "ジャガイモ畑の間を縫って峠へ続く山岳道路。晴天時は展望台から日本海と太平洋を見渡す壮大な眺望を楽しめる。",
-        "googleMapsQuery": "中山峠スカイライン 南幌町",
-        "imageUrl": "/images/spots/gen_北海_花の拠点「はなふる」/1.jpg",
-        "imageCredit": {
-          "author": "MemoryCatcher",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B8%82-%E6%B5%B7%E5%B2%B8-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%B3-4742329/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "中山峠スカイライン 南幌町"
       },
       {
         "name": "羊ヶ丘展望台",
@@ -118914,8 +118493,7 @@
       {
         "name": "沙流川渓谷",
         "description": "沙流川が山々を削った深い渓谷。急崖と清流の瀬音、冬の霧氷が織りなす景観を、川沿いのハイキングで体感できる。",
-        "googleMapsQuery": "沙流川渓谷 平取町",
-        "imageUrl": "/images/spots/gen_北海_沙流川温泉/2.jpg"
+        "googleMapsQuery": "沙流川渓谷 平取町"
       }
     ],
     "description": "北海道・日高地方、沙流川沿いに宿が数軒立つ静かな温泉地。湯はpH8.4のアルカリ性単純硫黄泉。肌がするりとなる。冬は雪をいただいた山を眺めながら湯に浸かれ、1泊して朝晩2回入るだけの過ごし方が実によく似合う。近くの二風谷にはアイヌ文化を学べる施設群があり、伝統工芸の実演見学や文様を刻む体験に参加できる。沙流川渓谷では冬の霧氷と清流が川沿いのハイキングで楽しめる。バスも通じるが、冬はスタッドレスのレンタカーを用意したい。川音の静けさが余白になる旅。",
@@ -119030,229 +118608,6 @@
     "seo": {
       "description": "北海道・日高地方、沙流川沿いに宿が数軒立つ静かな温泉地。湯はpH8.4のアルカリ性単純硫黄泉。肌がするりとなる。",
       "auto": true
-    }
-  },
-  {
-    "id": "gen_北海_鹿の湯",
-    "name": "鹿の湯",
-    "displayName": "鹿の湯",
-    "prefecture": "北海道",
-    "region": "北海道",
-    "lat": 43.32861111,
-    "lng": 143.04444444,
-    "destType": "onsen",
-    "hubCity": "札幌",
-    "fallbackCity": "札幌",
-    "isStayable": true,
-    "_generated": true,
-    "_source": "wikipedia",
-    "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
-    "tags": [
-      "温泉",
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "primary": [
-      "温泉"
-    ],
-    "secondary": [
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "weight": 1.55,
-    "stayPriority": "high",
-    "onsenLevel": 3,
-    "accessStation": "札幌駅",
-    "representativeStation": "札幌駅",
-    "railProvider": "ekinet",
-    "jrArea": "east",
-    "finalAccess": {
-      "type": "train",
-      "line": "在来線",
-      "to": "鹿の湯"
-    },
-    "transportHubs": {
-      "rail": "札幌駅",
-      "city": "札幌"
-    },
-    "gateway": null,
-    "departures": [
-      "札幌",
-      "仙台",
-      "東京",
-      "名古屋",
-      "大阪",
-      "広島",
-      "福岡",
-      "和歌山",
-      "釧路",
-      "帯広",
-      "北見"
-    ],
-    "isIsland": false,
-    "hub": "札幌",
-    "stayAllowed": [
-      "2night"
-    ],
-    "spots": [
-      {
-        "name": "鹿の湯",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hotel_Shika-no-Yu.JPG/1280px-Hotel_Shika-no-Yu.JPG",
-        "description": "源泉約50度、シャワーも石けんもない素朴な湯処で、温泉本来の熱さと野趣を全身で体感できる。",
-        "imageCredit": {
-          "author": "禁樹なずな",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Hotel_Shika-no-Yu.JPG",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "層雲峡温泉街",
-        "description": "黒岳ロープウェイ麓の温泉街。渓谷美と宿が共存し、秋は深紅に染まる岸壁、冬は神秘的な霧氷の渓谷を楽しめる。",
-        "googleMapsQuery": "層雲峡温泉街 北海道上川町",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sounkyo_Promenade.JPG/1280px-Sounkyo_Promenade.JPG",
-        "imageCredit": {
-          "author": "Soica2001 (talk)",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Sounkyo_Promenade.JPG",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "大雪山旭岳ロープウェイ",
-        "description": "北海道最高峰・旭岳へ向かうロープウェイ。高低差1300メートルの景観変化と、晴天時の360度の山岳眺望が圧巻。",
-        "googleMapsQuery": "大雪山旭岳ロープウェイ 上川町",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/140724_Asahidake_Ropeway_Hokkaido_Japan02s5.jpg/1280px-140724_Asahidake_Ropeway_Hokkaido_Japan02s5.jpg",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:140724_Asahidake_Ropeway_Hokkaido_Japan02s5.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "銀河・銀泉の滝",
-        "description": "落差120メートル超の2本の滝が並び立つ層雲峡の双瀑。冬は氷結した青白い氷の造形や滝つぼ付近の樹氷を観賞できる。",
-        "googleMapsQuery": "銀河銀泉の滝 層雲峡",
-        "imageUrl": "/images/spots/gen_北海_鹿の湯/3.jpg"
-      }
-    ],
-    "description": "登別温泉にある鹿の湯は、源泉約50度・シャワーなし・石けん禁止の素朴な湯処だ。地獄谷を越えた先に湧く熱い源泉で、温泉の原点を全身で受ける。体は宿で洗ってから向かうのが正解。最寄りは登別駅だが、バスは本数が少ない。レンタカーが実用的だ。東京からは約9時間57分かかる。冬がベストシーズンで、湯気の白さと雪のコントラストが鮮烈。層雲峡温泉街まで足を延ばせば、落差120メートル超の銀河・銀泉の滝が冬に氷結した青白い造形を見せ、渓谷の霧氷と合わせて見応えがある。扉を開けた瞬間、湯気が顔にぶつかってくる。",
-    "catch": "鹿の湯で温泉に2回入って、部屋でゆっくりして寝る",
-    "requiresCar": false,
-    "type": "destination",
-    "subType": "onsen",
-    "city": "札幌",
-    "hubStation": "札幌駅",
-    "hotelArea": "北海道",
-    "hotelSearch": "鹿の湯",
-    "hotelKeyword": "鹿の湯",
-    "travelTime": {
-      "tokyo": 597,
-      "nagoya": 689,
-      "osaka": 756,
-      "takamatsu": 819,
-      "fukuoka": 985,
-      "wakayama": 786,
-      "mito": 642,
-      "maebashi": 657,
-      "takasaki": 657,
-      "hamamatsu": 719,
-      "gifu": 709,
-      "kofu": 687,
-      "shingu": 876,
-      "tanabe": 846,
-      "shirahama": 856,
-      "kushimoto": 876,
-      "tottori": 876,
-      "shimonoseki": 1015,
-      "saga": 1015,
-      "oita": 1045,
-      "beppu": 1055
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": "bus",
-    "stayBias": "destination",
-    "airportHub": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "mapPoint": "鹿の湯",
-    "railGateway": "札幌駅",
-    "railNote": "バス",
-    "hasDirectFlight": false,
-    "airportGateway": null,
-    "busGateway": null,
-    "ferryGateway": null,
-    "gateways": [],
-    "access": {
-      "steps": []
-    },
-    "localAccess": null,
-    "_enriched": true,
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%B9%BF%E3%81%AE%E6%B9%AF&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%B9%BF%E3%81%AE%E6%B9%AF",
-    "bookingStation": null,
-    "mainSpot": "鹿の湯",
-    "stayArea": {
-      "rakuten": "鹿の湯",
-      "jalan": "鹿の湯"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
-      "jalan": "https://www.jalan.net/010000/"
-    },
-    "tier": "area",
-    "icCard": "suica",
-    "tier2": "area",
-    "hubName": "札幌",
-    "unsplashUrl": "https://images.unsplash.com/photo-1576823346260-2c77ee097aad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklQjklQkYlRTMlODElQUUlRTYlQjklQUYlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5OTM1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1576823346260-2c77ee097aad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklQjklQkYlRTMlODElQUUlRTYlQjklQUYlMjAlRTUlOEMlOTclRTYlQjUlQjclRTklODElOTMlMjAlRTklQTIlQTglRTYlOTklQUZ8ZW58MHwwfHx8MTc3ODM5OTM1Nnww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Marek Okon",
-    "unsplashCreditUrl": "https://unsplash.com/@marekokon?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/bare-trees-near-mountain-during-daytime-dyohdH2_RP0?utm_source=dokoiko&utm_medium=referral",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/gen_北海_鹿の湯/main.jpg",
-      "/images/gen_北海_鹿の湯/spot-1.jpg"
-    ],
-    "reasonChips": [
-      "絶景",
-      "温泉",
-      "紅葉",
-      "雪景色",
-      "自然と過ごす",
-      "街歩き",
-      "車なしOK",
-      "ひとり旅向け"
-    ],
-    "bestSeason": "冬",
-    "imageCredit": {
-      "author": "Snake Head 1995",
-      "license": "CC BY-SA 3.0",
-      "url": "https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E3%81%AE%E6%B9%AF%EF%BC%88%E3%81%97%E3%81%8B%E3%81%AE%E3%82%86%EF%BC%89%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82P6270550.jpg",
-      "attributionRequired": true
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
     }
   },
   {
@@ -119464,218 +118819,6 @@
     }
   },
   {
-    "id": "gen_北海_樹海温泉",
-    "name": "樹海温泉",
-    "displayName": "樹海温泉",
-    "prefecture": "北海道",
-    "region": "北海道",
-    "lat": 42.86755556,
-    "lng": 142.15788889,
-    "destType": "onsen",
-    "hubCity": "札幌",
-    "fallbackCity": "札幌",
-    "isStayable": true,
-    "_generated": true,
-    "_source": "wikipedia",
-    "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
-    "tags": [
-      "温泉",
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "primary": [
-      "温泉"
-    ],
-    "secondary": [
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "weight": 1.55,
-    "stayPriority": "high",
-    "onsenLevel": 3,
-    "accessStation": "札幌駅",
-    "representativeStation": "札幌駅",
-    "railProvider": "ekinet",
-    "jrArea": "east",
-    "finalAccess": {
-      "type": "train",
-      "line": "在来線",
-      "to": "樹海温泉"
-    },
-    "transportHubs": {
-      "rail": "札幌駅",
-      "city": "札幌"
-    },
-    "gateway": null,
-    "departures": [
-      "札幌",
-      "仙台",
-      "東京",
-      "名古屋",
-      "大阪",
-      "広島",
-      "福岡",
-      "和歌山",
-      "釧路",
-      "帯広",
-      "北見"
-    ],
-    "isIsland": false,
-    "hub": "札幌",
-    "stayAllowed": [
-      "2night"
-    ],
-    "spots": [
-      {
-        "name": "樹海温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
-        "description": "凍てつく冬の外気と湯気立つ浴場の温度差が大きく、扉を開けた瞬間から硫黄の濃い香りが漂う秘湯だ。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "樹海公園",
-        "description": "北海道最大級のトドマツ林を持つ公園で、落ち葉の香る林床を歩きながら野生動物の足跡を探せる。",
-        "googleMapsQuery": "樹海公園 苫小牧市",
-        "imageUrl": "/images/spots/gen_北海_樹海温泉/1.jpg"
-      },
-      {
-        "name": "苫小牧樹海温泉キャンプ場周辺自然観察路",
-        "description": "樹齢150年超のトドマツが林立する散策路。野鳥の声を聞きながら、春のツツジや秋の苔むした倒木の緑を観察できる。",
-        "googleMapsQuery": "樹海温泉 苫小牧市 散策路",
-        "imageUrl": "/images/spots/gen_北海_樹海温泉/2.jpg",
-        "imageCredit": {
-          "author": "ignartonosbg",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97-8260968/",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "ウトナイ湖野生動物保護区",
-        "description": "渡り鳥の中継地として知られる湖。春秋は数千羽のカモやガン類が群れ、双眼鏡で繊細な羽の色彩を観察できる。",
-        "googleMapsQuery": "ウトナイ湖野生動物保護区 苫小牧市",
-        "imageUrl": "/images/spots/gen_北海_樹海温泉/3.jpg",
-        "imageCredit": {
-          "author": "iTopLoveliness",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%A8%E3%83%AB%E3%82%AF-%E9%B9%BF-%E5%86%AC-%E9%9B%AA-%E8%87%AA%E7%84%B6-6835147/",
-          "attributionRequired": false
-        }
-      }
-    ],
-    "description": "北海道の森に潜む秘湯だ。最寄りは札幌駅で、バスでのアクセスも可能。冬がベストシーズンで、氷点下の外気と浴場の落差が体験の核心となる。樹海温泉の浴場は硫黄の香りが強く、観光地化されていない湯として知られる。周辺の樹海公園には北海道最大級のトドマツ林が広がり、樹齢150年超の木々が林立する自然観察路も整備されている。ウトナイ湖野生動物保護区では春秋に数千羽のカモやガン類が群れる光景を観察できます。東京からは約9時間15分。冬の防寒は本気で備えること。白い湯気と、トドマツの森。",
-    "catch": "樹海温泉で温泉に2回入って、部屋でゆっくりして寝る",
-    "requiresCar": false,
-    "type": "destination",
-    "subType": "onsen",
-    "city": "札幌",
-    "hubStation": "札幌駅",
-    "hotelArea": "北海道",
-    "hotelSearch": "樹海温泉",
-    "hotelKeyword": "樹海温泉",
-    "travelTime": {
-      "tokyo": 555,
-      "nagoya": 641,
-      "osaka": 706,
-      "takamatsu": 768,
-      "fukuoka": 932,
-      "wakayama": 736,
-      "mito": 600,
-      "maebashi": 615,
-      "takasaki": 615,
-      "hamamatsu": 671,
-      "gifu": 661,
-      "kofu": 645,
-      "shingu": 826,
-      "tanabe": 796,
-      "shirahama": 806,
-      "kushimoto": 826,
-      "tottori": 826,
-      "shimonoseki": 962,
-      "saga": 962,
-      "oita": 992,
-      "beppu": 1002
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": "bus",
-    "stayBias": "destination",
-    "airportHub": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "mapPoint": "樹海温泉",
-    "railGateway": "札幌駅",
-    "railNote": "バス",
-    "hasDirectFlight": false,
-    "airportGateway": null,
-    "busGateway": null,
-    "ferryGateway": null,
-    "gateways": [],
-    "access": {
-      "steps": []
-    },
-    "localAccess": null,
-    "_enriched": true,
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%A8%B9%E6%B5%B7%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E6%A8%B9%E6%B5%B7%E6%B8%A9%E6%B3%89",
-    "bookingStation": null,
-    "mainSpot": "樹海温泉",
-    "stayArea": {
-      "rakuten": "樹海温泉",
-      "jalan": "樹海温泉"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
-      "jalan": "https://www.jalan.net/010000/"
-    },
-    "tier": "area",
-    "icCard": "suica",
-    "tier2": "area",
-    "hubName": "札幌",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/gen_北海_樹海温泉/main.jpg",
-      "/images/gen_北海_樹海温泉/spot-1.jpg"
-    ],
-    "reasonChips": [
-      "温泉",
-      "自然と過ごす",
-      "街歩き",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "温泉がおすすめ",
-      "街歩き向け"
-    ],
-    "bestSeason": "冬",
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    }
-  },
-  {
     "id": "gen_北海_初山別温泉",
     "name": "初山別温泉",
     "displayName": "初山別温泉",
@@ -119754,26 +118897,17 @@
       {
         "name": "初山別村民浜海水浴場",
         "description": "温泉から徒歩圏内の日本海沿岸。夕刻は海面が金色に染まり、冬は北西風に白波が立つ荒々しい海景も見られる。",
-        "googleMapsQuery": "初山別村民浜海水浴場",
-        "imageUrl": "/images/spots/gen_北海_初山別温泉/1.jpg",
-        "imageCredit": {
-          "author": "amicud",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E6%B5%B7-%E3%83%93%E3%83%BC%E3%83%81-%E5%A4%8F-%E6%9B%B2-%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4-2267020/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "初山別村民浜海水浴場"
       },
       {
         "name": "初山別灯台",
         "description": "断崖絶壁の岬に立つ白い灯台。日本海の大波が白く砕ける光景や、霧に光が滲む冬の幻想的な風景に出会える。",
-        "googleMapsQuery": "初山別灯台",
-        "imageUrl": "/images/spots/gen_北海_初山別温泉/2.jpg"
+        "googleMapsQuery": "初山別灯台"
       },
       {
         "name": "初山別村暑寒別岳",
         "description": "車で約30分の標高629メートルの低山で、登山道から日本海の水平線を一望できる。秋の早朝には雲海が発生することもある。",
-        "googleMapsQuery": "暑寒別岳登山道 初山別村",
-        "imageUrl": "/images/spots/gen_北海_初山別温泉/3.jpg"
+        "googleMapsQuery": "暑寒別岳登山道 初山別村"
       }
     ],
     "description": "北海道北部、人口約1100人の初山別村にある温泉地。道の駅「ロマン街道しょさんべつ」に塩気を含んだ湯が湧き、露天風呂から夜は満天の星を仰げる。天文台での夜間観望もあるが、晴れた日限定なので事前に天気予報を確認したい。徒歩圏内の村民浜海水浴場では夕刻に海面が金色に染まり、断崖上に立つ初山別灯台では大波が白く砕ける日本海を間近に見られる。起点となる札幌駅からはバスも通じるが、冬季はスタッドレス装備のレンタカーが現実的だ。塩の湯、星の夜。",
@@ -120840,14 +119974,7 @@
       {
         "name": "水戸城跡本丸跡広場",
         "description": "徳川氏の居城跡。野面積みの石垣の遺構が往時の規模を物語り、苔の香りを感じながら歴史散歩が楽しめる。",
-        "googleMapsQuery": "水戸城跡 本丸広場",
-        "imageUrl": "/images/spots/gen_茨城_偕楽園/2.jpg",
-        "imageCredit": {
-          "author": "WagnerAnne",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%99%E3%83%AB%E3%83%AA%E3%83%B3-%E4%B8%96%E7%95%8C%E6%99%82%E8%A8%88-5289802/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "水戸城跡 本丸広場"
       }
     ],
     "description": "茨城県水戸市の偕楽園は、約100品種・3000本の梅が植わる庭園だ。東京から約1時間59分。水戸駅からバスでアクセスでき、梅まつりのピーク時は混雑するため、平日午前の訪問が入園しやすい。早春には梅が色とりどりに咲き、園内を歩きながら品種ごとの違いを見比べられる。隣接する千波湖は湖畔沿いに歩くことができ、冬には渡り鳥の中継地となって多様な水鳥が集まる。水戸城跡では野面積みの石垣の遺構が往時の規模を伝えており、歴史散歩の締めくくりに立ち寄りたい。見どころが点在するため、1泊してゆっくり巡るのが充実した旅になる。梅の白と薄紅が空を埋める、水戸の早春。",
@@ -121436,14 +120563,7 @@
       {
         "name": "大子町歴史民俗資料館",
         "description": "江戸時代の生活道具や農具を展示。時間の積もった木造建屋の中で、地域の昔の暮らしぶりに思いを馳せられる。",
-        "googleMapsQuery": "大子町歴史民俗資料館",
-        "imageUrl": "/images/spots/gen_茨城_西山荘/2.jpg",
-        "imageCredit": {
-          "author": "gavinseim",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B8%82-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3-%E5%A4%9C-%E6%95%99%E4%BC%9A-3116989/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "大子町歴史民俗資料館"
       }
     ],
     "description": "茨城県常陸太田市にある西山荘は、水戸藩主・徳川光圀が晩年を過ごした茅葺き屋根の隠居所。木立に囲まれた敷地に一歩入れば、光圀ゆかりの空間をそのまま歩ける。水戸駅を起点にバスで向かうのが基本で、東京からは約2時間10分でアクセスできる。年中無休。訪問前に確認しておきたい。大子町歴史民俗資料館では江戸時代の農具や生活道具を展示し、地域の暮らしぶりを伝えている。見どころが分散しているので、1泊してゆっくり巡るのに向いた場所だ。茅葺きの屋根の下、静かな時間。",
@@ -122257,14 +121377,7 @@
       {
         "name": "笠間城跡",
         "description": "神社から徒歩圏内の城址。石垣が残る天守台から笠間の町並みと筑波山を望み、二の丸跡では季節の野草も楽しめる。",
-        "googleMapsQuery": "笠間城跡 茨城県笠間市",
-        "imageUrl": "/images/spots/gen_茨城_笠間稲荷神社/2.jpg",
-        "imageCredit": {
-          "author": "Istvan_Karoly_Bocs",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%9F%8E-%E5%9F%8E%E8%B7%A1-%E8%A8%98%E5%BF%B5%E7%A2%91-%E4%B8%AD%E9%96%93%E5%B9%B4%E9%BD%A2-6579254/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "笠間城跡 茨城県笠間市"
       }
     ],
     "description": "茨城県笠間市に鎮座する笠間稲荷神社は、日本三大稲荷のひとつに数えられる古社だ。石畳の参道両脇には樹齢400年以上の杉の巨木が並び、参拝の場として長く人を集めてきた。東京から約1時間54分。笠間駅からは徒歩約23分、タクシーなら5分ほどで着く。神社の周辺には見どころが続き、笠間陶芸の里では赤土を使った笠間焼の工房が集まり、制作の様子を間近で見学できます。神社から徒歩圏の笠間城跡には石垣が残り、天守台からは筑波山と町並みを見渡せます。土日は混むため、午前中の早い時間に動くと快適だ。頭上へ伸びる杉の梢と、石畳の参道。",
@@ -122457,14 +121570,7 @@
       {
         "name": "鹿島神宮の参道商店街",
         "description": "江戸期から続く参詣文化を伝える参道に、老舗が軒を連ねる。暖簾や焼き菓子の香りとともに、歴史ある通りを歩くことができる。",
-        "googleMapsQuery": "鹿島神宮参道商店街 茨城",
-        "imageUrl": "/images/spots/gen_茨城_鹿島神宮/1.jpg",
-        "imageCredit": {
-          "author": "wal_172619",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%95%86%E5%BA%97%E8%A1%97-%E6%AD%A9%E8%A1%8C%E8%80%85%E5%B0%82%E7%94%A8%E5%8C%BA%E5%9F%9F-7924559/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "鹿島神宮参道商店街 茨城"
       },
       {
         "name": "北浦遊歩道",
@@ -123523,14 +122629,7 @@
       {
         "name": "川俣大滝",
         "description": "露出した岩盤を水が複雑に流れ落ち、冬は周囲に薄氷が張る凍結の過程も見られる。",
-        "googleMapsQuery": "川俣大滝 栃木県日光市",
-        "imageUrl": "/images/spots/gen_栃木_川俣温泉/1.jpg",
-        "imageCredit": {
-          "author": "jiaxf111",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%8A%E3%82%A4%E3%82%A2%E3%82%AC%E3%83%A9%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%82%BA-%E5%A4%A7%E6%BB%9D-3515261/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "川俣大滝 栃木県日光市"
       },
       {
         "name": "男体山登山道",
@@ -123547,14 +122646,7 @@
       {
         "name": "中禅寺湖の西岸遊歩道",
         "description": "奥日光最大の湖の岸辺を歩く道。冬は氷の張った湖面と山々のコントラストが冴え、沢筋の水音を聞きながら歩ける。",
-        "googleMapsQuery": "中禅寺湖 西岸遊歩道 栃木県日光市",
-        "imageUrl": "/images/spots/gen_栃木_川俣温泉/3.jpg",
-        "imageCredit": {
-          "author": "Sara32_jabar",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "中禅寺湖 西岸遊歩道 栃木県日光市"
       }
     ],
     "description": "栃木県・奥鬼怒の峡谷に湧く温泉地。宇都宮駅からバスで向かうのが基本で、東京からは約2時間22分でアクセスできる。温泉地の名物は間欠泉で、駐車場から歩いて3分ほどの地点で湯が噴き上がる様子を近くで観察できる。川俣大滝は川俣川最大の落差を持ち、冬には周囲に薄氷が張る凍結の過程も見られる。足を延ばせば中禅寺湖の西岸遊歩道へも続いており、氷の張った湖面と山々のコントラストが冴え渡る冬の景色を歩いて楽しめる。滞在は1泊が目安で、温泉にゆっくりつかる時間を取りたい。雪の峡谷に立ちのぼる白い湯煙。",
@@ -124458,14 +123550,7 @@
       {
         "name": "日光山輪王寺 大猷院廟",
         "description": "杉並木の参道の先にある17世紀の建築遺産。苔むした石段と木漏れ日の中、古刹の厳粛な空気を味わえる。",
-        "googleMapsQuery": "大猷院廟 日光",
-        "imageUrl": "/images/spots/gen_栃木_日光湯元温泉/3.jpg",
-        "imageCredit": {
-          "author": "mripa",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%A0-%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%BC%E3%83%89-%E5%A4%A7-2374096/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "大猷院廟 日光"
       }
     ],
     "description": "栃木県・奥日光に位置する標高1470mの山の温泉地。東京から約2時間17分、宇都宮駅を経由し東武日光駅・日光駅からバスで約1時間20分で着く。終バスが17時台と早いため、時刻は事前に確認しておきたい。泉質は硫黄泉で、林間の露天風呂から湯ノ湖を望める。湯ノ湖は温泉の源泉地でもある火山湖で、岸沿いの遊歩道をひと回りできる。冬は湖面や針葉樹が雪と樹氷に覆われ、温泉の湯気が白い空に溶ける。宿は湯元板屋をはじめ10軒ほど。週末は早めの予約を。雪の積もる遊歩道と、立ち上る白い湯気。",
@@ -124674,26 +123759,12 @@
       {
         "name": "落合橋（竜王の滝展望台）",
         "description": "断崖絶壁から流れ落ちる竜王の滝を間近に望む展望地。冬は凍結した滝が青白く輝き、雪の絶壁との対比が圧巻。",
-        "googleMapsQuery": "竜王の滝 湯西川 栃木県",
-        "imageUrl": "/images/spots/gen_栃木_湯西川温泉/2.jpg",
-        "imageCredit": {
-          "author": "Z3RAJIRAIYA",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "竜王の滝 湯西川 栃木県"
       },
       {
         "name": "上滝沢不動滝",
         "description": "二段になって垂直に落下する滝。苔むした岩肌と冬の朝霧、凍結した滝の幻想的な姿に出会える穴場スポット。",
-        "googleMapsQuery": "上滝沢不動滝 湯西川 栃木",
-        "imageUrl": "/images/spots/gen_栃木_湯西川温泉/3.jpg",
-        "imageCredit": {
-          "author": "17144709",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E7%A0%A6-%E4%B8%8A-7837959/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "上滝沢不動滝 湯西川 栃木"
       }
     ],
     "description": "栃木県の渓谷に湛わる温泉地で、平家の落人伝説が残る川沿いの里だ。東京から約2時間26分でアクセスでき、野岩鉄道の湯西川温泉駅が最寄りになる。冬が本番。2月には河畔にかまくらが並び、ろうそくの灯りが川面に映る夜は特別な時間となる。落合橋の展望台からは凍結した竜王の滝を間近に望め、青白く輝く氷瀑と雪の絶壁の対比が圧倒的だ。四季の山野草と渓流を楽しめる湯西川水生植物園も、散策の立ち寄り先として外せない。1666年創業・25代続く本家伴久は平家ゆかりの宿で、囲炉裏会席とかずら橋が名物。かまくら祭の週末は予約が早く埋まる。川面に揺れる小さな炎。",
@@ -124894,14 +123965,7 @@
       {
         "name": "佐野厳島神社",
         "description": "小高い丘に朱い鳥居と社殿が建つ古社で、杉林に囲まれた境内から市街地を見晴らせる。",
-        "googleMapsQuery": "佐野厳島神社",
-        "imageUrl": "/images/spots/gen_栃木_佐野プレミアム・アウトレット/1.jpg",
-        "imageCredit": {
-          "author": "AlexanderWeichsel",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E6%97%A5%E6%9C%AC-%E9%B3%A5%E5%B1%85-%E5%AF%BA-%E5%8E%B3%E5%B3%B6-%E6%B0%B4-9074037/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "佐野厳島神社"
       },
       {
         "name": "出流原弁天池",
@@ -125123,26 +124187,12 @@
       {
         "name": "那須湯本温泉街",
         "description": "殺生石の南約2km、那須最古の温泉地。硫黄の湯気立つ町並みと歴史ある旅館、地熱で温まった石畳を歩ける。",
-        "googleMapsQuery": "那須湯本温泉 栃木県",
-        "imageUrl": "/images/spots/gen_栃木_殺生石/1.jpg",
-        "imageCredit": {
-          "author": "tathanhtuan",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "那須湯本温泉 栃木県"
       },
       {
         "name": "八幡温泉 玉の湯",
         "description": "山肌から湧く白濁の硫黄泉。露天風呂から那須の山々を望み、地元民も訪れる素朴な佇まいの湯を味わえる。",
-        "googleMapsQuery": "玉の湯 那須湯本温泉",
-        "imageUrl": "/images/spots/gen_栃木_殺生石/2.jpg",
-        "imageCredit": {
-          "author": "LoggaWiggler",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "玉の湯 那須湯本温泉"
       }
     ],
     "description": "栃木県那須にある殺生石は、白い岩場から硫黄のガスが噴き出す火山性の地帯だ。植物も育たない荒涼とした景観が広がり、九尾の狐伝説の舞台としても知られる。宇都宮駅からバスで現地へ向かうのが基本で、東京から約2時間36分。見どころの中心は殺生石の岩場で、間近を歩いて回れる。風向きによってガスが流れることがあるため、長居は控えたい。歩いてすぐ南に那須湯本温泉街があり、石畳の町並みと白濁の硫黄泉が楽しめる。駐車場は無料。週末は午前中に訪れると比較的空いている。非日常の地に立つ実感がある。",
@@ -125788,14 +124838,7 @@
       {
         "name": "大谷観音",
         "description": "採石場跡の赤褐色の凝灰岩に直接彫られた、高さ約21mの大仏。採石の場に刻まれた仏の表情が、信仰と採石の歴史を伝える。",
-        "googleMapsQuery": "大谷観音 宇都宮市",
-        "imageUrl": "/images/spots/gen_栃木_宇都宮城/3.jpg",
-        "imageCredit": {
-          "author": "t-miki",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/8305862@N07/32738857675",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "大谷観音 宇都宮市"
       }
     ],
     "description": "商業施設や住宅街を抜けると、唐突に土塁が目に入る。復元された土塁と櫓が街の真ん中にどっしりと構え、観光地然としない、生活に溶け込んだ城の空気がかえってリアルに刺さる。餃子の街のイメージが少し変わる体験だ。足を延ばせば、気温9度の地下に広がる大谷資料館の採石場跡や、岩肌に彫られた高さ約21mの大谷観音など、石の文化にも出会える。夏は土塁の上が暑いので朝か夕方がいい。拠点は宇都宮駅だ。",
@@ -125996,14 +125039,7 @@
       {
         "name": "大谷石採石場地下坑道ツアー",
         "description": "薄紅色の凝灰岩が採掘された地下空間。年間15度前後のひんやりした石壁に、採掘時代の痕跡を間近に見られる。",
-        "googleMapsQuery": "大谷採石場 地下坑道 宇都宮",
-        "imageUrl": "/images/spots/gen_栃木_宇都宮二荒山神社/2.jpg",
-        "imageCredit": {
-          "author": "dexmac",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%88%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%8A-%E6%8E%A1%E7%9F%B3%E5%A0%B4-%E5%A4%A7%E7%90%86%E7%9F%B3-4240688/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "大谷採石場 地下坑道 宇都宮"
       }
     ],
     "description": "宇都宮市中心部に鎮まる古社だ。繁華街を抜けた先に95段の石段がそびえ、登りきった境内では木々に囲まれた静謐な空間で参拝できる。神社に隣接する宇都宮城址公園では、城郭考古学に基づき精密に復元された三階櫓や土塁を間近に確認でき、城と神社が並び立った往時の地割りを実感できる。大谷石採石場の地下坑道ツアーでは、年間15度前後に保たれた石壁に採掘時代の痕跡が刻まれており、その規模と質感に圧倒される。東京からは約1時間59分。宇都宮駅を拠点に1泊してじっくり巡りたい。朱塗りの社殿と石段、街なかの別天地。",
@@ -126196,8 +125232,7 @@
       {
         "name": "太平山栃木縣護国神社",
         "description": "太平山頂に鎮座し、県出身の戦没者を祀る。本殿から栃木県南部の平野を一望でき、厳かな参道も見どころ。",
-        "googleMapsQuery": "太平山栃木縣護国神社 栃木県",
-        "imageUrl": "/images/spots/gen_栃木_太平山神社/1.jpg"
+        "googleMapsQuery": "太平山栃木縣護国神社 栃木県"
       },
       {
         "name": "太平山自然公園",
@@ -127718,14 +126753,7 @@
       {
         "name": "沼田城跡 公園",
         "description": "利根川に面した戦国期の城跡公園。曲輪の高低差と野面積みの石垣が立体感を作り、城郭の縄張り遺構を学べる。",
-        "googleMapsQuery": "沼田城跡公園 沼田市",
-        "imageUrl": "/images/spots/gen_群馬_上牧温泉/3.jpg",
-        "imageCredit": {
-          "author": "Schwoaze",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%85%AC%E5%9C%92-%E6%9C%A8-%E3%83%81%E3%83%A3%E3%83%9A%E3%83%AB-%E5%9F%8E%E8%B7%A1-%E5%A4%8F-3588094/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "沼田城跡公園 沼田市"
       }
     ],
     "description": "群馬県北部、利根川沿いに湧く温泉地だ。東京から約2時間22分でアクセスできる。最寄りは高崎駅で、バスを利用する。見どころの中心は上牧温泉の湯そのもので、町営露天風呂は利根川に面した木造の浴舎に黄褐色の源泉が注ぎ、川越しに岩肌を眺めながら入れる。宿では地元猟師が仕入れた猪の鍋を部屋食で提供している。足を伸ばすと落差7m・幅30mを誇る吹割の滝があり、岩を割くように落ちる飛沫と轟音が迫力を放つ。沼田城跡公園では野面積みの石垣と曲輪の高低差が城郭の構造を伝え、街歩きの一コースにもなる。川音が届く湯宿の夜。",
@@ -127917,38 +126945,17 @@
       {
         "name": "川中温泉 熊野皮膚科医クリニック跡",
         "description": "大正期の医療施設を改修した入浴施設。",
-        "googleMapsQuery": "川中温泉 医療施設跡 みなかみ町",
-        "imageUrl": "/images/spots/gen_群馬_川中温泉/1.jpg",
-        "imageCredit": {
-          "author": "pen_ash",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%91%E3%82%B4%E3%83%80-%E6%BB%9D-%E4%B8%89%E9%87%8D%E3%81%AE%E5%A1%94-%E7%86%8A%E9%87%8E%E5%8F%A4%E9%81%93-7868621/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "川中温泉 医療施設跡 みなかみ町"
       },
       {
         "name": "利根川渓谷遊歩道（川中～後閑区間）",
         "description": "川床に沿って続く道。苔むした岩と杉林、浸蝕が生んだ奇岩が連続し、冬は結氷や水音の反響も味わえる散策路。",
-        "googleMapsQuery": "利根川渓谷遊歩道 川中温泉 みなかみ町",
-        "imageUrl": "/images/spots/gen_群馬_川中温泉/2.jpg",
-        "imageCredit": {
-          "author": "Sara32_jabar",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "利根川渓谷遊歩道 川中温泉 みなかみ町"
       },
       {
         "name": "黒岩の不動滝",
         "description": "山道を30分歩いた先にある細流の滝で、滝前の岩盤に腰を下ろして冷気と滝音を楽しめる。",
-        "googleMapsQuery": "黒岩不動滝 みなかみ町",
-        "imageUrl": "/images/spots/gen_群馬_川中温泉/3.jpg",
-        "imageCredit": {
-          "author": "JillWellington",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E8%8A%B1-%E8%87%AA%E7%84%B6-%E3%83%95%E3%83%AD%E3%83%BC%E3%83%A9-%E8%8A%B1%E5%BC%81-%E5%A4%8F-3140492/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "黒岩不動滝 みなかみ町"
       }
     ],
     "description": "群馬県吾妻郡に位置する温泉地で、宿の前を吾妻川の支流が流れる。日本三大美肌の湯のひとつに数えられる名湯が、小さな集落にひっそりと湧く。最寄りは高崎駅で、バスを利用して向かう。大正期の医療施設を改修した入浴施設は白壁と黒い桁の和洋混交の建築が目を引き、木製建具越しに林を望みながら湯浴みができる。山道を30分ほど歩くと黒岩の不動滝に至り、岩盤に腰を下ろして滝音とともに過ごせる。川辺の景色は夏の緑から秋の紅葉、冬の雪へと季節ごとに変わる。1泊の滞在で温泉に2回浸かり、部屋でゆっくり過ごす。雪に覆われた川辺と静かな湯。",
@@ -128591,8 +127598,7 @@
       {
         "name": "敷島峡",
         "description": "利根川が刻んだ渓谷。層理の明瞭な岩壁と冬の凍結した滝が自然の彫刻となり、温泉地から歩いて渓谷美を味わえる。",
-        "googleMapsQuery": "敷島峡 群馬県 利根川",
-        "imageUrl": "/images/spots/gen_群馬_敷島温泉/1.jpg"
+        "googleMapsQuery": "敷島峡 群馬県 利根川"
       },
       {
         "name": "法師温泉 長寿館",
@@ -129000,14 +128006,7 @@
       {
         "name": "中ノ条温泉街 六合地区",
         "description": "花敷温泉を含む標高の高い温泉群。古い石造りの湯治宿が点在し、深い雪景色とともに時間の層を感じる街歩きができる。",
-        "googleMapsQuery": "中ノ条温泉 六合地区",
-        "imageUrl": "/images/spots/gen_群馬_花敷温泉/1.jpg",
-        "imageCredit": {
-          "author": "Doquocminhttxvn",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%86%E3%83%A9%E3%82%B9-%E9%BB%84%E9%87%91%E8%89%B2%E3%81%AE%E7%94%B0%E3%82%93%E3%81%BC-8148062/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "中ノ条温泉 六合地区"
       },
       {
         "name": "日本ロマンチック街道（北ルート）",
@@ -129440,14 +128439,7 @@
       {
         "name": "万座ハイウェイオアシス",
         "description": "晴天時は北アルプスの稜線を遠望でき、冬は雲海を下に見る特別な光景に出会える。",
-        "googleMapsQuery": "万座ハイウェイオアシス 嬬恋村",
-        "imageUrl": "/images/spots/gen_群馬_万座温泉/1.jpg",
-        "imageCredit": {
-          "author": "Tubbn",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%90%E3%83%96%E3%83%BC%E3%82%B6%E3%83%BC%E3%83%91%E3%82%B9-%E3%83%90%E3%83%96%E3%82%B5%E3%83%BC%E3%83%88%E3%83%83%E3%83%97-1663543/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "万座ハイウェイオアシス 嬬恋村"
       },
       {
         "name": "万座温泉スキー場",
@@ -129464,14 +128456,7 @@
       {
         "name": "志賀高原との境界展望地",
         "description": "万座山へ向かう山道沿いにある展望地で、火山性地盤の鮮やかな色彩と冬の樹林の対比を眺めながら、硫黄の香る火山の空気に触れられる。",
-        "googleMapsQuery": "万座山展望地 嬬恋村",
-        "imageUrl": "/images/spots/gen_群馬_万座温泉/3.jpg",
-        "imageCredit": {
-          "author": "Z3RAJIRAIYA",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "万座山展望地 嬬恋村"
       }
     ],
     "description": "群馬県北部の高原に湧く温泉地で、標高1800mに白濁の硫黄泉が豊富に流れる。高崎駅からバスに乗り、万座鹿沢口駅でさらに乗り継いで約40分で万座バスターミナルに着く。東京から約2時間33分。老舗の万座温泉日進舘は日本有数の濃硫黄泉を引き、バスターミナルからの送迎も運行している。標高1300mの万座ハイウェイオアシスは晴れた冬に雲海を足元へ見渡せる展望施設で、万座温泉スキー場は同じ標高帯に広がるゲレンデからの山並みが雄大だ。乳白色の湯に沈む冬の夜。",
@@ -129682,8 +128667,7 @@
       {
         "name": "臼別温泉周辺の山林景観",
         "description": "峡谷に囲まれた温泉地の森。冬は粉雪の針葉樹林に湯煙が立ち、凍りつく朝景色や野生動物の足跡観察が楽しめる。",
-        "googleMapsQuery": "臼別温泉 天塩川",
-        "imageUrl": "/images/spots/gen_北海_臼別温泉/2.jpg"
+        "googleMapsQuery": "臼別温泉 天塩川"
       }
     ],
     "description": "北海道せたな町の山中にある無料の露天風呂。鍵もロッカーもない素朴な脱衣場を抜けると、渓流沿いに湯が湧く。札幌駅を起点にバスとレンタカーを組み合わせるルートが現実的で、東京からは約8時間17分の道のりになる。道が細くなり「本当にここか」と迷う頃に、ようやく湯が姿を現す。見どころは臼別温泉そのものだ。地元の人々が管理する湯に感謝の寸志を添えて浸かる慣習があり、湯面には北海道の空が映り込む。冬になると針葉樹林から湯けむりが立ち、周辺では野生動物の足跡も見られる。看板のない湯、川の音だけ。",
@@ -129876,8 +128860,7 @@
       {
         "name": "天塩川流域の秘境谷",
         "description": "針葉樹と白樺の混交林が続く原始的な地形で、雪面には野ウサギやキツネの足跡が残り、渓流の瀬音が冷気の中に響く。",
-        "googleMapsQuery": "天塩川 留萌市 オーロラ温泉周辺",
-        "imageUrl": "/images/spots/gen_北海_オーロラ温泉/2.jpg"
+        "googleMapsQuery": "天塩川 留萌市 オーロラ温泉周辺"
       }
     ],
     "description": "北海道・陸別町の奥地にある小さな温泉地。街灯が消えた暗い道を進んだ先に湯が待ち、冬がベストシーズンだ。最寄りは札幌駅で、そこから二次交通を乗り継ぐかレンタカーを使うのが現実的な手段。東京からは約10時間26分かかる。湯に浸かりながら見上げると満天の星が出ており、条件が重なれば緑の光が夜空を流れる。背後には針葉樹と白樺の混交林が広がり、雪原には野ウサギやキツネの足跡が残る。滞在は1泊が目安。温泉に2回入って部屋でゆっくり過ごす、それだけで十分な場所だ。闇の先の、冬の湯。",
@@ -130065,8 +129048,7 @@
       {
         "name": "奥美利河温泉駅",
         "description": "無人の小さな駅舎が残る秘湯の駅で、冬には粉雪が吹き溜まる鉄路の終端に位置し、昭和の面影をとどめる。",
-        "googleMapsQuery": "奥美利河温泉駅 北海道",
-        "imageUrl": "/images/spots/gen_北海_奥美利河温泉/1.jpg"
+        "googleMapsQuery": "奥美利河温泉駅 北海道"
       },
       {
         "name": "美利河ダム",
@@ -130173,214 +129155,6 @@
       "license": "Public domain",
       "url": "https://commons.wikimedia.org/wiki/File%3AOku-Pirika_spa_gaikan.jpg",
       "attributionRequired": false
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    }
-  },
-  {
-    "id": "gen_北海_オソウシ温泉",
-    "name": "オソウシ温泉",
-    "displayName": "オソウシ温泉",
-    "prefecture": "北海道",
-    "region": "北海道",
-    "lat": 43.23227778,
-    "lng": 142.96077778,
-    "destType": "onsen",
-    "hubCity": "札幌",
-    "fallbackCity": "札幌",
-    "isStayable": true,
-    "_generated": true,
-    "_source": "wikipedia",
-    "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
-    "tags": [
-      "温泉",
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "primary": [
-      "温泉"
-    ],
-    "secondary": [
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "weight": 1.55,
-    "stayPriority": "high",
-    "onsenLevel": 3,
-    "accessStation": "札幌駅",
-    "representativeStation": "札幌駅",
-    "railProvider": "ekinet",
-    "jrArea": "east",
-    "finalAccess": {
-      "type": "train",
-      "line": "在来線",
-      "to": "オソウシ温泉"
-    },
-    "transportHubs": {
-      "rail": "札幌駅",
-      "city": "札幌"
-    },
-    "gateway": null,
-    "departures": [
-      "札幌",
-      "仙台",
-      "東京",
-      "名古屋",
-      "大阪",
-      "広島",
-      "福岡",
-      "和歌山",
-      "釧路",
-      "帯広",
-      "北見"
-    ],
-    "isIsland": false,
-    "hub": "札幌",
-    "stayAllowed": [
-      "2night"
-    ],
-    "spots": [
-      {
-        "name": "オソウシ温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Osoushi_spa_2011.JPG/500px-Osoushi_spa_2011.JPG",
-        "description": "飾り気のない建物に湧く源泉かけ流しの湯。約43度のほどよい湯加減で、ほのかな硫黄の香りとともに長湯を楽しめる。",
-        "imageCredit": {
-          "author": "Soica2001 (talk)",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Osoushi_spa_2011.JPG",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "屈足湖",
-        "description": "屈足ダムによって形成された湖で、新得町の山あいに位置し、湖畔にはキャンプ場が設けられている。"
-      },
-      {
-        "name": "狩勝峠",
-        "description": "新得町と南富良野町の境に位置する峠で、展望台から十勝平野を見下ろすことができる。",
-        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/KarikachiPassView.JPG/500px-KarikachiPassView.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "imageCredit": {
-          "author": "Ippukucho",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:KarikachiPassView.JPG",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "description": "新得町の山あいに湧く源泉かけ流しの一軒宿。湯温は約43度。飾り気のない浴場にほのかな硫黄の香りが漂い、長湯に向く湯質が旅人を引き止める。冬の雪山に囲まれた中で湯に繰り返し浸かるのが、この宿の正しい滞在の形だ。札幌駅から列車で新得駅へ向かい、そこから宿へアクセスする。周辺には屈足ダムによって形成された屈足湖があり、山あいの湖畔を歩いて回れる。新得町と南富良野町の境に立つ狩勝峠には展望台が設けられ、十勝平野を見下ろす眺めが待つ。雪に覆われた峠と湯上がりの静けさ。",
-    "catch": "オソウシ温泉で温泉に2回入って、部屋でゆっくりして寝る",
-    "requiresCar": false,
-    "type": "destination",
-    "subType": "onsen",
-    "city": "札幌",
-    "hubStation": "札幌駅",
-    "hotelArea": "北海道",
-    "hotelSearch": "オソウシ温泉",
-    "hotelKeyword": "オソウシ温泉",
-    "travelTime": {
-      "tokyo": 590,
-      "nagoya": 682,
-      "osaka": 748,
-      "takamatsu": 812,
-      "fukuoka": 977,
-      "wakayama": 778,
-      "mito": 635,
-      "maebashi": 650,
-      "takasaki": 650,
-      "hamamatsu": 712,
-      "gifu": 702,
-      "kofu": 680,
-      "shingu": 868,
-      "tanabe": 838,
-      "shirahama": 848,
-      "kushimoto": 868,
-      "tottori": 868,
-      "shimonoseki": 1007,
-      "saga": 1007,
-      "oita": 1037,
-      "beppu": 1047
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": "bus",
-    "stayBias": "destination",
-    "airportHub": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "mapPoint": "オソウシ温泉",
-    "railGateway": "札幌駅",
-    "railNote": "バス",
-    "hasDirectFlight": false,
-    "airportGateway": null,
-    "busGateway": null,
-    "ferryGateway": null,
-    "gateways": [],
-    "access": {
-      "steps": []
-    },
-    "localAccess": null,
-    "_enriched": true,
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89",
-    "bookingStation": null,
-    "mainSpot": "オソウシ温泉",
-    "stayArea": {
-      "rakuten": "オソウシ温泉",
-      "jalan": "オソウシ温泉"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
-      "jalan": "https://www.jalan.net/010000/"
-    },
-    "tier": "area",
-    "icCard": "suica",
-    "tier2": "area",
-    "hubName": "札幌",
-    "rentalCarRecommended": true,
-    "unsplashUrl": "https://images.unsplash.com/photo-1748208595013-6bf2472bd0ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODklMjAlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MTc3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1748208595013-6bf2472bd0ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODklMjAlRTMlODIlQUElRTMlODIlQkQlRTMlODIlQTYlRTMlODIlQjclRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MTc3N3ww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Arthur Tseng",
-    "unsplashCreditUrl": "https://unsplash.com/@arthur3607?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/a-steamy-calm-pool-beneath-wooden-pillars-NIBr1QZbuwU?utm_source=dokoiko&utm_medium=referral",
-    "images": [
-      "/images/gen_北海_オソウシ温泉/main.jpg",
-      "/images/gen_北海_オソウシ温泉/spot-1.jpg"
-    ],
-    "reasonChips": [
-      "温泉",
-      "自然と過ごす",
-      "街歩き",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "温泉がおすすめ",
-      "街歩き向け"
-    ],
-    "bestSeason": "冬",
-    "imageCredit": {
-      "author": "pakku",
-      "license": "CC BY 3.0",
-      "url": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89%EF%BC%88Open-air_bath%EF%BC%89_-_panoramio.jpg",
-      "attributionRequired": true
     },
     "travelTimeEstimated": {
       "wakayama": true,
@@ -130816,211 +129590,6 @@
     }
   },
   {
-    "id": "gen_北海_金花湯",
-    "name": "金花湯",
-    "displayName": "金花湯",
-    "prefecture": "北海道",
-    "region": "北海道",
-    "lat": 42.59138889,
-    "lng": 140.1375,
-    "destType": "onsen",
-    "hubCity": "札幌",
-    "fallbackCity": "札幌",
-    "isStayable": true,
-    "_generated": true,
-    "_source": "wikipedia",
-    "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
-    "tags": [
-      "温泉",
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "primary": [
-      "温泉"
-    ],
-    "secondary": [
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "weight": 1.55,
-    "stayPriority": "high",
-    "onsenLevel": 3,
-    "accessStation": "札幌駅",
-    "representativeStation": "札幌駅",
-    "railProvider": "ekinet",
-    "jrArea": "east",
-    "finalAccess": {
-      "type": "train",
-      "line": "在来線",
-      "to": "金花湯"
-    },
-    "transportHubs": {
-      "rail": "札幌駅",
-      "city": "札幌"
-    },
-    "gateway": null,
-    "departures": [
-      "札幌",
-      "仙台",
-      "東京",
-      "名古屋",
-      "大阪",
-      "広島",
-      "福岡",
-      "和歌山",
-      "釧路",
-      "帯広",
-      "北見"
-    ],
-    "isIsland": false,
-    "hub": "札幌",
-    "stayAllowed": [
-      "2night"
-    ],
-    "spots": [
-      {
-        "name": "金花湯",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Simamaki_kinkatou_before.jpg/500px-Simamaki_kinkatou_before.jpg",
-        "description": "源泉約52度、加水してちょうどよくなる薄い緑がかった湯。砂利道の先にたどり着く達成感ごと味わう秘湯体験ができる。",
-        "imageCredit": {
-          "author": "Soica2001 (talk)",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Simamaki_kinkatou_before.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "赤倉温泉街の足湯",
-        "description": "温泉街にある公共の足湯施設で、硫黄の香りを感じながら林の緑を眺めて足の疲れをほぐせる。",
-        "googleMapsQuery": "赤倉温泉足湯 北海道赤倉町",
-        "imageUrl": "/images/spots/gen_北海_金花湯/1.jpg"
-      },
-      {
-        "name": "赤倉峠展望台",
-        "description": "町境に位置する展望地。四季折々の景観が広がり、冬は雪景色と遠く日本海を望む眺めを楽しめる。",
-        "googleMapsQuery": "赤倉峠展望台 北海道上ノ国町",
-        "imageUrl": "/images/spots/gen_北海_金花湯/2.jpg",
-        "imageCredit": {
-          "author": "Z3RAJIRAIYA",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B1%95%E6%9C%9B%E5%8F%B0-%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC-7103210/",
-          "attributionRequired": false
-        }
-      }
-    ],
-    "description": "北海道にある秘湯で、源泉温度は約52度。加水してちょうどよい湯加減になる、薄い緑がかった色の湯が特徴だ。看板もほとんどなく、砂利道を進んだ先にようやくたどり着く。道中の不安ごと、到着の手ごたえになる。拠点は札幌駅で、アクセスにはレンタカーの利用が向いている。東京からは約8時間41分。見どころは金花湯の湯船そのものだが、周辺には温泉街の公共足湯もあり、林を眺めながら足を休められる。冬には峠の展望台から雪景色と日本海を一望できる。滞在は1泊が目安。砂利を踏む音の先に待つ、本物の湯。",
-    "catch": "金花湯で温泉に2回入って、部屋でゆっくりして寝る",
-    "requiresCar": false,
-    "type": "destination",
-    "subType": "onsen",
-    "city": "札幌",
-    "hubStation": "札幌駅",
-    "hotelArea": "北海道",
-    "hotelSearch": "金花湯",
-    "hotelKeyword": "金花湯",
-    "travelTime": {
-      "tokyo": 521,
-      "nagoya": 583,
-      "osaka": 640,
-      "takamatsu": 695,
-      "fukuoka": 848,
-      "wakayama": 670,
-      "mito": 566,
-      "maebashi": 581,
-      "takasaki": 581,
-      "hamamatsu": 613,
-      "gifu": 603,
-      "kofu": 611,
-      "shingu": 760,
-      "tanabe": 730,
-      "shirahama": 740,
-      "kushimoto": 760,
-      "tottori": 760,
-      "shimonoseki": 878,
-      "saga": 878,
-      "oita": 908,
-      "beppu": 918
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": "bus",
-    "stayBias": "destination",
-    "airportHub": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "mapPoint": "金花湯",
-    "railGateway": "札幌駅",
-    "railNote": "バス",
-    "hasDirectFlight": false,
-    "airportGateway": null,
-    "busGateway": null,
-    "ferryGateway": null,
-    "gateways": [],
-    "access": {
-      "steps": []
-    },
-    "localAccess": null,
-    "_enriched": true,
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%87%91%E8%8A%B1%E6%B9%AF&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E9%87%91%E8%8A%B1%E6%B9%AF",
-    "bookingStation": null,
-    "mainSpot": "金花湯",
-    "stayArea": {
-      "rakuten": "金花湯",
-      "jalan": "札幌"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
-      "jalan": "https://www.jalan.net/010000/"
-    },
-    "tier": "area",
-    "icCard": "suica",
-    "tier2": "area",
-    "hubName": "札幌",
-    "unsplashUrl": "https://images.unsplash.com/photo-1726537625746-4ab5285c60f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklODclOTElRTglOEElQjElRTYlQjklQUYlMjAlRTklODclOTElRTglOEElQjElRTYlQjklQUZ8ZW58MHwwfHx8MTc3ODQ2MTk5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1726537625746-4ab5285c60f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTklODclOTElRTglOEElQjElRTYlQjklQUYlMjAlRTklODclOTElRTglOEElQjElRTYlQjklQUZ8ZW58MHwwfHx8MTc3ODQ2MTk5Nnww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Wren Chai",
-    "unsplashCreditUrl": "https://unsplash.com/@weichaist?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/a-room-with-a-sink-and-a-toilet-in-it-_j54YXzW1_c?utm_source=dokoiko&utm_medium=referral",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/gen_北海_金花湯/main.jpg",
-      "/images/gen_北海_金花湯/spot-1.jpg"
-    ],
-    "reasonChips": [
-      "温泉",
-      "自然と過ごす",
-      "街歩き",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "温泉がおすすめ",
-      "街歩き向け"
-    ],
-    "bestSeason": "冬",
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    }
-  },
-  {
     "id": "gen_北海_塩別温泉",
     "name": "塩別温泉",
     "displayName": "塩別温泉",
@@ -131099,14 +129668,7 @@
       {
         "name": "塩別川",
         "description": "温泉街を流れる清流。夏は川沿いの遊歩道でトドマツやダケカンバの林と冷涼な水音を楽しめ、秋は紅葉が鮮烈だ。",
-        "googleMapsQuery": "塩別川 北海道",
-        "imageUrl": "/images/spots/gen_北海_塩別温泉/1.jpg",
-        "imageCredit": {
-          "author": "monicore",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%92%E3%83%9E%E3%83%A9%E3%83%A4%E5%A1%A9-%E3%83%94%E3%83%B3%E3%82%AF%E3%81%AE%E5%A1%A9-%E8%AA%BF%E5%91%B3%E6%96%99-4316903/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "塩別川 北海道"
       },
       {
         "name": "北の大地の水族館",
@@ -131525,14 +130087,12 @@
       {
         "name": "瀬戸瀬川渓谷",
         "description": "温泉の南側を流れる渓谷。遊歩道で段々の滝や苔生した岩盤、深い緑を映す淵を巡り、秋は紅葉と渓流音を楽しめる。",
-        "googleMapsQuery": "瀬戸瀬川渓谷",
-        "imageUrl": "/images/spots/gen_北海_瀬戸瀬温泉/1.jpg"
+        "googleMapsQuery": "瀬戸瀬川渓谷"
       },
       {
         "name": "響山園地",
         "description": "温泉から車で10分の山頂公園。クマザサに囲まれた展望台から大雪山系を一望し、澄んだ空気と林床の香りを味わえる。",
-        "googleMapsQuery": "響山園地 北海道",
-        "imageUrl": "/images/spots/gen_北海_瀬戸瀬温泉/2.jpg"
+        "googleMapsQuery": "響山園地 北海道"
       }
     ],
     "description": "北海道・遠軽の山あいに湧く温泉地。源泉は含食塩重曹泉で、透き通った茶褐色の湯が特徴だ。派手な看板も土産物屋もない。湯に浸かり、部屋でくつろぎ、もう一度湯に入る——1泊でそれが完結する。最寄りは札幌駅で、バスを利用するか、東京からは約10時間42分の道のりになる。瀬戸瀬川渓谷には遊歩道が整備されており、段々の滝や苔むした岩盤を間近に巡れる。温泉から車で10分の響山園地は山頂の展望台から大雪山系を一望できる公園で、冬は雪に覆われた山々が視界いっぱいに連なる。飾らない宿で、褐色の湯が静かに迎える。",
@@ -131627,211 +130187,6 @@
       "url": "https://commons.wikimedia.org/wiki/File%3ASetose_spa_2011.JPG",
       "attributionRequired": false
     },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    }
-  },
-  {
-    "id": "gen_北海_平田内温泉",
-    "name": "平田内温泉",
-    "displayName": "平田内温泉",
-    "prefecture": "北海道",
-    "region": "北海道",
-    "lat": 42.13444444,
-    "lng": 140.00555556,
-    "destType": "onsen",
-    "hubCity": "札幌",
-    "fallbackCity": "札幌",
-    "isStayable": true,
-    "_generated": true,
-    "_source": "wikipedia",
-    "stayDescription": "温泉に2回入って、部屋でゆっくりして寝る",
-    "tags": [
-      "温泉",
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "primary": [
-      "温泉"
-    ],
-    "secondary": [
-      "自然",
-      "街歩き",
-      "冬"
-    ],
-    "weight": 1.55,
-    "stayPriority": "high",
-    "onsenLevel": 3,
-    "accessStation": "札幌駅",
-    "representativeStation": "札幌駅",
-    "railProvider": "ekinet",
-    "jrArea": "east",
-    "finalAccess": {
-      "type": "train",
-      "line": "在来線",
-      "to": "平田内温泉"
-    },
-    "transportHubs": {
-      "rail": "札幌駅",
-      "city": "札幌"
-    },
-    "gateway": null,
-    "departures": [
-      "札幌",
-      "仙台",
-      "東京",
-      "名古屋",
-      "大阪",
-      "広島",
-      "福岡",
-      "和歌山",
-      "釧路",
-      "帯広",
-      "北見"
-    ],
-    "isIsland": false,
-    "hub": "札幌",
-    "stayAllowed": [
-      "2night"
-    ],
-    "spots": [
-      {
-        "name": "平田内温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hiratanai_spa_kumanoyu.jpg/500px-Hiratanai_spa_kumanoyu.jpg",
-        "description": "林道を約20分走った先に開ける、緑がかった湯色の露天風呂。川のすぐそばで野趣あふれる湯浴みを楽しめる。",
-        "imageCredit": {
-          "author": "Soica2001 (talk)",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Hiratanai_spa_kumanoyu.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "平田内湖",
-        "description": "温泉の北に位置するダム湖で、湖面に山影が映り、オオワシやオジロワシの観察や冬の結氷した湖面を楽しめる。",
-        "googleMapsQuery": "平田内湖 北海道",
-        "imageUrl": "/images/spots/gen_北海_平田内温泉/1.jpg",
-        "imageCredit": {
-          "author": "DarlaEbbets",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%83%92%E3%83%A9%E3%82%BF%E3%82%B1-%E3%82%AA%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%BC%E8%8F%8C-%E3%81%B2%E3%82%89%E3%81%9F%E3%81%91-205854/",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "晩生内の滝",
-        "description": "温泉から北東へ車で15分の幅広い滝。冬は氷結して青白く輝き、しぶきの冷感と氷の結晶音が非日常を演出する。",
-        "googleMapsQuery": "晩生内の滝 北海道",
-        "imageUrl": "/images/spots/gen_北海_平田内温泉/2.jpg"
-      }
-    ],
-    "description": "北海道・熊石地区の山中、林道を約20分走った先に現れる秘湯。緑がかった湯色の露天風呂が、川のすぐそばに設けられている。マイナス20度を下回ることもある冬でも湯は力強く湧き、野趣あふれる湯浴みを提供する。湯は男女別で、川の音を聞きながら浸かれる。温泉の北に位置する平田内湖はダム湖で、湖面に山影が映り、オオワシやオジロワシの観察ができる。最寄りは札幌駅で、東京からは約8時間11分。レンタカーを使うと動きやすい。冬の静けさが際立つ北の秘湯。",
-    "catch": "平田内温泉で温泉に2回入って、部屋でゆっくりして寝る",
-    "requiresCar": false,
-    "type": "destination",
-    "subType": "onsen",
-    "city": "札幌",
-    "hubStation": "札幌駅",
-    "hotelArea": "北海道",
-    "hotelSearch": "平田内温泉",
-    "hotelKeyword": "平田内温泉",
-    "travelTime": {
-      "tokyo": 491,
-      "nagoya": 552,
-      "osaka": 609,
-      "takamatsu": 666,
-      "fukuoka": 821,
-      "wakayama": 639,
-      "mito": 536,
-      "maebashi": 551,
-      "takasaki": 551,
-      "hamamatsu": 582,
-      "gifu": 572,
-      "kofu": 581,
-      "shingu": 729,
-      "tanabe": 699,
-      "shirahama": 709,
-      "kushimoto": 729,
-      "tottori": 729,
-      "shimonoseki": 851,
-      "saga": 851,
-      "oita": 881,
-      "beppu": 891
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": "bus",
-    "stayBias": "destination",
-    "airportHub": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "mapPoint": "平田内温泉",
-    "railGateway": "札幌駅",
-    "railNote": "バス",
-    "hasDirectFlight": false,
-    "airportGateway": null,
-    "busGateway": null,
-    "ferryGateway": null,
-    "gateways": [],
-    "access": {
-      "steps": []
-    },
-    "localAccess": null,
-    "_enriched": true,
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%B9%B3%E7%94%B0%E5%86%85%E6%B8%A9%E6%B3%89&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E5%B9%B3%E7%94%B0%E5%86%85%E6%B8%A9%E6%B3%89",
-    "bookingStation": null,
-    "mainSpot": "平田内温泉",
-    "stayArea": {
-      "rakuten": "平田内温泉",
-      "jalan": "札幌"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fhokkaido%2F",
-      "jalan": "https://www.jalan.net/010000/"
-    },
-    "tier": "area",
-    "icCard": "suica",
-    "tier2": "area",
-    "hubName": "札幌",
-    "unsplashUrl": "https://images.unsplash.com/photo-1777499701221-abf9b5c8072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODklMjAlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MjI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1777499701221-abf9b5c8072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODklMjAlRTUlQjklQjMlRTclOTQlQjAlRTUlODYlODUlRTYlQjglQTklRTYlQjMlODl8ZW58MHwwfHx8MTc3ODQ2MjI4Nnww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Trac Vu",
-    "unsplashCreditUrl": "https://unsplash.com/@tracminhvu?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/a-multi-story-building-beside-a-rocky-river-with-a-bridge-CBiaz2qB6uY?utm_source=dokoiko&utm_medium=referral",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/gen_北海_平田内温泉/main.jpg",
-      "/images/gen_北海_平田内温泉/spot-1.jpg"
-    ],
-    "reasonChips": [
-      "温泉",
-      "自然と過ごす",
-      "街歩き",
-      "グルメ",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "温泉がおすすめ"
-    ],
-    "bestSeason": "冬",
     "travelTimeEstimated": {
       "wakayama": true,
       "mito": true,
@@ -132559,14 +130914,7 @@
       {
         "name": "厚田村望郷の丘",
         "description": "日本海を臨む丘の展望施設。潮風の香りとともに、地平線に沈む夕陽の景色から北海道の雄大さを体感できる。",
-        "googleMapsQuery": "望郷の丘 厚田村 北海道",
-        "imageUrl": "/images/spots/gen_北海_石狩弁天社/2.jpg",
-        "imageCredit": {
-          "author": "analogicus",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3-%E6%9D%91-%E3%82%AB%E3%83%AB%E3%83%91%E3%83%88%E3%82%B9-%E4%B8%98-3384386/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "望郷の丘 厚田村 北海道"
       }
     ],
     "description": "石狩川が日本海へ注ぐ河口近くに位置する、砂丘と湿地帯の自然スポット群だ。石狩弁天社は砂丘の上に赤い鳥居が立つ小さな社で、漁師が海の安全を祈り続けてきた場所として知られる。砂を踏みしめながら参道を歩けば、海の気配が近づいてくる。石狩川河口野鳥観察舎は木製の施設で、双眼鏡を持参すれば渡り鳥や猛禽類を間近に観察できる。厚田村望郷の丘では日本海を見渡す展望が開き、地平線に沈む夕陽が見どころだ。拠点は札幌で、バスまたはレンタカーで向かう形になる。東京からは約9時間31分、見どころが点在するため1泊がおすすめ。赤い鳥居と広すぎる空。",
@@ -132758,14 +131106,7 @@
       {
         "name": "月山湖",
         "description": "月山ダムが生んだ周囲約12kmの人工湖。湖畔の白樺林が水面に映り、秋は枝先の黄葉が波に揺れて光る景色を楽しめる。",
-        "googleMapsQuery": "月山湖 浦臼",
-        "imageUrl": "/images/spots/gen_北海_浦臼神社/2.jpg",
-        "imageCredit": {
-          "author": "聲色藝#1唱做唸打翻超棒楚岫雲戲迷團",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/23588061@N06/48038495621",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "月山湖 浦臼"
       }
     ],
     "description": "北海道浦臼町にある浦臼神社は、エゾヤマザクラの名所として知られる。石段を上ると境内の斜面いちめんに淡いピンクの桜が広がり、見頃は5月上旬から中旬だが、年によって1〜2週間前後するため、訪問前に開花情報を確認しておきたい。石段は滑りやすい箇所があるのでスニーカーが必須だ。周辺には開拓時代の農具や生活道具を展示する浦臼町郷土資料館、白樺林が水面に映る月山湖もあり、あわせて巡ることができる。拠点は札幌駅で、現地へはバスを利用。桜色に染まる境内の斜面。",
@@ -132957,8 +131298,7 @@
       {
         "name": "円山公園",
         "description": "円山の頂上まで上れば札幌市街を360度俯瞰できる都市公園。樹々の間を湿り気を帯びた風が吹き抜ける散策が心地よい。",
-        "googleMapsQuery": "円山公園 札幌",
-        "imageUrl": "/images/spots/gen_北海_札幌八幡宮/1.jpg"
+        "googleMapsQuery": "円山公園 札幌"
       },
       {
         "name": "北海道神宮",
@@ -133374,20 +131714,12 @@
       {
         "name": "国道103号線沿い 滝の湯",
         "description": "屋根のない露天風呂から四季の風景を望む秘湯で、冬は雪見風呂、夏は渓流の音とともに含硫黄ナトリウム塩化物泉を楽しめる。",
-        "googleMapsQuery": "青荷温泉 滝の湯 青森",
-        "imageUrl": "/images/spots/gen_青森_青荷温泉/1.jpg",
-        "imageCredit": {
-          "author": "Joe66",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%9B%BD%E9%81%9366%E5%8F%B7%E7%B7%9A-%E9%81%93%E8%B7%AF%E6%A8%99%E8%AD%98-%E7%B1%B3%E5%9B%BD-1889663/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "青荷温泉 滝の湯 青森"
       },
       {
         "name": "七滝沢渓谷",
         "description": "温泉から徒歩で行ける渓谷。透明度の高い水が階段状に落ちる瀑布が連なり、春の新緑と秋の紅葉を眺めながら歩ける。",
-        "googleMapsQuery": "七滝沢渓谷 青森県黒石市",
-        "imageUrl": "/images/spots/gen_青森_青荷温泉/2.jpg"
+        "googleMapsQuery": "七滝沢渓谷 青森県黒石市"
       }
     ],
     "description": "青森県黒石市の山奥に位置するランプの宿 青荷温泉は、電灯もテレビも持たない宿として知られる。茅葺き屋根の建物が渓谷沿いに立ち、夜はランプの灯りだけが室内を照らす。アクセスは黒石駅が最寄りで、冬季は一般車の乗り入れが不可となるため、黒石駅または道の駅虹の湖からの宿の送迎（要予約）を利用する。泉質は含硫黄ナトリウム塩化物泉。屋根のない露天・滝の湯は冬に雪見風呂を楽しめ、徒歩で行ける七滝沢渓谷では透明度の高い水が階段状に落ちる瀑布が連なる。東京からは約6時間30分。ランプの橙色が揺れる夜。",
@@ -134019,14 +132351,7 @@
       {
         "name": "つがる市稲垣地域の歴史民俗資料館",
         "description": "津軽の農民生活の道具や衣類、文書を展示。土間や囲炉裏の復元空間で、冬の暖の取り方など生活の知恵を体感できる。",
-        "googleMapsQuery": "つがる市稲垣 民俗資料館 青森",
-        "imageUrl": "/images/spots/gen_青森_稲垣温泉/2.jpg",
-        "imageCredit": {
-          "author": "deranho",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B8%82-%E5%A4%9C-%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88-7458934/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "つがる市稲垣 民俗資料館 青森"
       },
       {
         "name": "稲垣温泉近郊の日本海沿岸散策路",
@@ -134241,14 +132566,7 @@
       {
         "name": "焼山の眺望台",
         "description": "渓流上流部の高台から十和田湖北部と火山性台地を一望。紅葉の色彩変化や、冬の雪に覆われた山並みを見渡せる。",
-        "googleMapsQuery": "焼山 眺望台 奥入瀬 十和田湖",
-        "imageUrl": "/images/spots/gen_青森_奥入瀬渓流温泉/2.jpg",
-        "imageCredit": {
-          "author": "Ben_Kerckx",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E5%B7%9D-%E6%97%A5%E6%B2%A1-%E4%B9%99%E5%A5%B3%E3%81%AE%E5%A1%94%E7%9C%BA%E6%9C%9B-4873198/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "焼山 眺望台 奥入瀬 十和田湖"
       },
       {
         "name": "奥入瀬渓流マイナスイオン歩道",
@@ -134453,26 +132771,12 @@
       {
         "name": "落合温泉近傍の渓谷探勝路",
         "description": "深い谷に続く遊歩道で、渓水の流音と樹木のざわめきが重なって聞こえる。冬は崖肌の氷柱が光を反射して美しい。",
-        "googleMapsQuery": "落合温泉 渓谷 探勝路 青森県",
-        "imageUrl": "/images/spots/gen_青森_落合温泉/1.jpg",
-        "imageCredit": {
-          "author": "LoggaWiggler",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "落合温泉 渓谷 探勝路 青森県"
       },
       {
         "name": "落合温泉周辺の北股川の滝",
         "description": "段状に流れ落ちる小さな滝。岩盤の凹凸に沿って変化する水流と白い飛沫を間近に眺め、季節ごとの水量の違いも楽しめる。",
-        "googleMapsQuery": "北股川 落合温泉 青森県",
-        "imageUrl": "/images/spots/gen_青森_落合温泉/2.jpg",
-        "imageCredit": {
-          "author": "LoggaWiggler",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%AB%E3%83%AB%E3%82%B7%E3%82%A6%E3%83%A0%E3%83%97%E3%83%BC%E3%83%AB-%E3%83%86%E3%83%A9%E3%82%B9-14979/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "北股川 落合温泉 青森県"
       },
       {
         "name": "弘前市周辺へのアクセス経由となる津軽伝統工芸品販売地点",
@@ -134673,8 +132977,7 @@
       {
         "name": "権現崎灯台",
         "description": "黄金色に染まる日本海を見守る白亜の灯台。波打つ岩礁と海風を感じながら、晴れた日は遠く佐渡まで望める絶景地点。",
-        "googleMapsQuery": "権現崎灯台 青森県",
-        "imageUrl": "/images/spots/gen_青森_黄金崎不老不死温泉/1.jpg"
+        "googleMapsQuery": "権現崎灯台 青森県"
       },
       {
         "name": "十二湖",
@@ -134904,14 +133207,7 @@
       {
         "name": "風呂のくらや",
         "description": "",
-        "googleMapsQuery": "風呂のくらや 下風呂温泉",
-        "imageUrl": "/images/spots/gen_青森_下風呂温泉/1.jpg",
-        "imageCredit": {
-          "author": "Takashi(aes256)",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/46151146@N04/9754149356",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "風呂のくらや 下風呂温泉"
       },
       {
         "name": "恐山イタコの館",
@@ -135145,14 +133441,7 @@
       {
         "name": "猿倉温泉",
         "description": "城ヶ倉温泉の隣に位置する秘湯。渓流沿いの露天風呂から白布のような湯けむりが舞い、野趣あふれる湯浴みを楽しめる。",
-        "googleMapsQuery": "猿倉温泉 城ヶ倉",
-        "imageUrl": "/images/spots/gen_青森_城ヶ倉温泉/3.jpg",
-        "imageCredit": {
-          "author": "tathanhtuan",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC-capuchino-4651087/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "猿倉温泉 城ヶ倉"
       }
     ],
     "description": "八甲田山麓に湧く温泉地だ。宿はブナ原生林に囲まれた北欧風リゾート、八甲田城ヶ倉温泉ホテル城ヶ倉。新青森駅から車で約50分、青森駅からは無料送迎もある。露天風呂は源泉かけ流しで、雪景色を正面に見ながら湯につかれる。近くの城ヶ倉大橋は谷底まで180メートルの絶壁に架かるアーチ橋で、橋上からの渓谷の眺めは迫力がある。八甲田ロープウェーに乗れば、樹氷に覆われた白銀の山系を空から一望できる。冬が最良の季節。温泉に2度入り、部屋でゆっくり過ごす1泊向きの場所だ。",
@@ -135823,14 +134112,7 @@
       {
         "name": "蔦七沼遊歩道",
         "description": "七つの沼を巡る約1.5kmの木製遊歩道。湿地の珍しい植物や野鳥を観察しながら、苔むした柔らかい土の感触を楽しめる。",
-        "googleMapsQuery": "蔦七沼遊歩道",
-        "imageUrl": "/images/spots/gen_青森_蔦温泉/2.jpg",
-        "imageCredit": {
-          "author": "Sara32_jabar",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E8%80%81%E4%BA%BA-%E6%B5%B7-%E3%82%AB%E3%83%A2%E3%83%A1-%E7%94%B7-%E6%A9%8B%E8%84%9A-7788342/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "蔦七沼遊歩道"
       },
       {
         "name": "高顔山",
@@ -136273,14 +134555,7 @@
       {
         "name": "南部煎餅の製造体験施設",
         "description": "郷土菓子・南部煎餅の工房。香ばしい香りの中で職人の手焼き工程を見学でき、自分で焼く体験も楽しめる。",
-        "googleMapsQuery": "南部煎餅 製造体験 青森",
-        "imageUrl": "/images/spots/gen_青森_馬門温泉/2.jpg",
-        "imageCredit": {
-          "author": "marcinjozwiak",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E8%A3%BD%E9%80%A0-%E6%96%BD%E8%A8%AD-%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-4408573/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "南部煎餅 製造体験 青森"
       },
       {
         "name": "新田矢部川渓谷",
@@ -136475,14 +134750,7 @@
       {
         "name": "谷地温泉周辺の白糠火山群",
         "description": "温泉の南東に広がる火山地帯。黄色く変色した岩肌と湯けむりの独特な景観を望み、冬は雪とのコントラストが際立つ。",
-        "googleMapsQuery": "白糠火山 青森県",
-        "imageUrl": "/images/spots/gen_青森_谷地温泉/1.jpg",
-        "imageCredit": {
-          "author": "Hans",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E9%96%93%E6%AC%A0%E6%B3%89-%E3%83%90%E3%83%8D-%E3%82%B9%E3%83%88%E3%83%AD%E3%83%83%E3%82%AF%E3%83%AB%E9%96%93%E6%AC%A0%E6%B3%89-3242008/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "白糠火山 青森県"
       },
       {
         "name": "谷地温泉スキー場",
@@ -136499,14 +134767,7 @@
       {
         "name": "谷地温泉駅と周辺の廃線跡",
         "description": "かつての十和田軌道線の駅舎が残る鉄道遺産。山間部に延びるレール痕を辿り、往年の輸送路に思いを馳せられる。",
-        "googleMapsQuery": "谷地温泉駅 十和田軌道 青森県",
-        "imageUrl": "/images/spots/gen_青森_谷地温泉/3.jpg",
-        "imageCredit": {
-          "author": "강춘성",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E9%83%BD%E5%B8%82-%E6%B5%B7-%E7%A9%BA-%E9%9B%B2-%E5%BB%83%E7%B7%9A-7492749/",
-          "attributionRequired": false
-        }
+        "googleMapsQuery": "谷地温泉駅 十和田軌道 青森県"
       }
     ],
     "description": "青森県・八甲田山麓に湧く日本三秘湯のひとつ。開湯400年余の歴史を持ち、白濁した湯が足元から自噴するかけ流しの宿だ。新青森駅から無料送迎があり（7日前までに要予約）、冬期は八戸駅発となる。宿には2つの浴槽があり、ぬるめの下の湯と熱めの上の湯を行き来する湯治スタイルが今に続く。日帰り入浴は800円。隣接する谷地温泉スキー場は初心者向けコースが中心で、滑り終えたらすぐ湯につかれる。周辺には白糠火山群が広がり、黄色く変色した岩肌と雪のコントラストが冬ならではの光景をつくる。宿の廊下で、時間の重みを聞く夜。",
@@ -139502,14 +137763,7 @@
     "spots": [
       {
         "name": "飛島灯台",
-        "description": "集落から歩いて30分ほど、草が道を覆いはじめる小径の先に立つ灯台。歩いて辿り着く達成感ごと味わいたい。",
-        "imageUrl": "/images/spots/tobishima-island/0.jpg",
-        "imageCredit": {
-          "author": "maijou2501",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/134416355@N07/51515530124",
-          "attributionRequired": true
-        }
+        "description": "集落から歩いて30分ほど、草が道を覆いはじめる小径の先に立つ灯台。歩いて辿り着く達成感ごと味わいたい。"
       },
       {
         "name": "弁天崎",
@@ -144259,14 +142513,7 @@
       },
       {
         "name": "大島",
-        "description": "大沼に浮かぶ大小126の島のひとつで、橋を渡ると木々が茂る薄暗い島内を歩いて回ることができる。",
-        "imageUrl": "/images/spots/onuma/2.jpg",
-        "imageCredit": {
-          "author": "The original uploader was Tomohito at Japanese Wikipedia.",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/w/index.php?curid=3956994",
-          "attributionRequired": true
-        }
+        "description": "大沼に浮かぶ大小126の島のひとつで、橋を渡ると木々が茂る薄暗い島内を歩いて回ることができる。"
       }
     ],
     "shinkansenAccess": false,
@@ -144478,8 +142725,7 @@
       },
       {
         "name": "網代港",
-        "description": "浦富海岸の奥に佇む漁港。朝の競りの余韻が漂う桟橋で、観光地図に載らない生活の海に触れられる。",
-        "imageUrl": "/images/spots/uradome/2.jpg"
+        "description": "浦富海岸の奥に佇む漁港。朝の競りの余韻が漂う桟橋で、観光地図に載らない生活の海に触れられる。"
       }
     ],
     "shinkansenAccess": false,
@@ -171747,8 +169993,7 @@
       },
       {
         "name": "黄金橋",
-        "description": "石英斑岩の黄金色に名を冠する橋。朱色の橋板が渓谷の深さを強調し、真下の滝音が神秘性を高める。秋雨の頃は水飛沫が橋を濡らし苔の香りが立つ。",
-        "imageUrl": "/images/spots/kawaji-onsen/2.jpg"
+        "description": "石英斑岩の黄金色に名を冠する橋。朱色の橋板が渓谷の深さを強調し、真下の滝音が神秘性を高める。秋雨の頃は水飛沫が橋を濡らし苔の香りが立つ。"
       }
     ],
     "shinkansenAccess": false,
@@ -173259,8 +171504,7 @@
       },
       {
         "name": "五大尊",
-        "description": "苔むした石仏が谷間から参拝者を見守る。湿った土の匂いを放つ石段を上れば、五つの祠が視界に点々と現れては消える。",
-        "imageUrl": "/images/spots/ogose/1.jpg"
+        "description": "苔むした石仏が谷間から参拝者を見守る。湿った土の匂いを放つ石段を上れば、五つの祠が視界に点々と現れては消える。"
       },
       {
         "name": "黒山三滝",
@@ -173567,14 +171811,7 @@
     "spots": [
       {
         "name": "勝尾寺本堂",
-        "description": "杉林に囲まれた本堂へは、苔むした石段を上ってたどり着く。秋の光が差し込む境内で、参拝者が祈りをささげる。",
-        "imageUrl": "/images/spots/katsuoji/0.jpg",
-        "imageCredit": {
-          "author": "楚岫雲超卓圓台功~蹺功靠把~水袖唱唸",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/14800353@N07/8517718229",
-          "attributionRequired": true
-        }
+        "description": "杉林に囲まれた本堂へは、苔むした石段を上ってたどり着く。秋の光が差し込む境内で、参拝者が祈りをささげる。"
       },
       {
         "name": "ダルマ群",
@@ -177751,8 +175988,7 @@
       },
       {
         "name": "三春町歴史民俗資料館",
-        "description": "三春滝桜の歴史を、古民家の梁や農具とともに追体験できる資料館。漆喰壁に映り込む展示品と、時間を重ねた木の香りが館内に満ちている。",
-        "imageUrl": "/images/spots/miharu-takizakura/1.jpg"
+        "description": "三春滝桜の歴史を、古民家の梁や農具とともに追体験できる資料館。漆喰壁に映り込む展示品と、時間を重ねた木の香りが館内に満ちている。"
       },
       {
         "name": "花見山公園",
@@ -179596,14 +177832,7 @@
     "spots": [
       {
         "name": "秋芳洞",
-        "description": "数百万年をかけて形成された鍾乳石が洞内に連なり、岩肌を照らす灯りの下、足元を水が流れる洞窟。",
-        "imageUrl": "/images/spots/akiyoshido/0.jpg",
-        "imageCredit": {
-          "author": "楚岫雲超卓圓台功~蹺功靠把~水袖唱唸",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/14800353@N07/8517700861",
-          "attributionRequired": true
-        }
+        "description": "数百万年をかけて形成された鍾乳石が洞内に連なり、岩肌を照らす灯りの下、足元を水が流れる洞窟。"
       },
       {
         "name": "秋吉台",
@@ -179618,14 +177847,7 @@
       },
       {
         "name": "大正洞",
-        "description": "秋芳洞の奥に続く小規模な洞窟。狭い入口をくぐると冷気が濃くなり、石道を足探りで進む秘境感が味わえる。",
-        "imageUrl": "/images/spots/akiyoshido/2.jpg",
-        "imageCredit": {
-          "author": "楚岫雲超卓圓台功~蹺功靠把~水袖唱唸",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/14800353@N07/8517700861",
-          "attributionRequired": true
-        }
+        "description": "秋芳洞の奥に続く小規模な洞窟。狭い入口をくぐると冷気が濃くなり、石道を足探りで進む秘境感が味わえる。"
       }
     ],
     "shinkansenAccess": false,
@@ -180154,8 +178376,7 @@
     "spots": [
       {
         "name": "砂むし温泉",
-        "description": "黒砂に埋もれた体へ地熱がじわじわ浸みる。砂かけ職人が砂を盛り、顔だけ出して天を仰ぐ独特の浮遊感を味わう。",
-        "imageUrl": "/images/spots/ibusuki-onsen/0.jpg"
+        "description": "黒砂に埋もれた体へ地熱がじわじわ浸みる。砂かけ職人が砂を盛り、顔だけ出して天を仰ぐ独特の浮遊感を味わう。"
       },
       {
         "name": "池田湖",
@@ -180592,8 +178813,7 @@
       },
       {
         "name": "瑞巌寺",
-        "description": "徳島市街を見守る古刹。石段を上るたび町の音が遠ざかり、鐘の余韻だけが残る歴史の重みを刻む参道。",
-        "imageUrl": "/images/spots/tokushima-city/1.jpg"
+        "description": "徳島市街を見守る古刹。石段を上るたび町の音が遠ざかり、鐘の余韻だけが残る歴史の重みを刻む参道。"
       },
       {
         "name": "眉山",
@@ -180804,8 +179024,7 @@
       },
       {
         "name": "見晴らしの丘",
-        "description": "高台から関東平野と武甲山を一望。春は花、秋は紅葉、冬は枯野と、季節ごとに異なる遠景を楽しめる。",
-        "imageUrl": "/images/spots/hitsujiyama/2.jpg"
+        "description": "高台から関東平野と武甲山を一望。春は花、秋は紅葉、冬は枯野と、季節ごとに異なる遠景を楽しめる。"
       }
     ],
     "shinkansenAccess": false,
@@ -184096,17 +182315,9 @@
       "1泊がおすすめ",
       "伝統工芸の里"
     ],
-    "images": [
-      "/images/seki/main.jpg"
-    ],
+    "images": [],
     "bestSeason": "秋",
     "mainSpot": "関鍛冶伝承館",
-    "imageCredit": {
-      "author": "gundam2345",
-      "license": "CC BY 3.0",
-      "url": "https://commons.wikimedia.org/wiki/File:%E3%81%82%E3%82%93%E3%81%A9%E3%82%93%E3%81%BF%E3%81%93%E3%81%97%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%BC%E3%83%AB_(%E5%B2%90%E9%98%9C%E7%9C%8C%E9%96%A2%E5%B8%82).jpg",
-      "attributionRequired": true
-    },
     "seo": {
       "description": "岐阜県関市は、室町時代から続く刃物の産地。800年の歴史を持つ。関鍛冶伝承館では真っ赤に熱した鋼を金槌で打つ実演を間近に見られ、散る火花とともに職人の技の深さが伝わってくる。",
       "auto": true
@@ -185075,14 +183286,7 @@
       },
       {
         "name": "子安の木",
-        "description": "夫婦円満と安産祈願の対象となった楠。白い布が幾重にも巻かれ、祈りの重さで根元の土が黒光りする。触れると温かみが返る生命の木。",
-        "imageUrl": "/images/spots/umi-jigoku/1.jpg",
-        "imageCredit": {
-          "author": "Katsujiro Maekawa",
-          "license": "CC0 1.0",
-          "url": "https://www.flickr.com/photos/140296773@N07/51652243274",
-          "attributionRequired": false
-        }
+        "description": "夫婦円満と安産祈願の対象となった楠。白い布が幾重にも巻かれ、祈りの重さで根元の土が黒光りする。触れると温かみが返る生命の木。"
       },
       {
         "name": "聖母宮",
@@ -186693,14 +184897,7 @@
       },
       {
         "name": "こきりこ祭",
-        "description": "竹製の打楽器・こきりこの乾いた音が夜の集落に響く。炎が揺らぐ中で踊り手が舞い、1000年以上前からの旋律が時間を超える原始的な祭り。",
-        "imageUrl": "/images/spots/gokayama-2/2.jpg",
-        "imageCredit": {
-          "author": "HIRAOKA,Yasunobu",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/29499350@N06/5261652579",
-          "attributionRequired": true
-        }
+        "description": "竹製の打楽器・こきりこの乾いた音が夜の集落に響く。炎が揺らぐ中で踊り手が舞い、1000年以上前からの旋律が時間を超える原始的な祭り。"
       }
     ],
     "shinkansenAccess": false,
@@ -187543,8 +185740,7 @@
       },
       {
         "name": "五大堂",
-        "description": "松島湾に突き出た朱塗りの小堂。木造建築の香りが立ち込め、波音が床板を通して伝わる。堂と海の一体感を感じる現存最古の桃山建築。",
-        "imageUrl": "/images/spots/zuiganji/2.jpg"
+        "description": "松島湾に突き出た朱塗りの小堂。木造建築の香りが立ち込め、波音が床板を通して伝わる。堂と海の一体感を感じる現存最古の桃山建築。"
       }
     ],
     "shinkansenAccess": false,
@@ -188518,8 +186714,7 @@
       },
       {
         "name": "宇治橋通り",
-        "description": "伊勢神宮の参道となる緩やかな上り坂。両脇に並ぶ土産物屋や食事処の暖簾を潜ると草履の音が聞こえる。夜間ライトアップの木造建築が光と影で古い時間へ誘う。",
-        "imageUrl": "/images/spots/ise-okage/2.jpg"
+        "description": "伊勢神宮の参道となる緩やかな上り坂。両脇に並ぶ土産物屋や食事処の暖簾を潜ると草履の音が聞こえる。夜間ライトアップの木造建築が光と影で古い時間へ誘う。"
       }
     ],
     "shinkansenAccess": false,
@@ -190962,14 +189157,7 @@
     "spots": [
       {
         "name": "金色堂",
-        "description": "金箔で覆われた外壁と堂内の装飾が、奥州藤原氏の栄華を今に伝える。昼光が差すたびに光と影が繰り返し、金色の輝きが際立つ。",
-        "imageUrl": "/images/spots/iwate-chuson/0.jpg",
-        "imageCredit": {
-          "author": "白菜 / Grace",
-          "license": "CC BY 2.0",
-          "url": "https://www.flickr.com/photos/52107254@N05/51748316871",
-          "attributionRequired": true
-        }
+        "description": "金箔で覆われた外壁と堂内の装飾が、奥州藤原氏の栄華を今に伝える。昼光が差すたびに光と影が繰り返し、金色の輝きが際立つ。"
       },
       {
         "name": "中尊寺",
@@ -192783,8 +190971,7 @@
       },
       {
         "name": "道の駅白兎",
-        "description": "白兎神社脇の小さな道の駅。地元産の農産物と土産品が並び、建物から海を望む。波音をBGMに地元客が朝市感覚で訪れる穴場。",
-        "imageUrl": "/images/spots/hakuto-tottori/1.jpg"
+        "description": "白兎神社脇の小さな道の駅。地元産の農産物と土産品が並び、建物から海を望む。波音をBGMに地元客が朝市感覚で訪れる穴場。"
       },
       {
         "name": "白兎海岸",
@@ -192885,8 +191072,7 @@
       },
       {
         "name": "一筆啓上",
-        "description": "丸岡城主が使者に送った手紙の簡潔さ。四文字に武士の矜持と焦燥が凝縮し、古文書館では墨の滲みまでが緊迫感を伝える。",
-        "imageUrl": "/images/spots/fukui-castle/1.jpg"
+        "description": "丸岡城主が使者に送った手紙の簡潔さ。四文字に武士の矜持と焦燥が凝縮し、古文書館では墨の滲みまでが緊迫感を伝える。"
       },
       {
         "name": "日本最古天守",
@@ -193092,14 +191278,7 @@
       },
       {
         "name": "西塔",
-        "description": "石段を登ると白い砂利の境内が現れる。鐘楼の鐘音が山谷に響き、その余韻の中で雨に濡れた塔の黒い木肌が独特の静謐さを湛える。",
-        "imageUrl": "/images/spots/shiga-otsu/2.jpg",
-        "imageCredit": {
-          "author": "bryan...",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/91049143@N00/13769276553",
-          "attributionRequired": true
-        }
+        "description": "石段を登ると白い砂利の境内が現れる。鐘楼の鐘音が山谷に響き、その余韻の中で雨に濡れた塔の黒い木肌が独特の静謐さを湛える。"
       }
     ],
     "shinkansenAccess": false,
@@ -197519,8 +195698,7 @@
       {
         "name": "阿仁川渓谷",
         "description": "湯瀬温泉を取り囲む自然渓谷。春は新緑、秋は紅葉の名所で、遊歩道から眺める奇岩群と清流が絶景を作る。",
-        "googleMapsQuery": "阿仁川渓谷 秋田県",
-        "imageUrl": "/images/spots/niche_秋田_1/0.jpg"
+        "googleMapsQuery": "阿仁川渓谷 秋田県"
       },
       {
         "name": "湯瀬スキー場跡地の展望地",
@@ -197693,8 +195871,7 @@
       {
         "name": "小坂鉱山資料館",
         "description": "小坂銀山の採掘道具や古写真が並ぶ資料館。江戸期から昭和まで鉱夫が握ったノミや鶴嘴の重みを手で感じ、坑道の闇に刻まれた労働の歴史と向き合える。",
-        "googleMapsQuery": "小坂鉱山資料館 秋田県",
-        "imageUrl": "/images/spots/niche_秋田_4/0.jpg"
+        "googleMapsQuery": "小坂鉱山資料館 秋田県"
       },
       {
         "name": "康楽館",
@@ -198036,8 +196213,7 @@
       {
         "name": "べにばな温泉センター",
         "description": "日帰り入浴できる地元向けの温泉施設で、紅花風呂が人気。最上川を眺めながら露天風呂に入ることができる。",
-        "googleMapsQuery": "べにばな温泉センター 山形県",
-        "imageUrl": "/images/spots/niche_山形_1/0.jpg"
+        "googleMapsQuery": "べにばな温泉センター 山形県"
       },
       {
         "name": "白鷹町紅花資料館",
@@ -198853,8 +197029,7 @@
       {
         "name": "八槻都々古別神社",
         "description": "樹齢500年超の欅が参道に立ち並ぶ古社で、秋になると境内の欅が黄葉し、歴史ある景観を見せる。",
-        "googleMapsQuery": "八槻都々古別神社 福島県",
-        "imageUrl": "/images/spots/niche_福島_5/1.jpg"
+        "googleMapsQuery": "八槻都々古別神社 福島県"
       },
       {
         "name": "山本不動尊",
@@ -199367,8 +197542,7 @@
       {
         "name": "岬の湯",
         "description": "磯原漁港を見下ろす崖上に湧く岬の湯。褐色の湯面を漂う湯の花の柔らかな感触と、窓越しに広がる朝の海の光が、早朝の身体をゆっくりほぐす。",
-        "googleMapsQuery": "岬の湯 茨城県",
-        "imageUrl": "/images/spots/niche_茨城_2/1.jpg"
+        "googleMapsQuery": "岬の湯 茨城県"
       },
       {
         "name": "野口雨情生家・資料館",
@@ -199719,8 +197893,7 @@
       {
         "name": "那珂川河岸段丘からの眺望",
         "description": "河岸段丘上から町全体を見下ろせる地点。古い町並みを一望し、城下町の空間構成と季節ごとの山の色が味わえる。",
-        "googleMapsQuery": "那珂川河岸段丘からの眺望 栃木県",
-        "imageUrl": "/images/spots/niche_栃木_4/2.jpg"
+        "googleMapsQuery": "那珂川河岸段丘からの眺望 栃木県"
       }
     ],
     "shinkansenAccess": false,
@@ -201837,8 +200010,7 @@
       {
         "name": "園内・大正時代洋館カフェ",
         "description": "移築した大正洋館内のカフェ。昔の建具越しに公園の緑が見え、懐かしい和菓子とともに歴史のひとときが流れる。",
-        "googleMapsQuery": "園内・大正時代洋館カフェ 東京都",
-        "imageUrl": "/images/spots/niche_東京_6/1.jpg"
+        "googleMapsQuery": "園内・大正時代洋館カフェ 東京都"
       },
       {
         "name": "小金井公園・雑木林散歩道",
@@ -202868,8 +201040,7 @@
       {
         "name": "加茂の酒蔵群",
         "description": "黒壁の蔵が並ぶ景観が新潟の酒造りの歴史を象徴する。市内に酒蔵が集中し、蔵見学ができる施設もある。",
-        "googleMapsQuery": "加茂の酒蔵群 新潟県",
-        "imageUrl": "/images/spots/niche_新潟_6/0.jpg"
+        "googleMapsQuery": "加茂の酒蔵群 新潟県"
       },
       {
         "name": "地元の酒蔵直売所",
@@ -204692,8 +202863,7 @@
       {
         "name": "白山平泉寺",
         "description": "1300年以上の歴史を持つ修験道の道場。石畳参道に樹齢800年超の杉が並び、本殿跡など遺構が層をなして残る。",
-        "googleMapsQuery": "白山平泉寺 福井県",
-        "imageUrl": "/images/spots/niche_福井_2/0.jpg"
+        "googleMapsQuery": "白山平泉寺 福井県"
       },
       {
         "name": "門前の精進料理店",
@@ -206401,8 +204571,7 @@
       {
         "name": "芭蕉記念館・坂本家",
         "description": "松尾芭蕉が訪れた当時の宿泊家屋を再現。囲炉裏の古い香りと江戸の旅人の息遣いを感じ、文学的な感動を呼び起こす。",
-        "googleMapsQuery": "芭蕉記念館・坂本家 岐阜県中津川市",
-        "imageUrl": "/images/spots/niche_長野_2/1.jpg"
+        "googleMapsQuery": "芭蕉記念館・坂本家 岐阜県中津川市"
       },
       {
         "name": "馬籠宿展望台",
@@ -207414,8 +205583,7 @@
       {
         "name": "集落周辺の里山トレッキング",
         "description": "春日集落を中心とした周辺の山道散策。野生のアケビやヤマユリなど季節の山菜・野草に出合え、地元ガイドと共に自然学習できる。",
-        "googleMapsQuery": "集落周辺の里山トレッキング 岐阜県",
-        "imageUrl": "/images/spots/niche_岐阜_7/1.jpg"
+        "googleMapsQuery": "集落周辺の里山トレッキング 岐阜県"
       },
       {
         "name": "かすがモリモリ村リフレッシュ館",
@@ -207739,8 +205907,7 @@
       {
         "name": "須走温泉",
         "description": "山間の湯治場。硫黄成分の強い源泉100%かけ流しが肌に優しく効能が高い。数軒の小旅館が昭和の湯情を守っている。",
-        "googleMapsQuery": "須走温泉 静岡県",
-        "imageUrl": "/images/spots/niche_静岡_2/0.jpg"
+        "googleMapsQuery": "須走温泉 静岡県"
       },
       {
         "name": "大堀根ダム周辺の散策路",
@@ -210210,8 +208377,7 @@
       {
         "name": "外村宇兵衛邸・石馬寺周辺",
         "description": "近江商人・外村氏の豪商屋敷。蔵が建ち並び、庭の石灯籠が落ち着きを放つ。邸内から当時の商人の視点で町並みを眺められる。",
-        "googleMapsQuery": "外村宇兵衛邸・石馬寺周辺 滋賀県",
-        "imageUrl": "/images/spots/niche_滋賀_4/0.jpg"
+        "googleMapsQuery": "外村宇兵衛邸・石馬寺周辺 滋賀県"
       },
       {
         "name": "五個荘藍染工房群",
@@ -212887,8 +211053,7 @@
       {
         "name": "白川ダム周辺遊歩道",
         "description": "湖畔を一周約5kmの遊歩道で、新緑や秋の紅葉が湖面に映る景色を楽しめる。季節ごとに異なる野鳥の声を聞きながら散策できる。",
-        "googleMapsQuery": "白川ダム周辺遊歩道 奈良県",
-        "imageUrl": "/images/spots/niche_奈良_4/0.jpg"
+        "googleMapsQuery": "白川ダム周辺遊歩道 奈良県"
       },
       {
         "name": "上北山村の民宿",
@@ -213441,8 +211606,7 @@
       {
         "name": "醤油蔵の町並み",
         "description": "石積みの蔵が密集する独特の景観。朝日が照らす早朝の散歩がおすすめで、どこを切り取ってもフォトジェニックなスポットだ。",
-        "googleMapsQuery": "醤油蔵の町並み 和歌山県",
-        "imageUrl": "/images/spots/niche_和歌山_1/1.jpg"
+        "googleMapsQuery": "醤油蔵の町並み 和歌山県"
       },
       {
         "name": "甚風呂",
@@ -213765,14 +211929,7 @@
       {
         "name": "北山温泉",
         "description": "北山村唯一の湯。いかだ下りの瀬音と水しぶきの記憶を持ったまま湯船に沈むと、北山川の渓谷が広がり筋肉の芯までほぐれる。",
-        "googleMapsQuery": "北山温泉 和歌山県",
-        "imageUrl": "/images/spots/niche_和歌山_3/1.jpg",
-        "imageCredit": {
-          "author": "INABA Tomoaki",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/30896016@N04/15294296411",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "北山温泉 和歌山県"
       },
       {
         "name": "道の駅おくとろ",
@@ -214246,8 +212403,7 @@
       {
         "name": "東郷湖畔の露天風呂",
         "description": "東郷湖畔に位置する露天風呂で、夜明け前に湖面から立ち上る白霧の中に入浴できる。朝の光が静かな水面に差し込む時間帯に楽しめる湯処だ。",
-        "googleMapsQuery": "東郷湖畔の露天風呂 鳥取県",
-        "imageUrl": "/images/spots/niche_鳥取_1/0.jpg"
+        "googleMapsQuery": "東郷湖畔の露天風呂 鳥取県"
       },
       {
         "name": "龍鶴城跡",
@@ -214580,8 +212736,7 @@
       {
         "name": "三徳川沿いの渓谷散策路",
         "description": "三徳川の岸を歩けば、秋は燃える朱と金が水面に揺れ、新緑の季節は若葉の青い香りが漂う。石畳に響く水音だけが道連れの道だ。",
-        "googleMapsQuery": "三徳川沿いの渓谷散策路 鳥取県",
-        "imageUrl": "/images/spots/niche_鳥取_5/1.jpg"
+        "googleMapsQuery": "三徳川沿いの渓谷散策路 鳥取県"
       },
       {
         "name": "三徳山三佛寺",
@@ -217269,8 +215424,7 @@
       {
         "name": "佐川町立青山文庫",
         "description": "町内に残る歴史的建造物。江戸期の古文書や刀剣、歴史資料を展示し、町の成り立ちと酒造業の発展を学べる。",
-        "googleMapsQuery": "佐川町立青山文庫 高知県",
-        "imageUrl": "/images/spots/niche_高知_1/1.jpg"
+        "googleMapsQuery": "佐川町立青山文庫 高知県"
       },
       {
         "name": "牧野富太郎ふるさと館",
@@ -219728,8 +217882,7 @@
       {
         "name": "川辺川沿いドライブコース",
         "description": "崖に張り付く一本道から川辺川の急流を望むコース。岩肌が迫り水音が響く非日常の景観で、春の新緑と秋の紅葉が美しい。",
-        "googleMapsQuery": "川辺川沿いドライブコース 熊本県",
-        "imageUrl": "/images/spots/niche_熊本_1/0.jpg"
+        "googleMapsQuery": "川辺川沿いドライブコース 熊本県"
       },
       {
         "name": "ふじの湯",
@@ -223479,14 +221632,7 @@
       },
       {
         "name": "八甲田",
-        "description": "秋は赤と黄が幾重にも重なる八甲田山系の森。ブナ林を抜ける風は冷たく湿り、冬には世界屈指の豪雪が山を白く閉じ込める。",
-        "imageUrl": "/images/spots/aomori/3.jpg",
-        "imageCredit": {
-          "author": "prelude2000",
-          "license": "CC BY-ND 2.0",
-          "url": "https://www.flickr.com/photos/91794579@N05/12029608503",
-          "attributionRequired": true
-        }
+        "description": "秋は赤と黄が幾重にも重なる八甲田山系の森。ブナ林を抜ける風は冷たく湿り、冬には世界屈指の豪雪が山を白く閉じ込める。"
       },
       {
         "name": "浅虫温泉",
@@ -224194,8 +222340,7 @@
       },
       {
         "name": "飯坂温泉",
-        "description": "奥州三名湯のひとつ。摺上川沿いに湯けむりが立ち上り、石畳の路地に硫黄の香りが漂う。松尾芭蕉も足を止めた古湯の温もりが肌に宿る。",
-        "imageUrl": "/images/spots/fukushima/3.jpg"
+        "description": "奥州三名湯のひとつ。摺上川沿いに湯けむりが立ち上り、石畳の路地に硫黄の香りが漂う。松尾芭蕉も足を止めた古湯の温もりが肌に宿る。"
       }
     ],
     "shinkansenAccess": true,
@@ -225608,8 +223753,7 @@
       },
       {
         "name": "うみたまご",
-        "description": "別府湾に面した体験施設。潮の香りのなかイルカやセイウチが間近に迫り、水しぶきが頬に当たるライブショーを楽しめる。",
-        "imageUrl": "/images/spots/oita/3.jpg"
+        "description": "別府湾に面した体験施設。潮の香りのなかイルカやセイウチが間近に迫り、水しぶきが頬に当たるライブショーを楽しめる。"
       },
       {
         "name": "高崎山自然動物園",

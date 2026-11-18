@@ -5,21 +5,23 @@
  * noindex は入れない（入れると Google が URL を評価ごと落とす）。sitemap には載せない（sitemap は destinations.json から作るため、
  * データから消えた id は自動で載らない）。検査は scripts/auditMergedPages.mjs。
  */
-interface Props { fromName: string; toId: string; toName: string; toHash?: string; }
-const { fromName, toId, toName, toHash } = Astro.props;
+interface Props { fromName: string; toId: string; toName: string; toHash?: string; moved?: boolean; }
+const { fromName, toId, toName, toHash, moved } = Astro.props;
+// moved: 内容が場所と合わなかったページを外し、近くの旅先へ移した転送ページ（2026-11-19）。「統合」とは書かない。
 // toHash: 統合ページの見出しのid（元のページ id）。あれば、その見出しの位置（アンカー）へ飛ばす（2026-11-18）。canonical は #なし（評価の集約先はページ）。
 const TO = `/destinations/${toId}/`;
 const GO = toHash ? `${TO}#${toHash}` : TO;
-const ABS = `https://tabidokoiko.com${TO}`;
+const ABS = `https://tabidokoiko.com/destinations/${encodeURIComponent(toId)}/`;   // canonical・og:url は、転送先ページ自身の canonical と同じ（パーセントエンコード）形にする（日本語の id）
 const LEAD = toHash ? `近い場所の「${fromName}」のページは、` : `同名の「${fromName}」のページは、`;   // meta description 用（読点つき）
 const BODY_LEAD = toHash ? LEAD : `同名の「${fromName}」のページは`;   // 本文用。同名の統合の転送ページ（2026-11-09）は読点なしの元の文言のまま
-const DESC = `${LEAD}${toName}のページに統合しました。`;
+const DESC = moved ? `「${fromName}」のページは、内容が場所と合わなかったため、近くの${toName}のページへ移しました。` : `${LEAD}${toName}のページに統合しました。`;
+const TITLE = moved ? `「${fromName}」は「${toName}」へ移しました｜どこ行こ？` : `「${fromName}」は「${toName}」に統合しました｜どこ行こ？`;
 ---
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{`「${fromName}」は「${toName}」に統合しました｜どこ行こ？`}</title>
+    <title>{TITLE}</title>
     <link rel="canonical" href={ABS} />
     <meta http-equiv="refresh" content={`0; url=${GO}`} />
     <meta name="description" content={DESC} />
@@ -38,7 +40,7 @@ const DESC = `${LEAD}${toName}のページに統合しました。`;
     </style>
   </head>
   <body>
-    <p>{BODY_LEAD}<strong>{toName}</strong>のページに統合しました。</p>
+    {moved ? <p>「{fromName}」のページは、内容が場所と合わなかったため、近くの<strong>{toName}</strong>のページへ移しました。</p> : <p>{BODY_LEAD}<strong>{toName}</strong>のページに統合しました。</p>}
     <p><a href={GO}>{toName}のページへ移動する →</a></p>
     <script is:inline define:vars={{ GO }}>
       location.replace(GO);
