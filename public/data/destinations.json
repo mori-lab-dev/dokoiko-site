@@ -4301,7 +4301,7 @@
       },
       {
         "name": "阿波連園地",
-        "description": "無人島に位置する園地で、アコウの木が潮風に揺れる中、波の音を聞きながら海を眺めることができる。"
+        "description": "沖縄海岸国定公園の園地で、アコウの木が潮風に揺れる中、波の音を聞きながら海を眺めることができる。"
       },
       {
         "name": "古座間味ビーチ",
@@ -68929,14 +68929,7 @@
       },
       {
         "name": "喜多方蔵座敷美術館",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kitakata_ramen_by_macyu_in_Yamagata.jpg/500px-Kitakata_ramen_by_macyu_in_Yamagata.jpg",
-        "description": "笹屋旅館に併設された美術館。",
-        "imageCredit": {
-          "author": "macyu from Kitakata, Kitakata",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kitakata_ramen_by_macyu_in_Yamagata.jpg",
-          "attributionRequired": true
-        }
+        "description": "笹屋旅館に併設された美術館。"
       },
       {
         "name": "熱塩温泉",
@@ -69061,7 +69054,6 @@
     "rentalCarRecommended": false,
     "images": [
       "/images/kitakata/main.jpg",
-      "/images/kitakata/spot-2.jpg",
       "/images/kitakata/spot-3.jpg"
     ],
     "reasonChips": [
@@ -96926,17 +96918,6 @@
         }
       },
       {
-        "name": "平川動物公園",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Kagoshima_City_Hirakawa_Zoological_Park.JPG/500px-Kagoshima_City_Hirakawa_Zoological_Park.JPG",
-        "description": "開園の9時に合わせて行けば、家族連れが増える前の静かな園内を楽しめる。",
-        "imageCredit": {
-          "author": "Sakoppi",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kagoshima_City_Hirakawa_Zoological_Park.JPG",
-          "attributionRequired": true
-        }
-      },
-      {
         "name": "りんご農園見学",
         "description": "青森県内トップクラスの産地で、ふじの収穫期・10月が見学の本番。訪問前の電話予約を忘れずに。"
       }
@@ -106119,18 +106100,6 @@
         }
       },
       {
-        "name": "雨竜沼湿原",
-        "description": "標高約1000mに広がる高層湿原で、夏には高山植物が咲く。難易度別のトレッキングコースが整備されている。",
-        "googleMapsQuery": "雨竜沼湿原 北海道沢町",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/%E9%9B%A8%E7%AB%9C%E6%B2%BC%E6%B9%BF%E5%8E%9F%EF%BC%92.jpg/1280px-%E9%9B%A8%E7%AB%9C%E6%B2%BC%E6%B9%BF%E5%8E%9F%EF%BC%92.jpg",
-        "imageCredit": {
-          "author": "Koda6029",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8%E7%AB%9C%E6%B2%BC%E6%B9%BF%E5%8E%9F%EF%BC%92.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
         "name": "朝日山荘跡と山頂展望台",
         "description": "かつての山小屋跡地に設けられた展望台から、天気の良い日には日本海や暑寒別岳を360度にわたって一望できる。",
         "googleMapsQuery": "朝日山 北海道雨竜町",
@@ -106143,7 +106112,7 @@
         }
       }
     ],
-    "description": "北海道・森町の山あいに湧く温泉地。地元の人が日常的に使う湯で、観光施設とは異なる素朴な時間が流れる。最寄りは札幌駅で、東京からは約8時間11分かけてアクセスする。スポットは共同浴場が中心だ。浴槽の縁には長年の湯が積もり、いかにも使い込まれた風情がある。周辺には標高約1,000mの高層湿原・雨竜沼湿原があり、季節ごとに表情が変わる。宿泊は1泊で十分に満喫でき、温泉に2回ゆっくり入るのが定番の過ごし方。現金は少し多めに用意しておきたい。白い湯けむり、静かな山の夜。",
+    "description": "北海道・森町の山あいに湧く温泉地。地元の人が日常的に使う湯で、観光施設とは異なる素朴な時間が流れる。最寄りは札幌駅で、東京からは約8時間11分かけてアクセスする。スポットは共同浴場が中心だ。浴槽の縁には長年の湯が積もり、いかにも使い込まれた風情がある。宿泊は1泊で十分に満喫でき、温泉に2回ゆっくり入るのが定番の過ごし方。現金は少し多めに用意しておきたい。白い湯けむり、静かな山の夜。",
     "catch": "濁川温泉で温泉に2回入って、部屋でゆっくりして寝る",
     "requiresCar": false,
     "type": "destination",
@@ -109165,30 +109134,6 @@
           "author": "くろふね",
           "license": "CC BY 3.0",
           "url": "https://commons.wikimedia.org/wiki/File:%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_(3).jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "利尻島",
-        "description": "円錐形の島影が海に浮かぶ景観地。利尻山の独特な稜線と海面からそそり立つ岩峰、海色の移ろいを堪能できる。",
-        "googleMapsQuery": "利尻島 北海道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Rishiri_Airport_17-Sept-2018_p2.jpg/1280px-Rishiri_Airport_17-Sept-2018_p2.jpg",
-        "imageCredit": {
-          "author": "皓月旗",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Rishiri_Airport_17-Sept-2018_p2.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "礼文島",
-        "description": "「北の花の浮島」と呼ばれる離島。断崖と海が接する劇的な地形を歩き、寒冷地に咲く高山植物の群生を観察できる。",
-        "googleMapsQuery": "礼文島 北海道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Rebun_island_%2852357469754%29.jpg/1280px-Rebun_island_%2852357469754%29.jpg",
-        "imageCredit": {
-          "author": "Raita Futo from Tokyo, Japan",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Rebun_island_(52357469754).jpg",
           "attributionRequired": true
         }
       }
@@ -121538,18 +121483,6 @@
         }
       },
       {
-        "name": "月居山ハイキングコース",
-        "description": "標高433mながら眺望に優れた里山。尾根道から那珂川や筑波山系を一望し、雑木林の香りと野鳥の声を楽しめる。",
-        "googleMapsQuery": "月居山 大子町 ハイキング",
-        "imageUrl": "/images/spots/gen_茨城_西山荘/1.jpg",
-        "imageCredit": {
-          "author": "jplenio",
-          "license": "Pixabay Content License",
-          "url": "https://pixabay.com/ja/photos/%E6%9C%A8-%E3%82%A2%E3%83%99%E3%83%8B%E3%83%A5%E3%83%BC-%E9%81%93-%E8%87%AA%E7%84%B6-3092026/",
-          "attributionRequired": false
-        }
-      },
-      {
         "name": "大子町歴史民俗資料館",
         "description": "江戸時代の生活道具や農具を展示。時間の積もった木造建屋の中で、地域の昔の暮らしぶりに思いを馳せられる。",
         "googleMapsQuery": "大子町歴史民俗資料館",
@@ -121562,7 +121495,7 @@
         }
       }
     ],
-    "description": "茨城県常陸太田市にある西山荘は、水戸藩主・徳川光圀が晩年を過ごした茅葺き屋根の隠居所。木立に囲まれた敷地に一歩入れば、光圀ゆかりの空間をそのまま歩ける。水戸駅を起点にバスで向かうのが基本で、東京からは約2時間10分でアクセスできる。年中無休。訪問前に確認しておきたい。周辺には月居山ハイキングコースがあり、標高433mの尾根道から那珂川や筑波山系の眺望を一望できる。大子町歴史民俗資料館では江戸時代の農具や生活道具を展示し、地域の暮らしぶりを伝えている。見どころが分散しているので、1泊してゆっくり巡るのに向いた場所だ。茅葺きの屋根の下、静かな時間。",
+    "description": "茨城県常陸太田市にある西山荘は、水戸藩主・徳川光圀が晩年を過ごした茅葺き屋根の隠居所。木立に囲まれた敷地に一歩入れば、光圀ゆかりの空間をそのまま歩ける。水戸駅を起点にバスで向かうのが基本で、東京からは約2時間10分でアクセスできる。年中無休。訪問前に確認しておきたい。大子町歴史民俗資料館では江戸時代の農具や生活道具を展示し、地域の暮らしぶりを伝えている。見どころが分散しているので、1泊してゆっくり巡るのに向いた場所だ。茅葺きの屋根の下、静かな時間。",
     "catch": "西山荘で見どころが多く、1泊してゆっくり巡る",
     "requiresCar": false,
     "type": "destination",
@@ -135039,18 +134972,6 @@
           "license": "Pixabay Content License",
           "url": "https://pixabay.com/ja/photos/%E3%82%A2%E3%82%B8%E3%82%A2-%E3%83%80%E3%83%B3%E3%82%B9-%E3%83%90%E3%83%B3%E3%82%B3%E3%82%AF-1807558/",
           "attributionRequired": false
-        }
-      },
-      {
-        "name": "北の防波堤ドーム",
-        "description": "波の浸食から町を守る、波状のコンクリート製防波堤。海に向かって連なる波紋状の構造が、荒波と人の営みの対比を示す。",
-        "googleMapsQuery": "北の防波堤ドーム 下北",
-        "imageUrl": "/images/spots/gen_青森_下風呂温泉/3.jpg",
-        "imageCredit": {
-          "author": "acidlemon",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/68318134@N00/3881057563",
-          "attributionRequired": true
         }
       }
     ],
