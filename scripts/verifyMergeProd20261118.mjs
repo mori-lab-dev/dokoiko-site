@@ -16,7 +16,7 @@ const PRE = arg('--pre', '');
 const J = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 const pairs = J('scripts/data/mergedPages.json').pairs.filter((p) => p.hash);
 const reps = [...new Set(pairs.map((p) => p.to))];
-const fixes = J('scripts/data/mergeConflictFixes20261118.json').fixes;
+const fixes = fs.readdirSync('scripts/data').filter((f) => /^merge(Conflict|Fact)Fixes.*\.json$/.test(f)).sort().flatMap((f) => J(`scripts/data/${f}`).fixes);
 const moved = J('src/data/quizMovedCodes.json');
 const quiz = J('src/data/quizDestinations.json');
 let bad = 0, total = 0;
@@ -41,7 +41,7 @@ for (const rep of reps) {
   const t = norm(h);
   for (const e of edits.filter((x) => (x.group && x.file.includes(`articles/${rep}.json`)) || (x.spot && x.spot[0] === rep))) {
     const oldOne = e.old.replace(/\n/g, ''), newOne = e.new.replace(/\n/g, '');
-    if (newOne) ok(`(b) ${rep}: 直した箇所が本番にある「${newOne.slice(0, 24)}」`, t.includes(norm(newOne)) || /spot|spots/.test(JSON.stringify(e.spot || '')) , '');   // spot の説明は構造化データ側
+    if (newOne && !e.spot) ok(`(b) ${rep}: 直した箇所が本番にある「${newOne.slice(0, 24)}」`, t.includes(norm(newOne)));   // spot の説明は構造化データ側で見る
     if (oldOne && oldOne !== newOne) ok(`(b) ${rep}: 古い文が本番に無い「${oldOne.slice(0, 24)}」`, !t.includes(norm(oldOne)) && !norm(h.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '')).includes(norm(oldOne)));
   }
   // 構造化データ（spots）にも古い文が残っていない
@@ -57,6 +57,9 @@ for (const p of pairs) {
   ok(`(c) ${p.from} が dist とバイト一致`, Buffer.compare(r.buf, dist(`destinations/${p.from}/index.html`)) === 0);
   const tr = await get(`${SITE}/destinations/${p.to}/`); ok(`(c) 飛び先の見出し id="${p.hash}" が統合ページに存在`, txt(tr).includes(`id="${p.hash}"`));
 }
+// (c2) 同名の統合の転送ページ（dazaifu-2・hokkaido-furano-2・ohara-2・osorezan-area）は、元の文言（読点なし）／kumano は dist と一致
+for (const id of ['dazaifu-2', 'hokkaido-furano-2', 'ohara-2', 'osorezan-area']) { const h = txt(await get(`${SITE}/destinations/${id}/`)); ok(`(c) 転送ページ ${id} の本文が元の文言（「のページは<strong>」・読点なし）`, /同名の「[^」]+」のページは<strong/.test(h) && !/同名の「[^」]+」のページは、<strong/.test(h)); }
+{ const r = await get(`${SITE}/destinations/kumano/`); ok('(c) 転送ページ kumano が dist とバイト一致', Buffer.compare(r.buf, dist('destinations/kumano/index.html')) === 0); }
 // (d)
 const sm = txt(await get(`${SITE}/sitemap.xml`));
 ok('(d) sitemap に旧URL（転送ページ）が無い', pairs.every((p) => !sm.includes(`/destinations/${p.from}/`)), pairs.filter((p) => sm.includes(`/destinations/${p.from}/`)).map((p) => p.from).join(','));

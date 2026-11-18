@@ -11,7 +11,8 @@ const { fromName, toId, toName, toHash } = Astro.props;
 const TO = `/destinations/${toId}/`;
 const GO = toHash ? `${TO}#${toHash}` : TO;
 const ABS = `https://tabidokoiko.com${TO}`;
-const LEAD = toHash ? `近い場所の「${fromName}」のページは、` : `同名の「${fromName}」のページは、`;
+const LEAD = toHash ? `近い場所の「${fromName}」のページは、` : `同名の「${fromName}」のページは、`;   // meta description 用（読点つき）
+const BODY_LEAD = toHash ? LEAD : `同名の「${fromName}」のページは`;   // 本文用。同名の統合の転送ページ（2026-11-09）は読点なしの元の文言のまま
 const DESC = `${LEAD}${toName}のページに統合しました。`;
 ---
 <html lang="ja">
@@ -37,7 +38,7 @@ const DESC = `${LEAD}${toName}のページに統合しました。`;
     </style>
   </head>
   <body>
-    <p>{LEAD}<strong>{toName}</strong>のページに統合しました。</p>
+    <p>{BODY_LEAD}<strong>{toName}</strong>のページに統合しました。</p>
     <p><a href={GO}>{toName}のページへ移動する →</a></p>
     <script is:inline define:vars={{ GO }}>
       location.replace(GO);

@@ -1,0 +1,190 @@
+{
+  "note": "公式と合わない5つの記述の修正（2026-11-18・第2回）。公式で確認できた値に直し、整合しなくなる部分・確認できない部分は文・句だけ削除した。民間のまとめ記事は根拠にしていない。確認日は全件 2026-11-18。",
+  "date": "2026-11-18",
+  "fixes": [
+    {
+      "id": "L1",
+      "topic": "ローソク島遊覧船の料金・所要時間・出航場所（ページは「大人2,500円・約1時間」「西ノ島の浦郷港から」）",
+      "result": "公式の値に直した（大人4,000円・約50分・出航は隠岐の島町の福浦岸壁）。ページが西ノ島の記述として書いていたモデルコース2か所は、公式の出航地（島後）と整合しないので、西ノ島への移動を含む部分を削除した",
+      "sources": [
+        "https://www.e-oki.net/experience/6313（隠岐の島旅・ローソク島遊覧船：大人4,000円・所要約50分・集合場所 隠岐の島町 福浦岸壁）",
+        "https://www.town.okinoshima.shimane.jp/soshiki/shokokanko/gyomu/8/2/228.html（隠岐の島町・乗船料金 大人4,000円・出航場所 福浦岸壁）",
+        "https://www.kankou-shimane.com/experience/37457（しまね観光ナビ・2026-01-26更新：所要約50分・大人4,000円）"
+      ],
+      "edits": [
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "description",
+          "old": "西ノ島の浦郷港から遊覧船が出る。大人2,500円、所要約1時間、夕方の便が狙い目だ。",
+          "new": "隠岐の島町の福浦岸壁から遊覧船が出る。大人4,000円、所要約50分、夕方の便が狙い目だ。"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.0.body",
+          "old": "西ノ島の浦郷港から遊覧船に乗る。\n料金は大人2,500円。\n所要は約1時間のコースだ。",
+          "new": "隠岐の島町の福浦岸壁から遊覧船に乗る。\n料金は大人4,000円。\n所要は約50分のコースだ。"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.0.info",
+          "old": "住所：島根県隠岐郡西ノ島町浦郷\n料金：大人2,500円（時期・コースにより変動あり）\n出港：西ノ島・浦郷港より（夕陽の時間に合わせて変動）",
+          "new": "住所：島根県隠岐郡隠岐の島町（福浦岸壁）\n料金：大人4,000円（時期・コースにより変動あり）\n出港：隠岐の島町・福浦岸壁より（夕陽の時間に合わせて変動）"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "modelCourse.daytrip",
+          "old": "島内でランチ→西ノ島へフェリー移動→ローソク島遊覧船（夕刻）",
+          "new": "島内でランチ→ローソク島遊覧船（夕刻）",
+          "memo": "公式の出航地は島後。西ノ島へ移動してから乗る行程は成り立たないので、移動の部分を削除"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "modelCourse.onenight",
+          "old": "→昼食後にローソク島遊覧船（夕刻）",
+          "new": "",
+          "memo": "2日目は西ノ島（焼火神社）にいる行程で、公式の出航地（島後）と整合しないので、遊覧船の部分を削除"
+        },
+        {
+          "file": "src/data/destinations.json",
+          "spot": [
+            "nishinoshima",
+            "ローソク島"
+          ],
+          "old": "西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう",
+          "new": "隠岐の島町の福浦岸壁から遊覧船（大人4,000円・約50分）で向かう"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "topic": "玉若酢命神社の八百杉の「幹周り約11メートル」と、西郷港からの所要時間「車で約10分」",
+      "result": "公式の値に直した（根元の周囲約20m・西郷港から車で約5分）。「中心部から車で10分ほど」の1文は、公式の値（西郷港から約5分）と食い違い、「中心部」の基準も公式に無いので削除した",
+      "sources": [
+        "https://www.e-oki.net/spots/5981（隠岐の島旅・八百杉：樹高38m・根元の周囲約20m・西郷港より車で5分）",
+        "https://www.kankou-shimane.com/destination/20421（しまね観光ナビ・八百杉：根元の周囲約20m・西郷港から車で約5分）",
+        "https://tamawakasu--oki.ciao.jp/（玉若酢命神社 公式：幹の太さ約20m）"
+      ],
+      "edits": [
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.1.body",
+          "old": "樹齢2,000年以上、幹周りは約11メートル。",
+          "new": "樹齢2,000年以上、根元の周囲は約20メートル。"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.1.info",
+          "old": "アクセス：西郷港より車で約10分",
+          "new": "アクセス：西郷港より車で約5分"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.1.body",
+          "old": "隠岐の島町（島後）の中心部から車で10分ほど。\n",
+          "new": ""
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "topic": "焼火神社の「標高452メートルの場所に神社がある」「山頂近く」",
+      "result": "公式の記述に直した（焼火山は標高452m。神社はその中腹にある）",
+      "sources": [
+        "https://takuhi-shrine.com/index.html（焼火神社 公式：焼火山（海抜452m）の中腹にある）",
+        "https://www.kankou-shimane.com/destination/20523（しまね観光ナビ：焼火山（452m）の中腹にある神社）",
+        "https://www.e-oki.net/spots/5988（隠岐の島旅：焼火山の中腹にあり）"
+      ],
+      "edits": [
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "description",
+          "old": "焼火神社は西ノ島の標高452mにあり、",
+          "new": "焼火神社は西ノ島の標高452mの山の中腹にあり、"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.2.title",
+          "old": "標高452m、山の中に神社があった",
+          "new": "標高452mの山の中に神社があった"
+        },
+        {
+          "file": "src/data/articles/nishinoshima.json",
+          "group": "oki-island",
+          "field": "sections.2.body",
+          "old": "西ノ島の焼火山（たくひさん）山頂近く。\n標高452メートルの場所に、神社がある。",
+          "new": "西ノ島の焼火山（たくひさん）の中腹。\n標高452メートルの山に、神社がある。"
+        },
+        {
+          "file": "src/data/destinations.json",
+          "spot": [
+            "nishinoshima",
+            "焼火神社"
+          ],
+          "old": "西ノ島・焼火山の標高452メートルの場所に鎮座する神社。",
+          "new": "西ノ島・焼火山（標高452メートル）の中腹に鎮座する神社。"
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "topic": "人吉城歴史館の休館日（ページは「月曜休」）",
+      "result": "公式の値に直した（毎週火曜日。祝日の場合は翌日）",
+      "sources": [
+        "https://www.city.hitoyoshi.lg.jp/kanko/kankojyoho/2487137（人吉市・人吉城歴史館 利用案内・2026-06-03更新）"
+      ],
+      "edits": [
+        {
+          "file": "src/data/articles/hitoyoshi.json",
+          "group": "hitoyoshi",
+          "field": "sections.1.info",
+          "old": "9:00〜17:00（月曜休）",
+          "new": "9:00〜17:00（火曜休）"
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "topic": "阿波連ビーチの所在地（慶良間・阿波連ビーチの説明が「座間味島の南西端」）",
+      "result": "公式の値に直した（阿波連ビーチは渡嘉敷島にある。島の南側）。同じ文脈で座間味島の記述として書かれていた「那覇港からフェリーで約1時間30分…港から徒歩で」の文は、渡嘉敷島の公式の値（フェリー約70分。港からビーチへは乗合バス・車）と食い違うので削除した。「同じ座間味島にある古座間味ビーチ」は「同じ」を削除、渡嘉敷島の節の「島の西側」は公式（島の南側）に合わせた",
+      "sources": [
+        "https://www.vill.tokashiki.okinawa.jp/kanko_bunka_sangyo/kankojoho/1940.html（渡嘉敷村・阿波連ビーチの利用ルール）",
+        "https://www.vill.tokashiki.okinawa.jp/material/files/group/2/dai5zisougoukeikaku.pdf（渡嘉敷村 第5次総合計画：渡嘉敷島の南側に開けたビーチの近くに阿波連集落。フェリーとかしき70分・マリンライナーとかしき35分）",
+        "https://www.okinawastory.jp/spot/1085（沖縄観光情報WEBサイト・阿波連ビーチ：渡嘉敷村阿波連・渡嘉敷島・渡嘉敷港から車で約20分）"
+      ],
+      "edits": [
+        {
+          "file": "src/data/articles/tokashiki-jima.json",
+          "group": "aharen",
+          "field": "description",
+          "old": "沖縄・座間味島の南西端に位置するビーチだ。那覇港からフェリーで約1時間30分、阿波連集落に隣接した白砂の浜まで、港から徒歩でアクセスできる。",
+          "new": "沖縄・渡嘉敷島の南側に位置するビーチだ。"
+        },
+        {
+          "file": "src/data/articles/tokashiki-jima.json",
+          "group": "aharen",
+          "field": "description",
+          "old": "同じ座間味島にある古座間味ビーチ",
+          "new": "座間味島にある古座間味ビーチ"
+        },
+        {
+          "file": "src/data/articles/tokashiki-jima.json",
+          "group": "tokashiki-jima",
+          "field": "sections.0.body",
+          "old": "島の西側、バスで20分ほど走ると着く。",
+          "new": "島の南側、バスで20分ほど走ると着く。"
+        }
+      ]
+    }
+  ],
+  "notDiscrepancy": []
+}

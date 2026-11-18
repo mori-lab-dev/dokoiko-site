@@ -333,7 +333,7 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "description",
-  "s": "大人2,500円、所要約1時間、夕方の便が狙い目だ。"
+  "s": "大人4,000円、所要約50分、夕方の便が狙い目だ。"
  },
  {
   "page": "nishinoshima",
@@ -345,7 +345,7 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "description",
-  "s": "焼火神社は西ノ島の標高452mにあり、登山口から約25分歩いて参拝する。"
+  "s": "焼火神社は西ノ島の標高452mの山の中腹にあり、登山口から約25分歩いて参拝する。"
  },
  {
   "page": "nishinoshima",
@@ -387,7 +387,7 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "modelCourse.onenight",
-  "s": "【2日目】焼火神社トレッキング（午前）→昼食後にローソク島遊覧船（夕刻）→帰路フェリー"
+  "s": "【2日目】焼火神社トレッキング（午前）→帰路フェリー"
  },
  {
   "page": "nishinoshima",
@@ -399,13 +399,13 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "節1「ローソク島｜夕暮れだけ、海か」body",
-  "s": "料金は大人2,500円。"
+  "s": "料金は大人4,000円。"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "節1「ローソク島｜夕暮れだけ、海か」body",
-  "s": "所要は約1時間のコースだ。"
+  "s": "所要は約50分のコースだ。"
  },
  {
   "page": "nishinoshima",
@@ -429,13 +429,7 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "節1「ローソク島｜夕暮れだけ、海か」info",
-  "s": "料金：大人2,500円（時期・コースにより変動あり）"
- },
- {
-  "page": "nishinoshima",
-  "group": "oki-island",
-  "where": "節2「玉若酢命神社｜樹齢2000年」body",
-  "s": "隠岐の島町（島後）の中心部から車で10分ほど。"
+  "s": "料金：大人4,000円（時期・コースにより変動あり）"
  },
  {
   "page": "nishinoshima",
@@ -447,7 +441,7 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "節2「玉若酢命神社｜樹齢2000年」body",
-  "s": "樹齢2,000年以上、幹周りは約11メートル。"
+  "s": "樹齢2,000年以上、根元の周囲は約20メートル。"
  },
  {
   "page": "nishinoshima",
@@ -477,7 +471,7 @@
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "節2「玉若酢命神社｜樹齢2000年」info",
-  "s": "アクセス：西郷港より車で約10分"
+  "s": "アクセス：西郷港より車で約5分"
  },
  {
   "page": "nishinoshima",
@@ -488,44 +482,44 @@
  {
   "page": "nishinoshima",
   "group": "oki-island",
-  "where": "節3「焼火神社｜標高452m、山の」body",
-  "s": "標高452メートルの場所に、神社がある。"
+  "where": "節3「焼火神社｜標高452mの山の」body",
+  "s": "標高452メートルの山に、神社がある。"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
-  "where": "節3「焼火神社｜標高452m、山の」body",
+  "where": "節3「焼火神社｜標高452mの山の」body",
   "s": "登山口から歩いて約25分。"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
-  "where": "節3「焼火神社｜標高452m、山の」body",
+  "where": "節3「焼火神社｜標高452mの山の」body",
   "s": "創建は12世紀以前とされている。"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
-  "where": "節3「焼火神社｜標高452m、山の」body",
+  "where": "節3「焼火神社｜標高452mの山の」body",
   "s": "下山後に飲んだ自動販売機のお茶が、150円だ。"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
-  "where": "節3「焼火神社｜標高452m、山の」info",
+  "where": "節3「焼火神社｜標高452mの山の」info",
   "s": "登山口へのアクセス：別府港より車で約20分"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
-  "where": "節3「焼火神社｜標高452m、山の」info",
+  "where": "節3「焼火神社｜標高452mの山の」info",
   "s": "所要時間：登山口〜社殿 約25分"
  },
  {
   "page": "nishinoshima",
   "group": "oki-island",
   "where": "節3title",
-  "s": "焼火神社｜標高452m、山の中に神社があった"
+  "s": "焼火神社｜標高452mの山の中に神社があった"
  },
  {
   "page": "nishinoshima",
@@ -537,7 +531,7 @@
   "page": "nishinoshima",
   "group": "(spots)",
   "where": "spot「焼火神社」",
-  "s": "西ノ島・焼火山の標高452メートルの場所に鎮座する神社。"
+  "s": "西ノ島・焼火山（標高452メートル）の中腹に鎮座する神社。"
  },
  {
   "page": "nishinoshima",
@@ -585,7 +579,7 @@
   "page": "nishinoshima",
   "group": "(spots)",
   "where": "spot「ローソク島」",
-  "s": "西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう海上の奇岩。"
+  "s": "隠岐の島町の福浦岸壁から遊覧船（大人4,000円・約50分）で向かう海上の奇岩。"
  },
  {
   "page": "nishinoshima",
@@ -669,7 +663,7 @@
   "page": "tokashiki-jima",
   "group": "tokashiki-jima",
   "where": "節1「阿波連ビーチ｜この青さに、言」body",
-  "s": "島の西側、バスで20分ほど走ると着く。"
+  "s": "島の南側、バスで20分ほど走ると着く。"
  },
  {
   "page": "tokashiki-jima",
@@ -766,12 +760,6 @@
   "group": "tokashiki-jima",
   "where": "節3「展望台｜島の高さから、ケラマ」info",
   "s": "アクセス：阿波連ビーチから徒歩約20分（急坂あり）"
- },
- {
-  "page": "tokashiki-jima",
-  "group": "aharen",
-  "where": "description",
-  "s": "那覇港からフェリーで約1時間30分、阿波連集落に隣接した白砂の浜まで、港から徒歩でアクセスできる。"
  },
  {
   "page": "tokashiki-jima",
@@ -1473,7 +1461,7 @@
   "page": "hitoyoshi",
   "group": "hitoyoshi",
   "where": "節2「人吉城跡｜石垣マニアが泣いて」info",
-  "s": "人吉城歴史館：330円、9:00〜17:00（月曜休）"
+  "s": "人吉城歴史館：330円、9:00〜17:00（火曜休）"
  },
  {
   "page": "hitoyoshi",

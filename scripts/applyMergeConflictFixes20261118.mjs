@@ -8,9 +8,11 @@
 import fs from 'fs';
 import path from 'path';
 const DRY = process.argv.includes('--dry');
-const cfg = JSON.parse(fs.readFileSync('scripts/data/mergeConflictFixes20261118.json', 'utf8'));
+const CFG = process.argv.find((a, i) => i > 1 && a.endsWith('.json')) || 'scripts/data/mergeConflictFixes20261118.json';
+const OUTN = CFG.includes('FactFixes') ? 'changes_b' : 'changes';
+const cfg = JSON.parse(fs.readFileSync(CFG, 'utf8'));
 const cache = new Map(); const load = (f) => { if (!cache.has(f)) cache.set(f, JSON.parse(fs.readFileSync(f, 'utf8'))); return cache.get(f); };
-const B = 'backup/conflicts_20261118';
+const B = CFG.includes('FactFixes') ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
 if (!DRY) { fs.mkdirSync(B, { recursive: true }); for (const f of new Set(cfg.fixes.flatMap((x) => x.edits.map((e) => e.file)))) { const t = path.join(B, f.replace(/\//g, '__')); if (!fs.existsSync(t)) fs.copyFileSync(f, t); } }
 const getPath = (o, p) => p.split('.').reduce((a, k) => a[k], o);
 const log = [];
@@ -26,6 +28,6 @@ for (const fx of cfg.fixes) for (const e of fx.edits) {
 if (!DRY) for (const [f, d] of cache) fs.writeFileSync(f, JSON.stringify(d, null, 2) + '\n');
 if (!DRY) {
   fs.mkdirSync('logs/conflicts_20261118', { recursive: true });
-  fs.writeFileSync('logs/conflicts_20261118/changes.json', JSON.stringify({ 確認日: cfg.date, 修正: cfg.fixes.map((f) => ({ id: f.id, 題: f.topic, 結果: f.result, 出典: f.sources })), 食い違いではなかった: cfg.notDiscrepancy, 変更の前後: log }, null, 1));
+  fs.writeFileSync(`logs/conflicts_20261118/${OUTN}.json`, JSON.stringify({ 確認日: cfg.date, 修正: cfg.fixes.map((f) => ({ id: f.id, 題: f.topic, 結果: f.result, 出典: f.sources })), 食い違いではなかった: cfg.notDiscrepancy, 変更の前後: log }, null, 1));
 }
 console.log(DRY ? 'dry' : '適用', log.length, '件');

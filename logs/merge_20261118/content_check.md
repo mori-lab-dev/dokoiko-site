@@ -76,25 +76,25 @@
 | nishinoshima | nakanoshima-oki | 見出し画像の出典（元のページのヒーロー画像の出典） | Yuvalr | 統合ページの本文にある |
 | nishinoshima | nakanoshima-oki | 宿 | Entô（エントウ）（宿名だけ見出しの下に書いた・カードは残していない） | 統合ページの本文にある |
 | nishinoshima | nakanoshima-oki | 宿のキャッチコピー | 隠岐ジオパークに泊まる、全室カルデラの海を望む離島ホテル | 載せていない（宿名だけにする決定。1軒しかカードにしない） |
-| nishinoshima | oki-island | description | 本土から船で約3時間。玄関口は西郷港で、空路なら隠岐空港に降りる。ローソク島は海上の奇岩で、西ノ島の浦郷港から遊覧船が出 | 統合ページの本文にある |
+| nishinoshima | oki-island | description | 本土から船で約3時間。玄関口は西郷港で、空路なら隠岐空港に降りる。ローソク島は海上の奇岩で、隠岐の島町の福浦岸壁から遊覧 | 統合ページの本文にある |
 | nishinoshima | oki-island | lead | 本土から船で約3時間。 フェリーが港に近づくと、空気が変わる。 ただ、青くて深い海が広がっている。 隠岐の島は、観光地に | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の見出し | ローソク島｜夕暮れだけ、海から炎が立ち上がる | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の本文 | 乗船したのは夕方16時すぎ。 西ノ島の浦郷港から遊覧船に乗る。 料金は大人2,500円。 所要は約1時間のコースだ。 船 | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の info | ■ ローソク島遊覧船 住所：島根県隠岐郡西ノ島町浦郷 料金：大人2,500円（時期・コースにより変動あり） 出港：西ノ島 | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の本文 | 乗船したのは夕方16時すぎ。 隠岐の島町の福浦岸壁から遊覧船に乗る。 料金は大人4,000円。 所要は約50分のコースだ | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の info | ■ ローソク島遊覧船 住所：島根県隠岐郡隠岐の島町（福浦岸壁） 料金：大人4,000円（時期・コースにより変動あり） 出 | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の見出し | 玉若酢命神社｜樹齢2000年の杉の下で、時間の感覚が狂う | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の本文 | 隠岐の島町（島後）の中心部から車で10分ほど。 看板が小さくて、一度通り過ぎた。 参道に入ると、正面に巨大な杉が現れる。 | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の本文 | 看板が小さくて、一度通り過ぎた。 参道に入ると、正面に巨大な杉が現れる。 八百杉（やおすぎ）と呼ばれる御神木。 樹齢2, | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の info | ■ 玉若酢命神社 住所：島根県隠岐郡隠岐の島町郡723 参拝料：無料 参拝時間：自由（社務所は9:00〜17:00頃）  | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の見出し | 焼火神社｜標高452m、山の中に神社があった | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の本文 | 西ノ島の焼火山（たくひさん）山頂近く。 標高452メートルの場所に、神社がある。 登山口から歩いて約25分。 道は整備さ | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の見出し | 焼火神社｜標高452mの山の中に神社があった | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の本文 | 西ノ島の焼火山（たくひさん）の中腹。 標高452メートルの山に、神社がある。 登山口から歩いて約25分。 道は整備されて | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の info | ■ 焼火神社 住所：島根県隠岐郡西ノ島町美田 参拝料：無料 登山口へのアクセス：別府港より車で約20分 所要時間：登山口 | 統合ページの本文にある |
-| nishinoshima | oki-island | spot の説明（構造化データ） | 西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう海上の奇岩。夕方の便で海から間近に眺められる。 | 統合ページの構造化データ（spots）にある |
+| nishinoshima | oki-island | spot の説明（構造化データ） | 隠岐の島町の福浦岸壁から遊覧船（大人4,000円・約50分）で向かう海上の奇岩。夕方の便で海から間近に眺められる。 | 統合ページの構造化データ（spots）にある |
 | nishinoshima | oki-island | spot の画像の出典（表示義務なし） | Navian | 元のページも表示していない（パブリックドメイン・attributionRequired:false） |
 | nishinoshima | oki-island | spot の説明（構造化データ） | 樹齢2,000年を超える八百杉がそびえる、島後の古社。隠岐の古層が残る聖域を歩くことができる。 | 統合ページの構造化データ（spots）にある |
 | nishinoshima | oki-island | spot の画像の出典 | ChiefHira | 統合ページの本文にある |
-| nishinoshima | oki-island | spot の説明（構造化データ） | 西ノ島・焼火山の標高452メートルの場所に鎮座する神社。登山口から約25分の山道を歩いて参拝する。 | 統合ページの構造化データ（spots）にある |
+| nishinoshima | oki-island | spot の説明（構造化データ） | 西ノ島・焼火山（標高452メートル）の中腹に鎮座する神社。登山口から約25分の山道を歩いて参拝する。 | 統合ページの構造化データ（spots）にある |
 | nishinoshima | oki-island | spot の画像の出典 | Yuvalr | 統合ページの本文にある |
-| nishinoshima | oki-island | モデルコース（日帰り） | 西郷港着→玉若酢命神社（午前）→島内でランチ→西ノ島へフェリー移動→ローソク島遊覧船（夕刻）→宿泊または帰路 | 統合ページの本文にある |
-| nishinoshima | oki-island | モデルコース（1泊） | 【1日目】西郷港着→玉若酢命神社→島後ドライブ→西ノ島へ移動・宿泊 【2日目】焼火神社トレッキング（午前）→昼食後にロー | 統合ページの本文にある |
+| nishinoshima | oki-island | モデルコース（日帰り） | 西郷港着→玉若酢命神社（午前）→島内でランチ→ローソク島遊覧船（夕刻）→宿泊または帰路 | 統合ページの本文にある |
+| nishinoshima | oki-island | モデルコース（1泊） | 【1日目】西郷港着→玉若酢命神社→島後ドライブ→西ノ島へ移動・宿泊 【2日目】焼火神社トレッキング（午前）→帰路フェリー | 統合ページの本文にある |
 | nishinoshima | oki-island | tips | フェリーは七類港または境港から出る。 季節によって便数が変わるので、事前に確認を。 ローソク島の遊覧船は要予約・天候次第 | 統合ページの本文にある |
 | nishinoshima | oki-island | bestSeason | 5〜6月が1番好きだ。 空気が澄んでいて、人が少ない。 海の透明度も高く、ローソク島の夕陽も美しい。 9月以降は台風と欠 | 統合ページの本文にある |
 | nishinoshima | oki-island | 見出し画像の出典（元のページのヒーロー画像の出典） | Ying-lung Lu | 統合ページの本文にある |
@@ -102,7 +102,7 @@
 | tokashiki-jima | tokashiki-jima | description | 那覇・泊港から高速船で約35分。沖縄本島の西に浮かぶ離島だ。渡嘉敷港を降り、バスで約20分走ると阿波連ビーチに着く。ケラ | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | lead | 那覇から高速船で約35分。 それだけで、世界が変わる。 渡嘉敷島の海は、沖縄本島とは別物だ。 青というより、光そのもの。 | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | 節の見出し | 阿波連ビーチ｜この青さに、言葉が追いつかない | 統合ページの本文にある |
-| tokashiki-jima | tokashiki-jima | 節の本文 | 島の西側、バスで20分ほど走ると着く。 到着した瞬間、足が止まった。 嘘みたいな透明度だ。 水中マスクを借りて潜ると、熱 | 統合ページの本文にある |
+| tokashiki-jima | tokashiki-jima | 節の本文 | 島の南側、バスで20分ほど走ると着く。 到着した瞬間、足が止まった。 嘘みたいな透明度だ。 水中マスクを借りて潜ると、熱 | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | 節の info | ■ 阿波連ビーチ 住所：沖縄県島尻郡渡嘉敷村阿波連 入場料：無料 シュノーケルレンタル：約1,000円〜 営業時間：シャ | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | 節の見出し | 渡嘉敷ビーチ｜港から近い、地元感のある海 | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | 節の本文 | 阿波連ほど有名じゃない分、人が少ない。 港から歩いて15分くらい。 フェリーを降りてすぐ行けるのが、正直ありがたかった。 | 統合ページの本文にある |
@@ -121,7 +121,7 @@
 | tokashiki-jima | tokashiki-jima | tips | レンタサイクルは港近くで借りられる。電動アシスト付きが約2,000円／日。 島内の坂はきつめなので、電動がおすすめ。 飲 | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | bestSeason | 6月〜9月が海のベストシーズン。 透明度が最も高いのは梅雨明け直後の7月。 混雑を避けたいなら9月がねらい目。 水温が高 | 統合ページの本文にある |
 | tokashiki-jima | tokashiki-jima | 宿 | ケラマテラス（おすすめの宿のカードを残した） | 統合ページの本文にある |
-| tokashiki-jima | aharen | description | 沖縄・座間味島の南西端に位置するビーチだ。那覇港からフェリーで約1時間30分、阿波連集落に隣接した白砂の浜まで、港から徒 | 統合ページの本文にある |
+| tokashiki-jima | aharen | description | 沖縄・渡嘉敷島の南側に位置するビーチだ。車は不要。阿波連ビーチは透明度の高い海とウミガメの産卵地として知られ、夏の浜には | 統合ページの本文にある |
 | tokashiki-jima | aharen | spot（記事なし・節として表示） | 阿波連ビーチ | 統合ページの本文にある |
 | tokashiki-jima | aharen | spot の説明（節として表示） | 白砂と透明度の高い海が出迎える。足を入れれば磯の香りと潮の冷感が交わる、ウミガメの産卵地でもある浜。 | 統合ページの本文にある |
 | tokashiki-jima | aharen | spot（記事なし・節として表示） | 阿波連園地 | 統合ページの本文にある |
@@ -267,7 +267,7 @@
 | hitoyoshi | hitoyoshi | 節の info | ■ 青井阿蘇神社 住所：熊本県人吉市上青井町118 参拝：無料 社務所：9:00〜17:00 JR人吉駅から徒歩約10分 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の見出し | 人吉城跡｜石垣マニアが泣いて喜ぶ場所 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の本文 | 正直に言う。 城跡にそこまで期待していない。 天守は残っていない。 あるのは石垣と、少しの復元建造物だけだ。 でも、球磨 | 統合ページの本文にある |
-| hitoyoshi | hitoyoshi | 節の info | ■ 人吉城跡 住所：熊本県人吉市麓町18-4 見学：無料 人吉城歴史館：330円、9:00〜17:00（月曜休） JR人 | 統合ページの本文にある |
+| hitoyoshi | hitoyoshi | 節の info | ■ 人吉城跡 住所：熊本県人吉市麓町18-4 見学：無料 人吉城歴史館：330円、9:00〜17:00（火曜休） JR人 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の見出し | 球磨川くだり｜冬の川は、思ったより静かだ | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の本文 | 球磨川くだりは、夏の激流体験というイメージがあった。 冬に乗ったら、全然違った。 水量が少なく、川面が穏やかだ。 ガイド | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の info | ■ 球磨川くだり 住所：熊本県人吉市駅前町2（乗船場） 運行：9:00〜（要予約・季節により変動） 定休：不定休（荒天中 | 統合ページの本文にある |
@@ -321,7 +321,7 @@
 | hitoyoshi | hitoyoshi-onsen | 宿 | 人吉旅館（おすすめの宿のカードを残した） | 統合ページの本文にある |
 | hitoyoshi | - | ページの作りの説明（新しく書いた1か所） | 熊本県の人吉・人吉・球磨・人吉温泉の3か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。 | 見出しの名前とページの作りだけ（事実なし） |
 
-## 数字の食い違いの修正（元の文からの変更は、これだけ。確認日 2026-11-18）
+## 数字の食い違いの修正（元の文からの変更は、これだけ。確認日 2026-11-18・2026-11-18）
 
 | 修正 | ファイル | 対象 | 前 | 後 |
 |---|---|---|---|---|
@@ -344,5 +344,22 @@
 | K7 | src/data/articles/hitoyoshi.json | hitoyoshi sections.2.info | 料金：コースにより1,500円〜4,200円⏎ | （削除） |
 | K7 | src/data/articles/hitoyoshi.json | hitoyoshi-city sections.0.info | 料金：大人4,500円〜（コースにより異なる）⏎ | （削除） |
 | K8 | src/data/articles/hitoyoshi.json | hitoyoshi-city sections.0.info | 営業期間：3月〜11月（荒天・増水時は運休）⏎ | （削除） |
+| L1 | src/data/articles/nishinoshima.json | oki-island description | 西ノ島の浦郷港から遊覧船が出る。大人2,500円、所要約1時間、夕方の便が狙い目だ。 | 隠岐の島町の福浦岸壁から遊覧船が出る。大人4,000円、所要約50分、夕方の便が狙い目だ。 |
+| L1 | src/data/articles/nishinoshima.json | oki-island sections.0.body | 西ノ島の浦郷港から遊覧船に乗る。⏎料金は大人2,500円。⏎所要は約1時間のコースだ。 | 隠岐の島町の福浦岸壁から遊覧船に乗る。⏎料金は大人4,000円。⏎所要は約50分のコースだ。 |
+| L1 | src/data/articles/nishinoshima.json | oki-island sections.0.info | 住所：島根県隠岐郡西ノ島町浦郷⏎料金：大人2,500円（時期・コースにより変動あり）⏎出港：西ノ島・浦郷港より（夕陽の時間に合わせて変動） | 住所：島根県隠岐郡隠岐の島町（福浦岸壁）⏎料金：大人4,000円（時期・コースにより変動あり）⏎出港：隠岐の島町・福浦岸壁より（夕陽の時間に合わせて変動） |
+| L1 | src/data/articles/nishinoshima.json | oki-island modelCourse.daytrip | 島内でランチ→西ノ島へフェリー移動→ローソク島遊覧船（夕刻） | 島内でランチ→ローソク島遊覧船（夕刻） |
+| L1 | src/data/articles/nishinoshima.json | oki-island modelCourse.onenight | →昼食後にローソク島遊覧船（夕刻） | （削除） |
+| L1 | src/data/destinations.json | spot nishinoshima/ローソク島 | 西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう | 隠岐の島町の福浦岸壁から遊覧船（大人4,000円・約50分）で向かう |
+| L2 | src/data/articles/nishinoshima.json | oki-island sections.1.body | 樹齢2,000年以上、幹周りは約11メートル。 | 樹齢2,000年以上、根元の周囲は約20メートル。 |
+| L2 | src/data/articles/nishinoshima.json | oki-island sections.1.info | アクセス：西郷港より車で約10分 | アクセス：西郷港より車で約5分 |
+| L2 | src/data/articles/nishinoshima.json | oki-island sections.1.body | 隠岐の島町（島後）の中心部から車で10分ほど。⏎ | （削除） |
+| L3 | src/data/articles/nishinoshima.json | oki-island description | 焼火神社は西ノ島の標高452mにあり、 | 焼火神社は西ノ島の標高452mの山の中腹にあり、 |
+| L3 | src/data/articles/nishinoshima.json | oki-island sections.2.title | 標高452m、山の中に神社があった | 標高452mの山の中に神社があった |
+| L3 | src/data/articles/nishinoshima.json | oki-island sections.2.body | 西ノ島の焼火山（たくひさん）山頂近く。⏎標高452メートルの場所に、神社がある。 | 西ノ島の焼火山（たくひさん）の中腹。⏎標高452メートルの山に、神社がある。 |
+| L3 | src/data/destinations.json | spot nishinoshima/焼火神社 | 西ノ島・焼火山の標高452メートルの場所に鎮座する神社。 | 西ノ島・焼火山（標高452メートル）の中腹に鎮座する神社。 |
+| L4 | src/data/articles/hitoyoshi.json | hitoyoshi sections.1.info | 9:00〜17:00（月曜休） | 9:00〜17:00（火曜休） |
+| L5 | src/data/articles/tokashiki-jima.json | aharen description | 沖縄・座間味島の南西端に位置するビーチだ。那覇港からフェリーで約1時間30分、阿波連集落に隣接した白砂の浜まで、港から徒歩でアクセスできる。 | 沖縄・渡嘉敷島の南側に位置するビーチだ。 |
+| L5 | src/data/articles/tokashiki-jima.json | aharen description | 同じ座間味島にある古座間味ビーチ | 座間味島にある古座間味ビーチ |
+| L5 | src/data/articles/tokashiki-jima.json | tokashiki-jima sections.0.body | 島の西側、バスで20分ほど走ると着く。 | 島の南側、バスで20分ほど走ると着く。 |
 
 詳細・出典: logs/conflicts_20261118/README.md
