@@ -1,0 +1,7 @@
+{"id":"kijoka",
+ "グループ":[{"g":1,"施設・場所":"大宜味村立 芭蕉布会館（沖縄県大宜味村喜如嘉）","出典URL":["https://www.okinawastory.jp/spot/20020200","https://bashofu.jp/faq","https://www.vill.ogimi.okinawa.jp/sitekanri/gaiyo/profile/bashofu_village/bashofu_ogimi-info/702.html"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/kijoka__g1.txt","取得":"検索の抜粋"}],
+ "判定":[
+  {"n":1,"g":1,"判定":"食い違い","公式の値":"入場料: 無料","修正":{"種類":"置換","old":"入館料300円","new":"入館料無料","値":["入場料: 無料"]}},
+  {"n":2,"g":1,"判定":"食い違い","公式の値":"休業日: 日曜日、旧盆、年末年始（月曜は休館日ではない）","修正":{"種類":"置換","old":"月曜は休館が多いため、火〜金曜の訪問が確実だ","new":"日曜日、旧盆、年末年始は休館だ","値":["日曜日、旧盆、年末年始"]}}
+ ],
+ "取得回数":0,"検索回数":1}

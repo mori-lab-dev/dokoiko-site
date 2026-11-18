@@ -1,0 +1,24 @@
+{
+ "id": "kagawa-takamatsu",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "栗林公園（高松市）",
+   "出典URL": [
+    "https://www.my-kagawa.jp/ritsuringarden/feature/ritsuringarden/guide"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kagawa-takamatsu__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "開園時間は月ごとに異なる（1月 7時00分～17時00分 から 6〜8月 5時30分～19時00分 など）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

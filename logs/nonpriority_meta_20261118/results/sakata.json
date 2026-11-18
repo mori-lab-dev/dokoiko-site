@@ -1,0 +1,43 @@
+{
+ "id": "sakata",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "酒田市 観光用自転車（市公式）",
+   "出典URL": [
+    "https://www.city.sakata.lg.jp/qa/kanko/FAQ051626900.html",
+    "https://sakata-kankou.com/traffic/41365"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakata__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "庄内観光物産館 酒田駅前ミライニ店 電動レンタサイクル（有料）",
+   "出典URL": [
+    "https://www.shoko-corpo.jp/bussan/branch/miraini",
+    "https://yamagatakanko.com/attractions/detail_13071.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakata__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "市の観光用自転車は無料（12月〜3月は利用不可）。有料の電動は1時間500円・4時間1,500円・8時間3,000円で、1日500円前後の料金は公式に無い",
+   "修正": {
+    "種類": "置換",
+    "old": "1日500円前後で",
+    "new": "無料で",
+    "値": [
+     "無料で貸し出しています"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

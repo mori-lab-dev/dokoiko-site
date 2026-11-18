@@ -1,0 +1,72 @@
+{
+ "id": "uchiko",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "内子座（内子町）",
+   "出典URL": [
+    "https://www.town.uchiko.ehime.jp/site/uchikoza/141110.html",
+    "https://www.town.uchiko.ehime.jp/soshiki/3/nyuukanryou-verup.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/uchiko__g1.txt",
+   "取得": "検索の抜粋+取得"
+  },
+  {
+   "g": 2,
+   "施設・場所": "木蝋資料館上芳我邸（内子町）",
+   "出典URL": [
+    "https://www.town.uchiko.ehime.jp/soshiki/3/nyuukanryou-verup.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/uchiko__g2.txt",
+   "取得": "取得1回"
+  },
+  {
+   "g": 3,
+   "施設・場所": "木蝋資料館上芳我邸の開館・休館日（内子町）",
+   "出典URL": [
+    "https://www.town.uchiko.ehime.jp/site/hozonsenta/kamihaga.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/uchiko__g3.txt",
+   "取得": "取得1回"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "内子座は2024年9月2日から約4年間休館中。見学できるのは楽屋のみ（保存修理期間特別価格 大人200円）。舞台・花道の体験は現在できない",
+   "修正": {
+    "種類": "削除",
+    "理由": "内子座本体は保存修理工事で休館中（町公式）。400円で舞台に上がり花道を歩く体験は現状成立しない"
+   }
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "木蝋資料館上芳我邸 個人 大人500円（団体380円）",
+   "修正": {
+    "種類": "置換",
+    "old": "600円",
+    "new": "500円",
+    "値": [
+     "大人500円"
+    ]
+   },
+   "備考": "写しの原文は全角表記（大人５００円）も併記"
+  },
+  {
+   "n": 3,
+   "g": 3,
+   "判定": "食い違い",
+   "公式の値": "休館日は12月29日～1月2日（年末年始）のみ。月曜休みの記載なし",
+   "修正": {
+    "種類": "削除",
+    "理由": "町公式の休館日は年末年始のみで、月曜休みと合わない"
+   }
+  }
+ ],
+ "取得回数": 3,
+ "検索回数": 2
+}

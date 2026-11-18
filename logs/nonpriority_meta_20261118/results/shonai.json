@@ -1,0 +1,48 @@
+{
+ "id": "shonai",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "致道博物館（山形県鶴岡市）",
+   "出典URL": [
+    "https://www.chido.jp/guide-2"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/shonai__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "鶴岡公園（山形県鶴岡市）",
+   "出典URL": [
+    "https://www.tsuruokacity.com/spot/7243",
+    "https://www.city.tsuruoka.lg.jp/seibi/koen-ryokuti/koen/01_tsuruokakouen_1.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/shonai__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "一般（個人）1,000円",
+   "修正": {
+    "種類": "置換",
+    "old": "800円",
+    "new": "1,000円",
+    "値": [
+     "一般 | 1,000円 | 900円"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "入園無料（Entrance fees Free）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

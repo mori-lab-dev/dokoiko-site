@@ -1,0 +1,24 @@
+{
+ "id": "sotomo",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "蘇洞門めぐり遊覧船（小浜市）",
+   "出典URL": [
+    "https://wakasa-obama.jp/spot/sotomo-pleasure-boat"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/sotomo__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "定休日 12月〜2月"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

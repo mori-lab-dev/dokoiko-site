@@ -1,0 +1,24 @@
+{
+ "id": "nemuro",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "根室市北方領土資料館（納沙布岬）",
+   "出典URL": [
+    "https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/hoppouryoudotaisakubu/hoppouryoudotaisakuka/2/8380.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/nemuro__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入場料金：無料（所在は納沙布岬33-2。『根室駅から徒歩5分』は公式に記載なく、対象外の別事項）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

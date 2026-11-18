@@ -1,0 +1,48 @@
+{
+ "id": "ureshino-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "嬉野温泉公衆浴場 シーボルトの湯（佐賀県嬉野市）",
+   "出典URL": [
+    "https://www.city.ureshino.lg.jp/kanko/siebold.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ureshino-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "旅館 大正屋（嬉野温泉）",
+   "出典URL": [
+    "https://www.taishoya.com/taishoya/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ureshino-onsen__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "開館 午前6時から午後10時まで／大人（中学生以上70歳未満）450円",
+   "修正": {
+    "種類": "置換",
+    "old": "6時30分から開館し、入浴料440円",
+    "new": "6時から開館し、入浴料450円",
+    "値": [
+     "午前6時から",
+     "450円"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "嬉野温泉駅まで無料送迎・事前予約が必要"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

@@ -1,0 +1,24 @@
+{
+ "id": "ikeda-osaka",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "カップヌードルミュージアム 大阪池田（旧称 インスタントラーメン発明記念館）",
+   "出典URL": [
+    "https://www.cupnoodles-museum.jp/ja/osaka_ikeda/guide/admission"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ikeda-osaka__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入館料 無料（体験は有料）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

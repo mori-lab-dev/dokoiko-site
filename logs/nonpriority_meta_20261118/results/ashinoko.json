@@ -1,0 +1,25 @@
+{
+ "id": "ashinoko",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "小田急 山のホテル（元箱根港送迎）",
+   "出典URL": [
+    "https://www.hakone-hoteldeyama.jp/access",
+    "https://www.kanagawa-kankou.or.jp/spot/6252"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ashinoko__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "元箱根港から無料送迎バス（ホテル利用者無料）・約5分（神奈川県公式観光サイト）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

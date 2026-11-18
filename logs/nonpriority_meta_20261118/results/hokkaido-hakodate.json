@@ -1,0 +1,32 @@
+{
+ "id": "hokkaido-hakodate",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "函館市電 1日乗車券",
+   "出典URL": [
+    "https://www.city.hakodate.hokkaido.jp/tram/value-ticket"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/hokkaido-hakodate__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "市電1日乗車券 大人：800円・小児：400円",
+   "修正": {
+    "種類": "置換",
+    "old": "600円",
+    "new": "800円",
+    "値": [
+     "大人：800円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

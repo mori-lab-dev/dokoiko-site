@@ -1,0 +1,33 @@
+{
+ "id": "nushima",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "沼島汽船（土生港～沼島。南あわじ市公式）",
+   "出典URL": [
+    "https://www.city.minamiawaji.hyogo.jp/soshiki/koutsuu/nusima1.html",
+    "http://nushima-yoshijin.jp/go_kisen"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/nushima__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "灘線 片道 大人630円（令和8年10月1日改正）",
+   "修正": {
+    "種類": "置換",
+    "old": "片道310円",
+    "new": "片道大人630円",
+    "値": [
+     "630円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

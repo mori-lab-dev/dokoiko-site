@@ -1,0 +1,34 @@
+{
+ "id": "ito",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "大室山登山リフト",
+   "出典URL": [
+    "https://omuroyama.com/hours_fare",
+    "https://omuroyama.com/om2021/wp/wp-content/themes/omuro2021/pdf/Mtomuro_3orileaf_202410.pdf"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ito__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "おとな往復（中学生以上）￥1,000／標高580mの山頂まで約6分",
+   "修正": {
+    "種類": "置換",
+    "old": "所要約2分、料金700円",
+    "new": "所要約6分、料金1,000円",
+    "値": [
+     "約6分",
+     "￥1,000"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

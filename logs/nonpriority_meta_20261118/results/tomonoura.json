@@ -1,0 +1,33 @@
+{
+ "id": "tomonoura",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "福禅寺 対潮楼",
+   "出典URL": [
+    "https://www.city.fukuyama.hiroshima.jp/site/miryoku2023/288949.html",
+    "https://www.fukuyama-kanko.com/travel/tourist/detail.php?id=23"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tomonoura__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "大人300円（中高生150円・小学生100円）",
+   "修正": {
+    "種類": "置換",
+    "old": "200円",
+    "new": "300円",
+    "値": [
+     "大人300円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,24 @@
+{
+ "id": "tanegashima",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "種子島宇宙センター 宇宙科学技術館",
+   "出典URL": [
+    "https://fanfun.jaxa.jp/visit/tanegashima/"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tanegashima__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "見学は無料です"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

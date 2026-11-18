@@ -1,0 +1,33 @@
+{
+ "id": "uradome",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "浦富海岸島めぐり遊覧船（山陰松島遊覧）",
+   "出典URL": [
+    "https://yourun1000.com/yuransen_uradome",
+    "https://www.tottori-guide.jp/tourism/tour/view/108"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/uradome__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "約40分・大人（中学生以上）1,800円",
+   "修正": {
+    "種類": "置換",
+    "old": "1,500円",
+    "new": "1,800円",
+    "値": [
+     "1,800円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

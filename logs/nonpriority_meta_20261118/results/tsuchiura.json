@@ -1,0 +1,25 @@
+{
+ "id": "tsuchiura",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "土浦市観光協会（土浦まちかど蔵）レンタサイクル（茨城県土浦市）",
+   "出典URL": [
+    "https://www.city.tsuchiura.lg.jp/kanko-bunka-sports/jitenshanomachi/rent-a-cycle/page014976.html",
+    "https://www.pref.ibaraki.jp/kikaku/kotsuseisaku/tetsudo/documents/rentacycle2026.pdf"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tsuchiura__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "シティ・ジュニアサイクル1日1,000円（クロスバイク1,500円〜2,000円、電動3,000円）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

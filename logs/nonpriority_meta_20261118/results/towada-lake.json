@@ -1,0 +1,5 @@
+{"id":"towada-lake",
+ "グループ":[{"g":1,"施設・場所":"十和田湖遊覧船（十和田観光電鉄）","出典URL":["https://www.toutetsu.co.jp/ship.html?lang=ja","https://www.toutetsu.co.jp/ship/pdf/laketowada_time_2026.pdf"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/towada-lake__g1.txt","取得":"検索の抜粋"}],
+ "判定":[
+  {"n":1,"g":1,"判定":"食い違い","公式の値":"2026年 乗船料金 おとな1,760円（所要時間 約50分）","修正":{"種類":"置換","old":"1,400円","new":"1,760円","値":["1,760"]}}],
+ "取得回数":0,"検索回数":1}

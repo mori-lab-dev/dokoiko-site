@@ -1,0 +1,32 @@
+{
+ "id": "ainan",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "一本松温泉あけぼの荘（愛南町）",
+   "出典URL": [
+    "https://www.town.ainan.ehime.jp/kanko/sightseeing/shukuhaku/akebonoso.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ainan__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "入浴料 大人650円",
+   "修正": {
+    "種類": "置換",
+    "old": "500円",
+    "new": "650円",
+    "値": [
+     "大人：650円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

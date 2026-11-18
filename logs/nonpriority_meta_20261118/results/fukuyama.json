@@ -1,0 +1,33 @@
+{
+ "id": "fukuyama",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "福山駅前～鞆の浦（鞆鉄道 鞆線）",
+   "出典URL": [
+    "https://www.tomotetsu.co.jp/wpsite/wp-content/uploads/2025/01/20250201-BusFare-osirase.pdf",
+    "https://tomotetsu.co.jp/bus/local/timetable"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/fukuyama__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "福山駅前～鞆の浦は片道580円（2025年2月改定後。鞆港停留所は2025年8月改定の運賃表で620円）",
+   "修正": {
+    "種類": "置換",
+    "old": "370円",
+    "new": "580円",
+    "値": [
+     "580"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

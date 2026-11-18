@@ -1,0 +1,26 @@
+{
+ "id": "gen_北海_豊富温泉",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "豊富温泉（北海道豊富町）の足湯",
+   "出典URL": [
+    "https://www.town.toyotomi.hokkaido.jp/section/syoukoukankouka/a7cug60000001fqi.html",
+    "https://toyotomi-onsen.com/hotspring"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_豊富温泉__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし",
+   "備考": "町公式・豊富温泉公式・観光協会の入浴施設案内に足湯の記載を確認できず"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

@@ -1,0 +1,24 @@
+{
+ "id": "sakunami-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "伝承千年の宿 佐勘（仙台市秋保温泉）",
+   "出典URL": [
+    "https://www.hotel-sakan.com/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakunami-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "仙台駅東口乗降場から無料送迎バス、事前予約制（席に限りあり）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

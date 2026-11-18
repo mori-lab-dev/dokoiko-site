@@ -1,0 +1,24 @@
+{
+ "id": "gero-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "下呂温泉合掌村",
+   "出典URL": [
+    "https://www.gero-gassho.jp/info"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/gero-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入場料 個人 大人（高校生以上）800円"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

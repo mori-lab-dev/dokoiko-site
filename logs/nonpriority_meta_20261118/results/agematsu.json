@@ -1,0 +1,25 @@
+{
+ "id": "agematsu",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "上松町歴史民俗資料館（上松町）",
+   "出典URL": [
+    "https://www.town.agematsu.nagano.jp/aboutus/gaiyo/agematsu/about_agematsu.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/agematsu__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし",
+   "公式の値": ""
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

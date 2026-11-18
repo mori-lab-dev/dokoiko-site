@@ -1,0 +1,24 @@
+{
+ "id": "kotohira",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "琴平花壇（琴平町）",
+   "出典URL": [
+    "https://www.kotohira-kadan.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kotohira__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "JR琴平駅または琴電琴平駅まで無料送迎"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

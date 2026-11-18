@@ -1,0 +1,24 @@
+{
+ "id": "izumoyumura",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "公衆浴場 元湯 漆仁の湯（雲南市）",
+   "出典URL": [
+    "https://www.kankou-shimane.com/destination/23193"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/izumoyumura__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "定休日：年中無休（年末年始も休まず営業）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

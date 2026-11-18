@@ -1,0 +1,24 @@
+{
+ "id": "hachijojima",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "洞輪沢温泉（八丈町）",
+   "出典URL": [
+    "https://www.town.hachijo.tokyo.jp/kanko-bunka/kanko/onsen/borawazawa"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/hachijojima__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "料金 無料"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

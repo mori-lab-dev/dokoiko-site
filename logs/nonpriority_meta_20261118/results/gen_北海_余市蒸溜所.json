@@ -1,0 +1,25 @@
+{
+ "id": "gen_北海_余市蒸溜所",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "ニッカウヰスキー 北海道 余市蒸溜所（北海道余市町）",
+   "出典URL": [
+    "https://www.nikka.com/distilleries/yoichi/faq",
+    "https://distillery.nikka.com/yoichi/reservation"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_余市蒸溜所__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "一般の蒸溜所見学は無料（要予約）。別途有料セミナーあり"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

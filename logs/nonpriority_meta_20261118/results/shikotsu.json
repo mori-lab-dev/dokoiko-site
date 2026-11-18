@@ -1,0 +1,25 @@
+{
+ "id": "shikotsu",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "支笏湖ビジターセンター（北海道千歳市）",
+   "出典URL": [
+    "https://www.visit-hokkaido.jp/spot/detail_12912.html",
+    "https://www.1000sai-chitose.or.jp/spot/detail_1012.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/shikotsu__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入館料無料（一部有料イベントあり）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

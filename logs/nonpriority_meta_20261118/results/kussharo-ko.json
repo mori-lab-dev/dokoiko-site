@@ -1,0 +1,24 @@
+{
+ "id": "kussharo-ko",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "屈斜路プリンスホテル",
+   "出典URL": [
+    "https://www.princehotels.co.jp/kussharo/informations/mashu_station_shuttle_bus2026"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kussharo-ko__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "JR摩周駅との間の無料連絡バス（要予約・2026年4月25日〜11月23日復路のみ運行）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

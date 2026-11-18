@@ -1,0 +1,48 @@
+{
+ "id": "yunotsu-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "温泉津温泉 薬師湯",
+   "出典URL": [
+    "https://www.kankou-shimane.com/destination/20486"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yunotsu-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "温泉津温泉 輝雲荘",
+   "出典URL": [
+    "https://kiunsoh-yunotsu.com/",
+    "http://www.kiunsoh.com/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yunotsu-onsen__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "一般 大人600円（子ども300円）",
+   "修正": {
+    "種類": "置換",
+    "old": "460円",
+    "new": "600円",
+    "値": [
+     "大人600円"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "温泉津唯一の露天風呂／JR利用時は温泉津駅から無料送迎（アクセスページに「要予約」）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,24 @@
+{
+ "id": "kishiwada",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "岸和田城（岸和田市公式）",
+   "出典URL": [
+    "https://www.city.kishiwada.lg.jp/page/36-kishiwadajyo.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kishiwada__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入場料（天守閣）大人300円、中学生以下無料"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

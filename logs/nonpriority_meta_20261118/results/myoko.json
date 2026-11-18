@@ -1,0 +1,25 @@
+{
+ "id": "myoko",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "燕温泉 黄金の湯・河原の湯（新潟県妙高市）",
+   "出典URL": [
+    "https://niigata-kankou.or.jp/spot/detail_11635.html",
+    "https://myokotourism.jp/onsen/"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/myoko__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "料金 無料"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,25 @@
+{
+ "id": "yunohana-fk",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "湯ノ花温泉の共同浴場（南会津町）",
+   "出典URL": [
+    "https://www.kanko-aizu.com/higaeri/3068",
+    "https://www.town.minamiaizu.lg.jp/official/soshikikarasagasu/shokokankoka/minamiaizuchokankojoho/8/1694.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yunohana-fk__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

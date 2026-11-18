@@ -1,0 +1,40 @@
+{
+ "id": "shiraoi",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "ウポポイ（民族共生象徴空間）",
+   "出典URL": [
+    "https://ainu-upopoy.go.jp/guide/admission"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/shiraoi__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "白老仙台藩陣屋跡（史跡）／仙台藩白老元陣屋資料館",
+   "出典URL": [
+    "https://www.town.shiraoi.hokkaido.jp/docs/page2020062800019.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/shiraoi__g2.txt",
+   "取得": "検索の抜粋＋取得1回（町の陣屋資料館一覧は料金記載なし）"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "大人（一般）1,200円"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "確認できず",
+   "理由": "記載なし",
+   "公式の値": "資料館は個人300円。史跡そのものの無料の記載は公式に見つからず"
+  }
+ ],
+ "取得回数": 1,
+ "検索回数": 1
+}

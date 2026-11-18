@@ -22,6 +22,9 @@ export function withoutTravelTimeSentences(t) {
 /** 所要時間の文を削除した description の一覧（fixTravelTime.mjs が書く）。数値・字数・短文の条件はここには適用しない */
 const TRIMMED = new Set((() => { try { return JSON.parse(fs.readFileSync(new URL('./data/descTimeTrimmed.json', import.meta.url), 'utf8')).ids; } catch { return []; } })());
 
+/** 料金・休館日の数字を、公式で確認できずに削除して、字数・数値の下限を下回るページ（2026-11-18・scripts/data/descWaiver20261118.json。理由と字数を記録）。免除するのは「200字以上」と「数値2つ以上」だけ（上限300字・禁止句・五感・固有名詞・です・ます などは守る） */
+const WAIVED = new Set(process.env.DESC_NO_WAIVER ? [] : (() => { try { return JSON.parse(fs.readFileSync(new URL('./data/descWaiver20261118.json', import.meta.url), 'utf8')).items.map((x) => x.id); } catch { return []; } })());
+
 /** 固定化した言い回し。1つでも入っていたら不合格 */
 export const NG_PHRASES = [
   'ここでしか', 'ここならでは', 'ここにしかない', 'ここだけのもの', 'だけのものだ',
@@ -56,6 +59,7 @@ export function countNumbers(t) {
 export function checkDesc(text, id) {
   const t = String(text || '');
   const trimmed = id !== undefined && TRIMMED.has(id);
+  const waived = id !== undefined && WAIVED.has(id);
   const ss = sentences(t);
   const lens = ss.map((s) => s.length);
   const senseHits = SENSE.filter(([, re]) => re.test(t)).map(([label]) => label);
@@ -70,11 +74,11 @@ export function checkDesc(text, id) {
   if (senseHits.length > 2) issues.push(`五感${senseHits.length}箇所（上限2）${senseHits.join('/')}`);
   const nums = countNumbers(t);
   const numsExTime = countNumbers(withoutTravelTimeSentences(t));   // 参考: 所要時間の文を除いた数値の数（合否には使わない。auditAll の参考指標）
-  if (!trimmed && nums < 2) issues.push(`数値${nums}個（2つ以上）`);
+  if (!trimmed && !waived && nums < 2) issues.push(`数値${nums}個（2つ以上）`);
   if (!trimmed && !lens.some((l) => l <= 15)) issues.push('15字以下の短文が無い');
   if (!lens.some((l) => l >= 35)) issues.push('40字前後の長めの文が無い');
   if (proper.size < 5) issues.push(`固有名詞まわりの漢字語 ${proper.size}種（5種以上）`);
-  if (t.length > 300 || (!trimmed && t.length < 200)) issues.push(`${t.length}字（200〜300字）`);
+  if (t.length > 300 || (!trimmed && !waived && t.length < 200)) issues.push(`${t.length}字（200〜300字）`);
   if (polite > 3) issues.push(`です・ます ${polite}回（3回以下）`);
 
   return {

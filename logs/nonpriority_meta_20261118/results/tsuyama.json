@@ -1,0 +1,39 @@
+{
+ "id": "tsuyama",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "津山城（鶴山公園）",
+   "出典URL": [
+    "https://www.tsuyamakan.jp/rcCEUdxa/9Rqhbi-p"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tsuyama__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "衆楽園（津山市）",
+   "出典URL": [
+    "https://www.city.tsuyama.lg.jp/article?articleId=65b38e275677ea07dd03acca"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tsuyama__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入園料 大人(高校生以上)310円"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "料金 入園無料"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

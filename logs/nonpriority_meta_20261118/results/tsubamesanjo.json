@@ -1,0 +1,24 @@
+{
+ "id": "tsubamesanjo",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "三条鍛冶道場（三条市）",
+   "出典URL": [
+    "https://www.city.sanjo.niigata.jp/soshiki/keizaibu/shokoka/shisetsu/4532.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tsubamesanjo__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

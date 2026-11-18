@@ -1,0 +1,25 @@
+{
+ "id": "kuchinoerabu",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "湯向温泉（鹿児島県屋久島町口永良部島）",
+   "出典URL": [
+    "https://www.town.yakushima.kagoshima.jp/kanko/kankospot/3/2580.html",
+    "https://kuchinoerabujima.com/sightseeing"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kuchinoerabu__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入浴料金 無料（こころざし）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

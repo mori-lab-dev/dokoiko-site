@@ -1,0 +1,64 @@
+{
+ "id": "ushimado",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "牛窓オリーブ園（岡山県瀬戸内市）",
+   "出典URL": [
+    "https://www.okayama-kanko.jp/setouchi/spot/detail_11131.html",
+    "https://nippon-olive.info/"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ushimado__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "牛窓港～前島の前島フェリー",
+   "出典URL": [
+    "https://www.maejima-island.info/schedules.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ushimado__g2.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 3,
+   "施設・場所": "ホテルリマーニ（牛窓）",
+   "出典URL": [
+    "https://www.limani.jp/others/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ushimado__g3.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入園無料・年中無休"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "旅客運賃は往復で大人400円（片道の設定は無し）",
+   "修正": {
+    "種類": "置換",
+    "old": "片道100円",
+    "new": "往復400円",
+    "値": [
+     "往復",
+     "400円"
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "g": 3,
+   "判定": "一致",
+   "公式の値": "邑久駅との無料送迎バス（迎え14:50・16:50／送り9:10・10:40）、3日前までの事前予約"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 3
+}

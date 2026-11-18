@@ -1,0 +1,33 @@
+{
+ "id": "ichinoseki-geibikei",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "猊鼻渓舟下り（岩手県一関市）",
+   "出典URL": [
+    "https://www.geibikei.co.jp/funakudari/charge",
+    "https://www.geibikei.co.jp/route"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ichinoseki-geibikei__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "大人2,000円（一般料金・令和8年4月1日改正。1,800円は団体15名以上の料金）",
+   "修正": {
+    "種類": "置換",
+    "old": "1,800円",
+    "new": "2,000円",
+    "値": [
+     "2,000円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

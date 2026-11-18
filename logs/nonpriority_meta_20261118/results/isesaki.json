@@ -1,0 +1,25 @@
+{
+ "id": "isesaki",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "華蔵寺公園（伊勢崎市）",
+   "出典URL": [
+    "https://kezoujiyuenchi.com/faq",
+    "https://gunma-kanko.jp/spots/1"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/isesaki__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "駐車料金は無料（駐車場は遊園地・運動施設と共用で周辺に複数）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

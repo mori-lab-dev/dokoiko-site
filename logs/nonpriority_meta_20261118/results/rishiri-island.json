@@ -1,0 +1,6 @@
+{"id":"rishiri-island",
+ "グループ":[{"g":1,"施設・場所":"利尻富士温泉保養施設（北海道利尻富士町鴛泊）","出典URL":["https://www.town.rishirifuji.hokkaido.jp/rishirifuji/1204.htm","https://www.town.rishirifuji.hokkaido.jp/rishirifuji/secure/1221/oshirase_No.723.pdf"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/rishiri-island__g1.txt","取得":"検索の抜粋"}],
+ "判定":[
+  {"n":1,"g":1,"判定":"食い違い","公式の値":"大人（中学生以上）500円（令和7年12月24日号の町広報でも大人500円）","修正":{"種類":"置換","old":"入浴料600円","new":"入浴料500円","値":["500円"]}}
+ ],
+ "取得回数":0,"検索回数":1}

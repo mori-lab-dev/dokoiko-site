@@ -1,0 +1,25 @@
+{
+ "id": "yonezawa",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "米沢市上杉博物館",
+   "出典URL": [
+    "https://www.city.yonezawa.yamagata.jp/soshiki/18/2/syakaikyoikusisetsu/denkokunomori/10995.html",
+    "https://www.denkoku-no-mori.yonezawa.yamagata.jp/uesugi.htm"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yonezawa__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "常設展 一般410円（企画展期間中は別料金）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

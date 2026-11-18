@@ -1,0 +1,3818 @@
+{
+ "note": "優先ページ以外の、メタ・説明文の段落・lead の料金・休館日の数字を、公式の値に置換または削除",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "K",
+   "topic": "優先ページ以外のメタ・説明文の料金・休館日",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "agematsu",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.town.agematsu.nagano.jp/aboutus/gaiyo/agematsu/about_agematsu.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/agematsu__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "上松町歴史民俗資料館は入館料200円で、木曽ヒノキの伐採・運搬にまつわる資料が丁寧に展示されている。",
+     "old": "上松町歴史民俗資料館は入館料200円で、木曽ヒノキの伐採・運搬にまつわる資料が丁寧に展示されている。",
+     "new": "",
+     "削除した文": "上松町歴史民俗資料館は入館料200円で、木曽ヒノキの伐採・運搬にまつわる資料が丁寧に展示されている。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "agematsu",
+     "field": "description"
+    },
+    {
+     "page": "ainan",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入浴料 大人650円）",
+     "公式の値": "入浴料 大人650円",
+     "値": [
+      "大人：650円"
+     ],
+     "出典URL": [
+      "https://www.town.ainan.ehime.jp/kanko/sightseeing/shukuhaku/akebonoso.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ainan__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "一本松温泉あけぼの荘は山の中腹に立つ素朴な温泉施設で、入浴料は500円。",
+     "old": "一本松温泉あけぼの荘は山の中腹に立つ素朴な温泉施設で、入浴料は500円。",
+     "new": "一本松温泉あけぼの荘は山の中腹に立つ素朴な温泉施設で、入浴料は650円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ainan",
+     "field": "description"
+    },
+    {
+     "page": "akita-oga",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "最寄りの男鹿駅からは無料送迎バス（要予約）で宿に入れるが、半島内の見どころを回るには車が必要になる。",
+     "old": "最寄りの男鹿駅からは無料送迎バス（要予約）で宿に入れるが、半島内の見どころを回るには車が必要になる。",
+     "new": "",
+     "削除した文": "最寄りの男鹿駅からは無料送迎バス（要予約）で宿に入れるが、半島内の見どころを回るには車が必要になる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "akita-oga",
+     "field": "description"
+    },
+    {
+     "page": "anan",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（高校生含む）1,000円（美波町公式・カレッタ公式とも））",
+     "公式の値": "大人（高校生含む）1,000円（美波町公式・カレッタ公式とも）",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.town.minami.lg.jp/docs/415.html",
+      "https://caretta.town.minami.lg.jp/general-ticket"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/anan__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "事前に日和佐うみがめ博物館（愛称カレッタ、入館料大人600円）に立ち寄ると、観察の前にウミガメへの理解が深まる。",
+     "old": "事前に日和佐うみがめ博物館（愛称カレッタ、入館料大人600円）に立ち寄ると、観察の前にウミガメへの理解が深まる。",
+     "new": "事前に日和佐うみがめ博物館（愛称カレッタ、入館料大人1,000円）に立ち寄ると、観察の前にウミガメへの理解が深まる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "anan",
+     "field": "description"
+    },
+    {
+     "page": "arita",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（個人）120円、高校生以下は無料）",
+     "公式の値": "大人（個人）120円、高校生以下は無料",
+     "値": [
+      "120円"
+     ],
+     "出典URL": [
+      "https://www.town.arita.lg.jp/rekishi/kiji0031926/index.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/arita__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "有田陶磁美術館は入館無料で、小ぶりだが展示は濃い。",
+     "old": "有田陶磁美術館は入館無料で、小ぶりだが展示は濃い。",
+     "new": "有田陶磁美術館は大人120円で、小ぶりだが展示は濃い。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "arita",
+     "field": "description"
+    },
+    {
+     "page": "ashikaga",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観料 一般 個人480円（団体400円））",
+     "公式の値": "参観料 一般 個人480円（団体400円）",
+     "値": [
+      "480円"
+     ],
+     "出典URL": [
+      "https://www.city.ashikaga.tochigi.jp/education/000031/index.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ashikaga__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入学料420円。",
+     "old": "入学料420円。",
+     "new": "入学料480円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ashikaga",
+     "field": "description"
+    },
+    {
+     "page": "ashikaga",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観料 一般 個人480円（団体400円））",
+     "公式の値": "参観料 一般 個人480円（団体400円）",
+     "値": [
+      "480円"
+     ],
+     "出典URL": [
+      "https://www.city.ashikaga.tochigi.jp/education/000031/index.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ashikaga__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入学料420円。",
+     "old": "入学料420円。",
+     "new": "入学料480円。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "ashikaga",
+     "field": "seo.description"
+    },
+    {
+     "page": "ashikaga",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: ふじのはな物語 1日券 大人1,200 ～ 2,300円（4月1日～5月31日の大人は900円 ～ 2,300円））",
+     "公式の値": "ふじのはな物語 1日券 大人1,200 ～ 2,300円（4月1日～5月31日の大人は900円 ～ 2,300円）",
+     "値": [
+      "1,200 ～ 2,300円"
+     ],
+     "出典URL": [
+      "https://www.ashikaga.co.jp/fee.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ashikaga__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "藤の最盛期には入園料が1,600〜2,000円になることもあり、カーテンのように垂れ下がる紫の花房が空間を染める。",
+     "old": "藤の最盛期には入園料が1,600〜2,000円になることもあり、カーテンのように垂れ下がる紫の花房が空間を染める。",
+     "new": "藤の最盛期には入園料が1,200〜2,300円になることもあり、カーテンのように垂れ下がる紫の花房が空間を染める。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ashikaga",
+     "field": "description"
+    },
+    {
+     "page": "asuka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般・大学生 個人500円（令和8年4月1日改定））",
+     "公式の値": "一般・大学生 個人500円（令和8年4月1日改定）",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.asuka-park.jp/news/isibutaikaitei20260401-2"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/asuka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "目玉は石舞台古墳で、総重量2300トン級の巨石が露出した古墳に入場料300円で近づける。",
+     "old": "目玉は石舞台古墳で、総重量2300トン級の巨石が露出した古墳に入場料300円で近づける。",
+     "new": "目玉は石舞台古墳で、総重量2300トン級の巨石が露出した古墳に入場料500円で近づける。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "asuka",
+     "field": "description"
+    },
+    {
+     "page": "azumino",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://azumino-e-tabi.net/cycling"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/azumino__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+     "old": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+     "new": "",
+     "削除した文": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "azumino",
+     "field": "description"
+    },
+    {
+     "page": "azumino",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://azumino-e-tabi.net/cycling"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/azumino__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+     "old": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+     "new": "",
+     "削除した文": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "azumino",
+     "field": "seo.description"
+    },
+    {
+     "page": "bessho-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入浴料：大人：300円、小学生：100円、未就学児：無料）",
+     "公式の値": "入浴料：大人：300円、小学生：100円、未就学児：無料",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "https://www.besshoonsen-zaisanku.com/bath"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/bessho-onsen__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "共同浴場の大師湯は150円か200円で入れる。",
+     "old": "共同浴場の大師湯は150円か200円で入れる。",
+     "new": "共同浴場の大師湯は300円で入れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "bessho-onsen",
+     "field": "description"
+    },
+    {
+     "page": "chinen-misaki",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（高校生以上）600円（2026年10月1日改定。旧300円。なお2026/11/2〜2027/1/5予定の御門口より先の立入制限期間は工事のため入館無料という一時的措置あり））",
+     "公式の値": "大人（高校生以上）600円（2026年10月1日改定。旧300円。なお2026/11/2〜2027/1/5予定の御門口より先の立入制限期間は工事のため入館無料という一時的措置あり）",
+     "値": [
+      "￥600"
+     ],
+     "出典URL": [
+      "https://sefa.okinawa/admissionfee",
+      "https://www.city.nanjo.okinawa.jp/topics/1773360304"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/chinen-misaki__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "三方を海に囲まれた知念岬公園からは久高島を望み、車で5分の世界遺産・斎場御嶽(入場300円)へも足を延ばせる。",
+     "old": "三方を海に囲まれた知念岬公園からは久高島を望み、車で5分の世界遺産・斎場御嶽(入場300円)へも足を延ばせる。",
+     "new": "三方を海に囲まれた知念岬公園からは久高島を望み、車で5分の世界遺産・斎場御嶽(入場600円)へも足を延ばせる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "chinen-misaki",
+     "field": "description"
+    },
+    {
+     "page": "choshi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観寄付金（中学生以上）300円）",
+     "公式の値": "参観寄付金（中学生以上）300円",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "https://www.tokokai.org/tourlight/tourlight03"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/choshi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "犬吠埼灯台は入場200円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+     "old": "犬吠埼灯台は入場200円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+     "new": "犬吠埼灯台は参観寄付金300円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "choshi",
+     "field": "description"
+    },
+    {
+     "page": "choshi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観寄付金（中学生以上）300円）",
+     "公式の値": "参観寄付金（中学生以上）300円",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "https://www.tokokai.org/tourlight/tourlight03"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/choshi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "犬吠埼灯台は入場200円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+     "old": "犬吠埼灯台は入場200円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+     "new": "犬吠埼灯台は参観寄付金300円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "choshi",
+     "field": "seo.description"
+    },
+    {
+     "page": "doroyu",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.doroyu.com/news/newslist.html",
+      "https://tabi.jtb.or.jp/res/050023-"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "冬季は休業。",
+     "old": "冬季は休業。",
+     "new": "",
+     "削除した文": "冬季は休業。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "doroyu",
+     "field": "description"
+    },
+    {
+     "page": "echigo-yuzawa",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 1,000円で唎酒コイン5枚）",
+     "公式の値": "1,000円で唎酒コイン5枚",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.ponshukan.com/yuzawa/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/echigo-yuzawa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚500円で利き酒できる。",
+     "old": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚500円で利き酒できる。",
+     "new": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚1,000円で利き酒できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "echigo-yuzawa",
+     "field": "description"
+    },
+    {
+     "page": "echigo-yuzawa",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 1,000円で唎酒コイン5枚）",
+     "公式の値": "1,000円で唎酒コイン5枚",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.ponshukan.com/yuzawa/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/echigo-yuzawa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚500円で利き酒できる。",
+     "old": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚500円で利き酒できる。",
+     "new": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚1,000円で利き酒できる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "echigo-yuzawa",
+     "field": "seo.description"
+    },
+    {
+     "page": "echizen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 紙漉き体験料はサイズで700円〜2,500円（1,000円という単一料金は無い。最小は色紙判700円））",
+     "公式の値": "紙漉き体験料はサイズで700円〜2,500円（1,000円という単一料金は無い。最小は色紙判700円）",
+     "値": [
+      "料金：700円"
+     ],
+     "出典URL": [
+      "https://www.echizenwashi.jp/papyrus-house"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/echizen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "越前和紙の里のパピルス館では体験料1,000円で紙漉きに挑戦でき、木枠を水に沈めて自分の手で和紙を仕上げる工程を体験できます。",
+     "old": "越前和紙の里のパピルス館では体験料1,000円で紙漉きに挑戦でき、木枠を水に沈めて自分の手で和紙を仕上げる工程を体験できます。",
+     "new": "越前和紙の里のパピルス館では体験料700円からで紙漉きに挑戦でき、木枠を水に沈めて自分の手で和紙を仕上げる工程を体験できます。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "echizen",
+     "field": "description"
+    },
+    {
+     "page": "fukuyama",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 福山駅前～鞆の浦は片道580円（2025年2月改定後。鞆港停留所は2025年8月改定の運賃表で620円））",
+     "公式の値": "福山駅前～鞆の浦は片道580円（2025年2月改定後。鞆港停留所は2025年8月改定の運賃表で620円）",
+     "値": [
+      "580"
+     ],
+     "出典URL": [
+      "https://www.tomotetsu.co.jp/wpsite/wp-content/uploads/2025/01/20250201-BusFare-osirase.pdf",
+      "https://tomotetsu.co.jp/bus/local/timetable"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/fukuyama__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "鞆の浦行きバスは370円で、広島方面からの旅にも組み込みやすい。",
+     "old": "鞆の浦行きバスは370円で、広島方面からの旅にも組み込みやすい。",
+     "new": "鞆の浦行きバスは580円で、広島方面からの旅にも組み込みやすい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "fukuyama",
+     "field": "description"
+    },
+    {
+     "page": "gamagori",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 通常入館料 大人(高校生以上)1,200円）",
+     "公式の値": "通常入館料 大人(高校生以上)1,200円",
+     "値": [
+      "大人(高校生以上)：￥１,２００-"
+     ],
+     "出典URL": [
+      "https://www.takesuideepsea.com/%E5%96%B6%E6%A5%AD%E6%99%82%E9%96%93-%E6%96%99%E9%87%91"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gamagori__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "竹島水族館は入館料800円。",
+     "old": "竹島水族館は入館料800円。",
+     "new": "竹島水族館は1,200円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gamagori",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_びふか温泉",
+     "rule": "P1d",
+     "reason": "食い違い（公式に火曜定休の記載はなく、公式の営業時間は日帰り11:00～21:00で毎週月曜のみ17時からの営業。置換では元の文に無い説明を足すため削除）。文を削除。公式の値: 日帰り入浴11:00～21:00。毎週月曜日は浴室清掃のため17時からの営業（火曜定休の記載なし）",
+     "公式の値": "日帰り入浴11:00～21:00。毎週月曜日は浴室清掃のため17時からの営業（火曜定休の記載なし）",
+     "値": [],
+     "出典URL": [
+      "https://www.bifukaonsen.com/hotspring"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_びふか温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "火曜定休に注意したい。",
+     "old": "火曜定休に注意したい。",
+     "new": "",
+     "削除した文": "火曜定休に注意したい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_びふか温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_びふか温泉",
+     "rule": "P1d",
+     "reason": "食い違い（公式に火曜定休の記載はなく、公式の営業時間は日帰り11:00～21:00で毎週月曜のみ17時からの営業。置換では元の文に無い説明を足すため削除）。文を削除。公式の値: 日帰り入浴11:00～21:00。毎週月曜日は浴室清掃のため17時からの営業（火曜定休の記載なし）",
+     "公式の値": "日帰り入浴11:00～21:00。毎週月曜日は浴室清掃のため17時からの営業（火曜定休の記載なし）",
+     "値": [],
+     "出典URL": [
+      "https://www.bifukaonsen.com/hotspring"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_びふか温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "火曜定休に注意したい。",
+     "old": "火曜定休に注意したい。",
+     "new": "",
+     "削除した文": "火曜定休に注意したい。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_びふか温泉",
+     "field": "seo.description"
+    },
+    {
+     "page": "gen_北海_ピンネシリ温泉",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 定休日：毎月第２・第４月曜日（宿泊のみ可））",
+     "公式の値": "定休日：毎月第２・第４月曜日（宿泊のみ可）",
+     "値": [
+      "毎月第２・第４月曜日"
+     ],
+     "出典URL": [
+      "https://www.nakatom.com/stay/%E3%83%94%E3%83%B3%E3%83%8D%E3%82%B7%E3%83%AA%E6%B8%A9%E6%B3%89%E3%83%9B%E3%83%86%E3%83%AB%E6%9C%9B%E5%B2%B3%E8%8D%98"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_ピンネシリ温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "温泉は火曜定休。",
+     "old": "温泉は火曜定休。",
+     "new": "毎月第2・第4月曜日が定休日。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_ピンネシリ温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_丸瀬布森林公園いこいの森",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://engaru.jp/tourism/page.php?id=545"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_丸瀬布森林公園いこいの森__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "しかも無料で乗れる区間もある。",
+     "old": "しかも無料で乗れる区間もある。\n",
+     "new": "",
+     "削除した文": "しかも無料で乗れる区間もある。",
+     "欄": "lead",
+     "file": "src/data/articles/gen_北海_丸瀬布森林公園いこいの森.json",
+     "field": "lead"
+    },
+    {
+     "page": "gen_北海_弁天台場",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.city.hakodate.hokkaido.jp/docs/2014030300595"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_弁天台場__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "市営汽船で片道240円、約10分。",
+     "old": "市営汽船で片道240円、約10分。",
+     "new": "",
+     "削除した文": "市営汽船で片道240円、約10分。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_弁天台場",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_濁川温泉",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "http://kankou.mori.hokkaido.jp/201510/05-0403.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_濁川温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "木造の共同浴場が今も現役で、入浴は100円。",
+     "old": "木造の共同浴場が今も現役で、入浴は100円。",
+     "new": "",
+     "削除した文": "木造の共同浴場が今も現役で、入浴は100円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_濁川温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_焼尻島",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 1日乗り放題1000円（800円は2時間料金））",
+     "公式の値": "1日乗り放題1000円（800円は2時間料金）",
+     "値": [
+      "1日乗り放題1000円"
+     ],
+     "出典URL": [
+      "https://teuri-yagishiri.jp/tinfo/%e3%83%ac%e3%83%b3%e3%82%bf%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e6%a2%85%e5%8e%9f"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_焼尻島__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "港そばで借りられるレンタサイクル（1日800円前後）で一周約12kmの島を巡り、郷土資料館で北前船交易の歴史に触れ、トドマツ林道で野鳥の声を聞く。",
+     "old": "港そばで借りられるレンタサイクル（1日800円前後）で一周約12kmの島を巡り、郷土資料館で北前船交易の歴史に触れ、トドマツ林道で野鳥の声を聞く。",
+     "new": "港そばで借りられるレンタサイクル（1日1000円）で一周約12kmの島を巡り、郷土資料館で北前船交易の歴史に触れ、トドマツ林道で野鳥の声を聞く。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_焼尻島",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_神威脇温泉",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人(中学生以上)500円）",
+     "公式の値": "大人(中学生以上)500円",
+     "値": [
+      "５００円"
+     ],
+     "出典URL": [
+      "https://www.town.okushiri.lg.jp/hotnews/detail/00001497.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_神威脇温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "神威脇温泉は入浴料大人200円で、木製ロッカーが残る昭和のままの脱衣所を抜けると、日本海を正面に望む湯船が待つ。",
+     "old": "神威脇温泉は入浴料大人200円で、木製ロッカーが残る昭和のままの脱衣所を抜けると、日本海を正面に望む湯船が待つ。",
+     "new": "神威脇温泉は入浴料大人500円で、木製ロッカーが残る昭和のままの脱衣所を抜けると、日本海を正面に望む湯船が待つ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_神威脇温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_神威脇温泉",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人(中学生以上)500円）",
+     "公式の値": "大人(中学生以上)500円",
+     "値": [
+      "５００円"
+     ],
+     "出典URL": [
+      "https://www.town.okushiri.lg.jp/hotnews/detail/00001497.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_神威脇温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "鉛色の海と200円の湯。",
+     "old": "鉛色の海と200円の湯。",
+     "new": "鉛色の海と500円の湯。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_神威脇温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_花の拠点「はなふる」",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://hanafuru.jp/",
+      "https://hanafuru.jp/facility/garden.html",
+      "https://hanafuru.jp/archives/24569.html",
+      "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/hanatokanko/hananokyotenhanahuru/10587.html"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+     "old": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+     "new": "",
+     "削除した文": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_花の拠点「はなふる」",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_花の拠点「はなふる」",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://hanafuru.jp/",
+      "https://hanafuru.jp/facility/garden.html",
+      "https://hanafuru.jp/archives/24569.html",
+      "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/hanatokanko/hananokyotenhanahuru/10587.html"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+     "old": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+     "new": "",
+     "削除した文": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_花の拠点「はなふる」",
+     "field": "seo.description"
+    },
+    {
+     "page": "gen_北海_谷地頭温泉",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 利用料金 大人490円）",
+     "公式の値": "利用料金 大人490円",
+     "値": [
+      "大人490円"
+     ],
+     "出典URL": [
+      "https://www.hakobura.jp/spots/433"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_谷地頭温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入浴料は520円。",
+     "old": "入浴料は520円。",
+     "new": "入浴料は490円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_谷地頭温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_谷地頭温泉",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 利用料金 大人490円）",
+     "公式の値": "利用料金 大人490円",
+     "値": [
+      "大人490円"
+     ],
+     "出典URL": [
+      "https://www.hakobura.jp/spots/433"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_谷地頭温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "料金は大人440円。",
+     "old": "料金は大人440円。",
+     "new": "料金は大人490円。",
+     "欄": "lead",
+     "file": "src/data/articles/gen_北海_谷地頭温泉.json",
+     "field": "lead"
+    },
+    {
+     "page": "gen_北海_豊富温泉",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.town.toyotomi.hokkaido.jp/section/syoukoukankouka/a7cug60000001fqi.html",
+      "https://toyotomi-onsen.com/hotspring"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_豊富温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "温泉街の外縁には無料の足湯があり、独特の色合いの湯が足に絡みつく。",
+     "old": "温泉街の外縁には無料の足湯があり、独特の色合いの湯が足に絡みつく。",
+     "new": "",
+     "削除した文": "温泉街の外縁には無料の足湯があり、独特の色合いの湯が足に絡みつく。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_豊富温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_茨城_国営ひたち海浜公園",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 茨城交通の勝田駅前→海浜公園 運賃450円）",
+     "公式の値": "茨城交通の勝田駅前→海浜公園 運賃450円",
+     "値": [
+      "450 円"
+     ],
+     "出典URL": [
+      "https://bus.ibako.co.jp/sp/fromto/result?f_from=%E6%B0%B4%E6%88%B8%E9%A7%85&f_from_type=1&from_no=1052&from_type=B&p=2&to_no=230&to_type=L&week=1",
+      "https://www.hitachikaihin.jp/access/train-bus.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_茨城_国営ひたち海浜公園__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "最寄りはJR勝田駅で、直行バスが出ており片道280円で公園へ着く。",
+     "old": "最寄りはJR勝田駅で、直行バスが出ており片道280円で公園へ着く。",
+     "new": "最寄りはJR勝田駅で、直行バスが出ており片道450円で公園へ着く。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_国営ひたち海浜公園",
+     "field": "description"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 年中無休（大雨・強風等の悪天候時は臨時休業の場合あり））",
+     "公式の値": "年中無休（大雨・強風等の悪天候時は臨時休業の場合あり）",
+     "値": [
+      "年中無休"
+     ],
+     "出典URL": [
+      "https://www.tokugawa.gr.jp/seizanso-2/information/",
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_茨城_西山荘__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "月曜は定休。",
+     "old": "月曜は定休。",
+     "new": "年中無休。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "field": "description"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 年中無休（大雨・強風等の悪天候時は臨時休業の場合あり））",
+     "公式の値": "年中無休（大雨・強風等の悪天候時は臨時休業の場合あり）",
+     "値": [
+      "年中無休"
+     ],
+     "出典URL": [
+      "https://www.tokugawa.gr.jp/seizanso-2/information/",
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_茨城_西山荘__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "月曜は定休。",
+     "old": "月曜は定休。",
+     "new": "年中無休。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "field": "seo.description"
+    },
+    {
+     "page": "gen_青森_相乗温泉",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://ainorionsen.com/hot_spring"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_青森_相乗温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "相乗温泉の湯船はひとつだけで、券売機も受付もなく小さな箱に料金を納める素朴な造り。",
+     "old": "相乗温泉の湯船はひとつだけで、券売機も受付もなく小さな箱に料金を納める素朴な造り。",
+     "new": "",
+     "削除した文": "相乗温泉の湯船はひとつだけで、券売機も受付もなく小さな箱に料金を納める素朴な造り。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_相乗温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_青森_秋元温泉",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+     "old": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+     "new": "",
+     "削除した文": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_秋元温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_青森_秋元温泉",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+     "old": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+     "new": "",
+     "削除した文": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_秋元温泉",
+     "field": "seo.description"
+    },
+    {
+     "page": "gen_青森_谷地温泉",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 日帰り入浴 大人（中学生以上）800円）",
+     "公式の値": "日帰り入浴 大人（中学生以上）800円",
+     "値": [
+      "800円"
+     ],
+     "出典URL": [
+      "https://www.yachionsen.com/faq",
+      "https://www.yachionsen.com/access"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_青森_谷地温泉__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "日帰り入浴は700円。",
+     "old": "日帰り入浴は700円。",
+     "new": "日帰り入浴は800円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_谷地温泉",
+     "field": "description"
+    },
+    {
+     "page": "hasami",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.hasamiyaki.or.jp/pages/36"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hasami__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "工房は月・火休みが多く、水曜以降の午前が訪問の狙い目だ。",
+     "old": "工房は月・火休みが多く、水曜以降の午前が訪問の狙い目だ。",
+     "new": "",
+     "削除した文": "工房は月・火休みが多く、水曜以降の午前が訪問の狙い目だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hasami",
+     "field": "description"
+    },
+    {
+     "page": "hikone",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 彦根城(玄宮園を含む) 一般(個人)1,000円。800円は団体(30名以上)の料金）",
+     "公式の値": "彦根城(玄宮園を含む) 一般(個人)1,000円。800円は団体(30名以上)の料金",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.city.hikone.lg.jp/kakuka/kanko_bunka/8/2_1/3/4586.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hikone__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入城料は800円。",
+     "old": "入城料は800円。",
+     "new": "入城料は1,000円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hikone",
+     "field": "description"
+    },
+    {
+     "page": "himakajima",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "名物はタコ料理で、姿煮定食は2,800円。",
+     "old": "名物はタコ料理で、姿煮定食は2,800円。",
+     "new": "",
+     "削除した文": "名物はタコ料理で、姿煮定食は2,800円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "himakajima",
+     "field": "description"
+    },
+    {
+     "page": "himakajima",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "名物はタコ料理で、姿煮定食は2,800円。",
+     "old": "名物はタコ料理で、姿煮定食は2,800円。",
+     "new": "",
+     "削除した文": "名物はタコ料理で、姿煮定食は2,800円。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "himakajima",
+     "field": "seo.description"
+    },
+    {
+     "page": "himakajima",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "フグは10月〜3月が旬で、民宿ではフルコースを1人前8,000円〜で提供している。",
+     "old": "フグは10月〜3月が旬で、民宿ではフルコースを1人前8,000円〜で提供している。",
+     "new": "",
+     "削除した文": "フグは10月〜3月が旬で、民宿ではフルコースを1人前8,000円〜で提供している。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "himakajima",
+     "field": "description"
+    },
+    {
+     "page": "himi",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://reserve.489ban.net/client/umiakari/0/detail/538746"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/himi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "氷見温泉郷 くつろぎの宿 うみあかりではJR氷見駅から無料送迎があり（要連絡・2名以上）、湯に入りながら同じ眺めを楽しめる。",
+     "old": "氷見温泉郷 くつろぎの宿 うみあかりではJR氷見駅から無料送迎があり（要連絡・2名以上）、湯に入りながら同じ眺めを楽しめる。",
+     "new": "",
+     "削除した文": "氷見温泉郷 くつろぎの宿 うみあかりではJR氷見駅から無料送迎があり（要連絡・2名以上）、湯に入りながら同じ眺めを楽しめる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "himi",
+     "field": "description"
+    },
+    {
+     "page": "hioki",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.city.hioki.kagoshima.jp/kanko/kankou/tomaru-onsen/tomaru-onsen/yupuru.html"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "田んぼの中にある吹上温泉は入浴料が大人330円と安く、地元の人に交じって入れる飾らない湯だ。",
+     "old": "田んぼの中にある吹上温泉は入浴料が大人330円と安く、地元の人に交じって入れる飾らない湯だ。",
+     "new": "",
+     "削除した文": "田んぼの中にある吹上温泉は入浴料が大人330円と安く、地元の人に交じって入れる飾らない湯だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hioki",
+     "field": "description"
+    },
+    {
+     "page": "hirado",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "平戸桟橋からの無料送迎（要連絡）は公式と一致。ただし駅からの車の時間は公式内で『タクシー約20分』と『車（タクシー）15分＋徒歩5分』と割れ、13分の記載は公式に無い（時間は対象外のため修正せず）",
+     "値": [],
+     "出典URL": [
+      "https://www.kishotei.com/access",
+      "http://www.kishotei.com/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hirado__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "国際観光ホテル旗松亭はたびら平戸口駅から車で約13分、平戸桟橋からの無料送迎もある。",
+     "old": "国際観光ホテル旗松亭はたびら平戸口駅から車で約13分、平戸桟橋からの無料送迎もある。",
+     "new": "",
+     "削除した文": "国際観光ホテル旗松亭はたびら平戸口駅から車で約13分、平戸桟橋からの無料送迎もある。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hirado",
+     "field": "description"
+    },
+    {
+     "page": "hirakawa",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://aomori-tourism.com/access/detail_2065.html",
+      "https://www.city.hirakawa.lg.jp/kurashi/oshirase/2026-0316-1614-72.html",
+      "https://ikarigaseki.com/hot_spring"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hirakawa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+     "old": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+     "new": "",
+     "削除した文": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hirakawa",
+     "field": "description"
+    },
+    {
+     "page": "hirakawa",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://aomori-tourism.com/access/detail_2065.html",
+      "https://www.city.hirakawa.lg.jp/kurashi/oshirase/2026-0316-1614-72.html",
+      "https://ikarigaseki.com/hot_spring"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hirakawa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+     "old": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+     "new": "",
+     "削除した文": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "hirakawa",
+     "field": "seo.description"
+    },
+    {
+     "page": "hirakawa",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://hirakawazoo.jp/info/hours"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hirakawa__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "平川動物公園の入園料は大人410円。",
+     "old": "平川動物公園の入園料は大人410円。",
+     "new": "",
+     "削除した文": "平川動物公園の入園料は大人410円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hirakawa",
+     "field": "description"
+    },
+    {
+     "page": "hokkaido-hakodate",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 市電1日乗車券 大人：800円・小児：400円）",
+     "公式の値": "市電1日乗車券 大人：800円・小児：400円",
+     "値": [
+      "大人：800円"
+     ],
+     "出典URL": [
+      "https://www.city.hakodate.hokkaido.jp/tram/value-ticket"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/hokkaido-hakodate__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "市電の1日乗車券600円で主要エリアをほぼカバーできるのも心強い。",
+     "old": "市電の1日乗車券600円で主要エリアをほぼカバーできるのも心強い。",
+     "new": "市電の1日乗車券800円で主要エリアをほぼカバーできるのも心強い。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "hokkaido-hakodate",
+     "field": "description"
+    },
+    {
+     "page": "horoka",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "かつては二軒あったが、もう一軒は湯守が亡くなって二〇一一年から休業したままだ。",
+     "old": "かつては二軒あったが、もう一軒は湯守が亡くなって二〇一一年から休業したままだ。",
+     "new": "",
+     "削除した文": "かつては二軒あったが、もう一軒は湯守が亡くなって二〇一一年から休業したままだ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "horoka",
+     "field": "description"
+    },
+    {
+     "page": "ibaraki-mito",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入園料 大人320円（梅まつり期間は500円）。無料は県民・開門〜9時など条件つき）",
+     "公式の値": "入園料 大人320円（梅まつり期間は500円）。無料は県民・開門〜9時など条件つき",
+     "値": [
+      "320円"
+     ],
+     "出典URL": [
+      "https://ibaraki-kairakuen.jp/guide"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ibaraki-mito__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は無料。",
+     "old": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は無料。",
+     "new": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は320円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ibaraki-mito",
+     "field": "description"
+    },
+    {
+     "page": "ibaraki-mito",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入園料 大人320円（梅まつり期間は500円）。無料は県民・開門〜9時など条件つき）",
+     "公式の値": "入園料 大人320円（梅まつり期間は500円）。無料は県民・開門〜9時など条件つき",
+     "値": [
+      "320円"
+     ],
+     "出典URL": [
+      "https://ibaraki-kairakuen.jp/guide"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ibaraki-mito__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は無料。",
+     "old": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は無料。",
+     "new": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は320円。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "ibaraki-mito",
+     "field": "seo.description"
+    },
+    {
+     "page": "ichinoseki-geibikei",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人2,000円（一般料金・令和8年4月1日改正。1,800円は団体15名以上の料金））",
+     "公式の値": "大人2,000円（一般料金・令和8年4月1日改正。1,800円は団体15名以上の料金）",
+     "値": [
+      "2,000円"
+     ],
+     "出典URL": [
+      "https://www.geibikei.co.jp/funakudari/charge",
+      "https://www.geibikei.co.jp/route"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ichinoseki-geibikei__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "料金は大人1,800円。",
+     "old": "料金は大人1,800円。",
+     "new": "料金は大人2,000円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ichinoseki-geibikei",
+     "field": "description"
+    },
+    {
+     "page": "imabari",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 電動アシスト自転車 大人4,000円/日（税込））",
+     "公式の値": "電動アシスト自転車 大人4,000円/日（税込）",
+     "値": [
+      "4,000円/日（税込）"
+     ],
+     "出典URL": [
+      "https://shimanami-cycle.or.jp/rental/rental"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/imabari__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "しまなみ海道は今治駅前のサンライズ糸山で電動自転車（1日1,500円）を借りて走り、海水を堀に引き込んだ珍しい今治城へ。",
+     "old": "しまなみ海道は今治駅前のサンライズ糸山で電動自転車（1日1,500円）を借りて走り、海水を堀に引き込んだ珍しい今治城へ。",
+     "new": "しまなみ海道は今治駅前のサンライズ糸山で電動自転車（1日4,000円）を借りて走り、海水を堀に引き込んだ珍しい今治城へ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "imabari",
+     "field": "description"
+    },
+    {
+     "page": "inuyama",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般 1,000円（令和8年3月1日改定、旧550円））",
+     "公式の値": "一般 1,000円（令和8年3月1日改定、旧550円）",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://inuyama-castle.jp/guidance",
+      "https://www.city.inuyama.aichi.jp/kurashi/bunka/1001052/1003738/1012507.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/inuyama__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "最大の見どころは国宝の天守を持つ犬山城で、入場料は550円。",
+     "old": "最大の見どころは国宝の天守を持つ犬山城で、入場料は550円。",
+     "new": "最大の見どころは国宝の天守を持つ犬山城で、入場料は1,000円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "inuyama",
+     "field": "description"
+    },
+    {
+     "page": "inuyama",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般 1,000円（令和8年3月1日改定、旧550円））",
+     "公式の値": "一般 1,000円（令和8年3月1日改定、旧550円）",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://inuyama-castle.jp/guidance",
+      "https://www.city.inuyama.aichi.jp/kurashi/bunka/1001052/1003738/1012507.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/inuyama__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "最大の見どころは国宝の天守を持つ犬山城で、入場料は550円。",
+     "old": "最大の見どころは国宝の天守を持つ犬山城で、入場料は550円。",
+     "new": "最大の見どころは国宝の天守を持つ犬山城で、入場料は1,000円。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "inuyama",
+     "field": "seo.description"
+    },
+    {
+     "page": "ito",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: おとな往復（中学生以上）￥1,000／標高580mの山頂まで約6分）",
+     "公式の値": "おとな往復（中学生以上）￥1,000／標高580mの山頂まで約6分",
+     "値": [
+      "約6分",
+      "￥1,000"
+     ],
+     "出典URL": [
+      "https://omuroyama.com/hours_fare",
+      "https://omuroyama.com/om2021/wp/wp-content/themes/omuro2021/pdf/Mtomuro_3orileaf_202410.pdf"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ito__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "大室山へのリフトは所要約2分、料金700円で山頂に出る。",
+     "old": "大室山へのリフトは所要約2分、料金700円で山頂に出る。",
+     "new": "大室山へのリフトは所要約6分、料金1,000円で山頂に出る。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ito",
+     "field": "description"
+    },
+    {
+     "page": "itoigawa",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般（大人）700円（小中高校生300円））",
+     "公式の値": "一般（大人）700円（小中高校生300円）",
+     "値": [
+      "700円"
+     ],
+     "出典URL": [
+      "https://fmm.geo-itoigawa.com/about/facility"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/itoigawa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "フォッサマグナミュージアムは入館料500円で、ヒスイの産地としての糸魚川の成り立ちを体系的に学べる充実の展示が揃う。",
+     "old": "フォッサマグナミュージアムは入館料500円で、ヒスイの産地としての糸魚川の成り立ちを体系的に学べる充実の展示が揃う。",
+     "new": "フォッサマグナミュージアムは入館料700円で、ヒスイの産地としての糸魚川の成り立ちを体系的に学べる充実の展示が揃う。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "itoigawa",
+     "field": "description"
+    },
+    {
+     "page": "iwakuni",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（中学生以上）500円（令和8年9月1日改定。旧310円））",
+     "公式の値": "大人（中学生以上）500円（令和8年9月1日改定。旧310円）",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.city.iwakuni.lg.jp/soshiki/40/14258.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/iwakuni__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "渡橋料は大人310円。",
+     "old": "渡橋料は大人310円。",
+     "new": "渡橋料は大人500円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "iwakuni",
+     "field": "description"
+    },
+    {
+     "page": "izu-oshima",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.oshima-onsen.co.jp/access.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/izu-oshima__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "大島温泉ホテルは標高500mに立ち、元町港から無料送迎バスで約20分。",
+     "old": "大島温泉ホテルは標高500mに立ち、元町港から無料送迎バスで約20分。",
+     "new": "",
+     "削除した文": "大島温泉ホテルは標高500mに立ち、元町港から無料送迎バスで約20分。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "izu-oshima",
+     "field": "description"
+    },
+    {
+     "page": "izumo",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 常設展 一般 680円（2026年4月改定））",
+     "公式の値": "常設展 一般 680円（2026年4月改定）",
+     "値": [
+      "680円"
+     ],
+     "出典URL": [
+      "https://www.izm.ed.jp/cms/cms.php?id=103&mode=v"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/izumo__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "大社に隣接する古代出雲歴史博物館は入館料620円で、展示の量と質は参拝後そのまま立ち寄れる。",
+     "old": "大社に隣接する古代出雲歴史博物館は入館料620円で、展示の量と質は参拝後そのまま立ち寄れる。",
+     "new": "大社に隣接する古代出雲歴史博物館は入館料680円で、展示の量と質は参拝後そのまま立ち寄れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "izumo",
+     "field": "description"
+    },
+    {
+     "page": "kasama",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.kasama-kankou.jp/page/dir000082.html",
+      "https://www.kasama-kankou.jp/page/page000067.html"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "約53ヘクタールの笠間芸術の森公園は、1日500円でレンタサイクルを借りて回るのが定番だ。",
+     "old": "約53ヘクタールの笠間芸術の森公園は、1日500円でレンタサイクルを借りて回るのが定番だ。",
+     "new": "",
+     "削除した文": "約53ヘクタールの笠間芸術の森公園は、1日500円でレンタサイクルを借りて回るのが定番だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kasama",
+     "field": "description"
+    },
+    {
+     "page": "kasaoka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 個人：一般600円、高校生以下は無料）",
+     "公式の値": "個人：一般600円、高校生以下は無料",
+     "値": [
+      "一般600円"
+     ],
+     "出典URL": [
+      "https://www.city.kasaoka.okayama.jp/site/museum/3164.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kasaoka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "笠岡市立竹喬美術館は笠岡出身の日本画家・小野竹喬の作品を収蔵し、入館料は300円。",
+     "old": "笠岡市立竹喬美術館は笠岡出身の日本画家・小野竹喬の作品を収蔵し、入館料は300円。",
+     "new": "笠岡市立竹喬美術館は笠岡出身の日本画家・小野竹喬の作品を収蔵し、入館料は600円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kasaoka",
+     "field": "description"
+    },
+    {
+     "page": "kashihara",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 常設展 大人400円（団体350円）。なお2026/10/3〜11/29の秋季特別展期間中は特別展料金（一般1,000円））",
+     "公式の値": "常設展 大人400円（団体350円）。なお2026/10/3〜11/29の秋季特別展期間中は特別展料金（一般1,000円）",
+     "値": [
+      "大人400円"
+     ],
+     "出典URL": [
+      "https://www.kashikoken.jp/museum/info/info.html",
+      "https://yamatoji.nara-kankou.or.jp/04public/02museum/03east_area/prefnara-kashikoken_fuzoku/event/n388z9gssr"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kashihara__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "橿原考古学研究所附属博物館は入館料410円。",
+     "old": "橿原考古学研究所附属博物館は入館料410円。",
+     "new": "橿原考古学研究所附属博物館は入館料400円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kashihara",
+     "field": "description"
+    },
+    {
+     "page": "kashiwara-wine",
+     "rule": "P1d",
+     "reason": "食い違い（公式は直売所を年中無休（正月休み除く）、土日祝も営業と記載しており、日曜定休とは食い違う。置換で成り立つ短い言い換えが無いため削除）。文を削除。公式の値: 休業日：年中無休（正月休み除く）（直売所）。営業時間：平日10:00～18:00、土日祝 10:00～17:00",
+     "公式の値": "休業日：年中無休（正月休み除く）（直売所）。営業時間：平日10:00～18:00、土日祝 10:00～17:00",
+     "値": [],
+     "出典URL": [
+      "http://www.kashiwara-wine.com/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kashiwara-wine__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "日曜定休のため、訪問日は事前に確認したい。",
+     "old": "日曜定休のため、訪問日は事前に確認したい。",
+     "new": "",
+     "削除した文": "日曜定休のため、訪問日は事前に確認したい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kashiwara-wine",
+     "field": "description"
+    },
+    {
+     "page": "kashiwazaki",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://tainoura.jp/route-fare"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kashiwazaki__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "鯛の浦では約30分の遊覧船(大人1,500円)で海へ出られ、「新潟の富士山」と呼ばれる米山への登山も楽しめる。",
+     "old": "鯛の浦では約30分の遊覧船(大人1,500円)で海へ出られ、「新潟の富士山」と呼ばれる米山への登山も楽しめる。",
+     "new": "",
+     "削除した文": "鯛の浦では約30分の遊覧船(大人1,500円)で海へ出られ、「新潟の富士山」と呼ばれる米山への登山も楽しめる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kashiwazaki",
+     "field": "description"
+    },
+    {
+     "page": "katsuura-chiba",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.katsuura-kankou.net/eat"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/katsuura-chiba__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "勝浦タンタンメンはラー油ベースの辛さが特徴で、町内10店舗以上が提供し、相場は1杯700〜900円。",
+     "old": "勝浦タンタンメンはラー油ベースの辛さが特徴で、町内10店舗以上が提供し、相場は1杯700〜900円。",
+     "new": "",
+     "削除した文": "勝浦タンタンメンはラー油ベースの辛さが特徴で、町内10店舗以上が提供し、相場は1杯700〜900円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "katsuura-chiba",
+     "field": "description"
+    },
+    {
+     "page": "kesennuma",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://oshimakisen.com/",
+      "https://kesennuma-kanko.jp/kesennumabaycruise-2025"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kesennuma__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "大島へは気仙沼港からフェリーに乗り、約8分・片道260円で渡れる。",
+     "old": "大島へは気仙沼港からフェリーに乗り、約8分・片道260円で渡れる。",
+     "new": "",
+     "削除した文": "大島へは気仙沼港からフェリーに乗り、約8分・片道260円で渡れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kesennuma",
+     "field": "description"
+    },
+    {
+     "page": "kijoka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入場料: 無料）",
+     "公式の値": "入場料: 無料",
+     "値": [
+      "入場料: 無料"
+     ],
+     "出典URL": [
+      "https://www.okinawastory.jp/spot/20020200",
+      "https://bashofu.jp/faq",
+      "https://www.vill.ogimi.okinawa.jp/sitekanri/gaiyo/profile/bashofu_village/bashofu_ogimi-info/702.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kijoka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "主な見どころは芭蕉布会館で、入館料300円で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+     "old": "主な見どころは芭蕉布会館で、入館料300円で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+     "new": "主な見どころは芭蕉布会館で、入館料は無料で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kijoka",
+     "field": "description"
+    },
+    {
+     "page": "kijoka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入場料: 無料）",
+     "公式の値": "入場料: 無料",
+     "値": [
+      "入場料: 無料"
+     ],
+     "出典URL": [
+      "https://www.okinawastory.jp/spot/20020200",
+      "https://bashofu.jp/faq",
+      "https://www.vill.ogimi.okinawa.jp/sitekanri/gaiyo/profile/bashofu_village/bashofu_ogimi-info/702.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kijoka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "主な見どころは芭蕉布会館で、入館料300円で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+     "old": "主な見どころは芭蕉布会館で、入館料300円で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+     "new": "主な見どころは芭蕉布会館で、入館料は無料で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "kijoka",
+     "field": "seo.description"
+    },
+    {
+     "page": "kijoka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 休業日: 日曜日、旧盆、年末年始（月曜は休館日ではない））",
+     "公式の値": "休業日: 日曜日、旧盆、年末年始（月曜は休館日ではない）",
+     "値": [
+      "日曜日、旧盆、年末年始"
+     ],
+     "出典URL": [
+      "https://www.okinawastory.jp/spot/20020200",
+      "https://bashofu.jp/faq",
+      "https://www.vill.ogimi.okinawa.jp/sitekanri/gaiyo/profile/bashofu_village/bashofu_ogimi-info/702.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kijoka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "月曜は休館が多いため、火〜金曜の訪問が確実だ。",
+     "old": "月曜は休館が多いため、火〜金曜の訪問が確実だ。",
+     "new": "日曜日、旧盆、年末年始は休館だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kijoka",
+     "field": "description"
+    },
+    {
+     "page": "kinosaki-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 外湯1日券「ゆめぱ」大人1,500円（小人750円））",
+     "公式の値": "外湯1日券「ゆめぱ」大人1,500円（小人750円）",
+     "値": [
+      "大人1,500円"
+     ],
+     "出典URL": [
+      "https://kinosaki-spa.gr.jp/about/spa"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kinosaki-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "2湯以上入るなら外湯めぐり券（1200円）が得だ。",
+     "old": "2湯以上入るなら外湯めぐり券（1200円）が得だ。",
+     "new": "2湯以上入るなら外湯めぐり券（大人1,500円）が得だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kinosaki-onsen",
+     "field": "description"
+    },
+    {
+     "page": "kinugawa-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 通行手形（1日）大人 5,800円）",
+     "公式の値": "通行手形（1日）大人 5,800円",
+     "値": [
+      "5,800 円"
+     ],
+     "出典URL": [
+      "https://edowonderland.net/price?tab=2",
+      "https://edowonderland.net/travel"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kinugawa-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "日光江戸村は入場料大人2,900円で江戸の町並みに迷い込めるテーマパーク。",
+     "old": "日光江戸村は入場料大人2,900円で江戸の町並みに迷い込めるテーマパーク。",
+     "new": "日光江戸村は入場料大人5,800円で江戸の町並みに迷い込めるテーマパーク。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kinugawa-onsen",
+     "field": "description"
+    },
+    {
+     "page": "kitakata",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人300円・小中学生100円）",
+     "公式の値": "大人300円・小中学生100円",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "http://www.kitakata-kanko.jp/guidebook/pdf/pdf_000076.pdf"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kitakata__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "旧甲斐本家の蔵座敷を活かした喜多方蔵座敷美術館は入館料500円。",
+     "old": "旧甲斐本家の蔵座敷を活かした喜多方蔵座敷美術館は入館料500円。",
+     "new": "旧甲斐本家の蔵座敷を活かした喜多方蔵座敷美術館は入館料300円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kitakata",
+     "field": "description"
+    },
+    {
+     "page": "kiyosato",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入場料 無料）",
+     "公式の値": "入場料 無料",
+     "値": [
+      "無料"
+     ],
+     "出典URL": [
+      "https://www.hokuto-kanko.jp/spot/makiba_park",
+      "https://www.yamanashi-kankou.jp/kankou/spot/p2_4890.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kiyosato__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "まきば公園の入場料は大人200円で、牧草地と牛だけが視界を占める開放感が待つ。",
+     "old": "まきば公園の入場料は大人200円で、牧草地と牛だけが視界を占める開放感が待つ。",
+     "new": "まきば公園の入場料は無料で、牧草地と牛だけが視界を占める開放感が待つ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kiyosato",
+     "field": "description"
+    },
+    {
+     "page": "kuji",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 高校生以上（一般）500円、小・中学生200円）",
+     "公式の値": "高校生以上（一般）500円、小・中学生200円",
+     "値": [
+      "高校生以上 500円"
+     ],
+     "出典URL": [
+      "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/5/2418.html",
+      "https://www.kuji.co.jp/museum"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kuji__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入館料は大人700円で、採掘体験は事前予約が確実だ。",
+     "old": "入館料は大人700円で、採掘体験は事前予約が確実だ。",
+     "new": "入館料は大人500円で、採掘体験は事前予約が確実だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kuji",
+     "field": "description"
+    },
+    {
+     "page": "kurume",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://welcome-kurume.com/spots/detail/39e9717d-078a-4659-b107-25a79c8e8253"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/kurume__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "豚骨ラーメン発祥の地として知られ、焼き鳥も名物のひとつで、1本80円台から楽しめる店もあります。",
+     "old": "豚骨ラーメン発祥の地として知られ、焼き鳥も名物のひとつで、1本80円台から楽しめる店もあります。",
+     "new": "",
+     "削除した文": "豚骨ラーメン発祥の地として知られ、焼き鳥も名物のひとつで、1本80円台から楽しめる店もあります。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kurume",
+     "field": "description"
+    },
+    {
+     "page": "kusatsu-onsen",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://matsumura-manjyu.com/"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "湯畑の松村商店では温泉まんじゅうが1個80円。",
+     "old": "湯畑の松村商店では温泉まんじゅうが1個80円。",
+     "new": "",
+     "削除した文": "湯畑の松村商店では温泉まんじゅうが1個80円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "kusatsu-onsen",
+     "field": "description"
+    },
+    {
+     "page": "magome",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入館料：大人300円 学生100円）",
+     "公式の値": "入館料：大人300円 学生100円",
+     "値": [
+      "大人300円"
+     ],
+     "出典URL": [
+      "https://kiso-magome.com/spots/43"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/magome__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "清水屋資料館は入館料200円で、土間や囲炉裏など当時の暮らしをそのまま伝える商家だ。",
+     "old": "清水屋資料館は入館料200円で、土間や囲炉裏など当時の暮らしをそのまま伝える商家だ。",
+     "new": "清水屋資料館は入館料300円で、土間や囲炉裏など当時の暮らしをそのまま伝える商家だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "magome",
+     "field": "description"
+    },
+    {
+     "page": "marugame",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 天守観覧料 大人400円（2024年4月1日に200円から改定））",
+     "公式の値": "天守観覧料 大人400円（2024年4月1日に200円から改定）",
+     "値": [
+      "大人：400円"
+     ],
+     "出典URL": [
+      "https://www.city.marugame.lg.jp/site/castle/7454.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/marugame__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入場料200円。",
+     "old": "入場料200円。",
+     "new": "入場料400円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "marugame",
+     "field": "description"
+    },
+    {
+     "page": "matsushiro",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 個人 一般400円（小・中学生100円））",
+     "公式の値": "個人 一般400円（小・中学生100円）",
+     "値": [
+      "一般400円"
+     ],
+     "出典URL": [
+      "https://www.sanadahoumotsukan.com/facility_detail.php?n=2"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/matsushiro__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "真田家の屋敷が残る真田邸（入場料500円）では江戸の空気に浸れる。",
+     "old": "真田家の屋敷が残る真田邸（入場料500円）では江戸の空気に浸れる。",
+     "new": "真田家の屋敷が残る真田邸（入場料400円）では江戸の空気に浸れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "matsushiro",
+     "field": "description"
+    },
+    {
+     "page": "matsushiro",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 個人 一般400円（小・中学生100円））",
+     "公式の値": "個人 一般400円（小・中学生100円）",
+     "値": [
+      "一般400円"
+     ],
+     "出典URL": [
+      "https://www.sanadahoumotsukan.com/facility_detail.php?n=2"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/matsushiro__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "真田家の屋敷が残る真田邸（入場料500円）では江戸の空気に浸れる。",
+     "old": "真田家の屋敷が残る真田邸（入場料500円）では江戸の空気に浸れる。",
+     "new": "真田家の屋敷が残る真田邸（入場料400円）では江戸の空気に浸れる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "matsushiro",
+     "field": "seo.description"
+    },
+    {
+     "page": "minakami-onsen",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.enjoy-minakami.jp/spot/9042"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/minakami-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "日帰り入浴施設・湯テルメ谷川は入浴料650円。",
+     "old": "日帰り入浴施設・湯テルメ谷川は入浴料650円。",
+     "new": "",
+     "削除した文": "日帰り入浴施設・湯テルメ谷川は入浴料650円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "minakami-onsen",
+     "field": "description"
+    },
+    {
+     "page": "minobu",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 朝のお勤め 午前5時30分（本堂）。どなたでも参列可）",
+     "公式の値": "朝のお勤め 午前5時30分（本堂）。どなたでも参列可",
+     "値": [
+      "午前5時30分"
+     ],
+     "出典URL": [
+      "https://www.kuonji.jp/annual-event/gongyo"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/minobu__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "菩提梯と呼ばれる287段の急な石段を登り切ると本堂が立ち、朝6時からの晨朝を無料で見学できる。",
+     "old": "菩提梯と呼ばれる287段の急な石段を登り切ると本堂が立ち、朝6時からの晨朝を無料で見学できる。",
+     "new": "菩提梯と呼ばれる287段の急な石段を登り切ると本堂が立ち、午前5時30分からの晨朝を無料で見学できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "minobu",
+     "field": "description"
+    },
+    {
+     "page": "misaki-kochi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: Aコース 大人2,000円（税込）・往復35分）",
+     "公式の値": "Aコース 大人2,000円（税込）・往復35分",
+     "値": [
+      "大人：2,000円(税込)"
+     ],
+     "出典URL": [
+      "https://kankosen.official.jp/price"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/misaki-kochi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "竜串海岸では大人1,500円のグラスボート（30分コース）が名物で、底の透けた船から海中の景色をのぞき込める。",
+     "old": "竜串海岸では大人1,500円のグラスボート（30分コース）が名物で、底の透けた船から海中の景色をのぞき込める。",
+     "new": "竜串海岸では大人2,000円のグラスボート（30分コース）が名物で、底の透けた船から海中の景色をのぞき込める。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "misaki-kochi",
+     "field": "description"
+    },
+    {
+     "page": "misasa-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 公衆浴場 大人400円・小人250円）",
+     "公式の値": "公衆浴場 大人400円・小人250円",
+     "値": [
+      "大人400円"
+     ],
+     "出典URL": [
+      "https://misasaonsen.jp/sightseeings/sightseeing-1072/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/misasa-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "株湯は温泉街でいちばん熱い源泉のひとつで、料金100円で入れる。",
+     "old": "株湯は温泉街でいちばん熱い源泉のひとつで、料金100円で入れる。",
+     "new": "株湯は温泉街でいちばん熱い源泉のひとつで、料金400円で入れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "misasa-onsen",
+     "field": "description"
+    },
+    {
+     "page": "misasa-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 公衆浴場 大人400円・小人250円）",
+     "公式の値": "公衆浴場 大人400円・小人250円",
+     "値": [
+      "大人400円"
+     ],
+     "出典URL": [
+      "https://misasaonsen.jp/sightseeings/sightseeing-1072/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/misasa-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "株湯は温泉街でいちばん熱い源泉のひとつで、料金100円で入れる。",
+     "old": "株湯は温泉街でいちばん熱い源泉のひとつで、料金100円で入れる。",
+     "new": "株湯は温泉街でいちばん熱い源泉のひとつで、料金400円で入れる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "misasa-onsen",
+     "field": "seo.description"
+    },
+    {
+     "page": "mitsuminejinja",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一泊2食付き 大人13,350円（税込・入湯税込）、12/15〜3/15は11,150円）",
+     "公式の値": "一泊2食付き 大人13,350円（税込・入湯税込）、12/15〜3/15は11,150円",
+     "値": [
+      "13,350円"
+     ],
+     "出典URL": [
+      "https://www.mitsuminejinja.or.jp/kounkaku/ryoukin/",
+      "https://www.mitsuminejinja.or.jp/kounkaku/offseason"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/mitsuminejinja__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "境内には宿坊・興雲閣があり、1泊2食付き15,000円前後で宿泊可能。",
+     "old": "境内には宿坊・興雲閣があり、1泊2食付き15,000円前後で宿泊可能。",
+     "new": "境内には宿坊・興雲閣があり、1泊2食付き13,350円で宿泊可能。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "mitsuminejinja",
+     "field": "description"
+    },
+    {
+     "page": "mitsuminejinja",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一泊2食付き 大人13,350円（税込・入湯税込）、12/15〜3/15は11,150円）",
+     "公式の値": "一泊2食付き 大人13,350円（税込・入湯税込）、12/15〜3/15は11,150円",
+     "値": [
+      "13,350円"
+     ],
+     "出典URL": [
+      "https://www.mitsuminejinja.or.jp/kounkaku/ryoukin/",
+      "https://www.mitsuminejinja.or.jp/kounkaku/offseason"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/mitsuminejinja__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "境内には宿坊・興雲閣があり、1泊2食付き15,000円前後で宿泊可能。",
+     "old": "境内には宿坊・興雲閣があり、1泊2食付き15,000円前後で宿泊可能。",
+     "new": "境内には宿坊・興雲閣があり、1泊2食付き13,350円で宿泊可能。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "mitsuminejinja",
+     "field": "seo.description"
+    },
+    {
+     "page": "miyota",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 観覧料 大人（個人）500円）",
+     "公式の値": "観覧料 大人（個人）500円",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.aj-museum.jp/information",
+      "https://www.town.miyota.nagano.jp/category/madogutiannai/2137.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/miyota__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "浅間ミュージアムは入館料大人310円で、御代田の自然・歴史・文化を体系的に紹介する地域博物館。",
+     "old": "浅間ミュージアムは入館料大人310円で、御代田の自然・歴史・文化を体系的に紹介する地域博物館。",
+     "new": "浅間ミュージアムは入館料大人500円で、御代田の自然・歴史・文化を体系的に紹介する地域博物館。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "miyota",
+     "field": "description"
+    },
+    {
+     "page": "monbetsu",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 冬期クルーズ一般大人5,000円（3,000円は紋別市民大人の料金））",
+     "公式の値": "冬期クルーズ一般大人5,000円（3,000円は紋別市民大人の料金）",
+     "値": [
+      "5,000円"
+     ],
+     "出典URL": [
+      "https://booking.o-tower.co.jp/products/49db5094-e8de-5a43-b8f8-6e155a736815?lng=ja-JP"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/monbetsu__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "乗船は大人3,000円で予約必須、冬のシーズンはすぐ埋まる。",
+     "old": "乗船は大人3,000円で予約必須、冬のシーズンはすぐ埋まる。",
+     "new": "乗船は大人5,000円で予約必須、冬のシーズンはすぐ埋まる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "monbetsu",
+     "field": "description"
+    },
+    {
+     "page": "monbetsu",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: アザラシランド 大人400円（シーパラダイスは大人500円）。入場無料ではない）",
+     "公式の値": "アザラシランド 大人400円（シーパラダイスは大人500円）。入場無料ではない",
+     "値": [
+      "400円"
+     ],
+     "出典URL": [
+      "https://mombetsu.jp/reiki/reiki_honbun/a020RG00000282.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/monbetsu__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "港のそばのオホーツクとっかりセンターでは入場無料でアザラシに和み、紋別流氷公園では地平まで続く流氷の白に息をのむ。",
+     "old": "港のそばのオホーツクとっかりセンターでは入場無料でアザラシに和み、紋別流氷公園では地平まで続く流氷の白に息をのむ。",
+     "new": "港のそばのオホーツクとっかりセンターでは大人400円でアザラシに和み、紋別流氷公園では地平まで続く流氷の白に息をのむ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "monbetsu",
+     "field": "description"
+    },
+    {
+     "page": "nagaoka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入館料 大人（高校生以上）500円（団体400円）。400円は団体料金）",
+     "公式の値": "入館料 大人（高校生以上）500円（団体400円）。400円は団体料金",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "http://yamamoto-isoroku.com/?page_id=35"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nagaoka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "山本五十六記念館は入館料400円のこぢんまりとした館で、司令官の複雑な人生をたどる展示が並ぶ。",
+     "old": "山本五十六記念館は入館料400円のこぢんまりとした館で、司令官の複雑な人生をたどる展示が並ぶ。",
+     "new": "山本五十六記念館は入館料500円のこぢんまりとした館で、司令官の複雑な人生をたどる展示が並ぶ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nagaoka",
+     "field": "description"
+    },
+    {
+     "page": "nagi",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.town.nagi.okayama.jp/kankou/kankou_spot/shizen/nagisan.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nagi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "那岐山にはA・B・Cの約3コースがあり、無料駐車場を起点に早朝から入山できる。",
+     "old": "那岐山にはA・B・Cの約3コースがあり、無料駐車場を起点に早朝から入山できる。",
+     "new": "",
+     "削除した文": "那岐山にはA・B・Cの約3コースがあり、無料駐車場を起点に早朝から入山できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nagi",
+     "field": "description"
+    },
+    {
+     "page": "nago",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 工場見学は有料（大人1,000円）、所要時間1時間）",
+     "公式の値": "工場見学は有料（大人1,000円）、所要時間1時間",
+     "値": [
+      "1時間",
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://happypark.orionbeer.co.jp/products/b5c30d0b-78dd-5594-9b57-1f7f98c99522?lng=ja-JP",
+      "https://www.orionbeer.co.jp/utility/history/h2025/0331.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nago__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "石畳の坂を20分登る名護城跡は地元の人の朝のウォーキングコースで、オリオンハッピーパークでは約50分の無料工場見学ツアーも楽しめる。",
+     "old": "石畳の坂を20分登る名護城跡は地元の人の朝のウォーキングコースで、オリオンハッピーパークでは約50分の無料工場見学ツアーも楽しめる。",
+     "new": "石畳の坂を20分登る名護城跡は地元の人の朝のウォーキングコースで、オリオンハッピーパークでは約1時間（大人1,000円）の工場見学ツアーも楽しめる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nago",
+     "field": "description"
+    },
+    {
+     "page": "nakijin",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（個人）1,000円（令和7年9月1日改定。旧料金は600円））",
+     "公式の値": "大人（個人）1,000円（令和7年9月1日改定。旧料金は600円）",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.nakijinjoseki-osi.jp/information.php",
+      "https://www.nakijinjoseki-osi.jp/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nakijin__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "今帰仁城跡は入場料600円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+     "old": "今帰仁城跡は入場料600円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+     "new": "今帰仁城跡は入場料1,000円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nakijin",
+     "field": "description"
+    },
+    {
+     "page": "nakijin",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（個人）1,000円（令和7年9月1日改定。旧料金は600円））",
+     "公式の値": "大人（個人）1,000円（令和7年9月1日改定。旧料金は600円）",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.nakijinjoseki-osi.jp/information.php",
+      "https://www.nakijinjoseki-osi.jp/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nakijin__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "今帰仁城跡は入場料600円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+     "old": "今帰仁城跡は入場料600円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+     "new": "今帰仁城跡は入場料1,000円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "nakijin",
+     "field": "seo.description"
+    },
+    {
+     "page": "narai-juku",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 個人500円（高校生以下無料））",
+     "公式の値": "個人500円（高校生以下無料）",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.city.shiojiri.lg.jp/soshiki/75/3812.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/narai-juku__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "中村邸は入場料300円で、係の人が話しながら案内してくれる。",
+     "old": "中村邸は入場料300円で、係の人が話しながら案内してくれる。",
+     "new": "中村邸は入場料500円で、係の人が話しながら案内してくれる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "narai-juku",
+     "field": "description"
+    },
+    {
+     "page": "narai-juku",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 個人500円（高校生以下無料））",
+     "公式の値": "個人500円（高校生以下無料）",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.city.shiojiri.lg.jp/soshiki/75/3812.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/narai-juku__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "中村邸は入場料300円で、係の人が話しながら案内してくれる。",
+     "old": "中村邸は入場料300円で、係の人が話しながら案内してくれる。",
+     "new": "中村邸は入場料500円で、係の人が話しながら案内してくれる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "narai-juku",
+     "field": "seo.description"
+    },
+    {
+     "page": "niche_長野_1",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.hotel-achigawa.jp/access",
+      "https://www.hankyu-travel.com/kokunai/facility/detail/htl15216.php"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/niche_長野_1__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "宿「湯元ホテル阿智川」はpH9.73の源泉を引く洞窟風呂や露天風呂を備え、飯田駅から無料送迎バスを運行している。",
+     "old": "宿「湯元ホテル阿智川」はpH9.73の源泉を引く洞窟風呂や露天風呂を備え、飯田駅から無料送迎バスを運行している。",
+     "new": "",
+     "削除した文": "宿「湯元ホテル阿智川」はpH9.73の源泉を引く洞窟風呂や露天風呂を備え、飯田駅から無料送迎バスを運行している。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "niche_長野_1",
+     "field": "description"
+    },
+    {
+     "page": "nichinan",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 飫肥城跡の見学は無料／由緒施設共通券は6施設（大人800円）。300円は由緒施設1施設あたりの入館料）",
+     "公式の値": "飫肥城跡の見学は無料／由緒施設共通券は6施設（大人800円）。300円は由緒施設1施設あたりの入館料",
+     "値": [
+      "飫肥城跡の見学は無料です",
+      "6施設"
+     ],
+     "出典URL": [
+      "https://www.kankou-nichinan.jp/tourisms/375",
+      "https://obijyo.com/shop_map/pr"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nichinan__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "飫肥城下町は今も人が暮らす城下町で、城跡の入場は300円、4施設共通券も用意されている。",
+     "old": "飫肥城下町は今も人が暮らす城下町で、城跡の入場は300円、4施設共通券も用意されている。",
+     "new": "飫肥城下町は今も人が暮らす城下町で、城跡の入場は無料、6施設共通券も用意されている。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nichinan",
+     "field": "description"
+    },
+    {
+     "page": "niijima",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: レンタサイクル 8時間 1,200円 1日1,500円～（目安・電動は1日3,000円ほど））",
+     "公式の値": "レンタサイクル 8時間 1,200円 1日1,500円～（目安・電動は1日3,000円ほど）",
+     "値": [
+      "1,500円～"
+     ],
+     "出典URL": [
+      "https://niijima-info.jp/ido"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/niijima__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "島はアップダウンが少なく、レンタサイクルは1日800〜1,000円。",
+     "old": "島はアップダウンが少なく、レンタサイクルは1日800〜1,000円。",
+     "new": "島はアップダウンが少なく、レンタサイクルは1日1,500円〜。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "niijima",
+     "field": "description"
+    },
+    {
+     "page": "nozawa-onsen",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://nozawakanko.jp/hotspring",
+      "https://nozawakanko.jp/faq"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nozawa-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "湯めぐり手形は1,500円で3か所に入れる。",
+     "old": "湯めぐり手形は1,500円で3か所に入れる。",
+     "new": "",
+     "削除した文": "湯めぐり手形は1,500円で3か所に入れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nozawa-onsen",
+     "field": "description"
+    },
+    {
+     "page": "nushima",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 灘線 片道 大人630円（令和8年10月1日改正））",
+     "公式の値": "灘線 片道 大人630円（令和8年10月1日改正）",
+     "値": [
+      "630円"
+     ],
+     "出典URL": [
+      "https://www.city.minamiawaji.hyogo.jp/soshiki/koutsuu/nusima1.html",
+      "http://nushima-yoshijin.jp/go_kisen"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nushima__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "拠点は土生港で、片道310円。",
+     "old": "拠点は土生港で、片道310円。",
+     "new": "拠点は土生港で、片道は大人630円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nushima",
+     "field": "description"
+    },
+    {
+     "page": "nyuto-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 田沢湖駅前から乳頭温泉・妙乃湯温泉前・休暇村前・乳頭蟹場温泉は950円（鶴の湯温泉入口は850円、アルパこまくさは750円））",
+     "公式の値": "田沢湖駅前から乳頭温泉・妙乃湯温泉前・休暇村前・乳頭蟹場温泉は950円（鶴の湯温泉入口は850円、アルパこまくさは750円）",
+     "値": [
+      "950"
+     ],
+     "出典URL": [
+      "https://ugokotsu.co.jp/wp-content/fare/tazawakoSt.pdf"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/nyuto-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "田沢湖駅からのバスは片道770円。",
+     "old": "田沢湖駅からのバスは片道770円。",
+     "new": "田沢湖駅からのバスは片道950円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nyuto-onsen",
+     "field": "description"
+    },
+    {
+     "page": "obi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 飫肥城跡の見学は無料（有料は由緒施設の単独券 大人300円））",
+     "公式の値": "飫肥城跡の見学は無料（有料は由緒施設の単独券 大人300円）",
+     "値": [
+      "飫肥城跡の見学は無料です。"
+     ],
+     "出典URL": [
+      "https://www.kankou-nichinan.jp/tourisms/375"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/obi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "飫肥城は天守こそないものの、石垣と広大な敷地に飫肥杉の並木が続き、入城料330円で石段を上がりながら城の面影をたどれる。",
+     "old": "飫肥城は天守こそないものの、石垣と広大な敷地に飫肥杉の並木が続き、入城料330円で石段を上がりながら城の面影をたどれる。",
+     "new": "飫肥城は天守こそないものの、石垣と広大な敷地に飫肥杉の並木が続き、無料で石段を上がりながら城の面影をたどれる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "obi",
+     "field": "description"
+    },
+    {
+     "page": "obi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 由緒施設共通券 大人800円）",
+     "公式の値": "由緒施設共通券 大人800円",
+     "値": [
+      "大人800円"
+     ],
+     "出典URL": [
+      "https://www.kankou-nichinan.jp/tourisms/375"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/obi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "共通券880円を使えば複数施設を効率よく巡れる。",
+     "old": "共通券880円を使えば複数施設を効率よく巡れる。",
+     "new": "共通券800円を使えば複数施設を効率よく巡れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "obi",
+     "field": "description"
+    },
+    {
+     "page": "oboke",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人1,800円（遊覧時間約30分））",
+     "公式の値": "大人1,800円（遊覧時間約30分）",
+     "値": [
+      "1,800円"
+     ],
+     "出典URL": [
+      "https://miyoshi-tourism.jp/ja/spot/24284"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/oboke__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "見どころの中心は大歩危峡で、遊覧船に乗ると約30分・大人1,200円で岩壁の間を水面の高さから巡れる。",
+     "old": "見どころの中心は大歩危峡で、遊覧船に乗ると約30分・大人1,200円で岩壁の間を水面の高さから巡れる。",
+     "new": "見どころの中心は大歩危峡で、遊覧船に乗ると約30分・大人1,800円で岩壁の間を水面の高さから巡れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "oboke",
+     "field": "description"
+    },
+    {
+     "page": "obuse",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般1,200円（2025年4月12日改定））",
+     "公式の値": "一般1,200円（2025年4月12日改定）",
+     "値": [
+      "1,200円"
+     ],
+     "出典URL": [
+      "https://hokusai-kan.com/user-guide",
+      "https://hokusai-kan.com/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/obuse__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,000円。",
+     "old": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,000円。",
+     "new": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,200円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "obuse",
+     "field": "description"
+    },
+    {
+     "page": "obuse",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般1,200円（2025年4月12日改定））",
+     "公式の値": "一般1,200円（2025年4月12日改定）",
+     "値": [
+      "1,200円"
+     ],
+     "出典URL": [
+      "https://hokusai-kan.com/user-guide",
+      "https://hokusai-kan.com/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/obuse__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,000円。",
+     "old": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,000円。",
+     "new": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,200円。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "obuse",
+     "field": "seo.description"
+    },
+    {
+     "page": "oga",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観寄付金（中学生以上）300円、小学生以下は無料）",
+     "公式の値": "参観寄付金（中学生以上）300円、小学生以下は無料",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "https://www.tokokai.org/tourlight/tourlight01"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/oga__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "北緯40度の碑が立つ入道崎では白と黒のしましま模様の灯台に200円で登れる。",
+     "old": "北緯40度の碑が立つ入道崎では白と黒のしましま模様の灯台に200円で登れる。",
+     "new": "北緯40度の碑が立つ入道崎では白と黒のしましま模様の灯台に300円で登れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "oga",
+     "field": "description"
+    },
+    {
+     "page": "okazaki",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://okazaki-kanko.jp/feature/travel-tool/cycling",
+      "https://oto-riversideterrace.com/parking"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/okazaki__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "味噌蔵は城から少し離れているので、1日500円程度の駅レンタサイクルで巡るのが正解だ。",
+     "old": "味噌蔵は城から少し離れているので、1日500円程度の駅レンタサイクルで巡るのが正解だ。",
+     "new": "",
+     "削除した文": "味噌蔵は城から少し離れているので、1日500円程度の駅レンタサイクルで巡るのが正解だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "okazaki",
+     "field": "description"
+    },
+    {
+     "page": "okuhida-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 料金：清掃協力金（300円程度）。無料ではない）",
+     "公式の値": "料金：清掃協力金（300円程度）。無料ではない",
+     "値": [
+      "清掃協力金（300円程度）"
+     ],
+     "出典URL": [
+      "https://okuhida.or.jp/p/hot-spring/%E6%96%B0%E7%A9%82%E9%AB%98%E3%81%AE%E6%B9%AF"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/okuhida-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "新穂高温泉には蒲田川沿いに無料の露天「新穂高の湯」がある。",
+     "old": "新穂高温泉には蒲田川沿いに無料の露天「新穂高の湯」がある。",
+     "new": "新穂高温泉には蒲田川沿いに清掃協力金300円程度の露天「新穂高の湯」がある。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "okuhida-onsen",
+     "field": "description"
+    },
+    {
+     "page": "omaezaki",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観寄付金 大人（中学生以上）300円、小学生以下無料）",
+     "公式の値": "参観寄付金 大人（中学生以上）300円、小学生以下無料",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "https://www.city.omaezaki.shizuoka.jp/soshiki/shokokanko/kankospot/toudai.html",
+      "https://www.tokokai.org/tourlight/tourlight07"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/omaezaki__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入場料200円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+     "old": "入場料200円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+     "new": "入場料300円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "omaezaki",
+     "field": "description"
+    },
+    {
+     "page": "omaezaki",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 参観寄付金 大人（中学生以上）300円、小学生以下無料）",
+     "公式の値": "参観寄付金 大人（中学生以上）300円、小学生以下無料",
+     "値": [
+      "300円"
+     ],
+     "出典URL": [
+      "https://www.city.omaezaki.shizuoka.jp/soshiki/shokokanko/kankospot/toudai.html",
+      "https://www.tokokai.org/tourlight/tourlight07"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/omaezaki__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入場料200円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+     "old": "入場料200円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+     "new": "入場料300円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "omaezaki",
+     "field": "seo.description"
+    },
+    {
+     "page": "otaru",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.ginrinsou.com/faq/list"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/otaru__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "小樽築港駅から無料送迎あり（15〜18時）。",
+     "old": "小樽築港駅から無料送迎あり（15〜18時）。",
+     "new": "",
+     "削除した文": "小樽築港駅から無料送迎あり（15〜18時）。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "otaru",
+     "field": "description"
+    },
+    {
+     "page": "rishiri-island",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（中学生以上）500円（令和7年12月24日号の町広報でも大人500円））",
+     "公式の値": "大人（中学生以上）500円（令和7年12月24日号の町広報でも大人500円）",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.town.rishirifuji.hokkaido.jp/rishirifuji/1204.htm",
+      "https://www.town.rishirifuji.hokkaido.jp/rishirifuji/secure/1221/oshirase_No.723.pdf"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/rishiri-island__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "港から徒歩15分ほどの利尻富士温泉は入浴料600円。",
+     "old": "港から徒歩15分ほどの利尻富士温泉は入浴料600円。",
+     "new": "港から徒歩15分ほどの利尻富士温泉は入浴料500円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "rishiri-island",
+     "field": "description"
+    },
+    {
+     "page": "ryujin-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人(中学生以上)1,000円（2026年4月1日から入浴料改定））",
+     "公式の値": "大人(中学生以上)1,000円（2026年4月1日から入浴料改定）",
+     "値": [
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.ryujin-kanko.jp/facility/520"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ryujin-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "見どころの中心は龍神温泉元湯で、大人800円の共同湯に飾らない湯が満ちる。",
+     "old": "見どころの中心は龍神温泉元湯で、大人800円の共同湯に飾らない湯が満ちる。",
+     "new": "見どころの中心は龍神温泉元湯で、大人1,000円の共同湯に飾らない湯が満ちる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ryujin-onsen",
+     "field": "description"
+    },
+    {
+     "page": "saiki",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "昼の定食なら1,000〜1,500円で足りる。",
+     "old": "昼の定食なら1,000〜1,500円で足りる。",
+     "new": "",
+     "削除した文": "昼の定食なら1,000〜1,500円で足りる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "saiki",
+     "field": "description"
+    },
+    {
+     "page": "sakata",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 市の観光用自転車は無料（12月〜3月は利用不可）。有料の電動は1時間500円・4時間1,500円・8時間3,000円で、1日500円前後の料金は公式に無い）",
+     "公式の値": "市の観光用自転車は無料（12月〜3月は利用不可）。有料の電動は1時間500円・4時間1,500円・8時間3,000円で、1日500円前後の料金は公式に無い",
+     "値": [
+      "無料で貸し出しています"
+     ],
+     "出典URL": [
+      "https://www.city.sakata.lg.jp/qa/kanko/FAQ051626900.html",
+      "https://sakata-kankou.com/traffic/41365"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakata__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "市内はレンタサイクルが1日500円前後で借りられる。",
+     "old": "市内はレンタサイクルが1日500円前後で借りられる。",
+     "new": "市内はレンタサイクルが無料で借りられる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "sakata",
+     "field": "description"
+    },
+    {
+     "page": "sakurajima",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 旅客 大人250円（片道）。160円は自転車の片道運賃）",
+     "公式の値": "旅客 大人250円（片道）。160円は自転車の片道運賃",
+     "値": [
+      "大人(小児除く)250円"
+     ],
+     "出典URL": [
+      "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/mobile/ferry/unchin.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakurajima__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "今も噴煙を上げ続ける島へ、片道160円の桜島フェリーで渡れる。",
+     "old": "今も噴煙を上げ続ける島へ、片道160円の桜島フェリーで渡れる。",
+     "new": "今も噴煙を上げ続ける島へ、片道250円の桜島フェリーで渡れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "sakurajima",
+     "field": "description"
+    },
+    {
+     "page": "sakurajima",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 旅客 大人250円（片道）。160円は自転車の片道運賃）",
+     "公式の値": "旅客 大人250円（片道）。160円は自転車の片道運賃",
+     "値": [
+      "大人(小児除く)250円"
+     ],
+     "出典URL": [
+      "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/mobile/ferry/unchin.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakurajima__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "今も噴煙を上げ続ける島へ、片道160円の桜島フェリーで渡れる。",
+     "old": "今も噴煙を上げ続ける島へ、片道160円の桜島フェリーで渡れる。",
+     "new": "今も噴煙を上げ続ける島へ、片道250円の桜島フェリーで渡れる。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "sakurajima",
+     "field": "seo.description"
+    },
+    {
+     "page": "shima-onsen",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "冬は人が減り、宿泊料が下がる時期もある。",
+     "old": "冬は人が減り、宿泊料が下がる時期もある。",
+     "new": "",
+     "削除した文": "冬は人が減り、宿泊料が下がる時期もある。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shima-onsen",
+     "field": "description"
+    },
+    {
+     "page": "shimanami-kaido",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: クロスバイク・シティサイクル3,000円/日、E-bike8,000円/日（電動アシスト自転車4,000円/日））",
+     "公式の値": "クロスバイク・シティサイクル3,000円/日、E-bike8,000円/日（電動アシスト自転車4,000円/日）",
+     "値": [
+      "3,000円/日",
+      "8,000円/日"
+     ],
+     "出典URL": [
+      "https://shimanami-cycle.or.jp/rental/rental"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shimanami-kaido__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "レンタサイクルは一般車1,100円〜、eバイク3,300円〜。",
+     "old": "レンタサイクルは一般車1,100円〜、eバイク3,300円〜。",
+     "new": "レンタサイクルは一般車3,000円/日、eバイク8,000円/日。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shimanami-kaido",
+     "field": "description"
+    },
+    {
+     "page": "shimoda",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.izukyu.co.jp/izu-pota",
+      "https://www.shimoda-city.info/access-bicycle"
+     ],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "バスの本数が少ないエリアも、駅前の電動レンタサイクル（1日1500円前後）ならストレスなく回れる。",
+     "old": "バスの本数が少ないエリアも、駅前の電動レンタサイクル（1日1500円前後）ならストレスなく回れる。",
+     "new": "",
+     "削除した文": "バスの本数が少ないエリアも、駅前の電動レンタサイクル（1日1500円前後）ならストレスなく回れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shimoda",
+     "field": "description"
+    },
+    {
+     "page": "shimonoseki",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 下関発着の往復は大人900円（運航会社 関門汽船の公式運賃））",
+     "公式の値": "下関発着の往復は大人900円（運航会社 関門汽船の公式運賃）",
+     "値": [
+      "900円"
+     ],
+     "出典URL": [
+      "https://www.kanmon-kisen.co.jp/route/ganryujima.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shimonoseki__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "巌流島へは唐戸桟橋からフェリーで10分、往復800円で渡ることができる。",
+     "old": "巌流島へは唐戸桟橋からフェリーで10分、往復800円で渡ることができる。",
+     "new": "巌流島へは唐戸桟橋からフェリーで10分、往復900円で渡ることができる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shimonoseki",
+     "field": "description"
+    },
+    {
+     "page": "shinhotaka",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://okuhida.or.jp/p/hot-spring/%E6%96%B0%E7%A9%82%E9%AB%98%E3%81%AE%E6%B9%AF"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shinhotaka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "北アルプス登山の玄関口でもあり、無料で入れる公衆露天風呂も残っている。",
+     "old": "北アルプス登山の玄関口でもあり、無料で入れる公衆露天風呂も残っている。",
+     "new": "",
+     "削除した文": "北アルプス登山の玄関口でもあり、無料で入れる公衆露天風呂も残っている。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shinhotaka",
+     "field": "description"
+    },
+    {
+     "page": "shirahama",
+     "rule": "P1d",
+     "reason": "食い違い（運営元の旅館組合が2026年5月10日でシャトルバスの運行終了を公式告知。文の「旅館組合が運行する無料シャトルを利用できる」は現在成り立たない（旅館側ページには旧記載が残る）。置換できる公式の値が無いため削除（自家源泉の記述も公式未確認のため、文ごと削除か、当該句のみの削除かは反映側で判断））。文を削除。公式の値: 白浜温泉旅館協同組合の公式告知: 南紀白浜温泉シャトルバスは2026年5月10日の運行をもって終了",
+     "公式の値": "白浜温泉旅館協同組合の公式告知: 南紀白浜温泉シャトルバスは2026年5月10日の運行をもって終了",
+     "値": [],
+     "出典URL": [
+      "https://www.shirahama-ryokan.jp/access/bus1.html",
+      "https://www.yado-musashi.co.jp/access"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shirahama__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "宿の一例として、白良浜まで徒歩1分に立つ紀州・白浜温泉 むさしは自家源泉をふたつ持ち、旅館組合が運行する無料シャトルを利用できる。",
+     "old": "宿の一例として、白良浜まで徒歩1分に立つ紀州・白浜温泉 むさしは自家源泉をふたつ持ち、旅館組合が運行する無料シャトルを利用できる。",
+     "new": "",
+     "削除した文": "宿の一例として、白良浜まで徒歩1分に立つ紀州・白浜温泉 むさしは自家源泉をふたつ持ち、旅館組合が運行する無料シャトルを利用できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shirahama",
+     "field": "description"
+    },
+    {
+     "page": "shirakawago-t",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人 片道300円（2024年10月1日改定））",
+     "公式の値": "大人 片道300円（2024年10月1日改定）",
+     "値": [
+      "片道300円"
+     ],
+     "出典URL": [
+      "https://shirakawa-go.gr.jp/faq/5",
+      "https://www.vill.shirakawa.lg.jp/1952.htm"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shirakawago-t__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "現地は車が必要だが、冬季の集落へはシャトルバスのみ乗り入れ可（1回200円）となる。",
+     "old": "現地は車が必要だが、冬季の集落へはシャトルバスのみ乗り入れ可（1回200円）となる。",
+     "new": "現地は車が必要だが、冬季の集落へはシャトルバスのみ乗り入れ可（1回300円）となる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shirakawago-t",
+     "field": "description"
+    },
+    {
+     "page": "shiraoi",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "資料館は個人300円。史跡そのものの無料の記載は公式に見つからず",
+     "値": [],
+     "出典URL": [
+      "https://www.town.shiraoi.hokkaido.jp/docs/page2020062800019.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shiraoi__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "駅から徒歩10分ほどの白老仙台藩陣屋跡は、幕末に蝦夷地の警備を命じられた仙台藩の陣屋跡で、入場無料。",
+     "old": "駅から徒歩10分ほどの白老仙台藩陣屋跡は、幕末に蝦夷地の警備を命じられた仙台藩の陣屋跡で、入場無料。",
+     "new": "",
+     "削除した文": "駅から徒歩10分ほどの白老仙台藩陣屋跡は、幕末に蝦夷地の警備を命じられた仙台藩の陣屋跡で、入場無料。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shiraoi",
+     "field": "description"
+    },
+    {
+     "page": "shiraoishi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般400円（（）内の320円は20名以上の団体料金））",
+     "公式の値": "一般400円（（）内の320円は20名以上の団体料金）",
+     "値": [
+      "400円"
+     ],
+     "出典URL": [
+      "https://www.shiro-f.jp/shiroishijo/info"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shiraoishi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料320円。",
+     "old": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料320円。",
+     "new": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料400円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shiraoishi",
+     "field": "description"
+    },
+    {
+     "page": "shiraoishi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般400円（（）内の320円は20名以上の団体料金））",
+     "公式の値": "一般400円（（）内の320円は20名以上の団体料金）",
+     "値": [
+      "400円"
+     ],
+     "出典URL": [
+      "https://www.shiro-f.jp/shiroishijo/info"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shiraoishi__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料320円。",
+     "old": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料320円。",
+     "new": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料400円。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "shiraoishi",
+     "field": "seo.description"
+    },
+    {
+     "page": "shonai",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般（個人）1,000円）",
+     "公式の値": "一般（個人）1,000円",
+     "値": [
+      "一般 | 1,000円 | 900円"
+     ],
+     "出典URL": [
+      "https://www.chido.jp/guide-2"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shonai__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "致道博物館は入場料800円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+     "old": "致道博物館は入場料800円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+     "new": "致道博物館は入場料1,000円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shonai",
+     "field": "description"
+    },
+    {
+     "page": "shonai",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般（個人）1,000円）",
+     "公式の値": "一般（個人）1,000円",
+     "値": [
+      "一般 | 1,000円 | 900円"
+     ],
+     "出典URL": [
+      "https://www.chido.jp/guide-2"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/shonai__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "致道博物館は入場料800円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+     "old": "致道博物館は入場料800円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+     "new": "致道博物館は入場料1,000円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "shonai",
+     "field": "seo.description"
+    },
+    {
+     "page": "sukumo",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人普通 1,350円（片島～母島））",
+     "公式の値": "大人普通 1,350円（片島～母島）",
+     "値": [
+      "1,350"
+     ],
+     "出典URL": [
+      "https://www.city.sukumo.kochi.jp/docs-05/p0325.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/sukumo__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "宿毛港からのフェリーは片道1時間ほど、大人1,440円。",
+     "old": "宿毛港からのフェリーは片道1時間ほど、大人1,440円。",
+     "new": "宿毛港からのフェリーは片道1時間ほど、大人1,350円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "sukumo",
+     "field": "description"
+    },
+    {
+     "page": "sukumo",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "市街では入館無料の宿毛市立坂本登美子記念館にも立ち寄りたい。",
+     "old": "市街では入館無料の宿毛市立坂本登美子記念館にも立ち寄りたい。",
+     "new": "",
+     "削除した文": "市街では入館無料の宿毛市立坂本登美子記念館にも立ち寄りたい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "sukumo",
+     "field": "description"
+    },
+    {
+     "page": "suwa",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.sui-suwako.jp/access",
+      "https://www.kamisuwa-shinyu.com/faq",
+      "https://www.hananoi.co.jp/access"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/suwa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "上諏訪駅西口からは宿への無料送迎もある（予約不要・14:30〜17:00）。",
+     "old": "上諏訪駅西口からは宿への無料送迎もある（予約不要・14:30〜17:00）。",
+     "new": "",
+     "削除した文": "上諏訪駅西口からは宿への無料送迎もある（予約不要・14:30〜17:00）。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "suwa",
+     "field": "description"
+    },
+    {
+     "page": "takarakawa-onsen",
+     "rule": "P1d",
+     "reason": "食い違い（公式の営業時間は10:00～16:30で、文の11:00〜15:00と違う。置換すると「短め」が成り立たず文意が崩れるため削除）。文を削除。公式の値: 10:00～16:30（最終受付16:00）",
+     "公式の値": "10:00～16:30（最終受付16:00）",
+     "値": [],
+     "出典URL": [
+      "https://www.takaragawa.com/sp/dayuse.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/takarakawa-onsen__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "営業時間",
+     "旧文": "日帰り入浴は11:00〜15:00と短めなので、早めの到着を心がけたい。",
+     "old": "日帰り入浴は11:00〜15:00と短めなので、早めの到着を心がけたい。",
+     "new": "",
+     "削除した文": "日帰り入浴は11:00〜15:00と短めなので、早めの到着を心がけたい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "takarakawa-onsen",
+     "field": "description"
+    },
+    {
+     "page": "taketa",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入城料金 高校生以上300円（小・中学生150円））",
+     "公式の値": "入城料金 高校生以上300円（小・中学生150円）",
+     "値": [
+      "高校生以上 300円"
+     ],
+     "出典URL": [
+      "https://okajou.jp/access"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/taketa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入場料310円で石段を登ると、冬の早朝は霧が台地を覆い、石垣との対比が鮮烈だ。",
+     "old": "入場料310円で石段を登ると、冬の早朝は霧が台地を覆い、石垣との対比が鮮烈だ。",
+     "new": "入場料300円で石段を登ると、冬の早朝は霧が台地を覆い、石垣との対比が鮮烈だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "taketa",
+     "field": "description"
+    },
+    {
+     "page": "tanba-sasayama",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 篠山城大書院入館料 大人(18歳以上)500円（令和8年7月1日改定。旧400円））",
+     "公式の値": "篠山城大書院入館料 大人(18歳以上)500円（令和8年7月1日改定。旧400円）",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://withsasayama.jp/osyoin",
+      "https://tourism.sasayama.jp/4bunka"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tanba-sasayama__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "見どころの中心は篠山城跡で、入場料は400円。",
+     "old": "見どころの中心は篠山城跡で、入場料は400円。",
+     "new": "見どころの中心は篠山城跡で、入場料は500円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tanba-sasayama",
+     "field": "description"
+    },
+    {
+     "page": "tatsuno",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入場料：無料）",
+     "公式の値": "入場料：無料",
+     "値": [
+      "入場料：無料"
+     ],
+     "出典URL": [
+      "https://www.city.tatsuno.lg.jp/soshiki/1026/gyomu/2/1/2831.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tatsuno__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入場料200円の龍野城は天守閣の高さが約12メートルと小ぶりながら、石垣を背にした城下の景観が落ち着いている。",
+     "old": "入場料200円の龍野城は天守閣の高さが約12メートルと小ぶりながら、石垣を背にした城下の景観が落ち着いている。",
+     "new": "入場料は無料の龍野城は天守閣の高さが約12メートルと小ぶりながら、石垣を背にした城下の景観が落ち着いている。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tatsuno",
+     "field": "description"
+    },
+    {
+     "page": "tobe",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人（18歳以上高校生除く）600円（令和7年4月1日改定。旧500円））",
+     "公式の値": "大人（18歳以上高校生除く）600円（令和7年4月1日改定。旧500円）",
+     "値": [
+      "600円"
+     ],
+     "出典URL": [
+      "https://www.tobezoo.com/info/admission.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tobe__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "とべ動物園は入場料500円で、アムールトラを間近に観察できる距離感が特徴だ。",
+     "old": "とべ動物園は入場料500円で、アムールトラを間近に観察できる距離感が特徴だ。",
+     "new": "とべ動物園は入場料600円で、アムールトラを間近に観察できる距離感が特徴だ。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tobe",
+     "field": "description"
+    },
+    {
+     "page": "togatta-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入浴料 大人400円,小学生以下150円）",
+     "公式の値": "入浴料 大人400円,小学生以下150円",
+     "値": [
+      "大人400円"
+     ],
+     "出典URL": [
+      "http://toogattaspa.jp/kaminoyu.html",
+      "https://www.zao-machi.com/stay_hotspring/1629.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/togatta-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "遠刈田温泉共同浴場は入浴料が大人250円で、地元の人に交じって気取らない湯に浸かれる。",
+     "old": "遠刈田温泉共同浴場は入浴料が大人250円で、地元の人に交じって気取らない湯に浸かれる。",
+     "new": "遠刈田温泉共同浴場は入浴料が大人400円で、地元の人に交じって気取らない湯に浸かれる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "togatta-onsen",
+     "field": "description"
+    },
+    {
+     "page": "tomonoura",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 大人300円（中高生150円・小学生100円））",
+     "公式の値": "大人300円（中高生150円・小学生100円）",
+     "値": [
+      "大人300円"
+     ],
+     "出典URL": [
+      "https://www.city.fukuyama.hiroshima.jp/site/miryoku2023/288949.html",
+      "https://www.fukuyama-kanko.com/travel/tourist/detail.php?id=23"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tomonoura__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "港の突端に立つ江戸期の石造常夜灯、入館200円で絶景を望む客殿・福禅寺対潮楼。",
+     "old": "港の突端に立つ江戸期の石造常夜灯、入館200円で絶景を望む客殿・福禅寺対潮楼。",
+     "new": "港の突端に立つ江戸期の石造常夜灯、入館300円で絶景を望む客殿・福禅寺対潮楼。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tomonoura",
+     "field": "description"
+    },
+    {
+     "page": "tono",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入園料 大人450円（小・中・高校生350円））",
+     "公式の値": "入園料 大人450円（小・中・高校生350円）",
+     "値": [
+      "大人…450円"
+     ],
+     "出典URL": [
+      "https://www.densyoen.jp/about"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tono__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "伝承園では入場料320円で、江戸時代の曲り家を移築した広い敷地を見て回れる。",
+     "old": "伝承園では入場料320円で、江戸時代の曲り家を移築した広い敷地を見て回れる。",
+     "new": "伝承園では入場料は大人450円で、江戸時代の曲り家を移築した広い敷地を見て回れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tono",
+     "field": "description"
+    },
+    {
+     "page": "tosa-shimizu",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 個人 大人440円・小中学生220円）",
+     "公式の値": "個人 大人440円・小中学生220円",
+     "値": [
+      "440円"
+     ],
+     "出典URL": [
+      "https://www.johnmung.info/house_info.htm"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tosa-shimizu__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "ジョン万次郎資料館は入館料500円の小さな施設で、世界を渡った万次郎の生涯をその故郷でたどれる。",
+     "old": "ジョン万次郎資料館は入館料500円の小さな施設で、世界を渡った万次郎の生涯をその故郷でたどれる。",
+     "new": "ジョン万次郎資料館は入館料440円の小さな施設で、世界を渡った万次郎の生涯をその故郷でたどれる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tosa-shimizu",
+     "field": "description"
+    },
+    {
+     "page": "tottori",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般（個人）800円（600円は20名以上の団体料金））",
+     "公式の値": "一般（個人）800円（600円は20名以上の団体料金）",
+     "値": [
+      "800円"
+     ],
+     "出典URL": [
+      "https://www.sand-museum.jp/information",
+      "https://www.sand-museum.jp/faq/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tottori__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "砂丘から徒歩5分足らずの砂の美術館は入館料600円で、毎年テーマが変わる砂像を展示する。",
+     "old": "砂丘から徒歩5分足らずの砂の美術館は入館料600円で、毎年テーマが変わる砂像を展示する。",
+     "new": "砂丘から徒歩5分足らずの砂の美術館は入館料800円で、毎年テーマが変わる砂像を展示する。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tottori",
+     "field": "description"
+    },
+    {
+     "page": "towada-lake",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 2026年 乗船料金 おとな1,760円（所要時間 約50分））",
+     "公式の値": "2026年 乗船料金 おとな1,760円（所要時間 約50分）",
+     "値": [
+      "1,760"
+     ],
+     "出典URL": [
+      "https://www.toutetsu.co.jp/ship.html?lang=ja",
+      "https://www.toutetsu.co.jp/ship/pdf/laketowada_time_2026.pdf"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/towada-lake__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "湖の主役は十和田湖遊覧船で、乗船約50分・大人1,400円で湖上をひとめぐりする。",
+     "old": "湖の主役は十和田湖遊覧船で、乗船約50分・大人1,400円で湖上をひとめぐりする。",
+     "new": "湖の主役は十和田湖遊覧船で、乗船約50分・大人1,760円で湖上をひとめぐりする。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "towada-lake",
+     "field": "description"
+    },
+    {
+     "page": "tsubamesanjo",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.city.sanjo.niigata.jp/soshiki/keizaibu/shokoka/shisetsu/4532.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/tsubamesanjo__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "入館無料の三条鍛冶道場では、真っ赤に焼けた鉄を職人が打ち成形する鍛冶の実演を間近で見学できる。",
+     "old": "入館無料の三条鍛冶道場では、真っ赤に焼けた鉄を職人が打ち成形する鍛冶の実演を間近で見学できる。",
+     "new": "",
+     "削除した文": "入館無料の三条鍛冶道場では、真っ赤に焼けた鉄を職人が打ち成形する鍛冶の実演を間近で見学できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "tsubamesanjo",
+     "field": "description"
+    },
+    {
+     "page": "ube",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: ときわ公園は入園無料、彫刻は24時間いつでも見学可能）",
+     "公式の値": "ときわ公園は入園無料、彫刻は24時間いつでも見学可能",
+     "値": [
+      "無料"
+     ],
+     "出典URL": [
+      "https://www.tokiwapark.jp/guide.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ube__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "メインとなるときわ公園では、面積約130ヘクタールの常盤湖のほとりにケースのない彫刻が点在し、大人280円で鑑賞できる。",
+     "old": "メインとなるときわ公園では、面積約130ヘクタールの常盤湖のほとりにケースのない彫刻が点在し、大人280円で鑑賞できる。",
+     "new": "メインとなるときわ公園では、面積約130ヘクタールの常盤湖のほとりにケースのない彫刻が点在し、無料で鑑賞できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ube",
+     "field": "description"
+    },
+    {
+     "page": "uchiko",
+     "rule": "P1d",
+     "reason": "食い違い（内子座本体は保存修理工事で休館中（町公式）。400円で舞台に上がり花道を歩く体験は現状成立しない）。文を削除。公式の値: 内子座は2024年9月2日から約4年間休館中。見学できるのは楽屋のみ（保存修理期間特別価格 大人200円）。舞台・花道の体験は現在できない",
+     "公式の値": "内子座は2024年9月2日から約4年間休館中。見学できるのは楽屋のみ（保存修理期間特別価格 大人200円）。舞台・花道の体験は現在できない",
+     "値": [],
+     "出典URL": [
+      "https://www.town.uchiko.ehime.jp/site/uchikoza/141110.html",
+      "https://www.town.uchiko.ehime.jp/soshiki/3/nyuukanryou-verup.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/uchiko__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "大正5年築の内子座は今も現役の木造芝居小屋で、入場料400円で舞台に上がり花道を歩く体験ができる。",
+     "old": "大正5年築の内子座は今も現役の木造芝居小屋で、入場料400円で舞台に上がり花道を歩く体験ができる。",
+     "new": "",
+     "削除した文": "大正5年築の内子座は今も現役の木造芝居小屋で、入場料400円で舞台に上がり花道を歩く体験ができる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "uchiko",
+     "field": "description"
+    },
+    {
+     "page": "uchiko",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 木蝋資料館上芳我邸 個人 大人500円（団体380円））",
+     "公式の値": "木蝋資料館上芳我邸 個人 大人500円（団体380円）",
+     "値": [
+      "大人500円"
+     ],
+     "出典URL": [
+      "https://www.town.uchiko.ehime.jp/soshiki/3/nyuukanryou-verup.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/uchiko__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "木蝋で財を成した商家を公開する木蝋資料館は入館料600円。",
+     "old": "木蝋で財を成した商家を公開する木蝋資料館は入館料600円。",
+     "new": "木蝋で財を成した商家を公開する木蝋資料館は入館料500円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "uchiko",
+     "field": "description"
+    },
+    {
+     "page": "uchiko",
+     "rule": "P1d",
+     "reason": "食い違い（町公式の休館日は年末年始のみで、月曜休みと合わない）。文を削除。公式の値: 休館日は12月29日～1月2日（年末年始）のみ。月曜休みの記載なし",
+     "公式の値": "休館日は12月29日～1月2日（年末年始）のみ。月曜休みの記載なし",
+     "値": [],
+     "出典URL": [
+      "https://www.town.uchiko.ehime.jp/site/hozonsenta/kamihaga.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/uchiko__g3.txt",
+     "確認日": "2026-11-18",
+     "種類": "休館日",
+     "旧文": "月曜は主要施設が休みになるため、訪問日を事前に確認しておきたい。",
+     "old": "月曜は主要施設が休みになるため、訪問日を事前に確認しておきたい。",
+     "new": "",
+     "削除した文": "月曜は主要施設が休みになるため、訪問日を事前に確認しておきたい。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "uchiko",
+     "field": "description"
+    },
+    {
+     "page": "unzen2",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 往復 大人（中学生以上）1,500円／小人750円）",
+     "公式の値": "往復 大人（中学生以上）1,500円／小人750円",
+     "値": [
+      "1,500円"
+     ],
+     "出典URL": [
+      "https://www.nagasaki-tabinet.com/guide/520",
+      "https://unzen-ropeway.com/"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/unzen2__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "往復1250円のロープウェイで山頂近くまで上がると、冬は白く靄のかかった山岳の景色を見渡せる。",
+     "old": "往復1250円のロープウェイで山頂近くまで上がると、冬は白く靄のかかった山岳の景色を見渡せる。",
+     "new": "往復1,500円のロープウェイで山頂近くまで上がると、冬は白く靄のかかった山岳の景色を見渡せる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "unzen2",
+     "field": "description"
+    },
+    {
+     "page": "uradome",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 約40分・大人（中学生以上）1,800円）",
+     "公式の値": "約40分・大人（中学生以上）1,800円",
+     "値": [
+      "1,800円"
+     ],
+     "出典URL": [
+      "https://yourun1000.com/yuransen_uradome",
+      "https://www.tottori-guide.jp/tourism/tour/view/108"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/uradome__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "浦富海岸島めぐり遊覧船は乗船約40分・大人1,500円で、出港直後から船底越しに海底が透けて見えるほどの透明度に圧倒される。",
+     "old": "浦富海岸島めぐり遊覧船は乗船約40分・大人1,500円で、出港直後から船底越しに海底が透けて見えるほどの透明度に圧倒される。",
+     "new": "浦富海岸島めぐり遊覧船は乗船約40分・大人1,800円で、出港直後から船底越しに海底が透けて見えるほどの透明度に圧倒される。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "uradome",
+     "field": "description"
+    },
+    {
+     "page": "ureshino-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 開館 午前6時から午後10時まで／大人（中学生以上70歳未満）450円）",
+     "公式の値": "開館 午前6時から午後10時まで／大人（中学生以上70歳未満）450円",
+     "値": [
+      "午前6時から",
+      "450円"
+     ],
+     "出典URL": [
+      "https://www.city.ureshino.lg.jp/kanko/siebold.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ureshino-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "朝6時30分から開館し、入浴料440円で気軽に利用できる。",
+     "old": "朝6時30分から開館し、入浴料440円で気軽に利用できる。",
+     "new": "朝6時から開館し、入浴料450円で気軽に利用できる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ureshino-onsen",
+     "field": "description"
+    },
+    {
+     "page": "ushimado",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 旅客運賃は往復で大人400円（片道の設定は無し））",
+     "公式の値": "旅客運賃は往復で大人400円（片道の設定は無し）",
+     "値": [
+      "往復",
+      "400円"
+     ],
+     "出典URL": [
+      "https://www.maejima-island.info/schedules.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/ushimado__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "牛窓港からは片道100円・約5分のフェリーで前島へ渡ることができ、島に降り立つとそこから別の時間が流れる。",
+     "old": "牛窓港からは片道100円・約5分のフェリーで前島へ渡ることができ、島に降り立つとそこから別の時間が流れる。",
+     "new": "牛窓港からは往復400円・約5分のフェリーで前島へ渡ることができ、島に降り立つとそこから別の時間が流れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ushimado",
+     "field": "description"
+    },
+    {
+     "page": "wakura-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 7:00開館は一致。大人500円（2025年5月21日改定））",
+     "公式の値": "7:00開館は一致。大人500円（2025年5月21日改定）",
+     "値": [
+      "大人：500円"
+     ],
+     "出典URL": [
+      "https://www.wakura.or.jp/brochure/brochure-660-2"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/wakura-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "街の中心にある総湯は朝7時から開き、料金は大人460円。",
+     "old": "街の中心にある総湯は朝7時から開き、料金は大人460円。",
+     "new": "街の中心にある総湯は朝7時から開き、料金は大人500円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "wakura-onsen",
+     "field": "description"
+    },
+    {
+     "page": "yamaga",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "文中の「現地」の貸出所を特定できず、公式の料金も貸出所・資料で食い違う（さくら湯観光案内所は4時間以内の料金で、1日500円の設定は見当たらない）ため判定しない",
+     "値": [],
+     "出典URL": [
+      "https://yamaga.site/?page_id=4099",
+      "https://yamaga-tanbou.jp/spot/7897"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yamaga__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "現地ではレンタサイクルが1日500円で借りられる。",
+     "old": "現地ではレンタサイクルが1日500円で借りられる。",
+     "new": "",
+     "削除した文": "現地ではレンタサイクルが1日500円で借りられる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yamaga",
+     "field": "description"
+    },
+    {
+     "page": "yanagawa",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 御花入園料 一般1,200円）",
+     "公式の値": "御花入園料 一般1,200円",
+     "値": [
+      "1,200円"
+     ],
+     "出典URL": [
+      "https://ohana.co.jp/about/visit"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yanagawa__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "柳川藩主・立花家の旧邸宅「御花」は旅館と資料館として公開され、国指定名勝の庭園「松濤園」を眺められる（入場1,000円）。",
+     "old": "柳川藩主・立花家の旧邸宅「御花」は旅館と資料館として公開され、国指定名勝の庭園「松濤園」を眺められる（入場1,000円）。",
+     "new": "柳川藩主・立花家の旧邸宅「御花」は旅館と資料館として公開され、国指定名勝の庭園「松濤園」を眺められる（入場1,200円）。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yanagawa",
+     "field": "description"
+    },
+    {
+     "page": "yoichi",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 入館料:大人300円、小中高生100円）",
+     "公式の値": "入館料:大人300円、小中高生100円",
+     "値": [
+      "大人300円"
+     ],
+     "出典URL": [
+      "https://www.town.yoichi.hokkaido.jp/kurashi/kurashinojouhou/kyouiku-bunka/bunkazai-kaikan.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yoichi__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "向かいに立つ余市水産博物館は入館料200円で、余市の漁業の歴史を丁寧な展示でたどれる。",
+     "old": "向かいに立つ余市水産博物館は入館料200円で、余市の漁業の歴史を丁寧な展示でたどれる。",
+     "new": "向かいに立つ余市水産博物館は入館料300円で、余市の漁業の歴史を丁寧な展示でたどれる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yoichi",
+     "field": "description"
+    },
+    {
+     "page": "yokosuka",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 乗船料（往復）市外在住の大人1,600円～2,000円（日により変動、入園料は別））",
+     "公式の値": "乗船料（往復）市外在住の大人1,600円～2,000円（日により変動、入園料は別）",
+     "値": [
+      "大人1,600円～2,000円"
+     ],
+     "出典URL": [
+      "https://www.city.yokosuka.kanagawa.jp/faq/shisei/gaiyo/shisetsu/0756.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yokosuka__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "三笠桟橋からフェリーで約10分の猿島は、往復1,400円で渡れる東京湾唯一の無人島で、レンガ造りのトンネルが連なる要塞遺構を歩ける。",
+     "old": "三笠桟橋からフェリーで約10分の猿島は、往復1,400円で渡れる東京湾唯一の無人島で、レンガ造りのトンネルが連なる要塞遺構を歩ける。",
+     "new": "三笠桟橋からフェリーで約10分の猿島は、往復1,600円～2,000円で渡れる東京湾唯一の無人島で、レンガ造りのトンネルが連なる要塞遺構を歩ける。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yokosuka",
+     "field": "description"
+    },
+    {
+     "page": "yoshinogari",
+     "rule": "P1d",
+     "reason": "食い違い（園内でのレンタサイクルは公式に無い。貸出は駅北口で300円（文は園内・200円）で、置換では文が成り立たない）。文を削除。公式の値: 貸出は吉野ヶ里公園駅北口のコミュニティホールで1台300円。自転車は園内に乗り入れ不可（FAQでも園内の自転車利用は遠慮）",
+     "公式の値": "貸出は吉野ヶ里公園駅北口のコミュニティホールで1台300円。自転車は園内に乗り入れ不可（FAQでも園内の自転車利用は遠慮）",
+     "値": [],
+     "出典URL": [
+      "https://www.yoshinogari.jp/information/access",
+      "https://www.yoshinogari.jp/faq"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yoshinogari__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "園内ではレンタサイクルが200円で借りられ、効率よく巡れます。",
+     "old": "園内ではレンタサイクルが200円で借りられ、効率よく巡れます。",
+     "new": "",
+     "削除した文": "園内ではレンタサイクルが200円で借りられ、効率よく巡れます。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yoshinogari",
+     "field": "description"
+    },
+    {
+     "page": "yuda-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般330円(275円は20人以上の団体料金)）",
+     "公式の値": "一般330円(275円は20人以上の団体料金)",
+     "値": [
+      "330円"
+     ],
+     "出典URL": [
+      "https://www.city.yamaguchi.lg.jp/map/7292.html",
+      "https://chuyakan.jp/user-guide"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yuda-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "中原中也記念館は、この温泉地で生まれた詩人の記念館で、入館料310円。",
+     "old": "中原中也記念館は、この温泉地で生まれた詩人の記念館で、入館料310円。",
+     "new": "中原中也記念館は、この温泉地で生まれた詩人の記念館で、入館料330円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yuda-onsen",
+     "field": "description"
+    },
+    {
+     "page": "yuda-onsen",
+     "rule": "P2",
+     "reason": "確認できず（対象を特定できない）。料金・休館日の数字を含む文を削除",
+     "公式の値": "公式の足湯一覧に「白狐の湯」という名の足湯は無く、無料足湯の利用時間は10:00～22:00（24時間ではない）、源泉の最高温度は72度。「白狐の湯」は湯田温泉自体の別称（山口県観光連盟）のため、文中の施設を特定できず判定しない",
+     "値": [],
+     "出典URL": [
+      "https://yamaguchi-city.jp/details/af_ashiyu.html",
+      "https://yudaonsen.com/yudaonsen"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yuda-onsen__g2.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "温泉街の中心にある白狐の湯は24時間開放の無料足湯で、源泉温度73度の湯が引かれている。",
+     "old": "温泉街の中心にある白狐の湯は24時間開放の無料足湯で、源泉温度73度の湯が引かれている。",
+     "new": "",
+     "削除した文": "温泉街の中心にある白狐の湯は24時間開放の無料足湯で、源泉温度73度の湯が引かれている。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yuda-onsen",
+     "field": "description"
+    },
+    {
+     "page": "yunohana-fk",
+     "rule": "P2",
+     "reason": "確認できず（記載なし）。料金・休館日の数字を含む文を削除",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.kanko-aizu.com/higaeri/3068",
+      "https://www.town.minamiaizu.lg.jp/official/soshikikarasagasu/shokokankoka/minamiaizuchokankojoho/8/1694.html"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yunohana-fk__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "宿は民宿が五軒ほど、泊まれば共同浴場は無料になる。",
+     "old": "宿は民宿が五軒ほど、泊まれば共同浴場は無料になる。",
+     "new": "",
+     "削除した文": "宿は民宿が五軒ほど、泊まれば共同浴場は無料になる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yunohana-fk",
+     "field": "description"
+    },
+    {
+     "page": "yunotsu-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 一般 大人600円（子ども300円））",
+     "公式の値": "一般 大人600円（子ども300円）",
+     "値": [
+      "大人600円"
+     ],
+     "出典URL": [
+      "https://www.kankou-shimane.com/destination/20486"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/yunotsu-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "中心的な共同湯の薬師湯は大人460円。",
+     "old": "中心的な共同湯の薬師湯は大人460円。",
+     "new": "中心的な共同湯の薬師湯は大人600円。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "yunotsu-onsen",
+     "field": "description"
+    },
+    {
+     "page": "zaou-onsen",
+     "rule": "P1",
+     "reason": "食い違い: 公式の値に置換（公式の値: 共同浴場3か所とも 大人300円・小人100円）",
+     "公式の値": "共同浴場3か所とも 大人300円・小人100円",
+     "値": [
+      "大人300円"
+     ],
+     "出典URL": [
+      "https://zaomountainresort.com/about"
+     ],
+     "snapshot": "logs/nonpriority_meta_20261118/snapshots/zaou-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "種類": "料金",
+     "旧文": "強酸性の湯で知られ、共同浴場が3ヶ所あり1ヶ所200円で入れる。",
+     "old": "強酸性の湯で知られ、共同浴場が3ヶ所あり1ヶ所200円で入れる。",
+     "new": "強酸性の湯で知られ、共同浴場が3ヶ所あり1ヶ所300円で入れる。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "zaou-onsen",
+     "field": "description"
+    }
+   ]
+  }
+ ]
+}

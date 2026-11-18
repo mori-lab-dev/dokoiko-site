@@ -1,0 +1,48 @@
+{
+ "id": "kiyosato",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "清泉寮（山梨県北杜市）",
+   "出典URL": [
+    "https://seisenryo.jp/access/"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kiyosato__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "県立まきば公園（山梨県北杜市大泉町）",
+   "出典URL": [
+    "https://www.hokuto-kanko.jp/spot/makiba_park",
+    "https://www.yamanashi-kankou.jp/kankou/spot/p2_4890.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kiyosato__g2.txt",
+   "取得": "検索の抜粋（観光協会公式・県公式観光サイトでも無料と確認）"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "清里駅から清泉寮までの無料送迎バス(ご宿泊者様向け)・要事前予約"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "入場料 無料",
+   "修正": {
+    "種類": "置換",
+    "old": "大人200円",
+    "new": "無料",
+    "値": [
+     "無料"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

@@ -1,0 +1,6 @@
+{"id":"tottori",
+ "グループ":[{"g":1,"施設・場所":"鳥取砂丘 砂の美術館（鳥取県鳥取市福部町）","出典URL":["https://www.sand-museum.jp/information","https://www.sand-museum.jp/faq/"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/tottori__g1.txt","取得":"検索の抜粋"}],
+ "判定":[
+  {"n":1,"g":1,"判定":"食い違い","公式の値":"一般（個人）800円（600円は20名以上の団体料金）","修正":{"種類":"置換","old":"入館料600円","new":"入館料800円","値":["800円"]}}
+ ],
+ "取得回数":0,"検索回数":1}

@@ -1,0 +1,33 @@
+{
+ "id": "gen_茨城_西山荘",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "西山荘（西山御殿・常陸太田市・徳川ミュージアム管理）",
+   "出典URL": [
+    "https://www.tokugawa.gr.jp/seizanso-2/information/",
+    "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_茨城_西山荘__g1.txt",
+   "取得": "取得1回"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "年中無休（大雨・強風等の悪天候時は臨時休業の場合あり）",
+   "修正": {
+    "種類": "置換",
+    "old": "月曜は定休",
+    "new": "年中無休",
+    "値": [
+     "年中無休"
+    ]
+   }
+  }
+ ],
+ "取得回数": 1,
+ "検索回数": 1
+}

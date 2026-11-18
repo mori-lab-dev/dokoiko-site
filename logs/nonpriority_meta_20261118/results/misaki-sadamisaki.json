@@ -1,0 +1,24 @@
+{
+ "id": "misaki-sadamisaki",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "伊方ビジターズハウス(PR館)（伊方町・四国電力。文中の「伊方原子力発電所展示館」に対応する伊方発電所の展示施設と解釈）",
+   "出典URL": [
+    "https://www.yonden.co.jp/energy/atom/tour/ikata_visitorshouse.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/misaki-sadamisaki__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入館料 無料"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

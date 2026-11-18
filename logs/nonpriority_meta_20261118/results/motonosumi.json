@@ -1,0 +1,24 @@
+{
+ "id": "motonosumi",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "大谷山荘（長門市）",
+   "出典URL": [
+    "https://otanisanso.co.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/motonosumi__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "長門湯本駅から無料送迎車、到着時間を事前に連絡"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,33 @@
+{
+ "id": "kashihara",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "奈良県立橿原考古学研究所附属博物館",
+   "出典URL": [
+    "https://www.kashikoken.jp/museum/info/info.html",
+    "https://yamatoji.nara-kankou.or.jp/04public/02museum/03east_area/prefnara-kashikoken_fuzoku/event/n388z9gssr"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kashihara__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "常設展 大人400円（団体350円）。なお2026/10/3〜11/29の秋季特別展期間中は特別展料金（一般1,000円）",
+   "修正": {
+    "種類": "置換",
+    "old": "410円",
+    "new": "400円",
+    "値": [
+     "大人400円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

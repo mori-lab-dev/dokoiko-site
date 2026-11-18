@@ -1,0 +1,24 @@
+{
+ "id": "minakami-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "湯テルメ谷川（群馬県みなかみ町谷川）",
+   "出典URL": [
+    "https://www.enjoy-minakami.jp/spot/9042"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/minakami-onsen__g1.txt",
+   "取得": "取得1回（観光協会公式。入浴料の記載なし）"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし"
+  }
+ ],
+ "取得回数": 1,
+ "検索回数": 1
+}

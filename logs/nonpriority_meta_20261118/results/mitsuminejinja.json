@@ -1,0 +1,33 @@
+{
+ "id": "mitsuminejinja",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "三峯神社 興雲閣（埼玉県秩父市）",
+   "出典URL": [
+    "https://www.mitsuminejinja.or.jp/kounkaku/ryoukin/",
+    "https://www.mitsuminejinja.or.jp/kounkaku/offseason"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/mitsuminejinja__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "一泊2食付き 大人13,350円（税込・入湯税込）、12/15〜3/15は11,150円",
+   "修正": {
+    "種類": "置換",
+    "old": "15,000円前後",
+    "new": "13,350円",
+    "値": [
+     "13,350円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,24 @@
+{
+ "id": "esashi-hokkaido",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "旧中村家住宅（江差町公式観光情報）",
+   "出典URL": [
+    "https://esashi.town/tourism/info/old-nakamura-ke"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/esashi-hokkaido__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "単独入館券 大人300円／小中高100円"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

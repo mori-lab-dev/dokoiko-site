@@ -1,0 +1,32 @@
+{
+ "id": "sakurajima",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "桜島フェリー（鹿児島市船舶局）",
+   "出典URL": [
+    "https://www.city.kagoshima.lg.jp/senpaku/spsoumu/mobile/ferry/unchin.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/sakurajima__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "旅客 大人250円（片道）。160円は自転車の片道運賃",
+   "修正": {
+    "種類": "置換",
+    "old": "160円",
+    "new": "250円",
+    "値": [
+     "大人(小児除く)250円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

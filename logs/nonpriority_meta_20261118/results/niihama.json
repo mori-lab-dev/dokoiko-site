@@ -1,0 +1,24 @@
+{
+ "id": "niihama",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "別子銅山記念館（愛媛県新居浜市）",
+   "出典URL": [
+    "https://besshidozan-museum.jp/guide"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/niihama__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入館料 無料（別子銅山記念館）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,50 @@
+{
+ "id": "yuda-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "中原中也記念館（山口市）",
+   "出典URL": [
+    "https://www.city.yamaguchi.lg.jp/map/7292.html",
+    "https://chuyakan.jp/user-guide"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yuda-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "湯田温泉の足湯（山口市）",
+   "出典URL": [
+    "https://yamaguchi-city.jp/details/af_ashiyu.html",
+    "https://yudaonsen.com/yudaonsen"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yuda-onsen__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "一般330円(275円は20人以上の団体料金)",
+   "修正": {
+    "種類": "置換",
+    "old": "310円",
+    "new": "330円",
+    "値": [
+     "330円"
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "確認できず",
+   "理由": "対象を特定できない",
+   "公式の値": "公式の足湯一覧に「白狐の湯」という名の足湯は無く、無料足湯の利用時間は10:00～22:00（24時間ではない）、源泉の最高温度は72度。「白狐の湯」は湯田温泉自体の別称（山口県観光連盟）のため、文中の施設を特定できず判定しない"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 3
+}

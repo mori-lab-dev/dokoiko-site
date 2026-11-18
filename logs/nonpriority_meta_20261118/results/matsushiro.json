@@ -1,0 +1,47 @@
+{
+ "id": "matsushiro",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "松代城跡（長野市松代町）",
+   "出典URL": [
+    "https://www.sanadahoumotsukan.com/facility_detail.php?n=7"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/matsushiro__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "真田邸（長野市松代町）",
+   "出典URL": [
+    "https://www.sanadahoumotsukan.com/facility_detail.php?n=2"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/matsushiro__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "無料"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "個人 一般400円（小・中学生100円）",
+   "修正": {
+    "種類": "置換",
+    "old": "500円",
+    "new": "400円",
+    "値": [
+     "一般400円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,39 @@
+{
+ "id": "etajima",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "海上自衛隊第1術科学校（旧海軍兵学校跡地・江田島市）",
+   "出典URL": [
+    "https://www.mod.go.jp/msdf/onemss/notice/notice.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/etajima__g1.txt",
+   "取得": "検索の抜粋＋取得1回（公式Q&Aページ）"
+  },
+  {
+   "g": 2,
+   "施設・場所": "えたじま温泉 江田島荘（江田島市能美町中町）",
+   "出典URL": [
+    "https://etajimasou.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/etajima__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "見学料は無料です。"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "中町港から江田島荘まで送迎車を無料（要事前予約）"
+  }
+ ],
+ "取得回数": 2,
+ "検索回数": 2
+}

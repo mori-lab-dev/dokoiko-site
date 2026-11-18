@@ -1,0 +1,25 @@
+{
+ "id": "tamatsukuri-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "湯薬師広場（玉造温泉・松江市）",
+   "出典URL": [
+    "https://www.kankou-matsue.jp/onsen/tamatsukuri/desc",
+    "https://www.kankou-shimane.com/pickup/39854.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tamatsukuri-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "湯薬師広場は源泉が湧き出し温泉水を自由に汲める（利用無料）。公式の無料足湯は姫神広場と玉湯川沿い2か所"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

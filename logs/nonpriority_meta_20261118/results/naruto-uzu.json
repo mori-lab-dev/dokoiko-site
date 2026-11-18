@@ -1,0 +1,25 @@
+{
+ "id": "naruto-uzu",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "アオアヲ ナルト リゾート（徳島県鳴門市）高速鳴門バス停の送迎",
+   "出典URL": [
+    "https://www.aoawo-naruto.com/publics/index/123",
+    "https://www.aoawo-naruto.com/pages/47?b_id=608&detail=1&r_id=1146"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/naruto-uzu__g1.txt",
+   "取得": "検索の抜粋（2026-07-17の公式お知らせでも、高速鳴門〜ホテル間の無料送迎は従来どおり運行）"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "高速鳴門〜ホテルの無料送迎・3日前までに要予約"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

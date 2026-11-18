@@ -1,0 +1,33 @@
+{
+ "id": "omaezaki",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "御前埼灯台（静岡県御前崎市）",
+   "出典URL": [
+    "https://www.city.omaezaki.shizuoka.jp/soshiki/shokokanko/kankospot/toudai.html",
+    "https://www.tokokai.org/tourlight/tourlight07"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/omaezaki__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "参観寄付金 大人（中学生以上）300円、小学生以下無料",
+   "修正": {
+    "種類": "置換",
+    "old": "200円",
+    "new": "300円",
+    "値": [
+     "300円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

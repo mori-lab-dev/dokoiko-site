@@ -1,0 +1,25 @@
+{
+ "id": "okazaki",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "岡崎市のレンタサイクル（シェアサイクル HELLO CYCLING／OTO Riverside Terrace）",
+   "出典URL": [
+    "https://okazaki-kanko.jp/feature/travel-tool/cycling",
+    "https://oto-riversideterrace.com/parking"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/okazaki__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "対象を特定できない"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

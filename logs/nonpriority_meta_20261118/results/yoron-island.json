@@ -1,0 +1,25 @@
+{
+ "id": "yoron-island",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "プリシアリゾートヨロン（与論島）",
+   "出典URL": [
+    "https://www.yorontou.info/spot/5121.html",
+    "https://www.pricia.co.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/yoron-island__g1.txt",
+   "取得": "検索の抜粋（ヨロン島観光協会・施設公式）"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "与論空港より車で約3分／無料送迎バスあり（要事前予約）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

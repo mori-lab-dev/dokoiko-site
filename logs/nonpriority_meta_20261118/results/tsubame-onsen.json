@@ -1,0 +1,25 @@
+{
+ "id": "tsubame-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "燕温泉 黄金の湯・河原の湯（妙高市）",
+   "出典URL": [
+    "https://niigata-kankou.or.jp/spot/detail_11635.html",
+    "https://myokotourism.jp/tourist-spots/%E6%B2%B3%E5%8E%9F%E3%81%AE%E6%B9%AF"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/tsubame-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "黄金の湯・河原の湯とも入浴無料"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

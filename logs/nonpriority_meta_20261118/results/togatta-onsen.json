@@ -1,0 +1,33 @@
+{
+ "id": "togatta-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "遠刈田温泉 共同浴場 神の湯（運営 遠刈田温泉株式会社）",
+   "出典URL": [
+    "http://toogattaspa.jp/kaminoyu.html",
+    "https://www.zao-machi.com/stay_hotspring/1629.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/togatta-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "食い違い",
+   "公式の値": "入浴料 大人400円,小学生以下150円",
+   "修正": {
+    "種類": "置換",
+    "old": "250円",
+    "new": "400円",
+    "値": [
+     "大人400円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

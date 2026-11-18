@@ -1,0 +1,24 @@
+{
+ "id": "iojima-nagasaki",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "i+Land nagasaki（長崎市伊王島町）",
+   "出典URL": [
+    "https://www.islandnagasaki.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/iojima-nagasaki__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "長崎駅発の無料送迎バス（予約制）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

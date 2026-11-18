@@ -1,0 +1,24 @@
+{
+ "id": "kawaji-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "湯けむりの里 柏屋（日光市川治温泉）",
+   "出典URL": [
+    "https://www.kashiwaya-kawaji.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kawaji-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "川治湯元駅から無料送迎（要予約）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

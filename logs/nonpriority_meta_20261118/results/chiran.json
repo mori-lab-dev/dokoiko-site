@@ -1,0 +1,33 @@
+{
+ "id": "chiran",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "知覧武家屋敷庭園群",
+   "出典URL": [
+    "https://www.city.minamikyushu.lg.jp/kankosite/kankospot/1/5543.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/chiran__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "知覧特攻平和会館",
+   "出典URL": [
+    "https://www.chiran-tokkou.jp/access_car.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/chiran__g2.txt",
+   "取得": "取得1回＋検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "駐車場：無料（武家屋敷庭園群）／普通車約500台（無料）・バス約40台（無料）（特攻平和会館）"
+  }
+ ],
+ "取得回数": 1,
+ "検索回数": 3
+}

@@ -1,0 +1,40 @@
+{
+ "id": "motobu",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "沖縄美ら海水族館（沖縄県本部町）",
+   "出典URL": [
+    "https://churaumi.okinawa/guide/info"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/motobu__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "伊江島フェリー（本部港〜伊江港・伊江村営）",
+   "出典URL": [
+    "https://ferry.iejima.blue/using",
+    "https://www.iejima.org/"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/motobu__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "大人 2,180円（一般・税込）"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "大人片道 730円。本部港発は1日4便（9:00・11:00・15:00・17:00）、所要30分（9:00発→9:30着）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

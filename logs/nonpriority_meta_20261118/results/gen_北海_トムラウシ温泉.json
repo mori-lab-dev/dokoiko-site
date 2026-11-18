@@ -1,0 +1,25 @@
+{
+ "id": "gen_北海_トムラウシ温泉",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "トムラウシ温泉 東大雪荘",
+   "出典URL": [
+    "https://reserve.489ban.net/client/tomuraushionsen/0/plan",
+    "https://www.tomuraushionsen.com/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/gen_北海_トムラウシ温泉__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "新得駅前発の無料送迎（要電話予約・前日当日の予約不可・3日前までに連絡）。車の所要時間は範囲外（公式access: 新得より約1時間10分）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

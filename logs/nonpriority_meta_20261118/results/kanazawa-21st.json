@@ -1,0 +1,25 @@
+{
+ "id": "kanazawa-21st",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "金沢21世紀美術館",
+   "出典URL": [
+    "https://www.kanazawa21.jp/data_list.php?d=1&g=7",
+    "https://www.kanazawa21.jp/data_list.php?g=145"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/kanazawa-21st__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "交流ゾーンは入館無料、展覧会ゾーンは観覧券（有料）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

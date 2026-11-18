@@ -1,0 +1,24 @@
+{
+ "id": "mt-yatsugatake",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "蓼科親湯温泉",
+   "出典URL": [
+    "https://www.tateshina-shinyu.com/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/mt-yatsugatake__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "JR茅野駅東口から無料送迎バス（毎日2便・事前連絡）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

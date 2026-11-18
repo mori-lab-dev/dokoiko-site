@@ -1,0 +1,6 @@
+{"id":"nakijin",
+ "グループ":[{"g":1,"施設・場所":"世界遺産 今帰仁城跡（沖縄県今帰仁村）","出典URL":["https://www.nakijinjoseki-osi.jp/information.php","https://www.nakijinjoseki-osi.jp/"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/nakijin__g1.txt","取得":"検索の抜粋"}],
+ "判定":[
+  {"n":1,"g":1,"判定":"食い違い","公式の値":"大人（個人）1,000円（令和7年9月1日改定。旧料金は600円）","修正":{"種類":"置換","old":"入場料600円","new":"入場料1,000円","値":["1,000円"]}}
+ ],
+ "取得回数":0,"検索回数":1}

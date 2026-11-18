@@ -1,0 +1,39 @@
+{
+ "id": "ako",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "赤穂城跡",
+   "出典URL": [
+    "https://www.hyogo-tourism.jp/spot/0552"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ako__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "赤穂温泉 銀波荘",
+   "出典URL": [
+    "https://www.ginpaso.co.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/ako__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "料金 無料（公式兵庫県観光サイト）"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "一致",
+   "公式の値": "JR播州赤穂駅南口から無料送迎バス（要連絡）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

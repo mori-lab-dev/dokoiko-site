@@ -1,0 +1,8 @@
+{"id":"shiraoishi",
+ "グループ":[
+  {"g":1,"施設・場所":"白石城（宮城県白石市）","出典URL":["https://www.shiro-f.jp/shiroishijo/info"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/shiraoishi__g1.txt","取得":"検索の抜粋"},
+  {"g":2,"施設・場所":"鎌先温泉 時音の宿 湯主一條","出典URL":["https://www.ichijoh.co.jp/access"],"snapshot":"logs/nonpriority_meta_20261118/snapshots/shiraoishi__g2.txt","取得":"検索の抜粋"}],
+ "判定":[
+  {"n":1,"g":1,"判定":"食い違い","公式の値":"一般400円（（）内の320円は20名以上の団体料金）","修正":{"種類":"置換","old":"320円","new":"400円","値":["400円"]}},
+  {"n":2,"g":2,"判定":"一致","公式の値":"JR白石駅・白石蔵王駅より無料送迎車を毎日運行（前日までの予約が必要）"}],
+ "取得回数":0,"検索回数":2}

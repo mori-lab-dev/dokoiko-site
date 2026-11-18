@@ -1,0 +1,24 @@
+{
+ "id": "shinjuku",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "東京都庁第一本庁舎 展望室（新宿区）",
+   "出典URL": [
+    "https://www.zaimu.metro.tokyo.lg.jp/tochousha/goannai/tenbou"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/shinjuku__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "入室料金 無料（地上202メートル）"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

@@ -1,0 +1,26 @@
+{
+ "id": "niche_長野_1",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "湯元ホテル阿智川（長野県阿智村）",
+   "出典URL": [
+    "https://www.hotel-achigawa.jp/access",
+    "https://www.hankyu-travel.com/kokunai/facility/detail/htl15216.php"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/niche_長野_1__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "確認できず",
+   "理由": "記載なし",
+   "公式の値": ""
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}

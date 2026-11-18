@@ -1,0 +1,47 @@
+{
+ "id": "bessho-onsen",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "安楽寺（国宝八角三重塔）",
+   "出典URL": [
+    "https://anrakuji.com/about.html"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/bessho-onsen__g1.txt",
+   "取得": "検索の抜粋"
+  },
+  {
+   "g": 2,
+   "施設・場所": "別所温泉 共同浴場 大師湯",
+   "出典URL": [
+    "https://www.besshoonsen-zaisanku.com/bath"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/bessho-onsen__g2.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "拝観料 大人300円 ／ 小中学生100円"
+  },
+  {
+   "n": 2,
+   "g": 2,
+   "判定": "食い違い",
+   "公式の値": "入浴料：大人：300円、小学生：100円、未就学児：無料",
+   "修正": {
+    "種類": "置換",
+    "old": "150円か200円",
+    "new": "300円",
+    "値": [
+     "300円"
+    ]
+   }
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 2
+}

@@ -1,0 +1,24 @@
+{
+ "id": "chikugogawa",
+ "グループ": [
+  {
+   "g": 1,
+   "施設・場所": "原鶴温泉 泰泉閣",
+   "出典URL": [
+    "https://taisenkaku.co.jp/access"
+   ],
+   "snapshot": "logs/nonpriority_meta_20261118/snapshots/chikugogawa__g1.txt",
+   "取得": "検索の抜粋"
+  }
+ ],
+ "判定": [
+  {
+   "n": 1,
+   "g": 1,
+   "判定": "一致",
+   "公式の値": "無料送迎・要事前予約・宿泊日前日18時までに連絡・宿泊のお客様のみ"
+  }
+ ],
+ "取得回数": 0,
+ "検索回数": 1
+}
