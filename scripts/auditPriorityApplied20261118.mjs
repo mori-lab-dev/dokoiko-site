@@ -15,7 +15,7 @@ const rootArg = process.argv.indexOf('--root'); const R = rootArg > 0 ? process.
 const D = P('logs/priority_fix_20261118'); const dl = J(P('src/data/destinations.json')); const dests = new Map(dl.map((d) => [d.id, d])); const arts = new Map();
 for (const d of dl) { const f = P(`src/data/articles/${d.id}.json`); if (fs.existsSync(f)) arts.set(d.id, J(f)); }
 const results = fs.readdirSync(`${D}/results`).filter((f) => !f.startsWith('_') && f.endsWith('.json')).map((f) => { const id = f.replace('.json', ''); return { id, res: J(`${D}/results/${f}`), inp: J(`${D}/inputs/page_${id}.json`) }; });
-const edits = fs.readdirSync(P('scripts/data')).filter((f) => /^mergeFactFixes20261118[deghijklm]\.json$/.test(f)).flatMap((f) => J(P(`scripts/data/${f}`)).fixes.flatMap((x) => x.edits));
+const edits = fs.readdirSync(P('scripts/data')).filter((f) => /^mergeFactFixes20261118[deghij]\.json$/.test(f)).flatMap((f) => J(P(`scripts/data/${f}`)).fixes.flatMap((x) => x.edits));
 const allow = fs.existsSync(P('logs/priority_gap_20261118/allowlist.json')) ? J(P('logs/priority_gap_20261118/allowlist.json')) : { a: [], b: [] };
 const bad = [];
 const { remaining } = findA({ dests, arts, results });
