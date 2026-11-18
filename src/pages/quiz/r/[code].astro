@@ -15,6 +15,9 @@ const title = `私に似合う旅先は【${d.name}(${d.prefecture})】｜旅先
 const description = (descs as Record<string, string>)[d.id] || `${d.prefecture}の旅先です。`;   // 既存の旅先ページの description の先頭1〜2文、または県名と tags の1文（scripts/buildQuizDesc.mjs）
 const img = `${SITE}/quiz/og/${d.code}.png`;
 const url = `${SITE}/quiz/r/${d.code}/`;
+const shareText = `私に似合う旅先は【${d.name}(${d.prefecture})】でした。あなたは？`;
+const entry = (src: string) => `${url}?utm_source=${src}&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=${d.code}`;   // 共有のURLだけに utm。サイト内の遷移には付けない
+const xHref = `https://x.com/intent/post?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(entry('x'))}&hashtags=${encodeURIComponent('似合う旅先')},${encodeURIComponent('どこ行こ')}`;
 const L = [...d.name].length;
 const nameSize = L <= 3 ? 44 : L <= 6 ? 38 : L <= 9 ? 32 : L <= 12 ? 28 : 24;   // 縦書き。長い名前は小さく
 ---
@@ -53,6 +56,7 @@ li{font-size:12px;padding:2px 10px;border-radius:999px;background:#ece3cb;color:
 .badge{display:inline-block;margin:0 0 16px;padding:3px 14px 4px;border:1.5px solid #1f1d1a;border-radius:999px;font-size:13px;background:#f7f1e3}.badge b{font-size:17px;color:#c8321f;margin:0 1px}
 .btn{display:block;box-sizing:border-box;width:100%;min-height:52px;padding:13px 16px;margin:0 0 10px;border-radius:10px;text-align:center;text-decoration:none;font-size:15px}
 .go{background:#2A6049;color:#fff}.quiz{background:#fff;color:#2A6049;border:1px solid #2A6049}
+.xbtn{background:#25231f;color:#fbf5e8}.sub{display:flex;gap:8px;margin:0 0 10px}.sub button{flex:1;box-sizing:border-box;min-height:44px;padding:8px 10px;font:inherit;font-size:13px;color:#5b4f33;background:transparent;border:1px solid #cdbfa0;border-radius:10px;cursor:pointer}.sub button[hidden]{display:none}.copied{margin:-4px 0 10px;min-height:1.4em;font-size:12px;color:#2A6049}.copyurl{display:block;box-sizing:border-box;width:100%;margin:0 0 10px;padding:8px 10px;font:inherit;font-size:12px;color:#3d3a33;background:#fff;border:1px solid #cdbfa0;border-radius:8px}.copyurl[hidden]{display:none}
 .author{margin:26px 0 0;text-align:center;font-size:11px}.author a{display:inline-flex;align-items:center;gap:10px;color:#8b8268;text-decoration:none}.cap{text-decoration:underline;text-underline-offset:3px}.seal{display:inline-flex;align-items:center;justify-content:center;flex:none;width:88px;height:26px;background:#c8321f;border-radius:3px;transform:rotate(-2deg);color:#fbf5e8;font:700 12px/1 'Noto Sans JP',sans-serif;letter-spacing:.04em;white-space:nowrap}
 </style>
 </head>
@@ -65,8 +69,19 @@ li{font-size:12px;padding:2px 10px;border-radius:999px;background:#ece3cb;color:
 {d.win > 0 && <p class="badge">1万通り中 <b>{d.win.toLocaleString('ja-JP')}</b>通りで1位</p>}
 <a class="btn go" href={d.url}>この旅先のページを見る</a>
 <a class="btn quiz" href="/quiz/">あなたも診断する</a>
+<a class="btn xbtn" id="share-x" href={xHref} target="_blank" rel="noopener">Xで結果を投稿する</a>
+<div class="sub"><button type="button" id="share-menu" hidden>共有メニュー</button><button type="button" id="share-copy">リンクをコピー</button></div>
+<p class="copied" id="copied" role="status" aria-live="polite"></p><input class="copyurl" id="copyurl" type="text" readonly hidden aria-label="このページのURL">
 <p class="author"><a href="https://x.com/mori__lab" rel="noopener" target="_blank" id="author" aria-label="作った人のX（@mori__lab）"><span class="seal" aria-hidden="true">@mori__lab</span><span class="cap">作った人のX</span></a></p>
 </main>
+<script is:inline define:vars={{ shareText, entryShare: entry('share'), entryCopy: entry('copy'), did: d.id }}>
+(function(){var t=function(m){try{gtag('event','share_click',{destination_id:did,method:m,place:'result_page'})}catch(e){}};var $=function(i){return document.getElementById(i)};
+$('share-x').addEventListener('click',function(){t('x')});
+var menu=$('share-menu');if(navigator.share){menu.hidden=false}
+menu.addEventListener('click',function(){t('share');try{Promise.resolve(navigator.share({text:shareText,url:entryShare})).catch(function(){})}catch(e){}});
+$('share-copy').addEventListener('click',function(){t('copy');var box=$('copyurl'),note=$('copied');function fb(){box.value=entryCopy;box.hidden=false;box.focus();box.select();note.textContent='URLを選択しました。コピーしてください'}try{navigator.clipboard.writeText(entryCopy).then(function(){note.textContent='コピーしました';box.hidden=true},fb)}catch(e){fb()}});
+})();
+</script>
 <script is:inline>document.getElementById('author').addEventListener('click',function(){try{gtag('event','author_x_click',{place:'result_page'})}catch(e){}});</script>
 </body>
 </html>

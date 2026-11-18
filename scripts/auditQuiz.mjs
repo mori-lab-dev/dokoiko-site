@@ -29,6 +29,7 @@ const res = {};
 const add = (k, v) => { (res[k] = res[k] || []).push(v); };
 const init = (...ks) => ks.forEach((k) => { res[k] = res[k] || []; });
 const read = (f) => fs.readFileSync(f, 'utf8');
+const unesc = (t) => t.replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#38;|&#x26;/g, '&').replace(/&amp;/g, '&');
 if (!fs.existsSync('dist/quiz/index.html')) { console.log('dist/quiz/index.html が無い（先に npm run build）'); process.exit(1); }
 const html = read('dist/quiz/index.html');
 
@@ -101,6 +102,15 @@ const walk = (d) => { for (const e of fs.readdirSync(d, { withFileTypes: true })
 walk('dist'); if (siteUtm) add('utm が共有のURL以外にある', `dist のページ ${siteUtm}件のサイト内リンクに utm_ がある`);
 if (!html.includes(`<link rel="canonical" href="${SITE}/quiz/"`)) add('canonical・og:url が /quiz/ の自己参照でない', 'canonical');
 if (!html.includes(`<meta property="og:url" content="${SITE}/quiz/"`)) add('canonical・og:url が /quiz/ の自己参照でない', 'og:url');
+init('共有ボタンの不備');
+for (const id of ['qz-share', 'qz-share-menu', 'qz-share-copy']) if (!html.includes(`id="${id}"`)) add('共有ボタンの不備', `/quiz/ に ${id} が無い`);
+if (!/id="qz-share-menu"[^>]*\bhidden\b/.test(html)) add('共有ボタンの不備', '共有メニューのボタンが最初から隠れていない（navigator.share が使える端末だけに出す）');
+if (!/utm_source=\$\{\w+\}/.test(js) || !/\(["']x["']\)/.test(js) || !/\(["']share["']\)/.test(js) || !/\(["']copy["']\)/.test(js)) add('共有ボタンの不備', 'utm_source の3種（x / share / copy）が /quiz/ のスクリプトに揃っていない');
+if (!/\.hidden\s*=\s*!navigator\.share/.test(js)) add('共有ボタンの不備', 'navigator.share があるときだけ共有メニューを出す処理が無い');
+if (!/navigator\.clipboard\.writeText/.test(js) || !/\.select\(\)/.test(js)) add('共有ボタンの不備', 'コピー（クリップボード・使えないときは選択状態）の処理が無い');
+if (!/https:\/\/x\.com\/intent\/post\?text=\$\{[^}]*\}&url=\$\{[^}]*\}&hashtags=/.test(js)) add('共有ボタンの不備', 'Xの投稿画面のURLの形（text・url・hashtags）が違う');
+for (const k of ['x', 'share', 'copy']) if (!new RegExp(`method:\\s*["']${k}["']`).test(js)) add('共有ボタンの不備', `GA4 share_click の method: '${k}' が無い`);
+if (/share_click[^;]*(latitude|longitude|answers)/.test(js)) add('共有ボタンの不備', 'share_click に余計な値を送っている');
 init('作った人のXのリンクが無い');
 const X = /<a [^>]*href="https:\/\/x\.com\/mori__lab"[^>]*rel="noopener"|<a [^>]*rel="noopener"[^>]*href="https:\/\/x\.com\/mori__lab"/;
 if (!X.test(html)) add('作った人のXのリンクが無い', '/quiz/（結果の画面）');
@@ -145,9 +155,17 @@ for (const d of data) {
   if (!t.includes(`<meta property="og:image" content="${SITE}/quiz/og/${d.code}.png">`) || !t.includes(`<meta name="twitter:image" content="${SITE}/quiz/og/${d.code}.png">`)) add('結果ページの不備', `${d.code}（og:image が結果ごとでない）`);
   if (!t.includes('<meta name="twitter:card" content="summary_large_image">')) add('結果ページの不備', `${d.code}（twitter:card）`);
   if (!t.includes(`<meta property="og:title" content="私に似合う旅先は【${d.name}(${d.prefecture})】`)) add('結果ページの不備', `${d.code}（og:title）`);
-  if (/utm_/.test(t)) add('結果ページの不備', `${d.code}（utm がある）`);
+  if (/utm_/.test(t.replace(/<a [^>]*id="share-x"[^>]*>/, '').replace(/<script[^>]*>[^<]*shareText[^<]*<\/script>/, ''))) add('結果ページの不備', `${d.code}（共有ボタン以外に utm がある）`);
   if (!X.test(t)) add('結果ページの不備', `${d.code}（作った人のXのリンクなし）`);
   if (!/author_x_click/.test(t)) add('結果ページの不備', `${d.code}（author_x_click の計測なし）`);
+  {
+    const xm = t.match(/<a [^>]*id="share-x"[^>]*href="([^"]*)"/) || t.match(/<a [^>]*href="([^"]*)"[^>]*id="share-x"/);
+    let okx = false;
+    if (xm) { try { const u = new URL(unesc(xm[1])); const e = new URL(u.searchParams.get('url')); okx = u.origin + u.pathname === 'https://x.com/intent/post' && u.searchParams.get('text') === `私に似合う旅先は【${d.name}(${d.prefecture})】でした。あなたは？` && u.searchParams.get('hashtags') === '似合う旅先,どこ行こ' && e.origin + e.pathname === `${SITE}/quiz/r/${d.code}/` && e.searchParams.get('utm_source') === 'x' && e.searchParams.get('utm_medium') === 'social' && e.searchParams.get('utm_campaign') === 'quiz_travelmatch_2611' && e.searchParams.get('utm_content') === d.code; } catch { okx = false; } }
+    if (!okx) add('共有ボタンの不備', `${d.code}（結果ページのXの投稿画面のURLの形・utm が違う）`);
+    if (!/id="share-menu"[^>]*\bhidden\b/.test(t) || !/id="share-copy"/.test(t)) add('共有ボタンの不備', `${d.code}（共有メニュー（最初は非表示）・リンクをコピーのボタンが無い）`);
+    if (!t.includes(`utm_source=share&`) || !t.includes(`utm_source=copy&`) || !/navigator\.share/.test(t) || !/navigator\.clipboard\.writeText/.test(t)) add('共有ボタンの不備', `${d.code}（utm_source=share・copy／共有・コピーの処理が無い）`);
+  }
   if (!t.includes(`href="${d.url}"`) || !t.includes('href="/quiz/"')) add('結果ページの不備', `${d.code}（旅先ページ・/quiz/ へのリンク）`);
   const text = ALLOW(t.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, ' '));
   if (banRe.test(text) || /travelTime|料金|送迎|無料|所要|[0-9０-９][,，0-9０-９]*\s*円/.test(text)) add('結果ページの文言の不備', `${d.code}（禁止語・料金・送迎・無料）`);
@@ -211,7 +229,7 @@ init('地図の出典・落款の不備');
 // ---- 8b. 説明
 init('説明（desc.json）の不備');
 {
-  const unesc = (t) => t.replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+  const unesc = (t) => t.replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#38;|&#x26;/g, '&').replace(/&amp;/g, '&');
   let desc = null;
   try { desc = JSON.parse(read('dist/quiz/desc.json')); } catch { add('説明（desc.json）の不備', 'dist/quiz/desc.json が読めない'); }
   if (desc) {

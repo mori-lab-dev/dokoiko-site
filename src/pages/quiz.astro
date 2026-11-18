@@ -22,6 +22,14 @@ const description = '12の質問に答えると、日本地図の上で候補が
     .qz-btn:hover, .qz-btn:focus-visible { background: #1e4d38; }
     .qz-btn-ghost { background: #fff; color: #2A6049; border: 1px solid #2A6049; }
     .qz-btn-ghost:hover, .qz-btn-ghost:focus-visible { background: #f1f8f4; }
+    .qz-btn-x { background: #25231f; color: #fbf5e8; }
+    .qz-btn-x:hover, .qz-btn-x:focus-visible { background: #3a372f; }
+    .qz-sub { display: flex; gap: 8px; margin: 0; }
+    .qz-sub .qz-btn { min-height: 44px; padding: 8px 10px; font-size: 13px; letter-spacing: 0.02em; background: transparent; color: #5b4f33; border: 1px solid #cdbfa0; border-radius: 10px; }
+    .qz-sub .qz-btn:hover, .qz-sub .qz-btn:focus-visible { background: #f1ead6; }
+    .qz-sub [hidden] { display: none; }
+    .qz-copied { margin: 6px 0 0; min-height: 1.4em; font-size: 12px; color: #2A6049; }
+    .qz-copyurl { display: block; width: 100%; margin: 4px 0 0; padding: 8px 10px; font: inherit; font-size: 12px; color: #3d3a33; background: #fff; border: 1px solid #cdbfa0; border-radius: 8px; }
     .qz-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
     /* 地図（紙の色の面に、墨色の点。絞り込まれると残った点に色が付く） */
@@ -139,7 +147,9 @@ const description = '12の質問に答えると、日本地図の上で候補が
       <p class="qz-win" id="qz-r-win" hidden></p>
       <div class="qz-actions">
         <a class="qz-btn" id="qz-r-link" href="/">この旅先のページを見る</a>
-        <a class="qz-btn qz-btn-ghost" id="qz-share" href="https://x.com/intent/post" target="_blank" rel="noopener">Xで結果を投稿する</a>
+        <a class="qz-btn qz-btn-x" id="qz-share" href="https://x.com/intent/post" target="_blank" rel="noopener">Xで結果を投稿する</a>
+        <div class="qz-sub"><button type="button" class="qz-btn" id="qz-share-menu" hidden>共有メニュー</button><button type="button" class="qz-btn" id="qz-share-copy">リンクをコピー</button></div>
+        <p class="qz-copied" id="qz-copied" role="status" aria-live="polite"></p><input class="qz-copyurl" id="qz-copyurl" type="text" readonly hidden aria-label="結果ページのURL">
       </div>
       <p class="qz-trend">回答の傾向から選んだ1つ。ほかの候補もどうぞ。</p>
       <h3 class="qz-next-h">次点の候補（地図の ②③④）</h3>
@@ -161,7 +171,7 @@ const description = '12の質問に答えると、日本地図の上で候補が
     const $ = (id) => document.getElementById(id);
     const P = prepare(JSON.parse($('quiz-data').textContent));
     const SITE = 'https://tabidokoiko.com';
-    const UTM = 'utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611';
+    const UTM_REST = 'utm_medium=social&utm_campaign=quiz_travelmatch_2611';   // utm_source は共有先ごと（x / share / copy）。共有のURLだけに付ける
     const fmt = (n) => n.toLocaleString('ja-JP');
     const reduced = () => !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
     const QA = /[?&]qa=1(&|$)/.test(location.search);        // 手元の確認用（画面の動きは変えない。地図の状態を data 属性に出すだけ）
@@ -279,10 +289,21 @@ const description = '12の質問に答えると、日本地図の上で候補が
       const link = $('qz-r-link'); const nl = link.cloneNode(true); link.replaceWith(nl); destLink(nl, t);   // 前の結果のクリックを引きずらない
       // 共有: 結果は URL に入れず、結果ページ /quiz/r/<code>/（結果の画像つき）の URL を投稿する。utm は共有の URL だけ
       const text = `私に似合う旅先は【${t.name}(${t.prefecture})】でした。あなたは？`;
-      const entry = `${SITE}/quiz/r/${t.code}/?${UTM}&utm_content=${encodeURIComponent(t.code)}`;
+      const entryFor = (src) => `${SITE}/quiz/r/${t.code}/?utm_source=${src}&${UTM_REST}&utm_content=${encodeURIComponent(t.code)}`;
       const share = $('qz-share');
-      share.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(entry)}&hashtags=${encodeURIComponent('似合う旅先')},${encodeURIComponent('どこ行こ')}`;
-      share.onclick = () => track('share_click', { destination_id: t.id });
+      share.href = `https://x.com/intent/post?text=${encodeURIComponent(text)}&url=${encodeURIComponent(entryFor('x'))}&hashtags=${encodeURIComponent('似合う旅先')},${encodeURIComponent('どこ行こ')}`;
+      share.onclick = () => track('share_click', { destination_id: t.id, method: 'x' });
+      // 共有メニュー（navigator.share がある端末だけ）・リンクをコピー（使えないときはURLを選択状態で見せる）。キャンセルされてもエラーは出さない
+      const menu = $('qz-share-menu'); const copy = $('qz-share-copy'); const note = $('qz-copied'); const box = $('qz-copyurl');
+      note.textContent = ''; box.hidden = true;
+      menu.hidden = !navigator.share;
+      menu.onclick = () => { track('share_click', { destination_id: t.id, method: 'share' }); try { Promise.resolve(navigator.share({ text, url: entryFor('share') })).catch(() => {}); } catch (e) { /* キャンセル・非対応は何も出さない */ } };
+      copy.onclick = async () => {
+        track('share_click', { destination_id: t.id, method: 'copy' });
+        const u = entryFor('copy');
+        try { await navigator.clipboard.writeText(u); note.textContent = 'コピーしました'; box.hidden = true; }
+        catch (e) { box.value = u; box.hidden = false; box.focus(); box.select(); note.textContent = 'URLを選択しました。コピーしてください'; }
+      };
       const ul = $('qz-r-next'); ul.textContent = '';
       r.next.forEach((d, j) => {
         const li = document.createElement('li'); li.style.animationDelay = `${(reduced() ? 0 : 0.9 + j * 0.16).toFixed(2)}s`;

@@ -120,6 +120,31 @@
   "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
+  "name": "phone390 共有ボタン: X・リンクをコピーが出て、はみ出さない",
+  "ok": true,
+  "extra": "{\"x\":{\"vis\":true,\"w\":354,\"h\":54,\"right\":372},\"menu\":{\"vis\":true,\"w\":173,\"h\":44,\"right\":191},\"copy\":{\"vis\":true,\"w\":173,\"h\":44,\"right\":372},\"vw\":390}"
+ },
+ {
+  "name": "phone390 共有メニュー: navigator.share がある環境で出る",
+  "ok": true,
+  "extra": "{\"vis\":true,\"w\":173,\"h\":44,\"right\":191}"
+ },
+ {
+  "name": "phone390 リンクをコピー: クリップボードに結果ページのURL（utm_source=copy・utm_content=code）",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=copy&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
+ },
+ {
+  "name": "phone390 「コピーしました」が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390 共有メニュー: 本文と結果ページのURL（utm_source=share）・キャンセルでエラーなし",
+  "ok": true,
+  "extra": "{\"text\":\"私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？\",\"url\":\"https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=share&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_"
+ },
+ {
   "name": "phone390 共有: hashtags",
   "ok": true,
   "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
@@ -137,12 +162,12 @@
  {
   "name": "phone390 GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
+  "extra": "quiz_start,quiz_complete,share_click,share_click,share_click,result_to_destination,author_x_click"
  },
  {
   "name": "phone390 GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\",\"method\":\"copy\"},{\"place\":\"result\"}]"
  },
  {
   "name": "phone390 GA4: 回答の文言・位置を送っていない",
@@ -300,6 +325,21 @@
   "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
+  "name": "phone360 共有ボタン: X・リンクをコピーが出て、はみ出さない",
+  "ok": true,
+  "extra": "{\"x\":{\"vis\":true,\"w\":324,\"h\":54,\"right\":342},\"menu\":{\"vis\":false,\"w\":0,\"h\":0,\"right\":0},\"copy\":{\"vis\":true,\"w\":324,\"h\":44,\"right\":342},\"vw\":360}"
+ },
+ {
+  "name": "phone360 共有メニュー: navigator.share がない環境では出ない",
+  "ok": true,
+  "extra": "{\"vis\":false,\"w\":0,\"h\":0,\"right\":0}"
+ },
+ {
+  "name": "phone360 コピーが使えないとき: URLを選択状態で表示（utm_source=copy）",
+  "ok": true,
+  "extra": "{\"hidden\":false,\"v\":\"https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=copy&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5\",\"sel\":t"
+ },
+ {
   "name": "phone360 共有: hashtags",
   "ok": true,
   "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
@@ -317,12 +357,12 @@
  {
   "name": "phone360 GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
+  "extra": "quiz_start,quiz_complete,share_click,share_click,result_to_destination,author_x_click"
  },
  {
   "name": "phone360 GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\",\"method\":\"copy\"},{\"place\":\"result\"}]"
  },
  {
   "name": "phone360 GA4: 回答の文言・位置を送っていない",
@@ -480,6 +520,31 @@
   "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
+  "name": "pc1280 共有ボタン: X・リンクをコピーが出て、はみ出さない",
+  "ok": true,
+  "extra": "{\"x\":{\"vis\":true,\"w\":604,\"h\":54,\"right\":942},\"menu\":{\"vis\":true,\"w\":298,\"h\":44,\"right\":636},\"copy\":{\"vis\":true,\"w\":298,\"h\":44,\"right\":942},\"vw\":1280}"
+ },
+ {
+  "name": "pc1280 共有メニュー: navigator.share がある環境で出る",
+  "ok": true,
+  "extra": "{\"vis\":true,\"w\":298,\"h\":44,\"right\":636}"
+ },
+ {
+  "name": "pc1280 リンクをコピー: クリップボードに結果ページのURL（utm_source=copy・utm_content=code）",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=copy&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
+ },
+ {
+  "name": "pc1280 「コピーしました」が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "pc1280 共有メニュー: 本文と結果ページのURL（utm_source=share）・キャンセルでエラーなし",
+  "ok": true,
+  "extra": "{\"text\":\"私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？\",\"url\":\"https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=share&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_"
+ },
+ {
   "name": "pc1280 共有: hashtags",
   "ok": true,
   "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
@@ -497,12 +562,12 @@
  {
   "name": "pc1280 GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
+  "extra": "quiz_start,quiz_complete,share_click,share_click,share_click,result_to_destination,author_x_click"
  },
  {
   "name": "pc1280 GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\",\"method\":\"copy\"},{\"place\":\"result\"}]"
  },
  {
   "name": "pc1280 GA4: 回答の文言・位置を送っていない",
@@ -660,6 +725,31 @@
   "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=x&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
  },
  {
+  "name": "phone390-reduced 共有ボタン: X・リンクをコピーが出て、はみ出さない",
+  "ok": true,
+  "extra": "{\"x\":{\"vis\":true,\"w\":354,\"h\":54,\"right\":372},\"menu\":{\"vis\":true,\"w\":173,\"h\":44,\"right\":191},\"copy\":{\"vis\":true,\"w\":173,\"h\":44,\"right\":372},\"vw\":390}"
+ },
+ {
+  "name": "phone390-reduced 共有メニュー: navigator.share がある環境で出る",
+  "ok": true,
+  "extra": "{\"vis\":true,\"w\":173,\"h\":44,\"right\":191}"
+ },
+ {
+  "name": "phone390-reduced リンクをコピー: クリップボードに結果ページのURL（utm_source=copy・utm_content=code）",
+  "ok": true,
+  "extra": "https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=copy&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_content=6fe35fb5"
+ },
+ {
+  "name": "phone390-reduced 「コピーしました」が出る",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "phone390-reduced 共有メニュー: 本文と結果ページのURL（utm_source=share）・キャンセルでエラーなし",
+  "ok": true,
+  "extra": "{\"text\":\"私に似合う旅先は【田沢湖(秋田県)】でした。あなたは？\",\"url\":\"https://tabidokoiko.com/quiz/r/6fe35fb5/?utm_source=share&utm_medium=social&utm_campaign=quiz_travelmatch_2611&utm_"
+ },
+ {
   "name": "phone390-reduced 共有: hashtags",
   "ok": true,
   "extra": "似合う旅先,どこ行こ / hashtags=%E4%BC%BC%E5%90%88%E3%81%86%E6%97%85%E5%85%88,%E3%81%A9%E3%81%93%E8%A1%8C%E3%81%93"
@@ -677,12 +767,12 @@
  {
   "name": "phone390-reduced GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click",
   "ok": true,
-  "extra": "quiz_start,quiz_complete,share_click,result_to_destination,author_x_click"
+  "extra": "quiz_start,quiz_complete,share_click,share_click,share_click,result_to_destination,author_x_click"
  },
  {
   "name": "phone390-reduced GA4: 送るのは旅先ID・押した場所だけ",
   "ok": true,
-  "extra": "[{\"destination_id\":\"tazawako\"},{\"place\":\"result\"}]"
+  "extra": "[{\"destination_id\":\"tazawako\",\"method\":\"copy\"},{\"place\":\"result\"}]"
  },
  {
   "name": "phone390-reduced GA4: 回答の文言・位置を送っていない",
@@ -745,6 +835,21 @@
   "extra": "神奈川県の、寺社・海・歴史の旅先です。"
  },
  {
+  "name": "結果ページ 鎌倉: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 鎌倉: リンクをコピー（utm_source=copy）・「コピーしました」",
+  "ok": true,
+  "extra": ""
+ },
+ {
+  "name": "結果ページ 鎌倉: 共有メニュー（utm_source=share）・キャンセルでエラーなし",
+  "ok": true,
+  "extra": ""
+ },
+ {
   "name": "結果ページ 鎌倉: 落款が横長・@mori__lab",
   "ok": true,
   "extra": "88x26"
@@ -788,6 +893,11 @@
   "name": "結果ページ 宮古島: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "沖縄本島の南西に浮かぶ離島、宮古島。島内は車で回るのが現実的だ。"
+ },
+ {
+  "name": "結果ページ 宮古島: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
  },
  {
   "name": "結果ページ 宮古島: 落款が横長・@mori__lab",
@@ -835,6 +945,11 @@
   "extra": "東京都の、離島・海・自然の旅先です。"
  },
  {
+  "name": "結果ページ 父島: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
+ },
+ {
   "name": "結果ページ 父島: 落款が横長・@mori__lab",
   "ok": true,
   "extra": "88x26"
@@ -878,6 +993,11 @@
   "name": "結果ページ 札幌: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "北海道の、街歩き・グルメ・歴史の旅先です。"
+ },
+ {
+  "name": "結果ページ 札幌: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
  },
  {
   "name": "結果ページ 札幌: 落款が横長・@mori__lab",
@@ -925,6 +1045,11 @@
   "extra": "大分県別府市は、源泉数・湧出量ともに国内有数の温泉地だ。別府駅を起点に市内を歩ける。"
  },
  {
+  "name": "結果ページ 別府: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
+ },
+ {
   "name": "結果ページ 別府: 落款が横長・@mori__lab",
   "ok": true,
   "extra": "88x26"
@@ -970,6 +1095,11 @@
   "extra": "北海道の森の中を現役のSLが走る公園だ。丸瀬布森林公園いこいの森は、湿地の木道を歩きながら汽笛を間近に聞ける場所で、初夏には湿地に花々が咲く。"
  },
  {
+  "name": "結果ページ 丸瀬布森林公園いこいの森: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
+ },
+ {
   "name": "結果ページ 丸瀬布森林公園いこいの森: 落款が横長・@mori__lab",
   "ok": true,
   "extra": "88x26"
@@ -1013,6 +1143,11 @@
   "name": "結果ページ 飯坂温泉: og:description・meta description が desc.json と同じ・本文にも出る",
   "ok": true,
   "extra": "摺上川の谷に宿が三十軒あまり並び、そのあいだに共同浴場が点在する。中でも鯖湖湯は日本でも古い木造の共同浴場を復元したもので、大きな一枚屋根と黒光りする板壁が通りの目印になっている。"
+ },
+ {
+  "name": "結果ページ 飯坂温泉: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags",
+  "ok": true,
+  "extra": ""
  },
  {
   "name": "結果ページ 飯坂温泉: 落款が横長・@mori__lab",

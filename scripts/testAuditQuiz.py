@@ -76,6 +76,20 @@ case('結果ページに禁止語「必ず」', [RP], txt(lambda t: t.replace('�
 case('結果ページの作った人のXのリンクを消す', [RP], txt(lambda t: t.replace('href="https://x.com/mori__lab"', 'href="https://x.com/"')))
 case('結果ページに位置（緯度経度）', [RP], txt(lambda t: t.replace('<h1', '<!-- 35.123456,139.123456 --><h1', 1)))
 case('sitemap に結果ページが入る', ['dist/sitemap.xml'], txt(lambda t: t.replace('</urlset>', f'<url><loc>https://tabidokoiko.com/quiz/r/{c0}/</loc></url></urlset>')))
+# ---- 共有ボタン
+import glob
+JSF = glob.glob('dist/_astro/quiz.astro_astro_type_script*.js')[0]
+case('/quiz/ から共有メニューのボタンが消える', [F], txt(lambda t: t.replace('id="qz-share-menu"', 'id="qz-x-menu"', 1)))
+case('/quiz/ から「リンクをコピー」のボタンが消える', [F], txt(lambda t: t.replace('id="qz-share-copy"', 'id="qz-x-copy"', 1)))
+case('/quiz/ の共有メニューが最初から見えている', [F], txt(lambda t: re.sub(r'(id="qz-share-menu"[^>]*?)\s*hidden(=""|)', r'\1', t, count=1)))
+case('utm_source の種類（copy）が消える', [JSF], txt(lambda t: t.replace('("copy")', '("x")')))
+case('共有メニューの出し分け（navigator.share）が消える', [JSF], txt(lambda t: t.replace('.hidden=!navigator.share', '.hidden=!1')))
+case('Xの投稿画面のURLの形が違う（hashtags が消える）', [JSF], txt(lambda t: t.replace('&hashtags=', '&tags=', 1)))
+case('GA4 share_click の種類（method）が消える', [JSF], txt(lambda t: t.replace('method:"copy"', 'method:"x"')))
+case('結果ページのXのリンクの utm_source が違う', [RP], txt(lambda t: t.replace('utm_source%3Dx', 'utm_source%3Dcopy', 1)))
+case('結果ページのXのリンクの本文が違う', [RP], txt(lambda t: t.replace('%E3%81%A7%E3%81%97%E3%81%9F', '%E3%81%A7%E3%81%99', 1)))
+case('結果ページから「リンクをコピー」が消える', [RP], txt(lambda t: t.replace('id="share-copy"', 'id="x"', 1)))
+case('結果ページの共有メニューが最初から見えている', [RP], txt(lambda t: re.sub(r'(id="share-menu"[^>]*?)\s*hidden(=""|)', r'\1', t, count=1)))
 # ---- 地図の出典・落款
 AB = 'dist/about/index.html'
 case('about から地図の出典（Natural Earth）が消える', [AB], txt(lambda t: t.replace('Natural Earth', 'ある地図データ')))

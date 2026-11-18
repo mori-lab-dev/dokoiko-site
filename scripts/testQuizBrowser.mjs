@@ -71,6 +71,8 @@ async function runFlow(page, picks, vp, { shots = false, check = true, label = '
 for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h: 740 }, { n: 'pc1280', w: 1280, h: 800 }, { n: 'phone390-reduced', w: 390, h: 844, reduced: true }]) {
   const ctx = await browser.newContext({ viewport: { width: vp.w, height: vp.h }, reducedMotion: vp.reduced ? 'reduce' : 'no-preference', deviceScaleFactor: 2 });
   const page = await ctx.newPage();
+  if (vp.n !== 'phone360') await ctx.grantPermissions(['clipboard-read', 'clipboard-write'], { origin: BASE });
+  await page.addInitScript((noShare) => { if (noShare) { try { Object.defineProperty(navigator, 'clipboard', { value: { writeText: () => Promise.reject(new Error('denied')) }, configurable: true }); delete Navigator.prototype.share; Object.defineProperty(navigator, 'share', { value: undefined, configurable: true }); } catch (e) { /* */ } } else { window.__shared = []; Object.defineProperty(navigator, 'share', { value: (d) => { window.__shared.push(d); return Promise.reject(new DOMException('cancel', 'AbortError')); }, configurable: true }); } }, vp.n === 'phone360');
   const errors = []; const reqs = [];
   page.on('pageerror', (e) => errors.push(String(e)));
   page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
@@ -119,6 +121,22 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   ok(`${vp.n} 共有: x.com/intent/post`, u.origin + u.pathname === 'https://x.com/intent/post');
   ok(`${vp.n} 共有: 本文`, u.searchParams.get('text') === `私に似合う旅先は【${expA.top.name}(${expA.top.prefecture})】でした。あなたは？` && !u.searchParams.get('text').includes('作者'), u.searchParams.get('text'));
   ok(`${vp.n} 共有: url は結果ページ /quiz/r/<code>/ ＋ utm 4つ（utm_content=code）`, entry.origin + entry.pathname === `https://tabidokoiko.com/quiz/r/${expA.top.code}/` && entry.searchParams.get('utm_source') === 'x' && entry.searchParams.get('utm_medium') === 'social' && entry.searchParams.get('utm_campaign') === 'quiz_travelmatch_2611' && entry.searchParams.get('utm_content') === expA.top.code && [...entry.searchParams.keys()].length === 4, entry.href);
+  const bx = await page.evaluate(() => { const r = (id) => { const e = document.getElementById(id); const b = e.getBoundingClientRect(); return { vis: !e.hidden && getComputedStyle(e).display !== 'none', w: Math.round(b.width), h: Math.round(b.height), right: Math.round(b.right) }; }; return { x: r('qz-share'), menu: r('qz-share-menu'), copy: r('qz-share-copy'), vw: document.documentElement.clientWidth }; });
+  ok(`${vp.n} 共有ボタン: X・リンクをコピーが出て、はみ出さない`, bx.x.vis && bx.copy.vis && bx.x.right <= bx.vw && bx.copy.right <= bx.vw && bx.copy.h >= 40, JSON.stringify(bx));
+  ok(`${vp.n} 共有メニュー: navigator.share が${vp.n === 'phone360' ? 'ない環境では出ない' : 'ある環境で出る'}`, vp.n === 'phone360' ? !bx.menu.vis : (bx.menu.vis && bx.menu.right <= bx.vw), JSON.stringify(bx.menu));
+  const hx = await page.evaluate(() => { const c = document.getElementById('qz-share-copy'); c.addEventListener('click', (e) => e.preventDefault(), true); return 1; });
+  await page.click('#qz-share-copy');
+  if (vp.n !== 'phone360') {
+    const clip = await page.evaluate(() => navigator.clipboard.readText()); const cu = new URL(clip);
+    ok(`${vp.n} リンクをコピー: クリップボードに結果ページのURL（utm_source=copy・utm_content=code）`, cu.origin + cu.pathname === `https://tabidokoiko.com/quiz/r/${expA.top.code}/` && cu.searchParams.get('utm_source') === 'copy' && cu.searchParams.get('utm_medium') === 'social' && cu.searchParams.get('utm_campaign') === 'quiz_travelmatch_2611' && cu.searchParams.get('utm_content') === expA.top.code, clip);
+    ok(`${vp.n} 「コピーしました」が出る`, (await page.textContent('#qz-copied')) === 'コピーしました');
+    await page.click('#qz-share-menu'); await page.waitForTimeout(150);
+    const sh = await page.evaluate(() => window.__shared); const su = new URL(sh[0].url);
+    ok(`${vp.n} 共有メニュー: 本文と結果ページのURL（utm_source=share）・キャンセルでエラーなし`, sh.length === 1 && sh[0].text === `私に似合う旅先は【${expA.top.name}(${expA.top.prefecture})】でした。あなたは？` && su.searchParams.get('utm_source') === 'share' && su.searchParams.get('utm_content') === expA.top.code && errors.length === 0, JSON.stringify(sh[0]).slice(0, 160));
+  } else {
+    const fv = await page.evaluate(() => { const b = document.getElementById('qz-copyurl'); return { hidden: b.hidden, v: b.value, sel: b.selectionStart === 0 && b.selectionEnd === b.value.length }; });
+    ok(`${vp.n} コピーが使えないとき: URLを選択状態で表示（utm_source=copy）`, !fv.hidden && fv.sel && new URL(fv.v).searchParams.get('utm_source') === 'copy', JSON.stringify(fv).slice(0, 160));
+  }
   ok(`${vp.n} 共有: hashtags`, u.searchParams.get('hashtags') === '似合う旅先,どこ行こ', u.searchParams.get('hashtags') + ' / ' + share.slice(share.indexOf('hashtags')));
   ok(`${vp.n} 作った人のXのリンク（結果の画面）`, (await page.getAttribute('#qz-author', 'href')) === 'https://x.com/mori__lab' && (await page.getAttribute('#qz-author', 'rel')) === 'noopener');
   ok(`${vp.n} 結果画面 横スクロールなし`, (await overflow()) <= 0, '差=' + (await overflow()));
@@ -129,10 +147,11 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   // GA4
   await page.evaluate(() => { for (const id of ['qz-share', 'qz-r-link', 'qz-author']) document.getElementById(id).addEventListener('click', (e) => e.preventDefault(), true); });
   await page.click('#qz-share'); await page.click('#qz-r-link'); await page.click('#qz-author');
+  const gaShare = await page.evaluate(() => window.dataLayer.map((a) => Array.from(a)).filter((a) => a[1] === 'share_click').map((a) => a[2]));
   const ev = await page.evaluate(() => window.dataLayer.map((a) => Array.from(a)).filter((a) => a[0] === 'event'));
   const names = ev.map((e) => e[1]); const get = (n) => ev.find((e) => e[1] === n);
   ok(`${vp.n} GA4: quiz_start・quiz_complete・share_click・result_to_destination・author_x_click`, ['quiz_start', 'quiz_complete', 'share_click', 'result_to_destination', 'author_x_click'].every((n) => names.includes(n)), names.join(','));
-  ok(`${vp.n} GA4: 送るのは旅先ID・押した場所だけ`, Object.keys(get('share_click')[2]).join() === 'destination_id' && get('share_click')[2].destination_id === expA.top.id && Object.keys(get('author_x_click')[2]).join() === 'place' && get('author_x_click')[2].place === 'result' && Object.keys(get('quiz_start')[2]).length === 0, JSON.stringify([get('share_click')[2], get('author_x_click')[2]]));
+  ok(`${vp.n} GA4: 送るのは旅先ID・押した場所だけ`, gaShare.every((g) => Object.keys(g).join() === 'destination_id,method' && g.destination_id === expA.top.id) && ['copy', 'x'].every((m) => gaShare.some((g) => g.method === m)) && Object.keys(get('author_x_click')[2]).join() === 'place' && get('author_x_click')[2].place === 'result' && Object.keys(get('quiz_start')[2]).length === 0, JSON.stringify([get('share_click')[2], get('author_x_click')[2]]));
   ok(`${vp.n} GA4: 回答の文言・位置を送っていない`, !/静かなところ|どちらでも|1泊で|にぎやか|たくさん歩きたい|latitude|longitude/.test(JSON.stringify(ev)));
   const stor = await page.evaluate(() => ({ ls: Object.keys(localStorage).length, ss: Object.keys(sessionStorage).length }));
   ok(`${vp.n} 保存なし（localStorage・sessionStorage）`, stor.ls === 0 && stor.ss === 0, JSON.stringify(stor));
@@ -171,7 +190,9 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
 
 // ---- 結果ページ・共有画像（ビルド済み）
 const rctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+await rctx.grantPermissions(['clipboard-read', 'clipboard-write'], { origin: BASE });
 const rp = await rctx.newPage();
+await rp.addInitScript(() => { window.__shared = []; Object.defineProperty(navigator, 'share', { value: (d) => { window.__shared.push(d); return Promise.reject(new DOMException('cancel', 'AbortError')); }, configurable: true }); });
 const pickCodes = ['kamakura', 'miyakojima', 'chichijima', 'sapporo', 'beppu'].map((id) => DATA.find((d) => d.id === id)).filter(Boolean);
 pickCodes.push(...DATA.filter((x) => x.name.startsWith('丸瀬布')));
 pickCodes.push(DATA.reduce((a, b) => (DESC[b.id].length > DESC[a.id].length ? b : a)));   // 説明がいちばん長い旅先
@@ -186,6 +207,14 @@ for (const d of pickCodes) {
   ok(`結果ページ ${d.name}: 旅先ページ・/quiz/・作った人のX`, (await meta('a.go', 'href')) === d.url && (await meta('a.quiz', 'href')) === '/quiz/' && (await meta('#author', 'href')) === 'https://x.com/mori__lab' && (await meta('#author', 'rel')) === 'noopener');
   const odesc = await meta('meta[property="og:description"]', 'content'); const mdesc = await meta('meta[name=description]', 'content');
   ok(`結果ページ ${d.name}: og:description・meta description が desc.json と同じ・本文にも出る`, odesc === DESC[d.id] && mdesc === DESC[d.id] && (await rp.textContent('.desc')) === DESC[d.id], `${odesc}`);
+  const xh = new URL(await rp.getAttribute('#share-x', 'href')); const xe = new URL(xh.searchParams.get('url'));
+  ok(`結果ページ ${d.name}: 共有ボタン3つ・Xの本文・url（utm_source=x）・hashtags`, xh.origin + xh.pathname === 'https://x.com/intent/post' && xh.searchParams.get('text') === `私に似合う旅先は【${d.name}(${d.prefecture})】でした。あなたは？` && xe.origin + xe.pathname === `https://tabidokoiko.com/quiz/r/${d.code}/` && xe.searchParams.get('utm_source') === 'x' && xe.searchParams.get('utm_content') === d.code && xh.searchParams.get('hashtags') === '似合う旅先,どこ行こ' && (await rp.$('#share-menu')) !== null && (await rp.$('#share-copy')) !== null);
+  if (d.id === 'kamakura') {
+    await rp.click('#share-copy'); const clip = new URL(await rp.evaluate(() => navigator.clipboard.readText()));
+    ok(`結果ページ ${d.name}: リンクをコピー（utm_source=copy）・「コピーしました」`, clip.searchParams.get('utm_source') === 'copy' && clip.searchParams.get('utm_content') === d.code && (await rp.textContent('#copied')) === 'コピーしました');
+    await rp.click('#share-menu'); await rp.waitForTimeout(150); const sh = await rp.evaluate(() => window.__shared);
+    ok(`結果ページ ${d.name}: 共有メニュー（utm_source=share）・キャンセルでエラーなし`, sh.length === 1 && new URL(sh[0].url).searchParams.get('utm_source') === 'share');
+  }
   const sb2 = await rp.$eval('.seal', (e) => ({ w: e.offsetWidth, h: e.offsetHeight, t: e.textContent }));
   ok(`結果ページ ${d.name}: 落款が横長・@mori__lab`, sb2.w / sb2.h >= 2.8 && sb2.w / sb2.h <= 4.2 && sb2.t === '@mori__lab', `${sb2.w}x${sb2.h}`);
   ok(`結果ページ ${d.name}: 縦書きの名前・バッジ・落款`, (await rp.$eval('h1', (e) => getComputedStyle(e).writingMode)) === 'vertical-rl' && (d.win > 0) === ((await rp.$('.badge')) !== null) && (await rp.$('.seal')) !== null);
