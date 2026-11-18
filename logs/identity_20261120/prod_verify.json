@@ -2,74 +2,109 @@
  "取得": 2575,
  "非200": [],
  "バイト不一致": [],
- "旅先ページ": 1293,
- "転送ページ": 17,
+ "旅先ページ": 1287,
+ "転送ページ": 23,
  "注意書きの件数が1でない旅先": [],
  "注意書きがあってはいけないページ": [],
- "全件の検査": {
-  "編集の件数": 7,
-  "全件": [
-   {
-    "page": "tsumago",
-    "rule": "IMG",
-    "旧": "Ohara-juku10s3200.jpg",
-    "本番で期待どおり": true
-   },
-   {
-    "page": "tsumago",
-    "rule": "IMG",
-    "旧": "Osaka_Castle_02bs3200.jpg",
-    "本番で期待どおり": true
-   },
-   {
-    "page": "yamadera",
-    "rule": "IMG",
-    "旧": "170216_Chionin_Kyoto_Japan01.J",
-    "本番で期待どおり": true
-   },
-   {
-    "page": "yamadera",
-    "rule": "IMG",
-    "旧": "Matsushima_miyagi_z.JPG",
-    "本番で期待どおり": true
-   },
-   {
-    "page": "yakake",
-    "rule": "IMG",
-    "旧": "Ohara-juku10s3200.jpg",
-    "本番で期待どおり": true
-   },
-   {
-    "page": "ono-fukui",
-    "rule": "IMG",
-    "旧": "Japan_Tojinbo02n4592.jpg",
-    "本番で期待どおり": true
-   },
-   {
-    "page": "hachimantai-onsen",
-    "rule": "IMG",
-    "旧": "Yufuin_Onsen_Rotenburo.JPG",
-    "本番で期待どおり": true
-   }
-  ],
+ "画像を外した全件": {
+  "件数": 137,
   "NG": [],
-  "種類ごと": {
-   "画像": {
-    "件数": 7,
-    "旧文なし": 7
-   }
-  }
+  "ファイル404": 134,
+  "ファイル404でない": []
  },
- "タイトル検査": [
+ "転送ページ6": [
   {
-   "id": "gen_北海_チキウ岬",
-   "title": "【チキウ岬】おすすめ観光スポット｜北海道の旅",
-   "三つが同じで変更後と一致": true
+   "200": true,
+   "from": "gen_北海_金花湯",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_弁天台場",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_オソウシ温泉",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_平田内温泉",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_樹海温泉",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_鹿の湯",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
   }
  ],
- "メタの検査": [],
- "統合関連ページのHTTP": {
-  "200": 27
+ "転送ページ6のNG": 0,
+ "診断": {
+  "結果ページ数": 1191,
+  "診断の旅先数": 1173,
+  "転送コード数": 18,
+  "非200": 0,
+  "転送の形のNG": [],
+  "共有画像_非200": []
  },
- "統合関連ページ数": 27
+ "応援割と車なし旅": {
+  "直した項目": 4,
+  "NG": [],
+  "/ouen-wari/": {
+   "2026年11月19日の件数": 0
+  },
+  "/kagoshima-fukko/": {
+   "2026年11月19日の件数": 3
+  },
+  "/fukuoka-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/kumamoto-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/saga-oen/": {
+   "2026年11月19日の件数": 2
+  },
+  "/nagasaki-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/oita-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/destinations/chikugogawa/": {
+   "2026年11月19日の件数": 6
+  },
+  "/destinations/kurokawa-k/": {
+   "2026年11月19日の件数": 10
+  },
+  "/destinations/niche_大分_3/": {
+   "2026年11月19日の件数": 12
+  }
+ },
+ "主要ページ": [],
+ "バイト不一致の数": 0
 }
