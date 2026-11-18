@@ -39,7 +39,7 @@ for (const s of scripts) { const r = await get(`${SITE}${s}`); ok(`(b) ${s.slice
 const js = scripts.filter((s) => s.endsWith('.js')).map((s) => fs.readFileSync(path.join('dist', s), 'utf8')).join('');
 ok('(b) 地図データ（都道府県の境）がJSに、診断の旅先（1,191件）がページに入っている', js.includes('"pref"') && js.includes('"key":"main"') && (qh.match(/"code":"[0-9a-f]{8}"/g) || []).length === data.length, String((qh.match(/"code":"[0-9a-f]{8}"/g) || []).length));
 // (c)(d)
-const want = ['kamakura', 'miyakojima', 'chichijima', 'sapporo'].map((id) => data.find((x) => x.id === id)).concat(data.filter((x) => x.name.startsWith('丸瀬布')));
+const want = ['kamakura', 'miyakojima', 'chichijima', 'sapporo', 'ama-island'].map((id) => data.find((x) => x.id === id)).concat(data.filter((x) => x.name.startsWith('丸瀬布')));
 let seed = 12345; const rnd = () => (seed = (seed * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff;
 const pool = data.filter((x) => !want.includes(x)); while (want.length < N) want.push(pool.splice(Math.floor(rnd() * pool.length), 1)[0]);
 const desc = JSON.parse(fs.readFileSync('src/data/quizDesc.json', 'utf8'));
