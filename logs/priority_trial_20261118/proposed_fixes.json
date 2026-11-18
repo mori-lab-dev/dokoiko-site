@@ -1,0 +1,95 @@
+{
+  "note": "優先ページ3つの試験の修正案（適用していない・mergeConflictFixes と同じ形式）",
+  "date": "2026-11-18",
+  "fixes": [
+    {
+      "id": "T1",
+      "topic": "優先ページ3つの食い違い10件",
+      "result": "案",
+      "sources": [
+        "https://suo-oshima-kanko.net/spot/oshima-ohashi（周防大島観光協会：町営駐車場40台・無料）",
+        "https://suo-oshima-kanko.net/spot/matsuda-orange（周防大島観光協会：食べ放題1時間・中学生以上600円または800円）",
+        "https://www.city.fuefuki.yamanashi.jp/machizukuri/kouen.html（笛吹市：石和温泉駅前公園の足湯 4〜9月10:00〜18:00・10〜3月10:00〜17:00）",
+        "https://www.yamanashi-kankou.jp/special/ekinaka_wine.html（やまなし観光推進機構）",
+        "https://www.fuefuki-kanko.jp/detail/336/index.html（笛吹市観光物産連盟）",
+        "https://www.fuefuki-kanko.jp/detail/220/index.html（笛吹市観光物産連盟）",
+        "https://ikomakougen.com/information（生駒高原 公式：中学生以上700円・小学生以下無料）",
+        "https://ikomakougen.com/information",
+        "https://ikomakougen.com/information（通常営業 9:00〜17:00・最終入園16:30）",
+        "https://www.kanko-miyazaki.jp/en/sightseeing/1025（宮崎県観光協会：標高540m）"
+      ],
+      "edits": [
+        {
+          "file": "src/data/articles/suo-oshima.json",
+          "field": "sections.1.info",
+          "old": "駐車場：橋詰付近に数台分あり（無料）",
+          "new": "駐車場：町営駐車場あり（40台・無料）",
+          "memo": "標本8・公式の値に直す"
+        },
+        {
+          "file": "src/data/articles/suo-oshima.json",
+          "field": "sections.2.info",
+          "old": "料金目安：600〜800円（食べ放題30分）",
+          "new": "料金目安：600〜800円（食べ放題1時間）",
+          "memo": "標本11・公式の値に直す"
+        },
+        {
+          "file": "src/data/articles/isawa-onsen.json",
+          "field": "sections.0.info",
+          "old": "営業時間：常時開放（深夜は街灯のみ）\n",
+          "new": "",
+          "memo": "標本5・行を削除（対象施設が特定できず、公式は利用時間を定めている）"
+        },
+        {
+          "file": "src/data/articles/isawa-onsen.json",
+          "field": "sections.2.info",
+          "old": "試飲料金：500円〜1500円程度\n",
+          "new": "",
+          "memo": "標本9・行を削除（公式は無料〜500円前後で、500〜1500円に当たる値が無い）"
+        },
+        {
+          "file": "src/data/articles/isawa-onsen.json",
+          "field": "sections.2.info",
+          "old": "営業時間：10:00〜17:00（施設により異なる）",
+          "new": "",
+          "memo": "標本10・行を削除（公式は施設ごとに 9:00〜16:30 など。10:00〜17:00 に当たる施設が無い）"
+        },
+        {
+          "file": "src/data/articles/isawa-onsen.json",
+          "field": "tips",
+          "old": "レンタサイクルは駅前で1日500円ほど。",
+          "new": "レンタサイクルは石和温泉駅1階の観光案内所で借りられ、無料（保証金1,000円は返却時に返金）。",
+          "memo": "標本13・公式の値に直す（削除でもよい）"
+        },
+        {
+          "file": "src/data/articles/ikoma-kogen.json",
+          "field": "sections.0.body",
+          "old": "入園料は大人500円。",
+          "new": "入園料は中学生以上700円。",
+          "memo": "標本3・公式の値に直す"
+        },
+        {
+          "file": "src/data/articles/ikoma-kogen.json",
+          "field": "sections.0.info",
+          "old": "料金：大人500円、子ども200円",
+          "new": "料金：中学生以上700円（小学生・未就学児は無料）",
+          "memo": "標本6・公式の値に直す"
+        },
+        {
+          "file": "src/data/articles/ikoma-kogen.json",
+          "field": "sections.0.info",
+          "old": "開園時間：8:30〜17:00",
+          "new": "開園時間：9:00〜17:00",
+          "memo": "標本7・公式の値に直す"
+        },
+        {
+          "file": "src/data/articles/ikoma-kogen.json",
+          "field": "tips",
+          "old": "標高700mなので、秋は朝夕が10℃を下回ることもある。\n",
+          "new": "",
+          "memo": "標本13・文を削除（標高は公式540mで、後半の気温は公式に記載が無い）"
+        }
+      ]
+    }
+  ]
+}

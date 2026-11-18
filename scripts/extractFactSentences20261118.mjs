@@ -10,19 +10,8 @@
 import fs from 'fs';
 const OUT = 'logs/audit_sample_20261118'; fs.mkdirSync(OUT, { recursive: true });
 const dests = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8'));
-const NUMC = '[0-9０-９][0-9０-９,，.．]*';
-const RULES = [
-  ['料金', new RegExp(`料金|入館料|拝観料|入場料|参拝料|観覧料|運賃|乗船料|宿泊料|利用料|レンタル料|${NUMC}\\s*円|無料|有料`)],
-  ['休館日', /休館|定休|休業|休園|[月火水木金土日]曜(日)?(休|定休)|年中無休|無休|休み/],
-  ['営業時間', new RegExp(`営業時間|開館時間|開園時間|拝観時間|参拝時間|見学時間|受付時間|営業:|営業：|${NUMC}:${NUMC}\\s*[〜～~\\-－]|${NUMC}時\\s*[〜～~]\\s*${NUMC}時`)],
-  ['時刻', new RegExp(`${NUMC}:[0-9０-９]{2}|(^|[^0-9０-９])[0-9０-９]{1,2}時(?![間])(\\s*[0-9０-９]{1,2}分)?`)],
-  ['標高・距離', new RegExp(`標高|海抜|${NUMC}\\s*(km|ｋｍ|㎞|キロメートル|キロ|m|ｍ|メートル|センチ|cm)(?![a-zA-Z])|全長|周囲|幹周|高さ|深さ|落差`)],
-  ['年号', new RegExp(`樹齢|創建|築造|建立|造営|開創|開山|築城|開基|建築|${NUMC}\\s*年(?!間)|(慶長|元和|寛永|享保|宝永|天正|文久|嘉永|安政|明治|大正|昭和|平成|令和|延喜|大同|建久|寛政|天保)[0-9０-９元]+年|[0-9０-９]+世紀`)],
-  ['その他の数値', new RegExp(`${NUMC}\\s*(段|本|人|棟|室|軒|か所|ヶ所|カ所|箇所|万|%|％|度|℃|倍|頭|匹|基|周|回|世帯|枚|ha|ヘクタール|㎡|㎢|平方|席|台|個|種|組|名|体|品)`)],
-];
+import { RULES, sents, kindOf } from './lib/factRules20261118.mjs';
 // 所要時間だけの文は対象外（分・時間・泊・日の数字しか無い）。種類の規則に当たらなければ、そもそも対象にならない
-const sents = (t) => String(t || '').split(/\n+/).flatMap((l) => (/^■|^[^。]{1,12}：/.test(l.trim()) && !l.includes('。') ? [l.trim()] : (l.match(/[^。]+。?/g) || []).map((x) => x.trim()))).filter(Boolean);
-const kindOf = (s) => { for (const [k, re] of RULES) if (re.test(s)) return k; return null; };
 const units = [];
 const add = (d, where, text) => { for (const s of sents(text)) { if (/^■/.test(s)) continue; const k = kindOf(s); if (k) units.push({ page: d.id, name: d.name, url: `/destinations/${d.id}/`, where, 種類: k, 文: s }); } };
 for (const d of dests) {
