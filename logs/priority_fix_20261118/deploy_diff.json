@@ -1,0 +1,21 @@
+{
+ "変わったファイル数": 1299,
+ "最上位ごと": {
+  "_astro": 2,
+  "build-info.json": 1,
+  "data": 1,
+  "destinations": 1293,
+  "miyazaki-oen": 1,
+  "ouen-wari": 1
+ },
+ "旅先ページの変更": 1293,
+ "うち優先ページの修正": 99,
+ "うち注意書き・CSS名だけの変更": 1194,
+ "想定外の変更のある旅先ページ": [],
+ "新規ページ": [],
+ "旅先以外で変わったもの": [
+  "build-info.json",
+  "miyazaki-oen/index.html",
+  "ouen-wari/index.html"
+ ]
+}
