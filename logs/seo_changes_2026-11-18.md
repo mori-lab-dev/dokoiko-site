@@ -1,6 +1,6 @@
 # メタの変更（2026-11-18）
 
-メタ（description・og:description・twitter:description・構造化データの description）が変わったページ: 5。うち 2026-11-09 にも title・description を変えたページ: 2。
+メタ（description・og:description・twitter:description・構造化データの description）が変わったページ: 6。うち 2026-11-09 にも title・description を変えたページ: 2。
 title は、どのページも変えていない。
 
 | ページ | 11/9にも変更 | 変えた欄 |
@@ -9,6 +9,7 @@ title は、どのページも変えていない。
 | 生月島（ikitsukijima） | いいえ | description・ogDescription・twDescription・構造化データの description |
 | 生駒高原（ikoma-kogen） | はい | description・ogDescription・twDescription・構造化データの description |
 | 女木島（megijima） | いいえ | description・ogDescription・twDescription・構造化データの description |
+| 関之尾滝（niche_鹿児島_2） | いいえ | description・ogDescription・twDescription・構造化データの description |
 | 立山黒部アルペンルート（tateyama-kurobe） | いいえ | description・ogDescription・twDescription・構造化データの description |
 
 ## 天に続く道（gen_北海_天に続く道）
@@ -38,6 +39,13 @@ title は、どのページも変えていない。
 > 香川県・瀬戸内海に浮かぶ離島で、「桃太郎」の鬼ヶ島のモデルとされる。日帰りも十分可能だ。入場料700円で暗闇の洞窟内を歩き、岩肌が続く空間を探検できる。
 変更後 description:
 > 香川県・瀬戸内海に浮かぶ離島で、「桃太郎」の鬼ヶ島のモデルとされる。日帰りも十分可能だ。入場料600円で暗闇の洞窟内を歩き、岩肌が続く空間を探検できる。
+
+## 関之尾滝（niche_鹿児島_2）
+
+変更前 description:
+> 都城市の庄内川に落ちる関之尾滝は、落差40メートルの段瀑だ。遊歩道に複数のビューポイントが設けられ、角度を変えながら白い流れを追える。滝下流の岩盤には甌穴群が刻まれている。
+変更後 description:
+> 都城市の庄内川に落ちる関之尾滝は、落差18メートルの段瀑だ。遊歩道に複数のビューポイントが設けられ、角度を変えながら白い流れを追える。滝下流の岩盤には甌穴群が刻まれている。
 
 ## 立山黒部アルペンルート（tateyama-kurobe）
 
