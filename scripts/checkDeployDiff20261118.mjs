@@ -3,7 +3,7 @@
 //   優先ページ以外の旅先ページは、CSSのハッシュを除くと HEAD と同一であること。転送ページ・診断・トップなどは変わっていないこと。
 import fs from 'fs'; import { execFileSync } from 'child_process';
 const R = '../dokoiko'; const g = (...a) => execFileSync('git', ['-C', R, ...a], { encoding: 'utf8', maxBuffer: 1 << 28 });
-const edits = (process.argv[2] || 'e,f').split(',').flatMap((x) => JSON.parse(fs.readFileSync(`scripts/data/mergeFactFixes20261118${x}.json`, 'utf8')).fixes.flatMap((f) => f.edits)); const touched = new Set(edits.map((e) => e.page));
+const edits = (process.argv[2] || 'e,f').split(',').flatMap((x) => JSON.parse(fs.readFileSync((x.length > 2 ? `scripts/data/mergeFactFixes${x}.json` : `scripts/data/mergeFactFixes20261118${x}.json`), 'utf8')).fixes.flatMap((f) => f.edits)); const touched = new Set(edits.map((e) => e.page));
 const changed = g('-c', 'core.quotepath=off', 'status', '--porcelain').split('\n').filter(Boolean).map((l) => l.slice(3).replace(/^"|"$/g, ''));
 const dirs = new Set(), tops = {};
 for (const f of changed) { const top = f.split('/')[0]; tops[top] = (tops[top] || 0) + 1; }
