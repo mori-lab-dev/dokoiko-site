@@ -85,7 +85,7 @@ for (const [old, m] of Object.entries(moved)) {
 ok('(e) 消えた旅先の共有画像が本番に無い（404）', (await get(`${SITE}/quiz/og/${Object.keys(moved)[0]}.png`)).status === 404);
 // (f)
 if (PRE) {
-  const norm2 = (h) => h.replace(/<p class="jw-note"[\s\S]*?<\/p>/g, '').replace(/data-fetched="[^"]*"/g, '').replace(/\s+/g, '');
+  const norm2 = (h) => h.replace(/1[23]\d\d(か所|件|か所の)/g, 'N$1').replace(/<p class="jw-note"[\s\S]*?<\/p>/g, '').replace(/data-fetched="[^"]*"/g, '').replace(/\s+/g, '');
   const ids = (h) => new Set([...h.matchAll(/href="\/destinations\/([^/"#?]+)\/"/g)].map((m) => decodeURIComponent(m[1])));
   const removed = new Set(pairs.map((p) => p.from));
   for (const [p, f] of [['/', '_'], ['/ouen-wari/', '_ouen-wari_'], ['/kagoshima-oen/', '_kagoshima-oen_'], ['/destinations/abashiri/', '_destinations_abashiri_'], ['/destinations/dazaifu-2/', '_destinations_dazaifu-2_'], ['/contact/', '_contact_'], ['/privacy/', '_privacy_'], ['/terms/', '_terms_'], ['/list/', '_list_']]) {
