@@ -50,7 +50,9 @@ const unsplashPhotoUrl  = unsplashUrl ? ((dest as any).unsplashPhotoUrl ?? null)
 
 // 個別に書いた title / description（dest.seo、または車なしガイド carFree.seo）があるページはそれを使う（scripts/auditSeoCopy.mjs が本文と照合する）
 const carFreeSeo = ((dest as any).seo ?? (dest as any).carFree?.seo) as { title: string; description: string } | undefined;
-const seoTitle = carFreeSeo?.title ?? `【${dest.name}】おすすめ観光スポット${dest.spots?.length || 3}選｜${dest.prefecture}の旅`;
+// 見どころが1件のときは「1選」が不自然なので数を付けない（2件以上は従来どおり「N選」）。事実は足さない（2026-11-19）
+const spotCount = dest.spots?.length || 3;
+const seoTitle = carFreeSeo?.title ?? (spotCount === 1 ? `【${dest.name}】おすすめ観光スポット｜${dest.prefecture}の旅` : `【${dest.name}】おすすめ観光スポット${spotCount}選｜${dest.prefecture}の旅`);
 // meta description は 120字前後に整形する。dest.description（200〜300字）を
 // そのまま使うと検索結果で途中切りされるため、文境界（。）で 120字以内へ丸める。
 function toMetaDescription(text: string): string {

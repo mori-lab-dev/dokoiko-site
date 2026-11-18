@@ -9,11 +9,13 @@ import fs from 'fs';
 import path from 'path';
 const DRY = process.argv.includes('--dry');
 const CFG = process.argv.find((a, i) => i > 1 && a.endsWith('.json')) || 'scripts/data/mergeConflictFixes20261118.json';
-const SUF = (CFG.match(/Fixes20261118([a-z]*)\.json$/) || [])[1] || '';
-const OUTN = SUF ? `changes_${SUF}` : 'changes';
+const D8 = (CFG.match(/Fixes(\d{8})[a-z]*\.json$/) || [])[1] || '20261118';
+const SUF = (CFG.match(/Fixes\d{8}([a-z]*)\.json$/) || [])[1] || '';
+const OUTN = D8 !== '20261118' ? `changes_${D8}${SUF}` : SUF ? `changes_${SUF}` : 'changes';
 const cfg = JSON.parse(fs.readFileSync(CFG, 'utf8'));
 const cache = new Map(); const load = (f) => { if (!cache.has(f)) cache.set(f, JSON.parse(fs.readFileSync(f, 'utf8'))); return cache.get(f); };
-const B = SUF === 'c' ? 'backup/facts_20261118c' : SUF === 'e' ? 'backup/tarama_20261118e' : SUF === 'f' ? 'backup/rules_20261118f' : SUF === 'h' ? 'backup/gap_20261118h' : SUF === 'i' ? 'backup/meta_20261118i' : SUF ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
+const B0 = SUF === 'c' ? 'backup/facts_20261118c' : SUF === 'e' ? 'backup/tarama_20261118e' : SUF === 'f' ? 'backup/rules_20261118f' : SUF === 'h' ? 'backup/gap_20261118h' : SUF === 'i' ? 'backup/meta_20261118i' : SUF ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
+const B = D8 !== '20261118' ? `backup/identity_${D8}${SUF}` : B0;
 if (!DRY) { fs.mkdirSync(B, { recursive: true }); for (const f of new Set(cfg.fixes.flatMap((x) => x.edits.map((e) => e.file)))) { const t = path.join(B, f.replace(/\//g, '__')); if (!fs.existsSync(t)) fs.copyFileSync(f, t); } }
 const getPath = (o, p) => p.split('.').reduce((a, k) => a[k], o);
 const log = [];

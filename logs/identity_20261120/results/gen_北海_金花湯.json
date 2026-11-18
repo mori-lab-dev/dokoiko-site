@@ -1,0 +1,121 @@
+{
+ "id": "gen_北海_金花湯",
+ "総合": "ページ全体が別の場所",
+ "調べた欄": [
+  "name",
+  "県",
+  "座標",
+  "hub",
+  "lead",
+  "節1〜3",
+  "見どころ",
+  "tips",
+  "モデルコース",
+  "宿のカード",
+  "タグ",
+  "画像"
+ ],
+ "所見": [
+  {
+   "欄": "lead",
+   "現在の記述": "北海道の果て、標茶町の山奥に、その湯はある。",
+   "判定": "誤り",
+   "理由": "記事は標茶町虹別の内容。標茶町公式の温泉マップ（日帰り5施設）に「金花湯」も虹別の温泉も無い。",
+   "公式の事実": "標茶町の温泉は テレーノ気仙・藤花温泉ホテル・オーロラファームヴィレッジ・味幸園・ぽん・ぽんゆ の5施設（住所は標茶町桜・旭・栄・オソツベツ・コッタロ原野）",
+   "出典URL": [
+    "http://www.town.shibecha.hokkaido.jp/kankou/files/01B_onsen_map.pdf"
+   ],
+   "snapshot": "logs/identity_20261120/snapshots/gen_北海_金花湯__3.txt",
+   "修正案": {
+    "種類": "案のみ",
+    "内容": "記事ぜんたいが標茶町の話で、座標は島牧村。取り違え。記事を外すか、標茶町の実在施設で書き直す（今回は適用しない）"
+   }
+  },
+  {
+   "欄": "sections.0.info",
+   "現在の記述": "住所：北海道川上郡標茶町虹別",
+   "判定": "誤り",
+   "理由": "標茶町公式の温泉5施設に虹別の住所は無い。",
+   "公式の事実": "snapshot 3 のとおり",
+   "出典URL": [
+    "http://www.town.shibecha.hokkaido.jp/kankou/files/01B_onsen_map.pdf"
+   ],
+   "snapshot": "logs/identity_20261120/snapshots/gen_北海_金花湯__3.txt",
+   "修正案": {
+    "種類": "案のみ",
+    "内容": "節ごと別の場所のため節0〜2の削除を検討"
+   }
+  },
+  {
+   "欄": "lat/lng",
+   "現在の記述": "42.59138889,140.1375",
+   "判定": "確認できず",
+   "理由": "島牧村内の座標だが、この位置に温泉があると確認できた独立した2つの公式は無い。島牧村公式の温泉一覧（宿・民宿含む）に金花湯は無い。座標の出所は Wikipedia と個人サイトのみ（根拠不可）。",
+   "公式の事実": "島牧村公式の温泉: モッタ海岸温泉(営業休止中・字栄浜362-1)・宮内温泉(字泊431)。金花湯の記載なし",
+   "出典URL": [
+    "https://www.vill.shimamaki.lg.jp/category?category=tourism",
+    "https://www.vill.shimamaki.lg.jp/category/detail.php?category=tourism&content=110",
+    "https://www.vill.shimamaki.lg.jp/category/detail.php?category=tourism&content=112"
+   ],
+   "snapshot": "logs/identity_20261120/snapshots/gen_北海_金花湯__1.txt",
+   "修正案": {
+    "種類": "案のみ",
+    "内容": "座標は変更しない（島牧村側が現状の座標と一致する可能性が高いが、公式2源で未確認）"
+   }
+  },
+  {
+   "欄": "name",
+   "現在の記述": "金花湯",
+   "判定": "確認できず",
+   "理由": "島牧村・標茶町・北海道観光機構(visit-hokkaido)の公式の範囲では「金花湯」を確認できない。第三者（根拠不可）によれば島牧村の山中の野湯（温泉法上の温泉でなく正式名称なし・林道は徒歩・熊出没）で、観光や日帰り入浴の対象ではない。国土地理院・環境省の地名は今回未確認。",
+   "公式の事実": "公式一覧に無い（現在営業中と確認できる公式情報は無い）",
+   "出典URL": [
+    "https://www.vill.shimamaki.lg.jp/category?category=tourism",
+    "http://www.town.shibecha.hokkaido.jp/kankou/files/01B_onsen_map.pdf"
+   ],
+   "snapshot": "logs/identity_20261120/snapshots/gen_北海_金花湯__1.txt",
+   "修正案": {
+    "種類": "案のみ",
+    "内容": "施設として案内できない（営業中の公式確認なし・アクセス困難）ため、目的地ページとしての扱い自体を再検討"
+   }
+  },
+  {
+   "欄": "hub|accessStation|finalAccess|stay",
+   "現在の記述": "札幌／札幌駅／在来線→金花湯／isStayable true",
+   "判定": "誤り",
+   "理由": "どの公式にも金花湯への鉄道アクセス・宿泊は無い。島牧村に鉄道は無く、公式の温泉は宿を併設する宮内温泉・モッタ(休止中)。",
+   "公式の事実": "snapshot 1・2",
+   "出典URL": [
+    "https://www.vill.shimamaki.lg.jp/category/detail.php?category=tourism&content=112"
+   ],
+   "snapshot": "logs/identity_20261120/snapshots/gen_北海_金花湯__2.txt",
+   "修正案": {
+    "種類": "案のみ",
+    "内容": "2源以上で一致する値が得られないため値は書かない"
+   }
+  },
+  {
+   "欄": "spot:赤倉温泉街の足湯|spot:赤倉峠展望台",
+   "現在の記述": "赤倉温泉街の足湯／赤倉峠展望台（上ノ国町）",
+   "判定": "確認できず",
+   "理由": "島牧村公式の観光・温泉一覧に無い。別の場所（赤倉温泉・上ノ国町）の可能性があるが、今回は公式で検証していない。",
+   "公式の事実": "未確認",
+   "出典URL": [],
+   "snapshot": "logs/identity_20261120/snapshots/gen_北海_金花湯__1.txt",
+   "修正案": {
+    "種類": "案のみ",
+    "内容": "別途確認"
+   }
+  }
+ ],
+ "事実一覧": [
+  "島牧村公式の温泉・民宿一覧: ユースホステル/民宿みなと/モッタ海岸温泉(営業休止中・令和8年4月更新)/宮内温泉/旅館タカダ/民宿ヤンサ/民宿浜風。金花湯は無い｜https://www.vill.shimamaki.lg.jp/category?category=tourism｜logs/identity_20261120/snapshots/gen_北海_金花湯__1.txt",
+  "モッタ海岸温泉 島牧村字栄浜362-1 営業休止中｜https://www.vill.shimamaki.lg.jp/category/detail.php?category=tourism&content=110｜logs/identity_20261120/snapshots/gen_北海_金花湯__2.txt",
+  "宮内温泉 島牧村字泊431｜https://www.vill.shimamaki.lg.jp/category/detail.php?category=tourism&content=112｜logs/identity_20261120/snapshots/gen_北海_金花湯__2.txt",
+  "標茶町の日帰り温泉5施設（テレーノ気仙・藤花温泉ホテル・オーロラファームヴィレッジ・味幸園・ぽん・ぽんゆ）。金花湯と虹別の温泉は無い｜http://www.town.shibecha.hokkaido.jp/kankou/files/01B_onsen_map.pdf｜logs/identity_20261120/snapshots/gen_北海_金花湯__3.txt",
+  "島牧村公式サイトは2026-10-22から安全確認で一時停止中（取得時の表示）｜https://www.vill.shimamaki.lg.jp/category/detail.php?category=tourism&content=110｜logs/identity_20261120/snapshots/gen_北海_金花湯__2.txt"
+ ],
+ "備考": "記事（lead・節0〜2・モデルコース・tips・bestSeason）は標茶町虹別の話で、標茶町に金花湯は無く、公式で裏付く部分は無い。ページに残る可能性があるのは座標（島牧村側・要2源確認）と description の「北海道の秘湯・源泉約52度」の一部のみだが、これも公式で未確認。見どころの画像（金花湯の写真・島牧）は Wikimedia Commons 由来。第三者情報では金花湯は島牧村の野湯で、島牧村公式には載らない。10/13の座標修正と同じ『複数公式で確認』は、国土地理院・環境省の地名を取得できず未達（検索の上限）。「ページ本文が言う施設（標茶町の何か）」の正体は特定できず（標茶町公式の温泉に該当なし）。標茶町温泉マップの虹別地域PDF（11_nijibetu_tiiki_map.pdf）は取得失敗。",
+ "検索回数": 3,
+ "取得回数": 6
+}

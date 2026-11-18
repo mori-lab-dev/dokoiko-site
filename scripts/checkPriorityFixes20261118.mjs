@@ -39,7 +39,7 @@ for (const e of edits) {
   // ②
   const need = ['page', 'rule', 'reason', '確認日', 'old']; const miss = need.filter((k) => !e[k]); if (typeof e.new !== 'string') miss.push('new');
   if (['P1', 'P1d', 'P3'].includes(e.rule) && !(e.出典URL && e.出典URL.length)) miss.push('出典URL');
-  if (!['2026-11-18', '2026-11-19'].includes(e.確認日)) miss.push('確認日の値');
+  if (!['2026-11-18', '2026-11-19', '2026-11-20'].includes(e.確認日)) miss.push('確認日の値');
   if (miss.length) F['②記録・一意'].push(`${tag}（記録なし: ${miss.join(',')}）`);
   let cur; try { const [h, key] = holderOf(e); cur = h[key]; var H = h, K = key; } catch { F['②記録・一意'].push(`${tag}（対象の欄が無い）`); continue; }
   const cnt = typeof cur === 'string' ? cur.split(e.old).length - 1 : 0; if (cnt !== 1) { F['②記録・一意'].push(`${tag}（old が${cnt}回）`); continue; }

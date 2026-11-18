@@ -1,0 +1,177 @@
+{
+ "note": "画像の取り違え（画像を外す）",
+ "date": "2026-11-20",
+ "fixes": [
+  {
+   "id": "IMG",
+   "topic": "画像の取り違え5ページ7枚",
+   "result": "画像を開いて確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "tsumago",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "tsumago",
+     "name": "脇本陣奥谷",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ohara-juku10s3200.jpg/500px-Ohara-juku10s3200.jpg",
+     "旧クレジット": {
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohara-juku10s3200.jpg",
+      "attributionRequired": true
+     },
+     "reason": "画像（Wikimedia の Ohara-juku10s3200.jpg）を開いて確認: 大原宿の土塀の建物の写真で、脇本陣奥谷（妻籠）ではない",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [
+      "https://tsumago.jp/view/wakihonjin",
+      "https://nagiso.jp/topics/okuya/"
+     ],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    },
+    {
+     "page": "tsumago",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "tsumago",
+     "name": "妻籠城跡",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Osaka_Castle_02bs3200.jpg/500px-Osaka_Castle_02bs3200.jpg",
+     "旧クレジット": {
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_02bs3200.jpg",
+      "attributionRequired": true
+     },
+     "reason": "画像（Osaka_Castle_02bs3200.jpg）を開いて確認: 大阪城と高層ビルの写真で、妻籠城跡ではない",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [
+      "https://tsumago.jp/view/wakihonjin",
+      "https://nagiso.jp/topics/okuya/"
+     ],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    },
+    {
+     "page": "yamadera",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "yamadera",
+     "name": "山門",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/170216_Chionin_Kyoto_Japan01.JPG/500px-170216_Chionin_Kyoto_Japan01.JPG",
+     "旧クレジット": {
+      "author": "663highland",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:170216_Chionin_Kyoto_Japan01.JPG",
+      "attributionRequired": true
+     },
+     "reason": "画像（170216_Chionin_Kyoto_Japan01.JPG）を開いて確認: 京都・知恩院の大きな三門の写真で、山寺（立石寺）の山門ではない",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [
+      "https://www.visityamagata.jp/spot-yamagata-yamadera_godaido"
+     ],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    },
+    {
+     "page": "yamadera",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "yamadera",
+     "name": "五大堂展望台",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Matsushima_miyagi_z.JPG/500px-Matsushima_miyagi_z.JPG",
+     "旧クレジット": {
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Matsushima_miyagi_z.JPG",
+      "attributionRequired": true
+     },
+     "reason": "画像（Matsushima_miyagi_z.JPG）を開いて確認: 松島の島々と船の海の写真で、山寺の五大堂展望台ではない",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [
+      "https://www.visityamagata.jp/spot-yamagata-yamadera_godaido"
+     ],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    },
+    {
+     "page": "yakake",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "yakake",
+     "name": "矢掛脇本陣",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ohara-juku10s3200.jpg/500px-Ohara-juku10s3200.jpg",
+     "旧クレジット": {
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Ohara-juku10s3200.jpg",
+      "attributionRequired": true
+     },
+     "reason": "画像（Ohara-juku10s3200.jpg）を開いて確認: 大原宿の脇本陣の写真（大原観光協会の公式が大原宿の脇本陣として載せる建物）で、矢掛脇本陣ではない",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [
+      "http://ohara-kanko.com/tourism/waki-honjin",
+      "http://www.town.yakage.okayama.jp/machi/shisetsu/wakihonjin.html"
+     ],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    },
+    {
+     "page": "ono-fukui",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "ono-fukui",
+     "name": "勝山恐竜博物館（近隣）",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Japan_Tojinbo02n4592.jpg/500px-Japan_Tojinbo02n4592.jpg",
+     "旧クレジット": {
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_Tojinbo02n4592.jpg",
+      "attributionRequired": true
+     },
+     "reason": "画像（Japan_Tojinbo02n4592.jpg）を開いて確認: 東尋坊の柱状節理の断崖の写真で、勝山恐竜博物館ではない",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    },
+    {
+     "page": "hachimantai-onsen",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "hachimantai-onsen",
+     "name": "玉川温泉（近隣）",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yufuin_Onsen_Rotenburo.JPG/500px-Yufuin_Onsen_Rotenburo.JPG",
+     "旧クレジット": {
+      "author": "R34SkylineGT-R V-SpecⅡNür",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Yufuin_Onsen_Rotenburo.JPG",
+      "attributionRequired": true
+     },
+     "reason": "画像（Yufuin_Onsen_Rotenburo.JPG）を開いて確認: ファイル名が湯布院温泉の露天風呂の写真。秋田の玉川温泉ではない（スキャン確認で、玉川温泉の公式と比べて別の場所と判定）",
+     "確認日": "2026-11-20",
+     "値": [],
+     "出典URL": [
+      "https://www.city.semboku.akita.jp/sightseeing/spot/01_t-onsen.html",
+      "https://www.tamagawa-onsen.jp/"
+     ],
+     "備考": "画像は外部URL（Wikimedia）のため、削除するファイルは無い。縦横表(imageDims.json)にも項目は無い"
+    }
+   ]
+  }
+ ]
+}
