@@ -133,6 +133,10 @@ const AUDITS = [
     cmd: ['node', 'scripts/auditFactNotice20261118.mjs'], exitMeansFail: true,
     parse: (o) => ({ '注意書きの違反': Z(num(/注意書きの違反:\s*(\d+)/, o)) }) },
 
+  { id: 'priority-applied', tier: 'dist', title: '優先ページの修正の適用確認（判定の区分が対象の文がデータ・dist に残っていない／置換した値の旧値が同じページに残っていない）',
+    cmd: ['node', 'scripts/auditPriorityApplied20261118.mjs'], exitMeansFail: true,
+    parse: (o) => ({ '適用確認の違反': Z(num(/適用確認の違反:\s*(\d+)/, o)) }) },
+
   { id: 'travel-time', tier: 'dist', title: 'travelTime が最短値を下回らないか・見積もりの値に「目安」が付いているか・疑わしい所要時間の文が残っていないか',
     cmd: ['node', 'scripts/auditTravelTime.mjs'], exitMeansFail: true,
     parse: (o) => ({ '最短値を1.25倍以上下回る組': Z(num(/下回る組:\s*(\d+)件/, o)),

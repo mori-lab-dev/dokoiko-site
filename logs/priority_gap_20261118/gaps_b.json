@@ -1,0 +1,668 @@
+[
+ {
+  "page": "aogashima",
+  "名前": "青ヶ島",
+  "種類": "料金",
+  "置換": "200円 → 大人300円",
+  "旧文": "地熱を利用した蒸し風呂で、料金は200円。",
+  "残っている場所": "モデルコース(daytrip)",
+  "残っている文": "ヘリで到着→丸山ハイキング（1.5h）→ふれあいサウナ（200円）→島内商店で青酎購入→ヘリで帰島。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://www.vill.aogashima.tokyo.jp/life/facilities.html",
+   "https://www.t-treasureislands.metro.tokyo.lg.jp/spotlist/aogashima/453016-aogashima-villlage-community-sauna.html",
+   "https://www.vill.aogashima.tokyo.jp/tourism/spot.html"
+  ],
+  "snapshot": "snapshots/aogashima__g2.txt",
+  "値": [
+   "大人300円"
+  ]
+ },
+ {
+  "page": "awashima-island",
+  "名前": "粟島",
+  "種類": "料金",
+  "置換": "1,980円 → 2,840円",
+  "旧文": "船賃は片道1,980円。",
+  "残っている場所": "description",
+  "残っている文": "岩船港からフェリーで約70分、船賃は片道1,980円。",
+  "共通する語": [
+   "船賃",
+   "片道"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://awashimakisen.co.jp/schedule.html",
+   "https://www.vill.awashimaura.lg.jp/about/access"
+  ],
+  "snapshot": "snapshots/awashima-island__g1.txt",
+  "値": [
+   "2,840円"
+  ]
+ },
+ {
+  "page": "gen_北海_天に続く道",
+  "名前": "天に続く道",
+  "種類": "標高・距離",
+  "置換": "18.6km → 約28.1km",
+  "旧文": "全長18.6km。",
+  "残っている場所": "description",
+  "残っている文": "斜里町から小清水町へ伸びる全長18.6kmの直線路が、地平線へ向かって一気に消えていく絶景スポット。",
+  "共通する語": [
+   "全長"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.shiretoko.asia/detail/scenic/road_to_heaven",
+   "https://www.visit-hokkaido.jp/spot/detail_10527.html"
+  ],
+  "snapshot": "snapshots/gen_北海_天に続く道__g1.txt",
+  "値": [
+   "約28.1km"
+  ]
+ },
+ {
+  "page": "gen_北海_真鍋庭園",
+  "名前": "真鍋庭園",
+  "種類": "その他の数値",
+  "置換": "7万平方メートル → 約83,000平方メートル",
+  "旧文": "7万平方メートルの広大な庭園。",
+  "残っている場所": "description",
+  "残っている文": "北海道に広がる7万平方メートルの近代和風庭園。",
+  "共通する語": [
+   "庭園"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.manabegarden.jp/guide",
+   "https://www.manabegarden.jp/company",
+   "https://www.visit-hokkaido.jp/spot/detail_10127.html",
+   "https://www.hokkaido-garden.jp/garden04.html"
+  ],
+  "snapshot": "snapshots/gen_北海_真鍋庭園__g1.txt",
+  "値": [
+   "約83,000平方ｍ"
+  ]
+ },
+ {
+  "page": "gen_群馬_川原湯温泉",
+  "名前": "川原湯温泉",
+  "種類": "年号",
+  "置換": "2019年 → 2020年3月",
+  "旧文": "ダムが完成したのは2019年。",
+  "残っている場所": "description",
+  "残っている文": "八ッ場ダムの完成により旧湯が湖底へ沈み、斜面の新天地へ移転した川原湯温泉は、2019年以降も硫黄の湯を守り続けている。",
+  "共通する語": [
+   "ダム",
+   "完成"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.ktr.mlit.go.jp/tonedamu/tonedamu_index004-1.html",
+   "https://gunma-kanko.jp/spots/18",
+   "https://www.ktr.mlit.go.jp/ktr_content/content/000927225.pdf"
+  ],
+  "snapshot": "snapshots/gen_群馬_川原湯温泉__g3.txt",
+  "値": [
+   "2020年3月"
+  ]
+ },
+ {
+  "page": "gen_茨城_常磐神社",
+  "名前": "常磐神社",
+  "種類": "料金",
+  "置換": "大人300円 → 大人500円",
+  "旧文": "入園料：大人300円（梅まつり期間中）、通常時は一部エリア無料",
+  "残っている場所": "節2 body",
+  "残っている文": "入館料は大人300円。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://ibaraki-kairakuen.jp/guide",
+   "https://www.city.mito.lg.jp/page/6075.html"
+  ],
+  "snapshot": "snapshots/gen_茨城_常磐神社__g3.txt",
+  "値": [
+   "500円"
+  ]
+ },
+ {
+  "page": "gen_茨城_常磐神社",
+  "名前": "常磐神社",
+  "種類": "料金",
+  "置換": "大人300円 → 大人500円",
+  "旧文": "入園料：大人300円（梅まつり期間中）、通常時は一部エリア無料",
+  "残っている場所": "節2 info",
+  "残っている文": "入館料：大人300円、小中学生100円",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://ibaraki-kairakuen.jp/guide",
+   "https://www.city.mito.lg.jp/page/6075.html"
+  ],
+  "snapshot": "snapshots/gen_茨城_常磐神社__g3.txt",
+  "値": [
+   "500円"
+  ]
+ },
+ {
+  "page": "himeshima",
+  "名前": "姫島",
+  "種類": "料金",
+  "置換": "680円 → 580円",
+  "旧文": "運賃は大人680円（片道）。",
+  "残っている場所": "description",
+  "残っている文": "伊美港からフェリーで約20分、片道は大人680円。",
+  "共通する語": [
+   "大人",
+   "片道"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.himeshima.jp/access"
+  ],
+  "snapshot": "snapshots/himeshima__g1.txt",
+  "値": [
+   "580円"
+  ]
+ },
+ {
+  "page": "ikitsukijima",
+  "名前": "生月島",
+  "種類": "標高・距離",
+  "置換": "180メートル → 約20メートル",
+  "旧文": "高さ180メートルの海食崖が、積み重なった塩俵のように連なる地層。",
+  "残っている場所": "description",
+  "残っている文": "島西岸の代表的な景観が塩俵の断崖で、高さ180メートルの海食崖が六角形の岩柱を積み上げたような地層を成す。",
+  "共通する語": [
+   "海食崖",
+   "塩俵",
+   "地層"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.city.hirado.nagasaki.jp/kanko/shizen/shi05.html"
+  ],
+  "snapshot": "snapshots/ikitsukijima__g1.txt",
+  "値": [
+   "高さ約20ｍ"
+  ]
+ },
+ {
+  "page": "ikoma-kogen",
+  "名前": "生駒高原",
+  "種類": "営業時間",
+  "置換": "8:30 → 9:00",
+  "旧文": "開園時間：8:30〜17:00",
+  "残っている場所": "モデルコース(daytrip)",
+  "残っている文": "8:30 生駒高原着 → 午前中にコスモス＆ひまわり畑を散策 → 11:30 売店でランチ → 13:00 霧島眺望ポイントへ → 14:30 小林市内の温泉で汗を流して帰路",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://ikomakougen.com/information"
+  ],
+  "snapshot": "snapshots/trial_ikoma-kogen__information.txt",
+  "値": [
+   "9:00"
+  ]
+ },
+ {
+  "page": "ikuchijima",
+  "名前": "生口島",
+  "種類": "料金",
+  "置換": "1,400円 → 1,800円",
+  "旧文": "入場料は1,400円。",
+  "残っている場所": "description",
+  "残っている文": "耕三寺は昭和初期に実業家・耕三寺耕三が建立した寺院で、入場料1,400円。",
+  "共通する語": [
+   "入場料"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.kousanji.or.jp/info.html",
+   "https://www.kousanji.or.jp/temple.html"
+  ],
+  "snapshot": "snapshots/ikuchijima__g1.txt",
+  "値": [
+   "1,800円"
+  ]
+ },
+ {
+  "page": "irabu-island",
+  "名前": "伊良部島",
+  "種類": "年号",
+  "置換": "1741年 → 1771年",
+  "旧文": "1741年の大津波が運んだ巨岩が無数に転がる浜。",
+  "残っている場所": "description",
+  "残っている文": "1741年の大津波が運んだ巨岩が無数に並ぶ佐和田の浜は、同じ島とは思えない荒々しい景観を持つ。",
+  "共通する語": [
+   "大津波",
+   "巨岩",
+   "無数"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.okinawastory.jp/spot/600006198"
+  ],
+  "snapshot": "snapshots/irabu-island__g2.txt",
+  "値": [
+   "1771年"
+  ]
+ },
+ {
+  "page": "isawa-onsen",
+  "名前": "石和温泉",
+  "種類": "料金",
+  "置換": "1日500円ほど → 無料（保証金1,000円は返却時に返金）",
+  "旧文": "レンタサイクルは駅前で1日500円ほど。",
+  "残っている場所": "description",
+  "残っている文": "1日500円ほど。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://www.fuefuki-kanko.jp/detail/220/index.html"
+  ],
+  "snapshot": "snapshots/trial_isawa-onsen__rental-cycle.txt",
+  "値": [
+   "無料",
+   "1,000円"
+  ]
+ },
+ {
+  "page": "makurazaki",
+  "名前": "枕崎",
+  "種類": "営業時間",
+  "置換": "17:00 → 16:00",
+  "旧文": "営業時間：9:00〜17:00",
+  "残っている場所": "モデルコース(daytrip)",
+  "残っている文": "5:00 枕崎港で水揚げ見学 → 朝食（港の食堂）→ 10:00 火之神公園 → 13:00 カツオ定食 → 15:00 薩摩酒造見学・試飲 → 17:00 帰路",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "http://www.meijigura.com/",
+   "https://www.meijigura.com/reserve/",
+   "https://www.makutabi.jp/travel/169"
+  ],
+  "snapshot": "snapshots/makurazaki__g3.txt",
+  "値": [
+   "16:00"
+  ]
+ },
+ {
+  "page": "megijima",
+  "名前": "女木島",
+  "種類": "料金",
+  "置換": "700円 → 600円",
+  "旧文": "入場料は700円。",
+  "残っている場所": "description",
+  "残っている文": "入場料700円で暗闇の洞窟内を歩き、岩肌が続く空間を探検できる。",
+  "共通する語": [
+   "入場料"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.onigasima.jp/tour",
+   "https://www.my-kagawa.jp/point/251"
+  ],
+  "snapshot": "snapshots/megijima__g1.txt",
+  "値": [
+   "600円"
+  ]
+ },
+ {
+  "page": "metasequoia",
+  "名前": "メタセコイア並木",
+  "種類": "標高・距離",
+  "置換": "国道303号 → 県道小荒路牧野沢線",
+  "旧文": "国道303号沿いに約500本、約2.4km続く並木。",
+  "残っている場所": "節1 body",
+  "残っている文": "国道303号沿いに、突然現れる。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://www.city.takashima.lg.jp/soshiki/shokokankobu/kankoshinkoka/2/2/1128.html",
+   "https://takashima-kanko.jp/spot/2018/06/post_155.html"
+  ],
+  "snapshot": "snapshots/metasequoia__g1.txt",
+  "値": [
+   "県道小荒路牧野沢線"
+  ]
+ },
+ {
+  "page": "metasequoia",
+  "名前": "メタセコイア並木",
+  "種類": "標高・距離",
+  "置換": "国道303号 → 県道小荒路牧野沢線",
+  "旧文": "国道303号沿いに約500本、約2.4km続く並木。",
+  "残っている場所": "description",
+  "残っている文": "国道303号沿いに約500本のメタセコイアが約2.4kmにわたって続いている。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://www.city.takashima.lg.jp/soshiki/shokokankobu/kankoshinkoka/2/2/1128.html",
+   "https://takashima-kanko.jp/spot/2018/06/post_155.html"
+  ],
+  "snapshot": "snapshots/metasequoia__g1.txt",
+  "値": [
+   "県道小荒路牧野沢線"
+  ]
+ },
+ {
+  "page": "mishima-yamaguchi",
+  "名前": "見島",
+  "種類": "時刻",
+  "置換": "7時台 → 9：10",
+  "旧文": "萩港発の始発は7時台。",
+  "残っている場所": "モデルコース(daytrip)",
+  "残っている文": "萩港7時台発→本村港着→レンタサイクルで七ッ池古墳群→見島牛放牧地→本村港周辺散策→夕方便で萩へ。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://hagikaiun.co.jp/mishima/time-table.html",
+   "https://www.hagishi.com/search/detail.php?d=800029"
+  ],
+  "snapshot": "snapshots/mishima-yamaguchi__g2.txt",
+  "値": [
+   "9：10"
+  ]
+ },
+ {
+  "page": "mizusawa",
+  "名前": "奥州",
+  "種類": "年号",
+  "置換": "797年 → 802年",
+  "旧文": "胆沢城は、797年に坂上田村麻呂が築いた城だ。",
+  "残っている場所": "description",
+  "残っている文": "胆沢城は797年に坂上田村麻呂が築いた蝦夷との最前線。",
+  "共通する語": [
+   "胆沢城",
+   "坂上田村麻呂"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.city.oshu.iwate.jp/web_museum/rekishi/1/4428.html",
+   "https://www.city.oshu.iwate.jp/kanko/osusume/4/3/2961.html",
+   "https://www.oshu-bunka.or.jp/maibun/pages/109"
+  ],
+  "snapshot": "snapshots/mizusawa__g1.txt",
+  "値": [
+   "802年"
+  ]
+ },
+ {
+  "page": "muroto-cape",
+  "名前": "室戸岬",
+  "種類": "料金",
+  "置換": "200円 → 無料",
+  "旧文": "入場料：200円",
+  "残っている場所": "節1 body",
+  "残っている文": "入場料200円。",
+  "共通する語": [
+   "入場料"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://kochi-tabi.jp/search_spot.html?id=6299",
+   "https://www.tokokai.org/history/history20",
+   "https://www.city.muroto.kochi.jp/navi/a04b01c01.php"
+  ],
+  "snapshot": "snapshots/muroto-cape__g1.txt",
+  "値": [
+   "無料"
+  ]
+ },
+ {
+  "page": "nima",
+  "名前": "仁摩",
+  "種類": "休館日",
+  "置換": "火曜 → 水曜",
+  "旧文": "仁摩サンドミュージアムは火曜定休なので注意。",
+  "残っている場所": "description",
+  "残っている文": "火曜が定休なので先に確かめたい。",
+  "共通する語": [
+   "定休"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.sandmuseum.jp/guide/",
+   "https://www.sandmuseum.jp/facility/23"
+  ],
+  "snapshot": "snapshots/nima__g2.txt",
+  "値": [
+   "水曜"
+  ]
+ },
+ {
+  "page": "niyodogawa",
+  "名前": "仁淀川",
+  "種類": "時刻",
+  "置換": "午前10〜11時 → 正午前後",
+  "旧文": "にこ淵は午前10〜11時が光の差し込むベストタイム。",
+  "残っている場所": "description",
+  "残っている文": "代表スポットのにこ淵は急斜面を下った先にある青い滝壺で、光が差し込む午前10〜11時に水面の色が際立つ。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://kochi-tabi.jp/special_secondry_item.html?id=20",
+   "https://kochi-tabi.jp/search_spot_sightseeing.html?id=7439",
+   "https://niyodoblue.jp/spot/detail.php?id=142"
+  ],
+  "snapshot": "snapshots/niyodogawa__g1.txt",
+  "値": [
+   "正午前後"
+  ]
+ },
+ {
+  "page": "obama-fukui",
+  "名前": "小浜",
+  "種類": "標高・距離",
+  "置換": "約2キロ → 約6km",
+  "旧文": "断崖絶壁が海に落ちる約2キロの地形。",
+  "残っている場所": "description",
+  "残っている文": "蘇洞門は断崖が海に落ちる約2キロの地形で、遊覧船から赤茶色の岩肌と若狭湾の青の対比を間近に眺められます。",
+  "共通する語": [
+   "地形"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www1.city.obama.fukui.jp/kanko-bunka/kanko/meshoto/88.html",
+   "https://wakasa-obama.jp/special/sotomo-enjoy"
+  ],
+  "snapshot": "snapshots/obama-fukui__g2.txt",
+  "値": [
+   "約6km"
+  ]
+ },
+ {
+  "page": "ojika-island",
+  "名前": "小値賀島",
+  "種類": "料金",
+  "置換": "500〜800円 → 1,500円",
+  "旧文": "レンタサイクルは港近くで借りられる（500〜800円／日）。",
+  "残っている場所": "description",
+  "残っている文": "レンタサイクルは港近くで500〜800円／日。",
+  "共通する語": [
+   "レンタサイクル",
+   "港近"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://ojikajima.jp/category/access",
+   "https://ojikajima.jp/travel/15711.html"
+  ],
+  "snapshot": "snapshots/ojika-island__g4.txt",
+  "値": [
+   "1,500円"
+  ]
+ },
+ {
+  "page": "ryujin-suspension",
+  "名前": "竜神大吊橋",
+  "種類": "標高・距離",
+  "置換": "375メートル → 100メートル",
+  "旧文": "橋上375メートルから竜神峡の絶壁を見下ろす。",
+  "残っている場所": "description",
+  "残っている文": "全長375メートル。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://ohtsuribashi.ryujinkyo.jp/guide.html"
+  ],
+  "snapshot": "snapshots/ryujin-suspension__g1.txt",
+  "値": [
+   "100m"
+  ]
+ },
+ {
+  "page": "shakotan",
+  "名前": "積丹",
+  "種類": "標高・距離",
+  "置換": "約1km → 約770m",
+  "旧文": "駐車場から岬の先端まで、片道約1km。",
+  "残っている場所": "description",
+  "残っている文": "神威岬では駐車場から片道約1kmの遊歩道「チャレンカの道」を歩いた先に、深く透き通った積丹ブルーの海が開ける。",
+  "共通する語": [
+   "駐車場",
+   "片道"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.visit-hokkaido.jp/spot/detail_10342.html",
+   "https://www.town.shakotan.lg.jp/topics/storyid-post_372.html",
+   "https://www.kanko-shakotan.jp/spot/%E7%A5%9E%E5%A8%81%E5%B2%AC"
+  ],
+  "snapshot": "snapshots/shakotan__g1.txt",
+  "値": [
+   "約770m"
+  ]
+ },
+ {
+  "page": "shakotan",
+  "名前": "積丹",
+  "種類": "標高・距離",
+  "置換": "約1kmの遊歩道「チャレンカの道」 → 約770mの遊歩道「チャレンカの小道」",
+  "旧文": "駐車場から片道約1kmの遊歩道「チャレンカの道」を歩き、岬の先端で深く透き通った青の海と風を全身に浴びられる。",
+  "残っている場所": "description",
+  "残っている文": "神威岬では駐車場から片道約1kmの遊歩道「チャレンカの道」を歩いた先に、深く透き通った積丹ブルーの海が開ける。",
+  "共通する語": [
+   "駐車場",
+   "片道"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.visit-hokkaido.jp/spot/detail_10342.html",
+   "https://www.town.shakotan.lg.jp/topics/storyid-post_372.html",
+   "https://www.kanko-shakotan.jp/spot/%E7%A5%9E%E5%A8%81%E5%B2%AC"
+  ],
+  "snapshot": "snapshots/shakotan__g1.txt",
+  "値": [
+   "約770m",
+   "チャレンカの小道"
+  ]
+ },
+ {
+  "page": "shingu-wakayama",
+  "名前": "新宮",
+  "種類": "年号",
+  "置換": "樹齢千年を超える → 樹齢千年の",
+  "旧文": "樹齢千年を超える大木の前で、冬の青空との対比に息をのむ。",
+  "残っている場所": "description",
+  "残っている文": "熊野速玉大社の境内には樹齢千年を超える大木がそびえ、冬の青空との対比が鮮烈に映る。",
+  "共通する語": [
+   "大木",
+   "青空",
+   "対比"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://kumanohayatama.jp/worship",
+   "https://www.shinguu.jp/spots/detail/A0001.html",
+   "https://kumanohayatama.jp/?page_id=16"
+  ],
+  "snapshot": "snapshots/shingu-wakayama__g1.txt",
+  "値": [
+   "樹齢千年"
+  ]
+ },
+ {
+  "page": "shirahone-onsen",
+  "名前": "白骨温泉",
+  "種類": "営業時間",
+  "置換": "10:00 → 10:30",
+  "旧文": "営業時間：10:00〜14:00（受付終了13:30）",
+  "残っている場所": "節2 info",
+  "残っている文": "営業時間：平日10:00～16:00、土日祝日9:00~17:00（季節変動あり）",
+  "共通する語": [
+   "営業時間"
+  ],
+  "同じ事実の可能性": "高",
+  "出典URL": [
+   "https://www.awanoyu-ryokan.com/gairai.html",
+   "https://shirahone.org/accommodation/awanoyu-ryokan"
+  ],
+  "snapshot": "snapshots/shirahone-onsen__g1.txt",
+  "値": [
+   "10:30"
+  ]
+ },
+ {
+  "page": "tateyama-kurobe",
+  "名前": "立山黒部アルペンルート",
+  "種類": "標高・距離",
+  "置換": "20mを超える → 20mにも迫る",
+  "旧文": "除雪した雪が両脇に積み上がり、高さは最大20mを超える。",
+  "残っている場所": "lead",
+  "残っている文": "雪壁が20mを超える場所を、人間が歩いている。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html",
+   "https://www.kurobe-dam.com/kankou/alpine_vehicle.html"
+  ],
+  "snapshot": "snapshots/tateyama-kurobe__g1.txt",
+  "値": [
+   "20メートルにも迫る"
+  ]
+ },
+ {
+  "page": "tateyama-kurobe",
+  "名前": "立山黒部アルペンルート",
+  "種類": "標高・距離",
+  "置換": "8分 → 7分",
+  "旧文": "全長約1.7km、高低差約500mを8分で結ぶ。",
+  "残っている場所": "節4 info",
+  "残っている文": "所要時間：約8分",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "https://www.kurobe-dam.com/kankou/alpine_vehicle.html",
+   "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html"
+  ],
+  "snapshot": "snapshots/tateyama-kurobe__g4.txt",
+  "値": [
+   "7分"
+  ]
+ },
+ {
+  "page": "utsukushigahara",
+  "名前": "美ヶ原",
+  "種類": "年号",
+  "置換": "昭和30年代 → 昭和29年",
+  "旧文": "昭和30年代、霧の中で遭難した登山者を救うために造られた。",
+  "残っている場所": "description",
+  "残っている文": "美しの塔は昭和30年代に建てられた塔で、霧が出ると10m先も見えなくなる高原の目印だ。",
+  "共通する語": [],
+  "同じ事実の可能性": "低",
+  "出典URL": [
+   "http://www.utsukushi2034.jp/e822583.html",
+   "http://www.utsukushigaharakogen.jp/",
+   "https://www.nagawa.info/facility-spot/1974",
+   "https://visitmatsumoto.com/lsc/upfile/pamphlet/0000/0021/21_1_file.pdf"
+  ],
+  "snapshot": "snapshots/utsukushigahara__g1.txt",
+  "値": [
+   "昭和29年"
+  ]
+ }
+]

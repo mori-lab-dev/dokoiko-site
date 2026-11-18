@@ -13,7 +13,7 @@ const SUF = (CFG.match(/Fixes20261118([a-z]*)\.json$/) || [])[1] || '';
 const OUTN = SUF ? `changes_${SUF}` : 'changes';
 const cfg = JSON.parse(fs.readFileSync(CFG, 'utf8'));
 const cache = new Map(); const load = (f) => { if (!cache.has(f)) cache.set(f, JSON.parse(fs.readFileSync(f, 'utf8'))); return cache.get(f); };
-const B = SUF === 'c' ? 'backup/facts_20261118c' : SUF === 'e' ? 'backup/tarama_20261118e' : SUF === 'f' ? 'backup/rules_20261118f' : SUF ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
+const B = SUF === 'c' ? 'backup/facts_20261118c' : SUF === 'e' ? 'backup/tarama_20261118e' : SUF === 'f' ? 'backup/rules_20261118f' : SUF === 'h' ? 'backup/gap_20261118h' : SUF ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
 if (!DRY) { fs.mkdirSync(B, { recursive: true }); for (const f of new Set(cfg.fixes.flatMap((x) => x.edits.map((e) => e.file)))) { const t = path.join(B, f.replace(/\//g, '__')); if (!fs.existsSync(t)) fs.copyFileSync(f, t); } }
 const getPath = (o, p) => p.split('.').reduce((a, k) => a[k], o);
 const log = [];

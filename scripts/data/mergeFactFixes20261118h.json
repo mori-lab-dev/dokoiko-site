@@ -1,0 +1,53 @@
+{
+ "note": "優先ページの未適用の削除・旧値の統一（2026-11-18）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "G",
+   "topic": "優先ページの修正の未適用・食い違いの解消",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "ginzan-onsen",
+     "rule": "P2",
+     "種類": "営業時間",
+     "reason": "確認できず（記載なし）。数字を含む句だけを削除（文は途中で切れない。欄が空にならない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.visityamagata.jp/topics-obanazawa-ginzanonsen",
+      "https://www.ginzanonsen.jp/ginzan/walk.html"
+     ],
+     "snapshot": "snapshots/ginzan-onsen__g3.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "日中（11時〜16時）は日帰り観光客で混雑。",
+     "旧文": "混雑：日中（11時〜16時）は日帰り観光客で混雑。",
+     "old": "日中（11時〜16時）は日帰り観光客で混雑。",
+     "new": "",
+     "file": "src/data/articles/ginzan-onsen.json",
+     "field": "sections.2.info"
+    },
+    {
+     "page": "shimekappu",
+     "rule": "P2",
+     "種類": "その他の数値",
+     "reason": "確認できず（記載なし）。数字を含む句だけを削除（文は途中で切れない。欄が空にならない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.snowtomamu.jp/winter/faq"
+     ],
+     "snapshot": "snapshots/shimekappu__g3.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "マイナス20度以下になることあり",
+     "旧文": "マイナス20度以下になることあり",
+     "old": "マイナス20度以下になることあり",
+     "new": "",
+     "file": "src/data/articles/shimekappu.json",
+     "field": "sections.1.info"
+    }
+   ]
+  }
+ ]
+}

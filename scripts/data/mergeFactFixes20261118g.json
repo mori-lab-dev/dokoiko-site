@@ -1,0 +1,493 @@
+{
+ "note": "優先ページの未適用の削除・旧値の統一（2026-11-18）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "G",
+   "topic": "優先ページの修正の未適用・食い違いの解消",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "suo-oshima",
+     "rule": "P2",
+     "種類": "標高・距離",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "約1.5kmのビーチが、ほぼ人けなく続いている。",
+     "old": "約1.5kmのビーチが、ほぼ人けなく続いている。\n",
+     "new": "",
+     "file": "src/data/articles/suo-oshima.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "suo-oshima",
+     "rule": "P2",
+     "種類": "料金",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "シャワーは200円。",
+     "old": "シャワーは200円。\n",
+     "new": "",
+     "file": "src/data/articles/suo-oshima.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "suo-oshima",
+     "rule": "P2",
+     "種類": "料金",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "シャワー：200円",
+     "old": "シャワー：200円\n",
+     "new": "",
+     "file": "src/data/articles/suo-oshima.json",
+     "field": "sections.0.info"
+    },
+    {
+     "page": "suo-oshima",
+     "rule": "P2",
+     "種類": "標高・距離",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "約1.5kmのビーチがほぼ人けなく続く浜。",
+     "old": "約1.5kmのビーチがほぼ人けなく続く浜。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "suo-oshima",
+      "片添ヶ浜"
+     ]
+    },
+    {
+     "page": "isawa-onsen",
+     "rule": "P2",
+     "種類": "料金",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "無料で入れて、時間制限もない。",
+     "old": "無料で入れて、時間制限もない。\n",
+     "new": "",
+     "file": "src/data/articles/isawa-onsen.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "isawa-onsen",
+     "rule": "P2",
+     "種類": "その他の数値",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "湯温はだいたい42度くらい。",
+     "old": "湯温はだいたい42度くらい。\n",
+     "new": "",
+     "file": "src/data/articles/isawa-onsen.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "isawa-onsen",
+     "rule": "P2",
+     "種類": "料金",
+     "reason": "確認できず（公式に記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、判定の理由の文言が削除の条件と一致せず未適用だった）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "削除した文": "冬は宿の料金が比較的安く、1泊2食付きで15000円台から見つかる。",
+     "old": "冬は宿の料金が比較的安く、1泊2食付きで15000円台から見つかる。\n",
+     "new": "",
+     "file": "src/data/articles/isawa-onsen.json",
+     "field": "tips"
+    },
+    {
+     "page": "gen_茨城_水戸八幡宮",
+     "rule": "P1d",
+     "種類": "年号",
+     "reason": "食い違い。文を削除（前回の公開で、判定の区分は削除の対象だったが、欄が空になるため見送っていた）",
+     "公式の値": "現存は正門（総欅造りの四脚門）・正庁（書院建築）・至善堂。文館・武館は明治元年の弘道館の戦いで焼失",
+     "値": [],
+     "出典URL": [
+      "https://kodokan-ibaraki.jp/about",
+      "https://www.city.mito.lg.jp/uploaded/attachment/1200.pdf"
+     ],
+     "snapshot": "snapshots/gen_茨城_水戸八幡宮__g3.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "石造の趣ある建築が現存し、講堂や学舎の配置から往時の規模を実感できる。",
+     "old": "石造の趣ある建築が現存し、講堂や学舎の配置から往時の規模を実感できる。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "gen_茨城_水戸八幡宮",
+      "弘道館"
+     ]
+    },
+    {
+     "page": "ojika-island",
+     "rule": "P1d",
+     "種類": "料金",
+     "reason": "食い違い。文を削除（前回の公開で、判定の区分は削除の対象だったが、欄が空になるため見送っていた）",
+     "公式の値": "大島は人口約60名の有人島で、町営渡船「はまゆう」が小値賀島～大島を1日4便運航（大人片道280円）",
+     "値": [],
+     "出典URL": [
+      "https://www.town.ojika.lg.jp/soshiki/mirai/4/216.html",
+      "https://ojikajima.jp/ojika/ojika_stay",
+      "http://ojikajima.jp/access"
+     ],
+     "snapshot": "snapshots/ojika-island__g3.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "定期船のない無人島・大島へ、チャーター船（1回3,000円前後）で渡って参拝する特別な体験ができる。",
+     "old": "定期船のない無人島・大島へ、チャーター船（1回3,000円前後）で渡って参拝する特別な体験ができる。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "ojika-island",
+      "大島神社"
+     ]
+    },
+    {
+     "page": "mihara",
+     "rule": "P2",
+     "種類": "時刻",
+     "reason": "確認できず（記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、欄が空になるため見送っていた）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://dive-hiroshima.com/explore/199"
+     ],
+     "snapshot": "snapshots/mihara__g2.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "市内から車で約45分、標高900メートルの山上にある湖で、早朝は霧が立ちこめ、8時過ぎには晴れやすい。",
+     "old": "市内から車で約45分、標高900メートルの山上にある湖で、早朝は霧が立ちこめ、8時過ぎには晴れやすい。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "mihara",
+      "聖湖"
+     ]
+    },
+    {
+     "page": "okinoerabu",
+     "rule": "P2",
+     "種類": "その他の数値",
+     "reason": "確認できず（記載なし）。文を削除（前回の公開で、判定の区分は削除の対象だったが、欄が空になるため見送っていた）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.chinatyo-syoryudo.com/"
+     ],
+     "snapshot": "snapshots/okinoerabu__g1.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "約20万年かけて形成された空間を歩いて巡れる。",
+     "old": "約20万年かけて形成された空間を歩いて巡れる。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "okinoerabu",
+      "昇竜洞"
+     ]
+    },
+    {
+     "page": "ibukijima",
+     "rule": "P2",
+     "種類": "その他の数値",
+     "reason": "確認できず（記載なし）。数字を含む句だけを削除（文は途中で切れない。欄が空にならない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.city.kanonji.kagawa.jp/soshiki/21/23191.html"
+     ],
+     "snapshot": "snapshots/ibukijima__g1.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "50段ほどの",
+     "旧文": "島の中心部に位置する神社で、苔むした50段ほどの石段を上った先に鳥居と社殿が立つ。",
+     "old": "50段ほどの",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "ibukijima",
+      "伊吹八幡神社"
+     ]
+    },
+    {
+     "page": "kashiwajima",
+     "rule": "P2",
+     "種類": "標高・距離",
+     "reason": "確認できず（記載なし）。数字を含む句だけを削除（文は途中で切れない。欄が空にならない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.town.otsuki.kochi.jp/life/dtl.php?hdnKey=1782"
+     ],
+     "snapshot": "snapshots/kashiwajima__g1.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "透明度30メートル超の",
+     "旧文": "透明度30メートル超の青の世界で、熱帯魚の群れが舞う海に潜れる。",
+     "old": "透明度30メートル超の",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "kashiwajima",
+      "ダイビングスポット群"
+     ]
+    },
+    {
+     "page": "makurazaki",
+     "rule": "P2",
+     "種類": "時刻",
+     "reason": "確認できず（記載なし）。数字を含む句だけを削除（文は途中で切れない。欄が空にならない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [
+      "https://www.makutabi.jp/travel/189"
+     ],
+     "snapshot": "snapshots/makurazaki__g1.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "朝5時から",
+     "旧文": "朝5時から水揚げされたカツオのセリが行われる漁港で、声が飛び交う朝の活気を間近に体感できる。",
+     "old": "朝5時から",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "makurazaki",
+      "枕崎港"
+     ]
+    },
+    {
+     "page": "shoji-ueshima",
+     "rule": "P1d",
+     "種類": "標高・距離",
+     "reason": "食い違い。数字を含む句だけを削除（文は途中で切れない。欄が空にならない）",
+     "公式の値": "標高1，310m（鳥取県）／高さ1,309.9メートル（鳥取市）",
+     "値": [],
+     "出典URL": [
+      "https://www.pref.tottori.lg.jp/93958.htm",
+      "https://www.city.tottori.lg.jp/page/6716.html"
+     ],
+     "snapshot": "snapshots/shoji-ueshima__g2.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "標高千三百メートルの",
+     "旧文": "標高千三百メートルの頂から日本海を見下ろせ、朝は雲海と層状に色づく山肌の紅葉を望める。",
+     "old": "標高千三百メートルの",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "shoji-ueshima",
+      "扇ノ山"
+     ]
+    },
+    {
+     "page": "muroto-cape",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「200円」→「無料」）",
+     "公式の値": "料金 無料",
+     "値": [
+      "無料"
+     ],
+     "出典URL": [
+      "https://kochi-tabi.jp/search_spot.html?id=6299",
+      "https://www.tokokai.org/history/history20",
+      "https://www.city.muroto.kochi.jp/navi/a04b01c01.php"
+     ],
+     "snapshot": "snapshots/muroto-cape__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "入場料200円。",
+     "old": "入場料200円",
+     "new": "入場料は無料",
+     "file": "src/data/articles/muroto-cape.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "suo-oshima",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「食べ放題30分」→「食べ放題1時間」）",
+     "公式の値": "食べ放題は1時間（料金は中学生以上600円または800円）",
+     "値": [
+      "1時間"
+     ],
+     "出典URL": [
+      "https://suo-oshima-kanko.net/spot/matsuda-orange"
+     ],
+     "snapshot": "snapshots/trial_suo-oshima__matsuda-orange.txt",
+     "確認日": "2026-11-18",
+     "旧文": "30分食べ放題、という形が多い。",
+     "old": "30分食べ放題",
+     "new": "1時間の食べ放題",
+     "file": "src/data/articles/suo-oshima.json",
+     "field": "sections.2.body"
+    },
+    {
+     "page": "metasequoia",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「国道303号」→「県道小荒路牧野沢線」）",
+     "公式の値": "県道小荒路牧野沢線（延長約2.4km・約500本）",
+     "値": [
+      "県道小荒路牧野沢線"
+     ],
+     "出典URL": [
+      "https://www.city.takashima.lg.jp/soshiki/shokokankobu/kankoshinkoka/2/2/1128.html",
+      "https://takashima-kanko.jp/spot/2018/06/post_155.html"
+     ],
+     "snapshot": "snapshots/metasequoia__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "国道303号沿いに、突然現れる。",
+     "old": "国道303号",
+     "new": "県道小荒路牧野沢線",
+     "file": "src/data/articles/metasequoia.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "tateyama-kurobe",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「20mを超える」→「20mにも迫る」）",
+     "公式の値": "高さ20メートルにも迫る巨大な雪の壁（積雪の深さが20mを超えることはあるが、雪の壁の高さは20mに迫る）",
+     "値": [
+      "20メートルにも迫る"
+     ],
+     "出典URL": [
+      "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html",
+      "https://www.kurobe-dam.com/kankou/alpine_vehicle.html"
+     ],
+     "snapshot": "snapshots/tateyama-kurobe__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "雪壁が20mを超える場所",
+     "old": "20mを超える",
+     "new": "20mにも迫る",
+     "file": "src/data/articles/tateyama-kurobe.json",
+     "field": "lead"
+    },
+    {
+     "page": "tateyama-kurobe",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「8分」→「7分」）",
+     "公式の値": "大観峰と黒部平を7分で結ぶ（全長1,710メートル、標高差500メートル）",
+     "値": [
+      "7分"
+     ],
+     "出典URL": [
+      "https://www.kurobe-dam.com/kankou/alpine_vehicle.html",
+      "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html"
+     ],
+     "snapshot": "snapshots/tateyama-kurobe__g4.txt",
+     "確認日": "2026-11-18",
+     "旧文": "所要時間：約8分",
+     "old": "約8分",
+     "new": "約7分",
+     "file": "src/data/articles/tateyama-kurobe.json",
+     "field": "sections.3.info"
+    },
+    {
+     "page": "ikoma-kogen",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「標高700m」→「標高540m」）",
+     "公式の値": "標高540m",
+     "値": [
+      "540"
+     ],
+     "出典URL": [
+      "https://www.kanko-miyazaki.jp/en/sightseeing/1025"
+     ],
+     "snapshot": "snapshots/trial_ikoma-kogen__altitude.txt",
+     "確認日": "2026-11-18",
+     "旧文": "標高約700m。",
+     "old": "標高約700m",
+     "new": "標高約540m",
+     "file": "src/data/articles/ikoma-kogen.json",
+     "field": "lead"
+    },
+    {
+     "page": "aogashima",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「200円」→「大人300円」）",
+     "公式の値": "大人300円（65歳以上及び中学生以下100円、小学生未満無料）。なお村公式は台風被害のため当面休業と掲載",
+     "値": [
+      "大人300円"
+     ],
+     "出典URL": [
+      "https://www.vill.aogashima.tokyo.jp/life/facilities.html",
+      "https://www.t-treasureislands.metro.tokyo.lg.jp/spotlist/aogashima/453016-aogashima-villlage-community-sauna.html",
+      "https://www.vill.aogashima.tokyo.jp/tourism/spot.html"
+     ],
+     "snapshot": "snapshots/aogashima__g2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "ふれあいサウナ（200円）",
+     "old": "（200円）",
+     "new": "（大人300円）",
+     "file": "src/data/articles/aogashima.json",
+     "field": "modelCourse.daytrip"
+    },
+    {
+     "page": "hijori-onsen",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "同じページの別の欄に旧値が残っていたので、公式の値に統一（最初の置換: 「300〜500円程度」→「300〜600円」）",
+     "公式の値": "300〜600円（旅館により異なる）",
+     "値": [
+      "600 円"
+     ],
+     "出典URL": [
+      "https://ohkura-kanko.com/contact/qa",
+      "https://www.vill.ohkura.yamagata.jp/material/files/group/6/hijioriryokann_higaeri2025.pdf"
+     ],
+     "snapshot": "snapshots/hijori-onsen__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "日帰り入浴（300〜500円",
+     "old": "300〜500円",
+     "new": "300〜600円",
+     "file": "src/data/articles/hijori-onsen.json",
+     "field": "modelCourse.daytrip"
+    },
+    {
+     "page": "ikoma-kogen",
+     "rule": "P3",
+     "種類": "時刻",
+     "reason": "モデルコースの時刻が公式の開園時刻と矛盾（公式は 9:00 開園）。時刻だけを外す",
+     "公式の値": "通常営業 9:00〜17:00（最終入園16:30）",
+     "値": [
+      "9:00"
+     ],
+     "出典URL": [
+      "https://ikomakougen.com/information"
+     ],
+     "snapshot": "snapshots/trial_ikoma-kogen__information.txt",
+     "確認日": "2026-11-18",
+     "削除した文": "8:30 生駒高原着",
+     "old": "8:30 生駒高原着",
+     "new": "生駒高原着",
+     "file": "src/data/articles/ikoma-kogen.json",
+     "field": "modelCourse.daytrip"
+    }
+   ]
+  }
+ ]
+}
