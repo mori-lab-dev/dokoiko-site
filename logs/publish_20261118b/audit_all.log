@@ -1,0 +1,29 @@
+
+> users-moririn-mori-lab-projects-dokoiko-site@0.0.1 audit:all
+> node scripts/auditAll.mjs
+
+▶ qa                 ✅ 0.1s 
+▶ desc               ✅ 0.2s 
+▶ seo                ✅ 0.1s 
+▶ missing-images     ✅ 0.1s 
+▶ same-name-stay     ✅ 0.1s 
+▶ duplicates         ✅ 0.3s 
+▶ contamination      ✅ 0.3s 
+▶ ouen-wari          ✅ 0.1s 
+▶ ouen-bodies        ✅ 0.1s 
+▶ quiz               ✅ 2.3s 
+▶ car-free           ✅ 0.1s 
+▶ seo-tech           ✅ 1.4s 
+▶ seo-copy           ✅ 0.3s 
+▶ merged-pages       ✅ 2.6s 
+▶ travel-time        ✅ 0.3s 
+▶ structured-data    ✅ 0.4s 
+▶ internal-links     ✅ 0.5s 
+▶ indexability       ✅ 1.4s 
+▶ jalan-app-links    ✅ 0.6s 
+▶ affiliate          ✅ 0.4s 
+▶ stay-shuttle       ✅ 0.1s 
+▶ stay-links         ✅ 0.7s 
+▶ spot-credits       ✅ 0.4s 
+
+✅ すべて合格  → logs/audit_report_2026-11-18.md
