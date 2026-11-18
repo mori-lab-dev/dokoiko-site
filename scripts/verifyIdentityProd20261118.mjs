@@ -14,7 +14,7 @@ for (const f of files) { const u = urlOf(f); const p = prod.get(u); const d = fs
 // (c) 今回の編集（g・h）の全件: 旧文（置換・句の削除は元の文、文の削除は削除した文、時刻は old）が本番に無く、置換は新しい値が本番にある
 const dec = (s) => s.replace(/&#38;|&amp;/g, '&').replace(/&quot;|&#34;/g, '"').replace(/&#39;|&#x27;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const nz = (s) => dec(s).replace(/<[^>]+>/g, '').replace(/\s+/g, '');
-const edits = ['l'].flatMap((x) => JSON.parse(fs.readFileSync(`scripts/data/mergeFactFixes20261118${x}.json`, 'utf8')).fixes.flatMap((f) => f.edits));
+const edits = ['l', 'm'].flatMap((x) => JSON.parse(fs.readFileSync(`scripts/data/mergeFactFixes20261118${x}.json`, 'utf8')).fixes.flatMap((f) => f.edits));
 const rep = { 編集の件数: edits.length, 全件: [], NG: [], 種類ごと: {} };
 for (const e of edits) { const p = prod.get(`/destinations/${e.page}/`); const t = p ? nz(p.text) : ''; const gone = e.old; const shortOld = String(gone).length < 6; let good = !!p && p.status === 200 && (shortOld || !t.includes(nz(gone)));
   if (good && e.new !== '' && e.rule !== 'P3') good = t.includes(nz(e.new)); if (good && e.rule === 'P3') good = t.includes(nz(e.new));
