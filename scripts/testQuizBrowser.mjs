@@ -7,7 +7,7 @@ import { prepare, filterPool, remainingCount, result, QUESTIONS, SCORE_QUESTIONS
 import { aliveFlags } from '../src/lib/quizAlive.js';
 
 const BASE = process.argv[2] || 'http://127.0.0.1:4399';
-const OUT = 'logs/quiz_20261118';
+const OUT = process.env.QOUT || 'logs/quiz_20261118';
 const DATA = JSON.parse(fs.readFileSync('src/data/quizDestinations.json', 'utf8'));
 const P = prepare(DATA);
 const DESC = JSON.parse(fs.readFileSync('src/data/quizDesc.json', 'utf8'));
@@ -115,6 +115,10 @@ for (const vp of [{ n: 'phone390', w: 390, h: 844 }, { n: 'phone360', w: 360, h:
   ok(`${vp.n} 地図の焦点が選ばれた旅先の位置（x,y）`, focus === `${expA.top.x},${expA.top.y}`, `${focus} / 期待 ${expA.top.x},${expA.top.y}`);
   const spot = await page.evaluate(({ x, y, k, tx, ty }) => { const c = document.getElementById('qz-map'); const sx = c.width / 1000; const px = Math.round(sx * (k * x + tx)), py = Math.round(sx * (k * y + ty)); const d = c.getContext('2d').getImageData(Math.max(0, px - 4), Math.max(0, py - 4), 9, 9).data; let red = 0; for (let i = 0; i < d.length; i += 4) if (d[i] > 150 && d[i + 1] < 110 && d[i + 2] < 100) red++; return { px, py, red, w: c.width, h: c.height }; }, { x: expA.top.x, y: expA.top.y, ...vw });
   ok(`${vp.n} 結果の点が、その旅先の位置に描かれている（朱色の画素）`, spot.red >= 5, JSON.stringify(spot));
+  // 近い点のまとめ（描画だけ）: まとめた後の点の数が旅先の数より少なく、まとめる距離が画面上 約14px
+  const cl = await page.evaluate(() => { const c = document.getElementById('qz-map'); return { n: Number(c.dataset.clusters), r: Number(c.dataset.clusterRadius), cssW: c.clientWidth, k: JSON.parse(c.dataset.view).k }; });
+  ok(`${vp.n} 近い点が1つにまとめて描かれている（まとめた後 ${cl.n} < 旅先 ${P.length}）`, cl.n > 100 && cl.n < P.length, JSON.stringify(cl));
+  ok(`${vp.n} まとめる距離が画面上 約14px（±1px）`, Math.abs(cl.r * (cl.cssW / 1000) * cl.k - 14) <= 1.2, `${(cl.r * (cl.cssW / 1000) * cl.k).toFixed(2)}px`);
   const link = await page.getAttribute('#qz-r-link', 'href');
   ok(`${vp.n} 旅先ページへのリンク（utm なし）`, link === expA.top.url && !link.includes('utm_') && nexts.every((n) => n.h.startsWith('/destinations/') && !n.h.includes('utm_')), link);
   const share = await page.getAttribute('#qz-share', 'href'); const u = new URL(share); const entry = new URL(u.searchParams.get('url'));

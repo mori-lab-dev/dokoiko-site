@@ -14,6 +14,7 @@ import sharp from 'sharp';
 import fs from 'node:fs';
 import path from 'node:path';
 import { ACCOUNT, contentHash as hash } from './lib/quizOg.mjs';
+import { clusterDots, radiusFor, clusterScale } from '../src/lib/quizCluster.js';
 
 const args = process.argv.slice(2);
 const val = (f, d = null) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
@@ -35,7 +36,12 @@ const outlineSvg = map.frames.map((f) => {
   const frame = f.key === 'main' ? '' : `<rect x="${x0 - 6}" y="${y0 - 6}" width="${x1 - x0 + 12}" height="${y1 - y0 + 12}" rx="6" fill="#f2eadb" stroke="#bfb298" stroke-width="1.8" stroke-dasharray="6 6"/>`;
   return `${frame}<path d="${f.path}" fill="${LAND}" stroke="none"/><path d="${f.pref}" fill="none" stroke="${INKLINE}" stroke-opacity=".18" stroke-width="1.1" stroke-linejoin="round"/><path d="${f.path}" fill="none" stroke="${INKLINE}" stroke-opacity=".75" stroke-width="1.3" stroke-linejoin="round"/>`;
 }).join('');
-const dotsSvg = data.map((q) => `<circle cx="${q.x}" cy="${q.y}" r="2.8"/>`).join('');
+// 近い点は1つにまとめて描く（画面上で約14px以内。画像の中の地図は幅560pxなので、論理座標で 14/0.56 = 25）。選ばれた旅先はまとめず、本当の位置に朱の輪。
+const CLUSTER_RADIUS = radiusFor(SC);
+const dotsFor = (d) => {
+  const idx = data.indexOf(d);
+  return clusterDots(data, CLUSTER_RADIUS, new Set([idx])).map((c) => `<circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="${(2.8 * clusterScale(c.m.length)).toFixed(2)}"/>`).join('');
+};
 const page = (d) => `<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -56,7 +62,7 @@ const page = (d) => `<!doctype html><html lang="ja"><head><meta charset="utf-8">
   <div class="label">あなたに似合う<br>旅先は</div>
   <div class="stage"><div class="pref">${d.prefecture}</div><div class="name" id="nm">${d.name}</div></div>
   <svg class="map" width="${MAPW}" height="${MAPH}" viewBox="0 0 ${map.width} ${map.height}">${outlineSvg}
-    <g fill="#46423b" shape-rendering="crispEdges">${dotsSvg}</g>
+    <g fill="#46423b" fill-opacity=".62">${dotsFor(d)}</g>
     <circle cx="${d.x}" cy="${d.y}" r="42" fill="none" stroke="#f6f0e2" stroke-width="10"/><circle cx="${d.x}" cy="${d.y}" r="42" fill="none" stroke="#c8321f" stroke-width="4.5"/><circle cx="${d.x}" cy="${d.y}" r="13" fill="#c8321f"/></svg>
   ${d.win > 0 ? `<div class="badge">1万通り中 <b>${d.win.toLocaleString('ja-JP')}</b>通りで1位</div>` : ''}
   <div class="rule"></div>

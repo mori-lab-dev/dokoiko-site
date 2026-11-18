@@ -47,7 +47,7 @@ const noCanon = [];
 for (const p of htmls) {
   const html = fs.readFileSync(p, 'utf8');
   const robots = meta(html, 'robots');
-  if (robots && /noindex/i.test(robots)) {
+  if (robots && /noindex/i.test(robots) && !rel(p).startsWith('quiz/r/')) {   // 診断の結果ページ（/quiz/r/<code>/）は仕様で noindex,follow・canonical /quiz/（scripts/auditQuiz.mjs が検査する）。数えない（2026-11-18）
     noindex.push({ page: rel(p), robots, stub: /移動中/.test(html) });
   }
   const canon = canonicalOf(html);

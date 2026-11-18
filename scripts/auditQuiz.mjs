@@ -205,6 +205,21 @@ init('OGP画像の不備');
 if (!read('dist/index.html').includes('href="/quiz/"')) add('導線・sitemap', 'トップのナビ・フッターに /quiz/ へのリンクが無い');
 if (!read('dist/about/index.html').includes('href="/quiz/"')) add('導線・sitemap', '固定ページのナビ・フッターに /quiz/ へのリンクが無い');
 
+// ---- 地図の見た目: 近い点を表示のときだけ1つにまとめる（2026-11-18）。旧の描画（全点をそのまま描く）に戻っていないか
+init('地図のまとめ描画の不備');
+{
+  const view = read('src/lib/quizMapView.js'), og = read('scripts/buildQuizOgAll.mjs'), cl = read('src/lib/quizCluster.js');
+  if (!/from '\.\/quizCluster\.js'/.test(view) || !/clusterDots\(dots,\s*rad,\s*skip\)/.test(view)) add('地図のまとめ描画の不備', '結果画面の地図（quizMapView.js）が quizCluster.js でまとめていない');
+  if (!/from '\.\.\/src\/lib\/quizCluster\.js'/.test(og) || !/clusterDots\(data,\s*CLUSTER_RADIUS,\s*new Set\(\[idx\]\)\)/.test(og)) add('地図のまとめ描画の不備', '共有画像の作成（buildQuizOgAll.mjs）が点をまとめていない／選ばれた旅先をまとめから外していない');
+  if (!/Math\.min\(Math\.log2\(/.test(js) || !/\.17\*Math\.min/.test(js)) add('地図のまとめ描画の不備', '配信される /quiz/ のスクリプトに、まとめた点の描画（群の大きさ）が無い');
+  if (!/CLUSTER_PX\s*=\s*14\b/.test(cl)) add('地図のまとめ描画の不備', 'まとめる距離（画面上 14px）の定数が変わっている');
+  const ver = Number((read('scripts/lib/quizOg.mjs').match(/OG_VERSION\s*=\s*(\d+)/) || [])[1]);
+  if (!(ver >= 6)) add('地図のまとめ描画の不備', `共有画像の版が v6 未満（${ver}）。旧の見た目の画像が残る`);
+  const mp = JSON.parse(read('src/data/quizMap.json'));
+  const pathLen = mp.frames.reduce((n, f) => n + f.path.length + f.pref.length, 0);
+  if (pathLen > 20000) add('地図のまとめ描画の不備', `地図データが大きい（輪郭+県境 ${pathLen}文字）。簡略化・小さな島の省略が戻っている`);
+}
+
 // ---- 地図の出典・落款
 init('地図の出典・落款の不備');
 {

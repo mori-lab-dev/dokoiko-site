@@ -131,5 +131,13 @@ case('共有画像が古い（manifest の中身のハッシュが今のデー�
 case('共有画像が無い（ファイルが存在しない）', [OG], lambda f, b: None)
 case('共有画像が壊れている（空）', [OG], lambda f, b: b'')
 case('共有画像に実名のバイト列', [OG], add_chunk(b'prVt', subprocess.run(['git', 'config', 'user.name'], capture_output=True, text=True).stdout.strip().encode()))
+# ---- 地図のまとめ描画（旧の描画に戻っていないか）
+case('結果画面の地図がまとめない（旧の描画）', ['src/lib/quizMapView.js'], txt(lambda t: t.replace('clusterDots(dots, rad, skip)', 'dots.map((d, i) => ({ x: d.x, y: d.y, m: [i] }))')))
+case('共有画像がまとめない（旧の描画）', ['scripts/buildQuizOgAll.mjs'], txt(lambda t: t.replace('clusterDots(data, CLUSTER_RADIUS, new Set([idx]))', 'data.map((d, i) => ({ x: d.x, y: d.y, m: [i] }))')))
+case('共有画像が、選ばれた旅先もまとめに入れる', ['scripts/buildQuizOgAll.mjs'], txt(lambda t: t.replace('new Set([idx])', 'null')))
+case('配信されるスクリプトから、まとめた点の描画が消える', [JSF], txt(lambda t: t.replace('Math.log2(', 'Math.abs(')))
+case('まとめる距離の定数が変わる', ['src/lib/quizCluster.js'], txt(lambda t: t.replace('CLUSTER_PX = 14', 'CLUSTER_PX = 1')))
+case('共有画像の版が v5 に戻る', ['scripts/lib/quizOg.mjs'], txt(lambda t: t.replace('OG_VERSION = 6', 'OG_VERSION = 5')))
+case('地図データが旧の大きさに戻る（簡略化・小さな島の省略なし）', ['src/data/quizMap.json'], lambda f, b: open('logs/quiz_20261118b/quizMap.before.json', 'rb').read())
 rc, _ = run()
 print('復元後:', rc == 0 and '合格' or '不合格')

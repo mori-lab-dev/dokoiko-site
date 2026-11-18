@@ -1,0 +1,7776 @@
+{
+ "条件": "15km以内に自分を含め5件以上（DBSCAN eps=15km minPts=5）",
+ "gsc記録": "perf_pages_2026-11-17.csv",
+ "地域数": 59,
+ "地域": [
+  {
+   "件数": 44,
+   "重心": [
+    34.58,
+    135.68
+   ],
+   "県": {
+    "奈良県": 21,
+    "兵庫県": 6,
+    "大阪府": 15,
+    "三重県": 2
+   },
+   "win合計": 514,
+   "表示": 6,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kobe",
+     "name": "神戸",
+     "prefecture": "兵庫県",
+     "url": "/destinations/kobe/",
+     "code": "0e882975",
+     "win": 134,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 68,
+     "疑い": [
+      "名前が重なる: 神戸ハーバーランド"
+     ]
+    },
+    {
+     "id": "osaka",
+     "name": "大阪",
+     "prefecture": "大阪府",
+     "url": "/destinations/osaka/",
+     "code": "096cd771",
+     "win": 78,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 115,
+     "疑い": [
+      "名前が重なる: 大阪ベイエリア"
+     ]
+    },
+    {
+     "id": "niche_奈良_1",
+     "name": "黒滝村の清流と黒滝",
+     "prefecture": "奈良県",
+     "url": "/destinations/niche_%E5%A5%88%E8%89%AF_1/",
+     "code": "6e56991b",
+     "win": 45,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 3
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "nara",
+     "name": "奈良",
+     "prefecture": "奈良県",
+     "url": "/destinations/nara/",
+     "code": "2ae7020e",
+     "win": 43,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 92,
+     "疑い": [
+      "名前が重なる: 奈良公園"
+     ]
+    },
+    {
+     "id": "kashiwara-wine",
+     "name": "柏原",
+     "prefecture": "大阪府",
+     "url": "/destinations/kashiwara-wine/",
+     "code": "051f0fb9",
+     "win": 35,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "niche_奈良_4",
+     "name": "上北山村",
+     "prefecture": "奈良県",
+     "url": "/destinations/niche_%E5%A5%88%E8%89%AF_4/",
+     "code": "6576c649",
+     "win": 33,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "niche_兵庫_1",
+     "name": "武庫川渓谷",
+     "prefecture": "兵庫県",
+     "url": "/destinations/niche_%E5%85%B5%E5%BA%AB_1/",
+     "code": "dd3970c0",
+     "win": 32,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "akame-falls",
+     "name": "赤目四十八滝",
+     "prefecture": "三重県",
+     "url": "/destinations/akame-falls/",
+     "code": "9228613d",
+     "win": 25,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 55,
+     "疑い": []
+    },
+    {
+     "id": "yoshino",
+     "name": "吉野",
+     "prefecture": "奈良県",
+     "url": "/destinations/yoshino/",
+     "code": "f9346137",
+     "win": 20,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 73,
+     "疑い": [
+      "名前が重なる: 吉野川源流"
+     ]
+    },
+    {
+     "id": "arima-onsen",
+     "name": "有馬温泉",
+     "prefecture": "兵庫県",
+     "url": "/destinations/arima-onsen/",
+     "code": "4ba30959",
+     "win": 17,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    },
+    {
+     "id": "kishiwada",
+     "name": "岸和田",
+     "prefecture": "大阪府",
+     "url": "/destinations/kishiwada/",
+     "code": "7838e0b1",
+     "win": 16,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "sakai",
+     "name": "堺",
+     "prefecture": "大阪府",
+     "url": "/destinations/sakai/",
+     "code": "0be99436",
+     "win": 15,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 84,
+     "疑い": []
+    },
+    {
+     "id": "nara-park-2",
+     "name": "若草山",
+     "prefecture": "奈良県",
+     "url": "/destinations/nara-park-2/",
+     "code": "4c8a1f9d",
+     "win": 7,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": [
+      "1km未満: 奈良公園"
+     ]
+    },
+    {
+     "id": "tenkawa",
+     "name": "天川村",
+     "prefecture": "奈良県",
+     "url": "/destinations/tenkawa/",
+     "code": "63fafc98",
+     "win": 5,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "katsuoji",
+     "name": "勝尾寺",
+     "prefecture": "大阪府",
+     "url": "/destinations/katsuoji/",
+     "code": "f6c37d56",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "kamikitayama",
+     "name": "入之波温泉",
+     "prefecture": "奈良県",
+     "url": "/destinations/kamikitayama/",
+     "code": "397cd839",
+     "win": 3,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "asuka",
+     "name": "飛鳥",
+     "prefecture": "奈良県",
+     "url": "/destinations/asuka/",
+     "code": "c598a07f",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "osaka-bay",
+     "name": "大阪ベイエリア",
+     "prefecture": "大阪府",
+     "url": "/destinations/osaka-bay/",
+     "code": "6d57efd3",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": [
+      "名前が重なる: 大阪"
+     ]
+    },
+    {
+     "id": "kashihara",
+     "name": "橿原",
+     "prefecture": "奈良県",
+     "url": "/destinations/kashihara/",
+     "code": "8bf87cd1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "dorogawa-onsen",
+     "name": "洞川温泉",
+     "prefecture": "奈良県",
+     "url": "/destinations/dorogawa-onsen/",
+     "code": "63d34142",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "takarazuka",
+     "name": "宝塚",
+     "prefecture": "兵庫県",
+     "url": "/destinations/takarazuka/",
+     "code": "60a5a69e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "tondabayashi",
+     "name": "富田林",
+     "prefecture": "大阪府",
+     "url": "/destinations/tondabayashi/",
+     "code": "6c51313b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "uda-nara",
+     "name": "宇陀",
+     "prefecture": "奈良県",
+     "url": "/destinations/uda-nara/",
+     "code": "9b650613",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "muroo",
+     "name": "室生",
+     "prefecture": "奈良県",
+     "url": "/destinations/muroo/",
+     "code": "39dcd88d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": []
+    },
+    {
+     "id": "ikeda-osaka",
+     "name": "池田",
+     "prefecture": "大阪府",
+     "url": "/destinations/ikeda-osaka/",
+     "code": "ba6914b5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    },
+    {
+     "id": "yamatokoriyama",
+     "name": "大和郡山",
+     "prefecture": "奈良県",
+     "url": "/destinations/yamatokoriyama/",
+     "code": "46c32178",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 3
+     },
+     "内部リンク": 64,
+     "疑い": []
+    },
+    {
+     "id": "takatsuki",
+     "name": "高槻",
+     "prefecture": "大阪府",
+     "url": "/destinations/takatsuki/",
+     "code": "8cb236e0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "koshien",
+     "name": "甲子園",
+     "prefecture": "兵庫県",
+     "url": "/destinations/koshien/",
+     "code": "39f95d53",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "horyuji",
+     "name": "法隆寺",
+     "prefecture": "奈良県",
+     "url": "/destinations/horyuji/",
+     "code": "cbb91c23",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 62,
+     "疑い": []
+    },
+    {
+     "id": "nara-park",
+     "name": "奈良公園",
+     "prefecture": "奈良県",
+     "url": "/destinations/nara-park/",
+     "code": "dd2cef0d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": [
+      "1km未満: 若草山",
+      "名前が重なる: 奈良"
+     ]
+    },
+    {
+     "id": "mt-yamato",
+     "name": "三輪山",
+     "prefecture": "奈良県",
+     "url": "/destinations/mt-yamato/",
+     "code": "bbfaa4d6",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "shin-sekai",
+     "name": "新世界",
+     "prefecture": "大阪府",
+     "url": "/destinations/shin-sekai/",
+     "code": "8bb1eb36",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": []
+    },
+    {
+     "id": "senri",
+     "name": "万博記念公園",
+     "prefecture": "大阪府",
+     "url": "/destinations/senri/",
+     "code": "eb9205de",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": [
+      "1km未満: 万博公園の桜"
+     ]
+    },
+    {
+     "id": "izumi",
+     "name": "大鳥神社",
+     "prefecture": "大阪府",
+     "url": "/destinations/izumi/",
+     "code": "6b8e9719",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "senri-bamboo",
+     "name": "万博公園の桜",
+     "prefecture": "大阪府",
+     "url": "/destinations/senri-bamboo/",
+     "code": "8bbdd79f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": [
+      "1km未満: 万博記念公園"
+     ]
+    },
+    {
+     "id": "nabari",
+     "name": "名張",
+     "prefecture": "三重県",
+     "url": "/destinations/nabari/",
+     "code": "7e828804",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    },
+    {
+     "id": "niche_大阪_2",
+     "name": "太子町の古刹群",
+     "prefecture": "大阪府",
+     "url": "/destinations/niche_%E5%A4%A7%E9%98%AA_2/",
+     "code": "57572879",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "niche_奈良_6",
+     "name": "吉野川源流",
+     "prefecture": "奈良県",
+     "url": "/destinations/niche_%E5%A5%88%E8%89%AF_6/",
+     "code": "e7564d51",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 吉野"
+     ]
+    },
+    {
+     "id": "niche_奈良_8",
+     "name": "土佐街道",
+     "prefecture": "奈良県",
+     "url": "/destinations/niche_%E5%A5%88%E8%89%AF_8/",
+     "code": "792e66da",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 高取"
+     ]
+    },
+    {
+     "id": "takatori",
+     "name": "高取",
+     "prefecture": "奈良県",
+     "url": "/destinations/takatori/",
+     "code": "e375b333",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": [
+      "1km未満: 土佐街道"
+     ]
+    },
+    {
+     "id": "gojo-nara",
+     "name": "五條",
+     "prefecture": "奈良県",
+     "url": "/destinations/gojo-nara/",
+     "code": "c28c290a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "kobe-port",
+     "name": "神戸ハーバーランド",
+     "prefecture": "兵庫県",
+     "url": "/destinations/kobe-port/",
+     "code": "40e2e075",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": [
+      "名前が重なる: 神戸"
+     ]
+    },
+    {
+     "id": "soni-kogen",
+     "name": "曽爾高原",
+     "prefecture": "奈良県",
+     "url": "/destinations/soni-kogen/",
+     "code": "79622a94",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "hoshida",
+     "name": "ほしだ園地",
+     "prefecture": "大阪府",
+     "url": "/destinations/hoshida/",
+     "code": "d4c5d0e0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 64,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 23,
+   "重心": [
+    35.53,
+    139.65
+   ],
+   "県": {
+    "神奈川県": 11,
+    "東京都": 10,
+    "埼玉県": 1,
+    "千葉県": 1
+   },
+   "win合計": 330,
+   "表示": 22,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "tokyo",
+     "name": "東京",
+     "prefecture": "東京都",
+     "url": "/destinations/tokyo/",
+     "code": "0f1aae8b",
+     "win": 151,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 96,
+     "疑い": [
+      "名前が重なる: 江戸東京たてもの園"
+     ]
+    },
+    {
+     "id": "kamakura",
+     "name": "鎌倉",
+     "prefecture": "神奈川県",
+     "url": "/destinations/kamakura/",
+     "code": "e2069b2f",
+     "win": 63,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 19
+     },
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "yokohama",
+     "name": "横浜",
+     "prefecture": "神奈川県",
+     "url": "/destinations/yokohama/",
+     "code": "2c177d2a",
+     "win": 50,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 92,
+     "疑い": [
+      "1km未満: 横浜中華街",
+      "名前が重なる: 横浜みなとみらい"
+     ]
+    },
+    {
+     "id": "enoshima",
+     "name": "江の島",
+     "prefecture": "神奈川県",
+     "url": "/destinations/enoshima/",
+     "code": "7da3ca89",
+     "win": 47,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "minatomirai",
+     "name": "横浜みなとみらい",
+     "prefecture": "神奈川県",
+     "url": "/destinations/minatomirai/",
+     "code": "ff7b979e",
+     "win": 15,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 55,
+     "疑い": [
+      "名前が重なる: 横浜"
+     ]
+    },
+    {
+     "id": "todoroki-keikoku",
+     "name": "等々力渓谷",
+     "prefecture": "東京都",
+     "url": "/destinations/todoroki-keikoku/",
+     "code": "d979fb8c",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "yokosuka",
+     "name": "横須賀",
+     "prefecture": "神奈川県",
+     "url": "/destinations/yokosuka/",
+     "code": "bd003d4d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "sankeien",
+     "name": "三溪園",
+     "prefecture": "神奈川県",
+     "url": "/destinations/sankeien/",
+     "code": "8560386c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "shibuya",
+     "name": "渋谷",
+     "prefecture": "東京都",
+     "url": "/destinations/shibuya/",
+     "code": "214e2b6a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "shinjuku",
+     "name": "新宿",
+     "prefecture": "東京都",
+     "url": "/destinations/shinjuku/",
+     "code": "9d7e5737",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "ueno",
+     "name": "上野",
+     "prefecture": "東京都",
+     "url": "/destinations/ueno/",
+     "code": "01821f54",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "asakusa",
+     "name": "浅草",
+     "prefecture": "東京都",
+     "url": "/destinations/asakusa/",
+     "code": "3cc8121e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "akiba",
+     "name": "秋葉原",
+     "prefecture": "東京都",
+     "url": "/destinations/akiba/",
+     "code": "8a7aa5f7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 29,
+     "疑い": []
+    },
+    {
+     "id": "shichirigahama",
+     "name": "七里ヶ浜",
+     "prefecture": "神奈川県",
+     "url": "/destinations/shichirigahama/",
+     "code": "0eae874f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "zushi",
+     "name": "逗子",
+     "prefecture": "神奈川県",
+     "url": "/destinations/zushi/",
+     "code": "f5bab476",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "chinatown",
+     "name": "横浜中華街",
+     "prefecture": "神奈川県",
+     "url": "/destinations/chinatown/",
+     "code": "24047ae4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": [
+      "1km未満: 横浜"
+     ]
+    },
+    {
+     "id": "jindaiji",
+     "name": "深大寺",
+     "prefecture": "東京都",
+     "url": "/destinations/jindaiji/",
+     "code": "d8c7b8e2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "kawasaki-daishi",
+     "name": "川崎大師",
+     "prefecture": "神奈川県",
+     "url": "/destinations/kawasaki-daishi/",
+     "code": "9c79fa03",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "shomyoji",
+     "name": "称名寺",
+     "prefecture": "神奈川県",
+     "url": "/destinations/shomyoji/",
+     "code": "acce82f8",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "niche_東京_6",
+     "name": "江戸東京たてもの園",
+     "prefecture": "東京都",
+     "url": "/destinations/niche_%E6%9D%B1%E4%BA%AC_6/",
+     "code": "28a17a95",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 東京"
+     ]
+    },
+    {
+     "id": "kunitachi",
+     "name": "国立",
+     "prefecture": "東京都",
+     "url": "/destinations/kunitachi/",
+     "code": "7e484fee",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "soka-matsubara",
+     "name": "草加松原",
+     "prefecture": "埼玉県",
+     "url": "/destinations/soka-matsubara/",
+     "code": "fe629314",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": []
+    },
+    {
+     "id": "futtsu-misaki",
+     "name": "富津岬",
+     "prefecture": "千葉県",
+     "url": "/destinations/futtsu-misaki/",
+     "code": "a509918c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 20,
+   "重心": [
+    35.47,
+    134.05
+   ],
+   "県": {
+    "鳥取県": 18,
+    "岡山県": 1,
+    "兵庫県": 1
+   },
+   "win合計": 192,
+   "表示": 28,
+   "クリック": 1,
+   "items": [
+    {
+     "id": "misasa-onsen",
+     "name": "三朝温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/misasa-onsen/",
+     "code": "655f48d2",
+     "win": 45,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "kurayoshi",
+     "name": "倉吉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/kurayoshi/",
+     "code": "efb68fa7",
+     "win": 45,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    },
+    {
+     "id": "niche_鳥取_5",
+     "name": "小松温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/niche_%E9%B3%A5%E5%8F%96_5/",
+     "code": "57d48eff",
+     "win": 34,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "niche_鳥取_1",
+     "name": "東郷湖",
+     "prefecture": "鳥取県",
+     "url": "/destinations/niche_%E9%B3%A5%E5%8F%96_1/",
+     "code": "5a6a6749",
+     "win": 33,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "uradome",
+     "name": "浦富海岸",
+     "prefecture": "鳥取県",
+     "url": "/destinations/uradome/",
+     "code": "81ee713d",
+     "win": 15,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": []
+    },
+    {
+     "id": "hiruzen",
+     "name": "蒜山高原",
+     "prefecture": "岡山県",
+     "url": "/destinations/hiruzen/",
+     "code": "799abaae",
+     "win": 11,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 58,
+     "疑い": []
+    },
+    {
+     "id": "iwai-tottori",
+     "name": "岩井温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/iwai-tottori/",
+     "code": "a40c349a",
+     "win": 8,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 64,
+     "疑い": []
+    },
+    {
+     "id": "yumura-hyogo",
+     "name": "湯村温泉",
+     "prefecture": "兵庫県",
+     "url": "/destinations/yumura-hyogo/",
+     "code": "cd8c8d2f",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "tottori",
+     "name": "鳥取",
+     "prefecture": "鳥取県",
+     "url": "/destinations/tottori/",
+     "code": "bd0af505",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": [
+      "1km未満: 鳥取城跡",
+      "名前が重なる: 鳥取砂丘"
+     ]
+    },
+    {
+     "id": "hakuto",
+     "name": "白兎海岸",
+     "prefecture": "鳥取県",
+     "url": "/destinations/hakuto/",
+     "code": "bbb73263",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": []
+    },
+    {
+     "id": "tottori-sakyu",
+     "name": "鳥取砂丘",
+     "prefecture": "鳥取県",
+     "url": "/destinations/tottori-sakyu/",
+     "code": "bf5af3c9",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": [
+      "1km未満: 砂の美術館",
+      "名前が重なる: 鳥取"
+     ]
+    },
+    {
+     "id": "tottori-castle",
+     "name": "鳥取城跡",
+     "prefecture": "鳥取県",
+     "url": "/destinations/tottori-castle/",
+     "code": "e82d0cc1",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 4
+     },
+     "内部リンク": 33,
+     "疑い": [
+      "1km未満: 鳥取"
+     ]
+    },
+    {
+     "id": "tottori-sakyu-2",
+     "name": "砂の美術館",
+     "prefecture": "鳥取県",
+     "url": "/destinations/tottori-sakyu-2/",
+     "code": "c8b08406",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 1,
+      "impressions": 18
+     },
+     "内部リンク": 40,
+     "疑い": [
+      "1km未満: 鳥取砂丘"
+     ]
+    },
+    {
+     "id": "hakuto-tottori",
+     "name": "白兎神社",
+     "prefecture": "鳥取県",
+     "url": "/destinations/hakuto-tottori/",
+     "code": "ff3e67c3",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "tottori-mt-mitoku",
+     "name": "三徳山投入堂",
+     "prefecture": "鳥取県",
+     "url": "/destinations/tottori-mt-mitoku/",
+     "code": "b4717322",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "misasa2",
+     "name": "関金温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/misasa2/",
+     "code": "36576ce7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "shikano",
+     "name": "鹿野温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/shikano/",
+     "code": "792c4e39",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "togo",
+     "name": "東郷温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/togo/",
+     "code": "7072ae10",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "yoshioka",
+     "name": "吉岡温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/yoshioka/",
+     "code": "3c908af5",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 4
+     },
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "ojika",
+     "name": "小鹿渓",
+     "prefecture": "鳥取県",
+     "url": "/destinations/ojika/",
+     "code": "a9d4c951",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 17,
+   "重心": [
+    40.62,
+    140.77
+   ],
+   "県": {
+    "青森県": 17
+   },
+   "win合計": 133,
+   "表示": 8,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "aomori",
+     "name": "青森",
+     "prefecture": "青森県",
+     "url": "/destinations/aomori/",
+     "code": "d5d741b4",
+     "win": 80,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 76,
+     "疑い": [
+      "1km未満: 青森ねぶた祭"
+     ]
+    },
+    {
+     "id": "niche_青森_4",
+     "name": "黒石こみせ通り",
+     "prefecture": "青森県",
+     "url": "/destinations/niche_%E9%9D%92%E6%A3%AE_4/",
+     "code": "fa8acbc3",
+     "win": 51,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "towada",
+     "name": "十和田",
+     "prefecture": "青森県",
+     "url": "/destinations/towada/",
+     "code": "cabc86b4",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": [
+      "1km未満: 十和田湖",
+      "名前が重なる: 十和田湖畔温泉"
+     ]
+    },
+    {
+     "id": "hirakawa",
+     "name": "平川",
+     "prefecture": "青森県",
+     "url": "/destinations/hirakawa/",
+     "code": "376d76bf",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "gen_青森_青荷温泉",
+     "name": "青荷温泉",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E9%9D%92%E8%8D%B7%E6%B8%A9%E6%B3%89/",
+     "code": "830d4551",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_青森_奥入瀬渓流温泉",
+     "name": "奥入瀬渓流温泉",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E5%A5%A5%E5%85%A5%E7%80%AC%E6%B8%93%E6%B5%81%E6%B8%A9%E6%B3%89/",
+     "code": "1c980aa2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_青森_城ヶ倉温泉",
+     "name": "城ヶ倉温泉",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E5%9F%8E%E3%83%B6%E5%80%89%E6%B8%A9%E6%B3%89/",
+     "code": "91cc5a19",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_青森_酸ヶ湯",
+     "name": "酸ヶ湯",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E9%85%B8%E3%83%B6%E6%B9%AF/",
+     "code": "2897d17b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_青森_蔦温泉",
+     "name": "蔦温泉",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E8%94%A6%E6%B8%A9%E6%B3%89/",
+     "code": "df3c1baa",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_青森_谷地温泉",
+     "name": "谷地温泉",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E8%B0%B7%E5%9C%B0%E6%B8%A9%E6%B3%89/",
+     "code": "1b5adfda",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "hakkoda",
+     "name": "八甲田山",
+     "prefecture": "青森県",
+     "url": "/destinations/hakkoda/",
+     "code": "ca9f226c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": []
+    },
+    {
+     "id": "hirosaki",
+     "name": "弘前",
+     "prefecture": "青森県",
+     "url": "/destinations/hirosaki/",
+     "code": "d3d197b0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": [
+      "1km未満: 弘前城"
+     ]
+    },
+    {
+     "id": "towada-lake",
+     "name": "十和田湖",
+     "prefecture": "青森県",
+     "url": "/destinations/towada-lake/",
+     "code": "fed2741d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": [
+      "1km未満: 十和田",
+      "名前が重なる: 十和田湖畔温泉"
+     ]
+    },
+    {
+     "id": "gen_青森_十和田湖畔温泉",
+     "name": "十和田湖畔温泉",
+     "prefecture": "青森県",
+     "url": "/destinations/gen_%E9%9D%92%E6%A3%AE_%E5%8D%81%E5%92%8C%E7%94%B0%E6%B9%96%E7%95%94%E6%B8%A9%E6%B3%89/",
+     "code": "87da2b09",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 十和田",
+      "名前が重なる: 十和田湖"
+     ]
+    },
+    {
+     "id": "sannai-maruyama",
+     "name": "三内丸山遺跡",
+     "prefecture": "青森県",
+     "url": "/destinations/sannai-maruyama/",
+     "code": "b375f46c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "aomori-hirosaki-2",
+     "name": "弘前城",
+     "prefecture": "青森県",
+     "url": "/destinations/aomori-hirosaki-2/",
+     "code": "c3b139d1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": [
+      "1km未満: 弘前"
+     ]
+    },
+    {
+     "id": "aomori-aomori-2",
+     "name": "青森ねぶた祭",
+     "prefecture": "青森県",
+     "url": "/destinations/aomori-aomori-2/",
+     "code": "bfe8ebac",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 7
+     },
+     "内部リンク": 40,
+     "疑い": [
+      "1km未満: 青森"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 14,
+   "重心": [
+    26.24,
+    127.77
+   ],
+   "県": {
+    "沖縄県": 14
+   },
+   "win合計": 164,
+   "表示": 13,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "chatan",
+     "name": "北谷",
+     "prefecture": "沖縄県",
+     "url": "/destinations/chatan/",
+     "code": "acfb36ff",
+     "win": 68,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": []
+    },
+    {
+     "id": "itoman",
+     "name": "糸満",
+     "prefecture": "沖縄県",
+     "url": "/destinations/itoman/",
+     "code": "7fcf1a22",
+     "win": 36,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 25,
+     "疑い": []
+    },
+    {
+     "id": "niche_沖縄_1",
+     "name": "瀬長島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/niche_%E6%B2%96%E7%B8%84_1/",
+     "code": "2ec2252f",
+     "win": 23,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "chinen-misaki",
+     "name": "知念岬",
+     "prefecture": "沖縄県",
+     "url": "/destinations/chinen-misaki/",
+     "code": "3ba33d3b",
+     "win": 14,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": [
+      "名前が重なる: 知念岬公園"
+     ]
+    },
+    {
+     "id": "nanjo-okinawa",
+     "name": "南城",
+     "prefecture": "沖縄県",
+     "url": "/destinations/nanjo-okinawa/",
+     "code": "61965523",
+     "win": 11,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "kudakajima",
+     "name": "久高島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/kudakajima/",
+     "code": "b7069ba0",
+     "win": 10,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    },
+    {
+     "id": "sefa-utaki",
+     "name": "斎場御嶽",
+     "prefecture": "沖縄県",
+     "url": "/destinations/sefa-utaki/",
+     "code": "287f8143",
+     "win": 2,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 11
+     },
+     "内部リンク": 64,
+     "疑い": []
+    },
+    {
+     "id": "yomitanson",
+     "name": "読谷村",
+     "prefecture": "沖縄県",
+     "url": "/destinations/yomitanson/",
+     "code": "80944eee",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "okinawa-naha",
+     "name": "那覇",
+     "prefecture": "沖縄県",
+     "url": "/destinations/okinawa-naha/",
+     "code": "15a6a7fa",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "shuri-castle",
+     "name": "首里城",
+     "prefecture": "沖縄県",
+     "url": "/destinations/shuri-castle/",
+     "code": "ef79ac1b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "okinawa-chinen",
+     "name": "知念岬公園",
+     "prefecture": "沖縄県",
+     "url": "/destinations/okinawa-chinen/",
+     "code": "cb61b567",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 29,
+     "疑い": [
+      "名前が重なる: 知念岬"
+     ]
+    },
+    {
+     "id": "onna",
+     "name": "恩納村",
+     "prefecture": "沖縄県",
+     "url": "/destinations/onna/",
+     "code": "36e95756",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "uruma",
+     "name": "うるま",
+     "prefecture": "沖縄県",
+     "url": "/destinations/uruma/",
+     "code": "c379f74b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "cape-zampa",
+     "name": "残波岬",
+     "prefecture": "沖縄県",
+     "url": "/destinations/cape-zampa/",
+     "code": "0ff351dc",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 13,
+   "重心": [
+    35.17,
+    139.05
+   ],
+   "県": {
+    "静岡県": 4,
+    "神奈川県": 9
+   },
+   "win合計": 303,
+   "表示": 1,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "ashinoko",
+     "name": "芦ノ湖",
+     "prefecture": "神奈川県",
+     "url": "/destinations/ashinoko/",
+     "code": "ba9389cf",
+     "win": 116,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "odawara",
+     "name": "小田原",
+     "prefecture": "神奈川県",
+     "url": "/destinations/odawara/",
+     "code": "141c6235",
+     "win": 47,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "ito",
+     "name": "伊東",
+     "prefecture": "静岡県",
+     "url": "/destinations/ito/",
+     "code": "bc6b830b",
+     "win": 42,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 70,
+     "疑い": []
+    },
+    {
+     "id": "atami",
+     "name": "熱海",
+     "prefecture": "静岡県",
+     "url": "/destinations/atami/",
+     "code": "5c82dccb",
+     "win": 35,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 73,
+     "疑い": []
+    },
+    {
+     "id": "miyanoshita",
+     "name": "宮ノ下",
+     "prefecture": "神奈川県",
+     "url": "/destinations/miyanoshita/",
+     "code": "29f417e5",
+     "win": 35,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "hakone-2",
+     "name": "箱根湯本",
+     "prefecture": "神奈川県",
+     "url": "/destinations/hakone-2/",
+     "code": "4f1372de",
+     "win": 18,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": [
+      "1km未満: 箱根"
+     ]
+    },
+    {
+     "id": "hakone",
+     "name": "箱根",
+     "prefecture": "神奈川県",
+     "url": "/destinations/hakone/",
+     "code": "21794639",
+     "win": 10,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": [
+      "1km未満: 箱根湯本"
+     ]
+    },
+    {
+     "id": "yugawara-onsen",
+     "name": "湯河原温泉",
+     "prefecture": "神奈川県",
+     "url": "/destinations/yugawara-onsen/",
+     "code": "2aef8048",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": [
+      "名前が重なる: 湯河原"
+     ]
+    },
+    {
+     "id": "mishima",
+     "name": "三島",
+     "prefecture": "静岡県",
+     "url": "/destinations/mishima/",
+     "code": "78aaa8d4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "manazuru",
+     "name": "真鶴",
+     "prefecture": "神奈川県",
+     "url": "/destinations/manazuru/",
+     "code": "826c09a0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "yugawara",
+     "name": "湯河原",
+     "prefecture": "神奈川県",
+     "url": "/destinations/yugawara/",
+     "code": "1504b251",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": [
+      "名前が重なる: 湯河原温泉"
+     ]
+    },
+    {
+     "id": "owakudani",
+     "name": "大涌谷",
+     "prefecture": "神奈川県",
+     "url": "/destinations/owakudani/",
+     "code": "8907ddb0",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "numazu",
+     "name": "沼津",
+     "prefecture": "静岡県",
+     "url": "/destinations/numazu/",
+     "code": "67fd737c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 13,
+   "重心": [
+    35.85,
+    139.24
+   ],
+   "県": {
+    "東京都": 6,
+    "埼玉県": 7
+   },
+   "win合計": 141,
+   "表示": 28,
+   "クリック": 1,
+   "items": [
+    {
+     "id": "niche_東京_1",
+     "name": "檜原村",
+     "prefecture": "東京都",
+     "url": "/destinations/niche_%E6%9D%B1%E4%BA%AC_1/",
+     "code": "7136b257",
+     "win": 44,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "kawagoe",
+     "name": "川越",
+     "prefecture": "埼玉県",
+     "url": "/destinations/kawagoe/",
+     "code": "971045cf",
+     "win": 44,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "niche_東京_2",
+     "name": "御岳山",
+     "prefecture": "東京都",
+     "url": "/destinations/niche_%E6%9D%B1%E4%BA%AC_2/",
+     "code": "d00e9143",
+     "win": 34,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "takao",
+     "name": "高尾山",
+     "prefecture": "東京都",
+     "url": "/destinations/takao/",
+     "code": "eea7ad5d",
+     "win": 15,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 74,
+     "疑い": []
+    },
+    {
+     "id": "niche_東京_4",
+     "name": "奥多摩湖",
+     "prefecture": "東京都",
+     "url": "/destinations/niche_%E6%9D%B1%E4%BA%AC_4/",
+     "code": "e8d9e36d",
+     "win": 3,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 奥多摩"
+     ]
+    },
+    {
+     "id": "niche_東京_3",
+     "name": "青梅赤塚不二夫会館",
+     "prefecture": "東京都",
+     "url": "/destinations/niche_%E6%9D%B1%E4%BA%AC_3/",
+     "code": "2b5139ed",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "oku-tama",
+     "name": "奥多摩",
+     "prefecture": "東京都",
+     "url": "/destinations/oku-tama/",
+     "code": "8778bf81",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": [
+      "名前が重なる: 奥多摩湖"
+     ]
+    },
+    {
+     "id": "hanno",
+     "name": "飯能",
+     "prefecture": "埼玉県",
+     "url": "/destinations/hanno/",
+     "code": "898dba66",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "ogose",
+     "name": "越生",
+     "prefecture": "埼玉県",
+     "url": "/destinations/ogose/",
+     "code": "008d1d59",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "moroyama-saito",
+     "name": "高麗神社",
+     "prefecture": "埼玉県",
+     "url": "/destinations/moroyama-saito/",
+     "code": "feaec92c",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 1,
+      "impressions": 24
+     },
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "kinchakuda",
+     "name": "巾着田",
+     "prefecture": "埼玉県",
+     "url": "/destinations/kinchakuda/",
+     "code": "bf09ea56",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": []
+    },
+    {
+     "id": "naguri",
+     "name": "名栗温泉",
+     "prefecture": "埼玉県",
+     "url": "/destinations/naguri/",
+     "code": "0f726d0a",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 4
+     },
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "ogawa-saitama",
+     "name": "小川町",
+     "prefecture": "埼玉県",
+     "url": "/destinations/ogawa-saitama/",
+     "code": "0752f7fa",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 12,
+   "重心": [
+    34.42,
+    134.11
+   ],
+   "県": {
+    "香川県": 10,
+    "岡山県": 2
+   },
+   "win合計": 111,
+   "表示": 48,
+   "クリック": 1,
+   "items": [
+    {
+     "id": "kagawa-takamatsu",
+     "name": "高松",
+     "prefecture": "香川県",
+     "url": "/destinations/kagawa-takamatsu/",
+     "code": "f9c55376",
+     "win": 33,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "ushimado",
+     "name": "牛窓",
+     "prefecture": "岡山県",
+     "url": "/destinations/ushimado/",
+     "code": "e4339a1d",
+     "win": 29,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 69,
+     "疑い": []
+    },
+    {
+     "id": "naoshima",
+     "name": "直島",
+     "prefecture": "香川県",
+     "url": "/destinations/naoshima/",
+     "code": "0afbee02",
+     "win": 23,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 68,
+     "疑い": []
+    },
+    {
+     "id": "shionoe",
+     "name": "塩江",
+     "prefecture": "香川県",
+     "url": "/destinations/shionoe/",
+     "code": "1c6a944a",
+     "win": 15,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "aji-peninsula",
+     "name": "庵治半島",
+     "prefecture": "香川県",
+     "url": "/destinations/aji-peninsula/",
+     "code": "f7d16013",
+     "win": 8,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "inujima",
+     "name": "犬島",
+     "prefecture": "岡山県",
+     "url": "/destinations/inujima/",
+     "code": "3ff06b63",
+     "win": 3,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 62,
+     "疑い": []
+    },
+    {
+     "id": "shodoshima",
+     "name": "小豆島",
+     "prefecture": "香川県",
+     "url": "/destinations/shodoshima/",
+     "code": "32351294",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "teshima",
+     "name": "豊島",
+     "prefecture": "香川県",
+     "url": "/destinations/teshima/",
+     "code": "65750148",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 79,
+     "疑い": []
+    },
+    {
+     "id": "ogijima",
+     "name": "男木島",
+     "prefecture": "香川県",
+     "url": "/destinations/ogijima/",
+     "code": "5a0060ba",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "megijima",
+     "name": "女木島",
+     "prefecture": "香川県",
+     "url": "/destinations/megijima/",
+     "code": "eb78e11e",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 1,
+      "impressions": 48
+     },
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "takamatsu-ritsurin",
+     "name": "栗林公園",
+     "prefecture": "香川県",
+     "url": "/destinations/takamatsu-ritsurin/",
+     "code": "1a909753",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "shodoshima-canyon",
+     "name": "寒霞渓",
+     "prefecture": "香川県",
+     "url": "/destinations/shodoshima-canyon/",
+     "code": "c49401b8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 12,
+   "重心": [
+    36.61,
+    138.54
+   ],
+   "県": {
+    "群馬県": 9,
+    "長野県": 3
+   },
+   "win合計": 0,
+   "表示": 7,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kusatsu-onsen",
+     "name": "草津温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/kusatsu-onsen/",
+     "code": "7fd356ce",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "shima-onsen",
+     "name": "四万温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/shima-onsen/",
+     "code": "887f8019",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "jigokudani",
+     "name": "地獄谷野猿公苑",
+     "prefecture": "長野県",
+     "url": "/destinations/jigokudani/",
+     "code": "3cab9155",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": []
+    },
+    {
+     "id": "shibu-onsen",
+     "name": "渋温泉",
+     "prefecture": "長野県",
+     "url": "/destinations/shibu-onsen/",
+     "code": "c420de1d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 55,
+     "疑い": []
+    },
+    {
+     "id": "gen_群馬_奥嬬恋温泉",
+     "name": "奥嬬恋温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/gen_%E7%BE%A4%E9%A6%AC_%E5%A5%A5%E5%AC%AC%E6%81%8B%E6%B8%A9%E6%B3%89/",
+     "code": "7504f069",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 嬬恋"
+     ]
+    },
+    {
+     "id": "gen_群馬_川原湯温泉",
+     "name": "川原湯温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/gen_%E7%BE%A4%E9%A6%AC_%E5%B7%9D%E5%8E%9F%E6%B9%AF%E6%B8%A9%E6%B3%89/",
+     "code": "3085ddd6",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 3
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_群馬_尻焼温泉",
+     "name": "尻焼温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/gen_%E7%BE%A4%E9%A6%AC_%E5%B0%BB%E7%84%BC%E6%B8%A9%E6%B3%89/",
+     "code": "4dab92b2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_群馬_万座温泉",
+     "name": "万座温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/gen_%E7%BE%A4%E9%A6%AC_%E4%B8%87%E5%BA%A7%E6%B8%A9%E6%B3%89/",
+     "code": "2ec72f9e",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 4
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "tsumagoi",
+     "name": "嬬恋",
+     "prefecture": "群馬県",
+     "url": "/destinations/tsumagoi/",
+     "code": "1a16bc11",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": [
+      "名前が重なる: 奥嬬恋温泉"
+     ]
+    },
+    {
+     "id": "akaiwa-gunma",
+     "name": "六合赤岩",
+     "prefecture": "群馬県",
+     "url": "/destinations/akaiwa-gunma/",
+     "code": "80cb5255",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "obuse",
+     "name": "小布施",
+     "prefecture": "長野県",
+     "url": "/destinations/obuse/",
+     "code": "72931fb4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "gen_群馬_鹿沢温泉",
+     "name": "鹿沢温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/gen_%E7%BE%A4%E9%A6%AC_%E9%B9%BF%E6%B2%A2%E6%B8%A9%E6%B3%89/",
+     "code": "281917f8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 12,
+   "重心": [
+    36.37,
+    140.48
+   ],
+   "県": {
+    "茨城県": 12
+   },
+   "win合計": 13,
+   "表示": 50,
+   "クリック": 1,
+   "items": [
+    {
+     "id": "oarai",
+     "name": "大洗",
+     "prefecture": "茨城県",
+     "url": "/destinations/oarai/",
+     "code": "e5019b3c",
+     "win": 13,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": [
+      "名前が重なる: 大洗磯前神社"
+     ]
+    },
+    {
+     "id": "kasama",
+     "name": "笠間",
+     "prefecture": "茨城県",
+     "url": "/destinations/kasama/",
+     "code": "60faca6a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": [
+      "名前が重なる: 笠間稲荷神社"
+     ]
+    },
+    {
+     "id": "ibaraki-mito",
+     "name": "水戸",
+     "prefecture": "茨城県",
+     "url": "/destinations/ibaraki-mito/",
+     "code": "129d12f9",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": [
+      "名前が重なる: 水戸東照宮",
+      "名前が重なる: 水戸八幡宮"
+     ]
+    },
+    {
+     "id": "gen_茨城_偕楽園",
+     "name": "偕楽園",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E5%81%95%E6%A5%BD%E5%9C%92/",
+     "code": "d7d3e1dc",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 常磐神社"
+     ]
+    },
+    {
+     "id": "gen_茨城_国営ひたち海浜公園",
+     "name": "国営ひたち海浜公園",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E5%9B%BD%E5%96%B6%E3%81%B2%E3%81%9F%E3%81%A1%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92/",
+     "code": "a584142e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: ひたち海浜公園"
+     ]
+    },
+    {
+     "id": "gen_茨城_大洗磯前神社",
+     "name": "大洗磯前神社",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E5%A4%A7%E6%B4%97%E7%A3%AF%E5%89%8D%E7%A5%9E%E7%A4%BE/",
+     "code": "95c649eb",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 大洗"
+     ]
+    },
+    {
+     "id": "gen_茨城_酒列磯前神社",
+     "name": "酒列磯前神社",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E9%85%92%E5%88%97%E7%A3%AF%E5%89%8D%E7%A5%9E%E7%A4%BE/",
+     "code": "a0bc0ddd",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_茨城_常磐神社",
+     "name": "常磐神社",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E5%B8%B8%E7%A3%90%E7%A5%9E%E7%A4%BE/",
+     "code": "a94d5f2b",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 19
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 偕楽園"
+     ]
+    },
+    {
+     "id": "gen_茨城_水戸東照宮",
+     "name": "水戸東照宮",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E6%B0%B4%E6%88%B8%E6%9D%B1%E7%85%A7%E5%AE%AE/",
+     "code": "0153f892",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 1,
+      "impressions": 14
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 水戸"
+     ]
+    },
+    {
+     "id": "gen_茨城_水戸八幡宮",
+     "name": "水戸八幡宮",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E6%B0%B4%E6%88%B8%E5%85%AB%E5%B9%A1%E5%AE%AE/",
+     "code": "6ec45cb0",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 17
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 水戸"
+     ]
+    },
+    {
+     "id": "hitachi-seaside",
+     "name": "ひたち海浜公園",
+     "prefecture": "茨城県",
+     "url": "/destinations/hitachi-seaside/",
+     "code": "054cd9a7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": [
+      "1km未満: 国営ひたち海浜公園"
+     ]
+    },
+    {
+     "id": "gen_茨城_笠間稲荷神社",
+     "name": "笠間稲荷神社",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E7%AC%A0%E9%96%93%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE/",
+     "code": "c67b9b89",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 笠間"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 11,
+   "重心": [
+    33.26,
+    130.37
+   ],
+   "県": {
+    "福岡県": 4,
+    "佐賀県": 7
+   },
+   "win合計": 36,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kurume",
+     "name": "久留米",
+     "prefecture": "福岡県",
+     "url": "/destinations/kurume/",
+     "code": "1217dc35",
+     "win": 31,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "funagoya-onsen",
+     "name": "船小屋温泉",
+     "prefecture": "福岡県",
+     "url": "/destinations/funagoya-onsen/",
+     "code": "acb8cbea",
+     "win": 5,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": []
+    },
+    {
+     "id": "yanagawa",
+     "name": "柳川",
+     "prefecture": "福岡県",
+     "url": "/destinations/yanagawa/",
+     "code": "77adbcd6",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 68,
+     "疑い": []
+    },
+    {
+     "id": "yoshinogari",
+     "name": "吉野ヶ里",
+     "prefecture": "佐賀県",
+     "url": "/destinations/yoshinogari/",
+     "code": "a9c80f55",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": [
+      "名前が重なる: 吉野ヶ里歴史公園"
+     ]
+    },
+    {
+     "id": "saga-castle",
+     "name": "佐賀城",
+     "prefecture": "佐賀県",
+     "url": "/destinations/saga-castle/",
+     "code": "dbd61c37",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": [
+      "1km未満: 佐賀インターナショナルバ",
+      "1km未満: 佐賀"
+     ]
+    },
+    {
+     "id": "saga-balloon",
+     "name": "佐賀インターナショナルバ",
+     "prefecture": "佐賀県",
+     "url": "/destinations/saga-balloon/",
+     "code": "517748a8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": [
+      "1km未満: 佐賀城",
+      "1km未満: 佐賀"
+     ]
+    },
+    {
+     "id": "saga-yoshino",
+     "name": "吉野ヶ里歴史公園",
+     "prefecture": "佐賀県",
+     "url": "/destinations/saga-yoshino/",
+     "code": "4663c570",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": [
+      "名前が重なる: 吉野ヶ里"
+     ]
+    },
+    {
+     "id": "saga",
+     "name": "佐賀",
+     "prefecture": "佐賀県",
+     "url": "/destinations/saga/",
+     "code": "db45e234",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": [
+      "1km未満: 佐賀城",
+      "1km未満: 佐賀インターナショナルバ"
+     ]
+    },
+    {
+     "id": "kumanokawa-onsen",
+     "name": "熊の川温泉",
+     "prefecture": "佐賀県",
+     "url": "/destinations/kumanokawa-onsen/",
+     "code": "9333bec4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "niche_福岡_4",
+     "name": "三井三池炭鉱",
+     "prefecture": "福岡県",
+     "url": "/destinations/niche_%E7%A6%8F%E5%B2%A1_4/",
+     "code": "b0003cf3",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "furuyu-onsen",
+     "name": "古湯温泉",
+     "prefecture": "佐賀県",
+     "url": "/destinations/furuyu-onsen/",
+     "code": "9d3164b2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 11,
+   "重心": [
+    34.32,
+    131.21
+   ],
+   "県": {
+    "山口県": 11
+   },
+   "win合計": 39,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "akiyoshidai",
+     "name": "秋吉台",
+     "prefecture": "山口県",
+     "url": "/destinations/akiyoshidai/",
+     "code": "15207b18",
+     "win": 21,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": [
+      "1km未満: 秋芳洞"
+     ]
+    },
+    {
+     "id": "tawarayama",
+     "name": "俵山温泉",
+     "prefecture": "山口県",
+     "url": "/destinations/tawarayama/",
+     "code": "7abac724",
+     "win": 7,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": []
+    },
+    {
+     "id": "akiyoshido",
+     "name": "秋芳洞",
+     "prefecture": "山口県",
+     "url": "/destinations/akiyoshido/",
+     "code": "79e45de5",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": [
+      "1km未満: 秋吉台"
+     ]
+    },
+    {
+     "id": "niche_山口_4",
+     "name": "仙崎漁港",
+     "prefecture": "山口県",
+     "url": "/destinations/niche_%E5%B1%B1%E5%8F%A3_4/",
+     "code": "f1304bb1",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 長門"
+     ]
+    },
+    {
+     "id": "hagi",
+     "name": "萩",
+     "prefecture": "山口県",
+     "url": "/destinations/hagi/",
+     "code": "75d8f942",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 75,
+     "疑い": []
+    },
+    {
+     "id": "nagato-yamaguchi",
+     "name": "長門",
+     "prefecture": "山口県",
+     "url": "/destinations/nagato-yamaguchi/",
+     "code": "aeaff7d0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": [
+      "1km未満: 仙崎漁港",
+      "名前が重なる: 長門湯本温泉"
+     ]
+    },
+    {
+     "id": "omijima",
+     "name": "青海島",
+     "prefecture": "山口県",
+     "url": "/destinations/omijima/",
+     "code": "3cd9dc34",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 57,
+     "疑い": []
+    },
+    {
+     "id": "nagatoyumoto",
+     "name": "長門湯本温泉",
+     "prefecture": "山口県",
+     "url": "/destinations/nagatoyumoto/",
+     "code": "07ef675f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": [
+      "名前が重なる: 長門"
+     ]
+    },
+    {
+     "id": "sekichukei",
+     "name": "石柱渓",
+     "prefecture": "山口県",
+     "url": "/destinations/sekichukei/",
+     "code": "f6c3cf65",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "mine-yamaguchi",
+     "name": "美祢",
+     "prefecture": "山口県",
+     "url": "/destinations/mine-yamaguchi/",
+     "code": "d92c45e1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": []
+    },
+    {
+     "id": "motonosumi",
+     "name": "元乃隅稲成神社",
+     "prefecture": "山口県",
+     "url": "/destinations/motonosumi/",
+     "code": "b95c650e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 10,
+   "重心": [
+    33.15,
+    130
+   ],
+   "県": {
+    "佐賀県": 9,
+    "長崎県": 1
+   },
+   "win合計": 137,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "niche_佐賀_6",
+     "name": "太良町の海中鳥居",
+     "prefecture": "佐賀県",
+     "url": "/destinations/niche_%E4%BD%90%E8%B3%80_6/",
+     "code": "a333fc58",
+     "win": 59,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "imari",
+     "name": "伊万里",
+     "prefecture": "佐賀県",
+     "url": "/destinations/imari/",
+     "code": "d3008ca7",
+     "win": 50,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "niche_佐賀_5",
+     "name": "黒髪山",
+     "prefecture": "佐賀県",
+     "url": "/destinations/niche_%E4%BD%90%E8%B3%80_5/",
+     "code": "d16828e8",
+     "win": 18,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "hasami",
+     "name": "波佐見",
+     "prefecture": "長崎県",
+     "url": "/destinations/hasami/",
+     "code": "0da724e8",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": []
+    },
+    {
+     "id": "takeo-onsen",
+     "name": "武雄温泉",
+     "prefecture": "佐賀県",
+     "url": "/destinations/takeo-onsen/",
+     "code": "3251d928",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": [
+      "1km未満: 御船山楽園"
+     ]
+    },
+    {
+     "id": "ureshino-onsen",
+     "name": "嬉野温泉",
+     "prefecture": "佐賀県",
+     "url": "/destinations/ureshino-onsen/",
+     "code": "050e148a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "arita",
+     "name": "有田",
+     "prefecture": "佐賀県",
+     "url": "/destinations/arita/",
+     "code": "78481097",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 58,
+     "疑い": []
+    },
+    {
+     "id": "kashima-saga",
+     "name": "鹿島",
+     "prefecture": "佐賀県",
+     "url": "/destinations/kashima-saga/",
+     "code": "793ddcd1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": [
+      "1km未満: 祐徳稲荷神社"
+     ]
+    },
+    {
+     "id": "mifuneyama",
+     "name": "御船山楽園",
+     "prefecture": "佐賀県",
+     "url": "/destinations/mifuneyama/",
+     "code": "bca80319",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": [
+      "1km未満: 武雄温泉"
+     ]
+    },
+    {
+     "id": "yutoku-inari",
+     "name": "祐徳稲荷神社",
+     "prefecture": "佐賀県",
+     "url": "/destinations/yutoku-inari/",
+     "code": "353ae400",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": [
+      "1km未満: 鹿島"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 10,
+   "重心": [
+    34.44,
+    133.46
+   ],
+   "県": {
+    "広島県": 4,
+    "岡山県": 5,
+    "香川県": 1
+   },
+   "win合計": 176,
+   "表示": 8,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "fukuyama",
+     "name": "福山",
+     "prefecture": "広島県",
+     "url": "/destinations/fukuyama/",
+     "code": "5607627b",
+     "win": 150,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "tomonoura",
+     "name": "鞆の浦",
+     "prefecture": "広島県",
+     "url": "/destinations/tomonoura/",
+     "code": "85723aec",
+     "win": 25,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": [
+      "1km未満: 仙酔島"
+     ]
+    },
+    {
+     "id": "sensui-jima",
+     "name": "仙酔島",
+     "prefecture": "広島県",
+     "url": "/destinations/sensui-jima/",
+     "code": "9d2e746f",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": [
+      "1km未満: 鞆の浦"
+     ]
+    },
+    {
+     "id": "shiraishijima",
+     "name": "白石島",
+     "prefecture": "岡山県",
+     "url": "/destinations/shiraishijima/",
+     "code": "919e5807",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 71,
+     "疑い": []
+    },
+    {
+     "id": "kasaoka-islands",
+     "name": "笠岡諸島",
+     "prefecture": "岡山県",
+     "url": "/destinations/kasaoka-islands/",
+     "code": "acaf63a0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": [
+      "名前が重なる: 笠岡"
+     ]
+    },
+    {
+     "id": "yakake",
+     "name": "矢掛",
+     "prefecture": "岡山県",
+     "url": "/destinations/yakake/",
+     "code": "a66f0556",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 8
+     },
+     "内部リンク": 35,
+     "疑い": []
+    },
+    {
+     "id": "kasaoka",
+     "name": "笠岡",
+     "prefecture": "岡山県",
+     "url": "/destinations/kasaoka/",
+     "code": "25f54350",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": [
+      "名前が重なる: 笠岡諸島"
+     ]
+    },
+    {
+     "id": "sanagijima",
+     "name": "佐柳島",
+     "prefecture": "香川県",
+     "url": "/destinations/sanagijima/",
+     "code": "5bc75050",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": []
+    },
+    {
+     "id": "manabeshima",
+     "name": "真鍋島",
+     "prefecture": "岡山県",
+     "url": "/destinations/manabeshima/",
+     "code": "b4f83a54",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "fuchu-hiroshima",
+     "name": "府中",
+     "prefecture": "広島県",
+     "url": "/destinations/fuchu-hiroshima/",
+     "code": "20cfddb1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    34.5,
+    136.84
+   ],
+   "県": {
+    "三重県": 8,
+    "愛知県": 1
+   },
+   "win合計": 73,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "ise",
+     "name": "伊勢",
+     "prefecture": "三重県",
+     "url": "/destinations/ise/",
+     "code": "add92f41",
+     "win": 54,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": [
+      "名前が重なる: 伊勢神宮"
+     ]
+    },
+    {
+     "id": "niche_愛知_1",
+     "name": "伊良湖岬",
+     "prefecture": "愛知県",
+     "url": "/destinations/niche_%E6%84%9B%E7%9F%A5_1/",
+     "code": "046f1c80",
+     "win": 16,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "meoto-iwa",
+     "name": "夫婦岩",
+     "prefecture": "三重県",
+     "url": "/destinations/meoto-iwa/",
+     "code": "17441b0f",
+     "win": 3,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "toba",
+     "name": "鳥羽",
+     "prefecture": "三重県",
+     "url": "/destinations/toba/",
+     "code": "1639da2e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": [
+      "1km未満: ミキモト真珠島"
+     ]
+    },
+    {
+     "id": "toushijima",
+     "name": "答志島",
+     "prefecture": "三重県",
+     "url": "/destinations/toushijima/",
+     "code": "98fb958d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "kamishima",
+     "name": "神島",
+     "prefecture": "三重県",
+     "url": "/destinations/kamishima/",
+     "code": "5f8a6859",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    },
+    {
+     "id": "iseshima",
+     "name": "伊勢神宮",
+     "prefecture": "三重県",
+     "url": "/destinations/iseshima/",
+     "code": "968aca60",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": [
+      "1km未満: おかげ横丁",
+      "名前が重なる: 伊勢"
+     ]
+    },
+    {
+     "id": "ise-okage",
+     "name": "おかげ横丁",
+     "prefecture": "三重県",
+     "url": "/destinations/ise-okage/",
+     "code": "39e24b84",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 25,
+     "疑い": [
+      "1km未満: 伊勢神宮"
+     ]
+    },
+    {
+     "id": "toba-pearl",
+     "name": "ミキモト真珠島",
+     "prefecture": "三重県",
+     "url": "/destinations/toba-pearl/",
+     "code": "606d67fa",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": [
+      "1km未満: 鳥羽"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    36.27,
+    136.27
+   ],
+   "県": {
+    "石川県": 5,
+    "福井県": 4
+   },
+   "win合計": 27,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "niche_福井_3",
+     "name": "あわら温泉",
+     "prefecture": "福井県",
+     "url": "/destinations/niche_%E7%A6%8F%E4%BA%95_3/",
+     "code": "f74c796f",
+     "win": 26,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "tojinbo",
+     "name": "東尋坊",
+     "prefecture": "福井県",
+     "url": "/destinations/tojinbo/",
+     "code": "6f998bef",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "kaga-onsen",
+     "name": "加賀温泉郷",
+     "prefecture": "石川県",
+     "url": "/destinations/kaga-onsen/",
+     "code": "9fa9275f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": [
+      "1km未満: 加佐ノ岬"
+     ]
+    },
+    {
+     "id": "kaga-onsen2",
+     "name": "山代温泉",
+     "prefecture": "石川県",
+     "url": "/destinations/kaga-onsen2/",
+     "code": "d6d16cf9",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": []
+    },
+    {
+     "id": "fukui-castle",
+     "name": "丸岡城",
+     "prefecture": "福井県",
+     "url": "/destinations/fukui-castle/",
+     "code": "aadd6f0f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 31,
+     "疑い": []
+    },
+    {
+     "id": "niche_石川_4",
+     "name": "加佐ノ岬",
+     "prefecture": "石川県",
+     "url": "/destinations/niche_%E7%9F%B3%E5%B7%9D_4/",
+     "code": "97ff325d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 加賀温泉郷"
+     ]
+    },
+    {
+     "id": "yamanaka-onsen",
+     "name": "山中温泉",
+     "prefecture": "石川県",
+     "url": "/destinations/yamanaka-onsen/",
+     "code": "4a5d32ca",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "mikuni-minato",
+     "name": "三国湊",
+     "prefecture": "福井県",
+     "url": "/destinations/mikuni-minato/",
+     "code": "995051e7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 31,
+     "疑い": []
+    },
+    {
+     "id": "niche_石川_3",
+     "name": "木場潟",
+     "prefecture": "石川県",
+     "url": "/destinations/niche_%E7%9F%B3%E5%B7%9D_3/",
+     "code": "6722354c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    39.82,
+    140.79
+   ],
+   "県": {
+    "秋田県": 7,
+    "岩手県": 2
+   },
+   "win合計": 32,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "tazawako",
+     "name": "田沢湖",
+     "prefecture": "秋田県",
+     "url": "/destinations/tazawako/",
+     "code": "6fe35fb5",
+     "win": 29,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 54,
+     "疑い": [
+      "名前が重なる: 田沢湖高原"
+     ]
+    },
+    {
+     "id": "hachimantai",
+     "name": "八幡平",
+     "prefecture": "岩手県",
+     "url": "/destinations/hachimantai/",
+     "code": "92b9b28a",
+     "win": 3,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "nyuto-onsen",
+     "name": "乳頭温泉",
+     "prefecture": "秋田県",
+     "url": "/destinations/nyuto-onsen/",
+     "code": "23c927a8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": [
+      "名前が重なる: 乳頭温泉郷"
+     ]
+    },
+    {
+     "id": "shimokitazawa-nyuto",
+     "name": "乳頭温泉郷",
+     "prefecture": "秋田県",
+     "url": "/destinations/shimokitazawa-nyuto/",
+     "code": "75ee1208",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": [
+      "名前が重なる: 乳頭温泉"
+     ]
+    },
+    {
+     "id": "akita-nyuto",
+     "name": "田沢湖高原",
+     "prefecture": "秋田県",
+     "url": "/destinations/akita-nyuto/",
+     "code": "54c103f5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": [
+      "名前が重なる: 田沢湖"
+     ]
+    },
+    {
+     "id": "matsukawa-iwate",
+     "name": "松川温泉",
+     "prefecture": "岩手県",
+     "url": "/destinations/matsukawa-iwate/",
+     "code": "467b7005",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "kuroyu",
+     "name": "黒湯温泉",
+     "prefecture": "秋田県",
+     "url": "/destinations/kuroyu/",
+     "code": "96dbeaf9",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": [
+      "1km未満: 蟹場温泉"
+     ]
+    },
+    {
+     "id": "kanigasaki",
+     "name": "蟹場温泉",
+     "prefecture": "秋田県",
+     "url": "/destinations/kanigasaki/",
+     "code": "c34c517b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": [
+      "1km未満: 黒湯温泉"
+     ]
+    },
+    {
+     "id": "hachimantai-onsen",
+     "name": "後生掛温泉",
+     "prefecture": "秋田県",
+     "url": "/destinations/hachimantai-onsen/",
+     "code": "72f45905",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    37.12,
+    139.96
+   ],
+   "県": {
+    "栃木県": 6,
+    "福島県": 3
+   },
+   "win合計": 63,
+   "表示": 1,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "niche_栃木_2",
+     "name": "新湯温泉",
+     "prefecture": "栃木県",
+     "url": "/destinations/niche_%E6%A0%83%E6%9C%A8_2/",
+     "code": "58ff5136",
+     "win": 35,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_栃木_三斗小屋温泉",
+     "name": "三斗小屋温泉",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E4%B8%89%E6%96%97%E5%B0%8F%E5%B1%8B%E6%B8%A9%E6%B3%89/",
+     "code": "1521f7dd",
+     "win": 27,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "yunokami-onsen",
+     "name": "湯野上温泉",
+     "prefecture": "福島県",
+     "url": "/destinations/yunokami-onsen/",
+     "code": "73a2a18b",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 67,
+     "疑い": []
+    },
+    {
+     "id": "nasu",
+     "name": "那須",
+     "prefecture": "栃木県",
+     "url": "/destinations/nasu/",
+     "code": "f0b1bef3",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 66,
+     "疑い": [
+      "名前が重なる: 那須温泉郷",
+      "名前が重なる: 那須高原"
+     ]
+    },
+    {
+     "id": "gen_栃木_那須温泉郷",
+     "name": "那須温泉郷",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E9%82%A3%E9%A0%88%E6%B8%A9%E6%B3%89%E9%83%B7/",
+     "code": "8e4251b9",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 那須"
+     ]
+    },
+    {
+     "id": "gen_栃木_殺生石",
+     "name": "殺生石",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E6%AE%BA%E7%94%9F%E7%9F%B3/",
+     "code": "dbda9a75",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 那須高原"
+     ]
+    },
+    {
+     "id": "gen_栃木_那須高原",
+     "name": "那須高原",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E9%82%A3%E9%A0%88%E9%AB%98%E5%8E%9F/",
+     "code": "5e27621c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 殺生石",
+      "名前が重なる: 那須"
+     ]
+    },
+    {
+     "id": "ouchi-juku",
+     "name": "大内宿",
+     "prefecture": "福島県",
+     "url": "/destinations/ouchi-juku/",
+     "code": "033679ed",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "fukushima-aizu-2",
+     "name": "塔のへつり",
+     "prefecture": "福島県",
+     "url": "/destinations/fukushima-aizu-2/",
+     "code": "bb2ea766",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 57,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    35.04,
+    135.82
+   ],
+   "県": {
+    "京都府": 6,
+    "滋賀県": 3
+   },
+   "win合計": 153,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kyoto",
+     "name": "京都",
+     "prefecture": "京都府",
+     "url": "/destinations/kyoto/",
+     "code": "9676dce6",
+     "win": 79,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 120,
+     "疑い": []
+    },
+    {
+     "id": "fushimi",
+     "name": "伏見",
+     "prefecture": "京都府",
+     "url": "/destinations/fushimi/",
+     "code": "c6892ef2",
+     "win": 32,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "kibune-kurama",
+     "name": "鞍馬・貴船",
+     "prefecture": "京都府",
+     "url": "/destinations/kibune-kurama/",
+     "code": "385a0bdc",
+     "win": 27,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": [
+      "1km未満: 貴船"
+     ]
+    },
+    {
+     "id": "kusatsu-shiga",
+     "name": "草津",
+     "prefecture": "滋賀県",
+     "url": "/destinations/kusatsu-shiga/",
+     "code": "71bc7f8c",
+     "win": 14,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "shiga-otsu",
+     "name": "比叡山延暦寺",
+     "prefecture": "滋賀県",
+     "url": "/destinations/shiga-otsu/",
+     "code": "9a96c135",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": []
+    },
+    {
+     "id": "otsu-shiga",
+     "name": "大津",
+     "prefecture": "滋賀県",
+     "url": "/destinations/otsu-shiga/",
+     "code": "1840ff2f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "ohara",
+     "name": "大原",
+     "prefecture": "京都府",
+     "url": "/destinations/ohara/",
+     "code": "16340b95",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 57,
+     "疑い": []
+    },
+    {
+     "id": "kifune",
+     "name": "貴船",
+     "prefecture": "京都府",
+     "url": "/destinations/kifune/",
+     "code": "c9c67789",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": [
+      "1km未満: 鞍馬・貴船"
+     ]
+    },
+    {
+     "id": "uji",
+     "name": "宇治",
+     "prefecture": "京都府",
+     "url": "/destinations/uji/",
+     "code": "be2c50f4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 69,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    34.3,
+    133.04
+   ],
+   "県": {
+    "広島県": 7,
+    "愛媛県": 2
+   },
+   "win合計": 10,
+   "表示": 17,
+   "クリック": 1,
+   "items": [
+    {
+     "id": "onomichi",
+     "name": "尾道",
+     "prefecture": "広島県",
+     "url": "/destinations/onomichi/",
+     "code": "4c8f69d1",
+     "win": 10,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "mihara",
+     "name": "三原",
+     "prefecture": "広島県",
+     "url": "/destinations/mihara/",
+     "code": "78c65eb0",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 1,
+      "impressions": 3
+     },
+     "内部リンク": 47,
+     "疑い": []
+    },
+    {
+     "id": "omishima-island",
+     "name": "大三島",
+     "prefecture": "愛媛県",
+     "url": "/destinations/omishima-island/",
+     "code": "10e2a0e2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "okunoshima",
+     "name": "大久野島",
+     "prefecture": "広島県",
+     "url": "/destinations/okunoshima/",
+     "code": "9008712f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "ikuchijima",
+     "name": "生口島",
+     "prefecture": "広島県",
+     "url": "/destinations/ikuchijima/",
+     "code": "11b188d4",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 3
+     },
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "takehara",
+     "name": "竹原",
+     "prefecture": "広島県",
+     "url": "/destinations/takehara/",
+     "code": "efaaca8b",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 8
+     },
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "innoshima",
+     "name": "因島",
+     "prefecture": "広島県",
+     "url": "/destinations/innoshima/",
+     "code": "1e69f8ee",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "hakatajima",
+     "name": "伯方島",
+     "prefecture": "愛媛県",
+     "url": "/destinations/hakatajima/",
+     "code": "6c928dd8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 65,
+     "疑い": []
+    },
+    {
+     "id": "mitarai",
+     "name": "御手洗",
+     "prefecture": "広島県",
+     "url": "/destinations/mitarai/",
+     "code": "2f7741fc",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 3
+     },
+     "内部リンク": 47,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 9,
+   "重心": [
+    33.11,
+    131.21
+   ],
+   "県": {
+    "熊本県": 4,
+    "大分県": 5
+   },
+   "win合計": 84,
+   "表示": 1,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kuju-kogen",
+     "name": "久住高原",
+     "prefecture": "大分県",
+     "url": "/destinations/kuju-kogen/",
+     "code": "883647c7",
+     "win": 51,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "niche_大分_3",
+     "name": "長湯温泉",
+     "prefecture": "大分県",
+     "url": "/destinations/niche_%E5%A4%A7%E5%88%86_3/",
+     "code": "ff397594",
+     "win": 17,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "kurokawa-k",
+     "name": "黒川温泉",
+     "prefecture": "熊本県",
+     "url": "/destinations/kurokawa-k/",
+     "code": "01e19802",
+     "win": 12,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "tsuetate-onsen",
+     "name": "杖立温泉",
+     "prefecture": "熊本県",
+     "url": "/destinations/tsuetate-onsen/",
+     "code": "12c2e2fb",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "oguni-kumamoto",
+     "name": "小国",
+     "prefecture": "熊本県",
+     "url": "/destinations/oguni-kumamoto/",
+     "code": "e3986d0a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "kannojigoku",
+     "name": "寒の地獄温泉",
+     "prefecture": "大分県",
+     "url": "/destinations/kannojigoku/",
+     "code": "fa32f32f",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 58,
+     "疑い": []
+    },
+    {
+     "id": "yunohira-onsen",
+     "name": "湯平温泉",
+     "prefecture": "大分県",
+     "url": "/destinations/yunohira-onsen/",
+     "code": "ebaee20a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "hagenoyu-onsen",
+     "name": "はげの湯温泉",
+     "prefecture": "熊本県",
+     "url": "/destinations/hagenoyu-onsen/",
+     "code": "f2e6a14b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    },
+    {
+     "id": "taketa",
+     "name": "竹田",
+     "prefecture": "大分県",
+     "url": "/destinations/taketa/",
+     "code": "08ba544b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 8,
+   "重心": [
+    35.45,
+    138.75
+   ],
+   "県": {
+    "山梨県": 7,
+    "静岡県": 1
+   },
+   "win合計": 63,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "saiko-kawaguchi",
+     "name": "河口湖",
+     "prefecture": "山梨県",
+     "url": "/destinations/saiko-kawaguchi/",
+     "code": "2dd4fdcd",
+     "win": 32,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": [
+      "1km未満: 富士河口湖"
+     ]
+    },
+    {
+     "id": "yamanakako",
+     "name": "山中湖",
+     "prefecture": "山梨県",
+     "url": "/destinations/yamanakako/",
+     "code": "2f6c8c84",
+     "win": 30,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "saiko",
+     "name": "西湖",
+     "prefecture": "山梨県",
+     "url": "/destinations/saiko/",
+     "code": "b57a6a2b",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": []
+    },
+    {
+     "id": "fujikawaguchiko",
+     "name": "富士河口湖",
+     "prefecture": "山梨県",
+     "url": "/destinations/fujikawaguchiko/",
+     "code": "0d5cff05",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": [
+      "1km未満: 河口湖"
+     ]
+    },
+    {
+     "id": "motosuko",
+     "name": "本栖湖",
+     "prefecture": "山梨県",
+     "url": "/destinations/motosuko/",
+     "code": "f4a8ae3f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    },
+    {
+     "id": "mt-fuji-fifth",
+     "name": "富士山五合目",
+     "prefecture": "山梨県",
+     "url": "/destinations/mt-fuji-fifth/",
+     "code": "3e6d6ab1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    },
+    {
+     "id": "shoji-lake",
+     "name": "精進湖",
+     "prefecture": "山梨県",
+     "url": "/destinations/shoji-lake/",
+     "code": "1187c84d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": []
+    },
+    {
+     "id": "niche_静岡_2",
+     "name": "須走温泉",
+     "prefecture": "静岡県",
+     "url": "/destinations/niche_%E9%9D%99%E5%B2%A1_2/",
+     "code": "e4b3b657",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 8,
+   "重心": [
+    35.48,
+    133.24
+   ],
+   "県": {
+    "島根県": 4,
+    "鳥取県": 4
+   },
+   "win合計": 10,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "sakaiminato",
+     "name": "境港",
+     "prefecture": "鳥取県",
+     "url": "/destinations/sakaiminato/",
+     "code": "e9481749",
+     "win": 5,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": [
+      "1km未満: 水木しげるロード"
+     ]
+    },
+    {
+     "id": "adachi-museum",
+     "name": "足立美術館",
+     "prefecture": "島根県",
+     "url": "/destinations/adachi-museum/",
+     "code": "e0c15a0b",
+     "win": 5,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "mihonoseki",
+     "name": "美保関",
+     "prefecture": "島根県",
+     "url": "/destinations/mihonoseki/",
+     "code": "e9718c77",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "daikonshima",
+     "name": "大根島",
+     "prefecture": "島根県",
+     "url": "/destinations/daikonshima/",
+     "code": "a8679ace",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    },
+    {
+     "id": "mizuki-shigeru-road",
+     "name": "水木しげるロード",
+     "prefecture": "鳥取県",
+     "url": "/destinations/mizuki-shigeru-road/",
+     "code": "65bc7439",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": [
+      "1km未満: 境港"
+     ]
+    },
+    {
+     "id": "kaike",
+     "name": "皆生温泉",
+     "prefecture": "鳥取県",
+     "url": "/destinations/kaike/",
+     "code": "ca86694a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "yonago",
+     "name": "米子",
+     "prefecture": "鳥取県",
+     "url": "/destinations/yonago/",
+     "code": "2d33f3f8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "matsue",
+     "name": "松江",
+     "prefecture": "島根県",
+     "url": "/destinations/matsue/",
+     "code": "85809bcf",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 8,
+   "重心": [
+    36.5,
+    136.92
+   ],
+   "県": {
+    "富山県": 7,
+    "石川県": 1
+   },
+   "win合計": 30,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "niche_富山_2",
+     "name": "利賀村",
+     "prefecture": "富山県",
+     "url": "/destinations/niche_%E5%AF%8C%E5%B1%B1_2/",
+     "code": "34214b60",
+     "win": 18,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gokayama-2",
+     "name": "五箇山・相倉合掌集落",
+     "prefecture": "富山県",
+     "url": "/destinations/gokayama-2/",
+     "code": "7b478391",
+     "win": 10,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 66,
+     "疑い": [
+      "名前が重なる: 五箇山"
+     ]
+    },
+    {
+     "id": "niche_富山_1",
+     "name": "庄川峡",
+     "prefecture": "富山県",
+     "url": "/destinations/niche_%E5%AF%8C%E5%B1%B1_1/",
+     "code": "10849c04",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gokayama",
+     "name": "五箇山",
+     "prefecture": "富山県",
+     "url": "/destinations/gokayama/",
+     "code": "9ff01516",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": [
+      "名前が重なる: 五箇山・相倉合掌集落",
+      "名前が重なる: 五箇山平村"
+     ]
+    },
+    {
+     "id": "nanto",
+     "name": "南砺",
+     "prefecture": "富山県",
+     "url": "/destinations/nanto/",
+     "code": "3c731a23",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "yuwaku-onsen",
+     "name": "湯涌温泉",
+     "prefecture": "石川県",
+     "url": "/destinations/yuwaku-onsen/",
+     "code": "eb99f3ef",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "tonami",
+     "name": "砺波",
+     "prefecture": "富山県",
+     "url": "/destinations/tonami/",
+     "code": "b1cf296b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "niche_富山_6",
+     "name": "五箇山平村",
+     "prefecture": "富山県",
+     "url": "/destinations/niche_%E5%AF%8C%E5%B1%B1_6/",
+     "code": "3daa758a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 五箇山"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 8,
+   "重心": [
+    35.53,
+    137.54
+   ],
+   "県": {
+    "長野県": 3,
+    "岐阜県": 5
+   },
+   "win合計": 92,
+   "表示": 20,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "nakatsugawa",
+     "name": "中津川",
+     "prefecture": "岐阜県",
+     "url": "/destinations/nakatsugawa/",
+     "code": "a321e51c",
+     "win": 41,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": [
+      "1km未満: 付知峡"
+     ]
+    },
+    {
+     "id": "tsumago",
+     "name": "妻籠",
+     "prefecture": "長野県",
+     "url": "/destinations/tsumago/",
+     "code": "4117d00c",
+     "win": 35,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 72,
+     "疑い": [
+      "名前が重なる: 妻籠宿"
+     ]
+    },
+    {
+     "id": "niche_岐阜_4",
+     "name": "付知峡",
+     "prefecture": "岐阜県",
+     "url": "/destinations/niche_%E5%B2%90%E9%98%9C_4/",
+     "code": "2b188340",
+     "win": 11,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 中津川"
+     ]
+    },
+    {
+     "id": "niche_愛知_5",
+     "name": "南木曽宿場町",
+     "prefecture": "長野県",
+     "url": "/destinations/niche_%E6%84%9B%E7%9F%A5_5/",
+     "code": "7dcb65be",
+     "win": 5,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 妻籠宿"
+     ]
+    },
+    {
+     "id": "magome",
+     "name": "馬籠",
+     "prefecture": "岐阜県",
+     "url": "/destinations/magome/",
+     "code": "19617f59",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": [
+      "名前が重なる: 馬籠宿"
+     ]
+    },
+    {
+     "id": "nakasendo-tsumago",
+     "name": "妻籠宿",
+     "prefecture": "長野県",
+     "url": "/destinations/nakasendo-tsumago/",
+     "code": "aab96a01",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 19
+     },
+     "内部リンク": 29,
+     "疑い": [
+      "1km未満: 南木曽宿場町",
+      "名前が重なる: 妻籠"
+     ]
+    },
+    {
+     "id": "niche_長野_2",
+     "name": "馬籠宿",
+     "prefecture": "岐阜県",
+     "url": "/destinations/niche_%E9%95%B7%E9%87%8E_2/",
+     "code": "3597338b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 馬籠"
+     ]
+    },
+    {
+     "id": "niche_岐阜_1",
+     "name": "恵那峡",
+     "prefecture": "岐阜県",
+     "url": "/destinations/niche_%E5%B2%90%E9%98%9C_1/",
+     "code": "d0482c30",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 8,
+   "重心": [
+    38.32,
+    140.38
+   ],
+   "県": {
+    "山形県": 8
+   },
+   "win合計": 62,
+   "表示": 1,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "yamadera",
+     "name": "山寺",
+     "prefecture": "山形県",
+     "url": "/destinations/yamadera/",
+     "code": "62c3f227",
+     "win": 58,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": [
+      "1km未満: 山寺（立石寺）"
+     ]
+    },
+    {
+     "id": "zaou-onsen",
+     "name": "蔵王温泉",
+     "prefecture": "山形県",
+     "url": "/destinations/zaou-onsen/",
+     "code": "a65b632b",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "yamadera-2",
+     "name": "山寺（立石寺）",
+     "prefecture": "山形県",
+     "url": "/destinations/yamadera-2/",
+     "code": "c5e471f8",
+     "win": 2,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 40,
+     "疑い": [
+      "1km未満: 山寺"
+     ]
+    },
+    {
+     "id": "higashine",
+     "name": "東根",
+     "prefecture": "山形県",
+     "url": "/destinations/higashine/",
+     "code": "a100d9c8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "tendou",
+     "name": "天童",
+     "prefecture": "山形県",
+     "url": "/destinations/tendou/",
+     "code": "3f2e6c12",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "zao-snow-monsters",
+     "name": "蔵王樹氷",
+     "prefecture": "山形県",
+     "url": "/destinations/zao-snow-monsters/",
+     "code": "63706c0d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "yamagata",
+     "name": "山形",
+     "prefecture": "山形県",
+     "url": "/destinations/yamagata/",
+     "code": "b81dfcaa",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "sagae",
+     "name": "寒河江",
+     "prefecture": "山形県",
+     "url": "/destinations/sagae/",
+     "code": "f2d4dd33",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 8,
+   "重心": [
+    36.92,
+    138.8
+   ],
+   "県": {
+    "新潟県": 5,
+    "群馬県": 2,
+    "長野県": 1
+   },
+   "win合計": 59,
+   "表示": 55,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "akiyamago",
+     "name": "秋山郷",
+     "prefecture": "長野県",
+     "url": "/destinations/akiyamago/",
+     "code": "5659133a",
+     "win": 47,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 76,
+     "疑い": []
+    },
+    {
+     "id": "echigo-yuzawa",
+     "name": "越後湯沢",
+     "prefecture": "新潟県",
+     "url": "/destinations/echigo-yuzawa/",
+     "code": "b8362a83",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    },
+    {
+     "id": "takarakawa-onsen",
+     "name": "宝川温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/takarakawa-onsen/",
+     "code": "4c5360ce",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 76,
+     "疑い": []
+    },
+    {
+     "id": "tsunan",
+     "name": "津南",
+     "prefecture": "新潟県",
+     "url": "/destinations/tsunan/",
+     "code": "6f0051d5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "nozawa-onsen-niigata",
+     "name": "湯沢・苗場",
+     "prefecture": "新潟県",
+     "url": "/destinations/nozawa-onsen-niigata/",
+     "code": "1a09f292",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 53
+     },
+     "内部リンク": 44,
+     "疑い": [
+      "1km未満: 湯沢高原"
+     ]
+    },
+    {
+     "id": "niigata-uono",
+     "name": "湯沢高原",
+     "prefecture": "新潟県",
+     "url": "/destinations/niigata-uono/",
+     "code": "243b865c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": [
+      "1km未満: 湯沢・苗場"
+     ]
+    },
+    {
+     "id": "kaikake",
+     "name": "貝掛温泉",
+     "prefecture": "新潟県",
+     "url": "/destinations/kaikake/",
+     "code": "4a6eaf2e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    },
+    {
+     "id": "minakami-onsen",
+     "name": "水上温泉",
+     "prefecture": "群馬県",
+     "url": "/destinations/minakami-onsen/",
+     "code": "0c0cdfc0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 58,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    36.77,
+    139.65
+   ],
+   "県": {
+    "栃木県": 7
+   },
+   "win合計": 190,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "nikko",
+     "name": "日光",
+     "prefecture": "栃木県",
+     "url": "/destinations/nikko/",
+     "code": "179478dd",
+     "win": 84,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 125,
+     "疑い": [
+      "1km未満: 日光杉並木",
+      "名前が重なる: 日光東照宮"
+     ]
+    },
+    {
+     "id": "kinugawa-onsen",
+     "name": "鬼怒川温泉",
+     "prefecture": "栃木県",
+     "url": "/destinations/kinugawa-onsen/",
+     "code": "d99d1f8b",
+     "win": 59,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "kawaji-onsen",
+     "name": "川治温泉",
+     "prefecture": "栃木県",
+     "url": "/destinations/kawaji-onsen/",
+     "code": "a0e6931a",
+     "win": 47,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": []
+    },
+    {
+     "id": "gen_栃木_日光杉並木",
+     "name": "日光杉並木",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E6%97%A5%E5%85%89%E6%9D%89%E4%B8%A6%E6%9C%A8/",
+     "code": "51f01018",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 日光"
+     ]
+    },
+    {
+     "id": "gen_栃木_日光東照宮",
+     "name": "日光東照宮",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E6%97%A5%E5%85%89%E6%9D%B1%E7%85%A7%E5%AE%AE/",
+     "code": "d5921b9b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 日光"
+     ]
+    },
+    {
+     "id": "kirifuri",
+     "name": "霧降滝",
+     "prefecture": "栃木県",
+     "url": "/destinations/kirifuri/",
+     "code": "8a3d9bee",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": []
+    },
+    {
+     "id": "gen_栃木_中禅寺温泉",
+     "name": "中禅寺温泉",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B8%A9%E6%B3%89/",
+     "code": "2ffeb9d5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    34.25,
+    133.8
+   ],
+   "県": {
+    "香川県": 7
+   },
+   "win合計": 81,
+   "表示": 20,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "marugame",
+     "name": "丸亀",
+     "prefecture": "香川県",
+     "url": "/destinations/marugame/",
+     "code": "30ad0448",
+     "win": 46,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 88,
+     "疑い": []
+    },
+    {
+     "id": "kotohira",
+     "name": "琴平",
+     "prefecture": "香川県",
+     "url": "/destinations/kotohira/",
+     "code": "2ac75d45",
+     "win": 35,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": []
+    },
+    {
+     "id": "mitoyo",
+     "name": "三豊",
+     "prefecture": "香川県",
+     "url": "/destinations/mitoyo/",
+     "code": "97dabb7d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "zentsuji",
+     "name": "善通寺",
+     "prefecture": "香川県",
+     "url": "/destinations/zentsuji/",
+     "code": "81c33e0f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": []
+    },
+    {
+     "id": "niche_香川_1",
+     "name": "与島PA展望台",
+     "prefecture": "香川県",
+     "url": "/destinations/niche_%E9%A6%99%E5%B7%9D_1/",
+     "code": "faaf29d5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "niche_香川_6",
+     "name": "満濃池",
+     "prefecture": "香川県",
+     "url": "/destinations/niche_%E9%A6%99%E5%B7%9D_6/",
+     "code": "df62aeb3",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "honjima",
+     "name": "本島",
+     "prefecture": "香川県",
+     "url": "/destinations/honjima/",
+     "code": "7c9caf73",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 19
+     },
+     "内部リンク": 42,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    33.92,
+    133.87
+   ],
+   "県": {
+    "徳島県": 6,
+    "香川県": 1
+   },
+   "win合計": 97,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "oboke",
+     "name": "大歩危",
+     "prefecture": "徳島県",
+     "url": "/destinations/oboke/",
+     "code": "92384351",
+     "win": 32,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "kanonji",
+     "name": "観音寺",
+     "prefecture": "香川県",
+     "url": "/destinations/kanonji/",
+     "code": "6e7d0cb0",
+     "win": 23,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "iya",
+     "name": "祖谷",
+     "prefecture": "徳島県",
+     "url": "/destinations/iya/",
+     "code": "6c9f421c",
+     "win": 18,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": [
+      "名前が重なる: 祖谷のかずら橋"
+     ]
+    },
+    {
+     "id": "iya-vine-bridge",
+     "name": "祖谷のかずら橋",
+     "prefecture": "徳島県",
+     "url": "/destinations/iya-vine-bridge/",
+     "code": "b10d6663",
+     "win": 12,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": [
+      "1km未満: かずら橋",
+      "名前が重なる: 祖谷"
+     ]
+    },
+    {
+     "id": "tsurugi-san",
+     "name": "剣山",
+     "prefecture": "徳島県",
+     "url": "/destinations/tsurugi-san/",
+     "code": "7ebc3f53",
+     "win": 10,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": []
+    },
+    {
+     "id": "iya-vine-2",
+     "name": "かずら橋",
+     "prefecture": "徳島県",
+     "url": "/destinations/iya-vine-2/",
+     "code": "7afbfebc",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": [
+      "1km未満: 祖谷のかずら橋"
+     ]
+    },
+    {
+     "id": "miyoshi-tokushima",
+     "name": "三好",
+     "prefecture": "徳島県",
+     "url": "/destinations/miyoshi-tokushima/",
+     "code": "f8bf34be",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    36.26,
+    137.6
+   ],
+   "県": {
+    "長野県": 4,
+    "岐阜県": 3
+   },
+   "win合計": 11,
+   "表示": 6,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "norikura",
+     "name": "乗鞍",
+     "prefecture": "長野県",
+     "url": "/destinations/norikura/",
+     "code": "43e75a30",
+     "win": 8,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    },
+    {
+     "id": "shinhotaka",
+     "name": "新穂高温泉",
+     "prefecture": "岐阜県",
+     "url": "/destinations/shinhotaka/",
+     "code": "d878891b",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "okuhida-onsen",
+     "name": "奥飛騨温泉郷",
+     "prefecture": "岐阜県",
+     "url": "/destinations/okuhida-onsen/",
+     "code": "278dc5ab",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    },
+    {
+     "id": "kamikochi",
+     "name": "上高地",
+     "prefecture": "長野県",
+     "url": "/destinations/kamikochi/",
+     "code": "e033bdaf",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": []
+    },
+    {
+     "id": "shirahone-onsen",
+     "name": "白骨温泉",
+     "prefecture": "長野県",
+     "url": "/destinations/shirahone-onsen/",
+     "code": "0be01cde",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 5
+     },
+     "内部リンク": 71,
+     "疑い": []
+    },
+    {
+     "id": "hirayu",
+     "name": "平湯温泉",
+     "prefecture": "岐阜県",
+     "url": "/destinations/hirayu/",
+     "code": "54267efb",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 50,
+     "疑い": []
+    },
+    {
+     "id": "yumata",
+     "name": "湯俣温泉",
+     "prefecture": "長野県",
+     "url": "/destinations/yumata/",
+     "code": "6015c2ba",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 43,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    43.68,
+    142.86
+   ],
+   "県": {
+    "北海道": 7
+   },
+   "win合計": 42,
+   "表示": 14,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "sounkyo",
+     "name": "層雲峡",
+     "prefecture": "北海道",
+     "url": "/destinations/sounkyo/",
+     "code": "ef6eb54a",
+     "win": 37,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 6
+     },
+     "内部リンク": 45,
+     "疑い": [
+      "名前が重なる: 層雲峡温泉"
+     ]
+    },
+    {
+     "id": "daisetsuzan",
+     "name": "大雪山",
+     "prefecture": "北海道",
+     "url": "/destinations/daisetsuzan/",
+     "code": "d7c765d4",
+     "win": 5,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_愛山渓温泉",
+     "name": "愛山渓温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E6%84%9B%E5%B1%B1%E6%B8%93%E6%B8%A9%E6%B3%89/",
+     "code": "65935e16",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_旭岳温泉",
+     "name": "旭岳温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E6%97%AD%E5%B2%B3%E6%B8%A9%E6%B3%89/",
+     "code": "2d8dceea",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_層雲峡温泉",
+     "name": "層雲峡温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E5%B1%A4%E9%9B%B2%E5%B3%A1%E6%B8%A9%E6%B3%89/",
+     "code": "97443ec1",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 8
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 層雲峡"
+     ]
+    },
+    {
+     "id": "gen_北海_天人峡温泉",
+     "name": "天人峡温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E5%A4%A9%E4%BA%BA%E5%B3%A1%E6%B8%A9%E6%B3%89/",
+     "code": "ff20b461",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_大雪高原温泉",
+     "name": "大雪高原温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E5%A4%A7%E9%9B%AA%E9%AB%98%E5%8E%9F%E6%B8%A9%E6%B3%89/",
+     "code": "ccf81cb0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    34.85,
+    136.09
+   ],
+   "県": {
+    "三重県": 2,
+    "滋賀県": 4,
+    "奈良県": 1
+   },
+   "win合計": 28,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "niche_奈良_3",
+     "name": "月ヶ瀬温泉と梅林の里",
+     "prefecture": "奈良県",
+     "url": "/destinations/niche_%E5%A5%88%E8%89%AF_3/",
+     "code": "69f8cba4",
+     "win": 28,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "iga",
+     "name": "伊賀",
+     "prefecture": "三重県",
+     "url": "/destinations/iga/",
+     "code": "0bf7e9d7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": [
+      "1km未満: 伊賀上野"
+     ]
+    },
+    {
+     "id": "shigaraki",
+     "name": "信楽",
+     "prefecture": "滋賀県",
+     "url": "/destinations/shigaraki/",
+     "code": "90105828",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 47,
+     "疑い": [
+      "名前が重なる: 信楽焼の里"
+     ]
+    },
+    {
+     "id": "iga-ueno",
+     "name": "伊賀上野",
+     "prefecture": "三重県",
+     "url": "/destinations/iga-ueno/",
+     "code": "da9a9be5",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 35,
+     "疑い": [
+      "1km未満: 伊賀"
+     ]
+    },
+    {
+     "id": "miho-museum",
+     "name": "MIHO MUSEUM",
+     "prefecture": "滋賀県",
+     "url": "/destinations/miho-museum/",
+     "code": "24b3b849",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 53,
+     "疑い": []
+    },
+    {
+     "id": "shigaraki-2-pottery",
+     "name": "信楽焼の里",
+     "prefecture": "滋賀県",
+     "url": "/destinations/shigaraki-2-pottery/",
+     "code": "b217fd71",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": [
+      "名前が重なる: 信楽"
+     ]
+    },
+    {
+     "id": "koka",
+     "name": "甲賀",
+     "prefecture": "滋賀県",
+     "url": "/destinations/koka/",
+     "code": "e860338b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    26.68,
+    127.96
+   ],
+   "県": {
+    "沖縄県": 7
+   },
+   "win合計": 25,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "motobu",
+     "name": "本部",
+     "prefecture": "沖縄県",
+     "url": "/destinations/motobu/",
+     "code": "cd729c21",
+     "win": 16,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": []
+    },
+    {
+     "id": "bise",
+     "name": "備瀬のフクギ並木",
+     "prefecture": "沖縄県",
+     "url": "/destinations/bise/",
+     "code": "e10f065f",
+     "win": 7,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "ie-island",
+     "name": "伊江島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/ie-island/",
+     "code": "4a0f65a4",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    },
+    {
+     "id": "nakijin",
+     "name": "今帰仁",
+     "prefecture": "沖縄県",
+     "url": "/destinations/nakijin/",
+     "code": "2a8a0cba",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 20,
+     "疑い": []
+    },
+    {
+     "id": "nago",
+     "name": "名護",
+     "prefecture": "沖縄県",
+     "url": "/destinations/nago/",
+     "code": "c427c372",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "kouri-island",
+     "name": "古宇利島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/kouri-island/",
+     "code": "6b886410",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "kijoka",
+     "name": "喜如嘉",
+     "prefecture": "沖縄県",
+     "url": "/destinations/kijoka/",
+     "code": "eef9a214",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 21,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    36.01,
+    139.05
+   ],
+   "県": {
+    "埼玉県": 7
+   },
+   "win合計": 12,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "chichibu",
+     "name": "秩父",
+     "prefecture": "埼玉県",
+     "url": "/destinations/chichibu/",
+     "code": "6a0af441",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 55,
+     "疑い": [
+      "1km未満: 羊山公園の芝桜",
+      "名前が重なる: 東秩父村"
+     ]
+    },
+    {
+     "id": "mihashira",
+     "name": "三十槌の氷柱",
+     "prefecture": "埼玉県",
+     "url": "/destinations/mihashira/",
+     "code": "6257db60",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "mitsuminejinja",
+     "name": "三峯神社",
+     "prefecture": "埼玉県",
+     "url": "/destinations/mitsuminejinja/",
+     "code": "4de8a7c4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "hitsujiyama",
+     "name": "羊山公園の芝桜",
+     "prefecture": "埼玉県",
+     "url": "/destinations/hitsujiyama/",
+     "code": "a6fb421c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": [
+      "1km未満: 秩父"
+     ]
+    },
+    {
+     "id": "higashichichibu",
+     "name": "東秩父村",
+     "prefecture": "埼玉県",
+     "url": "/destinations/higashichichibu/",
+     "code": "46e1fb82",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": [
+      "名前が重なる: 秩父"
+     ]
+    },
+    {
+     "id": "ryokami",
+     "name": "両神温泉",
+     "prefecture": "埼玉県",
+     "url": "/destinations/ryokami/",
+     "code": "9878e091",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": []
+    },
+    {
+     "id": "nagatoro",
+     "name": "長瀞",
+     "prefecture": "埼玉県",
+     "url": "/destinations/nagatoro/",
+     "code": "ea8a36c1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    33.59,
+    130.45
+   ],
+   "県": {
+    "福岡県": 7
+   },
+   "win合計": 202,
+   "表示": 57,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "fukuoka",
+     "name": "福岡",
+     "prefecture": "福岡県",
+     "url": "/destinations/fukuoka/",
+     "code": "471ee229",
+     "win": 163,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 64,
+     "疑い": [
+      "1km未満: 中洲屋台"
+     ]
+    },
+    {
+     "id": "dazaifu",
+     "name": "太宰府",
+     "prefecture": "福岡県",
+     "url": "/destinations/dazaifu/",
+     "code": "a497e57d",
+     "win": 39,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "nakasu",
+     "name": "中洲屋台",
+     "prefecture": "福岡県",
+     "url": "/destinations/nakasu/",
+     "code": "f99d7627",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 38,
+     "疑い": [
+      "1km未満: 福岡"
+     ]
+    },
+    {
+     "id": "noko-island",
+     "name": "能古島",
+     "prefecture": "福岡県",
+     "url": "/destinations/noko-island/",
+     "code": "5ac45e76",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 73,
+     "疑い": []
+    },
+    {
+     "id": "shikanoshima",
+     "name": "志賀島",
+     "prefecture": "福岡県",
+     "url": "/destinations/shikanoshima/",
+     "code": "198848f8",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 45
+     },
+     "内部リンク": 47,
+     "疑い": []
+    },
+    {
+     "id": "umi-jigoku",
+     "name": "宇美八幡宮",
+     "prefecture": "福岡県",
+     "url": "/destinations/umi-jigoku/",
+     "code": "eab7bad3",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 10
+     },
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "asakuradan",
+     "name": "秋月城下町",
+     "prefecture": "福岡県",
+     "url": "/destinations/asakuradan/",
+     "code": "cc7f0d28",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    36.85,
+    137.55
+   ],
+   "県": {
+    "富山県": 7
+   },
+   "win合計": 0,
+   "表示": 6,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kurobe",
+     "name": "黒部",
+     "prefecture": "富山県",
+     "url": "/destinations/kurobe/",
+     "code": "349e78bd",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": [
+      "名前が重なる: 黒部峡谷",
+      "名前が重なる: 黒部・宇奈月温泉"
+     ]
+    },
+    {
+     "id": "unazuki-onsen",
+     "name": "宇奈月温泉",
+     "prefecture": "富山県",
+     "url": "/destinations/unazuki-onsen/",
+     "code": "1349e43d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": [
+      "名前が重なる: 黒部・宇奈月温泉"
+     ]
+    },
+    {
+     "id": "kurobe-gorge",
+     "name": "黒部峡谷",
+     "prefecture": "富山県",
+     "url": "/destinations/kurobe-gorge/",
+     "code": "b1373f9d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": [
+      "名前が重なる: 黒部"
+     ]
+    },
+    {
+     "id": "toyama-himi-2",
+     "name": "黒部・宇奈月温泉",
+     "prefecture": "富山県",
+     "url": "/destinations/toyama-himi-2/",
+     "code": "040c6556",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 41,
+     "疑い": [
+      "名前が重なる: 黒部",
+      "名前が重なる: 宇奈月温泉"
+     ]
+    },
+    {
+     "id": "niche_富山_4",
+     "name": "舟川べり",
+     "prefecture": "富山県",
+     "url": "/destinations/niche_%E5%AF%8C%E5%B1%B1_4/",
+     "code": "67d21ac9",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 5
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "uozu",
+     "name": "魚津",
+     "prefecture": "富山県",
+     "url": "/destinations/uozu/",
+     "code": "cbbc8fa5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": []
+    },
+    {
+     "id": "kuronagi",
+     "name": "黒薙温泉",
+     "prefecture": "富山県",
+     "url": "/destinations/kuronagi/",
+     "code": "a41d5f79",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    44.08,
+    145.1
+   ],
+   "県": {
+    "北海道": 7
+   },
+   "win合計": 29,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "shiretoko",
+     "name": "知床",
+     "prefecture": "北海道",
+     "url": "/destinations/shiretoko/",
+     "code": "4f8cc72f",
+     "win": 22,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 165,
+     "疑い": [
+      "名前が重なる: 知床国立公園"
+     ]
+    },
+    {
+     "id": "rausu",
+     "name": "羅臼",
+     "prefecture": "北海道",
+     "url": "/destinations/rausu/",
+     "code": "ced74148",
+     "win": 7,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 28,
+     "疑い": [
+      "名前が重なる: 羅臼温泉"
+     ]
+    },
+    {
+     "id": "gen_北海_岩尾別温泉",
+     "name": "岩尾別温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E5%B2%A9%E5%B0%BE%E5%88%A5%E6%B8%A9%E6%B3%89/",
+     "code": "7562d475",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_ウトロ温泉",
+     "name": "ウトロ温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E3%82%A6%E3%83%88%E3%83%AD%E6%B8%A9%E6%B3%89/",
+     "code": "eeb2df1f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_羅臼温泉",
+     "name": "羅臼温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E7%BE%85%E8%87%BC%E6%B8%A9%E6%B3%89/",
+     "code": "1caf6b78",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 羅臼"
+     ]
+    },
+    {
+     "id": "gen_北海_フレペの滝",
+     "name": "フレペの滝",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E3%83%95%E3%83%AC%E3%83%9A%E3%81%AE%E6%BB%9D/",
+     "code": "19e761dc",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_知床国立公園",
+     "name": "知床国立公園",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E7%9F%A5%E5%BA%8A%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92/",
+     "code": "db22d03d",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 知床"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    43.32,
+    143.11
+   ],
+   "県": {
+    "北海道": 7
+   },
+   "win合計": 0,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "gen_北海_然別湖畔温泉",
+     "name": "然別湖畔温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E7%84%B6%E5%88%A5%E6%B9%96%E7%95%94%E6%B8%A9%E6%B3%89/",
+     "code": "85062b4a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_ぬかびら温泉",
+     "name": "糠平温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E3%81%AC%E3%81%8B%E3%81%B3%E3%82%89%E6%B8%A9%E6%B3%89/",
+     "code": "7c3e7594",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_菅野温泉",
+     "name": "菅野温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E8%8F%85%E9%87%8E%E6%B8%A9%E6%B3%89/",
+     "code": "c5ab1c5c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 鹿の湯"
+     ]
+    },
+    {
+     "id": "gen_北海_鹿の湯",
+     "name": "鹿の湯",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E9%B9%BF%E3%81%AE%E6%B9%AF/",
+     "code": "16d889b5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "1km未満: 菅野温泉"
+     ]
+    },
+    {
+     "id": "kamishihoro",
+     "name": "上士幌",
+     "prefecture": "北海道",
+     "url": "/destinations/kamishihoro/",
+     "code": "e0882de0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_オソウシ温泉",
+     "name": "オソウシ温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E3%82%AA%E3%82%BD%E3%82%A6%E3%82%B7%E6%B8%A9%E6%B3%89/",
+     "code": "e88ccbd6",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "horoka",
+     "name": "幌加温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/horoka/",
+     "code": "78a42b69",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 7,
+   "重心": [
+    35.24,
+    140.28
+   ],
+   "県": {
+    "千葉県": 7
+   },
+   "win合計": 113,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "niche_千葉_5",
+     "name": "御宿中央海岸",
+     "prefecture": "千葉県",
+     "url": "/destinations/niche_%E5%8D%83%E8%91%89_5/",
+     "code": "5d63f45b",
+     "win": 77,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "niche_千葉_2",
+     "name": "小湊鐵道沿線",
+     "prefecture": "千葉県",
+     "url": "/destinations/niche_%E5%8D%83%E8%91%89_2/",
+     "code": "dd73f553",
+     "win": 25,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "katsuura-chiba",
+     "name": "勝浦",
+     "prefecture": "千葉県",
+     "url": "/destinations/katsuura-chiba/",
+     "code": "c3f6f9fe",
+     "win": 8,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 27,
+     "疑い": []
+    },
+    {
+     "id": "boso-hills",
+     "name": "養老渓谷",
+     "prefecture": "千葉県",
+     "url": "/destinations/boso-hills/",
+     "code": "292d9b5c",
+     "win": 2,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": []
+    },
+    {
+     "id": "isumi",
+     "name": "いすみ鉄道沿線",
+     "prefecture": "千葉県",
+     "url": "/destinations/isumi/",
+     "code": "3e0484ce",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": []
+    },
+    {
+     "id": "otaki",
+     "name": "大多喜",
+     "prefecture": "千葉県",
+     "url": "/destinations/otaki/",
+     "code": "e499a747",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": []
+    },
+    {
+     "id": "kujukuri-icho",
+     "name": "東浪見",
+     "prefecture": "千葉県",
+     "url": "/destinations/kujukuri-icho/",
+     "code": "b00e60e6",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 25,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 6,
+   "重心": [
+    36.94,
+    138.24
+   ],
+   "県": {
+    "新潟県": 5,
+    "長野県": 1
+   },
+   "win合計": 51,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "myoko-kogen",
+     "name": "妙高高原",
+     "prefecture": "新潟県",
+     "url": "/destinations/myoko-kogen/",
+     "code": "dc2ab61b",
+     "win": 51,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 85,
+     "疑い": [
+      "名前が重なる: 妙高"
+     ]
+    },
+    {
+     "id": "myoko",
+     "name": "妙高",
+     "prefecture": "新潟県",
+     "url": "/destinations/myoko/",
+     "code": "79efa1ab",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": [
+      "名前が重なる: 妙高高原"
+     ]
+    },
+    {
+     "id": "iiyama",
+     "name": "飯山",
+     "prefecture": "長野県",
+     "url": "/destinations/iiyama/",
+     "code": "2cacefea",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 90,
+     "疑い": []
+    },
+    {
+     "id": "akakura-onsen",
+     "name": "赤倉温泉",
+     "prefecture": "新潟県",
+     "url": "/destinations/akakura-onsen/",
+     "code": "b579d0e1",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "takada-jo",
+     "name": "高田城址公園",
+     "prefecture": "新潟県",
+     "url": "/destinations/takada-jo/",
+     "code": "8171fc7d",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "tsubame-onsen",
+     "name": "燕温泉",
+     "prefecture": "新潟県",
+     "url": "/destinations/tsubame-onsen/",
+     "code": "44142ec4",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 6,
+   "重心": [
+    34.15,
+    134.54
+   ],
+   "県": {
+    "徳島県": 5,
+    "香川県": 1
+   },
+   "win合計": 6,
+   "表示": 15,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "mt-bizan",
+     "name": "眉山（徳島）",
+     "prefecture": "徳島県",
+     "url": "/destinations/mt-bizan/",
+     "code": "0e03012e",
+     "win": 5,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 10
+     },
+     "内部リンク": 25,
+     "疑い": [
+      "名前が重なる: 徳島"
+     ]
+    },
+    {
+     "id": "naruto",
+     "name": "鳴門",
+     "prefecture": "徳島県",
+     "url": "/destinations/naruto/",
+     "code": "20beed61",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 34,
+     "疑い": [
+      "名前が重なる: 鳴門の渦潮"
+     ]
+    },
+    {
+     "id": "niche_徳島_4",
+     "name": "藍住町",
+     "prefecture": "徳島県",
+     "url": "/destinations/niche_%E5%BE%B3%E5%B3%B6_4/",
+     "code": "11585b68",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "tokushima-city",
+     "name": "徳島",
+     "prefecture": "徳島県",
+     "url": "/destinations/tokushima-city/",
+     "code": "58191c38",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": [
+      "名前が重なる: 眉山（徳島）"
+     ]
+    },
+    {
+     "id": "naruto-uzu",
+     "name": "鳴門の渦潮",
+     "prefecture": "徳島県",
+     "url": "/destinations/naruto-uzu/",
+     "code": "cdd59d54",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 30,
+     "疑い": [
+      "名前が重なる: 鳴門"
+     ]
+    },
+    {
+     "id": "hiketa",
+     "name": "引田",
+     "prefecture": "香川県",
+     "url": "/destinations/hiketa/",
+     "code": "ff4ac855",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 4
+     },
+     "内部リンク": 48,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 6,
+   "重心": [
+    41.78,
+    140.68
+   ],
+   "県": {
+    "北海道": 6
+   },
+   "win合計": 20,
+   "表示": 2,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "hokkaido-hakodate",
+     "name": "函館",
+     "prefecture": "北海道",
+     "url": "/destinations/hokkaido-hakodate/",
+     "code": "f11e8eba",
+     "win": 20,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_谷地頭温泉",
+     "name": "谷地頭温泉",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E8%B0%B7%E5%9C%B0%E9%A0%AD%E6%B8%A9%E6%B3%89/",
+     "code": "afd94f4a",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_トラピスト修道院",
+     "name": "トラピスト修道院",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E3%83%88%E3%83%A9%E3%83%94%E3%82%B9%E3%83%88%E4%BF%AE%E9%81%93%E9%99%A2/",
+     "code": "31119681",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_五稜郭",
+     "name": "五稜郭",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E4%BA%94%E7%A8%9C%E9%83%AD/",
+     "code": "c5c4655f",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_戸切地陣屋",
+     "name": "戸切地陣屋",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E6%88%B8%E5%88%87%E5%9C%B0%E9%99%A3%E5%B1%8B/",
+     "code": "36cd01c0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_北海_弁天台場",
+     "name": "弁天台場",
+     "prefecture": "北海道",
+     "url": "/destinations/gen_%E5%8C%97%E6%B5%B7_%E5%BC%81%E5%A4%A9%E5%8F%B0%E5%A0%B4/",
+     "code": "86e5b4e7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 6,
+   "重心": [
+    38.13,
+    140.59
+   ],
+   "県": {
+    "宮城県": 6
+   },
+   "win合計": 4,
+   "表示": 7,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "sakunami-onsen",
+     "name": "秋保温泉",
+     "prefecture": "宮城県",
+     "url": "/destinations/sakunami-onsen/",
+     "code": "9f390b26",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "togatta-onsen",
+     "name": "遠刈田温泉",
+     "prefecture": "宮城県",
+     "url": "/destinations/togatta-onsen/",
+     "code": "8afa9b8e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "zaosan",
+     "name": "蔵王",
+     "prefecture": "宮城県",
+     "url": "/destinations/zaosan/",
+     "code": "9e004e90",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "shiraoishi",
+     "name": "白石",
+     "prefecture": "宮城県",
+     "url": "/destinations/shiraoishi/",
+     "code": "89479bb2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": []
+    },
+    {
+     "id": "gaga-onsen",
+     "name": "峩々温泉",
+     "prefecture": "宮城県",
+     "url": "/destinations/gaga-onsen/",
+     "code": "7a79468d",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 55,
+     "疑い": []
+    },
+    {
+     "id": "murata-miyagi",
+     "name": "村田の蔵の町",
+     "prefecture": "宮城県",
+     "url": "/destinations/murata-miyagi/",
+     "code": "f868e17e",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 5
+     },
+     "内部リンク": 49,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    33.29,
+    131.47
+   ],
+   "県": {
+    "大分県": 5
+   },
+   "win合計": 93,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "yufuin-2",
+     "name": "由布院温泉",
+     "prefecture": "大分県",
+     "url": "/destinations/yufuin-2/",
+     "code": "ac792a68",
+     "win": 45,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 54,
+     "疑い": []
+    },
+    {
+     "id": "oita",
+     "name": "大分",
+     "prefecture": "大分県",
+     "url": "/destinations/oita/",
+     "code": "457da748",
+     "win": 30,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 88,
+     "疑い": []
+    },
+    {
+     "id": "beppu",
+     "name": "別府",
+     "prefecture": "大分県",
+     "url": "/destinations/beppu/",
+     "code": "11f07e9b",
+     "win": 18,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": []
+    },
+    {
+     "id": "yufuin",
+     "name": "湯布院",
+     "prefecture": "大分県",
+     "url": "/destinations/yufuin/",
+     "code": "ddd1d0f8",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "hiji",
+     "name": "日出",
+     "prefecture": "大分県",
+     "url": "/destinations/hiji/",
+     "code": "e0628531",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 30,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    24.83,
+    125.22
+   ],
+   "県": {
+    "沖縄県": 5
+   },
+   "win合計": 0,
+   "表示": 4,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "miyakojima",
+     "name": "宮古島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/miyakojima/",
+     "code": "ca39d0eb",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 49,
+     "疑い": []
+    },
+    {
+     "id": "irabu-island",
+     "name": "伊良部島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/irabu-island/",
+     "code": "e2c9db6d",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 4
+     },
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "toriike",
+     "name": "通り池",
+     "prefecture": "沖縄県",
+     "url": "/destinations/toriike/",
+     "code": "fe46512e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 25,
+     "疑い": []
+    },
+    {
+     "id": "kurima-island",
+     "name": "来間島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/kurima-island/",
+     "code": "568c9f2c",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 25,
+     "疑い": []
+    },
+    {
+     "id": "ikema-island",
+     "name": "池間島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/ikema-island/",
+     "code": "b2e7a12f",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 24,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    35.37,
+    136.23
+   ],
+   "県": {
+    "滋賀県": 5
+   },
+   "win合計": 13,
+   "表示": 9,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "yogo",
+     "name": "余呉湖",
+     "prefecture": "滋賀県",
+     "url": "/destinations/yogo/",
+     "code": "6d484b1d",
+     "win": 8,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 41,
+     "疑い": []
+    },
+    {
+     "id": "chikubushima",
+     "name": "竹生島",
+     "prefecture": "滋賀県",
+     "url": "/destinations/chikubushima/",
+     "code": "fa03bcbb",
+     "win": 5,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 9
+     },
+     "内部リンク": 73,
+     "疑い": []
+    },
+    {
+     "id": "nagahama",
+     "name": "長浜",
+     "prefecture": "滋賀県",
+     "url": "/destinations/nagahama/",
+     "code": "8375f14e",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "hikone",
+     "name": "彦根",
+     "prefecture": "滋賀県",
+     "url": "/destinations/hikone/",
+     "code": "4f4c00a2",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 56,
+     "疑い": [
+      "1km未満: 彦根城"
+     ]
+    },
+    {
+     "id": "hikone-2",
+     "name": "彦根城",
+     "prefecture": "滋賀県",
+     "url": "/destinations/hikone-2/",
+     "code": "e8328e07",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": [
+      "1km未満: 彦根"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    35.97,
+    136.22
+   ],
+   "県": {
+    "福井県": 5
+   },
+   "win合計": 0,
+   "表示": 4,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "echizen",
+     "name": "越前",
+     "prefecture": "福井県",
+     "url": "/destinations/echizen/",
+     "code": "cb927cd6",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 38,
+     "疑い": [
+      "名前が重なる: 越前海岸",
+      "名前が重なる: 越前焼の里",
+      "名前が重なる: 越前竹人形の里"
+     ]
+    },
+    {
+     "id": "echizen-kaigan",
+     "name": "越前海岸",
+     "prefecture": "福井県",
+     "url": "/destinations/echizen-kaigan/",
+     "code": "cc0e386b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": [
+      "1km未満: 越前焼の里"
+     ]
+    },
+    {
+     "id": "echizen-pottery",
+     "name": "越前焼の里",
+     "prefecture": "福井県",
+     "url": "/destinations/echizen-pottery/",
+     "code": "d95ada92",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 32,
+     "疑い": [
+      "1km未満: 越前海岸"
+     ]
+    },
+    {
+     "id": "hyo-sho",
+     "name": "一乗谷朝倉氏遺跡",
+     "prefecture": "福井県",
+     "url": "/destinations/hyo-sho/",
+     "code": "0c862d73",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 2
+     },
+     "内部リンク": 29,
+     "疑い": []
+    },
+    {
+     "id": "echizen-cliff",
+     "name": "越前竹人形の里",
+     "prefecture": "福井県",
+     "url": "/destinations/echizen-cliff/",
+     "code": "3a72aa82",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": [
+      "名前が重なる: 越前"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    24.31,
+    123.96
+   ],
+   "県": {
+    "沖縄県": 5
+   },
+   "win合計": 9,
+   "表示": 1,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "iriomote",
+     "name": "西表島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/iriomote/",
+     "code": "4c907ba9",
+     "win": 9,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 60,
+     "疑い": []
+    },
+    {
+     "id": "kohama-island",
+     "name": "小浜島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/kohama-island/",
+     "code": "4dc8fee5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "taketomi-island",
+     "name": "竹富島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/taketomi-island/",
+     "code": "0e1540d8",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "yubu-island",
+     "name": "由布島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/yubu-island/",
+     "code": "12e54a11",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": []
+    },
+    {
+     "id": "kuroshima-yaeyama",
+     "name": "黒島",
+     "prefecture": "沖縄県",
+     "url": "/destinations/kuroshima-yaeyama/",
+     "code": "bf9d4a69",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    39.39,
+    141.05
+   ],
+   "県": {
+    "岩手県": 5
+   },
+   "win合計": 27,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "hanamaki",
+     "name": "花巻",
+     "prefecture": "岩手県",
+     "url": "/destinations/hanamaki/",
+     "code": "5707564e",
+     "win": 26,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": [
+      "名前が重なる: 花巻温泉郷"
+     ]
+    },
+    {
+     "id": "namari-onsen",
+     "name": "鉛温泉",
+     "prefecture": "岩手県",
+     "url": "/destinations/namari-onsen/",
+     "code": "23659acd",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "hanamaki-onsen",
+     "name": "花巻温泉郷",
+     "prefecture": "岩手県",
+     "url": "/destinations/hanamaki-onsen/",
+     "code": "9c6e63dc",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": [
+      "名前が重なる: 花巻"
+     ]
+    },
+    {
+     "id": "kitakami",
+     "name": "北上",
+     "prefecture": "岩手県",
+     "url": "/destinations/kitakami/",
+     "code": "fcd1b944",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 52,
+     "疑い": []
+    },
+    {
+     "id": "osawa-onsen",
+     "name": "大沢温泉",
+     "prefecture": "岩手県",
+     "url": "/destinations/osawa-onsen/",
+     "code": "18d0ae3a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    36.33,
+    139.59
+   ],
+   "県": {
+    "栃木県": 5
+   },
+   "win合計": 1,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "gen_栃木_佐野プレミアム・アウトレット",
+     "name": "佐野アウトレット",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E4%BD%90%E9%87%8E%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88/",
+     "code": "7e75d2b4",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": [
+      "名前が重なる: 佐野"
+     ]
+    },
+    {
+     "id": "sano",
+     "name": "佐野",
+     "prefecture": "栃木県",
+     "url": "/destinations/sano/",
+     "code": "c534143b",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 61,
+     "疑い": [
+      "名前が重なる: 佐野アウトレット"
+     ]
+    },
+    {
+     "id": "gen_栃木_唐沢山神社",
+     "name": "唐沢山神社",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E5%94%90%E6%B2%A2%E5%B1%B1%E7%A5%9E%E7%A4%BE/",
+     "code": "20357ab7",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "ashikaga",
+     "name": "足利",
+     "prefecture": "栃木県",
+     "url": "/destinations/ashikaga/",
+     "code": "57daa2cf",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 80,
+     "疑い": []
+    },
+    {
+     "id": "gen_栃木_太平山神社",
+     "name": "太平山神社",
+     "prefecture": "栃木県",
+     "url": "/destinations/gen_%E6%A0%83%E6%9C%A8_%E5%A4%AA%E5%B9%B3%E5%B1%B1%E7%A5%9E%E7%A4%BE/",
+     "code": "4aeb0498",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    35.39,
+    136.59
+   ],
+   "県": {
+    "岐阜県": 5
+   },
+   "win合計": 61,
+   "表示": 9,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "ogaki",
+     "name": "大垣",
+     "prefecture": "岐阜県",
+     "url": "/destinations/ogaki/",
+     "code": "8fb88029",
+     "win": 48,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 64,
+     "疑い": []
+    },
+    {
+     "id": "niche_岐阜_7",
+     "name": "春日集落",
+     "prefecture": "岐阜県",
+     "url": "/destinations/niche_%E5%B2%90%E9%98%9C_7/",
+     "code": "482fdfe2",
+     "win": 13,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 3
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "yoro-falls",
+     "name": "養老の滝",
+     "prefecture": "岐阜県",
+     "url": "/destinations/yoro-falls/",
+     "code": "dab24407",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 6
+     },
+     "内部リンク": 51,
+     "疑い": []
+    },
+    {
+     "id": "niche_岐阜_5",
+     "name": "根尾谷淡墨桜",
+     "prefecture": "岐阜県",
+     "url": "/destinations/niche_%E5%B2%90%E9%98%9C_5/",
+     "code": "70523a33",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "niche_岐阜_8",
+     "name": "養老公園",
+     "prefecture": "岐阜県",
+     "url": "/destinations/niche_%E5%B2%90%E9%98%9C_8/",
+     "code": "97780457",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    33.86,
+    135.77
+   ],
+   "県": {
+    "和歌山県": 4,
+    "奈良県": 1
+   },
+   "win合計": 41,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "kumano-hongu",
+     "name": "熊野本宮",
+     "prefecture": "和歌山県",
+     "url": "/destinations/kumano-hongu/",
+     "code": "bb8f1c58",
+     "win": 27,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "kumano-kodo",
+     "name": "熊野古道",
+     "prefecture": "和歌山県",
+     "url": "/destinations/kumano-kodo/",
+     "code": "99b7a367",
+     "win": 14,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 46,
+     "疑い": []
+    },
+    {
+     "id": "totsukawa-2",
+     "name": "十津川温泉",
+     "prefecture": "奈良県",
+     "url": "/destinations/totsukawa-2/",
+     "code": "ece1b1ca",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 48,
+     "疑い": []
+    },
+    {
+     "id": "kawayu",
+     "name": "川湯温泉",
+     "prefecture": "和歌山県",
+     "url": "/destinations/kawayu/",
+     "code": "59954983",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 32,
+     "疑い": []
+    },
+    {
+     "id": "yunomine",
+     "name": "湯の峰温泉",
+     "prefecture": "和歌山県",
+     "url": "/destinations/yunomine/",
+     "code": "04422f87",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 57,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    31.96,
+    130.83
+   ],
+   "県": {
+    "宮崎県": 3,
+    "鹿児島県": 2
+   },
+   "win合計": 71,
+   "表示": 166,
+   "クリック": 9,
+   "items": [
+    {
+     "id": "kirishima",
+     "name": "霧島",
+     "prefecture": "鹿児島県",
+     "url": "/destinations/kirishima/",
+     "code": "fbfedec1",
+     "win": 71,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 73,
+     "疑い": []
+    },
+    {
+     "id": "ebino-kogen",
+     "name": "えびの高原",
+     "prefecture": "宮崎県",
+     "url": "/destinations/ebino-kogen/",
+     "code": "1f102ee4",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 48,
+     "疑い": [
+      "名前が重なる: えびの"
+     ]
+    },
+    {
+     "id": "ebino",
+     "name": "えびの",
+     "prefecture": "宮崎県",
+     "url": "/destinations/ebino/",
+     "code": "432bec94",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 43,
+     "疑い": [
+      "名前が重なる: えびの高原"
+     ]
+    },
+    {
+     "id": "ikoma-kogen",
+     "name": "生駒高原",
+     "prefecture": "宮崎県",
+     "url": "/destinations/ikoma-kogen/",
+     "code": "6837e51f",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 9,
+      "impressions": 165
+     },
+     "内部リンク": 56,
+     "疑い": []
+    },
+    {
+     "id": "niche_鹿児島_3",
+     "name": "白糸の滝",
+     "prefecture": "鹿児島県",
+     "url": "/destinations/niche_%E9%B9%BF%E5%85%90%E5%B3%B6_3/",
+     "code": "23d26769",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    35.94,
+    140.54
+   ],
+   "県": {
+    "茨城県": 4,
+    "千葉県": 1
+   },
+   "win合計": 1,
+   "表示": 52,
+   "クリック": 1,
+   "items": [
+    {
+     "id": "sawara",
+     "name": "佐原",
+     "prefecture": "千葉県",
+     "url": "/destinations/sawara/",
+     "code": "3af80208",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": []
+    },
+    {
+     "id": "gen_茨城_水郷筑波国定公園",
+     "name": "水郷筑波国定公園",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E6%B0%B4%E9%83%B7%E7%AD%91%E6%B3%A2%E5%9B%BD%E5%AE%9A%E5%85%AC%E5%9C%92/",
+     "code": "94b735bb",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "kashima",
+     "name": "鹿嶋",
+     "prefecture": "茨城県",
+     "url": "/destinations/kashima/",
+     "code": "25f394f0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": []
+    },
+    {
+     "id": "gen_茨城_大杉神社",
+     "name": "大杉神社",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E5%A4%A7%E6%9D%89%E7%A5%9E%E7%A4%BE/",
+     "code": "7990ad77",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 1,
+      "impressions": 52
+     },
+     "内部リンク": 0,
+     "疑い": []
+    },
+    {
+     "id": "gen_茨城_鹿島神宮",
+     "name": "鹿島神宮",
+     "prefecture": "茨城県",
+     "url": "/destinations/gen_%E8%8C%A8%E5%9F%8E_%E9%B9%BF%E5%B3%B6%E7%A5%9E%E5%AE%AE/",
+     "code": "477165f0",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    36.1,
+    138.2
+   ],
+   "県": {
+    "長野県": 5
+   },
+   "win合計": 26,
+   "表示": 10,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "tateshina",
+     "name": "蓼科",
+     "prefecture": "長野県",
+     "url": "/destinations/tateshina/",
+     "code": "7c36cf4a",
+     "win": 22,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 35,
+     "疑い": [
+      "1km未満: 蓼科高原"
+     ]
+    },
+    {
+     "id": "suwa",
+     "name": "諏訪",
+     "prefecture": "長野県",
+     "url": "/destinations/suwa/",
+     "code": "0c3db4a3",
+     "win": 4,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 61,
+     "疑い": []
+    },
+    {
+     "id": "kirigamine",
+     "name": "霧ヶ峰",
+     "prefecture": "長野県",
+     "url": "/destinations/kirigamine/",
+     "code": "9917ea23",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 55,
+     "疑い": []
+    },
+    {
+     "id": "utsukushigahara",
+     "name": "美ヶ原",
+     "prefecture": "長野県",
+     "url": "/destinations/utsukushigahara/",
+     "code": "4adf4540",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 9
+     },
+     "内部リンク": 70,
+     "疑い": []
+    },
+    {
+     "id": "mt-yatsugatake",
+     "name": "蓼科高原",
+     "prefecture": "長野県",
+     "url": "/destinations/mt-yatsugatake/",
+     "code": "1ca1a864",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 27,
+     "疑い": [
+      "1km未満: 蓼科"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    35.61,
+    135.17
+   ],
+   "県": {
+    "京都府": 5
+   },
+   "win合計": 20,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "tango-matsushima",
+     "name": "丹後松島",
+     "prefecture": "京都府",
+     "url": "/destinations/tango-matsushima/",
+     "code": "73247de3",
+     "win": 13,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 62,
+     "疑い": [
+      "名前が重なる: 丹後"
+     ]
+    },
+    {
+     "id": "ine",
+     "name": "伊根",
+     "prefecture": "京都府",
+     "url": "/destinations/ine/",
+     "code": "91c2f849",
+     "win": 7,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 44,
+     "疑い": []
+    },
+    {
+     "id": "amanohashidate",
+     "name": "天橋立",
+     "prefecture": "京都府",
+     "url": "/destinations/amanohashidate/",
+     "code": "e0253038",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 37,
+     "疑い": []
+    },
+    {
+     "id": "tango-kyoto",
+     "name": "丹後",
+     "prefecture": "京都府",
+     "url": "/destinations/tango-kyoto/",
+     "code": "9ac5398a",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 33,
+     "疑い": [
+      "名前が重なる: 丹後松島"
+     ]
+    },
+    {
+     "id": "niche_京都_1",
+     "name": "加悦谷",
+     "prefecture": "京都府",
+     "url": "/destinations/niche_%E4%BA%AC%E9%83%BD_1/",
+     "code": "a719a757",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 0,
+     "疑い": []
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    35.18,
+    136.02
+   ],
+   "県": {
+    "滋賀県": 5
+   },
+   "win合計": 31,
+   "表示": 69,
+   "クリック": 2,
+   "items": [
+    {
+     "id": "omihachiman",
+     "name": "近江八幡",
+     "prefecture": "滋賀県",
+     "url": "/destinations/omihachiman/",
+     "code": "4216cb63",
+     "win": 23,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 39,
+     "疑い": []
+    },
+    {
+     "id": "biwako",
+     "name": "琵琶湖",
+     "prefecture": "滋賀県",
+     "url": "/destinations/biwako/",
+     "code": "4abaee15",
+     "win": 8,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 40,
+     "疑い": []
+    },
+    {
+     "id": "okishima",
+     "name": "沖島",
+     "prefecture": "滋賀県",
+     "url": "/destinations/okishima/",
+     "code": "98bc3e83",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 0,
+      "impressions": 1
+     },
+     "内部リンク": 69,
+     "疑い": []
+    },
+    {
+     "id": "hira",
+     "name": "比良山系",
+     "prefecture": "滋賀県",
+     "url": "/destinations/hira/",
+     "code": "ee14d314",
+     "win": 0,
+     "type": "destination",
+     "gsc": {
+      "clicks": 2,
+      "impressions": 68
+     },
+     "内部リンク": 37,
+     "疑い": [
+      "1km未満: びわ湖バレイ"
+     ]
+    },
+    {
+     "id": "biwako-valley",
+     "name": "びわ湖バレイ",
+     "prefecture": "滋賀県",
+     "url": "/destinations/biwako-valley/",
+     "code": "de7be1d5",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 36,
+     "疑い": [
+      "1km未満: 比良山系"
+     ]
+    }
+   ]
+  },
+  {
+   "件数": 5,
+   "重心": [
+    34.24,
+    132.26
+   ],
+   "県": {
+    "広島県": 3,
+    "山口県": 2
+   },
+   "win合計": 119,
+   "表示": 0,
+   "クリック": 0,
+   "items": [
+    {
+     "id": "miyajima",
+     "name": "宮島",
+     "prefecture": "広島県",
+     "url": "/destinations/miyajima/",
+     "code": "8861e847",
+     "win": 98,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 67,
+     "疑い": [
+      "1km未満: 厳島神社"
+     ]
+    },
+    {
+     "id": "iwakuni",
+     "name": "岩国",
+     "prefecture": "山口県",
+     "url": "/destinations/iwakuni/",
+     "code": "9a2625c2",
+     "win": 14,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 59,
+     "疑い": [
+      "名前が重なる: 錦帯橋・岩国城"
+     ]
+    },
+    {
+     "id": "miyahama",
+     "name": "宮浜温泉",
+     "prefecture": "広島県",
+     "url": "/destinations/miyahama/",
+     "code": "938eaa99",
+     "win": 6,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 45,
+     "疑い": []
+    },
+    {
+     "id": "iwakuni-castle",
+     "name": "錦帯橋・岩国城",
+     "prefecture": "山口県",
+     "url": "/destinations/iwakuni-castle/",
+     "code": "b4693845",
+     "win": 1,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 42,
+     "疑い": [
+      "名前が重なる: 岩国"
+     ]
+    },
+    {
+     "id": "itsukushima",
+     "name": "厳島神社",
+     "prefecture": "広島県",
+     "url": "/destinations/itsukushima/",
+     "code": "ab5d2100",
+     "win": 0,
+     "type": "destination",
+     "gsc": null,
+     "内部リンク": 51,
+     "疑い": [
+      "1km未満: 宮島"
+     ]
+    }
+   ]
+  }
+ ]
+}

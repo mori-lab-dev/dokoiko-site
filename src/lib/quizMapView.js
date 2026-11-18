@@ -1,8 +1,10 @@
 // 診断の日本地図（Canvas）（2026-11-18）。明るい紙の地図に、旅先を点で打つ。
 // ・点の位置は quizDestinations.json の x,y（0〜1000 × 0〜940。投影は scripts/lib/quizFrames.mjs）。輪郭は quizMap.json（Natural Earth・パブリックドメイン）。
+// ・近い点（画面上で約14px以内）は描画のときだけ1つの少し大きい点にまとめる（src/lib/quizCluster.js・データとエンジンは変えない）。選ばれた旅先と次点はまとめず本当の位置に描く。
 // ・setAlive: まだ1位に届く旅先は色が付き、届かない旅先はフェードして薄くなる（消さない）。
 // ・showResult: 結果の旅先の点が脈打ち、地図がその周りへ寄る。次点は印を付ける。
 // ・prefers-reduced-motion: 動きを止める（色・数・表示は同じ）。音・振動は付けない。地図は aria-hidden（数字と結果はテキストでも出す）。
+import { clusterDots, radiusFor, clusterScale } from './quizCluster.js';
 const INK = [47, 44, 40], ALIVE = [196, 69, 45], DEAD = [168, 157, 132];
 const LAND = '#ddd0b0', COAST = 'rgba(47,44,40,.62)', PREF = 'rgba(47,44,40,.16)', FRAME = '#bfb298';   // 地は紙色・陸は少し濃く・海岸線は細い墨線・県境はごく薄い墨線
 const mix = (a, b, t) => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t];
@@ -18,6 +20,7 @@ export function createMapView(canvas, map, dots) {
   let view = { k: 1, tx: 0, ty: 0 }, viewFrom = view, viewTo = view, viewT0 = 0, viewDur = 0;
   let result = null;                             // { top: i, next: [i, i, i] }
   let raf = 0, last = 0, cssW = 0, dpr = 1;
+  let clusters = [], clusterKey = '';           // 描画用のまとめ（距離か結果が変わったときだけ作り直す）
   const reduced = () => !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
   function resize() {
@@ -37,20 +40,28 @@ export function createMapView(canvas, map, dots) {
       if (f.key !== 'main') { const [x0, y0, x1, y1] = f.box; ctx.save(); ctx.setLineDash([7 / cssScale, 6 / cssScale]); ctx.strokeStyle = FRAME; ctx.lineWidth = 1.4 / cssScale; ctx.strokeRect(x0 - 6, y0 - 6, x1 - x0 + 12, y1 - y0 + 12); ctx.restore(); }
       ctx.fillStyle = LAND; ctx.fill(f.p); ctx.lineJoin = 'round'; ctx.strokeStyle = PREF; ctx.lineWidth = 0.9 / cssScale; ctx.stroke(f.pf); ctx.strokeStyle = COAST; ctx.lineWidth = 1.1 / cssScale; ctx.stroke(f.p);
     }
-    // 点（css px で一定の大きさ。寄ると少し大きくなる）
+    // 点（css px で一定の大きさ。寄ると少し大きくなる）。近い点は表示のときだけ1つにまとめる（画面上で約14px以内・選ばれた旅先と次点はまとめない）
     const r0 = (1.55 + 0.35 * Math.min(k, 3)) / cssScale;
-    for (let i = 0; i < n; i++) {
-      if (result && (i === result.top || result.next.includes(i))) continue;       // 結果の点は最後に描く
-      const c = mix(INK, mix(DEAD, ALIVE, v[i]), nar);
-      const a = 0.78 + (0.95 - 0.78) * nar * v[i] - 0.56 * nar * (1 - v[i]);
-      ctx.fillStyle = `rgba(${c[0] | 0},${c[1] | 0},${c[2] | 0},${a.toFixed(3)})`;
-      const r = r0 * (1 + 0.15 * nar * v[i] - 0.3 * nar * (1 - v[i]));
-      ctx.beginPath(); ctx.arc(dots[i].x, dots[i].y, r, 0, 6.2832); ctx.fill();
+    const skip = result ? new Set([result.top, ...result.next]) : null;
+    const rad = Math.round(radiusFor(cssScale) * 2) / 2;
+    const ck = rad + '|' + (result ? result.top + ',' + result.next.join(',') : '');
+    if (clusterKey !== ck) { clusters = clusterDots(dots, rad, skip); clusterKey = ck; canvas.dataset.clusters = String(clusters.length + (skip ? skip.size : 0)); canvas.dataset.clusterRadius = String(rad); }
+    const quiet = result ? 0.55 : 1;                                   // 結果では選ばれていない点の墨を薄くして、朱の輪を目立たせる
+    for (const c of clusters) {
+      let sum = 0, mx = 0; for (const i of c.m) { sum += v[i]; if (v[i] > mx) mx = v[i]; }
+      const cnt = c.m.length, frac = sum / cnt;
+      const s = mx * (0.5 + 0.5 * frac);                              // 1件でも残っていれば色が付く・残りの割合で濃さが変わる・全部外れたらフェード
+      const col = mix(INK, mix(DEAD, ALIVE, s), nar);
+      const a = (0.78 + (0.95 - 0.78) * nar * s - 0.56 * nar * (1 - mx)) * quiet;
+      ctx.fillStyle = `rgba(${col[0] | 0},${col[1] | 0},${col[2] | 0},${a.toFixed(3)})`;
+      const r = r0 * clusterScale(cnt) * (1 + 0.15 * nar * s - 0.3 * nar * (1 - mx));
+      ctx.beginPath(); ctx.arc(c.x, c.y, r, 0, 6.2832); ctx.fill();
     }
     if (result) {
       // 結果: 全部の点は墨のまま。選ばれた1点だけ朱色の点を細い朱の輪で囲む（共有画像と同じ見た目）。次点は墨の細い輪と番号
       result.next.forEach((i, j) => {
-        const d = dots[i]; ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 3.1, 0, 6.2832); ctx.lineWidth = 1.3 / cssScale; ctx.strokeStyle = 'rgba(47,44,40,.85)'; ctx.stroke();
+        const d = dots[i]; ctx.beginPath(); ctx.arc(d.x, d.y, r0, 0, 6.2832); ctx.fillStyle = 'rgba(47,44,40,.85)'; ctx.fill();
+        ctx.beginPath(); ctx.arc(d.x, d.y, r0 * 3.1, 0, 6.2832); ctx.lineWidth = 1.3 / cssScale; ctx.strokeStyle = 'rgba(47,44,40,.85)'; ctx.stroke();
         ctx.font = `700 ${12 / cssScale}px 'Noto Sans JP', sans-serif`; ctx.fillStyle = '#2f2c28'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
         ctx.fillText(String(j + 2), d.x + r0 * 3.8, d.y - r0 * 2.4);
       });
