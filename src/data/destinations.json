@@ -8692,7 +8692,7 @@
       "accessStation": "阿蘇駅・別府駅等からバス（黒川温泉）"
     },
     "carFree": {
-      "checked": "2026年11月4日",
+      "checked": "2026年11月19日",
       "items": [
         {
           "label": "最寄り駅",
@@ -8701,7 +8701,7 @@
             "label": "南小国町「南小国町へのアクセス」",
             "url": "https://www.town.minamioguni.lg.jp/profile/access.html"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "福岡から高速バス（直行）",
@@ -8710,7 +8710,7 @@
             "label": "西鉄バス「福岡〜黒川温泉」",
             "url": "https://www.nishitetsu.jp/bus/highwaybus/rosen/kurokawa/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "博多駅・熊本・別府・由布院から",
@@ -8719,16 +8719,16 @@
             "label": "黒川温泉観光旅館協同組合「交通アクセス」",
             "url": "https://www.kurokawaonsen.or.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "九州横断バスの予約",
-          "body": "九州産交バスの案内では、熊本〜別府、熊本〜由布院駅前バスセンターを結ぶ九州横断バスの停留所に「黒川温泉」があります。「一部予約制（座席定員制）」で、予約できない区間もあると書かれています。",
+          "body": "九州産交バスの案内では、「一部予約制（座席定員制）」で、予約できない区間もあると書かれています。九州横断バスの停留所に「黒川温泉」があるかは、公式の記載では確認できません。",
           "source": {
             "label": "九州産交バス「九州横断バス」",
             "url": "https://www.sankobus.jp/bus/oudan/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "阿蘇駅から",
@@ -8737,7 +8737,7 @@
             "label": "黒川温泉観光旅館協同組合「交通アクセス」",
             "url": "https://www.kurokawaonsen.or.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎（新明館）",
@@ -8746,7 +8746,7 @@
             "label": "新明館 公式サイト「アクセス」",
             "url": "https://www.shinmeikan.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "最寄りのIC（黒川温泉観光旅館協同組合）",
@@ -8755,7 +8755,7 @@
             "label": "黒川温泉観光旅館協同組合「交通アクセス」",
             "url": "https://www.kurokawaonsen.or.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "車での所要時間（新明館）",
@@ -8764,7 +8764,7 @@
             "label": "新明館 公式サイト「アクセス」",
             "url": "https://www.shinmeikan.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "車での所要時間（南小国町）",
@@ -8773,7 +8773,7 @@
             "label": "南小国町「南小国町へのアクセス」",
             "url": "https://www.town.minamioguni.lg.jp/profile/access.html"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         }
       ],
       "timetable": [
@@ -185264,16 +185264,16 @@
       "attributionRequired": true
     },
     "carFree": {
-      "checked": "2026年11月4日",
+      "checked": "2026年11月19日",
       "items": [
         {
           "label": "駅から行く（筑後吉井駅）",
-          "body": "最寄りのJR駅は久大本線の筑後吉井駅で、駅から泰泉閣まで車で約10分です。博多駅から特急ゆふで筑後吉井駅まで約1時間、または九州新幹線で久留米駅へ出て久大本線の各駅停車で筑後吉井駅まで約30分と案内されています。駅から路線バスやタクシーで行く方法は、公式では確認できませんでした。",
+          "body": "最寄りのJR駅は久大本線の筑後吉井駅で、駅から泰泉閣まで車で約10分です（宿泊者のみ送迎可、要事前連絡）。博多駅から特急ゆふで筑後吉井駅まで約1時間、または九州新幹線で久留米駅へ出て久大本線の各駅停車で筑後吉井駅まで約30分と案内されています。送迎の対応時間外の方や予約なしの方は、ご自分でタクシーを利用するよう案内されています。駅からの路線バスについては、公式では確認できませんでした。",
           "source": {
             "label": "泰泉閣 公式サイト「アクセス」",
             "url": "https://taisenkaku.co.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "高速バスで行く（杷木バス停）",
@@ -185282,16 +185282,16 @@
             "label": "泰泉閣 公式サイト「アクセス」",
             "url": "https://taisenkaku.co.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "路線バス（西鉄バス）",
-          "body": "朝倉市の公共交通の案内に、二日市・朝倉街道〜原鶴温泉〜杷木を結ぶ系統41があり、原鶴温泉を通る系統は41だけと書かれています。時刻・運賃は西鉄バスの公式ページで確認する形です。",
+          "body": "朝倉市の公共交通の案内に、二日市・朝倉街道〜原鶴温泉〜杷木を結ぶ系統41が載っています。時刻・運賃は西鉄バスの公式ページで確認する形です。",
           "source": {
             "label": "朝倉市「路線バス」",
             "url": "https://www.city.asakura.lg.jp/soshiki/5/12895.html"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎（泰泉閣）",
@@ -185300,7 +185300,7 @@
             "label": "泰泉閣 公式サイト「アクセス」",
             "url": "https://taisenkaku.co.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "最寄りのIC",
@@ -185309,7 +185309,7 @@
             "label": "泰泉閣 公式サイト「アクセス」",
             "url": "https://taisenkaku.co.jp/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         }
       ],
       "timetable": [
@@ -221077,7 +221077,7 @@
       "attributionRequired": true
     },
     "carFree": {
-      "checked": "2026年11月4日",
+      "checked": "2026年11月19日",
       "items": [
         {
           "label": "駅からバスで行く",
@@ -221086,7 +221086,7 @@
             "label": "竹田市観光ツーリズム協会「長湯温泉バス時刻表」",
             "url": "https://taketa.guide/spots/detail/cf8ed1c0-6614-4199-9599-c8bd1de0b5a6"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "福岡・大分・熊本から電車とバス",
@@ -221095,7 +221095,7 @@
             "label": "万象の湯 公式サイト「アクセス」",
             "url": "https://www.bansyounoyu.com/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "豊後竹田駅前のタクシー",
@@ -221104,7 +221104,7 @@
             "label": "竹田市観光ツーリズム協会「交通アクセス」",
             "url": "https://taketa.guide/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "最寄りのIC",
@@ -221113,7 +221113,7 @@
             "label": "万象の湯 公式サイト「アクセス」",
             "url": "https://www.bansyounoyu.com/access/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: かじか庵",
@@ -221122,7 +221122,7 @@
             "label": "長湯温泉観光協会「かじか庵」",
             "url": "https://www.nagayu-onsen.com/kajikaan/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: 紅葉館",
@@ -221131,7 +221131,7 @@
             "label": "長湯温泉観光協会「紅葉館」",
             "url": "https://www.nagayu-onsen.com/koyokan/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: 水神之森",
@@ -221140,7 +221140,7 @@
             "label": "長湯温泉観光協会「水神之森」",
             "url": "https://www.nagayu-onsen.com/suijinnomori/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: かどやRe",
@@ -221149,7 +221149,7 @@
             "label": "長湯温泉観光協会「かどやRe」",
             "url": "https://www.nagayu-onsen.com/kadoya/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: 大丸旅館",
@@ -221158,7 +221158,7 @@
             "label": "長湯温泉観光協会「大丸旅館」",
             "url": "https://www.nagayu-onsen.com/daimaru/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: 翡翠の庄（かわせみ）",
@@ -221167,7 +221167,7 @@
             "label": "長湯温泉観光協会「翡翠の庄」",
             "url": "https://www.nagayu-onsen.com/kawasemi/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         },
         {
           "label": "宿の送迎: 中村屋",
@@ -221176,7 +221176,7 @@
             "label": "長湯温泉観光協会「中村屋」",
             "url": "https://www.nagayu-onsen.com/nakamuraya/"
           },
-          "checked": "2026年11月4日"
+          "checked": "2026年11月19日"
         }
       ],
       "timetable": [
