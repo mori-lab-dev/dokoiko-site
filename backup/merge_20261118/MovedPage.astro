@@ -1,0 +1,43 @@
+---
+/**
+ * 統合した旧ページの転送ページ（同名ページの統合・2026-11-09）。kumano.astro と同じ作り。
+ * GitHub Pages は 301 を返せないので、canonical（評価の集約先）＋ meta refresh 0 ＋ location.replace ＋ 本文のリンクで送る。
+ * noindex は入れない（入れると Google が URL を評価ごと落とす）。sitemap には載せない（sitemap は destinations.json から作るため、
+ * データから消えた id は自動で載らない）。検査は scripts/auditMergedPages.mjs。
+ */
+interface Props { fromName: string; toId: string; toName: string; }
+const { fromName, toId, toName } = Astro.props;
+const TO = `/destinations/${toId}/`;
+const ABS = `https://tabidokoiko.com${TO}`;
+const DESC = `同名の「${fromName}」のページは、${toName}のページに統合しました。`;
+---
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{`「${fromName}」は「${toName}」に統合しました｜どこ行こ？`}</title>
+    <link rel="canonical" href={ABS} />
+    <meta http-equiv="refresh" content={`0; url=${TO}`} />
+    <meta name="description" content={DESC} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={ABS} />
+    <meta property="og:title" content={`${toName}｜どこ行こ？`} />
+    <meta property="og:description" content={DESC} />
+    <meta property="og:image" content="https://tabidokoiko.com/images/share_default.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://tabidokoiko.com/images/share_default.jpg" />
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; padding: 60px 24px; background: #faf9f7; color: #333; text-align: center; line-height: 2; }
+      a { color: #2A6049; }
+    </style>
+  </head>
+  <body>
+    <p>同名の「{fromName}」のページは<strong>{toName}</strong>のページに統合しました。</p>
+    <p><a href={TO}>{toName}のページへ移動する →</a></p>
+    <script is:inline define:vars={{ TO }}>
+      location.replace(TO);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+{
+  "groups": [
+    {
+      "id": "chichijima",
+      "title": "父島",
+      "description": "東京の竹芝桟橋からおがさわら丸で約24時間。着くのは二見港だ。船は週に1便前後しかないので、渡ると数日は帰れない。小港海岸は黒っぽい砂の浜で、背後に小笠原固有の海岸植物が迫っている。長崎展望台に上がると、島の入り組んだ地形と太平洋がひとつの視界にまとめて入ってくる。ウェザーステーションは夕日の名所で、海に沈むまで人が集まる。ホテルホライズンは扇浦海岸の前に立つ。島内の移動はレンタカーかバス。固有種の多さから東洋のガラパゴスとも呼ばれる。小笠原諸島は世界自然遺産に登録されている。",
+      "sections": [
+        {
+          "title": "小港海岸",
+          "body": "握ると粒感が残る黒い砂浜。透明度の高い海水が青く輝き、亜熱帯の潮の匂いが全身を包む。背後に小笠原固有の海岸植物が迫る秘境。",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kominato_Beach_that_I_looked_at_from_the_Nakayama_Pass_in_Chichijima_Island%2COgasawara%2CTokyo%2CJapan.jpg/1280px-Kominato_Beach_that_I_looked_at_from_the_Nakayama_Pass_in_Chichijima_Island%2COgasawara%2CTokyo%2CJapan.jpg",
+          "imageCredit": {
+            "author": "Ootahara",
+            "license": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Kominato_Beach_that_I_looked_at_from_the_Nakayama_Pass_in_Chichijima_Island,Ogasawara,Tokyo,Japan.jpg",
+            "attributionRequired": false
+          }
+        },
+        {
+          "title": "長崎展望台",
+          "body": "父島全体が一枚の絵のように見晴らせる展望台。太平洋の開放感と硫黄のかすかな匂いが火山性を物語り、夕暮れは海が濃紫に染まる。",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nagasaki_bus_Shinchi_terminal.JPG/500px-Nagasaki_bus_Shinchi_terminal.JPG",
+          "imageCredit": {
+            "author": "Marine-Blue",
+            "license": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Nagasaki_bus_Shinchi_terminal.JPG",
+            "attributionRequired": true
+          }
+        },
+        {
+          "title": "ウェザーステーション",
+          "body": "観測機器が並ぶ山頂から海への視線が一直線に伸び、小笠原の気象データが全国へ送られている施設。",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sunset_from_Weather_Station_observation_deck_in_Chichijima%2C_Ogasawara%2C_Tokyo%2C_Japan.jpg/1280px-Sunset_from_Weather_Station_observation_deck_in_Chichijima%2C_Ogasawara%2C_Tokyo%2C_Japan.jpg",
+          "imageCredit": {
+            "author": "Yasu (talk)",
+            "license": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Sunset_from_Weather_Station_observation_deck_in_Chichijima,_Ogasawara,_Tokyo,_Japan.jpg",
+            "attributionRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "hahajima",
+      "title": "母島",
+      "description": "父島からははじま丸で約2時間。便は1日1往復で、東京の竹芝から数えると着くまでに丸一日以上かかる。島でいちばん高いのは乳房山で、整備された登山道が森の中を抜けて頂上まで続いている。南崎遊歩道は島の南端へ向かう道で、亜熱帯の林を通って岩場に出る。小富士は短いが急な登りで、上がりきると360度の海が開ける。晴れた日は父島まで見える。固有の動植物が多く、島は世界自然遺産の区域に入る。港のまわりに宿と商店が集まっている。拠点は父島。",
+      "sections": [
+        {
+          "title": "南崎遊歩道",
+          "body": "母島南端へ続く遊歩道で、亜熱帯の湿った土と緑の香りを感じながら歩ける。先端の岩場では波しぶきが上がり、水平線を一望できる。",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/View_from_Hahajima-Island_and_the_Minamizaki_Tokyo%2CJAPAN.jpg/500px-View_from_Hahajima-Island_and_the_Minamizaki_Tokyo%2CJAPAN.jpg",
+          "imageCredit": {
+            "author": "Si-take. at Japanese Wikipedia",
+            "license": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:View_from_Hahajima-Island_and_the_Minamizaki_Tokyo,JAPAN.jpg",
+            "attributionRequired": true
+          }
+        },
+        {
+          "title": "小富士",
+          "body": "標高約315m、急勾配だが短い登山道の先に360度の海景。晴れた日は父島まで見える、黒い火山地肌が印象的な絶好の展望台。",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/View_from_Kofuji_at_Hahajima.jpg/1280px-View_from_Kofuji_at_Hahajima.jpg",
+          "imageCredit": {
+            "author": "Ootahara",
+            "license": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:View_from_Kofuji_at_Hahajima.jpg",
+            "attributionRequired": false
+          }
+        },
+        {
+          "title": "乳房山",
+          "body": "丸みを帯びた双峰がそびえる母島北部の山。整備された道が森を進み、磯の香りと野鳥のさえずりが心地よい。島の歴史と地質が凝縮する。",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg/500px-Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg",
+          "imageCredit": {
+            "author": "Yasu (talk)",
+            "license": "CC BY-SA 3.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg",
+            "attributionRequired": true
+          }
+        }
+      ],
+      "image": {
+        "url": "/images/hahajima/main.jpg",
+        "alt": "母島の南崎遊歩道",
+        "credit": {
+          "author": "Ootahara",
+          "license": "CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Hahajima_maru_3rd_20160917_take_from_Mount_Syoukenzaki_at_Hahajima_island.jpg",
+          "attributionRequired": false
+        }
+      }
+    }
+  ]
+}

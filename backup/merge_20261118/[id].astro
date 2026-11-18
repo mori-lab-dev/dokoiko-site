@@ -1,0 +1,2583 @@
+---
+import AffiliateNotice from '../../components/AffiliateNotice.astro';
+import DestinationLayout from '../../layouts/DestinationLayout.astro';
+import { dimAttrs } from '../../data/imgAttrs';
+import destinations from '../../data/destinations.json';
+import hubCities from '../../data/hubCities.json';
+import { pickJRService, jrServiceUrl, jrServiceLabel } from '../../../scripts/jrServiceMap.js';
+import { skyscannerUrl } from '../../../scripts/airportMap.js';
+import { jalanKeywordSearchTarget } from '../../../scripts/jalanUrl.js';
+import { rakutenKeywordSearchTarget } from '../../../scripts/rakutenUrl.js';
+import fs from 'fs';
+import path from 'path';
+import { relatedFor } from '../../lib/related';
+
+export function getStaticPaths() {
+  return destinations.map(dest => ({
+    params: { id: dest.id },
+    props: { dest }
+  }));
+}
+
+const { dest } = Astro.props;
+
+const articlePath = path.join(process.cwd(), 'src/data/articles', `${dest.id}.json`);
+const article = fs.existsSync(articlePath)
+  ? JSON.parse(fs.readFileSync(articlePath, 'utf8'))
+  : null;
+
+// 画像判定: 1) public/images/{id}/main.jpg フォルダ形式 2) public/images/{id}.jpg 旧形式 3) destinations.json の images[0] が外部URL
+const hasMainImg = fs.existsSync(path.join(process.cwd(), 'public/images', dest.id, 'main.jpg'));
+const hasSingleImg = fs.existsSync(path.join(process.cwd(), 'public/images', `${dest.id}.jpg`));
+const firstImageField = ((dest as any).images && (dest as any).images[0]) || null;
+const hasImage = hasMainImg || hasSingleImg || (firstImageField && !firstImageField.startsWith('/images/'));
+const localImageUrl = hasMainImg
+  ? `/images/${dest.id}/main.jpg`
+  : hasSingleImg
+    ? `/images/${dest.id}.jpg`
+    : (firstImageField && !firstImageField.startsWith('/images/') ? firstImageField : null);
+const unsplashUrl    = !hasImage ? ((dest as any).unsplashUrl ?? null) : null;
+const imageUrl       = localImageUrl ?? unsplashUrl;
+// CC帰属(imageCredit: { author, license, url }) — author か license があれば表示
+const ic = (dest as any).imageCredit;
+const heroCredit = (localImageUrl && ic && (ic.author || ic.license)) ? ic : null;
+const unsplashCredit    = unsplashUrl ? ((dest as any).unsplashCredit ?? null) : null;
+const unsplashCreditUrl = unsplashUrl ? ((dest as any).unsplashCreditUrl ?? null) : null;
+const unsplashPhotoUrl  = unsplashUrl ? ((dest as any).unsplashPhotoUrl ?? null) : null;
+
+// 個別に書いた title / description（dest.seo、または車なしガイド carFree.seo）があるページはそれを使う（scripts/auditSeoCopy.mjs が本文と照合する）
+const carFreeSeo = ((dest as any).seo ?? (dest as any).carFree?.seo) as { title: string; description: string } | undefined;
+const seoTitle = carFreeSeo?.title ?? `【${dest.name}】おすすめ観光スポット${dest.spots?.length || 3}選｜${dest.prefecture}の旅`;
+// meta description は 120字前後に整形する。dest.description（200〜300字）を
+// そのまま使うと検索結果で途中切りされるため、文境界（。）で 120字以内へ丸める。
+function toMetaDescription(text: string): string {
+  if (!text) return '';
+  if (text.length <= 130) return text;
+  const head = text.slice(0, 130);
+  const cut = head.lastIndexOf('。');
+  return cut >= 60 ? head.slice(0, cut + 1) : head.slice(0, 118) + '…';
+}
+const description =
+  carFreeSeo?.description
+  || article?.lead?.slice(0, 120)
+  || toMetaDescription(dest.description)
+  || `${dest.name}（${dest.prefecture}）への行き方・宿・観光スポット情報。`;
+
+const CITY_NAMES: Record<string, string> = {
+  tokyo: '東京', osaka: '大阪', nagoya: '名古屋', fukuoka: '福岡',
+  takamatsu: '高松', sapporo: '札幌', sendai: '仙台', hiroshima: '広島',
+  naha: '那覇', kanazawa: '金沢', gifu: '岐阜', mito: '水戸',
+  maebashi: '前橋', takasaki: '高崎', hamamatsu: '浜松', kofu: '甲府',
+  shingu: '新宮', tanabe: '田辺', shirahama: '白浜', kushimoto: '串本',
+  tottori: '鳥取', shimonoseki: '下関', saga: '佐賀', oita: '大分', beppu: '別府',
+  akita: '秋田', aomori: '青森', fukushima: '福島', fukuyama: '福山',
+  hachinohe: '八戸', hakodate: '函館', himeji: '姫路', ishigaki: '石垣',
+  kitakyushu: '北九州', kitami: '北見', kurashiki: '倉敷', kushiro: '釧路',
+  miyako: '宮古', niigata: '新潟', obihiro: '帯広', wakayama: '和歌山',
+  yamagata: '山形', yamaguchi: '山口',
+};
+
+
+// city(日本語)→prefecture map (JR予約サービス判定用)
+const CITY_TO_PREF: Record<string, string> = {
+  '札幌':'北海道','函館':'北海道','旭川':'北海道','釧路':'北海道','帯広':'北海道','北見':'北海道','稚内':'北海道',
+  '青森':'青森県','八戸':'青森県','盛岡':'岩手県','秋田':'秋田県','山形':'山形県','仙台':'宮城県','福島':'福島県',
+  '水戸':'茨城県','宇都宮':'栃木県','前橋':'群馬県','高崎':'群馬県','大宮':'埼玉県','千葉':'千葉県',
+  '東京':'東京都','横浜':'神奈川県','新潟':'新潟県','金沢':'石川県','富山':'富山県','福井':'福井県',
+  '甲府':'山梨県','長野':'長野県','松本':'長野県','岐阜':'岐阜県','名古屋':'愛知県','浜松':'静岡県','静岡':'静岡県',
+  '京都':'京都府','大阪':'大阪府','神戸':'兵庫県','姫路':'兵庫県','尼崎':'兵庫県','高槻':'大阪府','泉佐野':'大阪府',
+  '津':'三重県','大津':'滋賀県','奈良':'奈良県','和歌山':'和歌山県','新宮':'和歌山県','田辺':'和歌山県','白浜':'和歌山県','串本':'和歌山県',
+  '鳥取':'鳥取県','松江':'島根県','岡山':'岡山県','倉敷':'岡山県','広島':'広島県','福山':'広島県','下関':'山口県','山口':'山口県','北九州':'福岡県',
+  '高松':'香川県','松山':'愛媛県','高知':'高知県','徳島':'徳島県',
+  '福岡':'福岡県','佐賀':'佐賀県','長崎':'長崎県','熊本':'熊本県','大分':'大分県','別府':'大分県','宮崎':'宮崎県','鹿児島':'鹿児島県',
+  '那覇':'沖縄県','宮古':'沖縄県','石垣':'沖縄県',
+};
+
+// 出発都市を「全都市常時表示」: travelTimeデータの有無に関わらず主要都市は常に選択肢に出す
+// 主要都市（札幌・仙台・東京・横浜・名古屋・京都・大阪・神戸・広島・松山・高松・福岡・長崎・熊本・鹿児島・那覇 等）を網羅
+const ALL_DEPARTURE_CITIES_JP = [
+  '札幌','函館','旭川','釧路','帯広','北見',
+  '青森','八戸','盛岡','秋田','山形','仙台','福島','水戸',
+  '前橋','高崎','東京','横浜','新潟','金沢','富山','甲府','長野','岐阜',
+  '名古屋','浜松','京都','大阪','神戸','姫路','和歌山','新宮','田辺','白浜','串本',
+  '鳥取','岡山','倉敷','広島','福山','下関','山口','北九州',
+  '高松','松山','高知','徳島',
+  '福岡','佐賀','長崎','熊本','大分','別府','宮崎','鹿児島','那覇','宮古','石垣',
+];
+// travelTimeデータがある(0<v<=240) cityのみ block 生成（変換: cityキー→日本語名）
+const PRIORITY_CITIES = ['tokyo','osaka','nagoya','fukuoka','sapporo','sendai','hiroshima','takamatsu','naha','kanazawa'];
+const travelTimes = Object.entries(dest.travelTime || {})
+  .filter(([_, v]) => v && (v as number) > 0 && (v as number) <= 480)
+  .sort(([a, va], [b, vb]) => {
+    const ai = PRIORITY_CITIES.indexOf(a);
+    const bi = PRIORITY_CITIES.indexOf(b);
+    if (ai >= 0 && bi >= 0) return ai - bi;
+    if (ai >= 0) return -1;
+    if (bi >= 0) return 1;
+    return (va as number) - (vb as number);
+  })
+  .map(([city, min]) => ({
+    city: CITY_NAMES[city] || city,
+    min
+  }));
+// travelTimeデータがある city の Set（select 表示判定用）
+const travelTimeCitySet = new Set(travelTimes.map(t => t.city));
+
+const STEP_TYPE_LABEL: Record<string, string> = {
+  rail: '鉄道', ferry: '船', flight: '航空', bus: 'バス', car: '車', local: '移動',
+};
+
+const hubName: string = (dest as any).hubName || '';
+const stayAllowed: string[] = (dest as any).stayAllowed || [];
+const isDaytripOnly = stayAllowed.length > 0 && !stayAllowed.includes('1night');
+const railNote: string = (dest as any).railNote || '';
+const isBusOnly = railNote.includes('バス') && !!(dest as any).hub;
+
+const hotelLinks = (dest as any).hotelLinks as { rakuten: string; jalan: string } | null | undefined;
+
+// Fix1: Rakuten URLをキーワードのみで再生成（余分な "香川県 宿" 等を除去）
+const RAKUTEN_AFF = 'https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/';
+const JALAN_AFF   = 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=';
+
+// 楽天のキーワード検索。yado/japan.html?f_query= は現在キーワードが効かず
+// 「地図から探す」トップ相当に着地してしまうため、実際に検索結果が返る
+// キーワード検索エンドポイント（楽天トラベル公式の検索フォーム送信先）を使う。
+function buildRakutenUrl(keyword: string): string {
+  // f_query は Shift_JIS 必須（UTF-8 だと文字化けして 0 件。scripts/rakutenUrl.js・2026-10-13 実測）
+  const target = rakutenKeywordSearchTarget(keyword);
+  return `${RAKUTEN_AFF}?pc=${encodeURIComponent(target)}`;
+}
+// じゃらんの宿キーワード検索はShift_JISエンコード必須(scripts/jalanUrl.js参照)。
+function buildJalanUrl(keyword: string): string {
+  return `${JALAN_AFF}${encodeURIComponent(jalanKeywordSearchTarget(keyword))}`;
+}
+
+// ソースデータの宿URLが素リンクでも、ビルド時に必ずアフィリエイトを付与する。
+// 既にアフィリ形式のものはそのまま維持（キュレート済みの地域別ディープリンクを保持）。
+function toRakutenAffiliate(url: string): string {
+  if (!url) return url;
+  if (url.startsWith('https://hb.afl.rakuten.co.jp/')) return url; // 既にアフィリ
+  if (url.includes('rakuten.co.jp')) return `${RAKUTEN_AFF}?pc=${encodeURIComponent(url)}`;
+  return url;
+}
+// 【2026-09-17】楽天の宿リンクはキーワード検索（kw.travel.rakuten.co.jp）だけを許可する。
+// 楽天トラベルの AASA は /HOTEL/* や /yado/*/* をアプリの対象にしており、さらにアフィリの
+// リダイレクタは宛先が travel.rakuten.co.jp だと必ず hb.afl.rakuten.co.jp/travel/…
+// （これもアプリ対象）を経由させる。個別ページ・県トップ・エリアページはどれも
+// リダイレクト途中で楽天トラベルアプリが起動する（scripts/auditRakutenAppLinks.mjs で実測）。
+// キーワード検索の宛先だけはこの経路を通らないので、それ以外は宿名・地名の検索に置き換える。
+// じゃらんの safeJalanUrl（2026-08-12）と同じ許可リスト方式。
+function isRakutenSafeTarget(rawUrl: string): boolean {
+  let inner = rawUrl;
+  try {
+    const u = new URL(rawUrl);
+    if (u.hostname === 'hb.afl.rakuten.co.jp') inner = u.searchParams.get('pc') || '';
+    return new URL(inner).hostname === 'kw.travel.rakuten.co.jp';
+  } catch {
+    return false;
+  }
+}
+function safeRakutenUrl(rawUrl: string | null | undefined, keyword: string): string {
+  if (rawUrl && isRakutenSafeTarget(rawUrl)) return toRakutenAffiliate(rawUrl);
+  return buildRakutenUrl(keyword);
+}
+function toJalanAffiliate(url: string): string {
+  if (!url) return url;
+  if (url.startsWith('https://ck.jp.ap.valuecommerce.com/')) return url; // 既にアフィリ
+  if (url.includes('jalan.net')) return `${JALAN_AFF}${encodeURIComponent(url)}`;
+  return url;
+}
+
+// じゃらんアプリのUniversal Link発火を防ぐための「安全形式の許可リスト」。
+// AASA対象外のURLでも、サーバーリダイレクト後の着地先がUL対象だとアプリが起動する
+// （例: /140000/ → 301 → /ikisaki/map/kanagawa/ で発火・実機確認済み）。そのため
+// ブラックリスト照合ではなく、全リダイレクトホップがUL対象外であることを実測確認
+// できた形式だけを許可し、それ以外は全てキーワード検索URLへ差し替える。
+// 実測(iPhone UA・scripts/checkJalanRedirects.mjs):
+//   /uw/uwp2011/uww2011init.do?keyword= … 302→302→200 全ホップ安全(一意ヒットでも宿詳細へ飛ばない)
+//   /activity/                          … 200直
+//   /rentacar/                          … 200直
+function isJalanSafeUrl(rawUrl: string): boolean {
+  let u: URL;
+  try { u = new URL(rawUrl); } catch { return false; }
+  if (!/(^|\.)jalan\.net$/.test(u.hostname)) return false;
+  const p = u.pathname;
+  return p === '/uw/uwp2011/uww2011init.do' || p === '/activity/' || p === '/rentacar/' || p.startsWith('/rentacar/');
+}
+// VCラッパー(vc_url=...)の中身も含めて検査し、許可リスト外ならキーワード検索へ差替
+function safeJalanUrl(rawUrl: string | null | undefined, keyword: string): string {
+  if (!rawUrl) return buildJalanUrl(keyword);
+  let inner = rawUrl;
+  const m = rawUrl.match(/[?&]vc_url=([^&]+)/);
+  if (m) { try { inner = decodeURIComponent(m[1]); } catch { /* noop */ } }
+  if (inner.includes('jalan.net') && !isJalanSafeUrl(inner)) return buildJalanUrl(keyword);
+  return toJalanAffiliate(rawUrl);
+}
+
+// 注目の宿（featured_stay）: 実在・送迎情報をWeb確認済みのキュレーション枠。
+// rakutenUrl/jalanUrl 省略時は宿名での検索リンクにフォールバック（404リスク回避）。
+const featuredStay = (dest as any).featured_stay || null;
+// 車なしで行く（試作・長湯／原鶴／黒川）。確認日 '2026年11月4日' を ISO にして枠へ持たせる
+const carFree = (dest as any).carFree || null;
+const carFreeIso = (j: string) => {
+  const m = String(j).match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : '';
+};
+const fsRakutenUrl = featuredStay
+  ? safeRakutenUrl(featuredStay.rakutenUrl, featuredStay.name)
+  : '';
+const fsJalanUrl = featuredStay
+  ? safeJalanUrl(featuredStay.jalanUrl, featuredStay.name)
+  : '';
+// 楽天・じゃらんに掲載の無い宿（電話予約のみの山小屋・秘湯宿など）。
+// 宿名検索のボタンを出しても何もヒットせず、別の宿が出ることさえあるので、
+// 公式サイトへのボタンだけを出す。otaListed を明示的に false にした宿に限る。
+// 送迎の表示。データに書いてあることだけを出す（2026-09-17 再表示）。
+//   shuttleInfo があればその文言 / hasShuttle:true で文言が無ければ「送迎あり」/
+//   それ以外（hasShuttle:false だけ、または未設定）は何も出さない。
+//   hasShuttle:false だけの行は「送迎なし」と断定できる根拠が無い古いデータが多いため。
+const fsShuttleText: string = featuredStay
+  ? (featuredStay.shuttleInfo || (featuredStay.hasShuttle === true ? '送迎あり' : ''))
+  : '';
+const fsOfficialOnly: boolean = !!(featuredStay
+  && featuredStay.otaListed === false
+  && typeof featuredStay.officialUrl === 'string'
+  && /^https:\/\//.test(featuredStay.officialUrl));
+
+const hotelKeyword = (dest as any).hotelSearch || dest.name;
+const rakutenHotelUrl = safeRakutenUrl(hotelLinks?.rakuten, hotelKeyword);
+const jalanHotelUrl = safeJalanUrl(hotelLinks?.jalan, hotelKeyword);
+
+// 宿セクション: 現地泊・hub泊・prefecture fallbackの三段構え
+const isIsland: boolean = !!(dest as any).isIsland || (dest as any).destType === 'island' || (dest as any).subType === 'island';
+// 通常は hubCity を採用。hubCity が自分自身 (離島でよくある) なら hubName で代替
+const _rawHubCity = (dest as any).hubCity;
+const hubCityName: string = (_rawHubCity && _rawHubCity !== dest.name)
+  ? _rawHubCity
+  : ((hubName && hubName !== dest.name) ? hubName : '');
+const hasOvernight = stayAllowed.includes('1night') || stayAllowed.includes('2night') || stayAllowed.includes('3night+');
+const isOwnHub = hubCityName === dest.name;
+// 現地宿ボタン表示 (hotelLinksあれば表示・daytrip専用でも近隣の宿提案として有用)
+// hubHotelOnly: 渓谷・展望台等で現地宿が実質存在せず、宿リンクが県汎用トップに
+// しか着地しないdestination。現地宿ボタンを出さずhub(拠点都市)宿へ一本化する。
+const showLocalHotel = !!hotelLinks?.rakuten && !(dest as any).hubHotelOnly;
+// hubに泊まる選択肢を必ず提供 (現地で泊まれても・hub != 自分なら提供)
+const showHubHotel = !!hubCityName && !isOwnHub;
+
+let hubRakutenUrl = '';
+let hubJalanUrl   = '';
+if (showHubHotel) {
+  const hubDest = (destinations as any[]).find((d: any) => d.name === hubCityName && d.hotelLinks);
+  if (hubDest) {
+    const hubKeyword = hubDest.hotelSearch || hubDest.name;
+    hubRakutenUrl = safeRakutenUrl(hubDest.hotelLinks.rakuten, hubKeyword);
+    hubJalanUrl   = safeJalanUrl(hubDest.hotelLinks.jalan, hubCityName);
+  } else {
+    // 県トップ（/yado/{県}/）はアプリ起動の対象なので使わず、じゃらんと同じく都市名で検索する。
+    hubRakutenUrl = buildRakutenUrl(hubCityName);
+    hubJalanUrl   = buildJalanUrl(hubCityName);
+  }
+}
+
+// prefecture 列は「長野県・岐阜県」のように県をまたぐ行がある（御嶽山・しまなみ海道・
+// 白神山地・八ヶ岳の4件）。完全一致で扱うとこの4件がどの県にも属さない扱いになり、
+// 「同県の他の旅先」が0件になったり県庁所在地フォールバックが効かなくなる。
+// 区切り文字で分割して「どれか1県でも重なれば同県」とみなす。
+function prefParts(pref: unknown): string[] {
+  return String(pref ?? '')
+    .split(/[・、,\/／]/)
+    .map((x) => x.trim())
+    .filter(Boolean);
+}
+
+/** a と b が1県でも共通していれば true（「長野県・岐阜県」と「長野県」は同県とみなす）。 */
+function sharesPrefecture(a: unknown, b: unknown): boolean {
+  const pa = prefParts(a);
+  const pb = prefParts(b);
+  if (pa.length === 0 || pb.length === 0) return false;
+  return pa.some((x) => pb.includes(x));
+}
+
+// fallback: 現地もhubも宿が出せない場合 → 県庁所在地
+const PREF_CAPITAL: Record<string, string> = {
+  '北海道':'札幌','青森県':'青森','岩手県':'盛岡','宮城県':'仙台','秋田県':'秋田','山形県':'山形','福島県':'福島',
+  '茨城県':'水戸','栃木県':'宇都宮','群馬県':'前橋','埼玉県':'さいたま','千葉県':'千葉','東京都':'東京','神奈川県':'横浜',
+  '新潟県':'新潟','富山県':'富山','石川県':'金沢','福井県':'福井','山梨県':'甲府','長野県':'長野','岐阜県':'岐阜','静岡県':'静岡','愛知県':'名古屋',
+  '三重県':'津','滋賀県':'大津','京都府':'京都','大阪府':'大阪','兵庫県':'神戸','奈良県':'奈良','和歌山県':'和歌山',
+  '鳥取県':'鳥取','島根県':'松江','岡山県':'岡山','広島県':'広島','山口県':'山口',
+  '徳島県':'徳島','香川県':'高松','愛媛県':'松山','高知県':'高知',
+  '福岡県':'福岡','佐賀県':'佐賀','長崎県':'長崎','熊本県':'熊本','大分県':'大分','宮崎県':'宮崎','鹿児島県':'鹿児島','沖縄県':'那覇',
+};
+const showPrefHotel = !showLocalHotel && !showHubHotel;
+let prefCapital = '';
+let prefRakutenUrl = '';
+let prefJalanUrl   = '';
+// 連結表記でも引けるよう、最初に辞書に載っている県の県庁所在地を使う。
+const destPrefKey = prefParts(dest.prefecture).find((x) => PREF_CAPITAL[x]) ?? '';
+if (showPrefHotel && destPrefKey) {
+  prefCapital = PREF_CAPITAL[destPrefKey];
+  if (prefCapital !== dest.name) {
+    prefRakutenUrl = buildRakutenUrl(prefCapital);
+    prefJalanUrl   = buildJalanUrl(prefCapital);
+  }
+}
+
+// 後方互換用
+const showDualHotel = showLocalHotel && showHubHotel;
+const hotelSectionTitle = `${dest.name}の宿を探す`;
+const daytripNote = isDaytripOnly && hubCityName && !isOwnHub
+  ? `${dest.name}へは${hubCityName}から日帰りがおすすめ`
+  : '';
+
+const STAY_DESC: Record<string, string> = {
+  onsen:    '温泉旅館が中心。1泊2食プランがおすすめ。',
+  city:     'ビジネスホテルから旅館まで幅広い選択肢。',
+  island:   '宿数が少ないため早めの予約を。',
+  mountain: '近隣の温泉地や市街地に宿が集まる。',
+  sight:    '近隣の温泉地や市街地に宿が集まる。',
+  remote:   '近隣の温泉地や市街地に宿が集まる。',
+  peninsula:'近隣エリアに宿が集まる。',
+};
+const stayNote: string = article?.bestStay || STAY_DESC[(dest as any).destType] || '';
+
+// ── Googleマップのリンク生成 ──────────────────────────────
+// 「湯の鶴温泉 熊本県」のようなテキストで maps/search に飛ばすと、
+// Google側が宿泊検索と解釈して周辺ホテルの価格ピンだらけの画面になり、
+// 肝心の目的地がどこか分からなくなる。座標は全destinationに入っているので、
+// 座標が使えるときは緯度経度で指定し、ピンとルートが一点に定まるようにする。
+const _lat = typeof (dest as any).lat === 'number' ? (dest as any).lat : null;
+const _lng = typeof (dest as any).lng === 'number' ? (dest as any).lng : null;
+const hasCoord: boolean = _lat !== null && _lng !== null;
+const coordQ = hasCoord ? `${_lat},${_lng}` : '';
+// 目的地そのものを地図に出す（ピン1本）。座標が無ければ従来のテキスト検索へ。
+const gmapPlaceUrl: string = hasCoord
+  ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(coordQ)}`
+  : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${dest.name} ${(dest as any).prefecture || ''}`.trim())}`;
+// 出発地→目的地の経路。destination を座標にすると宿泊検索に化けない。
+const gmapDirUrl = (from: string, driving = false): string => {
+  const to = hasCoord ? coordQ : `${dest.name} ${(dest as any).prefecture || ''}`.trim();
+  return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(from)}`
+    + `&destination=${encodeURIComponent(to)}${driving ? '&travelmode=driving' : ''}`;
+};
+// spotは個別の座標を持たないので検索は名前のまま。ただし目的地の座標を中心に
+// 添えて、同名の別の場所を全国から拾わないようにする。
+const gmapSpotUrl = (spot: string): string => hasCoord
+  ? `https://www.google.com/maps/search/${encodeURIComponent(spot)}/@${_lat},${_lng},14z`
+  : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${spot} ${dest.name}`)}`;
+
+// 地上経路で行けるかを判定 (false → Yahoo乗換ボタン非表示)
+// gateways.airport は「その空港も使える」という参考情報であって、
+// 鉄道やバスで行けないことを意味しない。判定に入れていたせいで、
+// 空港を1つ書いただけのdestinationで乗換案内ボタンが消えていた（35件で実測0%）。
+// 空路の選択肢があっても地上の経路案内は別途出してよいので、airport は見ない。
+// ferry と access.steps の空路/航路、離島は従来どおり除外する。
+const _accessStepTypes = new Set(((dest as any).access?.steps || []).map((s: any) => s.type));
+const _hasNonRailStep = _accessStepTypes.has('flight') || _accessStepTypes.has('ferry');
+const _hasFerryGateway = ((dest as any).gateways?.ferry || []).length > 0;
+const isRailReachable: boolean = !isIsland && !_hasNonRailStep && !_hasFerryGateway;
+
+// ── 移動手段タブ（電車・バス / 車）────────────────────────────────
+// まず少数のdestinationでテストしてから全件展開する。全件公開時は
+// TRANSPORT_TABS_ROLLOUT_ALL を true にする（テストIDリストは残しておく）。
+const TRANSPORT_TABS_ROLLOUT_ALL = true;
+const TRANSPORT_TABS_TEST_IDS = [
+  'abashiri', 'agematsu', 'hakone', 'enoshima', 'togakushi',
+  'mashiko', 'choshi', 'amakusa', 'nakijin', 'tomamu',
+];
+const showTransportTabs: boolean =
+  TRANSPORT_TABS_ROLLOUT_ALL || TRANSPORT_TABS_TEST_IDS.includes(dest.id);
+
+// 「車」タブ用: 駐車場情報の抽出。
+// 出所の優先順: 1) article.sections[].info の「駐車場：…」行（最も構造化されている）
+//               2) dest.spots[].description  3) dest.description の該当文
+// いずれも無ければ公式サイト確認の定型文にフォールバックする。
+function parkingSentences(text: any): string[] {
+  if (!text || typeof text !== 'string') return [];
+  return text
+    .split(/[\n。]/)
+    .map((s: string) => s.trim())
+    .filter((s: string) => s.includes('駐車'));
+}
+const parkingInfo: { spot: string; text: string }[] = [];
+const _seenParking = new Set<string>();
+function pushParking(spot: string, text: string) {
+  const t = text.replace(/^[■・\-–—]\s*/, '').trim();
+  const key = `${spot}|${t}`;
+  if (!t || t.length > 90 || _seenParking.has(key) || parkingInfo.length >= 6) return;
+  _seenParking.add(key);
+  parkingInfo.push({ spot, text: t });
+}
+for (const s of (article?.sections || [])) {
+  // 見出しは「スポット名｜キャッチコピー」形式。駐車場の見出しにはスポット名だけ使う。
+  const spotName = String(s.title || s.heading || '').split('｜')[0].trim();
+  for (const line of parkingSentences(s.info)) pushParking(spotName, line);
+}
+for (const sp of (((dest as any).spots) || [])) {
+  if (typeof sp !== 'object' || !sp || !sp.description) continue;
+  for (const line of parkingSentences(sp.description)) pushParking(sp.name || '', line);
+}
+for (const line of parkingSentences(dest.description)) pushParking('', line);
+
+// レンタカー（車タブのメインコンテンツ）。じゃらんは /rentacar/ が許可リスト形式。
+// 楽天レンタカーは置かない（2026-09-17）。アフィリの転送が hb.afl…/travel/<id>/ を必ず経由し、
+// そこが楽天アプリのユニバーサルリンク対象のため、タップすると楽天アプリが起動する。
+// アフィリを付けたままブラウザで開かせる経路が無いので、じゃらんレンタカーだけにした。
+const rentacarJalanUrl = toJalanAffiliate('https://www.jalan.net/rentacar/');
+
+// 関連リンク（2026-10-13）: 座標の近い順・特徴的なタグが同じ・同じ県の3系統。計算は src/lib/related.ts
+const related = relatedFor(dest, destinations as any[]);
+const nearbyDests = related.nearby;               // [{ d, km }]
+const nearbyMore = related.nearbyMore;
+const samePrefDests = related.samePref;
+const samePrefMore = related.samePrefMore;
+// 見出しは prefecture の表記をそのまま使う（「長野県・岐阜県の他の旅先」）。
+// 代表1県＋「ほか」に丸めると「長野県ほかの他の旅先」と重複表現になるため。
+const samePrefLabel = dest.prefecture;
+const primaryTag = related.themeTag;
+const sameTagDests = related.theme;
+const sameTagMore = related.themeMore;
+
+// JSON-LD（構造化データ）。ページに表示している内容だけを書く（表示していない事実は載せない）。
+//   TouristAttraction … 旅先そのもの。スポット（includesAttraction）・画像・地図・向いている旅の形（touristType）
+//   LodgingBusiness   … 注目の宿（featured_stay）。ページの「おすすめの宿」に出している名前・紹介・公式サイト・送迎
+//   BreadcrumbList    … 画面のパンくず（HOME › 地方 › 旅先）と同じ3段
+const SITE = 'https://tabidokoiko.com';
+const pageUrl = `${SITE}/destinations/${dest.id}/`;
+const absUrl = (u: string) => (u.startsWith('http') ? u : `${SITE}${u.startsWith('/') ? '' : '/'}${u}`);
+const spotNodes = ((dest as any).spots || [])
+  .filter((s: any) => s && typeof s === 'object' && s.name)
+  .map((s: any) => ({
+    "@type": "TouristAttraction",
+    "name": s.name,
+    ...(s.description ? { "description": s.description } : {}),
+    ...(s.imageUrl ? { "image": absUrl(s.imageUrl) } : {}),
+  }));
+const TOURIST_TYPES = ['ひとり旅向け', 'カップル向け', '友達と', '家族向け', 'シニア向け'];
+const touristTypes = (((dest as any).reasonChips || []) as string[]).filter((c) => TOURIST_TYPES.includes(c));
+const ldImages = [imageUrl, ...((dest as any).spots || []).map((s: any) => s?.imageUrl).filter(Boolean)]
+  .filter(Boolean).map((u: string) => absUrl(u)).filter((u: string, i: number, arr: string[]) => arr.indexOf(u) === i).slice(0, 4);
+const attractionLd: any = {
+  "@type": ["TouristAttraction", "TouristDestination"],
+  "@id": `${pageUrl}#attraction`,
+  "name": dest.name,
+  "description": description,
+  "url": pageUrl,
+  ...(ldImages.length ? { "image": ldImages } : {}),
+  ...(dest.lat && dest.lng ? {
+    "geo": { "@type": "GeoCoordinates", "latitude": dest.lat, "longitude": dest.lng },
+    "hasMap": `https://www.google.com/maps/search/?api=1&query=${dest.lat},${dest.lng}`,
+  } : {}),
+  "address": { "@type": "PostalAddress", "addressRegion": dest.prefecture || dest.region, "addressCountry": "JP" },
+  "containedInPlace": { "@type": "AdministrativeArea", "name": dest.prefecture || dest.region },
+  ...(touristTypes.length ? { "touristType": touristTypes } : {}),
+  ...(spotNodes.length ? { "includesAttraction": spotNodes } : {}),
+};
+const ldGraph: any[] = [attractionLd];
+const fsLd = (dest as any).featured_stay;
+if (fsLd?.name) {
+  const fsOfficial = fsLd.otaListed === false && typeof fsLd.officialUrl === 'string' && /^https:\/\//.test(fsLd.officialUrl);
+  const fsShuttle = fsLd.shuttleInfo || (fsLd.hasShuttle === true ? '送迎あり' : '');
+  ldGraph.push({
+    "@type": "LodgingBusiness",
+    "@id": `${pageUrl}#stay`,
+    "name": fsLd.name,
+    ...(fsLd.catchcopy ? { "description": fsLd.catchcopy } : {}),
+    ...(fsOfficial ? { "url": fsLd.officialUrl } : {}),
+    "address": { "@type": "PostalAddress", "addressRegion": dest.prefecture || dest.region, "addressCountry": "JP" },
+    ...(fsShuttle ? { "amenityFeature": { "@type": "LocationFeatureSpecification", "name": "送迎", "value": fsShuttle } } : {}),
+    "containedInPlace": { "@id": `${pageUrl}#attraction` },
+  });
+}
+ldGraph.push({
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "HOME", "item": `${SITE}/` },
+    { "@type": "ListItem", "position": 2, "name": dest.region || dest.prefecture, "item": `${SITE}/destinations/` },
+    { "@type": "ListItem", "position": 3, "name": dest.name, "item": pageUrl },
+  ],
+});
+const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": ldGraph });
+
+// ハブ都市ページリンク (自身がhubCityの場合は表示しない)
+const _destHubCity = (dest as any).hubCity || hubName || '';
+const hubCity = _destHubCity && _destHubCity !== dest.name
+  ? (hubCities as any[]).find(h => h.name === _destHubCity)
+  : null;
+---
+
+<DestinationLayout title={seoTitle} description={description} image={imageUrl} reportError={true} affiliateNotice={true} pageType="destination" pageId={dest.id}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head-extra" />
+<style>
+  /* ═══════════════════════════════════════
+     HERO
+  ═══════════════════════════════════════ */
+  .dest-hero {
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    min-height: 240px;
+    max-height: 400px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a2e20, #2A6049);
+  }
+  @media (min-width: 391px) {
+    .dest-hero { height: 45vh; min-height: 280px; max-height: 440px; }
+  }
+  @media (min-width: 768px) {
+    .dest-hero { height: 55vh; min-height: 360px; max-height: 560px; }
+  }
+  .dest-hero-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .dest-hero-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 40%;
+    display: block;
+  }
+  .dest-hero-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(0,0,0,0.75) 0%,
+      rgba(0,0,0,0.25) 50%,
+      rgba(0,0,0,0.05) 100%
+    );
+  }
+  .dest-hero-credit {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    margin: 0;
+    z-index: 2;
+    font-size: 10px;
+    line-height: 1.3;
+    color: rgba(255,255,255,0.78);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    max-width: 70%;
+    text-align: right;
+  }
+  .dest-hero-credit a { color: inherit; text-decoration: none; }
+  .dest-hero-credit a:hover { text-decoration: underline; }
+  .dest-hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 28px 44px;
+  }
+  .dest-hero-pref {
+    font-size: 11px;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .dest-hero-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: clamp(28px, 8vw, 48px);
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.08em;
+    line-height: 1.3;
+    margin-bottom: 14px;
+    text-shadow: 0 2px 16px rgba(0,0,0,0.4);
+  }
+  .dest-hero-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .dest-hero-tag {
+    padding: 4px 12px;
+    border: 1px solid rgba(255,255,255,0.45);
+    border-radius: 20px;
+    font-size: 11px;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 0.05em;
+    backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.1);
+  }
+
+  /* No-image header — 意図的な「画像なしデザイン」。
+     サイトカラー(#2A6049系)のグラデーションヒーローで、
+     フリー素材が存在しない小さな旅先でも見栄えを保つ。 */
+  .dest-header-noimg {
+    position: relative;
+    background:
+      radial-gradient(ellipse 120% 90% at 85% -10%, rgba(255,255,255,0.14), transparent 55%),
+      radial-gradient(ellipse 90% 70% at 10% 110%, rgba(0,0,0,0.28), transparent 60%),
+      linear-gradient(160deg, #2A6049 0%, #1F4A38 55%, #16352A 100%);
+    padding: clamp(56px, 12vh, 96px) 28px clamp(40px, 8vh, 64px);
+    text-align: center;
+    overflow: hidden;
+  }
+  /* 山並みのシルエット（装飾） */
+  .dest-header-noimg::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: -2px;
+    height: 56px;
+    background: rgba(255,255,255,0.06);
+    clip-path: polygon(0 100%, 0 62%, 12% 40%, 24% 58%, 38% 26%, 52% 55%, 66% 34%, 80% 60%, 92% 44%, 100% 66%, 100% 100%);
+    pointer-events: none;
+  }
+  .dest-noimg-pref {
+    font-size: 11px;
+    color: rgba(255,255,255,0.65);
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .dest-noimg-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: clamp(28px, 7vw, 42px);
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.08em;
+    margin-bottom: 18px;
+    text-shadow: 0 1px 12px rgba(0,0,0,0.25);
+  }
+  .dest-noimg-tags { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .dest-noimg-tag {
+    padding: 4px 12px;
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 20px;
+    font-size: 11px;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 0.04em;
+  }
+
+  /* ═══════════════════════════════════════
+     CONTENT
+  ═══════════════════════════════════════ */
+  .content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px 96px;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    padding: 18px 0 12px;
+    font-size: 11px;
+    color: #bbb;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    letter-spacing: 0.05em;
+  }
+  .breadcrumb a { color: #bbb; transition: color 0.15s; }
+  .breadcrumb a:hover { color: #2A6049; }
+
+  /* reasonChips */
+  .reason-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 16px 0 24px;
+  }
+  .reason-chip {
+    padding: 5px 14px;
+    background: #f0f7f4;
+    border: 1px solid #c8e0d4;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #2A6049;
+    letter-spacing: 0.03em;
+  }
+
+  /* Lead text */
+  .lead {
+    font-size: 17px;
+    line-height: 2.4;
+    color: #2d2d2d;
+    margin: 40px 0 56px;
+    white-space: pre-line;
+    letter-spacing: 0.03em;
+  }
+  .dest-description {
+    font-size: 17px;
+    line-height: 2.4;
+    color: #2d2d2d;
+    margin: 40px 0 48px;
+    letter-spacing: 0.03em;
+    white-space: pre-line;
+  }
+
+  /* fold */
+  .fold-wrap { position: relative; }
+  .fold-wrap .lead, .fold-wrap .dest-description {
+    margin-bottom: 0;
+  }
+  .lead.folded, .dest-description.folded {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .fold-btn {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: #2A6049;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 6px 0 32px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  /* 実用情報カード */
+  .info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 0 0 36px;
+  }
+  .info-card {
+    padding: 18px 16px;
+    background: #f8fdf9;
+    border: 1px solid #e0eee5;
+    border-radius: 10px;
+  }
+  .info-card-label {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: #9a7c36;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .info-card-value {
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 1.7;
+  }
+
+  /* どこから行く？ショートカット */
+  .access-shortcut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 24px;
+    background: #2A6049;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin: 0 auto 56px;
+    transition: background 0.15s;
+    width: fit-content;
+    max-width: 320px;
+  }
+  .access-shortcut:hover { background: #1e4d38; }
+  .access-shortcut-arrow { font-size: 16px; }
+
+  /* Best season */
+  .season-box {
+    margin-bottom: 56px;
+    padding: 24px 28px;
+    background: #f8fdf9;
+    border-left: 3px solid #C9A84C;
+    border-radius: 0 8px 8px 0;
+    font-size: 15px;
+    color: #555;
+    line-height: 2;
+  }
+  .season-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #C9A84C;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  /* ═══════════════════════════════════════
+     SPOTS
+  ═══════════════════════════════════════ */
+  .spots-heading {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #1a1a1a;
+  }
+  .spot-section { margin-bottom: 72px; }
+  .spot-with-img {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .spot-thumb {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center 40%;
+    border-radius: 10px;
+    background: #f0f0f0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .spot-content { width: 100%; }
+  /* 画像の下に小さく著作者を出す。読み物の邪魔にならない大きさに留める。 */
+  .spot-figure { margin: 0; }
+  .spot-credit {
+    margin-top: 6px;
+    font-size: 10px;
+    line-height: 1.6;
+    color: #b0b0b0;
+    letter-spacing: 0.03em;
+    word-break: break-word;
+  }
+  .spot-credit a { color: #b0b0b0; text-decoration: underline; }
+  @media (min-width: 720px) {
+    .spot-thumb { height: 260px; }
+  }
+  .spot-num {
+    font-size: 48px;
+    font-weight: 300;
+    color: #f0f0f0;
+    line-height: 1;
+    margin-bottom: -16px;
+    display: block;
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: -0.02em;
+  }
+  .spot-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .spot-body {
+    font-size: 15px;
+    line-height: 2.3;
+    color: #444;
+    margin-bottom: 24px;
+    letter-spacing: 0.02em;
+  }
+  .spot-body p { margin-bottom: 16px; }
+  .spot-info {
+    padding: 16px 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #777;
+    line-height: 2.1;
+    white-space: pre-line;
+    margin-bottom: 12px;
+  }
+  .spot-map {
+    font-size: 12px;
+    color: #bbb;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 2px;
+    transition: color 0.15s;
+  }
+  .spot-map:hover { color: #2A6049; }
+
+  /* ═══════════════════════════════════════
+     MODEL COURSE
+  ═══════════════════════════════════════ */
+  .course-section { margin-bottom: 56px; }
+  .course-section h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+  }
+  .course-card {
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 2.1;
+    color: #555;
+  }
+  .course-label {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .course-daytrip  { background: #fdf9ef; border-left: 3px solid #C9A84C; }
+  .course-daytrip  .course-label { color: #9a7c36; }
+  .course-onenight { background: #f5f5fa; border-left: 3px solid #8a8ac8; }
+  .course-onenight .course-label { color: #5a5a9a; }
+
+  /* Tips */
+  .tips-box {
+    margin-bottom: 56px;
+    padding: 22px 26px;
+    background: #f4f9f6;
+    border-left: 3px solid #2A6049;
+    border-radius: 0 8px 8px 0;
+    font-size: 15px;
+    color: #444;
+    line-height: 2.2;
+  }
+  .tips-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #2A6049;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  /* Section divider */
+  .section-divider {
+    border: none;
+    border-top: 1px solid #ebebeb;
+    margin: 56px 0;
+  }
+
+  /* ═══════════════════════════════════════
+     SECTION HEADING
+  ═══════════════════════════════════════ */
+  .section-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 28px;
+    color: #1a1a1a;
+  }
+
+  /* ═══════════════════════════════════════
+     ACCESS
+  ═══════════════════════════════════════ */
+  .access-section { margin-bottom: 56px; }
+  .ic-badge {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    border: 1px solid #d0e8da;
+    color: #2A6049;
+    background: #f0faf4;
+    margin-bottom: 24px;
+  }
+  .travel-times {
+    background: #FAFAFA;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    padding: 22px 26px;
+    margin-bottom: 28px;
+  }
+  .travel-times-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #bbb;
+    margin-bottom: 16px;
+    display: block;
+    text-transform: uppercase;
+  }
+  .travel-time-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+  }
+  .travel-time-row:last-child { border-bottom: none; }
+  .travel-time-row span:first-child { color: #888; }
+  .travel-time-row span:last-child { font-weight: 500; color: #1a1a1a; }
+  .travel-time-note { font-size: 11px; color: #aaa; margin-top: -4px; margin-bottom: 8px; letter-spacing: 0.04em; }
+  .departure-picker { padding: 8px 0 18px; }
+  .departure-picker label { display: block; font-size: 11px; color: #888; margin-bottom: 8px; letter-spacing: 0.05em; }
+  .departure-select {
+    width: 100%; padding: 12px 14px;
+    border: 1px solid #d0e8da;
+    border-radius: 8px;
+    background: #f0faf4;
+    color: #1a1a1a;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-appearance: none; appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path fill='%232A6049' d='M6 9L1 4h10z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+  }
+  .travel-time-block { display: none; padding: 16px 0; border-bottom: 1px solid #f0f0f0; }
+  .travel-time-block.selected { display: block; background: #fffbe6; border-left: 3px solid #C9A84C; padding-left: 12px; }
+  .access-empty-msg {
+    text-align: center;
+    padding: 24px 0;
+    color: #999;
+    font-size: 13px;
+    border: 1px dashed #e0e0e0;
+    border-radius: 8px;
+  }
+  .access-empty-msg.hidden { display: none; }
+  .gmap-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    margin: 0 0 14px;
+    background: #f5f7fa;
+    border: 1px solid #d6dde6;
+    border-radius: 8px;
+    color: #2d2d2d;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .gmap-link:hover { background: #ebeff4; }
+  .gmap-link-arrow { opacity: 0.6; }
+
+  /* ── 移動手段タブ（CSS only / radio）既定=電車・バス ── */
+  .transport-radio { position: absolute; left: -9999px; }
+  .transport-tab-headers { display: flex; gap: 8px; margin: 0 0 16px; }
+  .transport-tab-label {
+    flex: 1;
+    text-align: center;
+    padding: 11px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    transition: color .15s, background .15s, border-color .15s;
+  }
+  .transport-tab-label:hover { color: #555; background: #f2f2f2; }
+  .transport-radio-transit:checked ~ .transport-tab-headers .transport-tab-label-transit,
+  .transport-radio-car:checked     ~ .transport-tab-headers .transport-tab-label-car {
+    color: #2A6049;
+    font-weight: 600;
+    background: #f0faf4;
+    border-color: #d0e8da;
+  }
+  /* 車専用要素は既定で非表示（電車・バスタブは現行UIのまま）。
+     .booking-btn{display:flex} が後に来るため、同順位負けしないよう2クラスで指定する。 */
+  .mode-car-only, .car-pane { display: none; }
+  .booking-btn.mode-car-btn { display: none; }
+  /* 車タブ: 電車・バス専用（乗換案内・JR予約・拠点駅情報）を隠す */
+  .transport-radio-car:checked ~ .travel-times .mode-transit-only,
+  .transport-radio-car:checked ~ .access-steps { display: none; }
+  .transport-radio-car:checked ~ .travel-times .mode-car-only { display: inline; }
+  .transport-radio-car:checked ~ .travel-times .mode-car-btn { display: flex; }
+  .transport-radio-car:checked ~ .car-pane { display: block; }
+  .travel-time-row .mode-car-only { color: #888; font-weight: 400; }
+  .booking-btn-drive { background: #eef3fb; color: #1B5BA0; border-color: #d3e0f2; }
+  .booking-btn-drive:hover { background: #dfeaf8; }
+
+  /* 車タブ本文: レンタカー（メイン）+ 駐車場情報 */
+  .car-pane { margin-bottom: 28px; }
+  .car-rentacar {
+    border: 1px solid #d0e8da;
+    background: #f7fdf9;
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+  .car-rentacar-title { font-size: 16px; font-weight: 600; color: #1a1a1a; margin: 0 0 4px; }
+  .car-rentacar-desc { font-size: 13px; color: #888; margin: 0 0 14px; }
+  .car-parking {
+    border: 1px solid #ebebeb;
+    background: #FAFAFA;
+    border-radius: 8px;
+    padding: 18px 22px;
+  }
+  .car-parking-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: #bbb;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .car-parking-item { padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+  .car-parking-item:last-child { border-bottom: none; }
+  .car-parking-spot { display: block; font-size: 12px; color: #aaa; margin-bottom: 2px; }
+  .car-parking-text { font-size: 14px; color: #2d2d2d; }
+  .car-parking-empty { font-size: 13px; color: #888; margin: 0; }
+  .travel-time-block:last-child { border-bottom: none; }
+  .travel-time-block .travel-time-row { border-bottom: none; padding: 4px 0 12px; }
+  .travel-booking-row-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .booking-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background 0.15s;
+    border: 1px solid transparent;
+  }
+  .booking-btn-label { font-weight: 500; letter-spacing: 0.04em; }
+  .booking-btn-arrow { font-size: 14px; opacity: 0.6; }
+  .booking-btn-route { background: #e8f1ee; color: #2A6049; border-color: #d0e8da; }
+  .booking-btn-route:hover { background: #d4e8df; }
+  .booking-btn-navitime { background: #fff3e6; color: #C45500; border-color: #ffe0c2; }
+  .booking-btn-navitime:hover { background: #ffe6cc; }
+  .booking-btn-jr { background: #e6f3ff; color: #1B5BA0; border-color: #b8daff; }
+  .booking-btn-jr:hover { background: #d0e7ff; }
+  .booking-btn-sky { background: #e3edff; color: #1856B7; border-color: #b5cef0; }
+  .booking-btn-sky:hover { background: #cfdfff; }
+  /* 案内テキストは折り返すと末尾の1〜2文字だけが次行に落ちて見苦しくなる。
+     text-wrap: balance で2行になるときも行長を均す（非対応ブラウザは従来どおり）。 */
+  .midori-note {
+    display: block;
+    padding: 10px 14px;
+    background: #f1fff4;
+    color: #2A6049;
+    border: 1px solid #c8e6d0;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-wrap: balance;
+  }
+  .air-note {
+    display: block;
+    padding: 10px 14px;
+    background: #eaf4ff;
+    color: #1B4F8C;
+    border: 1px solid #c3dcf5;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-wrap: balance;
+  }
+  .access-steps { display: flex; flex-direction: column; gap: 3px; }
+  .access-step-middle { border: 1px dashed #d4d4d4; border-radius: 6px; padding: 6px 10px; background: #fafafa; }
+  .access-step-middle > summary { cursor: pointer; font-size: 13px; color: #666; padding: 2px 0; list-style: revert; }
+  .access-step-middle > summary:hover { color: #2d2d2d; }
+  .access-step-middle .access-step-middle-inner { display: flex; flex-direction: column; gap: 3px; margin-top: 8px; }
+  .access-step {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 15px 18px;
+    background: #FAFAFA;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #444;
+  }
+  .step-type {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #eee;
+    color: #777;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    min-width: 32px;
+    text-align: center;
+  }
+  .step-arrow { text-align: center; color: #ccc; font-size: 12px; padding: 2px 0; }
+
+  /* ═══════════════════════════════════════
+     HOTEL SECTION
+  ═══════════════════════════════════════ */
+  /* ── 注目の宿（featured_stay） ── */
+  .fs-card {
+    margin-bottom: 28px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(42,96,73,0.08);
+  }
+  .fs-img-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: #eee;
+  }
+  .fs-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .fs-credit {
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    font-size: 9px;
+    color: rgba(255,255,255,0.8);
+    background: rgba(0,0,0,0.35);
+    padding: 2px 6px;
+    border-radius: 8px;
+    line-height: 1.2;
+  }
+  .fs-credit a { color: inherit; text-decoration: underline; }
+  .fs-body { padding: 16px 18px 18px; }
+  .fs-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    color: #C9A84C;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .fs-name {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a2e20;
+    margin: 0 0 6px;
+    line-height: 1.3;
+  }
+  .fs-catch {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 10px;
+  }
+  .fs-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .fs-shuttle, .fs-access {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2A6049;
+    background: #eef6f0;
+    border-radius: 14px;
+    padding: 5px 12px;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .fs-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .fs-link {
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 11px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: 1;
+  }
+  .fs-link-rakuten { background: #BF0000; color: #fff; }
+  .fs-link-jalan   { background: #FF6D0B; color: #fff; }
+  /* 楽天・じゃらんに掲載の無い宿の公式サイトボタン（サイトの基調色に合わせる） */
+  .fs-link-official { background: #2A6049; color: #fff; }
+  .fs-link:hover { opacity: 0.88; }
+  /* 車なしで行く（試作） */
+  .carfree-section { margin: 28px 0 8px; }
+  .carfree-lead { font-size: 13px; color: #555; line-height: 1.8; margin: -10px 0 14px; }
+  .carfree-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .carfree-item { background: #fff; border: 1px solid #e3ebe5; border-radius: 12px; padding: 12px 14px; display: grid; gap: 4px; }
+  .carfree-label { font-size: 12px; font-weight: 700; color: #2A6049; letter-spacing: 0.04em; }
+  .carfree-body { font-size: 14px; color: #222; line-height: 1.8; }
+  .carfree-src { font-size: 11px; color: #777; line-height: 1.6; }
+  .carfree-src a, .carfree-times a { color: #2A6049; }
+  .carfree-times, .carfree-unconfirmed { margin-top: 14px; font-size: 13px; line-height: 1.8; }
+  .carfree-times-title { font-size: 12px; font-weight: 700; color: #444; margin: 0 0 4px; }
+  .carfree-times ul, .carfree-unconfirmed ul { margin: 0; padding-left: 1.2em; }
+  .carfree-unconfirmed { color: #555; }
+  .fs-booking-note {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 10px;
+  }
+
+  .hotel-section { margin-bottom: 56px; }
+  /* Hotel tabs (CSS-only with radio inputs) */
+  .hotel-tabs .hotel-tab-radio { position: absolute; left: -9999px; }
+  .hotel-tab-headers { display: flex; gap: 4px; border-bottom: 1px solid #e0e0e0; margin-bottom: 14px; }
+  .hotel-tab-label {
+    flex: 1;
+    text-align: center;
+    padding: 10px 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #888;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color .15s, border-color .15s;
+  }
+  .hotel-tab-label:hover { color: #444; }
+  .hotel-tab-content { display: none; }
+  .hotel-tab-radio-local:checked ~ .hotel-tab-headers .hotel-tab-label-local,
+  .hotel-tab-radio-hub:checked   ~ .hotel-tab-headers .hotel-tab-label-hub {
+    color: #2d2d2d;
+    font-weight: 500;
+    border-bottom-color: #C9A84C;
+  }
+  .hotel-tab-radio-local:checked ~ .hotel-tab-content-local,
+  .hotel-tab-radio-hub:checked   ~ .hotel-tab-content-hub {
+    display: block;
+  }
+  .hotel-description {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+  .hotel-cards { display: flex; flex-direction: column; gap: 10px; }
+  .hotel-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s, filter 0.15s;
+    background: #2d6a4f;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(45, 106, 79, 0.18);
+  }
+  .hotel-card:hover {
+    box-shadow: 0 6px 18px rgba(45, 106, 79, 0.28);
+    transform: translateY(-1px);
+    filter: brightness(1.05);
+  }
+  .hotel-card-rakuten { background: #2d6a4f; }
+  .hotel-card-jalan   { background: #40916c; }
+  .rentacar-section { margin-top: 12px; margin-bottom: 56px; }
+  .rentacar-card { background: #C45500; box-shadow: 0 2px 8px rgba(196, 85, 0, 0.18); }
+  .rentacar-card:hover { box-shadow: 0 6px 18px rgba(196, 85, 0, 0.28); }
+  .hotel-card-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.04em;
+    margin-bottom: 2px;
+  }
+  .hotel-price-note { font-size: 13px; line-height: 1.6; color: inherit; margin: 8px 0 0; }
+  .hotel-card-desc { font-size: 12px; color: rgba(255,255,255,0.85); }
+  .hotel-card-arrow { font-size: 18px; color: #fff; font-weight: 500; }
+
+  /* ═══════════════════════════════════════
+     NEARBY (横スクロール)
+  ═══════════════════════════════════════ */
+  .nearby-section { margin-bottom: 56px; }
+  .nearby-scroll {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nearby-scroll::-webkit-scrollbar { display: none; }
+  .nearby-card {
+    flex: 0 0 140px;
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: transform 0.18s;
+  }
+  .nearby-card:hover { transform: translateY(-3px); }
+  .nearby-card-img-wrap {
+    position: relative;
+    height: 90px;
+    background: linear-gradient(135deg, #5e9b7d, #2A6049 70%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nearby-card-placeholder {
+    color: rgba(255,255,255,0.85);
+    font-family: 'Noto Serif JP', serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    z-index: 0;
+  }
+  .nearby-card-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+  }
+  .nearby-card-body {
+    padding: 10px 12px 12px;
+    background: #fff;
+  }
+  .nearby-card-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .nearby-card-pref { font-size: 10px; color: #bbb; }
+  .related-more { margin: 12px 0 0; font-size: 12px; line-height: 2; color: #777; }
+  .related-more a { color: #2A6049; text-decoration: underline; text-underline-offset: 2px; }
+
+  /* ═══════════════════════════════════════
+     CTA
+  ═══════════════════════════════════════ */
+  .cta-section {
+    padding: 52px 28px;
+    background: linear-gradient(135deg, #1e4d38 0%, #2A6049 100%);
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  .cta-label {
+    font-size: 10px;
+    letter-spacing: 0.24em;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 12px;
+    display: block;
+    text-transform: uppercase;
+  }
+  .cta-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 28px;
+    letter-spacing: 0.08em;
+    line-height: 1.6;
+  }
+  .cta-btn {
+    display: inline-block;
+    padding: 14px 36px;
+    background: #fff;
+    color: #2A6049;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    transition: opacity 0.2s, transform 0.15s;
+  }
+  .cta-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+  /* ═══════════════════════════════════════
+     SHARE
+  ═══════════════════════════════════════ */
+  .share-section {
+    margin: 24px 0 32px;
+    padding: 20px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    background: #fafafa;
+  }
+  .share-label {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: #bbb;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .share-native-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 14px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .share-native-btn:hover { opacity: 0.85; }
+  .share-fallback {
+    display: flex;
+    gap: 10px;
+  }
+  .share-x-btn, .share-line-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 13px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .share-x-btn { background: #000; color: #fff; }
+  .share-line-btn { background: #06C755; color: #fff; }
+  .share-x-btn:hover, .share-line-btn:hover { opacity: 0.85; }
+  .share-card-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    padding: 13px 10px;
+    background: #2A6049;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-bottom: 10px;
+  }
+  .share-card-btn:hover { opacity: 0.85; }
+  .share-card-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+</style>
+
+  <!-- Hero: 画像あり / なし で分岐 -->
+  {imageUrl ? (
+    <div class="dest-hero">
+      <img fetchpriority="high" class="dest-hero-img" src={imageUrl} {...dimAttrs(imageUrl)} alt={dest.mainSpot ? `${dest.name}の${dest.mainSpot}` : `${dest.name}の風景`} />
+      <div class="dest-hero-gradient"></div>
+      <div class="dest-hero-content">
+        <span class="dest-hero-pref">{dest.prefecture}</span>
+        <h1 class="dest-hero-title">{dest.name}</h1>
+        {dest.tags && dest.tags.length > 0 && (
+          <div class="dest-hero-tags">
+            {dest.tags.filter((t: any) => typeof t === 'string').slice(0, 5).map((tag: string) => (
+              <span class="dest-hero-tag">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+      {heroCredit && (
+        <p class="dest-hero-credit">
+          {heroCredit.url ? (
+            <a href={heroCredit.url} target="_blank" rel="noopener noreferrer nofollow">
+              Photo by {heroCredit.author || 'Unknown'} / Wikimedia Commons{heroCredit.license ? ` (${heroCredit.license})` : ''}
+            </a>
+          ) : (
+            <span>Photo by {heroCredit.author || 'Unknown'} / Wikimedia Commons{heroCredit.license ? ` (${heroCredit.license})` : ''}</span>
+          )}
+        </p>
+      )}
+    </div>
+  ) : (
+    <div class="dest-header-noimg">
+      <span class="dest-noimg-pref">{dest.prefecture}</span>
+      <h1 class="dest-noimg-title">{dest.name}</h1>
+      {dest.tags && dest.tags.length > 0 && (
+        <div class="dest-noimg-tags">
+          {dest.tags.filter((t: any) => typeof t === 'string').slice(0, 5).map((tag: string) => (
+            <span class="dest-noimg-tag">{tag}</span>
+          ))}
+        </div>
+      )}
+    </div>
+  )}
+
+  <div class="content">
+
+    <!-- Unsplash クレジット -->
+    {unsplashCredit && (
+      <p style="font-size:10px; color:#bbb; text-align:right; margin:-8px 0 12px; letter-spacing:0.04em;">
+        Photo by <a href={unsplashCreditUrl} target="_blank" rel="noopener noreferrer" style="color:#bbb; text-decoration:underline;">{unsplashCredit}</a> on <a href={unsplashPhotoUrl} target="_blank" rel="noopener noreferrer" style="color:#bbb; text-decoration:underline;">Unsplash</a>
+      </p>
+    )}
+
+    <!-- パンくず -->
+    <nav class="breadcrumb">
+      <a href="/">HOME</a> ›
+      <a href="/destinations/">{dest.region || dest.prefecture}</a> ›
+      <span>{dest.name}</span>
+    </nav>
+
+    <!-- reasonChips -->
+    {(dest as any).reasonChips?.length > 0 && (
+      <div class="reason-chips">
+        {(dest as any).reasonChips.map((chip: string) => (
+          <span class="reason-chip">{chip}</span>
+        ))}
+      </div>
+    )}
+
+    <!-- リード文: article.lead は導入詩として短い（最大163字）ため dest.description を併記 -->
+    {article?.lead && (
+      article.lead.length > 80 ? (
+        <div class="fold-wrap">
+          <p class="lead folded">{article.lead}</p>
+          <button class="fold-btn" type="button" data-fold-btn>続きを読む ↓</button>
+        </div>
+      ) : (
+        <p class="lead">{article.lead}</p>
+      )
+    )}
+    {dest.description && (
+      dest.description.length > 80 ? (
+        <div class="fold-wrap">
+          <p class="dest-description folded">{dest.description}</p>
+          <button class="fold-btn" type="button" data-fold-btn>続きを読む ↓</button>
+        </div>
+      ) : (
+        <p class="dest-description">{dest.description}</p>
+      )
+    )}
+
+    <!-- 実用情報カード -->
+    <div class="info-cards">
+      {article?.bestSeason ? (
+        <div class="info-card">
+          <div class="info-card-label">Best Season</div>
+          <div class="info-card-value">{article.bestSeason}</div>
+        </div>
+      ) : (
+        <div class="info-card">
+          <div class="info-card-label">Best Season</div>
+          <div class="info-card-value">通年OK・四季それぞれの魅力</div>
+        </div>
+      )}
+      <div class="info-card">
+        <div class="info-card-label">Stay</div>
+        <div class="info-card-value">
+          {(dest as any).stayAllowed?.includes('daytrip') ? '日帰り可能' : ''}
+          {(dest as any).stayAllowed?.includes('1night') ? (((dest as any).stayAllowed?.includes('daytrip') ? '・' : '') + '1泊おすすめ') : ''}
+          {(dest as any).stayAllowed?.some((s: string) => s === '2night' || s === '3night+') ? '・2泊以上' : ''}
+        </div>
+      </div>
+    </div>
+
+    <!-- どこから行く？ショートカット -->
+    {travelTimes.length > 0 && (
+      <a href="#access" class="access-shortcut">
+        <span>📍 どこから行く？アクセス情報を見る</span>
+        <span class="access-shortcut-arrow">↓</span>
+      </a>
+    )}
+
+
+    <!-- スポット (article.sections優先、なければ dest.spots を簡易表示) -->
+    {article?.sections && article.sections.length > 0 ? (
+      <div>
+        <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
+        {article.sections.map((section: any, i: number) => {
+          const sectionTitle = section.title || section.heading || '';
+          // dest.spots から同名スポットの imageUrl を探す
+          const matchSpot = ((dest as any).spots || []).find((s: any) =>
+            (typeof s === 'object' && s.name && (sectionTitle.includes(s.name) || s.name.includes(sectionTitle)))
+          );
+          const spotImg = matchSpot?.imageUrl;
+          // 画像を借りてきた以上、CC BY / CC BY-SA は著作者表示が要る（下の分岐と同じ扱い）。
+          const msc = matchSpot?.imageCredit || null;
+          const spotImgCredit = (spotImg && msc && msc.attributionRequired !== false
+            && (msc.author || msc.license)) ? msc : null;
+          return (
+            <div class="spot-section">
+              <span class="spot-num">{String(i + 1).padStart(2, '0')}</span>
+              <div class={spotImg ? 'spot-with-img' : ''}>
+                {spotImg && (
+                  <figure class="spot-figure">
+                    <img class="spot-thumb" src={spotImg} {...dimAttrs(spotImg)} alt={`${dest.name}の${sectionTitle}`} loading="lazy" onerror="this.style.display='none'" />
+                    {spotImgCredit && (
+                      <figcaption class="spot-credit">
+                        {spotImgCredit.url
+                          ? <a href={spotImgCredit.url} target="_blank" rel="noopener noreferrer">{spotImgCredit.author || '作者不明'}</a>
+                          : (spotImgCredit.author || '作者不明')}
+                        {spotImgCredit.license ? ` / ${spotImgCredit.license}` : ''}
+                      </figcaption>
+                    )}
+                  </figure>
+                )}
+                <div class="spot-content">
+                  <h3 class="spot-title">{sectionTitle}</h3>
+                  <div class="spot-body">
+                    {section.body.split('\n').map((p: string) => p.trim()).filter(Boolean).map((p: string) => (
+                      <p>{p}</p>
+                    ))}
+                  </div>
+                  {section.info && <div class="spot-info">{section.info}</div>}
+                  <a href={gmapSpotUrl(sectionTitle)} target="_blank" rel="noopener noreferrer" class="spot-map">地図で見る →</a>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    ) : (((dest as any).spots && (dest as any).spots.length > 0) && (
+      <div>
+        <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
+        {((dest as any).spots).map((spot: any, i: number) => {
+          const name = typeof spot === 'string' ? spot : spot.name;
+          const imageUrl = typeof spot === 'object' ? spot.imageUrl : null;
+          const spotDesc = typeof spot === 'object' ? spot.description : null;
+          // spot画像はほとんどが Wikimedia Commons 由来で、CC BY / CC BY-SA は
+          // 著作者表示が条件になっている。データには imageCredit が入っていたのに
+          // 描画されておらず、表示義務を満たしていなかったのでここで出す。
+          // CC0・パブリックドメインは義務が無いので出さない。
+          const sc = (typeof spot === 'object' && spot.imageCredit) || null;
+          const spotCredit = (imageUrl && sc && sc.attributionRequired !== false
+            && (sc.author || sc.license)) ? sc : null;
+          return (
+            <div class="spot-section">
+              <span class="spot-num">{String(i + 1).padStart(2, '0')}</span>
+              <div class={imageUrl ? 'spot-with-img' : ''}>
+                {imageUrl && (
+                  <figure class="spot-figure">
+                    <img class="spot-thumb" src={imageUrl} {...dimAttrs(imageUrl)} alt={`${dest.name}の${name}`} loading="lazy" onerror="this.style.display='none'" />
+                    {spotCredit && (
+                      <figcaption class="spot-credit">
+                        {spotCredit.url
+                          ? <a href={spotCredit.url} target="_blank" rel="noopener noreferrer">{spotCredit.author || '作者不明'}</a>
+                          : (spotCredit.author || '作者不明')}
+                        {spotCredit.license ? ` / ${spotCredit.license}` : ''}
+                      </figcaption>
+                    )}
+                  </figure>
+                )}
+                <div class="spot-content">
+                  <h3 class="spot-title">{name}</h3>
+                  {spotDesc && (
+                    <div class="spot-body"><p>{spotDesc}</p></div>
+                  )}
+                  <a href={gmapSpotUrl(name)} target="_blank" rel="noopener noreferrer" class="spot-map">地図で見る →</a>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    ))}
+
+    <!-- モデルコース -->
+    {article?.modelCourse && (
+      <div class="course-section">
+        <h2>モデルコース</h2>
+        {article.modelCourse.daytrip && (
+          <div class="course-card course-daytrip">
+            <span class="course-label">Day Trip</span>
+            {article.modelCourse.daytrip}
+          </div>
+        )}
+        {article.modelCourse.onenight && (
+          <div class="course-card course-onenight">
+            <span class="course-label">1 Night</span>
+            {article.modelCourse.onenight}
+          </div>
+        )}
+      </div>
+    )}
+
+    <!-- 旅のヒント -->
+    {article?.tips && (
+      <div class="tips-box">
+        <span class="tips-label">Travel Tips</span>
+        {typeof article.tips === 'string' ? article.tips : article.tips.join('\n')}
+      </div>
+    )}
+
+    <hr class="section-divider" />
+
+    <!-- 行き方 -->
+    <div class="access-section" id="access">
+      <h2 class="section-title">{dest.name}への行き方</h2>
+      <a
+        class="gmap-link"
+        href={gmapPlaceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="gmap-link-label">📍 Googleマップで見る</span>
+        <span class="gmap-link-arrow">→</span>
+      </a>
+      {showTransportTabs && (
+        <>
+          <input type="radio" id={`${dest.id}-mode-transit`} name={`${dest.id}-transport-mode`} class="transport-radio transport-radio-transit" checked />
+          <input type="radio" id={`${dest.id}-mode-car`} name={`${dest.id}-transport-mode`} class="transport-radio transport-radio-car" />
+          <div class="transport-tab-headers">
+            <label for={`${dest.id}-mode-transit`} class="transport-tab-label transport-tab-label-transit">🚃 電車・バス</label>
+            <label for={`${dest.id}-mode-car`} class="transport-tab-label transport-tab-label-car">🚗 車</label>
+          </div>
+        </>
+      )}
+      <div class="travel-times">
+        <span class="travel-times-label">Access Time</span>
+        <div class="departure-picker">
+          <label for="departure-select">どこから出発？</label>
+          <select id="departure-select" class="departure-select" data-dest-name={dest.name}>
+            <option value="">— 出発地を選んでください —</option>
+            {ALL_DEPARTURE_CITIES_JP.filter(city => city !== dest.hubCity && city !== dest.name && city !== dest.city).map(city => (
+              <option value={city} data-has-data={travelTimeCitySet.has(city) ? '1' : '0'}>{city}</option>
+            ))}
+          </select>
+        </div>
+        <div class="access-empty-msg" id="access-empty-msg">出発地を選ぶと、ここに経路情報が表示されます</div>
+          {ALL_DEPARTURE_CITIES_JP.filter((city: string) => city !== dest.hubCity && city !== dest.name && city !== dest.city).map((city: string) => {
+            const gmap = gmapDirUrl(city);
+            // 車タブ用: 自動車モードを明示したGoogleマップのルート検索
+            const gmapDrive = gmapDirUrl(city, true);
+            const yahooTransit = `https://transit.yahoo.co.jp/search/result?from=${encodeURIComponent(city)}&to=${encodeURIComponent(dest.name)}`;
+            const origPref = CITY_TO_PREF[city] || '';
+            const destPref = dest.prefecture || '';
+            const service = pickJRService(origPref, destPref);
+            const jrHref = jrServiceUrl(service);
+            const jrLabelText = jrServiceLabel(service);
+            return (
+              <div class="travel-time-block" data-city={city}>
+                <div class="travel-time-row">
+                  <span class="mode-transit-only">🚃 {city}から</span>
+                  <span class="mode-car-only">🚗 {city}から</span>
+                </div>
+                <div class="travel-booking-row-stack">
+                  {/* 車タブでは最上部のルート検索リンクとして表示する */}
+                  <a href={gmapDrive} target="_blank" rel="noopener noreferrer" class="booking-btn booking-btn-drive mode-car-btn">
+                    <span class="booking-btn-label">🚗 車のルートを検索</span>
+                    <span class="booking-btn-arrow">→</span>
+                  </a>
+                  <a href={gmap} target="_blank" rel="noopener noreferrer" class="booking-btn booking-btn-route mode-transit-only">
+                    <span class="booking-btn-label">地図で経路を見る</span>
+                    <span class="booking-btn-arrow">→</span>
+                  </a>
+                  {isRailReachable && (
+                    <a href={yahooTransit} target="_blank" rel="noopener noreferrer" class="booking-btn booking-btn-navitime mode-transit-only">
+                      <span class="booking-btn-label">電車・バスで行く</span>
+                      <span class="booking-btn-arrow">→</span>
+                    </a>
+                  )}
+                  {service === 'air' ? (
+                    skyscannerUrl(city, dest) ? (
+                      <a href={skyscannerUrl(city, dest)} target="_blank" rel="noopener noreferrer" class="booking-btn booking-btn-sky mode-transit-only">
+                        <span class="booking-btn-label">✈️ スカイスキャナーで航空券を探す</span>
+                        <span class="booking-btn-arrow">→</span>
+                      </a>
+                    ) : (
+                      <span class="air-note mode-transit-only">✈️ 飛行機でのアクセスがおすすめ</span>
+                    )
+                  ) : service === 'midori' ? (
+                    <span class="midori-note mode-transit-only">🟢 みどりの窓口での購入がおすすめ</span>
+                  ) : (
+                    <a href={jrHref} target="_blank" rel="noopener noreferrer" class="booking-btn booking-btn-jr mode-transit-only">
+                      <span class="booking-btn-label">{jrLabelText}で予約</span>
+                      <span class="booking-btn-arrow">→</span>
+                    </a>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        <div class="access-no-data-msg" id="access-no-data-msg" style="display:none;font-size:13px;color:#888;padding:12px 0;"></div>
+      </div>
+      {showTransportTabs && (
+        <div class="car-pane">
+<AffiliateNotice />
+          <div class="car-rentacar">
+            <p class="car-rentacar-title">🚗 レンタカーを予約する</p>
+            <p class="car-rentacar-desc">{dest.name}を車でまわるなら、出発地・現地どちらでも借りられます</p>
+            <div class="hotel-cards">
+              <a href={rentacarJalanUrl} target="_blank" rel="nofollow sponsored noopener" class="hotel-card hotel-card-jalan">
+                <div>
+                  <p class="hotel-card-name">じゃらんレンタカー</p>
+                  <p class="hotel-card-desc">国内旅行・レンタカー予約</p>
+                </div>
+                <span class="hotel-card-arrow">→</span>
+              </a>
+            </div>
+          </div>
+          <div class="car-parking">
+            <span class="car-parking-label">Parking</span>
+            {parkingInfo.length > 0 ? (
+              parkingInfo.map((p: { spot: string; text: string }) => (
+                <div class="car-parking-item">
+                  {p.spot && <span class="car-parking-spot">{p.spot}</span>}
+                  <span class="car-parking-text">{p.text}</span>
+                </div>
+              ))
+            ) : (
+              <p class="car-parking-empty">現地の駐車場情報は公式サイトでご確認ください</p>
+            )}
+          </div>
+        </div>
+      )}
+      {dest.access?.steps && dest.access.steps.length > 0 ? (
+        <div class="access-steps">
+          {dest.access.steps.length <= 2 ? (
+            dest.access.steps.map((step: any, i: number) => (
+              <>
+                <div class="access-step">
+                  <span class="step-type">{STEP_TYPE_LABEL[step.type] || '移動'}</span>
+                  <span>{(step.to || step.from) + 'へ'}</span>
+                </div>
+                {i < dest.access.steps.length - 1 && <div class="step-arrow">↓</div>}
+              </>
+            ))
+          ) : (
+            <>
+              <div class="access-step">
+                <span class="step-type">{STEP_TYPE_LABEL[dest.access.steps[0].type] || '移動'}</span>
+                <span>{(dest.access.steps[0].to || dest.access.steps[0].from) + 'へ'}</span>
+              </div>
+              <div class="step-arrow">↓</div>
+              <details class="access-step-middle">
+                <summary>途中の乗換 {dest.access.steps.length - 2} 件を表示</summary>
+                <div class="access-step-middle-inner">
+                  {dest.access.steps.slice(1, -1).map((step: any, i: number, arr: any[]) => (
+                    <>
+                      <div class="access-step">
+                        <span class="step-type">{STEP_TYPE_LABEL[step.type] || '移動'}</span>
+                        <span>{(step.to || step.from) + 'へ'}</span>
+                      </div>
+                      {i < arr.length - 1 && <div class="step-arrow">↓</div>}
+                    </>
+                  ))}
+                </div>
+              </details>
+              <div class="step-arrow">↓</div>
+              <div class="access-step">
+                <span class="step-type">{STEP_TYPE_LABEL[dest.access.steps[dest.access.steps.length-1].type] || '移動'}</span>
+                <span>{(dest.access.steps[dest.access.steps.length-1].to || dest.access.steps[dest.access.steps.length-1].from) + 'へ'}</span>
+              </div>
+            </>
+          )}
+        </div>
+      ) : (
+        <div class="access-steps">
+          {(dest as any).gateways?.rail?.length > 0 && (
+            <div class="access-step">
+              <span class="step-type">鉄道</span>
+              <span>{(dest as any).gateways.rail.join(' / ')}</span>
+            </div>
+          )}
+          {(dest as any).gateways?.airport?.length > 0 && (
+            <>
+              {(dest as any).gateways?.rail?.length > 0 && <div class="step-arrow">↓</div>}
+              <div class="access-step">
+                <span class="step-type">航空</span>
+                <span>{(dest as any).gateways.airport.join(' / ')}</span>
+              </div>
+            </>
+          )}
+          {(dest as any).gateways?.ferry?.length > 0 && (
+            <div class="access-step">
+              <span class="step-type">船</span>
+              <span>{(dest as any).gateways.ferry.join(' / ')}</span>
+            </div>
+          )}
+          {(dest as any).railNote && (
+            <div class="access-step" style="background: #f8f8f8; border-color: #e0e0e0;">
+              <span class="step-type">備考</span>
+              <span style="font-size: 12px; color: #777;">{(dest as any).railNote}</span>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+
+    <hr class="section-divider" id="hotel" />
+
+
+    <!-- 車なしで行く（試作）: carFree があるページだけ。公式で確認できた事実だけを、出典と確認日つきで出す。時刻・便数は書かず、公式ページへのリンクに任せる -->
+    {carFree && (
+      <div class="carfree-section" id="carfree">
+        <h2 class="section-title">{dest.name}へ車なしで行く</h2>
+        <p class="carfree-lead">公式サイトで確認できたことだけを載せています。バスの時刻・便数は変わるので、下の公式ページで確認してください。</p>
+        <ul class="carfree-list">
+          {carFree.items.map((it: any) => (
+            <li class="carfree-item" data-carfree-item data-source={it.source.url} data-checked={carFreeIso(it.checked)}>
+              <span class="carfree-label">{it.label}</span>
+              <span class="carfree-body">{it.body}</span>
+              <span class="carfree-src">出典: <a href={it.source.url} target="_blank" rel="noopener">{it.source.label}</a>（{it.checked}確認）</span>
+            </li>
+          ))}
+        </ul>
+        {carFree.timetable?.length > 0 && (
+          <div class="carfree-times">
+            <p class="carfree-times-title">時刻・運賃は公式ページで（{carFree.checked}確認）</p>
+            <ul>
+              {carFree.timetable.map((t: any) => (
+                <li><a href={t.url} target="_blank" rel="noopener">{t.label} →</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {carFree.unconfirmed?.length > 0 && (
+          <div class="carfree-unconfirmed">
+            <p class="carfree-times-title">公式で確認できなかったこと</p>
+            <ul>
+              {carFree.unconfirmed.map((u: string) => (<li>{u}</li>))}
+            </ul>
+          </div>
+        )}
+      </div>
+    )}
+
+    <!-- 宿泊: 現地泊 / hub泊 / 県庁所在地fallback。離島系 (showDualHotel) はタブ表示 -->
+    {showDualHotel ? (
+<AffiliateNotice />
+      <div class="hotel-section hotel-tabs">
+        <input type="radio" id={`${dest.id}-tab-local`} name={`${dest.id}-hotel-tab`} class="hotel-tab-radio hotel-tab-radio-local" checked />
+        <input type="radio" id={`${dest.id}-tab-hub`} name={`${dest.id}-hotel-tab`} class="hotel-tab-radio hotel-tab-radio-hub" />
+        <div class="hotel-tab-headers">
+          <label for={`${dest.id}-tab-local`} class="hotel-tab-label hotel-tab-label-local">{dest.name}の宿</label>
+          <label for={`${dest.id}-tab-hub`} class="hotel-tab-label hotel-tab-label-hub">{hubCityName}の宿（拠点）</label>
+        </div>
+        <div class="hotel-tab-content hotel-tab-content-local">
+          {stayNote && <p class="hotel-description">{stayNote}</p>}
+          <div class="hotel-cards">
+            <a href={rakutenHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
+              <div>
+                <p class="hotel-card-name">楽天トラベルで探す</p>
+                <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
+              </div>
+              <span class="hotel-card-arrow">→</span>
+            </a>
+            <a href={jalanHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
+              <div>
+                <p class="hotel-card-name">じゃらんで探す</p>
+                <p class="hotel-card-desc">国内旅行・宿泊予約</p>
+              </div>
+              <span class="hotel-card-arrow">→</span>
+            </a>
+            <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
+          </div>
+        </div>
+        <div class="hotel-tab-content hotel-tab-content-hub">
+          <p class="hotel-description" style="font-size:13px;color:#888;">{hubCityName}を拠点に{dest.name}へ日帰り・宿泊の旅も便利です</p>
+          <div class="hotel-cards">
+            <a href={hubRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
+              <div>
+                <p class="hotel-card-name">楽天トラベルで探す</p>
+                <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
+              </div>
+              <span class="hotel-card-arrow">→</span>
+            </a>
+            <a href={hubJalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
+              <div>
+                <p class="hotel-card-name">じゃらんで探す</p>
+                <p class="hotel-card-desc">国内旅行・宿泊予約</p>
+              </div>
+              <span class="hotel-card-arrow">→</span>
+            </a>
+            <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
+          </div>
+        </div>
+      </div>
+    ) : (
+      <>
+        {showLocalHotel && (
+<AffiliateNotice />
+          <div class="hotel-section">
+            <h2 class="section-title">{dest.name}の宿を探す</h2>
+            {stayNote && <p class="hotel-description">{stayNote}</p>}
+            <div class="hotel-cards">
+              <a href={rakutenHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
+                <div>
+                  <p class="hotel-card-name">楽天トラベルで探す</p>
+                  <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
+                </div>
+                <span class="hotel-card-arrow">→</span>
+              </a>
+              <a href={jalanHotelUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
+                <div>
+                  <p class="hotel-card-name">じゃらんで探す</p>
+                  <p class="hotel-card-desc">国内旅行・宿泊予約</p>
+                </div>
+                <span class="hotel-card-arrow">→</span>
+              </a>
+              <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
+            </div>
+          </div>
+        )}
+        {showHubHotel && (
+<AffiliateNotice />
+          <div class="hotel-section" style={showLocalHotel ? 'margin-top:24px;' : ''}>
+            <h2 class="section-title">{hubCityName}で宿を探す（{dest.name}の拠点）</h2>
+            <p class="hotel-description" style="font-size:13px;color:#888;">{hubCityName}を拠点に{dest.name}へ日帰り・宿泊の旅も便利です</p>
+            <div class="hotel-cards">
+              <a href={hubRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
+                <div>
+                  <p class="hotel-card-name">楽天トラベルで探す</p>
+                  <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
+                </div>
+                <span class="hotel-card-arrow">→</span>
+              </a>
+              <a href={hubJalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
+                <div>
+                  <p class="hotel-card-name">じゃらんで探す</p>
+                  <p class="hotel-card-desc">国内旅行・宿泊予約</p>
+                </div>
+                <span class="hotel-card-arrow">→</span>
+              </a>
+              <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
+            </div>
+          </div>
+        )}
+      </>
+    )}
+    {showPrefHotel && prefCapital && (
+      <div class="hotel-section">
+        <h2 class="section-title">{prefCapital}で宿を探す（{dest.name}の拠点）</h2>
+        <p class="hotel-description" style="font-size:13px;color:#888;">{prefCapital}を拠点に{dest.name}へ日帰り・宿泊の旅も便利です</p>
+        <div class="hotel-cards">
+          <a href={prefRakutenUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-rakuten">
+            <div>
+              <p class="hotel-card-name">楽天トラベルで探す</p>
+              <p class="hotel-card-desc">楽天トラベルの検索結果を開く</p>
+            </div>
+            <span class="hotel-card-arrow">→</span>
+          </a>
+          <a href={prefJalanUrl} target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
+            <div>
+              <p class="hotel-card-name">じゃらんで探す</p>
+              <p class="hotel-card-desc">国内旅行・宿泊予約</p>
+            </div>
+            <span class="hotel-card-arrow">→</span>
+          </a>
+          <p class="hotel-price-note">宿泊料金は時期やプランによって変わります。料金は予約サイトの画面で確認してください。</p>
+        </div>
+      </div>
+    )}
+
+    <!-- おすすめの宿: 実在・送迎確認済みキュレーション（featured_stay・検索リンクの下に表示） -->
+    {featuredStay && (
+      <div class="fs-card">
+        <div class="fs-body">
+          <p class="fs-eyebrow">おすすめの宿はこちら</p>
+          <h3 class="fs-name">{featuredStay.name}</h3>
+          {featuredStay.catchcopy && <p class="fs-catch">{featuredStay.catchcopy}</p>}
+          {(fsShuttleText || featuredStay.accessStation) && (
+            <div class="fs-meta">
+              {fsShuttleText && <p class="fs-shuttle">🚐 {fsShuttleText}</p>}
+              {featuredStay.accessStation && <p class="fs-access">📍 {featuredStay.accessStation}</p>}
+            </div>
+          )}
+          {fsOfficialOnly ? (
+            <>
+              {featuredStay.bookingNote && <p class="fs-booking-note">{featuredStay.bookingNote}</p>}
+              <div class="fs-links">
+                <a href={featuredStay.officialUrl} target="_blank" rel="noopener noreferrer" class="fs-link fs-link-official">公式サイトで見る</a>
+              </div>
+            </>
+          ) : (
+            <AffiliateNotice />
+            <div class="fs-links">
+              <a href={fsRakutenUrl} target="_blank" rel="sponsored noopener" class="fs-link fs-link-rakuten">楽天トラベルで見る</a>
+              <a href={fsJalanUrl} target="_blank" rel="sponsored noopener" class="fs-link fs-link-jalan">じゃらんで見る</a>
+            </div>
+          )}
+        </div>
+      </div>
+    )}
+
+    <!-- レンタカー（自然・絶景・秘境系のみ） -->
+    {(dest as any).rentalCarRecommended && (
+      <div class="hotel-section" style="margin-top:24px;">
+        <h2 class="section-title">{dest.name}はレンタカーがおすすめ</h2>
+        <p class="hotel-description" style="font-size:13px;color:#888;">現地で自由に動きたいならレンタカーが便利です</p>
+        <div class="hotel-cards">
+          <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3764408&pid=892559858&vc_url=https%3A%2F%2Fwww.jalan.net%2Frentacar%2F" target="_blank" rel="sponsored noopener" class="hotel-card hotel-card-jalan">
+            <div>
+              <p class="hotel-card-name">じゃらんレンタカー</p>
+              <p class="hotel-card-desc">国内旅行・レンタカー予約</p>
+            </div>
+            <span class="hotel-card-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    )}
+
+    <!-- じゃらんレンタカー & じゃらん体験 -->
+    {(showLocalHotel || showHubHotel || showPrefHotel) && (
+      <>
+        <AffiliateNotice />
+        {/* 上の「レンタカーがおすすめ」を出した旅先では、同じじゃらんレンタカーが続くので出さない */}
+        {!(dest as any).rentalCarRecommended && (
+        <div class="rentacar-section">
+          <a
+            href={rentacarJalanUrl}
+            target="_blank"
+            rel="nofollow sponsored noopener"
+            class="hotel-card rentacar-card"
+          >
+            <div>
+              <p class="hotel-card-name">🚗 レンタカーを探す</p>
+              <p class="hotel-card-desc">現地でクルマ移動するならじゃらんレンタカー</p>
+            </div>
+            <span class="hotel-card-arrow">→</span>
+          </a>
+        </div>
+        )}
+        <div class="activity-section">
+          <a
+            href={toJalanAffiliate(`https://www.jalan.net/activity/?keyword=${encodeURIComponent(dest.name)}`)}
+            target="_blank"
+            rel="nofollow sponsored noopener"
+            class="hotel-card activity-card"
+          >
+            <div>
+              <p class="hotel-card-name">🎫 体験・アクティビティを探す</p>
+              <p class="hotel-card-desc">{dest.name}周辺の体験プラン・観光チケット</p>
+            </div>
+            <span class="hotel-card-arrow">→</span>
+          </a>
+        </div>
+      </>
+    )}
+
+    <hr class="section-divider" />
+
+    <!-- 同名の別ページ（統合せず書き分けたもの。dest.sibling = { id, label }）への相互リンク -->
+    {(dest as any).sibling && (
+      <p class="sibling-link" style="margin: 0 0 24px; padding: 14px 16px; background: #f3f6f4; border-radius: 10px; font-size: 14px; line-height: 1.8;">
+        同じ「{dest.name}」の別エリア：<a href={`/destinations/${(dest as any).sibling.id}/`} style="color: #2A6049;">{(dest as any).sibling.label}</a>
+      </p>
+    )}
+
+    <!-- 近くの旅先（座標が近い順。県をまたぐ近隣も含む） -->
+    {nearbyDests.length > 0 && (
+      <div class="nearby-section">
+        <h2 class="section-title">近くの旅先</h2>
+        <div class="nearby-scroll">
+          {nearbyDests.map(({ d, km }: any) => (
+            <a href={`/destinations/${d.id}/`} class="nearby-card">
+              <div class="nearby-card-img-wrap">
+                <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img
+                  class="nearby-card-img"
+                  src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)}
+                  alt={`${d.name}の風景`}
+                  loading="lazy"
+                  onerror="this.style.display='none'"
+                />)}
+              </div>
+              <div class="nearby-card-body">
+                <div class="nearby-card-name">{d.name}</div>
+                <div class="nearby-card-pref">{d.prefecture}・約{km}km</div>
+              </div>
+            </a>
+          ))}
+        </div>
+        {nearbyMore.length > 0 && (
+          <p class="related-more">
+            このほか{dest.name}の近くの旅先:
+            {nearbyMore.map(({ d, km }: any, i: number) => (
+              <><a href={`/destinations/${d.id}/`}>{d.name}（{d.prefecture}・約{km}km）</a>{i < nearbyMore.length - 1 ? '、' : ''}</>
+            ))}
+          </p>
+        )}
+      </div>
+    )}
+
+    <!-- 同じ県の旅先 -->
+    {samePrefDests.length > 0 && (
+      <div class="nearby-section">
+        <h2 class="section-title">{samePrefLabel}の他の旅先</h2>
+        <div class="nearby-scroll">
+          {samePrefDests.map((d: any) => (
+            <a href={`/destinations/${d.id}/`} class="nearby-card">
+              <div class="nearby-card-img-wrap">
+                <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />)}
+              </div>
+              <div class="nearby-card-body">
+                <div class="nearby-card-name">{d.name}</div>
+                <div class="nearby-card-pref">{d.prefecture}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+        {samePrefMore.length > 0 && (
+          <p class="related-more">
+            {samePrefLabel}のほかの旅先:
+            {samePrefMore.map((d: any, i: number) => (
+              <><a href={`/destinations/${d.id}/`}>{d.name}</a>{i < samePrefMore.length - 1 ? '、' : ''}</>
+            ))}
+          </p>
+        )}
+      </div>
+    )}
+
+    <!-- 同じテーマの旅先（その旅先の特徴的なタグ。共有するタグが多く、近い順） -->
+    {sameTagDests.length > 0 && primaryTag && (
+      <div class="nearby-section">
+        <h2 class="section-title">「{primaryTag}」の旅先をもっと</h2>
+        <div class="nearby-scroll">
+          {sameTagDests.map((d: any) => (
+            <a href={`/destinations/${d.id}/`} class="nearby-card">
+              <div class="nearby-card-img-wrap">
+                <span class="nearby-card-placeholder">{d.name.slice(0, 1)}</span>
+                {dimAttrs(`/images/${d.id}/main.jpg`).width && (<img class="nearby-card-img" src={`/images/${d.id}/main.jpg`} {...dimAttrs(`/images/${d.id}/main.jpg`)} alt={`${d.name}の風景`} loading="lazy" onerror="this.style.display='none'" />)}
+              </div>
+              <div class="nearby-card-body">
+                <div class="nearby-card-name">{d.name}</div>
+                <div class="nearby-card-pref">{d.prefecture}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+        {sameTagMore.length > 0 && (
+          <p class="related-more">
+            「{primaryTag}」でほかに行ける旅先:
+            {sameTagMore.map((d: any, i: number) => (
+              <><a href={`/destinations/${d.id}/`}>{d.name}（{d.prefecture}）</a>{i < sameTagMore.length - 1 ? '、' : ''}</>
+            ))}
+          </p>
+        )}
+      </div>
+    )}
+
+    <!-- ハブ都市ページリンク -->
+    {hubCity && (
+      <div id="hub-link" style="margin-top:24px; padding:16px 20px; background:#f7f9f7; border-radius:8px; border:1px solid #e8f0e8;">
+        <p style="font-size:12px; color:#999; margin-bottom:6px; letter-spacing:0.06em;">HUB CITY</p>
+        <a href={`/hub/${hubCity.id}/`} style="display:flex; align-items:center; justify-content:space-between; text-decoration:none; color:#2A6049; font-size:14px; font-weight:500;">
+          <span>{hubCity.name}（拠点都市）から行ける旅先を見る</span>
+          <span style="color:#aaa;">→</span>
+        </a>
+      </div>
+    )}
+
+    <!-- シェアボタン -->
+    <div class="share-section">
+      <span class="share-label">Share</span>
+      <canvas id="share-canvas" style="display:none;" width="1200" height="630"
+        data-dest-name={dest.name}
+        data-dest-id={dest.id}
+        data-prefecture={dest.prefecture || ''}
+        data-tags={(dest.tags || []).slice(0, 3).join(',')}
+      ></canvas>
+      <button id="share-card-btn" class="share-card-btn" type="button">
+        📤 シェアカードを作る
+      </button>
+      <button
+        class="share-native-btn"
+        id="share-native-btn"
+        data-title={`【どこ行こ？】${dest.name}への旅｜tabidokoiko.com`}
+        data-url={`https://tabidokoiko.com/destinations/${dest.id}/`}
+        style="display:none;"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        この旅先をシェアする
+      </button>
+      <div class="share-fallback" id="share-fallback">
+        <a
+          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`${dest.name}に行ってみたい！ #どこ行こ`)}&url=${encodeURIComponent(`https://tabidokoiko.com/destinations/${dest.id}/`)}`}
+          target="_blank" rel="noopener noreferrer"
+          class="share-x-btn"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          X でシェア
+        </a>
+        <a
+          href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(`https://tabidokoiko.com/destinations/${dest.id}/`)}`}
+          target="_blank" rel="noopener noreferrer"
+          class="share-line-btn"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+          LINE でシェア
+        </a>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <span class="cta-label">Travel Planning</span>
+      <p class="cta-title">旅先を1分で決めてみる？</p>
+      <a href="/" class="cta-btn">どこ行こ？で旅先を探す →</a>
+    </div>
+
+  </div>
+</DestinationLayout>
+
+<script>
+  // 出発地ピッカー: 全都市blockが既に静的生成済み。selectで該当blockを表示する。
+  const departureSelect = document.getElementById('departure-select') as HTMLSelectElement | null;
+  const emptyMsg = document.getElementById('access-empty-msg');
+  const noDataMsg = document.getElementById('access-no-data-msg');
+  if (departureSelect) {
+    departureSelect.addEventListener('change', () => {
+      const city = departureSelect.value;
+      const blocks = document.querySelectorAll<HTMLElement>('.travel-time-block');
+      blocks.forEach(b => b.classList.remove('selected'));
+      if (noDataMsg) { noDataMsg.style.display = 'none'; noDataMsg.textContent = ''; }
+      if (!city) {
+        if (emptyMsg) emptyMsg.classList.remove('hidden');
+        return;
+      }
+      const target = document.querySelector<HTMLElement>(`.travel-time-block[data-city="${city}"]`);
+      if (target) {
+        target.classList.add('selected');
+        if (emptyMsg) emptyMsg.classList.add('hidden');
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        if (emptyMsg) emptyMsg.classList.add('hidden');
+        // 「未登録」テキストは表示しない (ユーザー要求)
+      }
+    });
+  }
+
+  const nativeBtn = document.getElementById('share-native-btn') as HTMLButtonElement | null;
+  const fallback  = document.getElementById('share-fallback') as HTMLElement | null;
+
+  if (nativeBtn && fallback) {
+    if (navigator.share) {
+      nativeBtn.style.display = 'flex';
+      fallback.style.display  = 'none';
+      nativeBtn.addEventListener('click', async () => {
+        try {
+          await navigator.share({
+            title: nativeBtn.dataset.title ?? '',
+            url:   nativeBtn.dataset.url   ?? window.location.href,
+          });
+        } catch (_) { /* user cancelled */ }
+      });
+    } else {
+      nativeBtn.style.display = 'none';
+      fallback.style.display  = 'flex';
+    }
+  }
+
+  // fold toggle
+  document.querySelectorAll<HTMLButtonElement>('[data-fold-btn]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const prev = btn.previousElementSibling as HTMLElement | null;
+      if (prev) prev.classList.remove('folded');
+      btn.style.display = 'none';
+    });
+  });
+
+  // share card canvas
+  const shareCardBtn = document.getElementById('share-card-btn') as HTMLButtonElement | null;
+  const shareCanvas  = document.getElementById('share-canvas')  as HTMLCanvasElement | null;
+
+  if (shareCardBtn && shareCanvas) {
+    shareCardBtn.addEventListener('click', async () => {
+      shareCardBtn.textContent = '作成中…';
+      shareCardBtn.disabled = true;
+
+      const ctx = shareCanvas.getContext('2d')!;
+      const W = 1200, H = 630;
+      const destName  = shareCanvas.dataset.destName  || '';
+      const prefecture = shareCanvas.dataset.prefecture || '';
+      const tags = (shareCanvas.dataset.tags || '').split(',').filter(Boolean);
+      const destId = shareCanvas.dataset.destId || '';
+
+      // Background
+      ctx.fillStyle = '#1e4a35';
+      ctx.fillRect(0, 0, W, H);
+      const grad = ctx.createLinearGradient(0, 0, W, H);
+      grad.addColorStop(0, 'rgba(42,96,73,0.85)');
+      grad.addColorStop(1, 'rgba(15,45,30,0.95)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, W, H);
+
+      // Subtle grid pattern
+      ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+      ctx.lineWidth = 1;
+      for (let x = 0; x <= W; x += 60) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+      for (let y = 0; y <= H; y += 60) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+
+      await document.fonts.ready;
+
+      // Logo (top-left)
+      ctx.fillStyle = 'rgba(255,255,255,0.9)';
+      ctx.font = 'bold 26px sans-serif';
+      ctx.textAlign = 'left';
+      ctx.fillText('どこ行こ？', 56, 66);
+
+      // Departure (bottom-left)
+      const dep = localStorage.getItem('departure') || '全国';
+      ctx.fillStyle = 'rgba(255,255,255,0.65)';
+      ctx.font = '22px sans-serif';
+      ctx.fillText(`${dep}から`, 56, H - 36);
+
+      // Destination name (center)
+      ctx.fillStyle = '#ffffff';
+      ctx.font = `bold 92px "Noto Serif JP", "Hiragino Mincho ProN", serif`;
+      ctx.textAlign = 'center';
+      ctx.fillText(destName, W / 2, H / 2 + 10);
+
+      // Horizontal rule above/below name
+      ctx.strokeStyle = 'rgba(255,255,255,0.25)';
+      ctx.lineWidth = 1;
+      const textWidth = ctx.measureText(destName).width;
+      const lineMargin = 24;
+      ctx.beginPath(); ctx.moveTo(W/2 - textWidth/2 - lineMargin, H/2 - 68); ctx.lineTo(W/2 + textWidth/2 + lineMargin, H/2 - 68); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(W/2 - textWidth/2 - lineMargin, H/2 + 40); ctx.lineTo(W/2 + textWidth/2 + lineMargin, H/2 + 40); ctx.stroke();
+
+      // Prefecture
+      ctx.fillStyle = 'rgba(255,255,255,0.75)';
+      ctx.font = '28px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(prefecture, W / 2, H / 2 + 80);
+
+      // Tags
+      if (tags.length) {
+        ctx.fillStyle = 'rgba(255,255,255,0.55)';
+        ctx.font = '22px sans-serif';
+        ctx.fillText(tags.slice(0, 2).join('　·　'), W / 2, H / 2 + 122);
+      }
+
+      // URL (bottom-right)
+      ctx.fillStyle = 'rgba(255,255,255,0.5)';
+      ctx.font = '20px sans-serif';
+      ctx.textAlign = 'right';
+      ctx.fillText('tabidokoiko.com', W - 56, H - 36);
+
+      shareCanvas.toBlob(async (blob) => {
+        if (!blob) {
+          shareCardBtn.textContent = '📤 シェアカードを作る';
+          shareCardBtn.disabled = false;
+          return;
+        }
+        const file = new File([blob], 'dokoiko-share.jpg', { type: 'image/jpeg' });
+        const shareUrl = `https://tabidokoiko.com/destinations/${destId}/`;
+        try {
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            await navigator.share({ files: [file], title: `【どこ行こ？】${destName}`, url: shareUrl });
+          } else {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = `dokoiko-${destId}.jpg`;
+            a.click();
+          }
+        } catch (_) { /* user cancelled */ }
+        shareCardBtn.textContent = '📤 シェアカードを作る';
+        shareCardBtn.disabled = false;
+      }, 'image/jpeg', 0.92);
+    });
+  }
+</script>

@@ -25,6 +25,7 @@ import fs from 'fs';
 import path from 'path';
 
 const D = JSON.parse(fs.readFileSync('src/data/destinations.json', 'utf8'));
+const MERGED = JSON.parse(fs.readFileSync('scripts/data/mergedPages.json', 'utf8')).pairs;
 const byName = new Map(D.map(d => [d.name, d]));
 const nameCount = D.reduce((a, d) => { a[d.name] = (a[d.name] || 0) + 1; return a; }, {});
 const FIXED = new Set(['ubayu-onsen', 'niche_群馬_1', 'hida-furukawa', 'niche_福岡_6', 'niche_福岡_7',
@@ -129,18 +130,19 @@ for (const d of D) {
     if (m && d.prefecture && m[1] !== d.prefecture)
       flag(d, 'D:spots県', `spots「${s.name}」の googleMapsQuery に「${m[1]}」（prefecture=${d.prefecture}）`);
   }
-  /* E. 画像パスが別ID */
+  /* E. 画像パスが別ID（近い場所の統合（mergedPages.json の hash つき）で引き継いだ元ページの画像は、別IDとして数えない・2026-11-18） */
+  const mergedIn = new Set(MERGED.filter((p) => p.hash && p.to === d.id).map((p) => p.from));
   const idOf = (p) => {
     const m = String(p).match(/^\/images\/(?:spots\/)?([^/]+)\//);
     return m ? m[1] : null;
   };
   for (const p of (d.images || [])) {
     const i = idOf(p);
-    if (i && i !== d.id) { flag(d, 'E:画像', `images に別IDのパス ${p}`); break; }
+    if (i && i !== d.id && !mergedIn.has(i)) { flag(d, 'E:画像', `images に別IDのパス ${p}`); break; }
   }
   for (const s of (d.spots || [])) {
     const i = idOf(s.imageUrl || '');
-    if (i && i !== d.id) { flag(d, 'E:画像', `spots「${s.name}」の imageUrl が別ID ${s.imageUrl}`); break; }
+    if (i && i !== d.id && !mergedIn.has(i)) { flag(d, 'E:画像', `spots「${s.name}」の imageUrl が別ID ${s.imageUrl}`); break; }
   }
   /* G. stayDescription / catch / tags の遠方地名 */
   if (typeof d.lat === 'number') {

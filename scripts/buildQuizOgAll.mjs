@@ -21,6 +21,7 @@ const val = (f, d = null) => (args.includes(f) ? args[args.indexOf(f) + 1] : d);
 const LIMIT = Number(val('--limit', Infinity));
 const OUT = val('--out', 'public/quiz/og');
 const ONLY = val('--only') ? new Set(val('--only').split(',')) : null;
+const STALE = args.includes('--stale');   // manifest の中身のハッシュが今のデータと違う（または manifest に無い）画像だけ作り直す。manifest は今の全旅先ぶんを書き直す（2026-11-18・統合で消えた旅先を外し、残りは作り直さない）
 const data = JSON.parse(fs.readFileSync('src/data/quizDestinations.json', 'utf8'));
 const map = JSON.parse(fs.readFileSync('src/data/quizMap.json', 'utf8'));
 const mainFrame = map.frames.find((f) => f.key === 'main');
@@ -70,7 +71,8 @@ const page = (d) => `<!doctype html><html lang="ja"><head><meta charset="utf-8">
   <div class="seal">${ACCOUNT}</div>
 </body></html>`;
 
-const todo = data.filter((d) => !ONLY || ONLY.has(d.code)).slice(0, LIMIT);
+const oldManifest = STALE && fs.existsSync('src/data/quizOgManifest.json') ? JSON.parse(fs.readFileSync('src/data/quizOgManifest.json', 'utf8')) : {};
+const todo = data.filter((d) => !ONLY || ONLY.has(d.code)).filter((d) => !STALE || oldManifest[d.code] !== contentHash(d)).slice(0, LIMIT);
 fs.mkdirSync(OUT, { recursive: true });
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ viewport: { width: 1200, height: 675 }, deviceScaleFactor: 1 });
@@ -89,4 +91,5 @@ for (const d of todo) {
 await browser.close();
 const sum = sizes.reduce((s, v) => s + v, 0);
 console.log(`${todo.length}枚 ${((Date.now() - t0) / 1000).toFixed(1)}秒 / 1枚あたり 平均${Math.round(sum / sizes.length)}バイト 最小${Math.min(...sizes)} 最大${Math.max(...sizes)} 合計${sum}バイト`);
-if (todo.length === data.length) { fs.writeFileSync('src/data/quizOgManifest.json', JSON.stringify(manifest) + '\n'); console.log('manifest を書いた'); }
+if (STALE) { const all = Object.fromEntries(data.map((d) => [d.code, contentHash(d)])); fs.writeFileSync('src/data/quizOgManifest.json', JSON.stringify(all) + '\n'); console.log(`manifest を今の ${data.length} 件で書き直した（作り直した画像 ${todo.length} 枚）`); }
+else if (todo.length === data.length) { fs.writeFileSync('src/data/quizOgManifest.json', JSON.stringify(manifest) + '\n'); console.log('manifest を書いた'); }

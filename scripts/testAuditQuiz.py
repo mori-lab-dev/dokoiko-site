@@ -139,5 +139,11 @@ case('配信されるスクリプトから、まとめた点の描画が消え�
 case('まとめる距離の定数が変わる', ['src/lib/quizCluster.js'], txt(lambda t: t.replace('CLUSTER_PX = 14', 'CLUSTER_PX = 1')))
 case('共有画像の版が v5 に戻る', ['scripts/lib/quizOg.mjs'], txt(lambda t: t.replace('OG_VERSION = 6', 'OG_VERSION = 5')))
 case('地図データが旧の大きさに戻る（簡略化・小さな島の省略なし）', ['src/data/quizMap.json'], lambda f, b: open('logs/quiz_20261118b/quizMap.before.json', 'rb').read())
+# ---- 統合で消えた旅先の結果ページ（転送ページ）
+MV = json.load(open('src/data/quizMovedCodes.json'))
+old0, new0 = list(MV.items())[0][0], list(MV.items())[0][1]['to']
+case('消えた旅先の結果ページが無い', [f'dist/quiz/r/{old0}/index.html'], lambda f, b: None)
+case('消えた旅先の結果ページに転送（meta refresh）が無い', [f'dist/quiz/r/{old0}/index.html'], txt(lambda t: t.replace('http-equiv="refresh"', 'http-equiv="x"')))
+case('消えた旅先の結果ページが noindex でない', [f'dist/quiz/r/{old0}/index.html'], txt(lambda t: t.replace('content="noindex,follow"', 'content="index,follow"')))
 rc, _ = run()
 print('復元後:', rc == 0 and '合格' or '不合格')

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "note": "所要時間または宿の送迎の文を削除した description。descStyleCheck は数値・字数・短文の条件を、この一覧には適用しない（数字を作らないため）",
+  "note": "所要時間または宿の送迎の文を削除した description。descStyleCheck は数値・字数・短文の条件を、この一覧には適用しない（数字を作らないため） 2026-11-18: 近い場所を統合したページ5つ（見出しの名前を並べた description）も加えた。",
   "ids": [
     "abashiri",
     "ainan",
@@ -193,6 +193,9 @@
     "misasa-onsen",
     "futamata-onsen",
     "kumano-kodo",
-    "utto"
+    "utto",
+    "tokashiki-jima",
+    "shiraishijima",
+    "chichijima"
   ]
 }

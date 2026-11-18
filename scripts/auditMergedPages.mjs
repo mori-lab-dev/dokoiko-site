@@ -14,7 +14,7 @@ const sitemap = fs.readFileSync(path.join(dist, 'sitemap.xml'), 'utf8');
 const bad = { stub: [], sitemap: [], data: [], links: [] };
 const fromSet = new Set(pairs.map((p) => p.from));
 const enc = (id) => encodeURIComponent(id);
-for (const { from, to } of pairs) {
+for (const { from, to, hash } of pairs) {
   const f = path.join(dist, 'destinations', from, 'index.html');
   if (!fs.existsSync(f)) { bad.stub.push(`${from}（dist なし）`); }
   else {
@@ -22,13 +22,16 @@ for (const { from, to } of pairs) {
     const canon = h.match(/<link rel="canonical" href="([^"]*)"/)?.[1];
     const refresh = h.match(/<meta http-equiv="refresh" content="([^"]*)"/)?.[1];
     if (canon !== `https://tabidokoiko.com/destinations/${enc(to)}/`) bad.stub.push(`${from}: canonical が ${canon ?? 'なし'}`);
-    if (refresh !== `0; url=/destinations/${to}/`) bad.stub.push(`${from}: meta refresh が ${refresh ?? 'なし'}`);
+    if (refresh !== `0; url=/destinations/${to}/${hash ? '#' + hash : ''}`) bad.stub.push(`${from}: meta refresh が ${refresh ?? 'なし'}（期待 0; url=/destinations/${to}/${hash ? '#' + hash : ''}）`);
+    if (hash && !h.includes(`href="/destinations/${to}/#${hash}"`)) bad.stub.push(`${from}: 本文のリンクに #${hash} が無い`);
+    if (hash && !h.includes(`location.replace("/destinations/${to}/#${hash}")`) && !h.includes(`/destinations/${to}/#${hash}`)) bad.stub.push(`${from}: アンカー付きの転送先（スクリプト）が無い`);
     if (/<meta[^>]+name="robots"[^>]*noindex/i.test(h)) bad.stub.push(`${from}: noindex がある`);
   }
   if (sitemap.includes(`/destinations/${enc(from)}/`) || sitemap.includes(`/destinations/${from}/`)) bad.sitemap.push(`${from}（sitemap に載っている）`);
   if (!sitemap.includes(`/destinations/${enc(to)}/`)) bad.sitemap.push(`${to}（残す側が sitemap に無い）`);
   if (dests.has(from)) bad.data.push(`${from}（destinations.json に残っている）`);
   if (!dests.has(to)) bad.data.push(`${to}（残す側が destinations.json に無い）`);
+  if (hash) { const tf = path.join(dist, 'destinations', to, 'index.html'); if (!fs.existsSync(tf) || !fs.readFileSync(tf, 'utf8').includes(`id="${hash}"`)) bad.data.push(`${to}: 見出し id="${hash}"（転送先のアンカー）が統合ページに無い`); }
 }
 const walk = (dir, out = []) => { for (const e of fs.readdirSync(dir, { withFileTypes: true })) { const p = path.join(dir, e.name); if (e.isDirectory()) walk(p, out); else if (e.name.endsWith('.html')) out.push(p); } return out; };
 const needles = pairs.flatMap((p) => [[p.from, `/destinations/${p.from}/`], [p.from, `/destinations/${enc(p.from)}/`]]);

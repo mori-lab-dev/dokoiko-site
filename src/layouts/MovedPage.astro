@@ -5,11 +5,14 @@
  * noindex は入れない（入れると Google が URL を評価ごと落とす）。sitemap には載せない（sitemap は destinations.json から作るため、
  * データから消えた id は自動で載らない）。検査は scripts/auditMergedPages.mjs。
  */
-interface Props { fromName: string; toId: string; toName: string; }
-const { fromName, toId, toName } = Astro.props;
+interface Props { fromName: string; toId: string; toName: string; toHash?: string; }
+const { fromName, toId, toName, toHash } = Astro.props;
+// toHash: 統合ページの見出しのid（元のページ id）。あれば、その見出しの位置（アンカー）へ飛ばす（2026-11-18）。canonical は #なし（評価の集約先はページ）。
 const TO = `/destinations/${toId}/`;
+const GO = toHash ? `${TO}#${toHash}` : TO;
 const ABS = `https://tabidokoiko.com${TO}`;
-const DESC = `同名の「${fromName}」のページは、${toName}のページに統合しました。`;
+const LEAD = toHash ? `近い場所の「${fromName}」のページは、` : `同名の「${fromName}」のページは、`;
+const DESC = `${LEAD}${toName}のページに統合しました。`;
 ---
 <html lang="ja">
   <head>
@@ -17,7 +20,7 @@ const DESC = `同名の「${fromName}」のページは、${toName}のページ�
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{`「${fromName}」は「${toName}」に統合しました｜どこ行こ？`}</title>
     <link rel="canonical" href={ABS} />
-    <meta http-equiv="refresh" content={`0; url=${TO}`} />
+    <meta http-equiv="refresh" content={`0; url=${GO}`} />
     <meta name="description" content={DESC} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={ABS} />
@@ -34,10 +37,10 @@ const DESC = `同名の「${fromName}」のページは、${toName}のページ�
     </style>
   </head>
   <body>
-    <p>同名の「{fromName}」のページは<strong>{toName}</strong>のページに統合しました。</p>
-    <p><a href={TO}>{toName}のページへ移動する →</a></p>
-    <script is:inline define:vars={{ TO }}>
-      location.replace(TO);
+    <p>{LEAD}<strong>{toName}</strong>のページに統合しました。</p>
+    <p><a href={GO}>{toName}のページへ移動する →</a></p>
+    <script is:inline define:vars={{ GO }}>
+      location.replace(GO);
     </script>
   </body>
 </html>

@@ -1,10 +1,102 @@
 {
-  "note": "統合した旧ページ（転送ページ）。from の旧URLは転送ページになり、sitemap に載らず、内部リンクの先にならない。検査は scripts/auditMergedPages.mjs",
+  "note": "統合した旧ページ（転送ページ）。from の旧URLは転送ページになり、sitemap に載らず、内部リンクの先にならない。近い場所の統合（hash あり・2026-11-18）は、転送先の見出し（id=hash）のアンカーへ飛ばす。検査は scripts/auditMergedPages.mjs",
   "pairs": [
-    { "from": "kumano", "to": "nachikatsuura", "date": "2026-10" },
-    { "from": "dazaifu-2", "to": "dazaifu", "date": "2026-11-09" },
-    { "from": "hokkaido-furano-2", "to": "furano", "date": "2026-11-09" },
-    { "from": "ohara-2", "to": "ohara", "date": "2026-11-09" },
-    { "from": "osorezan-area", "to": "osorezan", "date": "2026-11-09" }
+    {
+      "from": "kumano",
+      "to": "nachikatsuura",
+      "date": "2026-10"
+    },
+    {
+      "from": "dazaifu-2",
+      "to": "dazaifu",
+      "date": "2026-11-09"
+    },
+    {
+      "from": "hokkaido-furano-2",
+      "to": "furano",
+      "date": "2026-11-09"
+    },
+    {
+      "from": "ohara-2",
+      "to": "ohara",
+      "date": "2026-11-09"
+    },
+    {
+      "from": "osorezan-area",
+      "to": "osorezan",
+      "date": "2026-11-09"
+    },
+    {
+      "from": "kuniga",
+      "to": "nishinoshima",
+      "hash": "kuniga",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "ama-island",
+      "to": "nishinoshima",
+      "hash": "ama-island",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "nakanoshima-oki",
+      "to": "nishinoshima",
+      "hash": "nakanoshima-oki",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "oki-island",
+      "to": "nishinoshima",
+      "hash": "oki-island",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "aharen",
+      "to": "tokashiki-jima",
+      "hash": "aharen",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "zamami-island",
+      "to": "tokashiki-jima",
+      "hash": "zamami-island",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "aka-island",
+      "to": "tokashiki-jima",
+      "hash": "aka-island",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "manabeshima",
+      "to": "shiraishijima",
+      "hash": "manabeshima",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "kasaoka-islands",
+      "to": "shiraishijima",
+      "hash": "kasaoka-islands",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "hahajima",
+      "to": "chichijima",
+      "hash": "hahajima",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "hitoyoshi-city",
+      "to": "hitoyoshi",
+      "hash": "hitoyoshi-city",
+      "date": "2026-11-18"
+    },
+    {
+      "from": "hitoyoshi-onsen",
+      "to": "hitoyoshi",
+      "hash": "hitoyoshi-onsen",
+      "date": "2026-11-18"
+    }
   ]
 }

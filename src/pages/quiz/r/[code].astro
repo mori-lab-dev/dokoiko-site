@@ -5,10 +5,14 @@
 // ・共通レイアウトは使わない（1枚あたりのHTMLを小さくして、配信物を増やしすぎないため。1,191ページぶん）。GA4 は既存のタグ。
 import data from '../../../data/quizDestinations.json';
 import descs from '../../../data/quizDesc.json';
+import moved from '../../../data/quizMovedCodes.json';
+// 近い旅先ページを統合して診断の候補から消えた旅先（2026-11-18）の結果ページは、統合先の結果ページへの転送ページにする（noindex,follow・canonical は /quiz/・共有の utm は引き継ぐ）。
 export function getStaticPaths() {
-  return (data as any[]).map((d) => ({ params: { code: d.code }, props: { d } }));
+  const live = (data as any[]).map((d) => ({ params: { code: d.code }, props: { d, movedFrom: null } }));
+  const gone = Object.entries(moved as Record<string, { to: string }>).map(([old, m]) => ({ params: { code: old }, props: { d: (data as any[]).find((x) => x.code === m.to), movedFrom: old } }));
+  return [...live, ...gone];
 }
-const { d } = Astro.props as { d: any };
+const { d, movedFrom } = Astro.props as { d: any; movedFrom: string | null };
 const SITE = 'https://tabidokoiko.com';
 const label = `${d.name}（${d.prefecture}）`;
 const title = `私に似合う旅先は【${d.name}(${d.prefecture})】｜旅先診断｜どこ行こ？`;
@@ -29,6 +33,10 @@ const nameSize = L <= 3 ? 44 : L <= 6 ? 38 : L <= 9 ? 32 : L <= 12 ? 28 : 24;   
 <title>{title}</title>
 <meta name="description" content={description}>
 <meta name="robots" content="noindex,follow">
+{movedFrom && <meta http-equiv="refresh" content={`0; url=/quiz/r/${d.code}/`} />}
+{movedFrom && (<script is:inline define:vars={{ to: `/quiz/r/${d.code}/` }}>
+  location.replace(to + location.search);
+</script>)}
 <link rel="canonical" href={`${SITE}/quiz/`}>
 <meta property="og:type" content="website">
 <meta property="og:url" content={url}>

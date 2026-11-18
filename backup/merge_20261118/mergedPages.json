@@ -1,0 +1,10 @@
+{
+  "note": "統合した旧ページ（転送ページ）。from の旧URLは転送ページになり、sitemap に載らず、内部リンクの先にならない。検査は scripts/auditMergedPages.mjs",
+  "pairs": [
+    { "from": "kumano", "to": "nachikatsuura", "date": "2026-10" },
+    { "from": "dazaifu-2", "to": "dazaifu", "date": "2026-11-09" },
+    { "from": "hokkaido-furano-2", "to": "furano", "date": "2026-11-09" },
+    { "from": "ohara-2", "to": "ohara", "date": "2026-11-09" },
+    { "from": "osorezan-area", "to": "osorezan", "date": "2026-11-09" }
+  ]
+}

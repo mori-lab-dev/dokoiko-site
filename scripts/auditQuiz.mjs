@@ -205,6 +205,23 @@ init('OGP画像の不備');
 if (!read('dist/index.html').includes('href="/quiz/"')) add('導線・sitemap', 'トップのナビ・フッターに /quiz/ へのリンクが無い');
 if (!read('dist/about/index.html').includes('href="/quiz/"')) add('導線・sitemap', '固定ページのナビ・フッターに /quiz/ へのリンクが無い');
 
+// ---- 統合で診断の候補から消えた旅先の結果ページ（2026-11-18）: 統合先の結果ページへの転送ページ（noindex,follow・canonical は /quiz/・meta refresh）
+init('統合で消えた旅先の結果ページの不備');
+{
+  const mf = 'src/data/quizMovedCodes.json'; const moved = fs.existsSync(mf) ? JSON.parse(read(mf)) : {};
+  const liveCodes = new Set(JSON.parse(jsonText).map((d) => d.code));
+  for (const [old, m] of Object.entries(moved)) {
+    const f = `dist/quiz/r/${old}/index.html`;
+    if (liveCodes.has(old)) { add('統合で消えた旅先の結果ページの不備', `${old}（診断の旅先に残っている）`); continue; }
+    if (!liveCodes.has(m.to)) add('統合で消えた旅先の結果ページの不備', `${old}（転送先 ${m.to} が診断に無い）`);
+    if (!fs.existsSync(f)) { add('統合で消えた旅先の結果ページの不備', `${old}（転送ページが無い）`); continue; }
+    const t = read(f);
+    if (!/<meta name="robots" content="noindex,follow"/.test(t) || !t.includes(`<link rel="canonical" href="${SITE}/quiz/"`)) add('統合で消えた旅先の結果ページの不備', `${old}（noindex,follow・canonical /quiz/）`);
+    if (!t.includes(`http-equiv="refresh" content="0; url=/quiz/r/${m.to}/"`)) add('統合で消えた旅先の結果ページの不備', `${old}（meta refresh が /quiz/r/${m.to}/ でない）`);
+    if (fs.existsSync(`public/quiz/og/${old}.png`)) add('統合で消えた旅先の結果ページの不備', `${old}（消えた旅先の共有画像が残っている）`);
+  }
+}
+
 // ---- 地図の見た目: 近い点を表示のときだけ1つにまとめる（2026-11-18）。旧の描画（全点をそのまま描く）に戻っていないか
 init('地図のまとめ描画の不備');
 {

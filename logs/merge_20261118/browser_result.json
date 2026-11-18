@@ -1,0 +1,851 @@
+{
+ "項目": 169,
+ "NG": 0,
+ "結果": [
+  {
+   "name": "390 隠岐諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 隠岐諸島 元の各ページが見出し（h2・id=元のid）になっている（5件）",
+   "ok": true,
+   "extra": "nishinoshima:西ノ島 / kuniga:国賀海岸 / ama-island:海士町 / nakanoshima-oki:中ノ島 / oki-island:隠岐の島"
+  },
+  {
+   "name": "390 隠岐諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "西ノ島:3 国賀海岸:3 海士町:3 中ノ島:3 隠岐の島:3"
+  },
+  {
+   "name": "390 隠岐諸島 節・見出し画像の出典の数が一致（11）",
+   "ok": true,
+   "extra": "3,1,3,2,2"
+  },
+  {
+   "name": "390 隠岐諸島 おすすめの宿のカードが1軒（国賀荘）",
+   "ok": true,
+   "extra": "国賀荘"
+  },
+  {
+   "name": "390 隠岐諸島 カードにしなかった宿は、見出しの下に宿名だけ（2件）",
+   "ok": true,
+   "extra": "海士町のおすすめの宿: Entô（エントウ） | 中ノ島のおすすめの宿: Entô（エントウ）"
+  },
+  {
+   "name": "390 隠岐諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "390 慶良間諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 慶良間諸島 元の各ページが見出し（h2・id=元のid）になっている（4件）",
+   "ok": true,
+   "extra": "tokashiki-jima:渡嘉敷島 / aharen:阿波連ビーチ / zamami-island:座間味島 / aka-island:阿嘉島"
+  },
+  {
+   "name": "390 慶良間諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "渡嘉敷島:3 阿波連ビーチ:3 座間味島:3 阿嘉島:3"
+  },
+  {
+   "name": "390 慶良間諸島 節・見出し画像の出典の数が一致（13）",
+   "ok": true,
+   "extra": "3,3,3,4"
+  },
+  {
+   "name": "390 慶良間諸島 おすすめの宿のカードが1軒（ケラマテラス）",
+   "ok": true,
+   "extra": "ケラマテラス"
+  },
+  {
+   "name": "390 慶良間諸島 カードにしなかった宿は、見出しの下に宿名だけ（1件）",
+   "ok": true,
+   "extra": "座間味島のおすすめの宿: サンメール座間味"
+  },
+  {
+   "name": "390 慶良間諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "390 笠岡諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 笠岡諸島 元の各ページが見出し（h2・id=元のid）になっている（3件）",
+   "ok": true,
+   "extra": "shiraishijima:白石島 / manabeshima:真鍋島 / kasaoka-islands:笠岡諸島（全体）"
+  },
+  {
+   "name": "390 笠岡諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "白石島:3 真鍋島:3 笠岡諸島（全体）:3"
+  },
+  {
+   "name": "390 笠岡諸島 節・見出し画像の出典の数が一致（7）",
+   "ok": true,
+   "extra": "2,2,3"
+  },
+  {
+   "name": "390 笠岡諸島 おすすめの宿のカードが1軒（島宿 三虎）",
+   "ok": true,
+   "extra": "島宿 三虎"
+  },
+  {
+   "name": "390 笠岡諸島 カードにしなかった宿は、見出しの下に宿名だけ（0件）",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 笠岡諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "390 小笠原諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 小笠原諸島 元の各ページが見出し（h2・id=元のid）になっている（2件）",
+   "ok": true,
+   "extra": "chichijima:父島 / hahajima:母島"
+  },
+  {
+   "name": "390 小笠原諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "父島:3 母島:3"
+  },
+  {
+   "name": "390 小笠原諸島 節・見出し画像の出典の数が一致（5）",
+   "ok": true,
+   "extra": "2,3"
+  },
+  {
+   "name": "390 小笠原諸島 おすすめの宿のカードが1軒（ホテルホライズン）",
+   "ok": true,
+   "extra": "ホテルホライズン"
+  },
+  {
+   "name": "390 小笠原諸島 カードにしなかった宿は、見出しの下に宿名だけ（0件）",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 小笠原諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "390 人吉 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 人吉 元の各ページが見出し（h2・id=元のid）になっている（3件）",
+   "ok": true,
+   "extra": "hitoyoshi:人吉 / hitoyoshi-city:人吉・球磨 / hitoyoshi-onsen:人吉温泉"
+  },
+  {
+   "name": "390 人吉 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "人吉:3 人吉・球磨:3 人吉温泉:3"
+  },
+  {
+   "name": "390 人吉 節・見出し画像の出典の数が一致（5）",
+   "ok": true,
+   "extra": "1,3,1"
+  },
+  {
+   "name": "390 人吉 おすすめの宿のカードが1軒（人吉旅館）",
+   "ok": true,
+   "extra": "人吉旅館"
+  },
+  {
+   "name": "390 人吉 カードにしなかった宿は、見出しの下に宿名だけ（1件）",
+   "ok": true,
+   "extra": "人吉・球磨のおすすめの宿: 清流山水花 あゆの里"
+  },
+  {
+   "name": "390 人吉 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "390 統合ページ5つ: ブラウザのエラーなし",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 隠岐諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 隠岐諸島 元の各ページが見出し（h2・id=元のid）になっている（5件）",
+   "ok": true,
+   "extra": "nishinoshima:西ノ島 / kuniga:国賀海岸 / ama-island:海士町 / nakanoshima-oki:中ノ島 / oki-island:隠岐の島"
+  },
+  {
+   "name": "360 隠岐諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "西ノ島:3 国賀海岸:3 海士町:3 中ノ島:3 隠岐の島:3"
+  },
+  {
+   "name": "360 隠岐諸島 節・見出し画像の出典の数が一致（11）",
+   "ok": true,
+   "extra": "3,1,3,2,2"
+  },
+  {
+   "name": "360 隠岐諸島 おすすめの宿のカードが1軒（国賀荘）",
+   "ok": true,
+   "extra": "国賀荘"
+  },
+  {
+   "name": "360 隠岐諸島 カードにしなかった宿は、見出しの下に宿名だけ（2件）",
+   "ok": true,
+   "extra": "海士町のおすすめの宿: Entô（エントウ） | 中ノ島のおすすめの宿: Entô（エントウ）"
+  },
+  {
+   "name": "360 隠岐諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "360 慶良間諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 慶良間諸島 元の各ページが見出し（h2・id=元のid）になっている（4件）",
+   "ok": true,
+   "extra": "tokashiki-jima:渡嘉敷島 / aharen:阿波連ビーチ / zamami-island:座間味島 / aka-island:阿嘉島"
+  },
+  {
+   "name": "360 慶良間諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "渡嘉敷島:3 阿波連ビーチ:3 座間味島:3 阿嘉島:3"
+  },
+  {
+   "name": "360 慶良間諸島 節・見出し画像の出典の数が一致（13）",
+   "ok": true,
+   "extra": "3,3,3,4"
+  },
+  {
+   "name": "360 慶良間諸島 おすすめの宿のカードが1軒（ケラマテラス）",
+   "ok": true,
+   "extra": "ケラマテラス"
+  },
+  {
+   "name": "360 慶良間諸島 カードにしなかった宿は、見出しの下に宿名だけ（1件）",
+   "ok": true,
+   "extra": "座間味島のおすすめの宿: サンメール座間味"
+  },
+  {
+   "name": "360 慶良間諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "360 笠岡諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 笠岡諸島 元の各ページが見出し（h2・id=元のid）になっている（3件）",
+   "ok": true,
+   "extra": "shiraishijima:白石島 / manabeshima:真鍋島 / kasaoka-islands:笠岡諸島（全体）"
+  },
+  {
+   "name": "360 笠岡諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "白石島:3 真鍋島:3 笠岡諸島（全体）:3"
+  },
+  {
+   "name": "360 笠岡諸島 節・見出し画像の出典の数が一致（7）",
+   "ok": true,
+   "extra": "2,2,3"
+  },
+  {
+   "name": "360 笠岡諸島 おすすめの宿のカードが1軒（島宿 三虎）",
+   "ok": true,
+   "extra": "島宿 三虎"
+  },
+  {
+   "name": "360 笠岡諸島 カードにしなかった宿は、見出しの下に宿名だけ（0件）",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 笠岡諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "360 小笠原諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 小笠原諸島 元の各ページが見出し（h2・id=元のid）になっている（2件）",
+   "ok": true,
+   "extra": "chichijima:父島 / hahajima:母島"
+  },
+  {
+   "name": "360 小笠原諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "父島:3 母島:3"
+  },
+  {
+   "name": "360 小笠原諸島 節・見出し画像の出典の数が一致（5）",
+   "ok": true,
+   "extra": "2,3"
+  },
+  {
+   "name": "360 小笠原諸島 おすすめの宿のカードが1軒（ホテルホライズン）",
+   "ok": true,
+   "extra": "ホテルホライズン"
+  },
+  {
+   "name": "360 小笠原諸島 カードにしなかった宿は、見出しの下に宿名だけ（0件）",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 小笠原諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "360 人吉 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "360 人吉 元の各ページが見出し（h2・id=元のid）になっている（3件）",
+   "ok": true,
+   "extra": "hitoyoshi:人吉 / hitoyoshi-city:人吉・球磨 / hitoyoshi-onsen:人吉温泉"
+  },
+  {
+   "name": "360 人吉 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "人吉:3 人吉・球磨:3 人吉温泉:3"
+  },
+  {
+   "name": "360 人吉 節・見出し画像の出典の数が一致（5）",
+   "ok": true,
+   "extra": "1,3,1"
+  },
+  {
+   "name": "360 人吉 おすすめの宿のカードが1軒（人吉旅館）",
+   "ok": true,
+   "extra": "人吉旅館"
+  },
+  {
+   "name": "360 人吉 カードにしなかった宿は、見出しの下に宿名だけ（1件）",
+   "ok": true,
+   "extra": "人吉・球磨のおすすめの宿: 清流山水花 あゆの里"
+  },
+  {
+   "name": "360 人吉 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "360 統合ページ5つ: ブラウザのエラーなし",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 隠岐諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 隠岐諸島 元の各ページが見出し（h2・id=元のid）になっている（5件）",
+   "ok": true,
+   "extra": "nishinoshima:西ノ島 / kuniga:国賀海岸 / ama-island:海士町 / nakanoshima-oki:中ノ島 / oki-island:隠岐の島"
+  },
+  {
+   "name": "1280 隠岐諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "西ノ島:3 国賀海岸:3 海士町:3 中ノ島:3 隠岐の島:3"
+  },
+  {
+   "name": "1280 隠岐諸島 節・見出し画像の出典の数が一致（11）",
+   "ok": true,
+   "extra": "3,1,3,2,2"
+  },
+  {
+   "name": "1280 隠岐諸島 おすすめの宿のカードが1軒（国賀荘）",
+   "ok": true,
+   "extra": "国賀荘"
+  },
+  {
+   "name": "1280 隠岐諸島 カードにしなかった宿は、見出しの下に宿名だけ（2件）",
+   "ok": true,
+   "extra": "海士町のおすすめの宿: Entô（エントウ） | 中ノ島のおすすめの宿: Entô（エントウ）"
+  },
+  {
+   "name": "1280 隠岐諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "1280 慶良間諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 慶良間諸島 元の各ページが見出し（h2・id=元のid）になっている（4件）",
+   "ok": true,
+   "extra": "tokashiki-jima:渡嘉敷島 / aharen:阿波連ビーチ / zamami-island:座間味島 / aka-island:阿嘉島"
+  },
+  {
+   "name": "1280 慶良間諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "渡嘉敷島:3 阿波連ビーチ:3 座間味島:3 阿嘉島:3"
+  },
+  {
+   "name": "1280 慶良間諸島 節・見出し画像の出典の数が一致（13）",
+   "ok": true,
+   "extra": "3,3,3,4"
+  },
+  {
+   "name": "1280 慶良間諸島 おすすめの宿のカードが1軒（ケラマテラス）",
+   "ok": true,
+   "extra": "ケラマテラス"
+  },
+  {
+   "name": "1280 慶良間諸島 カードにしなかった宿は、見出しの下に宿名だけ（1件）",
+   "ok": true,
+   "extra": "座間味島のおすすめの宿: サンメール座間味"
+  },
+  {
+   "name": "1280 慶良間諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "1280 笠岡諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 笠岡諸島 元の各ページが見出し（h2・id=元のid）になっている（3件）",
+   "ok": true,
+   "extra": "shiraishijima:白石島 / manabeshima:真鍋島 / kasaoka-islands:笠岡諸島（全体）"
+  },
+  {
+   "name": "1280 笠岡諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "白石島:3 真鍋島:3 笠岡諸島（全体）:3"
+  },
+  {
+   "name": "1280 笠岡諸島 節・見出し画像の出典の数が一致（7）",
+   "ok": true,
+   "extra": "2,2,3"
+  },
+  {
+   "name": "1280 笠岡諸島 おすすめの宿のカードが1軒（島宿 三虎）",
+   "ok": true,
+   "extra": "島宿 三虎"
+  },
+  {
+   "name": "1280 笠岡諸島 カードにしなかった宿は、見出しの下に宿名だけ（0件）",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 笠岡諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "1280 小笠原諸島 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 小笠原諸島 元の各ページが見出し（h2・id=元のid）になっている（2件）",
+   "ok": true,
+   "extra": "chichijima:父島 / hahajima:母島"
+  },
+  {
+   "name": "1280 小笠原諸島 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "父島:3 母島:3"
+  },
+  {
+   "name": "1280 小笠原諸島 節・見出し画像の出典の数が一致（5）",
+   "ok": true,
+   "extra": "2,3"
+  },
+  {
+   "name": "1280 小笠原諸島 おすすめの宿のカードが1軒（ホテルホライズン）",
+   "ok": true,
+   "extra": "ホテルホライズン"
+  },
+  {
+   "name": "1280 小笠原諸島 カードにしなかった宿は、見出しの下に宿名だけ（0件）",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 小笠原諸島 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "1280 人吉 見出し（h1）が統合後の名前",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "1280 人吉 元の各ページが見出し（h2・id=元のid）になっている（3件）",
+   "ok": true,
+   "extra": "hitoyoshi:人吉 / hitoyoshi-city:人吉・球磨 / hitoyoshi-onsen:人吉温泉"
+  },
+  {
+   "name": "1280 人吉 各見出しの節の数が元のページと同じ",
+   "ok": true,
+   "extra": "人吉:3 人吉・球磨:3 人吉温泉:3"
+  },
+  {
+   "name": "1280 人吉 節・見出し画像の出典の数が一致（5）",
+   "ok": true,
+   "extra": "1,3,1"
+  },
+  {
+   "name": "1280 人吉 おすすめの宿のカードが1軒（人吉旅館）",
+   "ok": true,
+   "extra": "人吉旅館"
+  },
+  {
+   "name": "1280 人吉 カードにしなかった宿は、見出しの下に宿名だけ（1件）",
+   "ok": true,
+   "extra": "人吉・球磨のおすすめの宿: 清流山水花 あゆの里"
+  },
+  {
+   "name": "1280 人吉 横スクロールなし",
+   "ok": true,
+   "extra": "差=0"
+  },
+  {
+   "name": "1280 統合ページ5つ: ブラウザのエラーなし",
+   "ok": true,
+   "extra": ""
+  },
+  {
+   "name": "390 転送 kuniga → /destinations/nishinoshima/#kuniga",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#kuniga"
+  },
+  {
+   "name": "390 転送 kuniga: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 ama-island → /destinations/nishinoshima/#ama-island",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#ama-island"
+  },
+  {
+   "name": "390 転送 ama-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 nakanoshima-oki → /destinations/nishinoshima/#nakanoshima-oki",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#nakanoshima-oki"
+  },
+  {
+   "name": "390 転送 nakanoshima-oki: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 oki-island → /destinations/nishinoshima/#oki-island",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#oki-island"
+  },
+  {
+   "name": "390 転送 oki-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 aharen → /destinations/tokashiki-jima/#aharen",
+   "ok": true,
+   "extra": "/destinations/tokashiki-jima/#aharen"
+  },
+  {
+   "name": "390 転送 aharen: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 zamami-island → /destinations/tokashiki-jima/#zamami-island",
+   "ok": true,
+   "extra": "/destinations/tokashiki-jima/#zamami-island"
+  },
+  {
+   "name": "390 転送 zamami-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 aka-island → /destinations/tokashiki-jima/#aka-island",
+   "ok": true,
+   "extra": "/destinations/tokashiki-jima/#aka-island"
+  },
+  {
+   "name": "390 転送 aka-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 manabeshima → /destinations/shiraishijima/#manabeshima",
+   "ok": true,
+   "extra": "/destinations/shiraishijima/#manabeshima"
+  },
+  {
+   "name": "390 転送 manabeshima: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 kasaoka-islands → /destinations/shiraishijima/#kasaoka-islands",
+   "ok": true,
+   "extra": "/destinations/shiraishijima/#kasaoka-islands"
+  },
+  {
+   "name": "390 転送 kasaoka-islands: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 hahajima → /destinations/chichijima/#hahajima",
+   "ok": true,
+   "extra": "/destinations/chichijima/#hahajima"
+  },
+  {
+   "name": "390 転送 hahajima: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 hitoyoshi-city → /destinations/hitoyoshi/#hitoyoshi-city",
+   "ok": true,
+   "extra": "/destinations/hitoyoshi/#hitoyoshi-city"
+  },
+  {
+   "name": "390 転送 hitoyoshi-city: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "390 転送 hitoyoshi-onsen → /destinations/hitoyoshi/#hitoyoshi-onsen",
+   "ok": true,
+   "extra": "/destinations/hitoyoshi/#hitoyoshi-onsen"
+  },
+  {
+   "name": "390 転送 hitoyoshi-onsen: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":844}"
+  },
+  {
+   "name": "1280 転送 kuniga → /destinations/nishinoshima/#kuniga",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#kuniga"
+  },
+  {
+   "name": "1280 転送 kuniga: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 ama-island → /destinations/nishinoshima/#ama-island",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#ama-island"
+  },
+  {
+   "name": "1280 転送 ama-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 nakanoshima-oki → /destinations/nishinoshima/#nakanoshima-oki",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#nakanoshima-oki"
+  },
+  {
+   "name": "1280 転送 nakanoshima-oki: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 oki-island → /destinations/nishinoshima/#oki-island",
+   "ok": true,
+   "extra": "/destinations/nishinoshima/#oki-island"
+  },
+  {
+   "name": "1280 転送 oki-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 aharen → /destinations/tokashiki-jima/#aharen",
+   "ok": true,
+   "extra": "/destinations/tokashiki-jima/#aharen"
+  },
+  {
+   "name": "1280 転送 aharen: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 zamami-island → /destinations/tokashiki-jima/#zamami-island",
+   "ok": true,
+   "extra": "/destinations/tokashiki-jima/#zamami-island"
+  },
+  {
+   "name": "1280 転送 zamami-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 aka-island → /destinations/tokashiki-jima/#aka-island",
+   "ok": true,
+   "extra": "/destinations/tokashiki-jima/#aka-island"
+  },
+  {
+   "name": "1280 転送 aka-island: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 manabeshima → /destinations/shiraishijima/#manabeshima",
+   "ok": true,
+   "extra": "/destinations/shiraishijima/#manabeshima"
+  },
+  {
+   "name": "1280 転送 manabeshima: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 kasaoka-islands → /destinations/shiraishijima/#kasaoka-islands",
+   "ok": true,
+   "extra": "/destinations/shiraishijima/#kasaoka-islands"
+  },
+  {
+   "name": "1280 転送 kasaoka-islands: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 hahajima → /destinations/chichijima/#hahajima",
+   "ok": true,
+   "extra": "/destinations/chichijima/#hahajima"
+  },
+  {
+   "name": "1280 転送 hahajima: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 hitoyoshi-city → /destinations/hitoyoshi/#hitoyoshi-city",
+   "ok": true,
+   "extra": "/destinations/hitoyoshi/#hitoyoshi-city"
+  },
+  {
+   "name": "1280 転送 hitoyoshi-city: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "1280 転送 hitoyoshi-onsen → /destinations/hitoyoshi/#hitoyoshi-onsen",
+   "ok": true,
+   "extra": "/destinations/hitoyoshi/#hitoyoshi-onsen"
+  },
+  {
+   "name": "1280 転送 hitoyoshi-onsen: その見出しが画面に入っている",
+   "ok": true,
+   "extra": "{\"top\":16,\"h\":800}"
+  },
+  {
+   "name": "390 診断の結果が統合後のページ名で出る: 隠岐諸島",
+   "ok": true,
+   "extra": "隠岐諸島 /destinations/nishinoshima/"
+  },
+  {
+   "name": "390 診断の結果が統合後のページ名で出る: 慶良間諸島",
+   "ok": true,
+   "extra": "慶良間諸島 /destinations/tokashiki-jima/"
+  },
+  {
+   "name": "390 診断の結果が統合後のページ名で出る: 笠岡諸島",
+   "ok": true,
+   "extra": "笠岡諸島 /destinations/shiraishijima/"
+  },
+  {
+   "name": "390 診断の結果が統合後のページ名で出る: 人吉",
+   "ok": true,
+   "extra": "人吉 /destinations/hitoyoshi/"
+  },
+  {
+   "name": "360 診断の結果が統合後のページ名で出る: 隠岐諸島",
+   "ok": true,
+   "extra": "隠岐諸島 /destinations/nishinoshima/"
+  },
+  {
+   "name": "360 診断の結果が統合後のページ名で出る: 慶良間諸島",
+   "ok": true,
+   "extra": "慶良間諸島 /destinations/tokashiki-jima/"
+  },
+  {
+   "name": "360 診断の結果が統合後のページ名で出る: 笠岡諸島",
+   "ok": true,
+   "extra": "笠岡諸島 /destinations/shiraishijima/"
+  },
+  {
+   "name": "360 診断の結果が統合後のページ名で出る: 人吉",
+   "ok": true,
+   "extra": "人吉 /destinations/hitoyoshi/"
+  },
+  {
+   "name": "1280 診断の結果が統合後のページ名で出る: 隠岐諸島",
+   "ok": true,
+   "extra": "隠岐諸島 /destinations/nishinoshima/"
+  },
+  {
+   "name": "1280 診断の結果が統合後のページ名で出る: 慶良間諸島",
+   "ok": true,
+   "extra": "慶良間諸島 /destinations/tokashiki-jima/"
+  },
+  {
+   "name": "1280 診断の結果が統合後のページ名で出る: 笠岡諸島",
+   "ok": true,
+   "extra": "笠岡諸島 /destinations/shiraishijima/"
+  },
+  {
+   "name": "1280 診断の結果が統合後のページ名で出る: 人吉",
+   "ok": true,
+   "extra": "人吉 /destinations/hitoyoshi/"
+  },
+  {
+   "name": "消えた旅先の結果ページ 12件が、統合先の結果ページへ転送される（utm を引き継ぐ）",
+   "ok": true,
+   "extra": ""
+  }
+ ]
+}

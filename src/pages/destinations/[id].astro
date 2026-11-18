@@ -25,6 +25,9 @@ const articlePath = path.join(process.cwd(), 'src/data/articles', `${dest.id}.js
 const article = fs.existsSync(articlePath)
   ? JSON.parse(fs.readFileSync(articlePath, 'utf8'))
   : null;
+// 近い旅先ページを統合したページ（2026-11-18・パイロット）: article.groups = 元の各ページを見出し（h2・id=元のid）にして引き継いだ中身。
+// 元のURL（転送ページ）は、この id のアンカーへ飛ばす。groups が無いページは、これまでどおり article.sections / spots を出す。
+const groups: any[] | null = (article && Array.isArray(article.groups) && article.groups.length) ? article.groups : null;
 
 // 画像判定: 1) public/images/{id}/main.jpg フォルダ形式 2) public/images/{id}.jpg 旧形式 3) destinations.json の images[0] が外部URL
 const hasMainImg = fs.existsSync(path.join(process.cwd(), 'public/images', dest.id, 'main.jpg'));
@@ -815,6 +818,10 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
     border-bottom: 2px solid #1a1a1a;
   }
   .spot-section { margin-bottom: 72px; }
+  .merged-group { margin: 56px 0 24px; scroll-margin-top: 16px; }
+  .merged-group-title { font-size: 22px; margin: 0 0 16px; padding-bottom: 8px; border-bottom: 2px solid #2A6049; letter-spacing: 0.04em; }
+  .merged-group-lead { white-space: pre-line; }
+  .merged-group-stay { font-size: 14px; color: #555; margin: 12px 0 0; }
   .spot-with-img {
     display: flex;
     flex-direction: column;
@@ -1666,12 +1673,12 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
           <div class="info-card-label">Best Season</div>
           <div class="info-card-value">{article.bestSeason}</div>
         </div>
-      ) : (
+      ) : (!groups && (
         <div class="info-card">
           <div class="info-card-label">Best Season</div>
           <div class="info-card-value">通年OK・四季それぞれの魅力</div>
         </div>
-      )}
+      ))}
       <div class="info-card">
         <div class="info-card-label">Stay</div>
         <div class="info-card-value">
@@ -1692,7 +1699,77 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
 
 
     <!-- スポット (article.sections優先、なければ dest.spots を簡易表示) -->
-    {article?.sections && article.sections.length > 0 ? (
+    {groups && (
+      <div>
+        <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
+        {(() => { let n = 0; return groups.map((g: any) => (
+          <section class="merged-group" id={g.id}>
+            <h2 class="merged-group-title">{g.title}</h2>
+            {g.image && g.image.url && (
+              <figure class="spot-figure merged-group-figure">
+                <img class="spot-thumb" src={g.image.url} {...dimAttrs(g.image.url)} alt={g.image.alt || `${g.title}の風景`} loading="lazy" onerror="this.style.display='none'" />
+                {g.image.credit && (g.image.credit.author || g.image.credit.license) && (
+                  <figcaption class="spot-credit">
+                    {g.image.credit.url
+                      ? <a href={g.image.credit.url} target="_blank" rel="noopener noreferrer">{g.image.credit.author || '作者不明'}</a>
+                      : (g.image.credit.author || '作者不明')}
+                    {g.image.credit.license ? ` / ${g.image.credit.license}` : ''}
+                  </figcaption>
+                )}
+              </figure>
+            )}
+            {g.lead && <p class="lead merged-group-lead">{g.lead}</p>}
+            {g.description && <p class="dest-description merged-group-desc">{g.description}</p>}
+            {(g.sections || []).map((section: any) => {
+              n += 1;
+              const sectionTitle = section.title || '';
+              const sc = section.imageCredit || null;
+              const sImg = section.imageUrl || null;
+              const sCredit = (sImg && sc && sc.attributionRequired !== false && (sc.author || sc.license)) ? sc : null;
+              return (
+                <div class="spot-section">
+                  <span class="spot-num">{String(n).padStart(2, '0')}</span>
+                  <div class={sImg ? 'spot-with-img' : ''}>
+                    {sImg && (
+                      <figure class="spot-figure">
+                        <img class="spot-thumb" src={sImg} {...dimAttrs(sImg)} alt={section.imageAlt || `${g.title}の${sectionTitle}`} loading="lazy" onerror="this.style.display='none'" />
+                        {sCredit && (
+                          <figcaption class="spot-credit">
+                            {sCredit.url
+                              ? <a href={sCredit.url} target="_blank" rel="noopener noreferrer">{sCredit.author || '作者不明'}</a>
+                              : (sCredit.author || '作者不明')}
+                            {sCredit.license ? ` / ${sCredit.license}` : ''}
+                          </figcaption>
+                        )}
+                      </figure>
+                    )}
+                    <div class="spot-content">
+                      <h3 class="spot-title">{sectionTitle}</h3>
+                      <div class="spot-body">
+                        {String(section.body || '').split('\n').map((x: string) => x.trim()).filter(Boolean).map((x: string) => (<p>{x}</p>))}
+                      </div>
+                      {section.info && <div class="spot-info">{section.info}</div>}
+                      <a href={gmapSpotUrl(section.mapName || sectionTitle)} target="_blank" rel="noopener noreferrer" class="spot-map">地図で見る →</a>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+            {g.modelCourse && (
+              <div class="course-section">
+                <h3>{g.title}のモデルコース</h3>
+                {g.modelCourse.daytrip && (<div class="course-card course-daytrip"><span class="course-label">Day Trip</span>{g.modelCourse.daytrip}</div>)}
+                {g.modelCourse.onenight && (<div class="course-card course-onenight"><span class="course-label">1 Night</span>{g.modelCourse.onenight}</div>)}
+              </div>
+            )}
+            {g.tips && (<div class="tips-box"><span class="tips-label">{g.title}の Travel Tips</span>{typeof g.tips === 'string' ? g.tips : g.tips.join('\n')}</div>)}
+            {g.bestSeason && (<div class="info-cards"><div class="info-card"><div class="info-card-label">{g.title}の Best Season</div><div class="info-card-value">{g.bestSeason}</div></div></div>)}
+            {g.stay && g.stay.name && (<p class="merged-group-stay">{g.title}のおすすめの宿: {g.stay.name}</p>)}
+          </section>
+        ));})()}
+      </div>
+    )}
+    {!groups && article?.sections && article.sections.length > 0 ? (
       <div>
         <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
         {article.sections.map((section: any, i: number) => {
@@ -1738,7 +1815,7 @@ const hubCity = _destHubCity && _destHubCity !== dest.name
           );
         })}
       </div>
-    ) : (((dest as any).spots && (dest as any).spots.length > 0) && (
+    ) : (!groups && ((dest as any).spots && (dest as any).spots.length > 0) && (
       <div>
         <h2 class="spots-heading">{dest.name}のおすすめスポット</h2>
         {((dest as any).spots).map((spot: any, i: number) => {

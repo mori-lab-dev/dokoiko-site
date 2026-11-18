@@ -4233,13 +4233,14 @@
   },
   {
     "id": "tokashiki-jima",
-    "name": "渡嘉敷島",
+    "name": "慶良間諸島",
     "type": "destination",
     "region": "沖縄",
     "hub": "那覇",
     "stayAllowed": [
       "daytrip",
-      "1night"
+      "1night",
+      "2night"
     ],
     "departures": [
       "東京",
@@ -4247,19 +4248,28 @@
       "福岡",
       "和歌山",
       "石垣",
-      "宮古"
+      "宮古",
+      "那覇",
+      "名古屋",
+      "広島",
+      "仙台",
+      "札幌",
+      "神戸",
+      "京都"
     ],
     "weight": 1.36,
-    "description": "那覇・泊港から高速船で約35分。沖縄本島の西に浮かぶ離島だ。渡嘉敷港を降り、バスで約20分走ると阿波連ビーチに着く。ケラマブルーと呼ばれる透明度の高い海が広がり、水中マスクで潜れば熱帯魚を間近に見られる。渡嘉敷ビーチは港から徒歩15分ほどで、人が少なく浜をゆっくり使える。阿波連展望台は急坂の先に立ち、コバルトブルーの海と珊瑚礁の白いふちを一望する。島は坂がきつく移動には車が必要で、コンビニもないため飲み物や日焼け止めは那覇で揃えてから乗船したい。光をそのまま閉じ込めたような水の色。",
+    "description": "沖縄県の渡嘉敷島・阿波連ビーチ・座間味島・阿嘉島の4か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。",
     "tags": [
       "離島",
-      "海"
+      "海",
+      "秘境",
+      "自然"
     ],
     "spots": [
       {
         "name": "阿波連ビーチ",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tokashikijima_2004.jpg/1280px-Tokashikijima_2004.jpg",
-        "description": "港からバスで20分ほどの場所に位置し、透明度の高い海で水中マスクを使ったシュノーケリングで熱帯魚を観察できる。",
+        "description": "港からバスで20分ほどの場所に位置し、透明度の高い海で水中マスクを使ったシュノーケリングで熱帯魚を観察できる。白砂と透明度の高い海が出迎える。足を入れれば磯の香りと潮の冷感が交わる、ウミガメの産卵地でもある浜。",
         "imageCredit": {
           "author": "Kennosuke Yamaguchi from Tokyo, Japan",
           "license": "CC BY-SA 2.0",
@@ -4288,6 +4298,76 @@
           "url": "https://commons.wikimedia.org/wiki/File:Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg",
           "attributionRequired": true
         }
+      },
+      {
+        "name": "阿波連園地",
+        "description": "無人島に位置する園地で、アコウの木が潮風に揺れる中、波の音を聞きながら海を眺めることができる。"
+      },
+      {
+        "name": "古座間味ビーチ",
+        "description": "座間味島を代表するビーチで、細砂の浜と座間味城址の断崖、時間によって色合いが変わるサンゴ礁を持つ。坂道を越え、木々の間を抜けた先に、透明度の高い青い海が待っている。アクセスの手間を忘れるほどの景色だ。",
+        "imageUrl": "/images/spots/aharen/2.jpg",
+        "imageCredit": {
+          "author": "kikmoyoo",
+          "license": "CC BY-SA 2.0",
+          "url": "https://www.flickr.com/photos/25133870@N00/1458724324",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "阿真ビーチ",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ama_beach_in_Zamami_Island.jpg/1280px-Ama_beach_in_Zamami_Island.jpg",
+        "description": "集落に寄り添う穏やかな浜。冬にはザトウクジラの歌声が水中に響く、生活の匂いのする透明度の高い海だ。",
+        "imageCredit": {
+          "author": "Hashi photo",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ama_beach_in_Zamami_Island.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "ホエールウォッチング",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ballenafranca%2Balvina.jpg/500px-Ballenafranca%2Balvina.jpg",
+        "description": "1〜3月限定。座間味島の沖合はザトウクジラの繁殖海域で、那覇発よりも近い距離でクジラに出会える。",
+        "imageCredit": {
+          "author": "Leonardo Lanza",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Ballenafranca%2Balvina.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "ニシ浜",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nishihama.JPG/500px-Nishihama.JPG",
+        "description": "粉末状の白砂に足先が包まれる浜。最高級の透明度を誇り、膝までの浅瀬を熱帯魚が指の間を泳ぎ去る。砂の温もりと海の冷感が交差する。",
+        "imageCredit": {
+          "author": "Snap55",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Nishihama.JPG",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "阿嘉大橋",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aka_Island_gsi-20081121.jpg/500px-Aka_Island_gsi-20081121.jpg",
+        "description": "慶良間諸島を結ぶ朱色の橋。足下に透明な海が映り、両側で色の違う水域が藍と翡翠のグラデーションを描く。往来の途中に絶景を占有できる。",
+        "imageCredit": {
+          "author": "Geospatial Information Authority of Japan",
+          "license": "Attribution",
+          "url": "https://commons.wikimedia.org/wiki/File:Aka_Island_gsi-20081121.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "展望台",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg/500px-Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg",
+        "description": "島全体を見渡す丘の上。塩気を含む強い風の中、眼下の集落と外洋を眺める。西陽が海面を金色に染め、慶良間ブルーの濃淡が時分ごとに変わる。",
+        "imageCredit": {
+          "author": "663highland",
+          "license": "CC BY 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "shinkansenAccess": false,
@@ -4301,7 +4381,8 @@
       ],
       "bus": [],
       "ferry": [
-        "泊港"
+        "泊港",
+        "那覇港"
       ]
     },
     "accessHub": null,
@@ -4325,25 +4406,7 @@
       "nagoya": 240,
       "fukuoka": 200,
       "takamatsu": 180,
-      "naha": 65,
-      "wakayama": 230,
-      "mito": 290,
-      "maebashi": 290,
-      "takasaki": 295,
-      "hamamatsu": 250,
-      "gifu": 250,
-      "kofu": 310,
-      "shingu": 270,
-      "tanabe": 265,
-      "shirahama": 265,
-      "kushimoto": 275,
-      "tottori": 270,
-      "shimonoseki": 210,
-      "saga": 205,
-      "oita": 185,
-      "beppu": 195,
-      "ishigaki": 120,
-      "miyako": 110
+      "naha": 65
     },
     "stayRecommendation": "1night",
     "secondaryTransport": null,
@@ -4445,7 +4508,13 @@
     "hubName": "那覇",
     "rentalCarRecommended": false,
     "images": [
-      "/images/tokashiki-jima/main.jpg"
+      "/images/tokashiki-jima/main.jpg",
+      "/images/aharen/main.jpg",
+      "/images/zamami-island/main.jpg",
+      "/images/aka-island/main.jpg",
+      "/images/aka-island/spot-1.jpg",
+      "/images/aka-island/spot-2.jpg",
+      "/images/aka-island/spot-3.jpg"
     ],
     "reasonChips": [
       "ビーチ",
@@ -4471,34 +4540,6 @@
       "hasShuttle": true,
       "shuttleInfo": "渡嘉敷港から宿の送迎車あり（港から車で約15分）",
       "accessStation": "那覇・泊港から高速船約35分、渡嘉敷港"
-    },
-    "travelTimeOriginal": {
-      "ishigaki": 90,
-      "miyako": 80
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true,
-      "ishigaki": true,
-      "miyako": true
-    },
-    "seo": {
-      "description": "沖縄本島の西に浮かぶ離島だ。ケラマブルーと呼ばれる透明度の高い海が広がり、水中マスクで潜れば熱帯魚を間近に見られる。阿波連展望台は急坂の先に立ち、コバルトブルーの海と珊瑚礁の白いふちを一望する。",
-      "auto": true
     }
   },
   {
@@ -25881,19 +25922,20 @@
       "福岡"
     ],
     "weight": 1.8,
-    "description": "青井阿蘇神社の楼門は慶長18年の造営。茅葺きで、柱には400年ぶんの苔が乗る。人吉駅から徒歩10分。人吉城跡に天守はなく、球磨川沿いに石垣が続く。球磨川くだりの舟は白波に突っ込み、水飛沫がそのまま顔に当たる。球磨焼酎は現地の酒屋で買うのが一番安い。人吉旅館は昭和9年の創業で、木造の建物が国の登録有形文化財になっている。2020年の豪雨で被害を受けた場所が残るため、行く前に最新の状況を確かめたい。",
+    "description": "熊本県の人吉・人吉・球磨・人吉温泉の3か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。",
     "tags": [
       "温泉",
       "歴史",
       "城",
       "寺社",
-      "冬"
+      "冬",
+      "自然"
     ],
     "spots": [
       {
         "name": "青井阿蘇神社",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aoi_Aso-jinja%2C_romon-1.jpg/500px-Aoi_Aso-jinja%2C_romon-1.jpg",
-        "description": "人吉駅から徒歩10分、慶長18年造営の茅葺きの楼門が構える神社。400年の湿気と苔をまとう柱の質感に触れられる。",
+        "description": "人吉駅から徒歩10分、慶長18年造営の茅葺きの楼門が構える神社。400年の湿気と苔をまとう柱の質感に触れられる。樹齢千年を超える楠が鎮座する古社。黒木造りの社殿は木目の香りと触感で古さを物語り、人吉の民が祈り続けた千年の質量を伝える。",
         "imageCredit": {
           "author": "Saigen Jiro",
           "license": "CC0",
@@ -25904,7 +25946,7 @@
       {
         "name": "人吉城跡",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hitoyoshi_Castle%2C_ni-no-maru.jpg/1280px-Hitoyoshi_Castle%2C_ni-no-maru.jpg",
-        "description": "天守は残らず、石垣と少しの復元建造物が球磨川沿いに続く城跡。川辺の景色とともに、静かな時間を歩ける。",
+        "description": "天守は残らず、石垣と少しの復元建造物が球磨川沿いに続く城跡。川辺の景色とともに、静かな時間を歩ける。武者返し」と呼ばれる反り返った石垣が特徴の城跡で、夕方は訪れる人が少なく、歴史ある空間をゆっくり巡ることができる。球磨川沿いに張り出す城跡。石垣が川の流れに沿って曲線を描き、水音が心地よい。歴史と湯治の二つの時間が交差する場所。",
         "imageCredit": {
           "author": "Saigen Jiro",
           "license": "CC0",
@@ -25915,11 +25957,22 @@
       {
         "name": "球磨川くだり",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kumagawa_Shiroishi.jpg/500px-Kumagawa_Shiroishi.jpg",
-        "description": "舟が白波に突っ込むたび水飛沫が顔を叩く川下り。九州山地が生んだ容赦ない流れの速さを、川面の高さで体感できる。",
+        "description": "舟が白波に突っ込むたび水飛沫が顔を叩く川下り。九州山地が生んだ容赦ない流れの速さを、川面の高さで体感できる。九州最後の清流を舟で下る名物体験。急流コースは本気で濡れるため、替えの靴下と濡れてよい服装が必須だ。急流の音が耳を満たし水しぶきが肌を濡らす舟旅。両岸の岩壁が迫る渓谷を縫い、歴史ある川路を身体で下る興奮を味わえる。",
         "imageCredit": {
           "author": "Bakkai at Japanese Wikipedia",
           "license": "CC BY-SA 3.0",
           "url": "https://commons.wikimedia.org/wiki/File:Kumagawa_Shiroishi.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "永国寺",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Yokoku-ji_Terazu_ac_%283%29.jpg/1280px-Yokoku-ji_Terazu_ac_%283%29.jpg",
+        "description": "西南戦争で西郷隆盛が本営を置いた寺。「幽霊の寺」とも呼ばれ、静けさに満ちた境内を歩ける。",
+        "imageCredit": {
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Yokoku-ji_Terazu_ac_(3).jpg",
           "attributionRequired": true
         }
       }
@@ -25953,22 +26006,7 @@
       "osaka": 300,
       "nagoya": 355,
       "fukuoka": 100,
-      "takamatsu": 310,
-      "mito": 485,
-      "maebashi": 500,
-      "takasaki": 500,
-      "hamamatsu": 385,
-      "gifu": 375,
-      "kofu": 530,
-      "shingu": 420,
-      "tanabe": 390,
-      "shirahama": 400,
-      "kushimoto": 420,
-      "tottori": 420,
-      "shimonoseki": 180,
-      "saga": 180,
-      "oita": 210,
-      "beppu": 220
+      "takamatsu": 310
     },
     "stayRecommendation": "1night",
     "secondaryTransport": null,
@@ -26053,7 +26091,12 @@
       "/images/hitoyoshi/main.jpg",
       "/images/hitoyoshi/spot-1.jpg",
       "/images/hitoyoshi/spot-2.jpg",
-      "/images/hitoyoshi/spot-3.jpg"
+      "/images/hitoyoshi/spot-3.jpg",
+      "/images/hitoyoshi-city/main.jpg",
+      "/images/hitoyoshi-city/spot-1.jpg",
+      "/images/hitoyoshi-city/spot-2.jpg",
+      "/images/hitoyoshi-city/spot-3.jpg",
+      "/images/hitoyoshi-onsen/main.jpg"
     ],
     "reasonChips": [
       "温泉",
@@ -26077,27 +26120,6 @@
       "catchcopy": "木造建築が国登録有形文化財、球磨川畔に立つ昭和九年創業の宿",
       "hasShuttle": false,
       "accessStation": "人吉駅"
-    },
-    "travelTimeEstimated": {
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "青井阿蘇神社の楼門は慶長18年の造営。茅葺きで、柱には400年ぶんの苔が乗る。人吉城跡に天守はなく、球磨川沿いに石垣が続く。",
-      "auto": true
     }
   },
   {
@@ -44317,275 +44339,6 @@
     },
     "seo": {
       "description": "沖縄本島北西部、本部半島に位置する本部は、沖縄美ら海水族館を中心に海と自然を楽しめるエリアだ。沖縄美ら海水族館では「黒潮の海」と呼ばれる大水槽にジンベエザメが泳ぎ、入場料は大人2,180円。",
-      "auto": true
-    }
-  },
-  {
-    "id": "zamami-island",
-    "name": "座間味島",
-    "type": "destination",
-    "region": "沖縄",
-    "hub": "那覇",
-    "stayAllowed": [
-      "1night",
-      "2night"
-    ],
-    "departures": [
-      "東京",
-      "大阪",
-      "名古屋",
-      "福岡",
-      "広島",
-      "仙台",
-      "札幌",
-      "神戸",
-      "京都",
-      "和歌山",
-      "石垣",
-      "宮古"
-    ],
-    "weight": 1.36,
-    "description": "那覇の泊港から高速船で約50分。「クイーンざまみ」は1日2便で、繁忙期は満席になる。2〜3週間前には押さえたい。古座間味ビーチは坂道を越えた先にあり、木々の間を抜けると透明度の高い海が開ける。阿真ビーチは集落のすぐそばで、波が穏やかだ。1月から3月にかけては島の沖合が繁殖海域になるため、那覇発より近い距離でホエールウォッチングができる。島にコンビニはない。座間味港のまわりに宿と食堂が集まっている。移動には車が要る。",
-    "tags": [
-      "離島",
-      "海"
-    ],
-    "spots": [
-      {
-        "name": "古座間味ビーチ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Furuzamami_beach_Okinawa_Zamami.jpg/1280px-Furuzamami_beach_Okinawa_Zamami.jpg",
-        "description": "坂道を越え、木々の間を抜けた先に、透明度の高い青い海が待っている。アクセスの手間を忘れるほどの景色だ。",
-        "imageCredit": {
-          "author": "Hashi photo",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Furuzamami_beach_Okinawa_Zamami.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "阿真ビーチ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ama_beach_in_Zamami_Island.jpg/1280px-Ama_beach_in_Zamami_Island.jpg",
-        "description": "集落に寄り添う穏やかな浜。冬にはザトウクジラの歌声が水中に響く、生活の匂いのする透明度の高い海だ。",
-        "imageCredit": {
-          "author": "Hashi photo",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Ama_beach_in_Zamami_Island.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "ホエールウォッチング",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ballenafranca%2Balvina.jpg/500px-Ballenafranca%2Balvina.jpg",
-        "description": "1〜3月限定。座間味島の沖合はザトウクジラの繁殖海域で、那覇発よりも近い距離でクジラに出会える。",
-        "imageCredit": {
-          "author": "Leonardo Lanza",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Ballenafranca%2Balvina.jpg",
-          "attributionRequired": false
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": true,
-    "isIsland": true,
-    "hotelSearch": "座間味島",
-    "gateways": {
-      "rail": [],
-      "airport": [
-        "那覇空港"
-      ],
-      "bus": [],
-      "ferry": [
-        "泊港"
-      ]
-    },
-    "accessHub": null,
-    "railNote": null,
-    "destType": "island",
-    "railGateway": null,
-    "busGateway": null,
-    "ferryGateway": "泊港",
-    "ferryOperator": "座間味村営フェリー",
-    "ferryBookingUrl": "https://yoyaku.vill.zamami.okinawa.jp/",
-    "airportGateway": "那覇空港",
-    "prefecture": "沖縄県",
-    "lat": 26.2232,
-    "lng": 127.3003,
-    "stayBias": 2,
-    "airportHub": "那覇",
-    "railProvider": null,
-    "travelTime": {
-      "tokyo": 280,
-      "osaka": 240,
-      "nagoya": 255,
-      "fukuoka": 215,
-      "takamatsu": 195,
-      "naha": 80,
-      "wakayama": 245,
-      "mito": 305,
-      "maebashi": 305,
-      "takasaki": 310,
-      "hamamatsu": 265,
-      "gifu": 265,
-      "kofu": 325,
-      "shingu": 285,
-      "tanabe": 280,
-      "shirahama": 280,
-      "kushimoto": 290,
-      "tottori": 285,
-      "shimonoseki": 225,
-      "saga": 220,
-      "oita": 200,
-      "beppu": 210,
-      "ishigaki": 105,
-      "miyako": 95
-    },
-    "stayRecommendation": "1night",
-    "secondaryTransport": null,
-    "city": "沖縄座間味島",
-    "hubStation": "座間味島駅",
-    "accessStation": "座間味港",
-    "hotelArea": "okinawa",
-    "port": "那覇港",
-    "flightHub": "那覇",
-    "hotelKeyword": "座間味島",
-    "access": {
-      "steps": [
-        {
-          "type": "flight",
-          "to": "那覇空港"
-        },
-        {
-          "type": "local",
-          "from": "那覇空港",
-          "to": "泊港",
-          "method": "バス"
-        },
-        {
-          "type": "ferry",
-          "from": "泊港",
-          "to": "座間味港",
-          "operator": "座間味村営フェリー",
-          "bookingUrl": "https://yoyaku.vill.zamami.okinawa.jp/"
-        },
-        {
-          "type": "local",
-          "from": "座間味港",
-          "to": "座間味島",
-          "method": "徒歩"
-        }
-      ]
-    },
-    "finalPoint": "座間味島",
-    "fallbackCity": "那覇",
-    "gateway": "座間味島駅",
-    "gatewayStations": [
-      {
-        "name": "座間味島駅",
-        "type": "major",
-        "priority": 1
-      },
-      {
-        "name": "那覇空港",
-        "type": "airport",
-        "priority": 2
-      }
-    ],
-    "localAccess": {
-      "type": "ferry",
-      "description": "座間味村営フェリー",
-      "to": "座間味港"
-    },
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "こんなに澄んだ海を、まだ誰にも教えていない。",
-    "primary": [
-      "離島",
-      "海"
-    ],
-    "secondary": [],
-    "onsenLevel": 0,
-    "hasDirectFlight": true,
-    "mapPoint": "古座間味ビーチ",
-    "subType": "sea",
-    "stayDescription": "昼間の海と夕暮れ、夜の島の静けさを1泊で全部味わう。",
-    "hubCity": "座間味島",
-    "localHub": "那覇",
-    "stayPriority": "medium",
-    "representativeStation": "座間味港",
-    "finalAccess": {
-      "type": "walk"
-    },
-    "accessPoint": {
-      "type": "port",
-      "name": "座間味港"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E5%25BA%25A7%25E9%2596%2593%25E5%2591%25B3%25E5%25B3%25B6",
-    "bookingStation": null,
-    "mainSpot": "古座間味ビーチ",
-    "stayArea": {
-      "rakuten": "座間味島",
-      "jalan": "座間味島"
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/okinawa/",
-      "jalan": "https://www.jalan.net/470000/"
-    },
-    "accessType": "ferry",
-    "tier": "spot",
-    "icCard": null,
-    "tier2": "spot",
-    "hubName": "那覇",
-    "rentalCarRecommended": false,
-    "images": [
-      "/images/zamami-island/main.jpg"
-    ],
-    "reasonChips": [
-      "絶景",
-      "ビーチ",
-      "離島",
-      "1泊がおすすめ",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "那覇に泊まるのがおすすめ"
-    ],
-    "bestSeason": "夏",
-    "imageCredit": {
-      "author": "Laurie Nevay",
-      "license": "CC BY-SA 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Zamami_Island,_Japan_(Panorama).jpg",
-      "attributionRequired": true
-    },
-    "featured_stay": {
-      "name": "サンメール座間味",
-      "catchcopy": "2023年開業の全5室の小さなリゾートホテル。プライベートプール付きの客室もある",
-      "jalanUrl": "https://www.jalan.net/yad367480/",
-      "accessStation": "泊港から高速船約1時間、座間味港"
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "「クイーンざまみ」は1日2便で、繁忙期は満席になる。2〜3週間前には押さえたい。古座間味ビーチは坂道を越えた先にあり、木々の間を抜けると透明度の高い海が開ける。",
       "auto": true
     }
   },
@@ -63823,252 +63576,6 @@
     }
   },
   {
-    "id": "ama-island",
-    "name": "海士町",
-    "type": "destination",
-    "region": "中国",
-    "hub": "松江",
-    "hotelSearch": "海士町",
-    "stayAllowed": [
-      "2night"
-    ],
-    "stayBias": 2,
-    "weight": 1.36,
-    "departures": [
-      "大阪",
-      "広島",
-      "和歌山",
-      "鳥取"
-    ],
-    "description": "島根半島の沖合60kmに浮かぶ中ノ島が、海士町の全域にあたる。車なら1時間ちょっとで一周できる。菱浦港のすぐそばにキンニャモニャセンターが立ち、島の窓口になっている。Entôは隠岐ユネスコ世界ジオパークの拠点で、客室が全面ガラス張りだ。海士の塩は海沿いの工房で作られている。コンビニはない。フェリーは七類港から出る。夏と連休は早く埋まるので、予約してから動きたい。島に信号はほとんどない。ATMも限られるので現金は多めに。",
-    "tags": [
-      "離島",
-      "海",
-      "自然",
-      "グルメ"
-    ],
-    "spots": [
-      {
-        "name": "キンニャモニャセンター",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ama_town_Kinnyamonya_Center_interior_ac_%283%29.jpg/1280px-Ama_town_Kinnyamonya_Center_interior_ac_%283%29.jpg",
-        "description": "菱浦港のすぐそばに立つ島の玄関口。ユニークな名前に反して、中に入れば島の魅力にぐっと引き込まれる拠点施設。",
-        "imageCredit": {
-          "author": "Asturio Cantabrio",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Ama_town_Kinnyamonya_Center_interior_ac_(3).jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "中ノ島",
-        "description": "車で1時間ちょっとで一周できる島。走るほどに「何もない」が全く違うとわかる、風景の変化に満ちた道のり。"
-      },
-      {
-        "name": "海士の塩",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ama_town_Oki_Shrine_ac_%281%29.jpg/500px-Ama_town_Oki_Shrine_ac_%281%29.jpg",
-        "description": "海沿いの小屋のような工房で作られる島の塩。つい買って帰りたくなる、島の恵みそのものの味に出会える。",
-        "imageCredit": {
-          "author": "Asturio Cantabrio",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Ama_town_Oki_Shrine_ac_(1).jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": true,
-    "isIsland": true,
-    "gateways": {
-      "rail": [],
-      "airport": [],
-      "bus": [],
-      "ferry": [
-        "七類港",
-        "境港"
-      ]
-    },
-    "destType": "island",
-    "railGateway": null,
-    "busGateway": null,
-    "ferryGateway": "七類港",
-    "airportGateway": null,
-    "prefecture": "島根県",
-    "city": "海士町",
-    "lat": 36.0921,
-    "lng": 133.0603,
-    "stayRecommendation": "2night",
-    "secondaryTransport": "ferry",
-    "airportHub": null,
-    "railProvider": null,
-    "hubStation": "七類港",
-    "accessStation": "菱浦港",
-    "accessHub": "七類",
-    "railNote": "フェリー",
-    "travelTime": {
-      "tokyo": 380,
-      "osaka": 250,
-      "nagoya": 300,
-      "fukuoka": 295,
-      "takamatsu": 265,
-      "wakayama": 280,
-      "mito": 425,
-      "maebashi": 440,
-      "takasaki": 440,
-      "hamamatsu": 330,
-      "gifu": 320,
-      "kofu": 470,
-      "shingu": 370,
-      "tanabe": 340,
-      "shirahama": 350,
-      "kushimoto": 370,
-      "tottori": 370,
-      "shimonoseki": 325,
-      "saga": 325,
-      "oita": 355,
-      "beppu": 365
-    },
-    "hotelArea": "shimane",
-    "port": "七類港",
-    "hotelKeyword": "海士町",
-    "access": {
-      "steps": [
-        {
-          "type": "rail",
-          "to": "松江駅",
-          "provider": "e5489"
-        },
-        {
-          "type": "local",
-          "from": "松江駅",
-          "to": "七類港",
-          "method": "バス"
-        },
-        {
-          "type": "ferry",
-          "from": "七類港",
-          "to": "菱浦港",
-          "operator": "隠岐汽船",
-          "bookingUrl": "https://www.oki-kisen.co.jp/"
-        },
-        {
-          "type": "local",
-          "from": "菱浦港",
-          "to": "海士町",
-          "method": "徒歩"
-        }
-      ]
-    },
-    "fallbackCity": "松江",
-    "gateway": "七類港",
-    "gatewayStations": [
-      {
-        "name": "七類港",
-        "type": "major",
-        "priority": 1
-      }
-    ],
-    "localAccess": {
-      "type": "ferry",
-      "description": "七類港から菱浦港へ",
-      "to": "菱浦港"
-    },
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "島全体が、誰かの「ただいま」を待っている。",
-    "primary": [
-      "離島",
-      "海",
-      "自然"
-    ],
-    "secondary": [
-      "食"
-    ],
-    "onsenLevel": 0,
-    "hasDirectFlight": false,
-    "mapPoint": "キンニャモニャセンター",
-    "subType": "sea",
-    "stayDescription": "昼間の海と夕暮れ、夜の島の静けさを1泊で全部味わう。",
-    "hubCity": "海士町",
-    "localHub": "松江",
-    "stayPriority": "medium",
-    "representativeStation": "菱浦港",
-    "finalAccess": {
-      "type": "walk"
-    },
-    "accessPoint": {
-      "type": "port",
-      "name": "菱浦港"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E6%25B5%25B7%25E5%25A3%25AB%25E7%2594%25BA",
-    "bookingStation": null,
-    "mainSpot": "キンニャモニャセンター",
-    "stayArea": {
-      "rakuten": "海士町",
-      "jalan": "海士町"
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/shimane/",
-      "jalan": "https://www.jalan.net/320000/"
-    },
-    "accessType": "ferry",
-    "tier": "spot",
-    "icCard": null,
-    "tier2": "spot",
-    "hubName": "松江",
-    "rentalCarRecommended": false,
-    "images": [
-      "/images/ama-island/main.jpg"
-    ],
-    "reasonChips": [
-      "離島",
-      "自然と過ごす",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "松江に泊まるのがおすすめ",
-      "離島の絶景",
-      "海を眺める"
-    ],
-    "bestSeason": "夏",
-    "imageCredit": {
-      "author": "Asturio Cantabrio",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Ama_town_Kinnyamonya_Center_exterior_ac.jpg",
-      "attributionRequired": true
-    },
-    "featured_stay": {
-      "name": "Entô（エントウ）",
-      "catchcopy": "隠岐ジオパークの拠点、全面ガラス張りの客室で海と一体になる島のホテル",
-      "hasShuttle": false,
-      "accessStation": "菱浦港"
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "島根半島の沖合60kmに浮かぶ中ノ島が、海士町の全域にあたる。菱浦港のすぐそばにキンニャモニャセンターが立ち、島の窓口になっている。Entôは隠岐ユネスコ世界ジオパークの拠点で、客室が全面ガラス張りだ。",
-      "auto": true
-    }
-  },
-  {
     "id": "akiyoshidai",
     "name": "秋吉台",
     "type": "destination",
@@ -64487,263 +63994,6 @@
       "saga": true,
       "oita": true,
       "beppu": true
-    }
-  },
-  {
-    "id": "oki-island",
-    "name": "隠岐の島",
-    "type": "destination",
-    "region": "中国",
-    "hub": "松江",
-    "hotelSearch": "隠岐の島",
-    "stayAllowed": [
-      "2night"
-    ],
-    "stayBias": 2,
-    "weight": 1.56,
-    "departures": [
-      "大阪",
-      "広島",
-      "和歌山",
-      "鳥取"
-    ],
-    "description": "本土から船で約3時間。玄関口は西郷港で、空路なら隠岐空港に降りる。ローソク島は海上の奇岩で、西ノ島の浦郷港から遊覧船が出る。大人2,500円、所要約1時間、夕方の便が狙い目だ。要予約で、天候によっては欠航する。島後の玉若酢命神社には樹齢千年を超える八百杉が立つ。焼火神社は西ノ島の標高452mにあり、登山口から約1時間歩いて参拝する。フェリーは七類港と境港から出る。レンタカーはGWと8月にすぐ埋まる。",
-    "tags": [
-      "離島",
-      "海",
-      "自然",
-      "歴史"
-    ],
-    "spots": [
-      {
-        "name": "ローソク島",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Rousoku_Iwa.jpg/500px-Rousoku_Iwa.jpg",
-        "description": "西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう海上の奇岩。夕方の便で海から間近に眺められる。",
-        "imageCredit": {
-          "author": "Navian",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Rousoku_Iwa.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "玉若酢命神社",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tamawakasumikoto_jinja_Haiden.JPG/500px-Tamawakasumikoto_jinja_Haiden.JPG",
-        "description": "樹齢千年を超える八百杉がそびえる、島後の古社。隠岐の古層が残る聖域を歩くことができる。",
-        "imageCredit": {
-          "author": "ChiefHira",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tamawakasumikoto_jinja_Haiden.JPG",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "西ノ島焼火神社",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Matengai_Cliff_at_Kuniga_coast%2C_Nishinoshima.jpg/500px-Matengai_Cliff_at_Kuniga_coast%2C_Nishinoshima.jpg",
-        "description": "西ノ島・焼火山の標高452メートルの場所に鎮座する神社。登山口から約1時間の山道を歩いて参拝する。",
-        "imageCredit": {
-          "author": "Yuvalr",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Matengai_Cliff_at_Kuniga_coast,_Nishinoshima.jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": true,
-    "isIsland": true,
-    "gateways": {
-      "rail": [],
-      "airport": [
-        "隠岐空港"
-      ],
-      "bus": [],
-      "ferry": [
-        "境港",
-        "七類港"
-      ]
-    },
-    "destType": "island",
-    "railGateway": null,
-    "busGateway": null,
-    "ferryGateway": "境港",
-    "airportGateway": "隠岐空港",
-    "prefecture": "島根県",
-    "city": "隠岐の島町",
-    "lat": 36.2069,
-    "lng": 133.3264,
-    "stayRecommendation": "2night",
-    "secondaryTransport": "ferry",
-    "airportHub": "出雲",
-    "railProvider": null,
-    "hubStation": "境港",
-    "accessStation": "西郷港",
-    "accessHub": "境港",
-    "railNote": "フェリー",
-    "travelTime": {
-      "tokyo": 380,
-      "osaka": 260,
-      "nagoya": 310,
-      "fukuoka": 305,
-      "takamatsu": 275,
-      "wakayama": 290,
-      "mito": 425,
-      "maebashi": 440,
-      "takasaki": 440,
-      "hamamatsu": 340,
-      "gifu": 330,
-      "kofu": 470,
-      "shingu": 380,
-      "tanabe": 350,
-      "shirahama": 360,
-      "kushimoto": 380,
-      "tottori": 380,
-      "shimonoseki": 335,
-      "saga": 335,
-      "oita": 365,
-      "beppu": 375
-    },
-    "hotelArea": "shimane",
-    "port": "境港",
-    "hotelKeyword": "隠岐の島",
-    "access": {
-      "steps": [
-        {
-          "type": "rail",
-          "to": "境港駅",
-          "provider": "e5489"
-        },
-        {
-          "type": "local",
-          "from": "境港駅",
-          "to": "境港",
-          "method": "徒歩"
-        },
-        {
-          "type": "ferry",
-          "from": "境港",
-          "to": "西郷港",
-          "operator": "隠岐汽船",
-          "bookingUrl": "https://www.oki-kisen.co.jp/"
-        },
-        {
-          "type": "local",
-          "from": "西郷港",
-          "to": "隠岐の島",
-          "method": "徒歩"
-        }
-      ]
-    },
-    "fallbackCity": "境港",
-    "gateway": "境港",
-    "gatewayStations": [
-      {
-        "name": "境港",
-        "type": "major",
-        "priority": 1
-      },
-      {
-        "name": "隠岐空港",
-        "type": "airport",
-        "priority": 2
-      }
-    ],
-    "localAccess": {
-      "type": "rental",
-      "description": "境港から西郷港へ",
-      "to": "西郷港"
-    },
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "本土から遠く離れた海の果て、時間ごと忘れてしまえる島。",
-    "primary": [
-      "離島",
-      "海",
-      "自然"
-    ],
-    "secondary": [
-      "歴史"
-    ],
-    "onsenLevel": 0,
-    "hasDirectFlight": true,
-    "mapPoint": "ローソク島",
-    "subType": "sea",
-    "stayDescription": "昼間の海と夕暮れ、夜の島の静けさを1泊で全部味わう。",
-    "hubCity": "隠岐の島",
-    "localHub": "境港",
-    "stayPriority": "medium",
-    "representativeStation": "西郷港",
-    "finalAccess": {
-      "type": "walk"
-    },
-    "accessPoint": {
-      "type": "port",
-      "name": "西郷港"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E9%259A%25A0%25E5%25B2%2590%25E3%2581%25AE%25E5%25B3%25B6",
-    "bookingStation": null,
-    "mainSpot": "ローソク島",
-    "stayArea": {
-      "rakuten": "隠岐の島",
-      "jalan": "隠岐の島"
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/shimane/",
-      "jalan": "https://www.jalan.net/320000/"
-    },
-    "accessType": "ferry",
-    "tier": "spot",
-    "icCard": null,
-    "tier2": "spot",
-    "hubName": "松江",
-    "rentalCarRecommended": false,
-    "images": [
-      "/images/oki-island/main.jpg",
-      "/images/oki-island/spot-1.jpg",
-      "/images/oki-island/spot-2.jpg",
-      "/images/oki-island/spot-3.jpg"
-    ],
-    "reasonChips": [
-      "離島",
-      "歴史を辿る",
-      "寺社めぐり",
-      "自然と過ごす",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "松江に泊まるのがおすすめ"
-    ],
-    "bestSeason": "通年",
-    "imageCredit": {
-      "author": "Ying-lung Lu",
-      "license": "CC BY-SA 3.0",
-      "url": "https://commons.wikimedia.org/wiki/File:West_Islet_Lighthouse.JPG",
-      "attributionRequired": true
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "玄関口は西郷港で、空路なら隠岐空港に降りる。ローソク島は海上の奇岩で、西ノ島の浦郷港から遊覧船が出る。大人2,500円、所要約1時間、夕方の便が狙い目だ。",
-      "auto": true
     }
   },
   {
@@ -82105,214 +81355,6 @@
       "license": "CC BY 2.5",
       "url": "https://commons.wikimedia.org/wiki/File:Ebino_Plateau02s3s4592.jpg",
       "attributionRequired": true
-    },
-    "travelTimeEstimated": {
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    }
-  },
-  {
-    "id": "hitoyoshi-city",
-    "name": "人吉・球磨",
-    "type": "destination",
-    "region": "九州",
-    "hub": "熊本",
-    "stayAllowed": [
-      "1night"
-    ],
-    "departures": [
-      "熊本"
-    ],
-    "weight": 1.11,
-    "description": "熊本県南部、球磨盆地に位置する城下町だ。九州最後の清流と呼ばれる球磨川を舟で下る川下りが名物で、急流コースは本気で濡れるため替えの靴下と濡れてよい服装が必須。増水で運休になることも多く、前日の電話確認を勧める。人吉城跡には「武者返し」と呼ばれる反り返った石垣が残り、夕方は人も少ない。西南戦争で西郷隆盛が本営を置いた永国寺は「幽霊の寺」の名でも知られ、境内は静かに歩ける。人吉駅を起点に市内は徒歩で回れるサイズ感だ。福岡からは約2時間20分。川の瀬音が盆地に満ちる夕暮れ。",
-    "tags": [
-      "自然",
-      "歴史"
-    ],
-    "spots": [
-      {
-        "name": "球磨川下り",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nagatoro_keikoku_20050507_02.JPG",
-        "description": "九州最後の清流を舟で下る名物体験。急流コースは本気で濡れるため、替えの靴下と濡れてよい服装が必須だ。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Nagatoro_keikoku_20050507_02.JPG",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "人吉城跡",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hitoyoshi_Castle%2C_ni-no-maru.jpg/1280px-Hitoyoshi_Castle%2C_ni-no-maru.jpg",
-        "description": "武者返し」と呼ばれる反り返った石垣が特徴の城跡で、夕方は訪れる人が少なく、歴史ある空間をゆっくり巡ることができる。",
-        "imageCredit": {
-          "author": "Saigen Jiro",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Hitoyoshi_Castle,_ni-no-maru.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "永国寺",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Yokoku-ji_Terazu_ac_%283%29.jpg/1280px-Yokoku-ji_Terazu_ac_%283%29.jpg",
-        "description": "西南戦争で西郷隆盛が本営を置いた寺。「幽霊の寺」とも呼ばれ、静けさに満ちた境内を歩ける。",
-        "imageCredit": {
-          "author": "Asturio Cantabrio",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Yokoku-ji_Terazu_ac_(3).jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "hotelSearch": "球磨川",
-    "gateways": {
-      "rail": [
-        "人吉駅"
-      ],
-      "airport": [],
-      "bus": [],
-      "ferry": []
-    },
-    "accessHub": null,
-    "railNote": null,
-    "secondaryTransport": null,
-    "destType": "city",
-    "railGateway": "人吉駅",
-    "busGateway": null,
-    "ferryGateway": null,
-    "airportGateway": null,
-    "prefecture": "熊本県",
-    "lat": 32.215,
-    "lng": 130.7574,
-    "stayBias": 1,
-    "airportHub": null,
-    "railProvider": "jrkyushu",
-    "travelTime": {
-      "tokyo": 440,
-      "osaka": 360,
-      "nagoya": 430,
-      "fukuoka": 140,
-      "takamatsu": 370,
-      "mito": 485,
-      "maebashi": 500,
-      "takasaki": 500,
-      "hamamatsu": 460,
-      "gifu": 450,
-      "kofu": 530,
-      "shingu": 480,
-      "tanabe": 450,
-      "shirahama": 460,
-      "kushimoto": 480,
-      "tottori": 480,
-      "shimonoseki": 170,
-      "saga": 170,
-      "oita": 200,
-      "beppu": 210
-    },
-    "stayRecommendation": "1night",
-    "city": "人吉市",
-    "hubStation": "人吉駅",
-    "accessStation": "人吉駅",
-    "hotelArea": "kumamoto",
-    "hotelKeyword": "球磨川",
-    "access": {
-      "steps": [
-        {
-          "type": "rail",
-          "to": "人吉駅",
-          "provider": "JR九州ネット予約"
-        }
-      ]
-    },
-    "fallbackCity": "熊本",
-    "gateway": null,
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "川下りの後の人吉城跡で、700年の静寂があった。",
-    "primary": [
-      "自然",
-      "歴史"
-    ],
-    "secondary": [],
-    "onsenLevel": 0,
-    "hasDirectFlight": false,
-    "mapPoint": "球磨川下り",
-    "subType": "mountain",
-    "stayDescription": "朝靄の中を歩いて、昼に絶景を踏んで、夜は宿でぐっすり眠る。",
-    "hubCity": "熊本",
-    "stayPriority": "medium",
-    "representativeStation": "人吉駅",
-    "finalAccess": {
-      "type": "walk"
-    },
-    "accessPoint": {
-      "type": "station",
-      "name": "人吉"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E7%90%83%E7%A3%A8%E5%B7%9D&m=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%E7%90%83%E7%A3%A8%E5%B7%9D",
-    "bookingStation": {
-      "name": "人吉駅",
-      "company": "JR"
-    },
-    "mainSpot": "球磨川下り",
-    "stayArea": {
-      "rakuten": "球磨川",
-      "jalan": "球磨川"
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fkumamoto%2F",
-      "jalan": "https://www.jalan.net/430000/"
-    },
-    "tier": "area",
-    "icCard": "nimoca",
-    "tier2": "area",
-    "hubName": "熊本",
-    "rentalCarRecommended": true,
-    "images": [
-      "/images/hitoyoshi-city/main.jpg",
-      "/images/hitoyoshi-city/spot-1.jpg",
-      "/images/hitoyoshi-city/spot-2.jpg",
-      "/images/hitoyoshi-city/spot-3.jpg"
-    ],
-    "reasonChips": [
-      "歴史を辿る",
-      "寺社めぐり",
-      "自然と過ごす",
-      "1泊がおすすめ",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と"
-    ],
-    "bestSeason": "夏",
-    "imageCredit": {
-      "author": "Saigen Jiro",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:Hitoyoshi_City_viewed_from_Hitoyoshi_Castle-2.jpg",
-      "attributionRequired": true
-    },
-    "featured_stay": {
-      "name": "清流山水花 あゆの里",
-      "catchcopy": "球磨川を望む露天と人吉の食を味わう城下町の和風旅館",
-      "hasShuttle": false,
-      "accessStation": "人吉駅"
     },
     "travelTimeEstimated": {
       "mito": true,
@@ -149151,7 +148193,7 @@
   },
   {
     "id": "shiraishijima",
-    "name": "白石島",
+    "name": "笠岡諸島",
     "type": "destination",
     "region": "中国",
     "hub": "岡山",
@@ -149166,12 +148208,14 @@
       "和歌山"
     ],
     "weight": 1,
-    "description": "岡山県笠岡諸島の離島だ。笠岡駅が玄関口で、笠岡港からフェリーで白石島港へ渡る。福山からは約40分。白石島海水浴場は海底の岩まではっきり見える透明な浜で、花崗岩の白砂が続く。海水浴場から坂道を15分ほど上ると、島で最も古い寺のひとつ・開龍寺に着く。石切場跡は江戸から昭和にかけて花崗岩が切り出された場所で、大阪城の石垣にも使われた石の歴史をたどれる。島の民宿に1泊すれば、夜は星を、朝は海を眺めて過ごせる。白砂と、その下に透ける青。",
+    "description": "岡山県の白石島・真鍋島・笠岡諸島（全体）の3か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。",
     "tags": [
       "海",
       "自然",
       "離島",
-      "夏"
+      "夏",
+      "猫",
+      "秘境"
     ],
     "spots": [
       {
@@ -149206,6 +148250,65 @@
           "url": "https://commons.wikimedia.org/wiki/File:Kasaoka_City_Horseshoe_Crab_Museum_-_Apr_12,_2007.jpg",
           "attributionRequired": true
         }
+      },
+      {
+        "name": "真鍋島の猫たち",
+        "description": "桟橋に降りた瞬間から、島のあちこちで猫と目が合う。観光客に媚びず、ただそこにいる猫たちとの距離感を楽しめる。"
+      },
+      {
+        "name": "真鍋邸",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Manabe_Kaichiro.jpg",
+        "description": "路地の奥に現れる、かつて島を治めた真鍋家の旧宅。瓦と縁側が残る古い木造建築に、往時の暮らしを重ねられる。",
+        "imageCredit": {
+          "author": "Unknown authorUnknown author",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Manabe_Kaichiro.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "走り神輿",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gion_Matsuri_2017-5.jpg/500px-Gion_Matsuri_2017-5.jpg",
+        "description": "祭りの夜、石畳を神輿が全速力で駆け抜ける島の祭礼。地下足袋が地を蹴る音と担ぎ手の熱気を間近に浴びられる。",
+        "imageCredit": {
+          "author": "江戸村のとくぞう",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Gion_Matsuri_2017-5.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "白石島",
+        "description": "採石場跡が段々畑のように残る白い島。海岸線まで続く石灰岩の採掘跡に、人間の営みと風景が交わった痕跡を見る。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Shiraishijima_2019.jpg/1280px-Shiraishijima_2019.jpg",
+        "imageCredit": {
+          "author": "皓月旗",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Shiraishijima_2019.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "北木島",
+        "description": "石工の技が凝結した島。花崗岩採石場から望む瀬戸内海と、職人の手ざわりが残る石畳の小路が優雅に島を繋いでいる。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kitagi_2015_10k_kitagi003.JPG/1280px-Kitagi_2015_10k_kitagi003.JPG",
+        "imageCredit": {
+          "author": "Kkawata",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Kitagi_2015_10k_kitagi003.JPG",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "真鍋島",
+        "description": "潮風が頬をかすめる路地に、漆黒の焼石と真紅の飾り瓦の民家群が並ぶ。江戸期の船乗りの営みが色褪せず島を包む。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Manabeshima_Enpukuji_temple_approach.jpg/1280px-Manabeshima_Enpukuji_temple_approach.jpg",
+        "imageCredit": {
+          "author": "ブルーノ・プラス",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Manabeshima_Enpukuji_temple_approach.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "shinkansenAccess": false,
@@ -149219,7 +148322,8 @@
       "airport": [],
       "bus": [],
       "ferry": [
-        "白石島港"
+        "白石島港",
+        "真鍋島港"
       ]
     },
     "accessHub": "笠岡",
@@ -149241,23 +148345,7 @@
       "nagoya": 200,
       "fukuoka": 230,
       "takamatsu": 160,
-      "fukuyama": 40,
-      "wakayama": 200,
-      "mito": 335,
-      "maebashi": 350,
-      "takasaki": 350,
-      "hamamatsu": 230,
-      "gifu": 220,
-      "kofu": 380,
-      "shingu": 290,
-      "tanabe": 260,
-      "shirahama": 270,
-      "kushimoto": 290,
-      "tottori": 290,
-      "shimonoseki": 260,
-      "saga": 260,
-      "oita": 290,
-      "beppu": 300
+      "fukuyama": 40
     },
     "stayRecommendation": "1night",
     "secondaryTransport": "ferry",
@@ -149356,7 +148444,9 @@
     "images": [
       "/images/shiraishijima/main.jpg",
       "/images/shiraishijima/spot-2.jpg",
-      "/images/shiraishijima/spot-3.jpg"
+      "/images/shiraishijima/spot-3.jpg",
+      "/images/manabeshima/main.jpg",
+      "/images/kasaoka-islands/main.jpg"
     ],
     "reasonChips": [
       "ビーチ",
@@ -149376,271 +148466,11 @@
       "url": "https://commons.wikimedia.org/wiki/File:Shiraishijima_01.jpg",
       "attributionRequired": true
     },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "岡山県笠岡諸島の離島だ。笠岡駅が玄関口で、笠岡港からフェリーで白石島港へ渡る。白石島海水浴場は海底の岩まではっきり見える透明な浜で、花崗岩の白砂が続く。",
-      "auto": true
-    }
-  },
-  {
-    "id": "manabeshima",
-    "name": "真鍋島",
-    "type": "destination",
-    "region": "中国",
-    "hub": "岡山",
-    "stayAllowed": [
-      "daytrip"
-    ],
-    "departures": [
-      "岡山",
-      "福山",
-      "大阪",
-      "和歌山"
-    ],
-    "weight": 1,
-    "description": "岡山県・笠岡諸島に浮かぶ離島で、猫と人が穏やかに共存する集落として知られる。笠岡駅が玄関口となり、笠岡港からフェリーに乗ると真鍋島港に着く。福山から約50分でアクセスできる。桟橋を降りた瞬間から島のあちこちで猫と目が合い、石垣の集落を歩けばそこかしこに猫の姿がある。観光客に媚びることなく、ただそこに存在する。路地の奥には、かつて島を治めた真鍋家の旧宅・真鍋邸が残り、瓦と縁側のある木造建築が当時の暮らしを伝える。宿は真鍋島本浦港から徒歩約10分の島宿三虎が瀬戸内の魚介を揃える。猫と石畳と海の島。",
-    "tags": [
-      "猫",
-      "自然",
-      "離島"
-    ],
-    "spots": [
-      {
-        "name": "真鍋島の猫たち",
-        "description": "桟橋に降りた瞬間から、島のあちこちで猫と目が合う。観光客に媚びず、ただそこにいる猫たちとの距離感を楽しめる。"
-      },
-      {
-        "name": "真鍋邸",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Manabe_Kaichiro.jpg",
-        "description": "路地の奥に現れる、かつて島を治めた真鍋家の旧宅。瓦と縁側が残る古い木造建築に、往時の暮らしを重ねられる。",
-        "imageCredit": {
-          "author": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Manabe_Kaichiro.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "走り神輿",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gion_Matsuri_2017-5.jpg/500px-Gion_Matsuri_2017-5.jpg",
-        "description": "祭りの夜、石畳を神輿が全速力で駆け抜ける島の祭礼。地下足袋が地を蹴る音と担ぎ手の熱気を間近に浴びられる。",
-        "imageCredit": {
-          "author": "江戸村のとくぞう",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gion_Matsuri_2017-5.jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": true,
-    "hotelSearch": "笠岡",
-    "gateways": {
-      "rail": [
-        "笠岡駅"
-      ],
-      "airport": [],
-      "bus": [],
-      "ferry": [
-        "真鍋島港"
-      ]
-    },
-    "accessHub": "笠岡",
-    "railNote": "フェリー",
-    "destType": "island",
-    "railGateway": null,
-    "busGateway": null,
-    "ferryGateway": "笠岡港",
-    "airportGateway": null,
-    "prefecture": "岡山県",
-    "lat": 34.3548,
-    "lng": 133.5757,
-    "stayBias": 0,
-    "airportHub": null,
-    "railProvider": "e5489",
-    "travelTime": {
-      "tokyo": 300,
-      "osaka": 180,
-      "nagoya": 210,
-      "fukuoka": 240,
-      "takamatsu": 170,
-      "fukuyama": 50,
-      "wakayama": 210,
-      "mito": 345,
-      "maebashi": 360,
-      "takasaki": 360,
-      "hamamatsu": 240,
-      "gifu": 230,
-      "kofu": 390,
-      "shingu": 300,
-      "tanabe": 270,
-      "shirahama": 280,
-      "kushimoto": 300,
-      "tottori": 300,
-      "shimonoseki": 270,
-      "saga": 270,
-      "oita": 300,
-      "beppu": 310
-    },
-    "stayRecommendation": "daytrip",
-    "secondaryTransport": "ferry",
-    "city": "笠岡市",
-    "hubStation": "笠岡駅",
-    "accessStation": "真鍋島港",
-    "hotelArea": "okayama",
-    "port": "笠岡港",
-    "hotelKeyword": "笠岡",
-    "access": {
-      "steps": [
-        {
-          "type": "rail",
-          "to": "笠岡駅",
-          "provider": "e5489"
-        },
-        {
-          "type": "local",
-          "from": "笠岡駅",
-          "to": "笠岡港",
-          "method": "徒歩"
-        },
-        {
-          "type": "ferry",
-          "from": "笠岡港",
-          "to": "真鍋島港"
-        },
-        {
-          "type": "local",
-          "from": "真鍋島港",
-          "to": "真鍋島",
-          "method": "徒歩"
-        }
-      ]
-    },
-    "fallbackCity": "笠岡",
-    "gateway": "笠岡駅",
-    "gatewayStations": [
-      {
-        "name": "笠岡駅",
-        "type": "major",
-        "priority": 1
-      }
-    ],
-    "localAccess": {
-      "type": "ferry",
-      "description": "笠岡港から真鍋島港へ",
-      "to": "真鍋島港"
-    },
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "港に降りると、猫が当たり前のようについてきた。",
-    "primary": [
-      "猫",
-      "自然",
-      "離島"
-    ],
-    "secondary": [
-      "グルメ"
-    ],
-    "onsenLevel": 0,
-    "hasDirectFlight": false,
-    "mapPoint": "真鍋島の猫たち",
-    "subType": "sea",
-    "stayDescription": "笠岡の宿に泊まって、朝いちばんの船で真鍋島に渡る。",
-    "hubCity": "笠岡",
-    "stayPriority": "low",
-    "representativeStation": "真鍋島港",
-    "finalAccess": {
-      "type": "walk"
-    },
-    "accessPoint": {
-      "type": "port",
-      "name": "真鍋島港"
-    },
-    "bookingStation": null,
-    "mainSpot": "真鍋島の猫たち",
-    "stayArea": {
-      "rakuten": "笠岡",
-      "jalan": "笠岡"
-    },
-    "accessType": "ferry",
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/okayama/",
-      "jalan": "https://www.jalan.net/330000/"
-    },
-    "tier": "spot",
-    "icCard": "icoca",
-    "tier2": "spot",
-    "hubName": "岡山",
-    "rentalCarRecommended": false,
-    "images": [
-      "/images/manabeshima/main.jpg"
-    ],
-    "reasonChips": [
-      "離島",
-      "自然と過ごす",
-      "街歩き",
-      "日帰り最適",
-      "ひとり旅向け",
-      "カップル向け",
-      "友達と",
-      "岡山に泊まるのがおすすめ"
-    ],
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E7%25AC%25A0%25E5%25B2%25A1",
-    "bestSeason": "通年",
-    "imageCredit": {
-      "author": "ブルーノ・プラス",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Manabeshima_Enpukuji_temple_approach.jpg",
-      "attributionRequired": true
-    },
     "featured_stay": {
       "name": "島宿 三虎",
       "catchcopy": "目の前がプライベートビーチ、瀬戸内の魚介尽くしの島宿",
       "hasShuttle": false,
       "accessStation": "真鍋島本浦港から徒歩約10分"
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    },
-    "seo": {
-      "description": "岡山県・笠岡諸島に浮かぶ離島で、猫と人が穏やかに共存する集落として知られる。笠岡駅が玄関口となり、笠岡港からフェリーに乗ると真鍋島港に着く。",
-      "auto": true
     }
   },
   {
@@ -165534,13 +164364,17 @@
   },
   {
     "id": "nishinoshima",
-    "name": "西ノ島",
+    "name": "隠岐諸島",
     "type": "destination",
     "region": "中国",
     "prefecture": "島根県",
     "departures": [
       "境港",
-      "松江"
+      "松江",
+      "大阪",
+      "広島",
+      "和歌山",
+      "鳥取"
     ],
     "isIsland": true,
     "destType": "island",
@@ -165556,10 +164390,13 @@
       "島",
       "自然",
       "絶景",
-      "秘境"
+      "秘境",
+      "海",
+      "グルメ",
+      "歴史"
     ],
     "weight": 1.5,
-    "description": "島根県・隠岐諸島の西端に位置する離島で、七類港からフェリーで約2時間40分で別府港に着く。玄関口の別府港を降りると、起伏ある島の輪郭が出迎える。焼火神社は苔むした山道の先に鎮座し、クロマツが茂る参道を抜けて参拝できる古社だ。国賀海岸では高さ257mの摩天崖が連なり、玄武岩の絶壁を遊歩道からのぞく。大阪からは約4時間40分。崖の縁から見下ろす、海の青。",
+    "description": "島根県の西ノ島・国賀海岸・海士町・中ノ島・隠岐の島の5か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。",
     "catch": "断崖に馬が立っていた。それだけで絵になった。",
     "requiresCar": false,
     "hotelLinks": {
@@ -165567,11 +164404,17 @@
       "jalan": "https://www.jalan.net/320000/"
     },
     "gateways": {
-      "rail": [],
-      "airport": [],
+      "rail": [
+        "境港駅"
+      ],
+      "airport": [
+        "隠岐空港"
+      ],
       "bus": [],
       "ferry": [
-        "七類港"
+        "七類港",
+        "境港",
+        "中ノ島"
       ]
     },
     "accessStation": "七類港",
@@ -165600,7 +164443,7 @@
       {
         "name": "焼火神社",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Precincts_of_Takuhi_jinja.JPG/500px-Precincts_of_Takuhi_jinja.JPG",
-        "description": "細く苔むした山道を登った先に鎮座する古社。クロマツの茂る参道を抜けて参拝できる。",
+        "description": "細く苔むした山道を登った先に鎮座する古社。クロマツの茂る参道を抜けて参拝できる。西ノ島・焼火山の標高452メートルの場所に鎮座する神社。登山口から約1時間の山道を歩いて参拝する。",
         "imageCredit": {
           "author": "ChiefHira",
           "license": "CC BY-SA 3.0",
@@ -165618,6 +164461,99 @@
           "url": "https://commons.wikimedia.org/wiki/File:Matengai_Cliff_at_Kuniga_coast,_Nishinoshima.jpg",
           "attributionRequired": true
         }
+      },
+      {
+        "name": "摩天崖",
+        "description": "高さ二百五十七メートル、国内最大級の海崖。崖の上は牧草地で牛や馬が放たれている。"
+      },
+      {
+        "name": "通天橋",
+        "description": "波が岩を貫いてできた天然の洞門。遊歩道の途中から、その全貌を見下ろすことができる。"
+      },
+      {
+        "name": "国賀海岸遊歩道",
+        "description": "摩天崖から国賀浜まで高低差二百五十メートル。下り四十五分、上りは一時間ほどかかる。"
+      },
+      {
+        "name": "キンニャモニャセンター",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ama_town_Kinnyamonya_Center_interior_ac_%283%29.jpg/1280px-Ama_town_Kinnyamonya_Center_interior_ac_%283%29.jpg",
+        "description": "菱浦港のすぐそばに立つ島の玄関口。ユニークな名前に反して、中に入れば島の魅力にぐっと引き込まれる拠点施設。",
+        "imageCredit": {
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ama_town_Kinnyamonya_Center_interior_ac_(3).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "中ノ島",
+        "description": "車で1時間ちょっとで一周できる島。走るほどに「何もない」が全く違うとわかる、風景の変化に満ちた道のり。"
+      },
+      {
+        "name": "海士の塩",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ama_town_Oki_Shrine_ac_%281%29.jpg/500px-Ama_town_Oki_Shrine_ac_%281%29.jpg",
+        "description": "海沿いの小屋のような工房で作られる島の塩。つい買って帰りたくなる、島の恵みそのものの味に出会える。",
+        "imageCredit": {
+          "author": "Asturio Cantabrio",
+          "license": "CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ama_town_Oki_Shrine_ac_(1).jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "後鳥羽天皇御火葬塚",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Emperor_Go-Toba.jpg/500px-Emperor_Go-Toba.jpg",
+        "description": "承久の乱に敗れた後鳥羽上皇が生涯を閉じた地の塚。苔むした石碑と暗い松林、海からの潮騒が、900年前の想いを今に伝える。",
+        "imageCredit": {
+          "author": "Fujiwara no Nobuzane",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Emperor_Go-Toba.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "明屋海岸",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/20080720OkiDouzen.jpg/500px-20080720OkiDouzen.jpg",
+        "description": "波音が響く海岸。沖の岩礁群が日本海の荒波を受け止め、白く砕ける飛沫が絶えない。隠岐の島々を望み、離島の孤立感と雄大さに浸れる。",
+        "imageCredit": {
+          "author": "BehBeh",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:20080720OkiDouzen.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "宇受賀命神社",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Uzukamikoto-jinja.jpg/1280px-Uzukamikoto-jinja.jpg",
+        "description": "海岸の断崖に鎮座する古社。塩風に晒され深い茶色に変色した木製の鳥居が歴史を物語り、参道には潮と苔の香りが混ざり合う。",
+        "imageCredit": {
+          "author": "Fukuneko 2nd",
+          "license": "CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Uzukamikoto-jinja.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "ローソク島",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Rousoku_Iwa.jpg/500px-Rousoku_Iwa.jpg",
+        "description": "西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう海上の奇岩。夕方の便で海から間近に眺められる。",
+        "imageCredit": {
+          "author": "Navian",
+          "license": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Rousoku_Iwa.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "玉若酢命神社",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tamawakasumikoto_jinja_Haiden.JPG/500px-Tamawakasumikoto_jinja_Haiden.JPG",
+        "description": "樹齢千年を超える八百杉がそびえる、島後の古社。隠岐の古層が残る聖域を歩くことができる。",
+        "imageCredit": {
+          "author": "ChiefHira",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Tamawakasumikoto_jinja_Haiden.JPG",
+          "attributionRequired": true
+        }
       }
     ],
     "mapPoint": "国賀海岸",
@@ -165631,7 +164567,17 @@
       "/images/nishinoshima/main.jpg",
       "/images/nishinoshima/spot-1.jpg",
       "/images/nishinoshima/spot-2.jpg",
-      "/images/nishinoshima/spot-3.jpg"
+      "/images/nishinoshima/spot-3.jpg",
+      "/images/kuniga/main.jpg",
+      "/images/ama-island/main.jpg",
+      "/images/nakanoshima-oki/main.jpg",
+      "/images/nakanoshima-oki/spot-1.jpg",
+      "/images/nakanoshima-oki/spot-2.jpg",
+      "/images/nakanoshima-oki/spot-3.jpg",
+      "/images/oki-island/main.jpg",
+      "/images/oki-island/spot-1.jpg",
+      "/images/oki-island/spot-2.jpg",
+      "/images/oki-island/spot-3.jpg"
     ],
     "reasonChips": [
       "絶景",
@@ -165658,10 +164604,6 @@
       "jalanUrl": "https://www.jalan.net/yad387621/",
       "hasShuttle": false,
       "accessStation": "別府港から車で約10分"
-    },
-    "seo": {
-      "description": "玄関口の別府港を降りると、起伏ある島の輪郭が出迎える。焼火神社は苔むした山道の先に鎮座し、クロマツが茂る参道を抜けて参拝できる古社だ。国賀海岸では高さ257mの摩天崖が連なり、玄武岩の絶壁を遊歩道からのぞく。",
-      "auto": true
     }
   },
   {
@@ -167785,7 +166727,7 @@
   },
   {
     "id": "chichijima",
-    "name": "父島",
+    "name": "小笠原諸島",
     "type": "destination",
     "region": "関東",
     "prefecture": "東京都",
@@ -167799,7 +166741,7 @@
       "東京"
     ],
     "weight": 1,
-    "description": "東京の竹芝桟橋からおがさわら丸で約24時間。着くのは二見港だ。船は週に1便前後しかないので、渡ると数日は帰れない。小港海岸は黒っぽい砂の浜で、背後に小笠原固有の海岸植物が迫っている。長崎展望台に上がると、島の入り組んだ地形と太平洋がひとつの視界にまとめて入ってくる。ウェザーステーションは夕日の名所で、海に沈むまで人が集まる。ホテルホライズンは扇浦海岸の前に立つ。島内の移動はレンタカーかバス。固有種の多さから東洋のガラパゴスとも呼ばれる。小笠原諸島は世界自然遺産に登録されている。",
+    "description": "東京都の父島・母島の2か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。",
     "tags": [
       "離島",
       "海",
@@ -167838,6 +166780,39 @@
           "url": "https://commons.wikimedia.org/wiki/File:Sunset_from_Weather_Station_observation_deck_in_Chichijima,_Ogasawara,_Tokyo,_Japan.jpg",
           "attributionRequired": true
         }
+      },
+      {
+        "name": "南崎遊歩道",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/View_from_Hahajima-Island_and_the_Minamizaki_Tokyo%2CJAPAN.jpg/500px-View_from_Hahajima-Island_and_the_Minamizaki_Tokyo%2CJAPAN.jpg",
+        "description": "母島南端へ続く遊歩道で、亜熱帯の湿った土と緑の香りを感じながら歩ける。先端の岩場では波しぶきが上がり、水平線を一望できる。",
+        "imageCredit": {
+          "author": "Si-take. at Japanese Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Hahajima-Island_and_the_Minamizaki_Tokyo,JAPAN.jpg",
+          "attributionRequired": true
+        }
+      },
+      {
+        "name": "小富士",
+        "description": "標高約315m、急勾配だが短い登山道の先に360度の海景。晴れた日は父島まで見える、黒い火山地肌が印象的な絶好の展望台。",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/View_from_Kofuji_at_Hahajima.jpg/1280px-View_from_Kofuji_at_Hahajima.jpg",
+        "imageCredit": {
+          "author": "Ootahara",
+          "license": "CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Kofuji_at_Hahajima.jpg",
+          "attributionRequired": false
+        }
+      },
+      {
+        "name": "乳房山",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg/500px-Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg",
+        "description": "丸みを帯びた双峰がそびえる母島北部の山。整備された道が森を進み、磯の香りと野鳥のさえずりが心地よい。島の歴史と地質が凝縮する。",
+        "imageCredit": {
+          "author": "Yasu (talk)",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg",
+          "attributionRequired": true
+        }
       }
     ],
     "shinkansenAccess": false,
@@ -167874,7 +166849,10 @@
     "unsplashCreditUrl": "https://unsplash.com/@pafuxu?utm_source=dokoiko&utm_medium=referral",
     "unsplashPhotoUrl": "https://unsplash.com/photos/a-body-of-water-with-a-small-town-in-the-background-16f-zvxas58?utm_source=dokoiko&utm_medium=referral",
     "images": [
-      "/images/chichijima/main.jpg"
+      "/images/chichijima/main.jpg",
+      "/images/hahajima/main.jpg",
+      "/images/hahajima/spot-1.jpg",
+      "/images/hahajima/spot-3.jpg"
     ],
     "reasonChips": [
       "ビーチ",
@@ -167917,147 +166895,6 @@
       "catchcopy": "扇浦海岸の白砂ビーチを目の前に望む、父島随一の本格リゾートホテル",
       "hasShuttle": false,
       "accessStation": "父島・二見港（竹芝からおがさわら丸で約24時間）"
-    },
-    "seo": {
-      "description": "着くのは二見港だ。船は週に1便前後しかないので、渡ると数日は帰れない。小港海岸は黒っぽい砂の浜で、背後に小笠原固有の海岸植物が迫っている。",
-      "auto": true
-    }
-  },
-  {
-    "id": "hahajima",
-    "name": "母島",
-    "type": "destination",
-    "region": "関東",
-    "prefecture": "東京都",
-    "hub": "東京",
-    "hubName": "東京",
-    "hubCity": "東京",
-    "stayAllowed": [
-      "3night+"
-    ],
-    "departures": [
-      "東京"
-    ],
-    "weight": 1,
-    "description": "父島からははじま丸で約2時間。便は1日1往復で、東京の竹芝から数えると着くまでに丸一日以上かかる。島でいちばん高いのは乳房山で、整備された登山道が森の中を抜けて頂上まで続いている。南崎遊歩道は島の南端へ向かう道で、亜熱帯の林を通って岩場に出る。小富士は短いが急な登りで、上がりきると360度の海が開ける。晴れた日は父島まで見える。固有の動植物が多く、島は世界自然遺産の区域に入る。港のまわりに宿と商店が集まっている。拠点は父島。",
-    "tags": [
-      "離島",
-      "海",
-      "自然"
-    ],
-    "spots": [
-      {
-        "name": "南崎遊歩道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/View_from_Hahajima-Island_and_the_Minamizaki_Tokyo%2CJAPAN.jpg/500px-View_from_Hahajima-Island_and_the_Minamizaki_Tokyo%2CJAPAN.jpg",
-        "description": "母島南端へ続く遊歩道で、亜熱帯の湿った土と緑の香りを感じながら歩ける。先端の岩場では波しぶきが上がり、水平線を一望できる。",
-        "imageCredit": {
-          "author": "Si-take. at Japanese Wikipedia",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:View_from_Hahajima-Island_and_the_Minamizaki_Tokyo,JAPAN.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "小富士",
-        "description": "標高約315m、急勾配だが短い登山道の先に360度の海景。晴れた日は父島まで見える、黒い火山地肌が印象的な絶好の展望台。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/View_from_Kofuji_at_Hahajima.jpg/1280px-View_from_Kofuji_at_Hahajima.jpg",
-        "imageCredit": {
-          "author": "Ootahara",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:View_from_Kofuji_at_Hahajima.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "乳房山",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg/500px-Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg",
-        "description": "丸みを帯びた双峰がそびえる母島北部の山。整備された道が森を進み、磯の香りと野鳥のさえずりが心地よい。島の歴史と地質が凝縮する。",
-        "imageCredit": {
-          "author": "Yasu (talk)",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Mounts_Chibusa_and_Kensaki_seen_from_Port_of_Oki.jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": true,
-    "destType": "island",
-    "hotelSearch": "母島",
-    "lat": 26.665,
-    "lng": 142.158,
-    "travelTime": {
-      "tokyo": 1620,
-      "osaka": 1785,
-      "nagoya": 1725,
-      "fukuoka": 1925,
-      "sapporo": 1765
-    },
-    "stayRecommendation": "3night+",
-    "gateways": {
-      "rail": [],
-      "airport": [],
-      "bus": [],
-      "ferry": [
-        "東京港"
-      ]
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/tokyo/",
-      "jalan": "https://www.jalan.net/130000/"
-    },
-    "rentalCarRecommended": false,
-    "unsplashUrl": "https://images.unsplash.com/photo-1657021835930-b5d2b9e48bc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlOEQlOTclRTUlQjQlOEUlRTklODElOEElRTYlQUQlQTklRTklODElOTMlMjAlRTYlQUYlOEQlRTUlQjMlQjZ8ZW58MHwwfHx8MTc3ODU0OTI3NHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1657021835930-b5d2b9e48bc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlOEQlOTclRTUlQjQlOEUlRTklODElOEElRTYlQUQlQTklRTklODElOTMlMjAlRTYlQUYlOEQlRTUlQjMlQjZ8ZW58MHwwfHx8MTc3ODU0OTI3NHww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Tunafish",
-    "unsplashCreditUrl": "https://unsplash.com/@ultratunafish?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/a-boardwalk-leading-to-a-beach-BxhJRfR79fo?utm_source=dokoiko&utm_medium=referral",
-    "images": [
-      "/images/hahajima/main.jpg",
-      "/images/hahajima/spot-1.jpg",
-      "/images/hahajima/spot-3.jpg"
-    ],
-    "reasonChips": [
-      "離島",
-      "歴史を辿る",
-      "自然と過ごす",
-      "グルメ",
-      "東京に泊まるのがおすすめ",
-      "離島の絶景",
-      "海を眺める",
-      "ゆっくり滞在"
-    ],
-    "hotelKeyword": "母島",
-    "stayArea": {
-      "rakuten": "母島",
-      "jalan": "母島"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E6%25AF%258D%25E5%25B3%25B6",
-    "bestSeason": "通年",
-    "access": {
-      "steps": [
-        {
-          "type": "flight",
-          "to": "調布飛行場"
-        },
-        {
-          "type": "ferry",
-          "to": "母島"
-        }
-      ]
-    },
-    "_accessAutoFixed": "islandFix",
-    "imageCredit": {
-      "author": "Ootahara",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:Hahajima_maru_3rd_20160917_take_from_Mount_Syoukenzaki_at_Hahajima_island.jpg",
-      "attributionRequired": false
-    },
-    "mainSpot": "南崎遊歩道",
-    "seo": {
-      "description": "便は1日1往復で、東京の竹芝から数えると着くまでに丸一日以上かかる。島でいちばん高いのは乳房山で、整備された登山道が森の中を抜けて頂上まで続いている。南崎遊歩道は島の南端へ向かう道で、亜熱帯の林を通って岩場に出る。",
-      "auto": true
     }
   },
   {
@@ -168964,143 +167801,6 @@
     },
     "travelTimeEstimated": {
       "tottori": true
-    }
-  },
-  {
-    "id": "nakanoshima-oki",
-    "name": "中ノ島",
-    "type": "destination",
-    "region": "中国",
-    "prefecture": "島根県",
-    "hub": "大阪",
-    "hubName": "大阪",
-    "hubCity": "大阪",
-    "stayAllowed": [
-      "1night",
-      "2night"
-    ],
-    "departures": [
-      "大阪"
-    ],
-    "weight": 1,
-    "description": "島根県隠岐諸島の一島。承久の乱に敗れた後鳥羽上皇が流され、生涯を閉じた地だ。大阪から約4時間30分のフェリーで中ノ島に渡れる。後鳥羽天皇御火葬塚は苔むした石碑と松林に囲まれ、900年前の歴史を静かに伝える。明屋海岸では日本海の荒波が沖の岩礁に白く砕け、隠岐の島々を視界に収める。宇受賀命神社は断崖に鎮座する古社で、塩風に晒された木製の鳥居が長い年月を物語る。宿のEntô（エントウ）は菱浦港から徒歩3分。全室からカルデラの海を一望する離島ホテルだ。祈りの気配が濃い。",
-    "tags": [
-      "離島",
-      "海",
-      "自然"
-    ],
-    "spots": [
-      {
-        "name": "後鳥羽天皇御火葬塚",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Emperor_Go-Toba.jpg/500px-Emperor_Go-Toba.jpg",
-        "description": "承久の乱に敗れた後鳥羽上皇が生涯を閉じた地の塚。苔むした石碑と暗い松林、海からの潮騒が、900年前の想いを今に伝える。",
-        "imageCredit": {
-          "author": "Fujiwara no Nobuzane",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Emperor_Go-Toba.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "明屋海岸",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/20080720OkiDouzen.jpg/500px-20080720OkiDouzen.jpg",
-        "description": "波音が響く海岸。沖の岩礁群が日本海の荒波を受け止め、白く砕ける飛沫が絶えない。隠岐の島々を望み、離島の孤立感と雄大さに浸れる。",
-        "imageCredit": {
-          "author": "BehBeh",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:20080720OkiDouzen.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "宇受賀命神社",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Uzukamikoto-jinja.jpg/1280px-Uzukamikoto-jinja.jpg",
-        "description": "海岸の断崖に鎮座する古社。塩風に晒され深い茶色に変色した木製の鳥居が歴史を物語り、参道には潮と苔の香りが混ざり合う。",
-        "imageCredit": {
-          "author": "Fukuneko 2nd",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Uzukamikoto-jinja.jpg",
-          "attributionRequired": false
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": true,
-    "destType": "island",
-    "hotelSearch": "中ノ島",
-    "lat": 36.087,
-    "lng": 133.107,
-    "travelTime": {
-      "osaka": 270,
-      "tokyo": 435,
-      "nagoya": 330,
-      "fukuoka": 435,
-      "sapporo": 435
-    },
-    "stayRecommendation": "1night",
-    "gateways": {
-      "rail": [],
-      "airport": [],
-      "bus": [],
-      "ferry": [
-        "中ノ島"
-      ]
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/shimane/",
-      "jalan": "https://www.jalan.net/320000/"
-    },
-    "rentalCarRecommended": false,
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1654541281543-08cd122a2b4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTUlQkUlOEMlRTklQjMlQTUlRTclQkUlQkQlRTUlQTQlQTklRTclOUElODclRTUlQkUlQTElRTclODElQUIlRTglOTElQUMlRTUlQTElOUElMjAlRTQlQjglQUQlRTMlODMlOEUlRTUlQjMlQjZ8ZW58MHwwfHx8MTc3ODU0OTg1NXww&ixlib=rb-4.1.0&q=80&w=400",
-    "images": [
-      "/images/nakanoshima-oki/main.jpg",
-      "/images/nakanoshima-oki/spot-1.jpg",
-      "/images/nakanoshima-oki/spot-2.jpg",
-      "/images/nakanoshima-oki/spot-3.jpg"
-    ],
-    "reasonChips": [
-      "絶景",
-      "ビーチ",
-      "離島",
-      "歴史を辿る",
-      "寺社めぐり",
-      "自然と過ごす",
-      "1泊がおすすめ",
-      "大阪に泊まるのがおすすめ"
-    ],
-    "hotelKeyword": "中ノ島",
-    "stayArea": {
-      "rakuten": "中ノ島",
-      "jalan": "中ノ島"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E4%25B8%25AD%25E3%2583%258E%25E5%25B3%25B6",
-    "bestSeason": "通年",
-    "access": {
-      "steps": [
-        {
-          "type": "ferry",
-          "to": "中ノ島"
-        }
-      ]
-    },
-    "_accessAutoFixed": "islandFix",
-    "mainSpot": "後鳥羽天皇御火葬塚",
-    "featured_stay": {
-      "name": "Entô（エントウ）",
-      "catchcopy": "隠岐ジオパークに泊まる、全室カルデラの海を望む離島ホテル",
-      "hasShuttle": false,
-      "accessStation": "菱浦港から徒歩3分"
-    },
-    "imageCredit": {
-      "author": "Yuvalr",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Camp_site_at_Akyia-kaigan_coast,_Ama_(Nakanoshima).jpg",
-      "attributionRequired": true
-    },
-    "seo": {
-      "description": "島根県隠岐諸島の一島。承久の乱に敗れた後鳥羽上皇が流され、生涯を閉じた地だ。後鳥羽天皇御火葬塚は苔むした石碑と松林に囲まれ、900年前の歴史を静かに伝える。",
-      "auto": true
     }
   },
   {
@@ -170710,150 +169410,6 @@
     "mainSpot": "ウジジ浜",
     "seo": {
       "description": "鹿児島県に属するサンゴ礁起源の離島。鹿児島空港経由の空路か、鹿児島港からのフェリーで島に渡れる。ウジジ浜は白砂の浜で、透明な海越しに水底の砂紋が幾何学模様を描き、沖の岩礁まで奥行きが続く。",
-      "auto": true
-    }
-  },
-  {
-    "id": "aka-island",
-    "name": "阿嘉島",
-    "type": "destination",
-    "region": "沖縄",
-    "prefecture": "沖縄県",
-    "hub": "那覇",
-    "hubName": "那覇",
-    "hubCity": "那覇",
-    "stayAllowed": [
-      "1night",
-      "2night"
-    ],
-    "departures": [
-      "那覇"
-    ],
-    "weight": 1,
-    "description": "慶良間諸島の島のひとつで、那覇の泊港から高速船なら約50分、フェリーなら約90分かかる。近づくにつれて海の色が段階的に変わっていく。ニシ浜は粉のような白砂の浜で、膝までの浅瀬を熱帯魚が泳ぐ。阿嘉大橋は全長545mの朱色の橋で、渡る途中、両側で海の色が違って見える。丘の上の展望台からは集落と外洋、座間味島や渡嘉敷島まで見渡せる。島は静かだ。移動は歩きか自転車で足りる。ケラマジカが道を横切ることもある。拠点は那覇。",
-    "tags": [
-      "離島",
-      "海",
-      "自然"
-    ],
-    "spots": [
-      {
-        "name": "ニシ浜",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Nishihama.JPG/500px-Nishihama.JPG",
-        "description": "粉末状の白砂に足先が包まれる浜。最高級の透明度を誇り、膝までの浅瀬を熱帯魚が指の間を泳ぎ去る。砂の温もりと海の冷感が交差する。",
-        "imageCredit": {
-          "author": "Snap55",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Nishihama.JPG",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "阿嘉大橋",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aka_Island_gsi-20081121.jpg/500px-Aka_Island_gsi-20081121.jpg",
-        "description": "慶良間諸島を結ぶ朱色の橋。足下に透明な海が映り、両側で色の違う水域が藍と翡翠のグラデーションを描く。往来の途中に絶景を占有できる。",
-        "imageCredit": {
-          "author": "Geospatial Information Authority of Japan",
-          "license": "Attribution",
-          "url": "https://commons.wikimedia.org/wiki/File:Aka_Island_gsi-20081121.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "展望台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg/500px-Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg",
-        "description": "島全体を見渡す丘の上。塩気を含む強い風の中、眼下の集落と外洋を眺める。西陽が海面を金色に染め、慶良間ブルーの濃淡が時分ごとに変わる。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:Obiki-no-hana_Kasumi_Coast_Hyogo_pref03n4020.jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": true,
-    "destType": "island",
-    "hotelSearch": "阿嘉島",
-    "lat": 26.193,
-    "lng": 127.272,
-    "travelTime": {
-      "naha": 80,
-      "tokyo": 280,
-      "osaka": 240,
-      "nagoya": 255,
-      "fukuoka": 215,
-      "sapporo": 305,
-      "sendai": 245,
-      "hiroshima": 245,
-      "takamatsu": 195
-    },
-    "stayRecommendation": "1night",
-    "gateways": {
-      "rail": [],
-      "airport": [
-        "那覇空港"
-      ],
-      "bus": [],
-      "ferry": [
-        "那覇港"
-      ]
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/okinawa/",
-      "jalan": "https://www.jalan.net/470000/"
-    },
-    "rentalCarRecommended": false,
-    "unsplashUrl": "https://images.unsplash.com/photo-1756620964762-b07e60899fa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODMlOEIlRTMlODIlQjclRTYlQjUlOUMlMjAlRTklOTglQkYlRTUlOTglODklRTUlQjMlQjZ8ZW58MHwwfHx8MTc3ODU1MTAxNnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "unsplashThumbUrl": "https://images.unsplash.com/photo-1756620964762-b07e60899fa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDIyNTB8MHwxfHNlYXJjaHwxfHwlRTMlODMlOEIlRTMlODIlQjclRTYlQjUlOUMlMjAlRTklOTglQkYlRTUlOTglODklRTUlQjMlQjZ8ZW58MHwwfHx8MTc3ODU1MTAxNnww&ixlib=rb-4.1.0&q=80&w=400",
-    "unsplashCredit": "Kouji Tsuru",
-    "unsplashCreditUrl": "https://unsplash.com/@pafuxu?utm_source=dokoiko&utm_medium=referral",
-    "unsplashPhotoUrl": "https://unsplash.com/photos/a-serene-beach-with-calm-blue-water-and-a-green-hill-ToRIKGWVPzY?utm_source=dokoiko&utm_medium=referral",
-    "images": [
-      "/images/aka-island/main.jpg",
-      "/images/aka-island/spot-1.jpg",
-      "/images/aka-island/spot-2.jpg",
-      "/images/aka-island/spot-3.jpg"
-    ],
-    "reasonChips": [
-      "絶景",
-      "離島",
-      "自然と過ごす",
-      "1泊がおすすめ",
-      "那覇に泊まるのがおすすめ",
-      "離島の絶景",
-      "海を眺める"
-    ],
-    "hotelKeyword": "阿嘉島",
-    "stayArea": {
-      "rakuten": "阿嘉島",
-      "jalan": "阿嘉島"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E9%2598%25BF%25E5%2598%2589%25E5%25B3%25B6",
-    "bestSeason": "夏",
-    "access": {
-      "steps": [
-        {
-          "type": "flight",
-          "to": "那覇空港"
-        },
-        {
-          "type": "ferry",
-          "to": "阿嘉島"
-        }
-      ]
-    },
-    "_accessAutoFixed": "islandFix",
-    "imageCredit": {
-      "author": "keiyac",
-      "license": "CC BY-SA 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Coral_reef_life_near_Akajima_03.jpg",
-      "attributionRequired": true
-    },
-    "mainSpot": "ニシ浜",
-    "seo": {
-      "description": "近づくにつれて海の色が段階的に変わっていく。ニシ浜は粉のような白砂の浜で、膝までの浅瀬を熱帯魚が泳ぐ。阿嘉大橋は全長545mの朱色の橋で、渡る途中、両側で海の色が違って見える。",
       "auto": true
     }
   },
@@ -174797,116 +173353,6 @@
     "mainSpot": "奈義町現代美術館"
   },
   {
-    "id": "kasaoka-islands",
-    "name": "笠岡諸島",
-    "type": "destination",
-    "region": "中国",
-    "prefecture": "岡山県",
-    "hub": "大阪",
-    "hubName": "大阪",
-    "hubCity": "大阪",
-    "stayAllowed": [
-      "1night"
-    ],
-    "departures": [
-      "大阪"
-    ],
-    "weight": 1,
-    "description": "瀬戸内海に浮かぶ離島群だ。岡山県笠岡市沖に白石島・北木島・真鍋島などが点在し、大阪から約3時間でフェリーに乗り継げる。白石島では石灰岩の採掘跡が段々状に海岸線まで続き、人の営みと地形が交わった痕跡を歩いて確かめられる。北木島は花崗岩の採石場跡から瀬戸内の海を望め、職人が踏み固めた石畳の小路が島を繋ぐ。真鍋島には焼石と飾り瓦の民家が並ぶ集落が残り、江戸期から続く船乗りの暮らしの痕跡が色を保つ。宿泊なら「島宿 三虎」へ。真鍋島本浦港から徒歩約10分、獲れたての魚介が名物の一軒宿だ。石と海が刻んだ時間。",
-    "tags": [
-      "離島",
-      "海",
-      "秘境"
-    ],
-    "spots": [
-      {
-        "name": "白石島",
-        "description": "採石場跡が段々畑のように残る白い島。海岸線まで続く石灰岩の採掘跡に、人間の営みと風景が交わった痕跡を見る。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Shiraishijima_2019.jpg/1280px-Shiraishijima_2019.jpg",
-        "imageCredit": {
-          "author": "皓月旗",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Shiraishijima_2019.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "北木島",
-        "description": "石工の技が凝結した島。花崗岩採石場から望む瀬戸内海と、職人の手ざわりが残る石畳の小路が優雅に島を繋いでいる。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kitagi_2015_10k_kitagi003.JPG/1280px-Kitagi_2015_10k_kitagi003.JPG",
-        "imageCredit": {
-          "author": "Kkawata",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kitagi_2015_10k_kitagi003.JPG",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "真鍋島",
-        "description": "潮風が頬をかすめる路地に、漆黒の焼石と真紅の飾り瓦の民家群が並ぶ。江戸期の船乗りの営みが色褪せず島を包む。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Manabeshima_Enpukuji_temple_approach.jpg/1280px-Manabeshima_Enpukuji_temple_approach.jpg",
-        "imageCredit": {
-          "author": "ブルーノ・プラス",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Manabeshima_Enpukuji_temple_approach.jpg",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": true,
-    "destType": "sight",
-    "hotelSearch": "笠岡 福山",
-    "lat": 34.475,
-    "lng": 133.473,
-    "travelTime": {
-      "osaka": 180,
-      "tokyo": 345,
-      "nagoya": 240,
-      "fukuoka": 345,
-      "hiroshima": 270,
-      "takamatsu": 285,
-      "sendai": 355
-    },
-    "stayRecommendation": "1night",
-    "gateways": {
-      "rail": [],
-      "airport": [],
-      "bus": [],
-      "ferry": []
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/okayama/",
-      "jalan": "https://www.jalan.net/330000/"
-    },
-    "rentalCarRecommended": true,
-    "reasonChips": [
-      "街歩き",
-      "工芸文化",
-      "1泊がおすすめ",
-      "大阪に泊まるのがおすすめ",
-      "離島の絶景",
-      "海を眺める",
-      "秘境感あり"
-    ],
-    "images": [
-      "/images/kasaoka-islands/main.jpg"
-    ],
-    "bestSeason": "通年",
-    "mainSpot": "白石島",
-    "featured_stay": {
-      "name": "島宿 三虎",
-      "catchcopy": "笠岡諸島・真鍋島の海辺に建つ、獲れたて魚介が名物の一軒宿",
-      "hasShuttle": false,
-      "accessStation": "真鍋島本浦港から徒歩約10分"
-    },
-    "seo": {
-      "description": "瀬戸内海に浮かぶ離島群だ。白石島では石灰岩の採掘跡が段々状に海岸線まで続き、人の営みと地形が交わった痕跡を歩いて確かめられる。北木島は花崗岩の採石場跡から瀬戸内の海を望め、職人が踏み固めた石畳の小路が島を繋ぐ。",
-      "auto": true
-    }
-  },
-  {
     "id": "ogose",
     "name": "越生",
     "type": "destination",
@@ -177908,107 +176354,6 @@
     },
     "seo": {
       "description": "熊本城は熊本市の中心部に立つ、加藤清正が築いた名城だ。二の丸広場では、幾重にも積み上げられた巨石の石垣と天守を一望でき、その規模は訪れた者を圧倒する。加藤神社は清正を祀る社で、境内から仰ぐ天守の角度が印象深い。",
-      "auto": true
-    }
-  },
-  {
-    "id": "hitoyoshi-onsen",
-    "name": "人吉温泉",
-    "type": "destination",
-    "region": "九州",
-    "prefecture": "熊本県",
-    "hub": "福岡",
-    "hubName": "福岡",
-    "hubCity": "福岡",
-    "stayAllowed": [
-      "1night"
-    ],
-    "departures": [
-      "福岡"
-    ],
-    "weight": 1,
-    "description": "熊本県南部、球磨川沿いに湯が湧く城下町。石垣と温泉宿が川沿いに並び、歴史と湯治の時間が交差する。福岡から約2時間30分でアクセスでき、1泊の旅に向いている。人吉城は球磨川に張り出す城跡で、川の流れに沿って曲線を描く石垣が見どころ。青井阿蘇神社は樹齢千年を超える楠が境内に立つ古社で、黒木造りの社殿が古さを伝える。球磨川下りは両岸の岩壁が迫る渓谷を舟で下る体験で、温泉街とは異なる土地の素顔に触れられる。人吉旅館は昭和9年築の国登録有形文化財で、人吉駅から徒歩圏内に立つ。川音が夜明けまで続く温泉街。",
-    "tags": [
-      "温泉",
-      "寺社",
-      "歴史"
-    ],
-    "spots": [
-      {
-        "name": "人吉城",
-        "description": "球磨川沿いに張り出す城跡。石垣が川の流れに沿って曲線を描き、水音が心地よい。歴史と湯治の二つの時間が交差する場所。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hitoyoshi_Castle%2C_ni-no-maru.jpg/1280px-Hitoyoshi_Castle%2C_ni-no-maru.jpg",
-        "imageCredit": {
-          "author": "Saigen Jiro",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Hitoyoshi_Castle,_ni-no-maru.jpg",
-          "attributionRequired": false
-        }
-      },
-      {
-        "name": "青井阿蘇神社",
-        "description": "樹齢千年を超える楠が鎮座する古社。黒木造りの社殿は木目の香りと触感で古さを物語り、人吉の民が祈り続けた千年の質量を伝える。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Aoi-Aso_Shrine_Misogi-bashi_202009_02.jpg/1280px-Aoi-Aso_Shrine_Misogi-bashi_202009_02.jpg",
-        "imageCredit": {
-          "author": "ja:User:Sanjo",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Aoi-Aso_Shrine_Misogi-bashi_202009_02.jpg",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "球磨川下り",
-        "description": "急流の音が耳を満たし水しぶきが肌を濡らす舟旅。両岸の岩壁が迫る渓谷を縫い、歴史ある川路を身体で下る興奮を味わえる。"
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": false,
-    "destType": "sight",
-    "hotelSearch": "人吉温泉",
-    "lat": 32.214,
-    "lng": 130.762,
-    "travelTime": {
-      "fukuoka": 150,
-      "tokyo": 455,
-      "osaka": 315,
-      "nagoya": 365,
-      "hiroshima": 225,
-      "sapporo": 325
-    },
-    "stayRecommendation": "1night",
-    "gateways": {
-      "rail": [],
-      "airport": [],
-      "bus": [],
-      "ferry": []
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/kumamoto/",
-      "jalan": "https://www.jalan.net/430000/"
-    },
-    "rentalCarRecommended": false,
-    "reasonChips": [
-      "温泉",
-      "歴史を辿る",
-      "寺社めぐり",
-      "自然と過ごす",
-      "1泊がおすすめ",
-      "温泉がおすすめ"
-    ],
-    "images": [
-      "/images/hitoyoshi-onsen/main.jpg"
-    ],
-    "bestSeason": "夏・冬",
-    "mainSpot": "人吉城",
-    "featured_stay": {
-      "name": "人吉旅館",
-      "catchcopy": "昭和9年築・国登録有形文化財。球磨川水害から蘇った木造宿",
-      "hasShuttle": false,
-      "accessStation": "人吉駅から徒歩圏"
-    },
-    "seo": {
-      "description": "熊本県南部、球磨川沿いに湯が湧く城下町。石垣と温泉宿が川沿いに並び、歴史と湯治の時間が交差する。人吉城は球磨川に張り出す城跡で、川の流れに沿って曲線を描く石垣が見どころ。",
       "auto": true
     }
   },
@@ -182438,132 +180783,6 @@
     "mainSpot": "阿波踊り会館",
     "seo": {
       "description": "目玉は阿波踊り会館。太鼓の響きと踊り手の掛け声が満ち、衣装や足運びから400年続く祭りの技と歴史を間近で体感できる施設だ。眉山はロープウェイで頂上へ上がると、吉野川と市街を一望できる。",
-      "auto": true
-    }
-  },
-  {
-    "id": "aharen",
-    "name": "阿波連ビーチ",
-    "type": "destination",
-    "region": "沖縄",
-    "prefecture": "沖縄県",
-    "hub": "那覇",
-    "hubName": "那覇",
-    "hubCity": "那覇",
-    "stayAllowed": [
-      "1night"
-    ],
-    "departures": [
-      "那覇"
-    ],
-    "weight": 1,
-    "description": "沖縄・座間味島の南西端に位置するビーチだ。那覇港からフェリーで約1時間30分、阿波連集落に隣接した白砂の浜まで、港から徒歩でアクセスできる。車は不要。阿波連ビーチは透明度の高い海とウミガメの産卵地として知られ、夏の浜には生命力あふれる光景がある。高台の阿波連園地ではアコウの木ごしに東シナ海を見渡せ、同じ座間味島にある古座間味ビーチはサンゴ礁の色彩が鮮やかな代表的な浜だ。那覇空港から島へのアクセスは那覇港経由のフェリー一択で、1泊以上の滞在が旅の充実につながる。青と白だけの世界。",
-    "tags": [
-      "海",
-      "離島",
-      "秘境"
-    ],
-    "spots": [
-      {
-        "name": "阿波連ビーチ",
-        "description": "白砂と透明度の高い海が出迎える。足を入れれば磯の香りと潮の冷感が交わる、ウミガメの産卵地でもある浜。",
-        "imageUrl": "/images/spots/aharen/0.jpg",
-        "imageCredit": {
-          "author": "secondrow",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/54741877@N00/194556699",
-          "attributionRequired": true
-        }
-      },
-      {
-        "name": "阿波連園地",
-        "description": "無人島に位置する園地で、アコウの木が潮風に揺れる中、波の音を聞きながら海を眺めることができる。"
-      },
-      {
-        "name": "古座間味ビーチ",
-        "description": "座間味島を代表するビーチで、細砂の浜と座間味城址の断崖、時間によって色合いが変わるサンゴ礁を持つ。",
-        "imageUrl": "/images/spots/aharen/2.jpg",
-        "imageCredit": {
-          "author": "kikmoyoo",
-          "license": "CC BY-SA 2.0",
-          "url": "https://www.flickr.com/photos/25133870@N00/1458724324",
-          "attributionRequired": true
-        }
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": false,
-    "isIsland": true,
-    "destType": "island",
-    "hotelSearch": "あはれん",
-    "lat": 26.19,
-    "lng": 127.354,
-    "travelTime": {
-      "naha": 90,
-      "tokyo": 290,
-      "osaka": 250,
-      "nagoya": 265,
-      "fukuoka": 225
-    },
-    "stayRecommendation": "1night",
-    "gateways": {
-      "rail": [],
-      "airport": [
-        "那覇空港"
-      ],
-      "bus": [],
-      "ferry": [
-        "那覇港"
-      ]
-    },
-    "hotelLinks": {
-      "rakuten": "https://travel.rakuten.co.jp/yado/okinawa/",
-      "jalan": "https://www.jalan.net/470000/"
-    },
-    "rentalCarRecommended": true,
-    "reasonChips": [
-      "ビーチ",
-      "離島",
-      "歴史を辿る",
-      "自然と過ごす",
-      "1泊がおすすめ",
-      "那覇に泊まるのがおすすめ",
-      "海を眺める",
-      "離島の絶景"
-    ],
-    "images": [
-      "/images/aharen/main.jpg"
-    ],
-    "hotelKeyword": "あはれん",
-    "stayArea": {
-      "rakuten": "あはれん",
-      "jalan": "あはれん"
-    },
-    "staySearchUrl": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fsearch%2F%3Fkeyword%3D%25E3%2581%2582%25E3%2581%25AF%25E3%2582%258C%25E3%2582%2593",
-    "bestSeason": "夏",
-    "access": {
-      "steps": [
-        {
-          "type": "flight",
-          "to": "那覇空港"
-        },
-        {
-          "type": "ferry",
-          "to": "阿波連ビーチ"
-        }
-      ]
-    },
-    "_accessAutoFixed": "islandFix",
-    "imageCredit": {
-      "author": "Kennosuke Yamaguchi from Tokyo, Japan",
-      "license": "CC BY-SA 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File%3ATokashikijima_2004.jpg",
-      "attributionRequired": true
-    },
-    "mainSpot": "阿波連ビーチ",
-    "hubHotelOnly": true,
-    "seo": {
-      "description": "沖縄・座間味島の南西端に位置するビーチだ。車は不要。阿波連ビーチは透明度の高い海とウミガメの産卵地として知られ、夏の浜には生命力あふれる光景がある。",
       "auto": true
     }
   },
@@ -242921,154 +241140,6 @@
     "hotelLinks": {
       "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Ftottori%2F",
       "jalan": "https://www.jalan.net/310000/"
-    },
-    "travelTimeEstimated": {
-      "wakayama": true,
-      "mito": true,
-      "maebashi": true,
-      "takasaki": true,
-      "hamamatsu": true,
-      "gifu": true,
-      "kofu": true,
-      "shingu": true,
-      "tanabe": true,
-      "shirahama": true,
-      "kushimoto": true,
-      "tottori": true,
-      "shimonoseki": true,
-      "saga": true,
-      "oita": true,
-      "beppu": true
-    }
-  },
-  {
-    "id": "kuniga",
-    "name": "国賀海岸",
-    "type": "destination",
-    "region": "中国",
-    "hub": "松江",
-    "stayAllowed": [
-      "1night"
-    ],
-    "departures": [
-      "松江"
-    ],
-    "weight": 1,
-    "description": "島根県・隠岐諸島の西ノ島北西部に広がる海岸線だ。海蝕崖が十三キロにわたって続き、国の名勝と国立公園に指定されている。境港駅からフェリーで島へ渡り、現地は車が必要になる。見どころは多い。摩天崖は国内最大級の海崖で、崖の上が牧草地になっており、牛や馬が放たれている。波が岩を貫いてできた天然の洞門・通天橋は、遊歩道の途中から全貌を見下ろせる。国賀海岸遊歩道は摩天崖から国賀浜まで続き、上りは一時間ほどかかる。荒々しい崖と穏やかな草地が同じ視界に収まる。",
-    "tags": [
-      "絶景",
-      "海",
-      "自然",
-      "離島"
-    ],
-    "spots": [
-      {
-        "name": "摩天崖",
-        "description": "高さ二百五十七メートル、国内最大級の海崖。崖の上は牧草地で牛や馬が放たれている。"
-      },
-      {
-        "name": "通天橋",
-        "description": "波が岩を貫いてできた天然の洞門。遊歩道の途中から、その全貌を見下ろすことができる。"
-      },
-      {
-        "name": "国賀海岸遊歩道",
-        "description": "摩天崖から国賀浜まで高低差二百五十メートル。下り四十五分、上りは一時間ほどかかる。"
-      }
-    ],
-    "shinkansenAccess": false,
-    "requiresCar": true,
-    "hotelSearch": "西ノ島町",
-    "gateways": {
-      "rail": [
-        "境港駅"
-      ],
-      "airport": [
-        "隠岐空港"
-      ],
-      "bus": [],
-      "ferry": []
-    },
-    "destType": "sight",
-    "railGateway": "境港駅",
-    "busGateway": null,
-    "ferryGateway": null,
-    "airportGateway": "隠岐空港",
-    "prefecture": "島根県",
-    "lat": 36.08556,
-    "lng": 132.95838,
-    "stayBias": 1,
-    "city": "西ノ島町",
-    "situations": [
-      "solo",
-      "couple",
-      "friends"
-    ],
-    "catch": "高さ二五七メートルの摩天崖に、牛と馬が放たれている。",
-    "mainSpot": "摩天崖",
-    "mapPoint": "国賀海岸",
-    "representativeStation": "境港駅",
-    "hubStation": "境港駅",
-    "accessStation": "境港駅",
-    "hotelArea": "shimane",
-    "finalAccess": {
-      "type": "car"
-    },
-    "travelTime": {
-      "tokyo": 380,
-      "osaka": 250,
-      "nagoya": 300,
-      "fukuoka": 295,
-      "takamatsu": 265,
-      "wakayama": 280,
-      "mito": 425,
-      "maebashi": 440,
-      "takasaki": 440,
-      "hamamatsu": 330,
-      "gifu": 320,
-      "kofu": 470,
-      "shingu": 370,
-      "tanabe": 340,
-      "shirahama": 350,
-      "kushimoto": 370,
-      "tottori": 370,
-      "shimonoseki": 325,
-      "saga": 325,
-      "oita": 355,
-      "beppu": 365
-    },
-    "stayRecommendation": "1night",
-    "tier": "area",
-    "tier2": "area",
-    "icCard": "suica",
-    "bestSeason": "夏",
-    "onsenLevel": 0,
-    "hasDirectFlight": false,
-    "primary": [
-      "絶景",
-      "海"
-    ],
-    "secondary": [
-      "自然",
-      "離島"
-    ],
-    "reasonChips": [
-      "絶景",
-      "自然と過ごす",
-      "ひとり旅向け",
-      "1泊がおすすめ"
-    ],
-    "images": [
-      "/images/kuniga/main.jpg"
-    ],
-    "imageCredit": {
-      "author": "Yuvalr",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Kuniga_coast_torii.jpg",
-      "attributionRequired": true
-    },
-    "hotelLinks": {
-      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5113ee4b.8662cfc5.5113ee4c.119de89a/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2Fyado%2Fshimane%2F",
-      "jalan": "https://www.jalan.net/320000/"
     },
     "travelTimeEstimated": {
       "wakayama": true,
