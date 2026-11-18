@@ -1,0 +1,240 @@
+{
+ "確認日": "2026-11-18",
+ "修正": [
+  {
+   "id": "K1",
+   "題": "焼火神社の登りの所要時間（西ノ島の節「約40分」と、隠岐の島の節「約1時間／約60分（往復2時間程度）」）",
+   "結果": "公式の値に直した（駐車場〜社殿 徒歩25分）",
+   "出典": [
+    "https://nkk-oki.com/japan/information/takuhi-shrine（西ノ島町観光協会）",
+    "https://www.e-oki.net/spots/5988（隠岐の島旅・隠岐ジオパーク推進機構）"
+   ]
+  },
+  {
+   "id": "K2",
+   "題": "玉若酢命神社の八百杉の樹齢（節「樹齢2000年／2,000年以上」と、説明・見どころ「樹齢千年を超える」）",
+   "結果": "公式の値に直した（樹齢2,000年を超える）",
+   "出典": [
+    "https://www.kankou-shimane.com/destination/20421（しまね観光ナビ・島根県観光連盟）",
+    "https://tamawakasu--oki.ciao.jp/（玉若酢命神社 公式）"
+   ]
+  },
+  {
+   "id": "K3",
+   "題": "ローソク島で夕日が重なる時間（見出し「17分間」と、本文「数分間」）",
+   "結果": "公式で確認できず。数字を含む句・文だけ削除した",
+   "出典": [
+    "https://www.e-oki.net/spots/5999（隠岐の島旅）",
+    "https://www.town.okinoshima.shimane.jp/soshiki/shokokanko/gyomu/8/2/228.html（隠岐の島町）— どちらにも「重なる時間」の数字は無い"
+   ]
+  },
+  {
+   "id": "K4",
+   "題": "座間味への高速船の所要時間（説明「約50分」と、モデルコースの時刻 8:30発→9:30着・15:30発→16:30着＝60分）",
+   "結果": "所要時間は公式と一致（約50分・泊港9:00発→座間味港9:50着の便がある）。モデルコースの時刻は便・月で変わり、公式で確認できないので、時刻だけ削除した",
+   "出典": [
+    "https://www.vill.zamami.okinawa.jp/ship（座間味村役場・運航情報）",
+    "https://www.vill.zamami.okinawa.jp/map/map-ichi.pdf（座間味村 交通ガイド）"
+   ]
+  },
+  {
+   "id": "K5",
+   "題": "福岡から人吉までの所要時間（人吉・球磨の説明「約2時間20分」と、人吉温泉の説明「約2時間30分」）",
+   "結果": "公式の値に直した（人吉市の公式ページ: 博多バスターミナル〜人吉IC・博多駅〜人吉駅 とも約2時間20分）",
+   "出典": [
+    "https://www.city.hitoyoshi.lg.jp/shisei/yokoso_hitoyoshi/gaiyo_access/20116（人吉市・交通アクセス）"
+   ]
+  },
+  {
+   "id": "K6",
+   "題": "人吉城歴史館の入館料（人吉の節「200円」と、人吉・球磨の節「一般300円」）",
+   "結果": "公式の値に直した（個人330円）",
+   "出典": [
+    "https://www.city.hitoyoshi.lg.jp/kanko/kankojyoho/2487137（人吉市・人吉城歴史館 利用案内・更新2026-06-03）"
+   ]
+  },
+  {
+   "id": "K7",
+   "題": "球磨川下りの料金（人吉の「1,500円〜4,200円」「おっとっとコース約1時間・1,500円」と、人吉・球磨の「大人4,500円〜」）",
+   "結果": "公式で確認できず（公式の球磨川くだりは清流コース3,500円・梅花の渡し2,500円・ラフティング8,000円で、どちらの数字とも一致しない）。料金の数字を含む句・行だけ削除した",
+   "出典": [
+    "https://www.kumagawa.co.jp/kumagawa（球磨川くだり 公式）",
+    "https://www.kumagawa.co.jp/rafting（同・ラフティング）"
+   ]
+  },
+  {
+   "id": "K8",
+   "題": "球磨川下りの運航期間（人吉の節は冬の運航を前提、人吉・球磨の「営業期間：3月〜11月」）",
+   "結果": "公式で確認できず（公式は清流コースにこたつ船（12月〜3月中旬）があり、ラフティングは4月〜10月）。「3月〜11月」はどちらとも一致しないので、その行を削除した",
+   "出典": [
+    "https://www.kumagawa.co.jp/kumagawa（球磨川くだり 公式）",
+    "https://www.kumagawa.co.jp/rafting（同・ラフティング）"
+   ]
+  }
+ ],
+ "食い違いではなかった": [
+  {
+   "id": "N1",
+   "topic": "青井阿蘇神社の造営年（楼門「慶長18年」と、本文「1610年に建てられたとされる建造物」）",
+   "result": "食い違いではない。公式（人吉市・文化庁）は、社殿群を慶長15（1610）年から18（1613）年に造営（本殿・廊・幣殿 1610年、楼門 1613年）としており、どちらの文とも矛盾しない。変更なし",
+   "sources": [
+    "https://www.city.hitoyoshi.lg.jp/kosodate_kyoiku/kyoiku_bunka/rekishi_bunka/2421063",
+    "https://kunishitei.bunka.go.jp/heritage/detail/102/3569"
+   ]
+  }
+ ],
+ "変更の前後": [
+  {
+   "修正": "K1",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "nishinoshima sections.1.body",
+   "前": "登りに約40分。",
+   "後": "登りに約25分。",
+   "備考": ""
+  },
+  {
+   "修正": "K1",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "nishinoshima sections.1.info",
+   "前": "徒歩：登山口から約40分",
+   "後": "徒歩：登山口から約25分",
+   "備考": ""
+  },
+  {
+   "修正": "K1",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "oki-island sections.2.body",
+   "前": "登山口から歩いて約1時間。",
+   "後": "登山口から歩いて約25分。",
+   "備考": ""
+  },
+  {
+   "修正": "K1",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "oki-island sections.2.info",
+   "前": "所要時間：登山口〜社殿 約60分（往復2時間程度）",
+   "後": "所要時間：登山口〜社殿 約25分",
+   "備考": "「往復2時間程度」は公式に値がなく、約60分を前提にした数字なので、削除した"
+  },
+  {
+   "修正": "K1",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "oki-island description",
+   "前": "登山口から約1時間歩いて参拝する。",
+   "後": "登山口から約25分歩いて参拝する。",
+   "備考": ""
+  },
+  {
+   "修正": "K1",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot nishinoshima/焼火神社",
+   "前": "登山口から約1時間の山道を歩いて参拝する。",
+   "後": "登山口から約25分の山道を歩いて参拝する。",
+   "備考": ""
+  },
+  {
+   "修正": "K2",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "oki-island description",
+   "前": "樹齢千年を超える八百杉が立つ。",
+   "後": "樹齢2,000年を超える八百杉が立つ。",
+   "備考": ""
+  },
+  {
+   "修正": "K2",
+   "ファイル": "src/data/destinations.json",
+   "対象": "spot nishinoshima/玉若酢命神社",
+   "前": "樹齢千年を超える八百杉がそびえる",
+   "後": "樹齢2,000年を超える八百杉がそびえる",
+   "備考": ""
+  },
+  {
+   "修正": "K3",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "oki-island sections.0.title",
+   "前": "夕暮れ17分間だけ、",
+   "後": "夕暮れだけ、",
+   "備考": ""
+  },
+  {
+   "修正": "K3",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "oki-island sections.0.body",
+   "前": "この\"炎\"が見えるのは、夕陽が一直線に届く数分間だけ。\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "K4",
+   "ファイル": "src/data/articles/tokashiki-jima.json",
+   "対象": "zamami-island modelCourse.daytrip",
+   "前": "8:30那覇・泊港発→9:30座間味港着→古座間味ビーチで午前中シュノーケル→阿真ビーチで昼食＆のんびり→15:30座間味港発→16:30那覇着",
+   "後": "那覇・泊港発→座間味港着→古座間味ビーチで午前中シュノーケル→阿真ビーチで昼食＆のんびり→座間味港発→那覇着",
+   "備考": ""
+  },
+  {
+   "修正": "K5",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi-onsen description",
+   "前": "福岡から約2時間30分でアクセスでき",
+   "後": "福岡から約2時間20分でアクセスでき",
+   "備考": ""
+  },
+  {
+   "修正": "K6",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi sections.1.body",
+   "前": "入館料200円で、",
+   "後": "入館料330円で、",
+   "備考": ""
+  },
+  {
+   "修正": "K6",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi sections.1.info",
+   "前": "人吉城歴史館：200円、",
+   "後": "人吉城歴史館：330円、",
+   "備考": ""
+  },
+  {
+   "修正": "K6",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi-city sections.1.info",
+   "前": "隣接の人吉城歴史館は一般300円",
+   "後": "隣接の人吉城歴史館は一般330円",
+   "備考": ""
+  },
+  {
+   "修正": "K7",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi sections.2.body",
+   "前": "「おっとっとコース」（約1時間・1,500円）が初心者向けだ。",
+   "後": "「おっとっとコース」が初心者向けだ。",
+   "備考": ""
+  },
+  {
+   "修正": "K7",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi sections.2.info",
+   "前": "料金：コースにより1,500円〜4,200円\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "K7",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi-city sections.0.info",
+   "前": "料金：大人4,500円〜（コースにより異なる）\n",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "K8",
+   "ファイル": "src/data/articles/hitoyoshi.json",
+   "対象": "hitoyoshi-city sections.0.info",
+   "前": "営業期間：3月〜11月（荒天・増水時は運休）\n",
+   "後": "",
+   "備考": ""
+  }
+ ]
+}

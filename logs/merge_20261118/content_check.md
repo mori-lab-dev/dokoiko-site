@@ -1,6 +1,6 @@
 # 統合の照合表（2026-11-18）
 
-照合 316行・元の文が統合ページに無い 0件・元に無い文 0件
+照合 316行・元の文が統合ページに無い 0件・元に無い文 0件（元の文は、下の「数字の食い違いの修正」を当てたものと照合している）
 
 | 統合ページ | 元のページ | 種別 | 文（先頭60字） | 結果 |
 |---|---|---|---|---|
@@ -78,20 +78,20 @@
 | nishinoshima | nakanoshima-oki | 宿のキャッチコピー | 隠岐ジオパークに泊まる、全室カルデラの海を望む離島ホテル | 載せていない（宿名だけにする決定。1軒しかカードにしない） |
 | nishinoshima | oki-island | description | 本土から船で約3時間。玄関口は西郷港で、空路なら隠岐空港に降りる。ローソク島は海上の奇岩で、西ノ島の浦郷港から遊覧船が出 | 統合ページの本文にある |
 | nishinoshima | oki-island | lead | 本土から船で約3時間。 フェリーが港に近づくと、空気が変わる。 ただ、青くて深い海が広がっている。 隠岐の島は、観光地に | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の見出し | ローソク島｜夕暮れ17分間だけ、海から炎が立ち上がる | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の見出し | ローソク島｜夕暮れだけ、海から炎が立ち上がる | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の本文 | 乗船したのは夕方16時すぎ。 西ノ島の浦郷港から遊覧船に乗る。 料金は大人2,500円。 所要は約1時間のコースだ。 船 | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の info | ■ ローソク島遊覧船 住所：島根県隠岐郡西ノ島町浦郷 料金：大人2,500円（時期・コースにより変動あり） 出港：西ノ島 | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の見出し | 玉若酢命神社｜樹齢2000年の杉の下で、時間の感覚が狂う | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の本文 | 隠岐の島町（島後）の中心部から車で10分ほど。 看板が小さくて、一度通り過ぎた。 参道に入ると、正面に巨大な杉が現れる。 | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の info | ■ 玉若酢命神社 住所：島根県隠岐郡隠岐の島町郡723 参拝料：無料 参拝時間：自由（社務所は9:00〜17:00頃）  | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の見出し | 焼火神社｜標高452m、山の中に神社があった | 統合ページの本文にある |
-| nishinoshima | oki-island | 節の本文 | 西ノ島の焼火山（たくひさん）山頂近く。 標高452メートルの場所に、神社がある。 登山口から歩いて約1時間。 道は整備さ | 統合ページの本文にある |
+| nishinoshima | oki-island | 節の本文 | 西ノ島の焼火山（たくひさん）山頂近く。 標高452メートルの場所に、神社がある。 登山口から歩いて約25分。 道は整備さ | 統合ページの本文にある |
 | nishinoshima | oki-island | 節の info | ■ 焼火神社 住所：島根県隠岐郡西ノ島町美田 参拝料：無料 登山口へのアクセス：別府港より車で約20分 所要時間：登山口 | 統合ページの本文にある |
 | nishinoshima | oki-island | spot の説明（構造化データ） | 西ノ島の浦郷港から遊覧船（大人2,500円・約1時間）で向かう海上の奇岩。夕方の便で海から間近に眺められる。 | 統合ページの構造化データ（spots）にある |
 | nishinoshima | oki-island | spot の画像の出典（表示義務なし） | Navian | 元のページも表示していない（パブリックドメイン・attributionRequired:false） |
-| nishinoshima | oki-island | spot の説明（構造化データ） | 樹齢千年を超える八百杉がそびえる、島後の古社。隠岐の古層が残る聖域を歩くことができる。 | 統合ページの構造化データ（spots）にある |
+| nishinoshima | oki-island | spot の説明（構造化データ） | 樹齢2,000年を超える八百杉がそびえる、島後の古社。隠岐の古層が残る聖域を歩くことができる。 | 統合ページの構造化データ（spots）にある |
 | nishinoshima | oki-island | spot の画像の出典 | ChiefHira | 統合ページの本文にある |
-| nishinoshima | oki-island | spot の説明（構造化データ） | 西ノ島・焼火山の標高452メートルの場所に鎮座する神社。登山口から約1時間の山道を歩いて参拝する。 | 統合ページの構造化データ（spots）にある |
+| nishinoshima | oki-island | spot の説明（構造化データ） | 西ノ島・焼火山の標高452メートルの場所に鎮座する神社。登山口から約25分の山道を歩いて参拝する。 | 統合ページの構造化データ（spots）にある |
 | nishinoshima | oki-island | spot の画像の出典 | Yuvalr | 統合ページの本文にある |
 | nishinoshima | oki-island | モデルコース（日帰り） | 西郷港着→玉若酢命神社（午前）→島内でランチ→西ノ島へフェリー移動→ローソク島遊覧船（夕刻）→宿泊または帰路 | 統合ページの本文にある |
 | nishinoshima | oki-island | モデルコース（1泊） | 【1日目】西郷港着→玉若酢命神社→島後ドライブ→西ノ島へ移動・宿泊 【2日目】焼火神社トレッキング（午前）→昼食後にロー | 統合ページの本文にある |
@@ -151,7 +151,7 @@
 | tokashiki-jima | zamami-island | spot の画像の出典 | Hashi photo | 統合ページの本文にある |
 | tokashiki-jima | zamami-island | spot の説明（構造化データ） | 1〜3月限定。座間味島の沖合はザトウクジラの繁殖海域で、那覇発よりも近い距離でクジラに出会える。 | 統合ページの構造化データ（spots）にある |
 | tokashiki-jima | zamami-island | spot の画像の出典（表示義務なし） | Leonardo Lanza | 元のページも表示していない（パブリックドメイン・attributionRequired:false） |
-| tokashiki-jima | zamami-island | モデルコース（日帰り） | 8:30那覇・泊港発→9:30座間味港着→古座間味ビーチで午前中シュノーケル→阿真ビーチで昼食＆のんびり→15:30座間 | 統合ページの本文にある |
+| tokashiki-jima | zamami-island | モデルコース（日帰り） | 那覇・泊港発→座間味港着→古座間味ビーチで午前中シュノーケル→阿真ビーチで昼食＆のんびり→座間味港発→那覇着 | 統合ページの本文にある |
 | tokashiki-jima | zamami-island | モデルコース（1泊） | 1日目：古座間味ビーチで丸一日泳ぐ→島内の食堂で夕食（もずく天ぷらが絶品）→宿泊。2日目：早朝の阿真ビーチを独り占め→レ | 統合ページの本文にある |
 | tokashiki-jima | zamami-island | tips | 高速船「クイーンざまみ」は1日2便で、繁忙期はすぐ満席になる。 2〜3週間前には予約を。 レンタサイクルは港近くで借りら | 統合ページの本文にある |
 | tokashiki-jima | zamami-island | bestSeason | 海を楽しむなら6〜9月。透明度のピークは梅雨明け直後の7月上旬。 クジラを見たいなら1〜3月一択。シーズンが重ならないか | 統合ページの本文にある |
@@ -267,10 +267,10 @@
 | hitoyoshi | hitoyoshi | 節の info | ■ 青井阿蘇神社 住所：熊本県人吉市上青井町118 参拝：無料 社務所：9:00〜17:00 JR人吉駅から徒歩約10分 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の見出し | 人吉城跡｜石垣マニアが泣いて喜ぶ場所 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の本文 | 正直に言う。 城跡にそこまで期待していない。 天守は残っていない。 あるのは石垣と、少しの復元建造物だけだ。 でも、球磨 | 統合ページの本文にある |
-| hitoyoshi | hitoyoshi | 節の info | ■ 人吉城跡 住所：熊本県人吉市麓町18-4 見学：無料 人吉城歴史館：200円、9:00〜17:00（月曜休） JR人 | 統合ページの本文にある |
+| hitoyoshi | hitoyoshi | 節の info | ■ 人吉城跡 住所：熊本県人吉市麓町18-4 見学：無料 人吉城歴史館：330円、9:00〜17:00（月曜休） JR人 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の見出し | 球磨川くだり｜冬の川は、思ったより静かだ | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | 節の本文 | 球磨川くだりは、夏の激流体験というイメージがあった。 冬に乗ったら、全然違った。 水量が少なく、川面が穏やかだ。 ガイド | 統合ページの本文にある |
-| hitoyoshi | hitoyoshi | 節の info | ■ 球磨川くだり 住所：熊本県人吉市駅前町2（乗船場） 料金：コースにより1,500円〜4,200円 運行：9:00〜（ | 統合ページの本文にある |
+| hitoyoshi | hitoyoshi | 節の info | ■ 球磨川くだり 住所：熊本県人吉市駅前町2（乗船場） 運行：9:00〜（要予約・季節により変動） 定休：不定休（荒天中 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi | spot の説明（構造化データ） | 人吉駅から徒歩10分、慶長18年造営の茅葺きの楼門が構える神社。400年の湿気と苔をまとう柱の質感に触れられる。 | 統合ページの構造化データ（spots）にある |
 | hitoyoshi | hitoyoshi | spot の画像の出典（表示義務なし） | Saigen Jiro | 元のページも表示していない（パブリックドメイン・attributionRequired:false） |
 | hitoyoshi | hitoyoshi | spot の説明（構造化データ） | 天守は残らず、石垣と少しの復元建造物が球磨川沿いに続く城跡。川辺の景色とともに、静かな時間を歩ける。 | 統合ページの構造化データ（spots）にある |
@@ -286,10 +286,10 @@
 | hitoyoshi | hitoyoshi-city | lead | 川の音が、まず耳に届く。 人吉盆地に入った瞬間、空気が変わった。 球磨川は静かじゃない。 ごうごうと、ずっと鳴っている。 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の見出し | 球磨川下り｜ゴムボートで、川に飲み込まれる15分間 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の本文 | 乗り場に着いたのは朝9時前。 スタッフから「濡れます」と一言だけ告げられた。 その「濡れます」が本気だ。 急流コースは全 | 統合ページの本文にある |
-| hitoyoshi | hitoyoshi-city | 節の info | ■ 球磨川くだり（急流コース） 住所：熊本県球磨郡球磨村渡乙字一武原2351-1 料金：大人4,500円〜（コースにより | 統合ページの本文にある |
+| hitoyoshi | hitoyoshi-city | 節の info | ■ 球磨川くだり（急流コース） 住所：熊本県球磨郡球磨村渡乙字一武原2351-1 所要時間：約70分（急流コース） 予約 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の見出し | 人吉城跡｜石垣だけが残った、静かな強さ | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の本文 | 人吉城跡に行ったのは、夕方近くだ。 観光客がほとんどいない。 石垣が異様に美しかった。 「武者返し」と呼ばれる、反り返っ | 統合ページの本文にある |
-| hitoyoshi | hitoyoshi-city | 節の info | ■ 人吉城跡 住所：熊本県人吉市麓町18-4 料金：無料（隣接の人吉城歴史館は一般300円） 開放時間：常時（日没後は足 | 統合ページの本文にある |
+| hitoyoshi | hitoyoshi-city | 節の info | ■ 人吉城跡 住所：熊本県人吉市麓町18-4 料金：無料（隣接の人吉城歴史館は一般330円） 開放時間：常時（日没後は足 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の見出し | 永国寺｜幽霊が出る寺に、昼間ひとりで来た | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の本文 | 「幽霊の寺」と地元の人が言った。 正式名称は永国寺。 西南戦争で西郷隆盛が本営を置いた寺だ。 境内に入ると、まず静かさが | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 節の info | ■ 永国寺 住所：熊本県人吉市永国寺町248 料金：境内無料（内部拝観は要確認） 営業時間：9:00〜17:00（目安） | 統合ページの本文にある |
@@ -306,7 +306,7 @@
 | hitoyoshi | hitoyoshi-city | 見出し画像の出典（元のページのヒーロー画像の出典） | Saigen Jiro | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 宿 | 清流山水花 あゆの里（宿名だけ見出しの下に書いた・カードは残していない） | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-city | 宿のキャッチコピー | 球磨川を望む露天と人吉の食を味わう城下町の和風旅館 | 載せていない（宿名だけにする決定。1軒しかカードにしない） |
-| hitoyoshi | hitoyoshi-onsen | description | 熊本県南部、球磨川沿いに湯が湧く城下町。石垣と温泉宿が川沿いに並び、歴史と湯治の時間が交差する。福岡から約2時間30分で | 統合ページの本文にある |
+| hitoyoshi | hitoyoshi-onsen | description | 熊本県南部、球磨川沿いに湯が湧く城下町。石垣と温泉宿が川沿いに並び、歴史と湯治の時間が交差する。福岡から約2時間20分で | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-onsen | spot（記事なし・節として表示） | 人吉城 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-onsen | spot の説明（節として表示） | 球磨川沿いに張り出す城跡。石垣が川の流れに沿って曲線を描き、水音が心地よい。歴史と湯治の二つの時間が交差する場所。 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-onsen | spot（記事なし・節として表示） | 青井阿蘇神社 | 統合ページの本文にある |
@@ -320,3 +320,29 @@
 | hitoyoshi | hitoyoshi-onsen | spot の説明（構造化データ） | 急流の音が耳を満たし水しぶきが肌を濡らす舟旅。両岸の岩壁が迫る渓谷を縫い、歴史ある川路を身体で下る興奮を味わえる。 | 統合ページの本文にある |
 | hitoyoshi | hitoyoshi-onsen | 宿 | 人吉旅館（おすすめの宿のカードを残した） | 統合ページの本文にある |
 | hitoyoshi | - | ページの作りの説明（新しく書いた1か所） | 熊本県の人吉・人吉・球磨・人吉温泉の3か所を、ひとつのページにまとめた。見出しごとに、元のページの紹介・見どころ・おすすめの宿を、そのまま載せている。 | 見出しの名前とページの作りだけ（事実なし） |
+
+## 数字の食い違いの修正（元の文からの変更は、これだけ。確認日 2026-11-18）
+
+| 修正 | ファイル | 対象 | 前 | 後 |
+|---|---|---|---|---|
+| K1 | src/data/articles/nishinoshima.json | nishinoshima sections.1.body | 登りに約40分。 | 登りに約25分。 |
+| K1 | src/data/articles/nishinoshima.json | nishinoshima sections.1.info | 徒歩：登山口から約40分 | 徒歩：登山口から約25分 |
+| K1 | src/data/articles/nishinoshima.json | oki-island sections.2.body | 登山口から歩いて約1時間。 | 登山口から歩いて約25分。 |
+| K1 | src/data/articles/nishinoshima.json | oki-island sections.2.info | 所要時間：登山口〜社殿 約60分（往復2時間程度） | 所要時間：登山口〜社殿 約25分 |
+| K1 | src/data/articles/nishinoshima.json | oki-island description | 登山口から約1時間歩いて参拝する。 | 登山口から約25分歩いて参拝する。 |
+| K1 | src/data/destinations.json | spot nishinoshima/焼火神社 | 登山口から約1時間の山道を歩いて参拝する。 | 登山口から約25分の山道を歩いて参拝する。 |
+| K2 | src/data/articles/nishinoshima.json | oki-island description | 樹齢千年を超える八百杉が立つ。 | 樹齢2,000年を超える八百杉が立つ。 |
+| K2 | src/data/destinations.json | spot nishinoshima/玉若酢命神社 | 樹齢千年を超える八百杉がそびえる | 樹齢2,000年を超える八百杉がそびえる |
+| K3 | src/data/articles/nishinoshima.json | oki-island sections.0.title | 夕暮れ17分間だけ、 | 夕暮れだけ、 |
+| K3 | src/data/articles/nishinoshima.json | oki-island sections.0.body | この"炎"が見えるのは、夕陽が一直線に届く数分間だけ。⏎ | （削除） |
+| K4 | src/data/articles/tokashiki-jima.json | zamami-island modelCourse.daytrip | 8:30那覇・泊港発→9:30座間味港着→古座間味ビーチで午前中シュノーケル→阿真ビーチで昼食＆のんびり→15:30座間味港発→16:30那覇着 | 那覇・泊港発→座間味港着→古座間味ビーチで午前中シュノーケル→阿真ビーチで昼食＆のんびり→座間味港発→那覇着 |
+| K5 | src/data/articles/hitoyoshi.json | hitoyoshi-onsen description | 福岡から約2時間30分でアクセスでき | 福岡から約2時間20分でアクセスでき |
+| K6 | src/data/articles/hitoyoshi.json | hitoyoshi sections.1.body | 入館料200円で、 | 入館料330円で、 |
+| K6 | src/data/articles/hitoyoshi.json | hitoyoshi sections.1.info | 人吉城歴史館：200円、 | 人吉城歴史館：330円、 |
+| K6 | src/data/articles/hitoyoshi.json | hitoyoshi-city sections.1.info | 隣接の人吉城歴史館は一般300円 | 隣接の人吉城歴史館は一般330円 |
+| K7 | src/data/articles/hitoyoshi.json | hitoyoshi sections.2.body | 「おっとっとコース」（約1時間・1,500円）が初心者向けだ。 | 「おっとっとコース」が初心者向けだ。 |
+| K7 | src/data/articles/hitoyoshi.json | hitoyoshi sections.2.info | 料金：コースにより1,500円〜4,200円⏎ | （削除） |
+| K7 | src/data/articles/hitoyoshi.json | hitoyoshi-city sections.0.info | 料金：大人4,500円〜（コースにより異なる）⏎ | （削除） |
+| K8 | src/data/articles/hitoyoshi.json | hitoyoshi-city sections.0.info | 営業期間：3月〜11月（荒天・増水時は運休）⏎ | （削除） |
+
+詳細・出典: logs/conflicts_20261118/README.md
