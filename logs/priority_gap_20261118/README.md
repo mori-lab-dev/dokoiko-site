@@ -34,7 +34,7 @@
 | shimekappu | 12 | 確認できず（記載なし） | その他の数値 | マイナス20度以下になることあり | 行の中の文が、行ぜんたいと一致しないため（同上） |
 
 ## b) 置換した値の旧値が同じページに残っていた箇所（修正前）
-置換した値（P1）177 種。本文・info・lead・tips・モデルコース・見どころの説明に旧値が残る候補 24 件を人が読み、同じ事実の食い違いだったもの 8 件と、モデルコースの時刻 1 件を直した。ほかは、別の施設・別の項目・置換後の値そのもの（理由つきで allowlist.json）。
+置換した値（P1）177 種。本文・info・lead・tips・モデルコース・見どころの説明に旧値が残る候補 24 件を人が読み、同じ事実の食い違いだったもの 7 件と、モデルコースの時刻 1 件を直した。ほかは、別の施設・別の項目・置換後の値そのもの（理由つきで allowlist.json）。
 
 description（メタに出る欄）には、旧値が残っている（20 件・19 ページ）。メタを変えない決まりなので、今回は触らず、一覧（gaps_description.json）にした。
 
@@ -59,7 +59,6 @@ description（メタに出る欄）には、旧値が残っている（20 件・
 | P1 | muroto-cape | sections.0.body | 入場料200円 | 入場料は無料 | https://kochi-tabi.jp/search_spot.html?id=6299 |
 | P1 | suo-oshima | sections.2.body | 30分食べ放題 | 1時間の食べ放題 | https://suo-oshima-kanko.net/spot/matsuda-orange |
 | P1 | metasequoia | sections.0.body | 国道303号 | 県道小荒路牧野沢線 | https://www.city.takashima.lg.jp/soshiki/shokokankobu/kankoshinkoka/2/2/1128.html |
-| P1 | tateyama-kurobe | lead | 20mを超える | 20mにも迫る | https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html |
 | P1 | tateyama-kurobe | sections.3.info | 約8分 | 約7分 | https://www.kurobe-dam.com/kankou/alpine_vehicle.html |
 | P1 | ikoma-kogen | lead | 標高約700m | 標高約540m | https://www.kanko-miyazaki.jp/en/sightseeing/1025 |
 | P1 | aogashima | modelCourse.daytrip | （200円） | （大人300円） | https://www.vill.aogashima.tokyo.jp/life/facilities.html |
