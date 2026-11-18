@@ -1,0 +1,683 @@
+{
+ "note": "優先ページのメタ（description・seo.description・lead）と節の見出しに残っていた旧値を、公式の値に統一（2026-11-18・メタを変えない決まりの承認済みの例外）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "I",
+   "topic": "メタ・見出しの旧値",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "awashima-island",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「1,980円」→「2,840円」）",
+     "公式の値": "おとな（中学生以上）2,840円",
+     "値": [
+      "2,840円"
+     ],
+     "出典URL": [
+      "https://awashimakisen.co.jp/schedule.html",
+      "https://www.vill.awashimaura.lg.jp/about/access"
+     ],
+     "snapshot": "snapshots/awashima-island__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "岩船港からフェリーで約70分、船賃は片道1,980円。内浦海水浴場は港から歩いて5",
+     "old": "船賃は片道1,980円",
+     "new": "船賃は片道2,840円",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "awashima-island",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_天に続く道",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「18.6km」→「約28.1km」）",
+     "公式の値": "全長約28.1km（知床斜里町観光協会）",
+     "値": [
+      "約28.1km"
+     ],
+     "出典URL": [
+      "https://www.shiretoko.asia/detail/scenic/road_to_heaven",
+      "https://www.visit-hokkaido.jp/spot/detail_10527.html"
+     ],
+     "snapshot": "snapshots/gen_北海_天に続く道__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "斜里町から小清水町へ伸びる全長18.6kmの直線路が、地平線へ向かって一",
+     "old": "全長18.6km",
+     "new": "全長約28.1km",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_天に続く道",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_天に続く道",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「18.6km」→「約28.1km」）",
+     "公式の値": "全長約28.1km（知床斜里町観光協会）",
+     "値": [
+      "約28.1km"
+     ],
+     "出典URL": [
+      "https://www.shiretoko.asia/detail/scenic/road_to_heaven",
+      "https://www.visit-hokkaido.jp/spot/detail_10527.html"
+     ],
+     "snapshot": "snapshots/gen_北海_天に続く道__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "斜里町から小清水町へ伸びる全長18.6kmの直線路。展望台からは一本道が",
+     "old": "全長18.6km",
+     "new": "全長約28.1km",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_天に続く道",
+     "field": "seo.description"
+    },
+    {
+     "page": "gen_北海_真鍋庭園",
+     "rule": "P1",
+     "種類": "その他の数値",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「7万平方メートル」→「約83,000平方メートル」）",
+     "公式の値": "約83,000平方ｍ（25,000坪）",
+     "値": [
+      "約83,000平方ｍ"
+     ],
+     "出典URL": [
+      "https://www.manabegarden.jp/guide",
+      "https://www.manabegarden.jp/company",
+      "https://www.visit-hokkaido.jp/spot/detail_10127.html",
+      "https://www.hokkaido-garden.jp/garden04.html"
+     ],
+     "snapshot": "snapshots/gen_北海_真鍋庭園__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "北海道に広がる7万平方メートルの近代和風庭園。石灯籠・石橋・",
+     "old": "7万平方メートル",
+     "new": "約83,000平方メートル",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_真鍋庭園",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_真鍋庭園",
+     "rule": "P1",
+     "種類": "その他の数値",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「7万㎡」→「約83,000㎡」）",
+     "公式の値": "約83,000平方ｍ（25,000坪）",
+     "値": [
+      "約83,000平方ｍ"
+     ],
+     "出典URL": [
+      "https://www.manabegarden.jp/guide",
+      "https://www.manabegarden.jp/company",
+      "https://www.visit-hokkaido.jp/spot/detail_10127.html",
+      "https://www.hokkaido-garden.jp/garden04.html"
+     ],
+     "snapshot": "snapshots/gen_北海_真鍋庭園__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "真鍋庭園｜7万㎡の緑の中で、時間の感覚がなくな",
+     "old": "7万㎡",
+     "new": "約83,000㎡",
+     "欄": "article.sections.0.title",
+     "file": "src/data/articles/gen_北海_真鍋庭園.json",
+     "field": "sections.0.title"
+    },
+    {
+     "page": "gen_群馬_川原湯温泉",
+     "rule": "P1",
+     "種類": "年号",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「2019年」→「2020年3月」）",
+     "公式の値": "2020年3月完成（令和2年3月）",
+     "値": [
+      "2020年3月"
+     ],
+     "出典URL": [
+      "https://www.ktr.mlit.go.jp/tonedamu/tonedamu_index004-1.html",
+      "https://gunma-kanko.jp/spots/18",
+      "https://www.ktr.mlit.go.jp/ktr_content/content/000927225.pdf"
+     ],
+     "snapshot": "snapshots/gen_群馬_川原湯温泉__g3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "新天地へ移転した川原湯温泉は、2019年以降も硫黄の湯を守り続けている",
+     "old": "2019年",
+     "new": "2020年3月",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "gen_群馬_川原湯温泉",
+     "field": "description"
+    },
+    {
+     "page": "himeshima",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「680円」→「580円」）",
+     "公式の値": "大人（中学生以上）片道 580円",
+     "値": [
+      "580円"
+     ],
+     "出典URL": [
+      "https://www.himeshima.jp/access"
+     ],
+     "snapshot": "snapshots/himeshima__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "からフェリーで約20分、片道は大人680円。阿弥陀瀬温泉は干潮のときだけ",
+     "old": "大人680円",
+     "new": "大人580円",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "himeshima",
+     "field": "description"
+    },
+    {
+     "page": "ikitsukijima",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「180メートル」→「約20メートル」）",
+     "公式の値": "高さ約20ｍ（南北500ｍ）",
+     "値": [
+      "高さ約20ｍ"
+     ],
+     "出典URL": [
+      "https://www.city.hirado.nagasaki.jp/kanko/shizen/shi05.html"
+     ],
+     "snapshot": "snapshots/ikitsukijima__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "の代表的な景観が塩俵の断崖で、高さ180メートルの海食崖が六角形の岩柱を積み上",
+     "old": "高さ180メートル",
+     "new": "高さ約20メートル",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ikitsukijima",
+     "field": "description"
+    },
+    {
+     "page": "ikitsukijima",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「180メートル」→「約20メートル」）",
+     "公式の値": "高さ約20ｍ（南北500ｍ）",
+     "値": [
+      "高さ約20ｍ"
+     ],
+     "出典URL": [
+      "https://www.city.hirado.nagasaki.jp/kanko/shizen/shi05.html"
+     ],
+     "snapshot": "snapshots/ikitsukijima__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "の代表的な景観が塩俵の断崖で、高さ180メートルの海食崖が六角形の岩柱を積み上",
+     "old": "高さ180メートル",
+     "new": "高さ約20メートル",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "ikitsukijima",
+     "field": "seo.description"
+    },
+    {
+     "page": "ikuchijima",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「1,400円」→「1,800円」）",
+     "公式の値": "大人1,800円",
+     "値": [
+      "1,800円"
+     ],
+     "出典URL": [
+      "https://www.kousanji.or.jp/info.html",
+      "https://www.kousanji.or.jp/temple.html"
+     ],
+     "snapshot": "snapshots/ikuchijima__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "・耕三寺耕三が建立した寺院で、入場料1,400円。境内の建築美は見応えがあり、",
+     "old": "入場料1,400円",
+     "new": "入場料1,800円",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ikuchijima",
+     "field": "description"
+    },
+    {
+     "page": "irabu-island",
+     "rule": "P1",
+     "種類": "年号",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「1741年」→「1771年」）",
+     "公式の値": "1771年の津波",
+     "値": [
+      "1771年"
+     ],
+     "出典URL": [
+      "https://www.okinawastory.jp/spot/600006198"
+     ],
+     "snapshot": "snapshots/irabu-island__g2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "の高いエメラルドの海が迎える。1741年の大津波が運んだ巨岩が無数に並ぶ佐和田",
+     "old": "1741年の大津波",
+     "new": "1771年の大津波",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "irabu-island",
+     "field": "description"
+    },
+    {
+     "page": "isawa-onsen",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「1日500円ほど」→「無料（保証金1,000円は返却時に返金）」）",
+     "公式の値": "石和温泉駅1階観光案内所のレンタサイクルは無料（保証金1,000円は返却時に返金）",
+     "値": [
+      "無料",
+      "1,000円"
+     ],
+     "出典URL": [
+      "https://www.fuefuki-kanko.jp/detail/220/index.html"
+     ],
+     "snapshot": "snapshots/trial_isawa-onsen__rental-cycle.txt",
+     "確認日": "2026-11-18",
+     "旧文": "ーを巡るのが定番の楽しみ方だ。1日500円ほど。笛吹川沿いの路地を歩けば足湯が",
+     "old": "1日500円ほど。",
+     "new": "レンタサイクルは無料（保証金1,000円は返却時に返金）。",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "isawa-onsen",
+     "field": "description"
+    },
+    {
+     "page": "megijima",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「700円」→「600円」）",
+     "公式の値": "大人（高校生以上）600円",
+     "値": [
+      "600円"
+     ],
+     "出典URL": [
+      "https://www.onigasima.jp/tour",
+      "https://www.my-kagawa.jp/point/251"
+     ],
+     "snapshot": "snapshots/megijima__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "山道を約10分上った先にある。入場料700円で暗闇の洞窟内を歩き、岩肌が続",
+     "old": "入場料700円",
+     "new": "入場料600円",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "megijima",
+     "field": "description"
+    },
+    {
+     "page": "megijima",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「700円」→「600円」）",
+     "公式の値": "大人（高校生以上）600円",
+     "値": [
+      "600円"
+     ],
+     "出典URL": [
+      "https://www.onigasima.jp/tour",
+      "https://www.my-kagawa.jp/point/251"
+     ],
+     "snapshot": "snapshots/megijima__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "とされる。日帰りも十分可能だ。入場料700円で暗闇の洞窟内を歩き、岩肌が続",
+     "old": "入場料700円",
+     "new": "入場料600円",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "megijima",
+     "field": "seo.description"
+    },
+    {
+     "page": "metasequoia",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「国道303号」→「県道小荒路牧野沢線」）",
+     "公式の値": "県道小荒路牧野沢線（延長約2.4km・約500本）",
+     "値": [
+      "県道小荒路牧野沢線"
+     ],
+     "出典URL": [
+      "https://www.city.takashima.lg.jp/soshiki/shokokankobu/kankoshinkoka/2/2/1128.html",
+      "https://takashima-kanko.jp/spot/2018/06/post_155.html"
+     ],
+     "snapshot": "snapshots/metasequoia__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "国道303号沿いに約500本のメタセコイア",
+     "old": "国道303号",
+     "new": "県道小荒路牧野沢線",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "metasequoia",
+     "field": "description"
+    },
+    {
+     "page": "mizusawa",
+     "rule": "P1",
+     "種類": "年号",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「797年」→「802年」）",
+     "公式の値": "延暦21年(802年)",
+     "値": [
+      "802年"
+     ],
+     "出典URL": [
+      "https://www.city.oshu.iwate.jp/web_museum/rekishi/1/4428.html",
+      "https://www.city.oshu.iwate.jp/kanko/osusume/4/3/2961.html",
+      "https://www.oshu-bunka.or.jp/maibun/pages/109"
+     ],
+     "snapshot": "snapshots/mizusawa__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "は、この町ならではだ。胆沢城は797年に坂上田村麻呂が築いた蝦夷との最",
+     "old": "797年に",
+     "new": "802年に",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "mizusawa",
+     "field": "description"
+    },
+    {
+     "page": "nima",
+     "rule": "P1",
+     "種類": "休館日",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「火曜日」→「水曜日」）",
+     "公式の値": "毎週水曜日（祝日の場合は翌平日）",
+     "値": [
+      "水曜日"
+     ],
+     "出典URL": [
+      "https://www.sandmuseum.jp/guide/",
+      "https://www.sandmuseum.jp/facility/23"
+     ],
+     "snapshot": "snapshots/nima__g2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "落ちきり、元日に向きを変える。火曜が定休なので先に確かめたい。春には馬",
+     "old": "火曜が定休",
+     "new": "水曜日が定休",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "nima",
+     "field": "description"
+    },
+    {
+     "page": "niyodogawa",
+     "rule": "P1",
+     "種類": "時刻",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「午前10〜11時」→「正午前後」）",
+     "公式の値": "滝壺全体に日差しが差し込むのは正午前後",
+     "値": [
+      "正午前後"
+     ],
+     "出典URL": [
+      "https://kochi-tabi.jp/special_secondry_item.html?id=20",
+      "https://kochi-tabi.jp/search_spot_sightseeing.html?id=7439",
+      "https://niyodoblue.jp/spot/detail.php?id=142"
+     ],
+     "snapshot": "snapshots/niyodogawa__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "にある青い滝壺で、光が差し込む午前10〜11時に水面の色が際立つ。駐車場は1",
+     "old": "午前10〜11時",
+     "new": "正午前後",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "niyodogawa",
+     "field": "description"
+    },
+    {
+     "page": "obama-fukui",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「約2キロ」→「約6km」）",
+     "公式の値": "約6km",
+     "値": [
+      "約6km"
+     ],
+     "出典URL": [
+      "https://www1.city.obama.fukui.jp/kanko-bunka/kanko/meshoto/88.html",
+      "https://wakasa-obama.jp/special/sotomo-enjoy"
+     ],
+     "snapshot": "snapshots/obama-fukui__g2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "きる。蘇洞門は断崖が海に落ちる約2キロの地形で、遊覧船から赤茶色の岩肌と若",
+     "old": "約2キロの地形",
+     "new": "約6kmの地形",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "obama-fukui",
+     "field": "description"
+    },
+    {
+     "page": "ojika-island",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「500〜800円」→「1,500円」）",
+     "公式の値": "普通自転車 1日（18時まで）1,500円（3時間まで500円・6時間まで1,000円）。電動アシスト式は1日2,000円",
+     "値": [
+      "1,500円"
+     ],
+     "出典URL": [
+      "https://ojikajima.jp/category/access",
+      "https://ojikajima.jp/travel/15711.html"
+     ],
+     "snapshot": "snapshots/ojika-island__g4.txt",
+     "確認日": "2026-11-18",
+     "旧文": "験も。レンタサイクルは港近くで500〜800円／日。食堂は数軒のみのため、昼は早",
+     "old": "500〜800円／日",
+     "new": "1,500円／日",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ojika-island",
+     "field": "description"
+    },
+    {
+     "page": "shakotan",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「約1kmの遊歩道「チャレンカの道」」→「約770mの遊歩道「チャレンカの小道」」）",
+     "公式の値": "駐車場から約770mの遊歩道「チャレンカの小道」",
+     "値": [
+      "約770m",
+      "チャレンカの小道"
+     ],
+     "出典URL": [
+      "https://www.visit-hokkaido.jp/spot/detail_10342.html",
+      "https://www.town.shakotan.lg.jp/topics/storyid-post_372.html",
+      "https://www.kanko-shakotan.jp/spot/%E7%A5%9E%E5%A8%81%E5%B2%AC"
+     ],
+     "snapshot": "snapshots/shakotan__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "辺に着く。神威岬では駐車場から片道約1kmの遊歩道「チャレンカの道」を歩いた先に、深く透き通った積",
+     "old": "片道約1kmの遊歩道「チャレンカの道」",
+     "new": "片道約770mの遊歩道「チャレンカの小道」",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shakotan",
+     "field": "description"
+    },
+    {
+     "page": "shingu-wakayama",
+     "rule": "P1",
+     "種類": "年号",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「樹齢千年を超える」→「樹齢千年の」）",
+     "公式の値": "樹齢千年のナギの大樹",
+     "値": [
+      "樹齢千年"
+     ],
+     "出典URL": [
+      "https://kumanohayatama.jp/worship",
+      "https://www.shinguu.jp/spots/detail/A0001.html",
+      "https://kumanohayatama.jp/?page_id=16"
+     ],
+     "snapshot": "snapshots/shingu-wakayama__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "時間だ。熊野速玉大社の境内には樹齢千年を超える大木がそびえ、冬の青空との対比",
+     "old": "樹齢千年を超える",
+     "new": "樹齢千年の",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "shingu-wakayama",
+     "field": "description"
+    },
+    {
+     "page": "utsukushigahara",
+     "rule": "P1",
+     "種類": "年号",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「昭和30年代」→「昭和29年」）",
+     "公式の値": "昭和29年（1954年）設置・完成式は昭和29年10月30日",
+     "値": [
+      "昭和29年"
+     ],
+     "出典URL": [
+      "http://www.utsukushi2034.jp/e822583.html",
+      "http://www.utsukushigaharakogen.jp/",
+      "https://www.nagawa.info/facility-spot/1974",
+      "https://visitmatsumoto.com/lsc/upfile/pamphlet/0000/0021/21_1_file.pdf"
+     ],
+     "snapshot": "snapshots/utsukushigahara__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "一軒だけ立っている。美しの塔は昭和30年代に建てられた塔で、霧が出ると10",
+     "old": "昭和30年代に",
+     "new": "昭和29年に",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "utsukushigahara",
+     "field": "description"
+    },
+    {
+     "page": "ikoma-kogen",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「標高700m」→「標高540m」）",
+     "公式の値": "標高540m",
+     "値": [
+      "540"
+     ],
+     "出典URL": [
+      "https://www.kanko-miyazaki.jp/en/sightseeing/1025"
+     ],
+     "snapshot": "snapshots/trial_ikoma-kogen__altitude.txt",
+     "確認日": "2026-11-18",
+     "旧文": "宮崎県西部、標高約700mに広がる花の高原。秋には百万本",
+     "old": "標高約700m",
+     "new": "標高約540m",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "ikoma-kogen",
+     "field": "description"
+    },
+    {
+     "page": "ikoma-kogen",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「標高700m」→「標高540m」）",
+     "公式の値": "標高540m",
+     "値": [
+      "540"
+     ],
+     "出典URL": [
+      "https://www.kanko-miyazaki.jp/en/sightseeing/1025"
+     ],
+     "snapshot": "snapshots/trial_ikoma-kogen__altitude.txt",
+     "確認日": "2026-11-18",
+     "旧文": "宮崎県西部、標高約700mの花の高原。秋はコスモスがピン",
+     "old": "標高約700m",
+     "new": "標高約540m",
+     "欄": "seo.description",
+     "file": "src/data/destinations.json",
+     "dest": "ikoma-kogen",
+     "field": "seo.description"
+    },
+    {
+     "page": "tateyama-kurobe",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「20mを超える」→「20mにも迫る」）",
+     "公式の値": "高さ20メートルにも迫る巨大な雪の壁（積雪の深さが20mを超えることはあるが、雪の壁の高さは20mに迫る）",
+     "値": [
+      "20メートルにも迫る"
+     ],
+     "出典URL": [
+      "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html",
+      "https://www.kurobe-dam.com/kankou/alpine_vehicle.html"
+     ],
+     "snapshot": "snapshots/tateyama-kurobe__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "と、どこまでも青い空。\n雪壁が20mを超える場所を、人間が歩いている。\nこ",
+     "old": "20mを超える",
+     "new": "20mにも迫る",
+     "欄": "article.lead",
+     "file": "src/data/articles/tateyama-kurobe.json",
+     "field": "lead"
+    },
+    {
+     "page": "tateyama-kurobe",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「8分」→「7分」）",
+     "公式の値": "大観峰と黒部平を7分で結ぶ（全長1,710メートル、標高差500メートル）",
+     "値": [
+      "7分"
+     ],
+     "出典URL": [
+      "https://www.kurobe-dam.com/kankou/alpine_vehicle.html",
+      "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1529.html"
+     ],
+     "snapshot": "snapshots/tateyama-kurobe__g4.txt",
+     "確認日": "2026-11-18",
+     "旧文": "立山ロープウェイ｜8分間、空中に置き去りにされる",
+     "old": "8分間",
+     "new": "7分間",
+     "欄": "article.sections.3.title",
+     "file": "src/data/articles/tateyama-kurobe.json",
+     "field": "sections.3.title"
+    },
+    {
+     "page": "gen_北海_網走湖畔温泉",
+     "rule": "P1",
+     "種類": "その他の数値",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「マイナス18度」→「マイナス15度」）",
+     "公式の値": "マイナス15度",
+     "値": [
+      "１５度"
+     ],
+     "出典URL": [
+      "https://www.ryuhyokan.com/use",
+      "https://www.ryuhyokan.com/facility"
+     ],
+     "snapshot": "snapshots/gen_北海_網走湖畔温泉__g3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "オホーツク流氷館｜マイナス18度の部屋で、流氷を触った",
+     "old": "マイナス18度",
+     "new": "マイナス15度",
+     "欄": "article.sections.2.title",
+     "file": "src/data/articles/gen_北海_網走湖畔温泉.json",
+     "field": "sections.2.title"
+    },
+    {
+     "page": "shirahone-onsen",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「300円」→「700円」）",
+     "公式の値": "大人700円",
+     "値": [
+      "700円"
+     ],
+     "出典URL": [
+      "https://shirahone.org/accommodation/public-open-air-bath",
+      "https://shirahone-onsen.org/",
+      "https://visitmatsumoto.com/spot/detail_1050.html"
+     ],
+     "snapshot": "snapshots/shirahone-onsen__g2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "白骨の湯（公共野天風呂）｜300円で、本物の山の湯に入れる",
+     "old": "300円で",
+     "new": "700円で",
+     "欄": "article.sections.1.title",
+     "file": "src/data/articles/shirahone-onsen.json",
+     "field": "sections.1.title"
+    }
+   ]
+  }
+ ]
+}

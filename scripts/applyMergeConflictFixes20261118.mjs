@@ -13,13 +13,14 @@ const SUF = (CFG.match(/Fixes20261118([a-z]*)\.json$/) || [])[1] || '';
 const OUTN = SUF ? `changes_${SUF}` : 'changes';
 const cfg = JSON.parse(fs.readFileSync(CFG, 'utf8'));
 const cache = new Map(); const load = (f) => { if (!cache.has(f)) cache.set(f, JSON.parse(fs.readFileSync(f, 'utf8'))); return cache.get(f); };
-const B = SUF === 'c' ? 'backup/facts_20261118c' : SUF === 'e' ? 'backup/tarama_20261118e' : SUF === 'f' ? 'backup/rules_20261118f' : SUF === 'h' ? 'backup/gap_20261118h' : SUF ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
+const B = SUF === 'c' ? 'backup/facts_20261118c' : SUF === 'e' ? 'backup/tarama_20261118e' : SUF === 'f' ? 'backup/rules_20261118f' : SUF === 'h' ? 'backup/gap_20261118h' : SUF === 'i' ? 'backup/meta_20261118i' : SUF ? 'backup/facts_20261118' : 'backup/conflicts_20261118';
 if (!DRY) { fs.mkdirSync(B, { recursive: true }); for (const f of new Set(cfg.fixes.flatMap((x) => x.edits.map((e) => e.file)))) { const t = path.join(B, f.replace(/\//g, '__')); if (!fs.existsSync(t)) fs.copyFileSync(f, t); } }
 const getPath = (o, p) => p.split('.').reduce((a, k) => a[k], o);
 const log = [];
 for (const fx of cfg.fixes) for (const e of fx.edits) {
   const data = load(e.file); let holder, key;
-  if (e.spot) { const d = data.find((x) => x.id === e.spot[0]); const sp = d.spots.find((s) => s.name === e.spot[1]); if (!sp) throw new Error(`spot なし ${e.spot}`); holder = sp; key = 'description'; }
+  if (e.dest) { const d = data.find((x) => x.id === e.dest); if (!d) throw new Error(`dest なし ${e.dest}`); const ks = e.field.split('.'); key = ks.pop(); holder = ks.length ? ks.reduce((a, k) => a[k], d) : d; }   // dest（旅先）の欄（description・seo.description など）
+  else if (e.spot) { const d = data.find((x) => x.id === e.spot[0]); const sp = d.spots.find((s) => s.name === e.spot[1]); if (!sp) throw new Error(`spot なし ${e.spot}`); holder = sp; key = 'description'; }
   else { const g = e.group ? data.groups.find((x) => x.id === e.group) : data; if (!g) throw new Error(`group なし ${e.group}`); const ks = e.field.split('.'); key = ks.pop(); holder = ks.length ? ks.reduce((a, k) => a[k], g) : g; }   // group が無い記事（article.sections が直下）にも使える（2026-11-18）
   const cur = holder[key]; if (typeof cur !== 'string') throw new Error(`文字列でない ${e.file} ${e.group || e.spot} ${e.field || ''}`);
   const n = cur.split(e.old).length - 1; if (n !== 1) throw new Error(`${fx.id}: old が ${n} 回（1回であるべき）: ${e.old.slice(0, 40)} @ ${e.file} ${e.group || e.spot}`);

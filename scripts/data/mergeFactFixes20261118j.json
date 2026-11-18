@@ -1,0 +1,58 @@
+{
+ "note": "優先ページのメタ（description・seo.description・lead）と節の見出しに残っていた旧値を、公式の値に統一（2026-11-18・メタを変えない決まりの承認済みの例外）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "I",
+   "topic": "メタ・見出しの旧値",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "gen_北海_天塩川温泉",
+     "rule": "P1",
+     "種類": "その他の数値",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「約1,600人」→「1,225人」）",
+     "公式の値": "1,225人（2026年10月末現在）",
+     "値": [
+      "1,225人"
+     ],
+     "出典URL": [
+      "http://town.nakagawa.hokkaido.jp/"
+     ],
+     "snapshot": "snapshots/gen_北海_天塩川温泉__g2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "中川町の街歩き｜人口1,600人の町で、食堂を探した",
+     "old": "人口1,600人",
+     "new": "人口1,225人",
+     "欄": "article.sections.2.title",
+     "file": "src/data/articles/gen_北海_天塩川温泉.json",
+     "field": "sections.2.title"
+    },
+    {
+     "page": "niche_鹿児島_2",
+     "rule": "P1",
+     "種類": "標高・距離",
+     "reason": "メタ・本文の見出しに旧値が残っていたので、公式の値に統一（最初の置換: 「高さ40メートル」→「落差18メートル」）",
+     "公式の値": "幅40m、落差18m",
+     "値": [
+      "落差18m"
+     ],
+     "出典URL": [
+      "https://www.city.miyakonojo.miyazaki.jp/site/kanko/10417.html",
+      "https://www.kanko-miyazaki.jp/spot/1008"
+     ],
+     "snapshot": "snapshots/niche_鹿児島_2__g1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "市の庄内川に落ちる関之尾滝は、落差40メートルの段瀑だ。遊歩道に複数のビュー",
+     "old": "落差40メートル",
+     "new": "落差18メートル",
+     "欄": "description",
+     "file": "src/data/destinations.json",
+     "dest": "niche_鹿児島_2",
+     "field": "description"
+    }
+   ]
+  }
+ ]
+}

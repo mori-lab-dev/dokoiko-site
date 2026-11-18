@@ -20,7 +20,7 @@ const missing = (a, b) => { for (const [k, n] of a) if ((b.get(k) || 0) < n) ret
 const TIME_LEAD = /(^|→\s*|[：:】]\s*|\n\s*)((?:[0-9０-９]{1,2}:[0-9０-９]{2})|(?:[0-9０-９]{1,2}時(?:[0-9０-９]{1,2}分)?))(?:頃|ごろ)?\s*/;
 const failKeys = [];
 const F = { '①値がsnapshotに無い': [], '②記録・一意': [], '③数字・文が増える': [], '④固有名詞が増える': [] };
-const holderOf = (e) => { const data = load(e.file); if (e.spot) { const sp = data.find((x) => x.id === e.spot[0]).spots.find((s) => s.name === e.spot[1]); return [sp, 'description']; } const g = e.group ? data.groups.find((x) => x.id === e.group) : data; const ks = e.field.split('.'); const key = ks.pop(); return [ks.length ? ks.reduce((a, k) => a[k], g) : g, key]; };
+const holderOf = (e) => { const data = load(e.file); if (e.dest) { const d = data.find((x) => x.id === e.dest); const ks = e.field.split('.'); const key = ks.pop(); return [ks.length ? ks.reduce((a, k) => a[k], d) : d, key]; } if (e.spot) { const sp = data.find((x) => x.id === e.spot[0]).spots.find((s) => s.name === e.spot[1]); return [sp, 'description']; } const g = e.group ? data.groups.find((x) => x.id === e.group) : data; const ks = e.field.split('.'); const key = ks.pop(); return [ks.length ? ks.reduce((a, k) => a[k], g) : g, key]; };
 const snapCache = new Map(); const snap = (p) => { if (!snapCache.has(p)) snapCache.set(p, fs.existsSync(`${D}/${p}`) ? fs.readFileSync(`${D}/${p}`, 'utf8') : null); return snapCache.get(p); };
 let removed = 0;
 for (const e of edits) {
