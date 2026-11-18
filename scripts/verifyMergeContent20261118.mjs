@@ -68,7 +68,7 @@ for (const rep of reps) {
 }
 fs.writeFileSync('logs/merge_20261118/content_check.json', JSON.stringify({ 照合: rows.length, 元の文がない: missing, 元に無い文: extra, 行: rows }, null, 1));
 const md = ['| 統合ページ | 元のページ | 種別 | 文（先頭60字） | 結果 |', '|---|---|---|---|---|', ...rows.map((r) => `| ${r.統合ページ} | ${r.元のページ} | ${r.種別} | ${r.文.replace(/\|/g, '/')} | ${r.結果} |`)];
-const chgs = ['changes', 'changes_b'].filter((n) => fs.existsSync(`logs/conflicts_20261118/${n}.json`)).map((n) => JSON.parse(fs.readFileSync(`logs/conflicts_20261118/${n}.json`, 'utf8')));
+const chgs = ['changes', 'changes_b', 'changes_c'].filter((n) => fs.existsSync(`logs/conflicts_20261118/${n}.json`)).map((n) => JSON.parse(fs.readFileSync(`logs/conflicts_20261118/${n}.json`, 'utf8')));
 const chg = chgs.length ? { 確認日: chgs.map((c) => c.確認日).join('・'), 変更の前後: chgs.flatMap((c) => c.変更の前後) } : null;
 const chgMd = chg ? ['', '## 数字の食い違いの修正（元の文からの変更は、これだけ。確認日 ' + chg.確認日 + '）', '', '| 修正 | ファイル | 対象 | 前 | 後 |', '|---|---|---|---|---|', ...chg.変更の前後.map((c) => `| ${c.修正} | ${c.ファイル} | ${c.対象} | ${String(c.前).replace(/\n/g, '⏎').replace(/\|/g, '/')} | ${(String(c.後) || '（削除）').replace(/\n/g, '⏎').replace(/\|/g, '/')} |`), '', '詳細・出典: logs/conflicts_20261118/README.md'] : [];
 fs.writeFileSync('logs/merge_20261118/content_check.md', `# 統合の照合表（2026-11-18）\n\n照合 ${rows.length}行・元の文が統合ページに無い ${missing}件・元に無い文 ${extra}件（元の文は、下の「数字の食い違いの修正」を当てたものと照合している）\n\n${md.join('\n')}\n${chgMd.join('\n')}\n`);

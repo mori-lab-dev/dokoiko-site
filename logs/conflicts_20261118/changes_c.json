@@ -1,0 +1,52 @@
+{
+ "確認日": "2026-11-18",
+ "修正": [
+  {
+   "id": "M1",
+   "題": "阿波連ビーチの説明の「車は不要。」「那覇空港から島へのアクセスは那覇港経由のフェリー一択」（渡嘉敷島には高速船もある）",
+   "結果": "「フェリー一択」は公式の記載に直した（那覇の泊港からフェリーか高速船）。「車は不要。」は、公式が「港からビーチへはバス、タクシー、レンタカーなどをご利用ください」と案内しており、車が不要かは公式に記載が無いので、その文だけ削除した",
+   "出典": [
+    "https://www.vill.tokashiki.okinawa.jp/material/files/group/2/dai5zisougoukeikaku.pdf（渡嘉敷村 第5次総合計画：村営の定期船「フェリーとかしき」と高速船「マリンライナーとかしき」が毎日運航・那覇（泊港）から）",
+    "https://www.vill.tokashiki.okinawa.jp/（渡嘉敷村・ホーム：船舶情報 マリンライナーとかしき・フェリーとかしき・2026年11月の運航予定表）",
+    "https://www.vill.tokashiki.okinawa.jp/material/files/group/1/202603041.pdf（渡嘉敷村 観光MAP：那覇から船で40分・港からビーチへはバス、タクシー、レンタカーなど）"
+   ]
+  },
+  {
+   "id": "M2",
+   "題": "焼火神社の住所「西ノ島町浦郷」",
+   "結果": "公式の値に直した（島根県隠岐郡西ノ島町美田）",
+   "出典": [
+    "https://www.e-oki.net/spots/5988（隠岐の島旅：住所 島根県隠岐郡西ノ島町美田）",
+    "https://www.kankou-shimane.com/destination/20523（しまね観光ナビ：住所 隠岐郡西ノ島町美田）",
+    "https://nkk-oki.com/japan/information/takuhi-shrine（西ノ島町観光協会：所在地 島根県隠岐郡西ノ島町美田波止）"
+   ]
+  }
+ ],
+ "食い違いではなかった": [],
+ "変更の前後": [
+  {
+   "修正": "M1",
+   "ファイル": "src/data/articles/tokashiki-jima.json",
+   "対象": "aharen description",
+   "前": "車は不要。",
+   "後": "",
+   "備考": ""
+  },
+  {
+   "修正": "M1",
+   "ファイル": "src/data/articles/tokashiki-jima.json",
+   "対象": "aharen description",
+   "前": "那覇港経由のフェリー一択で、",
+   "後": "那覇の泊港からフェリーか高速船で、",
+   "備考": ""
+  },
+  {
+   "修正": "M2",
+   "ファイル": "src/data/articles/nishinoshima.json",
+   "対象": "nishinoshima sections.1.info",
+   "前": "住所：島根県隠岐郡西ノ島町浦郷",
+   "後": "住所：島根県隠岐郡西ノ島町美田",
+   "備考": ""
+  }
+ ]
+}
