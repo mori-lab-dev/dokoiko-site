@@ -1,0 +1,35 @@
+{
+ "note": "西山荘の seo.description（メタ）の所在地の誤りの追加修正（2026-11-18）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "M",
+   "topic": "西山荘のメタ",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "メタ（seo.description）にも、所在地の誤り（大子町）が残っていたので、公式の所在地に直す（公式は常陸太田市新宿町590）",
+     "公式の値": "所在地 常陸太田市新宿町590",
+     "値": [
+      "茨城県常陸太田市"
+     ],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "茨城県大子町にある",
+     "old": "茨城県大子町にある",
+     "new": "茨城県常陸太田市にある",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "field": "seo.description"
+    }
+   ]
+  }
+ ]
+}
