@@ -1,0 +1,46 @@
+{
+ "cap": 3000000,
+ "agents": [
+  {
+   "name": "チキウ岬",
+   "tokens": 113510
+  },
+  {
+   "name": "島原",
+   "tokens": 140587
+  },
+  {
+   "name": "濁川温泉",
+   "tokens": 139674
+  },
+  {
+   "name": "弁天台場",
+   "tokens": 145865
+  },
+  {
+   "name": "阿波連園地",
+   "tokens": 102551
+  },
+  {
+   "name": "scan2組4",
+   "tokens": 198690
+  },
+  {
+   "name": "scan2組3",
+   "tokens": 96108
+  },
+  {
+   "name": "scan2組2",
+   "tokens": 126091
+  },
+  {
+   "name": "西山荘spots",
+   "tokens": 113457
+  },
+  {
+   "name": "scan2組1",
+   "tokens": 176311
+  }
+ ],
+ "total": 1352844
+}

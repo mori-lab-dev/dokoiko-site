@@ -1,0 +1,33 @@
+{
+ "順位": 12,
+ "id": "gen_北海_登別温泉",
+ "旅先ページ": "登別温泉",
+ "県": "北海道",
+ "hub": "札幌",
+ "座標": [
+  42.49506,
+  141.14406
+ ],
+ "点": 9,
+ "疑い": [
+  {
+   "種類": "ファイル名に別の旅先のidを含む",
+   "見どころ": "登別温泉",
+   "ファイル": "Oyunuma_Pond,_Noboribetsu_Onsen,_Hokkaido,_April_2",
+   "id": "noboribetsu"
+  },
+  {
+   "種類": "ファイル名に別の旅先のidを含む",
+   "見どころ": "地獄谷",
+   "ファイル": "Noboribetsu_hot_spring_jigokudani_20130503.jpg",
+   "id": "noboribetsu"
+  },
+  {
+   "種類": "ファイル名に別の旅先のidを含む",
+   "見どころ": "クマ牧場",
+   "ファイル": "Poro_Cise_in_Noboribetsu_Bear_Park.jpg",
+   "id": "noboribetsu"
+  }
+ ],
+ "検出した検査": "c3_画像"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "hachimantai-onsen",
+ "判定": "実際の取り違え",
+ "種類": "別の場所の混入",
+ "根拠": "ドラゴンアイのファイル名のAkitaは正しい（鏡沼は八幡平・秋田側）で問題なし。ただし「玉川温泉（近隣）」の画像Yufuin_Onsen_Rotenburo.JPGは湯布院の宿の庭付き露天で、玉川温泉（秋田県仙北市、仙北市公式）の景観ではなく、大分の日出町ページとも共用されている。画像を実見しても玉川温泉の特徴（強酸性の沢・岩盤浴地）はない。",
+ "出典URL": [
+  "https://www.city.semboku.akita.jp/sightseeing/spot/01_t-onsen.html",
+  "https://www.tamagawa-onsen.jp/"
+ ],
+ "取り違えの箇所": "spots「玉川温泉（近隣）」の imageUrl（Yufuin_Onsen_Rotenburo.JPG）。説明文の距離・pH1.2は秋田の玉川温泉で正しい",
+ "検索回数": 1
+}

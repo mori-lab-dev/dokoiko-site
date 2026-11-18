@@ -1,0 +1,11 @@
+{
+ "id": "yamadera",
+ "判定": "実際の取り違え",
+ "種類": "別の場所の混入",
+ "根拠": "立石寺五大堂は山形市山寺4456-1にある。山門の画像は Chionin_Kyoto（京都・知恩院）、五大堂展望台の画像は Matsushima_miyagi（宮城・松島）で、山寺の写真ではない。",
+ "出典URL": [
+  "https://www.visityamagata.jp/spot-yamagata-yamadera_godaido"
+ ],
+ "取り違えの箇所": "spots 山門 の画像 170216_Chionin_Kyoto_Japan01.JPG／spots 五大堂展望台 の画像 Matsushima_miyagi_z.JPG",
+ "検索回数": 1
+}

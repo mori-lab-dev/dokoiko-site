@@ -1,0 +1,33 @@
+{
+ "順位": 9,
+ "id": "chichijima",
+ "旅先ページ": "小笠原諸島",
+ "県": "東京都",
+ "hub": "東京",
+ "座標": [
+  27.094,
+  142.195
+ ],
+ "点": 9.5,
+ "疑い": [
+  {
+   "種類": "ファイル名に別の旅先のidを含む",
+   "見どころ": "小港海岸",
+   "ファイル": "Kominato_Beach_that_I_looked_at_from_the_Nakayama_",
+   "id": "sawara"
+  },
+  {
+   "種類": "ファイル名に別の旅先のidを含む",
+   "見どころ": "ウェザーステーション",
+   "ファイル": "Sunset_from_Weather_Station_observation_deck_in_Ch",
+   "id": "sawara"
+  },
+  {
+   "種類": "ファイル名に別の旅先のidを含む",
+   "見どころ": "南崎遊歩道",
+   "ファイル": "View_from_Hahajima-Island_and_the_Minamizaki_Tokyo",
+   "id": "tokyo"
+  }
+ ],
+ "検出した検査": "c3_画像"
+}

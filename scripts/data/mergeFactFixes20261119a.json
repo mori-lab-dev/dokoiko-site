@@ -1,0 +1,420 @@
+{
+ "note": "取り違え・混入の残りの修正（2026-11-19）",
+ "date": "2026-11-19",
+ "fixes": [
+  {
+   "id": "A",
+   "topic": "取り違え・混入",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "hirakawa",
+     "op": "removeSection",
+     "file": "src/data/articles/hirakawa.json",
+     "index": 1,
+     "title": "平川動物公園｜ホッキョクグマに、まじまじと見つめ返された午前",
+     "old": "平川動物公園｜ホッキョクグマに、まじまじと見つめ返された午前",
+     "reason": "別の場所の混入（平川動物公園は鹿児島市平川町5669-1の施設。青森県平川市に動物園は無い）",
+     "公式の値": "平川動物公園は鹿児島市平川町5669-1（コアラが看板）",
+     "出典URL": [
+      "https://hirakawazoo.jp/info/about/"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/hirakawa__1.txt"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "hirakawa",
+     "op": "removeSpot",
+     "file": "src/data/destinations.json",
+     "dest": "hirakawa",
+     "name": "平川動物公園",
+     "old": "開園の9時に合わせて行けば、家族連れが増える前の静かな園内を楽しめる。",
+     "reason": "別の場所の混入（同上。画像・クレジットも鹿児島のもの）",
+     "公式の値": "〒891-0133 鹿児島県鹿児島市平川町5669-1",
+     "出典URL": [
+      "https://hirakawazoo.jp/info/about/",
+      "https://www.city.kagoshima.lg.jp/kanshin/shisetsu/kanko/021.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/hirakawa__1.txt"
+    },
+    {
+     "page": "hirakawa",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "別の場所の混入（鹿児島市の動物園の記述）",
+     "公式の値": "平川動物公園は鹿児島市平川町5669-1（コアラが看板）",
+     "値": [],
+     "出典URL": [
+      "https://hirakawazoo.jp/info/about/"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/hirakawa__1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "温泉に浸かって、動物と目が合って、もぎたてのりんご",
+     "old": "温泉に浸かって、動物と目が合って、もぎたてのりんご",
+     "new": "温泉に浸かって、もぎたてのりんご",
+     "削除した文": "動物と目が合って、",
+     "削除する部分": "動物と目が合って、",
+     "file": "src/data/articles/hirakawa.json",
+     "field": "lead"
+    },
+    {
+     "page": "hirakawa",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "別の場所の混入（行程から鹿児島市の動物園を除く）",
+     "公式の値": "平川動物公園は鹿児島市平川町5669-1（コアラが看板）",
+     "値": [],
+     "出典URL": [
+      "https://hirakawazoo.jp/info/about/"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/hirakawa__1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "平川動物公園 → 市内でランチ",
+     "old": "平川動物公園 → 市内でランチ",
+     "new": "市内でランチ",
+     "削除した文": "平川動物公園 → ",
+     "削除する部分": "平川動物公園 → ",
+     "file": "src/data/articles/hirakawa.json",
+     "field": "modelCourse.daytrip"
+    },
+    {
+     "page": "hirakawa",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "別の場所の混入（行程から鹿児島市の動物園を除く）",
+     "公式の値": "平川動物公園は鹿児島市平川町5669-1（コアラが看板）",
+     "値": [],
+     "出典URL": [
+      "https://hirakawazoo.jp/info/about/"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/hirakawa__1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "【2日目】平川動物公園 → 温泉で一汗",
+     "old": "【2日目】平川動物公園 → 温泉で一汗",
+     "new": "【2日目】温泉で一汗",
+     "削除した文": "平川動物公園 → ",
+     "削除する部分": "平川動物公園 → ",
+     "file": "src/data/articles/hirakawa.json",
+     "field": "modelCourse.onenight"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_北海_神威脇温泉",
+     "op": "removeModelCourseKey",
+     "file": "src/data/articles/gen_北海_神威脇温泉.json",
+     "key": "daytrip",
+     "old": "札幌発→余市でウニ丼（昼）→神威脇温泉で入浴→海岸散歩→集落をぶらり→日没前に札幌へ。車で約2時間半。日帰りでも十分満足できる。",
+     "reason": "別の場所の混入（札幌発・余市・積丹の行程。実際は奥尻島で、フェリー（江差）か空路）",
+     "公式の値": "江差からフェリー約2時間10分、函館/丘珠から空路",
+     "出典URL": [
+      "https://unimaru.com/?page_id=28813"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__2.txt"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_北海_神威脇温泉",
+     "op": "removeModelCourseKey",
+     "file": "src/data/articles/gen_北海_神威脇温泉.json",
+     "key": "onenight",
+     "old": "1日目：小樽観光→余市でワイナリー見学→神威脇温泉に夕方チェックイン。夜は温泉を貸切気分で満喫。2日目：朝7時に入浴→海岸散歩→積丹岬方面へ移動→神威岬（夏期のみ先端へ）→昼に積丹でウニを食べて帰路。",
+     "reason": "別の場所の混入（小樽・余市・積丹の行程）",
+     "公式の値": "同上",
+     "出典URL": [
+      "https://unimaru.com/?page_id=28813"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__2.txt"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_北海_神威脇温泉",
+     "op": "removeField",
+     "file": "src/data/articles/gen_北海_神威脇温泉.json",
+     "field": "bestSeason",
+     "old": "夏（6〜8月）は積丹ブルーの海とウニが最高潮。ただし観光客も多い。冬（12〜2月）は人が来ない分、静けさと荒海が本物の積丹を見せてくれる。どちらも別の顔がある。",
+     "reason": "別の場所の混入（積丹ブルーとウニの記述）",
+     "公式の値": "奥尻島",
+     "出典URL": [
+      "https://unimaru.com/?page_id=28813"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__2.txt"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_茨城_西山荘",
+     "op": "removeSpot",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "name": "月居山ハイキングコース",
+     "old": "標高433mながら眺望に優れた里山。尾根道から那珂川や筑波山系を一望し、雑木林の香りと野鳥の声を楽しめる。",
+     "reason": "別の場所の混入（月居山は久慈郡大子町の山。西山荘は常陸太田市）",
+     "公式の値": "標高404mの月居山…袋田自然研究路（大子町観光協会）。所在は大子町",
+     "出典URL": [
+      "https://www.daigo-kanko.jp/themes/hiking-course/minowa.html",
+      "https://www.town.daigo.ibaraki.jp/map.php?type=0"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/gen_茨城_西山荘__spots1.txt"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "別の場所の混入（月居山は大子町。標高も公式は404mで433mと合わない）",
+     "公式の値": "標高404mの月居山…袋田自然研究路（大子町観光協会）。所在は大子町",
+     "値": [],
+     "出典URL": [
+      "https://www.daigo-kanko.jp/themes/hiking-course/minowa.html",
+      "https://www.town.daigo.ibaraki.jp/map.php?type=0"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/gen_茨城_西山荘__spots1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "周辺には月居山ハイキングコースがあり、標高433mの尾根道から那珂川や筑波山系の眺望を一望できる。",
+     "old": "周辺には月居山ハイキングコースがあり、標高433mの尾根道から那珂川や筑波山系の眺望を一望できる。",
+     "new": "",
+     "削除した文": "周辺には月居山ハイキングコースがあり、標高433mの尾根道から那珂川や筑波山系の眺望を一望できる。",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "field": "description"
+    },
+    {
+     "page": "kitakata",
+     "rule": "IMG",
+     "種類": "画像",
+     "op": "removeSpotImage",
+     "file": "src/data/destinations.json",
+     "dest": "kitakata",
+     "name": "喜多方蔵座敷美術館",
+     "localImage": "/images/kitakata/spot-2.jpg",
+     "old": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kitakata_ramen_by_macyu_in_Yamagata.jpg/500px-Kitakata_ramen_by_macyu_in_Yamagata.jpg",
+     "reason": "画像が見どころと合わない（public/images/kitakata/spot-2.jpg を開いて確認: 喜多方駅の駅舎の写真。元のファイル名は Kitakata_ramen…）。外す（差し替えは探さない）",
+     "確認日": "2026-11-19",
+     "値": [],
+     "出典URL": []
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_青森_下風呂温泉",
+     "op": "removeSpot",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_下風呂温泉",
+     "name": "北の防波堤ドーム",
+     "old": "波の浸食から町を守る、波状のコンクリート製防波堤。海に向かって連なる波紋状の構造が、荒波と人の営みの対比を示す。",
+     "reason": "別の場所の混入（北防波堤ドームは北海道稚内市の施設）",
+     "公式の値": "稚内港北防波堤ドーム。JR稚内駅下車徒歩5分（北海道）",
+     "出典URL": [
+      "https://www.jcca.or.jp/dobokuisan/japan/hokkaido/bohatei.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__4.txt"
+    },
+    {
+     "page": "gen_北海_濁川温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "別の場所の混入（雨竜沼湿原は雨竜町。標高も公式は850〜900m）",
+     "公式の値": "所在地：北海道雨竜町／標高850〜900m",
+     "値": [],
+     "出典URL": [
+      "https://www.env.go.jp/nature/ramsar/conv/ramsarsitej/RamsarSites2025_Jp13.pdf",
+      "https://www.town.uryu.hokkaido.jp/docs/shitsugen-gaiyou.html"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/gen_北海_濁川温泉__2.txt",
+     "確認日": "2026-11-19",
+     "旧文": "周辺には標高約1,000mの高層湿原・雨竜沼湿原があり、季節ごとに表情が変わる。",
+     "old": "周辺には標高約1,000mの高層湿原・雨竜沼湿原があり、季節ごとに表情が変わる。",
+     "new": "",
+     "削除した文": "周辺には標高約1,000mの高層湿原・雨竜沼湿原があり、季節ごとに表情が変わる。",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_濁川温泉",
+     "field": "description"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_北海_濁川温泉",
+     "op": "removeSpot",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_濁川温泉",
+     "name": "雨竜沼湿原",
+     "old": "標高約1000mに広がる高層湿原で、夏には高山植物が咲く。難易度別のトレッキングコースが整備されている。",
+     "reason": "別の場所の混入（雨竜町の湿原）",
+     "公式の値": "雨竜沼湿原は雨竜町、標高850m",
+     "出典URL": [
+      "https://www.town.uryu.hokkaido.jp/docs/shitsugen-gaiyou.html"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/gen_北海_濁川温泉__1.txt"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_北海_チキウ岬",
+     "op": "removeSpot",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_チキウ岬",
+     "name": "利尻島",
+     "old": "円錐形の島影が海に浮かぶ景観地。利尻山の独特な稜線と海面からそそり立つ岩峰、海色の移ろいを堪能できる。",
+     "reason": "別の場所の混入（利尻島は稚内の西。室蘭のチキウ岬のページの見どころではない）",
+     "公式の値": "礼文島は稚内の西方59kmの日本海上、利尻島と向き合う。利尻島・礼文島は宗谷総合振興局管内（室蘭市は別地域）",
+     "出典URL": [
+      "https://www.town.rebun.hokkaido.jp/hotnews/detail/00000300.html",
+      "https://www.souya.pref.hokkaido.lg.jp/ts/tss/ijyu/machi2.html"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/gen_北海_チキウ岬__1.txt"
+    },
+    {
+     "rule": "P1d",
+     "種類": "混入",
+     "確認日": "2026-11-19",
+     "値": [],
+     "page": "gen_北海_チキウ岬",
+     "op": "removeSpot",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_チキウ岬",
+     "name": "礼文島",
+     "old": "「北の花の浮島」と呼ばれる離島。断崖と海が接する劇的な地形を歩き、寒冷地に咲く高山植物の群生を観察できる。",
+     "reason": "別の場所の混入（礼文島は稚内の西。室蘭のチキウ岬のページの見どころではない）",
+     "公式の値": "礼文島は稚内の西方59kmの日本海上、利尻島と向き合う。利尻島・礼文島は宗谷総合振興局管内（室蘭市は別地域）",
+     "出典URL": [
+      "https://www.town.rebun.hokkaido.jp/hotnews/detail/00000300.html",
+      "https://www.souya.pref.hokkaido.lg.jp/ts/tss/ijyu/machi2.html"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/gen_北海_チキウ岬__1.txt"
+    },
+    {
+     "page": "shimabara",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "施設の混同（眉山ロープウェイは徳島市。島原市の眉山にロープウェイは無い）",
+     "公式の値": "島原まゆやまロードは眉山を迂回する道路で、周辺施設は平成新山ネイチャーセンター・眉山治山祈念公苑など。徳島市眉山には、山麓駅（阿波おどり会館5階）から山頂へ約6分のロープウェイがある。",
+     "値": [],
+     "出典URL": [
+      "https://www.shimakanren.com/spot/detail_10006.html",
+      "https://www.nagasaki-tabinet.com/guide/308",
+      "https://www.city.tokushima.tokushima.jp/kankou/keikan/bizan.html",
+      "https://www.pref.tokushima.lg.jp/japanese/tourism/spot/bizan"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/shimabara__mayu1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "ロープウェイで山頂まで上がれる。\n所要時間は約4分。\n",
+     "old": "ロープウェイで山頂まで上がれる。\n所要時間は約4分。\n",
+     "new": "",
+     "削除した文": "ロープウェイで山頂まで上がれる。\n所要時間は約4分。\n",
+     "file": "src/data/articles/shimabara.json",
+     "field": "sections.2.body"
+    },
+    {
+     "page": "shimabara",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "施設の混同（同上。住所も公式で確認できない）",
+     "公式の値": "島原市の眉山は標高約819mの山で、島原市の公式一覧に該当ロープウェイ無し。眉山ロープウェイの所在地は徳島市新町橋2丁目20番地。",
+     "値": [],
+     "出典URL": [
+      "https://www.shimakanren.com/spot/detail_10006.html",
+      "https://www.city.tokushima.tokushima.jp/kankou/keikan/bizan.html"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/shimabara__mayu2.txt",
+     "確認日": "2026-11-19",
+     "旧文": "■ 眉山ロープウェイ\n住所：長崎県島原市片山町537",
+     "old": "■ 眉山ロープウェイ\n住所：長崎県島原市片山町537",
+     "new": "",
+     "削除した文": "■ 眉山ロープウェイ\n住所：長崎県島原市片山町537",
+     "file": "src/data/articles/shimabara.json",
+     "field": "sections.2.info"
+    },
+    {
+     "page": "shimabara",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "施設の混同（同上）",
+     "公式の値": "同上",
+     "値": [],
+     "出典URL": [
+      "https://www.nagasaki-tabinet.com/guide/308"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/shimabara__mayu4.txt",
+     "確認日": "2026-11-19",
+     "旧文": "眉山ロープウェイ→",
+     "old": "眉山ロープウェイ→",
+     "new": "",
+     "削除した文": "眉山ロープウェイ→",
+     "file": "src/data/articles/shimabara.json",
+     "field": "modelCourse.daytrip"
+    },
+    {
+     "page": "tokashiki-jima",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "所在地の誤り（阿波連園地は有人の渡嘉敷島にある沖縄海岸国定公園の園地。無人島ではない）",
+     "公式の値": "公園事業名 阿波連園地／沖縄海岸国定公園／事業主体 沖縄県。渡嘉敷村の計画に阿波連園地展望台（阿波連崎展望台）として載る",
+     "値": [
+      "沖縄海岸国定公園",
+      "阿波連園地"
+     ],
+     "出典URL": [
+      "https://www.env.go.jp/content/900492977.pdf",
+      "https://www.vill.tokashiki.okinawa.jp/material/files/group/1/201903keikaku.pdf"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/tokashiki-jima__1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "無人島に位置する園地で、",
+     "old": "無人島に位置する園地で、",
+     "new": "沖縄海岸国定公園の園地で、",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "tokashiki-jima",
+      "阿波連園地"
+     ]
+    },
+    {
+     "page": "tokashiki-jima",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "所在地の誤り（同上）",
+     "公式の値": "公園事業名 阿波連園地／沖縄海岸国定公園／事業主体 沖縄県。渡嘉敷村の計画に阿波連園地展望台（阿波連崎展望台）として載る",
+     "値": [
+      "沖縄海岸国定公園"
+     ],
+     "出典URL": [
+      "https://www.env.go.jp/content/900492977.pdf",
+      "https://www.vill.tokashiki.okinawa.jp/material/files/group/1/201903keikaku.pdf"
+     ],
+     "snapshot": "logs/identity_20261119/snapshots/tokashiki-jima__1.txt",
+     "確認日": "2026-11-19",
+     "旧文": "無人島に位置する園地で、",
+     "old": "無人島に位置する園地で、",
+     "new": "沖縄海岸国定公園の園地で、",
+     "file": "src/data/articles/tokashiki-jima.json",
+     "group": "aharen",
+     "field": "sections.1.body"
+    }
+   ]
+  }
+ ]
+}

@@ -25,10 +25,21 @@ const snapCache = new Map(); const snap = (p) => { if (!snapCache.has(p)) snapCa
 let removed = 0;
 for (const e of edits) {
   const tag = `${e.page}|${e.rule}|${String(e.old).slice(0, 28)}`;
+  if (e.op) {   // 構造の編集（見どころ・節・モデルコース・欄・画像の削除）: 記録（理由・確認日・旧文）と、対象が今も記録どおりにあることを検査する。新しい数字・文・語は増えない（削除だけ）
+    const miss = ['page', 'rule', 'reason', '確認日', 'old'].filter((k) => !e[k]); if (!['IMG'].includes(e.rule) && !(e.出典URL && e.出典URL.length)) miss.push('出典URL'); if (miss.length) F['②記録・一意'].push(`${tag}（記録なし: ${miss.join(',')}）`);
+    try { const data = load(e.file); const grp = (o) => (e.group ? o.groups.find((x) => x.id === e.group) : o); let ok = false;
+      if (e.op === 'removeSpot') { const d = data.find((x) => x.id === e.dest); const sp = d.spots.find((x) => x.name === e.name); ok = !!sp && String(sp.description || '').slice(0, 20) === String(e.old).slice(0, 20); }
+      else if (e.op === 'removeSection') { const g = grp(data); ok = !!g.sections[e.index] && g.sections[e.index].title === e.title; }
+      else if (e.op === 'removeModelCourseKey') { const g = grp(data); ok = !!g.modelCourse && e.key in g.modelCourse && String(g.modelCourse[e.key]).slice(0, 20) === String(e.old).slice(0, 20); }
+      else if (e.op === 'removeField') { const g = grp(data); ok = e.field in g && String(g[e.field]).slice(0, 20) === String(e.old).slice(0, 20); }
+      else if (e.op === 'removeSpotImage') { const d = data.find((x) => x.id === e.dest); const sp = d.spots.find((x) => x.name === e.name); ok = !!sp && !!sp.imageUrl; }
+      if (!ok) F['②記録・一意'].push(`${tag}（対象が記録と合わない）`); else { /* 検査用の適用 */ const d = e.dest ? data.find((x) => x.id === e.dest) : null; if (e.op === 'removeSpot') d.spots.splice(d.spots.findIndex((x) => x.name === e.name), 1); else if (e.op === 'removeSection') grp(data).sections.splice(e.index, 1); else if (e.op === 'removeModelCourseKey') delete grp(data).modelCourse[e.key]; else if (e.op === 'removeField') delete grp(data)[e.field]; else if (e.op === 'removeSpotImage') { const sp = d.spots.find((x) => x.name === e.name); delete sp.imageUrl; delete sp.imageCredit; } }
+    } catch (err) { F['②記録・一意'].push(`${tag}（対象の欄が無い）`); }
+    continue; }
   // ②
   const need = ['page', 'rule', 'reason', '確認日', 'old']; const miss = need.filter((k) => !e[k]); if (typeof e.new !== 'string') miss.push('new');
   if (['P1', 'P1d', 'P3'].includes(e.rule) && !(e.出典URL && e.出典URL.length)) miss.push('出典URL');
-  if (e.確認日 !== '2026-11-18') miss.push('確認日の値');
+  if (!['2026-11-18', '2026-11-19'].includes(e.確認日)) miss.push('確認日の値');
   if (miss.length) F['②記録・一意'].push(`${tag}（記録なし: ${miss.join(',')}）`);
   let cur; try { const [h, key] = holderOf(e); cur = h[key]; var H = h, K = key; } catch { F['②記録・一意'].push(`${tag}（対象の欄が無い）`); continue; }
   const cnt = typeof cur === 'string' ? cur.split(e.old).length - 1 : 0; if (cnt !== 1) { F['②記録・一意'].push(`${tag}（old が${cnt}回）`); continue; }
