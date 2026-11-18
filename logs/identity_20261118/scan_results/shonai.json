@@ -1,0 +1,11 @@
+{
+ "id": "shonai",
+ "判定": "問題なし",
+ "種類": "なし",
+ "根拠": "疑い語「岡城跡」は「鶴ヶ岡城跡」の部分文字列で機械的な誤検出。鶴岡市公式に鶴岡公園は鶴ヶ岡城跡に整備された公園とある。",
+ "出典URL": [
+  "https://www.city.tsuruoka.lg.jp/seibi/koen-ryokuti/koen/tsurugaokajyoushi.html"
+ ],
+ "取り違えの箇所": "",
+ "検索回数": 1
+}

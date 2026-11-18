@@ -1,0 +1,14 @@
+{
+ "id": "gen_北海_濁川温泉",
+ "判定": "実際の取り違え",
+ "種類": "別の場所の混入",
+ "根拠": "濁川温泉は日本温泉協会・森町観光ナビで茅部郡森町（道南）と確認できる一方、雨竜沼湿原は雨竜町公式・環境省で雨竜町（空知、増毛山塊）の湿原で、約200km離れた別の場所の記述。朝日山荘跡（雨竜町）の見どころも同様に混入。",
+ "出典URL": [
+  "https://www.spa.or.jp/search_p/detail_p/?F_ID=10480&pg=29",
+  "https://mori.hokkaido.jp/accomodation/post_4-3/",
+  "https://www.town.uryu.hokkaido.jp/docs/shitsugen-gaiyou.html",
+  "https://www.env.go.jp/nature/ramsar/conv/ramsarleaflet/4_Uryunuma-shitsugen.pdf"
+ ],
+ "取り違えの箇所": "description「周辺には標高約1,000mの高層湿原・雨竜沼湿原があり」／spots「雨竜沼湿原」（googleMapsQuery 雨竜沼湿原 北海道沢町）／spots「朝日山荘跡と山頂展望台」（googleMapsQuery 朝日山 北海道雨竜町）",
+ "検索回数": 1
+}

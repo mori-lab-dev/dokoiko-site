@@ -1,0 +1,840 @@
+{
+ "note": "取り違えの確認による修正（神威脇温泉・丹波篠山・西山荘・喜多方・下風呂温泉）と、高橋・竜野の営業時間の行の削除（2026-11-18）",
+ "date": "2026-11-18",
+ "fixes": [
+  {
+   "id": "L",
+   "topic": "取り違えの確認",
+   "result": "公式で確認",
+   "sources": [],
+   "edits": [
+    {
+     "page": "gen_北海_神威脇温泉",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "所在地の誤り（実際は奥尻島の湯ノ浜地区神威脇。積丹半島ではない）",
+     "公式の値": "島の西側に位置する湯ノ浜地区神威脇",
+     "値": [
+      "奥尻島",
+      "湯ノ浜地区神威脇"
+     ],
+     "出典URL": [
+      "https://unimaru.com/?page_id=28813"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "積丹半島の断崖に湧く温泉地",
+     "old": "積丹半島の断崖に湧く温泉地",
+     "new": "奥尻島の湯ノ浜地区神威脇に湧く温泉地",
+     "file": "src/data/destinations.json",
+     "dest": "gen_北海_神威脇温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_北海_神威脇温泉",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "入浴料の誤り（公式は大人500円）",
+     "公式の値": "大人(中学生以上) ５００円",
+     "値": [
+      "500円"
+     ],
+     "出典URL": [
+      "https://www.town.okushiri.lg.jp/hotnews/detail/00001497.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "200円",
+     "old": "200円",
+     "new": "500円",
+     "file": "src/data/articles/gen_北海_神威脇温泉.json",
+     "field": "sections.0.title"
+    },
+    {
+     "page": "gen_北海_神威脇温泉",
+     "rule": "P1d",
+     "種類": "営業時間",
+     "reason": "営業時間の誤り（公式は10:30から・10〜3月は11:00から。朝7時から開いていない）",
+     "公式の値": "午前１０時３０分から／午前１１時００分から",
+     "値": [],
+     "出典URL": [
+      "https://www.town.okushiri.lg.jp/hotnews/detail/00001497.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "\n\n朝7時から開いている。\n朝一番に入って、誰もいない浴場で海を見るのが、最高の使い方だ。",
+     "old": "\n\n朝7時から開いている。\n朝一番に入って、誰もいない浴場で海を見るのが、最高の使い方だ。",
+     "new": "",
+     "file": "src/data/articles/gen_北海_神威脇温泉.json",
+     "field": "sections.0.body",
+     "削除した文": "\n\n朝7時から開いている。\n朝一番に入って、誰もいない浴場で海を見るのが、最高の使い方だ。"
+    },
+    {
+     "page": "gen_北海_神威脇温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "別の場所の混入（余市・ニセコは積丹の記述。実際の所在地は奥尻島でフェリーか空路）",
+     "公式の値": "奥尻島へはフェリー（江差）か空路",
+     "値": [],
+     "出典URL": [
+      "https://unimaru.com/?page_id=28813"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_北海_神威脇温泉__2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "余市かニセコで食料を調達してから向かうこと。\nガソリンも余市で入れておく。\n",
+     "old": "余市かニセコで食料を調達してから向かうこと。\nガソリンも余市で入れておく。\n",
+     "new": "",
+     "file": "src/data/articles/gen_北海_神威脇温泉.json",
+     "field": "tips",
+     "削除した文": "余市かニセコで食料を調達してから向かうこと。\nガソリンも余市で入れておく。\n"
+    },
+    {
+     "page": "tanba-sasayama",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "入場料の対象の誤り（500円は大書院の入館料。城跡本体は無料）",
+     "公式の値": "大書院 入館料 大人(18歳以上)500円。大書院以外は無料開放",
+     "値": [
+      "大書院",
+      "大人(18歳以上)500円"
+     ],
+     "出典URL": [
+      "https://tourism.sasayama.jp/ohshoin",
+      "https://www.hyogo-tourism.jp/spot/0975"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/tanba-sasayama__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "入場料は500円",
+     "old": "入場料は500円",
+     "new": "大書院の入館料は大人500円",
+     "file": "src/data/destinations.json",
+     "dest": "tanba-sasayama",
+     "field": "description"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "所在地の誤り（公式は常陸太田市新宿町590。大子町ではない）",
+     "公式の値": "所在地 常陸太田市新宿町590",
+     "値": [
+      "茨城県常陸太田市"
+     ],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "茨城県大子町にある",
+     "old": "茨城県大子町にある",
+     "new": "茨城県常陸太田市にある",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "field": "description"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "公式の記載と合わない（入口の西山の里に飲食・物産コーナーがある）",
+     "公式の値": "200名収容の飲食コーナー、郷土の物産コーナー",
+     "値": [],
+     "出典URL": [
+      "https://www.kanko-hitachiota.com/page/page000963.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "売店がないため飲み物は持参を。",
+     "old": "売店がないため飲み物は持参を。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "dest": "gen_茨城_西山荘",
+     "field": "description",
+     "削除した文": "売店がないため飲み物は持参を。"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "種類": "所在地",
+     "reason": "住所の番地の誤り（公式は590）",
+     "公式の値": "常陸太田市新宿町590",
+     "値": [
+      "新宿町590"
+     ],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "新宿町498",
+     "old": "新宿町498",
+     "new": "新宿町590",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "sections.0.info"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "種類": "所在地",
+     "reason": "住所の番地の誤り（公式は590）",
+     "公式の値": "常陸太田市新宿町590",
+     "値": [
+      "新宿町590"
+     ],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "新宿町498",
+     "old": "新宿町498",
+     "new": "新宿町590",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "sections.1.info"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "種類": "時刻",
+     "reason": "アクセスの所要時間の誤り（公式は常陸太田駅からタクシーで約5分）",
+     "公式の値": "常陸太田駅からタクシーで約5分",
+     "値": [
+      "タクシーで約5分"
+     ],
+     "出典URL": [
+      "https://www.ibarakiguide.jp/spot.php?code=317&mode=detail"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "車で約15分",
+     "old": "車で約15分",
+     "new": "タクシーで約5分",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "sections.0.info"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1",
+     "種類": "年号",
+     "reason": "年号の誤り（公式は元禄4年=1691年）",
+     "公式の値": "元禄4年（1691年）",
+     "値": [
+      "1691年"
+     ],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "1690年",
+     "old": "1690年",
+     "new": "1691年",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "sections.0.body"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1d",
+     "種類": "年号",
+     "reason": "公式の記載と合わない（現在の建物は文政2年=1819年の再建で、300年前のままではない）",
+     "公式の値": "現在の建物は、文政2年（1819年）に再建されたもの",
+     "値": [],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "それから300年以上が経っても、建物はそのままの姿だ。",
+     "old": "それから300年以上が経っても、建物はそのままの姿だ。",
+     "new": "",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "sections.0.body",
+     "削除した文": "それから300年以上が経っても、建物はそのままの姿だ。"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1d",
+     "種類": "台数",
+     "reason": "公式の記載と合わない（駐車場は100台）",
+     "公式の値": "駐車場 100台（大型可）",
+     "値": [],
+     "出典URL": [
+      "https://www.city.hitachiota.ibaraki.jp/miryoku/miru/historic-sites/page000214.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "駐車場は無料で10台ほど止められた。",
+     "old": "駐車場は無料で10台ほど止められた。",
+     "new": "",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "tips",
+     "削除した文": "駐車場は無料で10台ほど止められた。"
+    },
+    {
+     "page": "gen_茨城_西山荘",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "公式の記載と合わない（飲食コーナー・物産コーナーがある）",
+     "公式の値": "飲食コーナー、郷土の物産コーナー",
+     "値": [],
+     "出典URL": [
+      "https://www.kanko-hitachiota.com/page/page000963.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_茨城_西山荘__2.txt",
+     "確認日": "2026-11-18",
+     "旧文": "売店や食事処はないので、飲み物は持参がいい。",
+     "old": "売店や食事処はないので、飲み物は持参がいい。",
+     "new": "",
+     "file": "src/data/articles/gen_茨城_西山荘.json",
+     "field": "tips",
+     "削除した文": "売店や食事処はないので、飲み物は持参がいい。"
+    },
+    {
+     "page": "kitakata",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "施設の混同（喜多方蔵座敷美術館は笹屋旅館に併設。旧甲斐家住宅蔵座敷は別の施設）",
+     "公式の値": "笹屋旅館に併設しています",
+     "値": [
+      "笹屋旅館に併設"
+     ],
+     "出典URL": [
+      "https://www.tif.ne.jp/jp/entry/article.html?spot=5432"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/kitakata__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "旧甲斐本家の蔵座敷を活かした",
+     "old": "旧甲斐本家の蔵座敷を活かした",
+     "new": "笹屋旅館に併設する",
+     "file": "src/data/destinations.json",
+     "dest": "kitakata",
+     "field": "description"
+    },
+    {
+     "page": "kitakata",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "施設の混同（同上）",
+     "公式の値": "笹屋旅館に併設しています",
+     "値": [
+      "笹屋旅館に併設"
+     ],
+     "出典URL": [
+      "https://www.tif.ne.jp/jp/entry/article.html?spot=5432"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/kitakata__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "旧甲斐本家の蔵座敷を活かした美術館。",
+     "old": "旧甲斐本家の蔵座敷を活かした美術館。",
+     "new": "笹屋旅館に併設された美術館。",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "kitakata",
+      "喜多方蔵座敷美術館"
+     ]
+    },
+    {
+     "page": "kitakata",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "施設の混同（同上。旧甲斐家住宅蔵座敷の説明が混ざっていた）",
+     "公式の値": "笹屋旅館に併設／旧甲斐家住宅蔵座敷は大正12年・登録有形文化財（喜多方市所有）",
+     "値": [
+      "笹屋旅館に併設",
+      "美術館"
+     ],
+     "出典URL": [
+      "https://www.tif.ne.jp/jp/entry/article.html?spot=5432",
+      "https://kunishitei.bunka.go.jp/bsys/maindetails/101/00002110"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/kitakata__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "ここはもともと、旧甲斐本家の蔵座敷だ。\n江戸末期から明治にかけて建てられたもので、国の登録有形文化財にもなっている。",
+     "old": "ここはもともと、旧甲斐本家の蔵座敷だ。\n江戸末期から明治にかけて建てられたもので、国の登録有形文化財にもなっている。",
+     "new": "ここは、笹屋旅館に併設された美術館だ。",
+     "file": "src/data/articles/kitakata.json",
+     "field": "sections.1.body"
+    },
+    {
+     "page": "kitakata",
+     "rule": "P1",
+     "種類": "所在地",
+     "reason": "住所の誤り（公式は喜多方市字3丁目4844）",
+     "公式の値": "福島県喜多方市字3丁目4844",
+     "値": [
+      "字3丁目4844"
+     ],
+     "出典URL": [
+      "https://www.tif.ne.jp/jp/entry/article.html?spot=5432"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/kitakata__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "字北町2846",
+     "old": "字北町2846",
+     "new": "字3丁目4844",
+     "file": "src/data/articles/kitakata.json",
+     "field": "sections.1.info"
+    },
+    {
+     "page": "kitakata",
+     "rule": "P1",
+     "種類": "時刻",
+     "reason": "アクセスの誤り（公式はJR喜多方駅から徒歩約15分）",
+     "公式の値": "JR磐越西線喜多方駅から徒歩約15分",
+     "値": [
+      "徒歩約15分"
+     ],
+     "出典URL": [
+      "https://www.tif.ne.jp/jp/entry/article.html?spot=5432"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/kitakata__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "車で約5分",
+     "old": "車で約5分",
+     "new": "徒歩約15分",
+     "file": "src/data/articles/kitakata.json",
+     "field": "sections.1.info"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "閉館した施設の情報（大湯・新湯は2020年11月30日閉館。現行は海峡の湯で普通券450円）",
+     "公式の値": "大湯・新湯は令和2年11月30日閉館。海峡の湯は普通券450円",
+     "値": [
+      "海峡の湯",
+      "450円"
+     ],
+     "出典URL": [
+      "https://www.kazamaura.jp/sightseeing/spot/shimofuro2/",
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "共同浴場「大湯」｜60円で入れる、本物の湯があった",
+     "old": "共同浴場「大湯」｜60円で入れる、本物の湯があった",
+     "new": "「海峡の湯」｜450円で入れる、本物の湯",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.title"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設（大湯）の描写で、現行の海峡の湯の記述として確認できない（番台・脱衣所・湯船の数）",
+     "公式の値": "大湯・新湯は令和2年11月30日閉館。海峡の湯は普通券450円",
+     "値": [],
+     "出典URL": [
+      "https://www.kazamaura.jp/sightseeing/spot/shimofuro2/",
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "番台のおばちゃんに小銭を渡して、のれんをくぐる。\n",
+     "old": "番台のおばちゃんに小銭を渡して、のれんをくぐる。\n",
+     "new": "",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.body",
+     "削除した文": "番台のおばちゃんに小銭を渡して、のれんをくぐる。\n"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設（大湯）の描写で、現行の海峡の湯の記述として確認できない（番台・脱衣所・湯船の数）",
+     "公式の値": "大湯・新湯は令和2年11月30日閉館。海峡の湯は普通券450円",
+     "値": [],
+     "出典URL": [
+      "https://www.kazamaura.jp/sightseeing/spot/shimofuro2/",
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "脱衣所は木張りで、ロッカーじゃなくてかごが並んでいる。\n",
+     "old": "脱衣所は木張りで、ロッカーじゃなくてかごが並んでいる。\n",
+     "new": "",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.body",
+     "削除した文": "脱衣所は木張りで、ロッカーじゃなくてかごが並んでいる。\n"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設（大湯）の描写で、現行の海峡の湯の記述として確認できない（番台・脱衣所・湯船の数）",
+     "公式の値": "大湯・新湯は令和2年11月30日閉館。海峡の湯は普通券450円",
+     "値": [],
+     "出典URL": [
+      "https://www.kazamaura.jp/sightseeing/spot/shimofuro2/",
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "昭和のまま、時間が止まっている感じ。\n",
+     "old": "昭和のまま、時間が止まっている感じ。\n",
+     "new": "",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.body",
+     "削除した文": "昭和のまま、時間が止まっている感じ。\n"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設（大湯）の描写で、現行の海峡の湯の記述として確認できない（番台・脱衣所・湯船の数）",
+     "公式の値": "大湯・新湯は令和2年11月30日閉館。海峡の湯は普通券450円",
+     "値": [],
+     "出典URL": [
+      "https://www.kazamaura.jp/sightseeing/spot/shimofuro2/",
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "湯船は一つ。\n",
+     "old": "湯船は一つ。\n",
+     "new": "",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.body",
+     "削除した文": "湯船は一つ。\n"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設の情報（現行の共同浴場は海峡の湯）",
+     "公式の値": "海峡の湯",
+     "値": [
+      "海峡の湯"
+     ],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "共同浴場「大湯」",
+     "old": "共同浴場「大湯」",
+     "new": "共同浴場「海峡の湯」",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.info"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地",
+     "reason": "住所の誤り（風間浦村は下北郡。むつ市ではない）",
+     "公式の値": "青森県下北郡風間浦村下風呂",
+     "値": [
+      "下北郡風間浦村下風呂"
+     ],
+     "出典URL": [
+      "https://aomori-tourism.com/spot/detail_54.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "むつ市風間浦村下風呂",
+     "old": "むつ市風間浦村下風呂",
+     "new": "下北郡風間浦村下風呂",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.info"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地",
+     "reason": "住所の誤り（風間浦村は下北郡。むつ市ではない）",
+     "公式の値": "青森県下北郡風間浦村下風呂",
+     "値": [
+      "下北郡風間浦村下風呂"
+     ],
+     "出典URL": [
+      "https://aomori-tourism.com/spot/detail_54.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "むつ市風間浦村下風呂",
+     "old": "むつ市風間浦村下風呂",
+     "new": "下北郡風間浦村下風呂",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.1.info"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地",
+     "reason": "住所の誤り（同上）",
+     "公式の値": "青森県下北郡風間浦村下風呂",
+     "値": [
+      "下北郡風間浦村下風呂"
+     ],
+     "出典URL": [
+      "https://aomori-tourism.com/spot/detail_54.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "むつ市風間浦村下風呂",
+     "old": "むつ市風間浦村下風呂",
+     "new": "下北郡風間浦村下風呂",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.2.info"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "料金",
+     "reason": "閉館した施設の情報（大湯・新湯は2020年閉館）。現行の海峡の湯の値に直す",
+     "公式の値": "海峡の湯、普通券450円、大湯・新湯2系統の温泉",
+     "値": [
+      "海峡の湯",
+      "450円",
+      "「大湯」「新湯」２つの系統の温泉を楽しめます"
+     ],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "共同浴場は料金60円で、番台に小銭を渡してのれんをくぐると、木張りの脱衣所にかごが並ぶ昭和の湯がある。大湯と新湯、2つを両方巡るのがこの温泉街の楽しみ方だ。",
+     "old": "共同浴場は料金60円で、番台に小銭を渡してのれんをくぐると、木張りの脱衣所にかごが並ぶ昭和の湯がある。大湯と新湯、2つを両方巡るのがこの温泉街の楽しみ方だ。",
+     "new": "共同浴場「海峡の湯」は450円で、「大湯」「新湯」2つの系統の温泉を楽しめる。",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_下風呂温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P2",
+     "種類": "時刻",
+     "reason": "確認できず（公式に記載なし）",
+     "公式の値": "海峡の湯、普通券450円、大湯・新湯2系統の温泉",
+     "値": [],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "東京からは約7時間32分。",
+     "old": "東京からは約7時間32分。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_下風呂温泉",
+     "field": "description",
+     "削除した文": "東京からは約7時間32分。"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "時刻",
+     "reason": "アクセスの誤り（公式はJR下北駅から下北交通バスで約1時間15分。新青森駅からのバスは確認できない）",
+     "公式の値": "JR下北駅より下北交通「むつBT-下北・むつ線佐井線」で約1時間15分、「下風呂温泉」下車",
+     "値": [
+      "JR下北駅より下北交通",
+      "約1時間15分",
+      "「下風呂温泉」下車"
+     ],
+     "出典URL": [
+      "https://aomori-tourism.com/spot/detail_54.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__3.txt",
+     "確認日": "2026-11-18",
+     "旧文": "新青森駅からバスを利用し、冬季はスタッドレスタイヤが必要になる。",
+     "old": "新青森駅からバスを利用し、冬季はスタッドレスタイヤが必要になる。",
+     "new": "下北駅からバスで1時間15分。",
+     "file": "src/data/destinations.json",
+     "dest": "gen_青森_下風呂温泉",
+     "field": "description"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設の情報（大湯・新湯は閉館。現行の海峡の湯で2系統の温泉）",
+     "公式の値": "海峡の湯で大湯・新湯2系統の温泉",
+     "値": [
+      "「大湯」「新湯」２つの系統の温泉を楽しめます"
+     ],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "大湯と新湯、2つの共同浴場を両方入ると満足度が上がる。",
+     "old": "大湯と新湯、2つの共同浴場を両方入ると満足度が上がる。",
+     "new": "「海峡の湯」では「大湯」「新湯」2つの系統の温泉を楽しめる。",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "tips"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設の情報（現行は海峡の湯）",
+     "公式の値": "海峡の湯",
+     "値": [
+      "海峡の湯"
+     ],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "下風呂温泉「大湯」入浴",
+     "old": "下風呂温泉「大湯」入浴",
+     "new": "下風呂温泉「海峡の湯」入浴",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "modelCourse.daytrip"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1d",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設（新湯は2020年11月30日閉館）",
+     "公式の値": "海峡の湯",
+     "値": [],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "→「新湯」入浴（13:00）",
+     "old": "→「新湯」入浴（13:00）",
+     "new": "",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "modelCourse.daytrip",
+     "削除した文": "→「新湯」入浴（13:00）"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1",
+     "種類": "所在地・施設",
+     "reason": "閉館した施設の情報（現行は海峡の湯。営業は4〜10月7:00から・11〜3月8:00から。朝6時は開館前）",
+     "公式の値": "4月～10月 7:00～20:30 11月～3月 8:00～20:30",
+     "値": [
+      "海峡の湯"
+     ],
+     "出典URL": [
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "朝6時に共同浴場「大湯」",
+     "old": "朝6時に共同浴場「大湯」",
+     "new": "朝に共同浴場「海峡の湯」",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "modelCourse.onenight"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P1d",
+     "種類": "施設名",
+     "reason": "閉館した施設名（大湯）を画像の説明から外す（新しい事実は足さない）",
+     "公式の値": "大湯・新湯は令和2年11月30日閉館。海峡の湯は普通券450円",
+     "値": [],
+     "出典URL": [
+      "https://www.kazamaura.jp/sightseeing/spot/shimofuro2/",
+      "https://www.yukaimura.com/kaikyonoyu.html"
+     ],
+     "snapshot": "logs/identity_20261118/snapshots/gen_青森_下風呂温泉__1.txt",
+     "確認日": "2026-11-18",
+     "旧文": "大湯",
+     "old": "大湯",
+     "new": "",
+     "file": "src/data/articles/gen_青森_下風呂温泉.json",
+     "field": "sections.0.imageAlt",
+     "削除した文": "大湯"
+    },
+    {
+     "page": "gen_青森_下風呂温泉",
+     "rule": "P2",
+     "種類": "施設",
+     "reason": "確認できず（公式で確認できない施設の説明。欄は空になる）",
+     "公式の値": "（公式で確認できず）",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "旧文": "江戸時代創業の酒蔵。温泉街の歴史と下北地方の醸造文化に触れ、試飲室で地酒の香りと芳醇な味わいを堪能できる。",
+     "old": "江戸時代創業の酒蔵。温泉街の歴史と下北地方の醸造文化に触れ、試飲室で地酒の香りと芳醇な味わいを堪能できる。",
+     "new": "",
+     "file": "src/data/destinations.json",
+     "spot": [
+      "gen_青森_下風呂温泉",
+      "風呂のくらや"
+     ],
+     "削除した文": "江戸時代創業の酒蔵。温泉街の歴史と下北地方の醸造文化に触れ、試飲室で地酒の香りと芳醇な味わいを堪能できる。"
+    },
+    {
+     "page": "takahashi",
+     "rule": "P2",
+     "種類": "営業時間",
+     "reason": "確認できず。公式で確認していない営業時間の行を削除（R1の対象。前回は同じ行が欄に2回あり、一意でないため見送った。別々の施設のブロックの行で、重複ではない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "旧文": "石火矢町2-6\n営業時間：9:00〜17:00",
+     "old": "石火矢町2-6\n営業時間：9:00〜17:00",
+     "new": "石火矢町2-6",
+     "file": "src/data/articles/takahashi.json",
+     "field": "sections.1.info",
+     "削除した文": "\n営業時間：9:00〜17:00",
+     "削除する部分": "\n営業時間：9:00〜17:00"
+    },
+    {
+     "page": "takahashi",
+     "rule": "P2",
+     "種類": "営業時間",
+     "reason": "確認できず。公式で確認していない営業時間の行を削除（R1の対象。前回は同じ行が欄に2回あり、一意でないため見送った。別々の施設のブロックの行で、重複ではない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "旧文": "頼久寺町18\n営業時間：9:00〜17:00",
+     "old": "頼久寺町18\n営業時間：9:00〜17:00",
+     "new": "頼久寺町18",
+     "file": "src/data/articles/takahashi.json",
+     "field": "sections.1.info",
+     "削除した文": "\n営業時間：9:00〜17:00",
+     "削除する部分": "\n営業時間：9:00〜17:00"
+    },
+    {
+     "page": "tatsuno",
+     "rule": "P2",
+     "種類": "営業時間",
+     "reason": "確認できず。公式で確認していない営業時間の行を削除（R1の対象。前回は同じ行が欄に2回あり、一意でないため見送った。別々の施設のブロックの行で、重複ではない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "旧文": "1-areaインフォへ要確認\n営業時間：9:00〜17:00",
+     "old": "1-areaインフォへ要確認\n営業時間：9:00〜17:00",
+     "new": "1-areaインフォへ要確認",
+     "file": "src/data/articles/tatsuno.json",
+     "field": "sections.2.info",
+     "削除した文": "\n営業時間：9:00〜17:00",
+     "削除する部分": "\n営業時間：9:00〜17:00"
+    },
+    {
+     "page": "tatsuno",
+     "rule": "P2",
+     "種類": "営業時間",
+     "reason": "確認できず。公式で確認していない営業時間の行を削除（R1の対象。前回は同じ行が欄に2回あり、一意でないため見送った。別々の施設のブロックの行で、重複ではない）",
+     "公式の値": "",
+     "値": [],
+     "出典URL": [],
+     "snapshot": "",
+     "確認日": "2026-11-18",
+     "旧文": "■ 霞城館（三木露風資料室）\n営業時間：9:00〜17:00",
+     "old": "■ 霞城館（三木露風資料室）\n営業時間：9:00〜17:00",
+     "new": "■ 霞城館（三木露風資料室）",
+     "file": "src/data/articles/tatsuno.json",
+     "field": "sections.2.info",
+     "削除した文": "\n営業時間：9:00〜17:00",
+     "削除する部分": "\n営業時間：9:00〜17:00"
+    }
+   ]
+  }
+ ]
+}

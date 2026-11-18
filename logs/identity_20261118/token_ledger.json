@@ -1,0 +1,70 @@
+{
+ "cap": 4000000,
+ "agents": [
+  {
+   "name": "神威脇温泉",
+   "tokens": 110172
+  },
+  {
+   "name": "平川",
+   "tokens": 116869
+  },
+  {
+   "name": "喜多方",
+   "tokens": 117496
+  },
+  {
+   "name": "丹波篠山",
+   "tokens": 112687
+  },
+  {
+   "name": "西山荘",
+   "tokens": 114998
+  },
+  {
+   "name": "下風呂温泉",
+   "tokens": 153454
+  },
+  {
+   "name": "scan_組4",
+   "tokens": 204534
+  },
+  {
+   "name": "scan_組1",
+   "tokens": 212608
+  },
+  {
+   "name": "scan_組5",
+   "tokens": 212562
+  },
+  {
+   "name": "scan_組2",
+   "tokens": 219604
+  },
+  {
+   "name": "scan_組3",
+   "tokens": 228443
+  },
+  {
+   "name": "scan_組6",
+   "tokens": 150042
+  },
+  {
+   "name": "scan_組8",
+   "tokens": 211911
+  },
+  {
+   "name": "scan_組9",
+   "tokens": 156677
+  },
+  {
+   "name": "scan_組7",
+   "tokens": 189021
+  },
+  {
+   "name": "scan_組10",
+   "tokens": 213212
+  }
+ ],
+ "total": 2724290
+}

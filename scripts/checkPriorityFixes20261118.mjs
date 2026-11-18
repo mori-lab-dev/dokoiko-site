@@ -47,7 +47,8 @@ for (const e of edits) {
     if (e.new.length > e.old.length + 40) F['③数字・文が増える'].push(`${tag}（新文が長い）`);
   } else if (e.rule === 'P3') {
     if (e.old.replace(TIME_LEAD, '$1') !== e.new) F['③数字・文が増える'].push(`${tag}（時刻外し以外）`);
-  } else if (e.new !== '') F['③数字・文が増える'].push(`${tag}（削除なのに new がある）`);
+  } else if (e.削除する部分) { if (e.old.split(e.削除する部分).length !== 2 || e.new !== e.old.replace(e.削除する部分, '')) F['③数字・文が増える'].push(`${tag}（削除する部分の削除以外の変更）`); }   // 前後の文脈つきの削除: new は old から「削除する部分」を1回だけ取り除いたもの（それ以外の変更があれば落ちる）
+  else if (e.new !== '') F['③数字・文が増える'].push(`${tag}（削除なのに new がある）`);
   // ④
   const nb = missing(bag(e.new, NOUN), new Map([...bag(e.old, NOUN)].concat([...bag(valText, NOUN)]).reduce((m, [k, n]) => (m.set(k, (m.get(k) || 0) + n), m), new Map()))); if (nb) F['④固有名詞が増える'].push(`${tag}（増えた: ${nb}）`);
   H[K] = cur.replace(e.old, e.new); removed += e.old.length - e.new.length;

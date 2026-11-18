@@ -13,7 +13,9 @@ const mk = (i, e) => { const f = `/private/tmp/claude-501/cpf_${i}.json`; fs.wri
 const run = (f) => { const D = 'logs/priority_fix_20261118'; const keep = fs.existsSync(`${D}/fail_keys.json`) ? fs.readFileSync(`${D}/fail_keys.json`, 'utf8') : null; const r = spawnSync('node', ['scripts/checkPriorityFixes20261118.mjs', f], { encoding: 'utf8' }).status; const keep2 = keep; if (keep2 !== null) fs.writeFileSync(`${D}/fail_keys.json`, keep2); const rc = `${D}/check_result.json`; return r; };
 const bak = fs.readFileSync('logs/priority_fix_20261118/check_result.json', 'utf8');
 const pd = { ...base, file: FXD, dest: 'd1', field: 'description', rule: 'P1', old: '500円', new: '700円', 値: ['700円'] };
+const pc = { ...base, rule: 'P2', field: 'sections.0.info', old: '料金：500円\n営業時間：9:00〜17:00', new: '料金：500円', 値: [], 出典URL: [], 削除した文: '営業時間', 削除する部分: '\n営業時間：9:00〜17:00' };
 const cases = [
+  ['文脈つきの削除（削除する部分）の基準', pc, 0], ['文脈つきの削除: new が違う（別の数字に変える）', { ...pc, new: '料金：600円' }, 1],
   ['基準（dest の description の置換）', pd, 0], ['dest: seo.description の置換', { ...pd, field: 'seo.description' }, 0], ['dest: 新しい数字が増える（description）', { ...pd, new: '700円と88888円' }, 1], ['dest: 旧文がその欄に無い', { ...pd, old: '999円' }, 1],
   ['基準（P1）', p1, 0], ['基準（P2）', p2, 0], ['基準（P3）', p3, 0],
   ['①値が写しに無い（値に存在しない文字列）', { ...p1, 値: ['99,999円'] }, 1],

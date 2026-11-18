@@ -1,0 +1,13 @@
+{
+ "id": "gen_北海_チキウ岬",
+ "判定": "実際の取り違え",
+ "種類": "別の場所の混入",
+ "根拠": "室蘭市公式・室蘭観光協会によれば地球岬は室蘭市母恋南町の岬で、利尻島・礼文島は稚内市の西52〜60kmの日本海の離島（礼文島観光協会・稚内観光協会）であり、室蘭とは無関係。",
+ "出典URL": [
+  "https://www.city.muroran.lg.jp/content?content=1559",
+  "https://www.rebun-island.jp/",
+  "https://www.north-hokkaido.com/lsc/upfile/pamphlet/0000/0014/14_1_file.pdf"
+ ],
+ "取り違えの箇所": "destinations.json の spots「利尻島」（description「円錐形の島影が海に浮かぶ景観地。利尻山の独特な稜線…」）と、同「礼文島」の2件が室蘭のページに混入",
+ "検索回数": 2
+}
