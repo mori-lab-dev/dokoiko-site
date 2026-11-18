@@ -1,0 +1,10 @@
+{
+ "番号": 1,
+ "判定": "一致",
+ "理由": "",
+ "公式の値": "宿泊者のみ無料・要事前予約・宿泊日前日18時までに連絡",
+ "出典URL": [
+  "https://taisenkaku.co.jp/access"
+ ],
+ "snapshot": "sample_snapshots/1.txt"
+}

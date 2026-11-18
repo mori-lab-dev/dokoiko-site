@@ -1,0 +1,696 @@
+[
+ {
+  "page": "ako",
+  "名前": "赤穂",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "入場無料の赤穂城跡は観光客が少なく、地元の人の日常と混じり合いながら石垣の周りをゆったり歩ける。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "ashikaga",
+  "名前": "足利",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "入学料420円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "azumino",
+  "名前": "安曇野",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "駅でレンタサイクルを借りると1日1,000円前後で、主なスポットは自転車でちょうど回れる距離に集まっている。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "bessho-onsen",
+  "名前": "別所温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "安楽寺八角三重塔は拝観料300円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "chikugogawa",
+  "名前": "原鶴温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "泰泉閣の送迎は宿泊者のみ無料・要予約（前日18時まで）。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "choshi",
+  "名前": "銚子",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "犬吠埼灯台は入場200円で、急勾配の螺旋階段99段を一気に上りきった先、視界いっぱいに太平洋が開ける。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "echigo-yuzawa",
+  "名前": "越後湯沢",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "ぽんしゅ館は改札のすぐ外にあり、新潟の地酒約100種をコイン5枚500円で利き酒できる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "esashi-hokkaido",
+  "名前": "江差",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "旧中村家住宅は国の重要文化財で、入館料300円で往時の空間を歩ける。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "etajima",
+  "名前": "江田島",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "料金",
+  "文": "見学は無料だが、時間が決まっている。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_びふか温泉",
+  "名前": "びふか温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "休館日",
+  "文": "火曜定休に注意したい。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_丸瀬布森林公園いこいの森",
+  "名前": "丸瀬布森林公園いこいの森",
+  "優先": false,
+  "メタの出どころ": "lead（先頭120字）",
+  "種類": "料金",
+  "文": "しかも無料で乗れる区間もある。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_余市蒸溜所",
+  "名前": "余市蒸溜所",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "北海道余市町にあるニッカウイスキーの蒸溜所で、赤煉瓦の建物が並ぶ敷地を無料で見学できる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_定山渓温泉",
+  "名前": "定山渓温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "定山渓鶴雅リゾートスパ 森の謌を目指すなら、地下鉄南北線・真駒内駅からの無料送迎バスが便利で、前日17時までに電話予約が必要だ。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_水無海浜温泉",
+  "名前": "水無海浜温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "干潮時にだけ砂浜に約40〜42℃の湯だまりが現れ、無料で入浴できる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_花の拠点「はなふる」",
+  "名前": "花の拠点 はなふる",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "北海道・札幌を拠点に訪れる、約5ヘクタールの無料花園だ。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_北海_谷地頭温泉",
+  "名前": "谷地頭温泉",
+  "優先": false,
+  "メタの出どころ": "lead（先頭120字）",
+  "種類": "料金",
+  "文": "料金は大人440円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_群馬_尻焼温泉",
+  "名前": "尻焼温泉",
+  "優先": false,
+  "メタの出どころ": "lead（先頭120字）",
+  "種類": "料金",
+  "文": "料金を払う場所すら存在しない。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_茨城_西山荘",
+  "名前": "西山荘",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "休館日",
+  "文": "月曜は定休。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "gen_青森_秋元温泉",
+  "名前": "秋元温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "休館日",
+  "文": "冬期は積雪で休業になる日があるため、訪問前に電話で確認したい。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "himakajima",
+  "名前": "日間賀島",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "名物はタコ料理で、姿煮定食は2,800円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "hirakawa",
+  "名前": "平川",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "見どころの中心は碇ヶ関温泉で、御関所の湯の入浴料は大人300円と手頃。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "ibaraki-mito",
+  "名前": "水戸",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "最大の見どころは約3,000本の梅が植わる偕楽園で、入園は無料。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "ikeda-osaka",
+  "名前": "池田",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "インスタントラーメン発明記念館は入館無料で、床一面に並ぶ世界各国のカップ麺パッケージは見ごたえがある。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "inuyama",
+  "名前": "犬山",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "最大の見どころは国宝の天守を持つ犬山城で、入場料は550円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "izumoyumura",
+  "名前": "出雲湯村温泉",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "休館日",
+  "文": "日帰り入浴施設の漆仁の湯は年中無休で、家族風呂もある。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "kawaji-onsen",
+  "名前": "川治温泉",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "料金",
+  "文": "大正15年創業の湯けむりの里 柏屋は、鬼怒川と男鹿川の合流点に立ち、川治湯元駅から無料送迎がある。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "kijoka",
+  "名前": "喜如嘉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "主な見どころは芭蕉布会館で、入館料300円で糸芭蕉から糸を取り出して織る手仕事を間近に見られる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "kiyosato",
+  "名前": "清里",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "清泉寮は八ヶ岳を正面に望む宿で、宿泊者向けに清里駅から無料送迎バスを運行している。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "kure",
+  "名前": "呉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "真向かいには実物の潜水艦「あきしお」を陸上展示したてつのくじら館があり、入場無料で見学できる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "matsushiro",
+  "名前": "松代",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "復元された橋を渡って入る松代城跡は入場無料。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "matsushiro",
+  "名前": "松代",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "真田家の屋敷が残る真田邸（入場料500円）では江戸の空気に浸れる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "misasa-onsen",
+  "名前": "三朝温泉",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "株湯は温泉街でいちばん熱い源泉のひとつで、料金100円で入れる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "mitsuminejinja",
+  "名前": "三峯神社",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "境内には宿坊・興雲閣があり、1泊2食付き15,000円前後で宿泊可能。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "motobu",
+  "名前": "本部",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "沖縄美ら海水族館では「黒潮の海」と呼ばれる大水槽にジンベエザメが泳ぎ、入場料は大人2,180円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "mt-yatsugatake",
+  "名前": "蓼科高原",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "料金",
+  "文": "大正15年創業の蓼科親湯温泉は茅野駅東口から無料送迎バスを運行しており、3万冊の本が並ぶライブラリー空間を備える。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "myoko",
+  "名前": "妙高",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "硫黄の匂いが谷に流れ、タオル1枚で入れる無料の露天風呂もある。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "nakijin",
+  "名前": "今帰仁",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "今帰仁城跡は入場料600円で、高さ8メートルを超える城壁が石畳の坂に迫り、琉球以前の歴史を足で追う。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "narai-juku",
+  "名前": "奈良井宿",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "中村邸は入場料300円で、係の人が話しながら案内してくれる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "obuse",
+  "名前": "小布施",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "北斎館は83歳で小布施を訪れた葛飾北斎の作品を収める美術館で、入館料は1,000円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "omaezaki",
+  "名前": "御前崎",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "入場料200円でらせん階段を上りきると、視界をさえぎるものがない太平洋が一望できる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "sakurajima",
+  "名前": "桜島",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "今も噴煙を上げ続ける島へ、片道160円の桜島フェリーで渡れる。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "shikotsu",
+  "名前": "支笏湖",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "入館無料の支笏湖ビジターセンターでは湖の成り立ちや自然を学べ、湖歩きの前に立ち寄りたい。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "shiraoi",
+  "名前": "白老",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "主な見どころはウポポイ（民族共生象徴空間）で、博物館・体験交流ホール・工房が広大な敷地に点在し、入場料は1,200円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "shiraoishi",
+  "名前": "白石",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "中心にあるのが白石城で、1995年に木造で復元された天守は入場料320円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "shonai",
+  "名前": "鶴岡",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "致道博物館は入場料800円で、旧西田川郡役所の赤レンガ建築をはじめ庄内の歴史的建造物を一帯に見学できる施設。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "tsubame-onsen",
+  "名前": "燕温泉",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "料金",
+  "文": "ここの目当ては二つの無料の野天風呂だ。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "tsubame-onsen",
+  "名前": "燕温泉",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "料金",
+  "文": "無料の野天「黄金の湯」まで歩いてすぐ",
+  "欄": [
+   "構造化データ description[4]"
+  ]
+ },
+ {
+  "page": "tsuyama",
+  "名前": "津山",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "鶴山公園として整備されており、入園料310円。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "yoichi",
+  "名前": "余市",
+  "優先": false,
+  "メタの出どころ": "seo.description",
+  "種類": "料金",
+  "文": "見どころの中心はニッカウヰスキー余市蒸溜所で、入場無料。",
+  "欄": [
+   "description",
+   "og:description",
+   "twitter:description",
+   "構造化データ description[0]"
+  ]
+ },
+ {
+  "page": "yunohana-fk",
+  "名前": "湯ノ花温泉",
+  "優先": false,
+  "メタの出どころ": "description（整形）",
+  "種類": "料金",
+  "文": "泊まれば四つの共同浴場に無料で入れる",
+  "欄": [
+   "構造化データ description[4]"
+  ]
+ }
+]
