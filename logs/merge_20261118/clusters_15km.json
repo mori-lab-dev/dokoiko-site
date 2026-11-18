@@ -1,0 +1,3123 @@
+[
+ {
+  "県": "神奈川県",
+  "件数": 10,
+  "直径km": 21.5,
+  "ids": [
+   "yugawara-onsen",
+   "manazuru",
+   "yugawara",
+   "miyanoshita",
+   "ashinoko",
+   "owakudani",
+   "hakone",
+   "hakone-2",
+   "odawara",
+   "niche_神奈川_5"
+  ]
+ },
+ {
+  "県": "神奈川県",
+  "件数": 10,
+  "直径km": 22.2,
+  "ids": [
+   "yokosuka",
+   "sankeien",
+   "minatomirai",
+   "chinatown",
+   "yokohama",
+   "enoshima",
+   "kamakura",
+   "shichirigahama",
+   "zushi",
+   "shomyoji"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 10,
+  "直径km": 22.6,
+  "ids": [
+   "gen_群馬_奥嬬恋温泉",
+   "tsumagoi",
+   "gen_群馬_川中温泉",
+   "gen_群馬_川原湯温泉",
+   "kusatsu-onsen",
+   "shima-onsen",
+   "gen_群馬_尻焼温泉",
+   "gen_群馬_花敷温泉",
+   "akaiwa-gunma",
+   "gen_群馬_万座温泉"
+  ]
+ },
+ {
+  "県": "茨城県",
+  "件数": 10,
+  "直径km": 16.5,
+  "ids": [
+   "oarai",
+   "gen_茨城_大洗磯前神社",
+   "gen_茨城_酒列磯前神社",
+   "gen_茨城_国営ひたち海浜公園",
+   "hitachi-seaside",
+   "ibaraki-mito",
+   "gen_茨城_偕楽園",
+   "gen_茨城_常磐神社",
+   "gen_茨城_水戸八幡宮",
+   "gen_茨城_水戸東照宮"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 9,
+  "直径km": 24.5,
+  "ids": [
+   "kudakajima",
+   "nanjo-okinawa",
+   "chinen-misaki",
+   "sefa-utaki",
+   "okinawa-chinen",
+   "itoman",
+   "okinawa-naha",
+   "shuri-castle",
+   "niche_沖縄_1"
+  ]
+ },
+ {
+  "県": "香川県",
+  "件数": 8,
+  "直径km": 21.3,
+  "ids": [
+   "honjima",
+   "marugame",
+   "niche_香川_1",
+   "kotohira",
+   "niche_香川_6",
+   "zentsuji",
+   "mitoyo",
+   "niche_香川_2"
+  ]
+ },
+ {
+  "県": "香川県",
+  "件数": 8,
+  "直径km": 23.5,
+  "ids": [
+   "aji-peninsula",
+   "naoshima",
+   "shodoshima",
+   "teshima",
+   "kagawa-takamatsu",
+   "takamatsu-ritsurin",
+   "ogijima",
+   "megijima"
+  ]
+ },
+ {
+  "県": "鳥取県",
+  "件数": 8,
+  "直径km": 19.3,
+  "ids": [
+   "tottori-mt-mitoku",
+   "ojika",
+   "misasa-onsen",
+   "kurayoshi",
+   "niche_鳥取_5",
+   "misasa2",
+   "niche_鳥取_1",
+   "togo"
+  ]
+ },
+ {
+  "県": "富山県",
+  "件数": 8,
+  "直径km": 24.9,
+  "ids": [
+   "nanto",
+   "niche_富山_1",
+   "tonami",
+   "niche_富山_3",
+   "gokayama",
+   "gokayama-2",
+   "niche_富山_6",
+   "niche_富山_2"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 8,
+  "直径km": 22.7,
+  "ids": [
+   "hirosaki",
+   "aomori-hirosaki-2",
+   "gen_青森_青荷温泉",
+   "gen_青森_板留温泉",
+   "gen_青森_落合温泉",
+   "sannai-maruyama",
+   "hirakawa",
+   "niche_青森_4"
+  ]
+ },
+ {
+  "県": "大阪府",
+  "件数": 8,
+  "直径km": 24.7,
+  "ids": [
+   "sakai",
+   "izumi",
+   "osaka-bay",
+   "shin-sekai",
+   "osaka",
+   "kashiwara-wine",
+   "tondabayashi",
+   "niche_大阪_2"
+  ]
+ },
+ {
+  "県": "栃木県",
+  "件数": 7,
+  "直径km": 23.7,
+  "ids": [
+   "gen_栃木_中禅寺温泉",
+   "nikko",
+   "gen_栃木_日光杉並木",
+   "kinugawa-onsen",
+   "gen_栃木_日光東照宮",
+   "kirifuri",
+   "kawaji-onsen"
+  ]
+ },
+ {
+  "県": "三重県",
+  "件数": 7,
+  "直径km": 16.7,
+  "ids": [
+   "ise",
+   "iseshima",
+   "ise-okage",
+   "meoto-iwa",
+   "toushijima",
+   "toba",
+   "toba-pearl"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 7,
+  "直径km": 17.8,
+  "ids": [
+   "daisetsuzan",
+   "gen_北海_旭岳温泉",
+   "gen_北海_天人峡温泉",
+   "sounkyo",
+   "gen_北海_愛山渓温泉",
+   "gen_北海_層雲峡温泉",
+   "gen_北海_大雪高原温泉"
+  ]
+ },
+ {
+  "県": "東京都",
+  "件数": 7,
+  "直径km": 17.9,
+  "ids": [
+   "shibuya",
+   "shinjuku",
+   "ueno",
+   "akiba",
+   "asakusa",
+   "tokyo",
+   "todoroki-keikoku"
+  ]
+ },
+ {
+  "県": "山口県",
+  "件数": 7,
+  "直径km": 21.3,
+  "ids": [
+   "motonosumi",
+   "omijima",
+   "nagato-yamaguchi",
+   "niche_山口_4",
+   "nagatoyumoto",
+   "tawarayama",
+   "sekichukei"
+  ]
+ },
+ {
+  "県": "京都府",
+  "件数": 7,
+  "直径km": 20.6,
+  "ids": [
+   "arashiyama",
+   "arashiyama-2",
+   "fushimi",
+   "kyoto",
+   "uji",
+   "niche_京都_3",
+   "niche_大阪_3"
+  ]
+ },
+ {
+  "県": "富山県",
+  "件数": 7,
+  "直径km": 21.7,
+  "ids": [
+   "kurobe",
+   "uozu",
+   "kurobe-gorge",
+   "unazuki-onsen",
+   "toyama-himi-2",
+   "kuronagi",
+   "niche_富山_4"
+  ]
+ },
+ {
+  "県": "佐賀県",
+  "件数": 7,
+  "直径km": 19.2,
+  "ids": [
+   "yoshinogari",
+   "saga-yoshino",
+   "saga-castle",
+   "saga-balloon",
+   "saga",
+   "kumanokawa-onsen",
+   "furuyu-onsen"
+  ]
+ },
+ {
+  "県": "栃木県",
+  "件数": 6,
+  "直径km": 21.9,
+  "ids": [
+   "ashikaga",
+   "gen_栃木_太平山神社",
+   "sano",
+   "gen_栃木_佐野プレミアム・アウトレット",
+   "gen_栃木_唐沢山神社",
+   "niche_群馬_1"
+  ]
+ },
+ {
+  "県": "栃木県",
+  "件数": 6,
+  "直径km": 21.5,
+  "ids": [
+   "gen_栃木_三斗小屋温泉",
+   "nasu",
+   "gen_栃木_那須温泉郷",
+   "gen_栃木_殺生石",
+   "gen_栃木_那須高原",
+   "niche_栃木_2"
+  ]
+ },
+ {
+  "県": "山梨県",
+  "件数": 6,
+  "直径km": 15,
+  "ids": [
+   "mt-fuji-fifth",
+   "fujikawaguchiko",
+   "saiko-kawaguchi",
+   "saiko",
+   "motosuko",
+   "shoji-lake"
+  ]
+ },
+ {
+  "県": "奈良県",
+  "件数": 6,
+  "直径km": 15.5,
+  "ids": [
+   "kashihara",
+   "asuka",
+   "niche_奈良_8",
+   "takatori",
+   "uda-nara",
+   "mt-yamato"
+  ]
+ },
+ {
+  "県": "奈良県",
+  "件数": 6,
+  "直径km": 20.5,
+  "ids": [
+   "dorogawa-onsen",
+   "yoshino",
+   "niche_奈良_1",
+   "niche_奈良_6",
+   "tenkawa",
+   "kamikitayama"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 6,
+  "直径km": 23,
+  "ids": [
+   "nakijin",
+   "kouri-island",
+   "ie-island",
+   "motobu",
+   "bise",
+   "nago"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 6,
+  "直径km": 24.9,
+  "ids": [
+   "kamishihoro",
+   "gen_北海_ぬかびら温泉",
+   "gen_北海_然別湖畔温泉",
+   "gen_北海_菅野温泉",
+   "gen_北海_鹿の湯",
+   "gen_北海_オソウシ温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 6,
+  "直径km": 19,
+  "ids": [
+   "gen_北海_岩尾別温泉",
+   "shiretoko",
+   "gen_北海_ウトロ温泉",
+   "gen_北海_フレペの滝",
+   "rausu",
+   "gen_北海_羅臼温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 6,
+  "直径km": 16.8,
+  "ids": [
+   "gen_北海_トラピスト修道院",
+   "gen_北海_戸切地陣屋",
+   "hokkaido-hakodate",
+   "gen_北海_弁天台場",
+   "gen_北海_谷地頭温泉",
+   "gen_北海_五稜郭"
+  ]
+ },
+ {
+  "県": "兵庫県",
+  "件数": 6,
+  "直径km": 22.3,
+  "ids": [
+   "arima-onsen",
+   "takarazuka",
+   "niche_兵庫_1",
+   "koshien",
+   "kobe-port",
+   "kobe"
+  ]
+ },
+ {
+  "県": "秋田県",
+  "件数": 6,
+  "直径km": 13.3,
+  "ids": [
+   "nyuto-onsen",
+   "tazawako",
+   "shimokitazawa-nyuto",
+   "akita-nyuto",
+   "kuroyu",
+   "kanigasaki"
+  ]
+ },
+ {
+  "県": "鳥取県",
+  "件数": 6,
+  "直径km": 13,
+  "ids": [
+   "uradome",
+   "iwai-tottori",
+   "tottori",
+   "tottori-castle",
+   "tottori-sakyu",
+   "tottori-sakyu-2"
+  ]
+ },
+ {
+  "県": "千葉県",
+  "件数": 6,
+  "直径km": 20.6,
+  "ids": [
+   "otaki",
+   "boso-hills",
+   "niche_千葉_2",
+   "isumi",
+   "katsuura-chiba",
+   "niche_千葉_5"
+  ]
+ },
+ {
+  "県": "山形県",
+  "件数": 6,
+  "直径km": 19.3,
+  "ids": [
+   "higashine",
+   "tendou",
+   "yamadera",
+   "yamadera-2",
+   "zaou-onsen",
+   "sagae"
+  ]
+ },
+ {
+  "県": "佐賀県",
+  "件数": 6,
+  "直径km": 15.1,
+  "ids": [
+   "ureshino-onsen",
+   "kashima-saga",
+   "yutoku-inari",
+   "niche_佐賀_1",
+   "takeo-onsen",
+   "mifuneyama"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 6,
+  "直径km": 24.5,
+  "ids": [
+   "omihachiman",
+   "okishima",
+   "niche_滋賀_4",
+   "biwako",
+   "hira",
+   "biwako-valley"
+  ]
+ },
+ {
+  "県": "大阪府",
+  "件数": 6,
+  "直径km": 24.5,
+  "ids": [
+   "takatsuki",
+   "ikeda-osaka",
+   "katsuoji",
+   "senri",
+   "senri-bamboo",
+   "hoshida"
+  ]
+ },
+ {
+  "県": "山梨県",
+  "件数": 5,
+  "直径km": 18.9,
+  "ids": [
+   "shosenkyo",
+   "isawa-onsen",
+   "kofu",
+   "katsunuma",
+   "niche_山梨_7"
+  ]
+ },
+ {
+  "県": "奈良県",
+  "件数": 5,
+  "直径km": 13.4,
+  "ids": [
+   "nara",
+   "nara-park",
+   "nara-park-2",
+   "yamatokoriyama",
+   "horyuji"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 5,
+  "直径km": 18.9,
+  "ids": [
+   "miyakojima",
+   "kurima-island",
+   "irabu-island",
+   "toriike",
+   "ikema-island"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 5,
+  "直径km": 21.1,
+  "ids": [
+   "onna",
+   "yomitanson",
+   "cape-zampa",
+   "chatan",
+   "uruma"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 5,
+  "直径km": 22.8,
+  "ids": [
+   "gen_北海_黒松内温泉",
+   "gen_北海_長万部温泉",
+   "gen_北海_奥美利河温泉",
+   "gen_北海_美利河温泉",
+   "gen_北海_金花湯"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 5,
+  "直径km": 24,
+  "ids": [
+   "sakunami-onsen",
+   "togatta-onsen",
+   "murata-miyagi",
+   "zaosan",
+   "gaga-onsen"
+  ]
+ },
+ {
+  "県": "広島県",
+  "件数": 5,
+  "直径km": 24.5,
+  "ids": [
+   "mihara",
+   "takehara",
+   "okunoshima",
+   "innoshima",
+   "ikuchijima"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 5,
+  "直径km": 18.7,
+  "ids": [
+   "daikonshima",
+   "adachi-museum",
+   "tamatsukuri-onsen",
+   "niche_島根_4",
+   "matsue"
+  ]
+ },
+ {
+  "県": "東京都",
+  "件数": 5,
+  "直径km": 20.5,
+  "ids": [
+   "oku-tama",
+   "niche_東京_4",
+   "niche_東京_1",
+   "niche_東京_2",
+   "niche_東京_3"
+  ]
+ },
+ {
+  "県": "岐阜県",
+  "件数": 5,
+  "直径km": 24.3,
+  "ids": [
+   "ogaki",
+   "yoro-falls",
+   "niche_岐阜_8",
+   "niche_岐阜_5",
+   "niche_岐阜_7"
+  ]
+ },
+ {
+  "県": "岐阜県",
+  "件数": 5,
+  "直径km": 17.7,
+  "ids": [
+   "niche_岐阜_1",
+   "nakatsugawa",
+   "niche_岐阜_4",
+   "magome",
+   "niche_長野_2"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 5,
+  "直径km": 24.9,
+  "ids": [
+   "shiraishijima",
+   "manabeshima",
+   "yakake",
+   "kasaoka",
+   "kasaoka-islands"
+  ]
+ },
+ {
+  "県": "熊本県",
+  "件数": 5,
+  "直径km": 24.7,
+  "ids": [
+   "niche_熊本_1",
+   "hitoyoshi",
+   "hitoyoshi-city",
+   "hitoyoshi-onsen",
+   "niche_熊本_6"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 5,
+  "直径km": 22.4,
+  "ids": [
+   "hanamaki",
+   "hanamaki-onsen",
+   "namari-onsen",
+   "osawa-onsen",
+   "kitakami"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 5,
+  "直径km": 10.9,
+  "ids": [
+   "ichinoseki-geibikei",
+   "ichinoseki",
+   "hiraizumi",
+   "ichinoseki-hiraizumi2",
+   "iwate-chuson"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 5,
+  "直径km": 10.8,
+  "ids": [
+   "yuwaku-onsen",
+   "kanazawa-castle",
+   "kanazawa-21st",
+   "higashi-chaya",
+   "kanazawa"
+  ]
+ },
+ {
+  "県": "京都府",
+  "件数": 5,
+  "直径km": 20.3,
+  "ids": [
+   "ine",
+   "tango-kyoto",
+   "amanohashidate",
+   "tango-matsushima",
+   "niche_京都_1"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 5,
+  "直径km": 24.1,
+  "ids": [
+   "niyodogawa",
+   "susaki",
+   "niche_高知_1",
+   "kochi-ino",
+   "niche_高知_6"
+  ]
+ },
+ {
+  "県": "徳島県",
+  "件数": 5,
+  "直径km": 22.6,
+  "ids": [
+   "oboke",
+   "iya-vine-bridge",
+   "iya-vine-2",
+   "iya",
+   "tsurugi-san"
+  ]
+ },
+ {
+  "県": "徳島県",
+  "件数": 5,
+  "直径km": 21.2,
+  "ids": [
+   "naruto",
+   "naruto-uzu",
+   "tokushima-city",
+   "mt-bizan",
+   "niche_徳島_4"
+  ]
+ },
+ {
+  "県": "愛知県",
+  "件数": 5,
+  "直径km": 18.8,
+  "ids": [
+   "minamichita",
+   "shinojima",
+   "sakushima",
+   "himakajima",
+   "niche_愛知_7"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 5,
+  "直径km": 15.8,
+  "ids": [
+   "gen_青森_城ヶ倉温泉",
+   "gen_青森_酸ヶ湯",
+   "gen_青森_奥入瀬渓流温泉",
+   "gen_青森_蔦温泉",
+   "gen_青森_谷地温泉"
+  ]
+ },
+ {
+  "県": "福井県",
+  "件数": 5,
+  "直径km": 25,
+  "ids": [
+   "echizen",
+   "echizen-kaigan",
+   "echizen-pottery",
+   "niche_福井_1",
+   "imajo"
+  ]
+ },
+ {
+  "県": "福井県",
+  "件数": 5,
+  "直径km": 12.4,
+  "ids": [
+   "ono-fukui",
+   "niche_福井_4",
+   "eiheiji",
+   "katsuyama",
+   "niche_福井_2"
+  ]
+ },
+ {
+  "県": "埼玉県",
+  "件数": 5,
+  "直径km": 13.3,
+  "ids": [
+   "chichibu",
+   "hitsujiyama",
+   "mitsuminejinja",
+   "mihashira",
+   "ryokami"
+  ]
+ },
+ {
+  "県": "埼玉県",
+  "件数": 5,
+  "直径km": 17.7,
+  "ids": [
+   "nagatoro",
+   "niche_埼玉_1",
+   "ogawa-saitama",
+   "higashichichibu",
+   "fukaya"
+  ]
+ },
+ {
+  "県": "埼玉県",
+  "件数": 5,
+  "直径km": 15.3,
+  "ids": [
+   "ogose",
+   "moroyama-saito",
+   "hanno",
+   "kinchakuda",
+   "naguri"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 5,
+  "直径km": 13.9,
+  "ids": [
+   "tsunan",
+   "echigo-yuzawa",
+   "nozawa-onsen-niigata",
+   "niigata-uono",
+   "kaikake"
+  ]
+ },
+ {
+  "県": "静岡県",
+  "件数": 4,
+  "直径km": 21.3,
+  "ids": [
+   "atami",
+   "ito",
+   "izu-kogen",
+   "izu-jogasaki"
+  ]
+ },
+ {
+  "県": "静岡県",
+  "件数": 4,
+  "直径km": 17.4,
+  "ids": [
+   "shimoda",
+   "minami-izu",
+   "niche_静岡_4",
+   "niche_静岡_3"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 4,
+  "直径km": 24,
+  "ids": [
+   "nozawa-onsen",
+   "iiyama",
+   "akiyamago",
+   "niche_長野_4"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 4,
+  "直径km": 19.3,
+  "ids": [
+   "kamikochi",
+   "shirahone-onsen",
+   "nakabusa",
+   "yumata"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 4,
+  "直径km": 8.3,
+  "ids": [
+   "tokashiki-jima",
+   "aharen",
+   "zamami-island",
+   "aka-island"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 4,
+  "直径km": 19.4,
+  "ids": [
+   "iriomote",
+   "yubu-island",
+   "kohama-island",
+   "kuroshima-yaeyama"
+  ]
+ },
+ {
+  "県": "大分県",
+  "件数": 4,
+  "直径km": 20.4,
+  "ids": [
+   "beppu",
+   "kitsuki",
+   "hiji",
+   "oita"
+  ]
+ },
+ {
+  "県": "大分県",
+  "件数": 4,
+  "直径km": 22,
+  "ids": [
+   "kuju-kogen",
+   "kannojigoku",
+   "taketa",
+   "niche_大分_3"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 4,
+  "直径km": 9.3,
+  "ids": [
+   "obihiro",
+   "gen_北海_十勝ヒルズ",
+   "gen_北海_真鍋庭園",
+   "gen_北海_十勝川温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 4,
+  "直径km": 22.4,
+  "ids": [
+   "hokkaido-asahikawa",
+   "biei",
+   "gen_北海_就実の丘",
+   "gen_北海_東川町"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 4,
+  "直径km": 24.8,
+  "ids": [
+   "gen_北海_太田山神社",
+   "gen_北海_臼別温泉",
+   "gen_北海_見市温泉",
+   "gen_北海_平田内温泉"
+  ]
+ },
+ {
+  "県": "広島県",
+  "件数": 4,
+  "直径km": 25,
+  "ids": [
+   "tomonoura",
+   "sensui-jima",
+   "fukuyama",
+   "fuchu-hiroshima"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 4,
+  "直径km": 13.4,
+  "ids": [
+   "ama-island",
+   "nakanoshima-oki",
+   "nishinoshima",
+   "kuniga"
+  ]
+ },
+ {
+  "県": "和歌山県",
+  "件数": 4,
+  "直径km": 12.2,
+  "ids": [
+   "nachikatsuura",
+   "nachi-falls",
+   "shingu-wakayama",
+   "niche_和歌山_2"
+  ]
+ },
+ {
+  "県": "和歌山県",
+  "件数": 4,
+  "直径km": 5.6,
+  "ids": [
+   "kumano-hongu",
+   "kumano-kodo",
+   "yunomine",
+   "kawayu"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 4,
+  "直径km": 21.9,
+  "ids": [
+   "numata",
+   "gen_群馬_上牧温泉",
+   "gen_群馬_猿ヶ京温泉",
+   "gen_群馬_法師温泉"
+  ]
+ },
+ {
+  "県": "岐阜県",
+  "件数": 4,
+  "直径km": 12,
+  "ids": [
+   "hida-furukawa",
+   "takayama-o",
+   "takayama-2",
+   "kasuga-gifu"
+  ]
+ },
+ {
+  "県": "兵庫県",
+  "件数": 4,
+  "直径km": 15.5,
+  "ids": [
+   "matsuba-gani",
+   "kasumi-kaigan",
+   "niche_兵庫_2",
+   "yumura-hyogo"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 4,
+  "直径km": 13.5,
+  "ids": [
+   "mimasaka",
+   "yunogo",
+   "nagi",
+   "nagi-okayama"
+  ]
+ },
+ {
+  "県": "熊本県",
+  "件数": 4,
+  "直径km": 9.9,
+  "ids": [
+   "kurokawa-k",
+   "oguni-kumamoto",
+   "hagenoyu-onsen",
+   "tsuetate-onsen"
+  ]
+ },
+ {
+  "県": "鹿児島県",
+  "件数": 4,
+  "直径km": 13.2,
+  "ids": [
+   "sakurajima",
+   "sakurajima-onsen",
+   "kagoshima-city",
+   "iso"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 4,
+  "直径km": 24.6,
+  "ids": [
+   "ouchi-juku",
+   "minami-aizu",
+   "yunokami-onsen",
+   "fukushima-aizu-2"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 4,
+  "直径km": 19.1,
+  "ids": [
+   "inawashiro",
+   "urabandai",
+   "aizu-bandaisan",
+   "nakanosawa-onsen"
+  ]
+ },
+ {
+  "県": "愛媛県",
+  "件数": 4,
+  "直径km": 13.2,
+  "ids": [
+   "shimonada",
+   "uchiko",
+   "niche_愛知_4",
+   "ozu"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 4,
+  "直径km": 15.6,
+  "ids": [
+   "suzu",
+   "mitsuke-jima",
+   "rokkozaki",
+   "noto-kiriko"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 4,
+  "直径km": 8.1,
+  "ids": [
+   "kaga-onsen2",
+   "kaga-onsen",
+   "niche_石川_4",
+   "yamanaka-onsen"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 4,
+  "直径km": 12.1,
+  "ids": [
+   "sozogi",
+   "shiroyone-senmaida",
+   "wajima",
+   "wajima-asaichi"
+  ]
+ },
+ {
+  "県": "鳥取県",
+  "件数": 4,
+  "直径km": 15.3,
+  "ids": [
+   "sakaiminato",
+   "mizuki-shigeru-road",
+   "yonago",
+   "kaike"
+  ]
+ },
+ {
+  "県": "鳥取県",
+  "件数": 4,
+  "直径km": 7.2,
+  "ids": [
+   "hakuto",
+   "hakuto-tottori",
+   "yoshioka",
+   "shikano"
+  ]
+ },
+ {
+  "県": "山形県",
+  "件数": 4,
+  "直径km": 23.8,
+  "ids": [
+   "dewa-sanzan",
+   "shonai",
+   "sakata",
+   "niche_山形_2"
+  ]
+ },
+ {
+  "県": "山形県",
+  "件数": 4,
+  "直径km": 18.5,
+  "ids": [
+   "hijori-onsen",
+   "shinjou",
+   "mogami-funakudari",
+   "seorasou"
+  ]
+ },
+ {
+  "県": "宮崎県",
+  "件数": 4,
+  "直径km": 8.4,
+  "ids": [
+   "obi",
+   "nichinan-onsen",
+   "nichinan",
+   "nichinan-coast"
+  ]
+ },
+ {
+  "県": "宮崎県",
+  "件数": 4,
+  "直径km": 16.5,
+  "ids": [
+   "ebino-kogen",
+   "ebino",
+   "ikoma-kogen",
+   "niche_宮崎_4"
+  ]
+ },
+ {
+  "県": "宮崎県",
+  "件数": 4,
+  "直径km": 16.9,
+  "ids": [
+   "miyakonojo",
+   "niche_鹿児島_2",
+   "niche_宮崎_6",
+   "niche_宮崎_7"
+  ]
+ },
+ {
+  "県": "佐賀県",
+  "件数": 4,
+  "直径km": 19.7,
+  "ids": [
+   "karatsu",
+   "niji-no-matsubara",
+   "yobuko",
+   "saga-arima"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 4,
+  "直径km": 16.2,
+  "ids": [
+   "nagahama",
+   "chikubushima",
+   "yogo",
+   "niche_滋賀_6"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 4,
+  "直径km": 16.7,
+  "ids": [
+   "fukaura",
+   "gen_青森_黄金崎不老不死温泉",
+   "gonosen",
+   "senjojiki-aomori"
+  ]
+ },
+ {
+  "県": "福岡県",
+  "件数": 4,
+  "直径km": 21.8,
+  "ids": [
+   "asakura",
+   "chikugogawa",
+   "niche_福岡_2",
+   "asakuradan"
+  ]
+ },
+ {
+  "県": "福岡県",
+  "件数": 4,
+  "直径km": 19.7,
+  "ids": [
+   "kurume",
+   "yanagawa",
+   "yame",
+   "funagoya-onsen"
+  ]
+ },
+ {
+  "県": "福岡県",
+  "件数": 4,
+  "直径km": 14.6,
+  "ids": [
+   "noko-island",
+   "shikanoshima",
+   "nakasu",
+   "fukuoka"
+  ]
+ },
+ {
+  "県": "茨城県",
+  "件数": 4,
+  "直径km": 23.7,
+  "ids": [
+   "gen_茨城_水郷筑波国定公園",
+   "kashima",
+   "gen_茨城_鹿島神宮",
+   "gen_茨城_大杉神社"
+  ]
+ },
+ {
+  "県": "静岡県",
+  "件数": 3,
+  "直径km": 16.3,
+  "ids": [
+   "shuzenji",
+   "mishima",
+   "numazu"
+  ]
+ },
+ {
+  "県": "栃木県",
+  "件数": 3,
+  "直径km": 22.8,
+  "ids": [
+   "gen_栃木_川俣温泉",
+   "gen_栃木_日光湯元温泉",
+   "gen_栃木_湯西川温泉"
+  ]
+ },
+ {
+  "県": "栃木県",
+  "件数": 3,
+  "直径km": 1.3,
+  "ids": [
+   "gen_栃木_宇都宮城",
+   "utsunomiya",
+   "gen_栃木_宇都宮二荒山神社"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 3,
+  "直径km": 3.7,
+  "ids": [
+   "tsumago",
+   "nakasendo-tsumago",
+   "niche_愛知_5"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 3,
+  "直径km": 7,
+  "ids": [
+   "tateshina",
+   "mt-yatsugatake",
+   "kirigamine"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 3,
+  "直径km": 16.7,
+  "ids": [
+   "matsumoto-kaido",
+   "suwa",
+   "utsukushigahara"
+  ]
+ },
+ {
+  "県": "山梨県",
+  "件数": 3,
+  "直径km": 12.5,
+  "ids": [
+   "niche_山梨_1",
+   "niche_山梨_4",
+   "niche_山梨_5"
+  ]
+ },
+ {
+  "県": "大分県",
+  "件数": 3,
+  "直径km": 8,
+  "ids": [
+   "yufuin",
+   "yufuin-2",
+   "yunohira-onsen"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 6.9,
+  "ids": [
+   "otaru",
+   "gen_北海_小樽運河",
+   "gen_北海_朝里川温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 13,
+  "ids": [
+   "toyako",
+   "gen_北海_洞爺湖温泉",
+   "gen_北海_伊達温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 7.4,
+  "ids": [
+   "shikotsu",
+   "gen_北海_支笏湖温泉",
+   "gen_北海_支笏湖いとう温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 6.8,
+  "ids": [
+   "gen_北海_十勝岳温泉",
+   "gen_北海_十勝岳望岳台",
+   "gen_北海_白ひげの滝"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 3.9,
+  "ids": [
+   "gen_北海_北海道",
+   "sapporo",
+   "gen_北海_北海道神宮"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 7,
+  "ids": [
+   "gen_北海_知床国立公園",
+   "gen_北海_相泊温泉",
+   "gen_北海_瀬石温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 3,
+  "直径km": 11.9,
+  "ids": [
+   "gen_北海_丸瀬布森林公園いこいの森",
+   "gen_北海_山彦の滝",
+   "gen_北海_瀬戸瀬温泉"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 3,
+  "直径km": 7.7,
+  "ids": [
+   "matsushima",
+   "zuiganji",
+   "miyagi-matsushima-2"
+  ]
+ },
+ {
+  "県": "広島県",
+  "件数": 3,
+  "直径km": 6.5,
+  "ids": [
+   "miyajima",
+   "itsukushima",
+   "miyahama"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 3,
+  "直径km": 13.7,
+  "ids": [
+   "oku-izumo",
+   "niche_島根_1",
+   "izumoyumura"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 3,
+  "直径km": 13.9,
+  "ids": [
+   "hamada-shimane",
+   "iwami-kagura",
+   "arifuku"
+  ]
+ },
+ {
+  "県": "和歌山県",
+  "件数": 3,
+  "直径km": 6.2,
+  "ids": [
+   "shirahama-o",
+   "shirahama",
+   "tanabe"
+  ]
+ },
+ {
+  "県": "東京都",
+  "件数": 3,
+  "直径km": 9.9,
+  "ids": [
+   "niche_東京_6",
+   "jindaiji",
+   "kunitachi"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 3,
+  "直径km": 21.6,
+  "ids": [
+   "takasaki",
+   "maebashi",
+   "tomioka-silk"
+  ]
+ },
+ {
+  "県": "岐阜県",
+  "件数": 3,
+  "直径km": 15.1,
+  "ids": [
+   "seki",
+   "mino-washi",
+   "niche_岐阜_6"
+  ]
+ },
+ {
+  "県": "岐阜県",
+  "件数": 3,
+  "直径km": 15.7,
+  "ids": [
+   "hirayu",
+   "okuhida-onsen",
+   "shinhotaka"
+  ]
+ },
+ {
+  "県": "兵庫県",
+  "件数": 3,
+  "直径km": 15.7,
+  "ids": [
+   "tatsuno",
+   "himeji-castle-2",
+   "shioda"
+  ]
+ },
+ {
+  "県": "兵庫県",
+  "件数": 3,
+  "直径km": 17.1,
+  "ids": [
+   "niche_兵庫_4",
+   "awaji",
+   "sumoto-onsen"
+  ]
+ },
+ {
+  "県": "熊本県",
+  "件数": 3,
+  "直径km": 13,
+  "ids": [
+   "yamaga",
+   "kikuchi",
+   "niche_熊本_5"
+  ]
+ },
+ {
+  "県": "鹿児島県",
+  "件数": 3,
+  "直径km": 14.4,
+  "ids": [
+   "kirishima",
+   "niche_鹿児島_3",
+   "niche_鹿児島_5"
+  ]
+ },
+ {
+  "県": "鹿児島県",
+  "件数": 3,
+  "直径km": 13.6,
+  "ids": [
+   "minamiosumi",
+   "ibusuki",
+   "ibusuki-onsen"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 3,
+  "直径km": 10.3,
+  "ids": [
+   "miyako-iwate",
+   "sanriku-miyako",
+   "taro"
+  ]
+ },
+ {
+  "県": "秋田県",
+  "件数": 3,
+  "直径km": 7.8,
+  "ids": [
+   "oga",
+   "akita-oga",
+   "akita-oga-peninsula"
+  ]
+ },
+ {
+  "県": "秋田県",
+  "件数": 3,
+  "直径km": 14,
+  "ids": [
+   "niche_秋田_1",
+   "oyu-onsen-akita",
+   "niche_秋田_5"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 3,
+  "直径km": 4.3,
+  "ids": [
+   "aizu",
+   "aizu-2",
+   "higashiyama-aizu"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 3,
+  "直径km": 14,
+  "ids": [
+   "takayu-onsen",
+   "fukushima",
+   "iizaka"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 3,
+  "直径km": 13.9,
+  "ids": [
+   "tokusa",
+   "yunohana-fk",
+   "hinoemata-onsen"
+  ]
+ },
+ {
+  "県": "山口県",
+  "件数": 3,
+  "直径km": 1.4,
+  "ids": [
+   "yuda-onsen",
+   "yamaguchi",
+   "yamaguchi-city"
+  ]
+ },
+ {
+  "県": "山口県",
+  "件数": 3,
+  "直径km": 11.3,
+  "ids": [
+   "akiyoshidai",
+   "akiyoshido",
+   "mine-yamaguchi"
+  ]
+ },
+ {
+  "県": "愛媛県",
+  "件数": 3,
+  "直径km": 11,
+  "ids": [
+   "imabari",
+   "yunoura",
+   "nibukawa"
+  ]
+ },
+ {
+  "県": "愛媛県",
+  "件数": 3,
+  "直径km": 20.5,
+  "ids": [
+   "ikata",
+   "yawatahama",
+   "unomachi"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 3,
+  "直径km": 8.8,
+  "ids": [
+   "wakura-onsen",
+   "nanao",
+   "notojima"
+  ]
+ },
+ {
+  "県": "京都府",
+  "件数": 3,
+  "直径km": 9,
+  "ids": [
+   "miyama",
+   "miyama-kayabuki",
+   "keihoku"
+  ]
+ },
+ {
+  "県": "京都府",
+  "件数": 3,
+  "直径km": 6.8,
+  "ids": [
+   "ohara",
+   "kifune",
+   "kibune-kurama"
+  ]
+ },
+ {
+  "県": "長崎県",
+  "件数": 3,
+  "直径km": 13,
+  "ids": [
+   "hirado",
+   "hirado-island",
+   "ikitsukijima"
+  ]
+ },
+ {
+  "県": "長崎県",
+  "件数": 3,
+  "直径km": 4.4,
+  "ids": [
+   "goto",
+   "fukue-island",
+   "kugashima"
+  ]
+ },
+ {
+  "県": "長崎県",
+  "件数": 3,
+  "直径km": 17.7,
+  "ids": [
+   "unzen",
+   "unzen2",
+   "shimabara"
+  ]
+ },
+ {
+  "県": "長崎県",
+  "件数": 3,
+  "直径km": 15.6,
+  "ids": [
+   "nagasaki-city",
+   "niche_長崎_7",
+   "iojima-nagasaki"
+  ]
+ },
+ {
+  "県": "千葉県",
+  "件数": 3,
+  "直径km": 16.4,
+  "ids": [
+   "choshi",
+   "niche_千葉_1",
+   "niche_千葉_4"
+  ]
+ },
+ {
+  "県": "千葉県",
+  "件数": 3,
+  "直径km": 10.7,
+  "ids": [
+   "sakura-city",
+   "naritasan",
+   "narita"
+  ]
+ },
+ {
+  "県": "富山県",
+  "件数": 3,
+  "直径km": 8.8,
+  "ids": [
+   "tateyama-kurobe",
+   "tateyama-toyama",
+   "shomyodaki"
+  ]
+ },
+ {
+  "県": "富山県",
+  "件数": 3,
+  "直径km": 11.7,
+  "ids": [
+   "himi",
+   "zuiryuji",
+   "amaharashi"
+  ]
+ },
+ {
+  "県": "宮崎県",
+  "件数": 3,
+  "直径km": 18.1,
+  "ids": [
+   "takachiho",
+   "hinokage-onsen",
+   "gokase"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 3,
+  "直径km": 8,
+  "ids": [
+   "ashizuri",
+   "tosa-shimizu",
+   "misaki-kochi"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 3,
+  "直径km": 20.4,
+  "ids": [
+   "otoyo",
+   "niche_高知_5",
+   "ryugado"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 3,
+  "直径km": 7.9,
+  "ids": [
+   "katsurahama",
+   "kochi-castle",
+   "kochi"
+  ]
+ },
+ {
+  "県": "愛知県",
+  "件数": 3,
+  "直径km": 14.6,
+  "ids": [
+   "nagoya-castle",
+   "atsuta",
+   "arimatsu"
+  ]
+ },
+ {
+  "県": "佐賀県",
+  "件数": 3,
+  "直径km": 9.9,
+  "ids": [
+   "imari",
+   "arita",
+   "niche_佐賀_5"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 3,
+  "直径km": 19,
+  "ids": [
+   "koka",
+   "niche_滋賀_1",
+   "niche_滋賀_3"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 3,
+  "直径km": 12.6,
+  "ids": [
+   "otsu-shiga",
+   "shiga-otsu",
+   "kusatsu-shiga"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 3,
+  "直径km": 17.1,
+  "ids": [
+   "takashima-shiga",
+   "kaizu-osaki",
+   "metasequoia"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 3,
+  "直径km": 8,
+  "ids": [
+   "miho-museum",
+   "shigaraki",
+   "shigaraki-2-pottery"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 3,
+  "直径km": 5.8,
+  "ids": [
+   "towada",
+   "towada-lake",
+   "gen_青森_十和田湖畔温泉"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 3,
+  "直径km": 11.5,
+  "ids": [
+   "osorezan",
+   "hotokegaura",
+   "shimokita"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 3,
+  "直径km": 10.8,
+  "ids": [
+   "hakkoda",
+   "aomori-aomori-2",
+   "aomori"
+  ]
+ },
+ {
+  "県": "福井県",
+  "件数": 3,
+  "直径km": 15.3,
+  "ids": [
+   "tsuruga",
+   "mikatagoko",
+   "mihama-fukui"
+  ]
+ },
+ {
+  "県": "福井県",
+  "件数": 3,
+  "直径km": 8.2,
+  "ids": [
+   "wakasa-obama",
+   "obama-fukui",
+   "sotomo"
+  ]
+ },
+ {
+  "県": "福井県",
+  "件数": 3,
+  "直径km": 11.3,
+  "ids": [
+   "tojinbo",
+   "mikuni-minato",
+   "niche_福井_3"
+  ]
+ },
+ {
+  "県": "福井県",
+  "件数": 3,
+  "直径km": 17.9,
+  "ids": [
+   "hyo-sho",
+   "echizen-cliff",
+   "fukui-castle"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 3,
+  "直径km": 9.1,
+  "ids": [
+   "myoko-kogen",
+   "akakura-onsen",
+   "tsubame-onsen"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 3,
+  "直径km": 16.2,
+  "ids": [
+   "myoko",
+   "joetsu",
+   "takada-jo"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 3,
+  "直径km": 5.5,
+  "ids": [
+   "echigo-tsumari",
+   "tsumari",
+   "niche_新潟_3"
+  ]
+ },
+ {
+  "県": "茨城県",
+  "件数": 3,
+  "直径km": 15,
+  "ids": [
+   "hitachi",
+   "gen_茨城_西山荘",
+   "ryujin-suspension"
+  ]
+ },
+ {
+  "県": "大阪府",
+  "件数": 3,
+  "直径km": 13.8,
+  "ids": [
+   "kishiwada",
+   "izumiotsu",
+   "inunakiyama"
+  ]
+ },
+ {
+  "県": "神奈川県",
+  "件数": 2,
+  "直径km": 0.6,
+  "ids": [
+   "miura",
+   "jogashima"
+  ]
+ },
+ {
+  "県": "神奈川県",
+  "件数": 2,
+  "直径km": 9.9,
+  "ids": [
+   "miyagase",
+   "oyama-afuri"
+  ]
+ },
+ {
+  "県": "静岡県",
+  "件数": 2,
+  "直径km": 11.4,
+  "ids": [
+   "hamamatsu",
+   "hamanako"
+  ]
+ },
+ {
+  "県": "静岡県",
+  "件数": 2,
+  "直径km": 3.5,
+  "ids": [
+   "mihonomatsubara",
+   "shizu-shimizu"
+  ]
+ },
+ {
+  "県": "静岡県",
+  "件数": 2,
+  "直径km": 9.8,
+  "ids": [
+   "sumatakyo",
+   "niche_静岡_6"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 4.2,
+  "ids": [
+   "karuizawa",
+   "miyota"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 10.1,
+  "ids": [
+   "kiso",
+   "agematsu"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 11.7,
+  "ids": [
+   "obuse",
+   "nagano-zenkoji"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 14.9,
+  "ids": [
+   "bessho-onsen",
+   "unno-juku"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 11.3,
+  "ids": [
+   "tenryu-gorge",
+   "niche_長野_1"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 9.2,
+  "ids": [
+   "matsushiro",
+   "inariyama"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 11.5,
+  "ids": [
+   "jigokudani",
+   "shibu-onsen"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 14.2,
+  "ids": [
+   "togakushi",
+   "otari-onsen"
+  ]
+ },
+ {
+  "県": "長野県",
+  "件数": 2,
+  "直径km": 10.6,
+  "ids": [
+   "azumino",
+   "matsumoto-castle-2"
+  ]
+ },
+ {
+  "県": "山梨県",
+  "件数": 2,
+  "直径km": 8.7,
+  "ids": [
+   "minobu",
+   "hayakawa"
+  ]
+ },
+ {
+  "県": "奈良県",
+  "件数": 2,
+  "直径km": 13,
+  "ids": [
+   "totsukawa",
+   "niche_奈良_2"
+  ]
+ },
+ {
+  "県": "奈良県",
+  "件数": 2,
+  "直径km": 7.8,
+  "ids": [
+   "muroo",
+   "soni-kogen"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 2,
+  "直径km": 7.8,
+  "ids": [
+   "ishigaki",
+   "taketomi-island"
+  ]
+ },
+ {
+  "県": "沖縄県",
+  "件数": 2,
+  "直径km": 14.8,
+  "ids": [
+   "minamidaitojima",
+   "kitadaitojima"
+  ]
+ },
+ {
+  "県": "三重県",
+  "件数": 2,
+  "直径km": 0.1,
+  "ids": [
+   "iga",
+   "iga-ueno"
+  ]
+ },
+ {
+  "県": "三重県",
+  "件数": 2,
+  "直径km": 11.1,
+  "ids": [
+   "owase",
+   "niche_三重_3"
+  ]
+ },
+ {
+  "県": "三重県",
+  "件数": 2,
+  "直径km": 4.9,
+  "ids": [
+   "akame-falls",
+   "nabari"
+  ]
+ },
+ {
+  "県": "大分県",
+  "件数": 2,
+  "直径km": 11,
+  "ids": [
+   "nakatsu",
+   "niche_大分_2"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 13.1,
+  "ids": [
+   "furano",
+   "gen_北海_麓郷の森"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 9.4,
+  "ids": [
+   "noboribetsu",
+   "gen_北海_登別温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 5.7,
+  "ids": [
+   "jozankei",
+   "gen_北海_定山渓温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 10.1,
+  "ids": [
+   "shakotan",
+   "yobetsu"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 2.7,
+  "ids": [
+   "rebun-island",
+   "rebun-no-tour"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 10.6,
+  "ids": [
+   "akan",
+   "gen_北海_雌阿寒温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 7.9,
+  "ids": [
+   "abashiri",
+   "gen_北海_網走湖畔温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 2.8,
+  "ids": [
+   "wakkanai",
+   "gen_北海_稚内温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 1.7,
+  "ids": [
+   "shiraoi",
+   "gen_北海_白老温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 13.8,
+  "ids": [
+   "tomamu",
+   "gen_北海_十勝千年の森"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 2.8,
+  "ids": [
+   "muroran",
+   "gen_北海_チキウ岬"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 1,
+  "ids": [
+   "yoichi",
+   "gen_北海_余市蒸溜所"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 6.8,
+  "ids": [
+   "gen_北海_濁川温泉",
+   "gen_北海_上の湯温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 5.3,
+  "ids": [
+   "gen_北海_奥尻島",
+   "gen_北海_神威脇温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 12.6,
+  "ids": [
+   "gen_北海_焼尻島",
+   "teuri-island"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 13.4,
+  "ids": [
+   "gen_北海_多和平",
+   "gen_北海_オーロラ温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 0.6,
+  "ids": [
+   "gen_北海_滝の湯温泉",
+   "gen_北海_塩別温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 12.6,
+  "ids": [
+   "gen_北海_天塩川温泉",
+   "gen_北海_びふか温泉"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 4.2,
+  "ids": [
+   "gen_北海_中札内美術村",
+   "gen_北海_六花の森"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 8.3,
+  "ids": [
+   "gen_北海_花の拠点「はなふる」",
+   "gen_北海_札幌八幡宮"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 12.9,
+  "ids": [
+   "gen_北海_鹿部温泉",
+   "onuma"
+  ]
+ },
+ {
+  "県": "北海道",
+  "件数": 2,
+  "直径km": 14.8,
+  "ids": [
+   "mashu-ko",
+   "kussharo-ko"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 2,
+  "直径km": 3.3,
+  "ids": [
+   "naruko-onsen",
+   "naruko-kyo"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 2,
+  "直径km": 12.3,
+  "ids": [
+   "ishinomaki",
+   "niche_宮城_1"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 2,
+  "直径km": 9.8,
+  "ids": [
+   "shiraoishi",
+   "niche_宮城_3"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 2,
+  "直径km": 4.9,
+  "ids": [
+   "kurikoma",
+   "yubama"
+  ]
+ },
+ {
+  "県": "宮城県",
+  "件数": 2,
+  "直径km": 14,
+  "ids": [
+   "tashirojima",
+   "kinkasan"
+  ]
+ },
+ {
+  "県": "広島県",
+  "件数": 2,
+  "直径km": 1.3,
+  "ids": [
+   "higashihiroshima",
+   "saijo-hiroshima"
+  ]
+ },
+ {
+  "県": "広島県",
+  "件数": 2,
+  "直径km": 10.2,
+  "ids": [
+   "kure",
+   "etajima"
+  ]
+ },
+ {
+  "県": "広島県",
+  "件数": 2,
+  "直径km": 14.4,
+  "ids": [
+   "yuki-hiroshima",
+   "sandankyo"
+  ]
+ },
+ {
+  "県": "香川県",
+  "件数": 2,
+  "直径km": 14.4,
+  "ids": [
+   "kanonji",
+   "ibukijima"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 2,
+  "直径km": 7.4,
+  "ids": [
+   "izumo",
+   "izumo-taisha"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 2,
+  "直径km": 6.1,
+  "ids": [
+   "yunotsu-onsen",
+   "iwami-ginzan"
+  ]
+ },
+ {
+  "県": "島根県",
+  "件数": 2,
+  "直径km": 8.4,
+  "ids": [
+   "suo-sanbe",
+   "nima"
+  ]
+ },
+ {
+  "県": "和歌山県",
+  "件数": 2,
+  "直径km": 11.7,
+  "ids": [
+   "ryujin-onsen",
+   "niche_和歌山_6"
+  ]
+ },
+ {
+  "県": "和歌山県",
+  "件数": 2,
+  "直径km": 10.4,
+  "ids": [
+   "yura-wakayama",
+   "niche_和歌山_1"
+  ]
+ },
+ {
+  "県": "和歌山県",
+  "件数": 2,
+  "直径km": 8.3,
+  "ids": [
+   "kushimoto",
+   "kii-oshima"
+  ]
+ },
+ {
+  "県": "東京都",
+  "件数": 2,
+  "直径km": 6.1,
+  "ids": [
+   "niijima",
+   "shikinejima"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 2,
+  "直径km": 3.8,
+  "ids": [
+   "minakami-onsen",
+   "takarakawa-onsen"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 2,
+  "直径km": 3.3,
+  "ids": [
+   "ikaho",
+   "gen_群馬_敷島温泉"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 2,
+  "直径km": 9.6,
+  "ids": [
+   "oze",
+   "gen_群馬_片品温泉"
+  ]
+ },
+ {
+  "県": "群馬県",
+  "件数": 2,
+  "直径km": 3.5,
+  "ids": [
+   "gen_群馬_老神温泉",
+   "fukiware"
+  ]
+ },
+ {
+  "県": "岐阜県",
+  "件数": 2,
+  "直径km": 14.7,
+  "ids": [
+   "shirotori",
+   "niche_石川_1"
+  ]
+ },
+ {
+  "県": "兵庫県",
+  "件数": 2,
+  "直径km": 14.8,
+  "ids": [
+   "ikuno",
+   "takeda-castle"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 2,
+  "直径km": 10.2,
+  "ids": [
+   "kurashiki-o",
+   "soja-okayama"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 2,
+  "直径km": 11.7,
+  "ids": [
+   "takahashi",
+   "fukiya"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 2,
+  "直径km": 7.2,
+  "ids": [
+   "tsuyama",
+   "okutsu"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 2,
+  "直径km": 10.1,
+  "ids": [
+   "ushimado",
+   "inujima"
+  ]
+ },
+ {
+  "県": "岡山県",
+  "件数": 2,
+  "直径km": 5.1,
+  "ids": [
+   "hinase",
+   "niche_岡山_3"
+  ]
+ },
+ {
+  "県": "熊本県",
+  "件数": 2,
+  "直径km": 9.3,
+  "ids": [
+   "aso",
+   "minami-aso"
+  ]
+ },
+ {
+  "県": "熊本県",
+  "件数": 2,
+  "直径km": 4.4,
+  "ids": [
+   "kumamoto-castle",
+   "kumamoto-suizenji"
+  ]
+ },
+ {
+  "県": "鹿児島県",
+  "件数": 2,
+  "直径km": 3.9,
+  "ids": [
+   "chiran",
+   "minamikyushu"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 2,
+  "直径km": 9.4,
+  "ids": [
+   "kamaishi",
+   "rikuchu-coast"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 2,
+  "直径km": 11.2,
+  "ids": [
+   "ofunato",
+   "rikuzentakata"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 2,
+  "直径km": 8.3,
+  "ids": [
+   "hachimantai",
+   "matsukawa-iwate"
+  ]
+ },
+ {
+  "県": "岩手県",
+  "件数": 2,
+  "直径km": 11.1,
+  "ids": [
+   "ryusendo",
+   "niche_岩手_1"
+  ]
+ },
+ {
+  "県": "秋田県",
+  "件数": 2,
+  "直径km": 2,
+  "ids": [
+   "kakunodate",
+   "akita-semboku"
+  ]
+ },
+ {
+  "県": "秋田県",
+  "件数": 2,
+  "直径km": 3.9,
+  "ids": [
+   "kisakata",
+   "nasonoshirataki"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 2,
+  "直径km": 10.5,
+  "ids": [
+   "koriyama",
+   "miharu-takizakura"
+  ]
+ },
+ {
+  "県": "福島県",
+  "件数": 2,
+  "直径km": 0,
+  "ids": [
+   "iwaki-spa",
+   "fukushima-iwaki"
+  ]
+ },
+ {
+  "県": "山口県",
+  "件数": 2,
+  "直径km": 4.3,
+  "ids": [
+   "iwakuni",
+   "iwakuni-castle"
+  ]
+ },
+ {
+  "県": "山口県",
+  "件数": 2,
+  "直径km": 11.2,
+  "ids": [
+   "suo-oshima",
+   "yanai"
+  ]
+ },
+ {
+  "県": "山口県",
+  "件数": 2,
+  "直径km": 11.3,
+  "ids": [
+   "hofu",
+   "yuno-yamaguchi"
+  ]
+ },
+ {
+  "県": "愛媛県",
+  "件数": 2,
+  "直径km": 10.4,
+  "ids": [
+   "saijo",
+   "niihama"
+  ]
+ },
+ {
+  "県": "愛媛県",
+  "件数": 2,
+  "直径km": 3.6,
+  "ids": [
+   "omishima-island",
+   "hakatajima"
+  ]
+ },
+ {
+  "県": "愛媛県",
+  "件数": 2,
+  "直径km": 10.8,
+  "ids": [
+   "tobe",
+   "matsuyama"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 2,
+  "直径km": 3.7,
+  "ids": [
+   "hakusan",
+   "chugu"
+  ]
+ },
+ {
+  "県": "石川県",
+  "件数": 2,
+  "直径km": 9.2,
+  "ids": [
+   "niche_石川_3",
+   "niche_石川_6"
+  ]
+ },
+ {
+  "県": "京都府",
+  "件数": 2,
+  "直径km": 12.6,
+  "ids": [
+   "fukuchiyama",
+   "niche_京都_5"
+  ]
+ },
+ {
+  "県": "長崎県",
+  "件数": 2,
+  "直径km": 13.6,
+  "ids": [
+   "ikeshima",
+   "niche_長崎_4"
+  ]
+ },
+ {
+  "県": "鳥取県",
+  "件数": 2,
+  "直径km": 7.2,
+  "ids": [
+   "shoji-ueshima",
+   "niche_鳥取_2"
+  ]
+ },
+ {
+  "県": "千葉県",
+  "件数": 2,
+  "直径km": 10.4,
+  "ids": [
+   "tateyama-chiba",
+   "shirahama-boso"
+  ]
+ },
+ {
+  "県": "千葉県",
+  "件数": 2,
+  "直径km": 14.4,
+  "ids": [
+   "kisarazu",
+   "futtsu-misaki"
+  ]
+ },
+ {
+  "県": "富山県",
+  "件数": 2,
+  "直径km": 0,
+  "ids": [
+   "toyama-city",
+   "toyama-glass"
+  ]
+ },
+ {
+  "県": "山形県",
+  "件数": 2,
+  "直径km": 10.1,
+  "ids": [
+   "okitama",
+   "niche_山形_1"
+  ]
+ },
+ {
+  "県": "山形県",
+  "件数": 2,
+  "直径km": 9.9,
+  "ids": [
+   "zao-snow-monsters",
+   "yamagata"
+  ]
+ },
+ {
+  "県": "宮崎県",
+  "件数": 2,
+  "直径km": 2.7,
+  "ids": [
+   "takachihogo-shishiku",
+   "shiibamura"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 2,
+  "直径km": 4.1,
+  "ids": [
+   "muroto",
+   "muroto-cape"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 2,
+  "直径km": 2.2,
+  "ids": [
+   "shimanto",
+   "kochi-shimanto"
+  ]
+ },
+ {
+  "県": "高知県",
+  "件数": 2,
+  "直径km": 2.7,
+  "ids": [
+   "ukujima",
+   "okinoshima-kochi"
+  ]
+ },
+ {
+  "県": "徳島県",
+  "件数": 2,
+  "直径km": 14.1,
+  "ids": [
+   "anan",
+   "niche_徳島_2"
+  ]
+ },
+ {
+  "県": "徳島県",
+  "件数": 2,
+  "直径km": 1.5,
+  "ids": [
+   "minami-tokushima",
+   "hiwasa"
+  ]
+ },
+ {
+  "県": "徳島県",
+  "件数": 2,
+  "直径km": 7.3,
+  "ids": [
+   "wakimachi",
+   "takagoya"
+  ]
+ },
+ {
+  "県": "愛知県",
+  "件数": 2,
+  "直径km": 7.5,
+  "ids": [
+   "korankei",
+   "asuke"
+  ]
+ },
+ {
+  "県": "愛知県",
+  "件数": 2,
+  "直径km": 14.2,
+  "ids": [
+   "okazaki",
+   "gamagori"
+  ]
+ },
+ {
+  "県": "愛知県",
+  "件数": 2,
+  "直径km": 13.9,
+  "ids": [
+   "shitara",
+   "niche_愛知_2"
+  ]
+ },
+ {
+  "県": "愛知県",
+  "件数": 2,
+  "直径km": 7,
+  "ids": [
+   "shinshiro-nagasinotown",
+   "niche_愛知_3"
+  ]
+ },
+ {
+  "県": "滋賀県",
+  "件数": 2,
+  "直径km": 0.2,
+  "ids": [
+   "hikone",
+   "hikone-2"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 2,
+  "直径km": 8.4,
+  "ids": [
+   "goshogawara",
+   "gen_青森_稲垣温泉"
+  ]
+ },
+ {
+  "県": "青森県",
+  "件数": 2,
+  "直径km": 1.8,
+  "ids": [
+   "gen_青森_相乗温泉",
+   "gen_青森_秋元温泉"
+  ]
+ },
+ {
+  "県": "福岡県",
+  "件数": 2,
+  "直径km": 10.8,
+  "ids": [
+   "mojiko",
+   "kitakyushu"
+  ]
+ },
+ {
+  "県": "福岡県",
+  "件数": 2,
+  "直径km": 6.6,
+  "ids": [
+   "dazaifu",
+   "umi-jigoku"
+  ]
+ },
+ {
+  "県": "福岡県",
+  "件数": 2,
+  "直径km": 4.5,
+  "ids": [
+   "hiraodai",
+   "niche_福岡_7"
+  ]
+ },
+ {
+  "県": "埼玉県",
+  "件数": 2,
+  "直径km": 13,
+  "ids": [
+   "kawagoe",
+   "omiya-bonsai"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 2,
+  "直径km": 3.3,
+  "ids": [
+   "murakami",
+   "niche_新潟_1"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 2,
+  "直径km": 0,
+  "ids": [
+   "nagaoka",
+   "niche_新潟_2"
+  ]
+ },
+ {
+  "県": "新潟県",
+  "件数": 2,
+  "直径km": 2.6,
+  "ids": [
+   "tsubamesanjo",
+   "niigata-bandai"
+  ]
+ },
+ {
+  "県": "茨城県",
+  "件数": 2,
+  "直径km": 6.7,
+  "ids": [
+   "tsukuba",
+   "niche_茨城_1"
+  ]
+ },
+ {
+  "県": "茨城県",
+  "件数": 2,
+  "直径km": 3.8,
+  "ids": [
+   "kasama",
+   "gen_茨城_笠間稲荷神社"
+  ]
+ },
+ {
+  "県": "茨城県",
+  "件数": 2,
+  "直径km": 12.6,
+  "ids": [
+   "tsuchiura",
+   "gen_茨城_牛久シャトー"
+  ]
+ }
+]
