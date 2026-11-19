@@ -782,14 +782,7 @@
       },
       {
         "name": "白糸の滝",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shiraito_water_fall_01.jpg/500px-Shiraito_water_fall_01.jpg",
-        "description": "浅間山の伏流水が幅70mの岩盤を幕のように流れ落ち、絹糸を束ねたような水音と冷気が漂う。",
-        "imageCredit": {
-          "author": "Captain76",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Shiraito_water_fall_01.jpg",
-          "attributionRequired": true
-        }
+        "description": "浅間山の伏流水が幅70mの岩盤を幕のように流れ落ち、絹糸を束ねたような水音と冷気が漂う。"
       }
     ],
     "shinkansenAccess": true,
@@ -1778,14 +1771,7 @@
       },
       {
         "name": "二見浦",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
-        "description": "伊勢市駅から電車で約5分の穴場。境内にカエルの像が並ぶ二見興玉神社を、静かに参拝できる。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
-          "attributionRequired": true
-        }
+        "description": "伊勢市駅から電車で約5分の穴場。境内にカエルの像が並ぶ二見興玉神社を、静かに参拝できる。"
       }
     ],
     "shinkansenAccess": false,
@@ -2317,14 +2303,7 @@
       },
       {
         "name": "積丹岬",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
-        "description": "神威岬から車で15分ほど。隣の島武意海岸はトンネルを抜けた先に現れる、衝撃的な美しさの海岸だ。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
-          "attributionRequired": true
-        }
+        "description": "神威岬から車で15分ほど。隣の島武意海岸はトンネルを抜けた先に現れる、衝撃的な美しさの海岸だ。"
       },
       {
         "name": "キロロリゾート",
@@ -6292,14 +6271,7 @@
       },
       {
         "name": "砂漠",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Libya_5230_Wan_Caza_Dunes_Luca_Galuzzi_2007.jpg/500px-Libya_5230_Wan_Caza_Dunes_Luca_Galuzzi_2007.jpg",
-        "description": "1986年の噴火が残した黒い溶岩砂の大地。風が砂を薄く流す音だけが聞こえる、島の中の別世界。",
-        "imageCredit": {
-          "author": "Luca Galuzzi (Lucag)",
-          "license": "CC BY-SA 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:Libya_5230_Wan_Caza_Dunes_Luca_Galuzzi_2007.jpg",
-          "attributionRequired": true
-        }
+        "description": "1986年の噴火が残した黒い溶岩砂の大地。風が砂を薄く流す音だけが聞こえる、島の中の別世界。"
       }
     ],
     "shinkansenAccess": false,
@@ -18772,14 +18744,7 @@
       },
       {
         "name": "美山民俗資料館",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Itoigawa_Montage.jpg/500px-Itoigawa_Montage.jpg",
-        "description": "かやぶきの里の一角に佇む資料館。古い農具が並ぶ土間で、木と錆の匂いとともに北山の生活史に触れられる。",
-        "imageCredit": {
-          "author": "水だらけのプール",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Itoigawa_Montage.jpg",
-          "attributionRequired": true
-        }
+        "description": "かやぶきの里の一角に佇む資料館。古い農具が並ぶ土間で、木と錆の匂いとともに北山の生活史に触れられる。"
       },
       {
         "name": "由良川",
@@ -20595,14 +20560,7 @@
       },
       {
         "name": "乱礁遊歩道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/150725_Jakushu_Itteki-bunko_Ooi_Fukui_pref_Japan01s3.jpg/500px-150725_Jakushu_Itteki-bunko_Ooi_Fukui_pref_Japan01s3.jpg",
-        "description": "隆起した奇岩が折り重なる海辺の道。波しぶきが頬を濡らし、太平洋の荒々しさを全身に浴びながら歩ける。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:150725_Jakushu_Itteki-bunko_Ooi_Fukui_pref_Japan01s3.jpg",
-          "attributionRequired": true
-        }
+        "description": "隆起した奇岩が折り重なる海辺の道。波しぶきが頬を濡らし、太平洋の荒々しさを全身に浴びながら歩ける。"
       }
     ],
     "shinkansenAccess": false,
@@ -22161,7 +22119,14 @@
       },
       {
         "name": "脇本陣奥谷",
-        "description": "本陣が満員の際に大名が泊まった脇本陣で、全国で唯一現存する建物。本陣の隣に立ち、宿場の格式を間近に見学できる。"
+        "description": "本陣が満員の際に大名が泊まった脇本陣で、全国で唯一現存する建物。本陣の隣に立ち、宿場の格式を間近に見学できる。",
+        "imageUrl": "/images/tsumago/spot-2.jpg",
+        "imageCredit": {
+          "author": "そらみみ",
+          "license": "CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Waki-honjin_Okuya_of_Tsumago-juku.JPG",
+          "attributionRequired": true
+        }
       },
       {
         "name": "妻籠城跡",
@@ -25226,14 +25191,7 @@
     "spots": [
       {
         "name": "総湯",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Hotspring_yunomine01.jpg",
-        "description": "手頃な値段で本物の温泉にゆっくりと浸かれる。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Hotspring_yunomine01.jpg",
-          "attributionRequired": true
-        }
+        "description": "手頃な値段で本物の温泉にゆっくりと浸かれる。"
       },
       {
         "name": "能登島",
@@ -25690,14 +25648,7 @@
       },
       {
         "name": "商人通り",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Merchant_venice_tp.jpg",
-        "description": "かつて商家が軒を連ねた面影の残る通り。豆腐と魚を使った名物「おび天」を目当てに、ゆっくり歩ける。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Merchant_venice_tp.jpg",
-          "attributionRequired": false
-        }
+        "description": "かつて商家が軒を連ねた面影の残る通り。豆腐と魚を使った名物「おび天」を目当てに、ゆっくり歩ける。"
       }
     ],
     "shinkansenAccess": false,
@@ -32326,14 +32277,7 @@
       },
       {
         "name": "オーロラ号（砕氷船）",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nordostpassage_NASA_Worldwind-globe.png/500px-Nordostpassage_NASA_Worldwind-globe.png",
-        "description": "氷を割る轟音と振動が全身を貫く砕氷船。白い地平線の彼方へ進む甲板で、流氷の海を体ごと体感できる。",
-        "imageCredit": {
-          "author": "RosarioVanTulpe",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Nordostpassage_NASA_Worldwind-globe.png",
-          "attributionRequired": false
-        }
+        "description": "氷を割る轟音と振動が全身を貫く砕氷船。白い地平線の彼方へ進む甲板で、流氷の海を体ごと体感できる。"
       },
       {
         "name": "能取湖",
@@ -35805,14 +35749,7 @@
     "spots": [
       {
         "name": "天竜峡舟下り",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
-        "description": "船頭の竿さばきで峡谷をゆく小さな舟旅。両岸から迫る岩肌と川の冷気を間近に感じながら、水音だけの時間に浸れる。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
-          "attributionRequired": true
-        }
+        "description": "船頭の竿さばきで峡谷をゆく小さな舟旅。両岸から迫る岩肌と川の冷気を間近に感じながら、水音だけの時間に浸れる。"
       },
       {
         "name": "龍峡亭",
@@ -38783,14 +38720,7 @@
       },
       {
         "name": "豪円湯院",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tottori-Sakyu_Tottori_Japan.JPG/500px-Tottori-Sakyu_Tottori_Japan.JPG",
-        "description": "下山後の疲れた体をほどく湯処。熱を持った足の裏ごと、登山の消耗をゆっくり湯で癒やせる。",
-        "imageCredit": {
-          "author": "Hashi photo",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tottori-Sakyu_Tottori_Japan.JPG",
-          "attributionRequired": true
-        }
+        "description": "下山後の疲れた体をほどく湯処。熱を持った足の裏ごと、登山の消耗をゆっくり湯で癒やせる。"
       }
     ],
     "shinkansenAccess": false,
@@ -39227,14 +39157,7 @@
       },
       {
         "name": "大森の街並み",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Tokyo-International-Airport_Satellite.jpg/500px-Tokyo-International-Airport_Satellite.jpg",
-        "description": "車の音が消えた、徒歩10分ほどのメインストリート。武家屋敷などが残る濃密な町並みを歩ける。",
-        "imageCredit": {
-          "author": "MaedaAkihiko",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Airport_Satellite.jpg",
-          "attributionRequired": true
-        }
+        "description": "車の音が消えた、徒歩10分ほどのメインストリート。武家屋敷などが残る濃密な町並みを歩ける。"
       },
       {
         "name": "代官所跡",
@@ -41682,14 +41605,7 @@
     "spots": [
       {
         "name": "西の原",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Map_of_Chiba_Prefecture_Ja.svg/500px-Map_of_Chiba_Prefecture_Ja.svg.png",
-        "description": "煙突と赤レンガが残る旧製陶所の跡地。窯の熱が染み込んだ壁の前で、珈琲の香りとともに過ごせる。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Map_of_Chiba_Prefecture_Ja.svg",
-          "attributionRequired": true
-        }
+        "description": "煙突と赤レンガが残る旧製陶所の跡地。窯の熱が染み込んだ壁の前で、珈琲の香りとともに過ごせる。"
       },
       {
         "name": "陶芸の館",
@@ -45038,14 +44954,7 @@
       },
       {
         "name": "寺の町めぐり",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Asakusa_Senso-ji_2021-12_ac_%282%29.jpg/500px-Asakusa_Senso-ji_2021-12_ac_%282%29.jpg",
-        "description": "旧市街に江戸時代から続く寺が17軒。観光マップを手に2〜3キロ、静かな寺町をのんびり歩いてめぐれる。",
-        "imageCredit": {
-          "author": "Asturio Cantabrio",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Asakusa_Senso-ji_2021-12_ac_(2).jpg",
-          "attributionRequired": true
-        }
+        "description": "旧市街に江戸時代から続く寺が17軒。観光マップを手に2〜3キロ、静かな寺町をのんびり歩いてめぐれる。"
       },
       {
         "name": "北竜湖",
@@ -46334,14 +46243,7 @@
     "spots": [
       {
         "name": "碁石海岸",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
-        "description": "黒い小石が名の由来。遊歩道に入ると潮の匂いが濃くなり、波音が足元から響く。荒削りな岩肌の景勝地だ。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
-          "attributionRequired": true
-        }
+        "description": "黒い小石が名の由来。遊歩道に入ると潮の匂いが濃くなり、波音が足元から響く。荒削りな岩肌の景勝地だ。"
       },
       {
         "name": "大船渡魚市場",
@@ -47978,14 +47880,7 @@
       },
       {
         "name": "松川温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
-        "description": "松尾八幡平ICから車で約30分。藤七温泉より標高が低く、冬でも営業する宿がある山の温泉だ。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
-          "attributionRequired": false
-        }
+        "description": "松尾八幡平ICから車で約30分。藤七温泉より標高が低く、冬でも営業する宿がある山の温泉だ。"
       }
     ],
     "shinkansenAccess": false,
@@ -48438,7 +48333,14 @@
       },
       {
         "name": "山門",
-        "description": "1848年建立の仁王門で、山上の聖域への入口となる。重厚な構えの門をくぐると、参道の雰囲気が一変する。"
+        "description": "1848年建立の仁王門で、山上の聖域への入口となる。重厚な構えの門をくぐると、参道の雰囲気が一変する。",
+        "imageUrl": "/images/yamadera/spot-2.jpg",
+        "imageCredit": {
+          "author": "pakku",
+          "license": "CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E5%AF%BA%E3%83%BB%E5%B1%B1%E9%96%80%EF%BC%88_Yamadera_gate_%EF%BC%89_-_panoramio.jpg",
+          "attributionRequired": true
+        }
       },
       {
         "name": "五大堂展望台",
@@ -49112,14 +49014,7 @@
       },
       {
         "name": "岩屋洞窟",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cuevas_de_Acsibi%2C_Salta_%28Argentina%29.jpg/500px-Cuevas_de_Acsibi%2C_Salta_%28Argentina%29.jpg",
-        "description": "奥津宮を過ぎ、階段を下りた島の先端にある洞窟。往復30分以上歩いてでも訪れる価値のある空間だ。",
-        "imageCredit": {
-          "author": "Gabito Giménez",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Cuevas_de_Acsibi,_Salta_(Argentina).jpg",
-          "attributionRequired": true
-        }
+        "description": "奥津宮を過ぎ、階段を下りた島の先端にある洞窟。往復30分以上歩いてでも訪れる価値のある空間だ。"
       },
       {
         "name": "江の島展望灯台",
@@ -50284,25 +50179,11 @@
       },
       {
         "name": "中村邸",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nakamura_Fukusuke_VII_1951_Scan10009.jpg/500px-Nakamura_Fukusuke_VII_1951_Scan10009.jpg",
-        "description": "",
-        "imageCredit": {
-          "author": "演劇新社 (Engeki Shin-sha)",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Nakamura_Fukusuke_VII_1951_Scan10009.jpg",
-          "attributionRequired": false
-        }
+        "description": ""
       },
       {
         "name": "鍵の手",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Standard-lock-key.jpg/500px-Standard-lock-key.jpg",
-        "description": "宿場の道が直角に折れる、敵の侵入を遅らせた戦国の知恵。曲がり角を曲がると視界が切り替わる面白さがある。",
-        "imageCredit": {
-          "author": "Evan-Amos",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Standard-lock-key.jpg",
-          "attributionRequired": false
-        }
+        "description": "宿場の道が直角に折れる、敵の侵入を遅らせた戦国の知恵。曲がり角を曲がると視界が切り替わる面白さがある。"
       }
     ],
     "shinkansenAccess": false,
@@ -55310,14 +55191,7 @@
     "spots": [
       {
         "name": "なかまで",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/%E8%8D%92%E5%B7%9D%E6%B0%B4%E7%B3%BB%E3%81%AE%E6%B5%81%E5%9F%9F%E6%B2%BB%E6%B0%B4%E5%A4%A7%E4%BD%BF%E4%BB%BB%E5%91%BD%E5%BC%8F%28cropped%29.png",
-        "description": "里港から徒歩5分。民家のような外観で、看板がなければ通り過ぎてしまう。引き戸を開けて島の素顔に出会える。",
-        "imageCredit": {
-          "author": "国土交通省",
-          "license": "CC BY 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:%E8%8D%92%E5%B7%9D%E6%B0%B4%E7%B3%BB%E3%81%AE%E6%B5%81%E5%9F%9F%E6%B2%BB%E6%B0%B4%E5%A4%A7%E4%BD%BF%E4%BB%BB%E5%91%BD%E5%BC%8F(cropped).png",
-          "attributionRequired": true
-        }
+        "description": "里港から徒歩5分。民家のような外観で、看板がなければ通り過ぎてしまう。引き戸を開けて島の素顔に出会える。"
       },
       {
         "name": "長目の浜",
@@ -55332,14 +55206,7 @@
       },
       {
         "name": "甑大明神磐境",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Katsushika_Hokusai_-_The_Lantern_Ghost%2C_Iwa_-_Google_Art_Project.jpg/500px-Katsushika_Hokusai_-_The_Lantern_Ghost%2C_Iwa_-_Google_Art_Project.jpg",
-        "description": "車を降り、草をかき分けるような細道の先にある。整備されていないからこそ、本物の静けさに触れられる。",
-        "imageCredit": {
-          "author": "Katsushika Hokusai",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_The_Lantern_Ghost,_Iwa_-_Google_Art_Project.jpg",
-          "attributionRequired": false
-        }
+        "description": "車を降り、草をかき分けるような細道の先にある。整備されていないからこそ、本物の静けさに触れられる。"
       }
     ],
     "shinkansenAccess": false,
@@ -63528,14 +63395,7 @@
     "spots": [
       {
         "name": "秋芳洞",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
-        "description": "入口で全身を包む冷気は地底の呼吸そのもの。地下水の滴る音が響く石灰岩の回廊を、日本最大級の規模で歩ける。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
-          "attributionRequired": true
-        }
+        "description": "入口で全身を包む冷気は地底の呼吸そのもの。地下水の滴る音が響く石灰岩の回廊を、日本最大級の規模で歩ける。"
       },
       {
         "name": "秋吉台カルスト台地",
@@ -63550,14 +63410,7 @@
       },
       {
         "name": "秋吉台サファリランド",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
-        "description": "秋吉台に隣接するサファリパークで、ライオンや象などの動物を車窓越しに間近で観察できる。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
-          "attributionRequired": false
-        }
+        "description": "秋吉台に隣接するサファリパークで、ライオンや象などの動物を車窓越しに間近で観察できる。"
       }
     ],
     "shinkansenAccess": false,
@@ -65363,14 +65216,7 @@
       },
       {
         "name": "青島ビーチ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Qingdao_new_montage.png/500px-Qingdao_new_montage.png",
-        "description": "橋の手前、本土側に白い砂浜が1kmほど続く。夏のピーク時でも混みすぎず、ゆったり海を楽しめる。",
-        "imageCredit": {
-          "author": "Jonipoon",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Qingdao_new_montage.png",
-          "attributionRequired": true
-        }
+        "description": "橋の手前、本土側に白い砂浜が1kmほど続く。夏のピーク時でも混みすぎず、ゆったり海を楽しめる。"
       }
     ],
     "shinkansenAccess": false,
@@ -65565,14 +65411,7 @@
       },
       {
         "name": "豊前街道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tsumago-juku_6-Jun-2020.jpg/500px-Tsumago-juku_6-Jun-2020.jpg",
-        "description": "江戸時代に参勤交代で使われた道が、今も生活道路として残る。再現ではない本物の街道を歩ける。",
-        "imageCredit": {
-          "author": "皓月旗",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tsumago-juku_6-Jun-2020.jpg",
-          "attributionRequired": true
-        }
+        "description": "江戸時代に参勤交代で使われた道が、今も生活道路として残る。再現ではない本物の街道を歩ける。"
       },
       {
         "name": "八千代座",
@@ -66227,14 +66066,7 @@
     "spots": [
       {
         "name": "知覧武家屋敷群",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hana-no-Gosho-Flower-Palace-Kyoto.png/500px-Hana-no-Gosho-Flower-Palace-Kyoto.png",
-        "description": "石畳の道の両脇に生垣と石垣が続く、江戸時代からの屋敷群。人の少ない朝に歩けば静けさが際立つ。",
-        "imageCredit": {
-          "author": "日本語: 京都アスニー収蔵",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Hana-no-Gosho-Flower-Palace-Kyoto.png",
-          "attributionRequired": false
-        }
+        "description": "石畳の道の両脇に生垣と石垣が続く、江戸時代からの屋敷群。人の少ない朝に歩けば静けさが際立つ。"
       },
       {
         "name": "特攻平和会館",
@@ -67917,14 +67749,7 @@
       },
       {
         "name": "黄八丈染物",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tenjyukoku_embroidery.jpg/500px-Tenjyukoku_embroidery.jpg",
-        "description": "コブナグサを煮出した黄金色の染液で染める島の絹織物。江戸城大奥をも彩った伝統の色に出会える。",
-        "imageCredit": {
-          "author": "TOKYODO",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Tenjyukoku_embroidery.jpg",
-          "attributionRequired": false
-        }
+        "description": "コブナグサを煮出した黄金色の染液で染める島の絹織物。江戸城大奥をも彩った伝統の色に出会える。"
       },
       {
         "name": "洞輪沢温泉",
@@ -68413,14 +68238,7 @@
       },
       {
         "name": "足付温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg/500px-Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg.png",
-        "description": "島に5か所ある温泉の中で、最も海と混ざり合う湯。海岸沿いの岩場の浅瀬に湧く温泉を体感できる。",
-        "imageCredit": {
-          "author": "Maximilian Dörrbecker (Chumwa)",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg",
-          "attributionRequired": true
-        }
+        "description": "島に5か所ある温泉の中で、最も海と混ざり合う湯。海岸沿いの岩場の浅瀬に湧く温泉を体感できる。"
       },
       {
         "name": "泊海水浴場",
@@ -70302,14 +70120,7 @@
     "spots": [
       {
         "name": "東根温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
-        "description": "町なかにある生活に根ざした温泉街。派手さはないが、地元の人が普段使いする湯にゆっくり浸かれる。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
-          "attributionRequired": false
-        }
+        "description": "町なかにある生活に根ざした温泉街。派手さはないが、地元の人が普段使いする湯にゆっくり浸かれる。"
       },
       {
         "name": "大けやき公園",
@@ -70728,14 +70539,7 @@
       },
       {
         "name": "落合楼村游",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg/500px-Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg",
-        "description": "明治創業、130年以上の歴史を持つ宿。古い木の匂いと高い天井が、玄関から空気を変えてくれる。",
-        "imageCredit": {
-          "author": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg",
-          "attributionRequired": false
-        }
+        "description": "明治創業、130年以上の歴史を持つ宿。古い木の匂いと高い天井が、玄関から空気を変えてくれる。"
       }
     ],
     "shinkansenAccess": false,
@@ -71963,14 +71767,7 @@
       },
       {
         "name": "徳川家康公像",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Statue_of_Ieyasu_Tokugawa_02.jpg/1280px-Statue_of_Ieyasu_Tokugawa_02.jpg",
-        "description": "岡崎公園に立つ高さ約5メートルの銅像。よくある偉人像と違い、家康は座った姿で迎えてくれる。",
-        "imageCredit": {
-          "author": "Akahito Yamabe",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Ieyasu_Tokugawa_02.jpg",
-          "attributionRequired": true
-        }
+        "description": "岡崎公園に立つ高さ約5メートルの銅像。よくある偉人像と違い、家康は座った姿で迎えてくれる。"
       }
     ],
     "shinkansenAccess": false,
@@ -75277,14 +75074,7 @@
       },
       {
         "name": "北海道博物館（近郊）",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/British_Museum_from_NE_2.JPG/500px-British_Museum_from_NE_2.JPG",
-        "description": "アイヌ文化から開拓の記憶まで、北海道150年分の歴史が層をなす博物館。エゾマツ林の奥に立つ。",
-        "imageCredit": {
-          "author": "Ham",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:British_Museum_from_NE_2.JPG",
-          "attributionRequired": true
-        }
+        "description": "アイヌ文化から開拓の記憶まで、北海道150年分の歴史が層をなす博物館。エゾマツ林の奥に立つ。"
       },
       {
         "name": "苫小牧ホッキ貝",
@@ -79647,14 +79437,7 @@
     "spots": [
       {
         "name": "日本一の大杉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%E5%A4%A7%E6%9D%89%E6%BC%A3_%2827988937893%29.jpg",
-        "description": "樹高60m、幹回り20m超、樹齢3000年の巨杉。見上げれば首が自然と上を向く、圧倒的な存在感だ。",
-        "imageCredit": {
-          "author": "Original : Dick Thomas JohnsonCropped by user:Krorokeroro",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%9D%89%E6%BC%A3_(27988937893).jpg",
-          "attributionRequired": true
-        }
+        "description": "樹高60m、幹回り20m超、樹齢3000年の巨杉。見上げれば首が自然と上を向く、圧倒的な存在感だ。"
       },
       {
         "name": "杉の大杉公園",
@@ -79854,14 +79637,7 @@
       },
       {
         "name": "宿毛市立坂本登美子記念館",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kochi_montage.jpg/500px-Kochi_montage.jpg",
-        "description": "外観は地味だが、ふらりと立ち寄って地域ゆかりの人物の足跡に触れられる。",
-        "imageCredit": {
-          "author": "File:Kochi Katsurahama Daytime 1.JPG by ja:利用者:京浜にけ (Japanese Wikipedia), Uploaded by User:Fjkelfeimvvn",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kochi_montage.jpg",
-          "attributionRequired": true
-        }
+        "description": "外観は地味だが、ふらりと立ち寄って地域ゆかりの人物の足跡に触れられる。"
       },
       {
         "name": "大月の景色",
@@ -81765,14 +81541,7 @@
       },
       {
         "name": "北谷ニライビーチ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Naha_Shuri_Castle16s5s3200.jpg/500px-Naha_Shuri_Castle16s5s3200.jpg",
-        "description": "喧騒を抜けた先に静かに広がるビーチ。サンゴ礁越しの波音を聞きながら、東シナ海の風を感じて砂浜を歩ける。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:Naha_Shuri_Castle16s5s3200.jpg",
-          "attributionRequired": true
-        }
+        "description": "喧騒を抜けた先に静かに広がるビーチ。サンゴ礁越しの波音を聞きながら、東シナ海の風を感じて砂浜を歩ける。"
       }
     ],
     "shinkansenAccess": false,
@@ -83724,14 +83493,7 @@
       },
       {
         "name": "元町異人館",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Kobe_Mosaic06s4s3200.jpg/500px-Kobe_Mosaic06s4s3200.jpg",
-        "description": "石畳の坂の上に洋館が並ぶ、19世紀の外国人居留地。ロシア領事館など異国の面影をたどって歩ける。",
-        "imageCredit": {
-          "author": "663highland",
-          "license": "CC BY 2.5",
-          "url": "https://commons.wikimedia.org/wiki/File:Kobe_Mosaic06s4s3200.jpg",
-          "attributionRequired": true
-        }
+        "description": "石畳の坂の上に洋館が並ぶ、19世紀の外国人居留地。ロシア領事館など異国の面影をたどって歩ける。"
       }
     ],
     "shinkansenAccess": true,
@@ -88004,14 +87766,7 @@
     "spots": [
       {
         "name": "竹島",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dokdo_Photo.jpg/500px-Dokdo_Photo.jpg",
-        "description": "全長387メートルの橋で渡る、島全体が国の天然記念物の島。八百富神社に参り、潮風の中を歩ける。",
-        "imageCredit": {
-          "author": "Rachouette, teacher in Seoul, SOUTH KOREA at en:Windows Live",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Dokdo_Photo.jpg",
-          "attributionRequired": true
-        }
+        "description": "全長387メートルの橋で渡る、島全体が国の天然記念物の島。八百富神社に参り、潮風の中を歩ける。"
       },
       {
         "name": "竹島水族館",
@@ -89057,14 +88812,7 @@
     "spots": [
       {
         "name": "伊根の舟屋（近隣）",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Collage_Venezia.jpg/500px-Collage_Venezia.jpg",
-        "description": "伊根湾の水際に230棟超の舟屋が連なる漁村の原風景。床板の下に波音が響き、磯の香りの中を歩ける。",
-        "imageCredit": {
-          "author": "collection by DanieleDF1995 (talk)",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Collage_Venezia.jpg",
-          "attributionRequired": true
-        }
+        "description": "伊根湾の水際に230棟超の舟屋が連なる漁村の原風景。床板の下に波音が響き、磯の香りの中を歩ける。"
       },
       {
         "name": "経ヶ岬",
@@ -90521,14 +90269,7 @@
     "spots": [
       {
         "name": "秋芳洞",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
-        "description": "入口から冷気が押し寄せる鍾乳洞。億年単位で作り上げられた石柱と池が照明に浮かぶ地下世界を歩ける。",
-        "imageCredit": {
-          "author": "Lincun",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
-          "attributionRequired": true
-        }
+        "description": "入口から冷気が押し寄せる鍾乳洞。億年単位で作り上げられた石柱と池が照明に浮かぶ地下世界を歩ける。"
       },
       {
         "name": "秋吉台",
@@ -98683,14 +98424,7 @@
     "spots": [
       {
         "name": "浅間山眺望スポット",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mt.Fuji_from_Mierula.jpg/500px-Mt.Fuji_from_Mierula.jpg",
-        "description": "標高2,568mの浅間山を間近に望める。町内の農道沿い、特に中央公園付近からの眺めが良い。",
-        "imageCredit": {
-          "author": "Gifu-sizu",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Mt.Fuji_from_Mierula.jpg",
-          "attributionRequired": false
-        }
+        "description": "標高2,568mの浅間山を間近に望める。町内の農道沿い、特に中央公園付近からの眺めが良い。"
       },
       {
         "name": "御代田町縄文遺跡",
@@ -98698,14 +98432,7 @@
       },
       {
         "name": "浅間ミュージアム",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg/500px-Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg",
-        "description": "御代田の自然・歴史・文化を扱う地域博物館で、旅の理解が深まる。",
-        "imageCredit": {
-          "author": "わたり鳥 at Japanese Wikipedia",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg",
-          "attributionRequired": true
-        }
+        "description": "御代田の自然・歴史・文化を扱う地域博物館で、旅の理解が深まる。"
       }
     ],
     "shinkansenAccess": false,
@@ -101406,14 +101133,7 @@
       },
       {
         "name": "いの紙の博物館",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tokyo_National_Museum%2C_Honkan_2010.jpg/500px-Tokyo_National_Museum%2C_Honkan_2010.jpg",
-        "description": "水と植物繊維の湿り気がかすかに香る館内で、千年続く土佐和紙の技に触れられる博物館。",
-        "imageCredit": {
-          "author": "Wiiii",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum,_Honkan_2010.jpg",
-          "attributionRequired": true
-        }
+        "description": "水と植物繊維の湿り気がかすかに香る館内で、千年続く土佐和紙の技に触れられる博物館。"
       }
     ],
     "shinkansenAccess": false,
@@ -102392,14 +102112,7 @@
       },
       {
         "name": "田名ビーチ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/500px-Olympic_flag.svg.png",
-        "description": "真夏でも人影がまばらな透明度の高いビーチ。静かな砂浜で、沖縄最北の島の海をゆったりと味わえる。",
-        "imageCredit": {
-          "author": "Original author: Pierre de Coubertin (1863-1937)",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Olympic_flag.svg",
-          "attributionRequired": false
-        }
+        "description": "真夏でも人影がまばらな透明度の高いビーチ。静かな砂浜で、沖縄最北の島の海をゆったりと味わえる。"
       },
       {
         "name": "クマヤ洞窟",
@@ -105540,14 +105253,7 @@
       {
         "name": "白糸の滝",
         "description": "細い水流が白糸のように落ちる、落差30mの滝。苔生した岩肌との対比が美しく、渓流沿いに清涼な空気が漂う。",
-        "googleMapsQuery": "白糸の滝 十勝岳 北海道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Shiraito_Falls_%2834257542610%29_%28squared_crop%29.jpg/1280px-Shiraito_Falls_%2834257542610%29_%28squared_crop%29.jpg",
-        "imageCredit": {
-          "author": "Big Ben in Japan",
-          "license": "CC BY-SA 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Shiraito_Falls_(34257542610)_(squared_crop).jpg",
-          "attributionRequired": true
-        }
+        "googleMapsQuery": "白糸の滝 十勝岳 北海道"
       }
     ],
     "description": "標高1,280mの山中に湧く温泉地。北海道でいちばん高い所に立つ宿、十勝岳温泉 湯元 凌雲閣は泉質の異なる2本の源泉を持ち、白濁の露天風呂から噴煙を上げる十勝岳が間近に迫る。冬が特におすすめだ。十勝岳望岳台は硫黄山の黄白色の火口と十勝連峰の連なりを見渡す展望台で、冬季は樹氷が山肌を白く覆い、表情が変わる。アクセスは上富良野駅から町営バスで約40分。札幌駅を起点にすると、東京からはおよそ9時間57分かかる道のりだが、たどり着いた先には火山と雪原が待っている。白濁の湯と雪をかぶった十勝連峰。",
@@ -132759,14 +132465,7 @@
     "spots": [
       {
         "name": "落合温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
-        "description": "木の扉を開けると熱い湯気が立ちこめ、とろりとしたナトリウム泉が肌にやわらかく絡む。湯音だけが響く浴室で、落合温泉の湯をゆっくりと楽しめる。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
-          "attributionRequired": false
-        }
+        "description": "木の扉を開けると熱い湯気が立ちこめ、とろりとしたナトリウム泉が肌にやわらかく絡む。湯音だけが響く浴室で、落合温泉の湯をゆっくりと楽しめる。"
       },
       {
         "name": "落合温泉近傍の渓谷探勝路",
@@ -136118,14 +135817,7 @@
       },
       {
         "name": "朝市",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kathmandu_morning_market_684.jpg/500px-Kathmandu_morning_market_684.jpg",
-        "description": "冬の朝6時、まだ暗い温泉街の一本道に立つ市。氷点下の空気の中、地元のおばあちゃんたちとの交流を楽しめる。",
-        "imageCredit": {
-          "author": "夢の散歩",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kathmandu_morning_market_684.jpg",
-          "attributionRequired": true
-        }
+        "description": "冬の朝6時、まだ暗い温泉街の一本道に立つ市。氷点下の空気の中、地元のおばあちゃんたちとの交流を楽しめる。"
       },
       {
         "name": "銅山川",
@@ -137308,14 +137000,7 @@
     "spots": [
       {
         "name": "百合ヶ浜",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Comic_Yuri_Hime_2013.png",
-        "description": "干潮時だけ海の真ん中に現れる白い砂州。宿で時刻を確認し、ボートで5分渡って海の上に立つ体験ができる。",
-        "imageCredit": {
-          "author": "Ichijinsha",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Comic_Yuri_Hime_2013.png",
-          "attributionRequired": false
-        }
+        "description": "干潮時だけ海の真ん中に現れる白い砂州。宿で時刻を確認し、ボートで5分渡って海の上に立つ体験ができる。"
       },
       {
         "name": "与論城跡",
@@ -138474,14 +138159,7 @@
       },
       {
         "name": "古代遺跡",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Taxila1.jpg/500px-Taxila1.jpg",
-        "description": "海風に削られた砂丘から弥生時代の土器片が現れる古代集落跡。牛が遺構の傍らで草をはむ光景に出会える。",
-        "imageCredit": {
-          "author": "not stated",
-          "license": "CC BY-SA 1.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Taxila1.jpg",
-          "attributionRequired": true
-        }
+        "description": "海風に削られた砂丘から弥生時代の土器片が現れる古代集落跡。牛が遺構の傍らで草をはむ光景に出会える。"
       }
     ],
     "shinkansenAccess": false,
@@ -138691,14 +138369,7 @@
     "spots": [
       {
         "name": "赤岩展望台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kuni-Akaiwa_settlement01.JPG/500px-Kuni-Akaiwa_settlement01.JPG",
-        "description": "島の北西端にそびえる赤茶けた岩の塊。柵の先は垂直に落ちる断崖で、野趣あふれる眺めを体感できる。",
-        "imageCredit": {
-          "author": "On-chan",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kuni-Akaiwa_settlement01.JPG",
-          "attributionRequired": false
-        }
+        "description": "島の北西端にそびえる赤茶けた岩の塊。柵の先は垂直に落ちる断崖で、野趣あふれる眺めを体感できる。"
       },
       {
         "name": "ウトウの巣穴群",
@@ -140336,14 +140007,7 @@
       },
       {
         "name": "白石の鼻展望台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/SapporoCity_Skylines2020.jpg/500px-SapporoCity_Skylines2020.jpg",
-        "description": "港から車で15分、急坂の先にある展望台。眼下に宇和海の碧が広がり、佐田岬半島の稜線まで見渡せる。",
-        "imageCredit": {
-          "author": "Nryate",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:SapporoCity_Skylines2020.jpg",
-          "attributionRequired": true
-        }
+        "description": "港から車で15分、急坂の先にある展望台。眼下に宇和海の碧が広がり、佐田岬半島の稜線まで見渡せる。"
       }
     ],
     "shinkansenAccess": false,
@@ -141196,14 +140860,7 @@
       },
       {
         "name": "ぶどう畑",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Vineyards_Vougeot.jpg/500px-Vineyards_Vougeot.jpg",
-        "description": "温泉街の周囲に広がるぶどう畑。甲州種の房が実る風景の先に、ワイナリーの醸造棟が静かに立ち並ぶ。",
-        "imageCredit": {
-          "author": "Urban",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Vineyards_Vougeot.jpg",
-          "attributionRequired": false
-        }
+        "description": "温泉街の周囲に広がるぶどう畑。甲州種の房が実る風景の先に、ワイナリーの醸造棟が静かに立ち並ぶ。"
       }
     ],
     "shinkansenAccess": false,
@@ -142710,14 +142367,7 @@
     "spots": [
       {
         "name": "浦富海岸島めぐり遊覧船",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ha_Long_Bay_see.JPG/500px-Ha_Long_Bay_see.JPG",
-        "description": "出港してすぐ、船底から海底が見えるほどの透明度に驚かされる。",
-        "imageCredit": {
-          "author": "ja:User:NORITO,S",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_see.JPG",
-          "attributionRequired": true
-        }
+        "description": "出港してすぐ、船底から海底が見えるほどの透明度に驚かされる。"
       },
       {
         "name": "城原海岸",
@@ -143341,14 +142991,7 @@
       },
       {
         "name": "龍鎮渓谷",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Dagu_Glacier_panoramio61669499.jpg/500px-Dagu_Glacier_panoramio61669499.jpg",
-        "description": "ガイドブックにも小さくしか載らない穴場の渓谷。川沿いの細い道を歩いた先で、驚きの景色に出会える。",
-        "imageCredit": {
-          "author": "aisccd",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Dagu_Glacier_panoramio61669499.jpg",
-          "attributionRequired": true
-        }
+        "description": "ガイドブックにも小さくしか載らない穴場の渓谷。川沿いの細い道を歩いた先で、驚きの景色に出会える。"
       }
     ],
     "shinkansenAccess": false,
@@ -144404,14 +144047,7 @@
     "spots": [
       {
         "name": "いりこ工場",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Zenigata_sunae.jpg/500px-Zenigata_sunae.jpg",
-        "description": "夜明け前の漁で水揚げされたカタクチイワシが加工される現場。事前に漁協へ連絡すれば、見学でいりこ作りに触れられる。",
-        "imageCredit": {
-          "author": "Si-take.",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Zenigata_sunae.jpg",
-          "attributionRequired": true
-        }
+        "description": "夜明け前の漁で水揚げされたカタクチイワシが加工される現場。事前に漁協へ連絡すれば、見学でいりこ作りに触れられる。"
       },
       {
         "name": "伊吹島灯台",
@@ -145587,14 +145223,7 @@
     "spots": [
       {
         "name": "うさぎとの触れ合い",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/%E7%BE%8A%E3%81%AE%E5%A4%A7%E8%A1%8C%E9%80%B2.jpg/500px-%E7%BE%8A%E3%81%AE%E5%A4%A7%E8%A1%8C%E9%80%B2.jpg",
-        "description": "島には700羽以上のうさぎが暮らし、警戒心なく向こうから寄ってくる。桟橋に降りた瞬間から触れ合いが始まる。",
-        "imageCredit": {
-          "author": "Xser21",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E3%81%AE%E5%A4%A7%E8%A1%8C%E9%80%B2.jpg",
-          "attributionRequired": true
-        }
+        "description": "島には700羽以上のうさぎが暮らし、警戒心なく向こうから寄ってくる。桟橋に降りた瞬間から触れ合いが始まる。"
       },
       {
         "name": "毒ガス資料館",
@@ -145849,14 +145478,7 @@
       },
       {
         "name": "レモン畑",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/C.C._Lemon.jpg/500px-C.C._Lemon.jpg",
-        "description": "生口島のレモン産地に点在する畑で、サイクリング中に立ち寄ると広大な規模と柑橘の香りを体感できる。",
-        "imageCredit": {
-          "author": "Kuha455405",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:C.C._Lemon.jpg",
-          "attributionRequired": true
-        }
+        "description": "生口島のレモン産地に点在する畑で、サイクリング中に立ち寄ると広大な規模と柑橘の香りを体感できる。"
       },
       {
         "name": "未来心の丘",
@@ -146375,25 +145997,11 @@
       },
       {
         "name": "真鍋邸",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Manabe_Kaichiro.jpg",
-        "description": "路地の奥に現れる、かつて島を治めた真鍋家の旧宅。瓦と縁側が残る古い木造建築に、往時の暮らしを重ねられる。",
-        "imageCredit": {
-          "author": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Manabe_Kaichiro.jpg",
-          "attributionRequired": false
-        }
+        "description": "路地の奥に現れる、かつて島を治めた真鍋家の旧宅。瓦と縁側が残る古い木造建築に、往時の暮らしを重ねられる。"
       },
       {
         "name": "走り神輿",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gion_Matsuri_2017-5.jpg/500px-Gion_Matsuri_2017-5.jpg",
-        "description": "祭りの夜、石畳を神輿が全速力で駆け抜ける島の祭礼。地下足袋が地を蹴る音と担ぎ手の熱気を間近に浴びられる。",
-        "imageCredit": {
-          "author": "江戸村のとくぞう",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gion_Matsuri_2017-5.jpg",
-          "attributionRequired": true
-        }
+        "description": "祭りの夜、石畳を神輿が全速力で駆け抜ける島の祭礼。地下足袋が地を蹴る音と担ぎ手の熱気を間近に浴びられる。"
       },
       {
         "name": "白石島",
@@ -146858,14 +146466,7 @@
       },
       {
         "name": "興雲閣",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kounkaku1.JPG/500px-Kounkaku1.JPG",
-        "description": "三峯神社が直営する境内の宿坊。",
-        "imageCredit": {
-          "author": "江戸村のとくぞう (Edomura no Tokuzo)",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Kounkaku1.JPG",
-          "attributionRequired": true
-        }
+        "description": "三峯神社が直営する境内の宿坊。"
       }
     ],
     "shinkansenAccess": false,
@@ -151073,14 +150674,7 @@
       },
       {
         "name": "備後府中駅周辺",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%E6%9D%B1%E4%BA%AC%E7%AB%B6%E9%A6%AC%E5%A0%B4_-_panoramio_%282%29.jpg/500px-%E6%9D%B1%E4%BA%AC%E7%AB%B6%E9%A6%AC%E5%A0%B4_-_panoramio_%282%29.jpg",
-        "description": "家具の生産地として知られるものづくりの街で、駅を出て歩けば職人の街の風情を随所に見ることができる。",
-        "imageCredit": {
-          "author": "くろふね",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E7%AB%B6%E9%A6%AC%E5%A0%B4_-_panoramio_(2).jpg",
-          "attributionRequired": true
-        }
+        "description": "家具の生産地として知られるものづくりの街で、駅を出て歩けば職人の街の風情を随所に見ることができる。"
       },
       {
         "name": "雄橋",
@@ -152388,14 +151982,7 @@
       },
       {
         "name": "白石の鼻展望台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/SapporoCity_Skylines2020.jpg/500px-SapporoCity_Skylines2020.jpg",
-        "description": "下灘駅から国道378号を南へ、細い山道を約20分登った先の展望台。人の少ない隠れた眺望を楽しめる。",
-        "imageCredit": {
-          "author": "Nryate",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:SapporoCity_Skylines2020.jpg",
-          "attributionRequired": true
-        }
+        "description": "下灘駅から国道378号を南へ、細い山道を約20分登った先の展望台。人の少ない隠れた眺望を楽しめる。"
       }
     ],
     "shinkansenAccess": false,
@@ -157327,14 +156914,7 @@
       },
       {
         "name": "縁結びの鐘",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Francisco_de_Zurbar%C3%A1n_034.jpg/500px-Francisco_de_Zurbar%C3%A1n_034.jpg",
-        "description": "見附島のすぐ横に立つ縁結びの鐘。海に向かって鳴らせば、澄んだ音の余韻が潮風に溶けていく。",
-        "imageCredit": {
-          "author": "Francisco de Zurbarán",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_034.jpg",
-          "attributionRequired": false
-        }
+        "description": "見附島のすぐ横に立つ縁結びの鐘。海に向かって鳴らせば、澄んだ音の余韻が潮風に溶けていく。"
       },
       {
         "name": "珠洲塩田",
@@ -157569,14 +157149,7 @@
       },
       {
         "name": "狼煙の町",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Frederic_Remington_smoke_signal.jpg/500px-Frederic_Remington_smoke_signal.jpg",
-        "description": "灯台の麓、住宅と漁港が混在する小さな集落。「のろし」の地名が残る静かな町並みをのんびり歩ける。",
-        "imageCredit": {
-          "author": "Frederic Remington",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_smoke_signal.jpg",
-          "attributionRequired": false
-        }
+        "description": "灯台の麓、住宅と漁港が混在する小さな集落。「のろし」の地名が残る静かな町並みをのんびり歩ける。"
       }
     ],
     "shinkansenAccess": false,
@@ -158244,14 +157817,7 @@
       },
       {
         "name": "断崖散策路",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_%283%29.jpg/500px-%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_%283%29.jpg",
-        "description": "柵のない崖の縁がむき出しに続く遊歩道。高さ約25mの断崖から日本海の荒波を間近に望める。",
-        "imageCredit": {
-          "author": "くろふね",
-          "license": "CC BY 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_(3).jpg",
-          "attributionRequired": true
-        }
+        "description": "柵のない崖の縁がむき出しに続く遊歩道。高さ約25mの断崖から日本海の荒波を間近に望める。"
       },
       {
         "name": "芦原温泉",
@@ -161962,14 +161528,7 @@
       },
       {
         "name": "ハイキングコース",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Alta_via_meranese_2005-05.JPG/500px-Alta_via_meranese_2005-05.JPG",
-        "description": "ガイド同行が必須の山道。自然保護区に守られた島の原生林を、専門ガイドと一緒に歩ける。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Alta_via_meranese_2005-05.JPG",
-          "attributionRequired": false
-        }
+        "description": "ガイド同行が必須の山道。自然保護区に守られた島の原生林を、専門ガイドと一緒に歩ける。"
       }
     ],
     "mapPoint": "御蔵島港",
@@ -162089,14 +161648,7 @@
       },
       {
         "name": "漁村集落",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/FishingVillage_HaLongBay_Vietnam_%28pixinn.net%29.jpg/500px-FishingVillage_HaLongBay_Vietnam_%28pixinn.net%29.jpg",
-        "description": "港から徒歩約10分の場所にある、島唯一の集落。細い路地と石垣が連なる漁村の景観を歩いて巡ることができる。",
-        "imageCredit": {
-          "author": "Christophe Meneboeuf",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:FishingVillage_HaLongBay_Vietnam_(pixinn.net).jpg",
-          "attributionRequired": true
-        }
+        "description": "港から徒歩約10分の場所にある、島唯一の集落。細い路地と石垣が連なる漁村の景観を歩いて巡ることができる。"
       }
     ],
     "mapPoint": "日振島港",
@@ -162789,14 +162341,7 @@
       },
       {
         "name": "ボスウェルスタジアム",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Stade_Constant_Vanden_Stock.jpg/500px-Stade_Constant_Vanden_Stock.jpg",
-        "description": "サトウキビ畑の先に現れる野球場。独立リーグの熱戦が砂埃とともに繰り広げられる聖地。",
-        "imageCredit": {
-          "author": "Олександр Осіпов",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Stade_Constant_Vanden_Stock.jpg",
-          "attributionRequired": true
-        }
+        "description": "サトウキビ畑の先に現れる野球場。独立リーグの熱戦が砂埃とともに繰り広げられる聖地。"
       },
       {
         "name": "バリハイ農場",
@@ -163696,14 +163241,7 @@
       },
       {
         "name": "山岳集落",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marksburg1900.jpg/500px-Marksburg1900.jpg",
-        "description": "車一台がやっと通る細い道の先、急斜面に民家が段々に張りつく十根川集落。ガードレールのないカーブから山里の暮らしを望める。",
-        "imageCredit": {
-          "author": "Unknown authorUnknown author",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Marksburg1900.jpg",
-          "attributionRequired": false
-        }
+        "description": "車一台がやっと通る細い道の先、急斜面に民家が段々に張りつく十根川集落。ガードレールのないカーブから山里の暮らしを望める。"
       }
     ],
     "destType": "remote",
@@ -163796,25 +163334,11 @@
     "spots": [
       {
         "name": "立石崎灯台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cape_of_Good_Hope.jpg/500px-Cape_of_Good_Hope.jpg",
-        "description": "岬の先端にぽつんと立つ白い小さな灯台。楯ヶ崎へ向かう道の分岐から立ち寄れ、観光地離れした静かな海の景色を独り占めできる。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Cape_of_Good_Hope.jpg",
-          "attributionRequired": false
-        }
+        "description": "岬の先端にぽつんと立つ白い小さな灯台。楯ヶ崎へ向かう道の分岐から立ち寄れ、観光地離れした静かな海の景色を独り占めできる。"
       },
       {
         "name": "海岸遊歩道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tampere_-_Kauppakatu.jpg/500px-Tampere_-_Kauppakatu.jpg",
-        "description": "海食崖の上をたどる遊歩道で、足下に白い飛沫が上がり、荒々しい岩肌と太平洋の絶壁を間近に見渡せる。",
-        "imageCredit": {
-          "author": "Tiia Monto",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tampere_-_Kauppakatu.jpg",
-          "attributionRequired": true
-        }
+        "description": "海食崖の上をたどる遊歩道で、足下に白い飛沫が上がり、荒々しい岩肌と太平洋の絶壁を間近に見渡せる。"
       },
       {
         "name": "漁港",
@@ -163934,14 +163458,7 @@
       },
       {
         "name": "遊歩道",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tampere_-_Kauppakatu.jpg/500px-Tampere_-_Kauppakatu.jpg",
-        "description": "弘法大師像の背後へ延びる木洩れ日の道。踏むたび湿った土が香り、亜熱帯植物が両側から迫る。島の奥深さを足裏で刻める一本道。",
-        "imageCredit": {
-          "author": "Tiia Monto",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Tampere_-_Kauppakatu.jpg",
-          "attributionRequired": true
-        }
+        "description": "弘法大師像の背後へ延びる木洩れ日の道。踏むたび湿った土が香り、亜熱帯植物が両側から迫る。島の奥深さを足裏で刻める一本道。"
       }
     ],
     "mapPoint": "沖ノ島港",
@@ -164437,14 +163954,7 @@
       },
       {
         "name": "小赤沢温泉",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
-        "description": "長野県栄村にある赤褐色の温泉で、鉄分を含む湯が浴槽の縁を錆色に染める。肌に重くまとわりつく湯が特徴だ。",
-        "imageCredit": {
-          "author": "unknown",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
-          "attributionRequired": false
-        }
+        "description": "長野県栄村にある赤褐色の温泉で、鉄分を含む湯が浴槽の縁を錆色に染める。肌に重くまとわりつく湯が特徴だ。"
       }
     ],
     "destType": "remote",
@@ -164879,14 +164389,7 @@
       },
       {
         "name": "長崎展望台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nagasaki_bus_Shinchi_terminal.JPG/500px-Nagasaki_bus_Shinchi_terminal.JPG",
-        "description": "父島全体が一枚の絵のように見晴らせる展望台。太平洋の開放感と硫黄のかすかな匂いが火山性を物語り、夕暮れは海が濃紫に染まる。",
-        "imageCredit": {
-          "author": "Marine-Blue",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Nagasaki_bus_Shinchi_terminal.JPG",
-          "attributionRequired": true
-        }
+        "description": "父島全体が一枚の絵のように見晴らせる展望台。太平洋の開放感と硫黄のかすかな匂いが火山性を物語り、夕暮れは海が濃紫に染まる。"
       },
       {
         "name": "ウェザーステーション",
@@ -165449,14 +164952,7 @@
       },
       {
         "name": "島民会館",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mitsuhiro_Miyakoshi_2016.jpg",
-        "description": "島民の生活拠点となる木造の集会所。並ぶ古い写真や民具から世代を重ねた営みが浮かび、湖の水音が壁に反響して島の呼吸が聞こえる。",
-        "imageCredit": {
-          "author": "内閣官房内閣広報室",
-          "license": "CC BY 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Mitsuhiro_Miyakoshi_2016.jpg",
-          "attributionRequired": true
-        }
+        "description": "島民の生活拠点となる木造の集会所。並ぶ古い写真や民具から世代を重ねた営みが浮かび、湖の水音が壁に反響して島の呼吸が聞こえる。"
       }
     ],
     "shinkansenAccess": false,
@@ -166088,14 +165584,7 @@
     "spots": [
       {
         "name": "海上アルプス",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/20150202%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9%E9%9B%AA%E5%8C%96%E7%B2%A7.jpg/500px-20150202%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9%E9%9B%AA%E5%8C%96%E7%B2%A7.jpg",
-        "description": "青海島の断崖絶壁が連なる海上アルプス。波に削られた岩肌の色合いが時とともに変わり、造形美と大自然の力が凝縮された圧巻の景観。",
-        "imageCredit": {
-          "author": "Sonata",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:20150202%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9%E9%9B%AA%E5%8C%96%E7%B2%A7.jpg",
-          "attributionRequired": true
-        }
+        "description": "青海島の断崖絶壁が連なる海上アルプス。波に削られた岩肌の色合いが時とともに変わり、造形美と大自然の力が凝縮された圧巻の景観。"
       },
       {
         "name": "青海島観光汽船",
@@ -166753,14 +166242,7 @@
       },
       {
         "name": "サンセットウェイ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sunset_Boulevard_%281950_poster%29.jpg/500px-Sunset_Boulevard_%281950_poster%29.jpg",
-        "description": "西海岸の絶壁沿いを走る一本道。夕方は群青から茜色へ変わる東シナ海が視界いっぱいに広がり、ハマユウの甘い匂いが漂う。",
-        "imageCredit": {
-          "author": "\"Copyright 1950 Paramount Pictures Corporation\"",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Sunset_Boulevard_(1950_poster).jpg",
-          "attributionRequired": false
-        }
+        "description": "西海岸の絶壁沿いを走る一本道。夕方は群青から茜色へ変わる東シナ海が視界いっぱいに広がり、ハマユウの甘い匂いが漂う。"
       },
       {
         "name": "大バエ灯台",
@@ -167036,14 +166518,7 @@
       },
       {
         "name": "集合住宅団地",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/80-382-0014_Kiev_Bankova_10_005.jpg/500px-80-382-0014_Kiev_Bankova_10_005.jpg",
-        "description": "エメラルド色の集合住宅が階段状に積み重なる、炭鉱最盛期の名残をとどめるスポット。無人の階段を登ると、往時の暮らしの痕跡が随所に残る。",
-        "imageCredit": {
-          "author": "Wadco2",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:80-382-0014_Kiev_Bankova_10_005.jpg",
-          "attributionRequired": true
-        }
+        "description": "エメラルド色の集合住宅が階段状に積み重なる、炭鉱最盛期の名残をとどめるスポット。無人の階段を登ると、往時の暮らしの痕跡が随所に残る。"
       }
     ],
     "shinkansenAccess": false,
@@ -167159,14 +166634,7 @@
       },
       {
         "name": "ハワイビーチ",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/500px-Flag_of_Hawaii.svg.png",
-        "description": "ウミガメが産卵のために上がる砂浜で、周囲にはハイビスカスが咲く喜界島の離島ビーチ。",
-        "imageCredit": {
-          "author": "Dbenbenn",
-          "license": "Public domain",
-          "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg",
-          "attributionRequired": false
-        }
+        "description": "ウミガメが産卵のために上がる砂浜で、周囲にはハイビスカスが咲く喜界島の離島ビーチ。"
       },
       {
         "name": "ガジュマル巨木",
@@ -167306,14 +166774,7 @@
       },
       {
         "name": "闘牛場",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Spain_Andalusia_Malaga_BW_2015-10-24_09-52-48.jpg/500px-Spain_Andalusia_Malaga_BW_2015-10-24_09-52-48.jpg",
-        "description": "江戸時代から続く伝統行事の舞台で、赤土の中で牛たちが角をぶつけ合う激闘を観客の熱気とともに間近で見られる。",
-        "imageCredit": {
-          "author": "Berthold Werner",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Spain_Andalusia_Malaga_BW_2015-10-24_09-52-48.jpg",
-          "attributionRequired": true
-        }
+        "description": "江戸時代から続く伝統行事の舞台で、赤土の中で牛たちが角をぶつけ合う激闘を観客の熱気とともに間近で見られる。"
       }
     ],
     "shinkansenAccess": false,
@@ -167684,14 +167145,7 @@
     "spots": [
       {
         "name": "水牛車",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ox_cart_in_Cuba.jpg/500px-Ox_cart_in_Cuba.jpg",
-        "description": "腰まで浸かる浅瀬を水牛に揺られて渡る。牛の鼻息、水の冷たさ、背に受ける日差し。数分で別世界へ運ばれ、琉球の原風景を全身で味わう。",
-        "imageCredit": {
-          "author": "Male Gringo",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Ox_cart_in_Cuba.jpg",
-          "attributionRequired": true
-        }
+        "description": "腰まで浸かる浅瀬を水牛に揺られて渡る。牛の鼻息、水の冷たさ、背に受ける日差し。数分で別世界へ運ばれ、琉球の原風景を全身で味わう。"
       },
       {
         "name": "由布島植物園",
@@ -168993,14 +168447,7 @@
       },
       {
         "name": "大泉高原",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Toei_Tokyo_Studios_west_gate_2024-07-21.jpg/500px-Toei_Tokyo_Studios_west_gate_2024-07-21.jpg",
-        "description": "光害が少なく、銀河を肉眼で見渡せる夜空を持つ高原。朝は牧草地に霧が立ち込め、澄んだ空気の中で深呼吸できる。",
-        "imageCredit": {
-          "author": "Asanagi",
-          "license": "CC0",
-          "url": "https://commons.wikimedia.org/wiki/File:Toei_Tokyo_Studios_west_gate_2024-07-21.jpg",
-          "attributionRequired": false
-        }
+        "description": "光害が少なく、銀河を肉眼で見渡せる夜空を持つ高原。朝は牧草地に霧が立ち込め、澄んだ空気の中で深呼吸できる。"
       },
       {
         "name": "八ヶ岳ジャージーハット",
@@ -169237,14 +168684,7 @@
       },
       {
         "name": "川床料理",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Noryo_yuka_by_w00kie_in_Kyoto.jpg/500px-Noryo_yuka_by_w00kie_in_Kyoto.jpg",
-        "description": "貴船川の冷たい流れの上で味わう季節懐石。夏は川が体を冷やし、青紅葉の匂いが食事を包む。音と水の涼感がひとつの料理となる特別な食体験。",
-        "imageCredit": {
-          "author": "w00kie",
-          "license": "CC BY 2.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Noryo_yuka_by_w00kie_in_Kyoto.jpg",
-          "attributionRequired": true
-        }
+        "description": "貴船川の冷たい流れの上で味わう季節懐石。夏は川が体を冷やし、青紅葉の匂いが食事を包む。音と水の涼感がひとつの料理となる特別な食体験。"
       },
       {
         "name": "奥宮",
@@ -169400,14 +168840,7 @@
       },
       {
         "name": "尾崎坂展望台",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/National_Museum_of_Modern_Art_Kyoto_2010.jpg/500px-National_Museum_of_Modern_Art_Kyoto_2010.jpg",
-        "description": "大間ダムを見下ろす展望台で、木製の急階段を上りきると深緑の谷間と南アルプスの稜線を一望できる。",
-        "imageCredit": {
-          "author": "Wiiii",
-          "license": "CC BY-SA 3.0",
-          "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Modern_Art_Kyoto_2010.jpg",
-          "attributionRequired": true
-        }
+        "description": "大間ダムを見下ろす展望台で、木製の急階段を上りきると深緑の谷間と南アルプスの稜線を一望できる。"
       }
     ],
     "shinkansenAccess": false,
@@ -170424,14 +169857,7 @@
       },
       {
         "name": "宮橋",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sakuranomiya_Bridge_in_201504.JPG/500px-Sakuranomiya_Bridge_in_201504.JPG",
-        "description": "玉湯川に架かる玉造温泉街中心の橋。欄干の彫刻が細やかで、川風に運ばれる温泉の湯気が渡る人の頬を撫でる。石造りの古橋が江戸情緒を今に伝える。",
-        "imageCredit": {
-          "author": "Mc681",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Sakuranomiya_Bridge_in_201504.JPG",
-          "attributionRequired": true
-        }
+        "description": "玉湯川に架かる玉造温泉街中心の橋。欄干の彫刻が細やかで、川風に運ばれる温泉の湯気が渡る人の頬を撫でる。石造りの古橋が江戸情緒を今に伝える。"
       },
       {
         "name": "湯薬師広場",
@@ -192002,14 +191428,7 @@
       },
       {
         "name": "物見櫓",
-        "description": "13メートルの高さから集落全体を見守った見張り台。階段を上れば当時の人々と同じ視点に立ち、復元区域との時間的距離が縮まる。",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Banryu_yagura_-_3.jpg/1280px-Banryu_yagura_-_3.jpg",
-        "imageCredit": {
-          "author": "Kyu3a",
-          "license": "CC BY-SA 4.0",
-          "url": "https://commons.wikimedia.org/wiki/File:Banryu_yagura_-_3.jpg",
-          "attributionRequired": true
-        }
+        "description": "13メートルの高さから集落全体を見守った見張り台。階段を上れば当時の人々と同じ視点に立ち、復元区域との時間的距離が縮まる。"
       }
     ],
     "shinkansenAccess": false,

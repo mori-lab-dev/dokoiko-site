@@ -1,0 +1,1177 @@
+{
+ "戻した": [
+  {
+   "id": "tsumago",
+   "name": "脇本陣奥谷",
+   "imageUrl": "/images/tsumago/spot-2.jpg",
+   "imageCredit": {
+    "author": "そらみみ",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Waki-honjin_Okuya_of_Tsumago-juku.JPG",
+    "attributionRequired": true
+   },
+   "根拠": "写真の看板に「脇本陣奥谷」。出典のファイル名は Waki-honjin Okuya of Tsumago-juku.JPG（Commons API で作者・ライセンスを確認）"
+  },
+  {
+   "id": "yamadera",
+   "name": "山門",
+   "imageUrl": "/images/yamadera/spot-2.jpg",
+   "imageCredit": {
+    "author": "pakku",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E5%AF%BA%E3%83%BB%E5%B1%B1%E9%96%80%EF%BC%88_Yamadera_gate_%EF%BC%89_-_panoramio.jpg",
+    "attributionRequired": true
+   },
+   "根拠": "写真の石碑に「山寺」「立石寺」・登山口の表示。出典のファイル名は「山寺・山門（ Yamadera gate ） - panoramio.jpg」（Commons API で作者・ライセンスを確認）"
+  }
+ ],
+ "外した": [
+  {
+   "key": "karuizawa|spot|白糸の滝",
+   "n": 33,
+   "旅先": "軽井沢",
+   "見どころ": "白糸の滝",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shiraito_water_fall_01.jpg/500px-Shiraito_water_fall_01.jpg",
+   "旧クレジット": {
+    "author": "Captain76",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shiraito_water_fall_01.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "izu-oshima|spot|砂漠",
+   "n": 34,
+   "旅先": "伊豆大島",
+   "見どころ": "砂漠",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Libya_5230_Wan_Caza_Dunes_Luca_Galuzzi_2007.jpg/500px-Libya_5230_Wan_Caza_Dunes_Luca_Galuzzi_2007.jpg",
+   "旧クレジット": {
+    "author": "Luca Galuzzi (Lucag)",
+    "license": "CC BY-SA 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Libya_5230_Wan_Caza_Dunes_Luca_Galuzzi_2007.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "miyama|spot|美山民俗資料館",
+   "n": 38,
+   "旅先": "美山",
+   "見どころ": "美山民俗資料館",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Itoigawa_Montage.jpg/500px-Itoigawa_Montage.jpg",
+   "旧クレジット": {
+    "author": "水だらけのプール",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Itoigawa_Montage.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "muroto|spot|乱礁遊歩道",
+   "n": 40,
+   "旅先": "室戸",
+   "見どころ": "乱礁遊歩道",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/150725_Jakushu_Itteki-bunko_Ooi_Fukui_pref_Japan01s3.jpg/500px-150725_Jakushu_Itteki-bunko_Ooi_Fukui_pref_Japan01s3.jpg",
+   "旧クレジット": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:150725_Jakushu_Itteki-bunko_Ooi_Fukui_pref_Japan01s3.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "wakura-onsen|spot|総湯",
+   "n": 42,
+   "旅先": "和倉温泉",
+   "見どころ": "総湯",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Hotspring_yunomine01.jpg",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hotspring_yunomine01.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "daisen|spot|豪円湯院",
+   "n": 45,
+   "旅先": "大山",
+   "見どころ": "豪円湯院",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tottori-Sakyu_Tottori_Japan.JPG/500px-Tottori-Sakyu_Tottori_Japan.JPG",
+   "旧クレジット": {
+    "author": "Hashi photo",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tottori-Sakyu_Tottori_Japan.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "iwami-ginzan|spot|大森の街並み",
+   "n": 46,
+   "旅先": "石見銀山",
+   "見どころ": "大森の街並み",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Tokyo-International-Airport_Satellite.jpg/500px-Tokyo-International-Airport_Satellite.jpg",
+   "旧クレジット": {
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tokyo-International-Airport_Satellite.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "enoshima|spot|岩屋洞窟",
+   "n": 48,
+   "旅先": "江の島",
+   "見どころ": "岩屋洞窟",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cuevas_de_Acsibi%2C_Salta_%28Argentina%29.jpg/500px-Cuevas_de_Acsibi%2C_Salta_%28Argentina%29.jpg",
+   "旧クレジット": {
+    "author": "Gabito Giménez",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cuevas_de_Acsibi,_Salta_(Argentina).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "hijori-onsen|spot|朝市",
+   "n": 52,
+   "旅先": "肘折温泉",
+   "見どころ": "朝市",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kathmandu_morning_market_684.jpg/500px-Kathmandu_morning_market_684.jpg",
+   "旧クレジット": {
+    "author": "夢の散歩",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kathmandu_morning_market_684.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "yawatahama|spot|白石の鼻展望台",
+   "n": 53,
+   "旅先": "八幡浜",
+   "見どころ": "白石の鼻展望台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/SapporoCity_Skylines2020.jpg/500px-SapporoCity_Skylines2020.jpg",
+   "旧クレジット": {
+    "author": "Nryate",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:SapporoCity_Skylines2020.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "ibukijima|spot|いりこ工場",
+   "n": 55,
+   "旅先": "伊吹島",
+   "見どころ": "いりこ工場",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Zenigata_sunae.jpg/500px-Zenigata_sunae.jpg",
+   "旧クレジット": {
+    "author": "Si-take.",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Zenigata_sunae.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "shimonada|spot|白石の鼻展望台",
+   "n": 56,
+   "旅先": "下灘",
+   "見どころ": "白石の鼻展望台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/SapporoCity_Skylines2020.jpg/500px-SapporoCity_Skylines2020.jpg",
+   "旧クレジット": {
+    "author": "Nryate",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:SapporoCity_Skylines2020.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tojinbo|spot|断崖散策路",
+   "n": 57,
+   "旅先": "東尋坊",
+   "見どころ": "断崖散策路",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_%283%29.jpg/500px-%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_%283%29.jpg",
+   "旧クレジット": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%9C%B0%E7%90%83%E5%B2%AC_-_panoramio_(3).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tateyamasaki|spot|海岸遊歩道",
+   "n": 59,
+   "旅先": "楯ヶ崎",
+   "見どころ": "海岸遊歩道",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tampere_-_Kauppakatu.jpg/500px-Tampere_-_Kauppakatu.jpg",
+   "旧クレジット": {
+    "author": "Tiia Monto",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tampere_-_Kauppakatu.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "okinoshima-kochi|spot|遊歩道",
+   "n": 60,
+   "旅先": "沖ノ島",
+   "見どころ": "遊歩道",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tampere_-_Kauppakatu.jpg/500px-Tampere_-_Kauppakatu.jpg",
+   "旧クレジット": {
+    "author": "Tiia Monto",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tampere_-_Kauppakatu.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tateyamasaki|spot|立石崎灯台",
+   "n": 61,
+   "旅先": "楯ヶ崎",
+   "見どころ": "立石崎灯台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cape_of_Good_Hope.jpg/500px-Cape_of_Good_Hope.jpg",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Cape_of_Good_Hope.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "yamaga|spot|豊前街道",
+   "n": 65,
+   "旅先": "山鹿",
+   "見どころ": "豊前街道",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tsumago-juku_6-Jun-2020.jpg/500px-Tsumago-juku_6-Jun-2020.jpg",
+   "旧クレジット": {
+    "author": "皓月旗",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tsumago-juku_6-Jun-2020.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "okazaki|spot|徳川家康公像",
+   "n": 67,
+   "旅先": "岡崎",
+   "見どころ": "徳川家康公像",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Statue_of_Ieyasu_Tokugawa_02.jpg/1280px-Statue_of_Ieyasu_Tokugawa_02.jpg",
+   "旧クレジット": {
+    "author": "Akahito Yamabe",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Ieyasu_Tokugawa_02.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tomakomai|spot|北海道博物館（近郊）",
+   "n": 69,
+   "旅先": "苫小牧",
+   "見どころ": "北海道博物館（近郊）",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/British_Museum_from_NE_2.JPG/500px-British_Museum_from_NE_2.JPG",
+   "旧クレジット": {
+    "author": "Ham",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:British_Museum_from_NE_2.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "hokkaido-hakodate|spot|元町異人館",
+   "n": 72,
+   "旅先": "函館",
+   "見どころ": "元町異人館",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Kobe_Mosaic06s4s3200.jpg/500px-Kobe_Mosaic06s4s3200.jpg",
+   "旧クレジット": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Kobe_Mosaic06s4s3200.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gamagori|spot|竹島",
+   "n": 73,
+   "旅先": "蒲郡",
+   "見どころ": "竹島",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dokdo_Photo.jpg/500px-Dokdo_Photo.jpg",
+   "旧クレジット": {
+    "author": "Rachouette, teacher in Seoul, SOUTH KOREA at en:Windows Live",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dokdo_Photo.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tango-kyoto|spot|伊根の舟屋（近隣）",
+   "n": 74,
+   "旅先": "丹後",
+   "見どころ": "伊根の舟屋（近隣）",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Collage_Venezia.jpg/500px-Collage_Venezia.jpg",
+   "旧クレジット": {
+    "author": "collection by DanieleDF1995 (talk)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Collage_Venezia.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "kochi-ino|spot|いの紙の博物館",
+   "n": 78,
+   "旅先": "いの",
+   "見どころ": "いの紙の博物館",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tokyo_National_Museum%2C_Honkan_2010.jpg/500px-Tokyo_National_Museum%2C_Honkan_2010.jpg",
+   "旧クレジット": {
+    "author": "Wiiii",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum,_Honkan_2010.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_北海_十勝岳温泉|spot|白糸の滝",
+   "n": 79,
+   "旅先": "十勝岳温泉",
+   "見どころ": "白糸の滝",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Shiraito_Falls_%2834257542610%29_%28squared_crop%29.jpg/1280px-Shiraito_Falls_%2834257542610%29_%28squared_crop%29.jpg",
+   "旧クレジット": {
+    "author": "Big Ben in Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shiraito_Falls_(34257542610)_(squared_crop).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "mishima-yamaguchi|spot|古代遺跡",
+   "n": 82,
+   "旅先": "見島",
+   "見どころ": "古代遺跡",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Taxila1.jpg/500px-Taxila1.jpg",
+   "旧クレジット": {
+    "author": "not stated",
+    "license": "CC BY-SA 1.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Taxila1.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "teuri-island|spot|赤岩展望台",
+   "n": 83,
+   "旅先": "天売島",
+   "見どころ": "赤岩展望台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Kuni-Akaiwa_settlement01.JPG/500px-Kuni-Akaiwa_settlement01.JPG",
+   "旧クレジット": {
+    "author": "On-chan",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kuni-Akaiwa_settlement01.JPG",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "isawa-onsen|spot|ぶどう畑",
+   "n": 84,
+   "旅先": "石和温泉",
+   "見どころ": "ぶどう畑",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Vineyards_Vougeot.jpg/500px-Vineyards_Vougeot.jpg",
+   "旧クレジット": {
+    "author": "Urban",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Vineyards_Vougeot.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "uradome|spot|浦富海岸島めぐり遊覧船",
+   "n": 85,
+   "旅先": "浦富海岸",
+   "見どころ": "浦富海岸島めぐり遊覧船",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ha_Long_Bay_see.JPG/500px-Ha_Long_Bay_see.JPG",
+   "旧クレジット": {
+    "author": "ja:User:NORITO,S",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_see.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "muroo|spot|龍鎮渓谷",
+   "n": 86,
+   "旅先": "室生",
+   "見どころ": "龍鎮渓谷",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Dagu_Glacier_panoramio61669499.jpg/500px-Dagu_Glacier_panoramio61669499.jpg",
+   "旧クレジット": {
+    "author": "aisccd",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dagu_Glacier_panoramio61669499.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "okunoshima|spot|うさぎとの触れ合い",
+   "n": 88,
+   "旅先": "大久野島",
+   "見どころ": "うさぎとの触れ合い",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/%E7%BE%8A%E3%81%AE%E5%A4%A7%E8%A1%8C%E9%80%B2.jpg/500px-%E7%BE%8A%E3%81%AE%E5%A4%A7%E8%A1%8C%E9%80%B2.jpg",
+   "旧クレジット": {
+    "author": "Xser21",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E3%81%AE%E5%A4%A7%E8%A1%8C%E9%80%B2.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "shiraishijima|spot|走り神輿",
+   "n": 90,
+   "旅先": "笠岡諸島",
+   "見どころ": "走り神輿",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gion_Matsuri_2017-5.jpg/500px-Gion_Matsuri_2017-5.jpg",
+   "旧クレジット": {
+    "author": "江戸村のとくぞう",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gion_Matsuri_2017-5.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "mitsuminejinja|spot|興雲閣",
+   "n": 91,
+   "旅先": "三峯神社",
+   "見どころ": "興雲閣",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kounkaku1.JPG/500px-Kounkaku1.JPG",
+   "旧クレジット": {
+    "author": "江戸村のとくぞう (Edomura no Tokuzo)",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kounkaku1.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "fuchu-hiroshima|spot|備後府中駅周辺",
+   "n": 92,
+   "旅先": "府中",
+   "見どころ": "備後府中駅周辺",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/%E6%9D%B1%E4%BA%AC%E7%AB%B6%E9%A6%AC%E5%A0%B4_-_panoramio_%282%29.jpg/500px-%E6%9D%B1%E4%BA%AC%E7%AB%B6%E9%A6%AC%E5%A0%B4_-_panoramio_%282%29.jpg",
+   "旧クレジット": {
+    "author": "くろふね",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E7%AB%B6%E9%A6%AC%E5%A0%B4_-_panoramio_(2).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "mikurajima|spot|ハイキングコース",
+   "n": 94,
+   "旅先": "御蔵島",
+   "見どころ": "ハイキングコース",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Alta_via_meranese_2005-05.JPG/500px-Alta_via_meranese_2005-05.JPG",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Alta_via_meranese_2005-05.JPG",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "hiburi|spot|漁村集落",
+   "n": 95,
+   "旅先": "日振島",
+   "見どころ": "漁村集落",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/FishingVillage_HaLongBay_Vietnam_%28pixinn.net%29.jpg/500px-FishingVillage_HaLongBay_Vietnam_%28pixinn.net%29.jpg",
+   "旧クレジット": {
+    "author": "Christophe Meneboeuf",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:FishingVillage_HaLongBay_Vietnam_(pixinn.net).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "minamidaitojima|spot|ボスウェルスタジアム",
+   "n": 96,
+   "旅先": "南大東島",
+   "見どころ": "ボスウェルスタジアム",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Stade_Constant_Vanden_Stock.jpg/500px-Stade_Constant_Vanden_Stock.jpg",
+   "旧クレジット": {
+    "author": "Олександр Осіпов",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Stade_Constant_Vanden_Stock.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "chichijima|spot|長崎展望台",
+   "n": 97,
+   "旅先": "小笠原諸島",
+   "見どころ": "長崎展望台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nagasaki_bus_Shinchi_terminal.JPG/500px-Nagasaki_bus_Shinchi_terminal.JPG",
+   "旧クレジット": {
+    "author": "Marine-Blue",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Nagasaki_bus_Shinchi_terminal.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "omijima|spot|海上アルプス",
+   "n": 99,
+   "旅先": "青海島",
+   "見どころ": "海上アルプス",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/20150202%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9%E9%9B%AA%E5%8C%96%E7%B2%A7.jpg/500px-20150202%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9%E9%9B%AA%E5%8C%96%E7%B2%A7.jpg",
+   "旧クレジット": {
+    "author": "Sonata",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:20150202%E6%97%A5%E6%9C%AC%E3%82%A2%E3%83%AB%E3%83%97%E3%82%B9%E9%9B%AA%E5%8C%96%E7%B2%A7.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "ikeshima|spot|集合住宅団地",
+   "n": 100,
+   "旅先": "池島",
+   "見どころ": "集合住宅団地",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/80-382-0014_Kiev_Bankova_10_005.jpg/500px-80-382-0014_Kiev_Bankova_10_005.jpg",
+   "旧クレジット": {
+    "author": "Wadco2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:80-382-0014_Kiev_Bankova_10_005.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tokunoshima|spot|闘牛場",
+   "n": 101,
+   "旅先": "徳之島",
+   "見どころ": "闘牛場",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Spain_Andalusia_Malaga_BW_2015-10-24_09-52-48.jpg/500px-Spain_Andalusia_Malaga_BW_2015-10-24_09-52-48.jpg",
+   "旧クレジット": {
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Spain_Andalusia_Malaga_BW_2015-10-24_09-52-48.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "yubu-island|spot|水牛車",
+   "n": 102,
+   "旅先": "由布島",
+   "見どころ": "水牛車",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ox_cart_in_Cuba.jpg/500px-Ox_cart_in_Cuba.jpg",
+   "旧クレジット": {
+    "author": "Male Gringo",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ox_cart_in_Cuba.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "kifune|spot|川床料理",
+   "n": 104,
+   "旅先": "貴船",
+   "見どころ": "川床料理",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Noryo_yuka_by_w00kie_in_Kyoto.jpg/500px-Noryo_yuka_by_w00kie_in_Kyoto.jpg",
+   "旧クレジット": {
+    "author": "w00kie",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Noryo_yuka_by_w00kie_in_Kyoto.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "sumatakyo|spot|尾崎坂展望台",
+   "n": 105,
+   "旅先": "寸又峡",
+   "見どころ": "尾崎坂展望台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/National_Museum_of_Modern_Art_Kyoto_2010.jpg/500px-National_Museum_of_Modern_Art_Kyoto_2010.jpg",
+   "旧クレジット": {
+    "author": "Wiiii",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Modern_Art_Kyoto_2010.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "saga-yoshino|spot|物見櫓",
+   "n": 108,
+   "旅先": "吉野ヶ里歴史公園",
+   "見どころ": "物見櫓",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Banryu_yagura_-_3.jpg/1280px-Banryu_yagura_-_3.jpg",
+   "旧クレジット": {
+    "author": "Kyu3a",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Banryu_yagura_-_3.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "ise|spot|二見浦",
+   "n": 109,
+   "旅先": "伊勢",
+   "見どころ": "二見浦",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "otaru|spot|積丹岬",
+   "n": 110,
+   "旅先": "小樽",
+   "見どころ": "積丹岬",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "obi|spot|商人通り",
+   "n": 114,
+   "旅先": "飫肥",
+   "見どころ": "商人通り",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/5/52/Merchant_venice_tp.jpg",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Merchant_venice_tp.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "abashiri|spot|オーロラ号（砕氷船）",
+   "n": 115,
+   "旅先": "網走",
+   "見どころ": "オーロラ号（砕氷船）",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nordostpassage_NASA_Worldwind-globe.png/500px-Nordostpassage_NASA_Worldwind-globe.png",
+   "旧クレジット": {
+    "author": "RosarioVanTulpe",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Nordostpassage_NASA_Worldwind-globe.png",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "tenryu-gorge|spot|天竜峡舟下り",
+   "n": 116,
+   "旅先": "天竜峡",
+   "見どころ": "天竜峡舟下り",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "hasami|spot|西の原",
+   "n": 117,
+   "旅先": "波佐見",
+   "見どころ": "西の原",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Map_of_Chiba_Prefecture_Ja.svg/500px-Map_of_Chiba_Prefecture_Ja.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Map_of_Chiba_Prefecture_Ja.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "ofunato|spot|碁石海岸",
+   "n": 121,
+   "旅先": "大船渡",
+   "見どころ": "碁石海岸",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "hachimantai|spot|松川温泉",
+   "n": 123,
+   "旅先": "八幡平",
+   "見どころ": "松川温泉",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "akiyoshidai|spot|秋芳洞",
+   "n": 124,
+   "旅先": "秋吉台",
+   "見どころ": "秋芳洞",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "akiyoshidai|spot|秋吉台サファリランド",
+   "n": 125,
+   "旅先": "秋吉台",
+   "見どころ": "秋吉台サファリランド",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "shikinejima|spot|足付温泉",
+   "n": 126,
+   "旅先": "式根島",
+   "見どころ": "足付温泉",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg/500px-Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg.png",
+   "旧クレジット": {
+    "author": "Maximilian Dörrbecker (Chumwa)",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_location_map_with_side_map_of_the_Ryukyu_Islands.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "higashine|spot|東根温泉",
+   "n": 127,
+   "旅先": "東根",
+   "見どころ": "東根温泉",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "mine-yamaguchi|spot|秋芳洞",
+   "n": 128,
+   "旅先": "美祢",
+   "見どころ": "秋芳洞",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_Map_Lincun.svg/500px-Japan_Map_Lincun.svg.png",
+   "旧クレジット": {
+    "author": "Lincun",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Japan_Map_Lincun.svg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "gen_青森_落合温泉|spot|落合温泉",
+   "n": 131,
+   "旅先": "落合温泉",
+   "見どころ": "落合温泉",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "akiyamago|spot|小赤沢温泉",
+   "n": 134,
+   "旅先": "秋山郷",
+   "見どころ": "小赤沢温泉",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gthumb.svg/500px-Gthumb.svg.png",
+   "旧クレジット": {
+    "author": "unknown",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gthumb.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "narai-juku|spot|中村邸",
+   "n": 135,
+   "旅先": "奈良井宿",
+   "見どころ": "中村邸",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nakamura_Fukusuke_VII_1951_Scan10009.jpg/500px-Nakamura_Fukusuke_VII_1951_Scan10009.jpg",
+   "旧クレジット": {
+    "author": "演劇新社 (Engeki Shin-sha)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Nakamura_Fukusuke_VII_1951_Scan10009.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "narai-juku|spot|鍵の手",
+   "n": 136,
+   "旅先": "奈良井宿",
+   "見どころ": "鍵の手",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Standard-lock-key.jpg/500px-Standard-lock-key.jpg",
+   "旧クレジット": {
+    "author": "Evan-Amos",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Standard-lock-key.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "koshikijima|spot|なかまで",
+   "n": 138,
+   "旅先": "甑島",
+   "見どころ": "なかまで",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/9/96/%E8%8D%92%E5%B7%9D%E6%B0%B4%E7%B3%BB%E3%81%AE%E6%B5%81%E5%9F%9F%E6%B2%BB%E6%B0%B4%E5%A4%A7%E4%BD%BF%E4%BB%BB%E5%91%BD%E5%BC%8F%28cropped%29.png",
+   "旧クレジット": {
+    "author": "国土交通省",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E8%8D%92%E5%B7%9D%E6%B0%B4%E7%B3%BB%E3%81%AE%E6%B5%81%E5%9F%9F%E6%B2%BB%E6%B0%B4%E5%A4%A7%E4%BD%BF%E4%BB%BB%E5%91%BD%E5%BC%8F(cropped).png",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "koshikijima|spot|甑大明神磐境",
+   "n": 139,
+   "旅先": "甑島",
+   "見どころ": "甑大明神磐境",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Katsushika_Hokusai_-_The_Lantern_Ghost%2C_Iwa_-_Google_Art_Project.jpg/500px-Katsushika_Hokusai_-_The_Lantern_Ghost%2C_Iwa_-_Google_Art_Project.jpg",
+   "旧クレジット": {
+    "author": "Katsushika Hokusai",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_The_Lantern_Ghost,_Iwa_-_Google_Art_Project.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "hachijojima|spot|黄八丈染物",
+   "n": 140,
+   "旅先": "八丈島",
+   "見どころ": "黄八丈染物",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tenjyukoku_embroidery.jpg/500px-Tenjyukoku_embroidery.jpg",
+   "旧クレジット": {
+    "author": "TOKYODO",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Tenjyukoku_embroidery.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "yugawara-onsen|spot|落合楼村游",
+   "n": 141,
+   "旅先": "湯河原温泉",
+   "見どころ": "落合楼村游",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg/500px-Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg",
+   "旧クレジット": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "otoyo|spot|日本一の大杉",
+   "n": 142,
+   "旅先": "大豊",
+   "見どころ": "日本一の大杉",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/e/e4/%E5%A4%A7%E6%9D%89%E6%BC%A3_%2827988937893%29.jpg",
+   "旧クレジット": {
+    "author": "Original : Dick Thomas JohnsonCropped by user:Krorokeroro",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%9D%89%E6%BC%A3_(27988937893).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "tomari-okinawa|spot|田名ビーチ",
+   "n": 144,
+   "旅先": "伊平屋島",
+   "見どころ": "田名ビーチ",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Olympic_flag.svg/500px-Olympic_flag.svg.png",
+   "旧クレジット": {
+    "author": "Original author: Pierre de Coubertin (1863-1937)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Olympic_flag.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "yoron-island|spot|百合ヶ浜",
+   "n": 147,
+   "旅先": "与論島",
+   "見どころ": "百合ヶ浜",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Comic_Yuri_Hime_2013.png",
+   "旧クレジット": {
+    "author": "Ichijinsha",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Comic_Yuri_Hime_2013.png",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "ikuchijima|spot|レモン畑",
+   "n": 148,
+   "旅先": "生口島",
+   "見どころ": "レモン畑",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/C.C._Lemon.jpg/500px-C.C._Lemon.jpg",
+   "旧クレジット": {
+    "author": "Kuha455405",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:C.C._Lemon.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "shiraishijima|spot|真鍋邸",
+   "n": 149,
+   "旅先": "笠岡諸島",
+   "見どころ": "真鍋邸",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/2/22/Manabe_Kaichiro.jpg",
+   "旧クレジット": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Manabe_Kaichiro.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "mitsuke-jima|spot|縁結びの鐘",
+   "n": 151,
+   "旅先": "見附島",
+   "見どころ": "縁結びの鐘",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Francisco_de_Zurbar%C3%A1n_034.jpg/500px-Francisco_de_Zurbar%C3%A1n_034.jpg",
+   "旧クレジット": {
+    "author": "Francisco de Zurbarán",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_034.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "rokkozaki|spot|狼煙の町",
+   "n": 152,
+   "旅先": "禄剛崎",
+   "見どころ": "狼煙の町",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Frederic_Remington_smoke_signal.jpg/500px-Frederic_Remington_smoke_signal.jpg",
+   "旧クレジット": {
+    "author": "Frederic Remington",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Frederic_Remington_smoke_signal.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "okishima|spot|島民会館",
+   "n": 155,
+   "旅先": "沖島",
+   "見どころ": "島民会館",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mitsuhiro_Miyakoshi_2016.jpg",
+   "旧クレジット": {
+    "author": "内閣官房内閣広報室",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mitsuhiro_Miyakoshi_2016.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "ikitsukijima|spot|サンセットウェイ",
+   "n": 156,
+   "旅先": "生月島",
+   "見どころ": "サンセットウェイ",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sunset_Boulevard_%281950_poster%29.jpg/500px-Sunset_Boulevard_%281950_poster%29.jpg",
+   "旧クレジット": {
+    "author": "\"Copyright 1950 Paramount Pictures Corporation\"",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Sunset_Boulevard_(1950_poster).jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "kikai-island|spot|ハワイビーチ",
+   "n": 157,
+   "旅先": "喜界島",
+   "見どころ": "ハワイビーチ",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/500px-Flag_of_Hawaii.svg.png",
+   "旧クレジット": {
+    "author": "Dbenbenn",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "yatsugatake|spot|大泉高原",
+   "n": 158,
+   "旅先": "八ヶ岳",
+   "見どころ": "大泉高原",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Toei_Tokyo_Studios_west_gate_2024-07-21.jpg/500px-Toei_Tokyo_Studios_west_gate_2024-07-21.jpg",
+   "旧クレジット": {
+    "author": "Asanagi",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Toei_Tokyo_Studios_west_gate_2024-07-21.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "iiyama|spot|寺の町めぐり",
+   "n": 7,
+   "旅先": "飯山",
+   "見どころ": "寺の町めぐり",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Asakusa_Senso-ji_2021-12_ac_%282%29.jpg/500px-Asakusa_Senso-ji_2021-12_ac_%282%29.jpg",
+   "旧クレジット": {
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Asakusa_Senso-ji_2021-12_ac_(2).jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "chiran|spot|知覧武家屋敷群",
+   "n": 8,
+   "旅先": "知覧",
+   "見どころ": "知覧武家屋敷群",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Hana-no-Gosho-Flower-Palace-Kyoto.png/500px-Hana-no-Gosho-Flower-Palace-Kyoto.png",
+   "旧クレジット": {
+    "author": "日本語: 京都アスニー収蔵",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Hana-no-Gosho-Flower-Palace-Kyoto.png",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "miyota|spot|浅間山眺望スポット",
+   "n": 9,
+   "旅先": "御代田",
+   "見どころ": "浅間山眺望スポット",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mt.Fuji_from_Mierula.jpg/500px-Mt.Fuji_from_Mierula.jpg",
+   "旧クレジット": {
+    "author": "Gifu-sizu",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mt.Fuji_from_Mierula.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "aoshima|spot|青島ビーチ",
+   "n": 13,
+   "旅先": "青島",
+   "見どころ": "青島ビーチ",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Qingdao_new_montage.png/500px-Qingdao_new_montage.png",
+   "旧クレジット": {
+    "author": "Jonipoon",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Qingdao_new_montage.png",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "sukumo|spot|宿毛市立坂本登美子記念館",
+   "n": 14,
+   "旅先": "宿毛",
+   "見どころ": "宿毛市立坂本登美子記念館",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kochi_montage.jpg/500px-Kochi_montage.jpg",
+   "旧クレジット": {
+    "author": "File:Kochi Katsurahama Daytime 1.JPG by ja:利用者:京浜にけ (Japanese Wikipedia), Uploaded by User:Fjkelfeimvvn",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Kochi_montage.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "chatan|spot|北谷ニライビーチ",
+   "n": 15,
+   "旅先": "北谷",
+   "見どころ": "北谷ニライビーチ",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Naha_Shuri_Castle16s5s3200.jpg/500px-Naha_Shuri_Castle16s5s3200.jpg",
+   "旧クレジット": {
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Naha_Shuri_Castle16s5s3200.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "miyota|spot|浅間ミュージアム",
+   "n": 20,
+   "旅先": "御代田",
+   "見どころ": "浅間ミュージアム",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg/500px-Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg",
+   "旧クレジット": {
+    "author": "わたり鳥 at Japanese Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Fujinomiya_Hongu_Sengen_Taisha_Honden.jpg",
+    "attributionRequired": true
+   }
+  },
+  {
+   "key": "shiibamura|spot|山岳集落",
+   "n": 25,
+   "旅先": "椎葉村",
+   "見どころ": "山岳集落",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Marksburg1900.jpg/500px-Marksburg1900.jpg",
+   "旧クレジット": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Marksburg1900.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "key": "tamatsukuri-onsen|spot|宮橋",
+   "n": 28,
+   "旅先": "玉造温泉",
+   "見どころ": "宮橋",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sakuranomiya_Bridge_in_201504.JPG/500px-Sakuranomiya_Bridge_in_201504.JPG",
+   "旧クレジット": {
+    "author": "Mc681",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sakuranomiya_Bridge_in_201504.JPG",
+    "attributionRequired": true
+   }
+  }
+ ],
+ "見送り": [],
+ "記事の節の画像も外した": [
+  {
+   "article": "chichijima",
+   "group": "chichijima",
+   "section": 1,
+   "title": "長崎展望台",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nagasaki_bus_Shinchi_terminal.JPG/500px-Nagasaki_bus_Shinchi_terminal.JPG",
+   "旧クレジット": {
+    "author": "Marine-Blue",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Nagasaki_bus_Shinchi_terminal.JPG",
+    "attributionRequired": true
+   }
+  },
+  {
+   "article": "shiraishijima",
+   "group": "manabeshima",
+   "section": 1,
+   "title": "真鍋邸｜廃屋かと思ったら、そこに歴史があった",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/2/22/Manabe_Kaichiro.jpg",
+   "旧クレジット": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Manabe_Kaichiro.jpg",
+    "attributionRequired": false
+   }
+  },
+  {
+   "article": "shiraishijima",
+   "group": "manabeshima",
+   "section": 2,
+   "title": "走り神輿｜海に入る神輿を、岸で見ている",
+   "外した画像": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gion_Matsuri_2017-5.jpg/500px-Gion_Matsuri_2017-5.jpg",
+   "旧クレジット": {
+    "author": "江戸村のとくぞう",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gion_Matsuri_2017-5.jpg",
+    "attributionRequired": true
+   }
+  }
+ ]
+}
