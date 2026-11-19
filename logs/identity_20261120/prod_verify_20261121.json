@@ -1,0 +1,124 @@
+{
+ "取得": 2575,
+ "非200": [],
+ "バイト不一致": [],
+ "旅先ページ": 1287,
+ "転送ページ": 23,
+ "注意書きの件数が1でない旅先": [],
+ "注意書きがあってはいけないページ": [],
+ "画像": {
+  "外した件数": 85,
+  "NG": [],
+  "戻した2枚": [
+   {
+    "id": "tsumago",
+    "見どころ": "脇本陣奥谷",
+    "ページに画像のURL": true,
+    "クレジット表示": true,
+    "画像HTTP": 200
+   },
+   {
+    "id": "yamadera",
+    "見どころ": "山門",
+    "ページに画像のURL": true,
+    "クレジット表示": true,
+    "画像HTTP": 200
+   }
+  ]
+ },
+ "転送ページ6": [
+  {
+   "200": true,
+   "from": "gen_北海_金花湯",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_弁天台場",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_オソウシ温泉",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_平田内温泉",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_樹海温泉",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  },
+  {
+   "200": true,
+   "from": "gen_北海_鹿の湯",
+   "canonical正": true,
+   "refresh正": true,
+   "noindexなし": true,
+   "転送先200": true
+  }
+ ],
+ "転送ページ6のNG": 0,
+ "診断": {
+  "結果ページ数": 1191,
+  "診断の旅先数": 1173,
+  "転送コード数": 18,
+  "非200": 0,
+  "転送の形のNG": [],
+  "共有画像_非200": []
+ },
+ "応援割と車なし旅": {
+  "直した項目": 4,
+  "NG": [],
+  "/ouen-wari/": {
+   "2026年11月19日の件数": 0
+  },
+  "/kagoshima-fukko/": {
+   "2026年11月19日の件数": 3
+  },
+  "/fukuoka-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/kumamoto-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/saga-oen/": {
+   "2026年11月19日の件数": 2
+  },
+  "/nagasaki-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/oita-oen/": {
+   "2026年11月19日の件数": 3
+  },
+  "/destinations/chikugogawa/": {
+   "2026年11月19日の件数": 6
+  },
+  "/destinations/kurokawa-k/": {
+   "2026年11月19日の件数": 10
+  },
+  "/destinations/niche_大分_3/": {
+   "2026年11月19日の件数": 12
+  }
+ },
+ "主要ページ": [],
+ "バイト不一致の数": 0
+}
